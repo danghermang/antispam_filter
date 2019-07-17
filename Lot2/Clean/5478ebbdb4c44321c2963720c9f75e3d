@@ -1,0 +1,66 @@
+Subject:Re: [Mailing-List]-Copie de nos soumissions
+On 07/09/2012 20:45, Bzzz wrote:
+> On Fri, 07 Sep 2012 20:31:20 +0200
+> Guillaume Seren <guillaumeseren@gmail.com> wrote:
+> Pas grâve, epoch n'est pas unsigned
+Tout à fait,
+mais cela fait quand même un moment par rapport a epoch.
+
+> Celui-ce est horodaté à 2031 (ou 20:31 si tu préfères).
+Je ne vois pas de message, à cette heure, mes dernière réponses, dans ce
+thread, sont à : 20:09, 20:00, 19:14, 19:06, 17:55, 16:28.
+
+>> c'est un problème qui viendrais de gmail ?
+> 
+> Du temps où j'y était, il ne m'a jamais renvoyé mes propres contribs
+> (d'où le Bcc local), au début ça déroute, mais les raisons ne sont
+> pas mauvaises: par ex. je fais des Bcc à cause de mes contacts privés
+> (pour avoir une arborescence cohérente), mais ça me fout la merde
+> dans les MLs (obligé de supprimer le Bcc puisque je reçois _aussi_ le
+> msg via la ML:(.
+Donc cela viendrait de gmail,
+il n'y pas de 'meilleur' moyen que d'ajouter un Bcc ?
+
+Mais je pense qu'avec leur vue conversation, qui est aussi intégrée à
+icedove, la copie de notre soumission devient inutile, car un doublon,
+avec le message envoyé, à la liste.
+
+j'ai trouver ça :
+"Not receiving email from groups
+
+When you send mail to any group or mailing list you subscribe to, Gmail
+automatically skips your inbox and archives the message to save you time
+and prevent clutter. The message will appear in your inbox if someone
+responds to it or if there is an error delivering the message. If you'd
+like to view your message, you can find it in Sent Mail or All Mail. "
+(source : http://support.google.com/mail/bin/answer.py?hl=en&answer=6588)
+
+
+> Et bien sûr vu du côté gmail, ça limite le traffic - un win-win donc.
+Évidemment,
+mais je pense que la raison est plus d'ordre ergonomique, même si
+effectivement cela économise du trafic.
+
+Je serais quand même curieux de savoir si le serveur de la liste, se
+prend une erreur, de la part de gmail, ou si il ne l'envoie tout
+simplement pas ?
+
+
+Cordialement,
+Guillaume Seren
+--
+"Non seulement Dieu joue aux dés
+mais il les jette parfois là où on ne peut les voir."
+Stephen Hawking
+--
+FAQ : http://wiki.debian.org/fr/FrenchLists
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504A48FF.2070303@gmail.com
+

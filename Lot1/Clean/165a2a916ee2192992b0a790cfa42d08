@@ -1,0 +1,48 @@
+Subject:Re: Firefox en Deian 6
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+> De iceweasel: Debian "testing" y "sid" tiene actualmente la versión
+> 10.0.7esr-2. Debian "stable" tiene actualmente la versión
+> 3.5.16-18
+> 
+> Es porque estás usando la rama estable de Debian.
+> 
+> Puedes llegar a hacer una NO RECOMENDADA PARA NOVATOS mezcla de 
+> repositorios (pero que no es difícil de hacer si uno va con
+> cuidado) para instalar esta versión.
+> 
+> Si te animás, te digo paso a paso cómo hacerlo.
+> 
+> JAP
+> 
+> JAP
+
+Sólo por curiosidad (que no me veo en las mismas de Luis), pero
+siempre pensé que la maniobra recomendada para estos casos era tirar
+de backports en lugar de mezclar stable y testing.
+
+¿No debería haber menos colisiones en las versiones de las librerías
+usando backports?
+
+Un saludo
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (MingW32)
+Comment: Using GnuPG with Mozilla - http://www.enigmail.net/
+
+iQEcBAEBAgAGBQJQZXE7AAoJEKsHsQlwn+5chgoIAKNOhnxQ5zwVzIlC4TAEp73B
+mUedRGYeh9G5j31o6QwuzUHm7ZBWPqv0MkykrpZQZI5h88avWhjdooRdTrjonRqw
+M1SFS79ap+v2AoZV1E9AYrr/CsjPC3CI4C4ehkXearO4UPEkuv8dsdFk4Jrgc87C
+0u2ypPR88+yDFlyqYdR9zf93d1L9zIZS2mgm5QOXK49dGf6eJUc0+6obt3fnc8KQ
++jRcVIGfmx+zRI1XGrMDrEI1eL7U+CG30yXjsdMoyYsza9GD0HxURCUg+u16TvlG
+Ju9Hrfe0lXGjBuUnNCe4dKfbNUnckgx622u8Gyz5XyL7Crpaqs0tYFf1XRfWuss=
+=hmMe
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5065713B.8080508@gmail.com
+

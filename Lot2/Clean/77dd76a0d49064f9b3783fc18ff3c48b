@@ -1,0 +1,32 @@
+Subject:Re: Installation sur partition GPT
+Le jeudi 4 octobre 2012 =C3=A0 21:58:18, Bzzz a =C3=A9crit :
+>[=E2=80=A6]
+> Le PB, c'est que pour faire =C3=A7a il te faudra vraisemblablement
+> une cl=C3=A9 correspondant au firmware:
+> http://www.zdnet.com/blog/open-source/linus-torvalds-on-windo
+> ws-8-uefi-and-fedora/11187 dixit Torvald, qui prend IMHO un
+> peu beaucoup trop de libert=C3=A9 avec ce PB...
+>=20
+> Cette daube est en fait une mani=C3=A8re facile et chiante pour
+> ces cons de gros fabricants de placer un DRM d=C3=A8s le boot, et
+> comme malheu- reusement c'est le choix de Seattle pour le
+> futur, =C3=A7a a de grosses chances de devenir rapidement la
+> norme.
+
+  =C3=87a n=E2=80=99est clairement pas encore en place.
+
+  Je ne dis pas que ces signatures ne sont pas un probl=C3=A8me mais=20
+pas pour la machine dont il est question dans ce fil.
+
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210042313.32967.Sylvain.L.Sauvage@free.fr
+

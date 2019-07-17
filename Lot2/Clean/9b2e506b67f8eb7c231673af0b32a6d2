@@ -1,0 +1,34 @@
+Subject:Re: Fallo al instalar libreoffice[SOLUCIONADO]
+El Fri, 16 Nov 2012 11:02:44 -0430, Miguel Matos escribió:
+
+> El día 16 de noviembre de 2012 10:35, Camaleón <noelamac@gmail.com>
+> escribió:
+
+(...)
+
+>> Pues no sé de dónde lo has instalado porque esa versión no es la que
+>> está en los backports.
+>>
+> Es la versión más reciente de la página oficial. Aún no me acostumbro a
+> instalar todo a mano, aunque éstos vienen con los paquetes deb a
+> instalar. Es lo grandioso de manejar este sistema operativo, siempre se
+> aprende algo nuevo cada día.
+
+Algunos programas (Mozilla, LibreOffice...) están muy bien empaquetados y 
+son sencillos de instalar desde los binarios que facilitan los propios 
+proyectos pero ten en cuenta que tendrás que actualizar "manualmente" el 
+paquete completo de LO en caso de que haya algún agujero de seguridad y 
+saquen alguna actualización, ya que el applet de actualización de Debian 
+no te va a avisar.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k85n55$8pk$10@ger.gmane.org
+

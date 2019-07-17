@@ -1,0 +1,36 @@
+Subject:En que =?ISO-8859-1?Q?partici=F3n_trabajan_las_VMs_de_?=
+	=?ISO-8859-1?Q?OpenVZ?=
+Hola Grupo.
+
+Estoy viendo la siguiente salida de las particiones de una PC.
+
+# df -h
+
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda1              19G  2.2G   16G  13% /
+tmpfs                1013M     0 1013M   0% /lib/init/rw
+udev                   10M  116K  9.9M   2% /dev
+tmpfs                1013M     0 1013M   0% /dev/shm
+/dev/sda2             471M   28M  420M   7% /boot
+/dev/sda3             9.2G  150M  8.6G   2% /home
+/dev/sda9              19G  173M   18G   1% /opt
+/dev/sda7             471M   11M  437M   3% /tmp
+/dev/sda5             9.2G  399M  8.4G   5% /usr
+/dev/sda6             9.2G  150M  8.6G   2% /usr/local
+/dev/sda10             37G  511M   35G   2% /var
+/dev/sda11            191G  3.0G  179G   2% /vm
+
+
+Ahora, en cual de todas las particiones se alojan las VMs que voy 
+creando desde OpenVZ?
+
+Muchas Gracias.
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509A4FAA.2040507@gmail.com
+

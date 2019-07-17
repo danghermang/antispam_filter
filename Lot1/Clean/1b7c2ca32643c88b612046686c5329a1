@@ -1,0 +1,39 @@
+Subject:Re: Fwd: Debian 7 Beta1 - Duda sobre la
+	=?iso-8859-1?q?instalaci=F3n?=
+El Thu, 06 Sep 2012 17:04:53 +0200, jose ignacio otero bueno escribió:
+
+> Hola amigos de Debian, ya he visto que por fin ha salido la primera beta
+> de Debian 7, 
+
+Que yo sepa no hay versiones "beta" en el ciclo de desarrollo de Debian. 
+En todo caso querrás decir que actualmente Wheezy se encuentra 
+"congelada" :-?
+
+> y me gustaría que me aclararais una duda al respecto.
+> Quiero instalar Debian en dos ordenadores, pero no quiero esperar los
+> dos meses que quedan para que salga la versión principal, así que quiero
+> instalar la Beta, pero me gustaría saber si tras instalar la Beta y
+> conforme pase el tiempo, se pueda ir actualizando hasta la versión
+> Estable oficial, sin necesitar reinstalar todos desde el principio. 
+
+Sí, claro, sin problemas. 
+
+Si apuntas los repositorios del "/etc/apt/sources.list" a "wheezy", 
+tendrás todo el trabajo hecho.
+
+> La otra solución sería instalar Debian 6, pero no quiero cambiar de
+> sistema dos meses más tarde.
+
+A Debian 6 le queda año y medio de soporte, más o menos.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2aff6$vdj$11@ger.gmane.org
+

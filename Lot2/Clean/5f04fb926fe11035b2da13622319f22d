@@ -1,0 +1,39 @@
+Subject:Re: Ubuntu 12.10 mit non-PAE Kernel
+Florian Diesch schrieb:
+> Am Sun, 21 Oct 2012 14:29:24 +0200
+> schrieb Ralf Lehmeier <r.lehmeier@freenet.de>:
+>
+>> Hallo!
+>> Ich las auf
+>> :http://www.heise.de/open/artikel/Erster-Test-Ubuntu-12-10-1730973.html
+>> das Ubuntu 12.10 jetzt wieder mit non-PAE Kernel ausgeliefert wird.
+>>
+>> Bis zur 9.04 hie=DF es nur Cd rein, installieren, fertig.
+>>
+>> Seit der 9.10 habe ich massive Probleme damit das ich
+>> Darstellungsfehler habe, schwarze Bildschirme etc.
+>>
+>> Kann es sein das mit diesem Kernel die Installation auf alten
+>> Rechnern wieder durchl=E4uft?
+>
+> Ja, es kann so sein - muss aber nicht. Das gh=E4ngt vonm der konkreten
+> Hardware ab.
+>
+> Du kannst 12.10 wieder auf Rechnern installieren, die kein PAE
+> unterst=FCtzen. Ob die Probleme mit deiner Grafikkarte behoben sind wei=
+=DF
+> ich nicht. Ich w=FCrde das einfach mal mit einem Live-System
+> ausprobieren.
+>
+
+gute Idde - Danke f=FCr den Tip.
+
+MfG R.Lehmeier
+
+
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

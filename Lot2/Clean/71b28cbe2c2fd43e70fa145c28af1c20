@@ -1,0 +1,71 @@
+Subject:Re: Squid 2.7 o Squid3 con SSL
+> On Thu, Oct 18, 2012 at 1:50 AM,  <cosme@esid.gecgr.co.cu> wrote:
+>> Como es posible compilar SSL con squid o squid3
+>>
+>> ya probé con los 2
+>>
+>> apt-get install squid  o   apt-get install squid3
+>>
+>> y necesito que los https puedan ser accedidos
+>>
+>> Hay que generar unos certificados y otras cosas pero como lo hago???
+>>
+>> uso debian squeeze
+>>
+>> Salu2
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive:
+>> http://lists.debian.org/2bace9e305840552606c5bdf7c5ef600.squirrel@192.168.13.16
+>>
+>
+>
+> Buenas,
+>
+> Tal vez este enlace pueda serte de ayuda: http://bit.ly/RItHm9
+>
+> Saludos,
+>
+> Daniel Vidal
+> --
+> http://about.me/vidimensional
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/CAFvwJQHU4Cp6rRSoB0X3XN=H6DLKPhf3-c4iJLseG9bRS0O4bQ@mail.gmail.com
+>
+>
+no has pensado en usar ACL dando el 443 como puerto seguro y permitir el
+acceso a ese puerto ?
+
+acl SSL_ports port 443
+http_access allow SSL_ports
+
+eso si ..en el navegador de los clientes tienes que configurar el mismo
+proxy el mismo puerto para el protocolo https ..
+no creo que sea muy complicado ..
+osniel
+
+
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4956.201.220.209.50.1350565382.squirrel@hosped.cfg.sld.cu
+

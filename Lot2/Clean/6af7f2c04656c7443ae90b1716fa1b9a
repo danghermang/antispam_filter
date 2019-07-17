@@ -1,0 +1,46 @@
+Subject:Re: [Jukebox-list] 6973 to el84 info needed.
+Carl,
+Only one thing wrong here--I did NOT write this !=A0 Ron Rich=20
+
+--- On Sun, 11/11/12, Carl Haines <cshaines@verizon.net> wrote:
+
+From: Carl Haines <cshaines@verizon.net>
+Subject: Re: [Jukebox-list] 6973 to el84 info needed.
+To: "Jukebox mailing list" <jukebox-list@lists.netlojix.com>
+Date: Sunday, November 11, 2012, 9:37 AM
+
+
+
+On Nov 11, 2012, at 11:52 AM, Ron Rich <ronnnrich@yahoo.com> wrote:
+
+> I found some matched pairs of 6973eh online, but I read they had some qua=
+lity issues and the tubes just didn't work.=A0=20
+
+I am using four of the 6973eh tubes and have no complaints. I think there w=
+as at least one bad batch that someone on this list has come across. Or it =
+was a bad batch of 12ax7 tubes. I can't remember which.=20
+
+>=A0=A0=A0If I go with the 6973 s should I replace those resistors that are=
+ off.=A0 Both the schematic and banding tell me 470k but they measure way o=
+ff.=A0 Maybe that is why the existing 6973 tests at 50%.=A0 It was cooked.=
+=A0 I'm also going to replace the 1 watt bias resistor and diode.=A0 What d=
+iode would you use a 1n4004?
+
+I would replace the out of tolerance resistors.=A0 The 1n4004 should be fin=
+e. I'm not familiar with this amp. Is the original diode selenium?=A0 If so=
+, you might want to use at least two diodes in series to increase the volta=
+ge drop across the diodes to more closely match the behavior of the seleniu=
+m rectifier. Rob might have more to say on this subject.=20
+
+Carl Haines
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

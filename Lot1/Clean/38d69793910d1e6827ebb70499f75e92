@@ -1,0 +1,176 @@
+Subject:Re: [OT] Esconder params de un POST request
+"Gonzalo Rivero" <fishfromsalta@gmail.com> escribi=F3:
+
+> El lun, 22-10-2012 a las 13:53 -0400, islanis@infomed.sld.cu escribi=F3:
+>> "Gonzalo Rivero" <fishfromsalta@gmail.com> escribi=F3:
+>>
+>> > El lun, 22-10-2012 a las 13:31 -0400, islanis@infomed.sld.cu escribi=F3=
+:
+>> >> "Gonzalo Rivero" <fishfromsalta@gmail.com> escribi=F3:
+>> >>
+>> >> > El lun, 22-10-2012 a las 13:14 -0400, islanis@infomed.sld.cu escribi=
+=F3:
+>> >> >> Hola amigos quer=EDa preguntarles a lo mejor alguno de ustedes tien=
+e
+>> >> >> alguna forma de hacerlo, estoy haciendo un sistema que hace peticio=
+nes
+>> >> >> de de autorizaci=F3n http a una direcci=F3n pero cuando miro con el
+>> >> >> firebug puedo ver los par=E1metros de las variables username y pass=
+word
+>> >> >> y eso seria una fuga cualquiera que tenga firebug podr=E1 ver estos
+>> >> >> datos, esta es la rutina que uso es esta:
+>> >> >>
+>> >> >> function codificar_entrada(user, pass) {
+>> >> >> =09var tok =3D user + ':' + pass;
+>> >> >> =09var hash =3D Base64.encode(tok);
+>> >> >> return "Basic " + hash;
+>> >> >> }
+>> >> >>
+>> >> >>
+>> >> >> //-------------------------------------------------------------|
+>> >> >> OpenLayers.Request.issue({
+>> >> >>          async: false,
+>> >> >> =09=09url: "/geoserver/j_spring_security_check",
+>> >> >> =09=09scriptTag: true,
+>> >> >> =09=09headers : { Authorization : codificar_entrada('admin','12') }=
+,
+>> >> >>          method: "POST",
+>> >> >>          params: {
+>> >> >> =09=09=09=09username: "admin",
+>> >> >>                  password: "12"
+>> >> >>          }
+>> >> >> });
+>> >> >>
+>> >> > no entend=ED, admin y 12 est=E1n dentro del c=F3digo o vienen de alg=
+=FAn
+>> >> > formulario?
+>> >> > Si es lo primero (parte del c=F3digo, tal como se ve aqu=ED) entonce=
+s pod=E9s
+>> >> > codificarlo por afuera con algo mas complicado que base64, por ejemp=
+lo
+>> >> > md5 o sha256. Entonces headers te quedar=EDa algo como:
+>> >> > headers : { Authorization :
+>> >> > bbbc17c2f7b032727ff15ae32181171a93da5fe3a92ae09318193281b4361e46
+>> >> Pero no es la complejidad sino que os datos se ven desde la consola
+>> >> del firebug, y es lo qeu queiro corregir, , o sea, lo que esta dentro
+>> >> de params, es deccir, username y password
+>> >>
+>> >> params: {
+>> >>   username: "admin",
+>> >>   password: "12"
+>> >> }
+>> >>
+>> >> y lo que quiero es que eso no se pueda ver, de todas formas si tienes
+>> >> esas librer=EDas porfa env=EDamelas tambi=E9n para comejizar mas el si=
+stema,
+>> >> dime si ya entendiste lo que quiero
+>> > es que si viene de alg=FAn campo en alg=FAn formulario, por ejemplo el
+>> > t=EDpico login/pass que carga el usuario, va a poder verlo... de todas
+>> > formas ya lo sab=EDa (tiene que saberlos para poder escribirlos)
+>> > Si son datos fijos, que forman parte del c=F3digo, como parece ser en e=
+l
+>> > ejemplo, tambi=E9n va a poder verlos a menos que se lo compliques de
+>> > alguna manera.
+>> > Entonces, si el usuario y contrase=F1a salen de un formulario, est=E1 b=
+ien
+>> > lo que est=E1s haciendo porque por la red no van a viajar datos en text=
+o
+>> > claro porque los cifraste antes. Y si es fijo, te conviene dejarlo en e=
+l
+>> > c=F3digo como te dec=EDa enel mail anterior. md5sum, shaXXsum y todos e=
+sos
+>> > son programas de consola que ya deber=EDas tener instalados, como parte
+>> > del paquete coreutils
+>> Es fijo el usuario y el pass, pero no tengo esas librer=EDas, no tengo
+>> ahora mismo ning=FAn repo instalado, pero eso seria a nivel de archivo,
+>> y me gustar=EDa que fueran todo puro del mismo lenguaje, no me gustar=EDa
+>> incorporarle algo externo
+> es parte de coreutils, pod=E9s probar en la consola esto:
+> cat | md5sum
+> hola mundo
+> ^D
+> y la salida va a ser algo como: "1e04bb3f9f396d3b71d93d326ebfc42d" . Por
+> supuesto, tambi=E9n valen sha256sum , sha512sum,...
+>
+> Y como es un campo fijo, pod=E9s dejarlo pre-calculado, total solo te
+> interesa esa cadena
+Anja y como le pongo a los header para que se traguen esa =20
+encriptaci=F3n, es que no se como funciona eso.
+>
+>> >
+>> >> >
+>> >> >
+>> >> >> Ac=E1 ven que lo que pongo en el header lo codifico pero lo que est=
+a en
+>> >> >> los params simplemente se ve en la peticiones http con el firebug y=
+ es
+>> >> >> lo que quiero arreglar.  gracias de antemano
+>> >> >>
+>> >
+>> >
+>> >
+>> >
+>> > --
+>> > (-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+>> >
+>> >
+>> >
+>> > --
+>> > To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> > with a subject of "unsubscribe". Trouble? Contact =20
+>> listmaster@lists.debian.org
+>> > Archive: http://lists.debian.org/1350928003.2528.35.camel@EeePC.ucasal.=
+ar
+>> >
+>> >
+>>
+>>
+>>
+>> ----------------------------------------------------------------
+>> This message was sent using IMP, the Internet Messaging Program.
+>>
+>>
+>> --
+>>
+>> Este mensaje le ha llegado mediante el servicio de correo =20
+>> electronico que ofrece Infomed para respaldar el cumplimiento de =20
+>> las misiones del Sistema Nacional de Salud. La persona que envia =20
+>> este correo asume el compromiso de usar el servicio a tales fines y =20
+>> cumplir con las regulaciones establecidas
+>>
+>> Infomed: http://www.sld.cu/
+>>
+>>
+>
+>
+> --
+> (-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/1350928948.2528.40.camel@EeePC.ucasal.ar
+>
+>
+
+
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121022141858.1842395b829ztjb4@webmail.sld.cu
+

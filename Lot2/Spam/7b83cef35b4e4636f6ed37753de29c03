@@ -1,0 +1,54 @@
+Subject:Mail delivery failed: returning message to sender
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  no-reply@thefutureofhealth-now.com
+    SMTP error from remote mail server after RCPT TO:<no-reply@thefutureofhealth-now.com>:
+    host outscan.junkemailfilter.com [184.105.182.200]:
+    550-REJECTED - Bad Recipient F=no-reply@thefutureofhealth-now.com
+    550-T=no-reply@thefutureofhealth-now.com - 550-verification failed for
+    550-<no-reply@thefutureofhealth-now.com>
+    550-550-no such user here"
+    550 550 sender verify failed
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <no-reply@thefutureofhealth-now.com>
+Received: from [208.100.9.137] (helo=control.expansioncloud.com)
+	by smtpvault.secure-cluster.com with esmtp (Exim 4.72)
+	(envelope-from <no-reply@thefutureofhealth-now.com>)
+	id 1ThiA4-0001GQ-O6
+	for no-reply@thefutureofhealth-now.com; Sun, 09 Dec 2012 08:47:20 -0600
+Received: (qmail 23887 invoked by uid 903); 9 Dec 2012 08:47:20 -0600
+To: no-reply@thefutureofhealth-now.com
+Subject: [DAP]  Payment Received. Processor: CLICKBANK
+Date: Sun, 9 Dec 2012 08:47:20 -0600
+From: Craig Allen | The Future Of Health Now <no-reply@thefutureofhealth-now.com>
+Message-ID: <7b9b5e60c8539bd2078c066a246c1747@www.thefutureofhealthnow.com>
+X-Priority: 3
+X-Mailer: PHPMailer (phpmailer.codeworxtech.com) [version 2.1]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="utf-8"
+
+This is notification of Payment into DAP.
+
+Payment Processor: CLICKBANK
+Transaction Number: WS8SW7E3-B002
+Payee Email: KAgneberg@msn.com
+Product Id: 11
+
+----------------------------------------
+Raw Data:
+[dap]&cprodtitle=The+Future+of+Health+Now+Monthly+Continuity&ctranspaymentmethod=VISA&cfuturepayments=997&ccustzip=55305&ccustshippingzip=55305&ccustemail=KAgneberg%40msn.com&crebillstatus=ACTIVE&ctransaffiliate=dspraw&cupsellreceipt=&corderamount=1997&ccustcounty=HENNEPIN&ccurrency=USD&ccustfirstname=KIMBERLY&crebillamnt=1997&ctransaction=BILL&ccuststate=MN&caccountamount=450&ctranspublisher=tfohn&ctid=&ccustshippingcountry=US&cnextpaymentdate=2013-01-09&cverify=43D0065C&cprocessedpayments=2&cprodtype=RECURRING&ccustcc=US&ccustshippingstate=MN&ctransreceipt=WS8SW7E3-B002&ccustfullname=Kimberly+A+Agneberg&cvendthru=cbfid%3D7958%26cbskin%3D3028%26&ctransrole=VENDOR&ccustaddr2=&ccustaddr1=&ccustcity=&ccustlastname=AGNEBERG&ctranstime=1355064433&cproditem=11&ship_to_first_name=KIMBERLY&ship_to_last_name=AGNEBERG&ship_to_address1=&ship_to_address2=&ship_to_city=&ship_to_state=MN&ship_to_zip=55305&ship_to_country=US[/dap]
+----------------------------------------
+
+
+
+
+-------------------------------------------
+Powered by http://www.DigitalAccessPass.com
+
+

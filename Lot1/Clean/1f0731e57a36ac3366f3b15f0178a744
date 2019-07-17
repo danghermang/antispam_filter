@@ -1,0 +1,106 @@
+Subject:Re: skype - no funciona microfono interno
+On Jue 25 Oct 2012 14:59:05 Juanluis Lozano escribi=F3:
+> El jue, 25-10-2012 a las 14:37 -0300, Sergio Bessopeanetto escribi=F3:
+> > Manuel Ramos escribi=F3:
+> > > Buenas gente...
+> > >=20
+> > > recurro a uds porque no logro hacer funcionar el micr=F3fono interno =
+de
+> > > mi laptop (LG R200) con debian Wheezy + KDE para usarlo con skype...
+> > >=20
+> > > en las configuraciones de skype tengo como servidor de sonido a
+> > > pulseaudio, es el =FAnico que me permite seleccionar. El le=EDdo opin=
+iones
+> > > divididas en cuanto a la soluci=F3n de este problema, algunos
+> > > recomiendan desinstalar pulseaudio e instalar alsa otros lo contrario.
+> > > El tema es que quiero hacerlo funcionar con el servidor por defecto
+> > > "pulseaudio".
+> > >=20
+> > > Estas son los datos de mi sonido:
+> > >=20
+> > > ~$ cat /proc/asound/devices
+> > >=20
+> > >    1:        : sequencer
+> > >    2: [ 0- 2]: digital audio capture
+> > >    3: [ 0- 1]: digital audio playback
+> > >    4: [ 0- 0]: digital audio playback
+> > >    5: [ 0- 0]: digital audio capture
+> > >    6: [ 0- 1]: hardware dependent
+> > >    7: [ 0- 0]: hardware dependent
+> > >    8: [ 0]   : control
+> > >  =20
+> > >   33:        : timer
+> > >=20
+> > > ---------------------------------------------------
+> > > ~$ cat /proc/asound/modules
+> > >=20
+> > >   0 snd_hda_intel
+> > >=20
+> > > ~$ cat /proc/asound/cards
+> > >=20
+> > >   0 [Intel          ]: HDA-Intel - HDA Intel
+> > >  =20
+> > >                        HDA Intel at 0x80000000 irq 46
+> > >=20
+> > > ---------------------------------------------------
+> > > ~$ cat /etc/asound.conf
+> > > pcm.pulse {
+> > >=20
+> > >      type pulse
+> > >=20
+> > > }
+> > >=20
+> > > ctl.pulse {
+> > >=20
+> > >      type pulse
+> > >=20
+> > > }
+> > >=20
+> > > pcm.!default {
+> > >=20
+> > >      type pulse
+> > >=20
+> > > }
+> > >=20
+> > > ctl.!default {
+> > >=20
+> > >      type pulse
+> > >=20
+> > > }
+> > > ---------------------------------------------------
+> > >=20
+> > > Alguien me puede echar un poco de luz?
+> > >=20
+> > > Bytes!
+> >=20
+> > Tengo por costumbre desinstalar Pulseaudio e instalar ALSA.
+> > Me ha pasado igual y no solo eso sino que el mixer por defecto
+> > que trae pulseaudio no lo entiendo.
+> > As=ED que no temas en hacer lo que la mayor=EDa te recomienda.
+>=20
+> Intenta con lo m=E1s sencillo al comienzo, me sucedi=F3 lo mismo y lo que
+> pasaba era que el micr=F3fono estaba mudo, es decir:
+>=20
+> En el terminal tipea alsamixer como root
+>=20
+> te aparecen los controles de sonido en una interfaz gr=E1fica old school,
+> pues all=ED el micr=F3fono aparece con el sonido en 00...
+
+Si eso lo verifique tambien y esta con el sonido del mic bien configurado..=
+=2E.
+
+probe con diferentes combinaciones de configuraci=F3n pero sigue igual....
+
+Estoy viendo que no me va a quedar otra que desinstalar pulse e instalar al=
+sa.
+
+=2D-=20
+Manuel Ramos
+TW: @0xManu
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210251517.41206.bymram@gmail.com
+

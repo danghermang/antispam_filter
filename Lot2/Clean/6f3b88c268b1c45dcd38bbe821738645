@@ -1,0 +1,22 @@
+Subject:Re: [Mailing-List]-Copie de nos soumissions
+On Fri, Sep 07, 2012 at 09:20:31PM +0200, Guillaume Seren wrote:
+> Je serais quand même curieux de savoir si le serveur de la liste, se
+> prend une erreur, de la part de gmail, ou si il ne l'envoie tout
+> simplement pas ?
+
+Le serveur *Gmail* reçoit bien le mail que tu as envoyé à la liste, 
+détecte que c'est un doublon, car message que tu as envoyé, et par suite 
+ne te le présente pas (web/pop/imap), c'est tout.
+
+-- 
+Nicolas
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120907193020.GH1329@petole.demisel.net
+

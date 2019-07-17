@@ -1,0 +1,24 @@
+Subject:Re: r8168b woes
+On Fri, 19 Oct 2012, Ben Hutchings wrote:
+
+> Do you get a 'NETDEV WATCHDOG' warning in the kernel log?  If so this
+> may be a known bug which is fixed in 3.2.25.  Try the package from
+> unstable (linux-image-3.2.0-4-amd64 version 3.2.30-1).
+
+For what it=E2=80=99s worth, installing 3.2.0-4 on a manitu dedicated serve=
+r
+fixes that problem for me, twice (i.e. on two boxen, all r8169, with
+different configurations).
+
+bye,
+//mirabilos
+--=20
+15:41=E2=8E=9C<Lo-lan-do:#fusionforge> Somebody write a testsuite for hello=
+world :-)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/alpine.DEB.2.02.1210220103080.18486@tglase.lan.tarent.de
+

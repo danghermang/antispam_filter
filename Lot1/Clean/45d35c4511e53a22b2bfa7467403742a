@@ -1,0 +1,106 @@
+Subject:Re: compilar nucleo por seguridad
+2012/11/23 Trujillo Carmona, Antonio
+<antonio.trujillo.sspa@juntadeandalucia.es>:
+> El vie, 23-11-2012 a las 13:49 -0300, Mat=C3=ADas Bellone escribi=C3=B3:
+>> 2012/11/23 Camale=C3=B3n <noelamac@gmail.com>:
+>> > El Fri, 23 Nov 2012 17:17:56 +0100, Trujillo Carmona, Antonio escribi=
+=C3=B3:
+>> >
+>> >> La compa=C3=B1era encargada de virus me ha pasado este enlace
+>> >> https://www.securelist.com/en/blog/208193935/New_64_bit_Linux_Rootkit=
+_Doing_iFrame_Injections
+>> >> en la que analizan un rootkit espesifico para el n=C3=BAcleo de debia=
+n
+>> >> stable.
+>> >
+>> > Lo le=C3=AD (en espa=C3=B1ol) desde Hispasec:
+>> >
+>> > Descubierto un nuevo rootkit para servidores Linux
+>> > http://unaaldia.hispasec.com/2012/11/descubierto-un-nuevo-rootkit-para=
+.html
+>> >
+>> > Pero no me qued=C3=B3 claro c=C3=B3mo se infect=C3=B3 el servidor.
+>> >
+>> >> =C2=BFSeria =C3=BAtil, y como medida de seguridad, compilar el propio=
+ nucleo con
+>> >> apt-build solo para cambiarlo?.
+>> >> No tengo tiempo (ni ganas) de crear configuraciones especificas por
+>> >> servidor, me refiero a recompilar partiendo del fuente usando apt-bui=
+ld
+>> >> con nivel medio de agresividad.
+>> >
+>> > Pues no s=C3=A9 sabr=C3=ADa decirte porque no me queda claro qu=C3=A9 =
+es vulnerable en
+>> > este caso (=C2=BFuna versi=C3=B3n del kernel en concreto?). Si es as=
+=C3=AD, no tardar=C3=A1n
+>> > en sacar un parche =C2=BFno? :-?
+>> >
+>>
+>> En realidad es a la inversa. El rootkit no es una vulnerabilidad en el
+>> kernel ni una forma de utilizar un programa para ganar privilegios en
+>> un sistema limpio. Una vez que el atacante gana acceso root a un
+>> servidor (por otro medio) instala un m=C3=B3dulo de kernel que intercept=
+a
+>> las llamadas a funciones de red del kernel espec=C3=ADficas para inyecta=
+r
+>> un iframe o redirecci=C3=B3n a otras p=C3=A1ginas.
+>>
+>> La particularidad de la versi=C3=B3n de kernel (2.6.32-5) y arquitectura
+>> (amd64) es porque la =C3=BAnica versi=C3=B3n conocida del rootkit tiene =
+el
+>> m=C3=B3dulo de kernel compilado exclusivamente para esa combinaci=C3=B3n=
+. Esto
+>> no implica que otras versiones y arquitecturas no sean afectadas;
+>> pero, nuevamente, este rootkit es aparentemente s=C3=B3lo aplicable a es=
+ta
+>> arquitectura una vez que el atacante ya ha ganado acceso root al
+>> equipo.
+>>
+>>
+>
+> Si claro lo tengo claro que no es un virus ni tiene forma de infectar un
+> servidor no accedido antes, pero seria muy f=C3=A1cil recompilar los n=C3=
+=BAcleos
+> (igual que hago, aveces, con algunas aplicaciones para ganar
+> rendimiento), bastar=C3=ADa usar apt-build install en lugar de apt-get
+> install para tener un n=C3=BAcleo propio, lo que no tengo tan claro es si=
+ un
+> modulo de un n=C3=BAcleo funciona en otro n=C3=BAcleo igual pero de disti=
+nta
+> compilaci=C3=B3n.
+> Generalmente cuando compilo m=C3=B3dulos con m-a exige tener las fuentes =
+o
+> cabeceras del n=C3=BAcleo especifico, pero an alg=C3=BAn lado le=C3=AD qu=
+e se permit=C3=ADa
+> cierta portabilidad de n=C3=BAcleos, por eso lo pregunto.
+> =C2=BFUn modulo compilado para debian stable sin tocar funcionara en un
+> n=C3=BAcleo compilado con apt-build con agresividad media (entiendo que l=
+os
+> de los repositorios van con agresividad baja) sin tocar nada de la
+> configuraci=C3=B3n?
+>
+
+Por lo general, los m=C3=B3dulos son compatibles entre versiones menores de
+kernel. Es decir que un m=C3=B3dulo de kernel compilado para 2.6.32-5
+tambi=C3=A9n va a funcionar en cualquier versi=C3=B3n que comience con 2.6.=
+32.
+
+Esto, sin embargo, es particular del kernel Linux. En el caso de
+FreeBSD, la compatibilidad es dentro de versiones mayores; es decir
+que cualquier m=C3=B3dulo compilado para 6.2 va a funcionar en cualquier
+kernel FreeBSD 6.X (pero no con otras versiones).
+
+Personalmente, hace rato que no compilo nada con module-assistant ya
+que utilizo los paquetes dkms que se encargan de llamar a
+module-assistant cuando se actualiza el kernel a una versi=C3=B3n que no es
+compatible con la versi=C3=B3n actual del m=C3=B3dulo.
+
+Saludos,
+Toote
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CANk6MLYKVNc+RDFiPo6+baqjfVZmo5=Lf-uLgNfgk=mc-FPM9Q@mail.gmail.com
+

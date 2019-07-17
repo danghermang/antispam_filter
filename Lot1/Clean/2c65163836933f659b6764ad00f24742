@@ -1,0 +1,27 @@
+Subject:Re: Pasar equipo con LAMP a VM con OpenVZ
+On 25/10/12 14:30, ciracusa wrote:
+> Hola Lista.
+>
+> Les consulto, tengo una PC en funcionamiento con un LAMP con 2 sitios
+> web (pequeños) en funcionamiento.
+>
+> Ahora, por otro lado dispongo de una PC con OPENVZ con la idea de ir
+> virtualizando equipos.
+>
+> Les consulto, alguien conoce si existe una manera de hacer este pasaje
+> de la manera mas automática posible?
+
+Ignorando si hay otro modo más elegante de proceder, te diría de partir 
+de un template base de la distro que tengas en el host físico y cuando 
+el container esté iniciado, hacer un rsync.
+
+> Muchas Gracias.
+>
+> Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50897DB5.20901@gmail.com
+

@@ -1,0 +1,35 @@
+Subject:Re: la commande calendar
+On Thursday 29 November 2012 09:56:55 Fran=E7ois wrote:
+> Le 28/11/2012 18:27, andre_debian@numericable.fr a =E9crit :
+> > # dpkg-reconfigure locales
+> > ne m'invite pas =E0 modifier les locales en fr_FR.ISO-8859-15@euro
+>
+> Encodage obsol=E8te. L'UTF-8 est l'encodage universel destin=E9=20
+> =E0 remplacer tous les autres.
+> - S=E9lectionne le fr_FR.UTF-8
+> - Si n=E9cessaire, tu peux aussi s=E9lectionner les ISO-8859-1 et
+> ISO-8859-15 pour des raisons de compatibilit=E9 (je n'ai que le fr-FR.UTF=
+=2D8).
+
+> (Les s=E9lections se font avec la barre d'espace) :
+Je n'arrive pas =E0 provoquer l'affichage permettant de le faire.
+
+# dpkg-reconfigure locales
+ne m'invite pas =E0 une page de s=E9lection des encodages,
+se contentant de m'indiquer la configuration des "locales"
+actuelle, chez moi : fr_FR.ISO-8859-15@euro
+
+andr=E9
+
+> - Puis choisis le fr_FR.UTF-8 comme encodage par d=E9faut.
+> Fran=E7ois
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211291033.14805.andre_debian@numericable.fr
+

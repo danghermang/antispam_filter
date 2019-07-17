@@ -1,0 +1,41 @@
+Subject:Re: Apache2 ereurs
+Le 09/11/2012 14:39, Sébastien NOBILI a écrit :
+> Salut,
+>
+> Le vendredi 09 novembre 2012 à 14:02, Jean-marc Dufour a écrit :
+>> # /etc/init.d/apache2 restart
+>> j'ai:
+>>
+>> [....] Restarting web server: apache2(98)Address already in use:
+>> make_sock: could not bind to address [::]:80
+>> . ok
+>
+> Tu dois avoir un autre serveur Web qui écoute sur le port. Tu verras lequel avec
+> la commande suivante en tant que root :
+>      netstat -peanut | grep 80
+>
+> Seb
+>
+Bonjour Seb,
+
+# netstat -peanut | grep 80
+tcp        0      0 192.168.1.39:37898      80.91.229.13:119 
+TIME_WAIT   0          0           -
+tcp      128      0 192.168.1.39:40801      192.168.1.1:139 
+ESTABLISHED 1000       14761       4700/gvfsd-smb-brow
+tcp        0      0 192.168.1.39:37900      80.91.229.13:119 
+ESTABLISHED 1000       1609477     7596/icedove-bin
+
+si çà peut aider, ...
+merci,
+jm
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/509D099A.1080409@free.fr
+

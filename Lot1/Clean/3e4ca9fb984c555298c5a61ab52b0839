@@ -1,0 +1,36 @@
+Subject:temps de =?iso-8859-1?q?r=E9ponse?= Wifi
+Mon PC est relié par ethernet
+
+J'ai un Raspberry connecté au même réseau par Wifi.
+
+Entre les deux une Freebox V6.
+
+Les temps de réponse au ping sont dissymétriques :
+A partir du Raspberry
+root@raspbian:/home/moi# ping -c 5 192.168.10.21
+[...]
+min/avg/max/mdev = 0.801/5.089/6.247/2.144 ms
+
+à partir du PC : -->[moi@cdiscount ~] ping -c 5 192.168.10.206
+[...]
+151.073/210.021/286.902/48.318 ms
+
+Aucun changement en m'éloignant de la Freebox (niveau E/R).
+
+Les deux "engins" sont quasiment au repos. Le Raspberry vient  d'être
+"rempli" à partir d'une netinstall. Mon PC est activé  par un cruncbang 
+et à jour.
+
+Comment expliquer cette dissymétrie qui me crée quelque problèmes ?
+
+Merci pour les idées.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50b13aea$0$21927$426a34cc@news.free.fr
+

@@ -1,0 +1,32 @@
+Subject:Re: Wheezy con gnome3
+On Fri, Oct 19, 2012 at 10:17:55AM +0200, ghaspaer wrote:
+> 
+> >>KDE4 es un entorno bastante amigable...
+> >>
+> >
+> >¿Eso te parece? A KDE4 le han puesto un montón de efectos
+> >visuales. Algunos agradables, pero ninguno útil. Al contrario, le
+> >han quitado la utilidad y funcionalidad que siempre tuvo KDE,
+> >hasta la 3.5.10.
+> >Fui "kdeeísta" desde las primeras versiones hasta la mencionada.
+> >El 4 directamente me auyentó. Ahora estoy con Gnome 2.30.2.
+> >
+> >Saludos
+> >
+> >
+> gnome3 es en mi opinion horrible, tambien voy a instalarme el
+> sistema base y luego instalarme otro entorno que no sea gnome3
+
+Si escoges gnome-classic al iniciar sesión será mucho más parecido a lo que
+ya conoces. Creo recordar que necesitas el paquete gnome-session-fallback
+instalado y que este paquete se instala por omisión.
+
+-- 
+Agustin
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121019142930.GB17873@agmartin.aq.upm.es
+

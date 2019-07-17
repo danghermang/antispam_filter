@@ -1,0 +1,57 @@
+Subject:Re: [LUG] Time to upgrade
+On 25/10/12 19:08, Rob Beard wrote:
+> On 25/10/12 18:20, Migel Wimtore wrote:
+>> Hi. If you DON'T format the home partition during install you won't lose
+>> anything. Might be worth renaming .config and some other folders
+>> (.KDE/.KDE4), to avoid any application configuration confusion. If you
+>> are super paranoid back it up though. What about buying a caddy for a
+>> couple of quid on eBay and sticking an old desktop or laptop drive in
+>> that, for external use?
+>>
+> 
+> That's assuming Neil has a separate home partition :-)
+> 
+> If not, Neil when you next install Linux it could be worth going for the
+> manual partitioning option in the installer and creating a separate
+> partition for '/' and one for '/home'.
+> 
+Yes, I do have /home on a separate partition.
+
+> Personally I tend to make my '/' partition around 10GB which seems to
+> leave about 4GB or so free and then allocate the rest of the drive
+> between '/home' and swap.
+> 
+
+I do have a small swap partition too, but it never seems to be usede.
+
+> At the moment I have a small swap partition (about 384MB) which I'm
+> starting to think might be a little small, but that could be due to
+> having so many tabs open in Firefox (the Flash plugin is taking a good
+> 50% of the memory!).  I'm even mulling over increasing the size of the
+> swap partition to the size of the memory I have in the system (4GB) or
+> at least half of it.
+> 
+> As for external hard drives, they're all pretty much the same these
+> days.  I'd suggest maybe going for a USB 3 drive as it should be
+> backwards compatible and if you upgrade your machine (or if it's a
+> desktop, fit a USB 3 card) then you can benefit from the faster transfer
+> speeds.  Maybe even consider having two drives and doing alternate daily
+> or weekly backups and keeping one drive off site.
+> 
+Yes, it is a desktop and it does have only USB2 drives only. For the
+little amount I use them I have not bothered with upgrading.
+
+Thanks
+
+Neil
+
+
+
+
+
+
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,39 @@
+Subject:Bacula 5.2.6+dfsg-5_bpo60+1 review & upload request
+Hello,
+
+I'd like to ask for a review and upload of Bacula 5.2.6+dfsg-5_bpo60+1 packages.
+
+I've been resposible for the previous 5.2.6+dfsg-2_bpo60+1 preparation
+and testing.  Upload has been done by Luca however Luca is very busy
+at the moment and since there's quite a lot of important changes and
+fixes (one critical) I'd like to get this out as soon as possible
+really.
+
+Main changes:
+#687923 - security issue CVE-2012-4430
+#688732 - bacula-fd save only first xattr on file
+#682733 - unowned files after purge
+#680051 - switch between bacula-director-<dbtype>
+#679958 - incorrect systemd service file
+Fix unsafe bacula-director passwords.
+Fix bacula-fd crash on saving xattr on btrfs.
+
+I've been running this set of packages for a few days on my own Bacula
+installation without any problems.
+
+http://sultan.timedout.org/~bart/debian/barts-squeeze-backports/bacula_5.2.6+dfsg-5~bpo60+1_amd64.changes
+http://sultan.timedout.org/~bart/debian/barts-squeeze-backports/bacula_5.2.6+dfsg-5~bpo60+1.dsc
+
+If you'd like to test those you can try following APT sources:
+
+deb http://sultan.timedout.org/~bart/debian barts-squeeze-backports/
+
+Kind regards,
+Bart
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAFBzO+EX5hL6zcjVMgVd01Rp9Bs_MrT5WRw4pNEfaparUdQfcQ@mail.gmail.com
+

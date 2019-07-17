@@ -1,0 +1,116 @@
+Subject:Re: [EVDL] Pack Cooling
+
+First, sorry for my bad english, not my native language. =
+
+( And that &%=A4# spellchekker is n=E5tt w=E5rking now, totraly brokken tdo=
+ay in my homtail.  :-)
+
+"Bogus" ? =
+
+-Probably not.  But maybe a creative marketing department?
+Does it say at what C-rate they have done the lab test ?   =
+
+I never trust it when marketing department produces the lab-charts.
+
+
+But we can do our own test, it is easy, use the deepfreezer! =
+
+My guess:
+As the "Ri is terrible at winter". No, I think it is not the "Ri" that is t=
+he real problem , =
+
+I beleve it is also the slow movement of our ions and maybe local high pote=
+ntial. =
+
+To me it is not the same thing as normal resistance. So if you discharge th=
+em very =
+
+very slow.. therefore you probably will find the ions, and the capacity as =
+claimed. =
+
+So then it is not a bogus claim? =
+
+
+But In our lab it did prove to me, in just seconds that they will not work =
+at all IRL. =
+
+Only for emergency situations, if we drive very slow and careful. =
+
+
+We did freeze Ts LFP, 4*40ah,  and some Lfp 90Aha,
+ they are(was, in 2009) _totaly_ useless at winter discharges, =
+
+even in this small leafCar-size, high voltage EV, with a big 27 kWh pack. (=
+we had 300+Volt..) =
+
+
+So this type of thunderskys was very very bad in my test..
+And also the charging of one cell at 0.3 or 0.5C it seems to have =
+
+damaged it, in just 2-3 cykles =3D some capacity loss, never recovered again
+(Li-Plating)
+
+/John
+
+
+> Date: Sat, 10 Nov 2012 22:33:30 -0700
+> From: marcus.reddish@gmail.com
+> To: ev@lists.sjsu.edu
+> Subject: Re: [EVDL] Pack Cooling
+> =
+
+> So the Thundersky graph showing ~10% capacity loss at 0 deg F is complete=
+ly
+> bogus?
+> =
+
+> The EVTV testing showed the initial sag WAS pretty severe, but then
+> internal heating caused the cell to recover and deliver pretty good
+> performance after a bit.  Is it possible the 'alarms' are going off on th=
+at
+> initial sag and folks aren't continuing to pull amps for fear that it will
+> only get worse?
+> =
+
+> On Sat, Nov 10, 2012 at 9:52 PM, David Nelson <gizmoev@gmail.com> wrote:
+> =
+
+> > On Sat, Nov 10, 2012 at 8:47 PM, Lee Hart <leeahart@earthlink.net> wrot=
+e:
+> > > On 11/10/2012 7:31 PM, Marcus Reddish wrote:
+> > >> Very interesting.  It is good to see how actual use compares to fact=
+ory
+> > >> "charts".  Can you give your battery make and size and starting volt=
+age?
+> > >
+> > > I would have to agree with Mike Nickerson. I have tested Thunderskys =
+at
+> > > low temperature, and found that their performance dropped off
+> > > significantly below 32 deg.F.
+> >
+> > Same experience here with my 200Ah pack in my Gizmo. Below about 10=B0C
+> > sag becomes really noticeable. Near 0=B0C sag under a 1.5C load can
+> > easily bring the cells below 2.9V even when they are at 100%SOC.
+> >
+> > --
+> > David D. Nelson
+> > http://evalbum.com/1328
+> > http://2003gizmo.blogspot.com
+> > http://www.levforum.com
+
+ 		 	   		  =
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121111/a4b15537=
+/attachment.html =
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

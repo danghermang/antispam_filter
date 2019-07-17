@@ -1,0 +1,25 @@
+Subject:Re: Migrar correo de Evolution a Outlook
+El Mon, 24 Sep 2012 10:47:19 -0400, Adrián Alemán Cruz escribió:
+
+> Un amigo acá ha utilizado Debian GNU/Linux (Lenny) por varios años en su
+> trabajo, ahora tiene que instalar windows para correr una aplicación
+> contable que le exige la empresa.
+> 
+> ¿Cómo haría para migrar los correos?
+
+Dile que puede usar un servidor local IMAP ("local" para que el proceso 
+de traspaso de carpetas y mensajes sea más rápido), es lo más sencillo. 
+Para los contactos, tareas y calendario no sé si se podrá exportar/
+importar directamente.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3q2ah$e50$13@ger.gmane.org
+

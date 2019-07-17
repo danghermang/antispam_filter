@@ -1,0 +1,15 @@
+Subject:Re: [rlug] Intrebare nginx-wordpress
+On Sun, Nov 4, 2012 at 8:57 PM, Gyula Keresztely-Krall
+<xenexis@gmail.com> wrote:
+>
+> kernel: [465523.691641] php5-fpm[21831]: segfault at b4615cf0 ip
+> b774c419 sp bfe2b1a0 error 4 in ld-2.15.so[b773d000+20000]
+
+Fara nginx, doar Apache & PHP, iti merge?
+
+-- 
+Adi Pircalabu
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

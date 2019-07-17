@@ -1,0 +1,69 @@
+Subject:Re: problema de impresion Wheezy (solucionado)
+Camaleón <noelamac@gmail.com> writes:
+
+> El Fri, 16 Nov 2012 19:07:33 +0400, Evgeny M. Zubok escribió:
+>
+>> Camaleón <noelamac@gmail.com> writes:
+>
+> (...)
+>
+>>>> Solo tuve que agregar mi usuario a los grupos 'lp' y 'lpadmin'. Con
+>>>> eso fue suficiente para que Cups me dejara agregar la impresora y
+>>>> configurarla.
+>>>
+>>> Ese paso no debería ser necesario, de hecho mi usuario no pertenece a
+>>> ninguno de esos grupos y puedo añadir impresoras desde la interfaz web
+>>> de CUPS, quizá deberías informar del error :-?
+>> 
+>> Esta guía no está de acuerdo contigo:
+>> 
+>> http://wiki.debian.org/SystemPrinting#Add_Printer
+>
+> Ese es uno de los problemas de las wikis, que se quedan obsoletas en 
+> seguida ;-) 
+>
+> (si te fijas en el pantallazo que hay más abajo el tutorial está hablando 
+> de CUPS 1.4.4 que es la versión de squeeze, por lo que es posible que 
+> hayan cambiado esto en wheezy).
+
+Sí, tengo Squeeze y CUPS con versión 1.4.4.
+
+>> Ahora mismo hago 'deluser zubok lpadmin', intento añadir una impresora
+>> desde localhost:631 y al autenticarme como usuario me da el error
+>> "Unable to add printer: Forbidden".
+>
+> No sé en qué versión estás, pero a mí eso no me pasa en wheezy cuando 
+> quiero añadir una impresora (ojo, no tengo configurado "sudo" por lo que 
+> CUPS -1.5.3- me pide el usuario/contraseña de "root").
+
+Yo tengo configurado "sudo" para mi usuario. Pero la interfaz
+administrativa de CUPS no ejecuta el comando "sudo" para añadir una
+impresora y para otras sus tareas, por eso el nombre/contraseña de
+usuario normal no funciona, incluso si usuario tiene todos los derechos,
+es decir, ALL=(ALL) ALL en el archivo /etc/sudoers.  Alberto me
+respondió (pero al privado, decidí no reenviar a la lista) que el
+nombre/contraseña de root le tampoco funcionó. Es muy raro. El
+nombre/contraseña de root siempre me funciona sin necesidad de estar en
+el grupo "lpadmin".
+
+Sin embargo, para añadir una impresora como *usuario normal* a través de
+interfaz web de CUPS con su nombre/contraseña (no de root) es necesario
+añadir el usuario al grupo "lpadmin". No sé si han cambiado este
+comportamiento en Wheezy:
+
+
+$ zless /usr/share/doc/cups/README.txt.gz
+
+SETTING UP PRINTER QUEUES USING YOUR WEB BROWSER
+...
+
+You will be asked for the administration password (root or any other
+user in the sys/system/root/admin/lpadmin group on your system) when
+performing any administrative function.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87r4ntgn19.fsf@tochka.ru
+

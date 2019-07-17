@@ -1,0 +1,220 @@
+Subject:Re: [LUG] Linux - and security
+I hope fellow list-members know that it is not mandatory to read all
+the posts. :-)
+
+On Fri, Nov 2, 2012 at 7:55 PM, bad apple wrote:
+> However, it is exactly my unusual familiarity with this world
+> that makes me more than usually qualified to comment on security issues.
+
+Sure. You clearly know what you're talking about and you probably have
+a lot more hands-on experience with this than I do. But I do make my
+money, albeit indirectly, by people needing better protection for
+their computers. And I do know what I'm talking about: I know my
+Blackhole from my BEAST and my Duqu from my DNSSEC.
+
+(But then, I don't think we disagree about most the technical details.)
+
+> Well, if you mean that CRIME and BEAST are not something that an average
+> user can *do* anything about, you're right I guess. But worry? Do you
+> really think we shouldn't worry about the fact that the primary security
+> transport layer for 99% of our online activities is hopelessly flawed?
+
+I beg to differ about TLS being "hopelessly" flawed.
+
+CRIME and BEAST aren't easy to exploit. They require a lot of effort,
+effort that means it is unlikely to be worth the effort (read: time
+and money) to attack anything an average Internet users does online.
+
+> The same for the DigiNotar hack - sure, just bad
+> luck for some Iranian dissidents right? Um, no. It's a warning: if the
+> hopelessly incompetent Iranian government can manage it,
+
+The Iranian government isn't hopelessly incompetent. At least the
+hackers working for them aren't. Full stop. (The people running
+Diginotar were, perhaps, which is why a hacker of moderate competence
+managed to generate forged certificates. That was really bad.)
+
+> it would be
+> wise to assume that all organised western governments can and have been
+> doing it as well (protip: they have).
+
+Sure. They forged a hash-collision to fake a Microsoft certificate to
+push a forged Windows update in Flame. They probably use similarly
+advanced methods against some of their own citizens. This _is_ an
+issue. Perhaps we should all go out on the streets and protest against
+it. But it doesn't affect the way I use the Internet for my daily
+web-browsing.
+
+> It should be telling you that the
+> 'secure' infrastructure out there we all rely on for the most trivial of
+> online operations is hopelessly flawed, at the most basic level. See
+> also DNSSEC. If you can't trust DNS, you've got nothing.
+
+Sure, I can't 100% trust DNS. I know that. For just about anything I
+do online this simply doesn't matter.
+
+> The same with
+> Stuxnet, etc: the take-home message is the level of skill and dedication
+> being utilised by our own government agencies to compromise critical
+> infrastructure. I assure you, if they can do it to middle eastern
+> targets, they can do it here too. The lesson is that SCADA, as we on the
+> inside have always known, is riddled with hardcoded backdoors,
+> elementary coding flaws and well known holes. Presumably you don't
+> operate a nuclear centrifuge so none of this concerns you right? Wrong.
+> Your water supply, electricity, the traffic lights and every element of
+> your surrounding environment is controlled by SCADA systems, barely any
+> of which are secured.
+
+Well, I don't run any of these either.
+
+I agree that security at many SCADA systems is pretty bad. If I would
+work for one of them, it'd be a major concern. Perhaps it should be
+for me as a citizen of this country, or of this world. It doesn't
+affect my day-to-day computer usage though.
+
+(Also, it's probably good to point out that, despite all this talk of
+insecure SCADA systems, there is only one know piece of malware
+actually being used in the wild that attacked such a system. And that
+was advanced beyond imagination.)
+
+> Exactly. I frequent the sort of lists and forums where these services
+> are advertised and very eye-opening they are too. You see, this is a
+> large part of the problem: I hear more than anything else from users
+> "I've got nothing to hide and I'm just a regular computer user, why
+> would anyone target me?"
+
+Just to make it clear: I am *not* saying that and explicitly not
+making this point. I think all Internet users should consider
+themselves as a potential target and take precautionary measures. I'm
+just arguing against overdoing it.
+
+> Everyone on this list has a computer worth more
+> than the standard rate: you're running linux. Compromised linux boxes
+> are worth a lot more than compromised windows zombies, even the regular
+> home user machines, let alone a 64 core server on a fat pipe in a
+> datacenter with a PHP shell backdoor installed. Hackers don't give a
+> shit if there's anything on your box or not - it's just another hop on
+> their anonymous proxy chain, or hosting their warez, child pr0n stash
+> IRC bot or DOS zombie. But don't get me wrong, whilst they're at it they
+> might as well use their automated SSH bruteforce+root script to SSLSTRIP
+> your paypal, ebay, facebook, email and bank logins. I mean, why not?
+
+Because they'd leave traces?
+
+I know what my machine can be used for (although I have no idea of the
+going price for a compromised home user Linux box). I know my
+Facebook, Paypal, email etc. can be stolen if enough of an effort is
+made. But the probability is relatively small; smaller than equivalent
+risks in the offline world.
+
+(I use two-factor authentication wherever I can. I know this isn't
+100% perfect -- nothing is -- but it puts the bar a little bit
+higher.)
+
+> Also, let us not forget that in this modern world of BYOD and working
+> from home, even the most innocent and boring looking android phone,
+> windows 7 laptop or home linux box may well have the keys to the kingdom
+> on it. Once you're in and the keylogger is running, those openvpn, cisco
+> or terminal server session passwords are yours for the taking (or
+> losing). Bad news if the unfortunate victim is a senior manager, IT
+> staffer or finance officer. Bad news full stop, because now they'll use
+> your compromised home system as an ingress point to your otherwise
+> (hopefully) much more secured work network.
+
+Sure. So VPN access should _always_ require a second authentication
+factor. And networks of any size, but especially the larger, should be
+wary of threats coming from the inside. And no, none of this prevent
+attacks from happening. It just reduces the chances.
+
+> Repeat after me: THERE IS NO
+> SUCH THING AS A ZERO VALUE TARGET!
+
+There isn't. I hope I never gave the impression that I think there is.
+
+My point is that almost every target has a limited value. That value
+may be a few pence for a home PC in China or millions of pounds for a
+large corporation. As soon as you drive up the costs of an attack
+beyond that value, you're protected well enough.
+
+Of course, it isn't easy, or even possible, to determine that cost.
+And of course, a small minority of attackers (hacktivists and
+governments) have non-financial motives.
+
+> Automated attacks via compromised
+> web, DNS, mail and other servers are the primary attack vector and
+> firefox on linux is just as likely to get you busted as IE10 on your
+> patched windows box. Automated attacks cost virtually nothing, cast a
+> very wide net and don't discriminate against victims - the whole "I
+> don't need to outrun the bear, I just need to outrun you" approach to
+> security espoused by the technically literate and otherwise perfectly
+> reasonable crowd (such as your good self) is complete and total bullshit
+> I'm afraid. You don't need to be some mythical high-level target to
+> warrant specific personal attacks by ultra-hackers.
+
+If a "ultra-hacker" has the option of hacking me or David Cameron,
+assuming we're both equally well protected, they'll go for the latter.
+At least they will in at least 99.9% of the cases. If they do somehow
+decide to target me, that's a risk worth taking. Using computers comes
+with risks; if you're not willing to take them, go to the library for
+your information, start corresponding to friends by writing letters
+and move your social life back to the pub.
+
+> Almost by
+> definition, the 0-days they are constantly rolling out are usable
+> against almost everyone, including me, in vast automated country wide
+> attacks.
+
+I have seen no evidence of zero-days being used in automated
+mass-attacks. That is, not as long as they're still zero-days.
+(Zero-days in much used applications are worth in excess of $100,000
+on the market for exploits. By using such an exploit in a mass-attack
+you give it away and thus it loses it value. You need an awful lot of
+infections with your mass-attack for it to be worth it.)
+
+There are many examples of exploits that were once zero-days being
+used for mass-targets. Sometimes very soon after their discovery: a
+recent Java exploit was added to Blackhole before Oracle had patched
+it. But then, that's Java. And that's Oracle.
+
+> In computer security, there is no such thing as
+> "good enough"!
+
+Not if your goal is to be 100% protected, because 100% protection is impossible.
+
+> Here is where we disagree fundamentally - being at the sharp end, I deal
+> with this stuff all day every day. And for ALL users of the internet,
+> pretending that they don't effect us is insanely stupid. It's
+> trickledown my friend: the cutting edge, targetted 0-day guru-level
+> hacks against state entities and the biggest businesses is what gets
+> adopted, customised and rolled into the everyday Zeus crimeware tools,
+> rotating google ad banners and compromised botnets that attack us all
+> tomorrow.
+
+Sure, so you need to apply patches against the vulnerabilities
+exploited by what once were zero days. And run security software that
+recognize those exploits.
+
+As you say: this happens 'tomorrow'. For most users, there is time
+between today and tomorrow.
+
+> Yesterday's government sponsored hijack of SSL certs is
+> today's trivial SSL Paypal attack (and oh look, right on time:
+> http://it.slashdot.org/story/12/11/02/1444250/paypal-security-holes-expose-customer-card-data-personal-details).
+
+But that has nothing to do with forged certificates, right? That just
+means that yet another company has messed up its systems.
+
+One thing I could have added to just about anything I wrote above is
+that the same holds for our "offline" security. If you try hard
+enough, you can steal my bank cards, spy on me, even kidnap or kill
+me. But I have a reasonable idea of how much of a target I am and thus
+how much of an incentive attackers have to target me. And I know what
+the risks of unrecoverable damage are in case something happens. Given
+the precautionary measures are take, those risks are really small.
+
+Martijn.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

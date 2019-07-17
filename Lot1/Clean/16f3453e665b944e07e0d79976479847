@@ -1,0 +1,25 @@
+Subject:Re: Kernel Trunk?
+El Fri, 23 Nov 2012 19:42:21 -0500, Jo Sé escribió:
+
+> Hola. Tengo una duda de que es el kernel linux-image-3.6-trunk-amd64 ..
+> 
+> Osea que caracteristica tiene o que? Porque se llama trunk.
+
+Es un paquete que sólo está disponible en la rama "experimental" y es uno 
+de los últimos kernels disponibles que han salido.
+
+En el changleog explican los cambios o novedades:
+
+http://packages.debian.org/changelogs/pool/main/l/linux/linux_3.6.6-1~experimental.1/changelog
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8r28s$fvd$4@ger.gmane.org
+

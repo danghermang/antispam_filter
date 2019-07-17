@@ -1,0 +1,45 @@
+Subject:Re: Acceder a mi Linux desde windows
+El 2012-10-11 13:50, Debian GMail escribió:
+> El 10/10/12 12:36, Cristian Prado escribió:
+>> Hola a todos
+>> Tengo que acceder (Remote Desk) al linux de casa con la compu
+>> del trabajo (windows 7) que programa me recomiendan ?
+>> Lei que se puede hacer con VNC pero tengo entendido
+>> que no es muy seguro.
+>> Gracias por las respuestas
+>>
+>
+>
+> Por experiencia:
+>
+> Si es para acceso consola y ejecución remota de programas:
+> GNU/Linux: openssh-server bien configurado.
+> WinX: cualquier cliente telnet.
+>
+> Si es para acceder a archivos sin necesidad de ejecutar en forma
+> remota programas:
+> GNU/Linux: openssh-server bien configurado.
+> WinX: algún gestor de archivos de doble pantalla como Double 
+> Commander o WinSCP.
+>
+> Si es para todo por GUI:
+> Ambos: NX Nomachine http://www.nomachine.com/
+>
+> O las tres cosas juntas.
+>
+> Nota: "bien configurado" significa leer el manual de openssh-server y
+> usar la tonelada de cosas que tiene para encriptar, comprimir datos y
+> enmascarar puertos.
+>
+> JAP
+
+
+Estoy de acuerdo, ni vnc ni leches, si es entorno gráfico freenx de 
+nomachine es tu software...
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/f586f1e7cab1b7c74ea76f41d3c26faa@maykel.sytes.net
+

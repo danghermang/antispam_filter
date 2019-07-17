@@ -1,0 +1,44 @@
+Subject:Re: [EVDL] Ceramic Heater elements
+On 11/1/2012 8:36 PM, David Ladd wrote:
+> I pulled out enough of the ducting so I could see the elements.  Fortunately, it was pretty easy to get this far.  Getting the element all the way out would be a different story...  Anyway, here's a picture of them:  https://picasaweb.google.com/lh/photo/rLlqbd4dnlTnlxJPAgbHk9MTjNZETYmyPJy0liipFm0?feat=directlink  hopefully that links correctly.
+>
+> The one on the left of the photo is the one that is in use, the one on the right is never switched on (just too much power draw).  So, to recap right now at 158ish volts I'm pulling ~17a through one element.  I'm about to raise my voltage to 183v nominal.  The elements are very nicely imbedded in the heater core, it's actually a very nice install.  I'd LOVE it if I could keep the heaters in there physically as they are.
+>
+> right now, each element is wired (+) (-) (+) (-) (+).  It is my understanding that if I rewire it so each element is (+) (empty) (-) (empty) (+) it will split the four elements into two series pairs, and run them in parallel.  This should reduce the current, and the heat output.  But if I wire both elements up that way and have them on together, I'm hoping the heat output should be comparable to the single core running overloaded like I had before.
+>
+> Am I on the right track here?
+
+Yes, right on track. Use both elements; otherwise you're getting cold 
+air blowing in through the unused element, diluting your heating effect.
+
+With resistive resistors, you would expect that if the 4 sections in 
+parallel draw 17 amps, then the same 4 sections wired for 2 parallel 
+pairs of 2 in series would have 4 times the resistance, and thus produce 
+1/4th the heat.
+
+But these elements are *not* resistors! Their apparent resistance 
+changes drastically as a function of their temperature. Rewiring them as 
+2 series pairs in parallel will cut your current about in half, and give 
+you *half* the heat. But wiring both elements this way (left and right) 
+will bring you right back to about the same 17 amps you had. But each 
+element is now under a lot less stress, and will be safer and last a lot 
+longer.
+
+The best way to regulate the amount of heat you get with ceramic 
+elements is to control the airflow through them. The more airflow, the 
+more current they will draw, and the more heat they produce.
+-- 
+If we knew what we were doing, it wouldn't be called research, would it?
+	-- Albert Einstein
+--
+Lee A. Hart http://www.sunrise-ev.com/LeesEVs leeahart@earthlink.net
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

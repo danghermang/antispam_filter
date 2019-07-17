@@ -1,0 +1,440 @@
+Subject:[routing-wg] Weekly Routing Table Report
+This is an automated weekly mailing describing the state of the Internet
+Routing Table as seen from APNIC's router in Japan.
+
+The posting is sent to APOPS, NANOG, AfNOG, AusNOG, SANOG, PacNOG, LacNOG,
+TRNOG, CaribNOG and the RIPE Routing Working Group.
+
+Daily listings are sent to bgp-stats@lists.apnic.net
+
+For historical data, please see http://thyme.rand.apnic.net.
+
+If you have any comments please contact Philip Smith <pfsinoz@gmail.com>.
+
+Routing Table Report   04:00 +10GMT Sat 01 Dec, 2012
+
+Report Website:     http://thyme.rand.apnic.net
+Detailed Analysis:  http://thyme.rand.apnic.net/current/
+
+Analysis Summary
+----------------
+
+BGP routing table entries examined:                              434185
+    Prefixes after maximum aggregation:                          180393
+    Deaggregation factor:                                          2.41
+    Unique aggregates announced to Internet:                     212775
+Total ASes present in the Internet Routing Table:                 42729
+    Prefixes per ASN:                                             10.16
+Origin-only ASes present in the Internet Routing Table:           33874
+Origin ASes announcing only one prefix:                           15815
+Transit ASes present in the Internet Routing Table:                5690
+Transit-only ASes present in the Internet Routing Table:            135
+Average AS path length visible in the Internet Routing Table:       4.6
+    Max AS path length visible:                                      41
+    Max AS path prepend of ASN ( 22394)                              35
+Prefixes from unregistered ASNs in the Routing Table:              1103
+    Unregistered ASNs in the Routing Table:                         406
+Number of 32-bit ASNs allocated by the RIRs:                       3544
+Number of 32-bit ASNs visible in the Routing Table:                3165
+Prefixes from 32-bit ASNs in the Routing Table:                    8591
+Special use prefixes present in the Routing Table:                   15
+Prefixes being announced from unallocated address space:            146
+Number of addresses announced to Internet:                   2614823628
+    Equivalent to 155 /8s, 219 /16s and 10 /24s
+    Percentage of available address space announced:               70.6
+    Percentage of allocated address space announced:               70.6
+    Percentage of available address space allocated:              100.0
+    Percentage of address space in use by end-sites:               93.9
+Total number of prefixes smaller than registry allocations:      153016
+
+APNIC Region Analysis Summary
+-----------------------------
+
+Prefixes being announced by APNIC Region ASes:                   104809
+    Total APNIC prefixes after maximum aggregation:               32640
+    APNIC Deaggregation factor:                                    3.21
+Prefixes being announced from the APNIC address blocks:          105681
+    Unique aggregates announced from the APNIC address blocks:    43268
+APNIC Region origin ASes present in the Internet Routing Table:    4800
+    APNIC Prefixes per ASN:                                       22.02
+APNIC Region origin ASes announcing only one prefix:               1244
+APNIC Region transit ASes present in the Internet Routing Table:    786
+Average APNIC Region AS path length visible:                        4.6
+    Max APNIC Region AS path length visible:                         26
+Number of APNIC region 32-bit ASNs visible in the Routing Table:    375
+Number of APNIC addresses announced to Internet:              715311872
+    Equivalent to 42 /8s, 162 /16s and 203 /24s
+    Percentage of available APNIC address space announced:         83.6
+
+APNIC AS Blocks        4608-4864, 7467-7722, 9216-10239, 17408-18431
+(pre-ERX allocations)  23552-24575, 37888-38911, 45056-46079, 55296-56319,
+                       58368-59391, 131072-133119
+APNIC Address Blocks     1/8,  14/8,  27/8,  36/8,  39/8,  42/8,  43/8,
+                        49/8,  58/8,  59/8,  60/8,  61/8, 101/8, 103/8,
+                       106/8, 110/8, 111/8, 112/8, 113/8, 114/8, 115/8,
+                       116/8, 117/8, 118/8, 119/8, 120/8, 121/8, 122/8,
+                       123/8, 124/8, 125/8, 126/8, 133/8, 150/8, 153/8,
+                       163/8, 171/8, 175/8, 180/8, 182/8, 183/8, 202/8,
+                       203/8, 210/8, 211/8, 218/8, 219/8, 220/8, 221/8,
+                       222/8, 223/8,
+
+ARIN Region Analysis Summary
+----------------------------
+
+Prefixes being announced by ARIN Region ASes:                    155613
+    Total ARIN prefixes after maximum aggregation:                78549
+    ARIN Deaggregation factor:                                     1.98
+Prefixes being announced from the ARIN address blocks:           156347
+    Unique aggregates announced from the ARIN address blocks:     69911
+ARIN Region origin ASes present in the Internet Routing Table:    15313
+    ARIN Prefixes per ASN:                                        10.21
+ARIN Region origin ASes announcing only one prefix:                5771
+ARIN Region transit ASes present in the Internet Routing Table:    1598
+Average ARIN Region AS path length visible:                         4.1
+    Max ARIN Region AS path length visible:                          41
+Number of ARIN region 32-bit ASNs visible in the Routing Table:      18
+Number of ARIN addresses announced to Internet:              1087539840
+    Equivalent to 64 /8s, 210 /16s and 138 /24s
+    Percentage of available ARIN address space announced:          57.5
+
+ARIN AS Blocks         1-1876, 1902-2042, 2044-2046, 2048-2106
+(pre-ERX allocations)  2138-2584, 2615-2772, 2823-2829, 2880-3153
+                       3354-4607, 4865-5119, 5632-6655, 6912-7466
+                       7723-8191, 10240-12287, 13312-15359, 16384-17407
+                       18432-20479, 21504-23551, 25600-26591,
+                       26624-27647, 29696-30719, 31744-33791
+                       35840-36863, 39936-40959, 46080-47103
+                       53248-55295, 393216-394239
+ARIN Address Blocks      3/8,   4/8,   6/8,   7/8,   8/8,   9/8,  11/8,
+                        12/8,  13/8,  15/8,  16/8,  17/8,  18/8,  19/8,
+                        20/8,  21/8,  22/8,  23/8,  24/8,  26/8,  28/8,
+                        29/8,  30/8,  32/8,  33/8,  34/8,  35/8,  38/8,
+                        40/8,  44/8,  45/8,  47/8,  48/8,  50/8,  52/8,
+                        53/8,  54/8,  55/8,  56/8,  57/8,  63/8,  64/8,
+                        65/8,  66/8,  67/8,  68/8,  69/8,  70/8,  71/8,
+                        72/8,  73/8,  74/8,  75/8,  76/8,  96/8,  97/8,
+                        98/8,  99/8, 100/8, 104/8, 107/8, 108/8, 128/8,
+                       129/8, 130/8, 131/8, 132/8, 134/8, 135/8, 136/8,
+                       137/8, 138/8, 139/8, 140/8, 142/8, 143/8, 144/8,
+                       146/8, 147/8, 148/8, 149/8, 152/8, 155/8, 156/8,
+                       157/8, 158/8, 159/8, 160/8, 161/8, 162/8, 164/8,
+                       165/8, 166/8, 167/8, 168/8, 169/8, 170/8, 172/8,
+                       173/8, 174/8, 184/8, 192/8, 198/8, 199/8, 204/8,
+                       205/8, 206/8, 207/8, 208/8, 209/8, 214/8, 215/8,
+                       216/8,
+
+RIPE Region Analysis Summary
+----------------------------
+
+Prefixes being announced by RIPE Region ASes:                    110794
+    Total RIPE prefixes after maximum aggregation:                57939
+    RIPE Deaggregation factor:                                     1.91
+Prefixes being announced from the RIPE address blocks:           113671
+    Unique aggregates announced from the RIPE address blocks:     73036
+RIPE Region origin ASes present in the Internet Routing Table:    16973
+    RIPE Prefixes per ASN:                                         6.70
+RIPE Region origin ASes announcing only one prefix:                8130
+RIPE Region transit ASes present in the Internet Routing Table:    2750
+Average RIPE Region AS path length visible:                         5.0
+    Max RIPE Region AS path length visible:                          31
+Number of RIPE region 32-bit ASNs visible in the Routing Table:    2051
+Number of RIPE addresses announced to Internet:               648513060
+    Equivalent to 38 /8s, 167 /16s and 134 /24s
+    Percentage of available RIPE address space announced:          94.3
+
+RIPE AS Blocks         1877-1901, 2043, 2047, 2107-2136, 2585-2614
+(pre-ERX allocations)  2773-2822, 2830-2879, 3154-3353, 5377-5631
+                       6656-6911, 8192-9215, 12288-13311, 15360-16383
+                       20480-21503, 24576-25599, 28672-29695
+                       30720-31743, 33792-35839, 38912-39935
+                       40960-45055, 47104-52223, 56320-58367
+                       59392-61439, 196608-199679
+RIPE Address Blocks      2/8,   5/8,  25/8,  31/8,  37/8,  46/8,  51/8,
+                        62/8,  77/8,  78/8,  79/8,  80/8,  81/8,  82/8,
+                        83/8,  84/8,  85/8,  86/8,  87/8,  88/8,  89/8,
+                        90/8,  91/8,  92/8,  93/8,  94/8,  95/8, 109/8,
+                       141/8, 145/8, 151/8, 176/8, 178/8, 185/8, 188/8,
+                       193/8, 194/8, 195/8, 212/8, 213/8, 217/8,
+
+LACNIC Region Analysis Summary
+------------------------------
+
+Prefixes being announced by LACNIC Region ASes:                   44625
+    Total LACNIC prefixes after maximum aggregation:               8910
+    LACNIC Deaggregation factor:                                   5.01
+Prefixes being announced from the LACNIC address blocks:          48145
+    Unique aggregates announced from the LACNIC address blocks:   22869
+LACNIC Region origin ASes present in the Internet Routing Table:   1732
+    LACNIC Prefixes per ASN:                                      27.80
+LACNIC Region origin ASes announcing only one prefix:               496
+LACNIC Region transit ASes present in the Internet Routing Table:   330
+Average LACNIC Region AS path length visible:                       4.7
+    Max LACNIC Region AS path length visible:                        27
+Number of LACNIC region 32-bit ASNs visible in the Routing Table:   715
+Number of LACNIC addresses announced to Internet:             120089384
+    Equivalent to 7 /8s, 40 /16s and 107 /24s
+    Percentage of available LACNIC address space announced:        71.6
+
+LACNIC AS Blocks       26592-26623, 27648-28671, 52224-53247,
+                       262144-263167 plus ERX transfers
+LACNIC Address Blocks  177/8, 179/8, 181/8, 186/8, 187/8, 189/8, 190/8,
+                       191/8, 200/8, 201/8,
+
+AfriNIC Region Analysis Summary
+-------------------------------
+
+Prefixes being announced by AfriNIC Region ASes:                   9637
+    Total AfriNIC prefixes after maximum aggregation:              2298
+    AfriNIC Deaggregation factor:                                  4.19
+Prefixes being announced from the AfriNIC address blocks:         10195
+    Unique aggregates announced from the AfriNIC address blocks:   3564
+AfriNIC Region origin ASes present in the Internet Routing Table:   578
+    AfriNIC Prefixes per ASN:                                     17.64
+AfriNIC Region origin ASes announcing only one prefix:              174
+AfriNIC Region transit ASes present in the Internet Routing Table:  131
+Average AfriNIC Region AS path length visible:                      4.7
+    Max AfriNIC Region AS path length visible:                       16
+Number of AfriNIC region 32-bit ASNs visible in the Routing Table:    6
+Number of AfriNIC addresses announced to Internet:             43071488
+    Equivalent to 2 /8s, 145 /16s and 56 /24s
+    Percentage of available AfriNIC address space announced:       42.8
+
+AfriNIC AS Blocks      36864-37887, 327680-328703 & ERX transfers
+AfriNIC Address Blocks  41/8, 102/8, 105/8, 154/8, 196/8, 197/8,
+
+APNIC Region per AS prefix count summary
+----------------------------------------
+
+  ASN   No of nets  /20 equiv  MaxAgg  Description
+ 4766     2942      11557         900   Korea Telecom (KIX)
+17974     2431        826          46   PT TELEKOMUNIKASI INDONESIA
+ 7545     1811        301          90   TPG Internet Pty Ltd
+ 4755     1625        374         159   TATA Communications formerly 
+ 9829     1412       1155          42   BSNL National Internet Backbo
+ 9583     1182         88         499   Sify Limited
+ 7552     1142       1062          11   Vietel Corporation
+ 4808     1126       2056         317   CNCGROUP IP network: China169
+24560     1040        385         165   Bharti Airtel Ltd., Telemedia
+ 9498     1032        310          74   BHARTI Airtel Ltd.
+
+Complete listing at http://thyme.rand.apnic.net/current/data-ASnet-APNIC
+
+ARIN Region per AS prefix count summary
+---------------------------------------
+
+  ASN   No of nets  /20 equiv  MaxAgg  Description
+ 7029     3196        994         218   Windstream Communications Inc
+ 6389     3145       3719         148   bellsouth.net, inc. 
+18566     2083        382         180   Covad Communications 
+22773     1938       2932         131   Cox Communications, Inc.
+ 1785     1935        678         124   PaeTec Communications, Inc.
+20115     1684       1607         625   Charter Communications 
+ 4323     1589       1153         394   Time Warner Telecom
+30036     1360        280         750   Mediacom Communications Corp 
+ 7018     1279      10275         848   AT&T WorldNet Services
+ 7011     1223        334         693   Citizens Utilities 
+
+Complete listing at http://thyme.rand.apnic.net/current/data-ASnet-ARIN
+
+RIPE Region per AS prefix count summary
+---------------------------------------
+
+  ASN   No of nets  /20 equiv  MaxAgg  Description
+ 8402     1715        544          16   Corbina telecom
+12479      856        777          64   Uni2 Autonomous System
+34984      849        210         215   BILISIM TELEKOM
+ 2118      784         97          15   EUnet/RELCOM Autonomous Syste
+13188      742         94         132   Educational Network
+31148      738         38          13   FreeNet ISP
+ 6830      717       2313         436   UPC Distribution Services
+20940      705        227         545   Akamai Technologies European 
+ 8551      603        367          39   Bezeq International
+58113      603         68         366   LIR DATACENTER TELECOM SRL
+
+Complete listing at http://thyme.rand.apnic.net/current/data-ASnet-RIPE
+
+LACNIC Region per AS prefix count summary
+-----------------------------------------
+
+  ASN   No of nets  /20 equiv  MaxAgg  Description
+10620     2261        386         206   TVCABLE BOGOTA 
+28573     2160       1285          66   NET Servicos de Comunicao S.A
+ 7303     1668       1138         201   Telecom Argentina Stet-France
+ 8151     1601       3022         356   UniNet S.A. de C.V. 
+ 6503     1538        435          67   AVANTEL, S.A. 
+27947      754         77          92   Telconet S.A
+ 3816      659        309          70   Empresa Nacional de Telecomun
+11172      603         85          68   Servicios Alestra S.A de C.V 
+18881      595        716          18   Global Village Telecom 
+ 7738      579       1178          33   Telecomunicacoes da Bahia S.A
+
+Complete listing at http://thyme.rand.apnic.net/current/data-ASnet-LACNIC
+
+AfriNIC Region per AS prefix count summary
+------------------------------------------
+
+  ASN   No of nets  /20 equiv  MaxAgg  Description
+24863      873        274          36   LINKdotNET AS number
+36998      772         48           3   MOBITEL
+ 8452      536        958          13   TEDATA
+ 6713      519        666          20   Itissalat Al-MAGHRIB
+24835      289         80           8   RAYA Telecom - Egypt
+ 3741      268        906         225   The Internet Solution 
+12258      194         28          66   Vodacom Internet Company 
+15706      191         32           6   Sudatel Internet Exchange Aut
+29975      191        667          21   Vodacom
+16637      179        697          88   MTN Network Solutions
+
+Complete listing at http://thyme.rand.apnic.net/current/data-ASnet-AFRINIC
+
+Global Per AS prefix count summary
+----------------------------------
+
+  ASN   No of nets  /20 equiv  MaxAgg  Description
+ 7029     3196        994         218   Windstream Communications Inc
+ 6389     3145       3719         148   bellsouth.net, inc. 
+ 4766     2942      11557         900   Korea Telecom (KIX)
+17974     2431        826          46   PT TELEKOMUNIKASI INDONESIA
+10620     2261        386         206   TVCABLE BOGOTA 
+28573     2160       1285          66   NET Servicos de Comunicao S.A
+18566     2083        382         180   Covad Communications 
+22773     1938       2932         131   Cox Communications, Inc.
+ 1785     1935        678         124   PaeTec Communications, Inc.
+ 7545     1811        301          90   TPG Internet Pty Ltd
+
+Complete listing at http://thyme.rand.apnic.net/current/data-ASnet
+
+Global Per AS Maximum Aggr summary
+----------------------------------
+
+  ASN   No of nets  Net Savings Description
+ 6389      3145        2997      bellsouth.net, inc. 
+17974      2431        2385      PT TELEKOMUNIKASI INDONESIA
+28573      2160        2094      NET Servicos de Comunicao S.A
+10620      2261        2055      TVCABLE BOGOTA 
+ 4766      2942        2042      Korea Telecom (KIX)
+18566      2083        1903      Covad Communications 
+ 1785      1935        1811      PaeTec Communications, Inc.
+22773      1938        1807      Cox Communications, Inc.
+ 7545      1811        1721      TPG Internet Pty Ltd
+ 8402      1715        1699      Corbina telecom
+
+Complete listing at http://thyme.rand.apnic.net/current/data-CIDRnet
+
+List of Unregistered Origin ASNs (Global)
+-----------------------------------------
+
+Bad AS  Designation  Network              Transit AS  Description
+59505   UNALLOCATED  5.2.65.0/24          50673       Serverius AS
+59505   UNALLOCATED  5.2.66.0/24          50673       Serverius AS
+59530   UNALLOCATED  5.8.182.0/24         31261       GARS Telecom
+61408   UNALLOCATED  5.56.0.0/21            174       Cogent Communication
+61395   UNALLOCATED  5.83.56.0/22          3292       TDC Tele Danmark
+59414   UNALLOCATED  5.102.144.0/21       15576       Nextra backbone in D
+59395   UNALLOCATED  5.133.16.0/21         3549       Global Crossing 
+59407   UNALLOCATED  5.134.16.0/21        51167       Giga-Hosting GmbH
+59521   UNALLOCATED  5.134.192.0/21       29518       Labs2
+59441   UNALLOCATED  5.144.128.0/21       50810       Mobin Net Communicat
+
+Complete listing at http://thyme.rand.apnic.net/current/data-badAS
+
+Prefixes from private and non-routed address space (Global)
+-----------------------------------------------------------
+
+Prefix             Origin AS  Description
+128.0.0.0/24          2876     Jump Management SRL
+128.0.24.0/21        41794     Altline LLC
+128.0.64.0/22        49466     Declic Telecom SAS
+128.0.68.0/22        49466     Declic Telecom SAS
+128.0.72.0/21        23456     32-bit ASN transition
+128.0.80.0/20        52041     Timer LTD
+128.0.104.0/23       51848     FOP Gabidullina Ludmila Nikol
+128.0.106.0/24       23456     32-bit ASN transition
+128.0.128.0/20       29285     AMT closed joint-stock compan
+128.0.144.0/22       59675     >>UNKNOWN<<
+
+Complete listing at http://thyme.rand.apnic.net/current/data-dsua
+
+Advertised Unallocated Addresses
+--------------------------------
+
+Network            Origin AS  Description
+27.112.114.0/24      23884     Proimage Engineering and Comm
+41.222.80.0/21       37110     Moztel LDA
+41.223.108.0/22      36966     >>UNKNOWN<<
+62.12.96.0/19        38478     SunnyVision Limited
+62.61.220.0/24       24974     Tachyon Europe BV - Wireless 
+62.61.221.0/24       24974     Tachyon Europe BV - Wireless 
+64.66.32.0/20        18864     >>UNKNOWN<<
+64.187.208.0/24        174     Cogent Communications
+64.187.209.0/24      23005     Power Pulse 
+65.111.1.0/24        32258     SDN Global 
+
+Complete listing at http://thyme.rand.apnic.net/current/data-add-IANA
+
+Number of prefixes announced per prefix length (Global)
+-------------------------------------------------------
+
+ /1:0        /2:0        /3:0        /4:0        /5:0        /6:0       
+ /7:0        /8:18       /9:13      /10:29      /11:88      /12:243     
+/13:478     /14:858     /15:1555    /16:12467   /17:6553    /18:10881   
+/19:21495   /20:30777   /21:32846   /22:43646   /23:40544   /24:227407  
+/25:1363    /26:1734    /27:885     /28:184     /29:79      /30:17      
+/31:0       /32:25      
+
+Advertised prefixes smaller than registry allocations
+-----------------------------------------------------
+
+  ASN   No of nets  Total ann.   Description
+ 7029     2620          3196      Windstream Communications Inc
+18566     2033          2083      Covad Communications 
+ 6389     1781          3145      bellsouth.net, inc. 
+ 8402     1424          1715      Corbina telecom
+22773     1273          1938      Cox Communications, Inc.
+30036     1273          1360      Mediacom Communications Corp 
+11492     1146          1181      Cable One 
+ 6503     1054          1538      AVANTEL, S.A. 
+ 1785     1021          1935      PaeTec Communications, Inc.
+ 7011      958          1223      Citizens Utilities 
+
+Complete listing at http://thyme.rand.apnic.net/current/data-sXXas-nos
+
+Number of /24s announced per /8 block (Global)
+----------------------------------------------
+
+   1:646       2:753       3:1         4:13        5:660       6:3      
+   8:488      12:1953     13:3        14:701      15:10       16:3      
+  17:6        20:27       23:217      24:1779     27:1416     31:1297   
+  32:54       33:2        34:2        36:7        37:1057     38:845    
+  39:2        40:140      41:2624     42:179      44:3        46:1699   
+  47:3        49:507      50:619      52:12       54:27       55:7      
+  57:28       58:1067     59:550      60:234      61:1287     62:1026   
+  63:2022     64:4332     65:2200     66:4499     67:2100     68:1165   
+  69:3238     70:926      71:557      72:1893     74:2622     75:479    
+  76:299      77:986      78:1020     79:506      80:1227     81:982    
+  82:632      83:540      84:529      85:1159     86:477      87:960    
+  88:354      89:1744     90:305      91:5352     92:590      93:1574   
+  94:2014     95:1202     96:408      97:323      98:972      99:40     
+ 100:31      101:285     103:1868    105:516     106:119     107:202    
+ 108:487     109:1669    110:814     111:972     112:459     113:737    
+ 114:643     115:898     116:888     117:777     118:962     119:1253   
+ 120:376     121:678     122:1738    123:1179    124:1326    125:1290   
+ 128:572     129:201     130:294     131:666     132:317     133:143    
+ 134:254     135:62      136:215     137:238     138:340     139:168    
+ 140:492     141:294     142:499     143:363     144:492     145:83     
+ 146:523     147:287     148:735     149:330     150:155     151:221    
+ 152:398     153:183     154:22      155:440     156:226     157:375    
+ 158:279     159:673     160:335     161:414     162:370     163:192    
+ 164:581     165:449     166:479     167:561     168:980     169:130    
+ 170:977     171:151     172:6       173:1699    174:640     175:441    
+ 176:889     177:1451    178:1681    180:1351    181:178     182:1116   
+ 183:303     184:621     185:104     186:2065    187:1437    188:1790   
+ 189:1603    190:5975    192:6064    193:5428    194:4395    195:3659   
+ 196:1238    197:272     198:3951    199:5098    200:6018    201:1971   
+ 202:8803    203:8741    204:4439    205:2554    206:2759    207:2802   
+ 208:4067    209:3651    210:2900    211:1527    212:2149    213:1870   
+ 214:886     215:74      216:5180    217:1605    218:588     219:311    
+ 220:1258    221:533     222:336     223:419    
+
+End of report
+

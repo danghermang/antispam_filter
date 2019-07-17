@@ -1,0 +1,33 @@
+Subject:Re: [HS] se logguer en ssh en outrepassant le shell defini dans
+	/etc/passwd
+Bonjour,
+
+Le vendredi 12 octobre 2012 à 15:35, giggzounet a écrit :
+> Le 12/10/2012 15:08, François TOURDE a écrit :
+> > Le 15625ième jour après Epoch,
+> > giggzounet@gmail.com écrivait:
+> > 
+> >> bref avez vous une idée de comment forcer l'utilisation de ash au moment
+> >> de la connection via ssh ?
+> > 
+> > Au moins 2 possibilités:
+> > 
+> > 1) Se connecter avec un autre utilisateur, et réparer avec sudo
+> > 
+> 
+> ça serait trop facile ;) sudo n'est pas installé ou n'est pas trouvé en
+> tout cas.
+
+Et « su -c "vi /etc/passwd" » ?
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121012135250.GE27199@sebian.nob900.homeip.net
+

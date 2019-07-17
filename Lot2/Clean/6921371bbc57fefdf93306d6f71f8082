@@ -1,0 +1,48 @@
+Subject:Re: [testing] Gnome 3 et montage de CD
+Le Mon, 08 Oct 2012 12:27:35 +0200
+J=E9r=F4me <jerome@aranha.fr> a =E9crit:
+
+> Le dimanche 07 octobre 2012 =E0 02:26 +0200, Ga=EBtan PERRIER a =E9crit :
+> > Bonjour,
+> >=20
+> > Je rencontre un probl=E8me sous Gnome 3 avec les CD. Afin de flasher une
+> > mise =E0 jour j'ai grav=E9 depuis Gnome 3 un iso sur un CD-RW. Jusque l=
+=E0 tout
+> > va bien. Mais une fois le BIOS flash=E9 j'ai voulu effac=E9 le CD-RW. J=
+e l'ai
+> > donc remit dans le graveur, j'ai un le son (sorte de "clic clac") qui e=
+st
+> > =E9mis quand un m=E9dia est d=E9tect=E9 mais rien n'est apparu dans Nau=
+tilus. Je
+> > me suis dit que comme c'=E9tait un CD pour flasher un bios il ne le
+> > reconnaissait peut-=EAtre pas. J'ai donc lanc=E9 Brasero pour l'effacer=
+ mais
+> > celui-ci ne voyait pas non plus le graveur. J'ai donc lanc=E9 Nero Linux
+> > (c'est pas libre je sais) qui lui voyait bien mon graveur et m'a effac=
+=E9 le
+> > CR-RW sans histoire. Une fois effac=E9 je l'ai remis dans le graveur et
+> > maintenant Gnome me le montre bien.
+> > Est-ce que quelqu'un a d=E9j=E0 rencontr=E9 ce comportement ?
+> > =C7a sent le bug, non ?
+> >=20
+> > Ga=EBtan
+>=20
+> =C7a sent le syst=E8me de fichier non reconnu. Il aurait fallu commencer
+> avec /var/log/messages
+>=20
+
+Oui je suis bien d'accord mais ce n'est pas une raison pour ne plus pouvoir
+l'effacer. Pour cela il n'y a pas besoin de conna=EEtre le syst=E8me de fic=
+hier ...
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121025014854.b7a8da66c4ac8ecbfc18194c@neuf.fr
+

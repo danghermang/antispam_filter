@@ -1,0 +1,42 @@
+Subject:Re: impossible ouvrir mon =?iso-8859-1?Q?c?=
+	=?iso-8859-1?Q?ompte_invit=E9?=
+Le mardi 25 septembre 2012 à 16:52, Nicolas Hémard a écrit :
+> Bonjour,
+
+Bonjour,
+
+[...]
+
+> *grep nicolas /etc/passwd*
+> >root@pc-nicolas:/home/nicopro# grep nicolas /etc/passwd
+> >nicolas:x:1002:1002:,,,:/home/nicolas:/bin/bash
+> *id nicolas*
+> >root@pc-nicolas:/home/nicopro# id nicolas
+> >uid=1002(nicolas) gid=1002(nicolas) groupes=1002(nicolas)
+> *ls -l /home*
+> >root@pc-nicolas:/home/nicopro# ls -l /home
+> >total 36
+> >drwxr-xr-x 22 ida     ida      4096 sept. 21 13:22 ida
+> >drwx------  2 root    root    16384 sept. 16 16:47 lost+found
+> >drwxr-xr-x 28 nicolas nicolas  4096 sept. 17 15:17 nicolas
+> >drwxr-xr-x 43 nicopro nicopro  4096 sept. 25 14:54 nicopro
+> >-rw-r--r--  1 root    root      712 sept. 16 18:49 restauration
+> >-rwxr-xr-x  1 root    root      712 sept. 16 18:47 sauvegarde
+
+Il y a du mieux depuis la dernière fois, ton utilisateur a bien un répertoire
+personnel qui lui appartient !
+
+Pour ton problème d'ouverture de session graphique, tu trouveras peut-être des
+traces intéressantes dans /home/nicolas/.xsession-errors.
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120925152858.GE8535@sebian.nob900.homeip.net
+

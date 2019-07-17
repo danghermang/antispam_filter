@@ -1,0 +1,27 @@
+Subject:Re: j'entends ma souris !
+Le Mon, 22 Oct 2012 00:00:02 +0200, Gaëtan PERRIER a écrit :
+
+> Bonjour,
+> 
+> Le titre peut paraître étrange, vous aller peut-être me prendre pour un
+> fou mais pourtant c'est bien vrai : j'entends ma souris ! J'ai constaté
+> ça dans googleearth. Quand le curseur est dans la zone de la carte
+> chaque mouvement de la souris produit un bruit, sorte de grésillement
+> sourd, dans mes enceintes ! Si je suis dans la zone de menu rien. Ça le
+> fait aussi quand je bascule de bureau sous gnome-shell.
+> 
+> Gaëtan
+
+1- augmenter le niveau de sortie audio de l'ordinateur (avec alsamixer 
+par exemple) et baisser celui de l'ampli extérieur
+2- voir le cheminement du câble audio (l'éloigner des autres)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5084edef$0$21935$426a74cc@news.free.fr
+

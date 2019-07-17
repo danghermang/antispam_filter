@@ -1,0 +1,46 @@
+Subject:Re: Sin entorno =?UTF-8?B?Z3LDoWZpY28gdHJhcyBhY3R1YWxpemFyIGVsIGs=?=
+	=?UTF-8?B?ZXJuZWwgZW4gRGViaWFuIFdoZWV6eQ==?=
+
+
+El 08/11/12 15:30, Camaleón escribió:
+> El Wed, 07 Nov 2012 18:57:31 +0000, José Manuel (EB8CXW) escribió:
+>
+>> Tengo Debian testing, actualice el sistema y entre las actualizaciones
+>> estaba el nuevo kernel linux 3.2.0-4-686-pae, reinicie el sistema y mi
+>> sorpresa es que no aparece el entorno gráfico.
+> (...)
+>
+> Intenta lanzándolo manualmente con "startx". Si te aparece algún error,
+> haz un copia/pega para que veamos qué dice :-)
+>
+> Saludos,
+>
+
+Hola,
+
+Gracias por contestar.
+
+Como ya he dicho, el único mensaje que sale en el arranque del nuevo 
+kernel (3.2.0-4-686-pae) es que falla el gdm3. Terminado de arrancar 
+entra directamente en consola. y aquí puse "/etc/init.d/gdm3 stop"  y 
+luego "/etc/init.d/gdm3 start" pero sigue igual sin fiuncionar el 
+entorno gráfico
+
+La tarjeta que tengo es una Nvidia, que funcionaba bien con el antiguo 
+kernel (3.2.0-3-686-pae). Y como dije he tenido que volver a este kernel 
+para poder trabajar con entorno gráfico.
+
+-- 
+Un saludo,
+José Manuel
+Gran Canaria/España
+
+Si vas a escribir.. piensa en esto:
+no digas nada que no sea mas precioso que el silencio!!!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509C2FC9.4030100@infonegocio.com
+

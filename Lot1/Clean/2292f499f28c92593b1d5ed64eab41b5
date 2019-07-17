@@ -1,0 +1,85 @@
+Subject:Re: Problemas con lector de tarjetas wheezy
+Finalmente me decid=ED a buscar una soluci=F3n para ese molesto
+mensaje en la consola virtual cuando est=E1s tratando de hacer
+alguna tarea administrativa, el problema en cuesti=F3n son estos
+mensajes que incluso interrumpen el comando que est=E1s
+escribiendo o lo que est=E1s leyendo:
+
+[11690.011238] sd 6:0:0:0: [sdb] Asking for cache data failed
+[11690.011248] sd 6:0:0:0: [sdb] Assuming drive cache: write through
+[11741.720851] sd 6:0:0:0: [sdb] Test WP failed, assume Write Enabled
+[11741.722965] sd 6:0:0:0: [sdb] Asking for cache data failed
+[11741.722975] sd 6:0:0:0: [sdb] Assuming drive cache: write through
+[11793.433011] sd 6:0:0:0: [sdb] Test WP failed, assume Write Enabled
+[11793.435347] sd 6:0:0:0: [sdb] Asking for cache data failed
+[11793.435356] sd 6:0:0:0: [sdb] Assuming drive cache: write through
+[11845.140846] sd 6:0:0:0: [sdb] Test WP failed, assume Write Enabled
+[11845.143098] sd 6:0:0:0: [sdb] Asking for cache data failed
+[11845.143102] sd 6:0:0:0: [sdb] Assuming drive cache: write through
+[11896.856723] sd 6:0:0:0: [sdb] Test WP failed, assume Write Enabled
+
+Primero trato de confirmar qui=E9n es sdb aunque es obvio:
+(alguien me recuerda un comando mas adecuado??, con block
+devices tal vez, es que lsblk no lo muestra)
+
+:~$ file /sys/block/sdb
+/sys/block/sdb: symbolic link to `../devices/pci0000:00/0000:00:02.1
+/usb1/1-1/1-1:1.0/host6/target6:0:0/6:0:0:0/block/sdb'
+
+Ok, bus 1 del usb.
+
+Mirando en mi lista de dispositivos usb veo a esta amiguita:
+
+0bda:0158 Realtek Semiconductor Corp. USB 2.0 multicard reader
+
+y claro, corresponde al dispositivo sdb, ya que mirando en
+/proc/bus/usb/devices
+confirmo el id del dispositivo, el bus y el nombre del driver.
+
+T:  Bus=3D01 Lev=3D01 Prnt=3D01 Port=3D00 Cnt=3D01 Dev#=3D  2 Spd=3D480  Mx=
+Ch=3D 0
+D:  Ver=3D 2.00 Cls=3D00(>ifc ) Sub=3D00 Prot=3D00 MxPS=3D64 #Cfgs=3D  1
+P:  Vendor=3D0bda ProdID=3D0158 Rev=3D58.87
+S:  Manufacturer=3DGeneric
+S:  Product=3DUSB2.0-CRW
+S:  SerialNumber=3D20071114173400000
+C:* #Ifs=3D 1 Cfg#=3D 1 Atr=3D80 MxPwr=3D500mA
+I:* If#=3D 0 Alt=3D 0 #EPs=3D 2 Cls=3D08(stor.) Sub=3D06 Prot=3D50 Driver=
+=3Dums-realtek
+E:  Ad=3D01(O) Atr=3D02(Bulk) MxPS=3D 512 Ivl=3D0ms
+E:  Ad=3D82(I) Atr=3D02(Bulk) MxPS=3D 512 Ivl=3D0ms
+
+Ya con esto me voy y remuevo el driver: rmmod ums_realtek, y
+paff deja de salir el mensaje, entonces veo que opciones me da
+el driver para ver de que me puedo pegar y ah=ED es donde veo esta
+
+:~$ modinfo ums_realtek
+parm:           ss_en:enable selective suspend (int)
+
+mmmm, claro, parece que se puede suspender a voluntad
+seg=FAn qui=E9n sabe que criterios, bueno entonces a desactivarlo
+para probar. Agrego un archivo a /etc/modprobe.d/realtek-reader.conf
+con el siguiente contenido:
+
+options ums_realtek ss_en=3D0
+
+Guardo y vuelvo a cargar el driver modprobe ums_realtek. Con eso
+deja de salir el mensaje, aunque me preocupa un poco debido a que
+si miran la informaci=F3n del dispositivo usb, este se alimenta con 500mA
+es decir 0.5 Amperios, y si tu bater=EDa es 4400mA/h, bueno en un
+par de horas te habr=E1 gastado =E9l solito el 25% de la bater=EDa :S, a
+no ser que otro stack se encargue de suspenderlo.
+
+Gracias por sus aportes, y ojal=E1 podamos encontrar o generar
+un parche para este molesto mensaje.
+--=20
+
+"LARGA VIDA Y PODEROSA."
+              Blog de Haldrik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADYDv-Ap0=NXPFjai6pgvaGGz9cO+=of85=8x+d6fcmfsj-DSw@mail.gmail.com
+

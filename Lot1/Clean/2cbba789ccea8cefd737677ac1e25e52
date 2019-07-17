@@ -1,0 +1,26 @@
+Subject:script pour imagemagick
+bonjour,
+
+	je recherche à convertir des images avec imagemagick et j'ai un
+	souchis simple, dans l'arborescence j'ai des *.jpeg et *.jpg, mais
+	comment le faire passer dans le script en une seule passe?
+
+	j'utilise :
+
+	-a) rename ( man rename )
+	-b) detox  ( man detox )
+	-c) tree | awk '/jp*g/ {print $2}'
+	-d) imagemagick ( convert ... )
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121119181324.148b9f27.bernard.schoenacker@free.fr
+

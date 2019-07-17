@@ -1,0 +1,383 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Ed and Clemens
+
+I think that is right, 322 contains a lot of detailed statistical
+information about noise.  670 is a report of only a few pages entitled
+something like "Radio noise in the range 0.1 Hz to 100 GHz", and all
+the diurnal and seasonal variations are left out, so the number of
+graphs is very small.  Thanks for those references.
+
+For those that haven't looked at noise in detail, external or
+atmospheric noise is quantified as the noise power supplied by a
+perfect monopole, measured in dBs above the thermal noise (kTB) from
+the antenna's radiation resistance.  The minimum level is measured at
+quiet sites, and the CCIR also collects data for business areas and
+other environments.
+
+We can use the minimum noise level as the basis for designing receive
+antennas for communications and radar systems.  For the AM system at 1
+MHz that we were looking at, a perfect antenna at the edge of the
+coverage area (field-strength 1 mV/m) produces a signal power of -16
+dBm, which compares with thermal noise at -134 dBm.  Minimum external
+noise is (let's say) 50 dB above thermal noise, so it's at -84 dBm.
+That means that if a lossless antenna is used, external noise is 68 dB
+below the signal and thermal noise is 118 dB below the signal, at the
+antenna terminals.
+
+A comms system at this frequency would need a receiver noise figure of
+50 dB, of which perhaps 10 dB could be allocated to the receiver and
+40 dB to the antenna loss.  That would put thermal noise at the same
+level as minimum external noise.
+
+On the other hand a broadcast receiver can use a worse noise figure,
+perhaps 80 dB, because external noise then goes down to 30 dB below
+thermal noise, while the AM signal at -96 dBm is still 38 dB above
+thermal noise.
+
+That explains the use of ferrite antennas in AM receivers :)  Without
+the ferrite, the additional loss of about 20 dB would not give an
+adequate signal to thermal noise ratio.
+
+Alan G3NOQ
+
+
+
+On 28 October 2012 01:03, E/M Lyon <lyon@fred.net> wrote:
+> I think the report you are referring to is CCIR 322, upgraded by a separate
+> report by Spaulding and Washburn.  The upgrade added many new noise
+> measuring stations.  The problem with CCIR 322 is that all the measurements
+> were made on azimuthally omnidirectional antennas, and many HF users do not
+> use such antennas, and see hugely different values of noise.
+> Ed
+>
+> -----Original Message-----
+> From: antenna-discussion-bounces@antennex.com
+> [mailto:antenna-discussion-bounces@antennex.com] On Behalf Of Clemens Paul
+> Sent: Saturday, October 27, 2012 6:06 PM
+> To: 'Discussions of Antennas and Related Topics'
+> Subject: Re: [Antenna-discussion] Ferrite Antennas
+>
+> Hi Alan,
+>
+>>Thanks for looking up the figures in the CCIR report, I think CCIR-670?
+>
+> CCIR-670 is not (no more?) listed under
+> http://www.itu.int/rec/R-REC-P/en
+> The actual version P-372 can be freely downloaded from
+> http://www.itu.int/rec/R-REC-P.372-10-200910-I/en
+>
+>  > I feel that a communications systems are normally
+>>designed for minimum external noise, and I should have made that clear.
+>>Obviously it's highly variable and can be 40-50 dB higher than the
+>>minimum value.  I was quoting from memory
+>
+>> - is the minimum noise value around +50 dB?
+>
+> Correct,for quiet receiving sites it's a bit above 50dB.
+> For median city area (formerly called residential area) man made noise is
+> dominating and you have nearly 80dB according to curve "E".
+> Actual values probably may be even higher,P-372 is three years old and man
+> made noise surely has increased since then.
+>
+> 73
+> Clemens
+> DL4RAJ
+>
+>
+>>-----Original Message-----
+>>From: antenna-discussion-bounces@antennex.com
+>>[mailto:antenna-discussion-bounces@antennex.com] On Behalf Of boswell
+>>alan
+>>Sent: Saturday, October 27, 2012 5:09 PM
+>>To: Discussions of Antennas and Related Topics
+>>Subject: Re: [Antenna-discussion] Ferrite Antennas
+>>
+>>Hi Clemens
+>>
+>>Thanks for looking up the figures in the CCIR report, I think CCIR-670?
+>>I feel that a communications systems are normally designed for minimum
+>>external noise, and I should have made that clear.
+>>Obviously it's highly variable and can be 40-50 dB higher than the
+>>minimum value.  I was quoting from memory - is the minimum noise value
+>>around +50 dB?
+>>
+>>A point to remember is that while comms systems should be designed to
+>>detect minimum external noise, broadcast systems work on a much higher
+>>noise floor.
+>>
+>>Alan G3NOQ
+>>
+>>
+>>
+>>On 27 October 2012 14:18, Clemens Paul <cpaul@gmx.net> wrote:
+>>> Alan,
+>>>
+>>>  >Atmospheric noise is about +50dB rel. to kTB at 1 MHz,
+>>>
+>>> According to CCIR curves it is >70dB in average residential areas,
+>>> today probably >90dB due to all kinds of switching mode
+>>electronic devices.
+>>>
+>>> 73
+>>> Clemens
+>>> DL4RAJ
+>>>
+>>>>-----Original Message-----
+>>>>From: antenna-discussion-bounces@antennex.com
+>>>>[mailto:antenna-discussion-bounces@antennex.com] On Behalf
+>>Of boswell
+>>>>alan
+>>>>Sent: Friday, October 26, 2012 3:36 AM
+>>>>To: Discussions of Antennas and Related Topics
+>>>>Subject: Re: [Antenna-discussion] Ferrite Antennas
+>>>>
+>>>>Hi WBob
+>>>>
+>>>>Good point and the answer is - no!  but in an AM radio system the
+>>>>receiver is not sensitive enough to detect atmospheric noise, it's a
+>>>>'cheap and nasty' systems where thermal noise from the
+>>antenna and the
+>>>>receiver are predominant.
+>>>>
+>>>>Atmospheric noise is about +50dB rel. to kTB at 1 MHz, I
+>>think, so if
+>>>>we were designing a communications system, obviously it would need a
+>>>>better antenna.  With the same 5 dB receiver noise figure,
+>>the antenna
+>>>>would need only about a 45 dB loss, which is beyond the
+>>capability of
+>>>>an ordinary ferrite rod antenna.  Maybe a 3 ft whip antenna would be
+>>>>ideal for that, or a larger air-cored loop antenna.
+>>>>
+>>>>Alan G3NOQ
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>On 26 October 2012 02:14, wolfbob <wolfbob@csnsys.com> wrote:
+>>>>> Are you sure that there is a place on this globe where the
+>>signal to
+>>>>> noise ratio at 1  MHz  is set by thermal noise?
+>>>>>
+>>>>> WBob
+>>>>> ----- Original Message ----- From: "boswell alan"
+>>>>> <alan.boswell@blueyonder.co.uk>
+>>>>> To: "Discussions of Antennas and Related Topics"
+>>>>> <antenna-discussion@antennex.com>
+>>>>> Sent: Thursday, October 25, 2012 6:06 PM
+>>>>>
+>>>>> Subject: Re: [Antenna-discussion] Ferrite Antennas
+>>>>>
+>>>>>
+>>>>>> Kirk
+>>>>>>
+>>>>>> Minicircuits make good transformers and I have bought many small
+>>>>>> circuits including transformers over the years from them, but
+>>>>>> transformers are not antennas.  We have got the message
+>>>>that you are
+>>>>>> not interested in details, which makes you a bad source of
+>>>>>> information on subjects you don't understand :)
+>>>>>>
+>>>>>> By far the most widespread use of ferrite rod antennas is in
+>>>>>> medium-wave (and in Europe long-wave) portable radios.
+>>>>Let's have a
+>>>>>> look at the simple RF system calculation for a portable radio,
+>>>>>> assuming a 1 MHz carrier and a bandwidth of 10 kHz for
+>>the AM audio
+>>>>>> transmission.
+>>>>>>
+>>>>>> The thermal noise floor kTB for a 10 kHz bandwidth, as we have
+>>>>>> already seen, is -134 dBm.  Assuming a noise figure of 5
+>>dB for the
+>>>>>> receiver, and a 30-dB signal to noise ratio, we arrive at
+>>>>the signal
+>>>>>> power required from the antenna, and it is -134 + 30 + 5 dBm, in
+>>>>>> other words
+>>>>>> -99 dBm.
+>>>>>>
+>>>>>> A minimum field-strength of 1 mV/m can be assumed for an AM
+>>>>>> transmission, which means a power density of 2.654 nW per square
+>>>>>> metre, or -56 dBm per square metre.  We also know that
+>>the capture
+>>>>>> area for a lossless small antenna at 1 MHz, from the much-quoted
+>>>>>> formula, is 10729 square metres, or +40 dBsm.  Therefore
+>>the power
+>>>>>> delivered by a lossless antenna is -56+40 dBm, in other
+>>>>words -16 dBm.
+>>>>>>
+>>>>>> So we have -16 dBm delivered by a lossless antenna, but for
+>>>>our radio
+>>>>>> we only need -99 dBm to meet the system requirement.  That is a
+>>>>>> margin of 83 dB and it explains why ferrite antennas enjoys such
+>>>>>> popularity in portable radios, because 83 dB is a typical
+>>radiation
+>>>>>> efficiency (in other words signal power loss) for this type
+>>>>of antenna.
+>>>>>>
+>>>>>> It also explains why ferrite rod antennas are the size
+>>they are, in
+>>>>>> other words why they are not made one tenth the size, for
+>>example,
+>>>>>> even though that would make the unit manufacturing costs
+>>much less.
+>>>>>> You can be sure that the Japanese and Chinese manufacturers of
+>>>>>> portable radios are familiar with these numbers, even though they
+>>>>>> might not have reached New Jersey yet . . :).
+>>>>>>
+>>>>>> If anyone can see anything wrong with these figures,
+>>please say so,
+>>>>>> they need checking  :)
+>>>>>>
+>>>>>> Why is the radiation efficiency so low for these antennas? it's
+>>>>>> because of the minuscule radiation resistance compared to
+>>the loss
+>>>>>> resistance, which Alan P. and I seem to agree about in an
+>>>>approximate
+>>>>>> kind of way.  But you need to get into the details to
+>>>>appreciate this
+>>>>>> side of the discussion.
+>>>>>>
+>>>>>> It also explains why Kirk is shy about details :)
+>>>>>>
+>>>>>> Alan G3NOQ
+>>>>>> _______________________________________________
+>>>>>> This message was sent to: wolfbob@csnsys.com
+>>>>>>
+>>>>>> Antenna-discussion mailing list
+>>>>>> Antenna-discussion@antennex.com
+>>>>>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>>>>> For Upload of Attachments:
+>>>>>> http://download.antennex.com/listarch/psupload.html
+>>>>>> Searchable Archives:
+>>>>>> http://www.antennex.com/listlogin/
+>>>>>> To unsubscribe:
+>>>>>> Go to the web page link below and unsubscribe the above
+>>>>email address
+>>>>>> this message was sent to.
+>>>>>>
+>>>>>> Go to this web page - no passwd needed:
+>>>>>> http://antennex.com/help/subscribe.htm
+>>>>>>
+>>>>>>
+>>>>>
+>>>>> _______________________________________________
+>>>>> This message was sent to: alan.boswell@blueyonder.co.uk
+>>>>> Antenna-discussion mailing list Antenna-discussion@antennex.com
+>>>>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>>>> For Upload of Attachments:
+>>>>> http://download.antennex.com/listarch/psupload.html
+>>>>> Searchable Archives:
+>>>>> http://www.antennex.com/listlogin/
+>>>>> To unsubscribe:
+>>>>> Go to the web page link below and unsubscribe the above
+>>>>email address
+>>>>> this message was sent to.
+>>>>>
+>>>>> Go to this web page - no passwd needed:
+>>>>> http://antennex.com/help/subscribe.htm
+>>>>_______________________________________________
+>>>>This message was sent to: cpaul@gmx.net Antenna-discussion mailing
+>>>>list Antenna-discussion@antennex.com
+>>>>http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>>>For Upload of Attachments:
+>>>>http://download.antennex.com/listarch/psupload.html
+>>>>Searchable Archives:
+>>>>http://www.antennex.com/listlogin/
+>>>>To unsubscribe:
+>>>>Go to the web page link below and unsubscribe the above
+>>email address
+>>>>this message was sent to.
+>>>>
+>>>>Go to this web page - no passwd needed:
+>>>>http://antennex.com/help/subscribe.htm
+>>>>
+>>>>
+>>>>-----
+>>>>E-Mail ist virenfrei.
+>>>>Von AVG uberpruft - www.avg.de
+>>>>Version: 2012.0.2221 / Virendatenbank: 2441/5355 -
+>>>>Ausgabedatum: 26.10.2012
+>>>>
+>>>
+>>> _______________________________________________
+>>> This message was sent to: alan.boswell@blueyonder.co.uk
+>>> Antenna-discussion mailing list Antenna-discussion@antennex.com
+>>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>> For Upload of Attachments:
+>>> http://download.antennex.com/listarch/psupload.html
+>>> Searchable Archives:
+>>> http://www.antennex.com/listlogin/
+>>> To unsubscribe:
+>>> Go to the web page link below and unsubscribe the above
+>>email address this message was sent to.
+>>>
+>>> Go to this web page - no passwd needed:
+>>> http://antennex.com/help/subscribe.htm
+>>_______________________________________________
+>>This message was sent to: cpaul@gmx.net Antenna-discussion mailing list
+>>Antenna-discussion@antennex.com
+>>http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>For Upload of Attachments:
+>>http://download.antennex.com/listarch/psupload.html
+>>Searchable Archives:
+>>http://www.antennex.com/listlogin/
+>>To unsubscribe:
+>>Go to the web page link below and unsubscribe the above email address
+>>this message was sent to.
+>>
+>>Go to this web page - no passwd needed:
+>>http://antennex.com/help/subscribe.htm
+>>
+>>
+>>-----
+>>E-Mail ist virenfrei.
+>>Von AVG uberpruft - www.avg.de
+>>Version: 2012.0.2221 / Virendatenbank: 2441/5356 -
+>>Ausgabedatum: 26.10.2012
+>>
+>
+> _______________________________________________
+> This message was sent to: lyon@fred.net
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+>
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

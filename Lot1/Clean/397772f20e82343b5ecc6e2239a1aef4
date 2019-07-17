@@ -1,0 +1,36 @@
+Subject:[resolu]Re: Crash de X avec google-chrome
+En effet, c'est bien un soucis Nvidia
+Après avoir remarqué que X crashais aussi après avoir lancé minecraft, 
+ou une application utilisant OpenGL, j'ai tenté une mise à jour des 
+drivers NVIDIA.
+Apparemment cela fonctionne à nouveau...
+
+Encore merci pour votre aide!
+
+Le 12. 11. 12 20:28, Bzzz a écrit :
+> On Mon, 12 Nov 2012 20:02:45 +0100
+> Olivier <olivier@art-phi.com> wrote:
+>
+>> [  8243.294] 0: /usr/bin/X (xorg_backtrace+0x36) [0x7fdcb3572c66]
+>> [  8243.295] 1: /usr/bin/X (0x7fdcb33f4000+0x1827b9) [0x7fdcb35767b9]
+>> [  8243.295] 2: /lib/x86_64-linux-gnu/libpthread.so.0
+>> (0x7fdcb271c000+0xf030) [0x7fdcb272b030]
+>> [  8243.295]
+>> [  8243.295] Segmentation fault at address (nil)
+> À vue de naseaux, c'est l'appel de X à libpthread qui plante; vu que cette
+> lib fait partie des pkgs libc6, il-y-a peu de chances que ça soit purement
+> X qui plante.
+> Donc ça semble rejoindre les PBs décrits pour le drv nvidia.
+>
+> Re-teste avec nouveau pour voir ce qui se passe.
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A15068.6030205@art-phi.com
+

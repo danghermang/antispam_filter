@@ -1,0 +1,31 @@
+Subject:Re: Debian linux-image-3.2.0-0.bpo.1 bis 3 / cryptsetup
+On Fri, Nov 02, 2012 at 10:34:44PM +0100, Hans-Peter Teufel wrote:
+[...]
+> pts/local-top/cryptroot: line 345: cat: Permission denied
+> done.
+> error sending message: Connection refused
+> udevadm[92]: error sending message: Connection refused
+> 
+> Begin: Running /scripts/local-premount ... done
+> /init: line 3: mount: Permission denied
+[...]
+
+Is /tmp mounted with the 'noexec' option?  If so then you have hit
+bug #688794, which is not yet fixed.  You should be able to work
+around this as explained here:
+
+http://bugs.debian.org/688794#121
+
+Ben.
+
+-- 
+Ben Hutchings
+We get into the habit of living before acquiring the habit of thinking.
+                                                              - Albert Camus
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121102220411.GL13292@decadent.org.uk
+

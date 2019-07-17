@@ -1,0 +1,25 @@
+Subject:Re: How to squid3+ssl
+El Wed, 07 Nov 2012 09:19:44 -0500, Micky escribió:
+
+> Salu2 colegas, alguien que tenga al alcance algun tutorial de
+> squid3+ssl, que no he podido enontrar nada al respecto, odo me da
+> denegado
+
+No hace falta que repitas en mismo mensaje dos veces, te leemos bien. Si 
+no contestamos es porque no sabemos/no queremos :-P
+
+Si quieres que te mande algo tendrás que darme más datos, por ejemplo, 
+qué versión de debian y de squid tienes instaladas ya que el soporte para 
+ssl suele estar desactivado y hay que recompilar el paquete.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7dsd7$bcr$4@ger.gmane.org
+

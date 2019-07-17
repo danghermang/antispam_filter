@@ -1,0 +1,45 @@
+Subject:Re: [LUG] Free CrossOver :-)
+On 29/10/12 15:59, Rob Beard wrote:
+> Hi folks,
+>
+> Just seen this on Facebook, CodeWeavers are giving away a free copy of
+> CrossOver with 12 months of support on 31st October 2012 (from 0:00 to
+> 23:59 CST which I believe is about 5am UK time, although please do
+> correct me if my maths are wrong :-P).
+>
+> There is more information about it here:
+> http://www.codeweavers.com/flockthevote/
+>
+> Could be useful for anyone who wants to run a specific Windows
+> application on Linux and doesn't want to mess about with Wine.
+>
+> Rob
+>
+
+Just a heads up - other people's experiences may of course vary but
+purely from my own experiences, CrossOver is as much of a liability as a
+boon. There is nothing that can't be achieved by CrossOver that can't
+also be done by good old regular wine (worst case, you might need to
+update via PPA/repo/etc to get a really recent version with the latest
+bells and whistles). Wine is of course properly free, much more actively
+maintained and tweaked and infinitely more hackable. There are literally
+thousands of howtos and guides on the internet and the winedb usually
+has step by step info on pretty much every windows application you can
+possibly think of. CrossOver has never helped me more with the really
+big asks (CAD programs, Adobe CS, MS Office, etc) than wine.
+
+Thanks to the advent of very powerful affordable hardware and the rise
+of virtualization technology I find myself using wine less and less
+anyway, but although YMMV, honestly, CrossOver is just a big fat waste
+of time, even if you don't have to pay for it. Incidentally, CrossOver
+rarely works out of the box like they say - you'll frequently find
+yourself hacking it about following obscure forum posts on their site
+and you will find yourself asking "why the hell aren't I just using wine
+again?".
+
+Regards
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

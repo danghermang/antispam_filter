@@ -1,0 +1,33 @@
+Subject:Re: hs iptables et reverse dns
+On Sat, 10 Nov 2012 18:42:03 +0100
+mouss <mouss@ml.netoyen.net> wrote:
+
+>=20
+> en gros, =C3=A7a indique le bloc 86.70.0.0 - 86.70.255.255 serait allou=
+=C3=A9
+> dynamiquement...  On tente alors quelques requ=C3=AAtes dns pour confirmer
+> que les IPs ont un reverse dans la zone rev.sfr.net. pas la peine de
+> r=C3=A9soudre toutes les IPs (256*256 IPs), on tente aux bouts et au mili=
+eu
+> au hasard. de toute fa=C3=A7on, si je ne me trompe, J=C3=A9r=C3=A9my veut=
+ bloquer un
+> bloc "dynamique".
+
+Et c'est Tfacile =C3=A0 rejeter directement par le svr http (nginx):
+    # minist=C3=A8re int=C3=A9rieur
+    deny        193.252.228.0/24;
+
+--=20
+<s3th> je sens un manque de sexe la
+<flo> non aucun rapport
+<s3th> c'est ce que je dis
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121110185553.676ea63e@anubis.defcon1
+

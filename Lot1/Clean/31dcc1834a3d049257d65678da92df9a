@@ -1,0 +1,42 @@
+Subject:Re: Entrance en Debian
+El Tue, 13 Nov 2012 00:46:59 -0600, Esteban Monge escribió:
+
+> Próximamente se lanzará Enlightenment 1.7, resulta de que si los mayas
+> no tienen la razón, podremos ver al fin una versión "estable" de este
+> bello escritorio... como a veces soy medio purista... una de las pocas
+> cosas que no había podido hechar a andar era un Display Manager basado
+> en EFL, principalmente porque el que estaba, estaba, algo descuidado,
+> pero como que la cosa se reactivo y me gustaría que se mantenga así, así
+> que, hice dos páginas en el wiki de Debian de como logré hacerlo
+> funcionar:
+> 
+> En inglés:
+> http://wiki.debian.org/entrance
+> 
+> En español:
+> http://wiki.debian.org/es/entrance
+
+Qué detallazo que hayas detallado los pasos en la wiki, se agradece :-)
+
+> Como soy remalo en inglés, cualquier sugerencia, a mis burrencias, es
+> bienvenida...
+
+Un par cosas:
+
+1/ Echo en falta alguna imagen de Entrance, aunque no sé si el formato de 
+wiki que usa Debian permite integrar imágenes en las páginas o tienes que 
+enlazarlas.
+
+2/ El enlace a la versión es español apunta a la página en inglés.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7tos9$me$3@ger.gmane.org
+

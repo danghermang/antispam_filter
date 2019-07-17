@@ -1,0 +1,30 @@
+Subject:[svnbook] r4291 committed - Chapter 0 (preface)...
+Revision: 4291
+Author:   richardcavell@mail.com
+Date:     Fri Aug 31 22:20:48 2012
+Log:      Chapter 0 (preface)
+
+"you're mostly likely" -> "you're most likely"
+
+http://code.google.com/p/svnbook/source/detail?r=4291
+
+Modified:
+  /trunk/en/book/ch00-preface.xml
+
+=======================================
+--- /trunk/en/book/ch00-preface.xml	Fri Nov 11 09:07:46 2011
++++ /trunk/en/book/ch00-preface.xml	Fri Aug 31 22:20:48 2012
+@@ -685,7 +685,7 @@
+      <para>The book ends with reference material&mdash;<xref
+        linkend="svn.ref"/> is a reference guide for all Subversion
+        commands, and the appendixes cover a number of useful topics.
+-      These are the chapters you're mostly likely to come back to
++      These are the chapters you're most likely to come back to
+        after you've finished the book.</para>
+
+    </sect1>
+
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

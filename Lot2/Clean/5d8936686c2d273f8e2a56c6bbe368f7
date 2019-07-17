@@ -1,0 +1,220 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+For clarity, is it more or less fair than the old fee schedule? Why?
+
+- Brian J.
+
+
+> -----Original Message-----
+> From: Jesse D. Geddis [mailto:jesse@la-broadband.com]
+> Sent: Wednesday, November 14, 2012 11:49 AM
+> To: Brian Johnson; Owen DeLong
+> Cc: arin-consult@arin.net
+> Subject: Re: [ARIN-consult] [arin-announce] Fee Schedule Change
+> Consultation
+> 
+> Brian,
+> 
+> 	I think I answered that question succinctly. No.
+> 
+> 
+> --
+> Jesse D. Geddis
+> 
+> LA Broadband LLC
+> (626) 675-3176
+> AS 16602
+> 
+> 
+> 
+> 
+> On 11/14/12 9:48 AM, "Brian Johnson" <bjohnson@drtel.com> wrote:
+> 
+> I love the legacy holder "situation". We can disagree about legacy space
+> holders perpetually.
+> 
+> For this argument, do not consider legacy holders. Is the fee structure
+> fair otherwise?
+> 
+> - Brian J.
+> 
+> 
+> > -----Original Message-----
+> > From: Jesse D. Geddis [mailto:jesse@la-broadband.com]
+> > Sent: Wednesday, November 14, 2012 11:09 AM
+> > To: Brian Johnson; Owen DeLong
+> > Cc: arin-consult@arin.net
+> > Subject: Re: [ARIN-consult] [arin-announce] Fee Schedule Change
+> > Consultation
+> >
+> > Brian,
+> >
+> > 	The hyperbolic verbiage aside the point has been mentioned by
+> > many.
+> > Whether it's all of us subsidizing, flat out, organizations responsible
+> > for arguably some of the biggest waste of resources or smaller
+> > organizations subsidizing larger organizations it's all the same.
+> >
+> > 	When you take a small who pays 2,250 to consume 8,000 IP's and
+> > compare
+> > that to a large who pays $18k to consume a minimum of 262k ip's up to an
+> > unlimited amount it seems massively disproportionate.
+> >
+> > The large pays _at_most_ $0.14 per IP while the small pays $3.64 per IP.
+> >
+> > The fees don't encourage efficient use of address space via a financial
+> > stick. For example if I have a /14 and am requesting another /16 what the
+> > heck do I care how efficiently it's used? Anything else I get assigned is
+> > completely free.
+> >
+> > The fees put the burden on the backs of smaller organizations to carry
+> >the
+> > water for organizations responsible for the most waste.
+> >
+> >
+> > --
+> > Jesse D. Geddis
+> >
+> > LA Broadband LLC
+> >
+> >
+> >
+> >
+> >
+> > On 11/14/12 8:46 AM, "Brian Johnson" <bjohnson@drtel.com> wrote:
+> >
+> > > -----Original Message-----
+> > > From: Owen DeLong [mailto:owen@delong.com]
+> > > Sent: Wednesday, November 14, 2012 10:30 AM
+> > > To: Brian Johnson
+> > > Cc: John Curran; arin-consult@arin.net
+> > > Subject: Re: [ARIN-consult] [arin-announce] Fee Schedule Change
+> > > Consultation
+> > >
+> > >
+> > > On Nov 14, 2012, at 07:52 , Brian Johnson <bjohnson@drtel.com> wrote:
+> > >
+> > > > Owen,
+> > > >
+> > > > I'm not sure what you really expect to happen here. Do we give away
+> > > services to everyone so that they are the same as legacy holders...
+> >that
+> > > doesn't work. Do we start charging legacy holders for their resources
+> > >without
+> > > an agreement from them... I can feel the lawyers prepping papers right
+> > >now.
+> > > >
+> > >
+> > > Several options...
+> > >
+> > > 1.	Discontinue services to legacy holders that don't start paying.
+> >
+> > How does this help the situation? The only "services" they get is WHOIS
+> > details, which is more of a service to you and me than to them.
+> >
+> > > 2.	Treat LRSA Signatories as a group that isn't subjected to the new
+> > > fees.
+> >
+> > So now we have institutionalized legacy space holders in policy/process
+> > further. How do we unwind this later?
+> >
+> > > 3.
+> > >
+> > > > I will note that my understanding is that legacy holders will need to
+> > >sign
+> > > some kind of (L)RSA to get v6 space. They will then need to justify
+> >their
+> > > assignment (at least the IPv6 assignment) to get space. Possibly they
+> > >would
+> > > have to "back justify" their legacy space? Maybe this is a way we can
+> > >limp
+> > > along with V4 longer?
+> > >
+> > > As an example, a legacy holder with a /23 and a /24 of legacy IPv4
+> >space
+> > >and
+> > > an ASN issued prior to ARIN formation pays $0.
+> > > If that legacy holder signs the LRSA, they start paying $100/year. If
+> > >they don't,
+> > > they continue to pay $0.
+> > >
+> > > If they get IPv6 space, then, they have to sign the RSA for their IPv6
+> > >space
+> > > and pay $100/year for that, but they are not required to sign the LRSA
+> > >or RSA
+> > > with regards to their IPv4 space. Under the current fee structure, they
+> > >would
+> > > pay $100/year whether or not they sign the LRSA for their IPv4 space.
+> > >
+> > > Under the proposed fee structure, beginning with their 2013 billing,
+> >the
+> > >one
+> > > that did not sign the LRSA still pays $100/year only for their IPv6
+> > >space and
+> > > continues to pay $0 for everything else. The one that chose to
+> > >participate in
+> > > the ARIN process and sign the LRSA, OTOH, receives a bill not for $0,
+> > >not for
+> > > $100, but for $400/year.
+> > >
+> > > Now, there is a small exception to this... If that LRSA signature
+> > >occurred early
+> > > enough, they may only get charged either $125 or $225, depending on
+> how
+> > > one interprets the combination of RSA terms and LRSA terms with the
+> > > proposed fee structure in 2013, with that fee continuing to go up
+> > >$25/year
+> > > each year until it reaches the $400/year in either 7 or 11 years,
+> > >depending on
+> > > how ARIN determines the starting point.
+> >
+> > Agree to all of the math. I'm in also in agreement that the legacy
+> >holders
+> > are now in the position of being "takers" from the system as they have
+> > public resources that are widely considered to be under-used. However,
+> >the
+> > fees being charged here are pretty minor in the grand scheme of things.
+> > Even the dramatic $400 dollars mentioned in the previous math comes
+> down
+> > to less than a 20oz bottle of [pick your favorite soft drink] a day.
+> >
+> > >
+> > > > I think that I would like ARIN to avoid legal issues when possible.
+> > >I'm not
+> > > sure if ARIN counsel would want to chime in on sending bills to legacy
+> > >space
+> > > holders who have not signed an agreement with ARIN. This may help me
+> in
+> > > my processing of this topic.
+> > >
+> > >
+> > > I would like ARIN to avoid legal issues too.
+> > >
+> > > However, I also would like to avoid getting shafted in exchange for
+> > >trying to
+> > > be an upstanding member of the community.
+> >
+> > I do not agree that anyone is getting "shafted" and I think this type of
+> > verbiage does little to advance the topic. Also, you cannot force people
+> > outside a community to act as you wish, even if they have a less than
+> > positive impact on the community.
+> >
+> > - Brian J.
+> >
+> > _______________________________________________
+> > ARIN-Consult
+> > You are receiving this message because you are subscribed to the ARIN
+> > Consult Mailing
+> > List (ARIN-consult@arin.net).
+> > Unsubscribe or manage your mailing list subscription at:
+> > http://lists.arin.net/mailman/listinfo/arin-consult Please contact the
+> > ARIN Member Services
+> > Help Desk at info@arin.net if you experience any issues.
+> 
+
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

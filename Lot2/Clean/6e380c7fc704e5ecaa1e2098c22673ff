@@ -1,0 +1,47 @@
+Subject:Re: debian et onduleur
+Le Wed, 26 Sep 2012 00:35:19 +0200
+Bzzz <lazyvirus@gmx.com> a =E9crit:
+
+> On Wed, 26 Sep 2012 00:28:53 +0200
+> Ga=EBtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+>=20
+> >=20
+> > Une appli que j'utilise beaucoup, gvim, quand elle re=E7oit un
+> > SIGTERM se ferme sans rien sauvegarder. J'ai essay=E9 avec gedit et
+> > c'est pareil ... Donc avoir l'=E9cran qui fonctionne est utile pour
+> > pouvoir sauvegarder ce genre d'appli et =E9viter les pertes de
+> > donn=E9es.
+> =20
+> Heu, c'est normalement de la responsabilit=E9 de l'OP de faire =E7a
+> r=E9guli=E8rement; et au pire CTRL-S m=EAme en aveugle =E7a ne pose pas
+> de r=E9el PB:)
+
+C'est s=FBrement un tord mais je ne sauvegarde pas toutes les 5 s, et comme=
+ les
+coupures de courant ne pr=E9viennent ...
+La sauvegarde en aveugle ne fonctionne que si tu n'as qu'un fichier concern=
+=E9
+et que l'appli est au premier plan.
+Et dans le cas o=F9 tu =E9tais en train de cr=E9er un nouveau fichier le ra=
+ccourci
+de sauvegarde va t'ouvrir une bo=EEte de dialogue pour choisir un
+r=E9pertoire et entrer un nom. Tu pourras dire ce que tu veux mais je pense
+qu'avoir un =E9cran allum=E9 dans ces cas l=E0 est quand m=EAme bien pratiq=
+ue !
+
+> Je te signale au passage qu'il existe une option de sauvegarde auto
+> param=E9trable dans toutes les versions de gedit.
+
+De toute fa=E7on je n'utilise pas gedit, c'=E9tait juste pour l'exemple.
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120926010409.75f679b6e55993b8cf619c34@neuf.fr
+

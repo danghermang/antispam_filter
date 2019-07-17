@@ -1,0 +1,72 @@
+Subject:Re: MKV se oye pero no se ve
+El Thu, 30 Aug 2012 19:48:15 +0200, Marc Marí escribió:
+
+> Lo de mi mensaje anterior, no le hagáis caso, soy yo que hago las cosas
+> a lo cutre, intentando ejecutar vlc como usuario "prueba" desde la
+> sesión mía. Ahora me he logueado como "prueba" directamente, y sale más
+> normal. 
+
+Bueno, no hace falta iniciar sesión, con ejecutar "su -x prueba" sería 
+suficiente :-)
+
+> Esto es lo que sale en "mensajes" como usuario "prueba" después de 10
+> segundos de ejecución: http://pastebin.com/anZUYGpH , lo que ya
+> habíamos visto. Así que nada nuevo
+
+Hombre, hay más datos registrados pero no veo ningún error :-?
+
+¿Y la salida de mplayer?
+
+> Además, he desinstalado bumblebee y todas sus dependencias (módulo de
+> Nvidia incluido), para asegurarme que no sea eso. Así que,
+> recapitulando, ahora tengo que:
+> 
+> -Estoy usando unicamente la gráfica Intel 
+
+Con el driver de intel, supongo. Intenta cargar el kernel 3.2 con el 
+fbdev.
+
+> -Estoy usando kernel 3.2.0
+
+Y con el kernel anterior funciona. Eso es lo que más me descoloca porque 
+no veo ninguna a relación entre un kernel y que no puedas reproducir la 
+capa de vídeo en determinados reproductores.
+
+> -Archivos mkv, avi y mp4 solamente se oyen, no se ven ni la imagen ni
+> los subtitulos ni los efectos del player en mplayer y vlc
+> -Totem funciona perfectamente con los tres tipos de archivo solamente
+> si hago lo que ha dicho Denis (pero me jode que no funcionen los otros 
+> players, pero si no se puede arreglar, ya me conformo) 
+
+Sí, es muy extraño. Y más extraño es que tanto vlc y mplayer funcionen 
+sin problemas con otro kernel... yo descartaría pues problema de códecs y 
+de las versiones de los programas porque estas dos son constantes, no han 
+cambiado y aún así en un determinado escenario funcionan pero en otro no.
+
+> -Los logs no muestran fallos aparentes 
+
+No muestra nada, cierto. Para los reproductores es como si no hubiera 
+ningún problema.
+
+> -Desactivar la aceleración de vídeo (overlay), tampoco funciona
+> 
+> Así pues, no tenemos nada, porque si en vlc es lo mismo en mi usuario
+> que en el usuario "prueba", pasará igual con totem y con mplayer
+
+Aunque creas que va a ser lo mismo, compruébalo, no te quedes con la duda.
+
+> Un saludo y muchas gracias Camaleón
+
+De nada, a ver si sacamos algo en claro.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k1qf3l$hd2$2@ger.gmane.org
+

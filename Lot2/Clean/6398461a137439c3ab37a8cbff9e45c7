@@ -1,0 +1,110 @@
+Subject:Re: [Translators-l] Fundraising message 20212
+Thank you Joseph.
+Your answer cleared my head, and now translations updated.
+
+--Takashi
+
+On Fri, Oct 12, 2012 at 9:17 AM, Joseph Seddon <jseddon@wikimedia.org> wrot=
+e:
+> Hey takashi.
+>
+> 1) Tomorrow I plan to update the ways to give request. Its quite a job
+> integrating the translations and the original idea was that I wanted to
+> avoid translators having to worry about formatting but to be honest proba=
+bly
+> just made the situation worse. In fact I am almost 100% certain I did. The
+> main reason for that attempt is that sometimes translators try to
+> transliterate or translate links or addresses when they shouldn't be and =
+in
+> fact this reason in part applies to point 2 you raise.
+>
+> 2) Yeah that particular change was probably unnecesary and I have just
+> reverted that one.
+>
+> 3) I noticed that. For the time being its been easy enough to simply upda=
+te
+> the number when I am moving the translations. The number was revised upwa=
+rds
+> and didn't update all the numbers everywhere (too many numbers. Ill update
+> the number for future translations but so far its been a minor issue to
+> rectify :)
+>
+> Thanks :)
+>
+> Seddon
+>
+> On Fri, Oct 12, 2012 at 12:30 AM, Takashi OTA
+> <supertakot+translators@gmail.com> wrote:
+>>
+>> Hi lists,
+>>
+>> I'm working on the fundraising 2012 messages into Japanese.
+>>
+>> 1:
+>> In [[Fundraising_2012/Translation/Ways_to_give/12]],
+>> the source message seems as:
+>>
+>> * Follow the on-screen directions from that point on.  You can find
+>> more information on $waystogiveurl PayPal's page$ways2giveclose.
+>>
+>> Should these $waystogiveurl and $ways2giveclose be used as brackets,
+>> like composing [[PayPal's page]]?
+>>
+>> 2:
+>> In [[Fundraising_2012/Translation/Donor_information_pages/2f]],
+>> =93In the meantime, please look at the following URL for other options
+>> that may be available to you at this time:[[Ways to Give/en|other ways
+>> to give]].=94
+>>
+>> has changed into
+>>
+>> =93 In the meantime, please look at the following URL for other options
+>> that may be available to you at this time:  '''Ways to give'''.=94
+>>
+>> recently (link removed). Will '''Ways to give''' not be linked when
+>> released?
+>> Some languages (including Japanese) do not have colons and a notation
+>> to place noun (clause) after that. So I considered to incorporate
+>> '''Ways to give'''
+>> into the sentence before, if it is not a link (or even it is).
+>> I would like to know why this change has been made, and where the actual
+>> "the following URL" will be.
+>>
+>> 3:
+>> In [[Landing Page and Banner messages]], the message 4b says "150 staffs=
+",
+>> while the message "140 employees". The fact may be in between 140 and
+>> 150 or so :)
+>> but readers may regard it inconsistent, if both are read.
+>>
+>> Bests,
+>>
+>> --OTA Takashi
+>>
+>> _______________________________________________
+>> Translators-l mailing list
+>> Translators-l@lists.wikimedia.org
+>> https://lists.wikimedia.org/mailman/listinfo/translators-l
+>
+>
+>
+>
+> --
+> --
+>
+> Joseph Seddon
+>
+> Fundraiser Translation Coordinator
+> Wikimedia Foundation
+>
+>
+> _______________________________________________
+> Translators-l mailing list
+> Translators-l@lists.wikimedia.org
+> https://lists.wikimedia.org/mailman/listinfo/translators-l
+>
+
+_______________________________________________
+Translators-l mailing list
+Translators-l@lists.wikimedia.org
+https://lists.wikimedia.org/mailman/listinfo/translators-l

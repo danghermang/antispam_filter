@@ -1,0 +1,36 @@
+Subject:Re: ver DNS desde consola
+El Sat, 22 Sep 2012 06:44:18 -0500, Constantino Vargas escribió:
+
+> Buenos días amigos, que comando linux desde consola se usa para ver que
+> numero DNS de mi proveedor de internet
+
+Como ya te han comentado, el archivo "/etc/resolv.conf" suele contener 
+los datos de los servidores DNS a utilizar pero puede ser que este 
+archivo esté vacío o que contenga datos no actualizados.
+
+Otra opción es usar alguna de las herramientas dedicadas (p. ej., "dig") 
+pero estas solamente te devuelven el primer servidor DNS que tengas 
+configurado y que responda, no todos los disponibles. Además estos 
+comandos suelen consultar el archivo "resolv.conf" por lo que sería 
+equivalente a la primera opción:
+
+sm01@stt008:~$ dig google.com | grep -i server
+;; SERVER: 80.58.0.33#53(80.58.0.33)
+
+Si usas un servidor DHCP para que te proporcione estos datos 
+automáticamente, la información sobre los DNS se almacena en el archivo 
+".leases" de tu conexión, y que seguramente estarán bajo:
+
+/var/lib/dhcp/dhclient.eth0|wlan0.leases
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3kj32$mv$11@ger.gmane.org
+

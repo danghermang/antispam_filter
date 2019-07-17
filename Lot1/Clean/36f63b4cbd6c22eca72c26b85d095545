@@ -1,0 +1,259 @@
+Subject:=?ISO-8859-1?Q?Lauch-Bulgur-Buletten_mit_Lauch-=2E=2E=2E=3A_Rezept_des_Tages_vom_03=2E11=2E2012?=
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <title>essen-und-trinken.de - Rezept des Tages vom  3. November 2012</title>
+<script type="text/javascript" src="/js/functions.js"></script>
+<script type="text/javascript" src="/js/dragdrop_functions.js"></script>
+<script type="text/javascript" src="/js/md5.js"></script>
+<script type="text/javascript" src="/js/box.js"></script>
+<script type="text/javascript" src="/js/ssoUserQuickReg.js"></script>
+<script type="text/javascript" src="/js/ssoUser.js"></script>
+<script type="text/javascript" src="/js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="/js/thickbox-patched.js"></script>
+<script type="text/javascript" src="/food/javascript/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="/food/javascript/content.js"></script>
+<script type="text/javascript" src="/js/cmtools.js"></script>
+<script type="text/javascript" src="/js/s_code.js"></script>
+<script type="text/javascript" src="/sf/prototype/js/prototype.js"></script>
+<script type="text/javascript" src="/sf/prototype/js/effects.js"></script>
+<script type="text/javascript" src="/sf/prototype/js/controls.js"></script>
+<script type="text/javascript" src="/js/asset_recipe.js"></script>
+<script type="text/javascript" src="/js/window.js"></script>
+<script type="text/javascript" src="/js/debug.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/food/css/default.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/modal_window.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/debug.css" />
+</head>
+<body>
+<div style="float:right; position:absolute;">
+ <script type="text/javascript">
+ <!--
+ var IVW = "http://esundtri.ivwbox.de/cgi-bin/ivw/NP/1021274;558804,,FOOD,?r=";
+ document.write("<img id=\"ivwpx\" src=\"" + IVW + escape(document.referrer)+"&d=" + (Math.random()*100000) + "\" width=\"1\" height=\"1\" alt=\"\" name=\"ivwpx\" />");
+
+ //var clickcounter=0;
+ 
+ function updateIVW(clickedLink) {
+   // /topthemen/spiele/kuchenschlacht/
+   /*
+   if (clickedLink == '/topthemen/spiele/kuchenschlacht/') {
+     clickcounter++;
+   }
+   if (clickcounter>1) {
+     // alert("reset");
+     clickcounter=0;
+     return;
+   }
+   */
+     $('ivwpx').src = IVW + escape(document.location)+"&d="+(Math.random()*100000);
+try { _gaq.push(['_trackPageview', clickedLink]); } catch(err) {}
+try { void(s.t()); } catch(err) {}
+        // Update SiteCatalyst
+     }
+
+  function trevent(category, action, optional_label, optional_value) {
+    try {
+ _gaq.push(['_trackEvent', category, action, optional_label, optional_value]);
+    } catch(err) {}
+  }
+
+ // -->
+ </script>
+ <noscript>
+        <img src="http://esundtri.ivwbox.de/cgi-bin/ivw/NP/1021274;558804,,FOOD,?r=" width="1" height="1" alt="" />
+ </noscript>
+ <!-- Google-Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3022617-1']);
+  _gaq.push(['_anonymizeIp']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</div>
+
+  
+  <script type="text/javascript">
+<!--
+  var szmvars="esundtri//CP//1014196";
+//-->
+  </script>
+  <script src="http://esundtri.ivwbox.de/2004/01/survey.js" type="text/javascript"></script>
+
+
+<img src="http://guj.122.2o7.net/b/ss/gujessentrinken/1/H.20.2--NS/0?pageName=newsletter:newsletter&ch=newsletter&c1=RezeptdesTages-03.11.2012&c7=newsletter&c12=newsletter:newsletter:RezeptdesTages-03.11.2012&h1=newsletter,newsletter,RezeptdesTages-03.11.2012" height="1" width="1" alt="" />
+<style type="text/css">
+body { background-color: #fff; margin: 0 15px; padding: 0; }
+body, td { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; color: #000; }
+td.linie { background-color: #CCCCCC; }
+.rezeptbild {width: 310px; border: 1px solid #CCCCCC; }
+a { color: #993366; text-decoration: none; }
+h2, h3, h4 { margin: 0; padding: 0; }
+h2 { font-family: Times, serif; letter-spacing: 0.04em; line-height: 30px; color: #7E748A; font-size: 24px; font-weight: bold; }
+h4 { font-size: 12px; }
+.grau { color: #666;}
+.link_video { background: url(http://www.essen-und-trinken.de/food/newsletter/images/link_video.gif) no-repeat 0 2px;   padding: 1px 0 1px 24px; }
+.link_pfeil { background: url(http://www.essen-und-trinken.de/food/newsletter/images/link_pfeil_rebrush.gif) no-repeat 0px -3px; padding: 1px 0 1px 15px; margin-bottom: 30px; }
+
+#heftkasten {margin-top:15px; background-color:#f0e9d8; height:170px; width: 565px;}
+#heftkasten h4 {font-size: 12px; color: #666666;}
+#heftkasten h3 {margin-top:2px;}
+#heftkasten p {color: #666666;}
+#footer { width: 565px; margin-top: 15px; border: none; color: #999; }
+#footer .text{ color: #999; padding:15px; text-align: center;}
+#footer a { color: #999; }
+
+td  p {margin:0px;}
+.h2, .h3, .h4 {margin:0;padding:0;font-weight:bold;} 
+.h2 { font-family: Times, serif; letter-spacing: 0.04em; line-height: 30px; color: #7E748A; font-size: 24px; font-weight: bold; padding-top:10px;}
+.h3 {color:#444444;font-size:14px;} 
+.h4 {font-size:12px;}
+#heftkasten .h3 {margin-top:2px;} 
+#heftkasten .h4 {font-size:12px;color:#666666;} 
+</style>
+<table width="565" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img src="http://www.essen-und-trinken.de/food/newsletter/images/px.gif" alt="" width="332" height="1" /></td>
+  <td><img src="http://www.essen-und-trinken.de/food/newsletter/images/px.gif" alt="" width="234" height="1" /></td>
+ </tr>
+ <tr>
+  <td colspan="2" style="padding: 4px 15px 5px;" align="center"><a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLinBrnGHxKCpS6sfcStGb5lw8W0bBhOG5mpqVsje_HxHDTqVHa" class="grau">Wenn diese Nachricht nicht korrekt angezeigt wird, klicken Sie bitte hier.</a></td>
+ </tr>
+ <tr style="height:1px">
+  <td colspan="2"><img src="http://www.essen-und-trinken.de/food/newsletter/images/dashed.gif" alt="" height="1" width="565" /></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <table width="565" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+    <tr>
+     <td><a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLinBrnGHxKCpS6tvcStGb5lw8W0bBhOG5mpqVsje_HxHDTqVHb"><img src="http://www.essen-und-trinken.de/food/newsletter/images/et_logo.gif" alt="" width="117" height="66" border="0" /></a></td>
+     <td valign="bottom" align="right" style="color:#444444; font-size: 13px; padding-bottom: 9px;"><b>Rezept des Tages</b>&nbsp; 3. November 2012</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+   
+ <tr style="height:1px">
+  <td colspan="2"><img src="http://www.essen-und-trinken.de/food/newsletter/images/dashed.gif" alt="" height="1" width="565" /></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+           <a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLinBrnGHxKCpS6t_cStGb5lw8W0bBhOG5mpqVsje_HxHDTqVHY"><div class="h2">Lauch-Bulgur-Buletten mit Lauch-Sauce</div></a>
+   
+   <div class="link_pfeil">        <a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLinBrnGHxKCpS6tPcStGb5lw8W0bBhOG5mpqVsje_HxHDTqVHZ"><b>zum Rezept bei essen-und-trinken.de</b></a>
+      </div>
+  </td>
+ </tr>
+ <tr>
+  <td valign="top" style="padding: 0 10px 45px 0px;">
+  <div class="rezeptbild"><a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLinBrnGHxKCpS6tfcStGb5lw8W0bBhOG5mpqVsje_HxHDTqVHe"><img src="http://static1.essen-und-trinken.de/uploads/thumbnails/0003/00000000003/310x310/Lauch-Bulgur-Buletten-mit-Lauch-Sauce-547e99fc64561ce5a1fd1a6848d3fa1d_et2012010961.jpg" alt="Lauch-Bulgur-Buletten-mit-Lauch-Sauce-547e99fc64561ce5a1fd1a6848d3fa1d_et2012010961" /></a></div>
+  </td>
+  <td valign="top">
+   <div style="padding: 0px 0px 45px 0px;">
+    <div class="h3 grau">Zutaten</div>
+  <span class="grau">F&uuml;r 4 Portionen</span>      <br /><br />
+   Buletten<br />
+1 Stange Lauch, (ca. 280 g)<br />
+60 g Schalotten<br />
+1 kleine rote Chilischote<br />
+8 El Oliven&ouml;l<br />
+100 g Bulgur<br />
+1 Tl Tomatenmark<br />
+150 ml Gem&uuml;sefond<br />
+ Salz<br />
+ Pfeffer<br />
+5 Stiele glatte Petersilie<br />
+ Saft von 1/2 Bio-&shy;Zitrone<br />
+30 g Parmesan, (feingerieben)<br />
+1 Eigelb, (Kl. M)<br />
+30 g Semmelbr&ouml;sel<br />
+ Sauce<br />
+ Salz<br />
+100 ml Wermut, (z.B. Noilly Prat)<br />
+180 ml Schlagsahne<br />
+70 ml Milch<br />
+    <br />
+    <div class="h3 grau">Zubereitungszeit</div>
+    25 min<br />plus Garzeit 40 Minuten   </div>
+  </td>
+ </tr>
+ <tr style="height:1px">
+  <td colspan="2"><img src="http://www.essen-und-trinken.de/food/newsletter/images/dashed.gif" alt="" height="1" width="565" /></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br />
+   <br />
+   <div class="h3">Zubereitung</div>
+  <p>1. F&uuml;r die Buletten den Lauch putzen, l&auml;ngs vierteln, gr&uuml;ndlich &shy;waschen und abtupfen. Den hellen und den dunklen Anteil getrennt in sehr feine &shy;Streifen schneiden. Schalotten fein w&uuml;rfeln. Chili putzen und in feine &shy;Ringe schneiden. &shy;</p>
+<br />
+<p>2. 3 El &Ouml;l in einem Topf erhitzen, Schalotten und Chili darin bei mittlerer &shy;Hitze 2 Minuten glasig d&uuml;nsten. Die hellen Lauchstreifen und den Bulgur &shy;zugeben und 1 Minute d&uuml;nsten. Tomatenmark unterr&uuml;hren und 30 Sekunden &shy;r&ouml;sten. Mit Gem&uuml;sefond abl&ouml;schen, dann zugedeckt auf dem &shy;ausgeschalteten Herd 20-25 Minuten quellen lassen, mit Salz und Pfeffer &shy;w&uuml;rzen. Petersilienbl&auml;tter abzupfen und fein schneiden. Bulgur-Masse &shy;mit Petersilie, Zitronensaft, Parmesan, Eigelb und Semmelbr&ouml;seln vermengen, &shy;eventuell leicht mit Salz und Pfeffer nachw&uuml;rzen. Aus dieser Masse mit &shy;feuchten H&auml;nde 8 gleich gro&szlig;e Buletten formen, leicht andr&uuml;cken &shy;und bis zum Braten kalt stellen. &shy;</p>
+<br />
+<p>3. F&uuml;r die Sauce die dunklen Lauchstreifen in kochendem Salzwasser 10 Sekunden &shy;blanchieren, in ein Sieb gie&szlig;en, abschrecken und gut ausdr&uuml;cken. &shy;Wermut in einen Topf geben und bei mittlerer Hitze auf 2-3 El einkochen. Sahne &shy;und Milch zugeben und offen 3-4 Minuten bei milder Hitze kochen lassen. Lauch &shy;zugeben und mit einem Schneidstab fein p&uuml;rieren. Sauce durch ein feines &shy;Sieb in einen zweiten Topf gie&szlig;en, mit Salz w&uuml;rzen. &shy;</p>
+<br />
+<p>4. Restliches &Ouml;l in einer beschichteten Pfanne erhitzen, Buletten darin bei &shy;mittlerer Hitze 4-5 Minuten rundherum braten. Sauce erw&auml;rmen und mit &shy;jeweils 2 Buletten auf vorgew&auml;rmten Tellern servieren. Dazu passt &shy;Kartoffelp&uuml;ree mit gebratenen Mandeln. &shy;</p>
+<br />
+   <br />
+   <div class="link_pfeil"><a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLinBrnGHxKCpS6SvcStGb5lw8W0bBhOG5mpqVsje_HxHDTqVHf">Bewertungen und Kommentare zum Rezept</a></div>
+  </td>
+ </tr>
+</table>
+
+<!-- Abo-Banner -->
+<div class="g_ad" style="float:none; clear:both; margin:20px 0 10px 0;">
+
+<table cellspacing="0" cellpadding="0" width="100%">
+<tr>
+  <a href="http://mail.essen-und-trinken.de/HS?a=FtX7CqTd3yHi8SA9MKLinBrnGHxKLJ15NwjtS5kGaJwo0bBhOG5mpqVsje_HxHDTqUuh"><img src="https://t.emvcdn.com/4/9/0/36490/225408736.jpg" alt="" style="border:0;"></a></td>
+</tr>
+</table>
+
+
+
+
+</div>
+<!-- /Abo-Banner -->
+
+<table cellpadding="0" cellspacing="0" width="565" id="footer">
+ <tr style="height:30px">
+  <td><img src="http://www.essen-und-trinken.de/food/newsletter/images/dashed.gif" alt="" height="1" width="565" /></td>
+ </tr> 
+ <tr style="height:24px; background-color: #574E5F">
+  <td valign="top">&nbsp;</td>
+ </tr>
+ <tr>
+  <td class="text">
+   Sie erhalten diese E-Mail, weil Sie den Newsletter von
+   essen-und-trinken.de abonniert haben. Der Newsletter wird t&auml;glich
+   verschickt.<br />
+   <br />
+
+   Exclusive &amp; Living digital GmbH, Am Baumwall 11<br />
+   20459 Hamburg, Fon +49-(0)40-3703-4214<br />
+   service@essen-und-trinken.de<br />
+   <br />
+   Amtsgericht Hamburg<br />
+   HRB 75612<br />
+
+   Umsatzsteuer-ID: DE118931493<br />
+   <br />
+   <a href="http://mail.essen-und-trinken.de/J?a=ENX7CqTd3yHi8SA9MKLinBrnGHxKCpS6sPcStGb5lw8W0bBhOG5mpqVsje_HxHDTqVHV">Hier k&ouml;nnen Sie den HTML-Newsletter abbestellen.</a>
+  </td>
+ </tr>
+</table>
+<!-- 22.07.2009 -->
+<img src="http://mail.essen-und-trinken.de/HO?DdX7CqTd3yHi8SA9MKJPVXDnGHxKLDC0KgjtS5kGBP8NK54.gif" border="0" alt="" width="1" height="1"></body></html>
+
+

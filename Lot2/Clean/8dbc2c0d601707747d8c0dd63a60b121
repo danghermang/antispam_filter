@@ -1,0 +1,37 @@
+Subject:Re: kan je een bootable CD maken van een Ubuntu op (verborgen) disk ?
+Hoi Marc, =
+
+
+je zegt niet welke extra drivers...
+Is dat ook een gelijkaardige model, de 1225C of een X101CH ofzo ?
+De vraag is of je ook niet simpelweg een iso kunt/mag maken van sda1 waar
+het systeem (verborgen) in zit, MET die non-free drivers die nodig zijn voor
+de Atheros, de Cedar en andere rariteiten waarvoor je non free drivers nodig
+hebt.
+
+Y P =
+
+
+
+On Mon, Oct 22, 2012 at 10:06:04AM +0200, Marc Coevoet wrote:
+> On 22-10-12 08:40, Y P wrote:
+>> Hallo,
+>> (bij het live uitproberen van Cubuntu bleek al dat deze vermoedens gegro=
+nd
+>> waren: 't scherm ging in een lagere resolutie, 't scherm was daardoor ni=
+et
+>> gevuld).
+>
+> Ik heb een eee pc met "Ubuntu Certified" sticker op, uit de Auchan.fr.
+>
+> Die heeft een extra driver nodig, en dan is t ok.  Zit in  =
+
+> Synaptic/installeer extra drivers ...
+>
+> Marc
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

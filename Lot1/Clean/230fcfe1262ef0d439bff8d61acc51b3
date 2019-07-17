@@ -1,0 +1,33 @@
+Subject:=?ISO-8859-1?Q?D=E9marrage_via_cl=E9_usb_pour_l=27inst?=
+	=?ISO-8859-1?Q?allation_probl=E9matique?=
+Bonjour,
+
+Je tente d'installer debian 6.0.5 via cl=E9 usb sur un pc portable packar=
+d=20
+bell easy note TS. Durant le d=E9marrage, le pc arrive jusqu'au menu (o=F9=
+=20
+l'on choisit installation, installation graphique, etc.) et il est=20
+impossible de faire quoi que ce soit, et donc de s=E9lectionner quelque c=
+hose.
+
+La m=EAme cl=E9 usb d=E9marre bien sur un toshiba (je peux installer debi=
+an=20
+sans soucis)... Par contre, j'ai le m=EAme probl=E8me sur netbook acer.
+
+J'ai recommenc=E9 la cl=E9 usb (reformat=E9, remis l'iso et le boot.img.g=
+z)=20
+mais =E7a ne change rien.
+
+Auriez-vous des id=E9es ?
+
+Merci par avance.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5041EBFA.4000501@snurf.info
+

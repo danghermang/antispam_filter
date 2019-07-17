@@ -1,0 +1,42 @@
+Subject:Re: Problema cargando pxelinux.0
+On Thu, Oct 11, 2012 at 09:15:07PM -0400, Ruben Cervantes Rodríguez wrote:
+> Hola lista necesito ayuda bueno según tengo entendido en el sitio de
+> syslinux.org dicen que se puede cargar la configuración del pxelinux.cfg
+> que tengo en mi directorio raíz de mi Trivial TFTP, usando la mac de la
+> tarjeta o la dirección ip en hexadecimal pero esto no me funciona solo
+> funciona con el archivo default dentro de la carpeta pxelinux.cfg.
+> Necesito saber que tengo que hacer para que me funcione usando la mac o la
+> ip en hexadecimal según syslinux el fichero default debería funcionar en
+> cualquiera de estas carpetas o en la raíz:
+> 
+>        /mybootdir/pxelinux.cfg/01-88-99-aa-bb-cc-dd
+>        /mybootdir/pxelinux.cfg/C000025B
+>        /mybootdir/pxelinux.cfg/C000025
+>        /mybootdir/pxelinux.cfg/C00002
+>        /mybootdir/pxelinux.cfg/C0000
+>        /mybootdir/pxelinux.cfg/C000
+>        /mybootdir/pxelinux.cfg/C00
+>        /mybootdir/pxelinux.cfg/C0
+>        /mybootdir/pxelinux.cfg/C
+>        /mybootdir/pxelinux.cfg/default
+> 
+> No se si es el TFTP que estoy usando le falta alguna opción o que dentro
+> de esas carpeticas hay que poner algo mas. Revisé mi syslog y me sale un
+> error que dice que no se encuentra el archivo o el directorio o que no
+> tengo acceso, espero por la ayuda de alguien que haya chocado con esto
+> gracias de antemano.
+
+Si puedes enviar el mensaje que ves en syslog, creo te podemos ayudar 
+mejor.
+
+Saludos.
+
+-- 
+Pablo Jiménez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121012045526.GA4356@emblema.fh.vtr.net
+

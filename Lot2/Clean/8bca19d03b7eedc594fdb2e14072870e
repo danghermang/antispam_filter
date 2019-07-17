@@ -1,0 +1,35 @@
+Subject:Re: [rlug] Migrare bind,mysql, wordpress
+2012/11/5 Claudiu Nicolaie CISMARU <claudiu@virtuamagic.com>:
+> On Monday 05 November 2012 20:08:56 Ionut Eana wrote:
+>> Salut,
+>>
+>> Eu am un wordpress in AWS si nu am avut nicio problema pana acum...
+>> Atata timp cat masina are resursele necesare nu o sa ai probleme.
+>>
+>
+> Subscriu, la faza cu resursele. Sunt provideri de VPS ieftine... care
+> limiteaza si limiteaza si limiteaza... de te pomenesti ca nu mai ai file
+> descriptors, iti merge maxim 10 conexiuni simultan s.a.m.d, chit ca
+> procesor si ram ai suficient alocat la masina virtuala...
+>
+> Pe virtuozzo am vazut o asemenea minunatie... deci atentie ce cumperi!
+>
+> --
+>   Claudiu Nicolaie CISMARU
+>   GNU GPG Key: http://www.virtuamagic.com/ccn-key.gpg
+>   T: +40 755 135455
+>   E: claudiu@virtuamagic.com, claudiu.cismaru@gmail.com
+
+Multumesc de sfaturi, am access ssh la servere, e un sistem mai
+enterprise, in principiu n-ar trebui sa am probleme cu resurse.
+Cum toti provideri sunt mai speciali, am intrebat in cazul in care
+cineva a lucrat cu Rackspace (eu nu pana acum).
+Oricum mersi, daca am probleme vin sa caut sfaturi :)
+
+Numai bine.
+-- 
+Gyula KERESZTELY-KRALL
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

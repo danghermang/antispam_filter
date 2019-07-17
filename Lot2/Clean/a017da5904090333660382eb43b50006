@@ -1,0 +1,51 @@
+Subject:Re: desisntalar mysql oarreglar la incompatibilidad
+El lun, 01-10-2012 a las 09:16 -0400, luis@ida.cu escribió: 
+> Buenos dias a todos a ver si me pueden ayudar con el problema.
+> 
+> Yo necesito un servicio LAMP apache mysql y php pues necesito montar un 
+> CMS
+> 
+> Tengo problemas con el Debian 6 a la hora de desinstalar mysql
+> 
+> 
+> Ante todo en el sistema le di apt-get update y todo perfecto
+> 
+> instale apache apt-get installa apache2 y sin problema alguno muy bien 
+> hasta ahi
+> 
+> Pero cuando isntale mysql al final me puso un texto como que no era 
+> compatible la 5.1 con la 5.6 entre otras cosas que no entendi.
+> 
+estaría interesante tener ese texto, es que (todavía) no somos
+adivinos... aún así voy a intentarlo: 
+probablemente te estaba avisando que tenés que ejecutar mysql_upgrade al
+terminar para que te arregle/adapte las bases.
+
+> Aquiero quitar el mysql o resolver el problema alguna idea ?
+> 
+Si querés empezar de 0, antes de quitar nada, asegurate de tener un
+backup al día. Podés hacer un dump con
+mysql_dump -Uusuario -P [base] > base.sql
+
+entonces al instalar mysql, creás las bases y las restaurás con
+mysql [base] < base.sql
+
+> Agradezo la ayuda de lo contrario tendre que isntalar todo nuevamente y 
+> necesito isntalar un LAMP para montar un cms
+> 
+> agrdexo toda ayda pues no se que hacer
+> 
+
+podés empezar diciendo cual fue el mensaje exacto que recibiste....
+
+
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349100594.2871.27.camel@EeePC.ucasal.ar
+

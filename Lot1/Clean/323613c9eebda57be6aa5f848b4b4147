@@ -1,0 +1,33 @@
+Subject:Re: [rlug] client sip linux
+On Tuesday, November 06, 2012 10:27:40 AM Mircea MITU wrote:
+> Salut
+> 
+> caut un client sip simplu si functional pentru linux (Ubuntu) cu ajutorul
+> caruia sa se poata da telefoane prin intermediul unui sip provider. Am
+> incercat pana acum twinkle, ekiga si yate.
+> 
+> Twinkle a fost singurul ce s-a inregistrat corect la sip provider, cu ekiga
+> si yate nu am reusit sa fac acest lucru (probabil din cauza userului), insa
+> twinkle e cumplit de utilizat (interfata a fost gandita de mecanici auto),
+> greoi si calitatea sunetului e f slaba.
+Salut,
+Eu folosesc Zoiper pentru ca are versiune si de Android, si de Linux si de 
+Windows.
+Nu mi-am propus niciodata sa ma joc mai mult cu el, cred ca  din cauza 
+sistemului de sunet din linux sunt probleme cand e folosit impreuna cu altceva 
+care foloseste sunetul ( gen mp3 player) insa cred ca se poate rezolva. 
+Acceseaza direct /dev/sound si probabil trebuie setat sa acceseze sound 
+systemul.
+
+Interfata arata ok, sunetul e ok - l-am folosit impreuna cu un anumit fost 
+coleg la un anumit client al vostru pe care il stii :) pe perioada testelor.
+
+Are suport de STUN , care e cam obligatoriu in spatele unui nat cum e asta de 
+la mine de acasa...
+E usor de folosit, suporta doua conturi in versiunea free...
+Probabil ar trebui sa incerci si cu linphone, il cunosti deja de pe iPhone-ul 
+tau :)
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

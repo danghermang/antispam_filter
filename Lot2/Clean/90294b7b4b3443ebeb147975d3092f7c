@@ -1,0 +1,60 @@
+Subject:Re: autenticar squid con LDAP
+El d=EDa 1 de octubre de 2012 11:58, linux
+<liuberperez.mtz@infomed.sld.cu> escribi=F3:
+> Saludos lista alguien tiene algun ejemplo o documentacion de como autenti=
+car
+> squid contra ldap, ya tengo montado ldap integrado al correo con iredmail
+> pero quisiera autenticar los usuarios de mail que tengo en mi ldap contra
+> squid.
+>
+> saludos
+>
+> Liuber
+>
+> --
+>
+> Este mensaje le ha llegado mediante el servicio de correo electronico que
+> ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema
+> Nacional de Salud. La persona que envia este correo asume el compromiso d=
+e
+> usar el servicio a tales fines y cumplir con las regulaciones establecida=
+s
+>
+> Infomed: http://www.sld.cu/
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/5069AF8A.3030408@infomed.sld.cu
+>
+
+https://www.google.com.ar/#hl=3Des-419&sclient=3Dpsy-ab&q=3Dsquid+ldap+auth=
+entication&oq=3Dsquid+ldap&gs_l=3Dhp.3.1.0l4.2166.4292.0.7242.10.10.0.0.0.2=
+.933.3540.2-7j1j6-2.10.0...0.0...1c.1.fXB30WC4o_o&pbx=3D1&bav=3Don.2,or.r_g=
+c.r_pw.r_cp.r_qf.&fp=3D51277c9f18157bb4&biw=3D1366&bih=3D629
+
+
+nunac nada mejor que el sitio oficial
+o wikipedia
+
+segundo en la lisa
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54a+HbaEqgARNi6dFYYdF98x-xgVNs1QnGN0AqcPSSoKdg@mail.gmail.com
+

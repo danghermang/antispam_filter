@@ -1,0 +1,26 @@
+Subject:cuentas en postfix
+Hola
+
+con postfix
+
+tengo usuarios con cuentas de correo nacional en internacional
+
+como puedo hacer en el caso de los usuarios con cuentas nacionales si
+puedan recibir correo internacionales
+
+O sea el usuario con cuenta de correo nacional puede solo enviar correos
+nacionales pero pueda recibir correos internacionales
+
+como puedo hacer esto en postfix???
+
+Salu2
+Cosme
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/a2567b81ffa7a3b182c5bdf5a21c94d5.squirrel@192.168.13.16
+

@@ -1,0 +1,59 @@
+Subject:Re: Connexion ssh : timed out
+Le mercredi 31 octobre 2012 17:41:37, Bernard Schoenacker a écrit :
+
+> 
+> bonjour,
+> 
+> 	tous les intervenant foncent tête baissée ...
+> 
+> 	tester pam ?
+> 
+> 	apt-cache policy $(apt-cache search pam ssh |awk '/SSH/ {print
+> $1}')
+
+libpam-sshauth:
+  Installé : (aucun)
+  Candidat : 0.1-1
+ Table de version :
+     0.1-1 0
+        500 http://ftp.debian.skynet.be/ftp/debian/ wheezy/main amd64 
+Packages
+
+À mon avis aucun problème si libpam-sshauth n'est pas installé.
+
+> 
+> 	ensuite, quelles sont les versions installées concernant
+> 	ssh client et serveur ?
+
+Pour le serveur, openssh-server d'une wheezy à jour donc 1:6.0p1-3.
+
+Pour le client, j'ai testé avec deux clients différents : 
+
+openssh-client sur une autre machine wheezy à jour donc aussi version 
+1:6.0p1-3
+
+et un client fourni par un app android (ConnectBot 1.7.1) sur un 
+smartphone.
+> 
+> 	slt
+> 	bernard
+
+Merci de tes suggestions mais le problème s'avère finalement sur le 
+*réseau* où les clients se connectaient pour faire les tests. Je 
+résume cela dans un autre message.
+
+-- 
+E. Flas
+~~~ Citation aléatoire ~~~
+La géométrie est la connaissance de ce qui existe éternellement.
+	Pythagore
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211011611.45714.flas.csfa@gmail.com
+

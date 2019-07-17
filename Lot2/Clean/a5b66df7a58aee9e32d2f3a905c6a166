@@ -1,0 +1,47 @@
+Subject:Re: Subversion
+El Thu, 25 Oct 2012 15:35:42 -0600
+Ighernandez <ighernandez@uach.mx> escribi=F3:
+
+> =20
+>=20
+> Buenas,=20
+>=20
+> Talvez no sea la lista, pero igual pregunto.=20
+>=20
+> Quiero
+> poner un subversion con multiples repositorios:
+>=20
+>=20
+> dominio.com/versiones/rh/repositorio1
+>=20
+>=20
+> dominio.com/versiones/rh/repositorio2
+>=20
+>=20
+> dominio.com/versiones/caja/repositorio3
+>=20
+>=20
+> dominio.com/versiones/caja/repositorio4=20
+>=20
+> Tendre que poner apache con
+> su mod_svn para poder lograrlo?
+>=20
+> Quejas? sugerencias? rega=F1os?
+>=20
+
+zapatero a tus zapatos. Instala git
+
+> --=20
+> Ing.
+> Iv=E1n Gerardo Hern=E1ndez Trejo
+
+
+--=20
+Angel Claudio Alvarez <angel@angel-alvarez.com.ar>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121025234817.c73b0f2ee885958c4de589d7@angel-alvarez.com.ar
+

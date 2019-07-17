@@ -1,0 +1,247 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<jimbarmather@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <notification+ziev1zf1@facebookmail.com>
+Received: (qmail 23006 invoked by uid 89); 10 Dec 2012 11:49:40 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 10 Dec 2012 11:49:40 -0000
+Delivery-date: Mon, 10 Dec 2012 03:48:01 -0800
+Received: from outmail020.snc4.facebook.com ([66.220.144.154] helo=mx-out.facebook.com) helo=mx-out.facebook.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1Ti1pu-0008Sa-MG on interface=184.105.182.43
+	for jimbarmather@activ8.net.au; Mon, 10 Dec 2012 03:48:00 -0800
+DKIM-Signature: v=1; a=rsa-sha256; d=facebookmail.com; s=s1024-2011-q2; c=relaxed/simple;
+	q=dns/txt; i=@facebookmail.com; t=1355140059;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=sjuocH1z5+YjMq62oCb6zHHjFUnCRwUwDhHGznoeaUQ=;
+	b=b+9y1fdixOFYKDsA3Ft9zU7S9NqUAEuysXIJ+TTqwZUn5DuToUpciOtQ1ehX7n8P
+	ezedkJMfE/qX/03PjVRROJ53hOE+xWhm0qt88K2SseVx5FWMt3AIYLpASS7qbrWA
+	y5fae/nNMAtJpH3pYM4Hum6OfIVJzL8AeO/mEVyLzdM=;
+Received: from [10.64.6.38] ([10.64.6.38:43583])
+	by smout061.snc6.facebook.com (envelope-from <notification+ziev1zf1@facebookmail.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ECSTREAM
+	id DF/BE-21043-BDBC5C05; Mon, 10 Dec 2012 03:47:39 -0800
+X-Facebook: from zuckmail ([MTI3LjAuMC4x]) 
+	by www.facebook.com with HTTP (ZuckMail);
+Date: Mon, 10 Dec 2012 03:47:39 -0800
+To: Barbara Mather <jimbarmather@activ8.net.au>
+From: "Facebook" <notification+ziev1zf1@facebookmail.com>
+Reply-to: noreply <noreply@facebookmail.com>
+Subject: Colin Potter shared Naughty corner's photo
+Message-ID: <4261abda1924ef5d3c6a87a963d7c078@www.facebook.com>
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Errors-To: notification+ziev1zf1@facebookmail.com
+X-Facebook-Notify: close_friend_activity; mailid=72fc909G4c4dc9b5G511945fG79
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_4261abda1924ef5d3c6a87a963d7c078"
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: notification+ziev1zf1@facebookmail.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=facebook.com - X=apn H=outmail020.snc4.facebook.com [66.220.144.154] HELO=[mx-out.facebook.com] F=[notification+ziev1zf1@facebookmail.com] T=[jimbarmather@activ8.net.au] S=[Colin Potter shared Naughty corner's photo]
+X-Sender-Host-Address: 66.220.144.154
+X-Sender-Host-Name: outmail020.snc4.facebook.com
+
+
+--b1_4261abda1924ef5d3c6a87a963d7c078
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Barbara,
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+http://www.facebook.com/n/?colin.potter3%2Fposts%2F452387381489942&from_cl=
+ose_friend=3D1&mid=3D72fc909G4c4dc9b5G511945fG79&bcode=3D1.1355140059.Abnb=
+f-McxOouC4bK&n_m=3Djimbarmather%40activ8.net.au
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Colin Potter shared Naughty corner's photo.
+
+http://www.facebook.com/n/?photo.php&fbid=3D497888160263583&set=3Da.132902=
+756762127.38070.132900613429008&type=3D1&mid=3D72fc909G4c4dc9b5G511945fG79=
+&bcode=3D1.1355140059.Abnbf-McxOouC4bK&n_m=3Djimbarmather%40activ8.net.au
+
+You are receiving this email because you've listed Colin Potter as a close =
+friend.
+
+http://www.facebook.com/n/?colin.potter3%2Fposts%2F452387381489942&from_cl=
+ose_friend=3D1&mid=3D72fc909G4c4dc9b5G511945fG79&bcode=3D1.1355140059.Abnb=
+f-McxOouC4bK&n_m=3Djimbarmather%40activ8.net.au
+
+Thanks,
+The Facebook Team
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+This message was sent to jimbarmather@activ8.net.au. If you don't want to =
+receive these emails from Facebook in the future, please follow the link =
+below to unsubscribe.
+http://www.facebook.com/colin.potter3?from_email_notif=3D1
+Facebook, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA =
+94303
+
+
+--b1_4261abda1924ef5d3c6a87a963d7c078
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional =
+//EN"><html><head><title>Facebook</title><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3Dutf-8" /></head><body style=3D"margin: 0; =
+padding: 0;" dir=3D"ltr"><table cellspacing=3D"0" cellpadding=3D"0" =
+id=3D"email_table" style=3D"border-collapse:collapse;width:98%;" =
+border=3D"0"><tr><td id=3D"email_content" =
+style=3D"font-size:12px;font-family:&#039;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:620px;"><tr><td =
+style=3D"font-size:16px;font-family:&#039;lucida grande&#039;,tahoma,verda=
+na,arial,sans-serif;background:#3b5998;color:#FFFFFF;font-weight:bold;vert=
+ical-align:baseline;letter-spacing:-0.03em;text-align:left;padding:5px =
+20px;"><a style=3D"text-decoration: none;" href=3D"http://www.facebook.com=
+/n/?colin.potter3%2Fposts%2F452387381489942&amp;from_close_friend=3D1&amp;=
+mid=3D72fc909G4c4dc9b5G511945fG79&amp;bcode=3D1.1355140059.Abnbf-McxOouC4b=
+K&amp;n_m=3Djimbarmather%40activ8.net.au&amp;lloc=3Dlogo"><span =
+style=3D"background:#3b5998;color:#FFFFFF;font-weight:bold;font-family:&#0=
+39;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;vertical-align:middle; =
+font-size:16px;letter-spacing:-0.03em;text-align:left;vertical-align:basel=
+ine;">facebook</span></a></td></tr></table><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:620px;" =
+border=3D"0" width=3D"620px"><tr><td style=3D"font-size:11px;font-family:L=
+ucidaGrande,tahoma,verdana,arial,sans-serif;padding:0px;background-color:#=
+f2f2f2;border-left:none;border-right:none;border-top:none;border-bottom:no=
+ne;"><table cellspacing=3D"0" cellpadding=3D"0" width=3D"620px" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size:11px;font-f=
+amily:LucidaGrande,tahoma,verdana,arial,sans-serif;padding:0px;width:620px=
+;"><table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:20px;background-color:#fff;border-left:none;border-right:no=
+ne;border-top:none;border-bottom:none;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+valign=3D"top" style=3D"font-size:11px;font-family:LucidaGrande,tahoma,ver=
+dana,arial,sans-serif;padding-right:15px;text-align:left;"><a =
+href=3D"http://www.facebook.com/colin.potter3" =
+style=3D"color:#3b5998;text-decoration:none;"><img src=3D"http://profile.a=
+k.fbcdn.net/hprofile-ak-ash4/370520_100001604693394_1956117984_q.jpg" =
+style=3D"border:0;" /></a></td><td valign=3D"top" style=3D"font-size:11px;=
+font-family:LucidaGrande,tahoma,verdana,arial,sans-serif;width:100%;text-a=
+lign:left;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-bottom:10px;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-bottom:2px;"><span =
+style=3D"color:#111111;font-size:14px;font-weight:bold;"><a =
+href=3D"http://www.facebook.com/colin.potter3" =
+style=3D"color:#3b5998;text-decoration:none;">Colin =
+Potter</a></span></td></tr><tr><td style=3D"font-size:11px;font-family:Luc=
+idaGrande,tahoma,verdana,arial,sans-serif;padding-top:2px;padding-bottom:2=
+px;"><span style=3D"color:#333333;"><a href=3D"http://www.facebook.com/n/?=
+colin.potter3&amp;mid=3D72fc909G4c4dc9b5G511945fG79&amp;bcode=3D1.13551400=
+59.Abnbf-McxOouC4bK&amp;n_m=3Djimbarmather%40activ8.net.au">Colin =
+Potter</a> shared <a href=3D"http://www.facebook.com/n/?69NC69&amp;mid=3D7=
+2fc909G4c4dc9b5G511945fG79&amp;bcode=3D1.1355140059.Abnbf-McxOouC4bK&amp;n=
+_m=3Djimbarmather%40activ8.net.au">Naughty corner</a>&#039;s <a =
+href=3D"http://www.facebook.com/n/?photo.php&amp;fbid=3D497888160263583&am=
+p;set=3Da.132902756762127.38070.132900613429008&amp;type=3D1&amp;mid=3D72f=
+c909G4c4dc9b5G511945fG79&amp;bcode=3D1.1355140059.Abnbf-McxOouC4bK&amp;n_m=
+=3Djimbarmather%40activ8.net.au">photo</a></span></td></tr><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-top:2px;"><span style=3D"color:#333333;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:5px 0px 10px;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td valign=3D"top" =
+style=3D"padding-right:10px;font-size: 0px;"><img src=3D"http://photos-d.a=
+k.fbcdn.net/hphotos-ak-ash3/61874_497888160263583_1568875583_a.jpg" =
+style=3D"border:0;" /></td><td valign=3D"top" style=3D"width:100%;"><table =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size:11px;font-f=
+amily:LucidaGrande,tahoma,verdana,arial,sans-serif;font-weight:bold;"><a =
+href=3D"http://www.facebook.com/n/?photo.php&amp;fbid=3D497888160263583&am=
+p;set=3Da.132902756762127.38070.132900613429008&amp;type=3D1&amp;mid=3D72f=
+c909G4c4dc9b5G511945fG79&amp;bcode=3D1.1355140059.Abnbf-McxOouC4bK&amp;n_m=
+=3Djimbarmather%40activ8.net.au" =
+style=3D"color:#3b5998;text-decoration:none;">Timeline =
+Photos</a></td></tr><tr><td style=3D"font-size:11px;font-family:LucidaGran=
+de,tahoma,verdana,arial,sans-serif;"><a href=3D"http://www.facebook.com/n/=
+?photo.php&amp;fbid=3D497888160263583&amp;set=3Da.132902756762127.38070.13=
+2900613429008&amp;type=3D1&amp;mid=3D72fc909G4c4dc9b5G511945fG79&amp;bcode=
+=3D1.1355140059.Abnbf-McxOouC4bK&amp;n_m=3Djimbarmather%40activ8.net.au" =
+style=3D"color:#3b5998;text-decoration:none;"></a></td></tr><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;color:#808080;padding:5px 0px;"></td></tr></table></td></tr></table=
+></td></tr></span></td></tr></table></td></tr><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-top:10px;border-top:1px solid #e8e8e8;"><table =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td valign=3D"top" =
+style=3D"padding-right:5px;font-size: 0px;"><img =
+src=3D"http://static.ak.fbcdn.net/rsrc.php/v2/yg/r/OeeXwRJAXVK.png" =
+style=3D"border:0;" /></td><td valign=3D"top" style=3D"width:100%;"><span =
+style=3D"color: #808080">You are receiving this email because you&#039;ve =
+listed Colin Potter as a close friend. <a =
+href=3D"http://www.facebook.com/colin.potter3?from_email_notif=3D1" =
+style=3D"color:#3b5998;text-decoration:none;">Change Close Friend =
+notifications.</a></span></td></tr></table></td></tr></table></td></tr></t=
+able></td></tr></table></td></tr></table></td></tr><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:0px;width:620px;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:100%;" =
+border=3D"0"><tr><td style=3D"font-size:11px;font-family:LucidaGrande,taho=
+ma,verdana,arial,sans-serif;padding:7px 20px;background-color:#f2f2f2;bord=
+er-left:none;border-right:none;border-top:1px solid #ccc;border-bottom:1px =
+solid #ccc;"><table cellspacing=3D"0" cellpadding=3D"0" style=3D""><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-left:65px;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"border-width: =
+1px;border-style: solid;border-color: #29447E #29447E =
+#1a356e;background-color: #5b74a8;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:2px 6px 4px;border-top:1px solid #8a9cc2;"><a =
+href=3D"http://www.facebook.com/n/?colin.potter3%2Fposts%2F452387381489942=
+&amp;from_close_friend=3D1&amp;mid=3D72fc909G4c4dc9b5G511945fG79&amp;bcode=
+=3D1.1355140059.Abnbf-McxOouC4bK&amp;n_m=3Djimbarmather%40activ8.net.au" =
+style=3D"color:#3b5998;text-decoration:none;"><span =
+style=3D"font-weight:bold;white-space:nowrap;color: #fff;font-size: =
+11px;">View Post</span></a></td></tr></table></td></tr></table></td></tr><=
+/table></td></tr></table></td></tr></table></td></tr></table><table =
+cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+style=3D"border-collapse:collapse;width:620px;"><tr><td =
+style=3D"font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, =
+verdana, arial, sans-serif;padding:30px 20px;background-color:#fff;border-=
+left:none;border-right:none;border-top:none;border-bottom:none;color:#9999=
+99;border:none;">This message was sent to <a =
+href=3D"mailto:jimbarmather&#064;activ8.net.au" style=3D"color:#3b5998;tex=
+t-decoration:none;">jimbarmather&#064;activ8.net.au</a>. If you don&#039;t =
+want to receive these emails from Facebook in the future, please <a =
+href=3D"http://www.facebook.com/colin.potter3?from_email_notif=3D1" =
+style=3D"color:#3b5998;text-decoration:none;">unsubscribe</a>.<br =
+/>Facebook, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA =
+94303</td></tr></table><span style=3D"width:620px;"><img =
+src=3D"http://www.facebook.com/email_open_log_pic.php?mid=3D72fc909G4c4dc9=
+b5G511945fG79" style=3D"border:0;width:1px;height:1px;" =
+/></span></td></tr></table></body></html>
+
+
+
+--b1_4261abda1924ef5d3c6a87a963d7c078--
+
+

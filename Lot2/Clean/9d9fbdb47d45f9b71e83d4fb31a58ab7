@@ -1,0 +1,40 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+On 11/13/12, Owen DeLong <owen@delong.com> wrote:
+
+The Fee schedule the consultation is about doesn't say legacy holders
+are not included -- so it's not a fee schedule question.
+
+Legacy holder payment of the fees is really a separate matter.    If
+legacy holders do pay fees,  then I see no reason for them to have a
+separate fee schedule -- fees should be equal.
+
+> We could keep them in whois and terminate their RDNS services, however.
+
+It will break traceroutes involving their network by suppressing the
+hostnames of their routers, and suppress server reverse lookups that
+might be useful for diag or abuse reporting purposes.  BUT it won't
+actually disrupt their use of the IP space, or stop them using the
+IPs.       It may lead to proposals  to  remove RDNS responsibility
+for legacy space from ARIN.
+
+Terminating RDNS is no stronger a stick than terminating WHOIS.
+The legacy holders don't necessarily care what ARIN puts in its database,
+as they are  "well known" allocations;  that it's simply an indelible fact that
+those organizations  operate those networks.
+
+>From the perspective of those large networks, if ARIN were to remove entries
+for active networks from their database;  it would simply mean that
+ARIN is introducing  intentional omissions into the database,  and
+seeking to obscure the unobscurable identity
+of those networks.
+
+> Owen
+--
+-JH
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

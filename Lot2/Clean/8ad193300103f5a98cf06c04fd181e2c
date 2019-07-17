@@ -1,0 +1,131 @@
+Subject:Re: Ayudeme por favor a iniciarme en el mundo de Linux
+El d=EDa 4 de noviembre de 2012 14:01, Aldo Rivadeneira
+<aldo.rivadeneira@gmail.com> escribi=F3:
+>
+>
+> El domingo, 4 de noviembre de 2012, Juan Perez escribi=F3:
+>
+>> Hola quiero aprender a manejar Linux, que distribuci=F3n me recomendar=
+=EDa,
+>> Debian, Ubuntu, o Opensuse.
+>
+> Cualquier distribuci=F3n sirve para aprender, lo que es de reconocer es q=
+ue
+> ubuntu cuenta con foros muy amigables y te servir=EDan para encontrar ayu=
+da de
+> manera r=E1pida.
+>>
+>> Me compre un libro de Linux, que era un plagio de otro libro de internet
+>> de otro autor, all=ED hablaba de CentOS, pero lei luego que CentOS, es m=
+as
+>> para servidores.  =BFUd que me recomendar=EDa?
+>
+> Como te mencionaba cualquier material es bueno te dar=E1n una gu=EDa para=
+ ir
+> aprendiendo.
+>>
+>> Le=ED que Ubuntu es Basura, yo no quiero decir nada, porque no se nada d=
+e
+>> Linux.
+>
+> =DAsalo hasta que tengas tu propio juicio.
+>>
+>> Descarge dos dvd de Linux que ense=F1an a utilizar Linux con fedora, y l=
+ei
+>> que fedora es el laboratorio de pruebas de red hat, y que no es recomend=
+ado
+>> para novatos como yo,
+>
+> =DAsalo
+>>
+>> A mi me gustar=EDa comenzar con deb=EDan, pero me dicen que hay que tene=
+r
+>> conocimientos para poder manejar deb=EDan, y yo no se nada de Linux. Ser=
+ia
+>> bueno aprender Linux con Debian?
+>
+> La instalaci=F3n es amigable as=ED que no creo que tengas problemas.
+>>
+>> Le=ED que deb=EDan por ser tan libre, no es libre. =BFA que se refiere e=
+so? =BFEs
+>> peligroso que la gente conozca internamente a Deb=EDan? =BFAfecta en alg=
+o a la
+>> seguridad de Debian? =BFHace vunerable a  deb=EDan que la gente pueda ve=
+r su
+>> c=F3digo?
+>
+> Puedes encontrar m=E1s informaci=F3n en la p=E1gina de deb=EDan .
+>>
+>> =BFQue distro de Linux me recomendar=EDa para aprender Linux? =BFMe podr=
+=EDa dar
+>> el link para descargar la distro de Linux en dvd? =BFMe recomendar=EDa a=
+lg=FAn
+>> manual pdf de Linux, para descargarlo de internet?
+>>
+>> Le=ED que deb=EDan tiene dos niveles de ejecuci=F3n por default,  red ha=
+t 3 o 5
+>> niveles de ejecuci=F3n, =BFQu=E9 es un nivel de ejecuci=F3n o niveles de=
+ ejecuci=F3n?
+>
+> Puedes buscar m=E1s informaci=F3n en Google referente a "runlevel"
+>>
+>> =BFTengo una duda cual es mejor libre office, o Open office o Microsoft
+>> Office?
+>>
+>> Agradecere su pronta respuesta.
+>>
+>> Gracias.
+>
+> Saludos
+>
+>
+> --
+> Aldo Rivadeneira Reyna
+>
+>
+
+Hola Juan Perez, te peder=EDa que prestaras mucha atenci=F3n a
+lo que te voy a decir.
+
+Primero que todo est=E1s enviando un correo a una lista, en la
+cual debes tener un comportamiento espec=EDfico que ha tra=EDdo
+buenos resultados para todos durante el paso del tiempo.
+Para ello debes leer esto, y cuando digo leer toco el aspecto
+mas importante que debe tener un usuario de GNU/Linux y
+es precisamente la capacidad de leer, sin pereza, saber
+leer e interpretar antes de preguntar. Sin mas paso a las normas
+de las listas de correo:
+
+http://www.freebsd.org/doc/es_ES.ISO8859-1/articles/mailing-list-faq/etique=
+tte.html
+
+Tambi=E9n te recomendar=EDa tener en cuenta los siguientes
+mandamientos:
+http://www.freebsd.org/doc/es_ES.ISO8859-1/articles/mailing-list-faq/etique=
+tte.html
+
+No suelo enviar a leer el man, en mis a=F1os en GNU/Linux
+me ha ido mejor con la documentaci=F3n y tutoriales, pero
+los he le=EDdo bien, as=ED que espero que tu lo hagas.
+
+Escribes a la lista de Debian, entonces aqu=ED te
+recomendaremos usar Debian, puedes probar estas
+imagenes que tendr=E1s que quemar en un CD despu=E9s
+de haber comprobado la suma MD5 para revisar que
+hallan quedado bien descargadas:
+
+http://cdimage.debian.org/cdimage/wheezy_di_beta3/i386/iso-cd/
+
+Cualquiera de las que dice CD-1 te servir=E1, solo que
+el entorno de escritorio es diferente en cada una.
+--=20
+
+"LARGA VIDA Y PODEROSA."
+              Blog de Haldrik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADYDv-B3dsC2FTPvaAoAZLAVV=XfsMrXXA=WgCqCmboN9zAocA@mail.gmail.com
+

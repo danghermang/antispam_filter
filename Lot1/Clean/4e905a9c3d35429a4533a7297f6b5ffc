@@ -1,0 +1,48 @@
+Subject:Re: pasar directamente de etch a squeeze
+Camaleón wrote:
+
+> El Mon, 24 Sep 2012 15:43:21 +0200, Alarc'h escribió:
+> 
+>> Camaleón wrote:
+> 
+> (...)
+> 
+>>> Y Lenny ya no tiene actualizaciones aunque sea "oldstable". Por cierto,
+>>> Wheezy saldrá en unos meses.
+>> 
+>> Por eso es porque quiero actualizar ahora. No quiero tener que
+>> actualizar mas tarde para tener Etch > Lenny > Squeeze > Wheezy
+>> 
+>> Me parece ya bastante peligroso.
+> 
+> (...)
+> 
+> Sí, cierto, a mayor salto mayor será la caída >:-)
+> 
+> Ahora en serio, lo que yo hago es hacer instalaciones desde cero
+> (limpias) en paralelo para tener siempre un sistema disponible.
+> 
+> Es decir, ahora mismo tengo Lenny y cuando salga Wheezy la instalaré en
+> una partición separada para que en el caso de que haya problemas siempre
+> pueda usar el sistema anterior.
+> 
+> Lo que se pierde en tiempo (en ir configurando el nuevo sistema) y en
+> espacio de disco duro (aunque con los tamaños actuales eso ya no es
+> ningún problema) se gana en tranquilidad y fiabilidad :-)
+> 
+> Saludos,
+> 
+
+Esto me parece una buena idea. Y me estoy preguntando si no seria mejor
+hacer una instalción limpia, aprovechando para utilizar LVM que no existe
+en este servidor, y despues tener mucho mas facilidades par hacer nueva
+partición, instalaciones paralelas etc.
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3rskl$aq6$2@ger.gmane.org
+

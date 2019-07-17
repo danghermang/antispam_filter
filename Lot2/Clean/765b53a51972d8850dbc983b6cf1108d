@@ -1,0 +1,26 @@
+Subject:Re: Kernel panic une fois sur deux
+On Sun, 16 Sep 2012 22:23:40 +0200
+andre_debian@numericable.fr wrote:
+
+> J'ai mis sur mon PC les r=C3=A9pertoires /boot et /usr
+> sur un disque SSD,
+> les autres r=C3=A9pertoires sur un disque dur SATA.
+
+Ben d=C3=A9j=C3=A0 avoir une copie des 2 dirs sur chaque HD, puis tester
+lequel pose PB (SI c'est r=C3=A9ellement un PB de HD [=C2=AFdoutes=C2=AF]).
+
+--=20
+<Gui_> Eh post-it ? Tu serais pas asiat ?
+<post-it> si comen tu s=C3=A9 on se conn=C3=A9?
+<Gui_> Non non, mais j't'imagine petite jaune et collante.
+<post-it> hein ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120916230242.61fcbdfb@anubis.defcon1
+

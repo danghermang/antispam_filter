@@ -1,0 +1,25 @@
+Subject:Re: [arin-ppml] REVISED: Draft Policy ARIN-2012-8: Aligning 8.2 and
+ 8.3 Transfer Policy
+On Mon, Dec 10, 2012 at 3:25 PM, Scott Leibrand <scottleibrand@gmail.com> wrote:
+> No objections here.  As far as I can tell the only substantive change (other
+> than codifying existing practice) is the requirement that "The new entity
+> must sign an RSA covering all transferred resources."  That seems like a
+> (minor) improvement in policy.
+
+Is there any concern from the community regarding the word "an" in
+
+   ... must sign *an* RSA ...
+
+While any RSA is better than none, I seem to recall a similar
+wording was interpreted by ARIN in a way that caused some
+members of the community some consternation (i.e. it allowed
+a Legacy RSA).
+
+Gary
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

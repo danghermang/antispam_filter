@@ -1,0 +1,76 @@
+Subject:Re: OFF-TOPIC Openvz en powerpc64 bits
+Gracias por contestar Camaleón, me he empeñado en instalarlo y espero
+poder conseguirlo, soy cabezón jejeje.
+
+Después de hacer el fakeroot y demás...Me ha generado bien las entradas,
+las añado a /etc/yaboot.conf, agrego una nueva entrada para el nuevo
+kernel openvz, le cambio los ficheros vmlinuz e initrd para que arranque
+con los suyos y finalmente ybin para actualizar el yaboot.
+
+Cuando reinicio, arranco desde el kernel Openvz y se queda en SETUP DONE
+
+Antes del SETUP DONE, aparece este código:
+
+CF000015
+
+Dejo una captura:
+
+http://imageshack.us/photo/my-images/835/lafotorsk.jpg/
+
+He mirado los logs, este es el error concretamente...
+
+Nov  6 17:57:24 proxmox-ppc kernel: [    1.038650] nvram_init: Could not
+find nvram partition for nvram buffered error logging.
+
+La verdad es que después de lo que he hecho no se me ocurre mucho...
+
+Saludos y gracias.
+
+> El Tue, 06 Nov 2012 11:53:23 +0100, maykel escribiÃ³:
+>
+> (se me pasÃ³ este correo)
+>
+>> Me respondo a mÃ­ mismo, he conseguido compilarlo usando gcc-4.1,
+>> haciedo
+>> un update-alternatives de gcc y cambiandolo para que el compilador por
+>> defecto sea gcc-4.1 en vez de gcc-4.4 y todo OK.
+>
+> Perfecto :-)
+>
+>> Ahora el problema es agregarlo al grub, generar las entradas
+>> initrd...img y vmlinuz, creo que se hace con update-initramfs -u , para
+>> que al hacer un update-grub se agregue la entrada automaticamente.
+>
+> Yo ese paso lo hago al compilar el kernel tal y como indican en las
+> instrucciones:
+>
+> fakeroot make-kpkg --initrd --revision=2.6.32 kernel_image
+>
+>> Voy por buen camino??
+>
+> Pues creo que sÃ­... ya contarÃ¡s.
+>
+> Saludos,
+>
+> --
+> CamaleÃ³n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/k7bdn2$ji$12@ger.gmane.org
+>
+>
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/a69662a2d6f4110e34583d2b8ab35bc6.squirrel@maykel.sytes.net
+

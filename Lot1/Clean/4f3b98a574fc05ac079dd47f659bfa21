@@ -1,0 +1,22 @@
+Subject:[Hsqldb-user] New snapshot jar is available
+The latest HSQLDB snapshot jar fixes all the issues reported or found
+since the release of 2.2.9.
+
+http://www.hsqldb.org/repos/org/hsqldb/hsqldb/SNAPSHOT/
+
+The changelist_20.txt lists all the fixes.
+
+http://hsqldb.org/doc/2.0/changelist_2_0.txt
+
+Fred Toussi
+
+------------------------------------------------------------------------------
+Live Security Virtual Conference
+Exclusive live event will cover all the ways today's security and 
+threat landscape has changed and how IT managers can respond. Discussions 
+will include endpoint security, mobile security and the latest in malware 
+threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

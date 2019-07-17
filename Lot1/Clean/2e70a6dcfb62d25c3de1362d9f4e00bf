@@ -1,0 +1,137 @@
+Subject:=?utf-8?B?W1LDqXNvbHVdIFJlOiBnbm9tZSB0ZXJt?=
+	=?utf-8?Q?inal_et_encodoage_par_d=C3=A9faut?=
+Le 05-10-2012, à 16:47:23 +0200, Vincent Lefevre (vincent@vinc17.net) a écrit :
+
+> On 2012-10-05 15:58:51 +0200, steve wrote:
+> > Pas de .profile, ni de .Xdefaults ni de .Xresources. J'ai essayé de mettre
+> > 
+> > export LANG=fr_CH.utf8 (ou .UTF-8, les deux semblent exister...)
+> > 
+> > dans .bashrc, redémarré la session, mais toujours le même problème.
+> 
+> Ce n'est pas forcément LANG qui importe.
+
+Ok, mais c'est ce que j'avais compris de mes quelques lectures sur le sujet.
+
+> > et avec
+> > 
+> > gsettings list-recursively | grep -i utf
+> > org.gnome.evolution.bogofilter utf8-for-spam-filter true
+> > org.gnome.system.locale region 'fr_CH.utf8'
+> > org.gnome.totem subtitle-encoding 'UTF-8'
+> > org.gnome.Epiphany.web default-encoding 'UTF-8'
+> > org.gnome.Epiphany keyword-search-url 'http://www.google.com/search ? q=%s&ie=UTF-8&oe=UTF-8'
+> > org.gnome.gedit.preferences.encodings auto-detected ['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']
+> > 
+> > Tout le système semble donc bien être en utf8.
+> 
+> Non, ça ne dit rien de bien particulier.
+
+Enfin, on voit quand même utf8 écrit un peu partout..., mais je suis d'accord que ma phrase était un poil péremptoire :)
+
+
+> > $locale -a
+> > C
+> > C.UTF-8
+> > fr_CH.utf8
+> > POSIX
+> 
+> Que donnent les commandes suivantes?
+> $ locale
+
+
+LANG=fr_CH.UTF-8
+LANGUAGE=
+LC_CTYPE="fr_CH.UTF-8"
+LC_NUMERIC=fr_CH.utf8
+LC_TIME=fr_CH.utf8
+LC_COLLATE="fr_CH.UTF-8"
+LC_MONETARY=fr_CH.utf8
+LC_MESSAGES="fr_CH.UTF-8"
+LC_PAPER="fr_CH.UTF-8"
+LC_NAME="fr_CH.UTF-8"
+LC_ADDRESS="fr_CH.UTF-8"
+LC_TELEPHONE="fr_CH.UTF-8"
+LC_MEASUREMENT=fr_CH.utf8
+LC_IDENTIFICATION="fr_CH.UTF-8"
+LC_ALL=
+
+
+> $ locale charmap
+
+
+UTF-8
+
+> $ perl -e ''
+
+rien
+
+
+> (S'il y a des locales qui ne fonctionnent pas, perl va se plaindre.)
+> 
+> Est-ce que UTF-8 fonctionne dans les autres terminaux?
+
+Oui avec xterm (quoique après su, les caractères accentués ne sont pas
+affichés). Mais UTF-8 fonctionne dans gnome-terminal. Je ne peux simplement pas
+le mettre par défaut.  Dans Terminal -> Set Character Encoding, j'ai le choix
+entre 'Current Locale (ANSIX3.4-1968)' et 'Unicode (UTF-8)'. Si je choisi
+Unicode, j'ai bien mon terminal en UTF-8 (vim, mutt, tout ça marche
+correctement). Mais par défaut ce n'est pas le cas (bien que tout le reste du
+système semble bel et bien en utf-8). J'ai aussi le choix 'Add or Remove' qui
+ouvre une fenêtre des encodages disponibles et ceux montrés dans le menu. Je
+peux en ajouter autant que je veux, mais je ne peux pas supprimer l'encodage
+par défaut (ANSIX...) qui m'emm*rde.
+
+> Il y a aussi toujours la possibilité de voir ce que donne strace
+> avec gnome-terminal, notamment voir les fichiers qui sont lus.
+> On a parfois des surprises!
+
+
+Les surprises ne viennent pas forcément d'où on les attend. En essayant des
+trucs sous un autre utilisateur, créé pour l'occasion, je me rends compte que
+les menus de gnome-terminal sont en français, ce que je trouve bizarre sur le
+moment. Et je comprends pour cela me semble bizarre, c'est parce que sous le
+compte que j'utilise d'habitude, les menus sont en anglais (je ne sais pas
+vraiment pourquoi, mais comme ça ne me dérange pas du tout pour travailler,
+c'est quelque chose qui me passe complètement à côté). Je vais donc voir dans
+les system settings de gnome-shell, et là bingo, dans l'onglet 'Language', je
+vois Unspecified [ANSIX3.4-1968], mais impossible de mettre par défaut le
+français. Ensuite je regarde dans l'onglet 'Utilisateur' et là surprise, la
+langue par défaut pour mon compte et ANSIX3.4-1968, impossible de modifier non
+plus. Je décide ensuite de voir si le problème persiste sous une autre session
+et je choisis ldxe. Et là tout est en UTF-8. Il s'agit donc d'un problème avec
+gnome. Je décide d'utiliser les grands moyens, à savoir une purge de tout ce
+qui est gnome-*. Puis réinstallation des mêmes paquets, et là, tout est en
+français et l'encodage par défaut de gnome-terminal est bien UTF-8. Problème
+résolu. Malheureusement je n'ai pas trouvé où se situait exactement le
+problème.
+
+Merci à tous de m'avoir guidé dans la résolution de ce problème.
+
+Bon week-end,
+Steve
+
+> -- 
+> Vincent Lefèvre <vincent@vinc17.net> - Web: <http://www.vinc17.net/>
+> 100% accessible validated (X)HTML - Blog: <http://www.vinc17.net/blog/>
+> Work: CR INRIA - computer arithmetic / AriC project (LIP, ENS-Lyon)
+> 
+> -- 
+> Lisez la FAQ de la liste avant de poser une question :
+> http://wiki.debian.org/fr/FrenchLists
+> 
+> Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+> vers debian-user-french-REQUEST@lists.debian.org
+> En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+> Archive: http://lists.debian.org/20121005144723.GA18318@xvii.vinc17.org
+> 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121006060516.GA13010@localhost
+

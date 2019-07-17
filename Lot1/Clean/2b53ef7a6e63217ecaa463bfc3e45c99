@@ -1,0 +1,45 @@
+Subject:[HS] Variables serveur Web php.ini
+Bonjour,
+
+Sujet HS (me  r=E9pondre en priv=E9 si probl=E8mes).
+
+1] R=E9afficher les donn=E9es en cas d'erreurs de formulaire :
+=46irefox ne garde pas les donn=E9es d'un formulaire lors=20
+d'un retour suite =E0 une erreur,
+alors que Chrome et Konqueror, oui.
+Il y a sans doute une astuce =E0 exprimer en php
+avec les variables ... mais je vois pas malgr=E9 recherches.
+
+2] Dans le fichier "/etc/php5/apache2/php.ini" :
+register_globals=3Doff
+M=EAme si je modifie ce r=E9glage ci-dessus,
+et que je cr=E9=E9 ces lignes dans le fichier du
+traitement du formulaire :
+$variable=3D$_POST['variable'];
+$variable2=3D$_POST['variable2'];
+idem, pas de m=E9morisation des donn=E9es
+lors d'un retour, avec FireFox.
+
+Pareil avec "register_globals=3Don"
+
+Enfin, dans les formulaires =E0 nombreux enregistrements,
+comment =E9viter de cr=E9er toutes ces lignes de variables :
+$variable=3D$_POST['variable'];
+Sans doute par un boucle ... ?
+
+Merci d'une aide.
+
+andr=E9
+
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209061656.45930.andre_debian@numericable.fr
+

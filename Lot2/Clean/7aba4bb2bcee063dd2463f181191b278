@@ -1,0 +1,29 @@
+Subject:=?ISO-8859-1?Q?Cr=E9ation_Widget_Gnome?=
+                 Bonjour à tous,
+
+     Je souhaiterai créer un petit Widget Gnome pour mon usage 
+personnel. Il permettrait de tracer mon activité en choisissant le type 
+d'activité que je fais et possédant un bouton Play/Pause. L'idée est de 
+tracker mon temps de travail avec grande précision. Le tout serait 
+enregistré en base via des appels Rest.
+
+     Je me dis que le mieux serait de faire un Widget pour Gnome, 
+seulement, j'ai aucune idée de l'endroit où je peux trouver des infos 
+pour déjà faire un simple Hello World. Avez-vous déjà réalisé un Widget 
+et si oui, où puis-je trouver des infos, est-ce très compliqué ou assez 
+accessible pour quelqu'un qui connaît un peu c/C++ mais ne travaille pas 
+avec au quotidien ?
+
+     D'avance merci.
+-- 
+Cordialement, Nicolas Froidure, Elitwork
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5076778A.3050501@elitwork.com
+

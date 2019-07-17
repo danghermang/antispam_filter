@@ -1,0 +1,80 @@
+Subject:Re: batch & imagemagick ?
+Le mardi 13 novembre 2012 =C3=A0 08:42:37, ptilou a =C3=A9crit :
+> Bonjour,
+
+=E2=80=99soir,
+
+  Quand tu as plusieurs questions, fais plusieurs fils, surtout=20
+quand elles n=E2=80=99ont rien =C3=A0 voir entre elles.
+
+> Debian AMD-64, install=C3=A9 hier, qui fait que MS ne trouve plus
+> son MBR ! ( Peut-=C3=AAtre c'est moi ? )
+
+  Manque d=E2=80=99info.
+
+> Je tape :  composite -gravity center
+> /home/ptilou/kipcool-mail.png  /home/ptilou/rose.png :
+> compose_rejoin.png J'ai :
+>=20
+> composite: unable to open image `:': P=EF=BF=BD=EF=BF=BD=EF=BF=BD=EF=BF=
+=BD=7F @
+> error/blob.c/OpenBlob/2489.
+>=20
+> Quelqu'un peut eclairsir mes lacunes ?
+
+  Ben il te le dit : =C2=AB : =C2=BB n=E2=80=99est pas un fichier. Enl=C3=
+=A8ve le=20
+=C2=AB : =C2=BB, il ne sert pas dans composite mais dans convert (et=20
+d=E2=80=99autres).
+
+> Accessoirement comment d=C3=A9clarer : rose.png comme *.png dans
+> un script pour que l'op=C3=A9ration ce r=C3=A9p=C3=A9te sur tous les
+> fichiers png ?
+
+  man bash ou man zsh ou man dash, etc., et regarde la syntaxe=20
+de =C2=AB for =C2=BB. En gros :
+for f in *.png; do
+   composite -gravity center kipcool.png "$f" "$f"+kipcool.png
+done
+
+> Euh comment avoir le C de copieryte suivie de
+
+=C2=AB copyright =C2=BB
+
+> la licence CC ?
+
+Plusieurs solutions :
+  1. utilise simplement (C), c=E2=80=99est le terme =C2=AB copyright =C2=BB=
+ (en=20
+fran=C3=A7ais dans le texte) qui est important ;
+  2. Compose + O + c (et d=E2=80=99autres compositions) ;
+  3. AltGr + c en fr-oss ;
+
+> PS: comment transformer les caract=C3=A9res point d'int=C3=A9rogation
+> dans la sortie eron=C3=A9 en caract=C3=A9res compr=C3=A9hensible par
+> l'humain lambda ?
+
+  L=E2=80=99affichage n=E2=80=99est pas forc=C3=A9ment erron=C3=A9, c=E2=80=
+=99est juste que les=20
+octets =C3=A0 afficher ne correspondent pas =C3=A0 des caract=C3=A8res vali=
+des.
+Soit ils ne sont pas valides seulement dans l=E2=80=99encodage utilis=C3=A9=
+=20
+(p.ex. afficher des caract=C3=A8res =C3=A9tendus latin-1 dans de l=E2=80=99=
+UTF-8),=20
+soit ils ne sont valides nulle part (p.ex. des caract=C3=A8res de=20
+code (< 32)).
+  L=C3=A0, =C3=A7a ressemble plut=C3=B4t =C3=A0 du binaire=E2=80=A6
+
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211132000.14292.Sylvain.L.Sauvage@free.fr
+

@@ -1,0 +1,38 @@
+Subject:Re: Connexion ssh : timed out
+On Wed, 31 Oct 2012 14:26:01 +0100
+"E. Flas" <flas.csfa@gmail.com> wrote:
+
+> Ah zut. Je modifie des choses dans mon modem, je reteste et j'obtiens=20
+> Connection refused
+
+QUELLES MODIFICATIONS??  Parce que "des choses", ici on en a des TB
+(on a m=C3=AAme des machins et des trucs qui tra=C3=AEnent encore).
+=20
+> Ca pourrait =C3=AAtre le modem qui refuse la connexion ?
+
+C.Q.F.D....
+
+> Ou est-ce =C3=A0 coup s=C3=BBr la configuration de la machine debian ?
+
+Augmente le niveau de log de sshd, de fa=C3=A7on =C3=A0 voir ce qui se pass=
+e et s'il
+refuse une connexion ou non.
+
+> Sinon, apr=C3=A8s ce connection refused, je ne trouve rien dans=20
+> /var/log/auth.log
+
+En niveau de logging standard c'est normal.
+
+--=20
+<noxus> c vers ou le col de l'uterus ?
+<TLz> je c pas je regarde po le tour de france
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031153331.27c18c37@anubis.defcon1
+

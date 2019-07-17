@@ -1,0 +1,38 @@
+Subject:[Maps-l] Updates in OSM-Gadget
+Hello,
+there are some new features in OSM-Gadget:
+*As additional layer we support the tiles from Opengeoserver.at.
+This service combines satellite and aerial images from different =
+
+sources[1]. Best image quality is available in parts of Austria and =
+
+Bavaria. The primary aim of Opengeoserver is to be a mapping tool for =
+
+OSM. Please respect that if have not the server power of Google maps, =
+
+buts a beginning.
+The images looks interesting together with the transparent tiles we are =
+
+using for multilingual rendering and with our hillshading.
+
+*For a longer time is also a public transport layer (=D6PNV-Karte) =
+
+available.
+
+*OSM-Gadget is running now Openlayers 2.12 in a minimized version, so it =
+
+needs only 400kB instead of 1MB at the first time.
+
+Greetings Tim alias Kolossos
+
+
+[1]http://toolserver.org/~kolossos/openlayers/kml-on-ol.php?lang=3Dde&usela=
+ng=3Dde&params=3D49.3775_N_10.178888888889_E_region%3ADE-BY_type%3Acity%281=
+0930%29&title=3DRothenburg_ob_der_Tauber&zoom=3D10&lat=3D50.92679&lon=3D14.=
+22595&layers=3D00000B0TFFTF
+
+
+_______________________________________________
+Maps-l mailing list
+Maps-l@lists.wikimedia.org
+https://lists.wikimedia.org/mailman/listinfo/maps-l

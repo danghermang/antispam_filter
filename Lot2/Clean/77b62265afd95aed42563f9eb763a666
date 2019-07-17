@@ -1,0 +1,123 @@
+Subject:Re: Rebote con ajustes del servidor de pruebas
+Vamos por partes:
+
+2012/9/14 Fabi=E1n Bonetti <mama21mama2000@yahoo.com.ar>:
+> On Fri, 14 Sep 2012 14:53:58 +0000 (UTC)
+> Camale=F3n <noelamac@gmail.com> wrote:
+> El Thu, 13 Sep 2012 23:42:36 -0430, Miguel Matos escribi=F3:
+>
+> (...)
+>
+>> ln -s /var/www/phpmyadmin /home/usuario/www/phpmyadmin
+>>
+>> Una vez creado el enlace debemos ver ya el directorio de la aplicaci=F3n
+>> en la ra=EDz de nuestro servidor. Abrimos un navegador e introducimos la
+>> direcci=F3nhttp://ipdelservidor/www/phpmyadmin/ ( En mi
+>> casohttp://192.168.1.71/www/phpmyadmin/ )como pod=E9is ver en la imagen =
+=85]
+>>
+>> Pero comprobando la direcci=F3n que coincide con la m=E1quina virtual
+>> (192.168.xxx.xxx), el directorio www s=F3lo tiene un archivo, creado en =
+el
+>> paso anterior al del problema. Al ingresar al /var/www, =A1=BFQUE RAYOS?=
+,
+>> =BFUN SOLO ARCHIVO?! =BFQUE PASA ACA?
+>
+> Supongo que tendr=E1s un s=F3lo archivo que es el enlace simb=F3lico que =
+apunta
+> a la ubicaci=F3n real donde tienes instalado phpmyadim.
+>
+Hago el paso que se indica, y no dice nada... luego voy a
+/home/debian-server/www y muestra:
+root@servidordebian:~# ls -l /home/debian-server/www
+total 4
+-rw-r--r-- 1 root root 20 sep 13 11:57 compatible.php
+lrwxrwxrwx 1 root root 19 sep 13 23:03 phpmyadmin -> /var/www/phpmyadmin
+
+Ah=ED esta el enlace. Pero al visitar mi lugar (192.168.1.xxx) s=F3lo
+muestra un archivo:
+Index of /www
+
+	Name	Last modified	Size	Description
+	Parent Directory	 	 -=09
+	compatible.php	13-Sep-2012 11:57	 20=09
+Apache/2.2.16 (Debian) Server at 192.168.1.XXX Port 80
+
+>> =BFEntonces el paso del enlace est=E1 inv=E1lido?
+>
+> No veo por qu=E9... =BFqu=E9 esperabas ver? :-?
+Seg=FAn la p=E1gina, adem=E1s del compatible.php debe aparecer una carpeta
+llamada "phpmyadmin", dice que se hace clic y abre
+la p=E1gina de acceso, y a partir de all=ED se inicia las configuraciones
+de bases de datos; empero, no obstante, yo no tengo tal cosa.
+Y si no existe, =BFd=F3nde debo ubicarla?
+>
+>> Vamos a pedir ayuda:
+>>
+>> root@miguel-LT:/home/miguel# man phpmyadmin
+>> No manual entry for phpmyadmin
+>
+> Correcto, no existe p=E1gina de manual para esa aplicaci=F3n. La
+> documentaci=F3n la tienes en "/usr/share/doc/phpmyadmin", como siempre.
+>
+
+Mejor hago mutis despu=E9s del "como siempre"...
+Pero creo que lo localizar=E9, a ver si lo encuentro...
+
+>> =BFqu=E9eeeee? =BFy ahora? =BFqu=E9 puedo hacer?
+>
+> (...)
+>
+> Pues seguir los pasos que te dicen en la p=E1gina y si te atoras en alg=
+=FAn
+> paso concreto, mejor nos dices en cu=E1l exactamente y qu=E9 mensaje de e=
+rror
+> recibes :-)
+>
+> Saludos,
+>
+> --
+>
+>
+>
+> Probaste con http://192.168.1.71/phpmyadmin/ ?
+>
+>
+>
+
+A ver si lo localizo en la carpeta que me dijeron que se encuentra:
+
+El d=EDa 14 de septiembre de 2012 07:27, Marc Olive
+<marc.olive@blauadvisors.com> escribi=F3:
+> Las p=E1ginas web no tienen neces=E1riamente que estar en /var/www, notab=
+lemente,
+> las que instales via apt-get suelen estar en /usr/share/<paquete>, y
+> concretamente phpmyadmin se instala en /usr/share/phpmyadmin. Hablo un po=
+co a
+> ciegas, por que no he mirado el enlace que pones con los pasos que has
+> seguido.
+> Sea como sea, las configuraciones de las diferentes p=E1ginas, con la ubi=
+caci=F3n
+> de sus archivos, las tienes en /etc/apache2, dentro de conf.d, sites-enab=
+led o
+> sites-available.
+> Como siempre, recomiendo leer el manual correspondiente, el de apache2 en=
+ este
+> caso (que no el de phpmyadmin, que ya has comprobado que no tiene):
+> http://httpd.apache.org/
+
+A pesar de que estoy intentando manejar tres cosas diferentes, el PHP
+y MySQL se manejan con el Apache como la capa intermedia. No s=E9
+exactamente qu=E9 hace cu=E1l cosa con algunos de ellos, pero nunca est=E1
+dem=E1s preguntar.
+--=20
+Buen uso de las listas (como se ven en Debian):
+http://wiki.debian.org/es/NormasLista
+Ayuda para hacer preguntas inteligentes: http://is.gd/NJIwRz
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALEvJmSv5Npyz8vRCcGKUvj4XpBHa1iwTqdUTDFcJF+YkUQdVA@mail.gmail.com
+

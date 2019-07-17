@@ -1,0 +1,29 @@
+Subject:[Antenna-discussion] Ferrite Antennas
+Ed,
+
+
+Yes the 25 fold increase in voltage (ie 24 dB increase in power) is at the same frequency with and without the ferrite. 
+You have asked about tuning : in this respect it is important to realise that I am talking about the voltage induced at the terminals of the coil, so I am assuming an untuned coil feeding into an infinite load resistance.
+Of course in practice the load impedance will not be infinite and so it is then an advantage to tune-out the reactance of the coil ( or coil plus ferrite). There are two ways to do this, series and parallel tuning and they give totally different results. If you tune out with a series capacitor then the situation with a finite load is much the same as with an infinite load, although one would expect a slightly lower voltage increase than 25 when the ferrite is added because of the ferrite loss resistance.
+However if you have tuned with a parallel capacitor the situation is totally different, because now the voltage across the terminals will be a function of the overall Q. The voltage increase when you add the ferrite could then be much higher than 25, if the Q is high.
+From the above it might seem that parallel tuning with high Q would give the best results, but we have only considered the signal voltage above and not considered the noise voltage in the receiver. To achieve the high Q we will need a high input resistance and this will have a high noise voltage, so the signal to noise ratio may be no better. Indeed the best signal to noise would be with the receiver matched to the radiation resistance but since this is measured in milliohms or less this is hardly practical.
+Of course the high Q may have other advantages such a rejection of adjacent signals. I hope this is of help.
+
+
+Alan Payne G3RBJ
+
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

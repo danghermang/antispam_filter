@@ -1,0 +1,35 @@
+Subject:	=?UTF-8?Q?Re=3A_=5Bsemi=2DOT=5D_Instalaci=C3=B3n_de_servidor_web_truncada?=
+2012/10/23 Miguel Matos <unefistanoche@gmail.com>:
+> apt-cache - Herramienta para la gesti=C3=B3n de paquetes APT -- manipulad=
+or
+> de la cach=C3=A9
+>
+> Y me muestra:
+> ~# apt-cache search no-ip
+> arno-iptables-firewall - single- and multi-homed firewall script with
+> DSL/ADSL support
+> inadyn - client to alleviate the requirements for an Internet name
+> root (...)
+>
+> Ahora mi duda es esta: si no puedo usar no-ip en mi servidor Debian,
+> =C2=BFqu=C3=A9 otras alternativas proponen?
+
+Justamente el comando que pusiste antes te da una: inadyn - client to
+alleviate the requirements for an Internet name
+
+Ahora te toca hacer: apt-get install inadyn
+Y luego: man inadyn
+
+Funciona con dyndns, no-ip y otros
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjP0uyrMptVmxBeQse8jR+mP593Msa14a+x_T+2CQRsKPw@mail.gmail.com
+

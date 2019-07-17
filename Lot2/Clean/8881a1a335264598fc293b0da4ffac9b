@@ -1,0 +1,57 @@
+Subject:Re: r8168b woes
+ugh, Actually I have to keep this box pretty stable. This kernel
+requires several updates to the base system and tools, I was mostly
+making sure this problem was on someones radar. But I think it is.
+Just don't want to get stuck when upgrading.
+
+I have a live Debian script for a netboot. I'll try setting it up with
+that. I can make some network tests at that point.
+
+Thanks
+JEffrey
+
+On Fri, Oct 19, 2012 at 8:15 PM, Jeffrey <jcanon+debian@flying-baker.com> wrote:
+> yea sounds familiar I'll try it out
+>
+> On Fri, Oct 19, 2012 at 11:28 AM, Ben Hutchings <ben@decadent.org.uk> wrote:
+>> On Fri, Oct 19, 2012 at 10:49:05AM -0700, Jeffrey wrote:
+>>> I was running the "linux-image-3.2.0-0.bpo.3-amd64" and came across
+>>> the r8169 driver to r8168b bug. However downloading the r8168 driver,
+>>> compiling it and installing it didn't work.
+>>>
+>>> The symptoms were the classic, under high network load "mediatomb
+>>> videos to our play station 3 box" the network would stall until I
+>>> disabled/reenabled networking. I tried both drivers the original r8169
+>>> from the image and compiling the r8168 from source. It seemed like the
+>>> behavior was exactly the same. I did verify that the driver r8168 was
+>>> being loaded via the lsmod | grep 'r816' command.
+>>>
+>>> After returning to the stock kernel 2.6.32. The network is very stable
+>>> and very good with the stock r8169 driver.
+>>>
+>>> The network is integrated on the ASUS M5A97 board.
+>>
+>> Do you get a 'NETDEV WATCHDOG' warning in the kernel log?  If so this
+>> may be a known bug which is fixed in 3.2.25.  Try the package from
+>> unstable (linux-image-3.2.0-4-amd64 version 3.2.30-1).
+>>
+>> Ben.
+>>
+>> --
+>> Ben Hutchings
+>> We get into the habit of living before acquiring the habit of thinking.
+>>                                                               - Albert Camus
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/20121019182858.GA13292@decadent.org.uk
+>>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ9wesjTyg6ErbVaTTXn0RQQwa2yw45di7fyzEryqqMxW_ArEg@mail.gmail.com
+

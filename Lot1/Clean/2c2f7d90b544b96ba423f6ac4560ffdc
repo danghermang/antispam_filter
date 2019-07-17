@@ -1,0 +1,38 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+On Nov 14, 2012, at 3:47 PM, "Jesse D. Geddis" <jesse@la-broadband.com>
+ wrote:
+
+> John,
+> 
+> I'm confused. How could paying almost 300x more per IP be construed as benefiting smaller organisations?
+
+Jesse - 
+
+Looking at things on a per-IP basis does not reflect actual costs
+in any meaningful manner and may indeed result in ample confusion.
+
+We can try if you wish:  Presently, end-users pay $100 for annual
+maintenance for an unlimited number of IPv4 blocks, so the fee per
+IP is highly variable based on size and number of blocks held.
+
+Under the proposed fee structure, the annual maintenance fee is 
+$100 per IPv4 block per year, which means that it is $0.39 per IP 
+address for an organization with a /24 IPv4 block, $.00153 per IP 
+address per year for a /16 IPv4 block, etc.  With IPv6, the same 
+math applies, but divide the fees by 2 to the 96th power...
+
+Thanks!
+/John
+
+John Curran
+President and CEO
+ARIN
+
+
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

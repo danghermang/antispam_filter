@@ -1,0 +1,76 @@
+Subject:[MG] (proposal) Metagov as a technical plug-in framework
+We propose to use the facilities of Metagov as a plug-in framework for
+e-democracy tools and practices.  Conseo, Thomas and I spoke of this
+earlier and we agreed to ask the community for permission. [1]
+
+1. Key points
+-------------
+
+  a) We deploy the main user interface of Votorola [2] in Metagov web
+     pages, including the wiki pages and the mailing list archive.
+
+  b) We make it known that we want other projects to do the same.  If
+     they do not have software with this capability, they can either
+     copy ours (we'll help them), or build their own.
+
+  c) Together with the second project that joins, we develop a neutral
+     tool switch.  It has these functions:
+
+       * Allows each Metagov participant to choose which project's
+         toolset to run on Metagov pages.  So different participants
+         may run different toolsets.
+
+       * Assigns a random toolset to each new participant.
+
+       * Allows the user to switch toolsets on the fly, or to opt out
+         altogether.
+
+  d) All the while, we work (each in our own projects) to ensure our
+     toolsets integrate nicely with Metagov practices.
+
+
+2. Rationale
+------------
+These are own reasons, but we think they dovetail neatly with
+Metagov's aims and methods:
+
+  a) We lower the barrier to cooperation among technical projects.
+     The initial cooperation we expect is not vote mirroring, but
+     simply the development of a tool switch that enables shared
+     exposure of tools on Metagov.  Our experience tells us this can
+     be hacked together in a matter of weeks, if not days.
+
+  b) We get exposure on Metagov for Votorola.  Metagov is neutral
+     ground and it attracts higher traffic than our own sites.
+
+  c) We get exposure for the idea of cross-project cooperation for
+     the sake of healthy competition as opposed to winner-take-all
+     brutality.
+
+
+Does anyone have questions?  What do you think of the idea?
+
+-- 
+Conseo, Thomas and Mike
+
+
+Notes
+-----
+
+  [1] http://mail.zelea.com/list/votorola/2012-November/001487.html
+
+  [2] The main UI of Votorola is the Crossforum Theatre stage:
+      http://zelea.com/project/votorola/_/javadoc/votorola/s/gwt/stage/Stage.html
+      Running examples are here: (black bar at top)
+
+        http://zelea.com/w/Help:Help
+        http://zelea.com/w/User:Test-bg-ZeleaCom/G/p/sandbox
+
+      It's unfinished.  Two more tracks are on the way.  It's tested
+      only on Firefox and Chrome, and IE is not yet supported.
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

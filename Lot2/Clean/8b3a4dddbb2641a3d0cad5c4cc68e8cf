@@ -1,0 +1,30 @@
+Subject:Re: [EVDL] Pack Cooling
+On Sat, Nov 10, 2012 at 8:47 PM, Lee Hart <leeahart@earthlink.net> wrote:
+> On 11/10/2012 7:31 PM, Marcus Reddish wrote:
+>> Very interesting.  It is good to see how actual use compares to factory
+>> "charts".  Can you give your battery make and size and starting voltage?
+>
+> I would have to agree with Mike Nickerson. I have tested Thunderskys at
+> low temperature, and found that their performance dropped off
+> significantly below 32 deg.F.
+
+Same experience here with my 200Ah pack in my Gizmo. Below about 10=B0C
+sag becomes really noticeable. Near 0=B0C sag under a 1.5C load can
+easily bring the cells below 2.9V even when they are at 100%SOC.
+
+-- =
+
+David D. Nelson
+http://evalbum.com/1328
+http://2003gizmo.blogspot.com
+http://www.levforum.com
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

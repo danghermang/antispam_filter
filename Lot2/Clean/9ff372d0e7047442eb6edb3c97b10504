@@ -1,0 +1,17 @@
+Subject:Re: [rlug] kernel panic :: pareri despre motiv
+2012/10/25 Adrian Sevcenco <Adrian.Sevcenco@cern.ch>:
+[...]
+> [root@alien-0-38 ~]# uname -a
+> Linux alien-0-38.local 2.6.18-194.17.4.el5 #1 SMP Mon Oct 25 15:50:53
+> EDT 2010 x86_64 x86_64 x86_64 GNU/Linux
+
+Nu stiu cat de relevant e pentru crapaciunea ta, dar kernelul care
+ruleaza are deja o varsta rezonabila, din ce vad ultimul kernel de 5.x
+e 2.6.18-308.16.1.el5
+
+-- 
+Adi Pircalabu
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

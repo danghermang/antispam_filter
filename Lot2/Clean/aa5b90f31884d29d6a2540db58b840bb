@@ -1,0 +1,726 @@
+Subject:Re: [Koha] Data Migration (Dennis Njuguna)
+Dear Dennis, 
+
+I believe you are missing MARC tag 952 series, 952 is the local tags which
+contain all the information about the holding. For example.
+
+952$8$9$a$b$c$g$h$p$y
+$8 is for collection code
+$9 is for biblio number
+$a is for permanent location
+$b is for current location
+$c is for shelf location
+$g is for purchase price (you can include the vendor name, location and
+invoice details also here)
+$h is for volume details of the resources mainly it is used for the
+journal/magazine/periodicals 
+$p is for the barcode 
+$y is for the item type
+
+Once you have all the required information in 952 series you can convert the
+file into marc format and upload the same to koha, as the standard process. 
+
+Thanks and Regards
+
+R Sunil Kumar
+Library Technologist
+
+
+
+-----Original Message-----
+From: koha-bounces@lists.katipo.co.nz
+[mailto:koha-bounces@lists.katipo.co.nz] On Behalf Of
+koha-request@lists.katipo.co.nz
+Sent: 25 October 2012 03:21
+To: koha@lists.katipo.co.nz
+Subject: Koha Digest, Vol 84, Issue 45
+
+Send Koha mailing list submissions to
+	koha@lists.katipo.co.nz
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	http://lists.katipo.co.nz/mailman/listinfo/koha
+or, via email, send a message with subject or body 'help' to
+	koha-request@lists.katipo.co.nz
+
+You can reach the person managing the list at
+	koha-owner@lists.katipo.co.nz
+
+When replying, please edit your Subject line so it is more specific than
+"Re: Contents of Koha digest..."
+
+
+Today's Topics:
+
+   1. Re: Data Migration (Dennis Njuguna)
+   2. Re: Data Migration (Mohamed zalabany)
+   3. Problems upgrading to 3.8 (Ramon Andi?ach)
+   4. Re: Problems upgrading to 3.8 (Hugo Agud)
+   5. Email. (Estel Porras)
+   6. Help needed with report - how to extract subtitle and
+      edition? (Elaine Bradtke)
+   7. Re: Help needed with report - how to extract subtitle and
+      edition? (mh_zalabany@hotmail.com)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Wed, 24 Oct 2012 12:17:39 +0300
+From: Dennis Njuguna <cknjuguna@gmail.com>
+To: Mohamed zalabany <mh_zalabany@hotmail.com>
+Cc: koha list <koha@lists.katipo.co.nz>,	"manny_tamayao@sil.org"
+	<manny_tamayao@sil.org>
+Subject: Re: [Koha] Data Migration
+Message-ID:
+	<CAH0M1x-AbcrEvvzfvOL9oJ4nE7NMD0o4-UytqTUa0LfGxyOyAA@mail.gmail.com>
+Content-Type: text/plain; charset=ISO-8859-1
+
+it is marc compliant, but when I take it to marcedit i view the file but I
+cannot see/view the barcode, if I import the marc into koha I can only
+import the biblios records, no holdings.
+
+
+
+On Tue, Oct 23, 2012 at 7:02 PM, Mohamed zalabany
+<mh_zalabany@hotmail.com>wrote:
+
+>  Hello
+> conversion from mandarin M3 will be easy if your version is supporting 
+> Marc 21 for holding you need to know what is the local field that the 
+> system uses to put the items information and edit the record by MARC 
+> edit to change the tag of the item field to
+> (952) koha local field for item information
+>
+> *
+> *
+>
+> *
+> *
+>
+> *Mohamed El Zalabaitny*
+> **
+> *Integrated library systems consultant*
+>
+> Zalabany Knowledge Systems Team?
+> For Libraries and Information systems Development and support 
+> mh_zalabany@hotmail.com
+> Mobile: 0111291444
+>
+> **
+>
+>
+> ------------------------------
+> Date: Tue, 23 Oct 2012 17:08:09 +0300
+> Subject: Re: [Koha] Data Migration
+> From: cknjuguna@gmail.com
+> To: mh_zalabany@hotmail.com
+> CC: manny_tamayao@sil.org; koha@lists.katipo.co.nz
+>
+>
+> Hello Mohamed what about data migration from mandarin M3 especially 
+> the holdings?
+>
+> On Tue, Oct 23, 2012 at 2:51 PM, Mohamed zalabany 
+> <mh_zalabany@hotmail.com
+> > wrote:
+>
+>
+> i have a big experience in data conversion but unfortunately i don't 
+> know MAELISA library systemso could you tell us is the data is MARC 
+> format i what format and send me a sample of data
+>
+>
+>
+> Mohamed El ZalabanyIntegrated library systems consultant
+>
+> Zalabany Knowledge Systems Team?
+> For Libraries and Information systems Development and support 
+> mh_zalabany@hotmail.com
+> Mobile: 202-0111291444
+>
+>
+>
+> > From: manny_tamayao@sil.org
+> > To: koha@lists.katipo.co.nz
+> > Date: Tue, 23 Oct 2012 10:21:40 +0800
+> > Subject: [Koha] Data Migration
+> >
+> > Good day to all,
+> >
+> >
+> >
+> > I'm Manny from Manila and in the process of data migration of the 
+> > library from "MAELISA" to KOHA.
+> >
+> > Is there anyone who had done this process or has a script that may help?
+> >
+> >
+> >
+> > Salamat
+> >
+> >
+> >
+> > Manny Tamayao
+> >
+> > Librarian/Archivist
+> >
+> > SIL Philippines
+> >
+> > skype: mannytamayao
+> >
+> > mobile: 09152822329
+> >
+> >
+> >
+> >
+> >
+> >
+> >
+> >
+> >
+> >
+> >
+> > _______________________________________________
+> > Koha mailing list  http://koha-community.org Koha@lists.katipo.co.nz 
+> > http://lists.katipo.co.nz/mailman/listinfo/koha
+>
+> _______________________________________________
+> Koha mailing list  http://koha-community.org Koha@lists.katipo.co.nz 
+> http://lists.katipo.co.nz/mailman/listinfo/koha
+>
+>
+>
+>
+> --
+>
+> Dennis K. Njuguna
+>
+>
+
+
+-- 
+
+Dennis K. Njuguna
+
+
+------------------------------
+
+Message: 2
+Date: Wed, 24 Oct 2012 09:38:15 +0000
+From: Mohamed zalabany <mh_zalabany@hotmail.com>
+To: <cknjuguna@gmail.com>
+Cc: koha list <koha@lists.katipo.co.nz>,	"manny_tamayao@sil.org"
+	<manny_tamayao@sil.org>
+Subject: Re: [Koha] Data Migration
+Message-ID: <BLU165-W49D11BF288626BB715E85597780@phx.gbl>
+Content-Type: text/plain; charset="iso-8859-1"
+
+
+
+I think there is option to export item data with MARC record
+
+
+Mohamed El ZalabanyIntegrated library systems consultant
+
+Zalabany Knowledge Systems Team?
+For Libraries and Information systems Development and support
+mh_zalabany@hotmail.com
+Mobile: 0111291444
+
+
+
+Date: Wed, 24 Oct 2012 12:17:39 +0300
+Subject: Re: [Koha] Data Migration
+From: cknjuguna@gmail.com
+To: mh_zalabany@hotmail.com
+CC: manny_tamayao@sil.org; koha@lists.katipo.co.nz
+
+
+it is marc compliant, but when I take it to marcedit i view the file but I
+cannot see/view the barcode, if I import the marc into koha I can only
+import the biblios records, no holdings.
+
+
+
+
+On Tue, Oct 23, 2012 at 7:02 PM, Mohamed zalabany <mh_zalabany@hotmail.com>
+wrote:
+
+
+
+
+
+Hello
+conversion from mandarin M3 will be easy if your version is supporting Marc
+21 for holding you need to know what is the local field that the system uses
+to put the items information and edit the record by MARC edit to change the
+tag of the item field to (952) koha local field for item information
+
+
+
+
+Mohamed El Zalabaitny
+Integrated library systems consultant
+
+Zalabany Knowledge Systems Team?
+For Libraries and Information systems Development and support
+
+mh_zalabany@hotmail.com
+Mobile: 0111291444
+
+
+
+
+Date: Tue, 23 Oct 2012 17:08:09 +0300
+Subject: Re: [Koha] Data Migration
+From: cknjuguna@gmail.com
+To: mh_zalabany@hotmail.com
+
+CC: manny_tamayao@sil.org; koha@lists.katipo.co.nz
+
+Hello Mohamed what about data migration from mandarin M3 especially the
+holdings?
+
+
+On Tue, Oct 23, 2012 at 2:51 PM, Mohamed zalabany <mh_zalabany@hotmail.com>
+wrote:
+
+
+
+i have a big experience in data conversion but unfortunately i don't know
+MAELISA library systemso could you tell us is the data is MARC format i what
+format and send me a sample of data
+
+
+
+
+
+
+
+Mohamed El ZalabanyIntegrated library systems consultant
+
+
+
+Zalabany Knowledge Systems Team?
+
+For Libraries and Information systems Development and support
+
+mh_zalabany@hotmail.com
+
+Mobile: 202-0111291444
+
+
+
+
+
+
+
+> From: manny_tamayao@sil.org
+
+> To: koha@lists.katipo.co.nz
+
+> Date: Tue, 23 Oct 2012 10:21:40 +0800
+
+> Subject: [Koha] Data Migration
+
+>
+
+> Good day to all,
+
+>
+
+>
+
+>
+
+> I'm Manny from Manila and in the process of data migration of the 
+> library
+
+> from "MAELISA" to KOHA.
+
+>
+
+> Is there anyone who had done this process or has a script that may help?
+
+>
+
+>
+
+>
+
+> Salamat
+
+>
+
+>
+
+>
+
+> Manny Tamayao
+
+>
+
+> Librarian/Archivist
+
+>
+
+> SIL Philippines
+
+>
+
+> skype: mannytamayao
+
+>
+
+> mobile: 09152822329
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+> _______________________________________________
+
+> Koha mailing list  http://koha-community.org
+
+> Koha@lists.katipo.co.nz
+
+> http://lists.katipo.co.nz/mailman/listinfo/koha
+
+
+
+_______________________________________________
+
+Koha mailing list  http://koha-community.org
+
+Koha@lists.katipo.co.nz
+
+http://lists.katipo.co.nz/mailman/listinfo/koha
+
+
+
+-- 
+
+Dennis K. Njuguna
+
+ 		 	   		  
+
+
+-- 
+
+Dennis K. Njuguna
+
+ 		 	   		  
+
+------------------------------
+
+Message: 3
+Date: Wed, 24 Oct 2012 23:46:00 +0800
+From: Ramon Andi?ach <custard@westnet.com.au>
+To: koha@lists.katipo.co.nz
+Subject: [Koha] Problems upgrading to 3.8
+Message-ID: <96D8A573-0DC3-478B-BA5C-CBD5FD9974A5@westnet.com.au>
+Content-Type: text/plain; charset=us-ascii
+
+Hi,
+
+This is going sound pathetic, and stupid, but I'm in need of some guidance.
+It has been quite some time since I've tried to use koha.
+
+I've been upgrading my koha from 3.00 towards 3.8 via the tarball method.
+
+I was attempting to be good, and going in smallish steps so 3.00 to 3.02 to
+3.04 to 3.06 and then to 3.8.
+
+In between each upgrade I was trying a few searches to make sure that the
+books end of the db was intact and then backing up the DB.
+
+After the 3.06 step it seemed to be working.
+
+But, after the 3.8 step suddenly most of the books seem to have vanished.
+
+I'd put it down to noticing in the upgrade notes some extra steps that I
+didn't see in the 3.6 or 3.4 notes (the ones about removing the duplicated
+item details). So I dropped the DB and reloaded the backup from the 3.6 step
+and tried without these steps.
+
+I've also now tried the original backup too, without success.
+
+I'm not sure at this point if it's the items that have vanished or the
+records too. Yes, I have run rebuild_zebra -b -r as the koha user (several
+times no luck).
+
+So I suppose I'm looking for guidance on
+a) working out what is going on.
+b) how to get normality back again.
+
+-ramon.
+
+------------------------------
+
+Message: 4
+Date: Wed, 24 Oct 2012 18:01:53 +0200
+From: Hugo Agud <hagud@orex.es>
+To: Ramon Andi?ach <custard@westnet.com.au>
+Cc: koha@lists.katipo.co.nz
+Subject: Re: [Koha] Problems upgrading to 3.8
+Message-ID:
+	<CADT_QRTsaDrrye_Ux-To_JkjQZk=eT3QN_b1UEoEPSg1N_k64Q@mail.gmail.com>
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi Ramon
+
+Do not worry it happens to a lot of people ... take a look on this
+
+http://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=8665
+
+Kindest Regards
+
+2012/10/24 Ramon Andi?ach <custard@westnet.com.au>
+
+> Hi,
+>
+> This is going sound pathetic, and stupid, but I'm in need of some 
+> guidance. It has been quite some time since I've tried to use koha.
+>
+> I've been upgrading my koha from 3.00 towards 3.8 via the tarball method.
+>
+> I was attempting to be good, and going in smallish steps so 3.00 to 
+> 3.02 to 3.04 to 3.06 and then to 3.8.
+>
+> In between each upgrade I was trying a few searches to make sure that 
+> the books end of the db was intact and then backing up the DB.
+>
+> After the 3.06 step it seemed to be working.
+>
+> But, after the 3.8 step suddenly most of the books seem to have vanished.
+>
+> I'd put it down to noticing in the upgrade notes some extra steps that 
+> I didn't see in the 3.6 or 3.4 notes (the ones about removing the 
+> duplicated item details). So I dropped the DB and reloaded the backup 
+> from the 3.6 step and tried without these steps.
+>
+> I've also now tried the original backup too, without success.
+>
+> I'm not sure at this point if it's the items that have vanished or the 
+> records too. Yes, I have run rebuild_zebra -b -r as the koha user 
+> (several times no luck).
+>
+> So I suppose I'm looking for guidance on
+> a) working out what is going on.
+> b) how to get normality back again.
+>
+> -ramon.
+> _______________________________________________
+> Koha mailing list  http://koha-community.org Koha@lists.katipo.co.nz 
+> http://lists.katipo.co.nz/mailman/listinfo/koha
+>
+
+
+
+-- 
+
+*Hugo Agud - Orex Digital *
+
+*www.orex.es*
+
+*
+*
+
+ Director
+
+Avenida Sarri? 29 ? 08029 Barcelona <http://twitter.com/OrexDigital>
+:<http://orexsl.blogspot.com>hugoaguda - Tel: 93 539 40 70 Fax: 93 539
+33 30
+hagud@orex.es ? http://www.orex.es/
+
+
+
+No imprima este mensaje a no ser que sea necesario. Una tonelada de papel
+implica la tala de 15 ?rboles y el consumo de 250.000 litros de agua.
+
+
+
+Aviso de confidencialidad
+Este mensaje contiene informaci?n que puede ser CONFIDENCIAL y/o de USO
+RESTRINGIDO. Si usted no es el receptor deseado del mensaje (ni
+est? autorizado a recibirlo por el remitente), no est? autorizado a copiar,
+reenviar o divulgar el mensaje o su contenido. Si ha recibido este mensaje
+por error, por favor, notif?quenoslo inmediatamente y b?rrelo de su sistema.
+
+
+------------------------------
+
+Message: 5
+Date: Wed, 24 Oct 2012 10:11:18 -0700 (PDT)
+From: Estel Porras <orlib@yahoo.com>
+To: Koha community <koha@lists.katipo.co.nz>
+Subject: [Koha] Email.
+Message-ID:
+	<1351098678.37956.YahooMailNeo@web125305.mail.ne1.yahoo.com>
+Content-Type: text/plain; charset=iso-8859-1
+
+Just wanted to thank all the very helpful folks here. You guys rock!
+
+?
+?Have a great day, ~Estel~
+Orland Free Library
+333 Mill St.
+Orland CA. 95963
+[530]865-1640
+
+------------------------------
+
+Message: 6
+Date: Wed, 24 Oct 2012 22:23:41 +0100
+From: Elaine Bradtke <eb@efdss.org>
+To: koha <koha@lists.katipo.co.nz>
+Subject: [Koha] Help needed with report - how to extract subtitle and
+	edition?
+Message-ID:
+	<CAPdfUux1_GHutDqzKJrr-F+3DPU0fwCH8LYrfKiGmwtbEM5DHw@mail.gmail.com>
+Content-Type: text/plain; charset=ISO-8859-1
+
+I'm trying to catch duplicate items in data before I upload it (ISBN won't
+help in this case). In order to do that I've written a report to list the
+books currently in Koha, and will compare them with my external files.
+ However, if I can't include the subtitle (MARC 245 b) I will get too many
+false positives (we have lots of things with the same title, but different
+subtitles)
+It would also help if I could  also have the 250 a (edition)
+
+
+This is what I have:
+SELECT
+ 
+biblio.biblionumber,biblio.author,biblio.title,biblio.copyrightdate,biblioit
+ems.place,biblioitems.publishercode,biblioitems.isbn
+FROM items
+ LEFT JOIN biblioitems on
+(items.biblioitemnumber=biblioitems.biblioitemnumber)
+LEFT JOIN biblio on (biblioitems.biblionumber=biblio.biblionumber)
+WHERE items.itype='BK' AND items.holdingbranch='VWML'
+ORDER BY biblio.author asc
+
+
+This works fine, but doesn't include the 245 b or the 250 a  Can anyone
+help?
+-- 
+Elaine Bradtke
+Data Wrangler
+VWML
+English Folk Dance and Song Society | http://www.efdss.org
+Cecil Sharp House, 2 Regent's Park Road, London NW1 7AY
+Tel    +44 (0) 20 7485 2206 (This number is for the English Folk Dance and
+Song Society in London, England. If you wish to phone me personally, send
+an e-mail first. I work off site)
+--------------------------------------------------------------------------
+Registered Company No. 297142
+Charity Registered in England and Wales No. 305999
+---------------------------------------------------------------------------
+"Writing about music is like dancing about architecture"
+--Elvis Costello (Musician magazine No. 60 (October 1983), p. 52)
+
+
+------------------------------
+
+Message: 7
+Date: Wed, 24 Oct 2012 23:51:10 +0200
+From: mh_zalabany@hotmail.com <mh_zalabany@hotmail.com>
+To: eb@efdss.org,"koha" <koha@lists.katipo.co.nz>
+Subject: Re: [Koha] Help needed with report - how to extract subtitle
+	and	edition?
+Message-ID: <BLU0-SMTP34294835DD8881E4738D9DE97780@phx.gbl>
+Content-Type: text/plain; charset="utf-8"
+
+I think in this case you need to make the report using the xml field in
+biblio items table because the rest of sub fields you will find there
+
+Sent from my HTC
+
+----- Reply message -----
+From: "Elaine Bradtke" <eb@efdss.org>
+To: "koha" <koha@lists.katipo.co.nz>
+Subject: [Koha] Help needed with report - how to extract subtitle and
+edition?
+Date: Wed, Oct 24, 2012 11:23 pm
+
+
+I'm trying to catch duplicate items in data before I upload it (ISBN won't
+help in this case). In order to do that I've written a report to list the
+books currently in Koha, and will compare them with my external files.
+ However, if I can't include the subtitle (MARC 245 b) I will get too many
+false positives (we have lots of things with the same title, but different
+subtitles)
+It would also help if I could  also have the 250 a (edition)
+
+
+This is what I have:
+SELECT
+ 
+biblio.biblionumber,biblio.author,biblio.title,biblio.copyrightdate,biblioit
+ems.place,biblioitems.publishercode,biblioitems.isbn
+FROM items
+ LEFT JOIN biblioitems on
+(items.biblioitemnumber=biblioitems.biblioitemnumber)
+LEFT JOIN biblio on (biblioitems.biblionumber=biblio.biblionumber)
+WHERE items.itype='BK' AND items.holdingbranch='VWML'
+ORDER BY biblio.author asc
+
+
+This works fine, but doesn't include the 245 b or the 250 a  Can anyone
+help?
+-- 
+Elaine Bradtke
+Data Wrangler
+VWML
+English Folk Dance and Song Society | http://www.efdss.org
+Cecil Sharp House, 2 Regent's Park Road, London NW1 7AY
+Tel    +44 (0) 20 7485 2206 (This number is for the English Folk Dance and
+Song Society in London, England. If you wish to phone me personally, send
+an e-mail first. I work off site)
+--------------------------------------------------------------------------
+Registered Company No. 297142
+Charity Registered in England and Wales No. 305999
+---------------------------------------------------------------------------
+"Writing about music is like dancing about architecture"
+--Elvis Costello (Musician magazine No. 60 (October 1983), p. 52)
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha
+
+
+------------------------------
+
+_______________________________________________
+Koha mailing list
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha
+
+
+End of Koha Digest, Vol 84, Issue 45
+************************************
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

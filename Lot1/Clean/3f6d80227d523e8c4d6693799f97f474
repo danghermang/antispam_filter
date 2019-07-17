@@ -1,0 +1,40 @@
+Subject:Re: Apache2 erreurs
+Le 11 novembre 2012 11:40,  <andre_debian@numericable.fr> a =C3=A9crit :
+...
+> Les fichiers du r=C3=A9pertoire "sites-enabled" peuvent =C3=AAtre des lie=
+ns
+> symboliques pointant vers les fichiers originaux du
+> r=C3=A9pertoire "sites-available" que l'on cr=C3=A9=C3=A9 avec la command=
+e
+> "a2ensite" :
+> a2ensite <fichier_config_site virtuel>
+>
+> Mais on peut les cr=C3=A9er dans "sites -enabled" avec un simple :
+> cp ...sites-available/<fichier_config> ...sites-enables/<fichier_config>,
+> =C3=A7a marche (je viens de tester).
+>
+> andr=C3=A9
+...
+
+Oui ca marche sans probl=C3=A8me. Je voulais juste dire que ce n'est pas ce
+mode de fonctionnement qui =C3=A0 =C3=A9t=C3=A9 pens=C3=A9 par les devs. Ma=
+is tant qu'on
+ne s'y perd pas soit m=C3=AAme, tout roule.
+Par contre si quelqu'un reprend l'administration du serveur et que les
+choses ne sont pas param=C3=A9tr=C3=A9es comme pr=C3=A9vu par les concepteu=
+rs, a=C3=AFe
+a=C3=AFe a=C3=AFe ! Surprise !
+
+--=20
+Nicolas PHAM
+Powered by GNU/Linux
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CANV6WGKYbL+kTWWPuoZtNywsaRqQP6VkQyuhC=WkDqjYQBeM9Q@mail.gmail.com
+

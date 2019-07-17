@@ -1,0 +1,36 @@
+Subject:[rlug] administrare multi-server
+  Dupa ceva analize, am ajuns la concluzia, ca ar fi cazul sa caut niste scule,
+cu care sa fac administrare remote la mai multe  
+servere(fizice/virtualizate). Sunt undeva in jur de 25(grosul pe  
+debian/ubuntu) de servere. Voi ce scule folositi pt. asa ceva? La o  
+prima cautare ar fi pupet. Sugestii?
+   Prin administrare inteleg chestii uzuale:
+- instalare update-ri cu aptitude;
+- instalare aplicatii noi via aptitude;
+- modificari/reconfigurari frecvente de servicii(exemple: LAMP, bind,  
+dhcp, iptables, routing, chestii normale)
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+
+
+================================ DISCLAIMER =============================
+
+ Pentru a transmite email-ri catre casbv.ro, va rugam:
+
+- daca trimiteti atashamente tip Office, ele trebuie sa fie in format OFFICE 97;
+- nu trimiteti date personale(CNP, copii dupa acte de identitate, etc).
+
+ O lista completa cu reguli de utilizare exista la:
+
+http://gw.casbv.ro/forum_smf/index.php?topic=2000.msg3106#msg3106
+
+C.A.S.J. Brasov - B-dul Mihail Kogalniceanu, nr. 11,Brasov
+[web-site]: http://www.casbv.ro
+[forum]: http://gw.casbv.ro/forum_smf/index.php
+
+==========================================================================
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

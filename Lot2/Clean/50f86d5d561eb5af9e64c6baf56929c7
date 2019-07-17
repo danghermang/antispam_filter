@@ -1,0 +1,501 @@
+Subject:W3C Public Newsletter, 2012-10-29
+Dear W3C Public Newsletter Subscriber,
+
+The 2012-10-29 version of the W3C Public Newsletter is online:
+  http://www.w3.org/News/Public/pnews-20121029
+
+A simplified plain text version is available below.
+
+Ian Jacobs, W3C Communications Team
+
+-----------------------------------
+W3C Community Convenes in France for TPAC 2012
+
+   29 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9619
+
+   [] This week, the W3C community meets in Lyon, France for TPAC
+   2012 W3C's annual face-to-face Membership meeting. Participants
+   will coordinate technical directions for the Open Web Platform,
+   explore its impact across industries and devices, and discuss
+   organizational strategy. More than 450 people will participate
+   in Working Group meetings, an Advisory Committee meeting, and a
+   Plenary Day for breakout discussions on a a variety of topics.
+   Although participation in TPAC is limited to those already in
+   W3C groups, the TPAC proceedings are public and will be made
+   available shortly after the meeting. Follow the meeting on
+   social networking sites with tag #tpac. W3C also welcomes local
+   developers today to a Meetup at the Lyon City Hall.
+
+   http://www.w3.org/2012/10/TPAC/
+   http://www.w3.org/2012/10/TPAC/
+   http://www.w3.org/wiki/TPAC2012
+   http://www.w3.org/wiki/TPAC2012/SessionIdeas
+   http://www.w3.org/2012/10/TPAC/meetup-Lyon
+
+Last Call: Publishing and Linking on the Web
+
+   25 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9618
+
+   The Technical Architecture Group has published a Last Call
+   Working Draft of "Publishing and Linking on the Web."
+   Publishing a page on the Web is fundamentally different from
+   printing and distributing a page in a magazine or book. This
+   document is intended to inform future social and legal
+   discussions of the Web by clarifying the ways in which the
+   Web's technical facilities operate to store, publish and
+   retrieve information, and by providing definitions for
+   terminology as used within the Web's technical community. This
+   document also describes the technical and operational impact
+   that does or could result from legal constraints on publishing,
+   linking and transformation on the Web. Comments are welcome
+   through 13 December. Learn more about the Technical
+   Architecture Group.
+
+   http://www.w3.org/2001/tag/
+   http://www.w3.org/TR/2012/WD-publishing-linking-20121025/
+   http://www.w3.org/2001/tag/
+
+File API Draft Published
+
+   25 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9617
+
+   The Web Applications Working Group has published a Working
+   Draft of "File API." Web applications should have the ability
+   to manipulate as wide as possible a range of user input,
+   including files that a user may wish to upload to a remote
+   server or manipulate inside a rich web application. This
+   specification defines the basic representations for files,
+   lists of files, errors raised by access to files, and
+   programmatic ways to read files. Additionally, this
+   specification also defines an interface that represents "raw
+   data" which can be asynchronously processed on the main thread
+   of conforming user agents. The interfaces and API defined in
+   this specification can be used with other interfaces and APIs
+   exposed to the Open Web Platform. Learn more about the Rich Web
+   Client Activity.
+
+   http://www.w3.org/2008/webapps/
+   http://www.w3.org/TR/2012/WD-FileAPI-20121025/
+   http://www.w3.org/2006/rwc/
+
+Filter Effects 1.0 Draft Published
+
+   25 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9616
+
+   The Cascading Style Sheets (CSS) Working Group has published
+   the First Public Working Draft of "Filter Effects 1.0." Filter
+   effects are a way of processing an element's rendering before
+   it is displayed in the document. Typically, rendering an
+   element via CSS or SVG can conceptually described as if the
+   element, including its children, are drawn into a buffer (such
+   as a raster image) and then that buffer is composited into the
+   elements parent. Filters apply an effect before the compositing
+   stage. Examples of such effects are blurring, changing color
+   intensity and warping the image. Learn more about the Style
+   Activity.
+
+   http://www.w3.org/Style/CSS/members
+   http://www.w3.org/TR/2012/WD-filter-effects-20121025/
+   http://www.w3.org/Style/
+
+Nine HTML5 Drafts Updated
+
+   25 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9615
+
+   The HTML Working Group has published nine updated working
+   drafts:
+
+   http://www.w3.org/html/wg/
+     * The HTML5 specification
+     * HTML5: Edition for Web Authors
+     * HTML5 differences from HTML4
+     * HTML Microdata
+     * HTML Canvas 2D Context
+     * HTML5: Techniques for providing useful text alternatives
+     * Polyglot Markup: HTML-Compatible XHTML Documents
+     * HTML to Platform Accessibility APIs Implementation Guide
+     * HTML: The Markup Language
+
+   There is a "list of the changes made to the HTML5
+   specification" since publication of the previous HTML Working
+   Draft (March 2012). The changes are essentially fine-tuning
+   refinements rather than major new additions, in keeping with
+   the progress of the specification toward greater stability, and
+   transitioning toward an upcoming Candidate Recommendation
+   draft.
+
+   http://www.w3.org/TR/2012/WD-html5-diff-20121025/#changes-2012-
+   03-29
+
+   Learn more about HTML.
+
+   http://www.w3.org/standards/webdesign/htmlcss
+
+Linked Data Platform 1.0 Draft Published
+
+   25 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9614
+
+   The Linked Data Platform (LDP) Working Group has published the
+   First Public Working Draft of "Linked Data Platform 1.0." A
+   set of best practices and simple approach for a read-write
+   Linked Data architecture, based on HTTP access to web resources
+   that describe their state using RDF. Learn more about the
+   Semantic Web Activity.
+
+   http://www.w3.org/2012/ldp/
+   http://www.w3.org/TR/2012/WD-ldp-20121025/
+   http://www.w3.org/2001/sw/
+
+Last Call: Best Practices for Fragment Identifiers and Media Type
+Definitions
+
+   25 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9613
+
+   The Technical Architecture Group has published a Last Call
+   Working Draft of "Best Practices for Fragment Identifiers and
+   Media Type Definitions." Fragment identifiers (fragids) within
+   URIs are specified as being interpreted based on the media type
+   of a representation. Media type definitions therefore have to
+   provide details about how fragids are interpreted for that
+   media type. This document recommends best practices for the
+   authors of media type definitions, for the authors of
+   structured syntax suffix registrations (such as +xml), for the
+   authors of specifications that define fragid structures, and
+   for authors that publish documents that are intended to be used
+   with fragids or who refer to fragments within documents using
+   URIs with fragids. Comments are welcome through 13 December.
+   Learn more about the Technical Architecture Group.
+
+   http://www.w3.org/2001/tag/
+   http://www.w3.org/TR/2012/WD-fragid-best-practices-20121025/
+   http://www.w3.org/2001/tag/
+
+Web MIDI API Draft Published
+
+   25 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9612
+
+   The Audio Working Group has published the First Public Working
+   Draft of "Web MIDI API." This specification defines an API
+   supporting the MIDI protocol, enabling web applications to
+   enumerate and select MIDI input and output devices on the
+   client system and send and receive MIDI messages. It is
+   intended to enable non-music MIDI applications as well as music
+   ones, by providing low-level access to the MIDI devices
+   available on the users' systems. At the same time, the Web MIDI
+   API is not intended to become a semantic controller platform;
+   it is designed to expose the mechanics of MIDI input and output
+   interfaces, and the practical aspects of sending and receiving
+   MIDI messages, without identifying what those actions might
+   mean semantically. Learn more about the Rich Web Client
+   Activity.
+
+   http://www.w3.org/2011/audio/
+   http://www.w3.org/TR/2012/WD-webmidi-20121025/
+   http://www.w3.org/2006/rwc/
+
+Multimodal Architecture and Interfaces is a W3C Recommendation
+
+   25 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9611
+
+   The Multimodal Interaction Working Group a W3C Recommendation
+   of "Multimodal Architecture and Interfaces." This document
+   describes a loosely coupled architecture for multimodal user
+   interfaces, which allows for co-resident and distributed
+   implementations, and focuses on the role of markup and
+   scripting, and the use of well defined interfaces between its
+   constituents. Learn more about the Multimodal Interaction
+   Activity.
+
+   http://www.w3.org/2002/mmi/
+   http://www.w3.org/TR/2012/REC-mmi-arch-20121025/
+   http://www.w3.org/2002/mmi/Activity
+
+W3C Workshop: Electronic Books and the Open Web Platform
+
+   24 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9610
+
+   W3C announced today a Workshop on Electronic Books and the Open
+   Web Platform, 11-12 February 2013, in New York (USA). The event
+   is hosted by O'Reilly and collocated with the O'Reilly Tools of
+   Change for Publishing Conference (TOC 2013).Today’s eBook
+   market is dynamic, fast-changing and strong. eBooks compete
+   with printed versions, and there is a wide choice of hardware
+   and software available for eBook readers. Nevertheless,
+   publishers face major business and technical challenges in this
+   market, some of which could be reduced or removed by
+   standardization. Participants in this workshop will have the
+   opportunity to share their own perspectives, requirements, and
+   ideas to ensure that emerging global technology standards meet
+   the needs of the eBook industry. W3C membership is not required
+   to participate. All participants are required to submit a
+   statement of interest by 10 December 2012.
+
+   http://www.w3.org/2012/08/electronic-books/
+   http://www.toccon.com/toc2013
+
+Internationalization Tag Set (ITS) Version 2.0 Draft Published
+
+   23 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9609
+
+   The MultilingualWeb-LT Working Group has published a Working
+   Draft of "Internationalization Tag Set (ITS) Version 2.0."
+   This document defines data categories and their implementation
+   as a set of elements and attributes called the
+   Internationalization Tag Set (ITS) 2.0. ITS 2.0 is designed to
+   foster the creation of multilingual Web content, focusing on
+   HTML5, XML based formats in general, and to leverage
+   localization workflows based on the XML Localization
+   Interchange File Format (XLIFF), and language technology
+   applications like machine translation or named entity
+   annotation. In addition to HTML5 and XML, algorithms to convert
+   ITS attributes to NIF is provided. Learn more about the
+   Internationalization Activity.
+
+   http://www.w3.org/International/multilingualweb/lt/
+   http://www.w3.org/TR/2012/WD-its20-20121023/
+   http://www.w3.org/International/
+
+Call for Review: High Resolution Time Proposed Recommendation
+Published
+
+   23 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9608
+
+   The Web Performance Working Group has published a Proposed
+   Recommendation of "High Resolution Time." This specification
+   defines a JavaScript interface that provides the current time
+   in sub-millisecond resolution and such that it is not subject
+   to system clock skew or adjustments. Comments are welcome
+   through 20 November. Learn more about the Rich Web Client
+   Activity.
+
+   http://www.w3.org/2010/webperf/
+   http://www.w3.org/TR/2012/PR-hr-time-20121023/
+   http://www.w3.org/2006/rwc/
+
+Last Call: Server-Sent Events
+
+   23 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9607
+
+   The Web Applications Working Group has published a Last Call
+   Working Draft of "Server-Sent Events." This specification
+   defines an API for opening an HTTP connection for receiving
+   push notifications from a server in the form of DOM events. The
+   API is designed such that it can be extended to work with other
+   push notification schemes such as Push SMS. Comments are
+   welcome through 13 November. Learn more about the Rich Web
+   Client Activity.
+
+   http://www.w3.org/2008/webapps/
+   http://www.w3.org/TR/2012/WD-eventsource-20121023/
+   http://www.w3.org/2006/rwc/
+
+Last Call: An organization ontology
+
+   23 October 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9606
+
+   The Government Linked Data Working Group has published a Last
+   Call Working Draft of "An organization ontology." This
+   document describes a core ontology for organizational
+   structures, aimed at supporting linked data publishing of
+   organizational information across a number of domains. It is
+   designed to allow domain-specific extensions to add
+   classification of organizations and roles, as well as
+   extensions to support neighbouring information such as
+   organizational activities. Comments are welcome through 25
+   November. Learn more about the eGovernment Activity.
+
+   http://www.w3.org/2011/gld/
+   http://www.w3.org/TR/2012/WD-vocab-org-20121023/
+   http://www.w3.org/2007/eGov/
+
+   More news: http://www.w3.org/News/archive
+
+Workshops
+
+     * 2012-11-08 ( 8 NOV)
+       W3C Workshop on Web Performance
+       http://www.w3.org/2012/11/performance-workshop/
+       Mountain View, California
+       Hosted by Google
+       There is a an industry-wide momentum towards adopting HTML5
+       and its series of companion specifications to deploy
+       applications based on the Open Web Platform. Some of those
+       applications are facing however challenges with regards to
+       their performances. While Web browsers are improving their
+       implementations on an ongoing basis, not all of those
+       performance issues are due to the speed of the
+       implementations. Participants will look at a broad range of
+       performance issues and how to address them.
+     * 2012-11-14 (14 NOV) – 2012-11-15 (15 NOV)
+       Shift into High Gear on the Web: W3C Workshop on Web and
+       Automotive
+       http://www.w3.org/2012/08/web-and-automotive/
+       Rome, Italy
+       Hosted by Intel and Sponsored by Webinos
+       W3C’s Open Web Platform (OWP) is driving this and other
+       industry transformations. The promise of the early
+       information superhighway is being fulfilled. Whether
+       tethering a driver’s smartphone or tablet to work with a
+       car--or embedding technology into the car itself--there’s
+       no need to reinvent the wheel. The Web can take you there.
+       Participants in this workshop will have the opportunity to
+       share their own perspectives, requirements, and ideas to
+       ensure that emerging global technology standards meet the
+       needs of the Web and Automotive industries.
+     * 2012-11-26 (26 NOV) – 2012-11-27 (27 NOV)
+       Do Not Track and Beyond
+       http://www.w3.org/2012/dnt-ws/
+       Berkeley, California
+       Hosted by UC Berkeley and TRUST Science and Technology
+       Center
+       This workshop serves as a forum for the W3C membership and
+       the public to discuss the Consortium's next steps in the
+       area of tracking protection and Web privacy. What have we
+       learned from Do Not Track standardization and real-world
+       implementations? Furthermore, undoubtedly support for
+       privacy on the Web platform cannot end with Do Not Track:
+       what should we look at next and beyond DNT?
+     * 2013-02-11 (11 FEB) – 2013-02-12 (12 FEB)
+       Electronic Books and the Open Web Platform
+       http://www.w3.org/2012/08/electronic-books/
+       New York (USA)
+       Hosted by O'Reilly Media
+       Today’s eBook market is dynamic, fast-changing and strong.
+       eBooks compete with printed versions, and there is a wide
+       choice of hardware and software available for eBook
+       readers. Nevertheless, publishers face major business and
+       technical challenges in this market, some of which could be
+       reduced or removed by standardization.
+     * 2013-03-12 (12 MAR) – 2013-03-13 (13 MAR)
+       Making the Multilingual Web Work
+       http://www.multilingualweb.eu/en/documents/rome-workshop/ro
+       me-cfp
+       Rome, Italy
+       Hosted by the Food and Agriculture Organization of the
+       United Nations (FAO).
+       The MultilingualWeb community develops and promotes best
+       practices and standards related to all aspects of creating,
+       localizing, and deploying the Web across boundaries of
+       language. It aims to raise the visibility of existing best
+       practices and standards for dealing with language on the
+       Internet and on identifying and resolving gaps that keep
+       the Internet from living up to its global potential.
+
+W3C Blog
+
+     * None. Read the W3C Blog Archives
+       http://www.w3.org/QA/
+
+Upcoming Talks
+
+     * 2012-11-08 (8 NOV)
+       La plate-forme Web
+       by Bert Bos
+       W3C Day 2012
+       http://www.w3c.org.ma/W3Cday/2012/
+       Rabat, Morocco
+     * 2012-11-08 (8 NOV)
+       How recent approaches to metadata is improving the web
+       http://www.w3c.se/resources/office/talks/20121108/
+       by Olle Olsson
+       J.Boye12 - Web & Intranet Conference
+       http://aarhus12.jboye.com/
+       Aarhus, Denmark
+     * 2012-11-08 (8 NOV)
+       Open Data et Linked Open Data
+       by Bert Bos
+       W3C Day 2012
+       http://www.w3c.org.ma/W3Cday/2012/
+       Rabat, Morocco
+     * 2012-11-17 (17 NOV)
+       End-to-end W3C API support
+       by Alexandre Morgaut
+       JS.everywhere(2012) Europe
+       http://jseverywhere.eu
+       Paris, France
+     * 2012-11-20 (20 NOV)
+       Why HTML5?
+       http://www.w3.org/2012/Talks/1120-owp-plh/
+       by Philippe Le Hégaret
+       HTML5FEST 2012
+       http://www.w3c.org.il/HTML5fest/2012/
+       Kfar maccabiah, Ramat Gan, Israel
+     * 2012-11-20 (20 NOV)
+       Web Accessibilty Demystified
+       http://zohararad.github.com/presentations/accessibility-dem
+       ystified/presentation/#/step-1
+       by Zohar Arad
+       HTML5FEST 2012 - The Israeli Web Community conference
+       http://www.w3c.org.il/HTML5fest/2012/
+       Ramat Gan, Israel
+     * 2012-11-24 (24 NOV)
+       HTML5 and CSS
+       by Bert Bos
+       Web Standards Days
+       http://webstandardsdays.ru/
+       Moscow, Russia
+
+W3C Membership
+
+   Lear more about the benefits of W3C Membership. If you or your
+   organization cannot join W3C, we invite you to support W3C
+   through a contribution.
+
+   http://www.w3.org/Consortium/membership-benefits
+   http://www.w3.org/Consortium/join
+   http://www.w3.org/Consortium/sup
+
+About W3C
+
+   The World Wide Web Consortium (W3C) is an international
+   consortium where Member organizations, a full-time staff, and
+   the public work together to develop "Web standards." Read
+   about W3C.
+
+   http://www.w3.org/TR/
+   http://www.w3.org/Consortium/
+
+Receiving the Newsletter
+
+   Bookmark this edition or the latest Public Newsletter and see
+   past issues and press releases. Subscribe to receive the Public
+   Newsletter by email. If you no longer wish to receive the
+   Newsletter, send us an unsubscribe email. Comments? Write the
+   W3C Communications Team (w3t-comm@w3.org).
+
+   http://www.w3.org/News/Public/pnews-20121029
+   http://www.w3.org/News/Public/
+   http://lists.w3.org/Archives/Public/w3c-announce/latest
+   http://www.w3.org/Press/
+   mailto:w3c-announce-request@w3.org?subject=Subscribe
+   mailto:w3c-announce-request@w3.org?subject=Unsubscribe
+   mailto:w3t-comm@w3.org
+

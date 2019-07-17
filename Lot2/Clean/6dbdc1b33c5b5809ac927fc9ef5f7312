@@ -1,0 +1,56 @@
+Subject:Re: [rlug] php - xml_parse_into_struct fail
+On Mon, 22 Oct 2012 13:05:03 +0300
+Mircea MITU <mircea@sigu.ro> wrote:
+
+> Salut
+> 
+> Se da o aplicatie php ce a trecut de la debian 5 la debian 6, adica de la php 5.2.6.dfsg.1-1+lenny16 la 5.3.3-7+squeeze14. Aplicatia, printre altele, ia un xml de undeva si il transforma intr-un array, in stilul:
+> 
+> ### xml-ul se afla in $string
+> 
+>     $parser = xml_parser_create();
+>     xml_parser_set_option($parser, XML_OPTION_CASE_FOLDING, 0);
+>     xml_parse_into_struct($parser, $string, $vals, $index);
+>     xml_parser_free($parser);
+>    do_stuff();
+> 
+> Problema este ca in php5.3.3 (debian lenny), functia xml_parse_into_struct esueaza cu return code 0, fara a da nici o eroare, si evident fara a-si face treaba.
+> 
+> $string e destul de mare, 350kb
+> 
+> Vreo idee in afara de downgrade php?
+
+
+Intai as zice sa verifici contentul XML. 
+
+incearca cu un string cu care a mers inainte.
+
+daca ai diacritice aici poate fi o prob.
+
+salveaza stringul pe disk, cauta o schema pt el si valideaza-l (online)
+
+
+
+
+> 
+> Multumesc
+> Mircea
+> 
+> 
+> _______________________________________________
+> RLUG mailing list
+> RLUG@lists.lug.ro
+> http://lists.lug.ro/mailman/listinfo/rlug
+
+
+-- 
+Valentin Cozma
+General Manager
+DeverSoft
+(004) 0730 096 543
+
+valentin@deversoft.ro
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

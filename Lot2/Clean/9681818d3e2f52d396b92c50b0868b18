@@ -1,0 +1,34 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint?= qui consomme
+
+> 'gade ce que le package trudububu arrête comme devices et compare avec
+> Debian.
+> 
+
+Ben il arrête tout comme ceux de debian en théorie. Au bilan:
+
+Sur la même machine (toshiba portege):
+* Debian wheezy -> Pbm de consommation machine éteinte
+* Debian lenny i386 -> pas de tels problèmes
+* Ubuntu precise -> pas de pbm
+
+J'ai testé le sysvinit de Ubuntu, les problèmes restent.
+Je suis passé sous upstart, les problèmes restent.
+
+J'ai noté que Ubuntu utilise une version récente d'upstart alors que la sid
+utilise toujours la version 0.66 d'Octobre 2010 (!?), du coup je me suis fait
+un paquet vite fait (moyennement fait) de la version 1.5 et suis en train de
+la tester...
+
+À suivre
+
+François Boisson
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121102134650.627df95e7e0c2415b585f2d4@maison.homelinux.net
+

@@ -1,0 +1,41 @@
+Subject:Re: Compartir impresoras en red por debian
+El 17/10/12, Gonzalo Rivero <fishfromsalta@gmail.com> escribi=F3:
+> El mar, 16-10-2012 a las 16:41 -0300, Walter escribi=F3:
+>> El 16/10/12 16:17, Debian GMail escribi=F3:
+>> > El 16/10/12 15:44, Walter escribi=F3:
+>> >> El 16/10/12 15:20, Jorge A. Secreto escribi=F3:
+>> >>> El d=EDa 16 de octubre de 2012 14:34, Debian GMail
+>> >>> <javier.debian.bb.ar@gmail.com> escribi=F3:
+>> >>>> El 16/10/12 14:08, residentresureccion@gmail.com escribi=F3:
+>> >>>>
+>> >>>>> saludos a todos amigos
+>> >>>>>
+>> >>>>> Tengo una impresora hp 2055dn conectada a un equipo v=EDa usb en
+>> >>>>> deb=EDan
+>> >>>>> 6.0.5 quisiera que varios equipo dentro de la misma red pudiesen
+>> >>>>> imprimir
+>> >>>>> con la misma impresora desde otras oficinas ya prob=E9 por el
+>> >>>>> administrador de
+>> >>>>> impresi=F3n que trae busco la ip del equipo que tiene la impresora
+>> >>>>> conectada
+>> >>>>> v=EDa usb pero ha sido insatisfactor=EDo el resultado. Por favor
+>> >>>>> necesito ayuda
+>> >>>>> con esto. Gracias de antemano
+
+Entiendo que a pesar de poder conectarla directamente a la red, lo que
+quiere (sea cual sea el motivo) es compartirla a trav=E9s de su conexi=F3n
+a un ordenador, lo que aunque quiz=E1s es m=E1s f=E1cil tambi=E9n es menos
+usual, a=FAn m=E1s mezclando diferentes SO.
+
+Sigo el hilo, saludos!
+
+--=20
+Alfonso
+"In a world without frontiers, who needs gates and windows?"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAMZtU=_Sm5+Lp=dXXv6-=omqJoWFHRW9SdSgb7iJ0K53oYdvvg@mail.gmail.com
+

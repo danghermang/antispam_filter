@@ -1,0 +1,31 @@
+Subject:Re: LMDE & Lenovo W530
+On Wed, 21 Nov 2012 16:33:47 +0100
+jerome moliere <jerome.moliere@gmail.com> wrote:
+
+> Et donc peut-=C3=AAtre qu'en ecrivant une regle udev forcant les id des c=
+artes
+> graphiques de la machine cela pourrait aider ?
+
+Je pense =C3=A0 un truc plus con: et si l'ordre de d=C3=A9marrage n'=C3=A9t=
+ait pas bon?
+
+As-tu test=C3=A9:
+* boot normal (PAS de ?dm juste l'arriv=C3=A9e normale sur une console text=
+e),
+* login & startx
+pour voir?
+
+--=20
+pandora : j'ai ce qu'ont les femmes =C3=A0 peu pr=C3=A8s une fois
+          par mois, si tu vois ce que je veux dire
+nothik : une id=C3=A9e ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121121164422.7bea7e21@anubis.defcon1
+

@@ -1,0 +1,23 @@
+Subject:Re: lecture =?UTF-8?Q?vid=C3=A9os?= FLV
+Samy Mezani, 2012-10-19 17:25+0200:
+> Quel paquet fournit les codecs pour lire les fichiers FLV ?
+
+FLV est un format de multiplexage de pistes, un conteneur si vous
+voulez. Il peut contenir de la vidéo et du son à différents formats et
+c'est pour ces formats qu'il vous faut les bons codecs.
+
+-- 
+ ,--.
+: /` )   Tanguy Ortolo      <xmpp:tanguy@ortolo.eu>
+| `-'    Debian Developer   <irc://irc.oftc.net/Tanguy>
+ \_
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k62ud5$1da$1@ger.gmane.org
+

@@ -1,0 +1,20 @@
+Subject:Re: Envio de reportes de error de php mediante correo
+Por favor, responder a la lista.
+
+2012/10/24 CARLOS ARTURO GUTIERREZ OSPINA <cagutierrez44@ucatolica.edu.co>:
+> Otra de las opciones que yo propongo es utilizar Phpmailer
+> http://sourceforge.net/projects/phpmailer/files/phpmailer%20for%20php5_6/PHPMailer%20v5.1/
+>
+> seria que captura las excepciones y despues enviarlas por correo.
+>
+> Saludos
+>>
+>>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjNrHyGgdYWWSJ2-sFphX4=i1f444Td-TvsoggyUSHKn_w@mail.gmail.com
+

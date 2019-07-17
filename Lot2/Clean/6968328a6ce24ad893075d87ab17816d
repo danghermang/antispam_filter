@@ -1,0 +1,49 @@
+Subject:Re: sobre el uso correcto de youtube-dl
+  Buenas.
+
+El d=EDa 3 de octubre de 2012 12:30, Victor Hugo Cespedes Zuleta
+<cespedes.zuleta.victor@gmail.com> escribi=F3:
+> el programa youtube downloader conocido por youtube-dl se usa para descar=
+gar
+> v=EDdeos de youtube.
+>
+> El asunto es que despues de typear en consola de root:
+>
+> youtube-dl -l http://www.youtube.com/watch?v=3D6bKu3OmeXp8
+
+  Ten en cuenta que '?' puede ser tomado como un comodin para bash,
+por lo que ser=EDa bueno que pongas la url entre comillas simples.
+  Por otro lado, tambi=E9n puede ser debido a cambios en la api de youtube.
+
+> por citar un ejemplo
+>
+>  me sale error 404.
+>
+> eso equivaldria a que no existe la URL.
+>
+> cosa que no es as=ED porque yo copio exactamente la URL del v=EDdeo que q=
+uiero
+> descargar.
+>
+
+  Saludos,
+
+
+--=20
+Santiago L=F3pez Denazis
+GNU/Linux SysAdmin
+sldenazis@gmail.com
+Open your source, open your mind.
+----
+Por favor, NO utilice formatos de archivo propietarios para el
+intercambio de documentos, como DOC y XLS, sino HTML, PDF, TXT, CSV o
+cualquier otro que no obligue a utilizar un programa de un fabricante
+concreto. Vea http://www.gnu.org/philosophy/no-word-attachments.es.html
+--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAOVL+ZC+kd7==J9+FDOLdfy7HkGy9jxJr0NfpMySr6E=W=LV2w@mail.gmail.com
+

@@ -1,0 +1,32 @@
+Subject:Re: Asus eepc chipsets Intel
+Le Fri, Nov 30, 2012 at 04:26:29PM +0000, Tanguy Ortolo écrivait :
+> F.Zulian, 2012-11-25 21:07+0100:
+> > -  Gestion de la résolution  :
+> > 800X600 impossible à modifier  et  si je branche un écran externe il ne me le 
+> > trouve pas !
+> > 
+> > 00:02.0 VGA compatible controller: Intel Corporation Atom Processor
+> > D2xxx/N2xxx Integrated Graphics Controller (rev 09)
+
+> Il doit s'agir d'un des modèles récents, dont le circuit graphique a été
+> sous-traité à un autre fondeur ??? comme les anciennes CG Intel Poulsbo ???
+> et n'est donc pas pris en charge par le pilote intel. Le seul pilote qui
+> les prend pleinement en charge est propriétaire, et disponible pour
+> Ubuntu seulement je crois.
+
+Oui, je viens de l'acheter. Avec Asus et des chipsets Intel je pensais ne pas
+avoir de pbs :-(
+
+--
+
+Frédéric  F1sxo
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121130202350.GA25396@zulian.be
+

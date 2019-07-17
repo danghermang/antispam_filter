@@ -1,0 +1,246 @@
+Subject:Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+The Warp 11 HV has interpoles.
+
+On Fri, Nov 9, 2012 at 12:51 PM, George Tyler <gw@tylernz.com> wrote:
+
+> Are there any examples of series motors with interpoles on internet?
+>
+> -----Original Message-----
+> From: ev-bounces@lists.sjsu.edu [mailto:ev-bounces@lists.sjsu.edu] On
+> Behalf
+> Of Jeff Major
+> Sent: Wednesday, 7 November 2012 3:04 p.m.
+> To: 'Electric Vehicle Discussion List'
+> Subject: Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+>
+> Hello George,
+>
+> Interpole series motors are used for reversing applications and where
+> dynamic, plug, or (dare I say it?) regenerative braking is used.  Brush
+> advance doesn't work in these spots.
+>
+> Interpoles in shunt and compound motors work better than the brush advance
+> because they vary strength with load and the sweet spot for commutation
+> varies with load.
+>
+> Contrary to what your referenced article says and what you state,
+> interpoles
+> do not counteract armature reaction.  Compensating or pole face winding
+> do.
+> And interpoles do not shift (rotate) the main field flux.  The interpole by
+> virtue of the mmf from the comm coil (interpole winding) manipulates the
+> flux in a small interpolar region where the neutral plane was before it was
+> shifted by the armature reaction.  This may seem picky.  But that is
+> because
+> most here are concerned with series motors where armature reaction is not a
+> big factor in performance.  With shunt machines, armature reaction can
+> cause
+> serious loss of torque or regulation.  There you will find interpoles do
+> nothing to counteract this and they must use compensating windings and
+> sometimes series field windings.
+>
+> Regards,
+>
+> Jeff M
+>
+>
+>
+> ----- Original Message -----
+> From: George Tyler <gw@tylernz.com>
+> To: 'Jeff Major' <jff_mjr@yahoo.com>; 'Electric Vehicle Discussion List'
+> <ev@lists.sjsu.edu>
+> Cc:
+> Sent: Tuesday, November 6, 2012 6:30 PM
+> Subject: RE: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+>
+> I found a pretty good explanation that will help those who have never
+> looked
+> at this before,
+> http://www.cedengineering.com/upload/DC%20Generators%20and%20Motors.pdf
+>
+> page 1-9 talks about interpoles etc. I think the important thing is, the
+> reaction of the flux and the amount of brush advance needed is not directly
+> influenced by RPM. It is directly related to current in the armature,
+> reading this document we can see why. Only thing, I have limited experience
+> with DC motors, last course I did on them was in the '60's. I have never
+> seen or heard of a SERIES DC motor with interpoles, in a way, the normal
+> poles are like interpoles because they are also in series. My reasoning
+> tells me that if you advance the brush timing the right amount the timing
+> should be right at all loads, currents and RPM's? In a shunt motor they are
+> in series so that as the current increases and rotates the flux path they
+> turn it straight again, and as this is caused by the current the current
+> through the interpoles, varying with this current produces the right amount
+> of counter rotation to correct it as the current varies.
+>
+> -----Original Message-----
+> From: ev-bounces@lists.sjsu.edu [mailto:ev-bounces@lists.sjsu.edu] On
+> Behalf
+> Of Jeff Major
+> Sent: Wednesday, 7 November 2012 5:16 a.m.
+> To: Electric Vehicle Discussion List
+> Subject: Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+>
+> Hi Mark,
+>
+> As JJ says, the torque loss is offset by RPM increase as happens with field
+> weakening, so it is not a direct hit on efficiency.  The efficiency curve
+> will be altered with brush advance (and with field weakening).  At some
+> load
+> points it may increase a bit and other loads decrease.  Proper advance
+> should not result in significantly lower motor efficiency.  Going too far
+> with advance or retardation may result in adverse effects on the efficiency
+> by actually shifting shorted coils (those being commutated) under the main
+> field flux.
+>
+> And I told you that advance compensates for altered commutation due to high
+> current, high voltage and/or high RPM.  In your case, it is not 3000 RPM I
+> would be concerned about, it is the system voltage and current limit.  You
+> said it was drilled for 12 degrees, right?  Off hand, I think about half
+> that would be better for you.  If you're smelling or hearing the brush arc
+> going uphill, I'd give it that 6 degrees.
+>
+> Regards,
+>
+> Jeff M
+>
+>
+>
+> ________________________________
+> From: Mark Hanson <marke.hanson@hotmail.com>
+> To: "ev@lists.sjsu.edu" <ev@lists.sjsu.edu>
+> Sent: Tuesday, November 6, 2012 9:55 AM
+> Subject: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+>
+>
+> Hi Jeff etc;
+> Yes, my previous experience with Prestolite and a tranny is neutral is
+> best.  The Warp "Impulse 9" was sent advanced but I moved it to neutral
+> when
+> installing it so it always has run in neutral.  I would think that 20%
+> reduced torque with a given current means 20% *less* efficiency and a bad
+> thing.  My max RPM's is 3K (with 4-speed tranny) so I'm certainly not
+> running this motor very fast where i think advanced timing would be
+> needed.
+> So I'm inclined to leave it alone as i don't see how advancing the timing
+> for 3K rpm operation would have a positive effect (at that speed) and have
+> a
+> negative effect starting off.
+> Best Regards,mark
+> Message: 8
+> Date: Mon, 5 Nov 2012 10:33:14 -0800 (PST)
+> From: Jeff Major <jff_mjr@yahoo.com>
+> Subject: Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+> To: Electric Vehicle Discussion List <ev@lists.sjsu.edu>
+> Message-ID:
+> <1352140394.11060.YahooMailNeo@web122305.mail.ne1.yahoo.com>
+> Content-Type: text/plain; charset="iso-8859-1"
+>
+> Hi Mark,
+>
+> Brushes arc primarily due to voltage, current and RPM.? Any, or
+> combinations, can cause excessive arcing when too high.? I personally think
+> that most times the advance is too far.? But if that is where it is
+> drilled,
+> I'd do it for the voltage you're running.
+>
+> Advancing the brushes weakens the field in effect and therefore reduces the
+> torque per amp of the motor while increasing the RPM per amp.? On a 4 pole
+> motor, if you rotate (advance) the brushes 90 degrees, you reverse
+> rotation.? 45 degrees would give you zero torque.? So you lose about 2
+> percent per degree.? That is just an approximation because it is not
+> linear.? But it is not unreasonable to expect 20 percent lower torque at a
+> given current with a 12 degree advance.
+>
+> The other thing is:? What is your starting point?? Was your motor set on
+> neutral when installed?? I recall you doing test on the Prestolite motor
+> assuming it was neutral to start and it was manufactured with a 4.5 degree
+> advance.
+>
+> Most cases will benefit from the advanced brushes and improved commutation
+> even at the expense of torque if you have the transmission.? Just use a
+> lower gear.? If you don't run a transmission, think hard about it because
+> reverse on the motor with advanced brushes can be damaging.
+>
+> See ya,
+>
+> Jeff M
+>
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL:
+>
+> http://lists.sjsu.edu/mailman/private/ev/attachments/20121106/8e9ba132/attac
+> hment.html
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL:
+>
+> http://lists.sjsu.edu/mailman/private/ev/attachments/20121106/adfd0a32/attac
+> hment.html
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+> No virus found in this incoming message.
+> Checked by AVG - www.avg.com
+> Version: 9.0.930 / Virus Database: 2441.1.1/5376 - Release Date: 11/06/12
+> 08:39:00
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL:
+>
+> http://lists.sjsu.edu/mailman/private/ev/attachments/20121106/a8543686/attac
+> hment.html
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+> No virus found in this incoming message.
+> Checked by AVG - www.avg.com
+> Version: 9.0.930 / Virus Database: 2441.1.1/5376 - Release Date: 11/07/12
+> 08:34:00
+>
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121109/8b7b9894/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

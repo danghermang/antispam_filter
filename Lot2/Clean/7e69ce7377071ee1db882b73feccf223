@@ -1,0 +1,84 @@
+Subject:Re: =?ISO-8859-1?Q?Recomendaci=F3n?= de =?ISO-8859-1?Q?versi=F3n?=
+	de Debian.
+El lun, 29-10-2012 a las 16:15 +0100, Antonio escribi=C3=B3:=20
+> El 29/10/2012 13:43, Luis Miguel R. escribi=C3=B3:
+> > Buenas pe=C3=B1a,
+> >
+> > Me dispongo a renovar mi equipo de oficina que est=C3=A1 funcionando =
+en
+> > Debian 4.0, voy a pillar una m=C3=A1quina modernilla, placa con usb 3=
+.0, cpu
+> > i5, grafica gforce 210, hds de 2tb, 8gb ram ddr3, etc, en escritorio =
+uso
+> > IceWM, la chicha viene con un vmware con xp tirando de un software de
+> > gestion, es por el rendimiento de la m=C3=A1quina virtual por lo que =
+cambio
+> > el pc.
+> >
+> > Mi preguntas son, con este tipo de hardware, merece la pena poner la
+> > testing?, como va de estable?, realmente no necesito para nada que lo=
+s
+> > paquetes de software est=C3=A9n actualizados, la =C3=BAnica raz=C3=B3=
+n para ponerla
+> > ser=C3=ADa que aproveche mejor mi hardware y obtener mejor rendimient=
+o.
+> >
+> > Otra diferencia importante es que veo que testing instala por defecto
+> > ext4, mientras que estable instala ext3, a estas alturas ext4 es
+> > completamente seguro para usar en producci=C3=B3n?
+> >
+> > Muchas gracias a todos.
+> >
+> > Saludos.
+> >
+> >
+> >
+> Opini=C3=B3n tambi=C3=A9n totalmente personal.
+>=20
+> Para un pc de escritorio, puedes usar tanto estable como testing , para=
+=20
+> mi la diferencia esta en la frecuencia de uso, si la usas todos los d=C3=
+=ADas=20
+> testing  tendr=C3=A1s actualizaciones diarias pero no tendr=C3=A1s gran=
+des=20
+> problemas, alg=C3=BAn d=C3=ADa te puede tocar leer como se resuelve alg=
+o pero no=20
+> te llevara mucho. Si la usas poco, o tu conexi=C3=B3n de red es lenta u=
+sa=20
+> estable, no tendr=C3=A1s que pasarte mucho tiempo actualizando, si adem=
+=C3=A1s=20
+> nunca quieres tener un problema y que tu pc todos los d=C3=ADas funcion=
+e como=20
+> una roca usa estable.
+>=20
+> Yo llevo usando ext4 en estable mucho tiempo sin problema, en servidore=
+s=20
+> y en pc escritorio.
+>=20
+> Un saludo.
+>=20
+>=20
+
+Buenos d=C3=ADas,=20
+En lo posible y dada las circunstancias usa testing tambi=C3=A9n es
+necesario,=20
+
+--=20
+--
+Afecto
+M=E2=88=B4M=E2=88=B4 Liuber Hern=C3=A1ndez Leyva
+Cuba Central
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1351502738.5498.3.camel@infobiblio.fts.local
+

@@ -1,0 +1,25 @@
+Subject:Re: [Flexradio] "SPEC" mode ??
+Dan,
+
+It is documented somewhere, like the Owner's Manual. ;-)
+
+It is the SPECtrum mode.  It displays a 0Hz IF spectrum of the entire 
+sampled bandwidth without demodulation.  So if you are sampling at 96 
+KHz you will see +/- 48 KHz of spectrum
+
+Tim Ellison
+On 11/6/2012 11:23 AM, dan edwards wrote:
+> in the mode panel...Is this documented someplace that I have overlooked? 73, w5xz, dan
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

@@ -1,0 +1,32 @@
+Subject:Re: duda sobre vulnerabilidad con telnet y port 25
+El d=EDa 6 de septiembre de 2012 19:00,  <cosme@esid.gecgr.co.cu> escribi=
+=F3:
+> ad con el tema del acceso al puerto 25 mediante telnet en las
+> pc de mi red LAN
+>
+> La caracteristicas de mi red LAN
+>
+> el iptables esta una pc con ip 192.168.1.1
+> el servidor de correo esta en una pc 192.168.1.2
+
+
+Y de que vulnerabilidad te dijeron?
+Denegar el puerto 23, no te va a ser util en ning=FAn caso (server mail
+y firewall iptables) dado que con '# telnet ipServerMail 25' entras al
+servier aunque bloquees el puerto 23.  (ah=ED tenes un error de
+consepto)
+
+Si vos queres que no se entre al puerto 25 por telnet, tendrias que
+ver si a iptables se le puede hacer una regla que permita acceso al
+puerto 25 para los clientes de correo y bloquee el telnet. (yo te
+"asegurar=EDa"  que no se puede, pero es iptables :))
+
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADqxbRRk8FTOvsw=wvQo2srnMb8LqGNm-66xCmyDq45NT11+ig@mail.gmail.com
+

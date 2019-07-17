@@ -1,0 +1,25 @@
+Subject:Re: SD Karte wird nicht erkannt
+Frank wrote:
+> > tail -f /var/log/syslog
+> =
+
+> Oct 26 15:29:08 franky-MM061 kernel: [ 2933.892775] mmc0: Got command
+> interrupt 0x00030000 even though no command operation was in
+> progress.
+
+Da scheint wohl beim Kernel irgendwas falsch zu laufen. Hast Du =
+
+Vielleicht k=FCrzlich ein Kernel-Update eingespielt? Dann w=FCrde ich mit =
+
+einem =E4lteren Kernel booten und probieren ob das Problem damit beseitigt =
+
+wird. Sonst habe ich keine Idee dazu ...
+
+
+Nils
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

@@ -1,0 +1,48 @@
+Subject:Re: duda sobre vulnerabilidad con telnet y port 25
+Buenos d=C3=ADas,
+
+El 07/09/2012, a las 00:00, cosme@esid.gecgr.co.cu escribi=C3=B3:
+
+> Tengo una duda sobre acceso al servidor de correo
+>=20
+> hace alg=C3=BAn tiempo la gente de la OSRI estuvo aqu=C3=AD y sali=C3=B3 u=
+na
+> vulnerabilidad con el tema del acceso al puerto 25 mediante telnet en las
+> pc de mi red LAN
+>=20
+> La caracteristicas de mi red LAN
+>=20
+> el iptables esta una pc con ip 192.168.1.1
+> el servidor de correo esta en una pc 192.168.1.2
+>=20
+> la red LAN 192.168.1.0/24
+>=20
+> Establec=C3=AD mediante regla en el iptables denegar el acceso de puerto 2=
+3 al
+> servidor de correo pero esto no tiene efecto ya que los usuarios hacen la
+> peticion que aunque la puerta de enlace sea la ip 192.168.1.1 los clientes=
+
+> hacen smtp directo al server de correo.
+>=20
+> Me dijeron que en ese caso el server de correo debe tener una ip distinta
+> a la de la red por ejemplo 192.168.2.1 para que las pc esten obligadas a
+> pasar por el iptables.
+>=20
+> Que opinan al respecto_???
+>=20
+> Necesito denegar el acceso al puerto 25 mediante telnet
+
+Que configures iptables en el servidor de correo para denegar el puerto de T=
+elnet a quien quieras, a parte de intentar solucionar la vulnerabilidad...
+
+
+Saludos,
+
+Ramses=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/9A0B18F0-2962-4DC9-9FB8-598C21AE0828@gmail.com
+

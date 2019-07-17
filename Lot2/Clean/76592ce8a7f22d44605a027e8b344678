@@ -1,0 +1,14 @@
+Subject:Re: Ayuda Urgente: Iptables e ip rule no funcionan correctamente en
+	debian 6?
+El 06/09/12 13:00, Francisco J. Bejarano escribió:
+> 30015:  from 10.0.2.226 lookup TB3
+¿y si quitas esta llega a TB2 o a main?
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5048832B.5000909@limbo.deathwing.net
+

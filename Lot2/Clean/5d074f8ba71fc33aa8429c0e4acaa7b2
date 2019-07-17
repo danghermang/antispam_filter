@@ -1,0 +1,35 @@
+Subject:Re: [Jukebox-list] 6973 to el84 info needed.
+Jay is correct, there is a fair bit of rewiring required; I think only the =
+heater connections are the same.=A0 Some Rock-Ola amps (eg 429) used EL84s =
+so if you are determined to go this route, then just re-wire like the Rock-=
+Ola.=A0 The HT supply to the EL84s on the Rock-Ola is 310V so an adjustment=
+ for this would be required, as Jay also indicated.=0A=0A=0AI also happen t=
+o think that EL84s produce a nicer sound than 6973s - nothing like being co=
+ntroversial, eh?=0A=0ANorman.=0A=0A=0A________________________________=0A F=
+rom: Jay Hennigan <jay@west.net>=0ATo: Jukebox mailing list <jukebox-list@l=
+ists.netlojix.com> =0ASent: Sunday, 11 November 2012, 5:17=0ASubject: Re: [=
+Jukebox-list] 6973 to el84 info needed.=0A =0AOn 11/10/12 8:41 PM, Ed Owens=
+ wrote:=0A> Howdy,=A0 =0A>=A0  I'm getting close to finishing my ami contin=
+ental 2.=A0 I have all the tubes except the 6973s.=A0 I have a pile of el84=
+ tubes and have read I can use these as a sub.=A0 I am ok with rewiring the=
+ sockets and I also understand I need to change a resistor per socket.=A0 A=
+ccording to the schematic this resistor is currently 470k and they are read=
+ing at 550k.=0A>=A0  Is there any info out there on what needs to be done f=
+or this conversion.=A0 Any one know what value resistor I need to change to=
+.=0A=0AThe EL84 has a maximum rated plate voltage of 300 volts.=A0 Using th=
+ese in=0Amost 6973 applications means that the tube will be operating beyon=
+d its=0Aspecifications.=0A=0AThere are some EL84 variants with higher volta=
+ge ratings that could=0Awork, but 6973s are now being produced by Electro-H=
+armonix at reasonable=0Aprices.=0A=0AI would get new EH 6973s rather than r=
+ewire, which is a relatively=0Adaunting process as almost all of the pins w=
+ill need to be rewired.=0A=0A--=0AJay Hennigan - CCIE #7880 - Network Engin=
+eering - jay@impulse.net=0AImpulse Internet Service=A0 -=A0 http://www.impu=
+lse.net/=0AYour local telephone and internet company - 805 884-6323 - WB6RD=
+V=0A_______________________________________________=0AJukebox-list mailing =
+list=0AJukebox-list@lists.netlojix.com=0Ahttp://lists.netlojix.com/mailman/=
+listinfo/jukebox-list=0ASearchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

@@ -1,0 +1,16 @@
+Subject:Re: =?ISO-8859-1?Q?Re-dimensi=F3n_de_disco_duro=2E?=
+Ahora que caigo... no sé si al modificar el tamaño de tu /home puede 
+variar el UUID (lo normal es que si, pero no estoy seguro)
+
+En cualquier caso el método para obtener el nuevo identificador es el 
+mismo que con la partición swap.
+
+Y ya que menciono swap... recuerda que tienes los comandos swapon y 
+swapoff para montar y desmontar particiones swap.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509EECF8.3090305@gmail.com
+

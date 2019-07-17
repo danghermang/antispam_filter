@@ -1,0 +1,95 @@
+Subject:Re: libflashplayer.so de adobe sin funcionar en debian i386 wheezy
+Buenas, che. Todo bien? Fijate que los caretas de Ad*be dejaron de dar
+soporte para GNU/Linux y adem=E1s, su =FAltimas versiones est=E1n
+"dise=F1adas" (no me sale el t=E9rmino preciso) para PC con requerimientos
+elevados. Para mi gusto, bastante elevados. Soluci=F3n? En lugar de
+instalar la versi=F3n 11.2, la 11.1 y dedicarles un gran insulto desde
+el patio de casa xDD.
+
+En este post est=E1 subido el archivo .so de la versi=F3n 11.1, repet=EDs
+tus pasos o los del post y sale andando. Por lo menos en una pc
+viejita con Lubuntu funcion=F3, no lo prob=E9 en Debian porque en mi
+notebok corre la versi=F3n m=E1s moderna. Pero estimo que jala
+http://www.taringa.net/posts/linux/15549161/Te-dejo-de-funciona-Flash-en-CP=
+U-vieja-Equot_SolucionEquot.html
+
+Claudio (equivocadamente envi=E9 al mail personal, disculpas)
+
+El d=EDa 3 de octubre de 2012 11:11, silodepam <silodespam@gmail.com> escri=
+bi=F3:
+> Hola gente, llevo este problema hace como un mes; antes me funcionaba dic=
+ho
+> plugin.
+> Aqui dejo el procedimiento o los pasos que realice (y siempre realizo mas=
+ o
+> menos)...
+>
+> Aviso:
+> No utilizo html5 en youtube ya que consume mas recursos que el plugin de
+> adobe (mi pc es viejita) y gnash.. bueno, para videos sabemos que no.
+> Utilizaba flashvideoreplacer pero lo han barrido como complemento.
+> "Linternamagica" (un script en javascrpit creo) genera un inmenso trabajo
+> volviendose muy pesado.
+>
+>
+> 1-Intalo un net-install i386 squeeze
+> 2-agrego repos oficiales para wheezy, mozilla debian y deb-multimedia
+> 3-instalo paquetes: linux-image-3.2... headers.... alsa xserver-xorg +
+> aplicaciones
+>  lxde xorg alsa vlc clementine libreoffice eplicse iceweasel icedove.. (n=
+ada
+> contiene el plugin gnash; lo he buscado y no lo tengo instalado)
+> 4-descargo de adobe el plugin que proporcionan en el formato tar.gz para
+> descomprimir y obtener el preciado "libflashplayer.so"
+> 5-creo la carpeta "plugins" en "mi_usuario/.mozilla" y copio o pego el
+> "libflashplayer.so"
+> 6-ejecuto el iceweasel 10 (que esta en wheezy) y certifico en la barra de
+> direcciones que "about:plugins" me muestre que el plugin flash este activ=
+o
+> 7-ingreso a youtube sin alertas de instalar plugins faltantes y cuando
+> quiero ver videos desaparece la ventana del mismo.
+> STOP !!!
+>  antes aqui ya me funcionaba... ahora no. Y es mas; en dos pcs de 64bits =
+y
+> doble nucleo hice lo mismo que hasta aqui pero con el resultado positivo.=
+.
+> mis amigos miran "peter capussoto y videos (buscar en youtube que esta de
+> puta madre)"; pero yo no.
+>
+> Cosas que intente:
+>
+> -Actualizo a iceweasel 15 o 16 o 17 y los resultados son los mismos...
+>
+> - chmod +ugorwx libflashplayer.so... no hay caso, sigue igual...
+>
+> -Creo la carpeta "plugins" en /usr/lib/iceweasel/ y alli copio el plugin;
+> como root claro.. sin resultados...
+>
+> -descargo mozilla-firefox original, extraigo el contenido, (no lo instalo=
+)
+> ingreso; creo la carpeta plugins, copio el plugin y lo ejecuto... sucede =
+lo
+> mismo.
+>
+> -desactivo todos los complementos (flashblock, downloadhelper, ghostery,
+> noscript), sin resultado...
+>
+>
+> Si alguien me puede sugerir algo, encantado estoy de probarlo.. muchas
+> gracias.
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/506C477A.7050907@gmail.com
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAK407D64CPCw7oqWwL33mixHbuc-MbS8Hgw7VNaZ=DspC8OUSA@mail.gmail.com
+

@@ -1,0 +1,45 @@
+Subject:Re: linux-image 3.6.8 et acpid
+Le vendredi 30 novembre 2012 à 00:41 +0100, Gaëtan PERRIER a écrit :
+> > J'ai de gros problème d'acpi avec ce noyau la console est noyée sous
+> > les messages acpid: client connected/disconnected impossible de
+> faire
+> > quoi que ce soit.
+> > Comment faire pour empêcher ces messages de polluer la console et me
+> > permettre de revenir en 3.6.6 ? 
+
+Déjà voir ce qui connecte/déconnecte pour voir s'il n'y aurait pas un
+paramètre à ajuster et voir jusqu'à quel point c'est anormal.
+
+Ensuite il me semble qu'il y a moyen d'éviter les redondances et je suis
+sûr qu'il y a moyen de ne filtrer les messages même si de mémoire je ne
+sais plus comment.
+
+> Faites gaffe si vous voulez passer en 3.6.8 manifestement y a des 
+> trucs qui ont changé ce qui est bizarre pour une version de 
+> maintenance, non ?
+
+Je fais surtout gaffe de ne JAMAIS piocher dans expérimental pour une
+machine de production !
+
+En dehors du développement, il faut vraiment avoir une excellente raison
+pour le faire, et il faut de toute manière maîtriser le sujet. Vu ta
+réaction, je me demande bien pourquoi tu as voulu installer ce kernel.
+Si c'est pour pour voir à quel point c'est une bêtise, tu as réussi ;)
+
+Si tu cherche à optimiser ou obtenir un truc spécifique, tu as
+généralement avantage à recompiler ton kernel. 
+Si tu tiens à cette version, ou que tu veux continuer à t'amuser, tu
+peux aussi tenter la version (non patché Debian) compilée depuis
+kernel.org
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1354294816.3946.28.camel@azuki.jisui
+

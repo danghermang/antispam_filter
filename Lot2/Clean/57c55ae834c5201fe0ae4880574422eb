@@ -1,0 +1,14 @@
+Subject:Re: [address-policy-wg] [Ticket#2012102901001081] 2012-05 New Draft
+ and Impact Analysis Documents Published (Transparency in Addre [...]
+On 07/11/2012 16:58, LeaderTelecom Ltd. wrote:
+> Could you tell LIR for this Allocated PA network?
+> 
+> https://apps.db.ripe.net/search/query.html?searchtext=192.115.112.0&search%3AdoSearch=Search#resultsAnchor
+> 
+> https://apps.db.ripe.net/whois/lookup/ripe/inetnum/192.33.111.0-192.33.111.255.html
+
+Neither of those networks are allocated PA.  They're ERX space.
+
+Nick
+
+

@@ -1,0 +1,83 @@
+Subject:Re: [Antenna-discussion] 1/2-wave vertical really needs a ground
+	plane?
+Gregg,
+
+IF a quarter-wave (or half wave) vertical without ground plane were self 
+resonant, it would not need a ground plane.
+
+But it is NOT self-resonant if there is no ground plane.
+
+The needed ground plane does not have to be supplied by radials, if, say, 
+the ground is damp and conductive.    So, it depends on where you live how 
+much difference adding radials makes.
+
+If you want to avoid radials, you can add an matching inductor (without the 
+ground plane, the reactance of an end-fed antenna is negative/capacitive).
+
+Changing from a quarter-wave to a half-wave vertical, without ground plane, 
+does bring the radiation resistance up to about 1/2 that for a half-wave 
+center-fed, self resonant antenna, but the reactance is still large and 
+negative.
+
+If you do add the ground plane, the vertical should be quarter wave, not 
+half wave, for the antenna to be self resonant.
+
+--Kirk
+
+-----Original Message----- 
+From: kb0zut@hotmail.com
+Sent: Monday, November 05, 2012 5:37 PM
+To: antenna-discussion@antennex.com
+Subject: [Antenna-discussion] 1/2-wave vertical really needs a ground plane?
+
+Hello,
+I had a question concerning whether a half wave vertical really
+needs a ground plane or not.
+
+I recently gave a friend of mine an old half wave vertical and
+I told him it does not require the radials because its a
+half wave, and they are self resonant antennas that will work
+without them.
+
+I have recently read that all unbalanced antennas
+(regardless of wavelength) require some sort of return path
+for the currents following through them.
+
+This has me really confused, because I have never noticed
+a problem with RFI, common mode currents usf. while using this
+antenna.
+
+What is your opinion on this?
+
+Best Regards,
+Greg Morris
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this 
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm 
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

@@ -1,0 +1,29 @@
+Subject:Re: Installation sur partition GPT
+
+je serais toi, comme il s'agit d'un PC qui ne t'appartient pas, je
+toucherais le moins possible Windows 7; donc je laisserais =E0 Bootmgr
+(le bootloader de Windows 7) le soin de d=E9marrer le PC (si tu d=E9marres
+directement =E0 partir de Grub, certaines mises-=E0-jour Windows ne
+pourront pas s'effectuer).
+
+- je crois que ton Windows 7 est install=E9 sur un PC avec un
+  partitionnement GPT avec mode de compatibilit=E9 partitionnement DOS/MBR
+- Dans windows, je commencerais par r=E9duire D:
+- j'installerais Debian dans l'espace ainsi lib=E9r=E9 et installerais Grub
+  sur l'une des partitions nouvellement cr=E9=E9es par Debian (il n'y a pas
+  de partitions primaires/secondaires/=E9tendues avec le GPT de l'UEFI)
+- pour d=E9marrer Debian, dans Windows j'utiliserais Bcdedit (utilitaire
+  en ligne de commande pour configurer Bootmgr) pour cr=E9er un
+  chainloader vers Grub. tu trouveras sur le net et sur technet.com
+  (site assistance technique Windows) comment faire tout =E7a.
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121004105351.261cfd1f@netbook-didier.gaumet.fr
+

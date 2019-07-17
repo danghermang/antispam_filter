@@ -1,0 +1,19 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_problemas_con_se=F1al_wifi_canal_14_en_debian_6?=
+El uso de ese canal est=E1 permitido originalmente s=F3lo en Jap=F3n, por
+>
+> tanto tendr=E1s que especificarlo en tus opciones a la hora de cargar el
+> m=F3dulo con el par=E1metro... ieee80211_regdom
+>
+probare amigo
+
+gracias
+
+--
+Constantino Vargas C.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAGbsZA-CD3koeic0FEXf4hJvocD1h9BceJS-74L5QYYaBnv9AQ@mail.gmail.com
+

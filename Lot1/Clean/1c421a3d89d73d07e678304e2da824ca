@@ -1,0 +1,40 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+ IPv4 from last /8
+On 11/7/12 14:17 , Yannis Nikolopoulos wrote:
+> Hello Gert,
+>
+> As Richard said, the question here is whether we should
+> hand out PI from the last /8 or not.
+
+I think there is another viable option;
+
+*Allow IPv4 PI from the transfer market
+
+But, I by my read of RIPE policy this isn't allow, or its not clear to 
+me that it is allowed when I read the policy.  If, I'm wrong about this 
+please correct me.
+
+If the RIPE community doesn't want to make IPv4 PI assignments out of 
+its last /8, I think that is defensible.  If someone wants something out 
+of the last /8, making them become an LIR seems reasonable as well. 
+However, saying there is no such thing as IPv4 PI any longer is not 
+reasonable when there is a viable transfer market available as a source 
+of addresses.
+
+The whole point of creating a IPv4 transfer market was to encourage 
+getting unused or underutilized IPv4 addresses in to the hands of those 
+that need them.  End users need for IPv4 PI is just as important and 
+valid of a use for IPv4 as ISP need for IPv4.  Shutting IPv4 PI out of 
+the last /8 is one thing, shutting IPv4 PI out of the transfer market is 
+another and doesn't seem justified.
+
+
+-- 
+=================================================
+David Farmer                Email: farmer@umn.edu
+Office of Information Technology
+University of Minnesota
+2218 University Ave SE      Phone: 1-612-626-0815
+Minneapolis, MN 55414-3029   Cell: 1-612-812-9952
+=================================================
+

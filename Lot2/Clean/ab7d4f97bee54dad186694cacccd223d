@@ -1,0 +1,23 @@
+Subject:roundcube bug: XSS: CVE-2012-3507, CVE-2012-3508
+Hi,
+
+Reporting a couple of bugs that have been fixed upstream.  They are
+serious, remotely exploitable and I believe the current backport version
+is vulnerable.
+
+It has been at least partly fixed here:
+
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=685475
+
+Other info:
+
+https://lwn.net/Articles/514104/
+
+Jim
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120907100930.GE10968@plip2.home
+

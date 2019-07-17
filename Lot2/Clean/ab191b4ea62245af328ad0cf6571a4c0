@@ -1,0 +1,81 @@
+Subject:Re: [HS] carte graphique
+Le Thu, 13 Sep 2012 23:28:50 +0200
+Gaëtan PERRIER <gaetan.perrier@neuf.fr> a écrit:
+
+> Le Thu, 13 Sep 2012 23:11:26 +0200
+> Nicolas PHAM <nicolas@phamily.fr> a écrit:
+> 
+> > Le 13 septembre 2012 22:59, Gaëtan PERRIER <gaetan.perrier@neuf.fr> a
+> > écrit :
+> > > Bonjour,
+> > >
+> > > Suite à mes problèmes de reboot intempestifs (voir fil d'il y a
+> > > quelque temps sur cette liste), j'ai fini par démonter la CG pour
+> > > vérifier la pâte thermique. Elle semblait effectivement un peu
+> > > sèche, je l'ai donc remplacé mais depuis le remontage la carte
+> > > graphique affiche fonctionne beaucoup plus mal (affiche de carrés
+> > > noirs, de lignes psychédéliques, affiche qui "saute" quand on bouge
+> > > des fenêtres, etc.). Bref la CG semble morte.
+> > > C'était une Nvidia 9600GT (G94-300-B1) fanless. Je cherche donc une
+> > > carte pour la remplacer qui soit au moins aussi puissante mais pas
+> > > trop cher non plus. Dans l'idéal moins de 100€ mais bon ce n'est
+> > > pas une limite absolue.
+> > > Après avoir regarder brièvement il semble difficile
+> > > aujourd'hui de trouver des CG fanless. De plus ça semble être bien
+> > > compliqué de s'y retrouver dans les différents modèles, les
+> > > fabricants semblant beaucoup pratiquer le rebadgeage de vieux chips
+> > > avec un nouveau nom ...
+> > >
+> > > De prime abord j'aurai tendance à repartir sur une Nvidia vu que les
+> > > pilotes sont déjà installé sur la machine et que je ne sais pas où
+> > > en sont les pilotes proprio AMD par rapport à ceux de Nvidia qui ne
+> > > m'ont jamais posé de gros problèmes.
+> > >
+> > > Bref qu'en pensez-vous ? Quels modèles sont à privilégier ?
+> > >
+> > > Gaëtan
+> > 
+> > 
+> > Bonsoir,
+> > 
+> > je privilégie les ATI HD depuis quelques temps. La 5450 est low
+> > profile, fanless, decompresse les flux H264 HD, véhicule le son via le
+> > cable HDMI et largement assez puissante pour des effets de bureaux.
+> > Parfait pour un PC HC ou un desktop sans prétention video-gamer. Les
+> > drivers (certes proprio) ne m'ont jamais posé de problème. Le tout
+> > pour une poignée d'euros.
+> > Nvidia je ne connais plus depuis bien longtemps maintenant.
+> > @+
+> > 
+> > 
+> 
+> Oui mais elle semble quand même beaucoup moins puissante qu'une 9600
+> GT, non ?
+> J'ai quand même besoin de pouvoir faire tourner flightgear.
+> 
+> 
+
+Pour l'instant j'ai une Nvidia GTX550 Ti en provisoire mais quel boucan !
+Le ventilo est au mini à 41% alors que la température de la CG est de 35/40°C.
+Y a-t-il un moyen de le faire tourner moins ou bien c'est une limitation des
+pilotes linux  (304.48) ? 
+
+Et les reboot aléatoires sont toujours présents. :(
+
+Je cherche donc toujours une CG silencieuse. J'ai vu des Nvidia
+G210/GT430/GT520/GT610 et AMD HD4350/5450/6450/6570/6670/7750. À ce que j'ai
+pu trouver sur le net seul les HD6570/6670/7750 seraient égale ou supérieure à
+une 9600GT. Mais j'ai lu que les pilotes nvidia linux étaient meilleurs
+que ceux d'amd en open gl. Qu'en pensez-vous ?
+
+Gaëtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120918021616.8f1b51af8a42e7439f3467e7@neuf.fr
+

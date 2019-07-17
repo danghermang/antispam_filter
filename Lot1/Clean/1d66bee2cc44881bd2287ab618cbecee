@@ -1,0 +1,27 @@
+Subject:Installation postgresql
+Bonjour à tous,
+
+Soit deux serveurs debian squeeze, j'installe postgresql sur les deux 
+avec :
+
+aptitude install postgresql postgresql-client
+
+Tout se passe bien mais sur un des deux serveurs il me manque plein de 
+fichier par exemple pas de script postgresql dans /etc/init.d/
+J'ai beau purger l'installation et la refaire, même résultat.
+
+J'avoue ne pas trop savoir où chercher, une piste serait la bienvenue :-)
+
+Merci
+
+Greg
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/509C3602.8050907@gmail.com
+

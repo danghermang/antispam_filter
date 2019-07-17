@@ -1,0 +1,91 @@
+Subject:Re: [Jukebox-list] 6973 to el84 info needed.
+Gentlemen:=0A=0AI've=A0bought and used quite a number of the ElectroHarmoni=
+x 6973 tubes in my =0Arepair/rebuild work and have had very few quality-con=
+trol, =0Awarranty-returned=A0problems or complaints about them.=A0 Repaired=
+ amplifiers using =0Athese tubes have=A0 tested (audio performance tests) w=
+ithin their published =0Aperformance specs.=A0In one case, I tested amp out=
+put/distortion substituting the =0AEH 6973's versus a set of NOS, US made R=
+CA=A06973's---no measurable difference.=A0 =0AI've had more problems with 6=
+973 circuits the times I had to=A0substitute other =0Atubes for 6973's (6EM=
+5 comes to mind) due to lack of availability.=0A=0AI've had to change plate=
+ loading and other resistors surrounding the 6973 =0Acircuits frequently=A0=
+when repairing AMI amps.=A0 It's my experience that the =0Aresistors tend t=
+o get "cooked out" in these amps because unlike other jukebox =0Amakes,AMI'=
+s amps are powered up 100% of the time.=A0 In most other tube type juke =0A=
+amps, the rectifier tube is switched off when the juke is in the at-rest mo=
+de. =0ATube filaments are kept partially lit in order to get a quick warm-u=
+p time.=A0 =0A=0A=0AIMO, the 6973 tube,in general, is rather fragile and un=
+der rated=A0for the job =0Ait's being asked to do,so they don't work as dep=
+endably as the hardier EL84.=A0I =0Adon't notice any difference in sound=A0=
+comparing correctly-running 6973's to EL84 =0Acircuits.=A0 Other factors wi=
+ll have a bigger influence on the sound of an amp =0Aused for a playback ap=
+p.=A0(i.e. phono cartridge choice, speakers, room =0Aacoustics,etc) than wi=
+ll the output tube type.=A0=A0=A0For a brief period in the early =0A60's, 6=
+973's were in popular use in a variety of medium-wattage stereo =0Acomponen=
+ts, and commercial sound amplifiers.=A0 They sure disappeared from the =0As=
+cene quickly,to be replaced by other tube types.=A0=A0Around this time, sol=
+id state =0Aamp. technology was being rolled out to replace tube-type amps =
+which brought =0Awith them a number of new problems.=A0 Some equipment manu=
+facturers dealt with the =0Aissue by offering a choice of both tube-type an=
+d solid state=A0amplifiers.=A0 Not =0Asure if the 60's jukebox companies di=
+d this or not. =A0=A0=0A=0AWith regard to 6973 output tube substitution, I'=
+ve heard that a European parts =0Amanufacturer (I don't have the name) is o=
+ffering=A0adapter sockets that will let =0Ayou plug in EL84/6BQ5's for a nu=
+mber of different output tube types.=A0 Any pin =0Abasing changes,passive e=
+lectronic components needed are built into the=A0base of =0Athe adapter soc=
+ket.=A0=A0 There's supposed to be an adapter socket=A0in the line =0Aallowi=
+ng EL84's to substitute for several octal-based tube types.=A0=A0=A0=A0=A0=
+=A0=0A=0AJim Alexander=0A=0A=0A=0A=0A________________________________=0AFro=
+m: Ed Owens <eowens@eojohnson.com>=0ATo: NORMAN MACRAE <nmacrae23@btinterne=
+t.com>; Jukebox mailing list =0A<jukebox-list@lists.netlojix.com>=0ASent: S=
+un, November 11, 2012 9:35:47 AM=0ASubject: Re: [Jukebox-list] 6973 to el84=
+ info needed.=0A=0AI found some matched pairs of 6973eh online, but I read =
+they had some quality =0Aissues and the tubes just didn't work.=A0 =0A=0A=
+=A0 If I go with the 6973 s should I replace those resistors that are off.=
+=A0 Both =0Athe schematic and banding tell me 470k but they measure way off=
+.=A0 Maybe that is =0Awhy the existing 6973 tests at 50%.=A0 It was cooked.=
+=A0 I'm also going to replace =0Athe 1 watt bias resistor and diode.=A0 Wha=
+t diode would you use a 1n4004?=0AThanks=0A=0AEd Owens=0AE O Johnson Co=0A=
+=0AOn Nov 11, 2012, at 5:14 AM, "NORMAN MACRAE" <nmacrae23@btinternet.com> =
+wrote:=0A=0A> Jay is correct, there is a fair bit of rewiring required; I t=
+hink only the =0A>heater connections are the same.=A0 Some Rock-Ola amps (e=
+g 429) used EL84s so if =0A>you are determined to go this route, then just =
+re-wire like the Rock-Ola.=A0 The =0A>HT supply to the EL84s on the Rock-Ol=
+a is 310V so an adjustment for this would =0A>be required, as Jay also indi=
+cated.=0A> =0A> =0A> I also happen to think that EL84s produce a nicer soun=
+d than 6973s - nothing =0A>like being controversial, eh?=0A> =0A> Norman.=
+=0A> =0A> =0A> ________________________________=0A> From: Jay Hennigan <jay=
+@west.net>=0A> To: Jukebox mailing list <jukebox-list@lists.netlojix.com> =
+=0A> Sent: Sunday, 11 November 2012, 5:17=0A> Subject: Re: [Jukebox-list] 6=
+973 to el84 info needed.=0A> =0A> On 11/10/12 8:41 PM, Ed Owens wrote:=0A>>=
+ Howdy,=A0 =0A>>=A0 =A0 I'm getting close to finishing my ami continental 2=
+.=A0 I have all the tubes =0A>>except the 6973s.=A0 I have a pile of el84 t=
+ubes and have read I can use these as =0A>>a sub.=A0 I am ok with rewiring =
+the sockets and I also understand I need to change =0A>>a resistor per sock=
+et.=A0 According to the schematic this resistor is currently =0A>>470k and =
+they are reading at 550k.=0A>>=A0 =A0 Is there any info out there on what n=
+eeds to be done for this conversion.=A0 =0A>>Any one know what value resist=
+or I need to change to.=0A> =0A> The EL84 has a maximum rated plate voltage=
+ of 300 volts.=A0 Using these in=0A> most 6973 applications means that the =
+tube will be operating beyond its=0A> specifications.=0A> =0A> There are so=
+me EL84 variants with higher voltage ratings that could=0A> work, but 6973s=
+ are now being produced by Electro-Harmonix at reasonable=0A> prices.=0A> =
+=0A> I would get new EH 6973s rather than rewire, which is a relatively=0A>=
+ daunting process as almost all of the pins will need to be rewired.=0A> =
+=0A> --=0A> Jay Hennigan - CCIE #7880 - Network Engineering - jay@impulse.n=
+et=0A> Impulse Internet Service=A0 -=A0 http://www.impulse.net/=0A> Your lo=
+cal telephone and internet company - 805 884-6323 - WB6RDV=0A> ____________=
+___________________________________=0A> Jukebox-list mailing list=0A> Jukeb=
+ox-list@lists.netlojix.com=0A> http://lists.netlojix.com/mailman/listinfo/j=
+ukebox-list=0A> Searchable Archives: http://jukebox.markmail.org/=0A> _____=
+__________________________________________=0A> Jukebox-list mailing list=0A=
+> Jukebox-list@lists.netlojix.com=0A> http://lists.netlojix.com/mailman/lis=
+tinfo/jukebox-list=0A> Searchable Archives: http://jukebox.markmail.org/=0A=
+_______________________________________________=0AJukebox-list mailing list=
+=0AJukebox-list@lists.netlojix.com=0Ahttp://lists.netlojix.com/mailman/list=
+info/jukebox-list=0ASearchable Archives: http://jukebox.markmail.org/=0A
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

@@ -1,0 +1,55 @@
+Subject:Re: problema de disco al arrancar testing (wheezy)
+El d=EDa 4 de septiembre de 2012 11:08, Camale=F3n <noelamac@gmail.com> esc=
+ribi=F3:
+
+>
+> Qu=E9 malos son los apagones a lo bruto en los sistemas, les sienta fatal=
+ a
+> los discos duros ;-(
+
+S=ED, y como dice la ley de murphy siempre ocurre en el momento que
+causa el mayor da=F1o...
+
+Gracias Camaleon por las ideas. Les comento que tengo casi solucionado
+el problema hoy voy a probar algunas cosas, ahora mas datos.
+
+El test smart paso si problemas aca dejo el log:
+
+http://pastebin.com/radrsgLn
+
+badblocks en la partici=F3n con problemas (/dev/vgtoshi/usrD o /dev/dm-6
+o /dev/mapper/vgtoshi-usrD) me tira 4 errores asi, (4/0/0) y los nros:
+
+13664448
+13664449
+13664450
+13664451
+
+Lo que hice fue intentar con un live cd de ubuntu 12.04.1, con =E9ste si
+puede arrancar porque no viene con lvm, entonces luego de iniciar
+instal=E9 lvm y trat=E9 formatear la partici=F3n con problemas (/dev/dm-6)
+con mkfs, pero no me dej=F3 y tiraba el mismo error, entonces borre el
+volumen l=F3gico con lvremove y eso solucion=F3 el problema, al menos en
+parte ya que ahora Debian arranca directo al shell de mantenimiento
+(ya que no tengo mas /usr) pero con todas las particiones montadas y
+Ubuntu arranca sin problemas, y tambi=E9n Debian live. Revisando la
+documentaci=F3n de lvm y probando manualmente descubr=ED que el problema
+en el arranque lo daba initrds con esta linea:
+
+vgchange -ay --ignorelockingfailure
+
+que hacia que se quedara en un loop tirando el error, pero eliminado
+el volumen l=F3gico se acab=F3 la rabia :-)
+
+Ahora voy a intentar formatear el disco y reinstalar el sistema,
+espero que todo salga bien.
+
+Saludos,
+AR
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAGUs28avWNPFNnFo8oPwt08319rxtowk8JZUD495UP465=0Y7g@mail.gmail.com
+

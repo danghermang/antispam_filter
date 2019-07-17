@@ -1,0 +1,30 @@
+Subject:Re: iceweasel 10.0.7 backport
+On 2012-09-08, Thomas Goirand <thomas@goirand.fr> wrote:
+> On 09/08/2012 09:27 PM, Robert Pommrich wrote:
+>> Hi,
+>> 
+>> Please backport iceweasel 10.0.7 as it provides important security fixes.
+>> 
+>> Robert
+>
+> http://mozilla.debian.net/ has a Squeeze backport of verison 15.0. Do
+> you really need something older? :)
+>
+> Thomas
+>
+>
+
+Yes. Iceweasel 10 is an extended support release, and will be shipped
+with wheezy.
+
+-- 
+
+Liam
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/slrnk4ud20.r8r.liam.p.otoole@dipsy.tubbynet
+

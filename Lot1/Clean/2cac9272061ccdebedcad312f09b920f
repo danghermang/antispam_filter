@@ -1,0 +1,16 @@
+Subject:Re: [Fwd: Re: [Jukebox-list] Wurlitzer 3000]
+Newtjr:
+
+I did encounter a bit of confusion with the relays in the junction box in relation to the junction schematics in both the W2900 and W3300 manuals.
+
+According to the schematic RY2 should be a dc/white relay. However, on the junction itself this is a red ac relay.
+I was advised that the red and white relays can sometimes be interchanged.
+
+The relay sockets are painted ry2 and 6 are red. They work fine this way. They should also be labelled on the junction. Else you can use the junction schematic to trace which of the round sockets go to which relays.
+
+Shankar Singh
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

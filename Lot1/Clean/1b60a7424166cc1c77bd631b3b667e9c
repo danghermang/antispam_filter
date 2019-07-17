@@ -1,0 +1,61 @@
+Subject:Re: Posible problema al actualizar initrd
+El 17/09/12 19:50, Angel Vicente escribió:
+> Hola a todos...
+>
+> Llevo varios dias buscando como solucionar un problema que tengo al
+> arrancar algunos de los nucleos que tengo instalados:
+> tengo acualmente seis nucleos diferentes en /boot, algunos los he
+> compilado yo y otros son instalados directamente desde los
+> repositorios. Desde hace una semana o dos tengo el problema de que
+> los nucleos a los que recientemente se ha actualizado el initrd
+> que le corresponde, no son arrancables: siempre me sale el
+> siguiente error
+>
+> ALERT! /dev/disk/by-uuid/<lista del uuid> does not exist.
+>
+> Previo a este mensaje, sale otro quejandose por el protocolo unix,
+> tambien menciona que udev no ha podido completar la operación.
+> Desde aqui acabo en una sesion de Busybox, desde donde haciendo
+> ls /dev/ comprueba que no existe el directorio disk. Arrancando con
+> un nucleo bueno puedo ver en blkid y en fstab, el identificador que
+> no existe.
+>
+> Sin embargo los otros nucleos no dan ningun problema, me refiero a los
+> que no he actualida el initrd, porque he forzado sobre uno de ellos la
+> actulizacion con update-initramfs -u -k <nucleo> con el resultado de que
+> pasa a emitir el mismo error.
+>
+> No se donde puede estar el problema, parece algo propio de initramfs,
+> pero haciendo lsinitramfs sobre un initrd bueno y sobre otro malo, no
+> consigo ver diferencias que me den alguna pista, bueno si, en el malo
+> no existe el modulo unix.ko. Tambien sospecho de udev pero unicamente
+> por la presencia del mensaje.
+>
+> Llevo varios dias investigando por la red, pero he encontrado problemas
+> con lvm, que no uso, con particiones cifradas, que tampoco uso, con
+> particiones ext4, las mias son ext3, total que ando bastante perdido y
+> me temo que me quedare sin nucleos "arrancables".
+>
+> Saludos y gracias de antemano, y disculpas por lo largo del mensaje.
+>
+>
+
+Hola,
+
+fíjate lo que dice el hook de udev de initramfs
+
+# udevd uses unix domain sockets for communication
+force_load unix
+
+asi que si tienes un problema con los unix sockets parece normal que 
+udev no funcione correctamente. Postea el error que te da con el socket 
+unix y quiza alguien pueda ayudarte mejor.
+
+Un saludo.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505648A2.3070100@limbo.deathwing.net
+

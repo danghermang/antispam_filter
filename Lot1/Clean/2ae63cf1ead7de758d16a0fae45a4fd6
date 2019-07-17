@@ -1,0 +1,53 @@
+Subject:Re: Apache2 erreurs
+On Friday 09 November 2012 14:02:58 Jean-marc Dufour wrote:
+> /etc/apache2/sites-available et l=E0 j'ai 7 fichiers de sites differents
+> avec comme contenu:
+>
+> <VirtualHost *:80>
+>          ServerAdmin   webmaster@localhost
+>          ServerName    sitenumero01
+=2E.......
+>     </Directory>
+> </VirtualHost>
+
+>   apache2(98)Address already in use:=20
+>   make_sock: could not bind to address [::]:80
+
+Certes la panne est r=E9solue,
+
+mais il faut placer les fichiers de configuration des=20
+diff=E9rents sites "virtuels dans :=20
+"/etc/apache2/sites-enabled/"
+sitenumero01
+sitenumero02 ....
+(et non dans le r=E9pertoire : "sites-available")
+
+Ces fichiers doivent eux bien contenir :
+"<VirtualHost *:80>"
+
+Sauf erreur,
+le r=E9pertoire "sites-available" doit contenir
+un seul fichier de configuration par d=E9faut,
+correspondant au site =E0 afficher par :
+"http://localhost"
+
+"/etc/apache2/apache2.conf" sera le fichier de configuration=20
+globale par d=E9faut qui ne doit pas contenir "<VirtualHost *:80>",
+ce qui pourrait expliquer le message d'erreur
+du port 80 d=E9j=E0 dans les processus.
+Il contient les r=E9glages de base du serveur http
+tel : "prefork" ou "worker" etc ...
+
+Bonne nuit.
+
+Andr=E9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211102337.53614.andre_debian@numericable.fr
+

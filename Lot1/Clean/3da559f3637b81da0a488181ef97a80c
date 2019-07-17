@@ -1,0 +1,71 @@
+Subject:Re: [LUG] Linux - and security
+On Fri, Nov 2, 2012 at 5:10 PM, bad apple wrote:
+> Most of you are probably thinking I'm either a paranoid
+> schizophrenic or living in a delusional and dystopian cyberpunk fantasy
+> but I'd like to gently point out that not only is everything I said
+> correct, but I can happily dig out references for everything you can't
+> be bothered looking up yourself.
+
+Well, you did give some of these references.
+
+CRIME and BEAST are not something that an average Internet user should
+worry about. Diginotar was really bad but didn't cause serious harm
+beyond some Iranian opposition activists. Stuxnet targeted a nuclear
+plant in Iran, not home users in the UK. Flame's target were large
+corporations and governments in the Middle East.
+
+It's all about money. If you have the US government against you,
+you're basically stuffed as they can outspend your security budget.
+Running Windows 8? No problem, they buy that zero-day from VUPEN.
+Running something else? No problem, they've got ways to find out what
+you're running and they can find (or buy) zero-days in that too. So in
+that case you shouldn't use the Internet for anything that they are
+after.
+
+If you've got a fairly large business then you also have serious
+problems, because the Chinese government, your competitors and highly
+skilled criminals are after your intellectual property, your database
+and your systems. In that case, apart from running security tools and
+software, you should make sure that important documents aren't stored
+in an Internet-connected computer, that security guidelines are
+followed, etc.
+
+And in both of these cases it is still likely that someone will find a
+hole somewhere. RSA lost 66 million dollars because of a
+spear-phishing email opened by one of its employees. The Diginotar
+hack may have caused the death of Iranian opposition members.
+
+Most people neither have a government against them, nor do they run
+big businesses. They use the computer for web browsing, sending
+emails, playing games. Probably they do online banking too.
+
+The going price for access through a computer in the UK is a few dozen
+pence. (Access is usually sold per 100 or 1000 machines.) Perhaps your
+computer belongs to a specific category that makes access to your
+machine worth several times that. It's still a small amount of money.
+
+Following good security practise means attackers are likely to find an
+easier target somewhere else. And perhaps they don't. Perhaps you made
+a mistake, perhaps there is a vulnerability somewhere that gives
+someone access to your machine. Therefore, you should make sure that
+not too much harm can be done with such access: your computer doesn't
+contain top secret files (or if they do, they are encrypted).
+Passwords are not stored on the machine itself.
+
+It's the same with people gaining unauthorized access to your
+property: it is important to follow good practise and to make sure
+people can't easily gain access. But it's equally important to be
+aware that there may be a chance that people do come in, so don't
+leave valuables lying around.
+
+I'm not saying that things like Stuxnet, or governments buying
+zero-days, shouldn't concern us. They should. But for most users they
+won't affect our day-to-day usage of computers. We shouldn't pretend
+they do.
+
+Martijn.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

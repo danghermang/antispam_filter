@@ -1,0 +1,89 @@
+Subject:Re: [HS] conseil imprimante-scanner
+Bonjour,
+
+c'est vrai que les drivers fournis par Brother ne sont pas libres, mais i=
+ls
+existent et fonctionnent...
+Le fait est que je n'ai qu'une utilisation basique (et de plus en plus
+occasionnelle !) d'une imprimante.
+Lorsque j'imprimais beaucoup de photos, j'utilisais des Epson, mais dans =
+mon
+souvenir, leur installation =C3=A9tait plus acrobatique !
+
+Vincent Danjean a =C3=A9crit :
+> Le 05/11/2012 17:24, Bernardo a =C3=A9crit :
+>> Bonjour,
+>>=20
+>> J'utilise des Brother depuis des ann=C3=A9es avec une satisfaction tot=
+ale :
+>> elles remplissent toutes tes conditions.
+>=20
+> J'avais une jet d'encre HP qui imprimait/scannait bien, mais qui n'arri=
+vait
+> plus =C3=A0 faire correctement l'alignement des t=C3=AAtes d'impression=
+ =3D> 2 =C3=A0 3 min
+> perdu =C3=A0 chaque d=C3=A9marrage de l'imprimante pour annuler cette o=
+p=C3=A9ration qui
+> n'arrivait jamais =C3=A0 compl=C3=A9tion. Elle =C3=A9tait reli=C3=A9e e=
+n USB =C3=A0 mon serveur sous
+> Linux, aucun pb (sane et cups)
+>=20
+> J'ai maintenant une Brother laser TCP/IP qui imprime en R/V (mais pas e=
+n
+> couleur). J'en suis super content mais : - le driver linux cups est cer=
+tes
+> fourni par brother mais non libre (et m=C3=AAme pas s=C3=BBr qu'il soit=
+ packageable
+> dans non-free). J'en ai quand m=C3=AAme fait un paquet pour moi (dispo =
+dans mon=20
+> archive perso, cf ma signature) - idem pour la partie scanner (mais l=C3=
+=A0, je
+> n'ai pas encore pris le temps de faire le paquet...) - je viens de voir
+> qu'il existe une nouvelle version du firmware. J'ai envoy=C3=A9 un mail=
+ =C3=A0
+> brother pour r=C3=A9cup=C3=A9rer le fichier =C3=A0 donner par TFTP (l'i=
+nterface web de
+> l'imprimante permet =C3=A7a apparemment). R=C3=A9ponse de brother : pou=
+r flasher, il
+> faut imp=C3=A9rativement brancher l'imprimante sous windows ou mac...
+>=20
+> J'ai donc un avis mitig=C3=A9 sur le support linux de brother...
+>=20
+> A+ Vincent
+>=20
+>> andre_debian@numericable.fr a =C3=A9crit :
+>>> Bonjour =C3=A0 tous,
+>>>=20
+>>> Excusez ce sujet HS,
+>>>=20
+>>> je recherche une imprimante (jet d'encre ou laser), devant r=C3=A9pon=
+dre =C3=A0
+>>> 3 exigences :
+>>>=20
+>>> 1] Compatible 100% Linux (print + scanner), 2] Capable d'accepter des=
+=20
+>>> cartouches g=C3=A9n=C3=A9riques ou rechargeables, ou cartouches toner
+>>> rechargeables, 3] Prix non exhorbitant.
+>>>=20
+>>> Merci d'avance.
+>>>=20
+>>> Andr=C3=A9
+>>>=20
+>=20
+--=20
+Cordialement,
+Bernardo.
+
+Tomber en panne s=C3=A8che a un avantage :
+C'est moins lourd a pousser que si le r=C3=A9servoir =C3=A9tait plein.
+	-+- Philippe Geluck, Le chat -+-
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5098B4B9.9080505@siorat.net
+

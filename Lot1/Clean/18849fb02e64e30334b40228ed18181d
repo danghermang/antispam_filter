@@ -1,0 +1,54 @@
+Subject:Re: [address-policy-wg] 2012-05 New Draft and Impact Analysis
+ Documents Published (Transparency in Address Block Transfers)
+* Ingrid Wijte
+
+> Just to clarify our position a bit here. We are willing and able to=20
+> publish the information. But the fact remains that there is now a
+> policy proposal being discussed in the community that specifically
+> deals with making this information publicly available. It doesn't
+> make much sense for us to go ahead and publish the information in a
+> different format before we know the outcome of the policy proposal.
+
+Hi,
+
+I would like the list of transfers to be made public, but I would at the
+same time prefer that this proposal did *not* pass, because if you are
+willing to publish the information anyway, there's really no need to add
+more policy text - we have enough text in the policy as it is.
+
+However, now I'm faced with a dilemma. If I (and others) object to this
+proposal so that it ends up not passing, I worry that the NCC would then
+opt *not* to publish the information - considering that the community
+would then have just rejected a proposal that told you to do so, it
+would not be all that surprising if you interpret that as the message
+from the community is =ABdon't make this information public=BB.
+
+However, if you will go ahead and publish information after this
+proposal is finished - even if it failed! - you might as well go ahead
+and do it right now, since you'll end up publishing no matter what.
+
+I hope that made sense to you...
+
+However, if it is the determination of the format/syntax of the
+published data that is the only thing that's stopping you from
+publishing right now, then I have a suggestion:
+
+Make a mock transfer list based on your current understanding of the
+proposal, and then maybe, if the proposer agrees it will give him the
+information he want to see made public, he could withdraw the proposal
+in exchange for you starting to publishing the real list immediately
+afterwards. This ought to keep everyone happy:
+
+- Proposer and the rest of the community gets access to all the
+information we want, and much faster than if we had to wait for the PDP
+to complete
+- No addition of extraneous text to the policy document
+- No need for micro management of the NCC
+
+Does this sound like a reasonable path forward? (this question is meant
+both for the proposer and the NCC)
+
+--=20
+Tore Anderson
+Redpill Linpro AS - http://www.redpill-linpro.com
+

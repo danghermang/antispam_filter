@@ -1,0 +1,47 @@
+Subject:Re: =?iso-8859-1?Q?D=E9pannag?= =?iso-8859-1?Q?e?= sur PC distant
+
+Re,
+
+On Mon, Oct 29, 2012 at 09:00:45PM +0100, luc schimpf wrote:
+[...]
+> >Et, donc ? Tu fais initier la connexion par le dépanné directement
+> >entre les ports 5900 ou bien il faut prendre d'abord le contrôle en
+> >shell et lancer un second tunnel pour VNC ?
+> >
+> >A+
+> >
+> >
+> Le dépanné initie le reverse ssh avec une redirection sur le port
+> 5900 via un script que je lui fourni (y compris une entrée dans le
+> menu pour qu'il n'ai qu'à cliquer)
+> 
+> Une fois que j'ai la main en ssh, je lance le serveur vnc chez lui et
+> le client chez moi et ça roule.
+> 
+> Voilà la commande ssh lancer chez le dépanné:
+> 
+> ssh -p 5522 -R 5901:localhost:5900 -R 5522:localhost:22  moi@mon_ip
+> 
+> le port 5522 est arbitraire.
+> 
+> chez moi je prend la main avec :
+> 
+> ssh -p 5522 user_dépanné@localhost
+
+Tkx!
+
+A+ 
+
+-- 
+
+JFS.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121029202531.GB18003@jones.jfs.dt
+

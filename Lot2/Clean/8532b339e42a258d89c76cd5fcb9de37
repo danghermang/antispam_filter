@@ -1,0 +1,20 @@
+Subject:Re: problemas con vnc
+El 27/11/12 13:05, Trujillo Carmona, Antonio escribió:
+> Desde hace poco tiempo me es imposible conectarme a equipos de mi
+> empresa por vnc.
+> los equipos de mi empresa tienen windows con Ultr@vnc validando contra
+> AD 2008.
+Pues... ¿algún cambio en el elemento común (ultravnc)? quizás algún 
+cambio de versión o implementación de cifrado... o cortafuegos locales.
+
+Prueba a poner algún otro sistema vnc en alguna máquina windows y prueba 
+a ver que pasa.
+
+Un saludo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B4D6F8.4060602@escomposlinux.org
+

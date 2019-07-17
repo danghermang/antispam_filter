@@ -1,0 +1,59 @@
+Subject:Re: debian et onduleur
+On Tue, 25 Sep 2012 01:14:17 +0200
+Ga=C3=ABtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+
+>=20
+> > =C3=80 noter: ils ont tous 4 prises mini, mais sont aussi quasiment
+> > tous livr=C3=A9s avec seulement 2 rallonges :(
+>=20
+> Et alors ? De toute fa=C3=A7on tu as d=C3=A9j=C3=A0 les cordons d'alim de=
+ ce que
+> tu branches dessus. Pourquoi veux-tu qu'ils en fournissent ?
+
+Hmm, tu dois parler des UPS bas de gamme qui ont directement des
+prises 3 p=C3=B4les standard (d=C2=B0 celle de la maison) en sortie; je par=
+lais
+de la plupart des autres qui eux ont leurs sorties en prises
+trap=C3=A9zo=C3=AFdales 3 p=C3=B4les (d=C2=B0 alim PC) mais femelles.
+
+> minoritaire. D'ailleurs il n'y a pas trace de support linux
+> officiel chez APC pour les mod=C3=A8les "bureautique" alors qu'il est
+> pr=C3=A9sent pour les mod=C3=A8les serveurs ...
+=20
+Il me semble qu'ils sont quand m=C3=AAme fournis avec un CD incluant un
+daemon binaire -  =C3=A0 v=C3=A9rifier.
+
+> > Que ce sont _aussi_ les dimensions des batteries qui importent,
+> > parce que certains utilisent les m=C3=AAmes capacit=C3=A9s de batteries
+> > mais avec des dimensions diff=C3=A9rentes - la diffusion de certaines
+> > dimensions =C3=A9tant tr=C3=A8s limit=C3=A9e, le prix peut varier du si=
+mple au
+> > presque double lors du renouvellement.
+>=20
+> Les Eaton semblent utiliser des batteries courantes
+
+V=C3=A9rifie bien, surtout si ce sont des 10AH.
+
+> > Et que tout ce qui importe c'est que les 3 niveaux de charge
+> > soient correctement M=C3=A0J en temps r=C3=A9el;
+>=20
+> C'est =C3=A0 dire ?
+
+Batt. HI, Batt. LO & Batt. Alarm (d=C3=A8s fois Batt. MAN & Batt. LAVA).
+De fa=C3=A7on =C3=A0 ce que le daemon r=C3=A9agisse dans le temps voulu pou=
+r arr=C3=AAter
+le PC avant =C3=A9puisement des batteries.
+
+--=20
+mev: je voudaris savir si tu savais comment "reeboot" un PC S.T.P
+draztik: Si tu as windows, lance un programme au hasard...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120925012530.6c86ad9b@anubis.defcon1
+

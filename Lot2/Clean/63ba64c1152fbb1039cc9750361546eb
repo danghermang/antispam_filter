@@ -1,0 +1,33 @@
+Subject:Re: abscence =?UTF-8?B?cGF2w6kgbnVtw6lyaXF1ZQ==?=
+On Sat, 15 Sep 2012 08:22:48 +0200
+nono <pingvenono@free.fr> wrote:
+
+>=20
+> J'ouvre une session sous gnome (login + mot de passe). Le mot de
+> passe contient des chiffres et j'utilise le pav=C3=A9 num=C3=A9rique. Tout
+> va bien, la session s'ouvre.
+> Ensuite sous la session, le pav=C3=A9 num=C3=A9rique ne fonctionne plus q=
+ue
+> cela soit avec la led du pav=C3=A9 num=C3=A9rique allum=C3=A9e ou non.
+
+Vraisemblablement parce que le fichier de d=C3=A9finitions des touches
+s/s X a chang=C3=A9; s'il ne contient pas l'appariement voulu entre key
+code & caract=C3=A8re de la table, rien ne se peut se passer.
+
+--=20
+<Zerba> Et comment va ta soeur ?
+<Joey> Mal, tout =C3=A0 l'heure elle nous a fait une d=C3=A9pression nerveu=
+se parce
+       qu'elle se trouvait grosse.
+<Joey> Maintenant elle s'enfile un pot de nutella pour tenir le coup =3D_=
+=3D"
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120915190237.505850a8@anubis.defcon1
+

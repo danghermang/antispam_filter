@@ -1,0 +1,44 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+That would be more palatable, but, I would like to see us consider doing more to get a greater portion of end-users that are currently not paying fees at all contributing to the fee pool prior to giving a 100% or more fee increase to anyone.
+
+The proposed modification below would still be a 100% increase in fees for me and even more for many other organizations that have multiple IPv4 records as a result of slow start and other policies which prevented them from getting the space they needed in a single transaction.
+
+Originally, I didn't consider that a major issue because I was told by the RSHD representative in Dallas that I would be able to do an amnesty request under LRSA and have the replacement space covered by that same LRSA. However, when I attempted to actually do so, my request was approved on the condition of signing a current RSA and not the LRSA. Since the current RSA would remove any protections present in my LRSA against future fee increases, that's somewhat untenable.
+
+So, if amnesty requests can be performed such that the replacement single record can be maintained under the same RSA or LRSA as the original space, then I have no objection to the proposed fees modified as you describe below. However, without that possibility, I believe that the proposed fee restructuring is still disproportionately detrimental to LRSA signatories and violates the spirit of what I was told by ARIN prior to signing the LRSA.
+
+Owen
+
+On Nov 16, 2012, at 07:54 , John Curran <jcurran@arin.net> wrote:
+
+> On Nov 16, 2012, at 10:20 AM, Owen DeLong <owen@delong.com>
+> wrote:
+> 
+>> I have no problem with the policies.
+>> 
+>> The proposed fee increases, OTOH...
+> 
+> Owen - 
+> 
+> As I understand it, you do not support changing from a single 
+> $100 end-user maintenance fee for unlimited number of resources 
+> to having a $100 maintenance fee per resource, is that correct?
+> 
+> If the proposed fees were modified (as has also been discussed)
+> such that the first $100 maintenance fee covered 1 IPv4 prefix,
+> 1 IPv6 prefix, and 1 AS number, would you then be in support?
+> 
+> Thanks,
+> /John
+> 
+> John Curran
+> President and CEO
+> ARIN
+
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

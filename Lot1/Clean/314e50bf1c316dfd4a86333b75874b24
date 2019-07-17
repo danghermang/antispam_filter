@@ -1,0 +1,100 @@
+Subject:Re: [MG] (proposal) Metagov as a technical plug-in framework
+Hi,
+
+I strongly agree with Ronald, that there should be a kind of 'standardized 
+meta data' that all tools (plug-ins to the framework) are working on, or at 
+least, are able to convert their data back and forth.
+
+So what about eDialogus 
+http://www.imc.com.gr/ontologies/eDialogos/consensus/#overview  as a 
+starting point for a unique ontology for discussion systems?
+
+What do you think?
+
+Cheers
+Merkbefreiter (marc)
+
+P.S. Because there is already a 'Mark' on the list, you can safely refer to 
+me as 'Merkbefreiter' ;o)
+
+-----Original Message----- 
+From: Ronald Grindle
+Sent: Monday, November 12, 2012 6:21 PM
+To: start@metagovernment.org
+Subject: Re: [MG] (proposal) Metagov as a technical plug-in framework
+
+
+Hello Mike, "So the documents (and popular support) cannot be defragmented 
+without defragmenting the tools." No, not necessarily. This is my proposal, 
+how to outbalance the fragmentation of documents: We agree on a set of meta 
+data, that the tools should support per document, for instance: UID Title 
+Document Type Document Status Area Topic Owner URL [where to find the 
+document] (Author) (Keywords) UID is a unique ID, to be able to unmistakably 
+identify the document. Attributes in brackets () would be optional. The 
+possible entries for "Document Type" and "Document Status" would be 
+pre-defined. The possible entries for "Area" and "Topic" should be fed by a 
+common database (editable by everyone), to avoid "fragmentation by naming". 
+To consolidate the data to an overview on the documents there are two 
+solution I can think of: 1. All tools report their documents to a central 
+server, that provides an overview of all documents, by calling a common 
+interface. (e.g. a http-request) 2. A search tool that crawls through all 
+tools and collects the data. This solution has, at first glance three 
+downsides: - The tools must be searchable (like a web page). - The documents 
+must provide the meta data proposed above as standardized meta-tags. - The 
+tools will be loaded with requests, every time a search is triggered. The 
+consolidation of supporting votes could work the same, but is a more touchy 
+matter, as this is a potential field for cheating and therefore requires 
+special measures to ensure trust.
+
+Best Regards
+Ronald
+
+__________________
+Tel: +49 (0)89-43573610
+Mobil: +49 (0)177-3775162
+E-Mail: ronald@grindle.de
+
+Am 11.11.2012 10:58, schrieb Michael Allan:
+Ronald Grindle said:  I think you got me wrong on my Statement "The same 
+applies to the question about the numbers of supporters...". It's also 
+concerning the documents, not the tools used. That was my understanding, 
+too. But the fragmentation of documents and their popular support is caused 
+by the fragmentation of tools. Right? It's here in your example:  An example 
+for scattering and fragmentation: Let's assume we have 3 different tools 
+plugged into Metagov and let's assume there a discussion going on how to 
+establish "Peace on Earth". Unless the contents (documents) on this topic in 
+these 3 tools [are] synchronized to a common view at some central point it's 
+up to the user to find out what documents are available and what the current 
+state on the topic is (I call this phenomenon "Searching instead of 
+Finding"). So the documents (and popular support) cannot be defragmented 
+without defragmenting the tools. There are two approaches to that that 
+differ in the up-front principles they enshrine: A. Simplification and 
+standardization (then restricted choice) 
+http://metagovernment.org/pipermail/start_metagovernment.org/2012-October/005111.html 
+B. Equality and freedom of choice (then ad hoc inter-communication) 
+http://metagovernment.org/pipermail/start_metagovernment.org/2012-October/005114.html 
+We propose a mechanism for B. We rig Metagov as a plug-in framework with a 
+neutral tool switch. Mike _______________________________________________ 
+Start : a mailing list of the Metagovernment project 
+http://www.metagovernment.org/ Post to the list: Start@metagovernment.org 
+Manage subscription: 
+http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+
+
+
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: 
+http://metagovernment.org/mailman/listinfo/start_metagovernment.org 
+
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

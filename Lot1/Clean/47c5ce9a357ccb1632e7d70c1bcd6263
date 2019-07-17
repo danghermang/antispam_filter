@@ -1,0 +1,258 @@
+Subject:[svnbook] r4309 committed - Ticket #321: "Set up replication" (cf....
+Revision: 4309
+Author:   jmfelderhoff@gmx.eu
+Date:     Tue Oct  2 10:23:35 2012
+Log:      Ticket #321: "Set up replication" (cf.
+http://www.svnbook.de/ticket/321).
+
+http://code.google.com/p/svnbook/source/detail?r=3D4309
+
+Modified:
+  /branches/1.5/de/book/ch06-server-configuration.xml
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+--- /branches/1.5/de/book/ch06-server-configuration.xml	Sun Sep 16 22:25:04=
+  =
+
+2012
++++ /branches/1.5/de/book/ch06-server-configuration.xml	Tue Oct  2 10:23:35=
+  =
+
+2012
+@@ -5402,8 +5402,12 @@
+          </sect4>
+
+          <sect4 id=3D"svn.serverconfig.httpd.extra.writethruproxy.replicat=
+e">
++<!--
+            <title>Set up replication</title>
++-->
++          <title>Einrichten der Replizierung</title>
+
++<!--
+            <para>Now that you've configured
+              your <literal>Location</literal> blocks on master and
+              slaves, you need to configure the master to replicate to
+@@ -5412,7 +5416,18 @@
+              with this tool, see
+              <xref linkend=3D"svn.reposadmin.maint.replication"/> for
+              details.</para>
++-->
++          <para>Nachdem Sie nun Ihre
++            <literal>Location</literal>-Bl=F6cke auf Mastern und Slaves
++            konfiguriert haben, m=FCssen Sie nun Ihren Master f=FCr die
++            Replizierung zu den Slaves einrichten. Das geschieht auf
++            die =FCbliche Weise &ndash; mit <command>svnsync</command>.
++            Wenn Sie dieses Werkzeug noch nicht kennen, k=F6nnen Sie
++            Details unter
++            <xref linkend=3D"svn.reposadmin.maint.replication"/>
++            nachlesen.</para>
+
++<!--
+            <para>First, make sure that each slave repository has a
+              <filename>pre-revprop-change</filename> hook script which
+              allows remote revision property changes.  (This is
+@@ -5421,7 +5436,19 @@
+              server and configure each of the slave repository URIs to
+              receive data from the master repository on the local
+              disk:</para>
++-->
++          <para>Stellen Sie zun=E4chst sicher, dass jedes
++            Slave-Projektarchiv ein
++            <filename>pre-revprop-change</filename>-Hook-Script hat,
++            das =C4nderungen an Revisions-Eigenschaften aus der Ferne
++            erm=F6glicht. (Das ist Standard, wenn von
++            <command>svnsync</command> empfangen wird.) Melden Sie
++            sich dann auf dem Master-Server an und konfigurieren jede
++            der Slave-Projektarchiv-URIs, so dass sie Daten vom
++            Master-Projektarchiv auf der lokalen Platte
++            empfangen:</para>
+
++<!--
+            <screen>
+  $ svnsync init http://slave1.example.com/svn-proxy-sync  =
+
+file://var/svn/repos
+  Copied properties for revision 0.
+@@ -5459,11 +5486,57 @@
+  Copied properties for revision 2.
+  &hellip;
+  </screen>
++-->
++          <screen>
++$ svnsync init http://slave1.example.com/svn-proxy-sync  =
+
+file://var/svn/repos
++Eigenschaften f=FCr Revision 0 kopiert.
++$ svnsync init http://slave2.example.com/svn-proxy-sync  =
+
+file://var/svn/repos
++Eigenschaften f=FCr Revision 0 kopiert.
++$ svnsync init http://slave3.example.com/svn-proxy-sync  =
+
+file://var/svn/repos
++Eigenschaften f=FCr Revision 0 kopiert.
+
++# Die initiale Replizierung durchf=FChre
++
++$ svnsync sync http://slave1.example.com/svn-proxy-sync
++=DCbertrage Daten ....
++Revision 1 =FCbertragen.
++Eigenschaften f=FCr Revision 1 kopiert.
++=DCbertrage Daten ....
++Revision 2 =FCbertragen.
++Eigenschaften f=FCr Revision 2 kopiert.
++&hellip;
++
++$ svnsync sync http://slave2.example.com/svn-proxy-sync
++=DCbertrage Daten ....
++Revision 1 =FCbertragen.
++Eigenschaften f=FCr Revision 1 kopiert.
++=DCbertrage Daten ....
++Revision 2 =FCbertragen.
++Eigenschaften f=FCr Revision 2 kopiert.
++&hellip;
++
++$ svnsync sync http://slave3.example.com/svn-proxy-sync
++=DCbertrage Daten ....
++Revision 1 =FCbertragen.
++Eigenschaften f=FCr Revision 1 kopiert.
++=DCbertrage Daten ....
++Revision 2 =FCbertragen.
++Eigenschaften f=FCr Revision 2 kopiert.
++&hellip;
++</screen>
++
++<!--
+            <para>After this is done, we configure the master server's
+              <literal>post-commit</literal> hook script to invoke
+              <command>svnsync</command> on each slave server:</para>
++-->
++          <para>Nachdem das erledigt ist, wird das
++            <literal>post-commit</literal>-Hook-Script des
++            Master-Servers konfiguriert, damit
++            <command>svnsync</command> auf jedem Slave-Server
++            aufgerufen wird:</para>
+
++<!--
+            <programlisting>
+  #!/bin/sh
+  # Post-commit script to replicate newly committed revision to slaves
+@@ -5472,7 +5545,17 @@
+  svnsync sync http://slave2.example.com/svn-proxy-sync &gt; /dev/null  =
+
+2&gt;&amp;1
+  svnsync sync http://slave3.example.com/svn-proxy-sync &gt; /dev/null  =
+
+2&gt;&amp;1
+  </programlisting>
++-->
++          <programlisting>
++#!/bin/sh
++# Post-Commit-Script zum Replizieren der neu =FCbergebenen Revision an die=
+  =
+
+Slaves
+
++svnsync sync http://slave1.example.com/svn-proxy-sync &gt; /dev/null  =
+
+2&gt;&amp;1
++svnsync sync http://slave2.example.com/svn-proxy-sync &gt; /dev/null  =
+
+2&gt;&amp;1
++svnsync sync http://slave3.example.com/svn-proxy-sync &gt; /dev/null  =
+
+2&gt;&amp;1
++</programlisting>
++
++<!--
+            <para>The extra bits on the end of each line aren't
+              necessary, but they're a sneaky way to allow the sync
+              commands to run in the background so that the Subversion
+@@ -5482,7 +5565,19 @@
+              <literal>post-revprop-change</literal> hook as well so
+              that when a user, say, modifies a log message, the slave
+              servers get that change also:</para>
++-->
++          <para>Die zusa=E4tzlichen St=FCckchen am Ende jeder Zeile sind
++            zwar nicht notwendig, erlauben es aber den Sync-Befehlen,
++            auf eine leise Art und Weise im Hintergrund zu laufen, so
++            dass der Subversion-Clien keine Ewigkeit auf den Abschluss
++            der =DCbergabe warten muss. Zus=E4tzlich zu diesem
++            <literal>post-commit</literal>-Hook werden Sie au=DFerdem
++            einen <literal>post-revprop-change</literal>-Hook
++            ben=F6tigen, damit, wenn ein Benutzer beispielsweise eine
++            Protokollnachricht ver=E4ndert, die Slave-Server diese
++            =C4nderung ebenfalls mitbekommen:</para>
+
++<!--
+            <programlisting>
+  #!/bin/sh
+  # Post-revprop-change script to replicate revprop-changes to slaves
+@@ -5492,7 +5587,18 @@
+  svnsync copy-revprops http://slave2.example.com/svn-proxy-sync ${REV} &gt=
+;  =
+
+/dev/null 2&gt;&amp;1
+  svnsync copy-revprops http://slave3.example.com/svn-proxy-sync ${REV} &gt=
+;  =
+
+/dev/null 2&gt;&amp;1
+  </programlisting>
++-->
++          <programlisting>
++#!/bin/sh
++# Post-revprop-Change-Script zur Weitergabe der =C4nderung an den  =
+
+Revisionseigenschaften an die Slaves
+
++REV=3D${2}
++svnsync copy-revprops http://slave1.example.com/svn-proxy-sync ${REV} &gt;=
+  =
+
+/dev/null 2&gt;&amp;1
++svnsync copy-revprops http://slave2.example.com/svn-proxy-sync ${REV} &gt;=
+  =
+
+/dev/null 2&gt;&amp;1
++svnsync copy-revprops http://slave3.example.com/svn-proxy-sync ${REV} &gt;=
+  =
+
+/dev/null 2&gt;&amp;1
++</programlisting>
++
++<!--
+            <para>The only thing we've left out here is what to do about
+              locks.  Because locks are strictly enforced by the master
+              server (the only place where commits happen), we don't
+@@ -5509,6 +5615,25 @@
+              unlock</command> on each slave machine, presumably through
+              a remote shell method such as SSH.  That's left as an
+              exercise for the reader!</para>
++-->
++          <para>Das Einzige, was wir hier ausgelassen haben, ist die
++            Behandlung von Sperren. Da Sperren streng vom
++            Master-Server durchgesetzt werden (die einzige Stelle, an
++            denen =DCbergaben stattfinden), brauchen wir technisch gar
++            nichts zu tun. Viele Teams benutzen die Sperrmechanismen
++            von Subversions =FCberhaupt nicht, so dass es Sie vielleicht
++            gar nicht betrifft. Wenn jedoch =C4nderungen an Sperren
++            nicht vom Master an die Slaves weitergegeben werden,
++            bedeutet das, dass Clients den Zustand von Sperren nicht
++            abfragen k=F6nnen (z.B. wird <userinput>svn status
++              -u</userinput> keinerlei Informationen =FCber
++            Projektarchiv-Sperren anzeigen). Sollte Sie das st=F6ren,
++            k=F6nnen Sie <literal>post-lock</literal> und
++            <literal>post-unlock</literal>-Hook-Scripts schreiben, die
++            <command>svn lock</command> und <command>svn
++              unlock</command> auf jedem Slave-Rechner aufrufen, etwa
++            =FCber einen Remote-Shell-Mechanismus, wie etwa SSH. Das sei
++            dem Leser als =DCbung =FCberlassen!</para>
+
+          </sect4>
+
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

@@ -1,0 +1,28 @@
+Subject:Re: =?ISO-8859-1?Q?D=E9ploiment_de_package?=
+Le 10/12/2012 07:01, Nicolas Pechon a =E9crit :
+> Bonjour,
+> J'ai mont=E9 un petit r=E9seau(tous sous debian). Y a t'il une possibil=
+it=E9 de
+> g=E9rer les packages de toutes les machines?
+> De demander l'installation d'un package particulier et que tous les
+> ordinateurs ex=E9cute le m=EAme ordre?
+>
+> D'avance merci de me mettre sur la voie...
+>
+  Bonjour,
+
+Il y a puppet qui permet de faire cela en plus de g=E9rer la configuratio=
+n.
+
+--=20
+Guillaume
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C5DAD8.9070004@gwilhom.fr
+

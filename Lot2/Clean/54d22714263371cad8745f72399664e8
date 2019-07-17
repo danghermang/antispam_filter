@@ -1,0 +1,68 @@
+Subject:Re: Clonage de paquets Debian entre VPS
+Bonjour,
+
+Le 3 novembre 2012 12:58, Dominique Asselineau
+<asseline@telecom-paristech.fr> a =E9crit :
+> Je vais devoir compl=E9ter l'installation d'un serveur priv=E9 virtuel
+> (VPS) chez un h=E9bergeur, ceci =E0 partir d'un VPS existant et j'aurais
+> besoin de compl=E9ments d'infos =E0 la solution que j'ai trouv=E9e sur le
+> wiki de la liste.
+>
+> Tout d'abord la situation para=EEt assez simple puisqu'il s'agit de VPS
+> chez le m=EAme h=E9bergeur, sachant qu'un VPS ne devrait pas d=E9pendre d=
+e
+> conditions mat=E9rielles particuli=E8res.
+>
+> J'ai trouv=E9 dans le wiki une solution =E0 base de
+> # dpkg --get-selections
+> puis sur la machine cible
+> # dpkg --set-selections
+> # aptitude dist-upgrade
+>
+> Tout d'abord, je suppose qu'il faut s'assurer que les sources.list
+> soient identiques.  Ensuite y a-t-il d'autres pr=E9cautions =E0 prendre
+> notamment =E0 propos du statut des paquets indiqu=E9 dans le r=E9sultat d=
+u
+> --get-selections.  Peut-=EAtre faut-il ne conserver que ceux qui ont le
+> statut install ?
+>
+> Par ailleurs j'ai l'habitude d'utiliser apt-get plut=F4t que aptitude.
+> apt-get dist-upgrade peut-il aussi faire l'affaire ?
+>
+> Un co-listier m'a propos=E9 en priv=E9 une solution peut-=EAtre plus robu=
+ste
+> # dpkg --get-selections > fichier_selection
+> Ne conserver que les paquets ayant le statut install, liste des paquets
+> mis sur une m=EAme ligne, puis
+> # apt-get install la_liste_des_paquets
+>
+> quelle serait la solution la plus pertinente ?
+>
+> Merci de votre =E9clairage.
+
+
+A d=E9faut d'un conseil, je peux t=E9moigner d'une erreur =E0 ne pas faire.
+J'ai r=E9cemment utilis=E9 cette technique pour chercher =E0 remettre en
+fonction un poste qui avait mal v=E9cu une mise =E0 jour. Le probl=E8me,
+c'est que je me suis apper=E7ut un peu trop tard que le serveur de
+r=E9f=E9rence et le serveur destination n'utilisaient pas la m=EAme
+architecture : i386 pour l'un et x86_64 pour l'autre. Au final, un
+beau bazar que je n'ai pas encore eu le temps de d=E9m=EAler.
+
+Prudence donc.
+
+--=20
+Guilhem BONNEFILLE
+-=3D- JID: guyou@im.apinc.org MSN: guilhem_bonnefille@hotmail.com
+-=3D- mailto:guilhem.bonnefille@gmail.com
+-=3D- http://nathguil.free.fr/
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+BUw6iEtFX-afTJwa_qsiPbMqXAkE1A6d6-2YqtjM40+NzeYg@mail.gmail.com
+

@@ -1,0 +1,108 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Alan,
+
+The question for you seems to be:
+If "the exact formula for the capture area of any small antenna,
+ignoring loss resistance and reactance, is 3.lambda^2 / 8.pi", then why do 
+you say that adding a ferrite to a small loop antenna greatly increases its 
+capture area?
+
+I agree with the first statement about capture area, but not the second.
+
+--Kirk
+
+PS  Your qualifier "ignoring reactance" means the antenna is "matched".
+
+A small loop antenna is readily matched by tuning the tuning capacitor, so 
+the role of the ferrite is NOT to make a match possible -- since this is 
+easily done without the ferrite.
+
+
+-----Original Message----- 
+From: boswell alan
+Sent: Sunday, October 21, 2012 9:49 AM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] Ferrite Antennas
+
+Kirk and all
+
+What I am trying to say is that there is a good step forward in
+knowledge of small antennas to be had by addressing the question I put
+a good few days ago, but no-one has looked up from the pit to address
+it.  I feel that may be because we may be in danger of deserting
+intelligence and becoming another internet shouting shop :)  But it
+hasn't happened just yet . . . so here is the question with some more
+hints:
+
+The equivalent circuit for a small receive antenna is a voltage
+generator in series with a radiation resistance, a loss resistance,
+and a reactance.  That leads us to these questions:
+
+1. The exact formula for the capture area of any small antenna,
+ignoring loss resistance and reactance, is 3.lambda^2 / 8.pi,
+
+2. hence or otherwise, find out the formula relating the open-circuit
+output voltage (for a given field strength) to the radiation
+resistance,
+
+3. does this provide a useful check on formulas for output voltage and
+radiation resistance encountered in the literature?
+
+Keen students could check the answers for a small dipole, a small
+loop; and a ferrite rod antenna using whatever formulas are quoted in
+the literature.
+
+More hints:
+
+Use the formula for the capture area of a small antenna (above) and
+equate it to the formula for the available power as given by circuit
+theory (temporarily ignoring losses):
+
+1. Available power = capture area times power density of the incident field:
+Pav =  3 lambda^2 / (8.pi)  *  E^2 / eta0   where eta0 is the
+free-space wave impedance.
+
+2. Available power is also given in terms of open-circuit voltage and
+radiation resistance:
+Pav = V^2/(4.Rr)
+
+This links the radiation resistance to the open-circuit voltage for
+any small antenna.  In the equations E is the incident field and V the
+open-circuit voltage (rms values).
+
+Don't write that ferrite rod antennas are highly lossy, it's already
+common knowledge, but understanding theory requires a degree of
+abstract thought on the way to understanding, and losses can be dealt
+with later.
+
+Alan G3NOQ
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this 
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm 
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

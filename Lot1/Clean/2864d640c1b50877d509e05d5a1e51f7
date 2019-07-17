@@ -1,0 +1,28 @@
+Subject:Re: =?UTF-8?B?Y29ubmHDrnRyZQ==?= les =?UTF-8?B?Y2FyYWN0w6lyaXN0?=
+	=?UTF-8?B?aXF1ZXM=?= d'un processeur sous Squeeze
+On Fri, 14 Sep 2012 11:30:36 +0200
+Philippe Gayot <phgayot@gmail.com> wrote:
+
+> Je cherche une commande pour conna=C3=AEtre les caract=C3=A9ristiques des
+> processeurs d'une machine Dell R300 PowerEdge sous Squeeze.
+
+cat /proc/cpuinfo
+
+--=20
+<Sandra> Tin t'es vraiment trop con
+<Flash> Oui on est comme =C3=A7a les hommes
+<Flash> Beaux et cons
+<Flash> Beau pour que les femmes nous aiment
+<Flash> Cons pour qu'on aime les femmes.
+<Sandra> ...
+<e4gle> Owned tout en beaut=C3=A9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120914123335.10ba045b@anubis.defcon1
+

@@ -1,0 +1,71 @@
+Subject:Re: No-Ip en lugar en DynDns en Debian Squeeze
+El d=EDa 28 de noviembre de 2012 10:39, enodisarpiz
+<enodisarpiz@ziprasidone.com.ar> escribi=F3:
+>> -----Mensaje original-----
+>> De: tq [mailto:tqlistas@gmail.com]
+>> Enviado el: mi=E9rcoles, 28 de noviembre de 2012 09:02 a.m.
+>> Para: Lista Debian
+>> Asunto: No-Ip en lugar en DynDns en Debian Squeeze
+>>
+>> Buenas para todos!
+>>
+>> Teniendo en cuenta que DynDNS ha dejado de ser gratuito (o al menos no
+>> permite crear cuentas nuevas) estoy pensando en montar cuentas en NO-IP.
+>>
+>> Ahora bien, alguien sabe de alg=FAn paquete para Debian que permita
+>> conectarse a cuentas NO-IP y mantener enlazada el dominio con la IP del
+>> momento?
+>>
+>> Desde ya muchas gracias!
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/50B5FD38.6070407@gmail.com
+>
+> Te recomiendo que visites el sitio www.cdmon.com, gratuito y te ofrece un
+> script en perl para actualizar la IP.
+
+
+
+
+ parece interesante lo que planteas
+pero no logro encontrar en el sitio lo que comentas
+
+
+
+>
+> Lo que si, tenes que tener un dominio registrado en NIC de tu pa=EDs.
+>
+> Suerte.
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/000901cdcd6d$d1a40890$74ec19b0$@ziprasid=
+one.com.ar
+>
+
+
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54YP3Z_R0SNVZhj7B=Hrc+UU9odXU2dV-7jF2-J9R2YqGg@mail.gmail.com
+

@@ -1,0 +1,23 @@
+Subject:Re: Acceder a mi Linux desde windows
+
+El mi=C3=A9, 10-10-2012 a las 17:36 +0200, Cristian Prado =
+escribi=C3=B3:
+> Hola a todos
+> Tengo que acceder (Remote Desk) al linux de casa con la compu
+> del trabajo (windows 7) que programa me recomiendan ?
+> Lei que se puede hacer con VNC pero tengo entendido
+> que no es muy seguro.
+> Gracias por las respuestas
+>=20
+
+si lo que quieres es "Remote Desk" prueba xrdp
+
+--=20
+trujo <antonio.trujillo.sspa@juntadeandalucia.es>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1350415858.15089.0.camel@trujo.hvn.sas.junta-andalucia.es
+

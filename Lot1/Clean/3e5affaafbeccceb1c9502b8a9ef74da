@@ -1,0 +1,87 @@
+Subject:Re: OT: configurar zona horaria a un no-debian por linea de comando
+El 06/11/12 08:55, Flako escribió:
+> El día 5 de noviembre de 2012 23:24, Sergio Bessopeanetto
+> <sbess63@myopera.com>  escribió:
+>> El 05/11/12 19:30, Flako escribió:
+>>
+>>>      Hola
+>>>      Esto es un offtopic porque no es de Debian, pero si asociado a
+>>> Linux en general (fecha  y zonetime)
+>>>
+>>>      Estoy intentando definir la zona-horaria de un Linux embebido
+>>> (kernel 2.6.11-1), como este no tiene los programas para configurar la
+>>> zona horaria lo estoy intentado manualmente.
+>>>      El  /etc/localtime  es de la zona horaria correcta (Sur
+>>> America/Buenos_Aires  GMT -3), lo verifique con otro linux y  el
+>>> comando  date devuelve 'Mon Nov  5 19:05:22 ART 2012'  donde ART  es
+>>> "Argentina Time"
+>>>      El problema esta en que cuando inicia Linux, la hora del sistema es
+>>> tres horas menos de la esperada, es decir es 3 horas menos que el
+>>> valor de la BIOS (CMOS), esto lo arreglo actualizando vía ntp o con
+>>> hwclock, pero ciertos archivos log me quedan mal  y quiero arreglar
+>>> eso.
+>>>
+>>>      Intente solucionar el tema creando el archivo  /etc/sysconfig/clock
+>>>    (no estaba definido) como
+>>>
+>>> [root@localhost ~]# cat /etc/sysconfig/clock
+>>> ZONE="America/Argentina/Buenos_Aires"
+>>> UTC=false
+>>> ARC=false
+>>>
+>>>     pero no hay cambios.
+>>>
+>>>     También intente definirle la variable  "export
+>>> TZ=America/Buenos_Aires "  donde hizo que la hora que tiene el linux
+>>> al inicio sea la correcta, pero al actualizar la hora via ntp la hora
+>>> se adelanta 3 horas.
+>>>
+>>>      Por que creo que me falta tocar algo asociado a timezone pero no se
+>>> que es.. (o tengo un error de concepto), tampoco estoy seguro si el
+>>> linux esta leyendo el archivo  /etc/sysconfig/clock.
+>>>
+>>>
+>>>      Les agradeceré si me pueden dar una idea de por donde mirar..
+>>>
+>>>      Gracias por llegar hasta aquí
+>>>
+>>>
+>>
+>> ¿ Y si intentás con cambiar la hora del sistema en la BIOS?
+>> Ponele que el sistema tenga hora UTC
+>
+>
+> Hola Sergio
+> La bios no tiene una opción de hora UTC/NoUTC, por lo que no comprendo
+> que puedo lograr "adelandato/atrazando" la hora del bios. te podes
+> explicar mejor.. se me esta pasando..
+>
+>
+Hola.
+cuando iniciás el equipo apretá F2, aparecerá la interfase de 
+configuración del BIOS. Depende de la versión tendrás una sección para 
+la configuración de la hora local. Yo lo tengo en UTC. Es decir que cada 
+vez que instalo o pruebo una distro el reloj me muestra la hora UTC,
+Si no encontrás una opción UTC, atrasá el reloj del sistema 3 horas. No 
+sé por qué pero parece que Timezone funciona bien así. A mí me ha dado 
+resultado de esa manera. Otras veces que puse el equipo en hora local 
+desde el el BIOS me costaba mantener la hora en sistema operativo.
+
+Esto es como todo, ensayo-error
+
+Saludos
+
+
+-- 
+Sergio Bessopeanetto
+Buenos Aires, Argentina
+Skype: sergio.bess
+msn: sergiebess@hotmail.com
+Jabber: sergio.bess@jabber.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5098FF25.7030900@myopera.com
+

@@ -1,0 +1,28 @@
+Subject:Re: chvt y permisos a usuario
+El mié, 21-11-2012 a las 16:05 +0000, Camaleón escribió:
+> El Wed, 21 Nov 2012 12:57:52 -0300, Walter escribió:
+> 
+> (...)
+> 
+> > ¿como puedo hacer para que,  "chvt  Nº", pueda ser ejecutado por el
+> > usuario comun?
+> 
+> Para cualquier aplicación que necesite privilegios de súperusuario puedes 
+> usar/configurar "sudo". 
+> 
+> Para todo lo demás, MasterCard :-)
+> 
+> Saludos,
+> 
+> -- 
+> Camaleón
+> 
+Juar juar juar. Que buena onda. Me bote de la risa
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1353656821.2393.0.camel@maquina-negra.site
+

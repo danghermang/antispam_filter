@@ -1,0 +1,50 @@
+Subject:Re: wheezy, mise
+	=?UTF-8?B?w6Agam91ciA9PiBwZXJ0ZSBkZXMgcGFydGl0aQ==?=
+	=?UTF-8?B?b25zIGx2bQ==?=
+
+Le 29/09/2012 22:19, Bzzz a écrit :
+> On Sat, 29 Sep 2012 22:04:24 +0200
+> Yann Cohen<yann@ianco.org>  wrote:
+>
+>> Suite à une mise à jour, il est devenu impossible de booter sur un
+>> root fs qui est en lvm (/dev/vg0/root).
+>>
+>> Le système m'envoie dans un shell busybox et le lvscan me montre
+>> bien les partitions mais elles sont toutes inactives à l'exception
+>> du swap.
+>>
+>> J'ai pensé que cela était lié au module lvm de grub j'ai donc
+>> placé dans le fichier grub.cfg un insmod lvm mais échec il ne
+>> connaît pas ce module même si lvm.mod est présent sur le disque...
+>
+> À moins que les choses n'aient changées drastiquement, tous les
+> modules relatifs à un FS nécessaire au bon déroulement du boot
+> doivent faire partie intégrante du kernel (avec donc un initrd),
+> est-ce le cas?
+>
+
+J'aurais tendance à dire : je ne sais pas. La génération de initramfs 
+est automatique et transparente.
+
+J'ai réussi à démarrer la machine en appliquant les commandes suivantes 
+au prompt initramfs :
+lvm vgscan --mknodes
+lvm lvchange -aly vg0/root
+puis un exit
+et la machine à booté.
+
+Donc maintenant que j'ai un système opérationnel, comment faire en sorte 
+que cela ne recommence pas au prochain boot ?
+
+--
+Yann.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50675A41.4040309@ianco.org
+

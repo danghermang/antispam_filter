@@ -1,0 +1,39 @@
+Subject:Re: Falla en la =?iso-8859-1?Q?Comprobaci?=	=?iso-8859-1?Q?=F3n?=
+	de Descarga
+On Fri, Nov 23, 2012 at 09:52:38AM -0600, William M. S. wrote:
+> Hola a todos!!!.
+> 
+> Soy nuevo en esto de linux. Me he decidido a tratar de mudarme
+> completamente a linux y dejar a un lado Windows. Después de leer varios
+> comentarios escogí Debian como sistema operativo.
+> El problema es que al descargar las imágenes oficiales en DVD, estas se
+> comprueban con md5 automaticamente con Free Download Manager, pero no pasa
+> la prueba, me manda un error de que no coinciden. Como sea también lo
+> compruebo con otro programa y tampoco pasa. La pregunta es que si será
+> demasiado crítico ese fallo o al final no dará muchos problemas a la hora
+> de instalarlo?.
+> Mi conexión a internet no es muy buena que digamos y de hecho la comparto
+> con otros usuarios que lamentablemente solo pasan viendo videos,
+> descargando con jdownloader, etc. Ya he descargado el mismo DVD (1) 3 veces
+> y me da lo mismo. En estos momentos estoy descargandolo nuevamente desde
+> torrent a ver como resulta.
+> 
+> Agradecería algún comentario que tenga (constructivo) al respecto.
+> Sé que quizá es una consulta tonta, pero creo que talvez alguien pueda
+> ayudarme.
+> 
+> Saludos y nuevamente gracias!!!
+> 
+> W.A.M.S.
+> 
+
+Podrias probar Jigdo, la informacion en "man jigdo", despues de instalarlo en tu ordenador.
+Asi, solamente te baja lo que les falta a las .iso
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121124035209.GA2568@consultor.dyndns.org
+

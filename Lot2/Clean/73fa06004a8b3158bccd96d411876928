@@ -1,0 +1,47 @@
+Subject:Re: OT: configurar zona horaria a un no-debian por linea de comando
+Le martes 06 noviembre 2012 à 12:19 -0300, Flako a écrit :
+
+[...]
+
+>           Si me pueden explicar porque anda colocando UTC y "falla"
+> con LOCAL se los agradeceré. (podre usar mis horas de google en algo
+> nuevo)
+> 
+
+Tradicionalmente en los sistemas Unix la BIOS va con la hora UTC y en
+función de la zona horaria donde se encuentre el servidor el sistema
+reinterpreta la hora correcta.
+
+Antaño cuando instalabas un GNU/Linux te preguntaba sobre este tema.
+Podías escojer entre "Reloj Local" u "Hora UTC".
+
+Del man hwclock:
+
+OPTIONS
+       The following options apply to most functions.
+
+       -u, --utc
+
+       --localtime
+              Indicates that the Hardware Clock is kept in Coordinated
+Universal Time or local time, respectively.  It is your choice whether
+to keep  your  clock  in  UTC  or
+              local time, but nothing in the clock tells which you've
+chosen.  So this option is how you give that information to hwclock.
+
+
+Saludos.
+
+
+
+
+-- 
+Francesc Guitart
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1352229438.2204.6.camel@negret
+

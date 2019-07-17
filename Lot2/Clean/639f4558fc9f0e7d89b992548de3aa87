@@ -1,0 +1,43 @@
+Subject:Re: [address-policy-wg] Another small IPv6 allocation policy change
+ proposal (sanity check email)...
+Hi,
+
+On Wed, Nov 07, 2012 at 12:53:27PM +0100, Jan Zorz @ go6.si wrote:
+> When those LIRs asked for extension to /29 they received a response from 
+> IPRAs, that they can extend to /29 *in total* as written in the policy.
+> 
+> The policy says:
+> 
+> "LIRs that hold one or more IPv6 allocations are able to request 
+> extension of these allocations up to a *total* of a /29 without 
+> providing further documentation."
+
+Actually, I think the IPRAs are reading something in there that has
+not been the intention by the WG (and it should be obvious from the 
+discussions that it wasn't, because the case "what about a LIR that
+has more than one /32?" was never discussed)
+
+For non-native speakers (like me), the sentence above is perfectly fine 
+to be interpreted as "... extensions of *any of these* allocations up
+to a total of /29..." and not "... up to a total of a /29 across all 
+IPv6 stock the LIR has".
+
+We've been there with the "80% utilization" in IPv4, where the IPRA
+interpretation was more strict than what the WG intended, and it seems
+that this is another of these cases...
+
+
+Anyway, to give clear guidance to the NCC, I think having Jan and Emilio
+draft new text, have this be cross-checked by the NCC for interpretation
+leeway, and then formally accept it via the PDP, is the right way forward.
+
+Gert Doering
+        -- APWG chair
+-- 
+have you enabled IPv6 on something today...?
+
+SpaceNet AG                        Vorstand: Sebastian v. Bomhard
+Joseph-Dollinger-Bogen 14          Aufsichtsratsvors.: A. Grundner-Culemann
+D-80807 Muenchen                   HRB: 136055 (AG Muenchen)
+Tel: +49 (89) 32356-444            USt-IdNr.: DE813185279
+

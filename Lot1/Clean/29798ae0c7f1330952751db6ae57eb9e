@@ -1,0 +1,59 @@
+Subject:Re: problema de impresion Wheezy (solucionado)
+El Sat, 17 Nov 2012 18:15:05 +0100, Javier San Román escribió:
+
+> On Viernes, 16 de noviembre de 2012 16:42:03 Camaleón escribió:
+
+(...)
+
+>> > Ahora mismo hago 'deluser zubok lpadmin', intento añadir una
+>> > impresora desde localhost:631 y al autenticarme como usuario me da el
+>> > error "Unable to add printer: Forbidden".
+>> 
+>> No sé en qué versión estás, pero a mí eso no me pasa en wheezy cuando
+>> quiero añadir una impresora (ojo, no tengo configurado "sudo" por lo
+>> que CUPS -1.5.3- me pide el usuario/contraseña de "root").
+>> 
+> 
+> CUPS a través de  localhost:631, con CUPS-1.5.3 y sin sudo, me pide
+> usuario/contraseña. 
+
+Correcto, es como siempre lo ha hecho.
+
+> Como "usuario" y como "root" bien. 
+
+Como usuario a mí no me lo permite, digo, añadir una impresora (mi 
+usuario no pertenece al grupo "lpadmin").
+
+> Si quito al usuario del grupo lpadmin no me deja hacer tareas de
+> administración de impresoras como "usuario" pero si como "root".
+
+Correcto, así es como lo tengo yo y no recuerdo haber hecho nada especial 
+(ni modificar los grupos del usuario ni modificar la configuración de 
+CUPS).
+
+> Recuerdo que hubo un tiempo, no se cuanto, en el que podía entrar como
+> "usuario" (estando este en lpadmin) pero no como "root". Puede que en
+> alguna actualización se solucionara.
+
+Yo siempre he usado CUPS como root, jamás como usuario, así que no te 
+podría decir. Por ejemplo, esto es desde mi Lenny:
+
+sm01@stt008:~$ id
+uid=1000(sm01) gid=1000(sm01) grupos=20(dialout),24(cdrom),25(floppy),29
+(audio),44(video),46(plugdev),110(netdev),115(powerdev),1000(sm01)
+
+Mi usuario no pertenece a "lp" ni "lpadmin" y al añadir una impresora 
+nueva me pide autentificación de root (si le doy los datos de mi usuario 
+no me deja finalizar el asistente y no se añade la impresora).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k88jqn$m11$6@ger.gmane.org
+

@@ -1,0 +1,48 @@
+Subject:Re: [LUG] Linux - and security
+  On 07/11/2012 02:21, bad apple wrote:
+> *I suspect I come across as very full of myself sometimes - trust me, I
+> have made a *lot* of mistakes, and done my best to learn from them. If
+> anyone is interested in more anecdotes from my personal Files of Fail, I
+> have, umm, probably an unlimited supply for you to laugh at. Most stupid
+> thing I have ever done? Well, when I was probably old enough to know
+> better, I failed to distinguish between a crashed debug session I had
+> backgrounded with 'bg' (i.e., job 1) with init (process 1). When I ran
+> "jobs" and saw zombied process 1, I 'fixed' it with "sudo kill -9 1"...
+> Obviously I nuked init instead of my job #1 and took down the entire
+> box. Which was a 32 socket Oracle DB server handling patient records for
+> Kings College Hospital in London, during business hours. The SPs (IBM
+> talk: service processors) freaked out and dropped the fibre channels to
+> the SAN, corrupting multiple target LUNs and requiring a 48 hour rebuild
+> and restore from tape backup, which we had to get from Iron Mountain on
+> courier delivery at god only knows what cost. The entire IT department
+> pulled all nighters for the weekend to fix that 'little' mistake (think:
+> horrific transaction backlogs for things like clinic planning). I still
+> occasionally send mental thanks to my old boss from that gig for not
+> actually just literally killing me on the spot. I gave her a bottle of
+> Ardbeg and was demoted to 1st line (windows) phone support for 6 weeks
+> to atone for that sin and I have NEVER issued "kill -9" without thinking
+> at least 3 times first ever since :)
+Luckily I've never been in the position to make big mistakes :)  I think 
+the stupidest thing I've done (just *after* starting my job in ISP Tech 
+Support) was taking a call from a friend at home and we started 
+chatting.  He mentioned a website of interest so I opened my browser to 
+have a look at it.  On dialup.  Cue screech on phone line and a laugh 
+from him with 'You just tried to connect to it didn't you?' and an 
+embarrassed 'Uhh.. no?' from me.
+
+Mind you one howler our business hostmaster did was change the IP 
+address of the main mail server - the one that hosted all our business 
+customers mail.  He told me in the car on the way to work, my immediate 
+reaction being 'You pillock!' and he said the first alarm bell rang when 
+they had the first of many calls from a customer saying they couldn't 
+connect to their mail server and as the DNS servers refreshed over the 
+next day it just got worse.
+
+He didn't do that twice either :)
+
+Julian
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

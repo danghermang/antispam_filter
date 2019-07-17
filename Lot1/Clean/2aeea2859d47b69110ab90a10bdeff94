@@ -1,0 +1,53 @@
+Subject:Re: OFF-TOPIC Openvz en powerpc64 bits
+Gracias Camaleon pero donde pone ppc64??? Solo veo i386 y amd64....
+
+
+El 07/11/2012, a las 19:08, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=B3=
+:
+
+> El Wed, 07 Nov 2012 18:35:29 +0100, Maykel Franco Hdez escribi=C3=B3:
+>=20
+>> El 07/11/2012, a las 18:22, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=
+=B3:
+>=20
+> (...)
+>=20
+>>> Sin un mensaje de error evidente podr=C3=ADa ser cualquier cosa, desde e=
+l
+>>> yaboot ese hasta un bug del kernel que has compilado y que es muy
+>>> antiguo... por cierto =C2=BFpor qu=C3=A9 no has probado con alguno de la=
+ rama
+>>> 2.6.32?
+>=20
+>> Porque solo encontre la config de los modulos ppc64 de esa version de
+>> kernel. El tema no esque arranque debian, sino que sea compatible con
+>> openvz. La version de kernel cuanto mas actual en teoria....mejor.
+>> Pensaba que solo esa version de kernel era compatible con openvz para
+>> ppc64...
+>=20
+> Por aqu=C3=AD tienes varias plantillas para una versi=C3=B3n del kernel m=C3=
+=A1s moderna=20
+> (lenny/squeze/wheezy):
+>=20
+> http://wiki.openvz.org/Installation_on_Debian
+> http://wiki.openvz.org/Install_kernel_from_RPM_on_Debian_6.0
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/k7e82n$bcr$16@ger.gmane.org
+>=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/EEC0EB80-F61D-4454-ADD7-C0A2A89C149F@maykel.sytes.net
+

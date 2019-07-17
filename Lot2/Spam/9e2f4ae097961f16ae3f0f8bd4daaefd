@@ -1,0 +1,202 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<eheilig@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <notification+kr4mbrymnmwn@facebookmail.com>
+Received: (qmail 26737 invoked by uid 89); 9 Dec 2012 18:46:06 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 9 Dec 2012 18:46:06 -0000
+Delivery-date: Sun, 09 Dec 2012 10:44:28 -0800
+Received: from outmail012.snc4.facebook.com ([66.220.144.146] helo=mx-out.facebook.com) helo=mx-out.facebook.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1ThlrJ-0000cY-Hw on interface=184.105.182.43
+	for eheilig@activ8.net.au; Sun, 09 Dec 2012 10:44:26 -0800
+DKIM-Signature: v=1; a=rsa-sha256; d=facebookmail.com; s=s1024-2011-q2; c=relaxed/simple;
+	q=dns/txt; i=@facebookmail.com; t=1355078644;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=9cBlUeRJFxMF/pA2HIHXSyfRspB7hSd4J3BUbP8jeQ4=;
+	b=WCPMQkLjUSsXrTJsGOShZgJW3cXT5B7e6IMdvw95kJkAL8lzDar4wuOAlzRA3LmT
+	v3jIisUOYX4Jw/ZviHN7w6e+My62MxdVoA3NXnI7Pkp/ZwZS7cPplO+LixOAPqXu
+	SWu3HpVRQvanjrObiQ9boDZWOKiR2xXokj+ZMHciMYY=;
+Received: from [10.79.49.59] ([10.79.49.59:54386])
+	by smout075.snc6.facebook.com (envelope-from <notification+kr4mbrymnmwn@facebookmail.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ECSTREAM
+	id C8/81-29929-4FBD4C05; Sun, 09 Dec 2012 10:44:04 -0800
+X-Facebook: from zuckmail ([MTI3LjAuMC4x]) 
+	by async.facebook.com with HTTP (ZuckMail);
+Date: Sun, 9 Dec 2012 10:44:04 -0800
+To: Fed up with Zynga problems <FedUpWithZynga@groups.facebook.com>
+From: "John Stevenson" <notification+kr4mbrymnmwn@facebookmail.com>
+Reply-to: Reply to comment <g+413gja6m000zg4hfmd6600583a8g20cy000zg4hh6y5m28546@groups.facebook.com>
+Subject: [Fed up with Zynga problems] Howdy Pardners!! I'm saddling up My Trusty...
+Message-ID: <438683fb7442072df56b8039ec4f4c0e@async.facebook.com>
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Errors-To: notification+kr4mbrymnmwn@facebookmail.com
+X-Facebook-Notify: group_activity; mailid=72ed922G5af3a1987f2eG1202c73G96
+List-Id: <FedUpWithZynga.groups.facebook.com>
+In-Reply-To: <530626033614418-220215807988777@groups.facebook.com>
+References: <530626033614418-220215807988777@groups.facebook.com>
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_438683fb7442072df56b8039ec4f4c0e"
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: notification+kr4mbrymnmwn@facebookmail.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=facebook.com - X=apn H=outmail012.snc4.facebook.com [66.220.144.146] HELO=[mx-out.facebook.com] F=[notification+kr4mbrymnmwn@facebookmail.com] T=[eheilig@activ8.net.au] S=[[Fed up with Zynga problems] Howdy Pardners!! I'm saddling up My Trusty...]
+X-Sender-Host-Address: 66.220.144.146
+X-Sender-Host-Name: outmail012.snc4.facebook.com
+
+
+--b1_438683fb7442072df56b8039ec4f4c0e
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+John Stevenson posted in Fed up with Zynga problems
+
+Howdy Pardners!! I'm saddling up My Trusty Reindeer Prince to head out
+on the trail and start taking screen shots of your Christmas Winter
+Wonderland for the Decorating Contest!! The deadline is December 18
+The Prizes are listed below and in the picture. Are You Ready?
+To enter just make sure you're friends & neighbors with me John
+Stevenson=20
+and message me when your ready and I'll visit and take the screen
+shots of your Wonderful Winter Wonderland, I have 7 people on my list
+already.
+
+1st place winner will receive a choice of=20
+$10.00 Amazon or Zynga Gift Card=20
+2nd place winner will receive a $5.00 Zynga Gift Card=20
+3rd place winner will receive a variety of collections / inventory
+items=20
+(to be worked out between the winner and admins we want to get people
+what they need!)
+
+Photo attachment:
+http://www.facebook.com/photo.php?fbid=3D376645759093331&set=3Do.220215807=
+988777&type=3D1&relevant_count=3D1
+
+
+
+
+Reply to this email to comment on this post.
+
+
+http://www.facebook.com/n/?groups%2FFedUpWithZynga%2Fpermalink%2F530626033=
+614418%2F&mid=3D72ed922G5af3a1987f2eG1202c73G96&bcode=3D1.1355078644.AbmJt=
+ppuguBe8Rcn&n_m=3Deheilig%40activ8.net.au
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Reply to this email to add a comment. Change your notification settings:
+http://www.facebook.com/n/?settings&tab=3Dnotifications&section=3Dgroup_no=
+tification&mid=3D72ed922G5af3a1987f2eG1202c73G96&bcode=3D1.1355078644.AbmJ=
+tppuguBe8Rcn&n_m=3Deheilig%40activ8.net.au
+
+
+--b1_438683fb7442072df56b8039ec4f4c0e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional //EN">
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8"><style type=3D"text/css">a.thumb:link, a.thumb:visited =
+{border:1px #CCCCCC solid !important;}a.thumb:active, a.thumb:hover =
+{border:1px #3B5998 solid =
+!important;}</style><title>Facebook</title></head><body =
+style=3D"margin:0;padding:0;" dir=3D"ltr"><table width=3D"98%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"8"><tr><td =
+bgcolor=3D"#FFFFFF" width=3D"100%" style=3D"font-family:'lucida =
+grande',tahoma,verdana,arial,sans-serif;"><table cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" width=3D"500"><tr><td colspan=3D"2" =
+style=3D"padding:10px 0 0 =
+10px;color:#000000;font-size:13px;font-family:'lucida =
+grande',tahoma,verdana,arial,sans-serif;" valign=3D"top"><table =
+width=3D"100%" style=3D"color:#000000;font-size:13px;"><tr><td =
+width=3D"100%" valign=3D"top" align=3D"left" style=3D"font-family:'lucida =
+grande',tahoma,verdana,arial,sans-serif;color:#000000;font-size:13px;"><di=
+v style=3D"width:100%;color:#666666;padding:0 0 7px =
+0;border-bottom:#E9E9E9 1px solid;"><a href=3D"http://www.facebook.com/n/?=
+groups%2FFedUpWithZynga%2Fpermalink%2F530626033614418%2F&amp;mid=3D72ed922=
+G5af3a1987f2eG1202c73G96&amp;bcode=3D1.1355078644.AbmJtppuguBe8Rcn&amp;n_m=
+=3Deheilig%40activ8.net.au" =
+style=3D"color:#3b5998;text-decoration:underline;">John Stevenson posted =
+in Fed up with Zynga problems</a></div><div =
+style=3D"margin-bottom:15px;"><table cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"width:100%;padding-top:7px;"><tr><td valign=3D"top" =
+style=3D"padding:3px 5px 5px 0px;width:57px;"><a href=3D"http://www.facebo=
+ok.com/n/?profile.php&amp;id=3D100002437318506&amp;mid=3D72ed922G5af3a1987=
+f2eG1202c73G96&amp;bcode=3D1.1355078644.AbmJtppuguBe8Rcn&amp;n_m=3Deheilig=
+%40activ8.net.au" style=3D"color:#3b5998;text-decoration:none;"><img =
+src=3D"http://profile.ak.fbcdn.net/hprofile-ak-ash4/372768_100002437318506=
+_384349075_q.jpg" alt=3D"Howdy Pardners!! I&#039;m saddling up My =
+Trusty..." style=3D"border: 0; height:50px; width:50px; " /></a></td><td =
+valign=3D"top" align=3D"left" style=3D"padding:5px 5px 5px =
+0;font-family:&#039;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;"><table cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"width:100%;padding-bottom:5px;"><tr><td =
+style=3D"font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-s=
+erif;color:#000000;font-size:13px;"><a =
+style=3D"color:#3b5998;text-decoration:none;font-weight:bold;" =
+href=3D"http://www.facebook.com/n/?profile.php&amp;id=3D100002437318506&am=
+p;mid=3D72ed922G5af3a1987f2eG1202c73G96&amp;bcode=3D1.1355078644.AbmJtppug=
+uBe8Rcn&amp;n_m=3Deheilig%40activ8.net.au">John Stevenson</a></td><td =
+style=3D"text-align:right;color:#999999;padding-right:5px;font-family:&#03=
+9;lucida grande&#039;,tahoma,verdana,arial,sans-serif;font-size:11px;"> 10 =
+December 04:43 </td></tr></table><div style=3D"width:458px;word-wrap:break=
+-word;padding-bottom:7px;color:#000000;font-size:13px;">Howdy Pardners!! =
+I&#039;m saddling up My Trusty Reindeer Prince to head out on the trail =
+and start taking screen shots of your Christmas Winter Wonderland for the =
+Decorating Contest!! The deadline is December 18<br /> The Prizes are =
+listed below and in the picture. Are You Ready?<br /> To enter just make =
+sure you&#039;re friends &amp; neighbors with me <a =
+href=3D"http://www.facebook.com/john.stevenson.33821" =
+style=3D"color:#3b5998;text-decoration:none;">John Stevenson</a> <br /> =
+and message me when your ready and I&#039;ll visit and take the screen =
+shots of your Wonderful Winter Wonderland, I have 7 people on my list =
+already.<br /> <br /> 1st place winner will receive a choice of <br /> =
+$10.00 Amazon or Zynga Gift Card <br /> 2nd place winner will receive a =
+$5.00 Zynga Gift Card <br /> 3rd place winner will receive a variety of =
+collections / inventory items <br /> (to be worked out between the winner =
+and admins we want to get people what they need!)</div><div =
+style=3D"padding:10px 0;color:#000000;font-size:13px;"><table =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td valign=3D"top" =
+style=3D"padding-right: 10px;"><a href=3D"http://www.facebook.com/n/?photo=
+.php&amp;fbid=3D376645759093331&amp;set=3Do.220215807988777&amp;type=3D1&a=
+mp;relevant_count=3D1&amp;mid=3D72&amp;n_m=3Deheilig%40activ8.net.au" =
+style=3D"color:#3b5998;text-decoration:none;display:block;line-height:0;bo=
+rder:1px #CCCCCC solid;padding:3px;" class=3D"thumb"><img class=3D"img" =
+src=3D"http://photos-e.ak.fbcdn.net/hphotos-ak-snc6/182377_376645759093331=
+_1218299610_s.jpg" style=3D"width: 90px;" width=3D"90" alt=3D"" =
+/></a></td><td valign=3D"top"></td></tr></table></div></td></tr></table></=
+div></td></tr></table><span style=3D""><img src=3D"http://www.facebook.com=
+/email_open_log_pic.php?c=3D1605381737&amp;mid=3D72ed922G5af3a1987f2eG1202=
+c73G96" style=3D"border:0;width:1px;height:1px;" /></span><br =
+/></td></tr><tr><td colspan=3D"2" style=3D"color:#666666;padding:10px 5px =
+15px 10px;border-top:#E9E9E9 1px solid;line-height: 18px;font-size: =
+12px;font-family:'lucida grande',tahoma,verdana,arial,sans-serif;"><a =
+href=3D"http://www.facebook.com/n/?groups%2FFedUpWithZynga%2Fpermalink%2F5=
+30626033614418%2F&amp;mid=3D72ed922G5af3a1987f2eG1202c73G96&amp;bcode=3D1.=
+1355078644.AbmJtppuguBe8Rcn&amp;n_m=3Deheilig%40activ8.net.au" =
+style=3D"color: #3b5998; text-decoration: none;">View Post on Facebook</a> =
+=C2=B7 <a href=3D"http://www.facebook.com/n/?settings&amp;tab=3Dnotificati=
+ons&amp;section=3Dgroup_notification&amp;mid=3D72ed922G5af3a1987f2eG1202c7=
+3G96&amp;bcode=3D1.1355078644.AbmJtppuguBe8Rcn&amp;n_m=3Deheilig%40activ8.=
+net.au" style=3D"color: #3b5998; text-decoration: none;">Edit email =
+settings</a> =C2=B7 Reply to this email to add a comment.<br =
+/></td></tr></table></td></tr></table></body></html>
+
+
+
+--b1_438683fb7442072df56b8039ec4f4c0e--
+
+

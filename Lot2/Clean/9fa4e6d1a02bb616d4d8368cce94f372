@@ -1,0 +1,20 @@
+Subject:Re: [LUG] VBox version 4.2
+On 23/10/12 09:20, Neil Winchurst wrote:
+> I would understand your last point except that there are VBox packages
+> included in the list of downloads for versions of Ubuntu which are older
+> than Maverick, namely Lucid and Harvey. So why not Maverick which is
+> more recent than either of those? Or am I missing something?
+
+Lucid is LTS, Maverick is not.
+
+Anthony
+-- 
+Author of C++ Concurrency in Action     http://www.stdthread.co.uk/book/
+just::thread C++11 thread library             http://www.stdthread.co.uk
+Just Software Solutions Ltd       http://www.justsoftwaresolutions.co.uk
+15 Carrallack Mews, St Just, Cornwall, TR19 7UL, UK. Company No. 5478976
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,213 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<bath@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <update+yqbr5ssr@facebookmail.com>
+Received: (qmail 19122 invoked by uid 89); 11 Dec 2012 13:51:34 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 11 Dec 2012 13:51:34 -0000
+Delivery-date: Tue, 11 Dec 2012 05:49:55 -0800
+Received: from outmail011.ash2.facebook.com ([66.220.155.145] helo=mx-out.facebook.com) helo=mx-out.facebook.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1TiQDL-00026z-BB on interface=184.105.182.43
+	for bath@activ8.net.au; Tue, 11 Dec 2012 05:49:53 -0800
+DKIM-Signature: v=1; a=rsa-sha256; d=facebookmail.com; s=s1024-2011-q2; c=relaxed/simple;
+	q=dns/txt; i=@facebookmail.com; t=1355233777;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=oLAt8k2Zuue9qkAWHg+Uicz91E8cnU38oOzIa8vY20E=;
+	b=dSKp6fDtchIGBOJumQPC8ODaUZyDOeMU0HWOFiqN6GKNakJbK/9iyEeT+r8+ekiS
+	+nK2Vq+NKPyDAlF7kiJmndvL40hbNLNII0KaSiP4v406uPnEgSayZ1vC0DH9556l
+	s4C+Fv77YLbN6zLgfmTenSuURZhKFXgeGlt2r8A5yKg=;
+Received: from [10.150.107.48] ([10.150.107.48:51419])
+	by smout042.ash4.facebook.com (envelope-from <update+yqbr5ssr@facebookmail.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ECSTREAM
+	id 04/90-27755-1F937C05; Tue, 11 Dec 2012 05:49:37 -0800
+X-Facebook: from zuckmail ([MTI3LjAuMC4x]) 
+	by m.facebook.com with HTTP (ZuckMail);
+Date: Tue, 11 Dec 2012 05:49:37 -0800
+To: Sandra Leigh Dent <bath@activ8.net.au>
+From: "Facebook" <update+yqbr5ssr@facebookmail.com>
+Reply-to: Reply to comment <e+15u0jcn000000pcrb760001l6nzbq660000000000000000000000002872j@reply.facebook.com>
+Subject: David Dunnett (friends with Sharon Philp) commented on a status that you're tagged in.
+Message-ID: <5f30db272196c5d0a392235762abda07@m.facebook.com>
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Errors-To: update+yqbr5ssr@facebookmail.com
+X-Facebook-Notify: mentions_comment; mailid=731371eG5b610172G4b45459G5b
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_5f30db272196c5d0a392235762abda07"
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: update+yqbr5ssr@facebookmail.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=facebook.com - X=apn H=outmail011.ash2.facebook.com [66.220.155.145] HELO=[mx-out.facebook.com] F=[update+yqbr5ssr@facebookmail.com] T=[bath@activ8.net.au] S=[David Dunnett (friends with Sharon Philp) commented on a status that you're tagged in.]
+X-Sender-Host-Address: 66.220.155.145
+X-Sender-Host-Name: outmail011.ash2.facebook.com
+
+
+--b1_5f30db272196c5d0a392235762abda07
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+See Comment
+http://www.facebook.com/n/?sphilp%2Fposts%2F4481268103230&comment_id=3D464=
+0637&mid=3D731371eG5b610172G4b45459G5b&bcode=3D1.1355233777.AbmormvLKTdx7r=
+xQ&n_m=3Dbath%40activ8.net.au&lloc=3D1st_cta
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Hi Sandra,
+
+David Dunnett (friends with Sharon Philp) commented on a status that =
+you're tagged in.
+
+David wrote: "lol not bored but feels strange as i haven't not worked for =
+25 years and now i don't, feels strange,not like holidays  just different"
+
+Reply to this email to comment on this status.
+
+
+
+Thanks,
+The Facebook Team
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+This message was sent to bath@activ8.net.au. If you don't want to receive =
+these emails from Facebook in the future, please follow the link below to =
+unsubscribe.
+https://www.facebook.com/o.php?k=3DAS1Vyn4wsRdQlkpH&u=3D1533084018&mid=3D7=
+31371eG5b610172G4b45459G5b
+Facebook, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA =
+94303
+
+
+--b1_5f30db272196c5d0a392235762abda07
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional =
+//EN"><html><head><title>Facebook</title><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3Dutf-8" /></head><body style=3D"margin: 0; =
+padding: 0;" dir=3D"ltr"><table cellspacing=3D"0" cellpadding=3D"0" =
+id=3D"email_table" style=3D"border-collapse:collapse;width:98%;" =
+border=3D"0"><tr><td id=3D"email_content" =
+style=3D"font-size:12px;font-family:&#039;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:620px;"><tr><td =
+style=3D"font-size:16px;font-family:&#039;lucida grande&#039;,tahoma,verda=
+na,arial,sans-serif;background:#3b5998;color:#FFFFFF;font-weight:bold;vert=
+ical-align:baseline;letter-spacing:-0.03em;text-align:left;padding:5px =
+20px;"><a style=3D"text-decoration: none;" href=3D"http://www.facebook.com=
+/n/?sphilp%2Fposts%2F4481268103230&amp;comment_id=3D4640637&amp;mid=3D7313=
+71eG5b610172G4b45459G5b&amp;bcode=3D1.1355233777.AbmormvLKTdx7rxQ&amp;n_m=
+=3Dbath%40activ8.net.au&amp;lloc=3Dlogo"><span style=3D"background:#3b5998=
+;color:#FFFFFF;font-weight:bold;font-family:&#039;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;vertical-align:middle; =
+font-size:16px;letter-spacing:-0.03em;text-align:left;vertical-align:basel=
+ine;">facebook</span></a></td></tr></table><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:620px;" =
+border=3D"0" width=3D"620px"><tr><td style=3D"font-size:11px;font-family:L=
+ucidaGrande,tahoma,verdana,arial,sans-serif;padding:0px;background-color:#=
+f2f2f2;border-left:none;border-right:none;border-top:none;border-bottom:no=
+ne;"><table cellspacing=3D"0" cellpadding=3D"0" width=3D"620px" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size:11px;font-f=
+amily:LucidaGrande,tahoma,verdana,arial,sans-serif;padding:0px;width:620px=
+;"><table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:20px;background-color:#fff;border-left:none;border-right:no=
+ne;border-top:none;border-bottom:none;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+valign=3D"top" style=3D"font-size:11px;font-family:LucidaGrande,tahoma,ver=
+dana,arial,sans-serif;padding-right:15px;text-align:left;"><a =
+href=3D"http://www.facebook.com/n/?david.dunnett&amp;mid=3D731371eG5b61017=
+2G4b45459G5b&amp;bcode=3D1.1355233777.AbmormvLKTdx7rxQ&amp;n_m=3Dbath%40ac=
+tiv8.net.au&amp;lloc=3Dimage" =
+style=3D"color:#3b5998;text-decoration:none;"><img src=3D"https://fbcdn-pr=
+ofile-a.akamaihd.net/hprofile-ak-ash4/371673_812928479_641104030_q.jpg" =
+style=3D"border:0;" /></a></td><td valign=3D"top" style=3D"font-size:11px;=
+font-family:LucidaGrande,tahoma,verdana,arial,sans-serif;width:100%;text-a=
+lign:left;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-bottom:10px;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-bottom:5px;"><span =
+style=3D"color:#111111;font-size:13px;font-weight:bold;"><a =
+href=3D"http://www.facebook.com/n/?david.dunnett&amp;mid=3D731371eG5b61017=
+2G4b45459G5b&amp;bcode=3D1.1355233777.AbmormvLKTdx7rxQ&amp;n_m=3Dbath%40ac=
+tiv8.net.au">David Dunnett</a> (friends with <a href=3D"http://www.faceboo=
+k.com/n/?sphilp&amp;mid=3D731371eG5b610172G4b45459G5b&amp;bcode=3D1.135523=
+3777.AbmormvLKTdx7rxQ&amp;n_m=3Dbath%40activ8.net.au">Sharon Philp</a>) =
+commented on a <a href=3D"http://www.facebook.com/n/?sphilp%2Fposts%2F4481=
+268103230&amp;comment_id=3D4640637&amp;mid=3D731371eG5b610172G4b45459G5b&a=
+mp;bcode=3D1.1355233777.AbmormvLKTdx7rxQ&amp;n_m=3Dbath%40activ8.net.au">s=
+tatus</a> that you&#039;re tagged in.</span></td></tr><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-top:5px;"><span style=3D"color:#333333;">David wrote: =
+&quot;lol not bored but feels strange as i haven&#039;t not worked for 25 =
+years and now i don&#039;t, feels strange,not like holidays  just =
+different&quot;</span></td></tr></table></td></tr><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-top:10px;border-top:1px solid #e8e8e8;"><span =
+style=3D"color:#808080;">Reply to this email to comment on this status.
+
+</span></td></tr></table></td></tr></table></td></tr></table></td></tr><tr=
+><td style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial=
+,sans-serif;padding:0px;width:620px;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:100%;" =
+border=3D"0"><tr><td style=3D"font-size:11px;font-family:LucidaGrande,taho=
+ma,verdana,arial,sans-serif;padding:7px 20px;background-color:#f2f2f2;bord=
+er-left:none;border-right:none;border-top:1px solid #ccc;border-bottom:1px =
+solid #ccc;"><table cellspacing=3D"0" cellpadding=3D"0" style=3D""><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-left:65px;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"border-width: =
+1px;border-style: solid;border-color: #29447E #29447E =
+#1a356e;background-color: #5b74a8;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:2px 6px 4px;border-top:1px solid #8a9cc2;"><a =
+href=3D"http://www.facebook.com/n/?sphilp%2Fposts%2F4481268103230&amp;comm=
+ent_id=3D4640637&amp;mid=3D731371eG5b610172G4b45459G5b&amp;bcode=3D1.13552=
+33777.AbmormvLKTdx7rxQ&amp;n_m=3Dbath%40activ8.net.au&amp;lloc=3D1st_cta" =
+style=3D"color:#3b5998;text-decoration:none;"><span =
+style=3D"font-weight:bold;white-space:nowrap;color: #fff;font-size: =
+13px;">See Comment</span></a></td></tr></table></td></tr></table></td></tr=
+></table></td></tr></table></td></tr></table></td></tr></table><table =
+cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+style=3D"border-collapse:collapse;width:620px;"><tr><td =
+style=3D"font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, =
+verdana, arial, sans-serif;padding:30px 20px;background-color:#fff;border-=
+left:none;border-right:none;border-top:none;border-bottom:none;color:#9999=
+99;border:none;">This message was sent to <a =
+href=3D"mailto:bath&#064;activ8.net.au" =
+style=3D"color:#3b5998;text-decoration:none;">bath&#064;activ8.net.au</a>. =
+If you don&#039;t want to receive these emails from Facebook in the =
+future, please <a href=3D"https://www.facebook.com/o.php?k=3DAS1Vyn4wsRdQl=
+kpH&amp;u=3D1533084018&amp;mid=3D731371eG5b610172G4b45459G5b" =
+style=3D"color:#3b5998;text-decoration:none;">unsubscribe</a>.<br =
+/>Facebook, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA =
+94303</td></tr></table><span style=3D"width:620px;"><img =
+src=3D"https://www.facebook.com/email_open_log_pic.php?c=3D1926266505&amp;=
+mid=3D731371eG5b610172G4b45459G5b" =
+style=3D"border:0;width:1px;height:1px;" =
+/></span></td></tr></table></body></html>
+
+
+
+--b1_5f30db272196c5d0a392235762abda07--
+
+

@@ -1,0 +1,442 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<cbobrien@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <bounce-173066_HTML-359161112-4289861-1076631-24@bounce.newsletter.ouffer.com>
+Received: (qmail 9927 invoked by uid 89); 10 Dec 2012 06:43:36 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 10 Dec 2012 06:43:36 -0000
+Delivery-date: Sun, 09 Dec 2012 22:41:58 -0800
+Received: from mta.newsletter.ouffer.com ([68.232.195.145]) helo=mta.newsletter.ouffer.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1Thx3o-0003uv-WA on interface=184.105.182.43
+	for cbobrien@activ8.net.au; Sun, 09 Dec 2012 22:41:56 -0800
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=newsletter.ouffer.com;
+ h=List-Id:From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:Message-ID:Content-Type; i=email@newsletter.ouffer.com;
+ bh=QM+CdI8G5URxWWz9rjCFu1tyiNo=;
+ b=XIC7KQy34xq3oiokYx+v9Qzz8P7I0/Pq74wjVt9theZRc0m76I+t7uy2Gs8FZ9FKo2WT6jw1S91I
+   8thISpz+sBJkjYpC0MoRFTVD6a9i8Hdon6KpCb/2AYxHdRxh8ly+H9DUiXx2pccfQiZtOfmHmWCN
+   DbFLNjetZXi8PVHW5Z4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=newsletter.ouffer.com;
+ b=iUvf7UOdCfYAwACNYb9dI5YNxRhrtNNZw3qbivb5b1rJfiVc4UArAIlR2N7XawhJvv4haMZvP55d
+   6/WlOjvxFWXyfVDy6PFqXE2iD3nS5HgL7JbQD9kOdCc4wfGRN9jrjdzpty7PmXRkNI7Ea2ZQFpyV
+   hlF/4EJe4hK8IJmUQUM=;
+Received: by mta.newsletter.ouffer.com id hom232163hsl for <cbobrien@activ8.net.au>; Mon, 10 Dec 2012 00:41:49 -0600 (envelope-from <bounce-173066_HTML-359161112-4289861-1076631-24@bounce.newsletter.ouffer.com>)
+List-Id: <list.newsletter.lookingo.com>
+From: "Products by Ouffer" <email@newsletter.ouffer.com>
+To: <cbobrien@activ8.net.au>
+Subject: 12 Month Supply of Tattoo Removal and Scar Reduction Cream with Delivery for only $99
+Date: Mon, 10 Dec 2012 00:41:48 -0600
+List-Unsubscribe: <mailto:leave-fcb415777664027b1a4c342838-fe3217757c65027c741572-fe8910727d6d0c7b74-fe9715707262027e74-ff991674@leave.newsletter.ouffer.com>
+MIME-Version: 1.0
+Reply-To: "Products by Ouffer" <reply-fe8910727d6d0c7b74-173066_HTML-359161112-1076631-24@reply.newsletter.ouffer.com>
+x-job: 1076631_4289861
+Message-ID: <29fe1a22-99d3-480a-8516-67740bc20cfd@xtnvmta4216.xt.local>
+Content-Type: multipart/alternative;
+	boundary="QAxXMnKTo43v=_?:"
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: bounce-173066_HTML-359161112-4289861-1076631-24@bounce.newsletter.ouffer.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Internal IP Whitelist - mta.newsletter.ouffer.com [68.232.195.145] - hostkarma.junkemailfilter.com (127.0.2.3, 127.0.1.1) - X=apn H=mta.newsletter.ouffer.com [68.232.195.145] HELO=[mta.newsletter.ouffer.com] F=[bounce-173066_HTML-359161112-4289861-1076631-24@bounce.newsletter.ouffer.com] T=[cbobrien@activ8.net.au] S=[12 Month Supply of Tattoo Removal and Scar Reduction Cream with Delivery for only $99]
+X-Sender-Host-Address: 68.232.195.145
+X-Sender-Host-Name: mta.newsletter.ouffer.com
+
+This is a multi-part message in MIME format.
+
+--QAxXMnKTo43v=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+12 Month Supply of Tattoo Removal and Scar Reduction Cream with Delivery for only $99
+
+If you can not read this email, you can view it by going 
+http://click.newsletter.ouffer.com/?qs=4b202d53cbcfe467e7bb7cd7e467ad2aec921a6bb5fbe32136ddd57de1181410a410e806fd976727 
+here.
+
+To make sure to receive all our emails, add 
+mailto:email@newsletter.ouffer.com 
+email@newsletter.ouffer.com to your white list.
+ 
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0c6d4e9ac842eb61c3e9200a4fd07e8077e077674ecc1d9cb6e09b3210e9d8715 
+Products
+Products - 10 December 2012
+
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af07ce699c64945acbd99cc089bf5b514b5015e52e1c7094a0928d2276dbae78231 
+Experiences|
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af09af18166567d1885ade4c6df1f1d4c2eaef305b12f2d2e44300938dff41a0f39 
+Getaways|
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af01edabfd1fc6aa8b42759771aed590cb72d439f6c86d640a7eaecaa09563c53f8 
+Gourmet|
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0124b62b62b20f2c07e3c7878bcf7d71e467911d3cf1cb1d3e4d79e65442aed36 
+Products 
+
+ Today's Inspirations
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0f4515c588f8c39d4bf541641e5f432467cd37f5f77fa961aa536531114ed053c 
+>> View all offers
+
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0877493af2ae1238a36dcc1705243c8d5a7a97a0156a4dc9b88962a43d53ab2a5 
+
+  Cosmetics 
+ 
+12 Month Supply of Scar Reduction Cream with Nationwide Delivery for only $99
+
+ Lazer Cream
+
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0877493af2ae1238a36dcc1705243c8d5a7a97a0156a4dc9b88962a43d53ab2a5 
+
+ 
+
+Offers ending soon
+
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0de6fe87a0a9c462cb772b5f28674fd8fee7ccef42b58d92544088d8165a07d6e 
+ 
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0907acd0d08acb3053045194ff18155a372ea7d33a3e5489baa9e187b7696f729 
+
+ Y-Pad Digital Tablet 
+ 
+Children’s Educational Y-Pad Touch Screen Digital Tablet with Nationwide Delivery for only $19 instead of $49.99
+
+  FunK Co 
+ 
+Funky & Stylish Water-Resistant Wristwatch in 13 Different Colours with Free Nationwide Delivery & 12 Month Warranty - only $19 for One Watch, $36 for Two Watches, or $49 for Three Watches
+
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0de6fe87a0a9c462cb772b5f28674fd8fee7ccef42b58d92544088d8165a07d6e 
+ 
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0907acd0d08acb3053045194ff18155a372ea7d33a3e5489baa9e187b7696f729 
+
+   
+   
+
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af058b6357276e0b479022d0f5688b9b0d24c94f18890dd343118a858b414473a9c 
+ 
+http://click.newsletter.ouffer.com/?qs=12ddf92903c853e54e47d45c90349eac55f87847f8c145c5d996a11347cfa1fb8548e79fada179a1 
+
+ Storage Solutions 
+ 
+Compact Ten Tier Shoe Rack for up to 30 Pairs of Shoes for only $19
+
+  Apple-Inspired Accessories 
+ 
+Only $15 for a Pair of White Apple-inspired iPhone 5-style Headphones with Microphone and Volume Control Delivered Free to your Door
+
+http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af058b6357276e0b479022d0f5688b9b0d24c94f18890dd343118a858b414473a9c 
+ 
+http://click.newsletter.ouffer.com/?qs=12ddf92903c853e54e47d45c90349eac55f87847f8c145c5d996a11347cfa1fb8548e79fada179a1 
+
+   
+   
+
+ 
+
+ Join Us on
+http://click.newsletter.ouffer.com/?qs=12ddf92903c853e557b647c345a760e62af014ef9d087a0d52034eb3b8dcf78d76fd3f62c893de0a 
+
+
+You are receiving this email because you signed up for the Daily Ouffer alerts. If you prefer not to receive promotional email from Ouffer, you can always 
+http://click.newsletter.ouffer.com/?qs=12ddf92903c853e50ec9e01f496a7255525d1b6da5fad85f2905e891d8db4c66a79f02191ae51561 
+unsubscribe.
+
+http://click.newsletter.ouffer.com/?qs=12ddf92903c853e513f399dabcd6c48617924d9a423f9a8cb40172535bd8e2da81d50922980db75f 
+Ouffer.com
+Level 4
+
+6-8 Underwood Street
+
+Sydney, NSW 2000.
+
+
+If you can not read this email, you can view it by going 
+http://click.newsletter.ouffer.com/?qs=4b202d53cbcfe467e7bb7cd7e467ad2aec921a6bb5fbe32136ddd57de1181410a410e806fd976727 
+here.
+
+For assistance, please contacts us at 
+mailto:support@ouffer.com 
+support@ouffer.com .
+
+19-21 Avenue Dubonnet Ouffer Courbevoie 92417 .
+http://click.newsletter.ouffer.com/?qs=12ddf92903c853e5354b8bf08bc1fabd80de53c6e2295287cd2d267f6834cf2ac33611eedda181ff 
+Update Profile 
+ 
+
+
+
+
+
+--QAxXMnKTo43v=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>12 Month Supply of Tattoo Removal and Scar Reduction Cream with Delivery for only $99</title>
+</head><body bgcolor="#EFF2F3">
+
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#EFF2F3"><tr><td><center>
+  <table width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#EFF2F3">
+    <tr><td>
+            </td></tr>
+    <tr>
+        <td height="60" align="center" valign="middle"><font color="#898989" face="Georgia" style="font-size:11px;">
+        If you can not read this email, you can view it by going <a style="text-decoration: none;" href="http://click.newsletter.ouffer.com/?qs=4b202d53cbcfe467e7bb7cd7e467ad2aec921a6bb5fbe32136ddd57de1181410a410e806fd976727" target="_blank"><font color="#e98827">here</font></a>.<br />
+        To make sure to receive all our emails, add <a style="text-decoration: none;" href="mailto:email@newsletter.ouffer.com" target="_blank"><font color="#e98827">email@newsletter.ouffer.com</font></a> to your white list.</font></td>
+    </tr>
+    <tr>
+        <td height="65" bgcolor="#000000">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-top-color:#C7C9CA; border-top-style:solid; border-top-width:1px;">
+                <tr>
+                <td width="20" height="65">&nbsp;</td>
+                <td width="167"><a href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0c6d4e9ac842eb61c3e9200a4fd07e8077e077674ecc1d9cb6e09b3210e9d8715"><img style="display:block;" border="0" src="http://image.s4.exct.net/lib/fe9b15707262007c74/m/1/logo_ouffer.gif" width="167" height="65" alt="Ouffer" title="Ouffer"></a></td>
+                <td align="left" valign="middle" style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px; color:#CECECE;">Products</td>
+                  <td width="320" align="right" valign="top"><p><font color="#E6E8E7" face="Georgia, Times New Roman, Times, serif" style="font-size:12px;">
+                  <em>Products - 10 December 2012</em></font></p>
+                  <font face="Georgia, Times New Roman, Times, serif" color="#E6E8E7" style="font-size:12px;">
+                                      <a style="text-decoration: none;" href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af07ce699c64945acbd99cc089bf5b514b5015e52e1c7094a0928d2276dbae78231"><font color="#e98827">Experiences</font></a><span>|</span>                                      <a style="text-decoration: none;" href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af09af18166567d1885ade4c6df1f1d4c2eaef305b12f2d2e44300938dff41a0f39"><font color="#e98827">Getaways</font></a><span>|</span>                                      <a style="text-decoration: none;" href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af01edabfd1fc6aa8b42759771aed590cb72d439f6c86d640a7eaecaa09563c53f8"><font color="#e98827">Gourmet</font></a><span>|</span>                                      <a style="text-decoration: none;" href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0124b62b62b20f2c07e3c7878bcf7d71e467911d3cf1cb1d3e4d79e65442aed36">
+<font color="#e98827">Products
+</font></a>                                    </font>
+                </td>
+                <td width="20">&nbsp;</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+      <td bgcolor="#D2D5D5" style=" background-image:url(http://image.s4.exct.net/lib/fe9b15707262007c74/m/1/grey-back-restaurant.gif)"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="32">&nbsp;</td>
+            <td>
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="57" align="left" valign="middle"><strong style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px; color:#000000;">Today's <span style="color:#E78203;">Inspirations</span> </strong></td>
+                    <td align="right" valign="middle"><a href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0f4515c588f8c39d4bf541641e5f432467cd37f5f77fa961aa536531114ed053c" style="font:Georgia, 'Times New Roman', Times, serif; font-size:14px; color:#E78203; text-decoration:none;"><strong>&raquo; View all offers</strong></a></td>
+                  </tr>
+                </table>
+                <table  border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+                      <tr>
+                        <td height="224" colspan="5"><a href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0877493af2ae1238a36dcc1705243c8d5a7a97a0156a4dc9b88962a43d53ab2a5"><img style="display:block;" border="0" src="http://www.ouffer.com/uploads/pictures/images_for_swf/536/a2e0a9891a66a7c65ae7d60aeee13f85.jpg" width="536" alt="12 Month Supply of Scar Reduction Cream with Nationwide Delivery for only $99"/></a></td>
+                      </tr>
+                      <tr>
+                        <td width="16" height="91">&nbsp;</td>
+                        <td width="210" align="center" valign="middle" bgcolor="#ffffff">
+                          <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td>&nbsp;</td>
+                              <td height="38" align="center" valign="middle">
+                                <a  href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0877493af2ae1238a36dcc1705243c8d5a7a97a0156a4dc9b88962a43d53ab2a5"  style="text-decoration: none;"><font face="Georgia, Times New Roman, Times, serif" color="#000000" style="font-size:12px;"><span >Cosmetics</span></font></a>
+                              </td>
+                              <td>&nbsp;</td>
+                            </tr>
+                          </table>
+                          <table border="0" cellspacing="0" cellpadding="0">
+                            <tr height="10">
+                              <td style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;"></td>
+                              <td width="78" style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;">&nbsp;</td>
+                              <td style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;"></td>
+                            </tr>
+                          </table>
+                          <a  href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0877493af2ae1238a36dcc1705243c8d5a7a97a0156a4dc9b88962a43d53ab2a5"  style="text-decoration: none;"><font face="Georgia, Times New Roman, Times, serif" color="#000000" style="font-size:12px;"><span >12 Month Supply of Scar Reduction Cream with Nationwide Delivery for only $99</span></font></a><br /><br />
+                        </td>
+                        <td width="16">&nbsp;</td>
+                        <td width="117" align="center" valign="middle">
+                          <a  href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0877493af2ae1238a36dcc1705243c8d5a7a97a0156a4dc9b88962a43d53ab2a5"  style="text-decoration: none;"><font face="Georgia, Times New Roman, Times, serif" color="#000000" style="font-size:12px;">
+                                                          <span style="font-size:18px;">Lazer Cream</span><br /><br style="font-size:6px" />
+                              <span style="font-size:12px;"></span>
+                                                      </font></a>
+                        </td>
+                        <td width="177" align="center" valign="middle"><a href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0877493af2ae1238a36dcc1705243c8d5a7a97a0156a4dc9b88962a43d53ab2a5"><img style="display:block;" border="0" src="http://image.s4.exct.net/lib/fe9b15707262007c74/m/1/button-1-ouffer.gif" width="121" height="28" alt="View Offer" title="View Offer" /></a></td>
+                      </tr>
+                    </table>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="22">&nbsp;</td>
+                      </tr>
+                    </table>
+                                  </td></tr></table>
+                <table  border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+                                  </td></tr></table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="49" align="left" valign="middle"><strong style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px; color:#000000;"><em>Offers ending soon</em></strong></td>
+                  </tr>
+                </table>
+                <table  width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="258" height="129" align="left" valign="top" bgcolor="#ffffff"><a href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0de6fe87a0a9c462cb772b5f28674fd8fee7ccef42b58d92544088d8165a07d6e"><img style="display:block;" border="0" src="http://www.ouffer.com/uploads/pictures/deal_mail/258/91554fec8c47f38d0de7a0a90bc67625.jpg" width="258" alt="Children’s Educational Y-Pad Touch Screen Digital Tablet with Nationwide Delivery for only $19 instead of $49.99" /></a></td>
+                      <td>&nbsp;</td>
+                                              <td width="258" height="129" align="left" valign="top" bgcolor="#ffffff"><a href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0907acd0d08acb3053045194ff18155a372ea7d33a3e5489baa9e187b7696f729"><img style="display:block;" border="0" src="http://www.ouffer.com/uploads/pictures/deal_mail/258/2095c6358739c8900008dc0598f5cb34.jpg" width="258" alt="Funky & Stylish Water-Resistant Wristwatch in 13 Different Colours with Free Nationwide Delivery & 12 Month Warranty - only $19 for One Watch, $36 for Two Watches, or $49 for Three Watches" /></a></td>
+                                          </tr>
+                    <tr>
+                      <td align="center" valign="top" bgcolor="#ffffff">
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td>&nbsp;</td>
+                            <td height="38" align="center" valign="middle">
+                              <a  href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0de6fe87a0a9c462cb772b5f28674fd8fee7ccef42b58d92544088d8165a07d6e"  style="text-decoration: none;"><font face="Georgia, Times New Roman, Times, serif" color="#000000" style="font-size:12px;"><span >Y-Pad Digital Tablet</span></font></a>
+                            </td>
+                            <td>&nbsp;</td>
+                          </tr>
+                        </table>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr height="10">
+                            <td style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;"></td>
+                            <td width="78" style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;">&nbsp;</td>
+                            <td style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;"></td>
+                          </tr>
+                        </table>
+                        <a  href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0de6fe87a0a9c462cb772b5f28674fd8fee7ccef42b58d92544088d8165a07d6e"  style="text-decoration: none;"><font face="Georgia, Times New Roman, Times, serif" color="#000000" style="font-size:12px;"><span style="width: 220px;">Children’s Educational Y-Pad Touch Screen Digital Tablet with Nationwide Delivery for only $19 instead of $49.99</span></font></a><br /><br />
+                      </td>
+                      <td>&nbsp;</td>
+                                              <td align="center" valign="top" bgcolor="#ffffff">
+                          <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td>&nbsp;</td>
+                              <td height="38" align="center" valign="middle">
+                                <a  href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0907acd0d08acb3053045194ff18155a372ea7d33a3e5489baa9e187b7696f729"  style="text-decoration: none;"><font face="Georgia, Times New Roman, Times, serif" color="#000000" style="font-size:12px;"><span >FunK Co</span></font></a>
+                              </td>
+                              <td>&nbsp;</td>
+                            </tr>
+                          </table>
+                          <table border="0" cellspacing="0" cellpadding="0">
+                            <tr height="10">
+                              <td style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;"></td>
+                              <td width="78" style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;">&nbsp;</td>
+                              <td style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;"></td>
+                            </tr>
+                          </table>
+                          <a  href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0907acd0d08acb3053045194ff18155a372ea7d33a3e5489baa9e187b7696f729"  style="text-decoration: none;"><font face="Georgia, Times New Roman, Times, serif" color="#000000" style="font-size:12px;"><span style="width: 220px;">Funky & Stylish Water-Resistant Wristwatch in 13 Different Colours with Free Nationwide Delivery & 12 Month Warranty - only $19 for One Watch, $36 for Two Watches, or $49 for Three Watches</span></font></a><br /><br />
+                        </td>
+                                          </tr>
+                    <tr>
+                      <td width="258" align="center" valign="top" bgcolor="#ffffff"><a href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0de6fe87a0a9c462cb772b5f28674fd8fee7ccef42b58d92544088d8165a07d6e"><img style="display:block;" border="0" src="http://image.s4.exct.net/lib/fe9b15707262007c74/m/1/button-1-ouffer.gif" width="121" height="28" alt="View Offer" title="View Offer" /></a></td>
+                      <td>&nbsp;</td>
+                                              <td width="258" align="center" valign="top" bgcolor="#ffffff"><a href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af0907acd0d08acb3053045194ff18155a372ea7d33a3e5489baa9e187b7696f729"><img style="display:block;" border="0" src="http://image.s4.exct.net/lib/fe9b15707262007c74/m/1/button-1-ouffer.gif" width="121" height="28" alt="View Offer" title="View Offer" /></a></td>
+                                          </tr>
+                    <tr>
+                      <td height="15" bgcolor="#ffffff">&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td height="15"  bgcolor="#ffffff" >&nbsp;</td>
+                    </tr>
+                                          <tr>
+                        <td height="18">&nbsp;</td>
+                        <td height="18">&nbsp;</td>
+                        <td height="18">&nbsp;</td>
+                      </tr>
+                                      </table>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="258" height="129" align="left" valign="top" bgcolor="#ffffff"><a href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af058b6357276e0b479022d0f5688b9b0d24c94f18890dd343118a858b414473a9c"><img style="display:block;" border="0" src="http://www.ouffer.com/uploads/pictures/deal_mail/258/38992a775ec3ba4d67cf53f8284e22b9.jpg" width="258" alt="Compact Ten Tier Shoe Rack for up to 30 Pairs of Shoes for only $19" /></a></td>
+                      <td>&nbsp;</td>
+                                              <td width="258" height="129" align="left" valign="top" bgcolor="#ffffff"><a href="http://click.newsletter.ouffer.com/?qs=12ddf92903c853e54e47d45c90349eac55f87847f8c145c5d996a11347cfa1fb8548e79fada179a1"><img style="display:block;" border="0" src="http://www.ouffer.com/uploads/pictures/deal_mail/258/25139ba3fb222407cf0b99f59126a6e1.jpg" width="258" alt="Only $15 for a Pair of White Apple-inspired iPhone 5-style Headphones with Microphone and Volume Control Delivered Free to your Door" /></a></td>
+                                          </tr>
+                    <tr>
+                      <td align="center" valign="top" bgcolor="#ffffff">
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td>&nbsp;</td>
+                            <td height="38" align="center" valign="middle">
+                              <a  href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af058b6357276e0b479022d0f5688b9b0d24c94f18890dd343118a858b414473a9c"  style="text-decoration: none;"><font face="Georgia, Times New Roman, Times, serif" color="#000000" style="font-size:12px;"><span >Storage Solutions</span></font></a>
+                            </td>
+                            <td>&nbsp;</td>
+                          </tr>
+                        </table>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr height="10">
+                            <td style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;"></td>
+                            <td width="78" style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;">&nbsp;</td>
+                            <td style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;"></td>
+                          </tr>
+                        </table>
+                        <a  href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af058b6357276e0b479022d0f5688b9b0d24c94f18890dd343118a858b414473a9c"  style="text-decoration: none;"><font face="Georgia, Times New Roman, Times, serif" color="#000000" style="font-size:12px;"><span style="width: 220px;">Compact Ten Tier Shoe Rack for up to 30 Pairs of Shoes for only $19</span></font></a><br /><br />
+                      </td>
+                      <td>&nbsp;</td>
+                                              <td align="center" valign="top" bgcolor="#ffffff">
+                          <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td>&nbsp;</td>
+                              <td height="38" align="center" valign="middle">
+                                <a  href="http://click.newsletter.ouffer.com/?qs=12ddf92903c853e54e47d45c90349eac55f87847f8c145c5d996a11347cfa1fb8548e79fada179a1"  style="text-decoration: none;"><font face="Georgia, Times New Roman, Times, serif" color="#000000" style="font-size:12px;"><span >Apple-Inspired Accessories</span></font></a>
+                              </td>
+                              <td>&nbsp;</td>
+                            </tr>
+                          </table>
+                          <table border="0" cellspacing="0" cellpadding="0">
+                            <tr height="10">
+                              <td style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;"></td>
+                              <td width="78" style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;">&nbsp;</td>
+                              <td style="border-top-color:#000000; border-top-style:solid; border-top-width:1px;"></td>
+                            </tr>
+                          </table>
+                          <a  href="http://click.newsletter.ouffer.com/?qs=12ddf92903c853e54e47d45c90349eac55f87847f8c145c5d996a11347cfa1fb8548e79fada179a1"  style="text-decoration: none;"><font face="Georgia, Times New Roman, Times, serif" color="#000000" style="font-size:12px;"><span style="width: 220px;">Only $15 for a Pair of White Apple-inspired iPhone 5-style Headphones with Microphone and Volume Control Delivered Free to your Door</span></font></a><br /><br />
+                        </td>
+                                          </tr>
+                    <tr>
+                      <td width="258" align="center" valign="top" bgcolor="#ffffff"><a href="http://click.newsletter.ouffer.com/?qs=f16e27fac9fb1af058b6357276e0b479022d0f5688b9b0d24c94f18890dd343118a858b414473a9c"><img style="display:block;" border="0" src="http://image.s4.exct.net/lib/fe9b15707262007c74/m/1/button-1-ouffer.gif" width="121" height="28" alt="View Offer" title="View Offer" /></a></td>
+                      <td>&nbsp;</td>
+                                              <td width="258" align="center" valign="top" bgcolor="#ffffff"><a href="http://click.newsletter.ouffer.com/?qs=12ddf92903c853e54e47d45c90349eac55f87847f8c145c5d996a11347cfa1fb8548e79fada179a1"><img style="display:block;" border="0" src="http://image.s4.exct.net/lib/fe9b15707262007c74/m/1/button-1-ouffer.gif" width="121" height="28" alt="View Offer" title="View Offer" /></a></td>
+                                          </tr>
+                    <tr>
+                      <td height="15" bgcolor="#ffffff">&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td height="15"  bgcolor="#ffffff" >&nbsp;</td>
+                    </tr>
+                                          <tr>
+                        <td height="32">&nbsp;</td>
+                        <td height="32">&nbsp;</td>
+                        <td height="32">&nbsp;</td>
+                      </tr>
+                                      </table>
+                                </td></tr></table>
+                          </td>
+            <td width="32">&nbsp;</td>
+          </tr>
+        </table></td>
+    </tr>
+    <tr>
+      <td><table height="34" border="0" cellpadding="0" cellspacing="0" bgcolor="#EFF2F3">
+          <tr>
+            <td width="33" height="50"></td>
+            <td width="230">&nbsp;</td>
+            <td width="60"><font face="Arial" color="#979797" style="font-size:11px;">Join Us on</font></td>
+            <td width="245" align="left" valign="middle"><a href="http://click.newsletter.ouffer.com/?qs=12ddf92903c853e557b647c345a760e62af014ef9d087a0d52034eb3b8dcf78d76fd3f62c893de0a"><img style="display:block;" src="http://image.s4.exct.net/lib/fe9b15707262007c74/m/1/f-restaurant.png" width="21" height="22" border="0" alt="Facebook" title="Facebook"></a></td>
+            <td width="33"></td>
+          </tr>
+        </table></td>
+    </tr>
+    <tr>
+      <td height="65" align="center" valign="middle"><font face="Arial" color="#979797" style="font-size:11px;">
+        You are receiving this email because you signed up for the Daily Ouffer alerts. If you prefer not to receive promotional email from Ouffer, you can always <a style="text-decoration: none;" href="http://click.newsletter.ouffer.com/?qs=12ddf92903c853e50ec9e01f496a7255525d1b6da5fad85f2905e891d8db4c66a79f02191ae51561"><font face="Arial" color="#e98827">unsubscribe</font></a>.<br /><br />
+          <a href="http://click.newsletter.ouffer.com/?qs=12ddf92903c853e513f399dabcd6c48617924d9a423f9a8cb40172535bd8e2da81d50922980db75f" style="text-decoration: none;"><font face="Arial" color="#e98827">Ouffer.com</font></a>
+          Level 4<br />
+          6-8 Underwood Street<br />
+          Sydney, NSW 2000.<br /><br />
+          If you can not read this email, you can view it by going <a href="http://click.newsletter.ouffer.com/?qs=4b202d53cbcfe467e7bb7cd7e467ad2aec921a6bb5fbe32136ddd57de1181410a410e806fd976727" style="text-decoration: none;" target="_blank"><font face="Arial" color="#e98827">here</font></a>.<br />
+          For assistance, please contacts us at <a style="color:#e98827; text-decoration:none;" href="mailto:support@ouffer.com" target="_blank">support@ouffer.com</a>.
+      </td>
+    </tr>
+        <tr>
+      <td>
+        <img src="http://click.newsletter.ouffer.com/open.aspx?ffcb10-fe8910727d6d0c7b74-fdfa15787c660c7f75157170-fe9715707262027e74-fec815777664027b-fe3217757c65027c741572-ff991674" width="1" height="1"><font face="Arial" style="font-size:0px; display: none;">19-21 Avenue Dubonnet Ouffer Courbevoie 92417 .</font><font face="Arial" style="font-size:0px; display: none;"><a href="http://click.newsletter.ouffer.com/?qs=12ddf92903c853e562ad68b8e848c311b02e5b2ce63b6e9637517ecd15afe1311ab387eaa2671442" >Update Profile</a></font>      </td>
+    </tr>
+        <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</center></td></tr></table>
+
+</body>
+</html>
+
+--QAxXMnKTo43v=_?:--
+
+

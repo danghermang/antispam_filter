@@ -1,0 +1,25 @@
+Subject:Re: postgresql-9.2 in squeeze-backports(-sloppy)
+Arsen STASIC schrieb am Tuesday, den 25. September 2012:
+
+> Hello,
+> 
+> is there any time schedule for postgresql-9.2 in
+> squeeze-backports(-sloppy)?
+There is not even a schedule for -sloppy at all, so don't hold your breath
+for postgres in -sloppy.
+
+Alex
+
+p.s. for details about the sloppy discussion see
+http://lists.debian.org/debian-backports/2012/07/msg00019.html
+
+-- 
+Alexander Wirt, formorer@formorer.de 
+CC99 2DDD D39E 75B0 B0AA  B25C D35B BC99 BC7D 020A
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120925090934.GA28266@hawking.credativ.lan
+

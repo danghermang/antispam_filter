@@ -1,0 +1,82 @@
+Subject:Re: [Jukebox-list] 6973 to el84 info needed.
+Parts from mouser are ordered.  I just need to test my 12au7 tubes I picked=
+ up in Chicago then I can order the output tubes. =20
+  I did get the 100 ohm resistors I plan on doing that mod.  Just to clarif=
+y I should disconnect the wires from the socket and put the resistor in ser=
+ies.  Should I bother to tie 1 and 8 together while I am at it?
+  And one last question.  Does anyone have the test data for the 6973 tube =
+for the Jackson 648 tester?
+Thanks
+Ed Owens
+
+
+On Nov 12, 2012, at 9:36 AM, "Ron Rich" <ronnnrich@yahoo.com> wrote:
+
+> Rob,
+> I have found that once the 470's begin to "drift", they tend to do so ver=
+y rapidly. So, IMHO, I think it's best to replace them even if only a "litt=
+le" bit of drift, shows---Ron Rich=20
+>=20
+> --- On Sun, 11/11/12, Chan Gade <chan.gade@yahoo.com> wrote:
+>=20
+> From: Chan Gade <chan.gade@yahoo.com>
+> Subject: Re: [Jukebox-list] 6973 to el84 info needed.
+> To: "Jukebox mailing list" <jukebox-list@lists.netlojix.com>
+> Date: Sunday, November 11, 2012, 6:29 PM
+>=20
+> Some answers:
+>=20
+> "When I do my bias voltage checks, do I have all the tubes in or just the
+> 5u4g?"
+>=20
+> -You can measure the bias voltage on pins 3&6 (these are grid 1) w/out th=
+e 5U4 but it is better to have a full load on the power supply tran to give=
+ a more accurate reading.
+>=20
+> Pin 1 is the G2. In this circuit it will be at or near that of the Plate =
+which is Pin 9. On Pin 9 you should find very close to 400VDC.
+>=20
+> I have used diodes instead of a 5U4 on some amps where I had to use a sub=
+stitute power tran.  In your case where the tran is original and designed f=
+or the greater voltage drop across the 5U4 you'll need to add approx 100 oh=
+m -10watt resister in series with Pin 8 of the 5U4 socket to the first filt=
+er to bring down the voltage approximately to original.   This rect tube is=
+ -very- reliable, I doubt it will ever give you trouble. I have about 6 of =
+them in commercial service today and even when a filter shorted and blew th=
+e fuse, the 5U4 was good to go afterward.
+>=20
+> As for your ealier questions about the 470k/ohm resistors in the 6973 gri=
+d circuit. The negative grid bias is applied through these resistors, so th=
+ey are important. However the circuit impedance is so high at this point th=
+at the drift upward to 550+ would not be consequential.  The only time this=
+ would matter would be if the grid 1 went positive with respect to the cath=
+ode. This would require either extreme overdrive of audio, or a short in th=
+e tube (not uncommon in these tubes) or severe leakage of the coupling capa=
+citor.
+>=20
+> Since you are already in there you might as well change them, It's not so=
+mething I bother with on-location as long as the bias is within norm.
+>=20
+> One mod I will suggest is to add a 100 ohm 1/2 watt resistor in series wi=
+th the Grid 2 (Pin 1 or 8) to act as a fuse if the tube becomes shorted. Th=
+is can save your output tran.
+>=20
+> This is a good idea for all power pentode circuits.
+>=20
+> Rob/NYC
+>=20
+> _______________________________________________
+> Jukebox-list mailing list
+> Jukebox-list@lists.netlojix.com
+> http://lists.netlojix.com/mailman/listinfo/jukebox-list
+> Searchable Archives: http://jukebox.markmail.org/
+> _______________________________________________
+> Jukebox-list mailing list
+> Jukebox-list@lists.netlojix.com
+> http://lists.netlojix.com/mailman/listinfo/jukebox-list
+> Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

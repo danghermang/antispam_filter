@@ -1,0 +1,43 @@
+Subject:[Hsqldb-user] Enhancements in New Snapshot Jar
+The latest snapshot jar features several enhancements to DATE and
+TIMESTAMP capabilities.
+
+New functions include ADD_MONTHS, LAST_DAY, MONTHS_BETWEEN and others.
+
+Datetime arithmetic has been improved for compatibility with database
+engines such as Oracle, which do not fully support INTERVAL semantics.
+
+Examples reported last week now work more like what is expected with
+other databases. The SYSDATE function returns a TIMESTAMP with SECOND
+resolution. The following expressions use a DAY TO SECOND interval unit
+when the unit is not specified.
+
+SYSDATE - 5 is translaed to (SYSDATE - 5) DAY TO SECOND
+
+SYSDATE - TRUNC(SYSDATE) is translated to the SQL Standard (SYSDATE -
+TRUNC(SYSDATE)) DAY TO SECOND
+
+All datetime subtraction still results in INTERVAL types, therefore you
+need to cast the INTERVAL to a number type if you want to convert or
+compare it to a number. For example:
+ 
+SELECT CASE WHEN 1>2 THEN CAST(ATIMESTAMP - TRUNC(SYSDATE) AS NUMBER)
+ELSE 999 END
+ 
+The cast treats the largest INTERVAL unit, which is DATE in this case,
+as the significant unit. It therefore returns the number of days with a
+fractional day.
+
+http://www.hsqldb.org/repos/org/hsqldb/hsqldb/SNAPSHOT/
+
+Fred Toussi
+
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://p.sf.net/sfu/appdyn_sfd2d_oct
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

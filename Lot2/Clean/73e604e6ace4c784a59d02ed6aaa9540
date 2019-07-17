@@ -1,0 +1,75 @@
+Subject:Fw: [Jukebox-list] 6973 to el84 info needed.
+2nd transmission---discussion string cut due to excess content blockage=0A=
+=0A=0A=0A----- Forwarded Message ----=0AFrom: James Alexander <jalexandercc=
+11@att.net>=0ATo: Jukebox mailing list <jukebox-list@lists.netlojix.com>=0A=
+Sent: Sun, November 11, 2012 3:16:48 PM=0ASubject: Re: [Jukebox-list] 6973 =
+to el84 info needed.=0A=0A=0AEd:=0A=0AI think you're doing the job well by =
+replacing any questionable resistors and =0Adiodes,then changing tubes. To =
+be safe, it's a good idea to take voltage,bias =0Areadings after you've ins=
+talled the new parts, once when first turned on, then =0Aagain after an hou=
+r's operation.=A0Bias voltage settings (if variable) are =0Acritical for de=
+pendable 6973 operation.=A0 Low bias can cause tubes to conduct =0Aexcessiv=
+e current,causing the plates in the tube to glow visibly red after being =
+=0Apowered on for awhile.=0AThis will destroy the tubes' conductivity quick=
+ly and ruin your new tubes,and =0Apossibly your output transformer in the p=
+rocess. =A06973's normally run rather =0Ahot. They will be notably hotter t=
+han typical=A0if you have an unsolved=A0biasing =0Aproblem. =A0=A0 =0A=0A=
+=0A=A0As far as the imported tubes go, a generally good=A0piece of advice i=
+s to avoid =0Abuying Chinese-made tubes.=A0 There's one manufacturer in par=
+ticular, JoLida, that =0Amanufactures and sells tubes under several brand n=
+ames, provides tubes in bulk =0Ato other US tube marketers who attempt to "=
+inspect" all incoming product to weed =0Aout the defectives.=A0 Quality con=
+trol from JoLida seems pretty poor---if you buy =0A5 new tubes of the same =
+type,typically,two will be defective right out of the =0Abox.=A0=A0=A0 JoLi=
+da's audio tubes are the ones where you can=A0hear a pronounced =0Adifferen=
+ce in sound quality versus the same tube-number of another brand.=A0 This =
+=0Ais usually not an issue.=0A=0AIMO, this company has done the most to per=
+petuate the myth that=A0 Russian and =0ACzech-made tubes today are inferior=
+ quality and that classic amp users should =0Apay the highly pushed-up aski=
+ng prices to buy NOS American made tube stock.=A0 =0AIt's just a way to=A0l=
+ighten your wallet. The other tube brands, in general,(there =0Aare about 6=
+ manufacturers)=A0seem to stay consistently good.=A0=0A=0A=0AJim Alexander=
+=A0=A0=A0=0A=0A=0A=0A________________________________=0A=0AFrom: Ed Owens <=
+eowens@eojohnson.com>=0ATo: Jukebox mailing list <jukebox-list@lists.netloj=
+ix.com>=0ACc: Jukebox mailing list <jukebox-list@lists.netlojix.com>=0ASent=
+: Sun, November 11, 2012 1:51:53 PM=0ASubject: Re: [Jukebox-list] 6973 to e=
+l84 info needed.=0A=0A=0A_____________________________________________=0A>>=
+ Jukebox-list mailing list=0A>> Jukebox-list@lists.netlojix.com=0A>> http:/=
+/lists.netlojix.com/mailman/listinfo/jukebox-list=0A>> Searchable Archives:=
+ http://jukebox.markmail.org/=0A>> ________________________________________=
+_______=0A>> Jukebox-list mailing list=0A>> Jukebox-list@lists.netlojix.com=
+=0A>> http://lists.netlojix.com/mailman/listinfo/jukebox-list=0A>> Searchab=
+le Archives: http://jukebox.markmail.org/=0A> _____________________________=
+__________________=0A> Jukebox-list mailing list=0A> Jukebox-list@lists.net=
+lojix.com=0A> http://lists.netlojix.com/mailman/listinfo/jukebox-list=0A> S=
+earchable Archives: http://jukebox.markmail.org/=0A> =0A> _________________=
+______________________________=0A> Jukebox-list mailing list=0A> Jukebox-li=
+st@lists.netlojix.com=0A> http://lists.netlojix.com/mailman/listinfo/jukebo=
+x-list=0A> Searchable Archives: http://jukebox.markmail.org/=0A> __________=
+_____________________________________=0A> Jukebox-list mailing list=0A> Juk=
+ebox-list@lists.netlojix.com=0A> http://lists.netlojix.com/mailman/listinfo=
+/jukebox-list=0A> Searchable Archives: http://jukebox.markmail.org/=0A_____=
+__________________________________________=0AJukebox-list mailing list=0AJu=
+kebox-list@lists.netlojix.com=0Ahttp://lists.netlojix.com/mailman/listinfo/=
+jukebox-list=0ASearchable Archives: http://jukebox.markmail.org/=0A=0AThank=
+s for all the info.=0A=A0 Here's what I'm going to do.=A0 I'll order the 69=
+73s for now and replace the =0Aquestionable parts.=A0 I have a mouser shopp=
+ing list made up for the amp and =0Apreamp and selector caps.=A0 I will use=
+ the 1n4004, I omed it and its almost the =0Asame as the yellow diode In th=
+ere, I don't trust old diodes.=A0 =0A=0A=A0 I'm going with 1/2 watt 470k re=
+sistors mainly because it won't see constant on =0Atime in my home. I will =
+also replace the 6 ceramic caps in the power amps. =0A=0A=A0 For tubular ca=
+ps I went with film, and electrolytic for the paper and metal =0Acans.=A0 S=
+ame cap rules applied for the selector unit.=A0 To recap the per and power =
+=0Ait will cost about 30 bucks.=A0 I am using united chemi con caps for my =
+power =0Afilters, new product at a good price.=0A=A0 I also quickly checked=
+ out my transformers with an ohm meter.=A0 Both outputs =0Ameasure the same=
+ and the power one tests out with no shorts.=0A=0A=A0 If anyone can see any=
+ issues with what I'm doing here let me know.=A0 If so,done =0Awould want t=
+o look over my mouser project to order I will be willing to send you =0Aa l=
+ink.
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

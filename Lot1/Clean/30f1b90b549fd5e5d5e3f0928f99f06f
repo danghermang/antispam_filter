@@ -1,0 +1,60 @@
+Subject:Re: [Hsqldb-user] dropping local temporary tables
+Yes, use this:
+
+DROP TABLE IF EXISTS session.foo
+
+I'll have a look and fix the issue with the use of IF EXISTS at the end
+of statement.
+
+Fred
+
+
+On Wed, Sep 5, 2012, at 01:30, Dean Oemcke wrote:
+> I am having trouble using local temporary tables in hsqldb v2.2.8.
+> 
+> A set of queries such as:
+> 
+> DECLARE LOCAL TEMPORARY TABLE foo AS (select * from bar) WITH DATA;
+> select * from foo;
+> 
+> runs just fine on the first attempt. but when run a second time i get
+> the error: object name already exists in statement.
+> 
+> I can drop this table by using:
+> 
+> DROP TABLE session.foo;
+> 
+> but it seems this can only be done after the table is created and
+> hence must come at the end of my queries.
+> 
+> If I try to use IF EXISTS so that I can place this at the beginning of
+> my queries I get the error: unexpected token: IF
+> 
+> Is there a way to use IF EXISTS on local temporary tables?
+> I don't like the idea of relying on the drop table at the end in case
+> something should break before the DROP gets run (and I end up in a
+> state when I can never redeclare the temporary table).
+> I would also prefer not to use GLOBAL TEMPORARY's (which do allow the
+> use of IF EXISTS).
+> 
+> ------------------------------------------------------------------------------
+> Live Security Virtual Conference
+> Exclusive live event will cover all the ways today's security and 
+> threat landscape has changed and how IT managers can respond. Discussions 
+> will include endpoint security, mobile security and the latest in malware 
+> threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Live Security Virtual Conference
+Exclusive live event will cover all the ways today's security and 
+threat landscape has changed and how IT managers can respond. Discussions 
+will include endpoint security, mobile security and the latest in malware 
+threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

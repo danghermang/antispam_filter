@@ -1,0 +1,69 @@
+Subject:Re: no me funciona el teclado ni mouse en X [solucionado]
+contesto dos correos en uno porque se arregló
+
+El sáb, 22-09-2012 a las 03:28 +0400, Evgeny M. Zubok escribió: 
+> Gonzalo Rivero <fishfromsalta@gmail.com> writes:
+> 
+> > Como pueden ver en el log ( http://pastebin.com/9FFx8DGc ) lo único
+> > raro son unos warning en la línea 40 que me desactiva teclado y mouse
+> (...)
+
+> > siguen sin funcionar. ¿donde se como desactivar ese hotplug?
+> 
+> No veo que se carga el módulo "evdev". ¿Tienes instalado el paquete
+> xserver-xorg-input-evdev?
+> 
+está instalado
+
+> Lo otro que puede ser es que tengas problemas con udev.
+> 
+
+El sáb, 22-09-2012 a las 11:11 +0000, Camaleón escribió:
+El Fri, 21 Sep 2012 19:45:09 -0300, Gonzalo Rivero escribió:
+> 
+> > pues... eso. Ayer o anteayer actualicé mi debian (tengo testing,
+para
+> > amd64 y actualizo cada 15 dias a un mes mas o menos)  y al volver a
+> > (...)
+> > así que entré por ssh y apagué gdm, probé startx y nada, teclado ni
+> > mouse responden (pero se que no se clavó el sistema porque veo cosas
+> > como el clima actualizándose) 
+> 
+> ¿Te funciona en una consola, por ejemplo, iniciando en "init 1"?
+> 
+funcionaba, lo que no andaba era teclado ni mouse por eso una vez
+levantado X la única forma de apagarlo era entrando por ssh (nunca
+salgan sin su cliente ssh niños :P), ni siquiera podía cambiar con
+ctrl-alt-f1,2,3... o matarlo con ctrl-alt-backspace
+
+> > Entonces fui un paso mas atrás, xinit, para no cargar ningún
+entorno...
+> > y tampoco. Como pueden ver en el log ( http://pastebin.com/9FFx8DGc
+)
+> > lo único raro son unos warning en la línea 40 que me desactiva
+teclado
+> > (...)
+> > levantó con vesa y no el driver de nvidia... y el mouse y teclado
+> > siguen sin funcionar. ¿donde se como desactivar ese hotplug?, 
+> 
+> Recuerdo algo de eso pero no sé si te servirá para este caso. Había
+que 
+> añadir los siguiente en el "/etc/X11/xorg.conf", dentro de la sección 
+> "ServerFlags":
+> 
+> Option "AutoAddDevices" "false"
+> 
+
+y eso fue lo que corrigió el problema. Aunque me suena anti-intuitivo,
+es decir: AutoaddDevices -> falso: agrega y funcionan los dispositivos,
+y en true los apaga?
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1348316561.4374.6.camel@EeePC.ucasal.ar
+

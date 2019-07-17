@@ -1,0 +1,40 @@
+Subject:[svnbook] r4307 committed - Merge from trunk r4305.
+Revision: 4307
+Author:   cmpilato@gmail.com
+Date:     Fri Sep 14 07:00:39 2012
+Log:      Merge from trunk r4305.
+http://code.google.com/p/svnbook/source/detail?r=4307
+
+Modified:
+  /branches/1.6/en
+  /branches/1.6/en/book/ch01-fundamental-concepts.xml
+
+=======================================
+--- /branches/1.6/en/book/ch01-fundamental-concepts.xml	Fri Oct 21 12:28:24  
+2011
++++ /branches/1.6/en/book/ch01-fundamental-concepts.xml	Fri Sep 14 07:00:39  
+2012
+@@ -453,12 +453,12 @@
+          </indexterm>
+
+          <para>Unlike most version control systems, Subversion's
+-          revision numbers apply to <emphasis>entire trees</emphasis>,
+-          not individual files.  Each revision number selects an
+-          entire tree, a particular state of the repository after some
+-          committed change.  Another way to think about it is that
+-          revision N represents the state of the repository filesystem
+-          after the Nth commit.  When Subversion users talk
++          revision numbers apply to <emphasis>the entire repository
++          tree</emphasis>, not individual files.  Each revision number
++          selects an entire tree, a particular state of the repository
++          after some committed change.  Another way to think about it
++          is that revision N represents the state of the repository
++          filesystem after the Nth commit.  When Subversion users talk
+            about <quote>revision 5 of
+            <filename>foo.c</filename>,</quote> they really mean
+            <quote><filename>foo.c</filename> as it appears in revision
+
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

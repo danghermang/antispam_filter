@@ -1,0 +1,34 @@
+Subject:Re: Removal of underscore package from squeeze-backports?
+Stuart Prescott <stuart@debian.org> writes:
+> Looking at the underscore package in squeeze-backports, it is not possible to 
+> build it from source using packages in squeeze+squeeze-backports. In 
+> particular, the "uglifyjs" package (provided by node-uglify in sid) is not in 
+> squeeze/squeeze-backports.
+
+I modified the package in backports to not compress the *.js files:
+
+underscore (1.1.6-1~bpo60+1) squeeze-backports; urgency=low
+
+  * Rebuild for squeeze-backports.
+  * Include uncompressed version of *.js to avoid a build-dependency on
+    uglifyjs.
+
+> (squeeze[cow.24639])root@fire:/tmp/buildd/underscore-1.1.6# apt-get build-dep 
+> underscore
+> Reading package lists... Done
+> Building dependency tree       
+> Reading state information... Done
+> E: Build-Depends dependency for underscore cannot be satisfied because the 
+> package uglifyjs cannot be found
+
+You probably try to get the build-dependencies for a different version
+here.
+
+Ansgar
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/874nlyxku7.fsf@deep-thought.43-1.org
+

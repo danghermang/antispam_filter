@@ -1,0 +1,16 @@
+Subject:Re: Affichage =?UTF-8?B?YnJvdWxsw6k=?=
+Bonjour,
+Je me souviens d'un problème similaire sur un asus 1215b (zacate).
+J'avais installé fglrx à la fin de l'install (avant de rebooter).
+Là, tu peux le faire avec  ssh ...
+Guy
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50798C03.9030101@teledetection.fr
+

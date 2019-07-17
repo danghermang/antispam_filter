@@ -1,0 +1,66 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<richeen@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <NetBankNotification@cba.com.au>
+Received: (qmail 29691 invoked by uid 89); 11 Dec 2012 12:08:22 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 11 Dec 2012 12:08:22 -0000
+Delivery-date: Tue, 11 Dec 2012 04:06:43 -0800
+Received: from igwx12.cba.com.au ([140.168.71.12] helo=igw12blk.cba.com.au) helo=igw12blk.cba.com.au
+	by apn.junkemailfilter.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.80.1)
+	id 1TiObh-0003KW-8C on interface=184.105.182.43
+	for richeen@activ8.net.au; Tue, 11 Dec 2012 04:06:41 -0800
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=cba.com.au; i=NetBankNotification@cba.com.au;
+  q=dns/txt; s=CBAdkim-110609; t=1355227601;
+  x=1670587601;
+  h=message-id:date:from:to:subject:mime-version:
+   content-transfer-encoding;
+  bh=SoBKcQCK2t994fOGDitQIPZseeY3xflSV8sDUbd8mWU=;
+  b=UfnKhaCVdwScimMJeVEcCtOHeL63Vofv1gVi51/vhX4Z9NcncAMQV+Ld
+   KJiG3k/Orz4HC+yZZKSKEoH+9kxiwA==;
+X-ExtLoop1: 1
+X-IronPort-AV: E=Sophos;i="4.84,258,1355058000"; 
+   d="scan'208";a="260309336"
+X-CBA-NODISC: true
+Received: from unknown (HELO aaunswc28.au.cbainet.com) ([10.30.10.146])
+  by igw12.cba.com.au with ESMTP; 11 Dec 2012 23:06:35 +1100
+Received: from dm53db01.au.cbainet.com ([10.244.2.74]) by aaunswc28.au.cbainet.com with Microsoft SMTPSVC(6.0.3790.4675);
+	 Tue, 11 Dec 2012 23:06:34 +1100
+Message-ID: <627136269_20121211_103053_CSP_uib@cba.com.au>
+Date: Tue, 11 Dec 2012 23:06:34 +1100 (GMT+11:00)
+From: NetBankNotification@cba.com.au
+To: richeen@activ8.net.au
+Subject: You have a new account statement available to view in NetBank
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 11 Dec 2012 12:06:34.0855 (UTC) FILETIME=[F70E3770:01CDD797]
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: NetBankNotification@cba.com.au
+X-Sender-Host-Address: 140.168.71.12
+X-Sender-Host-Name: igwx12.cba.com.au
+
+Dear RICHARD BENJAMIN STEVENS,  
+
+Why wait for your statement to be ready? You can view up to two years of transaction history 24/7 in NetBank, allowing you to check your up to date balances on a daily basis whenever you want. Your statement for  ********5275 is now available in NetBank.  
+
+Also, make the most of your account by depositing your salary each week, fortnight or month. Give your employer your account number plus BSB and they should take care of the rest.  
+
+NetBank. The #1 online bank in Australia.
+
+Yours sincerely,
+Commonwealth Bank of Australia
+
+To confirm this is a genuine email sent by the Bank, please check your inbox on the NetBank home page.
+Message: 627136269
+

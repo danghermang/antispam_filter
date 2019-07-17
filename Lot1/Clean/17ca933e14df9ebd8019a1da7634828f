@@ -1,0 +1,31 @@
+Subject:Re: qt3 in wheezy options to install it
+On Mon, 5 Nov 2012, Karol Szkudlarek wrote:
+
+> In near future I would like install on my machines wheezy and I know
+> that old qt3 libraries are removed (as obsolete)
+> But in my commercial work we still use qt-3 so  I would like to know
+
+While this has absolutely nothing to do with backports=E2=80=A6
+just install the packages from squeeze on wheezy. Or use
+a chroot.
+
+bye,
+//mirabilos
+--=20
+=C2=ABMyISAM tables -will- get corrupted eventually. This is a fact of life=
+=2E =C2=BB
+=E2=80=9Cmysql is about as much database as ms access=E2=80=9D =E2=80=93 =
+=E2=80=9CMSSQL at least descends
+from a database=E2=80=9D =E2=80=9Cit's a rebranded SyBase=E2=80=9D =E2=80=
+=9CMySQL however was born from a
+flatfile and went downhill from there=E2=80=9D =E2=80=93 =E2=80=9Cat least =
+jetDB doesn=E2=80=99t claim to
+be a database=E2=80=9D=09(#nosec)    =E2=80=A3=E2=80=A3=E2=80=A3 Please let=
+ MySQL and MariaDB finally die!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/alpine.DEB.2.02.1211060922110.8125@tglase.lan.tarent.de
+

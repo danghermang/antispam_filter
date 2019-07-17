@@ -1,0 +1,70 @@
+Subject:Re:  postfix crear usuarios
+top-posting: no hagas posting
+
+El mié, 26-09-2012 a las 09:57 -0400, Josué Marrero Bermúdez escribió: 
+> Cosme..preguntar aqui eso de correo internacional o correo nacional es como 
+> hacer un chiste.
+> 
+> Lo primero que te van a responder es para que los cubanos hacemos eso de 
+> limitar los correos..eso no se hace en casi ninguna parte del mundo..el 
+> correo electronico es correo para llegar a todo el mundo..lo que aqui en 
+> Cuba hacemos nuestros inventos ESPECIALES.
+> 
+por suerte la gente de postfix también se siente especial y pensó algo
+al respecto
+apt-get install postifx-doc
+zless /usr/share/doc/postfix/ADDRESS_VERIFICATION_README.gz ó si
+preferís algo mas 'lindo' con formato y colorines:
+x-www-browser /usr/share/doc/postfix/html/ADDRESS_VERIFICATION_README.html
+
+> Llamame al 421352 en Holguin..y te explico todo lo que quieras saber
+> 
+> Saludos
+> 
+> Josué
+> 
+> 
+> ----- Original Message ----- 
+> From: <cosme@esid.gecgr.co.cu>
+> To: "debian-user-spanish" <debian-user-spanish@lists.debian.org>
+> Sent: Tuesday, September 25, 2012 6:51 PM
+> Subject: postfix crear usuarios
+> 
+> 
+> > hola
+> >
+> > Recien instalo Postfix, Dovecot Squirrelmail y sasl para correo seguro
+> >
+> > Estoy en la parte de postfix...
+> >
+> > Ahora como hago en mi configuracion para decir que mis usuarios de correo
+> > con su correspondente buzon los cree en /home/Mail/
+> >
+> > con que comando lo hago
+> >
+> > Como defino que por ejemplo el usuario pepe tenga salida nacional y el
+> > usuario juan tenga salida internacional
+> >
+> > Donde aplico el postmap
+> >
+> >
+> >
+> > Salu2
+> > Cosme
+> >
+> >
+> >
+
+
+
+
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1348668709.2489.12.camel@EeePC.ucasal.ar
+

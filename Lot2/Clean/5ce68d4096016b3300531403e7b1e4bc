@@ -1,0 +1,37 @@
+Subject:Re: opensource admin camaras ip
+El Sat, 01 Dec 2012 09:45:28 -0500, Mauricio Erazo Mejia escribió:
+
+> Cordial saludo,
+
+Serían más cordiales si enviaras el mensaje en formato texto ;-)
+
+> Estoy buscando un software open source que administre Cámaras IP PTZ de
+> diversas marcas, la idea es poder integrar en un mismo software la
+> administración, visualización y grabación de cámaras de varios
+> fabricantes y no estar solo con el software del fabricante de cada una
+> de ellas.
+
+Pues hace poco se habló del tema. Pero básicamente dependerá del soporte 
+que tengan los componentes de cctv que uses con las aplicaciones elegidas 
+("zoneminder" es de las más completas).
+
+> De antemano ofrezco excusas porque estoy seguro que en esta lista ya se
+> ha tratado este tema, pero la verdad no encuentro el hilo, alguna vez vi
+> que existía  lo que estoy buscando, pero en ese momento no lo necesitaba
+> y no le preste mayor atención.
+
+Puedes usar el buscador:
+
+http://lists.debian.org/cgi-bin/search?P=camara+ip&DEFAULTOP=or&sort=revdate&HITSPERPAGE=100
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9d86u$ccj$3@ger.gmane.org
+

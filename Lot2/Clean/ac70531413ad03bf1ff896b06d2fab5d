@@ -1,0 +1,125 @@
+Subject:Re: [Hsqldb-user] Cannot execute Hibernate query
+You want to compare the date part of some timestamps and are converting
+the timestamps into date strings.
+
+If fromDateTime and toDateTime are timestamps, then you can use this
+
+"to_char(creation_datetime, 'YYYY/MM/DD') >= to_char(fromDateTime,
+'YYYY/MM/DD') and
+ to_char(creation_datetime, 'YYYY/MM/DD') <= to_char(toDateTime,
+ 'YYYY/MM/DD')"
+
+A better alternative is to compare the dates, without converting to
+strings.
+
+"trunc(creation_datetime) >= trunc(fromDateTime) and
+ trunc(creation_datetime) <= trunc(toDateTime)"
+
+Or use the BETWEEN predicate:
+
+"trunc(creation_datetime) between trunc(fromDateTime) and
+ trunc(toDateTime)"
+
+Fred
+
+On Wed, Nov 28, 2012, at 23:11, Stephane Eybert wrote:
+> 
+> Hi,
+> 
+> I have an Hibernate DAO method:
+> 
+> 	public Page<MailAddress> findWithCreationDateTimeBetween(LocalDateTime
+> fromDateTime, LocalDateTime toDateTime, final int pageNumber, final int
+> pageSize) {
+> 		Criteria criteria = getSession().createCriteria(getPersistentClass());
+> 		criteria.add(Restrictions.sqlRestriction("to_char(creation_datetime,
+> 'YYYY/MM/DD') >= to_char('" + fromDateTime + "', 'YYYY/MM/DD') and
+> to_char(creation_datetime, 'YYYY/MM/DD') <= to_char('" + toDateTime + "',
+> 'YYYY/MM/DD')"));
+> 	
+> criteria.addOrder(Order.asc("firstname")).addOrder(Order.asc("lastname")).addOrder(Order.asc("email"));
+> 		Page<MailAddress> page = getPage(pageNumber, pageSize, criteria);
+> 		return page;
+> 	}
+> 
+> that runs against an in memory HSQLDB database.
+> 
+> But it gives me the following error:
+> 
+> org.springframework.dao.InvalidDataAccessResourceUsageException: could
+> not
+> execute query; SQL [select this_.id as id45_0_, this_.version as
+> version45_0_, this_.firstname as firstname45_0_, this_.lastname as
+> lastname45_0_, this_.email as email45_0_, this_.text_comment as
+> text6_45_0_,
+> this_.country as country45_0_, this_.subscribe as subscribe45_0_,
+> this_.imported as imported45_0_, this_.creation_datetime as
+> creation10_45_0_
+> from mail_address this_ where to_char(creation_datetime, 'YYYY/MM/DD') >=
+> to_char('2012-11-29T00:59:47.673', 'YYYY/MM/DD') and
+> to_char(creation_datetime, 'YYYY/MM/DD') <=
+> to_char('2012-11-30T00:59:47.673', 'YYYY/MM/DD') order by this_.firstname
+> asc, this_.lastname asc, this_.email asc]; nested exception is
+> org.hibernate.exception.SQLGrammarException: could not execute query
+> 
+> Here is the Hibernate mapping:
+> 
+>     <class name="com.thalasoft.learnintouch.core.domain.MailAddress"
+> table="mail_address" dynamic-insert="true" dynamic-update="true">
+>         <id name="id" type="java.lang.Integer">
+>             <column name="id" />
+>             <generator class="native">sq_id_mail_address</generator>
+>         </id>
+>         <version name="version" type="int">
+>             <column name="version" not-null="true" />
+>         </version>
+>         <property name="firstname" type="string">
+>             <column name="firstname" />
+>         </property>
+>         <property name="lastname" type="string">
+>             <column name="lastname" />
+>         </property>
+>         <property name="email" type="string">
+>             <column name="email" not-null="true" unique="true" />
+>         </property>
+>         <property name="textComment" type="text">
+>             <column name="text_comment" length="65535" />
+>         </property>
+>         <property name="country" type="string">
+>             <column name="country" />
+>         </property>
+>         <property name="subscribe" type="boolean">
+>             <column name="subscribe" not-null="true" />
+>         </property>
+>         <property name="imported" type="boolean">
+>             <column name="imported" not-null="true" />
+>         </property>
+>         <property name="creationDateTime" type="dateTime">
+>             <column name="creation_datetime" not-null="true" />
+>         </property>
+>     </class>
+> 
+> I have looked at it for hours now... 
+> -- 
+> View this message in context:
+> http://old.nabble.com/Cannot-execute-Hibernate-query-tp34735211p34735211.html
+> Sent from the HSQLDB - User mailing list archive at Nabble.com.
+> 
+> 
+> ------------------------------------------------------------------------------
+> Keep yourself connected to Go Parallel: 
+> TUNE You got it built. Now make it sing. Tune shows you how.
+> http://goparallel.sourceforge.net
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Keep yourself connected to Go Parallel: 
+TUNE You got it built. Now make it sing. Tune shows you how.
+http://goparallel.sourceforge.net
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

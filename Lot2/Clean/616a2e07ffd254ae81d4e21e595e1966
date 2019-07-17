@@ -1,0 +1,44 @@
+Subject:Re: [LUG] Linux - and security Part 2
+On 08/11/12 15:40, Migel Wimtore wrote:
+> Isn't it true that data recovery on encrypted drives/partitions is much, much harder? Given that, is it then worth considering the trade off you might be making between security and usabilty? Is your hd more likely to be stolen (laptop vs pc) than you might one day need to perform data recovery of some kind on it (failing disk or recovering deleted files)? 
+>
+
+Lots of good points and suggestions in these last few emails regarding
+encryption.
+
+Simply put, encryption is quite a big deal and it's not something you
+should just casually and half-arsed sling together one afternoon because
+it seemed like a good idea. Like any non-trivial computer operation, you
+should definitely take a little time out to do your research, understand
+all of the implications and make sure you have a plan B in case you want
+to roll back. Here are some rules of thumb and general observations:
+
+1: Truecrypt is an excellent option, especially for windows machines
+(doesn't require the same level of complexity, hardware TPM options, etc
+as Bitlocker)
+2: Macs have their own built-in encryption options (including full disk
+and encrypted Time Machine backups) since 10.7/10.8
+3: Linux has LVM+crypto options for either home or full disk encryption
+that are well documented and highly reliable
+4: All major crypto options listed above have the facility to store
+backups of the volume header files+keys - you *must* do this in case of
+corruption/forgotten passwords/etc
+5: If you have a laptop that travels much, you have no excuse not to use
+full disk encryption (it's a legal requirement for many public/private
+sector organisations now)
+6: There is virtually no down side to using at least home folder
+encryption on a static workstation - servers in secure locations are a
+different matter
+7: Data recovery is hard full stop - make backups, and test them (most
+people never try restores until it's too late, and then they find
+they've made a mistake)
+8: Version control is your friend, and an excellent 'accidental' backup
+strategy. Check your home, var and etc partitions into a DVCS on to an
+encrypted location and you have both a versioned history AND backup.
+
+Regards
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

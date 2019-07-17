@@ -1,0 +1,36 @@
+Subject:Re: Consulta con librerias en software
+
+El 08/10/2012, a las 04:57 p.m., Juan Manuel Acu=C3=B1a <gps1mx@gmail.com> e=
+scribi=C3=B3:
+
+> El 08/10/12 16:54, Jose Pablo Rojas escribi=C3=B3:
+>> Hola gente, tengo un servidor al que solo tengo acceso como un usuario
+>> normal y el mismo no tiene instalado el fetchmail, por lo que pas=C3=A9 e=
+l
+>> archivo de fetchmail de mi m=C3=A1quina y al correrlo me pide la librer=C3=
+=ADa
+>> libkrb5.so.3
+>> Existe alguna forma de que en este caso yo pase el archivo de la
+>> librer=C3=ADa a la misma carpeta e intente leer esta librer=C3=ADa desde u=
+na
+>> ruta diferente a /usr/lib/libkrb5.so.3
+>> Saludos y gracias de antemano.
+>>=20
+>>=20
+> Hola.
+>=20
+> Probaste ya poniendo la librer=C3=ADa que necesitas en el PATH ?
+>=20
+> Saludos!
+>=20
+>=20
+> --=20
+Es correcto, el path incluye /home/miusuario/bin, ah=C3=AD inclu=C3=AD fetch=
+mail y la librer=C3=ADa pero me sigue saliendo el error :S
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5E170121-DE5B-4234-AF17-2921BE1235C8@gmail.com
+

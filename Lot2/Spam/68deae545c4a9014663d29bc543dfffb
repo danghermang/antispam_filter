@@ -1,0 +1,56 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<cb1056@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <MichaelRechard@AutomatedPaydays.com>
+Received: (qmail 5484 invoked by uid 89); 11 Dec 2012 13:28:53 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 11 Dec 2012 13:28:53 -0000
+Delivery-date: Tue, 11 Dec 2012 05:27:14 -0800
+Received: from [75.126.133.29] (helo=irishabroad.com) helo=irishabroad.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1TiPrU-0008Bk-3P on interface=184.105.182.43
+	for cb1056@activ8.net.au; Tue, 11 Dec 2012 05:27:12 -0800
+Received: from sv3711 ([127.0.0.1]) by irishabroad.com with Microsoft SMTPSVC(7.0.6002.18222);
+	 Tue, 11 Dec 2012 13:26:24 +0000
+MIME-Version: 1.0
+From: MichaelRechard@AutomatedPaydays.com
+To: cb1056@activ8.net.au
+Date: 11 Dec 2012 13:26:24 +0000
+Subject: News Article
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <SV3711IOZWektquRxmb0000fe39@irishabroad.com>
+X-OriginalArrivalTime: 11 Dec 2012 13:26:24.0521 (UTC) FILETIME=[1DEB3F90:01CDD7A3]
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: MichaelRechard@AutomatedPaydays.com
+X-Relay-Countries: us
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd3.ctyme.com
+ Spam Tests:
+ *  1.0 SEE_FOR_YOURSELF BODY: See for yourself
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ *  1.0 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+ *  0.0 MIME_QP_LONG_LINE RAW: Quoted-printable line longer than 76 chars
+ *  0.4 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+X-Spam-Class: HAM - SpamAssassin good - Score=2
+X-Sender-Host-Address: 75.126.133.29
+X-Sender-Host-Name: 
+
+Interesting News Story here:<BR>http://www.irishabroad.com/Info/faqs.aspx<BR>=3D=3D>=
+  http://www.auto-mass-cash.com/?a_aid=3D509c412815608&a_cid=3D1c468dee=
+=0D=0AHi=0D=0Aronel=0D=0A=0D=0AIt's an incredible feeling to finally be=
+ getting "Notification of payment received" emails every day.=0D=0A=0D=0AAnd=
+ it's all thanks to a new system by Jamie Shaw . . . which you really need=
+ to check out right now!=0D=0A=0D=0A=0D=0A=0D=0AHe takes you from a standing=
+ start, to having your very own automated paydays set up very quickly, earning=
+ you money 24/7.=0D=0A=0D=0AWatch the video and you'll see for yourself.=
+=0D=0A=0D=0ATo Your Success,=0D=0A=0D=0AMichael Rechard=0D=0A=0D=0A
+
+

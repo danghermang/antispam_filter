@@ -1,0 +1,245 @@
+Subject:[routing-wg] The Cidr Report
+This report has been generated at Fri Dec  7 21:13:08 2012 AEST.
+The report analyses the BGP Routing Table of AS2.0 router
+and generates a report on aggregation potential within the table.
+
+Check http://www.cidr-report.org for a current version of this report.
+
+Recent Table History
+        Date      Prefixes    CIDR Agg
+        30-11-12    435823      252122
+        01-12-12    436665      250891
+        02-12-12    436407      251001
+        03-12-12    436577      251165
+        04-12-12    437029      251157
+        05-12-12    437195      252441
+        06-12-12    437689      251620
+        07-12-12    438154      251279
+
+
+AS Summary
+         42907  Number of ASes in routing system
+         17844  Number of ASes announcing only one prefix
+          3197  Largest number of prefixes announced by an AS
+                AS7029 : WINDSTREAM - Windstream Communications Inc
+      115225824  Largest address span announced by an AS (/32s)
+                AS4134 : CHINANET-BACKBONE No.31,Jin-rong Street
+
+
+Aggregation Summary
+The algorithm used in this report proposes aggregation only
+when there is a precise match using the AS path, so as 
+to preserve traffic transit policies. Aggregation is also
+proposed across non-advertised address space ('holes').
+
+ --- 07Dec12 ---
+ASnum    NetsNow NetsAggr  NetGain   % Gain   Description
+
+Table     439125   251228   187897    42.8%   All ASes
+
+AS6389      3132      145     2987    95.4%   BELLSOUTH-NET-BLK -
+                                               BellSouth.net Inc.
+AS28573     2199       72     2127    96.7%   NET Servicos de Comunicao S.A.
+AS4766      2932      920     2012    68.6%   KIXS-AS-KR Korea Telecom
+AS17974     2432      558     1874    77.1%   TELKOMNET-AS2-AP PT
+                                               Telekomunikasi Indonesia
+AS22773     1940      132     1808    93.2%   ASN-CXA-ALL-CCI-22773-RDC -
+                                               Cox Communications Inc.
+AS7029      3197     1456     1741    54.5%   WINDSTREAM - Windstream
+                                               Communications Inc
+AS18566     2082      423     1659    79.7%   COVAD - Covad Communications
+                                               Co.
+AS10620     2263      653     1610    71.1%   Telmex Colombia S.A.
+AS2118      1424       51     1373    96.4%   RELCOM-AS OOO "NPO Relcom"
+AS7303      1671      397     1274    76.2%   Telecom Argentina S.A.
+AS4323      1594      401     1193    74.8%   TWTC - tw telecom holdings,
+                                               inc.
+AS4755      1664      556     1108    66.6%   TATACOMM-AS TATA
+                                               Communications formerly VSNL
+                                               is Leading ISP
+AS7552      1140      207      933    81.8%   VIETEL-AS-AP Vietel
+                                               Corporation
+AS8151      1609      702      907    56.4%   Uninet S.A. de C.V.
+AS18101     1017      173      844    83.0%   RELIANCE-COMMUNICATIONS-IN
+                                               Reliance Communications
+                                               Ltd.DAKC MUMBAI
+AS7545      1817     1032      785    43.2%   TPG-INTERNET-AP TPG Internet
+                                               Pty Ltd
+AS17908      841       60      781    92.9%   TCISL Tata Communications
+AS4808      1126      350      776    68.9%   CHINA169-BJ CNCGROUP IP
+                                               network China169 Beijing
+                                               Province Network
+AS1785      1934     1159      775    40.1%   AS-PAETEC-NET - PaeTec
+                                               Communications, Inc.
+AS9808       775       32      743    95.9%   CMNET-GD Guangdong Mobile
+                                               Communication Co.Ltd.
+AS13977      857      118      739    86.2%   CTELCO - FAIRPOINT
+                                               COMMUNICATIONS, INC.
+AS855        715       56      659    92.2%   CANET-ASN-4 - Bell Aliant
+                                               Regional Communications, Inc.
+AS17676      709       89      620    87.4%   GIGAINFRA Softbank BB Corp.
+AS3356      1116      499      617    55.3%   LEVEL3 Level 3 Communications
+AS3549      1055      442      613    58.1%   GBLX Global Crossing Ltd.
+AS22561     1038      431      607    58.5%   DIGITAL-TELEPORT - Digital
+                                               Teleport Inc.
+AS19262     1000      405      595    59.5%   VZGNI-TRANSIT - Verizon Online
+                                               LLC
+AS24560     1035      446      589    56.9%   AIRTELBROADBAND-AS-AP Bharti
+                                               Airtel Ltd., Telemedia
+                                               Services
+AS36998      772      203      569    73.7%   SDN-MOBITEL
+AS18881      602       41      561    93.2%   Global Village Telecom
+
+Total      45688    12209    33479    73.3%   Top 30 total
+
+
+Possible Bogus Routes
+
+        10.86.64.32/30       AS65530 -Private Use AS-
+        10.86.64.36/30       AS65530 -Private Use AS-
+        10.86.65.32/30       AS65530 -Private Use AS-
+        10.86.65.36/30       AS65530 -Private Use AS-
+        10.255.255.0/30      AS65530 -Private Use AS-
+        10.255.255.4/30      AS65530 -Private Use AS-
+        10.255.255.8/30      AS65530 -Private Use AS-
+        27.112.114.0/24      AS23884 PROENNET-AS Proimage Engineering and Communication Co.,Ltd.
+        41.222.80.0/21       AS37110 moztel-as
+        41.223.108.0/22      AS36966 EDL_AS Edgenet AS
+        62.12.96.0/19        AS38478 SUNNYVISION-AS-AP SunnyVision Limited
+        62.61.220.0/24       AS24974 TACHYON-EU Tachyon Europe BV
+        62.61.221.0/24       AS24974 TACHYON-EU Tachyon Europe BV
+        64.66.32.0/20        AS18864 
+        64.187.160.0/20      AS54858 AS-SBI - Condointernet.net
+        64.187.208.0/24      AS174   COGENT Cogent/PSI
+        64.187.209.0/24      AS23005 SWITCH-COMMUNICATIONS - SWITCH Communications Group LLC
+        65.111.1.0/24        AS32258 SDNGLOBAL - SDN Global
+        66.171.32.0/20       AS705   UUNET - MCI Communications Services, Inc. d/b/a Verizon Business
+        66.180.239.0/24      AS35888 VIGNETTE - VIGNETTE CORPORATION
+        66.245.176.0/20      AS19318 NJIIX-AS-1 - NEW JERSEY INTERNATIONAL INTERNET EXCHANGE LLC
+        66.251.128.0/24      AS33227 BLUEBRIDGE-NETWORKS - Blue Bridge Networks
+        66.251.133.0/24      AS33227 BLUEBRIDGE-NETWORKS - Blue Bridge Networks
+        66.251.134.0/24      AS33227 BLUEBRIDGE-NETWORKS - Blue Bridge Networks
+        66.251.136.0/21      AS33227 BLUEBRIDGE-NETWORKS - Blue Bridge Networks
+        66.251.140.0/24      AS33227 BLUEBRIDGE-NETWORKS - Blue Bridge Networks
+        66.251.141.0/24      AS33227 BLUEBRIDGE-NETWORKS - Blue Bridge Networks
+        66.251.142.0/24      AS33227 BLUEBRIDGE-NETWORKS - Blue Bridge Networks
+        66.251.143.0/24      AS3356  LEVEL3 Level 3 Communications
+        68.234.0.0/19        AS40430 COLO4JAX-AS - colo4jax, LLC
+        69.46.224.0/20       AS32592 HUNT-BROTHERS-OF-LOUISIANA-LLC - Hunt Brothers
+        69.46.233.0/24       AS32592 HUNT-BROTHERS-OF-LOUISIANA-LLC - Hunt Brothers
+        69.46.236.0/24       AS32592 HUNT-BROTHERS-OF-LOUISIANA-LLC - Hunt Brothers
+        69.165.92.0/24       AS20077 IPNETZONE-ASN - IPNetZone
+        71.19.134.0/23       AS3313  INET-AS BT Italia S.p.A.
+        72.35.224.0/22       AS30097 NUWAVE - NuWave
+        72.35.229.0/24       AS30188 TELEVERGENCE - Televergence Solutions Inc.
+        72.35.232.0/21       AS30097 NUWAVE - NuWave
+        72.44.16.0/20        AS15054 NORTHEAST-TEXAS-BROADBAND-LLC - Northeast Texas Broadband, LLC
+        74.91.48.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.49.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.50.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.51.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.52.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.53.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.54.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.55.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.56.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.57.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.58.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.59.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.60.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.61.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.62.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.91.63.0/24        AS30137 SEA-BROADBAND - Sea Broadband, LLC
+        74.115.124.0/23      AS46540 NARSASN - National Asset Recovery Services, Inc
+        81.4.0.0/18          AS38478 SUNNYVISION-AS-AP SunnyVision Limited
+        81.22.64.0/20        AS5511  OPENTRANSIT France Telecom S.A.
+        82.101.160.0/19      AS5511  OPENTRANSIT France Telecom S.A.
+        91.217.250.0/24      AS43108 GARM-AS Garm Technologies Ltd.
+        100.100.0.0/24       AS4847  CNIX-AP China Networks Inter-Exchange
+        102.2.88.0/22        AS38456 PACTEL-AS-AP Pacific Teleports. 
+        103.29.237.0/24      AS13200 
+        110.34.44.0/22       AS12653 COMTONET KB Impuls Hellas S.A.
+        116.206.72.0/24      AS6461  MFNX MFN - Metromedia Fiber Network
+        116.206.85.0/24      AS6461  MFNX MFN - Metromedia Fiber Network
+        116.206.103.0/24     AS6461  MFNX MFN - Metromedia Fiber Network
+        117.120.56.0/21      AS4755  TATACOMM-AS TATA Communications formerly VSNL is Leading ISP
+        121.46.0.0/16        AS4134  CHINANET-BACKBONE No.31,Jin-rong Street
+        142.54.0.0/19        AS23498 CDSI - Cogeco Data Services LP
+        172.102.0.0/22       AS4812  CHINANET-SH-AP China Telecom (Group)
+        172.116.0.0/24       AS7018  ATT-INTERNET4 - AT&T Services, Inc.
+        185.11.236.0/22      AS57910 SCIP-AS Soluciones Corporativas IP, SL
+        185.12.148.0/22      AS51747 INTERNETBOLAGET InternetBolaget Sweden AB
+        200.1.112.0/24       AS29754 GO2TEL GO2TEL.COM INC.
+        200.53.0.0/19        AS13878 Diveo do Brasil Telecomunicacoes Ltda
+        200.58.248.0/21      AS27849 
+        202.8.106.0/24       AS9530  SHINSEGAE-AS SHINSEGAE I&C Co., Ltd.
+        202.58.113.0/24      AS19161 
+        202.65.96.0/20       AS2706  PI-HK Pacnet Internet (Hong Kong) Limited
+        202.73.240.0/20      AS2706  PI-HK Pacnet Internet (Hong Kong) Limited
+        202.83.120.0/21      AS37972 
+        202.83.124.0/24      AS37972 
+        202.83.125.0/24      AS37972 
+        202.83.126.0/24      AS37972 
+        202.94.1.0/24        AS4808  CHINA169-BJ CNCGROUP IP network China169 Beijing Province Network
+        202.174.125.0/24     AS9498  BBIL-AP BHARTI Airtel Ltd.
+        202.176.1.0/24       AS9942  COMINDICO-AP SOUL Converged Communications Australia
+        202.179.134.0/24     AS23966 LDN-AS-PK LINKdotNET Telecom Limited
+        203.23.1.0/24        AS18111 NETSPEED-AS-AP Netspeed Internet Communications
+        203.24.38.0/24       AS18111 NETSPEED-AS-AP Netspeed Internet Communications
+        203.30.127.0/24      AS18111 NETSPEED-AS-AP Netspeed Internet Communications
+        203.32.86.0/23       AS18111 NETSPEED-AS-AP Netspeed Internet Communications
+        203.32.86.0/24       AS18111 NETSPEED-AS-AP Netspeed Internet Communications
+        203.32.87.0/24       AS18111 NETSPEED-AS-AP Netspeed Internet Communications
+        203.32.188.0/24      AS1221  ASN-TELSTRA Telstra Pty Ltd
+        203.142.219.0/24     AS45149 
+        204.9.116.0/22       AS30097 NUWAVE - NuWave
+        204.10.88.0/21       AS3356  LEVEL3 Level 3 Communications
+        204.10.92.0/23       AS30097 NUWAVE - NuWave
+        204.10.94.0/23       AS30097 NUWAVE - NuWave
+        204.10.112.0/21      AS27027 ANBELL ASN-ANBELL
+        205.175.214.0/24     AS5583  ORANGE-BUSINESS-SERVICES-BENELUX France Telecom S.A.
+        206.197.184.0/24     AS23304 DATOTEL-STL-AS - Datotel LLC, a NetLabs LLC Company
+        207.174.131.0/24     AS26116 INDRA - Indra's Net Inc
+        207.174.132.0/23     AS26116 INDRA - Indra's Net Inc
+        207.174.152.0/23     AS26116 INDRA - Indra's Net Inc
+        207.174.154.0/24     AS26116 INDRA - Indra's Net Inc
+        207.174.155.0/24     AS26116 INDRA - Indra's Net Inc
+        207.174.200.0/24     AS22658 EARTHNET - Earthnet, Inc.
+        207.174.248.0/21     AS6653  PRIVATEI - privateI, LLC
+        207.231.96.0/19      AS11194 NUNETPA - NuNet Inc.
+        207.254.128.0/21     AS30689 FLOW-NET - FLOW
+        207.254.128.0/24     AS30689 FLOW-NET - FLOW
+        207.254.136.0/21     AS30689 FLOW-NET - FLOW
+        207.254.138.0/24     AS30689 FLOW-NET - FLOW
+        207.254.140.0/24     AS30689 FLOW-NET - FLOW
+        208.83.53.0/24       AS40569 YGOMI-AS - Ygomi LLC
+        208.87.96.0/21       AS40638 
+        208.89.32.0/24       AS27431 JTLNET - JTL Networks Inc.
+        208.89.33.0/24       AS27431 JTLNET - JTL Networks Inc.
+        208.89.34.0/24       AS27431 JTLNET - JTL Networks Inc.
+        208.89.35.0/24       AS27431 JTLNET - JTL Networks Inc.
+        209.148.64.0/19      AS13773 TELNETCOMM - Telnet Communications
+        209.177.64.0/20      AS6461  MFNX MFN - Metromedia Fiber Network
+        209.213.0.0/20       AS33005 ELTOPIA - Eltopia.com, LLC
+        213.150.204.0/24     AS29338 AFOL-AS Used by Africaonline Operations
+        216.12.160.0/20      AS26627 AS-PILOSOFT - Pilosoft, Inc.
+        216.21.160.0/20      AS27876 American Data Networks
+        216.146.0.0/19       AS11915 TELWEST-NETWORK-SVCS-STATIC - TEL WEST COMMUNICATIONS LLC
+        216.194.160.0/20     AS27876 American Data Networks
+        216.227.142.0/23     AS46856 GLOBAL-HOST-AS - The Global Host Exchange
+        216.227.144.0/21     AS46856 GLOBAL-HOST-AS - The Global Host Exchange
+        216.234.128.0/22     AS14545 ADR-DRIVING-RECORDS - AMERICAN DRIVING RECORDS, INC.
+        216.234.132.0/24     AS14545 ADR-DRIVING-RECORDS - AMERICAN DRIVING RECORDS, INC.
+        216.234.139.0/24     AS14545 ADR-DRIVING-RECORDS - AMERICAN DRIVING RECORDS, INC.
+
+
+Please see http://www.cidr-report.org for the full report
+
+------------------------------------
+Copies of this report are mailed to:
+  nanog@nanog.org
+  eof-list@ripe.net
+  apops@apops.net
+  routing-wg@ripe.net
+  afnog@afnog.org
+

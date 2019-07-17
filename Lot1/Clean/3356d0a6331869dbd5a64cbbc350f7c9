@@ -1,0 +1,32 @@
+Subject:Re: Usuario para RAS
+El Tue, 11 Sep 2012 09:29:10 -0400, luis escribió:
+
+> Buenos días a todos, he instalado un servicio RAS por la guia de Debian
+> Lenny ahora mi duda es la siguiete, ya declare un usuario en un fichero
+> de configuración,
+
+Ah, qué bueno... recuerdo que te envié un enlace ¿has seguido esa guía? 
+Lo comento para poder leer los pasos que has seguido y ver a qué archivo 
+de configuración te refieres.
+
+> Aqui la duda
+> 
+> El usuario que tengo en ese fichero debe ser el mismo o es el mismo que
+> agrego con adduser nombreusuario???
+
+Bueno, suponiendo que te refieras al archivo "/etc/ppp/pap-secrets", debe 
+contener los usuarios del sistema (o virtuales) a los que permites 
+conectarse pero no sé a qué te refieres cuando dices "debe ser el 
+mismo" :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2ng4v$3ru$1@ger.gmane.org
+

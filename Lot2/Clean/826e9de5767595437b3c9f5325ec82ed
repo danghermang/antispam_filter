@@ -1,0 +1,73 @@
+Subject:Re: Ayuda Urgente: Iptables e ip rule no funcionan correctamente en
+	debian 6?
+Voy a ponerlo mas claro que puede que sea un lio.
+
+0:      from all lookup local
+30009:  from 10.0.2.226 fwmark 0x2 lookup TB2
+30010:  from 10.0.2.226 lookup TB3
+30030:  from 10.0.1.0/24 lookup TB3
+30040:  from 10.0.2.0/24 lookup TB3
+30060:  from all lookup main
+30070:  from all lookup default
+
+Con la anterior configuracion mi direccion 10.0.2.226 va a TB3.  Pasa
+del marcado. Tanto con destino al puerto 22 como al puerto 80 usan TB3.
+Si funcionara deberia ir al puerto 22 por TB2 y al 80 por TB3.
+
+0:      from all lookup local
+30010:  from 10.0.2.226 lookup TB3
+30030:  from 10.0.1.0/24 lookup TB3
+30040:  from 10.0.2.0/24 lookup TB3
+30060:  from all lookup main
+30070:  from all lookup default
+
+Quito el marcado y sigue yendo a TB3 por ambos puertos.
+
+0:      from all lookup local
+30030:  from 10.0.1.0/24 lookup TB3
+30040:  from 10.0.2.0/24 lookup TB3
+30060:  from all lookup main
+30070:  from all lookup default
+
+He quitado lo especifico a mi direccion y sigue yendo por TB3 como
+corresponde a la regla 30040.
+
+0:      from all lookup local
+30030:  from 10.0.1.0/24 lookup TB3
+30060:  from all lookup main
+30070:  from all lookup default
+
+Si quito la regla 30040 me manda por TB1 que es la que por defecto tiene
+main.
+
+Es decir, está funcionando todo pero en cuanto pones fwmark se lo salta...
+
+
+
+El 06/09/12 13:04, Juan Antonio escribió:
+> El 06/09/12 13:00, Francisco J. Bejarano escribió:
+>> 30015:  from 10.0.2.226 lookup TB3
+> ¿y si quitas esta llega a TB2 o a main?
+>
+>
+>
+>
+
+
+-- 
+-----------------------------------------------------------------
+Francisco J. Bejarano
+Responsable de Sistemas
+Dpt. Sistemas e Infraestructuras
+Open Knowledge Network S.L.
+francisco.bejarano@openknowledgenetwork.com
+Tel. (+34) 902 534 004
+Fax. (+34) 917 266 476
+-----------------------------------------------------------------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50488C13.3060102@openknowledgenetwork.com
+

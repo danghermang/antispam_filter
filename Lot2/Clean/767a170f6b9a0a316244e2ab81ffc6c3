@@ -1,0 +1,36 @@
+Subject:Re: [LUG] Time to upgrade
+On 25/10/12 20:47, Rob Beard wrote:
+> On 25/10/12 20:33, Migel Wimtore wrote:
+>> Yes, assuming he does (have a separate home parrtition). And if not:
+>> next time. Just my 2 pence, but would recommend at least 15gb for root.
+>> If I could go back and make mine even bigger than 15 I would (can't be
+>> fracked to resize it now). It grows!
+>>
+>
+> Actually yeah I only have 1.7GB free on root.  Maybe next time I
+> upgrade I'll bung an extra couple of GB at the root partition.
+>
+> Rob
+>
+>
+
+You *did* install using LVM2, right? Even if you didn't, resize2fs to
+the rescue. It's pretty trivial to change partition/volumes sizes and
+indeed most other disk parameters after the install.
+
+Obviously you need to backup your data first though, just in case. I've
+actually never lost data in all the hundreds of times I've resized and
+modified disk layouts but I imagine the first time you're too confident
+and don't bother backing up, that's when it's suddenly going to fail
+mid-operation.
+
+Personally I never define a separate /home partition and just leave it
+under / so my OS disk layout is just /boot and / - this workstation has
+16Gb RAM so I don't even have a swap partition.
+
+Regards
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

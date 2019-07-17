@@ -1,0 +1,39 @@
+Subject:Re: Fallo con la hora del sistema
+El Mon, 26 Nov 2012 22:06:28 -0430, Miguel Matos escribió:
+
+> Intentaré ser breve y directo: esto que les muestro es cuasi reciente
+> (son las 22:04 según mi celular Android, pero dice 17:35 mi compu):
+> http://twitpic.com/bgszsi
+> 
+> La subí acá para no colapsar las redes en sitios que no carguen correo
+> con HTML. Y quiero saber: ¿cómo puedo hacer para que me lea la hora
+> correcta? Ya lo intenté con
+> hwclock --set --date "2012-11-26 22:04" [OK]
+> date --set "2012-11-26 22:04"
+> lun nov 26 22:04:00 VET 2012
+> root@debian-LT(...)
+> 
+> Pero quiero que sea permanente. ¿Cómo poder hacer esto? 
+
+Configura algún demonio de sincronización de la hora como ntpd.
+
+> Si alguna respuesta es a causa de la pila del BIOS, entonces tendré un
+> gran y enorme problema, porque no sé abrir mi laptop. Agradecido por
+> alguna ayuda que me faciliten.
+
+Por lo general, una batería agotada hace que los valores de la BIOS 
+vuelvan a los de fábrica, es decir, no sólo variaría la hora sino la 
+fecha completa (el año) pero tampoco estaría de más que comprobaras si la 
+hora de la BIOS es la correcta.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k92kfv$2d1$3@ger.gmane.org
+

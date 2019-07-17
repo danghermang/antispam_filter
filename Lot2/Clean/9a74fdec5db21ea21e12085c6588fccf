@@ -1,0 +1,16 @@
+Subject:Re: postgresql-9.2 in squeeze-backports(-sloppy)
+* Peter Eisentraut <petere@debian.org> [2012-09-27 20:06 (-0400)]:
+> On Tue, 2012-09-25 at 10:41 +0200, Arsen STASIC wrote:
+> > is there any time schedule for postgresql-9.2 in
+> > squeeze-backports(-sloppy)?
+> 
+> You can get it from here: http://pgapt.debian.net/
+
+Thanks for pointing me there.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120928103654.GJ3738@univie.ac.at
+

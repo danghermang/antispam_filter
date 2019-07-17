@@ -1,0 +1,150 @@
+Subject:Re: [LUG] Raspberry Pi now 100% Open Source on the ARM side -
+	clusters
+On 26/10/12 01:18, Gordon Henderson wrote:
+> On Thu, 25 Oct 2012, tom wrote:
+>
+>> I did some occam work on their PC simulator. Once I walked down a =
+
+>> corridor and found, next to four lifts and no humans, a large black =
+
+>> filing cabinet thingy with 1024 transputers in it - a computing =
+
+>> surface I think they called it. Probably one the first ever built.
+>> Just sitting there with no-one around.
+>
+> The Computing Surface was Meikos name for their product, or just a =
+
+> "Surface". The large black boxes were in-fact 19" racks with nice =
+
+> outer skins on them. They would take what was called an M40 - meaning =
+
+> it could take 40 boards. Each board was about 14" square. Meiko went =
+
+> for function rather than transputer density, so the most transputers =
+
+> they ever had on the board was 4 (usually with 4MB of RAM, although as =
+
+> memory density increased it went up to 16MB per cpu). The reason for =
+
+> only 4 was the backplane which carried the switch network - no more =
+
+> hand-wiring up the transputers - Meiko had developed their own switch =
+
+> chip (ahead of inmos) as well as a supervisory bus which allowed =
+
+> control of all the devices - reset, some rudimentary monitoring and =
+
+> programming the switch chips...
+>
+> (a transputer had 4 links, so 4 on a board is 16-links per slot, so =
+
+> hand-wiring it gets complex quickly)
+>
+> So the max possible in a single Surface was 40 x 4 =3D 160 transputers.
+>
+> I think the biggest one they ever sold was to Toyota who were using it =
+
+> for some very advanced (for the time) raytracing to generate the =
+
+> advertising material for their cars (or mixing the paint or something =
+
+> like that). That was 3 or 4 M40's linked together (there was a 16-link =
+
+> plug-in card)
+>
+> There were many plug-in cards - e.g. graphics - the 2nd gen card which =
+
+> I wrote all the low-level drivers for could work in banks of 3 - one =
+
+> each for R,G and B.
+>
+> Do you remember way back, ITN's news at 10 where they soomed over a =
+
+> night-time London and up to big ben? That was rendered on a surface - =
+
+> the chap who did it did 30 different renders for each minute past the =
+
+> hour in-case they were running late...
+>
+> There were other boards - One had a SCSI & Ethernet interface - I =
+
+> worked on that and Minix was ported to it - 8MB of RAM, no MMU and it =
+
+> ran Minix... However we quickly replaced that as it really wasn't viable.
+>
+> But people wanted faster & inmos wasn't delivering, so they moved on =
+
+> to biards with 2 x i860's on-board and 4 transputers - leaving the =
+
+> transpuiter (2 for each i860) as nothing more than comms chips (shared =
+
+> memory) then they had a sparc board as the host board doing away with =
+
+> the need to front-them with a PC/VAX or Sun. A few other specialist =
+
+> boards were made - e.g. a high speed parallel interface to read Ampex =
+
+> video/data tapes (synthetic apperature radar imaging)
+>
+> But even the i860's weren't fast enough, so the next gen. the CS2 - in =
+
+> the picture I posted earlier was entirely sparc based.
+>
+> I worked mostly on the low-level stuff, doing all the =
+
+> test/diagnostic/board bring-up code when I then turned into the device =
+
+> drivers, I didn't do too much applications stuff.
+>
+>> When I read how Zaphod felt about just having to steal the heart of =
+
+>> gold a few years later I knew exactly how he felt but without the =
+
+>> built in getaway vehicle. I think I spent a good 10 minutes going =
+
+>> through the possibilities before carrying on as normal.
+>
+> I guess being surrounded by it for so-long sort of makes me feel a =
+
+> little "meh" about it all now...
+>
+> Gordon
+>
+This was a 1024 device machine ISTR the number was written on the side =
+
+or thru conversations with potential users - it was for the black ops =
+
+department where I worked so it might not have gone thru normal channels.
+It was about 7 or 8' high, any smaller and it would have gone in the =
+
+cortina! I never found out what it was for but it was about the time =
+
+they stopped us making an RSA voice encryption/decryption chip for =
+
+phones so perhaps they couldn=92t get it working properly.
+I heard that inmos got so many military sales they sat on their laurels. =
+
+It really was the era of the 'world only needing 5 computers' and people =
+
+were locked in their own little paradigms. I'm still amazed by 'new' =
+
+technology that comes out and we were doing that 22+ years ago at BTRL. =
+
+I even toyed with the idea of a 16 bit 2.4Ghz cpu (about $10) for a =
+
+while but we got privatised and anyone with any real technical knowledge =
+
+got thrown out. 'We are a telecoms company and we don=92t do research' I =
+
+was told on presenting a design for 2.4GB fibre optic t-switch/repeater =
+
+for $5. Last time I heard they we're paying =A360k to buy similar of others=
+...
+Tom te tom te tom
+
+
+-- =
+
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

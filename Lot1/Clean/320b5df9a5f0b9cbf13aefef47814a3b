@@ -1,0 +1,54 @@
+Subject:Re: Proxy offline
+El Sun, 09 Dec 2012 11:27:13 -0600, Francisco Eduardo Ascencio Dominguez
+escribió:
+
+(ese html...)
+
+> El 09/12/2012, a las 09:31, Camaleón <noelamac@gmail.com> escribió:
+
+(...)
+
+>> Pues yo empezaría por lo básico: mira a ver si tienes cargadas las
+>> reglas de iptables ("iptables -L") y revisa el archivo de configuración
+>> de squid.
+ 
+> Ok según yo cargo las reglas pero verifico que reglas tengo en iptables
+> (iptables -L) y me arroga esto ..
+> 
+> 
+> Chain INPUT (policy ACCEPT)
+> target     prot opt source               destination
+> 
+> Chain FORWARD (policy ACCEPT)
+> target     prot opt source               destination
+> 
+> Chain OUTPUT (policy ACCEPT)
+> target     prot opt source               destination
+> 
+> que debo hacer o como debo cargar las reglas ?
+
+(...)
+
+Pues debes hacer lo que pone en las instrucciones que es cargar las 
+reglas al iniciar el sistema ya que eso no se hace automáticamente. Más 
+concretamente, dice: 
+
+"(...) ACTUALIZACIÓN: Si deseamos hacer que las reglas iptables se 
+carguen automáticamente cada vez que reiniciemos el sistema, pueden ver 
+el siguiente tutorial: Restaurar las iptables en Ubuntu automáticamente."
+
+Pero antes de eso, asegúrate de que con las reglas cargadas y activadas 
+el modo transparente funciona correctamente. Si es así, sigue los pasos 
+indicados para hacer que se carguen al inicio.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ka526q$hck$1@ger.gmane.org
+

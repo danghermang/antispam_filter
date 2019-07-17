@@ -1,0 +1,34 @@
+Subject:Re: Donde y como recomiendan almacenar =?utf-8?Q?informaci=C3=B3n?=
+	sensible (claves de seguridad)
+adriancito <adrianfranggi@gmail.com> writes:
+
+> Grupo, aquí les escribo con un tema harto tratado pero que nunca he
+> definido aún.
+>
+> Quisiera llevar almacenada en algún dispositivo información compleja y
+> sensible como datos de infraestructura, claves, y demas.
+>
+> Que recomiendan?
+>
+> 1) Pendrive encriptado?
+> 2) Algún sitio que se dedique a esto?
+> 3) Cuenta de correo anónima con los datos en texto plano?
+>
+> En fin que pueden recomendar para analizar? o que metodología
+> Uds. estan empleando?
+
+Puedo recomendar las dos opciones: TrueCrypt [1] (no está en
+repositorios de Debian) y "aptitude install cryptsetup". Yo
+personalmente uso ambos. El primero lo uso si quiero crear una partición
+encriptada, la cual se puede abrir desde cualquier sistema operativo
+(Mac OS X, Windows); el segundo, p. ej., lo uso para NAS (que corre bajo
+Debian en mi caso).
+
+[1] http://www.truecrypt.org/docs/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87wqye5twt.fsf@tochka.ru
+

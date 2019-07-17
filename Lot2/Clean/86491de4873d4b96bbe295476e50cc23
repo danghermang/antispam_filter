@@ -1,0 +1,30 @@
+Subject:	=?ISO-8859-1?Q?Brillo_pantalla_en_port=E1til_Acer_con_gr=E1fica_Intel?=
+Hola a todos de nuevo
+
+Desde que tengo este port=E1til, no he conseguido cambiar el brillo de
+la pantalla, ni con las teclas Fn+< o Fn+> (Izquierda y derecha) ni
+con software. Estoy usando Debian Squeeze con kernel 2.6.32 en un
+port=E1til Acer 5750g
+
+Despu=E9s de buscar mucho en google, cosas que no funcionan:
+-En el grub acpi_backlight=3Dvendor
+-En el grub acpi_osi=3DLinux
+-En el grub acpi=3Doff (esto funciona pero ya no me reconoce ni la
+bater=EDa ni el escalado de frecuencia)
+-Archivos en /sys o /proc (he buscado tantos que ya no me acuerdo de ningun=
+o)
+-Gamma
+-Xbacklight
+-Actualizar el kernel (funciona, pero hace que me dejen de funcionar
+los videos en el vlc, cosa rara)
+
+A ver si me podeis ayudar!
+
+Un saludo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8QssJ3G2JV1xFU9+OxLzCYGS4zMFnhpk3C868qw4YC+gA@mail.gmail.com
+

@@ -1,0 +1,23 @@
+Subject:Re: [Koha] (no subject)
+On 6 November 2012 08:32, Haik Zargaryan <haikzargaryan@yahoo.com> wrote:
+>
+> Dear community,
+>
+> When I delete a record it is still shown in the catalog, although when I
+try to open it koha responses  that "The record you requested does not
+exist". How can simply eliminate the deleted record from the catalog (both
+OPAC and Intranet)?
+
+
+Hi!
+
+There is a FAQ that sounds similar to this here:
+http://koha-community.org/faqs/deleting-biblios-biblioitems-deleted-items-whats-wrong/
+
+Best regards,
+Magnus Enger
+libriotech.no
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

@@ -1,0 +1,62 @@
+Subject:Re: r8168b woes
+I got a netboot version of the kernel installed, it was created using
+the linux-source-3.2 from the unstable branch then using the
+live-build scripts created the netboot.
+
+It won't boot to completion, the last few messages I get are:
+r8169 0000:02:00.0: eth0: unable to load firmware patch
+rtl_nic/rtl8168e-3.fw (-2)
+r8169 0000:02:00.0: eth0: link down
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+IP-Config: eth0 hardware address XX:XX:XX:XX:XX:XX mtu 1500 DHCP RARP
+
+However The image does work when running on a VirtualBox PXE Boot
+image. So I'm still suspecting the network driver here, although I
+can't get far enough into the boot process to actually look at dmesg.
+I'll try recreating the image including the firmware-realtek package
+see if that helps.
+
+I'm not sure if I'm using the same kernel as with unstable since I'm
+compiling from source. I'm not sure if the fix is a debian specific
+patch or if the kernel image is supposed to have the fix included. I
+was unable to get a netboot of sid working but I'm guessing that
+live-debian is supposed to be based on stable.
+
+I'll update as I learn more.
+
+Jeffrey
+
+On Sun, Oct 21, 2012 at 4:03 PM, Thorsten Glaser <t.glaser@tarent.de> wrote=
+:
+> On Fri, 19 Oct 2012, Ben Hutchings wrote:
+>
+>> Do you get a 'NETDEV WATCHDOG' warning in the kernel log?  If so this
+>> may be a known bug which is fixed in 3.2.25.  Try the package from
+>> unstable (linux-image-3.2.0-4-amd64 version 3.2.30-1).
+>
+> For what it=E2=80=99s worth, installing 3.2.0-4 on a manitu dedicated ser=
+ver
+> fixes that problem for me, twice (i.e. on two boxen, all r8169, with
+> different configurations).
+>
+> bye,
+> //mirabilos
+> --
+> 15:41=E2=8E=9C<Lo-lan-do:#fusionforge> Somebody write a testsuite for hel=
+loworld :-)
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/alpine.DEB.2.02.1210220103080.18486@tgla=
+se.lan.tarent.de
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ9weshMMZmM==k8Qzs8BKmBfwpFPjGxvFwo-zQcAk+9UfFDaA@mail.gmail.com
+

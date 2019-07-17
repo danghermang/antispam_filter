@@ -1,0 +1,26 @@
+Subject:confirm 66ba5dda780c2334a30abe21f87a7f94e902d1ef
+Mailing list subscription confirmation notice for mailing list
+anti-abuse-wg
+
+We have received a request from 2001:67c:2e8:16::c100:59d for
+subscription of your email address, "legit4as@gmail.com", to the
+anti-abuse-wg@ripe.net mailing list.  To confirm that you want to be
+added to this mailing list, simply reply to this message, keeping the
+Subject: header intact.  Or visit this web page:
+
+    https://www.ripe.net/mailman/confirm/anti-abuse-wg/66ba5dda780c2334a30abe21f87a7f94e902d1ef
+
+
+Or include the following line -- and only the following line -- in a
+message to anti-abuse-wg-request@ripe.net:
+
+    confirm 66ba5dda780c2334a30abe21f87a7f94e902d1ef
+
+Note that simply sending a `reply' to this message should work from
+most mail readers, since that usually leaves the Subject: line in the
+right form (additional "Re:" text in the Subject: is okay).
+
+If you do not wish to be subscribed to this list, please simply
+disregard this message.  If you think you are being maliciously
+subscribed to the list, or have any other questions, send them to
+anti-abuse-wg-owner@ripe.net.

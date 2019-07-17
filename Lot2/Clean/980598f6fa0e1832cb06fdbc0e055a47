@@ -1,0 +1,64 @@
+Subject:Re: [arin-ppml] Utilization policy is not aggregate
+On Fri, Nov 16, 2012 at 06:22:53PM -0600, Jimmy Hess wrote:
+> 
+> It's essentially like saying  "You used your previous allocation _SO_
+> efficiently, that we will give you a bonus,  and  let you not use the
+> next allocation so efficiently, and still obtain more resources."
+
+Or it's like saying "because we value form over function, you can't
+have any more addresses now, unless you waste time reassigning some of
+your customers from your previous allocation to your next allocation".
+
+> Instead it should just be  "lesson learned"  for the applicant;  if
+> you ever actually exceed 80% utilization, stop allocating from that
+> block, start allocating from the new one, and there is no need to
+> change policy.
+
+So you believe that we should encode in policy a preference for making
+assignments from newer allocations over older allocations, and reward
+providers who do that?
+
+An applicant who has used 95% of his first /16 and 75% of his second
+/16 has more efficiently utilized his space than an applicate who has
+used 81% of his first /16 and 81% of his second /16.  Yet we are
+willing to give more addresses to the second, less efficient,
+application, but we will not give more addresses to the first
+applicant.
+
+Moreover, the first applicant *can* get more space without any
+increase in utilization, simply by renumbering customers equivalent to
+5% of a /16 from the his first /16 to his second /16.  Should policy
+really be motivating/rewarding this sort of behavior?
+
+A counterargument is the repetitive assignment possibility. Someone who
+is at 95% of a /16 justifies and receives a /20.  Without any
+utilization of it whatsoever, they are at 89% and can essentially
+submit the same paperwork and get another /20 the next day.  However:
+(a) even under current policy, they can do that, as long as they move
+80% of a /20 of customers from their original /16 to their new
+/20, and (b) in the situation I describe, the real cause of the
+potential for repetitive assignment is the applicant's voluntary delay of
+their request: they could have requested when they got to 80% of their
+first /16, and then their /20 would have placed them below 80% in
+aggregate.
+
+The goal is efficient utilization of a limited resource. But current
+policy treats entites who are equally situated in terms of existing
+space, utilization of existing space, and projected need going forward,
+differently, based on *which* of their existing addresses they have
+used.
+
+If the government started taxing purchases paid for with a $20 bill
+differently from purchases paid for with two $10 bills, we'd all think
+that's silly.  But we are treating providers who made allocations from
+their older assignment differently from providers who make those same
+allocations from their newer assignments.
+
+     -- Brett
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

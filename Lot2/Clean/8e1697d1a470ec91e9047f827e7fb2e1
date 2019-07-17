@@ -1,0 +1,50 @@
+Subject:Re: [routing-wg] MERIT Darknet Experiment and RPKI alerts
+Overall, I think this is very dangerous approach, and the wrong way to start with.
+
+There might be very good reasons, why a full block of (IPv6) addresses, or a
+subset of, ist not (yet) globally visible. Announcing/Hijacking those addresses
+may seriously interfere with local tests or pilot deployment.
+
+IMHO this should be strictly opt-in, instead of opt-out!
+
+Wilfried.
+
+Alex Band wrote:
+
+> A number of you have reported that your are getting alert emails from the Resource Certification (RPKI) service. The alerting system can warn you if some of your certified address space has the RPKI validity "Unknown" or "Invalid". 
+> 
+> The warning people are receiving will look something like this:
+> 
+> 
+>>There are alerts about BGP announcements with your certified address
+>>space in the Resource Certification (RPKI) service.
+>>
+>>These are BGP announcements with your certified address space that have
+>>the status Unknown. You should create a ROA for each authorised
+>>announcement to make them Valid:
+>>
+>>AS Number   Prefix
+>>AS237	2a00::/12
+>>
+>>You are able to fix and ignore reported issues, change your alert
+>>settings, or unsubscribe by visiting http://certification.ripe.net/.
+> 
+> 
+> In this case, the alert is triggered for LIRs who hold an IPv6 address block, but do not announce (all of) it. The *unannounced* address space is being "hijacked" by MERIT as part of its darknet experiment:
+> 
+> http://www.ripe.net/internet-coordination/news/merit-to-temporarily-use-2a00-0000-12-for-darknet-experiment
+> 
+> If you have received the alert, your certified, unannounced IPv6 prefix is hijacked by AS237 because 2a00::/12 is the most specific announcement that overlaps with it. There are two things you can do:
+> 
+> 1. Announce *all* of the IPv6 address space you hold. This way AS237 cannot hijack your prefix with a less specific announcement.
+> 2. Suppress the alert for the announcement from AS237 in the Resource Certification (RPKI) system in the LIR Portal. 
+> 
+> Please note that the RPKI Alerting system uses the RIPE NCC Route Collectors to trigger the errors, so there may be slight differences between what they see and what you actually do.
+> 
+> If you have any questions, please do not hesitate to contact me.
+> 
+> Kind regards,
+> 
+> Alex Band
+
+

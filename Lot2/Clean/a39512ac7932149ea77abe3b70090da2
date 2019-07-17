@@ -1,0 +1,36 @@
+Subject:Re: acerca de clientes ligeros
+On Mon, 24 Sep 2012 09:23:35 -0400, ariel wrote:
+
+(ese html y ese cross-posting...)
+
+> hola lista estuve siguiendo un manual para instalar clientes ligeros e
+> implemente todo el sistema servidor y cliente en maquinas virtuales
+> mediante virtualbox, todo funciona perfectamente pero tengo una duda,
+> por ejemplo al servidor le tengo puesta una ip fija digamos la 10.1.1.10
+> y en la configuracion del servidor en el dhcp tengo declarado que el
+> rango de ip a asignar seria de la 10.1.1.200 a la 10.1.1.250 perfecto
+> eso funciona pues al iniciar un cliente veo que dhcp le esta asignando
+> las direcciones ip segun el rango declarado, pero resulta que al
+> levantar los clientes y hacer en cada uno de estos un ifconfig veo que
+> todos tienen como direccion ip la 10.1.1.10 es decir la misma del
+> servidor, como puede hacer para que cada cliente tenga una ip distinta??
+> sea de forma manual o por dhcp me da igual.
+
+Si has configurado los clientes para usar un direccionamiento dinámico 
+(DHCP) pero aún así tienes problemas para obtener los datos correctos, 
+revisa la configuración de las tarjetas de red de todos los clientes en 
+virtualbox y asegúrate de que están configurados en modo "bridge" o 
+"puente" ya que de lo contrario estarán tomando los datos del adaptador 
+de red virtual que genera VB en lugar de tu servidor local.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3q3m5$e50$15@ger.gmane.org
+

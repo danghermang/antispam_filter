@@ -1,0 +1,52 @@
+Subject:Re: pasar directamente de etch a squeeze
+El Fri, 21 Sep 2012 12:21:56 +0200, Alarc'h escribió:
+
+> Heredo de un servidor que aun esta bajo Debian Etch...
+> 
+> su "uptime" es el siguiente :
+>  13:18:18 up 1342 days, 22:21,  1 user,  load average: 0.00, 0.00, 0.00
+
+Olé por ese "uptime". Supongo que al no haber actualizaciones de paquetes 
+no habrá tenido que reiniciar tras una actualización del kernel :-P
+ 
+> ¡ Pues podemos decir que Etch funcionaba bien ! Pero claro no hay más
+> actualizaciones etc. ya que Lenny, que siguió a Etch, es el oldstable.
+
+Y Lenny ya no tiene actualizaciones aunque sea "oldstable". Por cierto, 
+Wheezy saldrá en unos meses.
+
+> Pues quería saber si es posible hacer directamente la actualización de
+> Etch hasta Squeeze sin pasar por la etapa a Lenny (lo que vuelve a saber
+> si se puede actualizar a Debian saltando 1 o x versiones).
+
+Es posible pero no es un proceso oficialmente soportado ni documentado, 
+es decir, que la actualización corre completamente a cargo del 
+administrador.
+
+> Preciso que la computadora esta en un data center, que no puedo acceder
+> a esta computadora físicamente y que todo deberá utilizar la línea de
+> commandos vía una conexión ssh a través de Internet.
+
+Mal asunto... deberías tener un Plan B en el caso de que el sistema no 
+arranque.
+
+> ¿ Sabe alguien si modificar el fichero /etc/apt/sources.list
+> reemplazando etch por squeeze es suficiente para lanzar dist-upgrade ?
+
+Antes de eso, conviene consultar las notas de la versión, concretamente 
+el capítulo 4 (sí, de ambas versiones):
+
+http://www.debian.org/releases/lenny/i386/release-notes/index.en.html
+http://www.debian.org/releases/stable/i386/release-notes/index.en.html
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3pmgl$e50$1@ger.gmane.org
+

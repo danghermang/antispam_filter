@@ -1,0 +1,19 @@
+Subject:Re: lecteur de cartes interne
+Le Fri, 05 Oct 2012 09:10:01 +0200, Pierre Frenkiel a écrit :
+
+> J'ai fait un essai malheureux avec un modèle de lecteur de cartes
+> (Uspeed Combo): Les ports usb 3.0 fonctionnaient, mais les slots de
+> lecture de carte n'étaient pas reconnus par Squeeze. (Sous Windows XP,
+> c'était pire: rien en marchait)
+
+un petit "lspci" avant pour voir
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/506f13d0$0$6144$426a74cc@news.free.fr
+

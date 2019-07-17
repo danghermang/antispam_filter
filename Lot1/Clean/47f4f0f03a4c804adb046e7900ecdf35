@@ -1,0 +1,23 @@
+Subject:Re: zones horaires
+Bzzz, 2012-09-16 16:09+0200:
+> Existe-t'il un fichier donnant la correspondance entre les noms
+> longs et raccourcis des fuseaux horaires? (EST, CEST, CET, etc).
+
+Regarde les fichiers dans /usr/share/zoneinfo, il y a pas mal de liens
+symboliques lorsque c'est possible.
+
+-- 
+ ,--.
+: /` )   Tanguy Ortolo      <xmpp:tanguy@ortolo.eu>
+| `-'    Debian Developer   <irc://irc.oftc.net/Tanguy>
+ \_
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k378fc$m83$1@ger.gmane.org
+

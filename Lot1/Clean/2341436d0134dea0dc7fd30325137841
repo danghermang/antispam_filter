@@ -1,0 +1,72 @@
+Subject:=?iso-8859-1?Q?RE=3A__Probl=E8me_avec_aufs_et_switch=5Froot?=
+     Bonjour,
+
+  Je ne vois pas o=F9 aufs est utilis=E9 dans ta manip. Tu ne te serais =
+pas tromp=E9 dans ton montage tmpfs ?
+Que fais-tu de /var/tmp/essai ? De /var/tmp/rootnew ?!?
+
+	Fred.
+
+
+=20
+-----Message d'origine-----
+De : Fran=E7ois Boisson [mailto:user.anti-spam@maison.homelinux.net]=20
+Envoy=E9 : mercredi 5 septembre 2012 18:42
+=C0 : debian-user-french@lists.debian.org
+Objet : Probl=E8me avec aufs et switch_root
+
+Bonjour =E0 tous,=20
+
+Sur une machine donn=E9e (portable sous wheezy noyau 3.5.2 amd64 avec =
+aufs)
+Je fais=20
+
+totoche:/home/francois# mount =
+/dev/disk/by-uuid/a73e8085-03d8-4a4c-8a9e-2bfa88b3 1ef5 /var/tmp/essai
+(c'est lUUID de la partition racine)
+totoche:/home/francois# mount /dev/sda6 /var/tmp/essai/var
+totoche:/home/francois# mount /dev/sda8 /var/tmp/essai/home
+totoche:/home/francois# mount /dev/sda2 /var/tmp/essai/data
+totoche:/home/francois# mount -o bind /dev /var/tmp/essai/dev
+totoche:/home/francois# mount -o bind /run/ /var/tmp/essai/run/
+totoche:/home/francois# mkdir /var/tmp/rootnew=20
+totoche:/home/francois# mount -t tmpfs /var/tmp/tmpfs /var/tmp/tmpfs=20
+totoche:/home/francois# switch_root /var/tmp/tmpfs /bin/bash
+
+J'obtiens un prompt tout =E0 fait correct dans un environnement qui me =
+parait
+correct. Je fais=20
+# touch /tmp/gabeu
+Je constate que /tmp/gabeu existe dans la nouvelle racine, pas dans /tmp =
+de
+l'ancienne racine et /var/tmp/tmpfs contient tmp/gabeu. Bref =E7a semble
+marcher (=E7a r=E9pond =E0 ce que je souhaitias) . Je tape=20
+# exit
+et je constate que /sbin, /usr:sbin et quantit=E9 de fichiers dans la =
+partition
+racine ont disparu. Bon j'ai r=E9cup=E9r=E9 le bazar mais je suis =
+perplexe, je ne
+comprends pas ce qui a pu se passer. Si quelqu'un a des id=E9es...
+
+Fran=E7ois Boisson
+
+--=20
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: =
+http://lists.debian.org/20120905184205.8eeb4a0831331a6176145460@maison.ho=
+melinux.net
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/C352174B6B58ED4FBA07CFB13C9DAC6932EA236B@cadine.france.prosodie.local
+

@@ -1,0 +1,31 @@
+Subject:Re: systemd et debian
+David Soulayrol, 2012-10-09 11:45+0200:
+> Est-ce que vous rencontrez des problèmes au jour le jour ? Y a-t-il des
+> services importants non supportés ? Est-ce que cela apporte un confort
+> particulier (en toute subjectivité) ?
+
+J'ai essayé sur diverses machines de type bureautique. J'ai constaté un
+temps de démarrage légèrement inférieur à celui avec SysV init et SysV
+rc. Un seul problème, qui exclut systemd sur mon ordinateur portable :
+j'utilise une partition chiffrée, et si ça demande bien le mot de passe
+au démarrage, en réalité j'ai beau le taper, rien ne se passe.
+
+Bilan : pas très intéressant, je reste sous SysV init + rc par
+conservatisme. Et parce que je n'aime pas l'esprit dans lequel systemd
+est développé et promu.
+
+-- 
+ ,--.
+: /` )   Tanguy Ortolo      <xmpp:tanguy@ortolo.eu>
+| `-'    Debian Developer   <irc://irc.oftc.net/Tanguy>
+ \_
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k5h7ma$m24$1@ger.gmane.org
+

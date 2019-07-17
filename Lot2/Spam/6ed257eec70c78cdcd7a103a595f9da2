@@ -1,0 +1,12 @@
+Subject:If you are having trouble logging into the site or it says the server can't be r
+Message received from Blackcats 2.2 on 2012-12-09 17:28:44 GMT.
+---------------------------------------------------------------------
+
+There is a problem with the site redirecting to https.  In some cases if your bookmark or link is using http instead of https to access the site, your browser will tell you that the site is unreachable or some other error message.  Do not be alarmed.  The site is fine.  To fix the error just change your bookmarks and how you view the site from http to https.  You should be able to login normally.
+
+//regs
+
+---------------------------------------------------------------------
+Blackcats 2.2
+
+

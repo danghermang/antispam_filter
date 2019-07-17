@@ -1,0 +1,43 @@
+Subject:Re: Mauvaise habitude
+Yannick VOYEAUD, 2012-09-07 15:48+0200:
+> Savez-vous qu'il existe une solution de réponse qui convient bien aux 
+> listes?
+> 'Répondre à la liste'
+
+Je ne connais pas beaucoup de logiciels de messagerie qui proposent
+cela. Mutt, Thunderbird aussi visiblement, mais ce n'est pas généralisé,
+si ?
+
+> Lorsque vous faites répondre à tous le message arrive bien sur la liste 
+> mais en COPIE
+
+Pas forcément. Pour les listes auxquelles vous êtes abonné, vous pouvez
+envoyer vos messages avec un champ Mail-Followup-To contenant l'adresse
+de la liste. Ce champ, lorsqu'il est présent, est utilisé par les
+logiciels de messagerie — du moins ceux qui respectent les norme, c'est
+à dire à peu près tous sauf ceux de Microsoft et les webmails codés trop
+vite je pense — pour les réponses générales.
+
+Autrement dit, si vous envoyez un message avec
+    Mail-Followup-To: debian-users-french@l.d.o
+lorsque quelqu'un y « répondra à tous », cela donnera
+    To: debian-users-french@l.d.o
+au lieu de l'habituel
+    To: Vous
+    Cc: debian-users-french@l.d.o
+
+-- 
+ ,--.
+: /` )   Tanguy Ortolo      <xmpp:tanguy@ortolo.eu>
+| `-'    Debian Developer   <irc://irc.oftc.net/Tanguy>
+ \_
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2cutf$c4a$1@ger.gmane.org
+

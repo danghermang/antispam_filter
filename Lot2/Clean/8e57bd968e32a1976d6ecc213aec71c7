@@ -1,0 +1,146 @@
+Subject:Re: [EVDL] Elcon PFC 1500 Died
+Hi Bill,
+
+I have never disconnected the DC side under load, so I know that wasn't the issue. In fact, my PFC30 failed both times while about halfway done charging. It seems due to heat build up.  Once was using a standard dryer socket at work. The second time was using a J1772 EVSE at work. Neither of those cases was using a generator (and I have never used one to charge my car).
+
+I would be very interested to know why it tends to fail. If it happens again...I'll probably fix it again, but also get a different charger. It's sort of a bummer, as I really want to support Manzanita, as they have done great things to advance home brew EVs. 
+
+corbin
+
+
+On Nov 2, 2012, at 9:23 PM, Bill Dube <billdube@killacycle.com> wrote:
+
+> There are only two reasons that I am aware that can cause a Manzanita 
+> charger to fail:
+> 1) Disconnect the DC side under load.Even briefly. (Doesn't kill them 
+> every time, but often.)
+> 2) Low budget PM generator for AC source. They _really_ don't like 
+> this for some reason.
+> 
+> I have been running these chargers for many many years and have only 
+> managed to wound one once. It was my own fault for rigging up a goofy 
+> temporary jumper cable output that had a loose connection.
+> 
+> If you have been running your Manzanita charger from a low-budget 
+> permanent magnet generator, then you can expect problems. Sometimes 
+> after the fact. I'll guess that the waveform or the power factor from 
+> the PM generator under full load is so weird that the charger 
+> magnetics overheat. Perhaps someone else has investigated more fully 
+> and has pinpointed the exact root cause.
+> 
+> Bill D.
+> 
+> At 05:08 PM 11/2/2012, you wrote:
+>> Hi Dan,
+>> Not an elcon, but my Manzanita has had several similar problems. Details here:
+>> 
+>> http://www.corbinstreehouse.com/blog/2012/09/plug-bug-pfc-30-charger-failed-again/
+>> 
+>> Unfortunately, I don't recommend people use the Manzanita Micro 
+>> PFC-30 anymore. It has failed on me twice, for absolutely no reason. 
+>> I've been using it within the limits it is supposed to be rated for 
+>> -- 30 amps in -- although, I usually charge less because it 
+>> overheats and does thermal cutback (indicated by a blinking LED light).
+>> 
+>> It was really easy to get Manzanita to fix it; however, each time it 
+>> wasn't covered by their warranty, and I had to pay out of pocket for 
+>> it. Each time I tried to get information on why it failed, but I 
+>> didn't get a definitive answer other than "overheating on the AC 
+>> line". I don't understand why I would get that condition.
+>> 
+>> corbin
+>> 
+>> 
+>> On Nov 2, 2012, at 1:55 PM, Danpatgal <danpatgal@yahoo.com> wrote:
+>> 
+>>> Troubles again ... my upgraded Leopard's charger, an Elcon PFC 
+>> 1500, decided
+>>> to quit on me.  The LED doesn't blink, the relay closes (from my Lithiumate
+>>> Lite BMS), but I get no current.  It died, as far as I can tell, when
+>>> charging off of a standard 120vac just 10% from reaching a full 
+>> charge on my
+>>> 120vdc pack.
+>>> 
+>>> I'm depressed to think that I have to pack it up and ship it back to
+>>> California after getting only about 5 full cycles out of it after they
+>>> reprogrammed it for the 38xCALB 130ah lithium pack.  (They reprogrammed it
+>>> to curve 520, to 137 volts).
+>>> 
+>>> 1.- What's the typical reason for such a failure?  (I'm not ruling out my
+>>> doing something stupid / or at least not good for it - though it seems like
+>>> I would not have gotten the 5 cycles out of it if I had).
+>>> 
+>>> 2.- Does anybody have experience with this kind problem with their Elcon?
+>>> If yes, are there some things I can do to diagnose (or better yet fix), the
+>>> problem?
+>>> 
+>>> 3.- If it is the AC fuse (as support at Elcon has suggested), is this
+>>> something I could try on my own instead of being down for a 
+>> couple weeks and
+>>> paying for shipping?  (I realize this is more a question for 
+>> Elcon and would
+>>> perhaps void any warranty [see q#4 below], but wondered if anyone had tried
+>>> it).
+>>> 
+>>> 4.- Should they cover this under a warranty?
+>>> 
+>>> 
+>>> Thanks - Dan
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> -----
+>>> Dan Gallagher
+>>> http://www.evalbum.com/3854
+>>> 
+>>> --
+>>> View this message in context: 
+>> http://electric-vehicle-discussion-list.413529.n4.nabble.com/Elcon-PFC-1500-Died-tp4659099.html
+>>> Sent from the Electric Vehicle Discussion List mailing list 
+>> archive at Nabble.com.
+>>> 
+>>> _______________________________________________
+>>> | Moratorium on drag racing discussion is in effect.
+>>> | Please take those discussions elsewhere.  Thanks.
+>>> |
+>>> | REPLYING: address your message to ev@lists.sjsu.edu only.
+>>> | Multiple-address or CCed messages may be rejected.
+>>> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+>>> | OTHER HELP: http://evdl.org/help/
+>>> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>> 
+>> 
+>> _______________________________________________
+>> | Moratorium on drag racing discussion is in effect.
+>> | Please take those discussions elsewhere.  Thanks.
+>> |
+>> | REPLYING: address your message to ev@lists.sjsu.edu only.
+>> | Multiple-address or CCed messages may be rejected.
+>> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+>> | OTHER HELP: http://evdl.org/help/
+>> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+> 
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

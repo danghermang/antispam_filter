@@ -1,0 +1,24 @@
+Subject:Message Delivery Delay
+
+MailEnable: Message delivery has been delayed.
+
+Message is waiting at home for delivery to 188.246.4.185.
+
+The message will be retried for another 20 hours.
+
+Reason: Mail Server for ruehle.tk could not be contacted at this time. MailEnable will keep trying to deliver this message and will notify you of any progress.
+
+
+Message headers follow:
+	
+Received: from ([37.117.211.236]) by home with MailEnable ESMTP; Sun, 09 Dec 2012 11:58:24 +0100
+From: "Message" <xxx@xxxxxxx.xxx>
+Subject: Alert
+To: <0c44c5d@ruehle.tk>
+List-Unsubscribe: <mailto:9604607FAA14A57D6C6@incubator2.cz>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; chars="iso-8859-1"
+Date: Sun, 09 Dec 2012 11:59:22 +0200
+Message-ID: <20121209115922.F8D82E7458C020861B6CA.4E88B23@DANIELE-HOME>
+
+

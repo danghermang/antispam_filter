@@ -1,0 +1,20 @@
+Subject:Re: [EVDL] EVLN: Don't 'Jaws of Life' the orange cables
+Modern EV's and Hybrids all have system main relays in the battery box that are normally open i.e. no High voltage is present outside the battery box unless all car computer systems are 100% happy aka "READY".   
+When car is NOT READY, it is safe to cut the orange cables since no high voltage is present.
+
+If an operating car has a crash sensor event and/or airbag event the relays immediately open and power is shut off INSIDE THE BATTERY UNIT before the orange cables that go to the motors and other equipment.
+
+Has anyone heard of a firefighter actually being electrocuted by using jaws of life on Hybrid or EV?    I don't think so...
+
+
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

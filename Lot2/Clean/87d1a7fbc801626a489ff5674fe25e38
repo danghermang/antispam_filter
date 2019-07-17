@@ -1,0 +1,41 @@
+Subject:Re: [OT] atyuda con descargas
+El Sat, 10 Nov 2012 22:14:43 -0500, islanis escribió:
+
+> islanis@infomed.sld.cu escribió:
+> 
+>> Hola gente, necesito que si alguien lee esto please que si puede me
+>> envíe por correo las ultimas versiones de Jquery y Prototype , es que
+>> los necesito y ahora no tengo internet, si alguien me pudiera hacer el
+>> favor de ayudarme con eso lo agradecería un mundo.
+>>
+>> las dos creo que son estos los links
+>>
+>> http://docs.jquery.com/
+>>
+>> http://www.prototypejs.org/
+>>
+>> gracias de antemano.
+> Se me olvidaba decirles que tienen que ser las ultimas versiones porque
+> tengo que usar las dos en el mismo proyecto y ambas tienen un conflicto
+> que ya en las ultimas versiones han corregido.
+
+Te envío en correo aparte jquery (1.8.2) ya que la página de la segunda 
+no está disponible (o al menos yo no tengo acceso ahora mismo):
+
+sm01@stt008:~$ wget www.prototypejs.org
+--2012-11-11 16:20:27--  http://www.prototypejs.org/
+Resolviendo www.prototypejs.org... 70.84.143.104
+Connecting to www.prototypejs.org|70.84.143.104|:80... falló: Expiró el tiempo de conexión.
+Reintentando.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7og1a$7di$6@ger.gmane.org
+

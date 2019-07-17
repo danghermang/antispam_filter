@@ -1,0 +1,21 @@
+Subject:Re: pb installation Wheezy sur latitude E6430s
+> 1) sdhci-pci invalid iomem size: you may experience problems
+J'ai ça depuis des mois sur mon E6420, ça ne m'a jamais posé de pb.
+
+> 2) failed to enable MSI-X
+> 3) plein d'erreurs pour ACPI
+>    input buffer is not empty, aborting transaction
+>    Error: Method parse/execution failed 
+Dans le bios, j'ai desactivé optimus et forcé la carte nvidia.
+
+Guy
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/506C79A4.5050905@teledetection.fr
+

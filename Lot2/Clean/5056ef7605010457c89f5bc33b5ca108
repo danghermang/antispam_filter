@@ -1,0 +1,25 @@
+Subject:Re: =?ISO-8859-1?Q?D=E9marrage_impossible=3A_ADDRCONF_=28N?=
+	=?ISO-8859-1?Q?ETDEV=5FUP=29=3A_eth0=3A_link_is_not_ready?=
+On 09/02/2012 11:46 AM, Nicolas Hémard wrote:
+> 'ai supprimé rsync et dépendances.
+> J'ai désactivé wicd (n'ayant apparemment pas network-manager).
+>
+> - je n'arrive pas à virer /etc/udev/rules.d/70-persistent-net.rules avec rm : "No such file or directory"
+> - ifconfig -a me donne:
+ >
+ >
+> Oui, pardon : il démarre. Mais il se bloque au milieu
+Et tu arrives quand même à faire tout ce que tu as écrit ci-dessus ?
+Bravo....
+-- 
+Maderios
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50432CCA.5050201@gmail.com
+

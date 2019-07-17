@@ -1,0 +1,27 @@
+Subject:Re: Como hacer backups "sencillos" programados ?
+El sáb, 10-11-2012 a las 06:18 -0600, Jose Pablo Rojas escribió:
+> Para respaldar bases de datos es mejor utilizar mysqldump, aunque lo
+> optimo es tener el server replicado, que pasa si usted hace respaldo
+> de las bases de datos cada hora, y el server se muere justo 1 minuto
+> antes de que se genere el nuevo respaldo? Pierde datos de la última
+> hora, depende del sistema eso es crítico.
+> 
+es verídico, a mi me pasó una vez que tenía que actualizar algo. Y antes
+de tocar nada siempre hago un backup manual (porque el automático ya
+tiene unas horas de viejo).... y justo se pinchó el disco cuando estaba
+a la mitad del mysqldump. 
+En fin, ese Murphy es para golpearlo si lo conozco personalmente, tal
+ves si no escribía sus leyes, nunca ocurrían :P
+
+> 
+> 
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1352723775.2667.27.camel@EeePC.ucasal.ar
+

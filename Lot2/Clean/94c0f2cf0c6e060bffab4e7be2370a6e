@@ -1,0 +1,21 @@
+Subject:Re: Software, herramienta para encriptar y desencriptar un md5
+On Thu, Nov 29, 2012 at 2:52 PM,  <academia@pinarte.cult.cu> wrote:
+>
+> Hola lista. Necesito alg=C3=BAn software, herramienta (o c=C3=B3mo desde =
+una
+> terminal) poder encriptar y desencriptar un md5.
+
+Md5 es un hash, no se puede desencriptar y devolver el mensaje original.
+https://en.wikipedia.org/wiki/Cryptographic_hash_function
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjNgX0i6DXpF7K4jLGECYziGjq3j2M-fb84Bk2-FUEwm8A@mail.gmail.com
+

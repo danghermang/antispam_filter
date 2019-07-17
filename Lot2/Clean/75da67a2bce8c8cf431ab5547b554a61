@@ -1,0 +1,31 @@
+Subject:Re: [HS] Variables serveur Web php.ini
+> Le jeudi 06 septembre 2012 =E0 16:56, andre_debian@numericable.fr a =E9cr=
+it :
+> > Sujet HS (me  r=E9pondre en priv=E9 si probl=E8mes).
+> > 1] R=E9afficher les donn=E9es en cas d'erreurs de formulaire :
+> > Firefox ne garde pas les donn=E9es d'un formulaire lors
+> > d'un retour suite =E0 une erreur.
+
+On Friday 07 September 2012 09:39:49 S=E9bastien NOBILI wrote:
+> PHP c'est cot=E9 serveur, Firefox c'est cot=E9 client. Modifier la
+> configuration du serveur a peu de chance d'avoir un impact=20
+> sur le client (dans ce cas pr=E9cis).
+> Il te faut initialiser les champs avant de renvoyer le contenu de la page.
+> Seb
+
+Comment se fait-il que tous les navigateurs r=E9affichent les=20
+donn=E9es (variables) d'un formulaire en cas d'erreur et de retour=20
+vers le formulaire, alors que FireFox ne le fait pas ? :
+elles sont effac=E9es, il faut tout recommencer.
+
+Andr=E9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209071209.45464.andre_debian@numericable.fr
+

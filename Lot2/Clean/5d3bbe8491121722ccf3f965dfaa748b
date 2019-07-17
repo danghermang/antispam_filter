@@ -1,0 +1,27 @@
+Subject:Re: Recuperar passwd
+El Mon, 03 Dec 2012 09:58:10 -0500, Y. Curz Zuñiga escribió:
+
+> Hola lista:
+
+Hola... pero no hagas cross-posting >:-)
+
+>    Tengo un problema, como puedo implementar una web que me permita
+> recuperar el passwd del correo utilizando preguntas como lo hace yahoo
+> gmail hotmal, las cuentas de correo estan con ldap, alguna idea de como
+> hacer eso ???
+
+Pues dependerá del servidor de correo que uses, quizá ya tenga esa 
+funcionalidad implementada o exista algún complemento que la añada y que 
+puedas instalar :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9in5a$u32$4@ger.gmane.org
+

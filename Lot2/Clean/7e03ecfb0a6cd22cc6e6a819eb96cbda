@@ -1,0 +1,92 @@
+Subject:Re: SSH Tunneling
+mandame eso al privado, reviso y te digo si funciona
+
+----- Original Message ----- 
+From: "Jorge A. Secreto" <jorgesecreto@gmail.com>
+To: <debian-user-spanish@lists.debian.org>
+Cc: <debian-user-spanish@lists.debian.org>
+Sent: Wednesday, September 12, 2012 11:37 AM
+Subject: Re: SSH Tunneling
+
+
+Hola Josué
+
+El día 12 de septiembre de 2012 10:42, Josué Marrero Bermúdez
+<inf@zetihl.azcuba.cu> escribió:
+> Saludos Colegas
+>
+> En estos dias he estado tratando de configurar un SSH Tunneling, por el
+> simple hecho de saber como se hace, y si es verdad que es tan seguro.
+>
+> En google he encontrado varios ejemplos de configuracion, pero entre ellos
+> existen notables diferencias, unos hablan de configurar en la PC remota un
+> squid que administre la navegacion..y en otros ejemplos solo hablan de 
+> hace
+> el tunel y a navegar.
+>
+> Mi duda es la siguiente.
+>
+> Realmente hace falta un proxy al otro lado del tunnel? o es que los ISP 
+> que
+> dan servicio en otros paises permiten la navegacion sin tener que 
+> configurar
+> nada...
+
+Lo único que hace falta, del otro lado, es un servidor ssh con el
+puerto accesible.
+¿O lo que estás tratando de hacer es saltarte las restricciones con
+navegación encriptada?
+
+>
+> Aclaro que vivo en Cuba..y ni tengo ni idea de como funcionan sus 
+> servicios
+> de Internet en otros paises...aqui lo comun es siempre un proxy..que
+> registre TODO lo que haces..y deniega hasta el agua.
+
+Esto es otro asunto.
+Si tu proveedor te filtra el tráfico, y no te permite salir, no
+importa qué pongas del otro lado
+porque no vas a llegar.
+
+Hice un instructivo para armar un túnel con redirección de puertos,
+para proteger unas
+conexiones a escritorio remoto de windows. Si querés hacer pruebas te lo 
+paso.
+Intenta mantener el túnel arriba aunque se corte.
+Trabaja con acceso sin contraseña y lo único que no describe es como
+se generan las
+keys de ssh. Porque es trivial.
+Traté de hacerlo a prueba de tontos. Como para que, si no estoy, otros
+puedan instalarlo en
+las pc remotas.
+Sería bueno que me digas si efectivamente es fácil de seguir :-)
+
+>
+>
+> Saludos
+>
+> Josué
+>
+
+Un abrazo
+
+-- 
+Jorge A Secreto
+Analista de Sistemas
+MP 361
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact 
+listmaster@lists.debian.org
+Archive: 
+http://lists.debian.org/CAJx9gii72O49qVvH2WQAo3hxFytM=6HB+Mm4Fh2AzpfpoELQ@mail.gmail.com
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/3D7649468FD64594AE1E90CF017A0FB3@dbsrv
+

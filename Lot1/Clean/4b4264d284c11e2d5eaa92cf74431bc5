@@ -1,0 +1,50 @@
+Subject:Re: [EVDL] Mileage / Range for small sports car conversions /
+ Thanks to	All!!
+While I could bury you in details, it's the key points I included. To spell it out:
+
+1. I am using about the max size traction pack that will fit into a Z3
+2. 100 AH cells from HiPower get much less than 100 AH in real world conditions.
+3. A full charge is not near enough, by itself, for my 90 mile round trip commute.
+
+I noted in a previous message that this is a mix of highway and stop-and-go traffic and listed the measures I had taken to get better efficiency (tires, motor size, etc.).
+
+I set the Soliton to limit current to 50A, the reference current that HiPower's claims are based on. The car was extremely slow to get up to highway speed, so much so that it was dangerous. I typically limit it to 500A now.
+
+The point is that this combination is so far off of the OP goal that precise details of 62 MPH for 42 miles, plus 4 miles of 35 MPH country roads plus 2.5 miles of stop-and-stop traffic... just don't matter.
+
+Bruce
+
+
+On Oct 19, 2012, Martin WINLOW wrote:
+> From: Martin WINLOW <m@winlow.co.uk>
+> Subject: Re: 
+> To: Electric Vehicle Discussion List <ev@lists.sjsu.edu>
+> Message-ID: <803BC218-C2F7-4ECF-9102-4A566D364ED5@winlow.co.uk>
+> Content-Type: text/plain; charset="us-ascii"
+> 
+> OK, but what SPEED are you talking about?  Obviously, if your commute is all at 60+ MPH it is a different matter to doing it all at a steady 40 MPH or 90 miles of stop go traffic, etc... Your comments, tho made in good faith I'm sure, aren't wildly helpful without specifying some sort of speed information.  MW
+> 
+> 
+> On 17 Oct 2012, at 04:34, Bruce Lawton wrote:
+> 
+>> My Z3 is "designed" for 100 miles range; my commute is 90 miles round trip. However, that HiPower 100 AH claim assumes 50A, which is not quite safe. I use higher amps and get less than 100 AH.
+>> 
+>> The car has 48 cells in the rear and the trunk floor has been cut out to make room for two rows of cells. The trunk is nearly full of batteries. Any suitcases would have to be in the passenger seat. There is no spare tire anymore. The front has two rows of cells for another 32. While you could place a couple more cells here and there, there's really not room for much more.
+>> 
+>> I don't think you can get a real world 100 miles range in a Z3 with today's LiFePO4 technology.
+>> 
+>> Bruce
+> 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121019/33f164b8/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

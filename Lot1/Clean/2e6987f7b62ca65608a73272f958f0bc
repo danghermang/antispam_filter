@@ -1,0 +1,36 @@
+Subject:Re: Libreoffice en Ubuntu
+El d=EDa 22 de octubre de 2012 22:15,  <mramirez@iciuchile.cl> escribi=F3:
+> Masters:
+> Desinstale totalmente, y de nuevo, libreoffice. Saque el repositorio ppa =
+que
+> habia instalado para libreoffice (segui el consejo de uno de uds). Para e=
+llo
+> tuve que instalar el comando ppa-purge, que me facilito y me hizo limpia
+> esta tarea.
+>
+> Luego baje los paquetes .deb desde el sitio oficial de Libreoffice, como =
+me
+> recomendaron aca tambien, lei el readme y listo.
+>
+> Gracias por la buena onda de los que me ayudaron.
+>
+
+=BFIinstalaste debian finalmente?  Ah, otra cosa por favor evita el top pos=
+ting.
+
+Ubuntu no es igual a Debian, cambian muchas cosas.
+
+Saludos.
+
+--=20
+usuario linux  #274354
+normas de la lista:  http://wiki.debian.org/es/NormasLista
+como hacer preguntas inteligentes:
+http://www.sindominio.net/ayuda/preguntas-inteligentes.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAAiZAx7RFDwf4NJ9r=AM=FvDQhTeGfPVJ9VzhKqvH78mv2wMBw@mail.gmail.com
+

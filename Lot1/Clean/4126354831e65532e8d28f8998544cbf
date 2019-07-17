@@ -1,0 +1,37 @@
+Subject:chvt y permisos a usuario
+Buenas....
+solicito una pequeña guia...
+planteo la situacion...
+
+los usuarios usan Debian 6 , y un software desde un servidor, al cual se 
+accede por ssh
+pero solo funciona desde CRTL+ALT+Fnº....
+osea... el usuario tiene que apretar las 3 teclas para ir a la consola 
+correspondiente....
+bien....
+pero con el comando chvt Nº  tambien llego al mismo lugar...solo que 
+para ejecutar esto
+debo colocar el passwd de root.... y aqui la pregunta...
+
+¿como puedo hacer para que,  "chvt  Nº", pueda ser ejecutado por el 
+usuario comun?
+
+
+pd: estoy al tanto de los riegos que  implicaria.. al dar permisos que 
+no le corresponden al usuario
+solo es para usuarios muy basicos...que se quejan de apretar 3 teclas, Ja!
+
+
+Saludo y Gracias!!!
+
+
+-- 
+Walter
+www.infoquil.com.ar
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50ACFA00.4020702@gmail.com
+

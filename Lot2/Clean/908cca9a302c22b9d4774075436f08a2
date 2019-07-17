@@ -1,0 +1,63 @@
+Subject:Re: Apt-mirror et "Le fichier =?UTF-8?B?wqs=?= Release
+	=?UTF-8?B?wrs=?= a =?UTF-8?B?ZXhwaXLDqSI=?=
+Bonjour,
+
+Le Thu, 11 Oct 2012 11:18:15 +0200,
+Alexandre Cartier <fiyorden@gmail.com> a =C3=A9crit :
+>Oubli de la liste :/
+>
+>Le 11 octobre 2012 11:17, Alexandre Cartier <fiyorden@gmail.com> a
+>=C3=A9crit :
+>
+>> Pour les probl=C3=A8me de langue : il faut ajouter ceci au postmirror.sh
+>> pour squeeze et wheezy
+>> rsync --recursive --times --links --hard-links --delete
+>> --delete-after
+>> rsync://debian.med.univ-tours.fr/debian/dists/squeeze/main/i18n//var/spo=
+ol/apt-mirror/mirror/
+>> ftp.be.debian.org/debian/dists/squeeze/main/i18n/
+
+L'inconv=C3=A9nient de cette solution est qu'il faut ma=C3=AEtriser l'ouver=
+ture
+du port (873 par d=C3=A9faut ?) et que, =C3=A0 mon travail, =C3=A7a ne pass=
+e pas :-(
+
+>> pour ton autre probl=C3=A8me a tu d=C3=A9j=C3=A0 lancer le script clean.=
+sh pour
+>> nettoyer tes vieux fichiers?
+>>
+>> Le 11 octobre 2012 10:11, J=C3=A9r=C3=B4me <jerome@aranha.fr> a =C3=A9cr=
+it :
+>>
+>> Le lundi 17 septembre 2012 =C3=A0 15:39 +0200, David BERCOT a =C3=A9crit=
+ :
+>>> > Je sais que je peux passer outre en mettant l'option
+>>> > "Acquire::Check-Valid-Until=3Dfalse" mais je pr=C3=A9f=C3=A9rerais qu=
+e le
+>>> > repository n'indique pas cette erreur, sous-entendu que sa date
+>>> > d'expiration soit modifi=C3=A9e. Savez-vous s'il est possible de faire
+>>> > =C3=A7a ?
+>>>
+>>> Je ne connais pas le truc, mais d'une part =C3=A7a me parait tr=C3=A8s
+>>> logique, il est absolument critique de garder la coh=C3=A9rence des
+>>> version, d'autre part au vu du nom du param=C3=A8tre, je suppose qu'on
+>>> peut changer la valeur.
+
+De mon point de vue, la version reste coh=C3=A9rente =C3=A0 un moment donn=
+=C3=A9. Il
+n'y a pas d'=C3=A9volution des paquets, mais l'ensemble est quand m=C3=AAme
+coh=C3=A9rent...
+
+Mon souci reste donc la signature de l'ensemble...
+
+David.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121013102045.3c5f5be7@debian-david
+

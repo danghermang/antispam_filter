@@ -1,0 +1,37 @@
+Subject:Re: flashplugin-nonfree for squeeze
+On Thu, Sep 13, 2012 at 04:07:26PM +0200, Michael Gebetsroither wrote:
+> On 2012-09-09 10:47, Bart Martens wrote:
+> Hi,
+> 
+> > I have backported flashplugin-nonfree from sid to squeeze, and the result is
+> > temporarily available here :
+> > http://people.debian.org/~bartm/flashplugin-nonfree/bpo/
+> > 
+> > This package may be useful for squeeze users who want to use
+> > flash-player-properties.
+> 
+> Thx for maintaining this package that long, it was a real time-saver in the past.
+> 
+> BUT,
+> you are creating a big remote exploit hole for every user installing your package, JFYI!
+> Adobe stopped supporting flash on linux and the now few release old version has many bugs.
+> 
+> Which leaves the non-free flash embedded in google-chrome (and ONLY this version) as the
+> only supported version of adobe flash on linux.
+> 
+> DO NOT INSTALL THIS PACKAGE!
+
+That's not true. Flash 11.2 still receives security updates. Security support
+will end in 2017 IIRC.
+
+-- 
+Julian Andres Klode  - Debian Developer, Ubuntu Member
+
+See http://wiki.debian.org/JulianAndresKlode and http://jak-linux.org/.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120913162111.GA19819@debian.org
+

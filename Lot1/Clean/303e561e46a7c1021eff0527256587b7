@@ -1,0 +1,30 @@
+Subject:[svnbook] r4293 committed - Chapter 2...
+Revision: 4293
+Author:   richardcavell@mail.com
+Date:     Mon Sep  3 18:37:31 2012
+Log:      Chapter 2
+
+"Working file" is a bit ambiguous.  CMPilato agrees with me.
+
+http://code.google.com/p/svnbook/source/detail?r=4293
+
+Modified:
+  /trunk/en/book/ch02-basic-usage.xml
+
+=======================================
+--- /trunk/en/book/ch02-basic-usage.xml	Tue Jan  3 20:05:15 2012
++++ /trunk/en/book/ch02-basic-usage.xml	Mon Sep  3 18:37:31 2012
+@@ -2339,7 +2339,7 @@
+        </informalexample>
+
+        <para>These will display log messages <emphasis>only</emphasis>
+-        for those revisions in which the working file (or URL)
++        for those revisions in which the named file (or directory)
+          changed.</para>
+
+        <sidebar>
+
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

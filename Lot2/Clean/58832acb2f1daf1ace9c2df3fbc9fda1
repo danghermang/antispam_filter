@@ -1,0 +1,29 @@
+Subject:Re: HS enregistrement png qui dure, qui dure...
+On 10/19/2012 10:29 PM, Max@list wrote:
+> Bonsoir,
+>
+> Je ne sais pas si c'est possible mais peut-être que tu pourrais tenter
+> d'optimiser la gestion mémoire:
+> http://www.gimp.org/unix/howtos/tile_cache.html
+>
+Il ne s'agit pas de mémoire  (j'ai un un 'tile cache' de 5 Go) mais de 
+processeurs : 7 cpu sur 8 laissées inutilisées pendant la compression du 
+.png. Un fil sur la liste Gimp
+https://mail.gnome.org/archives/gimp-user-list/2012-October/date.html
+Cordialement
+
+-- 
+Maderios
+
+"Art is meant to disturb. Science reassures."
+"L'art est fait pour troubler. La science rassure" (Georges Braque)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50826DA4.5090505@gmail.com
+

@@ -1,0 +1,46 @@
+Subject:Re: =?iso-8859-1?q?Recomendaci=F3n_de_versi=F3n?= de	Debian.
+El Mon, 29 Oct 2012 13:43:56 +0100, Luis Miguel R. escribió:
+
+> Me dispongo a renovar mi equipo de oficina que está funcionando en
+> Debian 4.0, voy a pillar una máquina modernilla, placa con usb 3.0, cpu
+> i5, grafica gforce 210, hds de 2tb, 8gb ram ddr3, etc, en escritorio uso
+> IceWM, la chicha viene con un vmware con xp tirando de un software de
+> gestion, es por el rendimiento de la máquina virtual por lo que cambio
+> el pc.
+
+Vaya "monstruito" O:-)
+
+> Mi preguntas son, con este tipo de hardware, merece la pena poner la
+> testing?, como va de estable?, realmente no necesito para nada que los
+> paquetes de software estén actualizados, la única razón para ponerla
+> sería que aproveche mejor mi hardware y obtener mejor rendimiento.
+
+No creo que vayas a notar diferencia alguna en cuanto al rendimiento por 
+el hecho de instalar una versión u otra (no cabe duda de que un kernel 
+moderno funcionará mejor en un equipo moderno pero siempre puedes 
+compilarlo manualmente o usar el kernel de los backports).
+
+Yo me fijaría más en el soporte de la versión que vayas a instalar. A la 
+actual estable (squeeze) le queda un año y 4 meses de vida y wheezy va a 
+salir en febrero, quizá te merecería la pena esperar a la nueva 
+versión :-?
+
+> Otra diferencia importante es que veo que testing instala por defecto
+> ext4, mientras que estable instala ext3, a estas alturas ext4 es
+> completamente seguro para usar en producción?
+
+Puedes instalar el que quieras en cualquiera de las dos versiones pero yo 
+me decantaría por Ext3 (qué le voy a hacer, en cuestión de sistemas de 
+archivos soy de vertiente conservadora :-P).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k745so$7h2$24@ger.gmane.org
+

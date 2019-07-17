@@ -1,0 +1,32 @@
+Subject:Re: Plus de boot graphique auto au =?iso-8859-1?q?d=E9marrage?=
+On Tuesday 04 September 2012 11:11:18 maderios wrote:
+> On 09/04/2012 10:26 AM, Tanguy Ortolo wrote:
+> > maderios, 2012-09-03 17:11+0200:
+> >> Pourrais tu pr=E9ciser ce que tu penses =EAtre d=E9conseill=E9 ?
+
+> > Utiliser les versions non empaquet=E9es des pilotes Nvidia ou AMD.
+
+> Je n'ai jamais utilis=E9 les paquets debian nvidia. Pas assez =E0 jour po=
+ur
+> moi. Je n'ai jamais rencontr=E9 un probl=E8me avec les drivers d'origine.
+> Quant on compile une nouvelle version de noyau, il faut simplement
+> penser =E0 recompiler le driver, ce qui prend 1 mn.
+> Maderios
+
+Je confirme,
+
+le driver d'origine Nvidia pour Linux ne pose aucun probl=E8me.
+
+C'est la meilleure solution pour celui qui a une carte Nvidia.
+
+Andr=E9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209041803.22311.andre_debian@numericable.fr
+

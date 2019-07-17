@@ -1,0 +1,23 @@
+Subject:Re: [LUG] Time to upgrade
+
+On 25/10/12 17:56, Neil Winchurst wrote:
+> As for which distro to choose as the new one...!!! I have got it down to
+> four possibles, but for every good review there is one not so good.
+So which are the four in the running? ;)
+
+I've rolled back my fresh Ubuntu 12.10 install due to it not supporting 
+nVidia drivers properly yet (it defaults to nouveau in the hope that 
+x-swat catch up and compile a set for the latest X they saddled 12.10 with).
+
+I must recommend Mint's Cinnamon desktop. I'm running it on my old 
+Ubuntu 12.04 LTS with the Unity 2D Dash. It's very quick and pretty bug 
+free (so far) - better than Unity & Gnome Shell which is slow on my 
+system and very crashy.
+
+Regs
+Martin
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

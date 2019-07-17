@@ -1,0 +1,38 @@
+Subject:Re: =?ISO-8859-1?Q?D=E9pannage_sur_PC_distant?=
+Le 29/10/2012 16:15, JF Straeten a écrit :
+> Re,
+>
+> On Mon, Oct 29, 2012 at 03:48:43PM +0100, Mourad Jaber wrote:
+>
+> [...]
+>>> VNC, ce n'est pas parce que tu ne connais pas que ça n'existe pas :)
+>>>
+>> VNC nécessite IMPÉRATIVEMENT d'ouvrir des ports sur sa box Internet
+>> et de connaître l'adresse IP du client.
+> Tiens, et avec un 'reverse ssh' ? Y a pas moyen de lancer un viewer
+> VNC facilement ?
+>
+> Je n'ai jamais essayé ; quelqu'un ?
+>
+> A+
+>
+Je dépanne régulierement une dizaine de pc avec un reverse ssh et vnc ça 
+fonctionne très bien.
+
+À+
+
+
+-- 
+
+Luc Schimpf
+www.au-ptit-bon-air.eu
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/508EB58D.3070000@free.fr
+

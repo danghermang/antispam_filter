@@ -1,0 +1,127 @@
+Subject:Re: [EVDL] Best EV Tires
+Hi folks,
+The Scott Drive has adjustable regen.  You can turn the regen off for good
+coasting and wire it to the brake switch.  A light touch on the brake pedal
+will activate regen but not the hydraulic brakes.  One user (RAV4 direct
+drive) has regen activated all the time because he lives in very steep
+hilly country.  He has a button to de-activate the regen for when there is
+ice on the road.
+
+As for the coast vs regen debate, it completely depends whether you are a
+NY taxi driver (regen good) or live in rural Kansas (coasting good).  Steep
+hills are better with regen, but flat or mellow hills is better with
+coasting.  The best system is coasting with variable regen applied by a
+potentiometer on the first part of the brake pedal stroke.  This is best on
+an AWD car, second-best on a FWD car, and least effective on RWD since the
+rear tires will skid at high regen levels.  The BLDC permanent magnet motor
+used in the Scott system can easily skid the wheels if regen is applied in
+full.  If you would like more info on this system send me an email.
+
+Tire pressure - more IS better.  I improved ICE mileage 10% by going from
+45psi to 65psi (44psi max tires).  At first the ride seems harsh, but after
+a while if you lower the pressure you feel like you are driving in wet
+sand.  This has been hashed to death on forums such as ecomodder with some
+folks scared to even use the max psi (fools) and others going 20psi over
+for the life of the tire with no bad results (in fact the tires last almost
+TWICE as long).  The police pump their tires WAY over max when doing
+closed-course pursuit training.  On the street there is liability so they
+run the absolute max on the sidewall.  When hitting a curb at 60mph a tire
+with higher pressure is much better and less likely to fail from a "pinch"
+flat like you get when riding a 10 speed over a sidewalk crack.
+
+Hunter S. Thompson was on to something when he pumped the Caddy up to
+100psi   ~:o
+
+Cheers
+
+On Mon, Oct 22, 2012 at 7:45 AM, tomw <tomofreno2000@yahoo.com> wrote:
+
+> "All good points, which leads me to wonder why there isn't a system that
+> offers both options.  Have a narrow band in the pedal travel that applies
+> no power and no regen.  Or maybe throttle release gives you coast, and
+> throttle back (press with heel) gives you variable regen."
+>
+> I think the debate is due to different implementations of regen.  If it is
+> implemented on the accelerator, as on the Tesla and my car (not to imply my
+> car is anything like a Tesla :^)), then you have pretty much what the above
+> paragraph describes.  As I said, if I just ease off on the accelerator and
+> hold it around zero battery current, then I am coasting.  I've compared
+> coasting down a hill this way, and with the car out of gear, and ended up
+> at
+> about the same speed at the same point, so it is indeed coasting.  Depress
+> the accelerator beyond this point and the motor starts applying torque to
+> the wheels.  Depress further and it applies more.  Ease up the accelerator
+> from the zero current point and it starts putting current back into the
+> batteries.  Ease up more, and it regens more.  The regen parameters are
+> programmable, so you can set it up for as strong or weak as you like, and
+> you can set it up to set a max regen at various motor rpm, tailoring the
+> regen curve as you want.
+>
+> I know a guy who has a Ford Ranger ev who said he turned off regen because
+> it is useless.  With it you just immediately come to a stop.  So it
+> effectively is digital on his vehicle - either strongly stops you or is
+> off.
+> In this case, I agree coasting would be more efficient, as you can't
+> control
+> your deceleration rate with regen.  On mine you can quite easily.  It
+> simply
+> replaces the mechanical brake function for most driving (except emergency
+> stops). Speed is easily "feathered" the same as by lightly touching the
+> mechanical brakes, with about the same foot control required.  With this
+> type implementation there is no room for debate.  Regen is used in place
+> of,
+> and controlling vehicle speed in exactly the same way as mechanical
+> braking,
+> but you get some energy into the batteries with it, rather than wasting all
+> of it as friction.  If you don't need to slow or stop, you don't apply it,
+> and you can slow at any rate you like with it, just as you can with
+> mechanical brakes.
+>
+> Others control regen from the brake pedal by setting up the pedal so that
+> depressing it the first 1" or so only affects the amount of regen and does
+> not engage the mechanical brakes.  Seems like this could work fairly well
+> also, and would feel more familiar to people, but I don't know since I
+> haven't used it.  I would guess that Lee is correct about manufactured cars
+> - the priority is making it "feel" familiar, rather than optimizing
+> efficiency.
+>
+>
+>
+> --
+> View this message in context:
+> http://electric-vehicle-discussion-list.413529.n4.nabble.com/Best-EV-Tires-tp4658788p4658853.html
+> Sent from the Electric Vehicle Discussion List mailing list archive at
+> Nabble.com.
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+
+
+
+-- 
+Marcus Reddish
+
+*North Valley Systems LLC*
+Stevensville, Montana
+406-360-8628
+northvalleyev.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121022/6f0e2c06/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

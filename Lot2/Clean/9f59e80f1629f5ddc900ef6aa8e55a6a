@@ -1,0 +1,66 @@
+Subject:Re: [HS] conseil imprimante-scanner
+Le 05/11/2012 17:24, Bernardo a écrit :
+> Bonjour,
+> 
+> J'utilise des Brother depuis des années avec une satisfaction totale : elles
+> remplissent toutes tes conditions.
+
+J'avais une jet d'encre HP qui imprimait/scannait bien, mais qui
+n'arrivait plus à faire correctement l'alignement des têtes
+d'impression => 2 à 3 min perdu à chaque démarrage de l'imprimante
+pour annuler cette opération qui n'arrivait jamais à complétion.
+  Elle était reliée en USB à mon serveur sous Linux, aucun pb
+(sane et cups)
+
+  J'ai maintenant une Brother laser TCP/IP qui imprime en R/V
+(mais pas en couleur). J'en suis super content mais :
+- le driver linux cups est certes fourni par brother mais non
+  libre (et même pas sûr qu'il soit packageable dans non-free).
+  J'en ai quand même fait un paquet pour moi (dispo dans mon
+  archive perso, cf ma signature)
+- idem pour la partie scanner (mais là, je n'ai pas encore pris
+  le temps de faire le paquet...)
+- je viens de voir qu'il existe une nouvelle version du firmware.
+  J'ai envoyé un mail à brother pour récupérer le fichier à
+  donner par TFTP (l'interface web de l'imprimante permet ça
+  apparemment).
+  Réponse de brother : pour flasher, il faut impérativement
+  brancher l'imprimante sous windows ou mac...
+
+  J'ai donc un avis mitigé sur le support linux de brother...
+
+  A+
+    Vincent
+
+> andre_debian@numericable.fr a écrit :
+>> Bonjour à tous,
+>>
+>> Excusez ce sujet HS,
+>>
+>> je recherche une imprimante (jet d'encre ou laser), devant répondre à 3
+>> exigences :
+>>
+>> 1] Compatible 100% Linux (print + scanner), 2] Capable d'accepter des
+>> cartouches génériques ou rechargeables, ou cartouches toner rechargeables, 
+>> 3] Prix non exhorbitant.
+>>
+>> Merci d'avance.
+>>
+>> André
+>>
+
+-- 
+Vincent Danjean       GPG key ID 0x9D025E87         vdanjean@debian.org
+GPG key fingerprint: FC95 08A6 854D DB48 4B9A  8A94 0BF7 7867 9D02 5E87
+Unofficial pkgs: http://moais.imag.fr/membres/vincent.danjean/deb.html
+APT repo:  deb http://people.debian.org/~vdanjean/debian unstable main
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5098211B.3010700@free.fr
+

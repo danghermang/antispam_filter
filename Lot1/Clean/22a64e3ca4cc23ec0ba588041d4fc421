@@ -1,0 +1,28 @@
+Subject:Re: The connection to the server was reset while the page was
+	loading
+On 23/10/12 14:52, William Diehl wrote:
+>  From my experiences with this over the past several years, the problem
+> is usually site server overload or a problem with the ISP Internet
+> connection. Often I have had to turn the modem off then back on to
+> resolve this or simply keep trying to access a desired site until it
+> finally loads.
+>
+> There have not been any indications from these incidents that there was
+> a problem with Iceweasel of any version.
+>
+> Hope that helps.
+
+You are probably in the right zone. Iplayer diagnostics look ok even for HD. Its just odd it is ssl twitter only.
+
+Strangely loading the user agent switcher and selecting Firefox 10 seems to be ok .. but it could be chance that twitter 
+is just feeling better now.
+
+-- 
+"Confidence is what you have before you understand a problem" - Woody Allen
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5086ACAC.4020203@gmail.com
+

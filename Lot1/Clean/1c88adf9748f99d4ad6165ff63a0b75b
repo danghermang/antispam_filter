@@ -1,0 +1,27 @@
+Subject:Re: Connexion ssh : timed out
+On Wed, 31 Oct 2012 16:45:53 +0100
+"Eddy F." <edfnet-deb@yahoo.fr> wrote:
+
+> Je crois de plus en plus que le probl=C3=A8me est li=C3=A9 =C3=A0 la box=
+=20
+> (configuration ou bug ou...).=20
+
+Apparemment pas du tout au vu de la r=C3=A9ponse de Jean-Luc, purge et
+r=C3=A9installe le client ssh.
+
+--=20
+< ore> God uses GNOME?
+< joshk> no wonder it rains so often
+< ore> "Dammit, those damn heaven's gates won't open, gconfd crashed
+       again"
+		-- in #debian-devel
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031172319.75c58dd4@anubis.defcon1
+

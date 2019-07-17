@@ -1,0 +1,31 @@
+Subject:Re: [rlug] Migrare bind,mysql, wordpress
+2012/11/5 Mihai Badici <mihai@badici.ro>:
+> On Monday, November 05, 2012 05:28:37 PM Gyula Keresztely-Krall wrote:
+>> On Mon, Nov 5, 2012 at 5:24 PM, Mihai Badici <mihai@badici.ro> wrote:
+>> > On Monday, November 05, 2012 07:22:35 PM Eugeniu Patrascu wrote:
+>> >> 2012/11/5 Gyula Keresztely-Krall <xenexis@gmail.com>:
+>> >> > Salut,
+>> >> >
+>> >> > Incerc sa migrez bind, Mysql, wordpress de pe un server dedicat
+>> >> > intr-un server in cloud.
+>> >>
+>> >> ce inseamna la tine un server in cloud ?
+>> >
+>> > "binding in the rain" :)
+>>
+>> Or singing :)
+> or :)
+> Ideea e ca, desi oamenii de stiinta, savantii si scientologii nu au ajuns inca
+> la un acord asupra ce inseamna cloud, in principiu asta ar insemna sa iti
+> abstractizeze cumva accesul printr-o interfata in loc sa iti dea ssh.
+> Deci raspunsul la intrebarea ta e in functie de interfata pe care ti-o dau ei,
+> adica de tipul cloud-ului ( cumulus nimbus sau cum se mai numeau :)  )
+> Bine, pentru ce vrei tu, un hosting de tip ISP local ( cu c-panel si ftp) e un
+> fel de cloud, si ar trebui sa mearga.
+
+N-ati inteles nimic. Daca e virtual si e la mai mult de 4 hop-uri,
+inseamna ca e in cloud.
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

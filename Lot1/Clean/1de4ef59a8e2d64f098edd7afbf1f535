@@ -1,0 +1,60 @@
+Subject:[Fwd: Re: Instalar debian en un volumen iscsi]
+
+El Wed, 19 Sep 2012 10:26:41 -0400, Ruben Cervantes Rodríguez escribió:
+
+> Hola amigos de la lista lanzo esta pregunta por que tengo el siguiente
+> problema, quisiera saber como instalar debian en un volumen iscsi, he
+> tratado de hacerlo con una guía que encontré en la web pero la guía es
+> del año pasado con debian lenny, y el kernel que usa el netinstall que
+> tengo es el 2.6.32-5-486.
+
+Por aquí tienes info sobre iscsi:
+
+http://wiki.debian.org/SAN/iSCSI/open-iscsi
+
+> La web que encontré explica que primeramente hay que entrar en modo
+> experto y seguir la configuración hasta terminar la configuración de
+> red, de allí instalar algunos módulos necesarios para el kernel, copiar
+> el fichero InitiatorName.iscsi hacia /etc/iscsi y después correr el
+> binario iscsid
+
+Me parecen poco pasos los que comentas. En esta guía lo pintan de una
+forma bastante más compleja:
+
+http://www.david-web.co.uk/blog/?p=188
+
+> hasta ahi todo bien, cuando intento descrubrir el target de esta forma:
+>
+> iscsiadm -m discovery -t sendtargets -p 192.168.0.65:3260
+
+> me dice que no encuentra esta ruta /var/lock/iscsi: creo la ruta y
+> vuelvo a ejecutar el mismo comando y no sale nada.
+
+(...)
+
+Mmmm, me parece que la ruta del bloqueo no la debes de crear tú
+manualmente sino el módulo del kernel cuando se carga por lo que quizá
+estés haciendo algo mal... ¿Están cargados los módulos requeridos?
+
+Saludos,
+
+-- 
+Camaleón
+
+ya encontr� una info muy buena, estoy trabajando en eso despu�s les cuento
+los resultados muchas gracias por el tiempo que dedican a colaborar con
+otros usuarios y por sus respuestas. saludos
+
+
+Lic. Ruben Cervantes Rodr�guez
+Instructor y administrador de red
+JCCE Vtes1
+Camag�ey Cuba
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/40209.192.168.9.106.1348082680.squirrel@correo.cmg.jovenclub.cu
+

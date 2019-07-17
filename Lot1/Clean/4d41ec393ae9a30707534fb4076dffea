@@ -1,0 +1,62 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_AVISO=3A_=A1se_instalar=E1n_versiones_sin_firmar_de_?=
+	=?ISO-8859-1?Q?los_siguientes_paquetes=21?=
+El d=EDa 5 de noviembre de 2012 12:26, Camale=F3n <noelamac@gmail.com> escr=
+ibi=F3:
+> El Mon, 05 Nov 2012 11:56:01 -0300, Manuel Ramos escribi=F3:
+>
+>> A alguien le esta pasando esto?:
+>> Cada vez que instalo un nuevo paquete el gestor de paquetes me advierte
+>> sobre paquetes sin firmar:
+>
+> (...)
+>
+> Pues la verdad es que no :-?
+>
+> (wheezy y gnome3)
+>
+>> Me resulta llamativo porque no me estaba sucediendo esto antes. Me paso
+>> lo mismo con el paquete texlive-full.
+>>
+>> Uso Wheezy con KDE.
+>
+> Ejecuta antes un "apt-get update" para "refrescar" los repositorios, no
+> vaya a ser que haya habido alg=FAn cambio en los servidores FTP o hayan
+> actualizado los archivos de firmas y est=E9s recibiendo datos obsoletos.
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k78ls3$eq2$6@ger.gmane.org
+>
+
++1
+
+apt-get update puede ayudarte, por lo menos hoy no he tenido problema
+con los repositorios.
+
+
+Saludos
+--=20
+--------------------------------------------
+Roberto Qui=F1ones
+
+Owner - Service Manager and System
+ACShell.NET =96 Internet Services
+roberto@acshell.net - www.acshell.net
+San Martin #311 Santiago =96 CL (Chile)
++560981361713
+--------------------------------------------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAO7F6e9qyp0aqurCs9rgF4kXZnQ8OhUXkMgfPaJ6WAgXM4u5qg@mail.gmail.com
+

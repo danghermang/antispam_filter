@@ -1,0 +1,42 @@
+Subject:Re: Gestion des =?UTF-8?B?ZMOpcGVuZGFuY2Vz?=
+Le 17/11/2012 14:31, Denis Mugnier a écrit :
+> Bonjour,
+>> C'est un peu ce que je craignais. Je trouve quand même décevant que 
+>> Debian, distro pourtant ouverte et à la carte, rende obligatoire des 
+>> dépendances qui ne le sont pas à l'origine. Pourquoi ne pas les 
+>> mettre en "recommandé"? Chacun les installe s'il a besoin, et pour 
+>> celui qui ne veut pas se prendre la tête, elles seront de toutes 
+>> façons installées par défaut
+> Non ce n'est pas possible.
+> La dépendance est facultative à la compilation, mais si tu compiles 
+> avec l'option, cela veut dire qu'il faut ensuite que le paquet soit 
+> installé et devient une dépendance obligatoire (explication de 
+> Jean-Jacques)
+> Mais cela veut dire qu'il faudrait faire une compilation sans la 
+> dépendance, et une compilation avec la dépendance pour répondre à ta 
+> demande et donc gérer 2 paquets.
+> Cela n'est pas possible.
+>
+> Maintenant, tu peux compiler toi même le paquet si tu veux avoir un 
+> système à la carte... ou aller voir du coté de LFS ;o))
+>
+> Denis
+> Coordinateur traduction française BLFS
+>
+J'ai utilisé LFS/BLFS pendant plusieurs années et j'ai fini par 
+abandonner devant l'ampleur des mises à jour. Je me suis tourné vers 
+Debian récemment, et je reste un peu nostalgique des perfs de mon ancien 
+système :'( .
+Je vais essayer de trouver la bonne mesure
+
+Merci de vos explications
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A7948D.2080107@sfr.fr
+

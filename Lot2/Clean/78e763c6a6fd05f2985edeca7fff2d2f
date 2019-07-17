@@ -1,0 +1,37 @@
+Subject:Re: =?UTF-8?B?RMOpbWFycmFnZSBpbXBvc3NpYmxlOiBBRERSQ09ORiAoTkVUREU=?=
+	=?UTF-8?B?Vl9VUCk6IGV0aDA6IGxpbmsgaXMgbm90IHJlYWR5?=
+On 09/02/2012 07:04 PM, Bzzz wrote:
+> On Sun, 2 Sep 2012 18:37:16 +0200
+> Nicolas Hémard<nicolas@hemard.eu>  wrote:
+>
+>> udev est bien installé.
+>> Que veut dire ceci ?  "*soit c'est justement l'absence de cette
+>> règle qui bloque."*
+>
+>>> *- je n'arrive pas à
+>>> virer /etc/udev/rules.d/70-persistent-net.rules avec rm : "No such
+>>> file or directory"
+>
+> Si tu ne peux pas le virer c'est qu'il n'est pas là, comme dirait M.
+> de La Palice :)
+>
+
+Quand on n'arrive pas à se loguer en root ou en user, on ne peut pas 
+lancer rm .
+Il a lancé rm pour essayer de supprimer un fichier, donc il s'est bien 
+logué en root/user, donc pas de problème mais trollitude en vue...
+
+Amicalement
+
+-- 
+Maderios
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5043A53B.7010604@gmail.com
+

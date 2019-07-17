@@ -1,0 +1,21 @@
+Subject:Re: [pkg-bacula-devel] Bacula 5.2.6+dfsg-5_bpo60+1 review & upload
+	request
+On 2 October 2012 17:29, Luca Capello <luca@pca.it> wrote:
+> 5.2.6+dfsg-5 has not yet migrated to wheezy, (sort of) too young and
+> also because there is a serious bug WRT to policy (#688199) reported
+> against 5.2.6+dfsg-3 and still present in 5.2.6+dfsg-5.
+>
+> I agree with Alexandro's solution, but as you noticed I do not have a
+> lot of free time lately, so I am not sure I can fix it in the next days.
+
+Cool - I'll wait until the next (5.2.6+dfsg-6) that includes the fix
+and then port that back and prepare for upload :)
+
+Thanks Luca.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAFBzO+ESxywubjKEO9xQB=2rj8Vn85nJkxooULoNkhibbyimOw@mail.gmail.com
+

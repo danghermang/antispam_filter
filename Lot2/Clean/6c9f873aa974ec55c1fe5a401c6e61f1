@@ -1,0 +1,99 @@
+Subject:Re: Installation sur partition GPT
+Bonjour,
+
+Le plus simple pour identifier les partitions serait que tu lance ton ordi avec un CD live.
+
+Cela te permettra de monter toutes les partitions et de les identifier, parce qu'au vu des 
+informations que tu as trouvées, c'est une installation d'usine assez atypique...
+
+++
+
+Mourad
+
+Le 03/10/2012 20:16, Eddy F. a écrit :
+> Bonjour,
+>
+> Confronté pour la première fois à UEFI et une infâme partition GPT, je
+> ne sais pas comment installer et aurais bien besoin de conseils.
+>
+> Je souhaite installer Debian Wheezy sur un Asus n56v (le choix du
+> portable n'étant pas de mon ressort).
+>
+> Contrainte : ne pas bousiller le Windows 7 installé dessus ni la
+> partition de récupération sous peine de me faire sévèrement enguirlander
+> (et ce n'est bien sûr pas pour mon usage sinon ce windows serait vite
+> effacé). Malheureusement j'ai des comptes à rendre donc je dois être
+> extrêmement prudent.
+>
+> Dans l' « ordinateur » de Windows 7, on voit qu'il y a deux volumes :
+> C: déjà bien rempli par le système Windows et D: pratiquement vide.
+> Nulle trace de la partition de récupération. Habitué à installer
+> Debian, je me dis que ce sera simple, il suffira d'utiliser D: pour
+> Linux.
+>
+> Je lance l'installateur Debian (pas la version graphique) et arrivé au
+> partitionnement je choisis la méthode manuelle. Et là, je constate que
+> je ne sais pas où sont les données.
+>
+> SCSI 1 (0,0,0) (sda) - 500.1 GB ATA ST9500423AS
+> n° 1	134.2 MB
+> 	  1.0 MB		Espace libre
+> n° 2	 26.8 GB		ntfs
+> n° 3	209.7 MB	B	fat 32
+> n° 4	200.0 GB		ntfs
+> n° 5	272.9 GB		ntfs
+> 	  7.7 kB		Espace libre
+>
+> Je passe les détails (google, retour dans Windows, google, doc
+> debian,...)
+>
+> Dans Windows 7, je trouve un « outil de gestion des disques » qui
+> m'indique qu'il y a quatre volumes :
+>
+> - un premier, sans nom, sans système de fichiers, de 25 Go et dont le
+>    « statut » est « Sain (Partition de récupération) »
+> - deuxième, sans nom, sans système de fichiers, de 200 Mo, « Sain
+>    (Partition du système EFI)
+> - troisième, nommé DATA (D:), ntfs, 254,14 Go, « Sain (Partition
+>    principale) »
+> - dernier, nommé OS (C:), ntfs, 186,3 Go, « Sain (Démarrer, Fichier
+>    d'échange, Vidage sur incident, Partition principale)
+>
+> Mouais... l'ordre, le nombre et les tailles de partitions ne
+> correspondent pas vraiment. Enfin je suppose que
+> sda2 = la partition de récupération
+> sda4 = windows 7 (C:) qui dans Windows paraît déjà bien occupé
+> sda5 = (D:) qui dans Windows est pratiquement vide.
+>
+> Pensez-vous que ce soit correct ?
+>
+> Ces partitions indiquées par l'installateur Debian sont-elles de
+> vraies partitions ? En d'autres termes, puis-je décider sans risque de
+> consacrer sda5 à Debian (et le diviser pour créer une partition
+> racine, une partition home et une swap) ? (Ou, au contraire, cela
+> risque-t-il de tout foutre en l'air ?)
+>
+> Et puis surtout, qu'en j'en viendrai à installer Grub, je le mets où ?
+> Au milieu du bazar dans sda3 ?
+>
+> Enfin, mon Bios (le nom n'est peut-être plus correct mais cela
+> en a l'apparence) contient une entrée nommée « UEFI Boot »
+> actuellement positionnée sur Enabled. Faut-il la mettre sur Disabled ?
+>
+> Je suis conscient que mes questions témoignent d'une méconnaissance
+> crasse de ce nouveau système qui rendra - n'en doutons pas ;-) - nos
+> machines plus sûres. Tout lien vers une documentation claire, voire
+> mieux un tuto Debian pour l'installation, est clairement bien venu.
+>
+> Je continue à chercher de mon côté.
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/506C9F5C.1050001@nativobject.net
+

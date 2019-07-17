@@ -1,0 +1,43 @@
+Subject:Re: [anti-abuse-wg] [db-wg] RIPE NCC's proposed implementation of
+ Abuse Contact Management in the RIPE Database
+Dear Alessandro,
+
+The design does ease the fine tuning of abuse handling. By default the 
+LIR's ORGANISATION object will reference the LIR's abuse handling ROLE. 
+This is the root for all abuse handling for the resources allocated to 
+an LIR.
+
+If at some point a customer chooses to do their own management of abuse 
+handling for their assigned address space you simply create the 
+ORGANISATION and abuse ROLE objects for this customer and add the "org:" 
+reference to this customers assignment.
+
+The RIPE NCC will provide a tool for doing this in a single step.
+
+If the customer changes their mind again and no longer wishes to handle 
+the abuse themselves, you simply remove the "org:" reference from their 
+assignment. Abuse handling returns to the LIR by default. The 
+ORGANISATION and ROLE object will be deleted by the RIPE Database's 
+automated cleanup process, after a short time, if no longer referenced 
+anywhere else.
+
+Regards
+Denis Walker
+Business Analyst
+RIPE NCC Database Group
+
+On 05/12/2012 09:59, Alessandro Vesely wrote:
+> On Tue 04/Dec/2012 17:11:28 +0100 Denis Walker wrote:
+>>
+>> If each of your customers is a separate business (even if it is an
+>> individual) who will be doing much of the management themselves,
+>> including handling any abuse complaints for their assigned address
+>> space, then you need a bit more setup.
+>
+> I think that the general case is that some customers just want to get
+> connected while some others want to manage abuse.  Customers may
+> change their mind after some time, of course.  Wasn't the design
+> supposed to ease overriding the abuse handling object at will?
+>
+>
+

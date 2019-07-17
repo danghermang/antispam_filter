@@ -1,0 +1,35 @@
+Subject:Re: Disparition de /root
+Bonjour,
+
+Ton hypothèse me parait très peu probable (ou alors très très inquiétante).
+
+Quel hyperviseur utilises-tu pour faire tourner tes VM ?
+
+
+Le 17/10/2012 12:00, Steven D a écrit :
+> 
+> 
+> J'ai tester quasiment toutes les solutions citées mais en vain.
+> je pense que la machine virtuelle n'est pas incriminé, mais plutôt le
+> disque du host, d'où le fait de ne rien avoir dans les log Debian.
+> 
+> Merci pour vos conseils, je prend bonne note si jamais je perd des
+> données sur une machine physique
+> 
+> Steven
+> 
+
+-- 
+Cordialement,
+
+Steve Fouchet
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/507E8D23.5020902@gmail.com
+

@@ -1,0 +1,27 @@
+Subject:Re: =?iso-8859-1?Q?D=E9pannag?=	=?iso-8859-1?Q?e?= sur PC distant
+Bonjour,
+
+Le mardi 30 octobre 2012 à 12:08, JF Straeten a écrit :
+> > Pile poil, j'aurais pas pu le formuler mieux, peut-être un dernier détail:
+> > la commande pour le viewer vnc chez moi:
+> > 
+> > vncviewer localhost:1
+> 
+> Et tu passes tout ça sur des lignes {A,V}DSL ? Ça reste fluide (au
+> sens de VNC, qui ne l'est pas parfaitement, mais on se comprend) et
+> utilisable ?
+
+Pour l'avoir fait une fois ou deux, il peut être nécessaire de redimensionner
+l'écran tel qu'il est envoyé par x11vnc (option -scale).
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121030121955.GA8537@sebian.nob900.homeip.net
+

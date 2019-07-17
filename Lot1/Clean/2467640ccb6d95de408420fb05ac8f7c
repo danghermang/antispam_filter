@@ -1,0 +1,435 @@
+Subject:The Reg HPC: Nvidia launches not one but two Kepler2 GPU coprocessors [
+  Thu Nov 15 2012]
+Dear braun as,
+
+Join the conversation at The Reg HPC Community Forum
+
+  http://forums.theregister.co.uk/section/forums/hardware/hpc/
+
+Your HPC newsletter from theregister.co.uk
+for the week ending 15th November 2012
+
+
+*** HPC News ***
+
+Cray notches up two Urika graph analysis appliance sales
+Will invest $15m in YarcData 'threadmonsters' in 2013
+http://www.theregister.co.uk/2012/11/14/cray_yarcdata_investment_urika_sale=
+s/
+
+It has been a busy couple of weeks for supercomputer maker Cray, with
+the rollout of the 27-petaflops "Titan" supercomputer, the debut of the
+next-generation XC30 system, and the acquisition of sometime HPC rival
+Appro International. News that Cray had sold two of its Urika big data
+analytics appliances got a little lost in the shuffle, but the company
+is finding buyers for the massively multithreaded systems.
+
+----
+
+Boiler Makers swing hammer at SC12, Team Taiwan tries for a three-peat
+More contenders in battle for cluster domination
+http://www.theregister.co.uk/2012/11/14/sc12_cluster_competition_/
+
+Team Taiwan (from Taiwan=E2=80=99s National Tsing Hua University) has a cha=
+nce
+to become a three time Overall Award winner at the SC12 Student Cluster
+Competition here in Salt Lake City. They notched their first win at
+SC10 in New Orleans, repeated the feat the next year in Seattle, and
+are now looking for the hat trick in Salt Lake. But, if you talk to
+them, you=E2=80=99ll get the impression that they believe they=E2=80=99ll b=
+e happy just
+to get the system booted and to complete all of the tasks.
+
+----
+
+Tianhe-1A schoolkids bring their best game, GPUs to cluster punchup
+Chinese teams quietly confident
+http://www.theregister.co.uk/2012/11/14/sc12_cluster_competition_ustf_and_n=
+udc/
+
+Here=E2=80=99s a look at one of the two Chinese entries into the SC12 Stude=
+nt
+Cluster Competition. These kids are from the University of Science and
+Technology and are not only battling their cluster competitors, but are
+also fighting jet-lag, 8.5 inches (21cm) of snow, and my inability to
+speak slowly/clearly enough to be understood without an interpreter.
+
+----
+
+Texans forget deep fryer, add GPUs to lasso data-crunching crown
+Why marine bilge pumps are VITAL cluster computing tools
+http://www.theregister.co.uk/2012/11/14/sc12_cluster_competition_texas/
+
+Meet the 2012 edition of the Texas Longhorn Student Cluster Competition
+team. This video was shot right after they received the scientific
+application data sets and had begun their initial processing. We
+discuss how they parcel up the work in their cluster and how they now
+have tools that give them a much better idea of what they can (and
+can=E2=80=99t) accomplish with their hardware. We also talk about why they
+didn=E2=80=99t bring the immersive cooling (aka server deep fryer) gear that
+they sported last year.
+
+----
+
+Snow and ice fail to freeze battlin' Big Iron bots in their tracks
+Four more student cluster teams face the El Reg cameras
+http://www.theregister.co.uk/2012/11/14/sc12_cluster_competition_vids/
+
+It's time, once again, to meet some more plucky contenders in the SC12
+Student Cluster Competition.
+
+Team Slippery Rock
+
+We meet the Slippery Rock team for the first time. They=E2=80=99re competin=
+g in
+the Mini Iron LittleFe division of the cluster-building contest. In the
+video they explain their strategy for achieving the best solution for
+the 10,000 city Traveling Salesman problem. Like most of the teams,
+they=E2=80=99ll be using multiple approaches simultaneously in order to
+determine which of the many algorithms available to them work best on
+the data set they receive.
+
+----
+
+Meet the all-girl HPC cluster boffins of 'Team Venus' - on Video
+Plus Boston twins from Team Chowdah
+http://www.theregister.co.uk/2012/11/14/sc12_cluster_competition_big_iron_1/
+
+It's time to meet some of the Big Iron cluster war contenders. Team
+Venus, the all-female Student Cluster Competition (SCC) team from the
+University of the Pacific, tells us how they found their way into the
+competition in their profile video below.
+
+They also discuss how they=E2=80=99re looking to encourage women to enter S=
+TEM
+(Science, Technology, Engineering & Math) fields. I confront them about
+leaving only one member at the Team Venus helm at the beginning of the
+competition. Their explanation, along with a discussion of the
+competition, and their sponsors, makes for a video introduction that=E2=80=
+=99s
+both interesting and, well, charming.
+
+----
+
+Dell to sell Brit firm's 'fastest in the world' HPC arrays
+Deal inked, Xyratex gets chance to ride the elephant
+http://www.theregister.co.uk/2012/11/14/dell_clusterstor/
+
+Dell is going to resell Xyratex ClusterStor high-performance computing
+arrays, which should be good news for the UK data-storage firm after
+its recent Q4 tumble on the back of crummy enterprise demand and
+tumbling disk drive sales.
+
+ClusterStor is Xyratex's supercomputing and high-performance computing
+(HPC) storage array, billed as the fastest HPC array in the industry.
+There's background information here.
+
+----
+
+AMD fires off crazy-fast FirePro double-whammy GPU card
+Aimed at servers and heavy-duty workstations
+http://www.theregister.co.uk/2012/11/12/amd_firepro_s10000_gpu_card/
+
+AMD, a company that knows a thing or two about building powerful
+graphics processors, has whipped out a card that has more flops than
+either Nvidia's K20 high-end GPUs or Intel's x86-based Xeon Phi
+coprocessors.
+
+That's one sure way to cut through all the noise that Nvidia and Intel
+are making about their just-released offerings: performance.
+
+----
+
+Intel Xeon Phi battles GPUs, defends x86 in supercomputers
+A hoard of wimpy Pentium cores do the math for brawny Xeons
+http://www.theregister.co.uk/2012/11/12/intel_xeon_phi_coprocessor_launch/
+
+Intel's Xeon Phi might have started out with the goal of creating an
+x86-based graphics engine, but it ended up defending the x86
+architecture's hegemony in high-performance computing against the
+onslaught of GPU coprocessors from Nvidia and AMD.
+
+However, it ends up being a battle among GPUs anyway =E2=80=93 but in a
+different market than Intel, Nvidia, or AMD might have thought it would
+be, seven years ago.
+
+----
+
+Mellanox stretches InfiniBand across campuses, metro areas
+Adds baby FDR switch, grafts Layer 3 onto Ethernet switches
+http://www.theregister.co.uk/2012/11/12/mellanox_switch_ufm_updates/
+
+With InfiniBand on the march, taking market share away from Ethernet in
+the upper echelons of the supercomputer racket, Mellanox Technology
+could sit back and enjoy itself a little. But instead, the company is
+tweaking its InfiniBand lineup to make its switches and adapters more
+appealing and to keep InfiniBand rolling.
+
+----
+
+Accelerators tag team in Top500 supercomputer CPU smackdown
+Titan cuts down Sequoia with Tesla K20X GPUs
+http://www.theregister.co.uk/2012/11/12/top_500_supercomputers_nov_2012/
+
+This fall's Top500 supercomputer sites ranking continues the smackdown
+between massively parallel supercomputers based on CPUs and somewhat
+less-massive machines using a mix of CPUs and accelerators. In this
+round, the hybrid ceepie-geepies, which mix CPUs and GPU coprocessors,
+have the CPU-only boxes on the ropes =E2=80=93 and the ceepie-xeephies, whi=
+ch
+mix CPUs and Intel's Xeon Phi x86 coprocessors, are hitting them with
+the metal chair.
+
+----
+
+Nvidia launches not one but two Kepler2 GPU coprocessors
+Uncloaks Tesla K20, K20X extreme oomphers for servers, workstations
+http://www.theregister.co.uk/2012/11/12/nvidia_tesla_k20_k20x_gpu_coprocess=
+ors/
+
+The wait for the "Kepler2" GPU coprocessors based on the company's
+GK100 GPUs is over. That's the good news.
+
+The bad news is that you may have to hurt someone =E2=80=93 or call in a fa=
+vor
+at Nvidia =E2=80=93 to get your hands on one, because so many people are go=
+ing
+to be looking for one to goose their number-crunching. And you'll have
+to get in line behind Cray, which is building the "Titan" and "Blue
+Waters" 20-petafloppers using the devices.
+
+----
+
+Cray ends battle with Appro by ingesting it alive
+If you can't beat 'em, eat 'em
+http://www.theregister.co.uk/2012/11/09/cray_eats_appro/
+
+Cray is going to top off a pretty good year financially if it can get
+the many-petaflopping Titan and Blue Waters supercomputers accepted at
+Oak Ridge National Laboratory and the University of Illinois.
+
+There's a good chance those machines will be accepted, but it creates a
+problem: the $188m Blue Waters deal was an unexpected win, and next
+year, the company will be facing down a very tough compare. Moreover,
+Cray doesn't really have a plain vanilla x86 cluster business, and
+particular does not have one that is suited for helping it build Hadoop
+and other big data iron.
+
+----
+
+Computer sports betting pool: WIN PILES OF virtual CASH!
+Time to pick your cluster compo favourites
+http://www.theregister.co.uk/2012/11/09/sc12_cluster_competition_betting_po=
+ol/
+
+As the greatest event in computer sports =E2=80=93 the SC12 Student Cluster
+Competition (SCC) =E2=80=93 prepares to kick off next week, tension is risi=
+ng
+worldwide. Hordes of fans and industry insiders are analysing the
+computing tasks, picking their favorite team or teams, and arguing
+about it with their friends and even their enemies.
+
+----
+
+High school kids wrestle uni students in mini-cluster match
+LittleFe foes prepare for battle at SC12
+http://www.theregister.co.uk/2012/11/09/sc12_cluster_competition_mini_fe/
+
+Now that the US elections are over, it=E2=80=99s obvious that the world=E2=
+=80=99s
+attention has shifted to the upcoming Student Cluster Competition
+(SCC), which will kick off next Monday at SC12 in Salt Lake City.
+
+The traditional =E2=80=98Big Iron=E2=80=99 competition (details here) has t=
+eams of
+undergraduates benchmarking their home-grown clusters to see which
+school is best at wringing the most HPC app performance (LINK2) out of
+only 26 amps (120 volts). This is the event that has become the largest
+spectacle in computer sports and a beloved part of every SC conference.
+
+----
+
+Cray scales to over 100 petaflops with 'Cascade' XC30 behemoth
+Aries interconnect, Dragonfly topology crush Gemini toruses
+http://www.theregister.co.uk/2012/11/08/cray_cascade_xc30_supercomputer/
+
+Hot on the heels of the delivery of the 20-plus petaflops "Titan"
+CPU-GPU hybrid supercomputer to Oak Ridge National Laboratory last
+week, Cray has launched what is unquestionably a much better machine,
+the long-awaited "Cascade" system developed in conjunction with the US
+Defense Advanced Research Projects Agency and sporting the new "Aries"
+interconnect.
+
+----
+
+SGI losses widen, but revenue bumps up
+Still disposing of 'LMDs of profit destruction'
+http://www.theregister.co.uk/2012/11/07/sgi_q1_f2013_numbers/
+
+Hyperscale server and supercomputer maker Silicon Graphics is still
+chewing through a pile of ICE X cluster low-margin deals =E2=80=93 what com=
+pany
+top brass call LMDs, a weapon of profit destruction that their
+predecessors allowed =E2=80=93 which whacked profits in the quarter ended in
+September.
+
+That September quarter is the first quarter of SGI's fiscal 2013 year,
+and during it the company brought in $192.9m total revenues, up 7.8 per
+cent compared to the prior year's period.
+
+----
+
+Scraggly student veterans bid for SC12 victory
+Does experience =3D cluster triumph?
+http://www.theregister.co.uk/2012/11/06/sc12_cluster_competition_4/
+
+A couple of old-timer teams round out the field at the upcoming SC12
+Student Cluster Competition (SCC) in Salt Lake City. These contests
+started in 2007 and between them, these two teams have participated in
+a total of nine matches.
+
+Each school has six team members plus three advisors/coaches. Let=E2=80=99s
+assume that the competition consumes six hours per week (it=E2=80=99s proba=
+bly
+more) for six months: conservatively, students and faculty at these two
+schools have invested more than 25,000 hours in designing, building,
+testing, and ultimately competing against other teams with their
+clusters. That=E2=80=99s 631 weeks of a 40-hour-per-week job, or more than =
+12
+years of real-world working life. (This assumes a typical US or Asian
+50-week work year. Europeans should adjust to correct for longer
+vacations, holidays, =E2=80=98sick=E2=80=99 day allowances, work stoppages,=
+ etc.)
+
+----
+
+All-female code-crunching boffin team aims for cluster compo glory
+Comp sci, maths and hard science majors hope to draw more women into
+tech
+http://www.theregister.co.uk/2012/11/06/sc12_cluster_competition_3/
+
+A couple of new =E2=80=93 and quite different =E2=80=93 teams are looking t=
+o shake
+things up at next week=E2=80=99s SC12 Student Cluster Competition (SCC) in =
+Salt
+Lake City. For the first time, we=E2=80=99ll see a coalition of elite schoo=
+ls
+combine forces to take on their more experienced competitors. We will
+also see another SCC first: an all-female team.
+
+----
+
+China tries for 2012 WORLD cluster compo DOMINATION
+Sends NUDT, UTSC against the world at SC12 cluster-fest
+http://www.theregister.co.uk/2012/11/06/sc12_cluster_competition_2/
+
+According to Chinese astrologers, 2012 is the Year of the Dragon, and
+it=E2=80=99s certainly been a most auspicious year for Chinese HPC student
+cluster teams. So far this year*, China has completely dominated the
+Student Cluster Competition circuit.
+
+China's Tsinghua and NUDT university teams took both the Overall and
+highest LINPACK awards at ISC=E2=80=9912 in Hamburg. With wins at the upcom=
+ing
+competition at SC12 in Salt Lake City, the teams have a solid chance to
+finish out the 2012 season undefeated. This hasn=E2=80=99t happened since...
+well, never. Up until 2012, the only student cluster competitions were
+held at the annual US-based SC conference. With the addition of a
+cluster competition at the European ISC shows, we now have a
+full-fledged circuit, right?
+
+----
+
+Two Texan teams tool up, ride out to enormo cluster shootout
+We're gonna kick supercomputer ass and chew gum - and we're all out of
+gum
+http://www.theregister.co.uk/2012/11/06/sc12_cluster_competition_texas/
+
+People in most US states would be ecstatic (or, perhaps, totally
+indifferent) to hear that one of their universities made it to the 2012
+Student Cluster Competition (SCC) in Salt Lake City, but the state of
+Texas wanted more - so it's sending two teams to the Great Salt Lake
+Siege.
+
+Details on cluster-building competition rules, applications and prizes
+are here and here. (I say prizes, there aren't really any but it's the
+taking part that counts.) Go ahead and read those articles if you
+haven't already; I=E2=80=99ll pause here until you catch up.
+
+----
+
+Swiss boffins slap together homegrown zBox4 supercomputer
+Overnighter yields 54 teraflops with flashy storage
+http://www.theregister.co.uk/2012/11/06/zurich_zbox4_supercomputer/
+
+Students and a few wandering professors at the Institute for
+Theoretical Physics at the University of Zurich had a perfect weekend
+when they scraped together the funds to buy the parts for their zBox4
+homegrown supercomputer and assembled the two-rack beast.
+
+This is the fourth generation of homegrown machines that the ITP
+students have put together, and it represents a serious upgrade over
+the zBox3 system it replaces, including a new "platter" design where
+the motherboards and storage are mounted as well as new custom shelving
+that looks a tad bit like baker's shelves such as those made famous by
+Google in its early data centers.
+
+----
+
+Young HPC warriors grab Big Irons, whack away at Cold War plutonium
+waste
+Massively parallel 3-D reservoir sims just 1 of the apps in student
+cluster compo
+http://www.theregister.co.uk/2012/11/05/sc12_cluster_competition_2/
+
+The apps for this year=E2=80=99s edition of the SC12 Student Cluster
+Competition are the typical mix of HPC workloads, chosen to represent a
+range of scientific disciplines and computational challenges. In order
+to drink deeply from the chalice of victory student teams will need to
+crawl inside each of the apps, find the bottlenecks, and figure out how
+to work around them =E2=80=93 or make them less bottlenecky. (Note: there i=
+s no
+actual chalice of victory in the Student Cluster Competition. But there
+should be, don=E2=80=99t you think?)
+
+----
+
+Olympics is over, prepare for a COMPUTER SPORTS SMACKDOWN
+If ye would have peace, prepare for cluster WAR
+http://www.theregister.co.uk/2012/11/05/sc12_cluster_competition_1/
+
+It=E2=80=99s November, which can mean only one thing for computer sports
+enthusiasts: it=E2=80=99s time for another Student Cluster Competition. The
+seventh edition of this annual event begins in about two weeks at the
+SC12 conference in beautiful Salt Lake City, Utah. The competition pits
+teams of university undergrads against each other in a marathon battle
+to prove that they can design, build, and run the fastest (and most
+efficient) cluster.
+
+----
+
+
+*** Whitepaper ***
+
+The right agile tools for your team
+A practical guide to choosing theright agile tools for your team.
+http://whitepapers.theregister.co.uk/d/a03/5613a/50e/34b9c57d?td=3Dweek_sec=
+_e
+
+
+
+------------------------------------------------------------------------
+
+This email was sent to legit4as@gmail.com
+
+To change your email or your email subscriptions
+
+    http://account.theregister.co.uk/login/
+
+To unsubscribe from all The Register newsletters
+
+    http://account.theregister.co.uk/unsubscribe/352570/0e7cc08c
+
+The Register and its contents are Copyright =C2=A9 2012 Situation Publishin=
+g.
+All rights reserved.

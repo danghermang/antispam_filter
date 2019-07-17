@@ -1,0 +1,38 @@
+Subject:[Flexradio] Receiver input protection
+I am thinking about putting an old Heath SB-200 amplifier on either my 1000
+or 3000. There has been a lot of discussion of keying issues so that's not a
+problem. I have multiple flex radios, each connected to its own antenna.
+Typically I would only have one turned on at a time, or be operating at qrp
+power levels listening to multiple radio/antenna combinations for best
+reception.
+
+ 
+
+Operation at the 100 watt level has not caused any problems damaging front
+ends but I am concerned what might happen running around 500 watts. Any
+general rules of thumb on antenna spacing and front end protection for my
+situation would be appreciated. Most of the high power operation would be on
+75 meters.
+
+
+
+I would also like to know how the front end bandpass filters are switched
+when power is turned off, at least for the radios I have (1000, 1500, 3000).
+I am hoping that latching relays are not used and when power is off I would
+not have a problem with that radio! If that is the case I may be able to
+just not turn on other radios when running high power on one. 
+
+
+
+Thanks in advance!
+
+
+
+73 - Mike WA8BXN
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

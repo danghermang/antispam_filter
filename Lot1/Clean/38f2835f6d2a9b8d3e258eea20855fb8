@@ -1,0 +1,29 @@
+Subject:Re: [HS] comportement curieux de malloc
+On Sat, 29 Sep 2012 17:47:24 +0200
+Fran=C3=A7ois Boisson <user.anti-spam@maison.homelinux.net> wrote:
+
+> lieu de malloc, mais c'est clair que c'est non satisfaisant. Il y
+> a donc comme solutions
+> * r=C3=A9ecrire tout le bazar: avec ocaml, c'est peut =C3=AAtre idiot
+> * se contenter de ma rustine... bof.
+> * essayer de voir si il y a moyen d'assurer un m=C3=A9canisme faisant
+> grossir le =C2=ABheap=C2=BB tel que voulu.
+
+Il-y-a aussi une autre possibilit=C3=A9, pas vraiment ergonomique ni
+rationnelle mais peut-=C3=AAtre =C3=A0 m=C3=AAme de fixer le PB, =C3=A7a se=
+rait de
+d=C3=A9finir une pile fixe [pas sur la t=C3=AAte!;]
+
+--=20
+<molotov> Argh je m'ennuie !!
+<Yuk> T'as qu'=C3=A0 te faire un coktail ...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120929175825.56ed1757@anubis.defcon1
+

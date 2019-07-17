@@ -1,0 +1,47 @@
+Subject:Aspectos a tener en cuenta para la =?ISO-8859-1?Q?instalaci=F3n_?=
+	=?ISO-8859-1?Q?de_un_Brouter/Firewall/Proxy_con_balance_de_c?=
+	=?ISO-8859-1?Q?arga_entre_varias_conexiones?=
+Grupo, buenos días.
+
+Bueno, tengo disponible una PC con 6 sócalos PCI (para interfaces de 
+red) + 1 onboard.
+
+La idea es instalar dicha para realizar balance de carga entre 4 
+conexiones a internet que tenemos:
+
+- 1 Dedicado (2mbits SIR)
+- 2 ADSL
+- 1 Wireless
+
+Al respecto quiero manejar:
+
+- Balance de Carga
+- Proxy (Squid/Dansguardian)
+- Filtro de contenidos y descargar.
+
+Las consultas que quisiera dejar a modo de debate/sugerencias e 
+intercambio de ideas son las siguientes:
+
+1) Es mejor ir por el lado de un balance de carga por software (debian) 
+o por un hardware (como Mikrotik).
+
+2) En el caso de Mikrotik como funciona el tema del cacheo de páginas?
+
+3) Que aspectos recomiendan para tener en cuenta (pros y contra) a la 
+hora de analizar la instalación de un proxy con balance de carga.
+
+Ya estoy buscando información al respecto y tengo varios tutoriales en 
+carpeta, la idea del mensaje es generar un intercambio de ideas entre 
+los compañeros/as de la lista.
+
+Muchas Gracias a todos.
+
+Saludos, y buen fin de semana para todos!
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506EBF26.4040401@gmail.com
+

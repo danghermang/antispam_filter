@@ -1,0 +1,90 @@
+Subject:Otra de Squid, esta vez con HTTPS
+Buenas tardes.
+
+Aunque no s=E9 si sea =E9ste el lugar adecuado para plantear =E9sta duda,
+acudo a ustedes como uno de mis =FAltimos recursos.
+
+Pretendo configurar un proxy transparente basado en Squid sobre Squeeze.
+
+:~$uname -r
+  2.6.32-5-686
+
+Instal=E9 y compil=E9  squid desde las fuentes, con soporte SSL
+:~$./squid -v
+  Squid Cache: Version 3.1.20
+  configure options:  '--enable-linux-netfiler' '--enable-icap-client'
+'--enable-ssl'
+    --with-squid=3D/home/hgarcia/squid/squid-3.1.20 --enable-ltdl-convenien=
+ce
+
+Habilito ip_forward:
+:~$cat /proc/sys/net/ipv4/ip_forward
+1
+
+Las =FAnicas reglas que tengo en Iptables : (Nota: La ip del squid
+server en LAN se cambi=F3, para fines de =E9ste correo, por el texto
+ip.proxy)
+
+iptables -t nat -A PREROUTING -i eth1_LAN -p tcp -m tcp --dport 443 -j
+DNAT --to-destination ip.proxy:3129
+iptables -t nat -A PREROUTING -i eth1_LAN -p tcp -m tcp --dport 80 -j
+DNAT --to-destination ip.proxy:6523
+iptables -t nat -A POSTROUTING -o eth0_WAN -j MASQUERADE
+
+Como se observa arriba, el squid recibe peticiones HTTP por el puerto
+6523, y HTTPS por el puerto 3129.
+
+
+No pongo todo el squid.conf, por respeto a la lista; si es necesario,
+lo puedo mandar. Son alrededor de 50 lineas sin comentarios.
+
+Aqu=ED la secci=F3n encargada de puertos y protocolos
+
+ssl_bump allow all
+
+http_port ip.proxy:6523 intercept
+# configuracion https
+https_port 3129 ssl-bump key=3D/ruta/squid.key cert=3D/ruta/squid.crt
+
+forwarded_for transparent
+
+
+El certificado y la llave, los gener=E9 con OpenSSL
+
+Estoy haciendo mis pruebas desde otro squeeze, usando el Chrome stable
+Hasta =E9ste momento, HTTP funciona de maravilla, sin necesidad de
+cambiar nada en el navegador cliente.
+Cualquier petici=F3n HTTPS, da un error de certificado, es de esperarse.
+Sin embargo,  si importo el certificado como de confianza, sigo viendo
+el error.
+
+Si comento las lineas en squid.conf de SSL Bump, y https_port. Y
+configuro el proxy del navegador cliente (todos los
+protocolos)apuntando al puerto 80 del server, en el Access.log (del
+squid) veo tanto las peticiones HTTP (get y Post) como las HTTPS (solo
+m=E9todo CONNECT) y navego de maravilla.
+
+No me interesa generar certificados dinamicos, ni ser un
+man-in-the-middle completo (con lo que conlleva). Lo =FAnico que me
+interesa, es, de manera transparente, guardar en log y poder
+permitir/denegar esas peticiones CONNECT que veo al configurar el
+proxy manualmente en los navegadores.
+
+=BFAlguna recomendaci=F3n?
+
+Un abrazo
+--=20
+Hector
+--
+El Pic no pudo Iniciar correctamente.
+Inserte el disco de arranque y presione cualquier pin para continuar...
+
+Linux Registered User #467500
+https://linuxcounter.net/user/467500.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CACzWLTJ8np+4_ZjJBacCKHE2h1ZsKVqdKTxX_nnEYxHrsZwfDw@mail.gmail.com
+

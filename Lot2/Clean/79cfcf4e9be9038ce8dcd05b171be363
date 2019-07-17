@@ -1,0 +1,50 @@
+Subject:Re: cifrar trafico de red Local?????
+El d=EDa 12 de septiembre de 2012 23:41, PedroTron
+<porsiunculo@gmail.com> escribi=F3:
+> El d=EDa 12 de septiembre de 2012 17:48, Flako <subforos@gmail.com> escri=
+bi=F3:
+>> Si es un solo puerto (o algunos) podes usar ssh tunneling
+>> Igual estoy confundido en comprender tu arquitectura.. si usas openvpn
+>>  en una red local o wan, y haces que los equipos solo usen para
+>> comunicare los IP de la vpn tenes el canal seguro.. Porque eso no te
+>> sirve?
+>
+> Es que ahi es donde tengo la duda.  Si ya se tiene visibilidad de red,
+> openvpn no generaria un conflicto? o se convertiria en la ruta
+> predeterminada para llegar a la misma red, pero por canal cifrado.
+
+
+NO!!!
+vos cuando armas una vpn tiene otro rango de ip
+entonces si llamas el ip comun va por la coneccion sin cifrar
+si salis via la ip de la vpn va cifrada
+
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/CAJUQG7rzY6RLwK5h2U292r1g_0z_CcOOnovu_+R=
+6FVr7eZ9w@mail.gmail.com
+>
+
+
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54ZA_X5iiEWp6HqXcyNAiEt-8CbKhKT9JxGFBqo4OipsXQ@mail.gmail.com
+

@@ -1,0 +1,22 @@
+Subject:Insmod al arrancar
+Hola a todos de nuevo
+
+Ahora que ya tengo todo configurado bien en mi port=E1til, ya paso a los
+detalles. En el port=E1til tengo una tarjeta Broadcom, para la cual tuve
+que compilar el driver, ya que ni el wl ni el b43 funcionaban. Para
+activar el driver, tengo que hacer "insmod wl.ko", y eso lo tengo que
+hacer cada vez que enciendo el ordenador.
+
+=BFC=F3mo puedo automatizar esta acci=F3n? Preferiblemente, me gustar=EDa
+ponerlo con los otros m=F3dulos y que se cargue poni=E9ndolo en
+/etc/modules, pero si ah=ED pongo "wl", se carga el m=F3dulo que no
+funciona (el wl que viene con el kernel).
+
+Un saludo y gracias de antemano
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8SRD2ohToEAFtW78yxWyGty7-9OjrNVRCWaH+YWNDJbYQ@mail.gmail.com
+

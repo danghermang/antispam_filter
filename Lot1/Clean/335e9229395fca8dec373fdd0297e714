@@ -1,0 +1,65 @@
+Subject:Re: [Hsqldb-user] Unable to Insert into temp db(HSQL) VIEW.
+You are using an old version of HSQLDB.
+
+Try the latest release version 2.2.9, or the latest snapshot jar
+
+http://www.hsqldb.org/repos/org/hsqldb/hsqldb/SNAPSHOT/
+
+Fred
+
+On Wed, Oct 10, 2012, at 07:29, Kapil Kumar Shukla wrote:
+> 
+> Hi all, 
+> 
+> I am facing this issue with HSQL DB. Even if i try to create a simple
+> view,
+> i am unable to insert into it. Following are the steps I am trying: 
+> 
+> 1. create table test_emp(emp_id int, emp_name varchar, emp_age varchar,
+> emp_sal varchar); 
+> 2. insert into test_emp values (4, 'rakesh', 29, 35000);//inserted some
+> values into the table 
+> 3. CREATE VIEW emp_view as select emp_id,emp_name, emp_age, emp_sal from
+> test_emp;// creating a view displays the values which are available in
+> table. 
+> 4. INSERT INTO EMP_VIEW (emp_id,emp_name, emp_age, emp_sal) VALUES (9,
+> 'naresh', '41', '42000');//this line gives error 
+> [Error Code: -55, SQL State: S0005] Not a Table: EMP_VIEW in statement
+> [INSERT INTO EMP_VIEW] 
+> 
+> It seems it will accept only a table name here. 
+> I am using Temp DB so all the tables, view and even the db gets deleted
+> once
+> session is completed. 
+> 
+> Can anybody help me out in resolving this issue? 
+> 
+> Thanks, 
+> Kapil 
+> -- 
+> View this message in context:
+> http://old.nabble.com/Unable-to-Insert-into-temp-db%28HSQL%29-VIEW.-tp34535797p34535797.html
+> Sent from the HSQLDB - User mailing list archive at Nabble.com.
+> 
+> 
+> ------------------------------------------------------------------------------
+> Don't let slow site performance ruin your business. Deploy New Relic APM
+> Deploy New Relic app performance management and know exactly
+> what is happening inside your Ruby, Python, PHP, Java, and .NET app
+> Try New Relic at no cost today and get our sweet Data Nerd shirt too!
+> http://p.sf.net/sfu/newrelic-dev2dev
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Don't let slow site performance ruin your business. Deploy New Relic APM
+Deploy New Relic app performance management and know exactly
+what is happening inside your Ruby, Python, PHP, Java, and .NET app
+Try New Relic at no cost today and get our sweet Data Nerd shirt too!
+http://p.sf.net/sfu/newrelic-dev2dev
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

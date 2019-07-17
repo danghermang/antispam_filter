@@ -1,0 +1,40 @@
+Subject:Agrandar espacio a Debian
+Hola lista, estoy pensando en agrandar el espacio (no libre) que
+tengo, el problema es que en ese espacio hay dos particiones, en una
+de las cuales tengo instalado Scientific Linux junto a su respectivo
+/home en otra partici=F3n. Mi duda es si puedo eliminar dichas
+particiones (pensaba hacerlo con gparted) y a=F1adirlas al resto de las
+particiones en partes iguales. El problema es que al crear esas
+particiones no lo hice con LVM, no s=E9 si tiene que ver eso.
+
+Saludos y gracias!
+
+--=20
+Dar=EDo
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|=
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+Por favor, no utilice formatos de archivo propietarios para el intercambio
+de documentos, como ser DOC, XLS, BMP, PPT, RAR, MP3, DWG,
+MOV, FLV, WMV, etc.  sino  ODT, ODS, DJVU, PDF, TXT,
+CSV, PNG, FLAC, OGV, GZ o cualquier otro que no obligue a utilizar
+un programa de un fabricante concreto.
+Info: http://www.gnu.org/philosophy/no-word-attachments.es.html
+       http://www.vaslibre.org.ve/publicaciones/odfvsooxml-es.pdf
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|=
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+ ,              ,
+/                \
+((__-^^-,-^^-__))
+ `-_---' `---_-'
+  `--|o` 'o|--'
+     \  `  /
+      ): :(
+     :o_o:
+       "-"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CABbN1RyHK38V25fBLNjd2VpXMX6ZSWeAm9EEY8ocP-UqK0ertg@mail.gmail.com
+

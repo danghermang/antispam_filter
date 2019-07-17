@@ -1,0 +1,39 @@
+Subject:Re: [HS] comportement curieux de malloc
+On Sat, 29 Sep 2012 15:57:49 +0200
+Fran=C3=A7ois Boisson <user.anti-spam@maison.homelinux.net> wrote:
+
+> clair sur la doc), mais le probl=C3=A8me est que visiblement =C3=A7a fait
+> une extension =C2=ABpar le haut=C2=BB ce qui est ennuyeux, visiblement da=
+ns
+> le source de camllight, =C2=ABheap_start=C2=BB est une constante =C3=A0 n=
+e pas
+> toucher.  Il y a une fonction =C3=A9tendant la m=C3=A9moire =C3=A0 =C2=AB=
+sommet
+> constant=C2=BB?
+
+Qu'est-ce que tu entends par "par le haut", une pile est une pile;
+apr=C3=A8s suivant qu'elle soit LIFO ou FIFO c'est la logique du niveau
+juste au-dessus de ton morceau de code qui d=C3=A9termine =C3=A7a - et que =
+les
+adresses de ses =C3=A9l=C3=A9ments soient croissantes ou d=C3=A9croissantes=
+ ou
+al=C3=A9atoires n'a que peu d'incidence (sauf en cas de d=C3=A9bordement du
+segment).
+
+--=20
+Julien : C'est bien pratique le m=C3=A9tro quand m=C3=AAme
+thomas75 : grave
+thomas75 : mai il devr=C3=A9 fair un m=C3=A9tro entre l=C3=A9 ville, et pa =
+sou terre
+Julien : Ca existe
+Julien : Ca s'appelle un train
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120929170130.5e3595b3@anubis.defcon1
+

@@ -1,0 +1,52 @@
+Subject:RE: ActivePerl on OS X: ppm not working, no DBD::mysql PPM available
+
+>-----Original Message-----
+>From: activeperl-bounces@listserv.ActiveState.com [mailto:activeperl-
+>bounces@listserv.ActiveState.com] On Behalf Of Michiel Beijen
+>Sent: 04 October 2012 12:55
+>To: Brian Raven
+>Cc: activeperl@listserv.activestate.com
+>Subject: Re: ActivePerl on OS X: ppm not working, no DBD::mysql PPM available
+>
+>Hi Brian,
+>
+>On Thu, Oct 4, 2012 at 1:38 PM, Brian Raven <BRaven@nyx.com> wrote:
+>
+>> A quick look at the failed build logs found there suggest that mysql may not have been installed
+>on the build box.
+>>
+>>     Can't exec "mysql_config": No such file or directory at Makefile.PL line 83.
+>>
+>> Perhaps somebody at Activestate could check that.
+>>
+>> Alternatively, if you have mysql installed you could try downloading the module from CPAN and
+>building it yourself. The CPAN Testers Matrix (http://matrix.cpantesters.org/?dist=DBD-mysql+4.022)
+>shows successful builds for OS X (Darwin).
+>
+>I understand there is no DBD-mysql package because there simply is no
+>MySQL install on the package builder. But the benefit for me of using
+>a binary distribution such as ActivePerl is the fact that I do not
+>need to bother about compiling these modules myself. I had some issues
+>when I wanted to compile DBD::mysql on the system perl which is why I
+>wanted to use ActivePerl in the first place.
+>
+>And yes, it would be very helpful for other ActivePerl users if
+>someone at ActiveState would make sure there is a DBD-mysql package
+>available on OS X.
+>
+>--
+>Mike
+
+I don't know if this is of use but I recall I had problems some time ago trying to install DBD::mysql when I tried to upgrade
+ActivePerl to 5.8 on my Mac as this module wasn't available. I eventually solved this by installing the DBD::mysqlPP module instead
+and that worked OK with my MySQL code.
+
+I did have a problem though when I was trying to remotely debug with Perl 5.8 some CGI scripts that used MySQL with the original
+DBD::mysql module, and I had to adjust the code so that it installed whichever DBD driver was available.
+ 
+Eric 
+
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

@@ -1,0 +1,77 @@
+Subject:Re: Plus de clavier ni de souris avec kdm !
+Le Fri, 02 Nov 2012 00:59:15 +0100,
+Mourad Jaber <ml@nativobject.net> a écrit :
+
+> Bonsoir,
+> 
+> J'ai un gros soucis avec un laptop.
+> 
+> Au dernier upgrade, tout s'est bien passé mais le redémarrage
+> suivant, c'est la panique... Pas de log louche, mais je n'ai ni
+> clavier, ni souris qui fonctionne donc impossible de faire quoi que
+> ça !
+> 
+> J'ai pris la main en ssh pour pouvoir analyser les logs, mais il n'y
+> a rien de probant, tout semble normal, même pas un warning dans le
+> changement de X ! Dans les logs de kdm j'ai ça
+> 
+> X.Org X Server 1.12.4
+> Release Date: 2012-08-27
+> X Protocol Version 11, Revision 0
+> Build Operating System: Linux 3.2.0-4-amd64 x86_64 Debian
+> Current Operating System: Linux hammer-head 3.5-trunk-amd64 #1 SMP
+> Debian 3.5.5-1~experimental.1 x86_64
+> Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.5-trunk-amd64 
+> root=UUID=18d08a71-e5e2-4847-bb6d-fbe434787ced ro quiet splash
+> Build Date: 30 September 2012  10:53:24AM
+> xorg-server 2:1.12.4-1 (Julien Cristau <jcristau@debian.org>)
+> Current version of pixman: 0.26.0
+>          Before reporting problems, check http://wiki.x.org
+>          to make sure that you have the latest version.
+> Markers: (--) probed, (**) from config file, (==) default setting,
+>          (++) from command line, (!!) notice, (II) informational,
+>          (WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+> (==) Log file: "/var/log/Xorg.0.log", Time: Fri Nov  2 00:48:01 2012
+> (==) Using config file: "/etc/X11/xorg.conf"
+> (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+> klauncher(4176) kdemain: No DBUS session-bus found. Check if you have
+> started the DBUS server.
+> kdeinit4: Communication error with launcher. Exiting!
+> kdmgreet(4168)/kdecore (K*TimeZone*): KSystemTimeZones: ktimezoned
+> initialize() D-Bus call failed:  "Not connected to D-Bus server"
+> 
+> kdmgreet(4168)/kdecore (K*TimeZone*): No time zone information
+> obtained from ktimezoned
+> 
+> ça me laisserai penser un problème avec dbus, mais ni kdm, ni dbus
+> ont été mis à jour par le dernier upgrade !
+> 
+> Si quelqu'un a une idée pour creuser une piste, je suis preneur à
+> 100% !
+> 
+> ++
+> 
+> Mourad
+> 
+bonjour,
+
+	est il possible de vérifier la présence des paquets suivants :
+
+	xserver-xorg-input-kbd
+	xserver-xorg-input-mouse
+
+	apt-cache policy xserver-xorg-input-mouse xserver-xorg-input-kbd |grep Install
+
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121102083427.02d39c51.bernard.schoenacker@free.fr
+

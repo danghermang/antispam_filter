@@ -1,0 +1,23 @@
+Subject:Re: Debian (ou Linuxmint) sous W530
+Le Sat, 15 Sep 2012 11:20:02 +0200, Yoann CONGAL a écrit :
+
+> J'ai résolu ce problème en réduisant la partition Windows sous windows
+> (il y a un outil dans les utilitaires de disques je crois), ensuite,
+> l'installation de debian sur l'espace nouvellement vide c'est du gâteau
+> (Je crois qu'il y a une option "Utiliser tout l'espace disponible pour
+> faire un partitionnement par défaut).
+
+faire une copie de sauvegarde de Windows (avec l'utilitaire windows) 
+après avoir réduit la partition. 
+
+On ne sait jamais ...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5054d6c4$0$1737$426a74cc@news.free.fr
+

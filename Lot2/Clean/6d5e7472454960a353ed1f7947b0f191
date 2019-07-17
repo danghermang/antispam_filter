@@ -1,0 +1,111 @@
+Subject:Re: =?ISO-8859-1?Q?=BFLinux=2C_para_dise=F1o_web_y_dis?=
+	=?ISO-8859-1?Q?e=F1o_grafico=3F?=
+Hola a todos de nuevo,
+
+Ante todo, perdón por la tardanza en responder. La agenda no me deja 
+dedicarle el tiempo que quisiera a la lectura y seguimiento de las 
+listas de correo. ;)
+
+Muchas gracias a todos por los halagos. Es bueno saber que el tiempo que 
+dediqué a responder no ha sido en vano y que he podido aportar algo a la 
+lista. ;)
+
+==== SOBRE LOS EJEMPLOS DE TRABAJOS ====
+
+Altair me pedía algunos ejemplos. Como en casi todo, en casa de 
+herrero... jejejeje.
+Así que mientras no termino mi nueva y flamante web donde sí incluiré 
+todos mis trabajos más reseñables, sólo os puedo dejar este vídeo con 
+algunos de ellos:
+
+http://jesusda.com/docs/linuxwebdesign/s5-linuxwebdesign/video/jesusda-web-demoreel.mp4
+
+==== SOBRE IGNORAR A INTERNET EXPLORER ====
+
+Otro de los comentarios interesantes fue el de ignorar a los usuarios de 
+IE y diseñar webs sólo para navegadores estándares.
+Bueno, esto, como es fácil de intuir, es imposible.
+Uno no puede descartar a un porcentaje altísimo de usuarios simplemente 
+porque no usen las herramientas adecuadas.
+Lo que sí trato de hacer es aleccionar a cuanta gente puedo para empleen 
+navegadores como Firefox y, por supuesto, usar toda la potencia que 
+brindan los navegadores modernos y estándares, aunque en navegadores 
+antiguos no esté soportada dicha potencia.
+
+Es decir, que yo trato de diseñar todo usando las ventajas que brinda el 
+soporte que ofrecen navegadores basados en webkit y mozilla, y luego 
+repaso todo para que las webs sean funcionales en IE. Que la versión X 
+de IE no soporta bordes redondeados o sombras en textos, pues mala 
+suerte para esos usuarios. Los usuarios que usen otro navegador podrán 
+disfrutar de esas cosas, pero los de IE, al menos podrán usar la web 
+cómodamente (aunque con menos florituras). ;)
+
+==== SOBRE SOLUCIONES COMO BROWSERSHOT ====
+
+Marc apuntaba muy acertadamente la web http://browsershots.org/  para 
+poder testear una web en diversos navegadores.
+La principal pega que tienen este tipo de servicios es que distan mucho 
+de ser instantáneos. Cuando maquetas, generalmente, necesitas tener una 
+respuesta directa para probar cada cambio, modificar, volver a probar, y 
+así sucesivamente.
+
+Esto implica que necesitas tener un navegador funcionando en local para 
+refrescar cuantas veces necesites y lo más rápido que puedas.
+
+Es por eso que se hace obligatorio usar máquinas virtuales para probar 
+los navegadores no compatibles con Linux.
+
+Si diseñas en Mac o Wintendo tendrías que hacer lo mismo, porque, por 
+ejemplo, los textos no se renderizan igual en todos los sistemas 
+operativos, de forma que Safari en MacOs no tiene por qué mostrar las 
+tipografías igual que la versión de Windows del mismo navegador.
+
+
+==== RESPECTO A ENVIAR MAILS EN HTML ====
+
+Mis disculpas. ;)
+Intentaré que no se repita.
+
+
+==== CONCLUSIÓN ====
+
+Mi conclusión sobre todo esto es que no sólo se puede diseñar y 
+desarrollar páginas y aplicaciones web sobre GNU/Linux, sino que, como 
+diría Stallman, se debe.
+
+Lo de pagar montantes ingentes de dinero por software que no ofrece 
+grandes diferencias sobre sus equivalentes libres y gratuitos es, como 
+mínimo, de ser poco inteligentes. Yo prefiero dedicar un poco del dinero 
+que gano con mi trabajo a final de año a realizar donaciones a esos 
+proyectos libres. Si todos hiciéramos eso, os aseguro que la versión 5 
+de Bluefish o la 4 de Gimp le darían sopas con ondas a sus equivalentes 
+privativos en unos pocos años.
+
+Además algunos proyectos como Joomla! en lugar de aceptar dinero 
+directamente, invitan a hacer las donaciones comprando su merchandising, 
+de modo que te puedes comprar una mochila o una taza o una camiseta 
+super chulas y al mismo tiempo contribuir a tu programa libre favorito. 
+Para mi eso es más gratificante que pagar por tener una caja de DVDs o, 
+peor aún, un link de acceso a una descarga.
+
+Tampoco es de ser muy inteligente, a mi modo de ver, pagar para tener 
+que aceptar unos contratos de licencia leoninos, habiendo otros 
+contratos de licencia que te respetan a ti y a tus libertades, que te 
+permiten usar el mismo software en tantos ordenadores como necesites y 
+compartirlo con tus compañeros de trabajo (y que no insultan tu intelecto).
+
+Y lo mejor de todo es que puedes trabajar perfectamente bien usando 
+software libre, que al final es de lo que se trata. No hay necesidad de 
+renunciar a algo para poder ser feliz usando el software que prefieres. ;)
+
+
+
+Un saludo a todos!
+jEsuSdA 8)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50603CD2.40905@jesusda.com
+

@@ -1,0 +1,22 @@
+Subject:Re: Software, herramienta para encriptar y desencriptar un md5
+El Thu, 29 Nov 2012 14:52:27 -0500, academia escribió:
+
+> Hola lista. Necesito algún software, herramienta (o cómo desde una
+> terminal) poder encriptar y desencriptar un md5.
+
+Con "openssl" te debería bastar.
+
+OpenSSL Command-Line HOWTO
+http://www.madboa.com/geek/openssl/
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9al75$2aj$1@ger.gmane.org
+

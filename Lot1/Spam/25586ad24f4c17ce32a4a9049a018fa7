@@ -1,0 +1,69 @@
+Subject:Mail delivery failed: returning message to sender
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  8bf3a67d@mxtelecom.com
+    SMTP error from remote mail server after RCPT TO:<8bf3a67d@mxtelecom.com>:
+    host mx-uk.mxtelecom.com [83.166.71.6]: 550 Unrouteable address
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <3F8BD82@covertstudios.com>
+Received: from [2.178.4.39]
+	by talon.mxtelecom.com with esmtp (Exim 4.80.1)
+	(envelope-from <3F8BD82@covertstudios.com>)
+	id 1Thxmx-0006Hs-RW
+	for 8bf3a67d@mxtelecom.com; Mon, 10 Dec 2012 07:28:32 +0000
+From: "Notification" <3F8BD82@covertstudios.com>
+Subject: New message
+To: <8bf3a67d@mxtelecom.com>
+List-Unsubscribe: <mailto:9E6355B10C7A7A59@vuny.com>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; chars="iso-8859-1"
+Date: Mon, 10 Dec 2012 10:58:19 +0430
+Message-ID: <20121210105819.8B9E92C1B91137B0A63D5.55243@OBA-PC>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+<title>new message for you</title>
+</head>
+
+<body>
+
+<table align="center" cellpadding="0" cellspacing="0" style="width: 777px; border-style: solid; border-width: 1px">
+	<tr>
+		<td style="font-size: large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: #FFFFFF; background-color: #006699">
+		<p style="margin-left: 40px"><br />
+		New messasge<br /><br />
+		</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p style="margin-left: 40px"></p>
+		<p style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px"><br /><br />
+		<strong>Oksana sent new message for you:</strong></p>
+		<p style="color: #535611; font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px">
+		<em>&quot;I am on-line now, let`s chat?&quot;</em></p>
+		<p style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px">
+		Total unread messages - <span style="color: #006699"><strong>26</strong></span>.</p>
+		<p style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px">
+		<a href="http://kjbrides.ru/">Read now..</a></p>
+		<p style="margin-left: 40px">&nbsp;</p>
+		</td>
+	</tr>
+	<tr>
+		<td style="background-color: #006699">&nbsp;</td>
+	</tr>
+</table>
+
+</body>
+
+</html>
+

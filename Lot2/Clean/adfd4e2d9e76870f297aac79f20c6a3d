@@ -1,0 +1,39 @@
+Subject:[Maps-l] Fwd: Multilingual maps demo
+Hello,
+I fwd this mail because the project is sponsored by WMDE and 
+multilingual maps are a topic of Wikipedia.
+Greetings Kolossos
+
+-------- Original-Nachricht --------
+Betreff: Multilingual maps demo
+Datum: Fri, 30 Nov 2012 15:34:21 +0100
+Von: Jochen Topf <jochen@remote.org>
+An: talk@openstreetmap.org
+Newsgruppen: gmane.comp.gis.openstreetmap
+
+Hi!
+
+I have been working on a multilingual OSM map, ie. a map where you, the 
+user can decide in which language the labels should be. A demo of the 
+system is now available at http://mlm.jochentopf.com/ . The tiles for 
+this demo are rendered on tile.openstreetmap.de, the software used is 
+the MapQuest Render Stack with modifications by me. You can choose any 
+language or language combination for the labels.
+
+This is only a demo, the site might be slow or not work at all. Please 
+try it out and tell me what you like and what you don't like.
+
+For more about this project see:
+http://wiki.openstreetmap.org/wiki/Multilingual_maps_Wikipedia_project
+
+Jochen
+-- 
+Jochen Topf  jochen@remote.org  http://www.remote.org/jochen/ 
++49-721-388298
+
+
+
+_______________________________________________
+Maps-l mailing list
+Maps-l@lists.wikimedia.org
+https://lists.wikimedia.org/mailman/listinfo/maps-l

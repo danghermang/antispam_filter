@@ -1,0 +1,55 @@
+Subject:=?ISO-8859-1?Q?Re=3A_Baja_duraci=F3n_de_la_bater=EDa?=
+El d=EDa 7 de septiembre de 2012 15:56, Camale=F3n <noelamac@gmail.com> esc=
+ribi=F3:
+> El Fri, 07 Sep 2012 14:15:52 +0200, Marc Mar=ED escribi=F3:
+>
+>> Hola a todos de nuevo, sigo con mis aventuras configurando Debian en mi
+>> port=E1til.
+>>
+>> Ahora vengo con el problema que la bater=EDa me dura dos horas o menos,
+>
+> =BFY cu=E1l es la duraci=F3n estimada de la bater=EDa que te indica el fa=
+bricante?
+>
+>> aunque solo haga uso del navegador, por ejemplo. Tengo escalado de
+>> frecuencia, laptop-mode-tools, he quitado bastantes servicios de
+>> ejecuci=F3n al inicio, bajo el brillo... Pero la duraci=F3n no mejora
+>>
+>> Me gustar=EDa que me ayudaseis con esto, porque es un poco molesto.
+>>
+>> El port=E1til es un Acer 5750g,con Debian Squeeze, Gnome, Kernel 3.2.0
+>> (para que funcione el brillo y la suspensi=F3n).
+>
+> Puedes instalar "powertop" que se supone que te ayuda con estas cosas.
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k2cueo$bte$5@ger.gmane.org
+>
+
+En la pagina oficial no pone nada, pero por ah=ED he le=EDdo que 3,5
+horas, y si inicio en Windows, me salen m=E1s de 3 horas.
+
+He cambiado una configuraci=F3n en la BIOS (he seleccionado como tarjeta
+gr=E1fica s=F3lo la integrada, ya que el port=E1til tiene Nvidia Optimus,
+dos tarjetas gr=E1ficas), y ha aumentado una barbaridad.
+
+Con powertop, parece como si los cambios no fuesen permanentes. =BFC=F3mo
+puedo hacerlo permanente?
+
+Un saludo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8QkJS49s5OGVOMCkHjFwA8+GNkDY5uniyePa-SvCdt2BA@mail.gmail.com
+

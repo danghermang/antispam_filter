@@ -1,0 +1,26 @@
+Subject:Re: probleme sur proc/kcore
+Le 28/10/2012 20:43, Bernard Schoenacker a écrit :
+....
+> bonjour,
+>
+> 	serait il possible de donner le type de fs employé ?
+> 	ensuite, quelle est la taille du / /var et /usr
+>
+> 	slt
+> 	bernard
+>
+
+Bonjour,
+
+regarde les logs si il n'y a pas de logs volumineux.
+sudo find /var/log/ -size +200M -exec ls -lh {} \;
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/508D8F46.90505@m.titou.info
+

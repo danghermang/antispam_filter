@@ -1,0 +1,36 @@
+Subject:Re: pb installation Wheezy sur latitude E6430s
+Le Wed, 03 Oct 2012 19:45:08 +0200,
+Guy Roussin <guy.roussin@teledetection.fr> a =C3=A9crit :
+
+> > 1) sdhci-pci invalid iomem size: you may experience problems
+> J'ai =C3=A7a depuis des mois sur mon E6420, =C3=A7a ne m'a jamais pos=C3=
+=A9 de pb.
+>=20
+> > 2) failed to enable MSI-X
+> > 3) plein d'erreurs pour ACPI
+> >    input buffer is not empty, aborting transaction
+> >    Error: Method parse/execution failed=20
+> Dans le bios, j'ai desactiv=C3=A9 optimus et forc=C3=A9 la carte nvidia.
+>=20
+> Guy
+>=20
+
+Sur le E6430a c'est une carte Intel HDGraphics 4000.
+Mais en effet, il doit y avoir u npb de driver video car la machine ne
+plante pas si je de me connecte pas dessus et que je l'utilise =C3=A0
+distance par ssh...
+
+Comment faire pour comparer les config video entre ubuntu et debian ?
+
+
+Thierry
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121004104626.62739576@archimede5
+

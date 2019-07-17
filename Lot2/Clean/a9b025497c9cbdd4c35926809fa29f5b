@@ -1,0 +1,72 @@
+Subject:Re: personalizar el envio de mensajes por cuentas
+El d=EDa 5 de noviembre de 2012 18:01, linux
+<liuberperez.mtz@infomed.sld.cu> escribi=F3:
+> Saludos lista, tengo una duda que se esta formulando en mi mente, como sa=
+ben
+> ustedes linux es muy basto y permite hacer disimiles cosas con un servici=
+o
+> determinado, ahora mi cuestion es, hay alguna posibilidad de a traves de
+> postfix personalizar el envio de correo por cuentas, es decir, por ejempl=
+o,
+> quisiera que pp@pp.com no envie a .cu y por ejemplo rr@pp.com si envie a =
+.cu
+> y asi sucesivamente, tambien poder limitar la cantidad de envio de mensaj=
+es,
+> por cuenta, por ejemplo tengo usuario de correo que a veces usan el corre=
+o
+> para estar enviando a parte de las cosas de trabajo y una mensajeria norm=
+al,
+> boberias, y a veces los correos salen en candena, quisiera limitarte la
+> cantidad de correos que pueda enviar, como una especie de cuota de envio,
+> alguien a implementado alguna de estas dos cuestiones, que puediera ayuda=
+rme
+> al respecto.
+>
+> saludos
+>
+> Liuber
+>
+> --
+>
+> Este mensaje le ha llegado mediante el servicio de correo electronico que
+> ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema
+> Nacional de Salud. La persona que envia este correo asume el compromiso d=
+e
+> usar el servicio a tales fines y cumplir con las regulaciones establecida=
+s
+>
+> Infomed: http://www.sld.cu/
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/50982938.40707@infomed.sld.cu
+>
+
+a todas las opciones es si
+el tema es que es tan basto las opciones, que mas que una mano
+nesesitas o leer mucho en http://www.postfix.org/documentation.html
+
+la mejor documentacion de postfix o conseguirte alguien que te de una mano
+
+como opcion postfixadmin
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54atFE6UHeUHf9RowG_mA6h7GNi+t2KztHHW=gjEg_tL=Q@mail.gmail.com
+

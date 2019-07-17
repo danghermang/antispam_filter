@@ -1,0 +1,31 @@
+Subject:Re: [Jukebox-list] "New one" on me
+On 11/5/12 4:31 PM, Ron Rich wrote:
+
+> I then took my hot iron and touched the terminal--it "blew up".  Wire was still wrapped fairly tight, but the terminal itself looked as if no solder had EVER been applied to it !  "Clean as a whistle", brand new--. I attempted to re-solder it, but it was like trying to get oil and water to mix--solder just rolled off.  I then removed the wire, and hit the terminal with a file, which made the solder stick--re-wrapped the wire and re-soldered it---
+> Does anyone besides me think maybe, just maybe, this is "Duke's doings" ?? 
+
+It sounds like a flux joint or cold joint.  There was a small amount of
+oxidation on the terminal and it wasn't heated long enough at the
+factory for the flus to react with it and ensure a good joint.  The flux
+just melted and coated the switch contact and/or wire acting as an
+insulator.  Enough of the wire was touching to make contact and the flux
+held it in place.
+
+Over time, moisture penetrated the joint and was absorbed by the flux
+and possibly sucked into the capillaries in the wire, if stranded.
+Eventually the contact between the parts was broken through years of
+oxidation, water absorption, temperature cycling, etc.
+
+When you touched it with a hot iron you boiled the trapped moisture,
+hence the blow-up.  Filing fixed it, you may have been able to apply new
+flux and heat to cut through the oxidation as well.
+
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay@impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

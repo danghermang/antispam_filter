@@ -1,0 +1,48 @@
+Subject:Re: No aparece el selector remoto XDMCP
+El Mon, 10 Dec 2012 21:49:47 +0100, Javier Silva escribió:
+
+> El día 10 de diciembre de 2012 18:40, Camaleón <noelamac@gmail.com>
+> escribió:
+>> El Sun, 09 Dec 2012 21:18:29 +0100, Javier Silva escribió:
+> 
+>> Recuerdo una pregunta similar en la lista inglesa de Debian de hace ya
+>> algunos meses y al menos por aquel entonces no recuerdo que el usuario
+>> encontrara una solución al problema pero gdm3 estaba aún en pañales,
+>> por así decirlo, desconozco si ya es posible hacer esto :-?
+>>
+>>
+> Hola Camaleón,
+> he visto tu respuesta, uno de los enlaces que enviaste, es el mismo que
+> pongo en la pregunta y el otro, es para versiones anteriores, con lo que
+> no parece que salga con este tema, pero gracias.
+> 
+> Aquí tienes el enlace de una de los hilos de la lista que mencionas:
+> 
+> http://lists.debian.org/debian-user/2012/01/msg02306.html
+
+Ah, sí... debe ser ese (ha pasado ya un año, madre mía).
+ 
+> El otro que leí, llevaba 2 enlaces, además del anterior.
+> 
+> También veo que al iniciar con Xephyr en el cliente, la ventana aparece
+> en modo fallback de GNOME, con lo que tampoco parece que me vaya a
+> servir.
+
+Si no has encontrado ninguna solución quizá es que aún no lo hayan 
+resuelto porque debe ser una petición bastante común por parte de los 
+usuarios.
+
+Una "preguntonta"... ¿te permite introducir manualmente el usuario remoto 
+con el que quieres iniciar la sesión?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ka7i5n$vla$1@ger.gmane.org
+

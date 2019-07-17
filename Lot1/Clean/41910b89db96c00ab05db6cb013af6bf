@@ -1,0 +1,29 @@
+Subject:Re: Debian Wheezy et Lenovo
+Le Sat, 6 Oct 2012 01:46:47 +0200
+Bzzz <lazyvirus@gmx.com> a =E9crit:
+
+> On Sat, 6 Oct 2012 01:36:08 +0200
+> Ga=EBtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+>=20
+> >=20
+> > J'ai rajout=E9 dans /etc/init.d le script en pj.
+>=20
+> Cool, merci pour le retour d'exp=E9rience :)
+>=20
+
+En fait je viens de voir que j'ai encore un petit truc qui cloche : lors de
+l'arr=EAt de laptop-mode il me fait une erreur hardware sur eth0 ...
+
+La suite au prochain =E9pisode.
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121006015559.016b116c0b110d2f307ba9c1@neuf.fr
+

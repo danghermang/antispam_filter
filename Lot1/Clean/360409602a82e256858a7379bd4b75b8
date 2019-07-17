@@ -1,0 +1,105 @@
+Subject:Re: systemd : =?UTF-8?B?cHJvYmzDqG1lIGTDqW1hcnJhZ2Ugc2VydmljZXMg?=
+	=?UTF-8?B?YXUgYm9vdA==?=
+On 09/10/2012 02:41 PM, Frédéric Massot wrote:
+> Le 10/09/2012 14:12, maderios a écrit :
+>> On 09/10/2012 01:21 PM, Frédéric Massot wrote:
+>>> Le 09/09/2012 12:43, maderios a écrit :
+>>>> Bonjour
+>>>> J'ai installé systemd il y a quelques jours. Je suis obligé de
+>>>> lancer le
+>>>> réseau et cups à la main après chaque boot
+>>>>
+>>>> Dans syslog
+>>>> /sbin/ifup: failed to open statefile /run/network/ifstate: No such file
+>>>> or directory
+>>>
+>>> Le message d'erreur que tu donnes me fait aussi penser à une mauvaise
+>>> migration vers "/run" d'un paquet comme ifupdown, initscripts ou
+>>> netbase.
+>>>
+>>> Avant cette migration le fichier "ifstate" était dans
+>>> "/etc/network/run/".
+>>>
+>>>
+>>
+>> Avec le boot "classique", j'ai toujours eu le lien /etc/network/run ->
+>> /run/network. Et ifstate dans /run/network
+>> Si /run/network/ifstate n'existe pas lors du boot avec systemd, c'est
+>> que le réseau n'est pas lancé. Ifstate est créé en lançant
+>> /etc/initd/networking start.
+>> Le problème n'est pas spécifique au réseau. Le non démarrage des
+>> services avec systemd concerne tous les services dont cups apache mysql
+>> mediatomb nfs tor
+>
+> Quels sont les premiers messages d'erreurs dans les logs suite au boot ?
+>
+
+Je n'ai rien dans syslog à partir du dernier reboot parce que rsyslog 
+n'a pas été démarré par systemd
+C'est donc pire que lors de ma première installation de systemd le 6 
+septembre dernier. J'ai des traces de systemd concernant les jours 
+précédents
+
+dbus[1105]: [system] Activated service 'org.freedesktop.systemd1' 
+failed: Launch helper exited with unknown return code 1
+Aug  6 15:56:33 salix dbus[1105]: [system] Activating service 
+name='org.freedesktop.systemd1' (using servicehelper)
+Aug  6 15:56:33 salix dbus[1105]: [system] Activated service 
+'org.freedesktop.systemd1' failed: Launch helper exited with unknown 
+return code 1
+Aug  6 15:57:27 salix dbus[1105]: [system] Activating service 
+name='org.freedesktop.systemd1' (using servicehelper)
+Aug  6 15:57:27 salix dbus[1105]: [system] Activated service 
+'org.freedesktop.systemd1' failed: Launch helper exited with unknown 
+return code 1
+Aug  6 16:00:05 salix dbus[1105]: [system] Reloaded configuration
+
+Sep  7 11:05:48 salix systemd-fsck[295]: /dev/sda5: clean, 
+575744/2624496 files, 5513504/10496000 blocks
+Sep  7 11:05:48 salix udevd[561]: failed to execute 
+'/lib/udev/mtp-probe' 'mtp-probe 
+/sys/devices/pci0000:00/0000:00:1c.4/0000:05:00.0/usb3/3-2 3 2': No such 
+file or directory
+Sep  7 11:05:48 salix udevd[562]: failed to execute 
+'/lib/udev/mtp-probe' 'mtp-probe 
+/sys/devices/pci0000:00/0000:00:1a.0/usb5/5-1/5-1.2 5 3': No such file 
+or directory
+Sep  7 11:05:48 salix udevd[575]: failed to execute 
+'/lib/udev/mtp-probe' 'mtp-probe 
+/sys/devices/pci0000:00/0000:00:1d.0/usb6/6-1/6-1.6/6-1.6.3 6 5': No 
+such file or directory
+Sep  7 11:05:48 salix systemd-fsck[765]: /dev/sda7: clean, 
+621845/53010432 files, 101240823/212011008 blocks (check in 5 mounts)
+Sep  7 11:05:48 salix ifup[784]: /sbin/ifup: failed to open statefile 
+/run/network/ifstate: No such file or directory
+Sep  7 11:05:48 salix ifup[785]: /sbin/ifup: failed to open statefile 
+/run/network/ifstate: No such file or directory
+Sep  7 11:05:48 salix systemd[1]: ifup@wlan0.service: main process 
+exited, code=exited, status=1
+Sep  7 11:05:48 salix systemd[1]: ifup@eth3.service: main process 
+exited, code=exited, status=1
+Sep  7 11:05:48 salix kernel: [    0.000000] Initializing cgroup subsys 
+cpuset
+Sep  7 11:05:48 salix kernel: [    0.000000] Initializing cgroup subsys cpu
+Sep  7 11:05:48 salix kernel: [    0.000000] Linux version 3.4.9 
+(root@salix) (gcc version 4.7.1 (Debian 4.7.1-2) ) #1 SMP Tue Aug 21 
+12:14:32 CEST 2012
+Sep  7 11:05:48 salix kernel: [    0.000000] Command line: 
+BOOT_IMAGE=/boot/vmlinuz-3.4.9 
+root=UUID=*******-****-*****-****-************ ro init=/bin/systemd
+
+
+
+-- 
+Maderios
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504DF498.9030707@gmail.com
+

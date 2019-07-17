@@ -1,0 +1,20 @@
+Subject:[Koha] Simplest way to print labels?
+I'm about to leave the Koha project I've been volunteering on, and I need t=
+o find a better way of printing labels=85
+
+What I have been doing is CSV export, then importing into LibreOffice (Open=
+Office), and then formatting the sheet of labels every single time. But it'=
+s too much work =97 the person who replaces me will never want to do that. =
+The problem is that we automatically split our call numbers into 3 lines, s=
+o the margins are not the standard ones.
+
+Does anyone know a simpler way of exporting labels into a template or file =
+that is pre-formatted in terms of fonts and margins? I am not against using=
+ Word or some other commercial software.
+
+Thanks,
+Peter
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

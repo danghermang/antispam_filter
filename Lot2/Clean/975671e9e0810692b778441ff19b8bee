@@ -1,0 +1,56 @@
+Subject:Re: [Antenna-discussion] 1/2-wave vertical really needs a ground
+	plane?
+Richard
+You need to run NEC over a range of frequencies to find the point of
+maximum impedance.  Dipoles never resonate at exactly the half-wave
+frequency, maybe I should have pointed that out before :)  Try it.
+Alan G3NOQ
+
+
+
+
+On 6 November 2012 14:17, Richard Fry <rfry@adams.net> wrote:
+> Alan G3NOQ wrote:
+>>
+>> Quarterwave and halfwave verticals are both resonant, ...
+>
+>
+> Just to note that a 1/2WL vertical monopole is far from self-resonant.
+>
+> A NEC4 model of a 77m series-fed, base-driven monopole having an OD of 760mm
+> (L/D = 101) shows a terminal impedance of about 550 -j 350 ohms on 1850 kHz,
+> when driven against a perfect ground plane.
+>
+> These values also are supported by the measured curves in Figs 2.15 and 2.16
+> in RADIO ANTENNA ENGINEERING by E. A. Laport.
+>
+> R. Fry
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

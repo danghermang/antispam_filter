@@ -1,0 +1,90 @@
+Subject:Re: OFF-TOPIC Openvz en powerpc64 bits
+Porque solo encontre la config de los modulos ppc64 de esa version de kernel=
+. El tema no esque arranque debian, sino que sea compatible con openvz. La v=
+ersion de kernel cuanto mas actual en teoria....mejor. Pensaba que solo esa v=
+ersion de kernel era compatible con openvz para ppc64...
+
+Saludos
+
+
+
+
+El 07/11/2012, a las 18:22, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=B3=
+:
+
+> El Wed, 07 Nov 2012 18:04:12 +0100, maykel escribi=C3=B3:
+>=20
+>>> El Wed, 07 Nov 2012 17:37:05 +0100, maykel escribi=C3=83=C2=B3:
+>>>=20
+>>>>> El 2012-11-07 15:53, Camale=C3=83=C2=83=C3=82=C2=B3n escribi=C3=83=C2=83=
+=C3=82=C2=B3:
+>=20
+> (...)
+>=20
+>>> Es que quiz=C3=83=C2=A1 el error "gordo" no sea ese mensaje que recibes=C3=
+=82=C2=B9 sino
+>>> que falle alguna otra cosa y que se detenga casualmente en ese punto...
+>>> quiz=C3=83=C2=A1 le falte alg=C3=83=C2=BAn m=C3=83=C2=B3dulo al kernel q=
+ue has compilado o sea un
+>>> problema del yaboot ese que dices :-?
+>>>=20
+>>> =C3=82=C2=B9nvram_init: Could not find nvram partition for nvram buffere=
+d error
+>>> logging.
+>>>=20
+>=20
+>> Es que este error le reporta en los logs tambi=C3=A9n el kernel que arran=
+ca
+>> perfectamente...
+>=20
+> Por eso digo, que ese mensaje puede ser normal.
+>=20
+>> nvram_init: Could not find nvram partition for nvram buffered error
+>> logging.
+>>=20
+>> Alg=C3=BAn m=C3=B3dulo??
+>=20
+> Ni idea... compara ambos .config (del kernel que incluye Squeeze con el=20=
+
+> del compilado manualmente).
+>=20
+>> Este es el que utilizo para .config
+>>=20
+>> http://download.openvz.org/kernel/branches/2.6.18/028stab056.1/configs/ke=
+rnel-2.6.18-ppc64.config.ovz
+>>=20
+>> Lo dem=C3=A1s sigo el tuto y finalmente le hago el fakeroot...luego insta=
+lo
+>> el .deb que me genera y se crea initrd y vmlinux..., agrego la entrada a
+>> yaboot, actualizo yaboot con ybin... No s=C3=A9 que habr=C3=A9 hecho mal.=
+ He
+>> realizado ya el make menuconfig 8 veces, mirando y remirando que pod=C3=AD=
+a
+>> ser...Pero nada...
+>=20
+> Sin un mensaje de error evidente podr=C3=ADa ser cualquier cosa, desde el=20=
+
+> yaboot ese hasta un bug del kernel que has compilado y que es muy antiguo.=
+..
+> por cierto =C2=BFpor qu=C3=A9 no has probado con alguno de la rama 2.6.32?=
+
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/k7e5cq$bcr$15@ger.gmane.org
+>=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/9FC323FE-1214-4116-B711-E6AFEA7F25C7@maykel.sytes.net
+

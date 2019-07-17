@@ -1,0 +1,58 @@
+Subject:Re: Software, herramienta para encriptar y desencriptar un md5
+-10!
+
+1.- Un MD5 no se puede descifrar
+2.- Existe la orden "md5" (y la sha) para generar los hashes. Pa que
+co=F1o enredas la marrana con scripts PHP?
+
+2012/11/29 D=E1maso Payares <lordelfos@gmail.com>:
+>
+>
+> El 29 de noviembre de 2012 14:39, Carlos Zuniga <carlos.zun@gmail.com>
+> escribi=F3:
+>
+>> On Thu, Nov 29, 2012 at 2:52 PM,  <academia@pinarte.cult.cu> wrote:
+>> >
+>> > Hola lista. Necesito alg=FAn software, herramienta (o c=F3mo desde una
+>> > terminal) poder encriptar y desencriptar un md5.
+>>
+>> Md5 es un hash, no se puede desencriptar y devolver el mensaje original.
+>> https://en.wikipedia.org/wiki/Cryptographic_hash_function
+>>
+>> Saludos
+>> --
+>> A menudo unas pocas horas de "Prueba y error" podr=E1n ahorrarte minutos
+>> de leer manuales.
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive:
+>> http://lists.debian.org/CAABYcjNgX0i6DXpF7K4jLGECYziGjq3j2M-fb84Bk2-FUEw=
+m8A@mail.gmail.com
+>>
+>
+>
+> con php-cli [1] y el la consola ejecutas el archivo creado, ejemplo creas=
+ el
+> archivo md5.php con lo siguiente:
+>
+> <?php
+> $str =3D "Hello";
+> echo md5($str);
+> ?>
+>
+> y el la consola ejecutas:  md5.php
+>
+> [1] http://php.net/manual/es/function.md5.php
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAL2uDdE6B5U54ovjAS6ZWQttq3u7dVjvsUkCuZrhF1q8OXa0ew@mail.gmail.com
+

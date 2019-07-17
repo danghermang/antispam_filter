@@ -1,0 +1,39 @@
+Subject:Re: Carte son USB sous Debian
+Le Sat, 27 Oct 2012 02:10:59 +0200,
+Rapha=EBl POITEVIN <raphael.poitevin@gmail.com> a =E9crit :
+
+> Bonjour,
+>=20
+> Je poss=E8de une carte son Creative Audigy 2 NX acquise en 2006 qui a
+> due malheureusement griller. Celle-ci marchait tr=E8s bien sous Debian
+> squeeze.
+>=20
+> J'ai fait l'erreur de prendre une Creative X-Fi surround 5.1 sans lire
+> les pages alsa, pensant que cela ne poserait pas trop de probl=E8me
+> =E9tant donn=E9 qu'il s'agissait du m=EAme constructeur.
+>=20
+> Comme je n'arrive pas =E0 m'en sortir avec, j'aimerai savoir si
+> quelqu'un a r=E9ussi =E0 la faire fonctionner en lecture et
+> enregistrement.=20
+
+une piste en anglais ici:
+http://alsa.opensrc.org/Usb-audio#Creative_USB_X-Fi_Surround_5.1
+
+> Sinon, quelle carte son conseilleriez-vous encore en
+> vente ?
+>=20
+> Cordialement,
+
+quelques infos ici:
+http://linuxmao.org/tikiwiki/tiki-index.php?page=3Dmarques
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121027100458.0eecb469@netbook-didier.gaumet.fr
+

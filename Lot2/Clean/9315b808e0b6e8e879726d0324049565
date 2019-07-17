@@ -1,0 +1,64 @@
+Subject:Compilation wine wheezy
+Bonjour à tous, 
+
+Première fois que j'ai ça sur un paquet: 
+Résumons
+
+# apt-get build-dep wine
+(bon tout va bien)
+$ apt-get source wine
+(ok, version 1.4.1 qui s'installe)
+J'applique mon patch (modification d'un fichier .c donc rien sur les paquets.
+
+$ fakeroot dpkg-buildpackage
+et là, après la construction des sources, déception intense: 2 paquets vides
+crées  wine et wine64-bin sans rien dedans avec les messages récurrents
+You asked that all arch in(dep) packages be built, but there are none of that
+type.
+
+Bon, j'édite le debian/rules en demandant les bons vieux paquets 32 bits avec
+MULTIARCH=n
+Là, je m'aperçois qu'il manque des tas de paquets (*)  (malgré le build-dep
+mais bon admettons, ce sont les librairies de dev 32 bits), j'installe, ça
+compile sec et après un temps long (j'ai eu le temps de rentrer le bois), j'ai
+cette reponse désespérante:
+
+/usr/bin/ld: cannot open output file debian/libwine-bin/extradeps32: No such
+file or directory collect2: ld a retourné 1 code d'état d'exécution
+/usr/bin/ld: cannot open output file debian/libwine-capi/extradeps32: No such
+file or directory collect2: ld a retourné 1 code d'état d'exécution
+/usr/bin/ld: cannot open output file debian/libwine-gl/extradeps32: No such
+file or directory collect2: ld a retourné 1 code d'état d'exécution
+...
+
+puis de nouveau les
+
+dh_compress: You asked that all arch in(dep) packages be built, but there are
+none of that type. 
+dh_fixperms -i
+dh_fixperms: You asked that all arch in(dep) packages be built, but there are
+none of that type. 
+dh_installdeb -i
+
+La création des répertoires debian/libwine-bin, etc règle les premiers
+messages mais les seconds restent et je me retrouve dans la même situation 
+qu'au début.
+
+Y-a-t-il eu un changement majeur dans la façon de faire les paquets notamment
+les paquets multiarchitecture, j'ai vraiment l'impresson ici d'un paramètre manquant...
+
+François Boisson
+
+(*) libxcursor-dev libfontconfig1-dev libldap2-dev libxslt-dev libgl1-mesa-dev
+libglu1-xorg-dev libgnutls-dev libxi-dev lib32ncurses5-dev libxrandr-dev
+libxxf86vm-dev ia32-libs  lib32z1-dev ia32-libs-dev lib32v4l-dev
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121009180225.6f593adf610daea2f2411041@maison.homelinux.net
+

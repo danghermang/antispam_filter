@@ -1,0 +1,43 @@
+Subject:=?ISO-8859-1?Q?acelerar_la_navegaci=F3n_en_Internet?=
+Buenas, me conecto a Internet v=EDa wi-fi desde mi pc con debian 6 a un
+proveedor local de Internet pero que en momento se pone lento sobre
+todo en las noches raz=F3n por el cual he estado buscado informaci=F3n
+sobre una manera de acelerar la navegaci=F3n y me topado con dnsmasq, un
+servidor DNS y DHCP  ligero para su implementacion me he guiado de
+este tutorial
+
+http://gnulinuxtips.blogspot.com/2010/06/acelerar-navegacion-con-dnsmasq.ht=
+ml
+
+salvo en la parte de:
+
+$ sudo gedit /etc/dhcp3/dhclient.conf
+
+en debian 6 es:
+
+# nano /etc/dhcp/dhclient.conf
+
+el resultado despu=E9s de su implentacion mejoro en algo la navegaci=F3n
+pero lo he probado por la ma=F1ana, ha esa hora hay pocos usado
+Internet, faltar=EDa probar en la noche para saber realmente si ayuda
+pues en esa hora la conexi=F3n a Internet es lenta.
+
+
+despu=E9s de esto surgen una interrogante.
+
+hay otras formas de acelerar la conexiones a Internet desde debian 6,
+
+Nota: mi hardware para mi conexi=F3n a internet es una AP y su antena
+panel montado en mi techo conectado a mi tarjeta de red desde un cable
+de red conectada a la AP.
+
+saludos
+--=20
+Constantino Vargas C.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAGbsZA9Yv=8ZGT2rNAitprcPfKgE3n+aUttDp_wuQ6+JpDOVhQ@mail.gmail.com
+

@@ -1,0 +1,73 @@
+Subject:Re: [Koha] rebuild_zebra: Biblios aren't displayed anymore
+Greetings
+
+Am 22.10.2012 16:55, schrieb Mark Tompsett:
+> Greetings,
+> 
+>> Since I have done a rebuild of the zebra index with
+>> /usr/share/koha/bin/migration_tools/rebuild_zebra.pl -a -r
+>> the biblios and items aren't displayed anymore with the search results.
+> 
+> Did you install with packages or a tarball?
+
+I installed with a tarball. I would like to use the packages. Is there a
+simple way to change from tarball installation to packages installation?
+
+
+> If tarball, you should run:
+> $ sudo -i
+> # su - {user that does the indexing}          (the tarball instructions
+> usually suggestion koha as the user, so it is likely koha, but I make no
+> promises)
+> $ /usr/share/koha/bin/migration_tools/rebuild_zebra.pl -b -a -r
+> (I do the sudo -i and su -, because you more likely know your password
+> than you remember the user's that does the indexing)
+
+koha is an user on my server. So I log in as koha and run the scripts as
+user koha.
+
+
+> If there are still genuine indexing problems afterwards, I would use the
+> script on http://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=6566
+> 
+> Place the script in
+> /usr/share/koha/bin/migration_tools/checkNonIndexedBiblios.pl and
+> assuming the
+> user you (or the packages) created for indexing is called library-koha
+> (change it to the user you use for indexing if you use tarball):
+> 
+> $ sudo -i
+> # su - library-koha
+> $ echo $KOHA_CONF
+> [this should be set to the proper value]
+> $ echo $PERL5LIB
+> [this should be set to the proper value]
+> $ /usr/share/koha/bin/migration_tools/checkNonIndexedBiblios.pl -c -z
+> 
+> In our migration from tarball to packages, we had indexing problems. A full
+> reindex said there was a malformed tag, but I couldn't find it.
+> I started this at night and went to bed:
+> $ while true; do
+> /usr/share/koha/bin/migration_tools/checkNonIndexedBiblios.pl -c -z;
+> sleep 360; done
+> In the morning everything was properly indexed (0 records added), so I just
+> had to kill the process with a CTRL-C.
+> 
+> It works knowing that the zebra indexing is triggered automatically every 5
+> minutes in packages. So, by sleeping 6 minutes, that let's at least some
+> indexing happen before retrying. This, of course, will bloat the zebra
+> queue
+> table, but the packages have a script to automatically clean that up
+> already
+> installed. I tried the sliced reindexing and it just messed up our indexes
+> again. So, this is the method I'm sticking with. Your mileage may vary.
+
+I will try your suggestion if there isn't an other solution :-)
+
+
+Thank you             Beda
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

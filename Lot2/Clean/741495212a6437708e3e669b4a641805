@@ -1,0 +1,14 @@
+Subject:[Flexradio] Using both VAC1 and 2 on Flex3K?
+ I would like to run CWSkimmer, which uses I/Q to VAC, and JT65HF,
+which does NOT use I/Q to VAC, at the same time. It seems that I could
+use one VAC for each of the applications, but how do I configure that?
+Is it possible at all? Right now I have to go into setup and
+mark/unmark the I/Q to VAC box, depending on what application I want
+to use.
+ Thanks for any hints!Rolf PY1RO
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

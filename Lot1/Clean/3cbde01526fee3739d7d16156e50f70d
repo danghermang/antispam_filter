@@ -1,0 +1,32 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+ IPv4 from last /8
+Hi,
+
+On Wed, Nov 07, 2012 at 04:41:51PM +0100, Richard Hartmann wrote:
+> To put it differently: Why does anyone who considers IPv4 legacy care
+> about how it's used up?
+
+Well, I *do* care about the way we use the community's resources in
+policy building.  
+
+If everybody gets exhausted doing a new round of IPv4 PI policy every 
+time the "we do IPv4 PI only until <x> happens, and then no more!" mark 
+is reached, other policy proposals do not get the attention they deserve.
+
+(By which I'd ask you to please stay away from a PI policy that will
+do things like "but only in the first /9 of the last /8, not in the
+second /9" - *iff* the community decides to bring back IPv4 PI, then
+let's do it for good and for all the remaining space.  Doing it for
+"but not for the last /x" is exactly what we have now - let's not do
+*that* again).
+
+Gert Doering
+        -- APWG chair
+-- 
+have you enabled IPv6 on something today...?
+
+SpaceNet AG                        Vorstand: Sebastian v. Bomhard
+Joseph-Dollinger-Bogen 14          Aufsichtsratsvors.: A. Grundner-Culemann
+D-80807 Muenchen                   HRB: 136055 (AG Muenchen)
+Tel: +49 (89) 32356-444            USt-IdNr.: DE813185279
+

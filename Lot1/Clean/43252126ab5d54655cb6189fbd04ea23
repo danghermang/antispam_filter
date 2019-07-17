@@ -1,0 +1,51 @@
+Subject:Re: Problemas de red
+El 26/09/12 18:41, Carlos Carcamo escribió:
+>
+> Muchas gracias a todos por su ayuda, ahora ya tengo solucionado mi
+> problema, lo que hice fue desinstalar "network-manager" y volver a
+> instalarlo y ahora todo funciona bien, excepto la red 3g que nunca me
+> ha servido realmente jajajaj pero ese es otro hilo....
+>
+> lo de instalar wicd mmm pues no quise probar pues ya había tratado
+> antes y me dio algunos problemas, me gusta como trabaja
+> "Network-manager", a menos que alguien me explique como hacer que me
+> funcione red cableada, wifi, y 3g con wicd con todo detalle, entonces
+> me cambio jajajajaja!!
+>
+> Saludos!!
+
+Ahahahahahah.... momentito.
+
+Si tienes red cableada, es SEGURO que tu instalación dio de alta el 
+archivo /etc/network/interfaces con los datos de la red.
+
+En network-manager tiene problemas con ese archivito, dado que tiende a 
+"pisar" las definiciones del mismo, y se las lía con los enrutamiento de 
+redes, dado que su configuración es dinámica en cada arranque.
+
+Solución: Si vas a usar "network-manager" asegúrate que el archivo en 
+cuestión contenga EXCLUSIVAMENTE estas líneas:
+
+
+=============================================
+# /etc/network/interfaces
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+=============================================
+
+
+Del TODAS las interfaces, se encargará network-manager cada vez que 
+arranque.
+Por eso, yo suelo usar wicd, dado que éste sólo se mete con las 
+inalámbricas, y no toca las físicas.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50637D7B.6070508@gmail.com
+

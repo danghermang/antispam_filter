@@ -1,0 +1,13 @@
+Subject:sv0892 Backup: FAILED
+sv0892 Backup/Pruning Results
+
+  Backup Start: Sun Dec  9 06:00:01 PST 2012
+    Backup End: Sun Dec  9 06:00:02 PST 2012
+ Backup Status: FAILED (1)
+
+----
+
+   Prune Start: Sun Dec  9 06:00:02 PST 2012
+     Prune End: Sun Dec  9 06:00:02 PST 2012
+  Prune Status: FAILED (1)
+

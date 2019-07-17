@@ -1,0 +1,78 @@
+Subject:Re: Installation sur partition GPT
+Bon, 
+
+Après toute l'aide que j'ai reçue ici, il est normal que j'apporte un
+petit retour.
+
+J'ai finalement téléchargé l'iso debian-wheezy-amd64-efi-test4.iso
+sur le site fourni par Anthony :
+	http://blog.einval.com/debian/CDs
+(comme l'a fait remarqué Sylvain, ce n'est pas une image officielle
+mais l'auteur est certainement digne de confiance).
+Je l'ai placé sur clé usb via un cat ... > /dev/sdb
+
+Au démarrage du portable, Esc pour arriver au choix du média à
+démarrer. Contrairement à ce que j'avais lors de mes premiers essais
+avec l'installateur officiel, j'ai maintenant deux entrées pour la clé
+usb dont une fait explicitement référence à UEFI. Je choisis donc
+celle-la.
+
+L'installation se passe normalement. À l'étape du partitionnement, je
+choisis la méthode manuelle et je retrouve à peu de chose près ce qui
+était affiché lors de mes premiers essais avec l'installateur
+officiel. Je crois qu'il y a une petite différence, le flag K qui est
+maintenant présent sur la partition système uefi.
+
+Petit doute, dans les caractéristiques de cette partiton, il n'est pas
+indiqué qu'elle doit être montée dans /boot/efi. Dois-je l'indiquer
+manuellement ? Bon je m'abstiens et fais confiance à l'installateur.
+Il semble que j'ai eu raison.
+
+Le reste de l'installation se passe sans problème.
+
+Maintenant quand je démarre le portable sans intervenir, j'obtiens
+bien une page grub (qui ne diffère pas sensiblement du grub2
+classique). Le démarrage de Debian se fait sans problème.
+
+Par contre, le démarrage de Windows échoue : « erreur : invalid EFI
+file path. »
+
+Apparemment, c'est un bug ; voir par exemple
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=679817
+
+Ce n'est pas catastrophique car il reste la
+possibilité d'appuyer sur Esc au démarrage de la machine et de dire au
+« bios » de démarrer Windows (dans ce cas, il démarre sans problème).
+
+N'empêche, c'est moche.
+
+La solution que j'ai alors employée est la suivante : 
+1/ désactiver os-prober en ajoutant la ligne 
+	GRUB_DISABLE_OS_PROBER=true
+   à la fin du fichier /etc/default/grub
+2/ créer une entrée manuelle pour windows 7 en ajoutant les lignes
+	menuentry "Windows 7" --class windows --class os {
+	set root='(hd0,gpt3)'
+	chainloader (${root})/EFI/Microsoft/Boot/bootmgfw.efi
+	}
+   à la fin du fichier /etc/grub.d/40_custom
+3/ update-grub
+
+Et voilà. Non seulement grub est capable de démarrer le windows 7 mais
+en plus j'ai pu constater que update-grub fonctionne bien aussi en
+uefi et n'aurai donc pas trop de problème lors des maj du noyau.
+
+Un grand merci à tout le monde.
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210062108.03718.edfnet-deb@yahoo.fr
+

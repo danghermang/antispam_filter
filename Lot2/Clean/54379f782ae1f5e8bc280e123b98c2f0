@@ -1,0 +1,30 @@
+Subject:Re : apt-get remove kwrite
+Le 10/11/2012 03:05:32, Sylvain L. Sauvage a =C3=A9crit=C2=A0:
+
+>   KWrite est consid=C3=A9r=C3=A9 comme un composant essentiel de KDE (kde=
+-
+> baseapps en d=C3=A9pend).  Donc, oui, si tu vires le paquet kwrite,=20
+> apt doit virer kde-baseapps et donc kde-plasma-desktop et donc=E2=80=A6,=20
+> bref, presque tout KDE.
+
+C=E2=80=99est marrant, les trolls disent que c=E2=80=99est la sp=C3=A9ciali=
+t=C3=A9 de GNOME.
+
+nicolas patrois : pts noir asocial
+--=20
+R=C3=89ALISME
+
+M : Qu'est-ce qu'il nous faudrait pour qu'on nous consid=C3=A8re comme des=20
+humains ? Un cerveau plus gros ?
+P : Non... Une carte bleue suffirait...
+=
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1352544506.30837.107@new-host-2.home
+

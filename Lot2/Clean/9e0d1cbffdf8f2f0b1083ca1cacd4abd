@@ -1,0 +1,54 @@
+Subject:Re: Introducing ExtUtils::Builder, a new compilation and linking
+ toolkit
+On 20.11.12 02:11, Leon Timmermans wrote:
+> Hi all,
+>
+> As a few of you may already know, I've been working on a new
+> compilation and linking toolkit, called ExtUtils::Builder. It's
+> intended as a replacement for ExtUtils::CBuilder. ExtUtils::CBuilder
+> has a number of issues that I'm running into:
+> 1) The only thing it does reliably is creating loadable-objects for
+> perl. On some platforms it doesn't do shared libraries or executables,
+> and static libraries aren't in the picture anywhere. It also insists
+> on linking to perl's dependencies on some platforms. This greatly
+> reduces the usefulness of the library.
+> 2) It can't plan ahead, it can only perform the compiling/linking.
+> This is a problem if you for example want to embed it into a Makefile,
+> but also if you want to modify the commands before running.
+> 3) It's very inflexible in its options. It has for example an
+> extra_linker_flags option, but it has a fixed position. Since linker
+> flags tend to be very order dependent, this means it's often the wrong
+> position. Likewise you can't choose it's exportation method, it always
+> does some platform-specific thing (either exporting all or exporting a
+> select set of symbols).
+>
+> These issues all boil down to «it does exactly what is was designed to
+> do, don't expect anything more». It goes so deep that a redesign from
+> scratch is inevitable to me.
+>
+> I'm dealing with these issues by using a radically different design in
+> EU:B. I'm using builder roles for the compiler and linker that allow
+> you to specify what you'd like them to do. The classes implementing
+> these roles are essentially drivers for various compilers/linkers.
+> These classes build action objects, that can either be executed, or
+> turned into a command to be run (e.g. [qw/cc -o foo.o -c foo.c
+> -Iheaders/]). There's a separate class that inspects perl's
+> configuration uses that to instantiate the known compiler/linker with
+> the right options, but the rest of the framework can be used
+> independently.
+>
+> It's currently in a fairly early state (and rather lacking
+> documentation); it's known to work on Linux, HP-UX and OS X but it is
+> still being ported to other platforms (there is some code for Windows
+> already). I can very much use some platform specialists for help
+> there.
+>
+> Patches and comments are very welcome. The code is at
+> https://github.com/Leont/extutils-builder
+
+This is really cool stuff for the thing it's designed for. I'm pretty
+sure, it will satisfy a hugh amount of developers.
+
+Thanks, Leon
+-- 
+Jens Rehsack

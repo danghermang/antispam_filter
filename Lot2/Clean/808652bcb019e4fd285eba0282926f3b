@@ -1,0 +1,128 @@
+Subject:Re: Duda en la config de interfaces
+El Wed, 31 Oct 2012 01:29:19 -0500
+Edgar Vargas <cybernautape@esdebian.org> escribi=F3:
+
+> El 30/10/12, Angel Claudio Alvarez <angel@angel-alvarez.com.ar> escribi=
+=F3:
+> > El Mon, 29 Oct 2012 15:39:38 -0500
+> > luis@ida.cu escribi=F3:
+> >
+> >> On Mon, 29 Oct 2012 16:43:49 -0300, Debian GMail wrote:
+> >> > El 29/10/12 16:12, luis@ida.cu escribi=F3:
+> >> >> hola a todos
+> >> >>
+> >> >> Tengo una duda con la configuraci=F3n de mi interface
+> >> >>
+> >> >> Cuando voy al fichero /etc/network/interfaces
+> >> >>
+> >> >> La duda es:
+> >> >>
+> >> >> De tener 2 DNS, uno primario y otro secundario, c=F3mo agrego otra =
+IP
+> >> >> al
+> >> >> nameserver ???
+> >> >>
+> >> >> tengo que repetir nameserver con la otra IP del server en una nueva
+> >> >> l=EDnea, o puedo escribir la otra IP del 2do DNS dejando un espacio?
+> >> >>
+> >> >> ej: nameserver 192.168.100.50 192.168.100.51 ????
+> >> >>
+> >> >> Gracias dpor el tiempo que me han dedicado a mis dudas, muy
+> >> >> agradecido.
+> >> >
+> >> > Vayamos por partes.
+> >> > 1) /etc/network/interfaces no tiene CASI un catzo que ver con los
+> >> > DNS. De =FAltima, si est=E1 instalado resolvconf, toma los DNS por D=
+HCP.
+> >> > 2) S=ED, pod=E9s cargar los DNS en /etc/network/interfaces, pero no =
+m=E1s
+> >> > de dos por interfaz de red. Pero no lo recomiendo si est=E1s
+> >> > configurando por DHCP.
+> >> > 2) Los DNS se manejan a trav=E9s del archivo /etc/resolv.conf
+> >> > De este =FAltimo, ten=E9s dos pociones: manual o autom=E1tico.
+> >> >
+> >> > Si eleg=EDs modo manual, que es la que GNU/Linux trae por defecto,
+> >> > pod=E9s editar a mano el archivo de configuraci=F3n y hacer algo as=
+=ED:
+> >> >
+> >> > # /etc/resolv.conf
+> >> > nameserver 8.8.8.8
+> >> > nameserver 8.8.4.4
+> >> > nameserver 156.154.70.1
+> >> > search dominio1.com dominio2.com
+> >> >
+> >> > Ver man resolv.conf
+> >> > NOTA: No se pueden cargar m=E1s de 3 DNS a resolv.conf. Limitaci=F3n=
+ de
+> >> > compilaci=F3n de no me acuerdo qu=E9 cosa. Hay un hilo de principios=
+ de
+> >> > a=F1o con el tema.
+> >> >
+> >> > Si eleg=EDs modo autom=E1tico, que es lo recomendable con DHCP
+> >> > # apt-get install resolvconf
+> >> > y te olvidas del tema, pues es un demonio que captura los DNS que
+> >> > informa DHCP cada vez que hay una modificaci=F3n de las interfaces de
+> >> > redes.
+> >> >
+> >> > Ver man resolvconf
+> >> >
+> >> > JAP
+> >>
+> >> ok gracias, que bueno, he rsuelto mis dudas gracias a uds
+> >> agradecido
+> >
+> > Podias haberlo evitado leyendo las paginas de manual o la guia de
+> > referencia
+>=20
+> Por qu=E9 evitarlo? creo que =E9l es novato y otros leyendo los mensajes
+> usaran las p=E1ginas man y tambi=E9n las recomendaciones...
+
+Porque hay miles de personas dando su tiempo generosamente para documentar =
+el sistema y es una falta de respeto hacia ellos el no leer antes la docume=
+ntacion=20
+>=20
+> >
+> >>
+> >>
+> >> --
+> >> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> >> with a subject of "unsubscribe". Trouble? Contact
+> >> listmaster@lists.debian.org
+> >> Archive: http://lists.debian.org/bae4c2d17d2b70d834dfe5f9b6b72a0f@ida.=
+cu
+> >>
+> >
+> >
+> > --
+> > Angel Claudio Alvarez <angel@angel-alvarez.com.ar>
+> >
+> >
+> > --
+> > To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> > with a subject of "unsubscribe". Trouble? Contact
+> > listmaster@lists.debian.org
+> > Archive:
+> > http://lists.debian.org/20121031003112.95c1f3d1215b3fc41e0f9179@angel-a=
+lvarez.com.ar
+> >
+> >
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/CAJSW1spWHe52TqP-8QWBA1rasnck5q6p4pQCdEG=
+ACuQ1fo1w9g@mail.gmail.com
+>=20
+
+
+--=20
+Angel Claudio Alvarez <angel@angel-alvarez.com.ar>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121101202655.1d0b5444135b442da1054e77@angel-alvarez.com.ar
+

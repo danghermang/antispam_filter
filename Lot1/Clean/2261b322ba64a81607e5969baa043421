@@ -1,0 +1,22 @@
+Subject:Re: [LUG] Python Question
+On 23/10/12 10:34, Adam Latham wrote:
+> 
+> Any comments or suggestion welcomed.
+
+They could use a web based approach, such as:
+
+http://www.learnpython.org
+
+And something like web2py framework for meatier exercises.
+
+Thus only have to install the tools on a web server. I dare say there
+are still security issues, but these days with cloud based virtual
+servers the worse case is you roll back the server to a previous snapshot.
+
+The learnpython.org content in under CC license, so I assume they are
+happy to share it, and happy to receive improved tutorials.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

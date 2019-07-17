@@ -1,0 +1,36 @@
+Subject:Re: [LUG] Raspberry Pi now 100% Open Source on the ARM side
+On Wed, 24 Oct 2012, tom wrote:
+
+> If you want a cool cluster try the 
+> http://www.kickstarter.com/projects/adapteva/parallella-a-supercomputer-for-everyone?ref=home_popular
+> I want one!
+
+Hm. I don't particularly agree with their pitch... For example, over 20 
+years ago I was working with a company building what we now know as 
+clusters.. It's not a new concept. Biggest one I helped build at the time: 
+http://unicorn.drogon.net/cs2.gif That had 256 compute boards each with a 
+dual processor sparc and 128MB of RAM...
+
+https://projects.drogon.net/a-box-of-200-raspberry-pis/
+
+10 years ago I worked with a company who developed a general purpose 
+plug-in pci/pcie card - 96 cores on it - under 10 watts a chip (they put 2 
+on a single plug-in card) see http://www.clearspeed.com/
+
+So the concept isn't new. Making it affordable and "open" is...
+
+The problem then and now still is: How do you program the things? The 
+question we were always asked went along the lines of: I have this 30 year 
+old FORTRAN program - make it go faster with more data ...
+
+Want to play with multi-cores on a chip today? Buy one of these: 
+http://en.wikipedia.org/wiki/Parallax_Propeller
+
+e.g. http://www.xgamestation.com/view_product.php?id=51
+
+Gordon
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

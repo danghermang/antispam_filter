@@ -1,0 +1,28 @@
+Subject:Re: Sin red al actualizar
+Fabián Bonetti <mama21mama2000@yahoo.com.ar> writes:
+
+> Hola,
+>
+> bueno actualice con el ultimo update de debian
+>
+> reinicio ya que se bajo e instalo u nuevo kernel
+>
+> y me quede sin red.
+>
+> Aquí hice un http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=689200
+>
+>
+> A alguien le paso lo mismo?
+
+0. ¿A qué red te refieres? ¿Inalámbrica?
+1. ¿Qué entorno gráfico usas?
+2. Pon la salida de 'ifconfig -a'.
+3. Pon la salida de 'cat /etc/udev/rules.d/70-persistent-net.rules'.
+4. Pon el '/etc/network/interfaces'.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87vcev42ux.fsf@tochka.ru
+

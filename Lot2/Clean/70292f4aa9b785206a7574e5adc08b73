@@ -1,0 +1,42 @@
+Subject:Re: Compilar kernel para optimizacion
+El vie, 16-11-2012 a las 12:02 +0100, maykel@maykel.sytes.net escribió: 
+> Hola muy buenas, tengo un debian y he compilado el kernel 3.6.6 stable.
+> Arranca bien y demás, pero me gustaría saber cómo podría hacer para
+> compilar el kernel de tal forma que vaya lo más optimizado posible, es
+> decir, en el make menuconfig qué opciones adicionales añadir o quitar para
+> que vaya más rápido.
+hace muuuuuuuuuuuuuuuuuucho que no compilo un kernel, pero en su momento
+el (menu)(x)config tenía ayuda con la 'h' donde te explica que es cada
+opción. Y había algunas larguísimas como la explicación del soporte de
+red que terminaba en algo como: "deje de joder y diga 'si'" xD
+En general querés sacar todas las cosas no uses o vayas a usar, y lo que
+estés en duda, dejarlo como módulo; de todas maneras hoy en día la
+mayoría de las cosas vienen como módulo así que solo se cargan si se
+necesitan.
+También había unos parches de un tal kolivas )o algo así) para el
+planificador que hacían que responda mejor en uso interactivo (p.e.
+sistema de escritorio) y que no era buena idea hacer que el planificador
+funcione así cuando hay muchos procesos no interactivos (p.e. servers).
+Podrías fijarte si existen todavía, o tal vez ya los incorporaron a la
+rama principal y está como opción en el menú config. Otra vez, pasaron
+años desde que uso solo el kernel de debian, así que no se bien como
+estará ahora
+
+> La idea es utilizar un antiguo portatil con debian para escritorio.
+> 
+> Saludos y gracias de antemano.
+> 
+
+
+
+
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1353065472.2565.6.camel@EeePC.ucasal.ar
+

@@ -1,0 +1,89 @@
+Subject:tidy.conf
+bonjour,
+
+	j'ai fait la synthèse de 3 fichiers tidy.conf et maintenant
+	je recherche un cobaye pour le mettre d'aplomb ...
+
+	sources :
+
+	http://www.velocityreviews.com/forums/t153555-tidy-configuration.html
+	 http://svn.bigcat.unimaas.nl/wikipathways/trunk/includes/tidy.conf
+	 http://svn.traduc.org/filedetails.php?repname=lfs&path=/trunk/lfs/tidy.conf&rev=567&peg=567
+
+	slt
+	bernard
+
+
+
+
+# tidy - validate, correct, and pretty-print HTML files
+# This file is the default tidy configuration file
+
+# /etc/tidy.conf
+# // Chris Harris
+# // 24 June 2003
+  add-xml-decl: no
+
+# // character encoding options
+#  char-encoding: utf8
+  ascii-chars: no
+  output-encoding: utf8
+
+# clean: yes
+  doctype: strict
+  drop-font-tags: no
+# drop-font-tags: yes
+# drop-proprietary-attributes: yes
+# enclose-block-text: yes
+# enclose-text: yes
+  error-file: errs.txt
+# fix-backslash: no
+# fix-uri: no
+# force-output: yes
+# hide-endtags: no
+# // HTML tidy config file
+# // HTML XHTML options
+# indent-attributes: no
+  indent: auto
+# indent-spaces: 2
+# indent: yes
+
+# input-encoding: latin1
+# literal-attributes: yes
+# logical-emphasis: no
+# markup: yes
+
+# // misc
+
+# newline: CRLF
+  newline: LF
+# numeric-entities: no
+# numeric-entities: yes
+  output-xhtml: yes
+# // pretty print options
+# quiet: yes
+# quote-ampersand: yes
+# quote-marks: yes
+# quote-nbsp: yes
+  repeated-attributes: keep-last
+# see tidy manpage for config examples
+# show-body-only: yes
+# show-warnings: no
+# tab-size: 8
+# tidy-mark: no
+# uppercase-tags: no
+# wrap: 0
+  wrap: 76
+# wrap: 78
+# wrap-attributes: no
+# write-back: yes
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121018211316.2f8a6923.bernard.schoenacker@free.fr
+

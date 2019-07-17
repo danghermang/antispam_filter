@@ -1,0 +1,31 @@
+Subject:no responde el modem USB del servidor de RAS de Debian
+Ahora bien me dicen que haga esto lsusb:
+
+esto es lo que me retorna con lsusb
+Bus 002 Device 004: ID 0ace:1602 ZyDAS ZyXEL Omni FaxModem 56
+
+Me dicen que:
+El dispositivo será entonces /dev/ttyUSBx, donde x es el número de bus 
+sin los ceros de la izquierda.
+
+Lo modifiqué quedando asi:
+S0:234:respawn:/sbin/mgetty /dev/ttyUSB2
+
+Encontré esto también /dev/ttyACM0
+
+Lo siento por las dudas pero todo esto es primera vez que lo veo.
+
+Cuando hago una llamada telef contra el modem no me responde y debería 
+respondermecon su sonido carácteristico.... creo que no hay nada aun lo 
+reconoce todo bien pero no responde cuando lo llaman.
+
+creo que falta por hacer cosas
+
+Gracias por ayudarme a todos ok
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/12b1490bad9ac44439e16c9979e6f98e@ida.cu
+

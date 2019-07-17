@@ -1,0 +1,15 @@
+Subject:Re: MKV se oye pero no se ve
+Marc Marí <5.markmb.5@gmail.com> writes:
+
+> ¿Overlay, a que opción correspondería en castellano? Es que estoy
+> dudando entre varias, y no se cual es
+
+Prueba sin overlay (¿superposición de vídeo en castellano?) desde
+terminal con 'mplayer -vo x11 <tu_archivo.mkv>'.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87txvg24gk.fsf@tochka.ru
+

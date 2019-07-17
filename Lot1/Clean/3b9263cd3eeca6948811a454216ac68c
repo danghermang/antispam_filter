@@ -1,0 +1,38 @@
+Subject:Re: como hago para imprimir un manual desde consola.
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+El 22/10/12 21:10, Victor Hugo Cespedes Zuleta escribió:
+> Mi consulta es cual es el comando para imprimir los manuales.
+> 
+> por ejemplo para imprimir el manual de gcc.
+> 
+> man gcc nos expone el manual.
+> 
+> gcc es el 'Gnu proyect C an C++ Compiler'
+> 
+> ¿ahora si lo deseo imprimir?
+
+Si está en el sistema lpr (y está configurado):
+
+$ man -t pagina | lpr
+
+Un saludo
+
+JulHer
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.16 (Darwin)
+Comment: Using GnuPG with Mozilla - http://www.enigmail.net/
+
+iEYEARECAAYFAlCFo9sACgkQN4Xu4S1+RIs3fwCgjw3QiQBVj1vvP9E0PTUlQFhw
+QioAoKGHkJQGmTVWbYKrkNLYFDjNWnHr
+=3J1k
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5085A3DB.1040203@escomposlinux.org
+

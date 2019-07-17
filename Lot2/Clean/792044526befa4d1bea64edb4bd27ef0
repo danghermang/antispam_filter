@@ -1,0 +1,52 @@
+Subject:Re: [kde-doc-english] Changes for tag keys: keycap to keysym
+On Sunday, 16 of September de 2012 21:33:40 Burkhard L=FCck wrote:
+> Am Freitag, 14. September 2012 17:52:49 schrieb Antoni Bella P=E9rez:=
+
+> >   This command shows the necessary changes to the documentation set=
+
+> >=20
+> > keys labeled "keysym":
+> >=20
+> > find templates/docmessages/* -type f -name *.pot | xargs egrep --co=
+lor=20
+> > -iR
+> > "<keycap>.?(Down|Left|Right|Up)(\sArrow)?.?</keycap>"
+> >=20
+> >   Please apply necessary changes to the sources (KDE 4.9 and 4.10).=
+ Is
+> >   this
+> >=20
+> > correct?
+>=20
+> This kind of changes from keycap to keysym markup does not change the=
+ visual
+> appearance of a documentation for the users, but of course helps to
+> maintain the docbooks and keep markup consistent.
+>=20
+> These fixes can not go directly into 4.9 (stable), only via backports=
+ from
+> 4.10 (trunk/master) done by the translators at certain times.
+>=20
+> I prefer to do this kind of fixes only together with
+> updating/proofreading/correcting the content of a docbook.
+
+  Hi Burkhard
+
+  Naturally, it helps to review the context is kept updated.
+
+  From the Catalan translation team have created rules for keys (for po=
+logy=20
+tool) that could be exported to other languages. If someone finds them =
+useful.
+
+http://websvn.kde.org/trunk/l10n-
+support/pology/lang/ca/rules/keys.rules?view=3Dmarkup
+
+  Toni
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/3196021.CzoxYrp1oo@alba
+

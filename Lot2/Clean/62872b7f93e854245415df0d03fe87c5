@@ -1,0 +1,27 @@
+Subject:Re: [OT]Usar =?ISO-8859-1?Q?partici=F3n_Windows_en_virtual?=
+	=?ISO-8859-1?Q?izador_bajo_Linux?=
+El 26/09/12 17:24, Alberto Vicat escribió:
+
+>
+> PD: Creo que alguien dijo en un mail anterior que VBox no podía manejar
+> particiones NTFS desde Debian. Si es que entendí bien.
+> Pues yo la carpeta que tengo compartida es la "Mis documentos" de Win
+> XP, que está en una part. NTFS, y VBox lee y graba sin problemas en
+> ella. Y no estoy usando ntfs-3g.
+>
+>
+
+Fui yo.
+Con un VirtualBox corriendo de Debian, no he podido levantar imágenes 
+vdi grabadas en particiones NTFS.
+Lo que he hecho, es copiarla a una partición ext3, y ahí la levantó sin 
+inconvenientes.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50637AA2.4000104@gmail.com
+

@@ -1,0 +1,22 @@
+Subject:	=?iso-8859-1?Q?Re=3A_OpenVZ_-_Default_Gateway_distintos_en_cada_m=E1quina?=
+	=?iso-8859-1?Q?_virtual?=
+> Grupo, buenos d=EDas.=0A> =0A> Les consulto algo relacionado a un mensaje=
+ anterior.=0A> =0A> En un Host anfitri=F3n con Debian y OpenVZ quisiera ten=
+er=0A> varios Host invitados (osea VMs).=0A> =0A> Ahora, es posible tener p=
+or ejemplo la VM1 y VM2 saliendo a=0A> internet por un ADSL y la VM3 por ot=
+ro ADSL?=0A> =0A> Osea, es posible asignarle a cada VM una interface f=EDsi=
+ca=0A> distinta o se puede manejar de otra manera?=0A=0Aen openvz la asigna=
+cion de placas virtuales a cada MV es particular para cada equipo, o sea qu=
+e mientras el host anfitrion tenga una pata en cada red, a la  maquina virt=
+ual podes darle acceso a a la que necesites. =0ASaludos=0AMarcos Negrini=0A=
+=0A> =0A> Muchas Gracias.=0A> =0A> Saludos.=0A> =0A> =0A> -- To UNSUBSCRIBE=
+, email to debian-user-spanish-REQUEST@lists.debian.org=0A> with a subject =
+of "unsubscribe". Trouble? Contact listmaster@lists.debian.org=0A> Archive:=
+ http://lists.debian.org/508FC831.8000001@gmail.com=0A> =0A> 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1351612700.96180.YahooMailClassic@web114510.mail.gq1.yahoo.com
+

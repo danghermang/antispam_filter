@@ -1,0 +1,81 @@
+Subject:Re: [Jukebox-list] G-200 Credit Issue
+Early G200's have the credit unit crammed inside the pushbutton assembly 
+next to the pulse generator. Later G200's have an accumulator as found in 
+the H and I models that is usually mounted on the front door. I'm assuming 
+you have the earlier credit unit and you are pushing the pulse generator 
+wiper, not the wiper found in the later style credit units.
+
+If your credit light is not lit (assuming the bulb is good), the pulse 
+generator motor has not moved the wiper to the credit position. Check the 
+main credit switch (two leaf switches) to see that they are making. Don't 
+eyeball them, check with an ohmmeter with power off. If they are OK, there 
+are two more switches to check.
+
+For the pulse generator to move the wiper from home to credit, the circuit 
+runs through the normally closed contacts on the letter stepper "home" 
+switch in the pulse converter. It also runs through one side of the motor 
+control switch ( a set of two leaf switches right beside the pulse generator 
+motor). After the wiper moves off the credit position rivet, power is 
+transferred to the other set of switches on the motor control switch to 
+complete one revolution. We know this part of the switch is good, since it 
+pulses on it's own after you push the wiper by hand.
+
+In the past, I had problems with sticky plungers and "S" shaped levers in 
+the credit unit. Not a fun chore to work on in such a small area. Also, the 
+cam and lever action for the motor control switch is not too swift - the 
+lever usually digs a groove into the cam making it difficult to adjust the 
+switches for proper action. Good luck,
+
+Jim Dirksen
+
+-----Original Message----- 
+From: Aaron Corbett
+Sent: Saturday, November 10, 2012 10:31 AM
+To: Jukebox mailing list
+Subject: Re: [Jukebox-list] G-200 Credit Issue
+
+Not sure what you mean buy accumulator or standard. I am referring to the 
+credit unit and keypad combo located at the top/right/ front of the box. The 
+wiper arm is the one in the credit unit. Yes about the pin, once the wiper 
+arm in the credit unit starts to rotate (after a bump from me) then it makes 
+the correct pulses from the converter and all other operations work fine.
+
+Sent from my iPhone
+
+On Nov 9, 2012, at 5:17 PM, David Breneman <david_breneman@yahoo.com> wrote:
+
+>
+> --- On Fri, 11/9/12, Aaron Corbett <aaron_corbett@yahoo.com> wrote:
+>
+>> Calling on the G200 experts for a
+>> little help with the credit unit.  The unit makes the 'uhn'
+>> sound like it has received the credit, however the green
+>> 'credit' light is not coming on and the wiper arm is not
+>> advancing one space.  I can make a selection, but the the
+>> wiper arm in the credit unit does not start.  The buttons
+>> just stay depressed.  If I tap the wiper arm forward, it
+>> takes off and creates pulses, like normal, but it does not
+>> delete a credit when it is finished.
+>
+> Is this a credit accumulator or a standard credit
+> unit?  Is the wiper arm you're tapping the  one
+> in the credit unit or the one in the pulse
+> generator?  Is the pin getting pushed in at the
+> end of the selection process?
+>
+> _______________________________________________
+> Jukebox-list mailing list
+> Jukebox-list@lists.netlojix.com
+> http://lists.netlojix.com/mailman/listinfo/jukebox-list
+> Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/ 
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

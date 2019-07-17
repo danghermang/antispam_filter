@@ -1,0 +1,27 @@
+Subject:Samba + LDAP como PDC 
+Saludos lista .. tengo como servidor de dominio un windows NT ,quiero
+eliminarlo para completar una fase de nuestro proceso de migración..he
+estado buscando información sobre como implementar un PDC usando samba ya
+que quedarian algunas pc administrativas con windows ,pero me aparecen
+varias cosas primero samba + openldap ,samba + ldap ,he leido y visto
+muchos ejemplos y en cada uno a la hora del apt-get install XYZ empiesan a
+confundirme por los paquetes a usar .. estoy como que aburrido de meterle
+mano al -purge y al autoremove ...
+alguien me puede decir que paquetes en realidad instalar para poder tener
+un PDC usando samba y autentificarlo con un servidor ldap en debian.
+PD: podria usar zentyal ,pero no!
+
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2695.192.168.40.133.1349181338.squirrel@192.168.40.200
+

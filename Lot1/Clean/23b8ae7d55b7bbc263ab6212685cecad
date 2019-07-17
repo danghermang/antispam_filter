@@ -1,0 +1,34 @@
+Subject:Re: instalar tl-wn751nd en debian 6
+El Sat, 22 Sep 2012 19:47:10 -0500, Constantino Vargas escribió:
+
+> Buenas alguien ya ha instalado la tarjeta de red tl-wn751nd en debian 6,
+
+Seguro que sí.
+
+> les agradecere puedan compartir como lo hicieron
+
+Hay que seguir los pasos de siempre:
+
+http://wiki.debian.org/WiFi
+
+Y si encuentras algún problema en algún paso concreto, nos dices qué es 
+lo que has hecho exactamente y dónde te trabas, pero vamos, Google dice 
+que ese adaptador usa el driver ath9k:
+
+http://wiki.debian.org/ath9k
+
+Mira a ver si la tarjeta está soportada en el kernel que trae Squeeze y 
+si no, pues ya sabes lo que toca: instalar una versión superior del 
+kernel desde los backports o compilar el driver a mano.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3n5rg$lsj$3@ger.gmane.org
+

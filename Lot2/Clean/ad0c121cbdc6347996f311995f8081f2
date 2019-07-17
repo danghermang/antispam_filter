@@ -1,0 +1,62 @@
+Subject:Re: Performance mdadm
+El d=EDa 2 de octubre de 2012 05:19, Esteban Torres Rodr=EDguez
+<mortenol.torres@gmail.com> escribi=F3:
+> Buenas a todos.
+>
+> He montado un proxy en un servidor con 2 discos. La instalaci=F3n la
+> tengo hecha con los discos montados en espejo con mdadm. En contra
+> tengo el actual servidor proxy que est=E1 dando servicio montado en
+> Centos con el mismo hardware que el anterior pero con los discos
+> montados en espejo con el raid por hardware (Debian no me reconocia en
+> la instalaci=F3n la controladora y adem=E1s el drivers solo estaba para
+> redhat y suse).
+> Quiero migrar de la centos a debian, pero he realizado un test en los
+> discos y la diferencia tanto de lectura como de escritua es el doble
+> de la Centos a la Debian.
+> Como podr=EDa hacer tunning de esos discos montados con mdadm?
+> Decir que ambos sistemas est=E1n montados con el mismo sistema de archivo=
+s.
+>
+> He pensado pasarme a testing por si all=ED la nueva versi=F3n de mdadm da
+> mejor rendimiento.
+>
+> Que me recomendais?
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/CA+FbNVjj6XSsxe-BkoPxP9N1ZeXb79dOS_H2saO=
+vUW3detEm4A@mail.gmail.com
+>
+
+para llegar a una conclusion tendrias que pasar mas datos como el
+harware configuracion del equipo etc
+
+pero desde ya te digo que el raid por harware es mas rapido que el por soft=
+ware
+
+la ventaja de soft es que corre en cualquier equipo y configuracion
+y es portable de equipo a equipo
+
+y segundo hay un tema que no me suena si no tenes los modulos de la
+placa scsi como estas instalando debian?
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54ZDPznVzoV1P6rv31_umCEB2CeHMqYDCYqGjin4YUfdcA@mail.gmail.com
+

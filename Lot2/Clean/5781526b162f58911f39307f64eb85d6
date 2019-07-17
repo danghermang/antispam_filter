@@ -1,0 +1,23 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24
+	PI	IPv4 from last /8
+On Wed, Nov 07, 2012 at 01:45:55PM +0000, Nick Hilliard wrote:
+> On 07/11/2012 13:34, LeaderTelecom Ltd. wrote:
+> > /24 PA works excelent for multihome. I have a lot examples.
+>=20
+> I'm sure it does, until the day that the end user gets into contractual
+> problems with the PA LIR and wants to move transit provider, but can't =
+do
+> so easily because they lose the addresses.  PI =3D=3D provider independ=
+ent.
+
+But your original point was: "Because you can't multihome PA addresses."
+Yes, you can. ;-)
+
+Please make your mind about your arguments.
+
+Piotr
+
+--=20
+gucio -> Piotr Strzy=C5=BCewski
+E-mail: Piotr.Strzyzewski@polsl.pl
+

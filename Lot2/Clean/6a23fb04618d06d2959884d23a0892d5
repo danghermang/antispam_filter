@@ -1,0 +1,29 @@
+Subject:lecture seule
+bjr
+j'ai un dd externe, vu comme cd rom buffalo virtual cdrom
+
+Point de montage : /media/cdrom
+Périphérique : sr1
+Nom : BUFFALO Virtual Cdrom
+Type : FAT32
+Options : umask=0,users,iocharset=utf8,noauto,exec
+
+meme si je decoche monter en lecture seule et que je l'inscris dans 
+fstab via mcc
+
+en voulant formater j'ai l'erreur
+mkntfs /dev/sr1
+Could not open /dev/sr1: Système de fichiers accessible en lecture 
+seulement
+
+merci pour toute aide
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50ABB724.5050206@monaco.net
+

@@ -1,0 +1,34 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_=5Bsqueeze=5D_ex=E9cuter_des_commandes_avec_droits_ro?=
+	=?ISO-8859-1?Q?ot_=28hypoth=E8se_sudo=29?=
+Bonjour,
+Le 02/11/12, Gr=E9gory Bulot<debian.list200912@batman.dyndns.org> a =E9crit=
+ :
+> j'ai mis ma config dans dans /etc/sudoers.d/gbu plut=F4t qu'une =E9dition
+> via visudo
+>
+> Test r=E9ussis en saisissant le mot de passe de l'utilisateur.
+>
+>
+> Super je me dit que j'ai plus qu'a d=E9sactiv=E9 le mot de passe, sans
+> succ=E8s :
+>
+> MYADMINS ALL=3D(ALL) NOPASSWD: PKGMGMT, SHUTDOWN
+
+Je n'utilise pas ta technique mais visudo, je n'ai pas la ligne
+ci-dessus. J'ignore si =E7a peut t'aider, si ta technique r=E9agit pareil
+ou pas.
+
+> MYADMINS ALL=3DNOPASSWD: PKGMGMT, SHUTDOWN
+Je me demande s'il ne faut pas mettre le chemin entier : /sbin/shutdown
+
+Rapha=EBl
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAMmtCiXuiO7vvOEf_L32Cc7QEuf0R+24OGy0KJQrjDXJG-R3hw@mail.gmail.com
+

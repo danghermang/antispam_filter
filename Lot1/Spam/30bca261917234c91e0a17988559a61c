@@ -1,0 +1,87 @@
+Subject:Failure Notice
+Sorry, we were unable to deliver your message to the following address.
+
+<jrkimball@jrkinc.hostaccount.com>:
+Remote host said: 553 information. (#5.7.1) [BODY]
+
+--- Below this line is a copy of the message.
+
+Received: from [98.138.226.180] by nm32.bullet.mail.ne1.yahoo.com with NNFMP; 10 Dec 2012 01:04:12 -0000
+Received: from [66.94.237.106] by tm15.bullet.mail.ne1.yahoo.com with NNFMP; 10 Dec 2012 01:04:12 -0000
+Received: from [127.0.0.1] by omp1011.access.mail.mud.yahoo.com with NNFMP; 10 Dec 2012 01:04:12 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 52139.56830.bm@omp1011.access.mail.mud.yahoo.com
+X-Yahoo-ForwardOnly: from jrkimbal@swbell.net to jrkimball@jrkinc.hostaccount.com
+X-Yahoo-Forwarded: from jrkimbal@swbell.net to jrkimball@jrkinc.hostaccount.com
+Return-Path: <csacrifice@mytrashmail.com>
+X-YahooFilteredBulk: 108.163.173.194
+Received-SPF: none (domain of mytrashmail.com does not designate permitted sender hosts)
+X-YMailISG: Nj6QW94WLDvwXCbyMKlV7zfcz7J.BHUA7vinNJLoTFZG78g.
+ 9LOXqFf0S1DzsIt9QUMoRWWxkqanDwNSJRfoxH42GydEwQXqfXLBOvW.TNr5
+ BScXUYons438GnBkwNOAr25Q6ZpQF5SWix4KeECL2j7oNqoj89lk7_7G25q0
+ Ptph_W9d1FutfEwUFvG9dAV8WMWOzm.DpChKGnAUYlDUYfK9MusISIs3t6Zl
+ V7AyRC.LNe8jL3HOam3wdiuu1d8IXrh5W4JxeEyqom4n42F35q9R2lqnHlVl
+ cEz3uZuMcUfWCfLwtbgdOtSe8vsaj2NWNPz6M.XEhoWov43B7DXP.CKbawBx
+ rZkVvyX_H.dTwB9VjZjdy5ltCl4rVHqrHgGxWxx4lPrws0F445xa6CPP9FOY
+ mYvMVIP_ki5_WzRlDdmN9ahaR.BGt3IFpAN5UhshATgblIq4MEt.aDooeMkK
+ 25snRBrapzn8ybIdoBC.pivxauu9v8KE2LuuCkOtGpXktI7MziPnRirfA1tT
+ z6Or.hl4LqQErFw0pgUNQtGAbzRB1Xe1wIRa0rCqHfV69xOXMu4VPvTLIThy
+ aQnRnpyTCuZ467ybstPiQ4ZTKETvEE4RtDN3bqsSpLyyIRk7OXGlVjP0h.95
+ 9lzxNL450EcCQzBdq.lWry6RW_baOIc.59dz_Zadyw61QVdgoi3lOC5rybqc
+ d4RXY.5yZ_J2u4yui7P82KR8qfF.d7DAYnhTON8gKUJaTupJUg3Uqvdg_1MT
+ _J3WPgmqEcOFpOtYMWj.wV29CYv6dh_.d7oLGS_weHxGVGUKkGdb..CIev7E
+ 3nOHL655Phtm.0ihFlKGxy8LRvlupi_EIl.dvCLRnVaOwgkbAcwvLFQEYXXK
+ RcCuqjokqmFYPp9nttnQ.8uBxEn74SnggBhbmaf4F0JrZOZ70_F3U50Ar_t8
+ dZt2Rhcd1PC07wQad3rNFabh0Xh2aFFarxiZyPFD2fBTzgav5SgseK_NVksh
+ WK47qrVFKFQvK1G7ISqRSaT9PUce9Hk985ZzvIvCEorgKvj6FjhdFv9_9Bwj
+ qEUHDbQ4OSmL9H9SP2XUA_yahhQLFEvbG42JDlb4rVqpqtJuImccnHba200o
+ 9VvVlTjzSFXfM5g.8uS6E4SCJCOK5o1emZTlbc1FLYybudgerf64zgiRJE7j
+X-Originating-IP: [108.163.173.194]
+Authentication-Results: mta1000.sbc.mail.mud.yahoo.com  from=; domainkeys=neutral (no sig);  from=mytrashmail.com; dkim=neutral (no sig)
+Received: from 207.115.36.39  (EHLO nlpi167.prodigy.net) (207.115.36.39)
+  by mta1000.sbc.mail.mud.yahoo.com with SMTP; Sun, 09 Dec 2012 17:04:11 -0800
+X-Header-Overseas: Mail.from.Overseas.source.alpha.peterboroughhosting.co
+X-Originating-IP: [108.163.173.194]
+Received: from alpha.peterboroughhosting.co (alpha.peterboroughhosting.co [108.163.173.194])
+	by nlpi167.prodigy.net (8.14.4 IN/8.14.4) with SMTP id qBA145GJ001196
+	for <jrkimbal@swbell.net>; Sun, 9 Dec 2012 19:04:06 -0600
+X-MID: 761843457834ec2347bedb67e164634d2af5
+X-01pl5ID: 493
+Thread-Topic: You have notifications pending
+MIME-Version: 1.0
+From: "Kadence Owens"csacrifice@mytrashmail.com
+To: jrkimbal@swbell.net
+Reply-To: csacrifice@mytrashmail.com
+Date: 09 Dec 2012 20:04:06 -0700
+Subject: You have notifications pending
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-ID: <GDMAILER025UWW7ALFC00005174@gdmailer02.dc1.corp.gd>
+X-OriginalArrivalTime: 09 Dec 2012 20:04:06.0406 (UTC)
+
+<html>
+<head></head>
+<body style="margin: 0; padding: 0;" dir="ltr">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;width:98%;" border="0"><tr><td style="font-size:12px;font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;width:620px;"><tr><td style="font-size:16px;font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;background:#3b5998;color:#FFFFFF;font-weight:bold;vertical-align:baseline;letter-spacing:-0.03em;text-align:left;padding:10px 38px 4px;"><span style="background:#3b5998;color:#FFFFFF;font-weight:bold;font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;vertical-align:middle; font-size:16px;letter-spacing:-0.03em;text-align:left;vertical-align:baseline;">You have notifications pending</span></td></tr></table>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;width:620px;"><tr><td style="padding:10px 20px;background-color:#fff;border-left:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #ccc;border-bottom:1px solid #ccc;line-height:16px;">
+<table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:10px 20px;line-height:16px;width:620px;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:13px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;">Hi,</td></tr><tr><td style="font-size:13px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:10px 0 15px 0;">Here's some activity you have missed.</td></tr><tr><td height="1" style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;background-color:#ccc;"></td></tr><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:15px 20px 15px 0;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td valign="top"><a href="http://www.tweelijners.com/help/ticket/support/" style="color:#3b5998;text-decoration:none;font-size:13px;">2 friend request</a></td></tr>
+</table>
+</td></tr></table>
+</td></tr><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:10px 0 15px 0;">
+<table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;width:100%;"><tr><td style="padding:10px;background-color:#f2f2f2;border-left:none;border-right:none;border-top:1px solid #ccc;border-bottom:1px solid #ccc;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding-right:10px;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="border-width: 1px; border-style: solid; border-color: #29447E #29447E #1a356e; background-color: #5b74a8;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:2px 6px 4px;border-top:1px solid #8a9cc2;"><a href="http://www.tweelijners.com/help/ticket/support/" style="font-weight: bold; color: #fff; font-size: 13px; text-decoration:none;">Go To Profile</a></td></tr></table>
+</td></tr></table>
+</td><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="border-width: 1px; border-style: solid; border-color: #999 #999 #888; background-color: #eee;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:2px 6px 4px;border-top:1px solid #fff;"><a href="http://www.tweelijners.com/help/ticket/support/" style="font-weight: bold; color: #333; font-size: 13px; text-decoration:none;">See All Notifications</a></td></tr></table>
+</td></tr></table></td></tr></table></td></tr></table>
+</td></tr></table></td></tr></table></td></tr></table>
+<table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;width:620px;"><tr><td style="padding:10px;background-color:#fff;border-left:none;border-right:none;border-top:none;border-bottom:none;font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;color:#999999;border:none;">This message was sent to jrkimbal&#064;swbell.net. If you don't want to receive these emails in the future, please click: <a href="http://www.tweelijners.com/help/ticket/support/" style="color:#3b5998;text-decoration:none;">unsubscribe</a>.<br /> Department 973 P.O Box 14378 Palo Alto CA 89365 </td></tr></table></td></tr></table>
+</body></html>
+

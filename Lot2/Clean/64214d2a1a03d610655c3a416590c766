@@ -1,0 +1,80 @@
+Subject:Re: [Flexradio] Problem with high DPC count after upgrading to W8
+	Pro
+Hi Les,
+
+Same situation experienced here on Saturday Afternoon after my upgrade to W8
+Pro.....
+Running an Intel  Quad Core CPU which previously performed very well on W7.
+
+After booting W8 - (at least for the first 15-30 minutes), The 5000A (under
+PSDR 2.4.4) really battles to stabilize.  It got so bad at times that the
+audio just died completely. 
+ When checking the DPC Counters,  I noticed the counters above > 1000 (and
+as high as >10000), incrementing occasionally.....I never noticed this
+before when running W7
+
+I have already managed some improvement by performing a general clean-up of
+Processes, Services and applications on the PC. 
+I now only Power-off or reset the PC when I really have to and things are
+going relatively OK but I am still  monitoring the PC's latency on a regular
+basis ......
+
+I am considering moving back to W7 again.  Waiting to see what experience
+other Flexers are having with W8.
+
+Thank you for taking the time to raise this.
+
+73 de Koos
+ZS6BFD
+
+
+
+-----Original Message-----
+From: FlexRadio [mailto:flexradio-bounces@flex-radio.biz] On Behalf Of Les
+Keppie
+Sent: 29 October 2012 10:02
+To: flexedge@flex-radio.biz; flexradio@flex-radio.biz
+Subject: [Flexradio] Problem with high DPC count after upgrading to W8 Pro
+
+Hi All
+Have just upgraded from Windows 7 Ultimate to Windows 8 Pro Computer is Asus
+m/b M4A78-VM - processor is 3.1g  AMD Phenom(tm) II X2
+550 Processor Socket AM3 (938)
+with 4g ram - radio is Flex 3000
+
+This system has been running well on W7 ultimate with dpc count of less than
+100us normally around the 75us Now with the upgrade to W8 Pro dpc is around
+1000us LatencyMon reports Current measured kernel timer latency around 12 to
+16us with Highest measured kernel timer latency as 1000 to 1009us
+Transmitting using EasyPal gives regular breaks in tx audio with receiving
+station reporting no lock on signal
+
+Anyone got any ideas on how to reduce the dpc spikes or will it be a trip
+down the W7 reinstallation path???
+So far have not been able to work out if it is possible to uninstall W8 back
+to W7
+
+I have an image of the system from september 9 but W8 doesnt want to know
+about it
+
+Regards
+Les VK2DSG
+
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage:
+http://www.flexradio.com/
+
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

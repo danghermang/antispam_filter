@@ -1,0 +1,23 @@
+Subject:Re: Upgrade auf 12.10, erste Erfahrungen
+Hallo,
+
+Frank <newsletter@fotodrachen.de>:
+
+>VMware-Player 4.0.4 musste neu compiliert werden (weil neuer Kernel) =
+
+>dabei tritt ein Fehler auf.
+>Darum VMware-Player 4.0.4 gleich aktualisiert auf 5.0.
+>Wenn eine VM gestartet wird, st=FCrzt der Player komplett ab und reisst =
+
+>das gesamte System mit. Das hatte ich unter Linux lange nicht.
+
+Hast du sichergestellt, dass die Kernelmodule kvm und kvm_intel bzw.
+kvm_amd nicht geladen sind?
+
+Gru=DF, Harald
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

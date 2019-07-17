@@ -1,0 +1,28 @@
+Subject:Re: =?utf-8?q?=C3=A9tat_de_la_fragmentation_d=27une?= partition
+Le mercredi 5 septembre 2012 =C3=A0 15:04:32, Bzzz a =C3=A9crit :
+> Salut liste,
+
+=E2=80=99lut,
+
+> je cherche un ch'tit utilitaire qui pourrait me renvoyer
+> l'=C3=A9tat de fragmentation d'une partition, m=C3=AAme sortie que
+> lors du boot (...non-contiguous n.n%...).
+>=20
+> J'ai bien trouv=C3=A9 e2freefrag, mais il ne r=C3=A9pond pas =C3=A0 mon
+> besoin (surveillance des fichiers d'une grosse DB).
+
+filefrag ?
+Ok, c=E2=80=99est en extent qu=E2=80=99il cause, pas en %=E2=80=A6
+
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209051858.46285.Sylvain.L.Sauvage@free.fr
+

@@ -1,0 +1,55 @@
+Subject:Re: [HS] se logguer en ssh en outrepassant le shell defini dans
+	/etc/passwd
+Le 12/10/2012 15:45, JF Straeten a écrit :
+> 
+> Re,
+> 
+> On Fri, Oct 12, 2012 at 03:30:33PM +0200, giggzounet wrote:
+> [...]
+>>> C'est quoi comme NAS ?
+>>>
+>>> A+ 
+>>>
+>>
+>> synology DS1812+
+> 
+> "Debianisé" ?
+> 
+> Si d-i a été porté (ou se lance) sur cette machine, tu pourrais
+> démarrer l'installateur en mode 'rescue' pour réparer.
+> 
+> 
+> Sinon, via ssh, la page de man va dans le sens de ce que suggère
+> François : shell ou (= si pas de) commande.
+> 
+> Donc :
+> 
+> ssh root@nas "mv /etc/paswd~ /etc/passwd "
+> 
+> pourrait peut-être suffire s'il y a un bkp ?
+> 
+> Ou exploiter ça :
+> 
+> ~/.ssh/rc
+> 	Commands in this file are executed by ssh when the user
+>  	logs in, just before the
+> 	user's shell (or command) is started.  See the
+>  	sshd(8) manual page for more informa‐
+>  	tion.
+> 
+> 
+> Hih,
+>  
+> 
+
+merci je tenterai!
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k597t4$862$1@ger.gmane.org
+

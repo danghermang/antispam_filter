@@ -1,0 +1,17 @@
+Subject:Re: [Jukebox-list] Wurlitzer 3000
+Newtjr,
+
+When a selector pin is raised, this closes one of the 4 override switches in the selector unit. This then passes through the transfer switch to energize RY5 in the amp unit.
+
+Ensure that the loading switch is on as well as the service switch on the junction box.
+
+When RY5 is energized, 24v is supplied to one end of the changer motor through the service switch while the neutral to the other end passes through RY5(2-1), the transfer switch, RY6(normally close contact) and the loading switch. This will start the scan.
+
+The above can be traced in the schematics.
+
+Shankar Singh
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

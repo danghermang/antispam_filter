@@ -1,0 +1,37 @@
+Subject:Re: Icedove - bug ?
+On 21/10/2012 02:05, Jérôme wrote:
+> Le samedi 20 octobre 2012 à 23:34 +0200, Christian Ottié a écrit :
+>> Est-ce que ce comportement est récent ? bug ?
+> Bug ou pas. Le bug est de mettre un espace, le comportement raisonnable
+> devrait être de le supprimer. Mais maintenant qu'on peut mettre, en
+> théorie, des caractères non ascii, ça pourrait paraître raisonnable de
+> cotcoter les chaînes avec des espaces.
+>
+> Bref, ça serait probablement intéressant de reporter ce comportement
+> volontaire ou non (il y a peut-être des facteurs qui le supportent). Au
+> minimum ça demanderait des éclaircissements.
+>
+> P.S. Sont-ce réellement des espaces et pas un autre caractère non
+> imprimable ?
+>
+C'est bien d'une espace qu'il s'agit - du moins, c'est le caractère 
+"blanc" qui est ajouté quand j'appuie sur la barre d'espace du clavier...
+
+Ce qui est bizarre surtout, c'est que l'espace (¤) est située à la fin 
+de l'adresse :
+p.dupont@trucmuche.fr¤
+et que seule la partie "nom.destinataire" est cotcotée :
+<"p.dupont"@trucmuche.fr¤>
+Et l'espace est toujours là à la fin de l'adresse.
+
+En tous cas, j'ai fais un bugreport, on verra bien...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/508585DE.1020203@laposte.net
+

@@ -1,0 +1,82 @@
+Subject:Re: Connexion ssh : timed out
+On Wed, 31 Oct 2012 15:20:01 +0000 (GMT)
+"edfnet-deb@yahoo.fr" <edfnet-deb@yahoo.fr> wrote:
+
+>=20
+> Ce que je peux dire sur la config de ce modem :=C2=A0
+> nat configur=C3=A9 pour laisser passer le port 22 tcp et le diriger vers =
+ma
+> machine locale 192.168.1.2
+
+C'est r=C3=A9ducteur, normalement le NAT doit =C3=AAtre configur=C3=A9 pour=
+ accepter les
+connexions sur un port et les forwarder vers le port voulu, en l'occurrence:
+192.168.1.2:22.
+De plus, pour =C3=A9viter les scripts kiddies il est pr=C3=A9f=C3=A9rable d=
+'utiliser un=20
+autre port que le 22 (mais =C3=A7a, =C3=A7a viendra qd ta liaison fonctionn=
+era
+correctement).
+
+=20
+> Pare-feu mis au minimum : =C2=AB Inbound policy : accept - Outbound polic=
+y :
+> accept =C2=BB
+>=20
+> Alors=C2=A0ssh -vvv eddy@91.179.... (depuis une machine sur une autre adr=
+esse ip) :
+>=20
+> OpenSSH_6.0p1 Debian-3, OpenSSL 1.0.1c 10 May 2012
+> debug1: Reading configuration data /etc/ssh/ssh_config
+> debug1: /etc/ssh/ssh_config line 19: Applying options for *
+> debug2: ssh_connect: needpriv 0
+> debug1: Connecting to 91.179.... [91.179....] port 22.
+> debug1: connect to address 91.179.... port 22: Connection refused
+> ssh: connect to host 91.179.... port 22: Connection refused
+
+Je suppose que ce sont les logs du server ici?
+
+> Si je recommence en mettant en plus le serveur ssh dans la DMZ du modem :
+>=20
+> OpenSSH_6.0p1 Debian-3, OpenSSL 1.0.1c 10 May 2012
+> debug1: Reading configuration data /etc/ssh/ssh_config
+> debug1: /etc/ssh/ssh_config line 19: Applying options for *
+> debug2: ssh_connect: needpriv 0
+> debug1: Connecting to 91.179.... [91.179....] port 22.
+> debug1: connect to address 91.179....port 22: Connection timed out
+> ssh: connect to host 91.179.... port 22: Connection timed out
+>=20
+> Je ne comprends pas cette diff=C3=A9rence de comportement avec un pare-fe=
+u modem
+> suppos=C3=A9 laisser tout passer.
+
+D=C3=A9j=C3=A0, il faut que tout fonctionne correctement dans le LAN.
+
+Ensuite, tu dis que tu as tout comment=C3=A9 dans /etc/hosts.|deny|allow, d=
+ans .deny
+je veux bien, mais dans .allow tu devrais normalement avoir au moins une li=
+gne:
+ALL: LOCAL @mondomainelocal
+
+Et v=C3=A9rifie si sur ta box il n'y aurait pas une autre section de conf p=
+our
+les connexions sortantes, on ne sait jamais avec les ISPs... (tu peux aussi
+m'envoyer en priv=C3=A9 les copies =C3=A9cran des pages de ta box, histoire=
+ de voir
+si =C3=A7a a une t=C3=AAte normale).
+
+--=20
+<bogoss23142> TG konar jv=C3=A9 tmassacr=C3=A9
+<bogoss23142> issi je sui le metre
+<HelloWorld> Ah ouais attends j'appelle mon kilom=C3=A8tre, il est 1000 fois
+             plus fort que toi
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031163408.31742971@anubis.defcon1
+

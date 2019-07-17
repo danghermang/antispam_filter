@@ -1,0 +1,27 @@
+Subject:Re: DEBIAN et SKYPE
+On Fri, 23 Nov 2012 21:18:14 +0100
+Alex Padoly <alex.padoly@laposte.net> wrote:
+
+> "Erreur : Dependency is not satisfiable: libqt4-network (>=3D 4:4.8.0)"
+>=20
+> Quel outils Debian faut-il utiliser pour installer parfaitement cette
+> librairie?
+
+Aucun, =C3=A7a veut dire que ce pkg a =C3=A9t=C3=A9 pr=C3=A9vu pour wheezy,=
+ voire sid.
+
+--=20
+Bloody_Shark : je suis le messi
+TheAce : messie =C3=A7a s'ecrit pas comme =C3=A7a imbecile
+Bloody_Shark : mais si!!!
+TheAce : ni comme =C3=A7a
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121123213247.671caced@anubis.defcon1
+

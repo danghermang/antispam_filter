@@ -1,0 +1,48 @@
+Subject:Re: Sauvegarde du =?UTF-8?B?c3lzdMOobWU=?= pour =?UTF-8?B?Y3I=?=
+	=?UTF-8?B?w6llcg==?= un ISO
+On Fri, 5 Oct 2012 12:04:57 +0200
+Cyrille germain <cyrillegermain@gmail.com> wrote:
+
+>=20
+> Donc je fais un:
+>=20
+> sudo dd if=3D/dev/deb/root of=3D/media/Back_Sys/root.ddimg
+> sudo dd if=3D/dev/deb/var of=3D/media/Back_Sys/var.ddimg
+>=20
+> Et ainsi de suite,
+> Une fois que j'ai mes fichiers *.ddimg Comment faire pour en faire
+> un ISO "global" du syst=C3=A8me?
+
+Non non, si tu utilises dd tu fais un=20
+dd if=3D/dev/sdaN of=3D/media/Back_Sys/dev_sdaN.ddimg
+(N =C3=A9tant le bon n=C2=B0 de partoche)
+dd va faire une image binaire de la partition.
+
+Et dans ce cas pr=C3=A9cis, tu n'as pas besoin d'image ISO (d=C3=A9j=C3=A0 =
+parce
+que la fiabilit=C3=A9 des supports DVD est plus que douteuse, m=C3=AAme =C3=
+=A0 court
+terme), tu fais juste la manip inverse.
+
+Con: 	* l'image g=C3=A9n=C3=A9r=C3=A9e fait la taille de la partoche
+	  sauvegard=C3=A9e (mais se compresse facilement)
+	* c'est long
+
+Pro:	* comme c'est une image binaire on se fout de ce
+	  qu'il-y-a dedans et toutes les subtilit=C3=A9s du FS sont
+	  restaur=C3=A9es sans souci0s
+	* tr=C3=A8s facile =C3=A0 manipuler
+
+--=20
+Elc : Saw 3 ? <=3D c'est une tuerie :P
+Elr0y : Saw 6 ? <=3D c'est une boucherie
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121005150449.11f335af@anubis.defcon1
+

@@ -1,0 +1,73 @@
+Subject:problemas con vnc
+
+Desde hace poco tiempo me es imposible conectarme a equipos de mi
+empresa por vnc.
+los equipos de mi empresa tienen windows con Ultr@vnc validando contra
+AD 2008.
+Yo, obviamente, uso debian (testing) y hasta hace poco eso no era
+problema, ahora no puedo, las pruebas son:
+
+*****remmina :
+"GetCredential callback is not set"
+
+*****vinagre :
+Ocurri=C3=B3 un error
+Fall=C3=B3 la autenticaci=C3=B3n contra el equipo 10.104.9.42 (Unknown
+authentication failure).
+
+****krdc :
+no dice nada pero no funciona
+
+$ xtightvncviewer 10.104.9.42
+Connected to RFB server, using protocol version 3.3
+Unknown security type from RFB server: -6
+
+$ xvncviewer 10.104.9.42
+
+VNC Viewer Free Edition 4.1.1 for X - built Mar 10 2010 22:31:05
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+
+Tue Nov 27 12:57:28 2012
+ CConn:       connected to host 10.104.9.42 port 5900
+ CConnection: Server supports RFB protocol version 3.4
+ CConnection: Using RFB protocol version 3.3
+
+Tue Nov 27 12:57:36 2012
+ CConnection: Unknown 3.3 security type -6
+ main:        Unknown 3.3 security type
+
+$ xvnc4viewer 10.104.9.42
+
+VNC Viewer Free Edition 4.1.1 for X - built Mar 10 2010 22:31:05
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+
+Tue Nov 27 13:03:19 2012
+ CConn:       connected to host 10.104.9.42 port 5900
+ CConnection: Server supports RFB protocol version 3.4
+ CConnection: Using RFB protocol version 3.3
+
+Tue Nov 27 13:03:22 2012
+ CConnection: Unknown 3.3 security type -6
+ main:        Unknown 3.3 security type
+
+--=20
+Es hora de negarse a caminar de puntillas cerca de los que piden
+respeto, consideraci=C3=B3n, tratamiento especial, basados en que =
+tienen fe
+religiosa, como si fuera noble creer afirmaciones sin base y
+superticiones antiguas. -A. C. Grayling, fil=C3=B3sofo Por favor, NO =
+utilice
+formatos de archivo propietarios para el intercambio de documentos, =
+como
+DOC y XLS, sino HTML, RTF, TXT,CSV o cualquier otro que obligue a
+utilizar un programa de un fabricante concreto para tratar la
+informaci=C3=B3n contenida en =C3=A9l. SALUD.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1354017954.11485.38.camel@trujo.hvn.sas.junta-andalucia.es
+

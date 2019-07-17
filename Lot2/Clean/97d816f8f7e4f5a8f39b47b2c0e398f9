@@ -1,0 +1,75 @@
+Subject:Re: Hold&delete del spam y reenvio del correo =?UTF-8?B?bMOtY2l0?=
+	=?UTF-8?B?bw==?=
+On 20/11/12 15:39, Camaleón wrote:
+> El Mon, 19 Nov 2012 21:29:13 +0100, jors escribió:
+>
+>> On 19/11/12 15:25, Camaleón wrote:
+>
+> (...)
+>
+>>>> ¿Alguna idea de cómo hacer lo que pretendo?
+>>>
+>>> Se me ocurre que podrías añadir un "jugador" más (amavisd-new) que me
+>>> parece que te podría servir de "enlace" para lo que pretendes (revisa
+>>> esta doc¹) aunque personalmente prefiero que sean los propios usuarios
+>>> los que se encarguen de "catalogar/marcar" los mensajes que les llegan
+>>> para lo cual cada usuario dispone de una carpeta imap del tipo "/spam",
+>>> "/ ham" y "/virus" a donde van a para los mensajes según hayan sido
+>>> clasificados.
+>
+> (...)
+>
+>>> ¹http://www.ijs.si/software/amavisd/#features-users
+>>
+>> Gracias, le voy a echar un vistazo a amavisd-new y la opción de
+>> quarantine. Algo que lo integra y complementa y he tocado un poco es
+>> maia mailguard, pero al no estar en los repositorios me causa
+>> reticencias (manias personales relacionadas con el mantenimiento).
+>
+> No conozco ese maia mailguard, pero si tiene una funcionalidad similar al
+> binomio amavisd-new+SA o a dspam pues sí, sería otra opción. La idea es
+> añadir un segundo "paso", una segunda herramienta que actúe a modo
+> "pegamento" entre la cola del servidor de correo y el antispam (aunque me
+> parece que dspam integra esta dos funcionalidades en una sola aplicación
+> por lo que el SA podría quedar fuera).
+>
+>> En lo que respecta a spamassassin con directorios para la clasificación
+>> de ham/spam por parte de los usuarios, no sería una opción porque se
+>> trata de filtrar correo saliente.
+>
+> ¿Dices analizar el correo que envían tus propios usuarios? Bueno, en ese
+> caso no tendrían que clasificar ellos mismos su correo saliente pero sí
+> podrías crear un directorio "global" donde almacenar esos correos en
+> cuarentena y decirle al servidor de correo (o al anamisd-new) que los
+> analice.
+>
+>> Y lo mismo aplica para el quarantine. Se trataría en todo caso de ir
+>> enseñando a spamassassin a discernir el correo saliente "bueno" (el que
+>> envian los clientes conscientemente) del "malo" (el spam que se pueda
+>> colar viniendo de cuentas lícitas cuando se da hijacking de
+>> contraseñas).
+>
+> Podrías aplicar el mismo sistema para la salida de los mensajes. Por aquí
+> indican cómo decirle a Postfix que envíe los correos salientes al filtro
+> antispam... es más, creo que al menos amavisd-new analiza el tráfico
+> saliente de manera predeterminada:
+>
+> Postfix check outgoing mail for spam
+> http://serverfault.com/questions/126282/postfix-check-outgoing-mail-for-
+> spam
+>
+> Saludos,
+>
+
+De nuevo, gracias por las indicaciones. Creo que probaré amavisd-new a 
+ver qué tal.
+
+Saludos,
+jors
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50AD33D2.6090203@gmail.com
+

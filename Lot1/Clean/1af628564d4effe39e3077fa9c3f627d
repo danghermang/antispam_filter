@@ -1,0 +1,62 @@
+Subject:Partial LAMP outage this weekend
+WEDNESDAY OCTOBER 24, 2012
+
+Dear LAMP users,
+
+On Saturday, October 27 power will be turned off for building maintenance a=
+t the building=20
+hosting the MDLNet systems.  As a result of this power outage, Meteorologic=
+al Development=20
+Laboratory (MDL) system administrators will begin shutting down MDLNet syst=
+ems and=20
+power supply units beginning at 3 pm EDT Friday October 26.  We hope to hav=
+e everything=20
+functional again by 12 noon EDT Monday October 29. =20
+
+Specifically the following web pages will be unavailable:
+
+- Gridded LAMP images: http://www.mdl.nws.noaa.gov/~glmp/glmp_expr.php
+
+will be unavailable during this outage.  This only affects the images; the =
+data are still=20
+available in GRIB2 format.  To access the GRIB2 data, please refer to:
+
+http://www.nws.noaa.gov/mdl/gfslamp/docs/glmp_NWS_tgftp_server.php
+
+- Backup LAMP Convection images on MDLNet will be unavailable. If you were =
+using a=20
+URL with "mdl" in the address for the LAMP convection images, please instea=
+d use:
+
+http://weather.gov/mdl/lamp/compare.php (comparison of experimental LAMP co=
+nvection=20
+with current LAMP lightning)
+
+http://weather.gov/mdl/lamp/convection.php (experimental LAMP convection on=
+ly)
+
+The convection images at these links will be updated, and these are the pri=
+mary links you=20
+should use to access the LAMP convection images.
+
+- LAMP Convection data: The LAMP convection data in GRIB2 format for recent=
+ cycles at:
+
+http://www.mdl.nws.noaa.gov/~glmp/conv_grib/
+
+will be unavailable during this outage.
+
+Please note that this affects all web pages with "www.mdl.nws.noaa.gov" in =
+the URL. =20
+All other LAMP web pages and products are unaffected. =20
+
+Note:  This power outage is subject to change.  Critical Weather Day is cur=
+rently in=20
+effect due to Hurricane Sandy which may result in the power outage being re=
+scheduled.=20
+
+We apologize for any inconvenience.
+
+Judy Ghirardelli
+NWS/OST/MDL/LAMP
+

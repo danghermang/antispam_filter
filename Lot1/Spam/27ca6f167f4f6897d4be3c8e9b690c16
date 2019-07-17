@@ -1,0 +1,62 @@
+Subject:Delivery Status Notification (Delay)
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     kakiskynn@bradfordbarthel.com
+
+Message will be retried for 1 more day(s)
+
+Technical details of temporary failure: 
+DNS Error: DNS server returned general failure
+
+----- Original message -----
+
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=received-spf:from:subject:to:list-unsubscribe
+         :content-transfer-encoding:content-type:date:message-id
+         :x-gm-message-state;
+        bh=5H5gJn13W805cyWvxZCYd1nIq0troQi/e/n0WOhVvlo=;
+        b=jnu+eOzSu3nOUKU/Rb2zuf0T3YZpuGz+YBsC2Bp9EwBK2hADySxQjasb3f3aMljAnt
+         2b4SVyQcMs+BDQwpMcAQBB9qVhDrWbb8Kul3Y4TSo55qV/z3t9Q3hOuUdfW0PJwrlA1U
+         uzm6Dm56AgQlwc5A3er2W8JPk/RZ0MUI2vt61kPcdLC0mQcJ1ls8ajm/FXU40aPAHTp/
+         zPBAl9dCQlcNysKpEYMNMblua62WjeZrbNbXYdaQSZ3vOLzQmJ7ZnGN+9j2pUSwtv0j1
+         GMIfeWN07EznOYT+0cpMywdN8/najVxlhcr0lQRoC4qU53gVcBGjRoQ4uHwSN8LMdAPG
+         onSQ==
+Received: by 10.68.237.167 with SMTP id vd7mr30975300pbc.161.1355061274698;
+        Sun, 09 Dec 2012 05:54:34 -0800 (PST)
+Received: by 10.68.237.167 with SMTP id vd7mr30975299pbc.161.1355061274671;
+        Sun, 09 Dec 2012 05:54:34 -0800 (PST)
+Return-Path: <56DE2E32@sex4email.info>
+Received: from psmtp.com (na3sys009amx222.postini.com [74.125.149.62])
+        by mx.google.com with SMTP id zw5si20243409pbc.127.2012.12.09.05.54.33;
+        Sun, 09 Dec 2012 05:54:34 -0800 (PST)
+Received-SPF: neutral (google.com: 177.100.9.136 is neither permitted nor denied by best guess record for domain of 56DE2E32@sex4email.info) client-ip=177.100.9.136;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 177.100.9.136 is neither permitted nor denied by best guess record for domain of 56DE2E32@sex4email.info) smtp.mail=56DE2E32@sex4email.info
+Received: from source ([177.100.9.136]) by na3sys009amx222.postini.com ([74.125.148.13]) with SMTP;
+	Sun, 09 Dec 2012 05:54:34 PST
+From: "New message" <56DE2E32@sex4email.info>
+Subject: Notification
+To: <kakiskynn@bradfordbarthel.com>
+List-Unsubscribe: <mailto:63CE47CEA699B5E6A@findquickfinancecenter.com>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; chars="iso-8859-1"
+Date: Sun, 09 Dec 2012 11:54:31 -0200
+Message-ID: <20121209115431.142E9BFC4E16AC09324D8.80118@PC-PC>
+X-pstn-levels: (S: 0.00000/53.86065 CV:99.9000 FC:95.5390 LC:95.5390 R:95.9108 P:95.9108 M:97.0282 C:98.6951 )
+X-pstn-dkim: 0 skipped:not-enabled
+X-pstn-status: off
+X-pstn-nxpr: disp=neutral, envrcpt=kakiskynn@bradfordbarthel.com
+X-pstn-nxp: bodyHash=c7909fa13549f6c46622f06cdf933eea88b59038, headerHash=fcf3eceb38036778acd8a610eb7ec0db136e544b, keyName=4, rcptHash=b0871f3111f5ccdafeaf26ae7ff83dc3bf7c133c, sourceip=177.100.9.136, version=1
+X-pstn-nxpr: disp=neutral, envrcpt=kakiskynn@bradfordbarthel.com
+X-pstn-nxp: bodyHash=c7909fa13549f6c46622f06cdf933eea88b59038, headerHash=fcf3eceb38036778acd8a610eb7ec0db136e544b, keyName=4, rcptHash=b0871f3111f5ccdafeaf26ae7ff83dc3bf7c133c, sourceip=177.100.9.136, version=1
+X-Gm-Message-State: ALoCoQmJy7sVo2Cf7JB+2BsEc/HPUuQtMzY4lwhEP3b58Q6uvPztju1F12HJThfHXGnVkBC/vg6tpBeyeiXP/pVxdiD+/IV75nihVm3iMrbk08klSpYDXy8S504dSHcIJ8fiUGZUkWx7fRP5QG+xn7fFZnwMkSnl1rUyoHaGJY6y5QHS17RVmOC9+0Y+YejRoQuelgIbFnBX
+
+----- End of message -----
+
+

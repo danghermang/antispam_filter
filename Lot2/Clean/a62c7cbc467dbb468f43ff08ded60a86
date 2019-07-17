@@ -1,0 +1,39 @@
+Subject:Re: Outil de synchronisation de dossiers...
+Merci pour ta r=E9ponse,
+
+>> J'ai =E9galement essay=E9 Unison mais il ne sais pas directement utilise=
+r
+>> smb et je n'aime pas la solution qui consiste =E0 dire =E0 mes utilisate=
+ur
+>> =AB Il suffit de faire un montage smb et d'utiliser autofs... =BB) L'acc=
+=E8s
+>> aux deux dossiers se fait parfaitement dans Nautilus et m=EAme =E0 parti=
+r
+>> d'application comme LibreOffice... Comment justifier le fait de devoir
+>> faire d'autre trucs du genre montage, etc. ?
+
+> Perso j'utilise unison depuis pas mal de temps avec un lien "ssh" et je
+> trouve que =E7a marche tr=E8s bien, sans faire de montage. Bon, sous wind=
+ows
+> j'avais du mettre je ne sais plus quel serveur ssh, mais =E7a tournait
+> nikel.
+
+Oui... actuellement, c'est smb pour faire simple... et aussi du fait
+qu'on utilise =E9galement le Windows...
+
+ssh me demande d'installer configurer et maintenir un truc en plus,
+c=F4t=E9 serveur et sur chaque machine...
+
+
+=C0+,
+Serge S.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAFeEpGDgeSVVYdOAbqaMrtO6YPq0jcHJ_5ByJi4SQOAyuHzSdQ@mail.gmail.com
+

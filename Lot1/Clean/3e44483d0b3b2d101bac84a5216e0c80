@@ -1,0 +1,28 @@
+Subject:Duda al instalar el clamav
+Hola a todos
+
+Tengo este resultado después de instalar el antivirus
+
+
+Configurando clamav-freshclam (0.97.6+dfsg-1~squeeze1) ...
+Starting ClamAV virus database updater: freshclam.
+Configurando clamav (0.97.6+dfsg-1~squeeze1) ...
+Configurando clamav-daemon (0.97.6+dfsg-1~squeeze1) ...
+Clamav signatures not found in /var/lib/clamav ... failed!
+Please retrieve them using freshclam ... failed!
+Then run '/etc/init.d/clamav-daemon start' ... failed!
+Configurando libtext-glob-perl (0.08-2) ...
+Configurando libnumber-compare-perl (0.01-6) ...
+Configurando libfile-find-rule-perl (0.32-1) ...
+
+
+Que debo hacer para los fallidos ??? alguna idea
+
+Gracias a todos por la ayuda y el tiempo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5aaed8823a620045e9ee161c0da826da@ida.cu
+

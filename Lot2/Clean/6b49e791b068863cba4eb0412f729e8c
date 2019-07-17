@@ -1,0 +1,35 @@
+Subject:Re: Placa wireless IBM Thinkpad T40
+El Mon, 15 Oct 2012 19:35:06 -0300, Mario Daniel Carugno escribió:
+
+> Hola gente, como va ?
+
+Iría mejor si evitaras el formato html en los correos >:-)
+ 
+> Tengo una vieja notebook IBM Thinkpad T40, y quisiera poder usarla con
+> Debian.
+> Pero la placa de red wireless no funciona, la verdad no se que modelo
+> usa esta notebook.
+> Alguien sabe si Debian o alguna otra distribucion tiene drivers para que
+> funcione ?
+
+Pues por aquí¹ dice que dependiendo del modelo pueden ser:
+
+- Chipset atheros AR5001X (driver ath5k)
+- Chipset Cisco (driver airo)
+- Chipset Intel 2100 (driver ipw2100)
+
+Podrás saber cuál es el tuyo ejecutando "lspci".
+
+¹http://www.thinkwiki.org/wiki/Category:T40
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k740al$7h2$16@ger.gmane.org
+

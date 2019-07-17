@@ -1,0 +1,71 @@
+Subject:Re: postfix con SASL smtp no autentica
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+El 28/09/12 02:33, cosme@esid.gecgr.co.cu escribió:
+> Hola
+> 
+> Necesito que en mi postfix el usuario al hacer smtp autentique cosa
+> que no está pasando, es decir pasa como juan por su casa y no pide
+> ningun passwd, estoy usando los user del sistema que les cambio a
+> /bin/false
+> 
+> Este es la parte
+> 
+> #SASL smtp_sender_dependent_authentication = yes smtp_use_tls = no 
+> smtp_sasl_auth_enable = no #smtp_sasl_auth_enable = yes 
+> smtpd_sasl_auth_enable = yes #smtpd_sasl_local_domain = $mydomain 
+> smtpd_sasl_local_domain = smtp_sasl_password_maps =
+> hash:/etc/postfix/sasl/sasl_passwd smtp_sasl_security_options =
+> noanonymous smtpd_sasl_authenticated_header = yes 
+> smtpd_helo_required = yes smtpd_soft_error_limit = 60 
+> smtpd_hard_error_limit = 10 disable_vrfy_command = yes 
+> local_destination_concurrency_limit = 2 
+> default_destination_concurrency_limit = 10 inet_interfaces = all 
+> inet_protocols = ipv4 disable_dns_lookups = yes 
+> broken_sasl_auth_clients = yes
+> 
+> y en /etc/postfix/sasl/smtpd.conf pwcheck_method: saslauthd 
+> mech_list: plain login log_level:3
+> 
+> Que me falta???
+> 
+> Que tengo mal??
+> 
+> problemas de permiso???
+> 
+> Agradecería cualquier sugerencia
+
+
+Hola,
+
+En esos enlaces te describen como hacerlo, el primero es el howto
+oficial de postfix, y el segundo es un usuario describiendo como se hace:
+
+http://www.postfix.org/SASL_README.html
+http://jpertuz.wordpress.com/postfix-smtp-autenticado-con-sasl/
+
+Un saludo
+
+JulHer
+
+
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.16 (Darwin)
+Comment: Using GnuPG with Mozilla - http://www.enigmail.net/
+
+iEYEARECAAYFAlBlpnsACgkQN4Xu4S1+RItY3gCgtkS0cnuhQIKh33jCHGuni6cP
+lV4An2SfzXS+RJNMgCfliS9lOEis5M1m
+=LyPO
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5065A67B.8020309@escomposlinux.org
+

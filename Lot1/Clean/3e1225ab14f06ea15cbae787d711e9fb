@@ -1,0 +1,62 @@
+Subject:chrony backport for kernel 3.2.x-bpo
+Hello,
+
+are you planing to backport chrony? It is installable from testing, but
+IMHO it would be nice to have it in squeeze-backports.
+
+Debian Bug report logs - #628919
+/usr/sbin/chronyd: Starting with kernel v3.0, chronyd will refuse to start
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=628919
+
+
+I've installed chrony from testing - and all is fine again.
+
+
+:r!uname -a
+Linux host 3.2.0-0.bpo.4-amd64 #1 SMP Debian 3.2.32-1~bpo60+1 x86_64 GNU/Linux
+
+:r!apt-cache policy chrony
+chrony:
+  Installed: 1.24-3.1+deb7u1
+  Candidate: 1.24-3.1+deb7u1
+  Version table:
+ *** 1.24-3.1+deb7u1 0
+         10 ftp://ftp.de.debian.org/debian/ testing/main amd64 Packages
+        100 /var/lib/dpkg/status
+     1.24-3+b1 0
+        500 http://ftp.de.debian.org/debian/ squeeze/main amd64 Packages
+
+
+System Events
+=-=-=-=-=-=-=
+ chronyd[32707]: chronyd version 1.24 starting
+ chronyd[32707]: Initial txc.tick=10000 txc.freq=0 (0.00000000) txc.offset=0 => hz=100 shift_hz=7
+ chronyd[32707]: set_config_hz=0 hz=100 shift_hz=7 basic_freq_scale=1.28000000 nominal_tick=10000 slew_delta_tick=833 max_tick_bias=1000
+ chronyd[32707]: Linux kernel major=3 minor=2 patch=0
+ chronyd[32707]: Fatal error : Kernel's major version not supported yet, sorry
+
+(chrony  1.24-3.1+deb7u1 0 installed)
+
+ chronyd[11243]: chronyd version 1.24 starting
+ chronyd[11243]: Initial txc.tick=10000 txc.freq=0 (0.00000000) txc.offset=0 => hz=100 shift_hz=7
+ chronyd[11243]: set_config_hz=0 hz=100 shift_hz=7 basic_freq_scale=1.28000000 nominal_tick=10000 slew_delta_tick=833 max_tick_bias=1000
+ chronyd[11243]: Linux kernel major=3 minor=2 patch=0
+ chronyd[11243]: calculated_freq_scale=1.00000000 freq_scale=1.00000000
+ chronyd[11243]: Could not open driftfile /var/lib/chrony/chrony.drift for reading
+ chronyd[11243]: Source xxx.x.xxx.xx online
+ chronyd[11243]: Source xxx.xx.xx.xxx online
+ chronyd[11243]: Source xx.xx.xxx.xx1 online
+ chronyd[11243]: Source xx.xx.xx.xxx online
+ chronyd[11243]: Selected source xxx.xx.xx.xxx
+ chronyd[11243]: System clock wrong by -9.795518 seconds, adjustment started
+
+
+Regards
+-Juergen
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121206185016.GA19013@case.a42.local
+

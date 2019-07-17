@@ -1,0 +1,79 @@
+Subject:Re: antivirus proxy SOLUCIONADO
+
+El s=C3=A1b, 03-11-2012 a las 16:15 +0000, Camale=C3=B3n escribi=C3=B3:
+> El Tue, 25 Sep 2012 09:54:03 +0200, Trujillo Carmona, Antonio =
+escribi=C3=B3:
+>=20
+> > El lun, 24-09-2012 a las 13:37 +0000, Camale=C3=B3n escribi=C3=B3:
+>=20
+> (...)
+>=20
+> >> =C2=BFHas mirado SquidClamav o HAVP?
+>=20
+> > Si claro y lo que he visto es que analizan el trafico entrante, =
+pero no
+> > el saliente, esto es si te descargas un fichero con virus lo corta, =
+pero
+> > no corta el trafico de datos que un espyware manda a una =
+direcci=C3=B3n que
+> > se sabe que es para eso.
+>=20
+> (...)
+>=20
+> Hum... si mal no recuerdo Amavisd-New permite analizar el =
+tr=C3=A1fico=20
+> entrante y saliente, por lo que combinado con una soluci=C3=B3n (p. =
+ej., SA)
+> que detecte patrones de mensajes de spam (uso de direcciones URI=20
+> "maliciosas", an=C3=A1lisis de las im=C3=A1genes integradas en los =
+mensajes, es=20
+> decir, que detecte las t=C3=ADpicas t=C3=A9cnicas utilizadas en los =
+mensajes de=20
+> spam que salen desde los equipos infectados) y que trabaje con =
+sistemas=20
+> de colaboraci=C3=B3n como Razor, Pyzor, etc... junto con un AV =
+convencional=20
+> (como ClamAV) tambi=C3=A9n te podr=C3=ADa servir.
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+Perdonad por no haber dado la soluci=C3=B3n final que he optado por si =
+le
+gusta a alguien.
+Probe el KARSKESPI para proxy (te dan un paquete para debian que se
+instala con un dpkg -i sin ning=C3=BAn problema y te auto-reconfigura =
+el
+squid3 para que lo use)
+En una semana solo capturo 3 virus, por lo que lo desestimamos
+
+Probe la soluci=C3=B3n de Esteban Torres y paramos cerca de 2 millones =
+de
+conexiones desde 300 equipos a paginas maliciosas.
+Pasamos a desinfectar los 300 equipos y nos quedamos con esta =
+soluci=C3=B3n.
+
+PD. Ademas el antivirus cargaba mucho la maquina.
+
+--=20
+Es hora de negarse a caminar de puntillas cerca de los que piden
+respeto, consideraci=C3=B3n, tratamiento especial, basados en que =
+tienen fe
+religiosa, como si fuera noble creer afirmaciones sin base y
+superticiones antiguas. -A. C. Grayling, fil=C3=B3sofo Por favor, NO =
+utilice
+formatos de archivo propietarios para el intercambio de documentos, =
+como
+DOC y XLS, sino HTML, RTF, TXT,CSV o cualquier otro que obligue a
+utilizar un programa de un fabricante concreto para tratar la
+informaci=C3=B3n contenida en =C3=A9l. SALUD.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1352381724.12322.21.camel@trujo.hvn.sas.junta-andalucia.es
+

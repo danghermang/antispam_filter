@@ -1,0 +1,76 @@
+Subject:RE: Issues w/ POSIX's strftime() ?
+> -----Original Message-----
+> From: activeperl-bounces@listserv.ActiveState.com [mailto:activeperl-
+> bounces@listserv.ActiveState.com] On Behalf Of Philip Prindeville
+> Sent: 18 September 2012 04:20
+> To: $Bill Luebkert
+> Cc: activeperl@listserv.ActiveState.com
+> Subject: Re: Issues w/ POSIX's strftime() ?
+>
+> On 9/14/12 9:31 PM, $Bill Luebkert wrote:
+> > On 9/14/2012 18:12, Philip Prindeville wrote:
+> >> I tried to use strftime() with '%T' and it fails... but works when I
+> use '%H:%M:%S' instead. Is this a known issue?
+> > I thought I reported that years ago - you have to use %H:%M:%S
+> instead
+> > until someone fixes it.
+>
+> POSIX seems to be part of Perl core... I looked on CPAN for an RT queue
+> for bugs but there wasn't one.
+>
+> How does one go about reporting a bug?
+>
+>
+> >> Also, '%Z' is supposed to give the time zone name or abbreviation,
+> but '%z' is supposed to give the time zone offset as +/-hhmm.
+> >>
+> >> However, I just tried, and '%z' and '%Z' yield identical results.
+> > Same here (see below).
+> >
+> >> I'm thinking that under Win32, %Z (and %z) should be formatted via:
+> >>
+> >> TIME_ZONE_INFORMATION tzinfo;
+> >> DWORD ret = GetTimeZoneInformation(&tzinfo);
+> >>
+> >> if (ret == 2) {
+> >>    strcpy(tzName, tzinfo.DaylightName); } else {
+> >>    strcpy(tzName, tzinfo.StandardName); }
+> >>
+> >> sprintf(tzOffset, "%c%02d%02d", (tzinfo.Bias < 0 ? '-' : '+'),
+> >> abs(tzinfo.Bias) / 60, abs(tzinfo.Bias) % 60);
+> >>
+> >> What am I missing?
+> > It's supposed to follow ANSI C standard (C89).
+> > I think %z is 'Single UNIX' only - rather than ANSI C89.
+> >
+>
+> Well, the number of Internet applications that require an RFC-2822
+> formatted Date or timestamp is significant. Whether it's in the
+> standard or not, the need to support it merits exceeding the narrow
+> requirements of the spec.
+
+AIUI, POSIX::strftime calls the function provided by the underlying OS. This is why the documentation makes the following recommendation.
+
+"If you want your code to be portable, your format (fmt) argument should use only the conversion specifiers defined by the ANSI C standard (C89, to play safe). These are aAbBcdHIjmMpSUwWxXyYZ%."
+
+As such, I probably wouldn't be considered a bug, at least not with the Perl distribution. So, unless you can persuade Microsoft to improve their POSIX support, you will have to restrict the format specifiers that you
+use on win32/win64 platforms to those specified.
+
+HTH
+
+--
+Brian Raven
+
+
+
+________________________________
+
+Please consider the environment before printing this e-mail.
+
+This e-mail may contain confidential and/or privileged information. If you are not the intended recipient or have received this e-mail in error, please advise the sender immediately by reply e-mail and delete this message and any attachments without retaining a copy.
+
+Any unauthorised copying, disclosure or distribution of the material in this e-mail is strictly forbidden.
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

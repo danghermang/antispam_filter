@@ -1,0 +1,69 @@
+Subject:Problema al actualizar (era: Duda al instalar el clamav)
+El Tue, 20 Nov 2012 13:18:25 -0500, luis escribió:
+
+> On Tue, 20 Nov 2012 15:24:13 +0000 (UTC), Camaleón wrote:
+
+(...)
+
+>> Cuando termine de descargar todo, reinicia el demonio
+>> "/etc/init.d/clamav-
+>> daemon start" a ver qué te dice ahora :-)
+>>
+> hola Camaleon, todo perfecto d emaravillas actualicé el clamtk también,
+> pero tengo una situación al actualizar el sistema me da esto
+
+(vale, pero al menos cambia el asunto del mensaje si vas a cambiar de 
+tema en el mismo hilo...)
+
+> despues de apt-get update
+> 
+> me da este problemita
+> 
+> Obj http://www.deb-multimedia.org sid/non-free i386 
+
+(...)
+
+Oye, ¿qué versión de Debian tienes? Porque ese repositorio apunta a 
+paquetes de sid y me pareció que usabas squeeze :-?
+
+> W: Imposible obtener
+> http://security.debian.org/dists/squeeze/updates/main/source/Sources.gz
+> La suma hash difiere
+> 
+> E: No se han podido descargar algunos archivos de índice, se han
+> ignorado, o se ha utilizado unos antiguos en su lugar.
+> 
+> abrá cambiado algo debian en los repos
+
+No creo... quizá sea un error temporal. Prueba más tarde.
+ 
+> #UPDATE OFICIAL
+>   deb http://ftp.us.debian.org/debian/ squeeze main contrib non-free
+>   deb-src http://ftp.us.debian.org/debian/ squeeze main contrib non-free
+> 
+> # SECURITY
+>   deb http://security.debian.org/ squeeze/updates main contrib non-free
+>   deb-src http://security.debian.org/ squeeze/updates main contrib non-free
+>   deb http://ftp.us.debian.org/debian/ squeeze-proposed-updates main contrib non-free
+>   deb-src http://ftp.us.debian.org/debian/ squeeze-proposed-updates main contrib non-free
+> 
+> #MULTIMEDIA
+>   deb http://www.deb-multimedia.org squeeze main non-free 
+>   deb-src http://www.deb-multimedia.org sid main 
+>   deb http://www.deb-multimedia.org sid main non-free
+
+(...)
+
+Ojo con estos dos últimos repos que apuntan a sid :-/
+ 
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8gink$27v$14@ger.gmane.org
+

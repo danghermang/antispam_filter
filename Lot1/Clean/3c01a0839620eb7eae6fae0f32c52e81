@@ -1,0 +1,31 @@
+Subject:Re: cifrar trafico de red Local?????
+El d=EDa 12 de septiembre de 2012 16:07, PedroTron
+<porsiunculo@gmail.com> escribi=F3:
+> Holas.
+
+Hola
+>
+> es posible cifrar el trafico en red local?  Lo que pasa es que
+> necesito lograr que el trafico que existe entre unos enlaces dedicados
+> y la oficina sea "seguro".
+
+No te sirve usar protocolos seguros? (https, pops, imaps, etc)???????
+
+> La idea es: como puedo proteger esas conexiones que se realizan por
+> medio de los enlaces dedicados o la red local?   es posible tener una
+> VPN dentro de la misma LAN??????
+>
+
+Hace tiempo escuche a alguien que comentaba como se podia mejorar la
+seguridad de la red cifrando todos los datos, creo que usaban clientes
+cisco para eso.   De resto no conozco alternativas (espero que si la
+puedas encontrar).
+
+Suerte
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAGdipiDSqf49=h3tcBPH_UM4QY2zkgETypJxXy1_OnY=uks0XA@mail.gmail.com
+

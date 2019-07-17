@@ -1,0 +1,65 @@
+Subject:Re: Ext4 Inodos acabados y dudas
+On 16/10/12 08:19, Francisco J. Bejarano wrote:
+> Hola a todos y gracias de antemano. A ver si me pod=E9is ayudar con un
+> tema de ext4.
+>
+> Estoy intentando buscar la forma de cambiar el numero de inodos de un
+> sistema de ficheros ext4 ya creado (creo que no es posible pero bueno,
+> puede que haya alguna forma que no conozca...)
+>
+> Tengo un sistema de ficheros en /var en un servidor dedicado en la nube=
+,
+> en un proveedor. Cuando se instala el sistema este pone por defecto /va=
+r
+> /home y / en tres particiones ext4 de 4GB cada una, todas en un disco d=
+e
+> 1 TB m=EDnimo (tengo de 1, 1,5 y 2TB en diferentes servidores) con raid
+> por hardware o software depende lo que le de al proveedor. Estas
+> particiones est=E1n sobre un LVM2. Esto se crea por defecto y no tengo
+> control sobre ello.
+>
+> Una vez instalado el sistema base de la forma anterior, tengo control
+> sobre el sistema y puedo redimensionar /var al m=E1ximo tama=F1o del vo=
+lumen
+> y despu=E9s redimensionar ext4.
+>
+> 1.- Si hago esto =BFal redimensionar ext4 redimensiona tambien el numer=
+o
+> de inodos al nuevo tama=F1o o deja el numero de inodos para 4Gb?
+>
+> 2.- Por otro lado. Hay alguna forma, comando, lo que sea que me permita
+> redimensionar el numero de Inodos una vez creado el sistema de ficheros=
+ ex4.
+>
+> 3.- =BFPodr=EDa, al inicializar un servidor, hacer una copia de /var,
+> desmontar, crear el sistema de ficheros a mi gusto y montar de nuevo
+> /var y copiar los datos salvados? Esto es por el tema de que /var
+> contiene ficheros dinamicos sensibles y no se si al recuperar datos de
+> la copia de seguridad me petaria el sistema en algun momento. Esto se
+> haria en cuanto se instalara el sistema base, antes de hacer cualquier
+> otra cosa.
+>
+> Saludos
+>
+>
+>
+No vas a poder aumentar el n=FAmero de inodos en una partici=F3n con un=20
+filesystem ya creado. Tendr=E1s que volver a recrear (formatear) el=20
+filesystem de la partici=F3n o vol=FAmen l=F3gico.
+
+Si puedes apagar el sistema en producci=F3n, y luego hacer una copia de=20
+/var con rsync guardando permisos, propietarios, timestamps, etc, no=20
+tendr=EDas que tener problema en formatear y luego volver a resincronizar=
+=20
+los archivos desde el backup
+
+Saludos
+
+Federico
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/507D51D0.3020904@uncu.edu.ar
+

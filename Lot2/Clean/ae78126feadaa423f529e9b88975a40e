@@ -1,0 +1,38 @@
+Subject:Re: [squeeze] =?ISO-8859-1?B?ZXjpY3V0ZXI=?= des commandes avec
+	droits root =?ISO-8859-1?B?KGh5cG90aOhzZQ==?= sudo)
+Bonjour, Bonsoir,=20
+
+Le Sat, 3 Nov 2012 07:37:10 +0100, Jean-Michel OLTRA, vous avez =E9crit :
+
+>=20
+>     Bonjour,
+>=20
+>=20
+> Le vendredi 02 novembre 2012, Gr=E9gory Bulot a =E9crit...
+>=20
+> > MYADMINS ALL=3D(ALL) NOPASSWD: PKGMGMT, SHUTDOWN  =20
+>=20
+> PKGMGMT et SHUTDOWN semblent =EAtre ce que sudo appelle des Cmnd_Alias,
+> mais ils ne sont pas d=E9finis :
+>=20
+> Cmnd_Alias SHUTDOWN =3D /sbin/shutdown
+
+
+Sissi(c) ils le sont conform=E9ment =E0 ce qui est d=E9crit dans la proc=E9=
+dure
+cit=E9e dans mon post initial=20
+
+
+--
+Cordialement=20
+Gr=E9gory BULOT
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121103100740.723d1c0b@roland.bulot-fr.com
+

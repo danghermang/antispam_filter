@@ -1,0 +1,50 @@
+Subject:Re: [Flexradio] Upgrading XP to windows 7
+One thing I recommend is to upgrade the firmware on the SSD before loading the OS. There should be instructions on the manufacturer's web site. Depending on manufacturer and current version of firmware you might see a significant performance improvement. 
+
+Dave
+wo2x
+
+Sent from my iPhone
+
+On Nov 1, 2012, at 5:46 PM, Brian <briduffell@yahoo.co.uk> wrote:
+
+> My radio computer isn't working. Recently it has been running slow and I
+> decided to upgrade. I added a new video card to replace the on-board one
+> with sharesd memory and added more memory (2-8gig), and am now changing to a
+> 64 bit version of W7 to use it. 
+> 
+> My first attempt to upgrade (just testing without changing I thought) hosed
+> up the boot into XP. I've got a temporary W& install (not validated until I
+> get the hardware finalised), and fortunately most data is intact (I've got a
+> backup of my DXlabs log from immediately before on  my linux server but not
+> much more as anofficial backup) but the disk seems to have errors which I
+> think was the cause of recent errors/slowness. I was not able to run the
+> windows 7 upgrade advisor as the computer locked up
+> 
+> I've taken the plunge and tomorrow a 128gig SSD and a 1Tb hard drive should
+> arrive early.
+> 
+> Any advice on how to set up would be appreciated. Any gotchas? Where to find
+> and where to copy configuration files.
+> 
+> I was using PSDR 2.4.4 , vspm, VAC4.12, DXlabs, FLdigi, JT65-HF and lots of
+> other goodies. I'm new to Win 7 but not computers.
+> 
+> -- 
+> Brian Duffell G3VGZ G8AOE 
+> Yarm    
+> North East England
+> 
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

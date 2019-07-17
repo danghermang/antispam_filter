@@ -1,0 +1,30 @@
+Subject:Re: [rlug] kernel panic :: pareri despre motiv
+Bug de kernel sau memorie plina / memorie libera dar prea fragmentata
+
+On 10/25/2012 11:18 AM, Adrian Sevcenco wrote:
+> Salut! Stie cineva sa interpreteze o bucata de kernel panic si sa deduca
+> un motiv? snapshot
+> http://sev.spacescience.ro/adrian/alien-0-39.jpg
+>
+> Sunt 2 servere amd care la load mare crapa .. nu pot sa ma gindesc decit
+> la memorie .. dar inainte sa schimb 48 gb de ram as vrea sa aud pareri
+> de la oameni cu mai multa experienta decit mine ..
+>
+> Multumesc!
+> Adrian
+>
+>
+>
+> _______________________________________________
+> RLUG mailing list
+> RLUG@lists.lug.ro
+> http://lists.lug.ro/mailman/listinfo/rlug
+>
+
+-- 
+Dan Borlovan
+Datagroup-Int
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

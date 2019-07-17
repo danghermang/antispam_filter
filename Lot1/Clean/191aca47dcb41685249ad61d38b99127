@@ -1,0 +1,256 @@
+Subject:Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+Thanks, well, that=92s definitely one! I was thinking that an interpole is =
+in
+series with the armature, so is the field, so there is no real difference.
+You may as well just have a bigger field winding with some brush advance.
+	I see the "interpoles" aid the field in one direction and buck it in
+the other, so the motor will run faster in one direction than the other.
+fairly simple, but operation is different to a shunt motor interpoles as the
+field angle does not change with current, well with a shunt motor and
+interpoles it does not either but it would without them.
+
+-----Original Message-----
+From: ev-bounces@lists.sjsu.edu [mailto:ev-bounces@lists.sjsu.edu] On Behalf
+Of Jeff Major
+Sent: Saturday, 10 November 2012 2:08 p.m.
+To: 'Electric Vehicle Discussion List'
+Subject: Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+
+Hi George,
+
+http://kostov-motors.com/files/productattachments/04c1adb9b9b14801dea33e5ecd
+0c3e44_F18B2.pdf=A0 =
+
+
+
+See the wiring diagram and connection note on that drawing.
+
+Large forklift trucks were common applications requiring interpole DC series
+wound motors due to the reversing direction duty and plug reversing even
+though the voltage and RPM were low by today's EV motor standards.
+
+I have an old postal Jeep with a 96V system, 11 inch series wound DC=A0 mot=
+or
+with interpoles and a SCR controller with regeneration.=A0 It is direct dri=
+ve
+(motor to rear differential) therefore uses contactor field switching for
+reversing the motor.
+
+Regards,
+
+Jeff M
+
+
+
+----- Original Message -----
+From: George Tyler <gw@tylernz.com>
+To: 'Jeff Major' <jff_mjr@yahoo.com>; 'Electric Vehicle Discussion List'
+<ev@lists.sjsu.edu>
+Cc: =
+
+Sent: Friday, November 9, 2012 1:51 PM
+Subject: RE: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+
+Are there any examples of series motors with interpoles on internet?
+
+-----Original Message-----
+From: ev-bounces@lists.sjsu.edu [mailto:ev-bounces@lists.sjsu.edu] On Behalf
+Of Jeff Major
+Sent: Wednesday, 7 November 2012 3:04 p.m.
+To: 'Electric Vehicle Discussion List'
+Subject: Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+
+Hello George,
+
+Interpole series motors are used for reversing applications and where
+dynamic, plug, or (dare I say it?) regenerative braking is used.=A0 Brush
+advance doesn't work in these spots.=A0 =
+
+
+Interpoles in shunt and compound motors work better than the brush advance
+because they vary strength with load and the sweet spot for commutation
+varies with load.
+
+Contrary to what your referenced article says and what you state, interpoles
+do not counteract armature reaction.=A0 Compensating or pole face winding d=
+o.=A0
+And interpoles do not shift (rotate) the main field flux.=A0 The interpole =
+by
+virtue of the mmf from the comm coil (interpole winding) manipulates the
+flux in a small interpolar region where the neutral plane was before it was
+shifted by the armature reaction.=A0 This may seem picky.=A0 But that is be=
+cause
+most here are concerned with series motors where armature reaction is not a
+big factor in performance.=A0 With shunt machines, armature reaction can ca=
+use
+serious loss of torque or regulation.=A0 There you will find interpoles do
+nothing to counteract this and they must use compensating windings and
+sometimes series field windings.
+
+Regards,
+
+Jeff M
+
+
+
+----- Original Message -----
+From: George Tyler <gw@tylernz.com>
+To: 'Jeff Major' <jff_mjr@yahoo.com>; 'Electric Vehicle Discussion List'
+<ev@lists.sjsu.edu>
+Cc: =
+
+Sent: Tuesday, November 6, 2012 6:30 PM
+Subject: RE: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+
+I found a pretty good explanation that will help those who have never looked
+at this before, =
+
+http://www.cedengineering.com/upload/DC%20Generators%20and%20Motors.pdf
+
+page 1-9 talks about interpoles etc. I think the important thing is, the
+reaction of the flux and the amount of brush advance needed is not directly
+influenced by RPM. It is directly related to current in the armature,
+reading this document we can see why. Only thing, I have limited experience
+with DC motors, last course I did on them was in the '60's. I have never
+seen or heard of a SERIES DC motor with interpoles, in a way, the normal
+poles are like interpoles because they are also in series. My reasoning
+tells me that if you advance the brush timing the right amount the timing
+should be right at all loads, currents and RPM's? In a shunt motor they are
+in series so that as the current increases and rotates the flux path they
+turn it straight again, and as this is caused by the current the current
+through the interpoles, varying with this current produces the right amount
+of counter rotation to correct it as the current varies.
+
+-----Original Message-----
+From: ev-bounces@lists.sjsu.edu [mailto:ev-bounces@lists.sjsu.edu] On Behalf
+Of Jeff Major
+Sent: Wednesday, 7 November 2012 5:16 a.m.
+To: Electric Vehicle Discussion List
+Subject: Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+
+Hi Mark,
+
+As JJ says, the torque loss is offset by RPM increase as happens with field
+weakening, so it is not a direct hit on efficiency.=A0 The efficiency curve
+will be altered with brush advance (and with field weakening).=A0 At some l=
+oad
+points it may increase a bit and other loads decrease.=A0 Proper advance
+should not result in significantly lower motor efficiency.=A0 Going too far
+with advance or retardation may result in adverse effects on the efficiency
+by actually shifting shorted coils (those being commutated) under the main
+field flux.
+
+And I told you that advance compensates for altered commutation due to high
+current, high voltage and/or high RPM.=A0 In your case, it is not 3000 RPM I
+would be concerned about, it is the system voltage and current limit.=A0 You
+said it was drilled for 12 degrees, right?=A0 Off hand, I think about half
+that would be better for you.=A0 If you're smelling or hearing the brush arc
+going uphill, I'd give it that 6 degrees.
+
+Regards,
+
+Jeff M
+
+
+
+________________________________
+From: Mark Hanson <marke.hanson@hotmail.com>
+To: "ev@lists.sjsu.edu" <ev@lists.sjsu.edu> =
+
+Sent: Tuesday, November 6, 2012 9:55 AM
+Subject: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+
+
+Hi Jeff etc;
+Yes, my previous experience with Prestolite and a tranny is neutral is
+best.=A0 The Warp "Impulse 9" was sent advanced but I moved it to neutral w=
+hen
+installing it so it always has run in neutral.=A0 I would think that 20%
+reduced torque with a given current means 20% *less* efficiency and a bad
+thing.=A0 My max RPM's is 3K (with 4-speed tranny) so I'm certainly not
+running this motor very fast where i think advanced timing would be needed.=
+=A0
+So I'm inclined to leave it alone as i don't see how advancing the timing
+for 3K rpm operation would have a positive effect (at that speed) and have a
+negative effect starting off.
+Best Regards,mark =
+
+Message: 8
+Date: Mon, 5 Nov 2012 10:33:14 -0800 (PST)
+From: Jeff Major <jff_mjr@yahoo.com>
+Subject: Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+To: Electric Vehicle Discussion List <ev@lists.sjsu.edu>
+Message-ID:
+<1352140394.11060.YahooMailNeo@web122305.mail.ne1.yahoo.com>
+Content-Type: text/plain; charset=3D"iso-8859-1"
+
+Hi Mark,
+
+Brushes arc primarily due to voltage, current and RPM.? Any, or
+combinations, can cause excessive arcing when too high.? I personally think
+that most times the advance is too far.? But if that is where it is drilled,
+I'd do it for the voltage you're running.
+
+Advancing the brushes weakens the field in effect and therefore reduces the
+torque per amp of the motor while increasing the RPM per amp.? On a 4 pole
+motor, if you rotate (advance) the brushes 90 degrees, you reverse
+rotation.? 45 degrees would give you zero torque.? So you lose about 2
+percent per degree.? That is just an approximation because it is not
+linear.? But it is not unreasonable to expect 20 percent lower torque at a
+given current with a 12 degree advance.
+
+The other thing is:? What is your starting point?? Was your motor set on
+neutral when installed?? I recall you doing test on the Prestolite motor
+assuming it was neutral to start and it was manufactured with a 4.5 degree
+advance.
+
+Most cases will benefit from the advanced brushes and improved commutation
+even at the expense of torque if you have the transmission.? Just use a
+lower gear.? If you don't run a transmission, think hard about it because
+reverse on the motor with advanced brushes can be damaging.
+
+See ya, =
+
+
+Jeff M
+=A0=A0=A0 =A0=A0=A0=A0 =A0=A0=A0 =A0=A0 =A0=A0=A0 =A0=A0=A0 =A0 =
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+http://lists.sjsu.edu/mailman/private/ev/attachments/20121106/8e9ba132/attac
+hment.html =
+
+________________________
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL:
+http://lists.sjsu.edu/mailman/private/ev/attachments/20121109/babc2021/attac
+hment.html =
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+
+No virus found in this incoming message.
+Checked by AVG - www.avg.com =
+
+Version: 9.0.930 / Virus Database: 2441.1.1/5385 - Release Date: 11/10/12
+09:51:00
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

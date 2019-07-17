@@ -1,0 +1,117 @@
+Subject:libreoffice-base: Using sqlite via odbc, primary key varchar field
+	contents not shown
+Package: libreoffice-base
+Version: 1:3.5.4-7~bpo60+1
+Severity: normal
+Tags: upstream
+
+Hi!
+
+This is actually already fixed in upstream, but only in 3.5.5. The current versions in debian (except in experimental) include this bug, which is a serious regression from somewhat earlier versions of 
+libreoffice-base. I have, for example, used sqlite via odbc with varchar primary key fields succesfully with an earlier version from last spring (no version number available, sorry), and the current 
+versions of libreoffice-base makes everything done earlier unusable.
+
+I would like to propose that something should be done. Now it seems that the next stable will contain a version of libreoffice-base which is in seriously crippled in sqlite use.
+
+The bugreport describing the situation upstream is 
+
+https://bugs.freedesktop.org/show_bug.cgi?id=47520
+
+All the best,
+
+Harri K.
+
+-- System Information:
+Debian Release: 6.0.4
+  APT prefers stable-updates
+  APT policy: (500, 'stable-updates'), (500, 'stable')
+Architecture: i386 (i686)
+
+Kernel: Linux 2.6.32-5-686 (SMP w/1 CPU core)
+Locale: LANG=en_IE.UTF-8, LC_CTYPE=en_IE.UTF-8 (charmap=UTF-8)
+Shell: /bin/sh linked to /bin/bash
+
+Versions of packages libreoffice-base depends on:
+hi  libc6             2.11.3-3               Embedded GNU C Library: Shared lib
+hi  libgcc1           1:4.4.5-8              GCC support library
+hi  libhsqldb-java    1.8.0.10-9             Java SQL database engine
+di  libreoffice-base- 1:3.5.4-7~bpo60+1      office productivity suite -- share
+di  libreoffice-core  1:3.5.4-7~bpo60+1      office productivity suite -- arch-
+di  libreoffice-java- 1:3.5.4-7~bpo60+1      office productivity suite -- arch-
+hi  libstdc++6        4.4.5-8                The GNU Standard C++ Library v3
+di  openjdk-6-jre [ja 6b18-1.8.13-0+squeeze2 OpenJDK Java runtime, using Hotspo
+ii  sun-java6-jre [ja 6.26-0squeeze1         Sun Java(TM) Runtime Environment (
+hi  uno-libs3         3.5.4-7~bpo60+1        LibreOffice UNO runtime environmen
+hi  ure               3.5.4-7~bpo60+1        LibreOffice UNO runtime environmen
+
+libreoffice-base recommends no packages.
+
+Versions of packages libreoffice-base suggests:
+hi  libmyodbc    5.1.6-1                     the MySQL ODBC driver
+hi  libmysql-jav 5.1.10+dfsg-2               Java database (JDBC) driver for My
+pn  libreoffice- <none>                      (no description available)
+di  libreoffice- 1:1.2.1+LibO3.4.6-2~bpo60+1 LibreOffice extension for building
+ii  libsqliteodb 0.91-3                      ODBC driver for SQLite embedded da
+hi  mdbtools     0.5.99.0.6pre1.0.20051109-7 JET / MS Access database (MDB) too
+hi  odbc-postgre 1:08.03.0200-1.2            ODBC driver for PostgreSQL
+hi  unixodbc     2.2.14p2-1                  ODBC tools libraries
+
+Versions of packages libreoffice-core depends on:
+hi  fontconfig   2.8.0-2.1                   generic font configuration library
+hi  fonts-opensy 2:2.4.3+LibO3.4.6-2~bpo60+1 OpenSymbol TrueType font
+hi  libc6        2.11.3-3                    Embedded GNU C Library: Shared lib
+hi  libcairo2    1.8.10-6                    The Cairo 2D vector graphics libra
+hi  libcurl3-gnu 7.21.0-2.1+squeeze2         Multi-protocol file transfer libra
+ii  libdb4.8     4.8.30-2                    Berkeley v4.8 Database Libraries [
+hi  libexpat1    2.0.1-7+squeeze1            XML parsing C library - runtime li
+hi  libfontconfi 2.8.0-2.1                   generic font configuration library
+hi  libfreetype6 2.4.2-2.1+squeeze4          FreeType 2 font engine, shared lib
+hi  libgcc1      1:4.4.5-8                   GCC support library
+hi  libglib2.0-0 2.24.2-1                    The GLib library of C routines
+hi  libgstreamer 0.10.30-1                   GStreamer libraries from the "base
+hi  libgstreamer 0.10.30-1                   Core GStreamer libraries and eleme
+ii  libhunspell- 1.2.11-1                    spell checker and morphological an
+hi  libhyphen0   2.5-1                       ALTLinux hyphenation library - sha
+hi  libice6      2:1.0.6-2                   X11 Inter-Client Exchange library
+ii  libicu44     4.4.1-8                     International Components for Unico
+hi  libjpeg62    6b1-1                       The Independent JPEG Group's JPEG 
+hi  libneon27-gn 0.29.3-3                    An HTTP and WebDAV client library 
+hi  libnspr4-0d  4.8.6-1                     NetScape Portable Runtime Library
+di  libnss3-1d   3.12.8-1+squeeze5           Network Security Service libraries
+hi  libpng12-0   1.2.44-1+squeeze4           PNG library - runtime
+hi  librdf0      1.0.10-3                    Redland Resource Description Frame
+di  libreoffice- 1:3.5.4-7~bpo60+1           office productivity suite -- arch-
+hi  librsvg2-2   2.26.3-1                    SAX-based renderer library for SVG
+hi  libsm6       2:1.1.1-1                   X11 Session Management library
+ii  libssl0.9.8  0.9.8o-4squeeze13           SSL shared libraries
+hi  libstdc++6   4.4.5-8                     The GNU Standard C++ Library v3
+hi  libx11-6     2:1.3.3-4                   X11 client-side library
+hi  libxext6     2:1.1.2-1                   X11 miscellaneous extension librar
+hi  libxinerama1 2:1.1-3                     X11 Xinerama extension library
+hi  libxml2      2.7.8.dfsg-2+squeeze5       GNOME XML library
+hi  libxrandr2   2:1.3.0-3                   X11 RandR extension library
+hi  libxrender1  1:0.9.6-1                   X Rendering Extension client libra
+hi  libxslt1.1   1.1.26-6+squeeze2           XSLT 1.0 processing library - runt
+hi  uno-libs3    3.5.4-7~bpo60+1             LibreOffice UNO runtime environmen
+hi  ure          3.5.4-7~bpo60+1             LibreOffice UNO runtime environmen
+hi  zlib1g       1:1.2.3.4.dfsg-3            compression library - runtime
+
+Versions of packages libreoffice-base is related to:
+hi  libmyodbc    5.1.6-1                     the MySQL ODBC driver
+hi  libmysql-jav 5.1.10+dfsg-2               Java database (JDBC) driver for My
+pn  libpg-java   <none>                      (no description available)
+pn  libsapdbc-ja <none>                      (no description available)
+ii  libsqliteodb 0.91-3                      ODBC driver for SQLite embedded da
+hi  mdbtools     0.5.99.0.6pre1.0.20051109-7 JET / MS Access database (MDB) too
+hi  odbc-postgre 1:08.03.0200-1.2            ODBC driver for PostgreSQL
+pn  tdsodbc      <none>                      (no description available)
+hi  unixodbc     2.2.14p2-1                  ODBC tools libraries
+
+-- no debconf information
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121103144547.7427.35307.reportbug@localhost.localdomain
+

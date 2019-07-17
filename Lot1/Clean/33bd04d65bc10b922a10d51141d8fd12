@@ -1,0 +1,29 @@
+Subject:Re: Lecteur DVD/CD externe USB reconnu au boot
+On Wed, 21 Nov 2012 13:03:49 +0100
+"JF Straeten" <jfstraeten@scarlet.be> wrote:
+
+
+>=20
+> Essaie...
+>=20
+> Et si tu veux vraiment anticiper le verdict des choses, regarde dans
+> le BIOS s'il a l'air de vouloir booter l=C3=A0-dessus. (Le contraire
+> m'=C3=A9tonnerait, note...).
+
+Et si =C3=A7a marche p=C3=B4, restera le boot en PXE.
+
+--=20
+<Chachou> Je passsssss en L!!!! Tro bi1 jsui tro Ereuz! Jvou kiff l=C3=A9 f=
+i!!!
+<Glorf> Tu m'=C3=A9tonne qu'apr=C3=A8s les gens disent que n'importe qui pe=
+ut faire L...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121121163321.4f7df0db@anubis.defcon1
+

@@ -1,0 +1,25 @@
+Subject:Re: Icedove - bug ?
+Le samedi 20 octobre 2012 à 23:34 +0200, Christian Ottié a écrit :
+> Est-ce que ce comportement est récent ? bug ?
+
+Bug ou pas. Le bug est de mettre un espace, le comportement raisonnable
+devrait être de le supprimer. Mais maintenant qu'on peut mettre, en
+théorie, des caractères non ascii, ça pourrait paraître raisonnable de
+cotcoter les chaînes avec des espaces.
+
+Bref, ça serait probablement intéressant de reporter ce comportement
+volontaire ou non (il y a peut-être des facteurs qui le supportent). Au
+minimum ça demanderait des éclaircissements.
+
+P.S. Sont-ce réellement des espaces et pas un autre caractère non
+imprimable ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1350777909.10709.4.camel@jisui.aranha
+

@@ -1,0 +1,55 @@
+Subject:Re: [EVDL] Ceramic Heater Installation
+On 10/18/2012 3:29 PM, Mike Beem wrote:
+> So the wiring connections, including polarity look exactly like what Dan
+> has posted at http://www.envirokarma.org/ev/gallery/090301_final_assy00b.htm
+> When I take the large diode out, it works fine. The KTA diagram and
+> description reference an "alternate diode" which is reversed (polarity) in
+> the same place in the circuit. It does not say how to determine which diode
+> is supplied, but, dead short with the diode in as shown, normal current
+> operation without it=what does the diode add to the finished product?
+
+It's hard to puzzle out the circuit from the photograph, but as near as 
+I can tell, it's wired like this (view with a fixed width font like 
+Courier):
+
+         0.01uF 100 ohms
+          __||__/\/\__
+         |  ||        |
+  pack+__|______\_____|______
+              K1a       |    |
+                       _|_   > heating
+                 diode /_\   > element
+              K1b       |    >
+  pack-_________\_______|____|
+         |            |
+         |__||__    __|
+            ||  \/\/
+         0.1uF? 100 ohms?
+
+The photo has pack- at the top and pack- at the bottom. The lower RC 
+snubber is invisible, but I'm guessing it's there.
+
+The diode isn't really necessary in this circuit. A diode is used in 
+this location when switching an inductive load. But your ceramic heater 
+is basically a resistive load. The only inductance would come from the 
+length of the wires used to connect the heater. This inductance is 
+small, so the voltage spike produced is tiny, and the relay and snubbers 
+can handle it by themselves. I would suggest removing the diode.
+
+As to why the fuse blows with the diode installed: Either the diode is 
+wired backwards, or its breakdown voltage is less than the pack voltage.
+-- 
+First they ignore you; then they mock you; then they fight you; then you 
+win. -- Mahatma Gandhi
+--
+Lee A. Hart http://www.sunrise-ev.com/LeesEVs leeahart@earthlink.net
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

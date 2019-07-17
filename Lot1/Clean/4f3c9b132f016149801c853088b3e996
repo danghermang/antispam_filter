@@ -1,0 +1,86 @@
+Subject:Re: youtube-dl needs updating to be useful
+On Tue, 30 Oct 2012 23:53:05 -0700
+Andres Salomon <dilinger@queued.net> wrote:
+
+> On Mon, 1 Oct 2012 09:58:08 +0100
+> Nick <debian-backports@njw.me.uk> wrote:
+>=20
+> > The version of youtube-dl in backports (2012.01.05) no longer works=20
+> > with the youtube site, hence it is not useful. Debian bug #688997=20
+> > updates the package for sid, hopefully it would be possible and
+> > easy to bring it into backports too.
+> >=20
+>=20
+>=20
+> I'm not willing to update this until it is fixed in testing.  It looks
+> like the newer version introduces an RC bug (#689493) which needs to
+> be taken care of before even considering letting the new upstream
+> version have a freeze exception.
+>=20
+>=20
+
+Rog=C3=A9rio, here's a patch which removes the --update option from
+youtube-dl, (it grabs binaries online, including
+youtube-dl.exe).  This, combined with simply removing youtube-dl.exe
+and youtube-dl from the source package will allow us to avoid dealing
+(and possibly also youtube-dl, since we're unaware of the source used
+with binary blobs that we don't have the source for.
+
+If you'd like me to prepare an NMU to fix this in sid, please let me
+know.
+
+
+
+
+--- a/youtube_dl/__init__.py	2012-09-27 09:25:46.000000000 +0000
++++ b/youtube_dl/__init__.py	2012-10-31 07:04:58.000000000 +0000
+@@ -179,8 +179,6 @@
+ 			action=3D'help', help=3D'print this help text and exit')
+ 	general.add_option('-v', '--version',
+ 			action=3D'version', help=3D'print program version and exit')
+-	general.add_option('-U', '--update',
+-			action=3D'store_true', dest=3D'update_self', help=3D'update this progra=
+m to latest version')
+ 	general.add_option('-i', '--ignore-errors',
+ 			action=3D'store_true', dest=3D'ignoreerrors', help=3D'continue on downl=
+oad errors', default=3DFalse)
+ 	general.add_option('-r', '--rate-limit',
+@@ -505,16 +503,9 @@
+ 	if opts.extractaudio:
+ 		fd.add_post_processor(FFmpegExtractAudioPP(preferredcodec=3Dopts.audiofo=
+rmat, preferredquality=3Dopts.audioquality, keepvideo=3Dopts.keepvideo))
+=20
+-	# Update version
+-	if opts.update_self:
+-		updateSelf(fd, sys.argv[0])
+-
+ 	# Maybe do nothing
+ 	if len(all_urls) < 1:
+-		if not opts.update_self:
+-			parser.error(u'you must provide at least one URL')
+-		else:
+-			sys.exit()
++		parser.error(u'you must provide at least one URL')
+ =09
+ 	try:
+ 		retcode =3D fd.download(all_urls)
+--- a/debian/youtube-dl.pod	2012-09-28 05:26:26.000000000 +0000
++++ b/debian/youtube-dl.pod	2012-10-31 07:10:22.000000000 +0000
+@@ -44,10 +44,6 @@
+=20
+ Print program version and exit.
+=20
+-=3Ditem -U, --update
+-
+-Update this program to the latest stable version.
+-
+ =3Ditem -i, --ignore-errors
+=20
+ Ignore errors during download and continue processing.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031002839.34ea0cb8@dev.queued.net
+

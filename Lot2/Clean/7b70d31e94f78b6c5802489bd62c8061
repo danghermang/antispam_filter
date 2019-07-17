@@ -1,0 +1,29 @@
+Subject:Re: Ayuda Urgente: Iptables e ip rule no funcionan correctamente en
+	debian 6?
+El 06/09/12 10:07, Francisco J. Bejarano escribió:
+> Te pongo otro trozo de log de una ip de la red interna 2 que va hacia
+> afuera a una ip de internet (forward). Como ves tampoco tiene interfaz
+> out. Asi descarto que fuera mi direccion al firewall ya que estoy
+> conectado por ssh y mi trafico si iria al propio firewall.
+>
+> Sep  5 17:13:51 firewall kernel: [1890254.612411] fwmark 2: IN=eth2 OUT=
+> MAC=00:0d:88:c5:ba:43:90:4c:e5:41:6b:d7:08:00 SRC=10.0.2.121
+> DST=88.106.32.213 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=312 DF PROTO=TCP
+> SPT=43691 DPT=22 WINDOW=2608 RES=0x00 ACK URGP=0 MARK=0x2
+> Sep  5 17:13:51 firewall kernel: [1890254.649763] fwmark 2: IN=eth2 OUT=
+> MAC=00:0d:88:c5:ba:43:90:4c:e5:41:6b:d7:08:00 SRC=10.0.2.121
+> DST=88.106.32.213 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=313 DF PROTO=TCP
+> SPT=43691 DPT=22 WINDOW=2597 RES=0x00 ACK URGP=0 MARK=0x2
+
+ok, es que como coincidia que todo el tráfico iba para esas ips, pensé
+que quiza estabas malinterpretando esos logs y pensando que había un
+problema donde no lo había.
+
+Un saludo.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50485AAD.8050609@limbo.deathwing.net
+

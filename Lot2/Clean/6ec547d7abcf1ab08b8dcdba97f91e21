@@ -1,0 +1,32 @@
+Subject:RE: ActivePerl on OS X: ppm not working, no DBD::mysql PPM available
+On Thu, 04 Oct 2012, Michiel Beijen wrote:
+> And yes, it would be very helpful for other ActivePerl users if
+> someone at ActiveState would make sure there is a DBD-mysql package
+> available on OS X.
+
+I needed this myself before too, but the problem is that ActivePerl is
+a "fat" binary (contains executable code for both the 32-bit and 64-bit
+version in the same files).  That means any modules must be built the
+same way, and there is no corresponding MySQL library in the same format.
+
+Maybe we should try to build a module manually just for 64-bit mode, but
+it will still require some manual effort to get this into the PPM setup.
+
+> I have not added any repositories. I just installed ActivePerl, ran
+> 'ppm' and it crashed. See link below for the crash report. Also, on
+> the command line, it worked; so it is not a firewall issue at all.
+
+Thanks for the report!  I was about to say that it works fine on my
+machine, but then I noticed that I was still running a pre-release
+build.  I can reproduce the crash with the release build; it seems like
+it contains an updated tkkit.dylib that is not working correctly.
+Will file a bug for it.
+
+Cheers,
+-Jan
+
+
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

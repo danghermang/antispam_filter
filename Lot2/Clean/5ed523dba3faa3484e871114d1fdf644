@@ -1,0 +1,48 @@
+Subject:Re: Compiler son noyau
+On Fri, 21 Sep 2012 19:58:11 +0200
+Ga=C3=ABl <gagou9@gmail.com> wrote:
+
+> Du coup, j'en profite, connais-tu un bon lien qui explique la
+> compilation du noyau ?
+
+D=C3=A9j=C3=A0, installer kernel-package qui devrait normalement entrainer=
+=20
+les d=C3=A9pendances voulues,
+
+Apr=C3=A8s, installer un source du kernel, Debian ou =C3=A0 partir de
+www.kernel.org et le d=C3=A9compresser dans /usr/src, puis faire
+un symlink: ln azerty-NNN linux,
+
+cd linux, puis make menuconfig & choisir les options voulues - vu
+que tu ne l'as jamais fait, mieux vaut d'abord partir du fichier de
+conf d'un kernel Debian
+(cp /boot/config-a.b.c-986 /usr/src/linux/.config
+et =C3=A9laguer au fur et =C3=A0 mesure que tu conna=C3=AEtras mieux ton ma=
+t=C3=A9riel,
+
+Et enfin, un make-kpkg kernel_image qui va lancer la compilation du
+kernel et des modules, et leur encapsulation dans un .deb qui se
+trouvera un =C3=A9tage plus haut (/usr/src).
+
+Last, but not the least:
+dpgk -i monkernelamoikej=C3=A8compil=C3=A9komungran.deb, v=C3=A9rifier que =
+les
+symlinks en racine ont =C3=A9t=C3=A9 M=C3=A0J (vmlinuz + initrd.img<->tout =
+du moins
+tant que tu laisseras ton kernel en mode initrd), et reboot.
+
+--=20
+<Lynal> D=C3=A9finissez en deux mots le concept de la th=C3=A9orie
+	de la complexit=C3=A9 traitant d'un parcours Eul=C3=A9rien
+	et Hamiltonien concernant un graphe connexe.
+<Faf34> Ta gueule.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120921203311.62ee65f1@anubis.defcon1
+

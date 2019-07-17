@@ -1,0 +1,80 @@
+Subject:Debian Maintainers Keyring changes
+The following changes to the debian-maintainers keyring have just been activated:
+
+asias.hejun@gmail.com
+    Removed key: 51083D984278D604C01F8F7FAEC9992B2D7FF180
+    Removed key: E0FD6DAE7C51262FDAE6A28B7174A18FAAA7A078
+
+
+berni@birkenwald.de
+    Full name: Bernhard Schmidt
+    Added key: D6E01EC516A5DFCEF71956D3775079E5B850BC93
+
+
+cedric.boutillier@gmail.com
+    Removed key: 30414D81DC28290C25686DE3DA4958F611E149E9
+
+
+emilien+debian@klein.st
+    Full name: Emilien Klein
+    Added key: 1D68927B7F2964590BB000F0AE0C84BB0A2368F0
+
+
+gusnan@gusnan.se
+    Full name: Andreas Rönnquist
+    Added key: DB306E4B10FFD98EF4DB55D7194B631AB2DA2888
+
+
+iulian@ubuntu.com
+    Full name: Iulian Udrea
+
+
+janos@resenje.org
+    Removed key: ED856FB82F9DA804C678D9959E509C93D26DF9D3
+
+
+jeroen@dekkers.ch
+    Full name: Jeroen Dekkers
+    Added key: 0FDA404DD24E1281B860EA5F31825297D36F9081
+    Added key: 0D80EABB04476E542C9408E10ADB299C1F137C9F
+
+
+nicolas.boulenguez@free.fr
+    Removed key: 62D94D32A99722112F59F7F2B52A9CF4490DFC8D
+
+
+nicolas.bourdaud@gmail.com
+    Full name: Nicolas Bourdaud
+
+
+paumard@users.sourceforge.net
+    Removed key: BCADFB52B41998D74D99D98E93945348E0DC2840
+
+
+satta@tetrinetsucht.de
+    Full name: Sascha Steinbiss
+    Added key: 0EED77DC41D760FDE44035FF5556A34E04A3610B
+
+
+sebastien.villemot@ens.fr
+    Removed key: 20691DFCC2C98C47952984EE00018C22381A7594
+    Removed key: 53951D95272E0C5B82BE8C4A2CECE9350ECEBE4A
+
+
+thelinuxer@ubuntu.com
+    Full name: Ahmed Toulan
+    Added key: 834C97925D15D2A573C2478777013C58233007A7
+
+
+tobias.han@gmx.de
+    Removed key: A07E3AA25DCCDAEDA6628D248C82169D8ECECD2A
+
+Debian distribution maintenance software,
+on behalf of the Keyring maintainers
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/E1TFM7S-0005xC-3R@morricone.debian.org
+

@@ -1,0 +1,39 @@
+Subject:Re: catfish, strigi, find, locate et Cie ...
+Le lundi 10 décembre 2012 à 15:41 +0100, Bzzz a écrit :
+> Personnellement, j'utilise recoll pour mes recherches documentaires,
+> ses bases prennent grosso-modo 80~85% de la place de ce qu'il analyse,
+> mais il ne loupe absolument rien (des docs au format HTML, CHM, dans
+> les 
+> e-mails, PDFs, .od?, .doc, .docx, fichiers texte, etc) - jusqu'à
+> maintenant,
+> je n'ai rien trouvé de mieux pour creuser efficacement dans n'importe
+> quel
+> type de doc. 
+
+Deux problématiques :
+
+1. Recherche documentaire (avec extraction de contenu pour l'analyse des
+documents), effectivement Recoll n'est pas le pire pour tirer des
+résultats exploitables et au moins est activable à la demande (donc ne
+bouffe pas le système en permanence comme tracker-search).
+
+2. Recherche de fichiers : Essaye synapse, une fois compris comment ça
+se manipule (touche tab pour passer au choix...) c'est assez bien foutu
+et très rapide à manipuler et pour sortir des résultats assez pertinent
+quand il n'y en a pas trop. C'est bien supérieur à l'overview de
+gnome-shell même avec les extensions. 
+Je l'ai mis sur la touche <menu> comme ça c'est symétrique par rapport à
+gnome-shell, et je n'emploie presque plus que ça pour lancer les appli
+et je l'emploie souvent pour ouvrir directement un document.
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1355154670.4329.22.camel@azuki.jisui
+

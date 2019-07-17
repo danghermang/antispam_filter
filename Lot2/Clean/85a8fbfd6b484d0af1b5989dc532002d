@@ -1,0 +1,51 @@
+Subject:Re: [Flexradio] Power SDR on a Mac
+Firewire isn't an issue for me because I'm using USB to control my 1500.=A0=
+ Everything went fine with the Boot Camp and Windows 7 installation except =
+Windows doesn't "see" my wireless mouse.=A0 No problem when I boot to Mount=
+ain Lion.
+=A0
+73 - Ken
+=A0
+
+
+________________________________
+From: Brian Lloyd <brian-wb6rqn@lloyd.com>
+To: FlexRadio reflector <flexradio@flex-radio.biz> =
+
+Sent: Tuesday, November 13, 2012 1:01:56 PM
+Subject: Re: [Flexradio] Power SDR on a Mac
+
+On Tue, Nov 13, 2012 at 9:46 AM, Carsten Esch <carsten.esch@appello.de>wrot=
+e:
+
+> ... the Mac mini has FireWire 800 ...
+>
+
+So you need to get a 1394b (800) to 1394a (400) cable. I have used the Mac
+Mini with the Flex radios without any problems. In fact, they are a good
+match. You can set the Mini right on top of the 5000 or 3000 and get a
+really short bonding cable between them to greatly reduce the possibility
+of RFI problems.
+
+-- =
+
+Brian Lloyd, WB6RQN/J79BPL
+3191 Western Dr.
+Cameron Park, CA 95682
+brian@lloyd.com
++1.767.617.1365 (Dominica)
++1.916.877.5067 (USA)
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/=A0 Homepage: http://www.flexradio.=
+com/
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.co=
+m/

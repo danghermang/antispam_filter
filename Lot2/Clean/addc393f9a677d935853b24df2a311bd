@@ -1,0 +1,82 @@
+Subject:Re: [HS] comportement curieux de malloc
+Le samedi 29 septembre 2012 =C3=A0 15:57:49, Fran=C3=A7ois Boisson a =C3=A9=
+crit=20
+:
+> Le Sat, 29 Sep 2012 15:22:34 +0200
+>=20
+> Erwan David <erwan@rail.eu.org> a =C3=A9crit:
+> > les r=C3=A9sultats successifs de malloc n'ont aucune raison
+> > d'=C3=AAtre contigus. Pour agrandir une zone on le fait plut=C3=B4t
+> > avec realloc, mais =C3=A7a peut aussi d=C3=A9placer compl=C3=A8tement la
+> > zone.
+>=20
+> J'=C3=A9tais en train de me pencher sur =C3=A7a et me doutais d'un truc
+> de ce genre... Le d=C3=A9placement via realloc semble transparent
+> (pas clair sur la doc), mais le probl=C3=A8me est que visiblement
+> =C3=A7a fait une extension =C2=ABpar le haut=C2=BB ce qui est ennuyeux,
+> visiblement dans le source de camllight, =C2=ABheap_start=C2=BB est
+> une constante =C3=A0 ne pas toucher.  Il y a une fonction
+> =C3=A9tendant la m=C3=A9moire =C3=A0 =C2=ABsommet constant=C2=BB?
+
+  =C3=80 mon avis, c=E2=80=99est un gros bogue de camllight de se reposer s=
+ur=20
+un comportement non sp=C3=A9cifi=C3=A9 et d=C3=A9pendant d=E2=80=99une mise=
+ en =C5=93uvre=20
+particuli=C3=A8re.
+1. malloc n=E2=80=99a, comme l=E2=80=99a dit Erwan, aucune raison d=E2=80=
+=99allouer des
+  blocs c=C3=B4te =C3=A0 c=C3=B4te ;
+2. realloc n=E2=80=99a pas d=E2=80=99int=C3=A9r=C3=AAt =C3=A0 r=C3=A9alloue=
+r au m=C3=AAme endroit, d=E2=80=99une
+  part parce que, justement, l=E2=80=99int=C3=A9r=C3=AAt de realloc est de
+  d=C3=A9placer l=E2=80=99ancien bloc de fa=C3=A7on transparente, et, d=E2=
+=80=99autre
+  part, parce que =C3=A7a me ferait bien chier qu=E2=80=99un programme plan=
+te
+  par manque de m=C3=A9moire parce que la premi=C3=A8re allocation a =C3=A9=
+t=C3=A9
+  trop petite et plac=C3=A9e dans un petit trou non extensible (ou
+  qu=E2=80=99une =C2=AB meilleure =C2=BB place ne se soit lib=C3=A9r=C3=A9e=
+ qu=E2=80=99apr=C3=A8s) ;
+3. une fonction interm=C3=A9diaire =C2=AB =C3=A0 sommet constant =C2=BB ne =
+ferait
+  qu=E2=80=99encourager les programmeurs =C3=A0 faire ce que semble faire
+  camllight. Quand on se fait un tas, les objets que l=E2=80=99on met
+  dedans doivent =C3=AAtre plac=C3=A9s _relativement_ au d=C3=A9but du tas,=
+ en
+  clair, on les place par des offset relatifs =C3=A0 heap_start,
+  laquelle valeur doit =C3=AAtre dans une _variable_ qui est utilis=C3=A9e
+  _=C3=A0 chaque fois_ pour retrouver l=E2=80=99adresse compl=C3=A8te de l=
+=E2=80=99objet.
+  (Et =C3=A7a fonctionne que ce soit heap_start ou head_end et que
+  l=E2=80=99on y place les objets en =C2=AB montant =C2=BB les offsets ou e=
+n les
+  =C2=AB descendant =C2=BB.)
+=20
+> Merci de la r=C3=A9ponse en tout cas.
+>=20
+> Fran=C3=A7ois Boisson
+> PS: D=C3=A9sol=C3=A9 du doublon, je ne comprends pas ce qui c'est pas=C3=
+=A9
+> d'autant plus que les deux messages (identoiques) ont =C3=A9t=C3=A9
+> envoy=C3=A9s =C3=A0 14s d'=C3=A9cart, sous sylpheed, cela signifie aller =
+le
+> rechercher pour le r=C3=A9envoyer aussi sec ce que je n'ai pas
+> fait...
+
+  Euh, d=E2=80=99apr=C3=A8s les en-t=C3=AAtes date, il y a 30 min et 8 s en=
+tre les=20
+deux=E2=80=A6 (c. 30 min =E2=86=92 d=C3=A9lai d=E2=80=99un spool ?)
+
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209291751.47105.Sylvain.L.Sauvage@free.fr
+

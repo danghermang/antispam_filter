@@ -1,0 +1,34 @@
+Subject:GNOME 3.6 (experimental) et Empathy
+
+Bonsoir,
+
+Je n'y tenais plus :) Alors je viens de passer à GNOME 3.6 depuis la
+branche experimental. ça marche pas trop mal pour le moment!
+
+J'ai un souci cependant je n'arrive pas à trouver comment configurer
+Empathy. Sous Ubuntu on a les paquets account-plugins-<blabla> pour
+chaque service (Jabber, ICQ...) et cela se retrouve dans le
+gnome-control-center, dans GNU/Debian je n'ai pas ces configurations...
+
+Une idée?
+
+-- 
+
+  Pascal Obry /  Magny Les Hameaux (78)
+
+  The best way to travel is by means of imagination
+
+  http://v2p.fr.eu.org
+  http://www.obry.net
+
+  gpg --keyserver keys.gnupg.net --recv-key F949BD3B
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/509D385F.3020506@obry.net
+

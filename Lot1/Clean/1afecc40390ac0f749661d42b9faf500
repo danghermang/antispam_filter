@@ -1,0 +1,42 @@
+Subject:Re: [Fedora-users-br]
+ =?utf-8?q?Fedora_17_-_N=C3=A3o_reconhece_placa_?=
+ =?utf-8?q?de_som_Creative?=
+On Friday, October 26 2012, Fl=E1vio Lu=EDs Alves wrote:
+
+> Boa tarde a todos. Tenho a placa de som Creative Sound Blaster Recon3D
+> Fatal1ty Professional PCIe. Instalei o Fedora 17 e ele simplesmente n=E3o
+> reconheceu a placa. Testei outras distribui=E7=F5es e nada. O Ubuntu 12.10
+> reconheceu, mas n=E3o funcionou de modo algum.
+
+Ol=E1 Fl=E1vio,
+
+Voc=EA disse que o Ubuntu reconheceu.  O que quer dizer?  Voc=EA chegou a
+ver se o kernel subiu algum driver?
+
+> O que eu posso fazer, para que o sistema reconhe=E7a? Ser=E1 que o Fedora=
+ 18
+> vai reconhecer o hardware, j=E1 que ele foi lan=E7ado este ano. =C9 uma p=
+laca
+> nova.
+
+Voc=EA precisa de um driver para a placa.  Qual a vers=E3o do Kernel que
+voc=EA est=E1 utilizando?  Voc=EA pode tentar entrar em contato com a
+fabricante do hardware e pedir mais informa=E7=F5es sobre suporte ao kernel
+Linux (embora eu ache dif=EDcil voc=EA conseguir uma resposta satisfat=F3ria
+deles...).
+
+Dei uma procurada na internet, e achei essa thread
+<http://forums.fedoraforum.org/showthread.php?t=3D279103> dizendo que
+muito provavelmente o suporte n=E3o est=E1 dispon=EDvel no GNU/Linux.
+
+Aparentemente, houve uma tentativa de adicionar o suporte =E0 placa em
+<http://mailman.alsa-project.org/pipermail/alsa-devel/2012-May/052048.html>,
+mas n=E3o consegui encontrar mais coisas sobre isso.
+
+-- =
+
+Sergio
+--
+br-users mailing list
+br-users@lists.fedoraproject.org
+https://admin.fedoraproject.org/mailman/listinfo/br-users

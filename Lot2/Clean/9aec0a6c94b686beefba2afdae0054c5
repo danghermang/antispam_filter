@@ -1,0 +1,73 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+ IPv4 from last /8
+
+Hi Tore,
+
+To clarify: the original proposed transfer policy had no limitations
+included whatsoever. We ended up with all the limitations in there as a
+compromise to get any transfer policy reaching consensus at all within the
+RIPE NCC service region, being the first region in the world with a
+transfer policy in place back in the day. As other regions have now
+adopted transfer policies as well, the one in hte RIPE NCC resion is now
+by far the most restrictive, and I would encourage anyone to do a proposal
+to remove some or all of the limitations in current policy.
+
+Best
+
+Remco
+(one of the authors of the current transfer policy)
+
+On 08-11-12 10:17, "Tore Anderson" <tore.anderson@redpill-linpro.com>
+wrote:
+
+>Hi Vitaliy,
+>
+>* =C2=E8=F2=E0=EB=E8=E9 =D2=F3=F0=EE=E2=E5=F6
+>
+>> I've read this list for quite a long time now and finally achieved the
+>> point when i would like to ask: how do we start voting process, or,
+>> say, create a new policy proposal regarding the prohibition of PI/PA
+>> space exchange between operators?
+>
+>Transfer of PA space is already allowed under current policy.
+>
+>There's no explicit *prohibition* of transfer of PI space, there's
+>simply no policy that regulates it. My guess it's simply not there
+>because there was no need for it in the past.
+>
+>> I strongly agree with my colleagues from LeaderTelecom: the transfers
+>> definitely will occur, no matter whether RIPE NCC wants them to or
+>> not,
+>
+>The RIPE NCC does not have any preference in the matter. The RIPE NCC
+>simply does what the RIPE Community (that's you and me!) tells it to do.
+>
+>> but if we create a policy that allows such transfers
+>
+>That's precisely what you would have to do in order to allow for
+>transfer of PI space. I'd suggest you review the following pages, which
+>document the RIPE Policy Development Process:
+>
+>http://www.ripe.net/ripe/policies
+>http://www.ripe.net/ripe/docs/ripe-500
+>http://www.ripe.net/ripe/policies/policy-development-process-glossary
+>
+>Next, write up a proposal and submit it. Then the Address Policy WG can
+>discuss it to determine whether or not there is consensus for it.
+>
+>Best regards,
+>--=20
+>Tore Anderson
+>Redpill Linpro AS - http://www.redpill-linpro.com
+>
+
+
+
+This email is from Equinix Europe Limited or one of its associated/subsidia=
+ry companies. This email, and any files transmitted with it, contains infor=
+mation which is confidential, may be legally privileged and is solely for t=
+he use of the intended recipient. If you have received this email in error,=
+ please notify the sender and delete this email immediately.  Equinix Europ=
+e Limited.  Registered Office: Quadrant House, 4 Thomas More Square, London=
+ E1W 1YW.  Registered in England and Wales, No. 6293383.
+

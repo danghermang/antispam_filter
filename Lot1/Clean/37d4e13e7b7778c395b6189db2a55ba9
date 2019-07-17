@@ -1,0 +1,144 @@
+Subject:[MG] Requirements in regard to split opinion formation: Outcome B
+Here's the other possible outcome (that I know of) to the unstable
+situation of diagram 3, aside from a de facto monopoly (A.1).
+http://metagovernment.org/pipermail/start_metagovernment.org/2012-October/005110.html
+http://metagovernment.org/pipermail/start_metagovernment.org/2012-October/005111.html
+
+Thomas von der Elbe first described this outcome in the mechanism of
+vote mirroring.  Vote mirroring is an instance of the more general
+solution of "hacked inter-networking", which I describe here.
+
+
+  (B.1)         ....
+             ..........           M     ...
+           ..............   ....    ..........
+          .....................................
+          .......................   ..........
+           .............   ....          ..
+             ..........                ......
+                ...                     ......
+                                          ..
+
+            +-----+  +-----+
+            |     |  |     |            +-----+
+            | T1  |  | T2  |----- H ----|     |
+            |     |  |     |            | T3  |
+            +-|-|-+  +-|-|-+            |     |
+    +---------|-|------|-|---+          +-|-|-+
+    |         | |      | |   |        +---|-|---------+       +---
+    |                        |        |   | |         |       |
+    |    S1                  |        |        S2     |       |
+    |                        |        |               |       |
+    +------------------------+        +---------------+       +---
+
+
+     M  Opinion in formation
+     T  Competing tools
+     S  Common standards, practices,
+        databases, and so forth
+     H  Ad hoc, hacked data sharing
+
+
+   http://zelea.com/var/tmp-public/agm/split-opinion-B.1.txt
+
+
+Opinion expression tools T2 and T3 interconnect and exchange data
+across a hacked connection (H).  Opinion formations and processes that
+were formerly split (M1 and M2 in diagram 3) are now joined (M).  When
+a user expresses his/her individual opinion using T2, for example, it
+now shows up in the visualizations of *both* T2 and T3, e.g. as one
+dot.  So users of T2 and T3 have a better picture of the overall shape
+of opinion as it is forming.
+
+Note how this solves the two causal moments of the problem, instead of
+merely caving in to them.  Again, the two causal moments are:
+
+  (i) The overall shape of opinion (M1 or M2) as revealed by each of
+      the tools is incomplete and less likely to be correct.
+      Therefore the utility of all the tools is diminished.
+
+      This is solved.  The tools reveal the full information.
+
+ (ii) The tools of the more popular platform have, all else being
+      equal, a greater utility and attractiveness to users.  Knowledge
+      of this, and efforts to tip an unstable balance one way or the
+      other, distort the development process and poison the relations
+      among developers and other contributors.
+
+      This is solved.  The tools of the least popular platform have
+      (all else being equal) exactly the same utility and
+      attractiveness to users as those of the most popular platform.
+      Users with special needs or preferences cannot be disadvantaged.
+      Nor can innovative tools be held back by force.  Even when
+      opposed by the stakeholders of the dominant platform, they can
+      still attract any number of users.
+
+This is also good engineering.  The hacked connection (H) does not
+depend on prior abstractions or generalizations such as standards,
+practices, databases, and so forth (S).  Good engineers know it's "not
+a good idea to build an abstraction and force something into it", as
+Marc puts it.  "The abstraction should naturally evolve from the
+special to the general." *  So the next step in the evolution might
+see the ad hoc connection, having already proven itself, precipitate a
+new standard:
+
+
+  (B.2)         ....
+             ..........           M     ...
+           ..............   ....    ..........
+          .....................................
+          .......................   ..........
+           .............   ....          ..
+             ..........                ......
+                ...                     ......
+                                          ..
+
+            +-----+  +-----+
+            |     |  |     |            +-----+
+            | T1  |  | T2  |            |     |
+            |     |  |     |----+       | T3  |
+            +-|-|-+  +-|-|-+    |  +----|     |
+    +---------|-|------|-|---+  |  |    +-|-|-+
+    |         | |      | |   |  |  |  +---|-|---------+       +---
+    |                        |  |  |  |   | |         |       |
+    |    S1                  |  |  |  |        S2     |       |
+    |                      +----|--|----+             |       |
+    +----------------------|    |  |    |-------------+       +---
+                           |         S3 |
+                           +------------+
+
+     M  Opinion in formation
+     T  Competing tools
+     S  Common standards, practices,
+        databases, and so forth
+
+
+   http://zelea.com/var/tmp-public/agm/split-opinion-B.2.txt
+
+
+Now we have a new, proven standard (S3) that other platforms can use
+to join the inter-network.  But they are not forced to use S3, nor any
+other standard.  They can always join via a hacked connection (H) of
+their own.  So freedom of choice is respected.
+
+We're in a kind of race.  Some of us are working toward this outcome
+(B.1) while others are working toward A.1.  I don't know who's ahead
+yet, but I know what's slowing down the B.1 crew.  You can see it in
+the diagram.  We have T3 sailing, but we can't find T2.  We see dozens
+of potential T2's floating around, but none is headed on a B.1 course.
+Can anyone help us?
+
+
+ * http://metagovernment.org/pipermail/start_metagovernment.org/2012-October/005042.html
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+http://zelea.com/
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

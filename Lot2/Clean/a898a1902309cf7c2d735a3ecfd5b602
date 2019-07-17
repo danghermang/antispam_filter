@@ -1,0 +1,18 @@
+Subject:Re: No funcionan su, sudo, ni otros..
+Aristobulo Pinzon <aristobulopinzon@yahoo.com> writes:
+
+> Hola Debiannologos 
+> Algo me ha pasado con los permisos o propietario de
+> los archivos, no me funcionan su, sudo, ni otros programas graficos
+> que requieran el passwd de root
+
+No sé qué has hecho exactamente, pero supongo que has eliminado el
+atributo SUID (y también es posible que el SGID) de los permisos de
+todos los archivos que lo deben tener.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87y5i13kwz.fsf@tochka.ru
+

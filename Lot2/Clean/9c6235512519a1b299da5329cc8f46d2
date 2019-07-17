@@ -1,0 +1,35 @@
+Subject:Re: Duda particiones gpt en debian
+El Tue, 04 Dec 2012 17:56:58 +0100, maykel escribió:
+
+(...)
+
+>>> Por otro lado me parece un poco productible por clonezilla...
+>>
+>> Pues sÃ­, es un poco extraÃ±o que tenga problemas porque al fin y al
+>> cabo Clonezilla usa las mismas herramientas que las que tenemos en
+>> Debian.
+
+> Intentaba un backup tan sencillo de /dev/sda1 ... sin más.
+
+Vale, una copia de una partición con MBR pero ¿dónde querías restaurarla 
+o qué es lo que has hecho después? Si detallas el proceso exacto, mejor, 
+así evitamos tener que imaginar lo que has hecho.
+
+> Mañana le hago una captura y os la enseño.
+> 
+> Gracias por todo. Respecto a lo que he comentado en otro hilo sobre
+> pfsense, no puedes ayudarme verdad??
+
+De iptables estoy pez pero seguro que alguien te echa un cable :-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9le7u$37l$8@ger.gmane.org
+

@@ -1,0 +1,30 @@
+Subject:Re: Socket unix
+Ok, y a t il un moyen de savoir quelle fonction au sein d'un programme les c=
+r=C3=A9es ?
+
+Envoy=C3=A9 de mon iPad
+
+Le 6 sept. 2012 =C3=A0 20:20, Stephane Bortzmeyer <stephane@sources.org> a =C3=
+=A9crit :
+
+> On Thu, Sep 06, 2012 at 06:42:53PM +0200,
+> Gerald Radix <gerald.radix@gmail.com> wrote=20
+> a message of 13 lines which said:
+>=20
+>> Je voudrais savoir ce que l'on entends par Socket Unix quand on fait
+>> par exemple un lsof -a - 4567 ?
+>=20
+> Une prise ("socket") est une structure de donn=C3=A9es qui permet la
+> communication entre deux processus. Les sockets TCP/IP permettent la
+> communication entre machines distinctes, les sockets Unix la
+> communication =C3=A0 l'int=C3=A9rieur de la m=C3=AAme machine.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/61674E36-CC67-4CCC-AFEB-B3D2D492480B@gmail.com
+

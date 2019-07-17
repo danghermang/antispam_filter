@@ -1,0 +1,35 @@
+Subject:Re: Comment purger un paquet en erreur =?UTF-8?B?w6A=?= la purge !
+On Thu, 15 Nov 2012 20:31:01 +0100
+"C. Mourad Jaber" <ml@nativobject.net> wrote:
+
+>=20
+> Et l=C3=A0, je s=C3=A8che, comment forcer la purge du paquet ?
+
+J'ai r=C3=A9cemment eu le PB, en l'occurrence la d=C3=A9sinstallation essay=
+ait de virer
+une DB qui n'existait plus.
+
+Le moins chiant que j'ai trouv=C3=A9 a =C3=A9t=C3=A9 de modifier le script =
+de d=C3=A9sinstallation
+se trouvant dans /var/lib/dpkg/info (le .postrm) en commentant les lignes q=
+ui
+coin=C3=A7aient.
+
+--=20
+Abr'Iko: Bon moi, je vous laisse, je pars voir des amis en famille pour no=
+=C3=ABl
+Abr'Iko: Car j'ai une vie MOI !
+* Abr'Iko disconnected
+* Abr'Iko connected
+Abr'Iko: Putain ils sont partis sans moi
+Abr'Iko: Bordel ils ont m=C3=AAme emmen=C3=A9 LE CHIEN !!!!
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121115205503.106a4ee4@anubis.defcon1
+

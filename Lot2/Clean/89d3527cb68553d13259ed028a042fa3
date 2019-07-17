@@ -1,0 +1,42 @@
+Subject:Re: =?UTF-8?B?UHJvYmzDqG1l?= d'affichage en lecture
+	=?UTF-8?B?dmlkw6lv?=
+On Tue, 11 Dec 2012 00:08:17 +0100
+Ga=C3=ABtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+
+> > > Je rencontre un probl=C3=A8me d'affichage en lecture d'une vid=C3=A9o=
+ (une ligne qui
+> > > d=C3=A9file et qui d=C3=A9cale l'image) sur l'un de mes 2 affichages.
+> > > J'ai une CG Nvidia GT430 avec pilote Nvidia (310-19) avec deux =C3=A9=
+crans :=20
+> > > - DELL U2410 connect=C3=A9 en DVI
+> > > - Sony Bravia KDL-40EX500 connect=C3=A9 en HDMI
+> > > Le probl=C3=A8me appara=C3=AEt sur ce dernier aussi bien avec Totem q=
+ue VLC. Aucun
+> > > soucis sur le Dell.
+
+Quand tu dis "aucun soucis" est-ce que tu veux bien dire qu'en inversant
+les monitors et les branchements le PB n'appara=C3=AEt pas sur le dell?
+
+As-tu essay=C3=A9 les 4 entr=C3=A9es HDMI du sony?
+
+Il existe un firmware r=C3=A9cent pour ton sony (2012-10-01), donc possible
+que =C3=A7a r=C3=A9solve ton PB:
+http://www.sony.fr/support/fr/product/KDL-40EX500
+
+Et il semble que ton PB ait des ptits fr=C3=A8res, typiquement li=C3=A9s
+au HDMI (ordre d'allumage des devices et autres joyeuset=C3=A9s):
+http://www.digitalhome.ca/forum/showthread.php?t=3D134983
+
+--=20
+<M=C3=A9loo> Deux mots, sept lettres.. Dis-les et je serais =C3=A0 toi :$
+<thoroy> Plan cul ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121211003154.31a56556@anubis.defcon1
+

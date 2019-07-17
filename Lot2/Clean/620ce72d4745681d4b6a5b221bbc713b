@@ -1,0 +1,79 @@
+Subject:[LACNIC/Politicas] 2012-10
+Estimado(a)s
+
+Durante la llamada a consenso para esta propuesta en el =FAltimo foro de
+pol=EDticas hubo un comentario acerca de un termino utilizado en el texto.
+
+La propuesta presentada en la lista tenia el siguiente texto y que ha
+generado el comentario:
+
+"- debido a la  existencia de m=FAltiples puntos de acceso (POP), el plan
+de direccionamiento puede indicar prefijos m=EDnimos para cada POP. Los
+prefijos m=EDnimos para cada POP deben estar dentro de las =93fronteras=94
+*binarias* de la direcci=F3n IPv6 (/X, donde X es m=FAltiplo de 4). Sin
+embargo, el bloque previsto para cada POP debe satisfacer por lo menos
+un 30% de la necesidad actual del mismo."
+
+y el comentario fue en relaci=F3n a "fronteras binarias".
+
+Por ser algo relacionado a la escrita pero que no cambia en nada la idea
+y propuesta, ella fue votada y tuvo consenso.
+
+En seguida hable con los Chairs y tambi=E9n con Pedro Torres que fue quien
+hizo el comentario y llegamos al siguiente texto propuesto para esa parte:
+
+"- debido a la  existencia de m=FAltiples puntos de acceso (POP), el plan
+de direccionamiento puede indicar prefijos m=EDnimos para cada POP. Los
+prefijos m=EDnimos para cada POP deben estar dentro de las =93fronteras=94
+*hexadecimales* de la direcci=F3n IPv6 (/X, donde X es m=FAltiplo de 4). Sin
+embargo, el bloque previsto para cada POP debe satisfacer por lo menos
+un 30% de la necesidad actual del mismo."
+
+
+El texto completo a ser enviado a la lista para "Last Call" ser=E1 lo
+siguiente:
+
+
+Sustituir el siguiente texto del p=E1rrafo 4.5.1.3. "Tama=F1o de
+distribuci=F3n inicial":
+
+"Las organizaciones que cumplan con el criterio de distribuci=F3n inicial
+pueden recibir un m=EDnimo de distribuci=F3n de /32.
+Las organizaciones podr=EDan calificar para una distribuci=F3n inicial m=E1s
+grande que /32 entregando documentaci=F3n que justifique razonablemente el
+pedido. Si as=ED lo hicieran, el tama=F1o de distribuci=F3n estar=E1 basado=
+ en
+el n=FAmero de usuarios existentes y en la extensi=F3n de la infraestructura
+de la organizaci=F3n."
+
+Por:
+
+"Las organizaciones podr=EDan calificar para una distribuci=F3n inicial
+mayor a /32 entregando documentaci=F3n que justifique el pedido. En este
+caso, la documentaci=F3n debe atender a las siguientes consideraciones:
+
+- el plan de direccionamiento no debe superar los cuatro a=F1os. Y debe
+considerar el espacio necesario para atender a los clientes y a los
+servicios actuales considerando el prefijo m=EDnimo para asignaciones
+recomendadas en la pol=EDtica vigente.
+
+- debido a la existencia de m=FAltiples puntos de acceso (POP), el plan de
+direccionamiento puede indicar prefijos m=EDnimos para cada POP. Los
+prefijos m=EDnimos para cada POP deben estar dentro de las =93fronteras=94
+hexadecimales de la direcci=F3n IPv6 (/X, donde X es m=FAltiplo de 4). Sin
+embargo, el bloque previsto para cada POP debe satisfacer por lo menos
+un 30% de la necesidad actual del mismo.
+
+El prefijo que se distribuir=E1 al ISP debe estar dentro de las
+=93fronteras=94 hexadecimales de la direcci=F3n IPv6.
+
+
+
+Saludos.
+-- =
+
+  Ricardo Patara
+_______________________________________________
+Politicas mailing list
+Politicas@lacnic.net
+https://mail.lacnic.net/mailman/listinfo/politicas

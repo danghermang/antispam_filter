@@ -1,0 +1,51 @@
+Subject:Re: Migrar correo de Evolution a Outlook
+Hola
+
+El 24/09/12 10:17, Adrián Alemán Cruz escribió:
+> Hola,
+>
+> Un amigo acá ha utilizado Debian GNU/Linux (Lenny) por varios años en su
+> trabajo,
+
+Si tu, "amigo", es un usuario Linux desde hace varios años, es seguro 
+que conoce de la existencia de esta lista, por lo que sería bueno 
+conocer porqué no hace la pregunta el mismo
+
+> ahora tiene que instalar windows para correr una aplicación
+> contable que le exige la empresa.
+
+Si la empresa adquirió un software determinado, esencial para su 
+funcionamiento, es evidente que también debió proveerle lo necesario 
+para que dicho software pudiera ser ejecutado en su ambiente;  es decir, 
+cada software tiene su lista de requerimientos que deben ser satisfechos 
+antes de la instalación;  de allí que hay que tener a mano todo, 
+incluyendo licencias y cosas por el estilo.
+
+>
+>
+> ¿Cómo haría para migrar los correos?
+
+Yo comenzaría por colocar un gran [OT] antes del asunto de este correo 
+ya que no tiene nada que ver con Debian.
+
+Además te diré que no se exactamente como realizar esa migración, pero 
+estoy muy seguro que el proveedor del nuevo sistema operativo, o sea 
+Microsoft Corporation, tiene un excelente equipo de soporte técnico, que 
+por el módico costo de la licencia, que seguramente la empresa pagó, 
+estaría muy feliz de ayudar a tu amigo a salir del mundo del software 
+libre, o al menos a rescatar una máquina del mundo real y llevarla 
+nuevamente a la "Matrix".
+
+Por lo tanto, sugiérele a tu amigo que se comunique con su proveedor del 
+SO (y del nuevo cliente de correo) y así resolverá su problema en mayor 
+tiempo y con muchas dificultades.
+
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50618D8F.7020004@gmail.com
+

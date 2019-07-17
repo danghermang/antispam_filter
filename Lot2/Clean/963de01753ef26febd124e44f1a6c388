@@ -1,0 +1,64 @@
+Subject:Re: [rlug] Output expect
+Sub send "exit\r" mai pune un exit.
+ 
+Sent via mobile phone.
+
+-----Original Message-----
+From: Petru Ratiu <rpetre@gmail.com>
+Sender: rlug-bounces@lists.lug.ro
+Date: Tue, 30 Oct 2012 21:17:16 
+To: Romanian Linux Users Group<rlug@lists.lug.ro>
+Reply-To: Romanian Linux Users Group <rlug@lists.lug.ro>
+Subject: Re: [rlug] Output expect
+
+2012/10/30 Andrei-Florian Staicu <andrei.staicu@gmail.com>:
+> Salutare,
+>
+> Incerc sa obtin niste chestii de la niste switchuri, prin ssh, cu expect.
+> Am folosit urmatorul script:
+>
+> #!/usr/bin/expect
+> log_file output
+> spawn ssh user@switch
+> sleep 5
+> send "parola\r"
+> sleep 2
+> send "terminal len 0\r"
+> sleep 2
+> send "show mac address-table\r"
+> sleep 2
+> send "exit\r"
+>
+> Daca-l rulez exact asa cum e aici, in output obtin atat: spawn ssh user@switch
+> Daca in schimb pun un interact dupa exit, se executa, iese la
+> prompt-ul de bash imi da tot ce-mi trebuie in output.
+> Ar putea cineva sa-mi explice daca asta e "intended behaviour"?
+>
+
+Nu-s mare expert in tcl/expect, da' din cate m-am mai jucat cu el, se
+foloseste sub forma intrebare/raspuns; ex: astepti sa primesti ceva de
+forma "Password: ", caz in care trimiti parola si dai enter (de aici
+si numele).
+
+Cum faci tu cu sleep e putin, ahem, handicapat (scuzati lipsa de
+eufemisme, Sandy e de vina). Ce cred ca se intampla de fapt e ca scrii
+intr-un buffer caruia nu-i da nimeni flush decat la iesire.
+
+TL;DR: nu-ti fie lene si fa corect, sunt probabil o caciula de exemple pe net.
+
+* ca sa-mi mai acopar pacatul cu gura spurcata, iti recomand cartea de
+la oreilly de expect (cred ca "exploring expect" sau alt aliteratie,
+in orice caz ceva roz). afaik autorul a dat-o open pe net, dar daca nu
+dai de ea, zi si ti-o scot de la arhiva.
+
+-- 
+Petre "daca vrei sa googlezi dupa expect, mentioneaza si tcl ca sa
+incalzesti indecsii care trebuie"
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

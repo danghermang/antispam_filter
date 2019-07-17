@@ -1,0 +1,80 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+On Sun, Sep 23, 2012 at 05:55:20PM +0000, Camale=F3n wrote:
+> El Sun, 23 Sep 2012 19:46:33 +0200, Juan Antonio escribi=F3:
+>=20
+> > El 23/09/12 19:21, Camale=F3n escribi=F3:
+>=20
+> >> Vale, ya s=E9 lo que ha pasado (si es que no hay nada como leer :-P)
+> >>=20
+> >> No se trata del paquete initramfs-tools ni del initrd, el problema e=
+s
+> >> del paquete "udev" que desde la versi=F3n 175-4 (como indican en el =
+bug
+> >> que mencionaba =C1ngel) ha dejado de intentar cargar el m=F3dulo "un=
+ix.ko"
+> >> externamente para solucionar ese mensaje de error tan feo que aparec=
+=EDa
+> >> nada m=E1s iniciar el sistema.
+> >>=20
+> >> Este cambio lo indican en el changelog:
+> >>=20
+> >> udev (175-4) unstable; urgency=3Dlow
+> >>=20
+> >> * Stop trying to load the unix module in the initramfs hook. (Closes=
+:
+> >> #654282)
+> >>=20
+> >> Moraleja: cuando se vaya a compilar un kernel "vanilla" manualmente =
+y
+> >> para evitar problemas con los paquetes que se incluyen en Debian,
+> >> conviene usar la opci=F3n de "localmodconfig" que toma los valores d=
+el
+> >> archivo de configuraci=F3n del kernel de Debian y adem=E1s a=F1ade t=
+odos los
+> >> m=F3dulos que se encuentren cargados en el momento de la compilaci=F3=
+n.
+> >>=20
+> >=20
+> > si, =E9l ya mencion=F3 ese bug en otro correo, aunque con otro
+> > identificador,=20
+>=20
+> Exactamente. Era el bug "#686707", pero en ese informe no quedaba muy=20
+> claro el qu=E9 ni el porqu=E9 de lo que hab=EDa pasado (bueno, no me qu=
+edaba=20
+> muy claro a m=ED, je).
+
+Claro, yo lo que vi en este bug, es que podia evitar el problema del Addr=
+ess=20
+family, pero ni por asomo imaginaba que la no deteccion de las particione=
+s
+tenia algo que ver con este.
+
+>=20
+> > y yo para variar lo malentend=ED y lo interpret=E9 de otra forma.
+>=20
+> N=E1, reconozco que yo soy un poco pelmaza con las cosas que no entiend=
+o y=20
+> sigo con el "run-run" en la cabeza hasta comprender el origen del=20
+> problema.=20
+>=20
+> Saludos (y perd=F3n por la matraca),
+
+No puede pasar a cualquiera...
+
+>=20
+> --=20
+> Camale=F3n
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debi=
+an.org
+> Archive: http://lists.debian.org/k3nie8$lsj$14@ger.gmane.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120923192835.GA6444@angel.dominio.angel
+

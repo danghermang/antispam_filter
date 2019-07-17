@@ -1,0 +1,72 @@
+Subject:Re: Debian 6 regular cantidad de hilos de descargas en Squid
+Facil colega sigue estos paso y veras que esos descargadores no te molestan mas
+
+#--NUMERO DE CONEXION POR ACELERADORES--#
+acl abuse maxconn 3
+
+acl extensiones url_regex -i " CAMINO"
+
+y por ultimo
+
+http_access deny extensiones abuse
+
+
+Espero te sirva
+
+> Buenos días  a todos
+>
+> Cómo hacer en el SQUID para que un acelerador de descarga no use más de
+> 3 hilos para descargar ? alguna idea ?  normalmente usan de 10 a 15 en
+> dependencia de los sitios, pero necesito regularlo a 3 hilos solamente.
+>
+> Gracias a todos por la ayuda y la atención
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+> Archive: http://lists.debian.org/0ea4155334ba444686019f539ce977f6@ida.cu
+>
+> ---------------------------------------------------
+> Ya estamos en Congreso PEDAGOGIA 2013
+> "Encuentro por la unidad de los educadores".
+> Palacio de Convenciones de La Habana, del 4 al 8 de febrero.
+> Favor de consultar detalles en:
+> www.pedagogiacuba.com
+> Esto es un mensaje de la Red Informatica del  Ministerio de Educacion de la
+> Republica de Cuba
+> ---------------------------------------------------
+>
+>
+>
+
+
+##--Micky--##
+
+######################################################
+  Administrador de Red: Maikel Manuel Mtnez Rguez
+  Provincia: Camaguey, Cuba
+  Politecnico Informatico: Maximo Gomez Baez
+  Nodo :ipicmw.rimed.cu
+  http://www.ipicmw.rimed.cu
+  jabber: micky@jabber.ipicmw.rimed.cu
+  correo: maikel.manuel@ipicmw.rimed.cu
+######################################################
+
+
+---------------------------------------------------
+Ya estamos en Congreso PEDAGOGIA 2013
+"Encuentro por la unidad de los educadores".
+Palacio de Convenciones de La Habana, del 4 al 8 de febrero.
+Favor de consultar detalles en:
+www.pedagogiacuba.com
+Esto es un mensaje de la Red Informática del  Ministerio de Educación de la
+República de Cuba.
+---------------------------------------------------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/40645.178.40.0.117.1354025555.squirrel@webmail.ipicmw.rimed.cu
+

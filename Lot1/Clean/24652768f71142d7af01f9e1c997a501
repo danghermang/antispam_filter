@@ -1,0 +1,72 @@
+Subject:Re: [LUG] Raspberry Pi now 100% Open Source on the ARM side -
+ clusters
+On Thu, 25 Oct 2012, paul sutton wrote:
+
+> sure sticking 4/8/16 pis in a cluster may not be of much use, BUT its a
+> good opportunity for a group of us to get together, maybe with a few
+> beers (or other drinks) play, learn and have fun at the same time.
+>
+> clearly at the end we would need to find some sort of app that would run
+> to prove its using multiple processors.
+>
+> even if this is a simple programme to calculate PI.
+
+And there's the issue - just how to you break up a problem like 
+calculating Pi into something that will run on more than one processor?
+
+And that's the thing that's been the biggest issue all along.
+
+Some applications can parallise fantastically well - take mandelbrots for 
+example - you can divide the whole into squares and then get each 
+processor to calculate it's own little square of the whole by simply 
+giving it the x/y coordinates of the start and the size, then finaly 
+stitch the little squares together. This is how we generated fantastically 
+fast mandelbrots in the early days on transputers.
+
+Similarly for ray-tracing - you get each processor to generate a tiny part 
+of the whole scene. Each processor has the same data, the same program, 
+just a different x/y/z/limit starting point...
+
+Then things get complex - e.g. matrix multiply - where one result depends 
+on another result...
+
+Back to things like Pi - is there an algorithm that says: generate N 
+digits starting from digit Y? If there is, then throw it at X processors 
+and off you go... But if not, then it's diving deep into the world of 
+mathematics/comp sci. to work out a solution that will parallelise 
+effectively.
+
+Sometimes you take a different approach - one image construction system I 
+built had a pipeline of about 64 x i860 processors - each one doing a 
+small part to the whole image, then it would pass the data to the next 
+processor in the chain - which would do another tiny bit of image 
+analysis/enhancement, and so on - (the application here was airport X-Ray 
+scanners and synthetic aperature radar image enhancement) the end result 
+was that we got real-time results, but with a bit of latency... For cases 
+like that you then need ultra high speed comms between the processors - 
+something the early transputers were good at (for the time). The Meiko CS2 
+box (no transputers, custom comms chips) could xfer data at 75MB/sec any 
+node to any other node - slower than Gb ethernet today, but this was 20 
+years ago..
+
+So it's not always easy.
+
+Other tasks you might want to look at might be parallel compilation - e.g. 
+my BASIC interpreter currently have 42 .c files - get 42 CPUs to do the 
+compile and it'll be 42 times faster (ish!) than a single processor - 
+of-course then other things start to be the bottleneck - the underlying 
+filesystem for example, and the final link stage can still only be done on 
+single processer for the most part...
+
+So throwing more processors at a problem isn't a magic bullet solution - 
+it needs thought and analysis of the problem - and that's why the nerds 
+cuddling their 30 year old FORTRAN programs wanted someone else to do the 
+hard work for them... And why companies the the Portland Group are still 
+going strong today...
+
+Gordon
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,25 @@
+Subject:Re: Brillo pantalla en =?utf-8?Q?port=C3=A1til?= Acer con
+	=?utf-8?Q?gr=C3=A1fica?= Intel
+Marc Marí <5.markmb.5@gmail.com> writes:
+
+...
+> Después de buscar mucho en google, cosas que no funcionan:
+...
+> -Actualizar el kernel (funciona, pero hace que me dejen de funcionar
+> los videos en el vlc, cosa rara)
+
+Creo que tienes problemas con controladores. ¿Has probado actualizar el
+X Server y el controlador de tu tarjeta gráfica (¿Intel Sandy Bridge?)
+para X Window System después de actualización de núcleo? Puedes
+actualizarlos desde squeeze-backports.
+
+Mira este hilo:
+
+http://lists.debian.org/debian-user-spanish/2012/06/msg00658.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87pq641d9g.fsf@tochka.ru
+

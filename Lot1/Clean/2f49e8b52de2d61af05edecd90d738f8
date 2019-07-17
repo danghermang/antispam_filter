@@ -1,0 +1,31 @@
+Subject:Re: NAT con Shorewall
+El d=EDa 1 de septiembre de 2012 09:47, Josu=E9 Marrero Berm=FAdez
+<inf@zetihl.azcuba.cu> escribi=F3:
+> Saludos
+>
+> Necesito enrutar a algunas IP de mi LAN local hacia otras IP externas par=
+a
+> un determinado servicio que se encuentra externo a mi red local.
+>
+
+En esta direccion encuentras todo lo que necesitas
+
+http://shorewall.net/4.2/GettingStarted.html
+
+>
+> Me pueden enviar al privado si quieren
+>
+
+Consejo personal: la lista se alimenta de la ayuda de todos, asi que
+no tiene sentido enviar las respuestas en privado, pues privarias a
+usuarios actuales y/o futuros con la misma duda el poder encontrar una
+solucion.
+
+saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ=UQG6Q-NCwrwi-7N+LSZUKeXVOAAtAm6cjkscwDRm_R9KTug@mail.gmail.com
+

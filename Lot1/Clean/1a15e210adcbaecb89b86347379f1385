@@ -1,0 +1,18 @@
+Subject:Re: [Translators-l] Chinese translational question
+This missing fallback is very unfortunate.
+
+Benjamin Chen, 17/11/2012 15:02:
+> For things like centralNotices and fundraising banners, the software doesn't support automatic fallback or variant conversion (yet). So we usually translate a simplified version and a traditional version, then copy&paste then into all the variants. Otherwise users with their interface set to things like zh-cn or zh-tw will get their messages in English.
+
+Note that with the Translate extension you can define one or all Chinese 
+variants as "assistant languages" so that instead of copy and pasting 
+you can just see the relevant translations and copy them with a click.
+<https://www.mediawiki.org/wiki/Help:Extension:Translate/Translation_example#Translation_editor>
+<https://www.mediawiki.org/wiki/File:Translate_manual_-_Translate_example_-_07._Editor_assistant.png>
+
+Nemo
+
+_______________________________________________
+Translators-l mailing list
+Translators-l@lists.wikimedia.org
+https://lists.wikimedia.org/mailman/listinfo/translators-l

@@ -1,0 +1,55 @@
+Subject:Re: QR codesx lezen onder linux
+Op 02-11-12 12:38, Marc Coevoet schreef:
+> Besten,
+>
+> Ik heb alvast een camera op mijn portable, maar als ik daar een QR
+> code aan toon, zou dat moeten werken, net zoals op een tablet/telefoon
+> ...
+>
+> Welke soft installeren?
+>
+>
+> Voor onze "winkel" kunnen we wel codes maken, maar ... ze "kraken" ...
+> http://itssixeleven.wordpress.com/2012/06/21/qreator-generate-qr-codes-in=
+-ubuntu/
+>
+>
+> Of toch, hier vind ik wel iets, maar waarom geen "live" camera gebruiken?
+> http://www.ubuntubuzz.com/2011/03/how-to-read-qr-code-in-ubuntu.html
+>
+> We zoeken samen eens verder?
+>
+> Marc
+>
+Beste Marc,
+
+In afgelopen weken ben ik hier toevallig wat mee bezig geweest.
+Een makkelijke oplossing is voor mij gebleken 'motion' als webcam
+capture en 'zbar-tools' als decoder in de configuratie van motion
+aangeroepen via een after capture scriptje.
+
+in /etc/motion/motion.conf
+on_picture_save /etc/motion/zbar.sh %f
+
+/etc/motion/zbar.sh
+#!/bin/bash
+zbarimg $1 > $1.zbar
+if [ ! -s $1.zbar ]
+then
+    rm $1.zbar
+fi
+
+ubuntu-packages: zbar-tools, motion
+
+-- =
+
+Met vriendelijke groet,
+
+Harold de Bruijn
+
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

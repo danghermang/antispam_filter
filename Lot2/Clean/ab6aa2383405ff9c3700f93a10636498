@@ -1,0 +1,31 @@
+Subject:[Antenna-discussion]  Ordinary run of the mill dipole
+Kirk McDonald wrote:
+> ... confirm what has long been known experimentally that resonance occurs 
+> for L a little less than lambda /2, in which case the radiation resistance 
+> is ~ 73 Ohms.
+
+Quoting from John Kraus' ANTENNAS..., 3rd Edition, page 182 with respect to 
+his calculation of 73 +j 42.5 ohms shown there for the (free space) terminal 
+impedance of a thin, linear, center-fed, 1/2WL dipole, he goes on to state:
+
+"To make the reactance zero, that is, to make the antenna resonant, requires 
+that the antenna be shortened a few percent less than 1/2WL.  This 
+shortening also results in a reduction in the value of radiation resistance 
+to about 65 ohms."
+
+R. Fry
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

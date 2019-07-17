@@ -1,0 +1,47 @@
+Subject:Re: Postfix para Mdaemon
+El 01/10/12 11:51, cosme@esid.gecgr.co.cu escribió:
+> Hola
+>
+> resulta que al instalar un Postfix tengo la siguiente situacion el debe
+> entregarle a mi ISP que usa un Mdaemon 9 pero este pide usuario y passwd
+>
+> He probado con relay_transport, transport_maps y relayhost con
+>
+> smtp_sasl_password_maps = hash:/etc/postfix/sasl/sasl_passwd
+> y dentro de este con las siguientes lineas
+>
+> 192.168.1.1      usuario:passwd
+>
+> 192.168.1.1      usuario@mail.com:passwd
+>
+> A mi entender no se entiende con MDaemon entodos los casos en los logs me
+> dice MDaemon autenticación requerida.
+>
+> Tengo entendido que con fetchmail es para recoger los correos
+>
+> pero para entregarle a mi ISP????
+>
+> Salu2
+> Cosme
+>
+>
+>
+>
+prueba a poner la autenticacion en fetchmail que es el que recoge la 
+mensajeria ok, a lo mejor asi es que te funciona, postfix no tiene que 
+autenticar nada si es multipop ok, el que recoge es el que autentica.
+
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5069BD19.4000308@infomed.sld.cu
+

@@ -1,0 +1,36 @@
+Subject:Re: compilar nucleo por seguridad
+El Fri, 23 Nov 2012 17:17:56 +0100, Trujillo Carmona, Antonio escribió:
+
+> La compañera encargada de virus me ha pasado este enlace
+> https://www.securelist.com/en/blog/208193935/New_64_bit_Linux_Rootkit_Doing_iFrame_Injections
+> en la que analizan un rootkit espesifico para el núcleo de debian
+> stable.
+
+Lo leí (en español) desde Hispasec:
+
+Descubierto un nuevo rootkit para servidores Linux
+http://unaaldia.hispasec.com/2012/11/descubierto-un-nuevo-rootkit-para.html
+
+Pero no me quedó claro cómo se infectó el servidor.
+
+> ¿Seria útil, y como medida de seguridad, compilar el propio nucleo con
+> apt-build solo para cambiarlo?.
+> No tengo tiempo (ni ganas) de crear configuraciones especificas por
+> servidor, me refiero a recompilar partiendo del fuente usando apt-build
+> con nivel medio de agresividad.
+
+Pues no sé sabría decirte porque no me queda claro qué es vulnerable en 
+este caso (¿una versión del kernel en concreto?). Si es así, no tardarán 
+en sacar un parche ¿no? :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8o90h$e13$5@ger.gmane.org
+

@@ -1,0 +1,74 @@
+Subject:Re: [Koha] Some thoughts about an >>official<< Koha LiveCD
+Dear Vimal,
+
+> I found that Z39.50 does not download records.
+> When try to search records from z39.50 servers, it says Try another searc=
+h.
+It is a suddenly idea did you set up the Zebra cron job ?
+http://manual.koha-community.org/3.8/en/cronjobsch.html
+
+Best Regards,
+Attila.
+
+
+Id=E9zet ("Vimal Kumar V." <vimal0212@gmail.com>):
+
+> Dear Friends,
+>
+> I posted the same in Koha-devel list.
+> Thank you for your suggestions on Live CD/DVD.
+>
+> I started to work for Live CD/DVD.
+> In my experience Remastersys is the right tool to make Live CD/DVD.
+> It has provision to make ISO in backup mode.
+> So we can include user account and related files too.
+>
+> Remastersys with Ubuntu 12.04 is successful.
+> Both live mode and installer are working well.
+> I started with Ubuntu 12.04 ISO image.
+> One problem with size of the CD/DVD. I removed many heavy applications li=
+ke
+> Libreoffice etc.
+> Even though it size about 800 MB.
+>
+>
+> I strictly followed the instructions from following link to install Koha,
+> http://wiki.koha-community.org/wiki/Koha_on_ubuntu_-_packages
+> I found that Z39.50 does not download records.
+> When try to search records from z39.50 servers, it says Try another searc=
+h.
+> Anybody noticed this problem with 3.8.5?
+> We have to solve this problem.
+>
+> Koha CD/DVD should be easy to use.
+> We have to think about Koha newbies in mind when making CD/DVD.
+>
+> I am preparing for a family tour and I return only on October 24.
+> So I am little bit hurry and have to started to prepare bag packs.
+> I would like to put forward more ideas from your side to improve the live
+> CD.
+>
+> Regards
+>
+>
+> --
+> Vimal Kumar V.
+> Mahatma Gandhi University Library
+> Kottayam, Kerala- 686 560
+> Web: http://www.vimalkumar.org
+> Blog: http://linuxhalwa.blogspot.com http://kohageek.blogspot.in
+> -------------------------------------------------------------------------=
+--
+> "I forget what I was taught. I only remember what I have learnt"
+> -Patrick White
+> _______________________________________________
+> Koha mailing list  http://koha-community.org
+> Koha@lists.katipo.co.nz
+> http://lists.katipo.co.nz/mailman/listinfo/koha
+>
+
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

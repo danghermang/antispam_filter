@@ -1,0 +1,39 @@
+Subject:Re: Debian et =?ISO-8859-1?Q?d=E9bit?= USB3
+Le Wed, 31 Oct 2012 00:37:04 +0100
+Bzzz <lazyvirus@gmx.com> a =E9crit:
+
+> On Wed, 31 Oct 2012 00:27:44 +0100
+> Ga=EBtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+>=20
+> > J'aimerai avoir des retours sur les d=E9bits de disque dur en USB3.
+> > Parce que je suis en train de faire une sauvegarde avec rsync sur un tel
+> > disque (WD My Book Essential 1To) et je ne constate pas de diff=E9rence=
+ avec
+> > un disque USB2 ...
+> > Pourtant dans l'utilitaire de disque il affiche bien disque connect=E9 =
+en
+> > USB =E0 705 Mo/s.
+>=20
+> =C7a, c'est la th=E9orie, C=E0D la vitesse max atteignable; ce qui ne veut
+> nullement dire que le HD soit capable de soutenir une telle vitesse
+> que ce soit en lecture ou =E9criture.
+>=20
+> Disons que c'est comme pisser dans un violon, c'est pas parce que tu
+> l'=E9changes avec une contrebasse que tu pisses plus vite :p
+>=20
+
+Oui bien sur mais quand m=EAme. Tous les disques durs actuels d=E9passent l=
+es 27
+Mo/s en =E9criture. Normalement =E7a navigue entre 45 et 90 Mo/s ...
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031004529.446981c9a09249deead721b3@neuf.fr
+

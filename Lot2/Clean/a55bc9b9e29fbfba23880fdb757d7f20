@@ -1,0 +1,79 @@
+Subject:Re: pasar directamente de etch a squeeze
+On Viernes, 21 de septiembre de 2012 12:21:56 Alarc'h escribi=C3=B3:
+> Hola,
+>=20
+> Heredo de un servidor que aun esta bajo Debian Etch...
+>=20
+> su "uptime" es el siguiente :
+>  13:18:18 up 1342 days, 22:21,  1 user,  load average: 0.00, 0.00, 0.00
+>
+esto es una debian menudo uptime
+
+>=20
+> Pues quer=C3=ADa saber si es posible hacer directamente la actualizaci=C3=
+=B3n de Etch
+> hasta Squeeze sin pasar por la etapa a Lenny (lo que vuelve a saber
+> si se puede actualizar a Debian saltando 1 o x versiones).
+
+Por poder se puede
+
+>=20
+> Preciso que la computadora esta en un data center, que no puedo acceder a
+> esta computadora f=C3=ADsicamente y que todo deber=C3=A1 utilizar la l=C3=
+=ADnea de
+> commandos v=C3=ADa una conexi=C3=B3n ssh a trav=C3=A9s de Internet.
+
+No te dan un acceso KVM??? aunque solo sea para la migraci=C3=B3n. Desde ah=
+=C3=AD=20
+controlas la maquina desde que arranca.
+
+> =C2=BF Sabe alguien si modificar el fichero /etc/apt/sources.list reempla=
+zando
+> etch por squeeze es suficiente para lanzar dist-upgrade ?
+
+Si pero te falta un paso apt-get update despues de cambiar versi=C3=B3n.
+
+De todas maneras que sepas que puedes liarla, sin acceso f=C3=ADsico. Hombr=
+e si=20
+tienes backups.......lo mas que te puede pasar es que te tengan que instala=
+r=20
+una squeeze y te cobraran. Mas curro de configuraciones, etc, etc.
+
+Si tienes mucho soft y tienes que reinstalar la m=C3=A1quina por que se ha =
+petado=20
+en la migraci=C3=B3n.....
+
+Mete antes la lista de paquetes en un fichero... algo asi:
+
+dpkg --get-selections > seleciones_software_maquina_tal
+
+despues cuando hayas instalado la maquina pelada....
+
+dpkg --set-selections < seleciones_software_maquina_tal
+
+y entonces
+
+dselect
+
+y ya.
+
+Pero esto es muy agorero. La verdad es que yo no he tenido nunca ningun=20
+problema..... eso si temblando por si pasa algo :=3D}
+
+
+=2D-=20
+Un saludo / agur bero bat
+
+BasaBuru
+
+    #### BASATU ####
+
+    basatia bihur zaitez
+   ~~~~~~~~~~~~~
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209241851.36022.basaburu@basatu.org
+

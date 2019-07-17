@@ -1,0 +1,161 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<belmoreparkstud@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <notifications+vvvqo5jrx1v@zyngamail.com>
+Received: (qmail 13075 invoked by uid 89); 11 Dec 2012 13:31:37 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 11 Dec 2012 13:31:37 -0000
+Delivery-date: Tue, 11 Dec 2012 05:29:58 -0800
+Received: from outmail.zyngamail.com ([74.114.9.207]) helo=outmail.zyngamail.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1TiPu8-0002qi-5O on interface=184.105.182.43
+	for belmoreparkstud@activ8.net.au; Tue, 11 Dec 2012 05:29:57 -0800
+DKIM-Signature: v=1; a=rsa-sha1; d=zyngamail.com; s=dkim512; c=relaxed/simple;
+	q=dns/txt; i=@zyngamail.com; t=1355232576;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=B/XgZKw96AiZQn7jzNJszrM3/Kk=;
+	b=4a1Xp3/yHjfHLVfi5cQ1piPATaQ7mbtYQMjiNVOTOdxddzwJsQ7W3XJq5R5aQzng
+	GKzjqp55FqkGWr08jURTzw==;
+X-MSFBL: YmVsbW9yZXBhcmtzdHVkQGFjdGl2OC5uZXQuYXVAZGVmYXVsdEBkZWZhdWx0QHd2
+	dnFvNWpyeDF2bmlsdyMiWnluZ2EgUG9rZXIiIDxub3RpZmljYXRpb25zK3Z2dnFv
+	NWpyeDF2XEB6eW5nYW1haWwuY29tPg==
+Received: from [172.22.9.9] ([172.22.9.9:40587] helo=zyngamail.com)
+	by netops-msg-mta-1.ca2.zynga.com (envelope-from <notifications+vvvqo5jrx1v@zyngamail.com>)
+	(ecelerity 3.5.0.35861 r(Momo-dev:tip)) with ESMTP
+	id 25/FA-16310-04537C05; Tue, 11 Dec 2012 13:29:36 +0000
+Date: Tue, 11 Dec 2012 13:29:36 +0000
+Message-ID: <25.FA.16310.04537C05@netops-msg-mta-1.ca2.zynga.com>
+MIME-Version: 1.0
+From: "Zynga Poker" <notifications+vvvqo5jrx1v@zyngamail.com>
+Errors-To: notifications+vvvqo5jrx1v@zyngamail.com
+Reply-To: noreply@zyngamail.com
+Content-Type: text/html; charset=UTF-8
+To: belmoreparkstud@activ8.net.au
+Subject: Marcelle Greaves vous a envoyé un jeton mystère
+X-Zynga-Notify: wvvqo5jrx1vnilw
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: notifications+vvvqo5jrx1v@zyngamail.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=zyngamail.com - X=apn H=outmail.zyngamail.com [74.114.9.207] HELO=[outmail.zyngamail.com] F=[notifications+vvvqo5jrx1v@zyngamail.com] T=[belmoreparkstud@activ8.net.au] S=[Marcelle Greaves vous a envoyé un jeton mystère]
+X-Sender-Host-Address: 74.114.9.207
+X-Sender-Host-Name: outmail.zyngamail.com
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body topmargin="0" leftmargin="0" rightmargin="0" marginwidth="0" marginheight="0" bgcolor="#d7d7d7">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%" bgcolor="#d7d7d7">
+          <tr>
+            <td width="100%" align="center" valign="top">
+                  <table border="0" cellpadding="0" cellspacing="0" width="650">
+                    <tr>
+                          <td colspan="3" height="20" bgcolor="#d7d7d7"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" width="1" height="20" border="0"></td>
+                    </tr>
+                    <tr>
+                          <td width="20" rowspan="2" bgcolor="#d7d7d7"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" width="20" height="1" border="0"></td>
+                          <td width="610" bgcolor="#ffffff" style="border:1px solid #A9A9A9">
+                            <table cellspacing="0" cellpadding="0" border="0" width="610">
+                                  <tr>
+                                    <td colspan="5">
+                                          <table width="610" border="0" cellpadding="0" cellspacing="0" style="border-bottom:1px solid #A9A9A9;">
+                                            <tr>
+                                                  <td width="118" height="28">                                                      <a href="http://facebook.poker.zynga.com/poker/dmz_link_landing.php?zysendkey=6d7250b9cc4a0c3d27df174a7b36fb12$$b4Pl402-fjbCK,XUlzwMFBT9UDholnIzycrf2aU.-.1II-BnK23iDSmkVk0.C,YBGLOGOpX8xK2GZz_wL)NjN-B!uHRS-9X&autopopmc=1&src_track_str=Poker+FB+MsgCenter+Email+%25ACTION%25+e%3AChipRequestMail%3A2010-04-27" target="_blank">  <img src="http://accounts.static.zynga.com/images/email/poker.gif" border="0" width="118" height="28" alt="Zynga Poker"></a></td>
+                                                <td width="392" height="28" align="center" valign="middle"><font size="3" face="Arial, Helvetica, sans-serif" color="#777777"><b>  Vous avez re&#231;u des jetons gratuits  </b></font></td>
+                                                  <td width="100" height="28"><a href="http://www.zynga.com/" target="_blank"><img src="http://accounts.static.zynga.com/images/email/zynga_logo.gif" border="0" width="100" height="28" alt="Zynga"></a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                  </tr>
+                                <tr>
+                                    <td width="610" height="15" colspan="5"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" border="0" width="610" height="1"></td>
+                                </tr>  
+                                  <tr>
+                                    <td width="15" bgcolor="#ffffff"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" width="15" height="1" border="0"></td>
+                                    <td width="390" valign="top" align="left" bgcolor="#ffffff">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tr valign="top">
+                                                <td><font size="2" face="Arial, Helvetica, sans-serif"><br /><br /><img src="https://zynga1-a.akamaihd.net/pokerimages/poker/image_proxy.php/qjqYu.fLzZ2WIsHs3_vd0rqULNXu2M9tJ7QCL_IjgAaOxYb9JrUwU.D3VphOzS.FAt3XjVQs4tE5bQ.Yv8hsnnA5Dq5rIFqN9o_u4Q==/548137307" alt="Marcelle" width="50" height="50" /></font></td>
+                                                <td width="10"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" width="10" height="1" border="0"></td>
+                                                <td width="330"><font size="2" face="Arial, Helvetica, sans-serif"> Linda,<br /><br /> <b>Marcelle Greaves</b> vous a envoy&#233; : Jetons gratuits. Soyez un bon pote de poker et renvoyez-lui un cadeau. <br /> <br />Merci,<br /><br /> Vos amis de Zynga Poker<br /><br /></font>                                           </tr>
+                                        </table>
+                                    </td>
+                                    <td width="10" bgcolor="#ffffff"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" width="10" height="1" border="0"></td>
+                                    <td width="180" valign="top" bgcolor="#ffffff">
+                                        <table width="100%" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td bgcolor="#fff7d3" align="center" style="border: 1px solid #938441; padding: 15px;">
+                                                    <table cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td style="border: 1px solid #3d6e39;">
+                                                                <table cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td bgcolor="#2aa51f" style="padding: 5px 15px;">                                                                             <a style="text-decoration: none;" href="http://facebook.poker.zynga.com/poker/dmz_link_landing.php?zysendkey=6d7250b9cc4a0c3d27df174a7b36fb12$$b4Pl402-fjbCK,XUlzwMFBT9UDholnIzycrf2aU.-.1II-BnK23iDSmkVk0.C,YBGLOGOpX8xK2GZz_wL)NjN-B!uHRS-9X&autopopmc=1&src_track_str=Poker+FB+MsgCenter+Email+%25ACTION%25+e%3AChipRequestMail%3A2010-04-27" target="_blank"><font size="2" face="Arial, Helvetica, sans-serif" color="#ffffff"><b>Accepter le cadeau</b></font></a>                                                                          </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table><br /> <a style="text-decoration: none;" href="http://facebook.poker.zynga.com/poker/dmz_link_landing.php?zysendkey=6d7250b9cc4a0c3d27df174a7b36fb12$$b4Pl402-fjbCK,XUlzwMFBT9UDholnIzycrf2aU.-.1II-BnK23iDSmkVk0.C,YBGLOGOpX8xK2GZz_wL)NjN-B!uHRS-9X&autopopmc=1&src_track_str=Poker+FB+MsgCenter+Email+%25ACTION%25+e%3AChipRequestMail%3A2010-04-27" target="_blank"><img src="https://zynga1-a.akamaihd.net/poker/poker/static/pokercms/ChipTheme/Christmas_flake_chip_150x(pop-up).png" border="0" width="50" height="50" alt="Jetons gratuits"></a>                                                  </td>
+                                            </tr>                                                                                       
+                                        </table>
+                                    </td>
+                                    <td width="15" bgcolor="#ffffff"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" width="15" height="1" border="0"></td>
+                                  </tr>                             
+                                <tr>
+                                    <td colspan="5">
+                                          <table width="610" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                  <td width="15" height="25" bgcolor="#ffffff"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" border="0" width="15" height="1"></td>
+                                                <td width="580" height="25" bgcolor="#ffffff" align="left" valign="middle"><font size="2" face="Arial, Helvetica, sans-serif" color="#000000"><br /> <b>Plus de messages de Zynga Poker :</b>       <a href="http://facebook.poker.zynga.com/poker/dmz_link_landing.php?zysendkey=6d7250b9cc4a0c3d27df174a7b36fb12$$b4Pl402-fjbCK,XUlzwMFBT9UDholnIzycrf2aU.-.1II-BnK23iDSmkVk0.C,YBGLOGOpX8xK2GZz_wL)NjN-B!uHRS-9X&autopopmc=1&src_track_str=Poker+FB+MsgCenter+Email+%25ACTION%25+e%3AChipRequestMail%3A2010-04-27" target="_blank"><br> Vous avez 27 message(s) en attente. Cliquez ici pour afficher.  </a><br /><br /></font></td>
+                                                <td width="15" height="25" bgcolor="#ffffff"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" border="0" width="15" height="1"></td>
+                                            </tr>
+                                            
+                                            
+<!-- start new localized banner, set up by AJ -->                                            
+                                            <tr>
+                                                <td width="15" height="120" bgcolor="#ffffff"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" border="0" width="15" height="1"></td>
+                                             
+                        
+                        <!-- Mobile banner
+                        <td width="427" height="120" bgcolor="#ffffff" align="right" valign="top"><a href="http://zyn.ga/860"><img src="http://accounts.static.zynga.com/email_images/mobile_banner1_1312222038.png" border="0" height="100" width="427" style="display:block"></a></td>
+                                                <td width="150" height="120" bgcolor="#ffffff" align="left" valign="top"><a href="http://zyn.ga/861"><img src="http://accounts.static.zynga.com/email_images/mobile_banner2_1312222060.png" border="0" height="100" width="150" style="display:block"></a></td>
+                        -->
+                        
+                        <td colspan="2" width="577" height="80" bgcolor="#ffffff" align="left" valign="top"><a href="http://apps.facebook.com/texas_holdem/dmz_link_landing.php?chipreprice=1&src_track_str=Poker+FB+Email+Other+%25ACTION%25+e:reprice:2012-05-11&url=http://apps.facebook.com/texas_holdem/?openGetChips=1"><img src="http://accounts.static.zynga.com/email_images/reprice_email_ad_fr_1336770462.jpg" border="0" height="80" width="577" style="display:block"></a></td>
+
+
+                                                <td width="15" height="120" bgcolor="#ffffff"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" border="0" width="15" height="1"></td>
+                                            </tr>      
+                                            
+                                            
+<!-- end new localized banner, set up by AJ -->                           
+                                            
+                                            
+                                        </table>
+                                    </td>
+                                  </tr>                                
+                            </table>
+                          </td>
+                          <td width="20" rowspan="2" bgcolor="#d7d7d7"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" width="20" height="1" border="0"></td>
+                    </tr>
+                    <tr>
+                          <td align="left"><img src="http://accounts.static.zynga.com/images/email/spacer.gif" width="1" height="5" border="0"><font size="1" face="Arial, Helvetica, sans-serif" color="#7e7d7d"><br /> Cet e-mail est est destin&#233; &#224; <a href='mailto:belmoreparkstud@activ8.net.au'>belmoreparkstud@activ8.net.au</a>. Pour vous d&#233;sabonner des e-mails New Gift, Collectible and Challenge Notifications de Zynga Poker - <a target="_blank" href="http://accounts.zynga.com/?game=poker&unsub=4013&templateid=1000002316&sig=1:1534774118:1:20121211132936:21r441qs24q75348ss3494s506r6so28p3r2o7r6">se d&#233;sabonner ici</a>.                          Pour g&#233;rer vos pr&#233;f&#233;rences d'e-mails, veuillez consulter la page <a target="_blank" href="http://accounts.zynga.com/?game=poker&templateid=1000002316">accounts.zynga.com</a>.<br /> &#169; 2012, Zynga Inc. 699 8th Street San Francisco, CA 94103 <a href="http://www.zynga.com/privacyPolicy/" target="_blank"> 
+ Politique de confidentialit&#233; </a></font><img src="http://accounts.zynga.com/track.php?next=http%3A%2F%2Faccounts.static.zynga.com%2Femail_images%2F1x1.gif&sendkey=6d7250b9cc4a0c3d27df174a7b36fb12$$b4Pl402-fjbCK,XUlzwMFBT9UDholnIzycrf2aU.-.1II-BnK23iDSmkVk0.C,YBGLOGOpX8xK2GZz_wL)NjN-B!uHRS-9X&hid=nrpqttqnnu&gameid=1&sig=eb3276238ca73bcb76d0775994c19dfd351e6d92&linkname=open" border="0" width="1" height="1"></td>
+                    </tr>
+                  </table>
+              </td>
+          </tr>
+    </table>
+</body>
+</html><!-- ZMAIL TRACE: {"time_send":1355232559,"time_zmail_q":1355232575.548,"time_mta":1355232576.3747}--><!-- ZMAIL DATA: [1,1,"1534774118","belmoreparkstud@activ8.net.au","1000002316","HTML","6d7250b9cc4a0c3d27df174a7b36fb12$$b4Pl402-fjbCK,XUlzwMFBT9UDholnIzycrf2aU.-.1II-BnK23iDSmkVk0.C,YBGLOGOpX8xK2GZz_wL)NjN-B!uHRS-9X",{"gift_name":"Jetons gratuits","gift_image":"https:\/\/zynga1-a.akamaihd.net\/poker\/poker\/static\/pokercms\/ChipTheme\/Christmas_flake_chip_150x(pop-up).png","sender_first_name":"Marcelle","sender_last_name":"Greaves","sender_image":"https:\/\/zynga1-a.akamaihd.net\/pokerimages\/poker\/image_proxy.php\/qjqYu.fLzZ2WIsHs3_vd0rqULNXu2M9tJ7QCL_IjgAaOxYb9JrUwU.D3VphOzS.FAt3XjVQs4tE5bQ.Yv8hsnnA5Dq5rIFqN9o_u4Q==\/548137307","recipient_first_name":"Linda","recipient_last_name":"Osenton","__locale":"fr_FR","__inbox":{"4009":23,"4105":22,"4012":4,"4108":1},"__original_event_type_id":4009,"sendkey":"6d7250b9cc4a0c3d27df174a7b36fb12$$b4Pl402-fjbCK,XUlzwMFBT9UDholn
+ Izycrf2aU.-.1II-BnK23iDSmkVk0.C,YBGLOGOpX8xK2GZz_wL)NjN-B!uHRS-9X","SENDKEY":"6d7250b9cc4a0c3d27df174a7b36fb12$$b4Pl402-fjbCK,XUlzwMFBT9UDholnIzycrf2aU.-.1II-BnK23iDSmkVk0.C,YBGLOGOpX8xK2GZz_wL)NjN-B!uHRS-9X","SIGNATURE":"1:1534774118:1:20121211132936:21r441qs24q75348ss3494s506r6so28p3r2o7r6","EVENTID":"4013","EVENTDESC":"New Gift, Collectible and Challenge Notifications","TEMPLATEID":"1000002316","__trace":{"time_send":1355232559,"time_zmail_q":1355232575.548,"time_mta":1355232576.3747},"TOUID":"1534774118","TOSNID":1,"GAMEID":1},false,null,false]--><!-- ZMAIL SOURCE: 10.66.230.201-->
+

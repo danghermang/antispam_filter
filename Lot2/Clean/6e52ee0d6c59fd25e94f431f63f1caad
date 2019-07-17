@@ -1,0 +1,59 @@
+Subject:Re: Miniatures de fichiers Libre/OpenOffice sous Nautilus de Squeeze
+On 12/08/2012 08:30 PM, Bernard Schoenacker wrote:
+> Le Sat, 08 Dec 2012 16:40:11 +0100,
+> maderios <maderios@gmail.com> a écrit :
+>
+>> On 12/08/2012 12:25 PM, Alain Rpnpif wrote:
+>>> Le  4 décembre 2012, Frédéric Massot a écrit :
+>>>
+>>>> Le 03/12/2012 14:57, Alain Rpnpif a écrit :
+>>>
+>>>>> Sous Nautilus, je n'arrive pas à obtenir de miniatures de mes
+>>>>> fichiers OpenDocument (ODT, etc. textes, dessins ou autres) mais
+>>>>> dans certains répertoires seulement. Pourtant, cela marche dans
+>>>>> la plupart des autres.
+>>
+>>> Une autre idée ?
+>>
+>> Bonjour
+>> Quand j'ai constaté il y a  des années la régression de Nautilus
+>> (surtout dernièrement avec Wheezy), les bugs à répétition non
+>> corrigés, les manques de fonctionnalités, etc, etc, mon idée à moi
+>> fut de remplacer Nautilus par Konqueror. Il n'y a pas photo. Il faut
+>> l'essayer absolument. Pas besoin d'un bureau KDE pour utiliser
+>> Konqueror (je n'ai ni gnome ni xfce ni kde, j'utilise E17).
+>> Amicalement
+>
+> bonjour,
+>
+> 	est tu vraiment certain de ne pas employer dolphin couplé
+> 	à konqueror ?
+> 	
+> 	la preuve (partielle) :
+> 	apt-cache depend konqueror
+> 	Recommande: dolphin
+> 	Recommande: kfind
+Il faut évidemment installer konqueror+dolphin... Konqueror  sans 
+dolphin, gestionnaire de fichiers supposé être plus simple, conçu pour 
+remplacer Konqueror, n'a guère d'intérêt, pour moi si on veut un 
+gestionnaire de fichiers. Idem pour dolphin seul.
+
+> 	le problème n'est pas au niveau du wm mais du gestionaire de fichier
+Je ne vois pas ce que le wm vient faire ici....
+Cordialement
+
+-- 
+Maderios
+
+"Art is meant to disturb. Science reassures."
+"L'art est fait pour troubler. La science rassure" (Georges Braque)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C46A1D.4070007@gmail.com
+

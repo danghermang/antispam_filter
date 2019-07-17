@@ -1,0 +1,91 @@
+Subject:Re: [EVDL] Low battery capacity on convertion lawntractor
+Rush,
+Most inverters simply shut off when the input
+falls to 10.5V, they have no idea of slope.
+They also do not turn on again until the input
+goes above about 12.5V so they do not hiccup
+but only restore output after some charging has occurred.
+With a 300W lamp a 12V inverter will draw approx 30A so
+if the clock shows (after inverter shutting off) that it
+has run 1/2 hour, then the battery has delivered approx
+15Ah at a load of approx 30A.
+
+The problem with the lawn mower is likely the same that
+I had in my pack - some stinker cells due to a few too
+deep discharges, causing reversal of the weakest cells
+that causes them to have very small capacity and act
+like resistors as soon as their small capacity is used.
+If the bad (or all) batteries are exchanged with a good
+pack, the mower should again run the full hour again.
+But it is good to check and measure to find any failures
+or too high consumption in other areas, before spending
+the money replacing the pack and finding that it still
+runs 1/2 hour because the batteries were not the problem
+after all.
+
+Cor van de Water
+Chief Scientist
+Proxim Wireless Corporation http://www.proxim.com
+Email: CWater@proxim.com Private: http://www.cvandewater.info
+Skype: cor_van_de_water Tel: +1 408 383 7626
+
+
+-----Original Message-----
+From: ev-bounces@lists.sjsu.edu [mailto:ev-bounces@lists.sjsu.edu] On
+Behalf Of Rush Dougherty
+Sent: Tuesday, November 13, 2012 4:50 PM
+To: 'Electric Vehicle Discussion List'
+Subject: Re: [EVDL] Low battery capacity on convertion lawntractor
+
+
+David wrote -
+
+> I set an AC powered clock for 12:00 and plug it into the
+> other receptacle on the inverter and let 'er rip.  When the battery
+drops
+to
+> 10.5v, the inverter shuts down and the clock stops.  From the minutes
+and
+> hours logged, I can calculate amp hours at that load.
+
+Let me see if I understand the above in my terms -  I have a discharger,
+it
+is a 300wt lamp, I start discharging at' StDisChrgV' (voltage at start
+of
+Discharge) and end discharging at 'EndDisChgV' (voltage at end of
+Discharge)
+and I know the 'DisChgT' (Discharge Time). The discharge stops because
+'SlopeDifMax' has been reached (voltage sampling has determined that the
+rate or slope of discharge is too fast and a weak cell reversal may
+occur or
+the voltage is dropping abnormally fast).
+
+>From the above numbers can I determine the amp hour capacity of the
+pack/battery?
+
+Thanks
+Rush
+www.TucsonEV.com
+
+
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

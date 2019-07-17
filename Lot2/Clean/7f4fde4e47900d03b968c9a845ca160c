@@ -1,0 +1,21 @@
+Subject:Datensicherung
+Hallo Liste,
+meine Datensicherung hat w=F6chentlich problemlos funktioniert, jetzt =
+
+kommt eine Fehlermeldung:
+Konnte /tmp/duplicity-NMkfKD-tempdir/mktemp-YtXGDK-1 nicht lesen: =
+
+(<class 'zlib.error'>, error('Error -3 while decompressing: invalid =
+
+block type',), <traceback object at 0x8a6dd24>)
+
+Was kann ich =E4ndern?
+Dankend gr=FC=DFt
+Reinhard.
+
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

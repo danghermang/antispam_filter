@@ -1,0 +1,27 @@
+Subject:[OT] Re: Ayuda con MultiSystem
+El Sun, 11 Nov 2012 18:07:30 -0500, academia escribió:
+
+(...)
+ 
+> En lo que estoy trabado es en poner a Windows XP, 7, 8 en el multiboot
+> desde MultiSystem. ¿Alguien con experiencia pudiera orientarme?
+
+¿Y qué relación le ves tú a eso con Debian? >>:-)
+
+Parece que no tiene soporte directo para Windows pero me ha parecido leer 
+que sí se podría cargar windows mediante una imagen ISO. El problema es 
+que la página del proyecto funciona muy lenta en Firefox (la sección de 
+sistemas operativos soportados), a ver si alguien te la puede enviar 
+porque a mí me bloquea el navegador.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7r4lm$l1q$4@ger.gmane.org
+

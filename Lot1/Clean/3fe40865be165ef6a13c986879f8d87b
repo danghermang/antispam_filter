@@ -1,0 +1,49 @@
+Subject:Re: mdadm: Cannot open /dev/sdb1: Device or resource busy
+El Fri, 23 Nov 2012 19:01:04 +0100, Mariano Cediel escribió:
+
+> El 23 de noviembre de 2012 18:30, Camaleón <noelamac@gmail.com>
+> escribió:
+
+(...)
+
+>> > obtengo ...
+>> > mdadm: Cannot open /dev/sdb1: Device or resource busy
+>>
+>> (...)
+>>
+>> Por si te sirve de algo, es el primer "error conocido" que ponen en
+>> Wikipedia:
+>>
+>> http://en.wikipedia.org/wiki/Mdadm#Known_problems
+>>
+> [root@xenical ~]# mdadm --stop /dev/md0 
+> mdadm: failed to stop array /dev/md0: Device or resource busy
+> 
+> (quizas porque el md0 es el barra)
+> 
+> [root@xenical ~]# mdadm --zero-superblock /dev/sdb1 
+> mdadm: Couldn't open /dev/sdb1 for write - not zeroing
+
+Sigue con los pasos que indican y si no hay más remedio tendrás que 
+reiniciar.
+ 
+> y por si sirve de ayuda, me dice que de las 10000 pruebas/comandos que
+> he probado, el sdb1 no tiene un UUID
+> esto es normal ¿?
+
+El UUID que yo sepa no es obligatorio, será un aviso a modo de 
+recordatorio porque es conveniente que los discos/particiones tengan un 
+identificador único, más aún cuando usas algún tipo de gestor lógico de 
+discos (md o lvm).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8of3a$e13$10@ger.gmane.org
+

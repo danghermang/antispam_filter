@@ -1,0 +1,49 @@
+Subject:Re: Darstellung von Evolution
+Am Samstag, den 13.10.2012, 22:00 +0200 schrieb Gerd Geppert:
+
+Hallo Gerd
+
+> Hat jemand einen Tipp f=FCr mich, wie ich eine brauchbare Darstellung in
+> Evolution hinbekomme?
+>
+Ich wei=DF nicht, ob Du inzwischen eine L=F6sung hast?
+
+
+Nach meinem Erkenntnisstand ergeben sich diese gravierenden
+Darstellungsprobleme in erster Linie aus folgenden:
+
+Generelle Probleme mit Gtk2 <=3D> Gtk3. Das tritt ein weniger heftiger
+Form auch auf anderen Systemen mit Xfce (Mageia oder hier in "unstable")
+auf
+
+Die auch in X*ubuntu noch laufende murrine-Theme-engine von *buntu
+
+Durch *buntu ziemlich w=FCst verpatchte Pakete, die nicht das
+bereitstellen, was von Xfce bzw. von einigen anderen Anwendungen
+eigentlich erwartet wird
+
+Fehler in den durch *buntu mitgelieferte xorg-Module f=FCr eine Reihe von
+Graphikkarten- oder Chips (nouveau, aber auch f=FCr einige =E4ltere
+Intel-Chipsatz-Graphik)
+
+
+Du kannst versuchen, eine Kombination aus Desktop-Thema (Oberfl=E4che) und
+Symbolen zu finden, die das entsch=E4rft: Das Adwaita-Thema +
+Foxtrott-Symbole + Waza-Fensterthema macht hier (Debian unstable) keine
+solche Darstellungsfehler.
+
+...oder Du installierst Dir gleich eine Distribution, die bei den
+Xfce-Pakten m=F6glichst nahe am upsteam bleiben?
+
+-- =
+
+Gru=DF Stefan
+
+Debian GNU/Linux "Sid" (unstable)
+
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

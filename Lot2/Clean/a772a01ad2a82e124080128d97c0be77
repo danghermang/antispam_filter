@@ -1,0 +1,54 @@
+Subject:Re: =?iso-8859-1?Q?D=E9pannag?= =?iso-8859-1?Q?e?= sur PC distant
+
+Re,
+
+On Mon, Oct 29, 2012 at 09:36:34PM +0100, Bzzz wrote:
+[...]
+> > Le second ici servira à faire passer VNC : il lance x11vnc sur la
+> > machine distante à travers le tunnel shell et récupère l'affichage
+> > chez lui, avec son client VNC, au bout du second tunnel.
+> > 
+> > Du moins, si j'ai bien compris :-)
+> 
+> Mwai, ben justement un chtit néclaircissement clair ne serait pas de trop :)
+
+Et bien, à supposer un seul tunnel (comme dans la doc Howtoforge), par
+où passerait le trafic VNC ?
+
+Le premier tunnel connecte le port 22 du dépanné au 5522 de Luc : tout
+ce que Luc fait sur son 5522 se passe donc en réalité sur le 22 du
+dépanné.
+
+Fort bien, mais 22, c'est ssh. 
+
+x11vnc, une fois lancé chez le dépanné, va vouloir utiliser le 5900,
+ou le 5901 dans notre cas.
+
+Mais du coté Luc, ça ce n'est connecté à rien...
+
+Donc, s'il veut récupérer l'image VNC du dépanné (par le même procédé
+de reverse ssh, s'entend, c.-à-d. en connectant le client VNC à un
+port de sa propre caisse), il doit aussi se ramener le port VNC chez
+lui, d'où la nécessité du second tunnel.
+
+Du moins est-ce ainsi que je me l'explique tout seul à moi-même ; y a
+sûrement plus scientifique ;)
+
+Ça néclaircit ou ça nembrouille pire ?
+
+A+
+
+
+-- 
+
+JFS.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121029205541.GA18135@jones.jfs.dt
+

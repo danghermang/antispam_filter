@@ -1,0 +1,25 @@
+Subject:Newsletter
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<style type="text/css" media="screen">
+		body { margin: 10px; }
+		body, td  { font-size: 12px; line-height: 140%; font-family: Verdana, Arial, Helvetica; }
+		h1 { font-size: 16px; margin-bottom: 2em; }
+		h2 { font-size: 14px; margin-bottom: 0; border-bottom: 1px solid black; }
+		h3 { font-size: 14px; }
+		h3 a { text-decoration: none; }
+		a { color: #00215a; }
+		a:hover { color: #e20000; }
+		.box { padding: 15px; background-color: #d8d3de; text-align: center; }
+	</style>
+</head>
+<body>
+<div class="box"><h1><br />&laquo;Vaterland Online&raquo;-Newsletter vom Dienstag, 2. Oktober 2012<br />&nbsp;</h1></div>
+<h2>News &laquo;Wirtschaft&raquo;</h2>
+<p>Keine aktuellen Artikel in diesem Ressort!</p>
+<h2>News &laquo;Sport&raquo;</h2>
+<h3><a href="http://www.vaterland.li/index.cfm?source=lv&amp;id=20097" target="_blank">Beachteam Schifferle/ Kaiser trennt sich </a></h3>
+<p>Nach zwei erfolgreichen Jahren der Zusammenarbeit haben Petra Schifferle und Ramona Kaiser beschlossen in der Zukunft mit neuen Partnern an den Start zu gehen. In der Saisonnachbesprechung einigten sich die beiden erfolgreichen Beacherinnen von nun an mit neuen Partnerinnen an den Start zu gehen und eine neue sportliche Herrausforderung zu suchen.</p>
+<h2>News &laquo;Kultur&raquo;</h2>
+<p>Keine aktuellen Artikel in diesem Ressort!</p>
+<div class="box"><p><br />Wir w&uuml;nschen Ihnen eine angenehme Lekt&uuml;re.<br />Ihr Newsletter-Profil k&ouml;nnen Sie unter <a href="http://www.vaterland.li/page/lv/newsletter/profil.cfm">www.vaterland.li/page/lv/newsletter/profil.cfm</a> anpassen.</p><p>Besuchen Sie uns im Internet:<br /><a href="http://www.vaterland.li" target="_blank">www.vaterland.li</a><br /><a href="http://www.wirtschaftregional.li" target="_blank">www.wirtschaftregional.li</a><br /><a href="http://www.liewo.li" target="_blank">www.liewo.li</a><br />&nbsp;</p></div>
+</body></html>

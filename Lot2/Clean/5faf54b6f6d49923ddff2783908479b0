@@ -1,0 +1,67 @@
+Subject:Re: Proxy offline
+El 08/12/2012 7:55:pm, Francisco Eduardo Ascencio Dominguez escribió:
+> hola. resulta que ya tengo montado squid en un servidor casero.
+>
+> ok. empecemos.
+> 1.- squid esta instalado y configurado ( trnsparente )
+> 2.- tarjeta eth1 con ip fija OK
+> 3.- tarjeta eth2 con ip fija
+> 4.- ip tables configurados según este link
+> http://www.tutoriales-ubuntu.com/archives/configurar-un-proxy-transparente-con-squid
+> 5.- la tarjeta 1 va al modem
+> 6.- la tarjeta 2 va a un swich
+> 7.- al swich le conecte un router tl-741nd ( tp-link )
+> 8.- NO TENGO INTERNET !!!!!
+>
+> cual será mi error ? el router si sirve ya lo probé el swich también. y
+> si a una maquina le pongo la ip del proxy si funciona.  me pueden ayudar
+> ?  ya tiene dias que e andado con esto y aqui e ido poco. poco.  saldos
+
+bueno creo que lo correcto seria así:
+
+internet---eth0-[servidor-casero-con-squid]-eth1---switch---demás pc
+
+en la configuración de eth1 debes poner de gategay la ip de eth0
+
+este script debe ejecutarse al iniciar el sistema (de lo contrario se 
+debe ejecutar manualmente para que funcione lo del proxy tranparente)
+esto va dentro del script(debe tener al menos permiso 755 )
+
+#!/bin/sh
+########### CORTAFUEGOS ######################
+echo "   -- Añadiendo Politicas + Cortafuegos Básico..."
+# Establecemos las políticas por defecto.
+iptables -P INPUT DROP
+iptables -P OUTPUT ACCEPT
+# Para NAT
+iptables -P FORWARD ACCEPT
+################## NAT ############################
+echo "  -- Añadiendo Reglas de NAT..."
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+# Las conexiones que estén establecidas = OK
+#(para cualquier interfaz)
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+# Ponemos en marcha el reenvío de IP (IP forwarding)
+# OJO IMPORTANTEEEE!!! Si no está a 1 NO FUNCIONA!
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+en la configuración del squid debes poner la opción
+
+http_port 3128 transparent
+
+
+Salu2s  :)
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C3EB45.1090007@infosol.gtm.sld.cu
+

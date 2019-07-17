@@ -1,0 +1,43 @@
+Subject:Re: [HS] Variables serveur Web php.ini
+Bonjour,
+
+Le lundi 10 septembre 2012 à 20:47, andre_debian@numericable.fr a écrit :
+> Les navigateurs gardent les infos déjà tapées 
+> dans les formulaires en cas d'erreur et de retour.
+> exceptés Firefox et IE :
+> pour moi, c'est un défaut.
+
+Les voitures récentes se verrouillent automatiquement lorsqu'on les déverrouille
+et qu'on n'ouvre pas une portière dans les quelques dizaines de secondes
+suivantes. C'est un plus, ça permet d'éviter de laisser sa voiture déverrouillée
+(quand on n'a pas la tête à ce qu'on fait). De là à dire que les voitures plus
+anciennes (qui n'ont pas ce comportement) ont un défaut…
+
+Ce qu'on demande à un navigateur, c'est d'interpréter, en se conformant aux
+standards, les pages HTML fournies par un serveur Web. Tout ce qui est en plus
+est … du plus !
+
+Enfin, baser le développement de son site Web sur un tel comportement (qui,
+encore une fois, n'est qu'un plus) est le meilleur moyen de s'assurer des
+ennuis. Si tu veux être sûr du comportement de ton site, c'est coté serveur
+qu'il faut t'en assurer, et non pas supposer que le client fera une partie de
+ton boulot.
+
+> Ceci oblige d'ajouter pas mal de lignes de codes PHP 
+> dans les fichiers des formulaire pour garder
+> les infos déjà renseignées.
+
+Eh oui, de même que pour un rendu homogène FF / IE / Chromium / etc., il va te
+falloir ajouter beaucoup de lignes de CSS (éventuellement de JavaScript).
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120911074208.GB8590@sebian.nob900.homeip.net
+

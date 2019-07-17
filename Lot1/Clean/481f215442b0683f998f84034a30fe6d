@@ -1,0 +1,45 @@
+Subject:Re: [rescue] Z180 goodness (P112)
+Not according to the information on the kickstarter page:
+
+"This gets you a P112 board with surface-mount parts soldered on, a boot 
+ROM chip, and serial port pigtails. ... You'll need to source the rest 
+of the parts"
+
+If you look at the photo/stillframe from the video, there are a LOT of 
+through-hole components and connectors.... which would not be included.
+
+
+On 10/26/2012 01:40 PM, Francois Dion wrote:
+> No, that's assembled, with all the parts.
+>
+> On Oct 26, 2012, at 1:25 PM, Robert Darlington <rdarlington@gmail.com> wrote:
+>
+>> Wow, that's a lot of money for a little computer with most of the
+>> parts requiring you to buy them and solder them on yourself.
+>>
+>> -Bob
+>>
+>> On Fri, Oct 26, 2012 at 8:36 AM, Francois Dion <francois.dion@gmail.com>
+> wrote:
+>>> Well,
+>>>
+>>> There is a chance the P112 might get another run:
+>>>
+>>>
+> http://www.kickstarter.com/projects/2057605091/p112-single-board-computer-kit
+>>> I think Bill Bradford had built one back in 2007. Bill, did you ever
+>>> get UZI running on it?
+>>>
+>>>
+>>> Frangois
+>>>
+>>> --
+>>> solarisdesktop.blogspot.com  -  raspberry-python.blogspot.com
+>>> _______________________________________________
+>>> rescue list - http://www.sunhelp.org/mailman/listinfo/rescue
+>> _______________________________________________
+>> rescue list - http://www.sunhelp.org/mailman/listinfo/rescue
+> _______________________________________________
+> rescue list - http://www.sunhelp.org/mailman/listinfo/rescue
+_______________________________________________
+rescue list - http://www.sunhelp.org/mailman/listinfo/rescue

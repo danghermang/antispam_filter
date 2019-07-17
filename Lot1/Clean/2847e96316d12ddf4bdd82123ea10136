@@ -1,0 +1,81 @@
+Subject:Re: Postfix para Mdaemon
+El d=EDa 1 de octubre de 2012 12:56, linux
+<liuberperez.mtz@infomed.sld.cu> escribi=F3:
+> El 01/10/12 11:51, cosme@esid.gecgr.co.cu escribi=F3:
+>
+>> Hola
+>>
+>> resulta que al instalar un Postfix tengo la siguiente situacion el debe
+>> entregarle a mi ISP que usa un Mdaemon 9 pero este pide usuario y passwd
+>>
+>> He probado con relay_transport, transport_maps y relayhost con
+>>
+>> smtp_sasl_password_maps =3D hash:/etc/postfix/sasl/sasl_passwd
+>> y dentro de este con las siguientes lineas
+>>
+>> 192.168.1.1      usuario:passwd
+>>
+>> 192.168.1.1      usuario@mail.com:passwd
+>>
+>> A mi entender no se entiende con MDaemon entodos los casos en los logs m=
+e
+>> dice MDaemon autenticaci=F3n requerida.
+>>
+>> Tengo entendido que con fetchmail es para recoger los correos
+>>
+>> pero para entregarle a mi ISP????
+>>
+>> Salu2
+>> Cosme
+>>
+>>
+>>
+>>
+> prueba a poner la autenticacion en fetchmail que es el que recoge la
+> mensajeria ok, a lo mejor asi es que te funciona, postfix no tiene que
+> autenticar nada si es multipop ok, el que recoge es el que autentica.
+>
+
+esta haciendo relay
+
+>
+>
+> --
+>
+> Este mensaje le ha llegado mediante el servicio de correo electronico que
+> ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema
+> Nacional de Salud. La persona que envia este correo asume el compromiso d=
+e
+> usar el servicio a tales fines y cumplir con las regulaciones establecida=
+s
+>
+> Infomed: http://www.sld.cu/
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/5069BD19.4000308@infomed.sld.cu
+>
+
+
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54ZwuM==BhKqApbFvK_JtB75KB13w_JeoB1ZMu7ghwqXkw@mail.gmail.com
+

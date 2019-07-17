@@ -1,0 +1,39 @@
+Subject:Re: sustituir nautilus por thunar
+El Wed, 28 Nov 2012 11:44:43 -0500, Javier Santiesteban escribió:
+
+(por favor, no hagas cross-posting)
+
+> Alguien de la lista sabe como sustituir nautilus por thunar??? Pues he
+> visto en la web algunas propuestas pero ninguna hasta ahora ha
+> funcionado..
+
+Un poco más cerca y te muerde >:-)
+
+http://wiki.debian.org/Thunar
+
+***
+Installation
+
+If you are running Xfce, Thunar is already installed. If you already have 
+Gnome installed, you could just install the thunar package. However, if 
+you are using a more minimal X11 setup, for example, with only a window 
+manager like Openbox, you should also install the gnome-icon-theme 
+package. Most other icon themes, such as the tango-icon-theme, inherit 
+some icons from the gnome theme. Thunar is pretty useless without icons. 
+***
+
+Si tienes algún problema al instalarlo y/o configurarlo como 
+predeterminado explica qué es lo que has hecho y qué te sucede 
+_exactamente_.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k95hk6$5ig$6@ger.gmane.org
+

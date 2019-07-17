@@ -1,0 +1,52 @@
+Subject:Re: [un peu HS] emulateur Android et gestion de =?UTF-8?B?bCc=?=
+	=?UTF-8?B?w6ljcmFu?=
+Le Sat, 27 Oct 2012 16:17:38 +0200,
+Mourad Jaber <ml@nativobject.net> a écrit :
+
+> Bonjour,
+> 
+> Je cherche une solution à un comportement curieux.
+> 
+> Quand j'utilise l'émulateur android (intégré au SDK officiel),
+> l'économie d'énergie de l'écran cesse de fonctionner sous debian
+> wheezy avec KDE comme environnement graphique...
+> 
+> J'ai fait le même test avec kubuntu (12.10 avec kde 4.9.2) et tout
+> fonctionne correctement (pas de changement dans le comportement de
+> l'écran avec ou sans l'emulateur...).
+> 
+> Est-ce que quelqu'un aurait une idée pour résoudre ce problème ? ou
+> au moins savoir où chercher pour tracer cette anomalie (les logs
+> restent muets à ce sujet) ?
+> 
+> ++
+> 
+> Mourad
+> 
+bonjour,
+
+	est il possible de faire l'essai dans un environnement gtk ?
+
+	exemple: lxde || xfce4
+
+	normalement un strace devrait résoudre le manque verbeux
+
+	nohup strace "androïd"
+
+	pourriez vous lister les paquets "lock" de screensaver ?
+
+	apt-cache policy $(apt-cache search screen locker |awk '{print $1}')
+
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121027163656.3accfa93.bernard.schoenacker@free.fr
+

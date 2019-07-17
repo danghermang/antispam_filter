@@ -1,0 +1,31 @@
+Subject:Re: [Jukebox-list] Seeburg 222 and AMI Continental 1
+Marcos, on the AMI all speakers are 16 ohm. I'm not clear on what you are doing here, is this a mono or stereo machine?
+
+There is going to be a difference in efficiency between different makes and models of speakers regardless of whether they are horn or have a similar impedance.
+
+Fist step is to determine the impedance of the external speaker. using a meter an 8 ohm will read approx 6 ohms and a 16 ohm approx 12 ohms.
+
+If you don't have a guide to the power levels and connections, the next best thing is to trace out the existing machine's speaker (use the "center" -woofer/tweeter in the case of a stereo machine) back through the speaker power switch to the terminals on the external speaker strip.
+
+Then, if you are connecting another 16ohm speaker set the internal speaker switch to half of it's maximum. In the case of the Continentals I believe this is "8 watt" (i sold the last of these in Nov 2000) So set that to "8 watt" and connect the external 16 ohm to the same terminals that the 8 watt tap connects the internal speaker to.
+
+Rob/NYC
+
+--- On Fri, 10/19/12, marcos licea <mrl_bear@yahoo.com> wrote:
+
+From: marcos licea <mrl_bear@yahoo.com>
+Subject: [Jukebox-list] Seeburg 222 and AMI Continental 1
+To: jukebox-list@lists.netlojix.com
+Date: Friday, October 19, 2012, 1:45 PM
+
+Hello group, hope everyone is doing great. I have two questions to ask . First does anyone know how may omh are in the Seeburg 222 speakers? And my other question is on the AMI continental does anyone have a picture of the diagram on the volume box or knows how to connect a separate speaker and horn to the amp. I tried hooking it up to the amp like the original speaker is but on the other channel, but the sound comes out a little lower than the original speaker. I have change all tubes to new ones but still get the same results. Thank you
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

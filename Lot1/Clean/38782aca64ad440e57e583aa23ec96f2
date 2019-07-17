@@ -1,0 +1,201 @@
+Subject:Re: [Hsqldb-user] Re g:Optimizing and increasing my performance in
+ hsqldb
+
+Thanks Fred a lot for your replies.
+It was my mistake I forgot to put an index on the table. Its performing well
+now after putting index on it.
+You helped me a lot in this. I was completely new to this.
+
+Thanks a lot once again.
+
+-sandeep
+
+
+Fred Toussi-2 wrote:
+> 
+> You need to use EXPLAIN PLAN with your query to check if it is using
+> indexes.
+> 
+> If you have further usage questions, it is better to post in the Help
+> Forum on our SourceForge project site.
+> 
+> Fred
+> 
+> On Fri, Sep 14, 2012, at 11:24, Sandeep Samudrala wrote:
+>> 
+>> Hi Fred,
+>> That was really awesome. I increased NIO size and the performance was so
+>> good . 
+>> But still joins are taking lot of time. Can you suggest me to get better
+>> performance on joins.
+>> I put indexes on the join keys on both the tables but still the join
+>> query
+>> on sqltool is taking minutes to give the output which is very slow for
+>> me.
+>> 
+>> thanks in advance,
+>> -sandeep.
+>> 
+>> Fred Toussi-2 wrote:
+>> > 
+>> > Please read the Guide
+>> > 
+>> > http://hsqldb.org/doc/2.0/guide/deployment-chapt.html#dec_nio_access
+>> > 
+>> > For an existing database, increase the NIO SIZE in you .script file
+>> > before opening the database. For a new database, execute the statement
+>> > before inserting the data.
+>> > 
+>> > Your system has more than enough memory to speed up your database
+>> > access, especially with a 64 bit JVM.
+>> > 
+>> > Fred
+>> > 
+>> > On Fri, Sep 14, 2012, at 09:30, Sandeep Samudrala wrote:
+>> >>
+>> >> Thanks Fred . Here are my system configurations. Ram: 16GB CPU MHz:
+>> >> 2266.473 Cores          :           16 64 bit machine
+>> >>
+>> >> Size of my tables is about 800 MB The table has about 0.8
+>> >> million rows. You were mentioning about nio. What is nio you
+>> >> mean by over there?
+>> >>
+>> >> thanks in advance, -sandeep.
+>> >>
+>> >>
+>> >>
+>> >> Fred Toussi-2 wrote:
+>> >> >
+>> >> > It seems your database gets larger than the maximum size for nio on
+>> >> > your computer.
+>> >> >
+>> >> > A map reduce job should need only a single index (preferable a
+>> >> > primary key). Fewer indexes result in better performance.
+>> >> >
+>> >> > If you create the indexes before inserting data, database size will
+>> >> > be at its minimum. Then the use of nio is governed by the amount of
+>> >> > memory available and whether your Java process is 64 bit or not.
+>> >> >
+>> >> > When using nio, it should fetch several times as many rows as it is
+>> >> > fetching now.
+>> >> >
+>> >> > Fred
+>> >> >
+>> >> >
+>> >> > On Thu, Sep 13, 2012, at 21:54, Sandeep Samudrala wrote:
+>> >> >>
+>> >> >> Hi, I am having a scenario where I run a  server and many clients.
+>> >> >> Each client connects to server. I am trying to use hsqldb with
+>> >> >> Mapreduce job, For that I am using hsqldb as a server. My MR jobs
+>> >> >> does the query on server and fetch one row from their. For this I
+>> >> >> am using single connection. At any given point of time the MR job
+>> >> >> can ask 30-50 k rows. Currently I am trying to do this and it is
+>> >> >> giving me very low performance. It is fetching 3000 records in 3
+>> >> >> mins, which is very slow. I need 100 rows per seconds. Please
+>> >> >> suggest me to tune my settings accordingly
+>> >> >> --
+>> >> >> View this message in context:
+>> >> >>
+>> >>
+>> http://old.nabble.com/Reg%3AOptimizing-and-increasing-my-performance-in-hsqldb-tp34429204p34429204.html
+>> >> >> Sent from the HSQLDB - User mailing list archive at Nabble.com.
+>> >> >>
+>> >> >>
+>> >> >> -------------------------------------------------------------------
+>> >> >> -----------
+>> >> >> Live Security Virtual Conference Exclusive live event will cover
+>> >> >> all the ways today's security and threat landscape has changed and
+>> >> >> how IT managers can respond. Discussions will include endpoint
+>> >> >> security, mobile security and the latest in malware threats.
+>> >> >> http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+>> >> >> _______________________________________________
+>> >> >> Hsqldb-user mailing list Hsqldb-user@lists.sourceforge.net
+>> >> >> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+>> >> >
+>> >> > --------------------------------------------------------------------
+>> >> > ----------
+>> >> > Got visibility? Most devs has no idea what their production app
+>> >> > looks like. Find out how fast your code is with AppDynamics Lite.
+>> >> > http://ad.doubleclick.net/clk;262219671;13503038;y?
+>> >> > http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+>> >> > _______________________________________________
+>> >> > Hsqldb-user mailing list Hsqldb-user@lists.sourceforge.net
+>> >> > https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+>> >> >
+>> >> >
+>> >> --
+>> >> View this message in context:
+>> >>
+>> http://old.nabble.com/Reg%3AOptimizing-and-increasing-my-performance-in-hsqldb-tp34429204p34431901.html
+>> >> Sent from the HSQLDB - User mailing list archive at Nabble.com.
+>> >>
+>> >>
+>> >> ----------------------------------------------------------------------
+>> >> --------
+>> >> Got visibility? Most devs has no idea what their production app looks
+>> >> like. Find out how fast your code is with AppDynamics Lite.
+>> >> http://ad.doubleclick.net/clk;262219671;13503038;y?
+>> >> http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+>> >> _______________________________________________
+>> >> Hsqldb-user mailing list Hsqldb-user@lists.sourceforge.net
+>> >> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+>> > 
+>> >
+>> ------------------------------------------------------------------------------
+>> > Got visibility?
+>> > Most devs has no idea what their production app looks like.
+>> > Find out how fast your code is with AppDynamics Lite.
+>> > http://ad.doubleclick.net/clk;262219671;13503038;y?
+>> > http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+>> > _______________________________________________
+>> > Hsqldb-user mailing list
+>> > Hsqldb-user@lists.sourceforge.net
+>> > https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+>> > 
+>> > 
+>> 
+>> -- 
+>> View this message in context:
+>> http://old.nabble.com/Reg%3AOptimizing-and-increasing-my-performance-in-hsqldb-tp34429204p34432344.html
+>> Sent from the HSQLDB - User mailing list archive at Nabble.com.
+>> 
+>> 
+>> ------------------------------------------------------------------------------
+>> Got visibility?
+>> Most devs has no idea what their production app looks like.
+>> Find out how fast your code is with AppDynamics Lite.
+>> http://ad.doubleclick.net/clk;262219671;13503038;y?
+>> http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+>> _______________________________________________
+>> Hsqldb-user mailing list
+>> Hsqldb-user@lists.sourceforge.net
+>> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+> 
+> ------------------------------------------------------------------------------
+> Got visibility?
+> Most devs has no idea what their production app looks like.
+> Find out how fast your code is with AppDynamics Lite.
+> http://ad.doubleclick.net/clk;262219671;13503038;y?
+> http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+> 
+> 
+
+-- 
+View this message in context: http://old.nabble.com/Reg%3AOptimizing-and-increasing-my-performance-in-hsqldb-tp34429204p34434114.html
+Sent from the HSQLDB - User mailing list archive at Nabble.com.
+
+
+------------------------------------------------------------------------------
+Got visibility?
+Most devs has no idea what their production app looks like.
+Find out how fast your code is with AppDynamics Lite.
+http://ad.doubleclick.net/clk;262219671;13503038;y?
+http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

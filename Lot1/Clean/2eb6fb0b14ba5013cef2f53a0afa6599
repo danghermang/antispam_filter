@@ -1,0 +1,30 @@
+Subject:Re: activar segunda tarjeta de red eth1
+El 07/11/12 12:05, correo personal escribió:
+> como lo puedo hacer??
+>
+>
+
+
+# /etc/network/interfaces
+
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+  auto lo
+  iface lo inet loopback
+
+# Red 0
+  auto eth0
+  iface eth0 inet dhcp
+
+# Red 1
+  auto eth1
+  iface eth1 inet dhcp
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509AA504.5050808@gmail.com
+

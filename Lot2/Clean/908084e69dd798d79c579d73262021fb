@@ -1,0 +1,35 @@
+Subject:Re: apache2 et =?iso-8859-15?Q?permissions?=
+	=?iso-8859-15?Q?_sur_=2Fvar=2Flog_mont=E9?= entmpfs
+On Fri, Oct 26, 2012 at 01:55:34PM +0200, Sylvain L. Sauvage wrote:
+>   Je crois que tu devrais revoir ton système d'indexation, c'est 
+> l'inverse : je disais à peu près la même chose qu'Yves et c'est 
+> Joël Bertrand qui parlait de problèmes dans l'embarqué :
+> http://lists.debian.org/debian-user-french/2012/09/msg00268.html
+
+Faudrait voir le détail des problèmes rapportés par Joël.
+
+Des disques durs dans l'embarqué (qui bouge), c'est juste
+pas possible, avec les vibrations on a des durées de vies
+qui se comptent en heures.
+
+Je vais me renseigner sur les problèmes de nos SSD, mais je
+suis pratiquement certain que le problème est lié à un
+empilement d'applis qui ne se soucient pas d'écritures
+atomiques, de JVM qui fait de même, de partages par NFS qui
+fait de même, de système de fichier pas trop adapté, et de
+SSD potentiellement buggé.
+
+Du coup, on se retrouve avec des corruptions de données en
+permanence, sur du matériel fiable.
+
+Y.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121028104315.GC31005@naryves.com
+

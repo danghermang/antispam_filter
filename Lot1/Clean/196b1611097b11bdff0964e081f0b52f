@@ -1,0 +1,35 @@
+Subject:Re: reconnaissance vocale
+Le 30 ao=FBt 2012 12:29, Pierre Frenkiel <pierre.frenkiel@gmail.com> a =E9c=
+rit :
+> bonjour =E0 tous,
+> Je suis surpris de ne pas trouver de logiciel re reconnaissance vocale
+> pour Linux, alors qu'il y en a sous Android qui fonctionnent parfaitement=
+.
+> Je parle d'un logiciel permettant de dicter un texte, pas de lancer des
+> commandes.
+> Qui peit m'en indiquer un (ou plusieurs)?
+
+Attention, sur Android c'est probablement les serveurs de Google qui
+font la reconnaissance, pas le p=E9riph=E9rique. On peut faire le m=EAme
+genre de chose sous Linux, il suffit de d=E9couvrir l'API utilis=E9e et
+refaire un client. Je crois conna=EEtre plusieurs exp=E9rience dans ce
+sens, mais pas de liens sous la main.
+
+D'ailleurs, il me semble que la fonction est pr=E9sente sous le navigateur =
+Chrome.
+
+--=20
+Guilhem BONNEFILLE
+-=3D- JID: guyou@im.apinc.org MSN: guilhem_bonnefille@hotmail.com
+-=3D- mailto:guilhem.bonnefille@gmail.com
+-=3D- http://nathguil.free.fr/
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+BUw6gGwh8xNpv0N6iOxnRneaPzTSZMLy4BqaR59WHZ3Ap=+A@mail.gmail.com
+

@@ -1,0 +1,45 @@
+Subject:Re: requiero ayuda de como utilizar emacs
+El 16/09/12 18:32, Victor Hugo Cespedes Zuleta escribió:
+> emacs es el editor de texto mas poderoso del mundo.
+> 
+> 
+> conozco de los comandos basicos para desplazarme y editar texto de
+> cualquier archivo.
+> 
+> 
+> ahora bien. yo creo audiolibros. y para eso dado un archivo de 200
+> paginas debo de dividirlo en 20 archivos de 10 paginas (lo anterior es
+> solo un ejemplo).
+> 
+> porque en realidad debo de dividir el archivo por peso.
+> 
+> con la precaucion de que no se corte un parrafo. frase u oracion entre
+> un archivo y el siguiente.
+> 
+> Yo usaba el gedit para dividirlo en dos, luego en cuatro, luego en ocho.
+> de la mitad en mitad, pero ahy limitaciones en que debe ser
+> obligadamente potencia de 2.
+> 
+> ademas de que es una labor muy copiosa.
+> 
+> se que con emacs uno puede hacer iteracciones de un comando repetidas
+> veces con solo poner los argumentos adecuados al comando.
+> 
+> ¿alguien que pueda ayudarme en cuanto a la division de un archivos en
+> partes iguales?
+> 
+> -- 
+> Se despide muy atentamente:
+> 
+> /Victor Hugo Céspedes/
+> 
+> /2224689 - 2914174 - 67095170/
+> 
+Quizás debieras remitir esta duda a la lista en castellano de emacs.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5056315E.5030404@gmail.com
+

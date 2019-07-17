@@ -1,0 +1,67 @@
+Subject:Re: installation
+Le mardi 27 novembre 2012 22:51:16, collet michel a écrit :
+> Bonjour,
+> 
+> je me permets de vous contacter pour connaître, ce qu'il faut faire
+> avant de lancer l'installation de Debian en remplacement d'Ubuntu
+> actuellement sur mon portable, je pense notamment à mes fichiers,
+> mes images , etc faut il sauvegarder sur un disque extérieur ?
+
+Oui, il faut *toujours réaliser une sauvegarde* avant de se lancer 
+dans une installation, une erreur (de l'utilisateur) est vite arrivée.
+
+D'ailleurs je pense que dans la phrase précédente, il faut supprimer 
+tout ce qui suit le mot sauvegarde ! ;-)
+
+> 
+> Merci de vos conseils.
+
+En fait, cela dépend un peu de comment ton installation d'Ubuntu a été 
+faite. 
+
+Moi je trouve indispensable de partitionner le disque de sorte que le 
+/home soit sur une partition dédiée. 
+
+Si c'est le cas, tu peux installer Debian sans toucher à la partition 
+/home de Ubuntu et tu conserveras ainsi toute tes données (sans avoir 
+besoin de les récupérer de la sauvegarde que tu auras tout de même 
+réalisée par précaution).
+
+Au pire, tu pourras toujours effacer les fichiers cachés du /home si la 
+configuration des applications sous Ubuntu interférait avec celle sous 
+Debian (peu probable je pense).
+
+Pour installer en conservant le /home sur une partition dédiée, il 
+faut choisir le partitionnement manuel au moment où c'est proposé par 
+l'installateur. Faire gaffe !
+
+Si tu avais installé Ubuntu en mettant tout sur la même partition, je 
+te conseille tout de même de réaliser un partitionnement personnalisé 
+et de dédier une partition à ton /home (ce sera utile pour les fois 
+suivantes...) Dans ce cas de figure, les données personnelles d'Ubuntu 
+seront quand même effacées et devront être récupérees depuis ta 
+sauvegarde.
+
+> 
+> A savoir à l'UPMC Paris VI ( Jussieu) les matériels sont sous
+> Debian, et je passe des UE d'info dessus alors tant qu'à faire
+> j'aurais le même environnement.
+
+Oui, je trouve que ce n'est pas plus mal même si, tu verras, les 
+différences ne sont pas si importantes en ce qui concerne le 
+fonctionnement. (Pour l'aspect philosophique, là c'est autre chose).
+
+
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211280043.40699.edfnet-deb@yahoo.fr
+

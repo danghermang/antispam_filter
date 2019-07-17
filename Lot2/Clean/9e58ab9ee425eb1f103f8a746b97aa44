@@ -1,0 +1,56 @@
+Subject:Re: OFF-TOPIC Openvz en powerpc64 bits
+El Wed, 07 Nov 2012 18:04:12 +0100, maykel escribió:
+
+>> El Wed, 07 Nov 2012 17:37:05 +0100, maykel escribiÃ³:
+>>
+>>>> El 2012-11-07 15:53, CamaleÃÂ³n escribiÃÂ³:
+
+(...)
+
+>> Es que quizÃ¡ el error "gordo" no sea ese mensaje que recibesÂ¹ sino
+>> que falle alguna otra cosa y que se detenga casualmente en ese punto...
+>> quizÃ¡ le falte algÃºn mÃ³dulo al kernel que has compilado o sea un
+>> problema del yaboot ese que dices :-?
+>>
+>> Â¹nvram_init: Could not find nvram partition for nvram buffered error
+>> logging.
+>>
+
+> Es que este error le reporta en los logs también el kernel que arranca
+> perfectamente...
+
+Por eso digo, que ese mensaje puede ser normal.
+
+> nvram_init: Could not find nvram partition for nvram buffered error
+> logging.
+> 
+> Algún módulo??
+
+Ni idea... compara ambos .config (del kernel que incluye Squeeze con el 
+del compilado manualmente).
+ 
+> Este es el que utilizo para .config
+> 
+> http://download.openvz.org/kernel/branches/2.6.18/028stab056.1/configs/kernel-2.6.18-ppc64.config.ovz
+> 
+> Lo demás sigo el tuto y finalmente le hago el fakeroot...luego instalo
+> el .deb que me genera y se crea initrd y vmlinux..., agrego la entrada a
+> yaboot, actualizo yaboot con ybin... No sé que habré hecho mal. He
+> realizado ya el make menuconfig 8 veces, mirando y remirando que podía
+> ser...Pero nada...
+
+Sin un mensaje de error evidente podría ser cualquier cosa, desde el 
+yaboot ese hasta un bug del kernel que has compilado y que es muy antiguo...
+por cierto ¿por qué no has probado con alguno de la rama 2.6.32?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7e5cq$bcr$15@ger.gmane.org
+

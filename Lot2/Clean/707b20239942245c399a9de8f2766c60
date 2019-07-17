@@ -1,0 +1,61 @@
+Subject:Re: Autenticacion en Squid
+El d=C3=ADa 29 de noviembre de 2012 20:04, Josu=C3=A9 Marrero Berm=C3=BAdez
+<inf@zetihl.azcuba.cu> escribi=C3=B3:
+> Saludos
+>
+> Tengo implementado en la red de mi empresa un proxy con squid3 con
+> autentificacion , todo funciona como debe ser, pero ahora me gustaria
+> habilitar la opcion  de que solo solicite autenticacion en algunas IP y e=
+n
+> otra NO. O incluso pudiera ponerlo que solo autentifique cuando se solici=
+te
+> una URL fuera del dominio .cu
+>
+> He tratado de encontrar algo en Google pero no consigo nada que me ayude.
+>
+> Se que se puede hacer porque he estado en redes donde esta configuracion
+> esta implementada.
+
+Bueno, sin conocer tu fichero de configuraci=C3=B3n (que ser=C3=ADa lo
+interesante para decirte donde tienes que poner la acl), te dir=C3=ADa que
+todo lo que tu pongas antes de "proxy_auth REQUIRED" no pedir=C3=A1
+autenticacion.
+
+Por ejemplo yo lo tengo hecho con dominios en vez de ip y lo tengo de
+la siguiente manera:
+
+
+acl Dominios_Sin_Autenticacion dstdomain
+"/etc/squid3/acls/Dominios_Sin_Autenticacion.txt"
+acl Usuarios_Autenticados proxy_auth REQUIRED
+
+Para los dominios dentro del fichero no pide autenticaci=C3=B3n. Esto,
+evidentemente tiene que ir acompado de su:
+
+http_access allow Dominios_Sin_Autenticacion.
+
+
+Saludos.
+
+
+>
+> Alguien que me de una ayuda con el tema o me diga donde mirar.
+>
+> Saludos
+>
+> Josue
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/733CF59104244F3DA28D8A5ECA4954D3@dbsrv
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+FbNVjZqK0=ZmuC_xd-4=ikfez2xe2c5P5risU1cAc9OVeQzA@mail.gmail.com
+

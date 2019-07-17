@@ -1,0 +1,34 @@
+Subject:=?iso-8859-1?Q?R=E9troportage?= e2fsprogs
+Bonjour,
+
+Le lundi 15 octobre 2012 à 20:05, Bernard Schoenacker a écrit :
+> 	apt-cache search undelete
+> 	extundelete - utility to recover deleted files from ext3/ext4 partition
+> 	testdisk - Partition scanner and disk recovery tool
+
+J'en étais resté au fait qu'il n'y avait pas d'outil permettant la récupération
+de fichiers supprimés sur de l'ext. Je vois que ça a changé depuis…
+
+Le rétroportage de « extundelete » en Squeeze requiert de rétroporter
+« e2fsprogs », c'est-à-dire les paquets binaires suivants :
+    - libss2
+    - libcomerr2
+    - e2fslibs
+    - e2fsck-static
+    - e2fsprogs
+
+Ça m'emballe moyennement, j'ai peur que mon système y laisse des plumes…
+
+Quelqu'un a-t-il des arguments pour ou contre un tel rétroportage ?
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121016082153.GB7444@sebian.nob900.homeip.net
+

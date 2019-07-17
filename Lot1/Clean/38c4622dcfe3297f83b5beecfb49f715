@@ -1,0 +1,51 @@
+Subject:Re: Installation postgresql
+Bonjour David,
+Merci beaucoup pour ta réponse,
+
+Le 09/11/2012 03:17, David Prévot a écrit :
+>> Tout se passe bien mais sur un des deux serveurs il me manque plein de
+>> fichier par exemple pas de script postgresql dans /etc/init.d/
+>> J'ai beau purger l'installation et la refaire, même résultat.
+> $ dpkg -S /etc/init.d/postgresql
+> postgresql-common: /etc/init.d/postgresql
+> Ce fichier appartient donc au paquet postgresql-common, l'as tu purgé et
+> réinstallé aussi ?
+
+Non, mais je viens de le faire et en effet j'ai enfin le script de 
+démarrage, merci pour le dpkg -S, je n'ai pas ce reflexe.
+
+Voici pour info les logs de postgre avant l'installation de 
+postgresql-common :
+
+2012-11-08 23:09:42 CET LOG:  incomplete startup packet
+2012-11-08 23:09:42 CET LOG:  received fast shutdown request
+2012-11-08 23:09:42 CET LOG:  aborting any active transactions
+2012-11-08 23:09:42 CET LOG:  autovacuum launcher shutting down
+2012-11-08 23:09:42 CET LOG:  shutting down
+2012-11-08 23:09:42 CET LOG:  database system is shut down
+
+Par contre ca coince toujours, jamais eu autant de pb pour installer 
+postgre, d'habitude ça roule tout seul.
+Maintenant quand j'essaie de démarrer, rien ne se passe :
+
+$ /etc/init.d/postgresql start
+
+rien dans les logs ni sur la sortie standard
+
+Quand je lis le script de démarrage je vois qu'il fait appel à 
+"/usr/share/postgresql-common/init.d-functions" qui existe bien, mais 
+dot le contenu est plus difficilement compréhensible pour moi :-(
+
+Vous avez des idées ?
+
+Greg
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A0D790.30705@gmail.com
+

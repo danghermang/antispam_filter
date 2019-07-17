@@ -1,0 +1,71 @@
+Subject:Re: problemas con =?iso-8859-1?b?c2XxYWw=?= wifi canal 14 en debian
+	6
+El Sun, 04 Nov 2012 18:24:27 -0500, Constantino Vargas escribió:
+
+>> En el segundo enlace que te he enviado indican cómo cambiar entre los
+>> distintos modos/regulaciones que debe cumplir tu adaptador, por lo que
+>> en tu caso podrías probar a configurarlo para Japón, por ejemplo:
+>>
+>> iw reg set JP
+>>
+> iw no esta disponible en el debian 6 que tengo instalado tuve que
+> instalarlo
+
+Según el artículo, puedes usar dos métodos distintos para cambiarlo:
+
+- iw (squeeze incluye la versión 0.9.19)
+- wpa_supplicant, a partir de la versión 0.6.7 y squeeze creo que lleva 
+una superior (0.6.10)
+
+> ejecutando este comando pude ver que mi tarjeta de red esta en US
+> 
+> # iw reg get
+> country US:
+(...)
+>  # iw reg set JP
+> 
+> No surge efecto sigue saliendo como country US
+
+Raro...
+
+>> Pues sería interesante preguntarle a tu proveedor qué hace operando en
+>> un canal aparentemente¹ no autorizado para su uso fuera de Japón >>:-)
+>>
+> Bueno el amigo del WISP de mi localidad ha encontrado una solución a la
+> saturacion de la señal wifi 2.4 Ghz que hay en mi localidad, usando del
+> canal 14 aunque su uso esta para mi pais.
+
+Ya, ya... pero es que se está saltando una cuantas leyes.
+ 
+> en xubuntu 12.04 donde no tenido problema de conexion en el canal 14 le
+> dado una revisada con el comando iw  me doy con la sorpresa que el
+> country JP ojo no tocado desde la instalacion el S.O.
+> 
+> tinoman@uta:~$ iw reg get
+> country JP:
+(...)
+> poniendo:
+> 
+> tinoman@uta:~$ sudo iw reg set US
+> 
+> surte efecto
+> 
+> tinoman@uta:~$ iw reg get
+> country US:
+(...)
+> no se por que en debian 6 no cambia de US a JP
+
+Ah, ya sé... Puede ser que tengas que instalar el paquete "crda" desde 
+los backports.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k78jv7$eq2$1@ger.gmane.org
+

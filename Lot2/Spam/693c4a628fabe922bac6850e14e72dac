@@ -1,0 +1,74 @@
+Subject:failure notice
+Hi. This is the qmail-send program at qmail.fes.org.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<akennedy@onalaskaisd.net>:
+User and password not set, continuing without authentication.
+74.125.142.26 does not like recipient.
+Remote host said: 550-5.1.1 The email account that you tried to reach does not exist. Please try
+550-5.1.1 double-checking the recipient's email address for typos or
+550-5.1.1 unnecessary spaces. Learn more at
+550 5.1.1 http://support.google.com/mail/bin/answer.py?answer=6596 j18si4683751igc.64
+Giving up on 74.125.142.26.
+
+--- Below this line is a copy of the message.
+
+Return-Path: <bmccoy@gnisu.com>
+Received: (qmail 5154 invoked by uid 89); 9 Dec 2012 17:32:33 -0000
+Received: by simscan 1.4.0 ppid: 5149, pid: 5150, t: 0.7788s
+         scanners: attach: 1.4.0 clamav: 0.95.3/m:54/d:13850 spam: 3.2.5
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.2.5 (2008-06-10) on qmail.fes.org
+X-Spam-Level: ******
+X-Spam-Status: Yes, score=6.0 required=3.5 tests=BAYES_50,DATE_IN_FUTURE_06_12,
+	HTML_MESSAGE,MIME_HTML_ONLY,RCVD_IN_BL_SPAMCOP_NET,RDNS_NONE,SARE_UNI
+	autolearn=no version=3.2.5
+X-Spam-Report: 
+	*  1.9 DATE_IN_FUTURE_06_12 Date: is 6 to 12 hours after Received: date
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.0 BAYES_50 BODY: Bayesian spam probability is 40 to 60%
+	*      [score: 0.5071]
+	*  1.5 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.6 SARE_UNI RAW: SARE_UNI
+	*  2.0 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+	*      [Blocked - see <http://www.spamcop.net/bl.shtml?46.17.6.68>]
+	*  0.1 RDNS_NONE Delivered to trusted network by a host with no rDNS
+Received: from unknown (HELO srv1.ml-webdesign.nl) (46.17.6.68)
+  by qmail.fes.org with SMTP; 9 Dec 2012 17:32:32 -0000
+Message-Id: <12888-942-437VHHT6JYM9CNC1VRK5FK8YIPVKBZXWWNMX-20121209-fbdc93afc5754@gnisu.com>
+Date: Sun, 9 Dec 2012 18:32:34 -0700
+From: "Lola Stuart" <bmccoy@gnisu.com>
+To: akennedy@onalaskaisd.net
+Subject: [SPAM] You have notifications pending
+MIME-Version: 1.0
+Content-type:text/html;charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Spam-Prev-Subject: You have notifications pending
+
+<html>
+<head></head>
+<body style="margin: 0; padding: 0;" dir="ltr">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;width:98%;" border="0"><tr><td style="font-size:12px;font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;width:620px;"><tr><td style="font-size:16px;font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;background:#3b5998;color:#FFFFFF;font-weight:bold;vertical-align:baseline;letter-spacing:-0.03em;text-align:left;padding:10px 38px 4px;"><span style="background:#3b5998;color:#FFFFFF;font-weight:bold;font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;vertical-align:middle; font-size:16px;letter-spacing:-0.03em;text-align:left;vertical-align:baseline;">You have notifications pending</span></td></tr></table>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;width:620px;"><tr><td style="padding:10px 20px;background-color:#fff;border-left:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #ccc;border-bottom:1px solid #ccc;line-height:16px;">
+<table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:10px 20px;line-height:16px;width:620px;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:13px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;">Hi,</td></tr><tr><td style="font-size:13px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:10px 0 15px 0;">Here's some activity you have missed.</td></tr><tr><td height="1" style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;background-color:#ccc;"></td></tr><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:15px 20px 15px 0;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td valign="top"><a href="http://www.ahatravel.com/live/docs/work/space/" style="color:#3b5998;text-decoration:none;font-size:13px;">3 friend request</a></td></tr>
+</table>
+</td></tr></table>
+</td></tr><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:10px 0 15px 0;">
+<table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;width:100%;"><tr><td style="padding:10px;background-color:#f2f2f2;border-left:none;border-right:none;border-top:1px solid #ccc;border-bottom:1px solid #ccc;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding-right:10px;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="border-width: 1px; border-style: solid; border-color: #29447E #29447E #1a356e; background-color: #5b74a8;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:2px 6px 4px;border-top:1px solid #8a9cc2;"><a href="http://www.ahatravel.com/live/docs/work/space/" style="font-weight: bold; color: #fff; font-size: 13px; text-decoration:none;">Go To Profile</a></td></tr></table>
+</td></tr></table>
+</td><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="border-width: 1px; border-style: solid; border-color: #999 #999 #888; background-color: #eee;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:2px 6px 4px;border-top:1px solid #fff;"><a href="http://www.ahatravel.com/live/docs/work/space/" style="font-weight: bold; color: #333; font-size: 13px; text-decoration:none;">See All Notifications</a></td></tr></table>
+</td></tr></table></td></tr></table></td></tr></table>
+</td></tr></table></td></tr></table></td></tr></table>
+<table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;width:620px;"><tr><td style="padding:10px;background-color:#fff;border-left:none;border-right:none;border-top:none;border-bottom:none;font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;color:#999999;border:none;">This message was sent to akennedy&#064;onalaskaisd.net. If you don't want to receive these emails in the future, please click: <a href="http://www.ahatravel.com/live/docs/work/space/" style="color:#3b5998;text-decoration:none;">unsubscribe</a>.<br /> Department 973 P.O Box 14378 Palo Alto CA 89365 </td></tr></table></td></tr></table>
+</body></html>
+

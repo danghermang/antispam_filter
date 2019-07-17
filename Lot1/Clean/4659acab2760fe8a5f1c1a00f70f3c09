@@ -1,0 +1,29 @@
+Subject:Re: [squeeze] =?ISO-8859-1?B?ZXjpY3V0ZXI=?= des commandes avec
+	droits root =?ISO-8859-1?B?KGh5cG90aOhzZQ==?= sudo)
+Bonjour,=20
+
+Le Sat, 3 Nov 2012 11:02:40 +0100, Jean-Michel OLTRA, vous avez =E9crit :
+
+> Quels sont les droits du fichier
+> qui est dans sudoers.d/ ? Si il n'est pas en 440, mets le en 440 et
+> r=E9-essaie. J'ai eu le cas derni=E8rement avec un coll=E8gue root sur une
+> de nos machines ayant =E9dit=E9 un fichier identique avec les mauvais
+> droits.
+
+Les droits sont bien 440
+L'utilisateur est bien dans le group sudo
+
+
+--
+Cordialement=20
+Gr=E9gory BULOT
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121103152436.3ab963cb@roland.bulot-fr.com
+

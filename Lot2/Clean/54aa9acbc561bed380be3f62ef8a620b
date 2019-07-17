@@ -1,0 +1,188 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Alan, and Alan,
+
+These things were commented on during the past emails, and were added to my 
+tech note
+http://puhep1.princeton.edu/~mcdonald/examples/power.pdf
+
+To recapitulate (and to give somewhat greater detail):
+
+We first introduce the notion of the effective permeability of the rod as 
+follows.
+
+If the loop/coil, of area A, is in a uniform external field B (perp to the 
+plane of the loop), the magnetic flux thru the loop/coil is
+Phi_0 = B A           -- if no ferrite.
+
+When the ferrite is added, the flux thru the loop/coil increases to a larger 
+value Phi,
+
+We define the effective permeability of the ferrite, mu_eff, as
+mu_eff = Phi / Phi_0.
+
+An immediate consequence is that if the external field is oscillating, the 
+open-circuit voltageV_oc  (at a small gap somewhere in the loop/coil), which 
+is proportional to the magnetic flux times the oscillation frequency, goes 
+up by
+mu_eff.
+
+V_oc_rod = mu_eff V_oc_no_rod
+
+In general, mu_eff is less than the (relative) permeability mu of the 
+material of the rod.  Only for an infinitely long rod does
+mu_eff_long rod = mu.
+At the other extreme, if the "rod" is just a thin disc that fits inside the 
+loop,
+mu_eff_disk = 1.
+
+--------------------
+Meanwhile, Radiation resistance (of any "magnetic" antenna) is proportional 
+to the square of the magnetic moment (of the antenna system).
+
+If the loop/coil has no ferrite its magnetic moment is just
+m_0 = N I A
+when the loop, of N turns, carries current I.
+
+When a ferrite rod is introduced inside the loop, it takes on a magnetic 
+moment= m_rod.   The total magnetic moment is
+m = m_0 + m_rod.
+
+The magnetic moment of the rod is the integral of the magnetization density 
+M inside the rod
+m_rod = int M dVol
+
+The magnetization density M is related by
+M = (mu - 1)H
+where mu is the relative permeability of the rod.
+
+In case of a very long rod of length d, Ampere's law tell us that
+H d = N I
+when the loop carries current I.
+
+The magnetic moment of the rod is
+m_rod = int M dVol
+    = H d A
+    = (mu - 1) N I A
+    = (mu - 1) m_0.
+
+At the other extreme, for a thin disk, the volume is zero, and
+m_rod = 0
+
+So the total magnetic moment is
+m = m_0 + m_rod = mu m_0        for very long rod
+                               = m_0             for rod = disk
+
+In general, m = mu_eff m_0
+
+The above argument does not strictly prove that the mu_eff used here is the 
+same as the mu_eff used before when considering the increase in "captured" 
+flux when the rod was added --- but they are the same.
+
+So, Rrad ~ m^2 ~  (mu_eff)^2
+
+-----------------
+Hence, IF the antenna could be matched with R = Rrad,
+then
+V_oc^2 /Rrad = power received by the antenna
+is the same with and without the rod.
+
+Since Rrad is very small for a small loop/coil, this ideal result is hard to 
+achieve in practice -- and could be achieved only for a system with an 
+extremely small bandwidth.     A superconducting loop antenna, however, can 
+be built with Rload = Rrad.    This was first done in 1969:
+http://puhep1.princeton.edu/~mcdonald/examples/EM/walker_jap_40_2035_69.pdf
+
+----------------
+The last step in the argument concerns the inductance
+L = flux thru loop/coil / I
+when the loop/coil carries current I.
+
+With no ferrite,  a coil of length d_coil that carries current I has
+H = N I / d_coil
+B = mu_0 N I /d_coil
+flux = N B A / d_coil
+       = mu_0 N^2 A I / d_coil
+so
+L_0 = mu_0 N^2 A / d_coil.
+
+When a rod of length d is added, H changes as discussed before, so that the 
+inductance increases by
+a factor of mu, to mu L_0, for very long rod, but stays at L_0 for a thin 
+disk.
+
+In general,
+L = mu_eff L_0
+where mu_eff is the same quantity as appears in the expression for Rrad. 
+As before, we claim that this is the same mu_eff as appears in the 
+discussion of "capturing" flux from an external magnetic field.
+
+Reminder:
+V_oc = mu_eff V_oc_0
+
+Rrad = mu^eff^2 Rrad_0
+
+--Kirk
+
+PS    The practical challenge is to evaluate mu_eff for "short" rods of 
+arbitrary length d and area A, and for arbitrary intrinsic (relative) 
+permeability mu.
+
+This is complicated, and no simple formula applies for all values of d/A and 
+mu.
+
+Alan P's "theory" is just a new formula that applies for some range of 
+values of these parameters.
+
+
+
+
+-----Original Message----- 
+From: Alan Payne
+Sent: Friday, November 02, 2012 3:31 PM
+To: antenna-discussion@antennex.com
+Subject: [Antenna-discussion] Ferrite Antennas
+
+
+Alan B
+
+
+Yes the radiation resistance increases by 25^2. As for the inductance, this 
+increases by about the same amount, and I give accurate equations in my 
+article 'The Inductance of Ferrite Rod Antennas', antennex, July 2011.
+On reflection there is clearly a close relationship between the gain of the 
+ferrite to an EM wave and the increase in inductance, and it is on my to-do 
+list, when I get some time.
+
+
+Alan P
+
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this 
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm 
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

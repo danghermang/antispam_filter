@@ -1,0 +1,35 @@
+Subject:Re: Derechos de lectura por defecto en la clave privada de la CA
+El Fri, 26 Oct 2012 17:52:12 +0200, Francesc Guitart escribió:
+
+> Estoy en squeeze haciendo pruebas con HTTPS y para ello he creado una CA
+> y un certificado de servidor con el script CA.pl.
+> 
+> Me extraña ver que por defecto deja las claves privadas con permisos de
+> lectura incluido el directorio /usr/lib/ssl/misc/demoCA/private donde va
+> la clave privada de la CA.
+
+Supongo que por los permisos del propio directorio donde se generan las 
+claves se creará un archivo con el modo 644 (lectura/escritura para el 
+propietario y lectura por el grupo y resto).
+
+> Alguien sabe una razón de porque esto es así? Me extraña que se trate de
+> un descuido del creador del script...
+
+Bueno, en todos las instrucciones que he leído donde se detalla el 
+proceso para la instalación de un certificado (bien sea autogenerado o 
+expedido por una CA autorizada) siempre recuerdan la necesidad de 
+proteger archivo del certificado (.crt) y la clave (.key), es decir, 
+ponerlo en modo 0400 para que sólo sea legible por el usuario propietario 
+del archivo, que suele ser root.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k75crk$87n$4@ger.gmane.org
+

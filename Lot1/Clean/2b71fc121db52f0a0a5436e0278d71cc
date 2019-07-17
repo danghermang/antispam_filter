@@ -1,0 +1,83 @@
+Subject:Re: [Flexradio] PSDR and Windows 8 upgrade
+It works fine - for me....  I have a dual SSD boot machine with Win 8 64 and Win 7 64.   Everything
+runs without issue.  VAC, PowerSDR, Virtual Com Ports etc, Mini Deluxe, DDUTIL etc etc etc.
+I've been running the Beta for a while, last week I transitioned the Beta to the Retail version
+from MSDN.    Not found a single app that I use that won't work as I expect.
+
+And I am loving the Metro interface from a development point of view...  but I am a Windows Phone
+developer too....so it meets my needs.   YMMV.
+
+--
+Richard A Clafton | the brITish guy | W5\G7EIX
+RIROC - Hosting -  Development - Technology
+http://www.riroc.com | rclafton@riroc.com
+"Jack of all trades, master of none, though often better than the master of one."
+
+
+-----Original Message-----
+From: FlexRadio [mailto:flexradio-bounces@flex-radio.biz] On Behalf Of James Austin
+Sent: Wednesday, October 24, 2012 8:52 AM
+To: Robert Costa, KB6QXM
+Cc: FlexRadio@flex-radio.biz
+Subject: Re: [Flexradio] PSDR and Windows 8 upgrade
+
+For running your Flex and it's associated applications, there is no
+advantage over Win7-64.
+
+They made some significant changes to the GUI, removed the start
+button, replacing it with a brand new full screen start screen, moved
+a bunch of stuff around, etc. Personally, I find important parts of it
+awkward to use with a keyboard and mouse.
+
+I would read some reviews on the internet before upgrading your
+computers. If you do choose to upgrade, do an image backup of your
+Win7 system ahead of time, so you can get it back if you don't like
+Win8. Better yet, install it on a spare hard drive and evaluate it
+there first.
+
+I use it every day at work out of necessity and have no desire to
+upgrade my Win7 system at home. My Flex and every other piece of
+software I use is running fine, nothing gained by rocking the boat.
+
+Jim KA2RVO
+
+On Wed, Oct 24, 2012 at 9:23 AM, Robert Costa, KB6QXM <kb6qxm@yahoo.com> wrote:
+>
+> All,
+>
+> Considering the inexpensive upgrade to Windows 8, is anyone else considering the move to their
+Flex PC on October 26th.
+>
+> I am wondering what the advantages of the OS will be over say Win7-64.
+>
+> I wonder about compatibility with 3rd party Flex applications.
+>
+> 73,
+> Robert
+> KB6QXM
+> "Ham Radio Open Conversation"
+> Yahoo group owner/moderator
+>
+>
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/
+
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

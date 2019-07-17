@@ -1,0 +1,269 @@
+Subject:Re: [Antenna-discussion] 1/2-wave vertical really needs a ground
+	plane?
+Ward
+
+Yes, well I was being a stickler but I was using 'dipole' in more of
+the original sense of equal and opposite charges, as is the case with
+a centre-fed dipole.  I guess things like a Windom are also described
+as dipoles now so we must go with the flow.
+
+The main point was that a vertical dipole that does not connect to the
+ground does not need ground wires.
+
+Alan G3NOQ
+
+
+
+On 8 November 2012 16:06, ward <ward2@ussu.us> wrote:
+> Alan:
+>    I hate to fall into the 'stickler' category but I feel
+> inclined to at this point because it raises an important
+> point.
+>    There are plenty of 'dipoles' which are not centre
+> fed; the Carolina Windom being a prime example.
+> Resonant, half wave dipoles can be fed nearly
+> anywhere including so close to the end as to appear
+> end fed=85..
+>
+> I use the term 'dipole' to convey the RF currents on
+> the wire, not the location of the feed point.  Indeed,
+> I'd go so far as to say there needn't be an explicit feed
+> point.  For example, a Yagi-Uda director is a dipole
+> but has no feed 'point'.
+>
+> Again, sorry to fall into the stickler category.
+>
+> ward
+>
+> On Nov 8, 2012, at 3:50 AM, boswell alan wrote:
+>
+> Ward
+>
+> To address your point literally, a halfwave vertical 'dipole' is fed
+> at its centre, by definition.  Assuming the lower end is above ground,
+> radials are not needed.  That is because the ground currents
+> associated with groundwave propagation are radial, so there is nowhere
+> for them to flow at the point directly under the antenna, therefore
+> they must be zero there.  At other points in the near field region the
+> currents are not zero but are much less than with a ground-based
+> antenna.
+>
+> That is easily confirmed by a quick NEC run.
+>
+> Alan G3NOQ
+>
+>
+>
+>
+>
+>
+> On 7 November 2012 15:14, ward <ward2@ussu.us> wrote:
+>> As seems often to be the case, this discussion is getting away from
+>> the original question and I suppose I'm at fault as much as anyone.
+>>
+>> The original question concerned the need for radials for a half
+>> wave, vertical dipole antenna.
+>>
+>> There were several responses indicating that yes, radials were
+>> absolutely necessary.
+>>
+>> One of the responses showed that you needed a small 'counterpoise'
+>> which was around 1/20th of a wavelength long.  This was needed
+>> to provide the 'second terminal' of the feed line so a to balance
+>> feed line currents. There are arguments about the mechanism, but
+>> generally folks agree you need this small counterpoise or the
+>> feedline will fill in.  The currents are quite small.
+>>    I generally think of this as an extremely off-center-fed,
+>> resonant, half wave dipole.  We all have different thinking models.
+>>
+>>
+>> Another response referenced the traditional 'you need scads
+>> of radials to carry the huge, RF return currents'.  This article
+>> discuss MONOPOLES which DO have huge currents flowing
+>> in the 'radials'.  These are different beasts.
+>>
+>> So, the original answer is: you do need a relatively small
+>> 'counterpoise' to balance the feed line currents but you don't
+>> need radial fields in the ground or big radials lofted in the air.
+>>
+>> ward
+>>
+>>
+>> On Nov 7, 2012, at 4:24 AM, boswell alan wrote:
+>>
+>> Ward
+>>
+>> An end-fed halfwave can be resonant but it only has one terminal - the
+>> end of the wire.  Some other structure is needed to connect the other
+>> side of the feeder to.  That other piece is also part of the antenna.
+>>
+>> If the end-fed is fed from the centre of a coax cable, the current on
+>> the inner side of the sheath wraps round and travels back down on the
+>> outer of the cable, so it becomes a radiating wire :)
+>>
+>> Alan G3NOQ
+>>
+>>
+>>
+>>
+>>
+>>
+>> On 7 November 2012 06:30, ward <ward2@ussu.us> wrote:
+>>> Thanks!
+>>>   I was interested to read he made an exception for center fed, half wa=
+ve
+>>> vertical dipoles and the 'coaxial' (sleeve) dipole.
+>>>   It is interesting to point out he does not include the Jpole or a ver=
+tical
+>>> implementation of the Zepp.  I think this is an oversight.
+>>>
+>>>
+>>> A critical piece of the puzzle is:
+>>>
+>>>   "The reason for radials is to collect RF currents and return them to =
+the feed point
+>>>     since you don't have the other half of the antenna to do that, the =
+part that would make it a dipole."
+>>>
+>>> BUT, an end fed, resonant half wave vertical dipole DOES have 'the othe=
+r half of
+>>> the antenna' =85 'the part that would make it a dipole'.
+>>>
+>>> I'd accept the generalization for antennas which are NOT dipoles but I =
+have
+>>> problems with it as a universal truth.
+>>>
+>>> ward
+>>>
+>>>
+>>>
+>>> On Nov 6, 2012, at 5:32 PM, Mike Waters wrote:
+>>>
+>>> It's at:
+>>>
+>>> "http://www.w0btu.com/Optimum_number_of_ground_radials_vs_radial_length=
+.html#noground"
+>>>
+>>> 73, Mike
+>>> www.w0btu.com
+>>>
+>>> On Tue, Nov 6, 2012 at 7:15 PM, ward <ward2@ussu.us> wrote:
+>>>> Mike:
+>>>> I can't find where in your
+>>>> previous posts you link to a page which explains
+>>>> "why an end-fed needs a ground".
+>>> _______________________________________________
+>>> This message was sent to: ward2@ussu.us
+>>> Antenna-discussion mailing list
+>>> Antenna-discussion@antennex.com
+>>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>> For Upload of Attachments:
+>>> http://download.antennex.com/listarch/psupload.html
+>>> Searchable Archives:
+>>> http://www.antennex.com/listlogin/
+>>> To unsubscribe:
+>>> Go to the web page link below and unsubscribe the above email address t=
+his message was sent to.
+>>>
+>>> Go to this web page - no passwd needed:
+>>> http://antennex.com/help/subscribe.htm
+>>>
+>>>
+>>> _______________________________________________
+>>> This message was sent to: alan.boswell@blueyonder.co.uk
+>>> Antenna-discussion mailing list
+>>> Antenna-discussion@antennex.com
+>>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>> For Upload of Attachments:
+>>> http://download.antennex.com/listarch/psupload.html
+>>> Searchable Archives:
+>>> http://www.antennex.com/listlogin/
+>>> To unsubscribe:
+>>> Go to the web page link below and unsubscribe the above email address t=
+his message was sent to.
+>>>
+>>> Go to this web page - no passwd needed:
+>>> http://antennex.com/help/subscribe.htm
+>>
+>> _______________________________________________
+>> This message was sent to: ward2@ussu.us
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address th=
+is message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>>
+>>
+>> _______________________________________________
+>> This message was sent to: alan.boswell@blueyonder.co.uk
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address th=
+is message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>
+> _______________________________________________
+> This message was sent to: ward2@ussu.us
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address thi=
+s message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+>
+>
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address thi=
+s message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots=
+.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

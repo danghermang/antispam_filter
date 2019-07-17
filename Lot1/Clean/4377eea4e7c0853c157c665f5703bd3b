@@ -1,0 +1,25 @@
+Subject:Re: Rolling release
+Le 09/11/2012 15:53, Danilo Uccelli a écrit :
+> Bonjour les gourous de Debian,
+>
+> Est-il possible de configurer une Debian de façon à avoir quelque 
+> chose qui s'approche d'une rolling release pour un desktop ?
+
+Pour, moi, c'est ce que j'ai en suivant Debian unstable (sid).
+Je peux comprendre que ça fasse peur, et on peut donc rétrograder en 
+suivant testing (actuellement wheezy)...
+Encore en dessous, mais ce n'est plus vraiment l'esprit rolling-release, 
+il y a stable (squeeze) + backports.
+
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/509D2488.50100@nuagelibre.org
+

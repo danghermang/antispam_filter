@@ -1,0 +1,99 @@
+Subject:Re: [OT] Huayra: un GNU/Linux para las netbooks de "Conectar
+	Igualdad"
+Mis impresiones con Huayra.
+
+Van a ir de a una, a la medida que vayan saliendo.
+
+Bajé ambos archivos disponibles en
+http://huayra.educ.gov.ar/
+
+Arranqué el sistema sobre una virtual VirtualBox, por lo que no tengo 
+cómo saber si funcionará sobre las "netbook" para las cuales está diseñado.
+Tiene dos opciones de arranque: "Huayra (live-cd)" y "Huayra (arranque 
+seguro)". Podrían haber escrito en castellano "en vivo" en vez de usar 
+inglés.
+
+Probando "live-cd".
+Inicia con Gnome. No me gusta Gnome. Para un escritorio pesado, prefiero 
+KDE, para uno liviano, lxde. Y menos para chicos que en la vida vieron 
+GNU/Linux.
+El fondo de pantalla es horrible, deprimente. Habiendo tanto artista 
+gráfico en la Universidad de Buenos Aires, podrían haber hecho algo más 
+alegre.
+Intentó conectarse por samba a la "red del colegio". No entiendo cómo se 
+le va a enseñara usar GNU/Linux si el "profe" usa MS-Windows.
+Los repositorios que usa la disribución son
+deb http://ftp.ccc.uba.ar/pub/linux/debian/debian/ wheezy main contrib 
+non-free
+deb-src http://ftp.ccc.uba.ar/pub/linux/debian/debian/ wheezy main 
+contrib non-free
+Son las mismas que uso yo, andan muy bien, salvo que yo las hubiera 
+apuntado por ftp y no por http, porque andaría mejor.
+Y le hubiese añadido ftp.deb-multimedia.org.
+
+Instalando al rígido.
+El selector de idiomas arranca por defecto en inglés, ¿qué costaba 
+pasarlo a castellano de una? En el único lugar que los argentinos 
+hablamos en inglés es en Malvinas.
+Para peor, la selección de idiomas es el horrible "Spanish" de Debian, y 
+no el "Castellano" que correspondería. ¿Cuándo van a entender que el 
+"Español" no existe? A ver, catalanes, gallegos, vascos, asturianos y, 
+por qué no, castellanos, pónganse las pilas y traten que Debian tenga un 
+selector de idiomas más acorde a la realidad.
+El selector de idiomas me manda a... ¡"España"! ¿No era de Argentina la 
+distro?
+Es exactamente el instalador de Debian, en modo automático, sólo 
+cambiado el logotipo superior que dice Huayra.
+La réplica de red del instalador sigue teniendo el mismo problema de Debian.
+Por alguna razón, a principio de año la UBA cambió de 
+ftp.ccc.uba.ar/pub/linux/debian/ a ftp.ccc.uba.ar/pub/linux/debian/debian/.
+En la página de espejos http://www.debian.org/mirror/list lo arreglaron, 
+pero no en el instalador.
+La instalación transcurre sin ningún inconveniente.
+
+Paquetes instalados.
+Veo unos cuantos, sobre todo los educativos como gcompris, de los que 
+nada puedo decir, dado que son Debian.
+Pero hay un par de perlitas.
+La menos importante: ¿por qué no incluye a krusader y deja huérfano a 
+mc?, que si bien uno acostumbrado a la consola lo entiende, para chicos 
+acostumbrados al GUI, se les complica.
+La más importante: si es una derivada de Debian, ¿por qué incluir 
+ThunderBird y FireFox en lugar de IceDove y IceWeasel? Se evitarían los 
+problemas de actualización al estar los últimos en los repositorios de 
+Debian.
+
+Resumen general.
+La distribución no es ni más ni menos que unos cuantos programas de 
+Debian "wheezy" cargados a una máquina y luego procesados con 
+live-helper o algo por el estilo. Tan es así, que una vez instalado, 
+hasta los logos son los de Debian.
+Como distribución, no es ni buena ni mala, dado que no es ni más ni 
+menos que Debian "wheezy". Y tiene todas sus ventajas y desventajas.
+Ahora bien, salvo el fondo de pantalla y el logo de Huayra que reemplaza 
+al de Debian, no veo valor agregado a una Debian "wheezy"; mi máquina 
+está mejor y tiene muuuuucho tiempo y esfuerzo extra.
+En eso, es muy superior el trabajo de las Universidad Austral de Chile y 
+Faculdade Metropolitana de Guaramirim (Brasil) con BRLix (ex Famelix), 
+sobre todo en lo que implica la ardua tareas de migrar a alumnos y 
+profesores Windows-dependientes.
+
+Por lo que, si el señor desarrollador de esta distribución lo hizo en su 
+tiempo libre durante un fin de semana, lo felicito porque es un buen 
+comienzo.
+
+Si cobró dineros del Estado  Argentino para hacerlo (o sea, la que 
+ponemos nosotros, el 45% de origen húngaros en la población), ES UN 
+CARADURA TÍPICO NAC&POP.
+
+Dios es tan grande, que aún las peores personas por lo menos sirven de 
+mal ejemplo, y aunque más no sea por el absurdo, algo bueno hacen.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A0E5F7.9070504@gmail.com
+

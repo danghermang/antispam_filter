@@ -1,0 +1,67 @@
+Subject:Re: =?UTF-8?B?UHJvYmzDqG1l?= d'affichage en lecture
+	=?UTF-8?B?dmlkw6lv?=
+On Tue, 11 Dec 2012 00:39:50 +0100
+Ga=C3=ABtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+
+> > Quand tu dis "aucun soucis" est-ce que tu veux bien dire qu'en inversant
+> > les monitors et les branchements le PB n'appara=C3=AEt pas sur le dell?
+>=20
+> Non juste qu'avec le DELL branch=C3=A9 en DVI je n'ai pas de soucis.=20
+
+Ben d=C3=A9j=C3=A0, faudrait (pikel'dell a aussi une entr=C3=A9e HDMI), =C3=
+=A7a l=C3=A8verait
+tout doute sur l'org du PB (=C2=B5 ou tv).
+
+> > As-tu essay=C3=A9 les 4 entr=C3=A9es HDMI du sony?
+>=20
+> Non une seule, j'essaierai les autres demain soir.
+
+Il faut proc=C3=A9der par =C3=A9limination, donc _tout_ essayer (la prise H=
+DMI
+utilis=C3=A9e a pt=C3=AAt un d=C3=A9faut de blindage ou un autre PB).
+
+ET essayer avec un autre c=C3=A2ble, juste au cas o=C3=B9 (surtout s'il est=
+ long).
+
+> > Il existe un firmware r=C3=A9cent pour ton sony (2012-10-01), donc poss=
+ible
+> > que =C3=A7a r=C3=A9solve ton PB:
+> > http://www.sony.fr/support/fr/product/KDL-40EX500
+>=20
+> Oui il est d=C3=A9j=C3=A0 =C3=A0 jour.
+=20
+Remarque, chez sony =C3=A7a ne veut pas dire grand chose...  Vu le peu
+de cas qu'ils font de leurs clients.
+
+> > Et il semble que ton PB ait des ptits fr=C3=A8res, typiquement li=C3=A9s
+> > au HDMI (ordre d'allumage des devices et autres joyeuset=C3=A9s):
+> > http://www.digitalhome.ca/forum/showthread.php?t=3D134983
+> >=20
+>=20
+> Merci pour le lien.
+
+Ben 'gade les 2 FAQs en lien dans le 2nd post, je n'ai pas tout l=C3=BB
+mais on ne sait jamais.
+
+--=20
+Skylab: Joyeux No=C3=ABl tout le monde
+Skylab: Allo ?
+Skylab: Ne faites pas semblant d'=C3=AAtre occup=C3=A9 en famille, bande de=
+ geeks,
+        je sais tr=C3=A8s bien que vous =C3=AAtes plant=C3=A9s devant vos o=
+rdis !
+Pauk: Joyeux no=C3=ABl skylab
+Artam: Joyeux No=C3=ABl
+Nuxy: Noyeux jo=C3=ABl
+Danap: Joyeux No=C3=ABl
+Auxax: Joyeux No=C3=ABl
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121211005241.18acabc3@anubis.defcon1
+

@@ -1,0 +1,49 @@
+Subject:Re: impossible ouvrir mon compte =?windows-1252?Q?invit=E9?=
+
+
+Le 25/09/2012 18:33, Nicolas Hémard a écrit :
+>> -rw-r----- 1 root adm 638679 sept. 19 17:19 messages
+>> -rw-r----- 1 root adm 105069 sept. 19 17:19 syslog
+>
+> *Ils ne sont visiblement pas vides... Pourquoi n'ai-je pas l'autorisation?*
+Questions bêtes : As-tu essayé de les lire avec le root de la machine ? ou bien est-ce que 
+ton utilisateur est dans le groupe adm pour avoir au moins les droits en lecture ?
+>> Est-tu sûr de ton pager (des fois less s'emmêle les pinceaux) ?
+> *[??]*
+>
+>
+> Le 25/09/2012 18:22, Sébastien NOBILI a écrit :
+>> Le mardi 25 septembre 2012 à 18:02, Nicolas Hémard a écrit :
+>>> /var/log/syslog est vide
+>>> /var/log/Xorg.0.log, est en PJ (je n'y comprends rien)
+>>> /var/log/messages  est vide
+>> [...]
+>>
+>>> Le 25/09/2012 17:52, Sébastien NOBILI a écrit :
+>>>> Le mardi 25 septembre 2012 à 17:35, Nicolas Hémard a écrit :
+>>>>> .xsession-errors
+>>>>> .xsession-errors.old
+>>>>>
+>>>>> Chacun affiche une page vide...
+>> Ça fait beaucoup de fichiers vide tout ça… Est-tu sûr de ton pager (des fois
+>> less s'emmêle les pinceaux) ? Fais un « ls -l » dessus pour vérifier si ils sont
+>> bien vides et si c'est le cas, regarde dans leur équivalent en « .0 » (généré
+>> par logrotate).
+>>
+>> Pour le Xorg.0.log, en effet, il ne semble pas y avoir de souci.
+>>
+>> Seb
+>>
+++
+
+Mourad
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50622298.3000700@nativobject.net
+

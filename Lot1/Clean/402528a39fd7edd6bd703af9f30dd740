@@ -1,0 +1,33 @@
+Subject:Re: Route statique avec 2 passerelles
+François TOURDE a écrit :
+> Pascal Hambourg écrivait:
+> 
+>> Dans le temps on pouvait utiliser l'option "source routing" dans
+>> l'en-tête des paquets IP, mais elle est ignorée voire bloquée par la
+>> plupart des routeurs à cause des problèmes de sécurité qu'elle pose.
+> 
+> Mais ce n'était valable qu'avec plusieurs interfaces sur la machine, il
+> me semble. Tu routais les paquets selon l'interface par laquelle ils
+> étaient arrivés.
+
+Je pense que tu confonds avec le routage avancé basé sur l'adresse
+source ("source-based routing") ou l'interface d'entrée. Je parlais de
+l'option "source routing" du protocole IP qui permet à l'émetteur d'un
+paquet de spécifier dans l'en-tête du paquet la route qu'il doit
+emprunter, saut par saut :
+<http://en.wikipedia.org/wiki/Source_routing>
+
+> Par contre, tu as un lien ou plus de détails sur cette notion de
+> problèmes de sécurité?
+
+C'est mentionné dans l'article pointé ci-dessus.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B9F6C3.9070301@plouf.fr.eu.org
+

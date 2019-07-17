@@ -1,0 +1,26 @@
+Subject:Sobre grid computing
+=BFAlguien a desarrollado o hecho algun grid?
+
+He estado leyendo ya he realizado clusters en alta disponibilidad y
+alto desempe=F1o tipo beowulf, pero estoy interesado en el grid
+computing.
+
+Encontre el proyecto globus, no he podido hacer el laboratorio ni he
+podido probarlo por problemas durante la instalaci=F3n que aun estoy
+depurando.
+
+=BFConocen si ya tocaron este tema en esta lista?
+Encontre este link
+http://lists.debian.org/debian-user/2011/12/msg00466.html
+
+Gracias. Si alguien conce del tema cualquier comentario ser=EDa bienvenido.
+
+Por cierto ya he probado OpenMosix, pero ando buscando grid computing
+no load balancing.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAFGTKaj9itgC_CrPGmfHPOqsvVp8As3EKNuNoFRiDRZU-==aOA@mail.gmail.com
+

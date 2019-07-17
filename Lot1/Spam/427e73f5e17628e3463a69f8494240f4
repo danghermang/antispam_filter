@@ -1,0 +1,211 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<psduff@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <email@mailer.image-line.com>
+Received: (qmail 6309 invoked by uid 89); 11 Dec 2012 11:50:06 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 11 Dec 2012 11:50:06 -0000
+Delivery-date: Tue, 11 Dec 2012 03:48:27 -0800
+Received: from chrome-twfi.cccampaigns.net ([81.92.121.25]) helo=chrome-twfi.cccampaigns.net
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1TiOJv-000161-Ne on interface=184.105.182.43
+	for psduff@activ8.net.au; Tue, 11 Dec 2012 03:48:26 -0800
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=emv; d=mailer.image-line.com;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=email@mailer.image-line.com;
+ bh=FaLzQc8O2kzGO+gMtO1xlhcUhds=;
+ b=WArCxUPu3hhUVuwD/3ifNappYBuaC74cpjQvEpRg1P+Fg0KKKhYLH8jR5x/5TBK0dkzrK2AY3gBx
+   hgWh3+5AqwmbrD5EG6wsjcmLEa1HBoRzD2+cGxEwhNJlUM4CRsy5x37WhJRfhXTDT3tMpiPIzwML
+   zaAZbsAQSa2fp1xGLX0=
+Received: by chrome-twfi.cccampaigns.net id hoseo60hubcd for <psduff@activ8.net.au>; Tue, 11 Dec 2012 12:48:03 +0100 (envelope-from <email@mailer.image-line.com>)
+Date: Tue, 11 Dec 2012 12:48:03 +0100 (CET)
+From: The FL Studio Team <email@mailer.image-line.com>
+Reply-To: The FL Studio Team <reply@mailer.image-line.com>
+To: 1024926856461 <psduff@activ8.net.au>
+Message-ID: <2.1.5.1100005445.1111870241.1024926856461@mailer.image-line.com>
+Subject: End of World Madness? All plugins at $45. Win FLaunchpad!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary=11118702411024926856461
+X-EMV-Platform: cce.campaigncommander.com$
+X-EMV-CampagneId: 1111870241$
+X-EMV-MemberId: 1024926856461$
+List-Unsubscribe: <http://maillink.image-line.com/HD?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX7yUMfcStGb5lw8W0bBhOG5mpqVsje_HheCdZlN7>, <mailto:unsubscribe@mailer.image-line.com?subject=unsubscribe-5-ENX7CkeE64Ti8SA9MOAKENvnGHxKX7yUMfcStGb5lw8W0bBhOG5mpqVsje_HheCdZlN7>
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: email@mailer.image-line.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=cccampaigns.net - X=apn H=chrome-twfi.cccampaigns.net [81.92.121.25] HELO=[chrome-twfi.cccampaigns.net] F=[email@mailer.image-line.com] T=[psduff@activ8.net.au] S=[End of World Madness? All plugins at $45. Win FLaunchpad!]
+X-Sender-Host-Address: 81.92.121.25
+X-Sender-Host-Name: chrome-twfi.cccampaigns.net
+
+--11118702411024926856461
+Content-Type: text/plain; charset=iso-8859-15
+Content-Transfer-Encoding: 8bit
+
+
+If you can't read this mail please go to :
+
+http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70d8_cStGb5lw8W0bBhOG5mpqVsje_HheCdZlM_
+
+Enjoy!
+
+The Image-Line Team
+
+--11118702411024926856461
+Content-Type: text/html; charset=iso-8859-15
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+<style type="text/css">body {font: 13px tahoma, verdana, arial, sans-serif;color:#000000;margin:0px;}
+form{padding:0px;display:inline;margin:0px;}
+img{border:0px;}
+.no_u{text-underline:none;}
+h1,h2,h3,h4,h5{font-weight:bold;}
+div,li,h1,h2,h3,h4,h5,h6,p,form{margin:0;padding:0;}
+p,li{text-align:left;text-indent: 0px;}
+.ajl{background: #ffffff center no-repeat;}.mobile #content{padding: 0 5px;}
+.rvts0,td,p,h4{font-size:13px;color:#000000;vertical-align:top;text-align:left;}
+.rvps3{text-align:justify;}
+.rvps1{text-align:center;}
+.rvts4{font-size:13px;color:#aa630d;text-decoration:underline;}
+.rvts16{font: 15px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#000000;}
+.rvts8{font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#000000;}
+.rvts12{font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#aa630d;}
+</style>
+
+</head>
+<body style="background: #ffffff;"><p class="rvps3">
+<img border="0" src="http://webe.emv3.com/imageline/NewsLetterCommon/Image-Line_NewsLetter_Headder.png"></a></p>
+<table cellpadding="0" cellspacing="0" style="width:720px;" id="table_1">
+<tr valign="top"><td style="width:20px;"><p> </p>
+</td><td style="width:400px;"><p class="rvps1">
+<span style="font-weight:bold;font-size:16px;color:#000000;">End of WORLD? Madness </span>
+<span style="font-style:italic;font-size:16px;color:#000000;">All plugins $45! </span></p>
+<p class="rvps1"><br><a href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70d8PcStGb5lw8W0bBhOG5mpqVsje_HheCdZlM8" target="_blank">
+<img src="http://webe.emv3.com/imageline/2012_NewsLetter_December/EOW.jpg" width="370" border="1" vspace=""></a></p>
+<br>
+<p class="rvps3">
+<a class="rvts4" href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70d8fcStGb5lw8W0bBhOG5mpqVsje_HheCdZlM9"  title="2012 doomsday predictions" target="_blank">2012 doomsday predictions,</a> we've all heard them. Could 12/21/12 be the end as some say? Who knows! But we saw a pattern in those numbers, so powerful that we couldn't ignore it. All our plugins will now be $45 each <b>until the end of the world*</b> 
+<span style="font-size:13px;color:#800000;">Get ALL the plugins you want, first time, this offer expires once you use it! </span></p>
+<br>
+
+<img src="http://webe.emv3.com/imageline/NewsLetterJune2009/Separator.gif" width="400" height="15">
+<p class="rvps1">
+<span style="font-weight:bold;font-size:16px;color:#000000;">FL Studio </span>
+<span style="font-style:italic;font-size:16px;color:#000000;">10.9 Beta Out Now!</span></p>
+<br>
+<div align="center"><a href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70d9vcStGb5lw8W0bBhOG5mpqVsje_HheCdZlNC" target="_blank">
+<img src="http://webe.emv3.com/imageline/2012_NewsLetter_December/FLStudio109_370.jpg" border="1" vspace=""></a></div>
+<br>
+<p class="rvps3">Click above to get the latest FL Studio public beta. Please let us know if you have any issues in the FL Studio Public Beta forum linked in the same post. </p>
+<p class="rvps3"><br></p>
+
+<img src="http://webe.emv3.com/imageline/NewsLetterJune2009/Separator.gif" width="400" height="15">
+<br>
+<p class="rvps1">
+<span style="font-weight:bold;font-size:16px;color:#000000;">Toby Emerson Essentials </span>
+<span style="font-style:italic;font-size:16px;color:#000000;">Inc. Project Files</span></p>
+<p class="rvps1"><br><a href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70d9_cStGb5lw8W0bBhOG5mpqVsje_HheCdZlND" target="_blank">
+<img src="http://webe.emv3.com/imageline/2012_NewsLetter_December/TobyEmersonSynthEssentials.jpg" width="370" border="1" vspace=""></a></p>
+<p class="rvps1">
+<span style="font-weight:bold;font-size:16px;color:#000000;"><br></span></p>
+<p class="rvps3">Toby Emerson is known for his punchy synths, pulsing arpeggios and searing lead sounds. The Synth Essentials pack is perfect to give any project a modern edge. Click above to hear the demo and grab the pack.</p>
+<p class="rvps1">
+<span style="font-weight:bold;font-size:16px;color:#000000;"><br></span></p>
+
+<img src="http://webe.emv3.com/imageline/NewsLetterJune2009/Separator.gif" width="400" height="15">
+<br>
+<p class="rvps1">
+<span style="font-weight:bold;font-size:16px;color:#000000;">Arksun Presets </span>
+<span style="font-style:italic;font-size:16px;color:#000000;">Contest Winners</span></p>
+<br>
+<div align="center"><a href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70d9PcStGb5lw8W0bBhOG5mpqVsje_HheCdZlNA" target="_blank">
+<img src="http://webe.emv3.com/imageline/2012_NewsLetter_December/ArkSunHarmorSoundsWin.jpg" width="370" border="1" vspace=""></a></div>
+<br>
+<p class="rvps3">Check out the winning entries in the Arksun Harmor Demo Contest, if you like the presets you can grab them at the same link above.</p>
+<br>
+
+<img src="http://webe.emv3.com/imageline/NewsLetterJune2009/Separator.gif" width="400" height="15">
+<p class="rvps3">
+<span style="font-size:16px;color:#000000;">*</span>
+<span style="font-size:11px;color:#000000;">or 31 December 2012, which ever comes first. Image courtesy </span><a style="font-size:11px;color:#aa630d;text-decoration:underline;a.rvts6868951:hover{color:#000000;}
+" href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70d9fcStGb5lw8W0bBhOG5mpqVsje_HheCdZlNB"  title="Orignal Artist" target="_blank">François_Baranger</a>
+<span style="font-size:12px;color:#000000;">.</span></p>
+</td><td style="width:300px;"><div align="center"><table cellpadding="10" cellspacing="0" style="width:280px;background:#e5e5e5;" id="table_2">
+<tr valign="top"><td style="background: #d3d3d3;"><p class="rvps1">
+<span style="font-weight:bold;font-size:15px;color:#000000;">Performance Mode </span>
+<span style="font-style:italic;font-size:15px;color:#000000;">Competition</span></p>
+<p class="rvps1"><br><a href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70divcStGb5lw8W0bBhOG5mpqVsje_HheCdZlNG" target="_blank">
+<img src="http://webe.emv3.com/imageline/2012_NewsLetter_December/FLaunchpad.jpg" width="260" border="1" vspace=""></a></p>
+<p class="rvps3"><br></p>
+<p class="rvps3">This is your chance to WIN a very rare and exclusive FLaunchpad. Only 10 were ever made and two are up for grabs! Ends 7th January 2013.</p>
+<p class="rvps3"><br></p>
+<p class="rvps1">
+<span style="font-weight:bold;font-size:15px;color:#000000;">Fruity Love Philter </span>
+<span style="font-style:italic;font-size:15px;color:#000000;">New Forum</span></p>
+<br>
+<div align="center"><a href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70di_cStGb5lw8W0bBhOG5mpqVsje_HheCdZlNH" target="_blank">
+<img src="http://webe.emv3.com/imageline/2012_NewsLetter_December/LoveMe.jpg" width="260" border="1" vspace=""></a></div>
+<br>
+<p class="rvps3">Click above to check it out our latest preset sharing forum. Love Philter is one of the most powerful plugins you probably never used.</p>
+<p class="rvps3"><br></p>
+</td></tr></table>
+</div>
+<div align="center"><table cellpadding="10" cellspacing="0" style="width:280px;" id="table_3">
+<tr valign="top"><td style="background: #72a6bc;"><p class="rvps1">
+<span class="rvts16"><b>Power User News</b></span></p>
+<br>
+<div align="center"> <div align="center">
+   <map name=powermap>
+   <area href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70diPcStGb5lw8W0bBhOG5mpqVsje_HheCdZlNE" target="_blank" title="SoundTakt" coords="20,9,120,109">
+   <area href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70difcStGb5lw8W0bBhOG5mpqVsje_HheCdZlNF" target="_blank" title="Tritonal" coords="138,9,238,109">
+   </map>
+   
+<img src="http://webe.emv3.com/imageline/2012_NewsLetter_December/PowerUsersDec2012.png" alt="Power User Links" usemap="#powermap" border-color="#FFF" border=0 vspace=0 hspace=0 align="center">
+ </div></div>
+<br>
+<p class="rvps3">
+<span class="rvts8">We welcome SoundTakt &amp; Tritonal to the Power User ranks. If you know of any FL Studio power users not on our page, </span>
+<a class="rvts12" href="&#109;ailto&#58;press&#64;image-line&#46;com"  title="mail us" target="_top">let us know</a>
+<span class="rvts8">. </span></p>
+<p class="rvps3"><br></p>
+<p class="rvps1">
+<span class="rvts16"><b>EZGenerator 4</b></span></p>
+<br>
+<div align="center"><a href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70djvcStGb5lw8W0bBhOG5mpqVsje_HheCdZlNK" target="_blank">
+<img src="http://webe.emv3.com/imageline/NewsLetterEZGenerator4/Image-Line_EZGenMain.png" width="260" border="1"></a></div>
+<br>
+<p class="rvps1">
+<span class="rvts8"><b><i>make a complete website in EZG4</i></b></span></p>
+<p class="rvps3"><br></p>
+<p class="rvps3">
+<span class="rvts8"><b>Are you a Musician? </b></span>
+<span class="rvts8">Not only do we make all our own sites with EZGenerator (FL Studio, FL Studio Mobile, Deckadance &amp; EZGenerator), but many of our music software customers do too. Make a website for your band (with gig guides and calenders), publish your booking sheet, create RSS feeds and blogs, share your music or promote your audio business. </span></p>
+<br>
+</td></tr></table>
+</div>
+<div align="center"> <div align="center">
+   <map name=linkmap>
+   <area href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70dj_cStGb5lw8W0bBhOG5mpqVsje_HheCdZlNL" target="_blank" title="FL Studio @ Facebook" coords="25,18,281,50">
+   <area href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70djPcStGb5lw8W0bBhOG5mpqVsje_HheCdZlNI" target="_blank" title="Image-Line Software @ Facebook" coords="33,58,290,94">
+   <area href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70djfcStGb5lw8W0bBhOG5mpqVsje_HheCdZlNJ" target="_blank" title="FL Studio Twitter Feed" coords="14,100,285,135">
+   <area href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70dgvcStGb5lw8W0bBhOG5mpqVsje_HheCdZlNO" target="_blank" title="Image-Line RSS Feed" coords="32,145,283,185">
+   <area href="http://maillink.image-line.com/HS?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70dg_cStGb5lw8W0bBhOG5mpqVsje_HheCdZlNP" target="_blank" title="Image-Line @ YouTube" coords="33,193,263,229">
+   </map>
+   
+<img src="http://webe.emv3.com/imageline/NewsLetterCommon/Image-Line_SocialMedia.png" alt="Social Media Links" usemap="#linkmap" border-color="#FFF" border=0 vspace=0 hspace=0 width="280" align="center">
+ </div></div>
+<br>
+</td></tr></table>
+<br>
+<br>
+<span class="rvts8">&nbsp;&nbsp;You can unsubscribe <a class="rvts12" href="http://maillink.image-line.com/HD?a=ENX7CkeE64Ti8SA9MOAKENvnGHxKX70dgPcStGb5lw8W0bBhOG5mpqVsje_HheCdZlNM">here</a> (<b>note</b> : By unsubscribing you will miss all future update notices).</span>
+<img src="http://maillink.image-line.com/HO?DdX7CkeE64Ti8SA9MOPfG7_nGHxKbtg46wjtS5lETnNvKc4.gif" border="0" alt="" width="1" height="1"></body></html>
+--11118702411024926856461--
+

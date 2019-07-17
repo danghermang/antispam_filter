@@ -1,0 +1,99 @@
+Subject:Re: [EVDL] Power Consumption Question
+Watt-hours is a better measure because it takes voltage into account and is
+easier to compare numbers from different packs/vehicles.
+
+Amp-hours may be easier to keep track of range within a specific
+pack/vehicle because the amp-hours available will vary less than the
+watt-hours available; you should be able to more consistently estimate
+available and remaining range using amp-hours than watt-hours (assuming you
+have previous data from that pack to compare to).
+
+-Morgan
+
+On Mon, Oct 29, 2012 at 9:48 AM, Pestka, Dennis J <
+Dennis.Pestka@covidien.com> wrote:
+
+> This is why I always thought that it would be better to talk watt-hours
+> per mile, but I thought that there was some previous discussion that
+> amp-hours was a better way to describe it.
+>
+> Thanks;
+> Dennis
+> Elsberry, MO
+> http://www.evalbum.com/1366
+> http://www.evalbum.com/3715
+>
+>
+>
+> -----Original Message-----
+> From: Bill Dube [mailto:billdube@killacycle.com]
+> Sent: Sunday, October 28, 2012 11:16 AM
+> To: Electric Vehicle Discussion List
+> Subject: Re: [EVDL] Power Consumption Question
+>
+> The vehicle requires a specific number of watt-hours per mile. Amps times
+> volts equals watts. If the voltage is lower, (because the pack is at a
+> lower state of charge,) the amp-hours must increase to make the same number
+> of watt-hours.
+>
+> Bill D.
+>
+> At 07:06 PM 10/27/2012, you wrote:
+> >I have been driving with my LiFePo4 pack for almost 11 months now, and
+> >there seems to me to be an apparent difference in the number of Amp
+> >hours that the same route to and from work uses with a fully charged
+> >and less than fully charged pack. Now I realize that I need to be able
+> >to add in temperature compensation to really get an answer, but here is
+> >an example of the difference at relatively close temps: Today, with
+> >fully charged pack, it took an average of 2.23 Ah to drive from home to
+> work and back.
+> >Thursday, with a pack that was at 45-50% capacity it took an average of
+> >2.65 Ah.I am using the mini-BMS with the monitoring.  I haven't been
+> >really looking at it lately, but I noticed it today because I had taken
+> >the readings on Thursday, and could tell as soon as I got home that the
+> >numbers today were lower, and I had noticed that it seemed like the
+> >drain was faster as the pack capacity diminished.
+> >Is there a recognized principle here that anyone knows, or am I seeing
+> >things that aren't there?
+> >Thanks!
+> >Michael B
+> >-------------- next part -------------- An HTML attachment was
+> >scrubbed...
+> >URL:
+> >http://lists.sjsu.edu/mailman/private/ev/attachments/20121027/e23dfb0c/
+> >attachment.html
+> >
+> >_______________________________________________
+> >| Moratorium on drag racing discussion is in effect.
+> >| Please take those discussions elsewhere.  Thanks.
+> >|
+> >| REPLYING: address your message to ev@lists.sjsu.edu only.
+> >| Multiple-address or CCed messages may be rejected.
+> >| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> >| OTHER HELP: http://evdl.org/help/
+> >| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+>
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121029/13fbafec/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

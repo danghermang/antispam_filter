@@ -1,0 +1,38 @@
+Subject:Gestion d'un repository & support d'apt-mirror [was Re: Apt-mirror
+	et "Le fichier =?UTF-8?B?wqs=?= Release =?UTF-8?B?wrs=?= a
+	=?UTF-8?B?ZXhw?= =?UTF-8?B?aXLDqSJd?=
+Bonjour,
+
+Comme ce sujet int=C3=A9resse apparemment d'autres personnes et que j'ai
+beaucoup de mal =C3=A0 trouver du support sur l'outil "apt-mirror", je
+retente ma chance ;-)
+
+Concernant ma question pr=C3=A9c=C3=A9dente ("Le fichier =C2=AB Release =C2=
+=BB a expir=C3=A9"),
+je n'ai toujours pas de r=C3=A9ponse. J'ai essay=C3=A9 d'=C3=A9crire aux ma=
+inteneurs du
+paquet sans succ=C3=A8s. Est-ce que, par hasard, vous savez =C3=A0 qui je
+pourrais m'adresser ?
+
+Ensuite, sur mon repository local, j'ai de nouveaux besoins qui
+arrivent. Ainsi, je souhaiterais mettre =C3=A0 disposition des packages
+Debian internes. Pour cela, j'aurais besoin que ces paquets soient
+"visibles" =C3=A0 partir des serveurs (via apt-cache search, apt-get instal=
+l,
+etc...). Je suppose donc qu'il faudrait que les fichiers
+Contents-amd64.gz, Release, Release.gpg, etc... int=C3=A8grent les bonnes
+informations. Savez-vous comment je dois proc=C3=A9der ?
+
+Merci d'avance.
+
+David.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121011095130.02a45fcc@debian-david
+

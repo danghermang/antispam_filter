@@ -1,0 +1,33 @@
+Subject:Re: [EVDL] Experience with EV100 (EVT15) GE controller blowing
+ diode and IGBT
+On 11/8/2012 3:08 AM, Cor van de Water wrote:
+> I hope someone can share their experience with the
+> (mostly used for Forklift at 36V) EV100 controller from GE,
+> A.K.A. EVT15.
+
+It seems unlikely that you're blowing the parts from overcurrent. That 
+means they are failing due to overvoltage. Since your pack voltage is 
+much lower than the part's voltage breakdown rating, I suspect snubber 
+problems.
+
+Is there an RC or RCD snubber on the IGBT? If so, check or replace its 
+parts. The resistor may have opened up, or the capacitor developed a 
+high ESR. Snubbers have to carry very high peak currents and voltages, 
+and while the average power dissipation isn't all that high, the stress 
+levels can easily murder the parts.
+
+-- 
+Failure is only the opportunity to begin again more intelligently.
+         -- Henry Ford
+--
+Lee A. Hart http://www.sunrise-ev.com/LeesEVs leeahart@earthlink.net
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

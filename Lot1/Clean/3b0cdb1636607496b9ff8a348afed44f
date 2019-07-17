@@ -1,0 +1,21 @@
+Subject:Re: [rlug] Intrebare file mirroring
+2012/11/14 Gyula Keresztely-Krall <xenexis@gmail.com>:
+> Oricum as fi bucuros daca cineva care are mai multa experienta in
+> domeniu, sa ma ghideze spre cateva linkuri unde e mai amplu dezbatuta
+> problema referitoare la gluster/nfs, pana acum nu am gasit mare lucru.
+
+Em am avut cateva incercari ratate cu nfs, insista sa se agate foarte
+hotarat cand transferam date de tot felul. Am renuntat sa ma mai
+*gandesc* la nfs pentru trebuiri serioase. Nu stiu ce workload ai tu
+acolo care nu poate fi tratat cu cateva makefile-uri bine facute, dar
+cred ca se pot gasi solutii. Poti de exemplu rula un "deploy agent" pe
+servere care e notificat printr-un request cand master-ul a terminat
+build-ul si isi trage fisierele specificate in request. In loc sa faci
+push de pe server, faci pull de pe client.
+
+-- 
+Adi Pircalabu
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

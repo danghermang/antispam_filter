@@ -1,0 +1,26 @@
+Subject:Re: Connexion ssh : timed out
+On Wed, 31 Oct 2012 15:33:31 +0100
+Bzzz <lazyvirus@gmx.com> wrote:
+
+>=20
+> Augmente le niveau de log de sshd, de fa=C3=A7on =C3=A0 voir ce qui se pa=
+sse et s'il
+> refuse une connexion ou non.
+
+Correction: inutile puisque =C3=A7a marche en local.
+
+--=20
+C=C3=A9line : Alors, tu viens ce soir ?
+Leo : Ouais, bien s=C3=BBr
+C=C3=A9line : Oublie pas la protection contre les enfants alors =3D)
+Leo : La batte de baseball ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031153939.411f8dac@anubis.defcon1
+

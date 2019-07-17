@@ -1,0 +1,65 @@
+Subject:Re: Upgrade auf 12.10, erste Erfahrungen - shotwell
+Am 27.10.2012 18:14, schrieb Frank:
+..
+> Meine ersten pers=F6nlichen Erfahrungen:
+..
+> * shotwell
+>
+> Die Bilder vom aktuellen Import (nach dem Upgrade) werden angezeigt,
+> aber statt der zuvor importieren Bilder erscheinen nur graue Fl=E4chen.
+
+Hallo,
+den Effekt konnte ich diesem gemeldeten Fehler zuordnen:
+
+   https://bugs.launchpad.net/ubuntu/+source/shotwell/+bug/1065328
+   http://redmine.yorba.org/issues/5986
+
+Ich verwende den Parameter "-d" beim Start von shotwell um mein =
+
+Verzeichnis mit den Original-Bildern von dem Verzeichnis mit den =
+
+bearbeiteten Bildern zu trennen.
+Sonst w=FCrde jedes Bild in Shotwell doppelt erscheinen (gleiches Datum, =
+
+gleiches Ereignis, gleiches Tags).
+Der Speicherort des Bildes, der bei mir den Bearbeitungsstatus anzeigt, =
+
+wird in Shotwell nur auf Anforderung umst=E4ndlich als "erweiterte =
+
+Informationen" angezeigt.
+
+"-d" verweist auf ein Verzeichnis, das bisher die Datenbank *und* die =
+
+Thumbs (Cache) enthielt.
+
+In der neuen Version 0.13.0 zeigt "-d" nur noch den Weg zur Datenbank.
+Die Thumbs aller "-d"-Versionen fliegen im Verzeichnis
+   ~/.cache/shotwell/thumbs
+lustig durcheinander (fehlende Dateien, gegenseitiges =FCberschreiben).
+
+Die in der Datenbank gespeicherten Thumb-Dateinamen gab es darin nicht, =
+
+daher die grauen Fl=E4chen.
+Der alte Cache blieb ungenutzt liegen.
+
+Ich habe es gel=F6st, indem ich Shotwell f=FCr Orginal/Bearbeitet =FCber =
+
+getrennte Scripte starte. Darin wird der alte Thumgs-Ordner zun=E4chst per =
+
+Symlink auf die neu Cache-Adresse verkn=FCpft, bevor Shotwell mit -d =
+
+gestartet wird. Das scheint zu funktionieren.
+Nat=FCrlich sind jetzt die letzten Importe weg und die k=FCrzlich gedrehten =
+
+Bilder sind falsch orientiert.
+
+-- =
+
+
+Frank J.
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

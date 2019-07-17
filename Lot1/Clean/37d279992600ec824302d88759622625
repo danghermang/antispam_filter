@@ -1,0 +1,130 @@
+Subject:Fallo al instalar libreoffice[SOLUCIONADO]
+El d=EDa 14 de noviembre de 2012 10:36, Camale=F3n <noelamac@gmail.com> esc=
+ribi=F3:
+> El Tue, 13 Nov 2012 20:40:57 -0430, Miguel Matos escribi=F3:
+>
+>> Saludos de nuevo. Luego del sobresalto[1] inicial, he decidido "matar"
+>> la anterior petici=F3n de ayuda, y dejar el tema como [NO SOLUCIONADO].
+>
+> =BFA qu=E9 te refieres, exactamente? Has hecho varias peticiones de ayuda=
+.
+>
+Ya he perdido la cuenta de cu=E1ntas solicitudes he realizado. La
+=FAltima, creo yo, fue
+la de sources.lists, pero ya lo super=E9, he decidido reinstalarlo todo.
+
+>> Seguir=E9 adelante. Ahora, mi mayor temor se hizo realidad. Qui=E9n sabe
+>> qu=E9, cu=E1l sabe cu=E1ndo, c=F3mo sabe por qu=E9, pero despu=E9s de
+>> re-re-reinstalar Debian, qued=E9 con OpenOffice en vez de Libreoffice.
+>
+> Seguramente porque Squeeze viene con OpenOffice, no hay m=E1s misterio, n=
+i
+> segundas intenciones ni confabulaciones contra tu equipo ni
+> conspiraciones varias :-)
+>
+> Si tienes Squeeze, LibreOffice est=E1 disponible en los backports.
+>
+>> Elimin=E9 (o m=E1s bien deber=EDa decir "purgu=E9") al OpenOffice y me i=
+nstal=F3
+>> otras cosas (Abiword y algo llamado gnumeric). Pero al querer instalar
+>> Libreoffice, miren lo que me lanza la terminal:
+>
+> (...)
+>
+>> Los siguientes paquetes tienen dependencias incumplidas:
+>>  libreoffice : Depende: libreoffice-core (=3D 1:3.5.4+dfsg-3~bpo60+2)
+>> pero no va a instalarse
+>>                Depende: libreoffice-writer pero no va a instalarse
+>>                Depende: libreoffice-calc pero no va a instalarse
+>>                Depende: libreoffice-impress pero no va a instalarse
+>>                Depende: libreoffice-draw pero no va a instalarse
+>>                Depende: libreoffice-math pero no va a instalarse
+>>                Depende: libreoffice-base pero no va a instalarse
+>>                Depende: libreoffice-report-builder-bin pero no va a
+>>                instalarse Depende: libreoffice-filter-mobiledev pero no
+>>                va a instalarse Depende: libreoffice-java-common (>=3D
+>>                1:3.5.4+dfsg~)
+>> pero no va a instalarse
+>
+> Si te l=EDas con la terminal usa mejor Synaptic.
+>
+> (...)
+Y Synaptic present=F3 el mismo problema, as=ED que estoy atorado en una
+calle ciega.
+>
+>> Aja, =BFy eso qu=E9 implica? Tengo uno-libs3 y ure; =BFpero no puedo ins=
+talar
+>> los paquetes de libreoffice por separado ni en conjunto? Algo me falta,
+>> lo s=E9. Tal vez sea a que yo escog=ED la r=E9plica oficial de Debian US=
+ en
+>> vez de la local (VEN), pero, tal parece que han dejado de existir.
+>> =BFAlguna sugerencia? Si les sirve, me baj=E9 la versi=F3n m=E1s recient=
+e, pero
+>> =A1oops! NTI de lo que debo hacer.
+>
+> Tienes un problema con la prioridad de los repositorios: b=E1sicamente -y
+> si no he interpretado mal lo que te dice administrador de paquetes-
+> quieres instalar un metapaquete (libreoffice) desde los backports (bpo)
+> pero el resto de paquetes que se marcan para instalar son del repositorio
+> "main". Tienes que decirle al instalador que quieres todos los paquetes
+> del repositorio de backports.
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+2012/11/14 Evgeny M. Zubok <evgeny.zubok@tochka.ru>:
+> "Evgeny M. Zubok" <evgeny.zubok@tochka.ru> writes:
+>
+>> =BFaptitude -t squeeze-backports install libreoffice?
+>
+> O 'apt-get -t squeeze-backports install libreoffice' si usas apt-get.
+>
+> Este apartado explica por qu=E9 no se te instala el libreoffice de la
+> manera que lo has hecho t=FA:
+>
+> http://backports-master.debian.org/Instructions/#index3h2
+>
+> El repositorio "squeeze-backports" est=E1 desactivado por defecto y no
+> tiene la prioridad sobre el "squeeze/main" (que a su vez no tiene el
+> libreoffice). Por eso, para instalar de "squeeze-backports" tienes que
+> a=F1adir la opci=F3n "-t squeeze-backports".
+>
+>
+>
+Este fue, como quien dice, el camino m=E1s f=E1cil. No s=E9 porqu=E9 no lo =
+encontr=E9
+m=E1s r=E1pido en Internet. T=EDpico de m=ED. Aunque est=E1 en ingl=E9s ya =
+la instalar=E9 en
+espa=F1ol, con esta ayuda:
+El d=EDa 14 de noviembre de 2012 09:46, Constantino Vargas
+<consvargas@gmail.com> escribi=F3:
+> mi estimado prueba instalando libreOffice desde los archivos de instalaci=
+=F3n
+> descargados directamente de la pagina oficial de LibreOffice aqui te dejo
+> una guia de como lo hice, valido tambi=E9n para debian
+>
+> http://tecnoinfotronica.blogspot.com/2012/10/instalar-libreoffice-362-en-=
+xubuntu-1204.html
+>
+> saludos
+> --
+> Constantino Vargas C.
+> Movil Movistar 953 957823 RPM *679588
+>
+>
+Muchas gracias por su siempre =FAtil ayuda.
+
+--=20
+Buen uso de las listas (como se ven en Debian):
+http://wiki.debian.org/es/NormasLista
+Ayuda para hacer preguntas inteligentes: http://is.gd/NJIwRz
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALEvJmQcYGh+oQptUFmX9d7fHmG2eL+x37qxwUGU0PU650kV-Q@mail.gmail.com
+

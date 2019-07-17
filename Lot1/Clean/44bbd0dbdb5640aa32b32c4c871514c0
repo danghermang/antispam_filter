@@ -1,0 +1,31 @@
+Subject:Re: Fwd: Porting Iceweasel 10.0.8 ESR to the Stable Backports.
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On 31/10/12 07:30 PM, Sébastien Villemot wrote:
+> I don't think this is a good idea. Those people who have already 
+> installed the backport won't get notified that the package was 
+> removed From there and that they should use a different source to 
+> get security updates. The only safe way is to fix the backport.
+
+Removal wouldn't change that, and it would discourage new users from
+installing an insecure version. So removal is still a good idea,
+unless the situation with updates only coming from mozilla.debian.net
+changes (and so far, that doesn't look likely).
+
+Ben
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iEYEARECAAYFAlCRrfoACgkQWpTzygsnE8jZ9QCeJmuu2woWKSwENh5s/eflZp4b
+ptoAn2BkNj3/FxYIem+FGH4piCT3wtGA
+=RAha
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5091ADFA.6020204@sanctuary.nslug.ns.ca
+

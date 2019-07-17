@@ -1,0 +1,29 @@
+Subject:[OT] Re: esxi se deja de responder mismo dia y horario
+El Tue, 04 Dec 2012 09:43:04 -0300, Marcelo Nigro escribió:
+
+(OT, como bien apunta C. L. Martínez) 
+
+> Hola
+> 
+> tengo un esxi, el mismo deja de responder en la seman los mismos dias y
+> horarios, una vez por semana. Primero baje los servicios de sfdb y
+> wathdog, creo se llama asi. se soluciona dos semanas o tres , luego lo
+> mismo. alguien tiene algún hilo para investigar ? Solo se soluciona
+> reiniciando el server. Lo que sucede es que se dejan de reconmocer los
+> files de las virtuales . vmx
+
+¿No te ha dado por buscar en Google?
+
+http://bit.ly/TLFFsH
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9l6ic$37l$5@ger.gmane.org
+

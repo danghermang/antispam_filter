@@ -1,0 +1,54 @@
+Subject:Re: Nom de domaine et FQDN
+Le 16/11/2012 10:50, Fabien LUCE a écrit :
+>   
+> 
+> En fait dans mes fichiers de zone je ne peux pas pointer vers
+> lutix.org car j'ai une ip dynamique, c'est un souci malheureusement
+> connu. 
+> 
+> Mais ma question concernen surtout ce qui se passe "en interne"
+> sur le serveur (exim ou apache). 
+> 
+> Est ce généralement un problème
+> d'attribuer à une machine le nom du domaine. Ca doit etre fréquent sur
+> la plupart des serveurs qui doivent avoir des noms fqdn mais pourtant
+> répondent à un nom de domaine "hierarchiquement" supérieur? 
+> 
+
+comme déjà dit, le nom du serveur et ce à quoi il répond sont deux
+choses distinctes.
+
+voici un exemple de ce que tu pourrais faire:
+
+pour le mail: tu mets comme MX: lutix.homelinux.org  (et non
+serveur.lutix.org qui est un CNAME). jette un oeil sur l'erreur qu'on
+voit sur
+	http://www.intodns.com/lutix.org
+
+
+pour le web: tu configures la redirection gandi pour renvoyer vers
+serveur.lutix.org (ou vers lutix.homelinux.org). c'est peut-être déjà le
+cas.
+
+
+
+PS. tu dois être conscient qu'une réallocation de ton ip à un serveur
+qui accepte tout pourrait avoir comme conséquence l'envoi de tes mails à
+un serveur tierce.
+
+
+
+
+
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A7AC4C.8080105@ml.netoyen.net
+

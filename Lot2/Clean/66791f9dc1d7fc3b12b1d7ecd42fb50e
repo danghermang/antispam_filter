@@ -1,0 +1,95 @@
+Subject:Re: [Hsqldb-user] RETURN VALUE on Stored Procedures
+This is supported. Each ResultSet instance returned in the array must be
+an instance of JDBCResultSet. See org.hsqldb.jdbc.JDBCArray on how you
+can construct a JDBCResultSet.
+
+The procedure can be called via JDBC, with getMoreResults etc. to get
+the result sets.
+
+Fred
+
+
+
+On Fri, Sep 28, 2012, at 13:50, Jirka Havelka wrote:
+> Hi,
+> 
+> there is possible to return value from stored procedure written in java. 
+> We use it to return resultset.
+> 
+> The stored procedure is static method with one extra argument like:
+> 
+> public static void storedProcedure(<other arguments>, ResultSet[] rsout) 
+> throws SQLException {
+> 
+> 	.... our code ....
+> 
+> 	rsout[0] = <-- returned result set
+> }
+> 
+> and is created:
+> 
+> create procedure storedProcedure(<other arguments>)
+>      language java
+>      modifies sql data
+>      dynamic result sets 1
+>      external name 'CLASSPATH:<fq class path>.storedProcedure';
+> 
+> Jirka Havelka
+> 
+> Dne 28.9.2012 02:42, Noel Diaz napsal(a):
+> > Hi,
+> >
+> > Is there a plan to support RETURN values from stored procedures Like in:
+> >
+> > ? = call proc(....)
+> >
+> > We use HSQLDB a lot and want to incorporate stored procedure testing on
+> > our env.
+> > There are a many procs that make use of the "RETURN VALUE" (not OUT
+> > parameters)
+> > I have not found a work-around for that functionality (using 2.2.9) and
+> > it would be painful to
+> > re-write so many (50ish) callable statements/stored procs.
+> >
+> > Thanks in advance.
+> >
+> > noeldr
+> >
+> >
+> >
+> > ------------------------------------------------------------------------------
+> > Got visibility?
+> > Most devs has no idea what their production app looks like.
+> > Find out how fast your code is with AppDynamics Lite.
+> > http://ad.doubleclick.net/clk;262219671;13503038;y?
+> > http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+> >
+> >
+> >
+> > _______________________________________________
+> > Hsqldb-user mailing list
+> > Hsqldb-user@lists.sourceforge.net
+> > https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+> >
+> 
+> ------------------------------------------------------------------------------
+> Got visibility?
+> Most devs has no idea what their production app looks like.
+> Find out how fast your code is with AppDynamics Lite.
+> http://ad.doubleclick.net/clk;262219671;13503038;y?
+> http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Got visibility?
+Most devs has no idea what their production app looks like.
+Find out how fast your code is with AppDynamics Lite.
+http://ad.doubleclick.net/clk;262219671;13503038;y?
+http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

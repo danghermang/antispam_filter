@@ -1,0 +1,21 @@
+Subject:Re: [Koha] debarred a patrons account automatically the account
+	expires
+> How can I configure koha to debarred/Restricted a patrons account automatically when
+> the patrons' account expires
+
+Koha won't do this for you automatically, although it seems like it
+would be a fairly simple enhancement. I think the important question
+is: What can your expired patrons do that you don't want them to,
+leading you to want to restrict them?
+
+ -- Owen
+
+
+-- 
+Web Developer
+Athens County Public Libraries
+http://www.myacpl.org
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

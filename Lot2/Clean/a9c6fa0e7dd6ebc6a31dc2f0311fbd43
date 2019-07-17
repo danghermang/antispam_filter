@@ -1,0 +1,35 @@
+Subject:[address-policy-wg] openness in RIR policies
+On 9 Nov 2012, at 13:23, sandrabrown@ipv4marketgroup.com wrote:
+
+> Further, other RIR policies need to morph to support open-ness.
+
+Please explain. In what way do RIR policies not support openness or =
+transparency. Or are not open and transparent enough? Feel free to =
+submit proposals which improve these principles.
+
+> For example, RIR's should not reclaim unused IP's now that they have =
+value.=20
+
+This has nothing to do with openness or RIR policies. I think you're =
+mistaken too.
+
+First off, it's IP addresses, not "IPs". Second, current policy says =
+LIRs are supposed to return unused resources to their RIR when they no =
+longer need/use them. Can you provide an example  where an RIR has =
+reclaimed unused addresses from an LIR? [Some address space has of =
+course been recovered by the RIRs and IANA. However to the best of my =
+knowledge that's pretty much been unused legacy space that had been =
+given to organisations that no longer exist.] An RIR has no way of =
+knowing definitively if an LIR is using its address space or not unless =
+the LIR confirms that. Finally, whatever action an RIR takes over an =
+LIR's unused address space is decided by RIR policy, not whether those =
+addresses "have value". For some definition of "have value". AFAICT =
+nobody's suggesting a policy change so RIRs can reclaim addresses (and =
+re-sell them?) now that a market in v4 space is emerging.
+
+Now whether an LIR will hand back its unused space or not is an entirely =
+different matter from RIR policy or its openness. Perhaps those LIRs =
+will want to trade their unused space. Perhaps not. That's largely a =
+matter for them and their consciences.
+
+

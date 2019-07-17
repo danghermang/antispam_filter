@@ -1,0 +1,41 @@
+Subject:Re: Open CL et intel HD Graphics
+Le Sun, 04 Nov 2012 00:01:10 +0100
+Vincent Danjean <vdanjean.ml@free.fr> a =E9crit:
+
+> Le 03/11/2012 01:47, Ga=EBtan PERRIER a =E9crit :
+> > Bonjour,
+> >=20
+> > Est-il possible de faire de l'Open CL avec une CG Intel HD Graphics
+> > Sandybridge GT2+, sous Debian ?
+>=20
+> Sauf erreur de ma part, les drivers OpenCL Intel ne font tourner le
+> code OpenCL que sur les processeurs (pas sur les cartes graphiques)
+> pour l'instant.
+>   Tu peux donc faire de l'OpenCL avec une CG Intel HD Graphics
+> Sandybridge GT2+, sous Debian mais =E7a n'utilisera pas les capacit=E9s
+> de ta CG (juste celles de ton processeur).
+> Tu as plusieurs impl=E9mentation OpenCL dispo pour les processeurs
+> Intel :
+> - celle d'Intel, non packag=E9 (devrait pouvoir l'=EAtre dans non-free
+>   d=E8s qu'Intel aura r=E9gl=E9 le pb de license comme ils ont dit qu'ils
+>   le feraient)
+> - celle d'AMD il me semble (packag=E9 dans non-free)
+> - pocl (pas encore packag=E9, je le ferai probablement lors de leur
+>   prochaine release)
+> - ...
+>=20
+
+Ok donc =E7a n'a pas grand int=E9r=EAt. Est-ce de m=EAme pour les cartes Nv=
+idia ?
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121104001541.c8394fb44d7566b4f7d75c58@neuf.fr
+

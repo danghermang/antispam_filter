@@ -1,0 +1,81 @@
+Subject:No logro conectarme a Mysql-server en mi computadora
+Saludos listeros.
+
+Quiero instalar joomla, wordpress, dolibarr, etc, en mi computadora
+(estoy explorando). Todos ellos funcionan en mysql-server (algunos
+tambi=E9n funcionan en postgree seg=FAn vi), el problema es que ya lo
+ten=EDa en mi computadora instalado (el mysql-server) funcionando con
+wordpress, pero como lo deje de usar un tiempo, perd=ED mi contrase=F1a, y
+no pude hacer funcionar el dolibarr desde mi computadora, pues pide la
+contrase=F1a de mysql-server, entonces desinstale con
+
+#aptitude remove mysql-server
+
+#aptitude purge mysql-server
+
+y lo instale
+
+#aptitude install mysql-server
+
+pero no me pregunto la contrase=F1a de administrador de base de datos,
+entonces aplique:
+
+# debian-user-spanish@lists.debian.org
+
+y al hacer enter, no pasa nada, es decir
+
+
+# debian-user-spanish@lists.debian.org (enter)
+(aqu=ED nada)
+#
+
+As=ED que aplique:
+
+# mysql -u root -p
+Enter password:
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket
+'/var/run/mysqld/mysqld.sock' (2)
+
+Entonces busque /var/run/mysqld/mysqld.sock para ver si lo ten=EDa, pero
+no tengo nada en la carpeta /var/run/mysqld/
+
+(aplique lo anterior varias veces con algunas variantes)
+
+Encontre en la p=E1gina
+http://systemadmin.es/2009/02/error-2002-hy000-cant-connect-to-local-mysql-=
+server-through-socket-tmpmysqlsock-2
+que la soluci=F3n era:
+
+# ps -fea | grep mysqld
+root     17416 14581  0 19:46 pts/1    00:00:00 grep mysqld
+
+#grep socket /etc/mysql/my.cnf
+#  Remember to edit /etc/mysql/debian.cnf when changing the socket location=
+.
+socket		=3D /var/run/mysqld/mysqld.sock
+socket		=3D /var/run/mysqld/mysqld.sock
+socket		=3D /var/run/mysqld/mysqld.sock
+
+y de aqu=ED el problema es que no existe el archivo
+/var/run/mysqld/mysqld.sock pues ya lo busque en  /var/run/mysqld/.
+
+As=ED como tampoco tengo el archivo /etc/init.d/mysql, de est=E9 yo tuve
+la culpa, pues tuve un problema (no me acuerdo por qu=E9) al instalar
+mysql-server y  dolibarr por milesima vez, se me rompieron los paquete
+mysql-server y dolibarr y ya no me dejaba ni instalar, ni desinstalar,
+ni actualizar, ni reparar nada, entonces me desespere y borre ese
+archivo, ya no me respondia el servicio /etc/init.d/mysql, borrar ese
+archivo me permitio corregir los paquetes rotos, pero no he podido
+hacer arrancar el mysql-server en est=E1 maquina.
+
+Mi moraleja, ser desesperado puede hacerte perder m=E1s tiempo del que gana=
+s.
+
+Gracias desde ya!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAOBz3siGFOVkm-iyY1P+z1K+FnSLwqE4vWyx-bYfNDbdGbr8fw@mail.gmail.com
+

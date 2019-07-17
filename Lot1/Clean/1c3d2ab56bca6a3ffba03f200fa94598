@@ -1,0 +1,26 @@
+Subject:Squid 2.7 o Squid3 con SSL
+Como es posible compilar SSL con squid o squid3
+
+ya probé con los 2
+
+apt-get install squid  o   apt-get install squid3
+
+y necesito que los https puedan ser accedidos
+
+Hay que generar unos certificados y otras cosas pero como lo hago???
+
+uso debian squeeze
+
+Salu2
+
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2bace9e305840552606c5bdf7c5ef600.squirrel@192.168.13.16
+

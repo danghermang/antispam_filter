@@ -1,0 +1,82 @@
+Subject:Re: Apache2 no me coge el htaccess
+On 25/10/2012 13:59, Gorka wrote:
+> On 25/10/2012 13:27, Carlos Nicolas wrote:
+>> El 25/10/2012 12:31, Gorka escribió:
+>>> Tengo un .htaccess en /var/www con esta línea como contenido ...
+>>>
+>>> IndexIgnore *
+>>>
+>>> ... en /etc/apache2/sites-available/default tengo ...
+>>>
+>>>
+>>> <VirtualHost *:80>
+>>>         ServerAdmin webmaster@localhost
+>>>
+>>>         DocumentRoot /var/www
+>>>         <Directory />
+>>>                 Options FollowSymLinks
+>>>                 AllowOverride None
+>>>         </Directory>
+>>>         <Directory /var/www/>
+>>>                 Options Indexes FollowSymLinks MultiViews
+>>>                 AllowOverride All
+>>>                 Order allow,deny
+>>>                 allow from all
+>>>         </Directory>
+>>>
+>>>         ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
+>>>         <Directory "/usr/lib/cgi-bin">
+>>>                 AllowOverride None
+>>>                 Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+>>>                 Order allow,deny
+>>>                 Allow from all
+>>>         </Directory>
+>>>
+>>>         ErrorLog ${APACHE_LOG_DIR}/error.log
+>>>
+>>>         # Possible values include: debug, info, notice, warn, error, 
+>>> crit,
+>>>         # alert, emerg.
+>>>         LogLevel warn
+>>>
+>>>         CustomLog ${APACHE_LOG_DIR}/access.log combined
+>>> </VirtualHost>
+>>>
+>>> ... donde como podéis ver he cambiado AllowOverride de None a All
+>>> Y sigue sin cogerme el .htaccess. Cuando meto la url me lista todo 
+>>> el contenido de /var/www
+>>> ¿Qué hago mal? ¿Aguna idea?
+>>>
+>>>
+>>>
+>>>
+>>>
+>> Creo que tienes que añadir la opcion Includes en options , algo asi 
+>> quedaria
+>>
+>>   Options Indexes FollowSymLinks MultiViews Includes
+>
+> Pues tampoco funciona.
+
+Al igual que tampoco funciona por ejemplo poner ...
+
+php_value upload_max_filesize 100M
+
+... en el .htaccess
+
+phpinfo() sigue mostrando ...
+
+upload_max_filesize 2M 2M
+
+... tanto para la columna local como para la general. En realidad 
+phpinfo() sólo refleja los cambios si los hago directamente sobre el 
+php.ini, pero lo que yo quiero es saber por qué no me está funcionando 
+nada de lo que pongo en el .htaccess. ¿Alguien puede aportar algo de luz 
+al tema?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/508930E2.4040608@yahoo.es
+

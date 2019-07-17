@@ -1,0 +1,32 @@
+Subject:Re: Intentando hacer andar la webcam
+El Sat, 03 Nov 2012 23:59:19 -0300, Fabián Bonetti escribió:
+
+> mama@zeuza:~$ lsusb
+> Bus 002 Device 003: ID 0ac8:307b Z-Star Microelectronics Corp. USB 1.1
+> Webcam
+> 
+> 
+> No se ve con
+> 
+> cvlc v4l2://
+> 
+> 
+> Ando en Debian GNU/Linux 6.0.6
+> 
+> Alguna idea?
+
+Por aquí comentan algo:
+
+http://ubuntuforums.org/showthread.php?t=1604414
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k75j1n$87n$9@ger.gmane.org
+

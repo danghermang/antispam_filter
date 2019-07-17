@@ -1,0 +1,31 @@
+Subject:[Flexradio] USB drive will not load
+I have been using 2.4.4 for months now with no problems but did not try 
+the 1500 until today, so today I did.  I am getting an error stating 
+that windows 7 does not recognize the hardware.  The driver window 
+popped up first saying driver loaded but not working, something like 
+that.  I have tried multiple USB ports and cables.  Does the drivers for 
+the 1500 interact with the VSP drivers in any way?  I have been 
+rebooting after every uninstall and install to allow driver loading, etc.
+
+I have uninstalled and re-installed 3 times with the same result.
+
+I did notice that the un-install program does not completely uninstall 
+the software so I am wondering if the drivers are getting deleted 
+properly to allow a complete reinstall.
+
+Any ideas would be appreciated.  And by the way, where is the install 
+log located on windows 7 for PowerSDR?  That may allow me to find all 
+the drivers and delete them by hand, if need be.
+
+The program works successfully on my laptop but not on the main machine.
+
+Thanks
+
+Vic  K4XTT
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

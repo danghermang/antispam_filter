@@ -1,0 +1,26 @@
+Subject:Re: =?UTF-8?B?W3LDqXNvbHVdIGV4w6ljdXRlcg==?= des commandes avec
+	droits root =?UTF-8?B?KGh5cG90aMOoc2U=?= sudo)
+On Sun, 4 Nov 2012 10:37:29 +0100
+Gr=C3=A9gory Bulot <debian.list200912@batman.dyndns.org> wrote:
+
+> bon en fait se d=C3=A9logguer n'=C3=A9tait pas suffisant.
+>=20
+> Il fallait rebooter pour que cela fonctionne, du moins face au test
+> d'"aptitude"
+
+Un simple '/etc/init.d/sudo restart' devrait =C3=AAtre suffisant...
+
+--=20
+<lea> Question 28 : Qu'est ce que le petit prince ramone r=C3=A9gulierement
+                    sur sa planete ?
+<Ewilan> la petite princesse
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121104113120.6222ec38@anubis.defcon1
+

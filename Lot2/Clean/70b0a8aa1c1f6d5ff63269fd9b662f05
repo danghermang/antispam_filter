@@ -1,0 +1,71 @@
+Subject:Re: Apache2 ereurs
+Le 09/11/2012 15:04, Nicolas PHAM a écrit :
+> Le 09-11-2012 14:48, Jean-marc Dufour a écrit :
+>> Bonjour Seb,
+>>
+>> # netstat -peanut | grep 80
+>> tcp 0 0 192.168.1.39:37898 80.91.229.13:119
+>> TIME_WAIT 0 0 -
+>> tcp 128 0 192.168.1.39:40801 192.168.1.1:139
+>> ESTABLISHED 1000 14761 4700/gvfsd-smb-brow
+>> tcp 0 0 192.168.1.39:37900 80.91.229.13:119
+>> ESTABLISHED 1000 1609477 7596/icedove-bin
+>>
+>> si çà peut aider, ...
+>> merci,
+>> jm
+>
+> Bonjour,
+> ou peut etre un netstat -lataupen | grep LISTEN pour savoir qui écoute
+> sur cette machine.
+>
+
+alors là j'ai:
+
+# netstat -lataupen | grep LISTEN
+tcp        0      0 0.0.0.0:111             0.0.0.0:* 
+LISTEN      0          6692        2001/rpcbind
+tcp        0      0 0.0.0.0:43218           0.0.0.0:* 
+LISTEN      105        6731        2033/rpc.statd
+tcp        0      0 0.0.0.0:22              0.0.0.0:* 
+LISTEN      0          9738        4090/sshd
+tcp        0      0 127.0.0.1:631           0.0.0.0:* 
+LISTEN      0          8362        2888/cupsd
+tcp        0      0 127.0.0.1:5432          0.0.0.0:* 
+LISTEN      112        9797        3599/postgres
+tcp        0      0 127.0.0.1:25            0.0.0.0:* 
+LISTEN      0          10048       4430/exim4
+tcp        0      0 0.0.0.0:445             0.0.0.0:* 
+LISTEN      0          9097        3846/smbd
+tcp        0      0 0.0.0.0:901             0.0.0.0:* 
+LISTEN      0          8668        3464/inetd
+tcp        0      0 127.0.0.1:3306          0.0.0.0:* 
+LISTEN      116        8698        3427/mysqld
+tcp        0      0 0.0.0.0:139             0.0.0.0:* 
+LISTEN      0          9099        3846/smbd
+tcp6       0      0 :::111                  :::* 
+LISTEN      0          6699        2001/rpcbind
+tcp6       0      0 :::22                   :::* 
+LISTEN      0          9740        4090/sshd
+tcp6       0      0 ::1:631                 :::* 
+LISTEN      0          8361        2888/cupsd
+tcp6       0      0 ::1:25                  :::* 
+LISTEN      0          10049       4430/exim4
+tcp6       0      0 :::445                  :::* 
+LISTEN      0          9093        3846/smbd
+tcp6       0      0 :::49662                :::* 
+LISTEN      105        6737        2033/rpc.statd
+tcp6       0      0 :::139                  :::* 
+LISTEN      0          9095        3846/smbd
+
+jm
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/509D1017.6070601@free.fr
+

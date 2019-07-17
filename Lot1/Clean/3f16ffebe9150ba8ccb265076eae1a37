@@ -1,0 +1,38 @@
+Subject:Re: limitar cantidad de envios de correo con postfix
+>----- Original Message -----=20
+>From: "linux" <liuberperez.mtz@infomed.sld.cu>
+>To: <debian-user-spanish@lists.debian.org>
+>Sent: Tuesday, October 02, 2012 4:35 PM
+>Subject: limitar cantidad de envios de correo con postfix
+
+
+>Saludos lista como puedo limitar la cantidad de envios de mensajes por=20
+>direccion de correo, es decir, quiero que pepito@x.x envie 10 mensajes a=
+l=20
+>dia y cuando exeda esa cantidad se no pueda enviar mas, o por ejemplo a=20
+>veces se usa el correo para chatear, quisiera evitar que hagan esta acci=
+=F3n,=20
+>espero puedan ayudarme.
+
+>saludos
+
+
+Tienes chat implementados para que los puedan usar?
+
+Y despu=E9s decimos que nos bloquean esto m=E1s tal cosa.....
+
+Sin comentarios...
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+|| ISMAEL ||
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+PD: La verdad que cuando veo las intenciones detr=E1s de las preguntas me=
+=20
+pregunto si eso los incluye a ustedes.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2DA3E6F69E354731811F8CA0931F3EE4@eicc.citricos.cu
+

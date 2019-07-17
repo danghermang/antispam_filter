@@ -1,0 +1,23 @@
+Subject:Re: Systemd
+El Thu, 11 Oct 2012 20:21:46 +0200, Javier San Román escribió:
+
+> Por enredar un poco, ando mirando la posibilidad de poner un híbrido
+> System V/Systemd con miras de, según como vaya, volver a System V o
+> pasar a Systemd completo. Y antes de hacer nada me gustaría saber
+> vuestras opiniones al respecto, sobre el Systemd en concreto. Gracias.
+
+No sé por qué pero me parece que Wheezy ya lleva systemd de serie (o yo 
+lo seleccioné en alguna actualización, no lo recuerdo...) y al menos en 
+el netbook no me ha dado problemas.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k73pfc$7h2$14@ger.gmane.org
+

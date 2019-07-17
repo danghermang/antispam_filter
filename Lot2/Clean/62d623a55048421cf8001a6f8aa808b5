@@ -1,0 +1,30 @@
+Subject:Re: Autenticacion en Squid
+El Thu, 29 Nov 2012 14:04:43 -0500, Josué Marrero Bermúdez escribió:
+
+> Tengo implementado en la red de mi empresa un proxy con squid3 con
+> autentificacion , todo funciona como debe ser, pero ahora me gustaria
+> habilitar la opcion  de que solo solicite autenticacion en algunas IP y
+> en otra NO. O incluso pudiera ponerlo que solo autentifique cuando se
+> solicite una URL fuera del dominio .cu
+> 
+> He tratado de encontrar algo en Google pero no consigo nada que me
+> ayude.
+
+(...)
+
+Hum... la wiki de Squid es bastante completa y con ejemplos prácticos de 
+configuración:
+
+http://wiki.squid-cache.org/ConfigExamples/Authenticate/Bypass
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9amci$2aj$4@ger.gmane.org
+

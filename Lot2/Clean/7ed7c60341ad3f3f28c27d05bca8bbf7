@@ -1,0 +1,82 @@
+Subject:Re: Compilar kernel para optimizacion
+
+>
+>> El Mon, 19 Nov 2012 10:23:05 +0100, maykel escribiÃ³:
+>>
+>>>>> Mini-guia rÃ¡pida... :P
+>>
+>> (...)
+>>
+>>>> Mil gracias a todos.
+>>>>
+>>>>
+>>> Muy bueno, voy a ello...
+>>>
+>>> http://users.on.net/~ckolivas/kernel/
+>>>
+>>> Gracias, esto es lo que querÃ­a, algo que ya estÃ© optimizado y que se
+>>> aplique.
+>>
+>> Nada, nada... queremos "benchmarks" comparativos para comprobar la
+>> agilidad del sistema "optimizado" >>;-P
+>>
+>> Saludos,
+>>
+>> --
+>> CamaleÃ³n
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/k8dfks$k79$2@ger.gmane.org
+>>
+>>
+>
+> Los Benchmarks tendrán que esperar porque no me arranca...se queda en
+> Loading ramdisk...
+>
+> Lo he compilado y probado en un ubuntu, un fedora y un fuduntu. He
+> compilado el kernel 3.6.6 en ambas distros y sin problema
+>
+> Pero al aplicarle el parche de kolivas, en cuanto reboto la máquina e
+> intento arrancar desde ése kernel se queda ahí...
+>
+> Por supuesto me he fijado si me había agregado las entradas al grub(que si
+> lo ha hecho) y que me genere las imagees de arranque initrd y vmlinux(que
+> también las ha generado).
+>
+> No sé que podrá ser, pero me huele a que puede ser al meterle el patch.
+>
+>
+>
+> --
+> ADMIN: Maykel Franco Hdez
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/12f378f372de6f25185634d0bbbaadbb.squirrel@maykel.sytes.net
+>
+>
+
+Ummm
+
+http://ck.kolivas.org/patches/bfs/3.0/3.6/
+
+Fix boot issue....Tendré que aplicar los 3 parches antes de compilar??
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/d8d183041446380a9ef01c015273361f.squirrel@maykel.sytes.net
+

@@ -1,0 +1,16 @@
+Subject:Consulta con librerias en software
+Hola gente, tengo un servidor al que solo tengo acceso como un usuario
+normal y el mismo no tiene instalado el fetchmail, por lo que pas=E9 el
+archivo de fetchmail de mi m=E1quina y al correrlo me pide la librer=EDa
+libkrb5.so.3
+Existe alguna forma de que en este caso yo pase el archivo de la
+librer=EDa a la misma carpeta e intente leer esta librer=EDa desde una
+ruta diferente a /usr/lib/libkrb5.so.3
+Saludos y gracias de antemano.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJUzirFUWGte+R7OKbmG3Y2KogyVxorFekspqsv+Nq3acc9urw@mail.gmail.com
+

@@ -1,0 +1,78 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_=BFLinux=2C_para_dise=F1o_web_y_dise=F1o_grafico=3F?=
+El d=EDa 10 de septiembre de 2012 10:37, Camale=F3n <noelamac@gmail.com> es=
+cribi=F3:
+> El Mon, 10 Sep 2012 14:29:48 +0200, Ernest Sales escribi=F3:
+>
+>> On ds, 2012-09-08 at 16:40 +0000, Camale=F3n wrote:
+>>> El Sat, 08 Sep 2012 10:21:12 -0500, Carlos Zuniga escribi=F3:
+>>>
+>> [...]
+>>> > Claro, hemos evolucionado y ahora usamos herramientas como less [0] y
+>>> > bootstrap [1].
+>>>
+>>> A eso me refiero. Ese tipo de frameworks facilitan mucho la creaci=F3n =
+de
+>>> p=E1ginas y su mantenimiento (actualizaciones, etc...) pero se reconoce=
+n
+>>> enseguida porque usan el mismo tipo de plantillas predise=F1adas, sigue=
+n
+>>> la misma estructura de contenidos, los mismos espacios para la
+>>> publicidad, o quiz=E1 sea cosa m=EDa que he desarrollado un sentido
+>>> especial para detectarlas.
+>>
+>>
+>> Es lo que desarrolla este art=EDculo:
+>>
+>> http://www.joanmayans.com/?p=3D159
+>>
+>> (en catal=E1n)
+>
+> Completamente de acuerdo.
+>
+> Yo me quedo a cuadros cuando veo una p=E1gina web en PHP cuyo contenido e=
+s
+> s=F3lo texto y alguna que otra imagen (t=EDpica p=E1gina corporativa de
+> "qui=E9nes somos, qu=E9 hacemos, a d=F3nde vamos") lo cual no s=F3lo supo=
+ne una
+> p=E9rdida de recursos tremenda (el servidor tiene que tener instalado PHP=
+,
+> am=E9n de interpretar el c=F3digo y presentar el resultado en el navegado=
+r
+> cliente) sino que el uso de frameworks como los que comenta el autor en
+> el blog supone actualmente uno de los mayores problemas de seguridad en
+> los servidores web.
+>
+> Y no se trata de "demonizar" este tipo de soluciones (supongo que en el
+> a=F1o 2000 los programadores web echar=EDan las mismas "pestes" sobre los
+> editores gr=E1ficos html) sino de saber adecuar cada proyecto con su
+> herramienta y no intentar "matar moscas a ca=F1onazos" como suele pasar
+> ahora con este tipo de soluciones todo-en-uno que generan p=E1ginas web
+> pr=E1cticamente impersonales.
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k2kqe0$77j$1@ger.gmane.org
+>
+Yo uso Inkscape, gimp, gedit y con eso paso al frente.
+Ninja-ide est=E1 bueno para hacer cosas con python
+
+
+--=20
+Fernando Rodriguez
+______________________________
+skype: fernandorodriguez310
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALr8fN4OG_hb1WxtT0m0QDbxumAgStjZmO+-xd6CCN28WJaufQ@mail.gmail.com
+

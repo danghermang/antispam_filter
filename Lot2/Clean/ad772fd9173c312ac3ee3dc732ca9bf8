@@ -1,0 +1,45 @@
+Subject:Re: Squirrelmail: =?UTF-8?B?UHJvYmzDqW1l?= d'affichage
+Le Sun, 21 Oct 2012 20:45:00 +0200,
+Zuthos <zuthos-NoSpam@laposte.net> a écrit :
+
+> Bonjour, j'ai un soucis avec squirrelmail
+> 
+> J'ai isolé ce logiciel puisqu'avec mutt sur le même mail, je n'ai pas
+> de soucis. Donc cela ne provient pas de courier
+> 
+> Voici mes observations:
+> Pour certain mail, le sujet d=ne s'affiche pas
+> Pour d'autre, l'auteur n'apparaît pas
+> Pour d'autre encore, le texte du courriel et presque totalement
+> tronqué.
+> 
+> Enfin, pour d'autre encore, c'est une variation de ces trois problème.
+> 
+> Pour finir, lors de la page de démarrage de squirrelmail il n'y a pas
+> de texte affiché sur le bouton OK.
+> 
+> J'avoue ne pas trop savoir quoi faire et ou chercher. J'ai pensé dans
+> un premier temps à un problème qui pourrais se résoudre lors d'un
+> upgrade. Toutefois après plusieurs des ces derniers, force et de
+> constater que cela n'est pas le cas.
+> 
+> Si vous avez une piste ou idée, merci d'avance...
+> 
+> Ps: je suis sur une wheezy
+> 
+bonjour,
+
+	que donne : apt-cache policy `apt-cache search squirrelmail |awk '{print $1}'`
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121021211547.7c1bc0ae.bernard.schoenacker@free.fr
+

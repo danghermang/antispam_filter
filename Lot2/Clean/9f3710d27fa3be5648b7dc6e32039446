@@ -1,0 +1,31 @@
+Subject:Re: alt-tab dans =?UTF-8?B?ZmVuw6p0cmU=?= active VB
+On Tue, 2 Oct 2012 22:38:41 +0200
+steve <dlist@bluewin.ch> wrote:
+
+> Si je suis dans une fen=C3=AAtre virtualbox et que je fais alt-tab sur
+> mon clavier, je ne vois pas les autres fen=C3=AAtres ouvertes, comme
+> c'est la cas quand la fen=C3=AAtre active est un autre programme comme
+> iceweasel, un terminal quelconque ou gimp, par exemple. Est-ce =C3=A0
+> dire que virtualbox n'est pas une applications =C2=AB=C2=A0comme les
+> autres=C2=A0=C2=BB =C2=A0? Est-ce un bug ou une fonctionnalit=C3=A9=C2=A0?
+
+ALT-TAB est aussi utilis=C3=A9 dans w$ pour faire d=C3=A9filer les pgms
+apparaissant dans la taskbar; la seule mani=C3=A8re que =C3=A7a fonctionne
+avec ton WM est de rendre la sortie de VBX transparente de fa=C3=A7on
+=C3=A0 ce qu'une fois sorti de VBX le WM reprenne la main.
+
+--=20
+Lepidosteus: de toutes fa=C3=A7ons mon medecin m'a dit que mes crises
+             de n=C3=A9vrose passag=C3=A8res ne me poseraient pas de probl=
+=C3=A8mes
+Lepidosteus: en tout cas, pas tant que je cache les corps
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121002224905.4362711e@anubis.defcon1
+

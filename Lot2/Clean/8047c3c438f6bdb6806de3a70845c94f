@@ -1,0 +1,160 @@
+Subject:Tech Resources: The latest and greatest from The Register
+   The Register
+   Tech Resources
+
+      10 October 2012
+
+                     Check out our other feeds and services:
+
+                       http://www.theregister.co.uk/Design/page/feeds.html
+
+   Hello braun as Welcome to this Tech Resources update from The Register
+
+   Unified Storage Consolidation for Microsoft Windows Installations
+   http://whitepapers.theregister.co.uk/d/9d4/5613a/4ea/060017ec?td=3Dm_wpe=
+_h
+
+      Unified storage is infrastructure that supports multiple types of
+      storage within a single management framework. In an ideal scenario, an
+      admin can access a single set of tools and functions that are
+      transparent to the type of storage used.
+
+      The specific business case analysis detailed in this paper compares a
+      base case of a varied number of storage solutions with a unified
+      storage solution for a Wikibon Reference Organization with revenues of
+      $250 million, 1,000 staff, and an IT budget of $7.5 million.
+
+Transforming Virtualized Infrastructure
+http://whitepapers.theregister.co.uk/d/9ea/5613a/4ea/c36c24a2?td=3Dm_wpe_h
+
+   As private clouds gain traction, the industry will see continuing
+   strong momentum for virtualizing mission-critical applications sourced
+   from key suppliers such as Microsoft, Oracle, and SAP. Virtualization
+   is at the core of an efficient, manageable private cloud
+   infrastructure. While the initial driver to virtualize has been cost
+   savings, increasingly the focus is on improvements to performance,
+   service quality, and availability. What IT organizations have come to
+   realize is that the underlying infrastructure, particularly storage,
+   plays a key role in successfully realizing the benefits of a
+   virtualized environment that supports enterprise applications.
+
+Endpoint security - pressures and priorities
+http://whitepapers.theregister.co.uk/d/9f8/5613a/4ea/a1ba81bd?td=3Dm_wpe_h
+
+   Organisations are struggling to keep pace with the changing security
+   needs and demands of their user base. Well established trends such as
+   the move to mobile and flexible working and the consumerisation of IT
+   mean that there is increasing pressure on organisations to open up
+   their infrastructure to end users who want to bring their own devices -
+   be they tablets, netbooks, laptops or smartphones - to work. Managing
+   the security needs of such an environment means there needs to be
+   increased emphasis on security on the devices themselves.
+
+   However, a survey of IT security decision makers in UK SMEs found that
+   while many acknowledge the reality of this situation, policies and
+   technologies, particularly with regard to automatic upgrading and
+   patching of endpoint security solutions, have yet to catch up.
+
+Many devices, one policy
+http://whitepapers.theregister.co.uk/d/a00/5613a/4ea/810083aa?td=3Dm_wpe_h
+
+   Regcast exploring whether a single security policy is possible.
+
+IT security. Are you in control?
+http://whitepapers.theregister.co.uk/d/a0a/5613a/4ea/8747e876?td=3Dm_wpe_h
+
+   In the real world the security landscape can be a harsh environment.
+   Hackers are using more sophisticated attack methods to penetrate
+   networks and steal company data; social networks are being compromised
+   and used to distribute malware, and instigate phishing attacks; and the
+   proliferation of mobile and cloud applications are opening new
+   vulnerabilities ripe for exploitation.
+
+   These vulnerabilities are equally true for small and mid-sized
+   businesses (SMBs), but too often SMBs misjudge their level of risk
+   exposure as it is often the big corporate security breaches and
+   embarrassing data compromises that command media attention.
+
+   For every one of these big security breaches, there are probably dozens
+   - if not hundreds - of breaches at companies with less than 500
+   employees. Businesses often wrap themselves in a false sense of
+   security believing that they are not as interesting or valuable to
+   hackers and cybercriminals. That belief is wrong.
+
+   What most businesses fail to realise is that they are dealing with the
+   same treacherous security environment as those headline-hitting
+   enterprise players and must be mindful to the threats posed by social
+   networks, mobile devices, advanced persistent threats (APTs) and
+   conventional attack vectors.
+
+Deliver enterprise-class storage whilst lowering cost
+http://whitepapers.theregister.co.uk/d/a0f/5613a/4ea/2bab0327?td=3Dm_wpe_h
+
+   High storage costs are often one of the biggest cost drivers in a
+   datacenter and Windows Server 2012 helps deliver enterprise-class
+   storage availability, flexibility and performance - at a fraction of
+   the cost.
+
+   Windows Server 2012 introduces several new storage features and
+   capabilities designed to provide enhanced reliability, availability,
+   and high performance storage solutions. From improved compatibility
+   with the latest storage technologies to forward-thinking innovations
+   that make complex storage infrastructures easier to manage, Windows
+   Server 2012 has new storage capabilities and features for everyone.
+
+Maximize your productivity, efficiency, and service levels
+http://whitepapers.theregister.co.uk/d/a10/5613a/4ea/371e49d3?td=3Dm_wpe_h
+
+   It is essential for IT to provide applications and services that are
+   always up and always on. Windows Server 2012 provides high service
+   uptime, new capabilities which can endure many failures transparently -
+   without interrupting service - and faster recovery when failures do
+   occur. These features help improve the availability of individual
+   servers, clusters, and even across datacenters.
+
+   To maximize business productivity, efficiency, and service levels, IT
+   should make applications, services, and information continuously
+   available and resilient to failures. Resource pooling of compute,
+   storage, and network resources into virtualized private cloud
+   environments can provide resiliency against hardware failures. Windows
+   Server provides improved resiliency for your workloads, including
+   features which can endure many failures transparently, and help you
+   recover quickly when failures do occur.
+
+Planning a Move to the Cloud
+http://whitepapers.theregister.co.uk/d/a11/5613a/4ea/70cb2d98?td=3Dm_wpe_h
+
+   Cloud Computing is a paradigm shift that sees the dawn of a new age of
+   computing driven by distinct benefits. Given the undeniable value to be
+   gained from a move to Cloud Computing, it is hardly surprising that
+   many organizations are contemplating a shift "to the Clouds".
+   Experience has shown however that organizations are concerned around
+   the logistics of the move and worried about unintended consequences and
+   problems.
+
+   In this paper we describe three broad areas that organizations need to
+   think about when moving to the Cloud: technical, internal and external.
+
+   Within these three areas we highlight specific topics that
+   organizations should understand prior to a move to the Cloud.
+     __________________________________________________________________
+
+Terms and Conditions
+
+   By downloading any of the papers, or by watching for any of the live or
+   on-demand events above, you agree that your supplied personal details
+   will be passed on to the sponsor of the paper/event, and that this
+   organisation may contact you in the future with further information
+   about their products and services. You can request a stop to such
+   communications at any time.
+     __________________________________________________________________
+
+   To change your preferences, including which topics you see in these
+   emails, visit the following URL:
+
+     http://account.theregister.co.uk/register/
+
+   Or if you just want to quickly unsubscribe from ALL Reg mailings, use
+   this:
+
+     http://account.theregister.co.uk/unsubscribe/352570/0e7cc08c

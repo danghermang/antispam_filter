@@ -1,0 +1,54 @@
+Subject:Re: Es posible copiar todo lo que hay en / ?
+Buenos d=C3=ADas,
+
+El 06/11/2012, a las 05:57, "Walter O. Dari" <wlinuxw@gmail.com> escribi=C3=B3=
+:
+
+> Hola:
+>=20
+> El 06/11/12 01:49, Aristobulo Pinzon escribi=C3=B3:
+>> Hola todos.
+>> Agradecimiento y felicitaciones por saber tanto y compartirlo.
+>> Estoy muy bien con debian instalado, pero debo cambiar de disco
+>> por otro mejor. Es posible copiar todo lo que hay en / a la partici=C3=B3=
+n
+>> nueva,
+>> y funciona? Alguien lo ha hecho sin tener que reinstalarlo?
+
+Usa Clonezilla, o similar, y clonas el disco antiguo sobre el nuevo.
+
+
+Saludos,
+
+Ramses
+
+> Las pocas veces que he reinstalado (o cambiado de versi=C3=B3n), los direc=
+torios que respald=C3=A9 fueron el /etc (est=C3=A1n las configuraciones de l=
+os programas instalados) y el /home. Si se trata de un servidor deber=C3=ADa=
+s tener en cuenta tambi=C3=A9n el /var.
+> Como particularmente s=C3=B3lo utilizo el mysql que guarda las bases en /v=
+ar, en lugar de respaldar ese directorio, hago un respaldo de todas las base=
+s desde el mysql mismo antes de reinstalar o migrar a una nueva versi=C3=B3n=
+ del S.O.
+>=20
+>> Gracias de nuevo.
+>=20
+> Saludos,
+> Walter
+>=20
+> http://swcomputacion.com/
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/509898B3.7070307@gmail.com
+>=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/696CB701-3897-415E-9484-E0A55A7E6D96@gmail.com
+

@@ -1,0 +1,17 @@
+Subject:Consulta /etc/apt/sources.list
+Buenas, tengo una peque=F1a duda.
+Mi /etc/apt/sources.list apunta a los repositorios stable
+Hoy la estable es squeeze, pero en algun tiempo va a ser wheezy
+Mi sistema cambiara de squeeze a wheezy o debo modificar algo?, tendre
+algun problema?
+
+Muchas Gracias
+--=20
+Juan Martin Villanueva
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CANDmoThBgr-3cHMCamoE7hsWOD2yLG_HrP2OWkaYpuHzUK3xHA@mail.gmail.com
+

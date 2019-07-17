@@ -1,0 +1,28 @@
+Subject:Re: Debian et =?ISO-8859-1?Q?d=E9bit?= USB3
+Le Wed, 31 Oct 2012 01:40:30 +0100
+Ga=EBtan PERRIER <gaetan.perrier@neuf.fr> a =E9crit:
+
+=20
+> D'apr=E8s tout les tests que j'ai pu voir ce disque est dans les 90 Mo/s.
+> Et en lecture j'obtiens bien 120Mo/s. Je ne comprends donc pas pourquoi =
+=E7a
+> plafonne en =E9criture. Ou alors c'est rsync qui fait la limitation ?
+>=20
+
+Effectivement =E7a semble =EAtre rsync qui lambine. Ma sauvegarde venant de=
+ se
+terminer j'ai fais un essai de copie d'un gros fichier depuis nautilus et l=
+=E0
+j'ai eu 105 Mo/s.
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031014636.fb2fbdc02c5929d27e442804@neuf.fr
+

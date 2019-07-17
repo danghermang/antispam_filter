@@ -1,0 +1,39 @@
+Subject:Re: Comment installer plusieurs instances de PHP
+On Mon, Oct 08, 2012 at 02:23:40PM +0200, Olivier wrote:
+> Bonjour,
+> 
+> Avec un serveur apache2, j'ai une appli web qui exige PHP5.3.
+> Wheezy installe PHP5.4.
+
+Je connais mal PHP, mais il est fort possible qu'une appi exigeant PHP 5.3 marche sous 5.4.
+
+> 
+> Est-il possible d'installer PHP5.3 sur Wheezy en parallèle à PHP5.3 et
+> spécifier qu'une appli utilise la version 5.3 de PHP plutôt que la version
+> "par défaut" ?
+
+Oui, et on peut au moins faire tourner d'autres serveurs Web 
+(sur d'autres ports), et rediriger (=proxy) une URL vers l'un de ces autres ports/serveurs...
+
+> Que me conseillez-vous ?
+D'abord d'essayer l'appli sous 5.4!
+
+Et il y a autre chose que PHP, par exemple http://opalang.org et http://ocsigen.org/
+
+Librement 
+
+-- 
+Basile STARYNKEVITCH         http://starynkevitch.net/Basile/
+email: basile<at>starynkevitch<dot>net mobile: +33 6 8501 2359
+8, rue de la Faiencerie, 92340 Bourg La Reine, France
+*** opinions {are only mines, sont seulement les miennes} ***
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121008123441.GA16738@hector.lesours
+

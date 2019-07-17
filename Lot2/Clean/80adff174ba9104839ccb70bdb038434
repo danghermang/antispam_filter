@@ -1,0 +1,60 @@
+Subject:=?UTF-8?B?UmU6IEdlc3Rpb24gZCd1biByZXBvc2l0b3J5ICYgc3VwcG9ydCBkJ2E=?=
+	=?UTF-8?B?cHQtbWlycm9yIFt3YXMgUmU6IEFwdC1taXJyb3IgZXQgIkxlIGZpY2hpZXIgwqs=?=
+	=?UTF-8?B?IFJlbGVhc2UgwrsgYSBleHBpcsOpIl0=?=
+Salut,
+
+Le 11/10/2012 09:51, David BERCOT a écrit :
+> Bonjour,
+>
+> Comme ce sujet intéresse apparemment d'autres personnes et que j'ai
+> beaucoup de mal à trouver du support sur l'outil "apt-mirror", je
+> retente ma chance ;-)
+>
+> Concernant ma question précédente ("Le fichier « Release » a expiré"),
+> je n'ai toujours pas de réponse. J'ai essayé d'écrire aux mainteneurs du
+> paquet sans succès. Est-ce que, par hasard, vous savez à qui je
+> pourrais m'adresser ?
+Dans chaque répertoire "dists" créé par apt-mirror (ou plutôt dans le 
+sous répertoire de la distribution, par exemple 
+.../ftp.fr.debian.org/debian/dists/wheezy), il y a un fichier "Release" 
+qui contient une donnée "Valid-Until:". Je pense que ton problème 
+survient lorsque la date indiquée est dépassée. J'ai tout de même peur 
+que si tu modifie cette date, la signature contenue dans le fichier 
+Release.gpg ne soit plus valide. Tu as donc, il me semble, deux 
+solutions : soit tu ne vérifies pas la date, soit tu ne vérifies pas la 
+signature (ou alors tu ressignes avec une clé t'appartenant, mais tu 
+devras aussi distribuer le certificat).
+
+> Ensuite, sur mon repository local, j'ai de nouveaux besoins qui
+> arrivent. Ainsi, je souhaiterais mettre à disposition des packages
+> Debian internes. Pour cela, j'aurais besoin que ces paquets soient
+> "visibles" à partir des serveurs (via apt-cache search, apt-get install,
+> etc...). Je suppose donc qu'il faudrait que les fichiers
+> Contents-amd64.gz, Release, Release.gpg, etc... intègrent les bonnes
+> informations. Savez-vous comment je dois procéder ?
+Il me semble que pour cela, l'idéal serait que tu créés ton propre 
+dépôt, en plus des dépôts officiels que tu répliques. Ça t'obligera tout 
+de même à ajouter ce dépôt sur les machines en ayant besoin (fichier à 
+ajouter dans  /etc/apt/sources.list.d/).
+Pour faire les choses proprement, il faudrait aussi que tu signes les 
+fichiers de ton dépôt ou que tu ne vérifie pas les signatures (ajout de 
+l'option "trusted=yes" [cf man sources.list]) pour ce dépôt.
+
+>
+> Merci d'avance.
+De rien. J'espère que cela te sera utile.
+>
+> David.
+>
+-- 
+Jean-Jacques
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50767FBB.1060301@doti.fr
+

@@ -1,0 +1,60 @@
+Subject:Re: [Flexradio] Heads up on Astron Power supplies
+Speaking of Astron power supplies, I've noticed on several of my RS- and
+VS- 35A and 50A supplies that they occasionally emit a low frequency
+vibration that can easily progagate through wooden shelves and tabletops.
+Their rubberized feet seem to do little to stop it. It came to light when
+operating AM with a desk microphone and contacts noticed a slight rumble
+on the audio. A rubberized mouse pad from the previous century now sits
+under the mike stand whenever I use a desk mike.
+
+Pete, wa2cwa
+http://www.manualman.com
+
+On Fri, 26 Oct 2012 14:08:16 -0400 "Chuck ONeal" <cdoneal@comcast.net>
+writes:
+> That's normal, mine does it also.
+> 
+> It's caused by the inrush current charging the power supply 
+> capacitor with 
+> the resulting current surge in the power transformer making it 
+> "ring".  The 
+> amount of the surge will depend where on the 60 Hz power line 
+> waveform you 
+> happen to switch it on.  At the peak of voltage it will be the 
+> worst. 
+> That's why it seems to vary each time you turn it on.
+> 
+> The supply could use a step start to eliminate it which basically is 
+> a 
+> series resistor in the primary that is shorted out after a few 
+> seconds, 
+> allowing the capacitor to charge slowly.
+> 
+> Chuck, K1KW
+> 
+> 
+> ----- Original Message ----- 
+> From: "Hanford R Wright" <joh69@earthlink.net>
+> To: "Dave Beumer W?DHB" <dave@w0dhb.net>
+> Cc: <FlexRadio@yahoogroups.com>; <flexradio@flex-radio.biz>
+> Sent: Friday, October 26, 2012 1:54 PM
+> Subject: Re: [Flexradio] Heads up on Astron Power supplies
+> 
+> 
+> >I have an Astron RM-35 amp linear power supply powering my 
+> Flex-3000 and 
+> >sometimes it will make a loud clank when I turn it on.  Has anyone 
+> know 
+> >what causes that kind of racket?
+> >
+> > 73's
+> > Hanford
+> > WA4LZC
+> > CCA # AC11-12590
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

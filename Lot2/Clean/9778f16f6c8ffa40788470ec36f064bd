@@ -1,0 +1,73 @@
+Subject:Encountered a section with no Package: header
+Bonjour =E0 tous,
+
+J'ai un probl=E8me avec aptitude et apt-get
+apt-get update
+R=E9ception de=A0: 1 http://ftp.fr.debian.org testing InRelease [207 kB]
+R=E9ception de=A0: 2 http://ftp.fr.debian.org testing/main i386 Packages [5=
+953 kB]
+R=E9ception de=A0: 3 http://ftp.fr.debian.org testing/contrib i386
+Packages [44,6 kB]
+Ign http://ftp.fr.debian.org testing/contrib TranslationIndex
+R=E9ception de=A0: 4 http://ftp.fr.debian.org testing/main TranslationIndex=
+ [2295 B]
+R=E9ception de=A0: 5 http://ftp.fr.debian.org testing/contrib
+Translation-en [35,8 kB]
+R=E9ception de=A0: 6 http://ftp.fr.debian.org testing/main Translation-fr [=
+740 kB]
+R=E9ception de=A0: 7 http://ftp.fr.debian.org testing/main Translation-en
+[3917 kB]
+R=E9ception de=A0: 8 http://ftp.fr.debian.org testing/contrib
+Translation-fr_BE [230 B]
+R=E9ception de=A0: 9 http://ftp.fr.debian.org testing/contrib
+Translation-fr [224 B]
+10,9 Mo r=E9ceptionn=E9s en 14s (742 ko/s)
+W: Impossible de r=E9cup=E9rer
+gzip:/var/lib/apt/lists/partial/ftp.fr.debian.org_debian_dists_testing_cont=
+rib_i18n_Translation-fr%5fBE
+ Encountered a section with no Package: header
+
+W: Impossible de r=E9cup=E9rer
+gzip:/var/lib/apt/lists/partial/ftp.fr.debian.org_debian_dists_testing_cont=
+rib_i18n_Translation-fr
+ Encountered a section with no Package: header
+
+E: Le t=E9l=E9chargement de quelques fichiers d'index a =E9chou=E9, ils ont
+=E9t=E9 ignor=E9s, ou les anciens ont =E9t=E9 utilis=E9s =E0 la place.
+
+
+__________________________________________________________
+
+Voici mon sources.list
+
+deb http://ftp.fr.debian.org/debian testing main contrib
+#deb-src http://ftp.be.debian.org/debian testing main contrib
+
+#deb http://ftp.debian.org/debian/ wheezy-updates main contrib
+#deb-src http://ftp.debian.org/debian/ wheezy-updates main contrib
+
+#deb http://security.debian.org/ wheezy/updates main contrib
+#deb-src http://security.debian.org/ wheezy/updates main contrib
+
+#Third Parties Repos
+#Debian Multimedia
+#deb http://www.las.ic.unicamp.br/pub/debian-multimedia/ testing main
+
+#J'ai comment=E9 les lignes qui ne sont pas essentielles
+
+Quelqu'un a une id=E9e ?
+
+Merci d'avance.
+
+--=20
+Beno=EEt
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAK_7-eRUgaFpd17HhPayrrAqzDoyrLR60NhhUa1R3PeA9ivm8w@mail.gmail.com
+

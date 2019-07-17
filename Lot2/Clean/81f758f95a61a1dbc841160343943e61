@@ -1,0 +1,44 @@
+Subject:Re: Compilar kernel para optimizacion
+El Wed, 21 Nov 2012 11:11:17 +0100, maykel escribió:
+
+>> El Tue, 20 Nov 2012 17:11:41 +0100, maykel escribiÃ³:
+
+(...)
+
+>>> BUG: soft lockup - CPU#0 stuck
+>>>
+>>> Estoy con ello haber, pero parece ser que tiene que ver con el nÃºmero
+>>> de
+>>> procesadores, porque creo recordar que el parche de kolivas es para
+>>> mÃ¡quinas no potentes y con pocas cpus creo recordar....
+>>
+>> Pues al menos ya tienes dÃ³nde buscar... por cierto, el propio autor
+>> del parche ha realizado pruebas de rendimiento sobre "su criatura":
+>>
+>> http://repo-ck.com/bench/cpu_schedulers_compared.pdf
+
+> Gracias por contestar, si esa comparativa ya la vi y la fotito tan
+> bonita que sale con la chica también xDDD.
+> 
+> Eso lo he visto cuando te esperas 3 minutos y sigue sin arrancar te sale
+> eso...
+> 
+> En fedora, ni si quiera sale eso. Sólo lo he visto en el ubuntu.
+
+Los mensajes son importantes... ¿te aparece algo más en la pantalla tras 
+15 minutos de espera? >>:-)
+
+Prueba a iniciar en el modo monousuario o pasando al kernel el parámetro 
+"acpi=off" a ver qué pasa.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8isks$fe8$5@ger.gmane.org
+

@@ -1,0 +1,63 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_Brillo_pantalla_en_port=E1til_Acer_con_gr=E1fica_I?=
+	=?ISO-8859-1?Q?ntel?=
+El d=EDa 2 de septiembre de 2012 20:38, Evgeny M. Zubok
+<evgeny.zubok@tochka.ru> escribi=F3:
+> Marc Mar=ED <5.markmb.5@gmail.com> writes:
+>
+> ...
+>> Despu=E9s de buscar mucho en google, cosas que no funcionan:
+> ...
+>> -Actualizar el kernel (funciona, pero hace que me dejen de funcionar
+>> los videos en el vlc, cosa rara)
+>
+> Creo que tienes problemas con controladores. =BFHas probado actualizar el
+> X Server y el controlador de tu tarjeta gr=E1fica (=BFIntel Sandy Bridge?=
+)
+> para X Window System despu=E9s de actualizaci=F3n de n=FAcleo? Puedes
+> actualizarlos desde squeeze-backports.
+>
+> Mira este hilo:
+>
+> http://lists.debian.org/debian-user-spanish/2012/06/msg00658.html
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/87pq641d9g.fsf@tochka.ru
+>
+
+Hola
+
+Si le doy a "aptitude upgrade -t squeeze-backports
+xserver-xorg-video-intel", me dice que est=E1 retenido, y si le doy con
+install, me dice esto:
+
+No se satisfacen las dependencias de los siguientes paquetes:
+  xserver-xorg-core: Rompe: xserver-xorg-video-6 que es un paquete virtual.
+  xserver-xorg-video-nv: Depende: xorg-video-abi-6.0 que es un paquete virt=
+ual.
+Las acciones siguientes resolver=E1n estas dependencias
+
+     Eliminar los paquetes siguientes:
+1)     xorg
+2)     xserver-xorg
+3)     xserver-xorg-video-all
+4)     xserver-xorg-video-nv
+
+     Dejar las siguientes dependencias sin resolver:
+5)     gdm3 recomienda xserver-xorg
+6)     xinit recomienda xserver-xorg | xserver
+
+=BFY todas las veces que lo intenta resolver, me quiere eliminar xorg.
+Deber=EDa hacerlo por apt-get?
+
+Un saludo y gracias
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8T1XDky=OOFfqqcfgy2nTXv1+OsqimmP7Z7iw63EofRrw@mail.gmail.com
+

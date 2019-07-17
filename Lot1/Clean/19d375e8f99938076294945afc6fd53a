@@ -1,0 +1,34 @@
+Subject:Re: PATH
+El d=EDa 23 de octubre de 2012 21:49, El Ale...
+<alexissaucedo@gmail.com> escribi=F3:
+> Gente buenas noches, se que es una consulta un poco basica pero ya intent=
+e
+> hacerla y siempre me da permiso denegado y cuando le hago el chmod +x no =
+me
+> sale nada, estoy usando heroku de facebook y me lo instalo en este
+> directorio:
+>
+> /usr/local/heroku/bin/heroku
+>
+> ahora cuando necesito hacer algun comando con el tengo que escribir todso=
+ el
+> directorio /usr/local/heroku/bin/heroku --verision. se que lo deberia lle=
+var
+> al /usr/bin para que sea con un solo comamdno pero no me sale, =BFcomo po=
+dria
+> hacerlo? que ya no tenga que escribir la raiz sino solo heroku?.
+>
+> Saludos y gracias!
+
+Pues un enlace simb=F3lico a /usr/bin
+ln -si /usr/local/heroku/bin/heroku /usr/bin/heroku
+
+si son muchos comandos, tal ves una mejor opci=F3n es poner
+/usr/local/heroku/bin en la variable PATH
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADqxbRSNU+s017AjRnoqEi0cnjSCsHf3as4+hx73TnEeGzVR6A@mail.gmail.com
+

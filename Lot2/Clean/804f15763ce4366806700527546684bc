@@ -1,0 +1,17 @@
+Subject:Re: como averiguo el tiempo transcurrido desde que se encendio el PC
+Victor Hugo Cespedes Zuleta <cespedes.zuleta.victor@gmail.com> writes:
+
+> ¿cómo averiguo el tiempo transcurrido desde que se encendio el PC?
+
+$ apropos time
+
+Buscas, buscas y encuentras:
+
+uptime (1)           - Tell how long the system has been running.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87ehld95hk.fsf@tochka.ru
+

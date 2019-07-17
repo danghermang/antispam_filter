@@ -1,0 +1,28 @@
+Subject:Re: Controleur sata raid sil5723
+On Tue, 20 Nov 2012 13:36:37 +0100
+steve <dlist@bluewin.ch> wrote:
+
+> J'ai une CM Asus P5Q contenant deux contr=C3=B4leurs sata raid sil5723 qu=
+e je
+> voudrais utiliser pour y mettre un disque ssd en mode normal (fonction Xp=
+ert
+
+Il-y-a qq ann=C3=A9es, il fallait inverser l'ordre d'appel carte ctrlr SIL =
+& BIOS
+sur les CM PCI parce que sinon la carte ctrlr passait avant le BIOS - peut
+=C3=AAtre est-ce le m=C3=AAme genre de PB?
+
+--=20
+Bobbylapointe: En fait bosser =C3=A0 la SNCF c'est un peu comme etre en sta=
+ge pour
+               la retraite... T'apprends ce que tu feras plus tard.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121120174513.081532fa@anubis.defcon1
+

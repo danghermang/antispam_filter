@@ -1,0 +1,37 @@
+Subject:CPAN client issues on ActiveState 5.16.1 64-bit
+Hi,
+
+I'm using the all-new 5.16.1 ActiveState perl with 64-bit dmake.
+However if I try to install a module via the cpan client I see an
+error like below, would anyone have any advice?
+
+--
+Michiel
+
+  CPAN.pm: Building D/DP/DPARIS/Crypt-IDEA-1.08.tar.gz
+
+Set up gcc environment - gcc.exe (rubenvb-4.5.4) 4.5.4
+Checking if your kit is complete...
+Looks good
+JSON 2.5 is required for $ENV{PERL_JSON_BACKEND} = 'JSON::XS'
+ at C:/Perl64/lib/CPAN/Meta/Converter.pm line 23.
+ at C:/Perl64/lib/ExtUtils/MM_Any.pm line 877.
+JSON 2.5 is required for $ENV{PERL_JSON_BACKEND} = 'JSON::XS'
+ at C:/Perl64/lib/CPAN/Meta/Converter.pm line 23.
+Warning: No success on command[C:\Perl64\bin\perl.exe Makefile.PL INSTALLDIRS=si
+te]
+  DPARIS/Crypt-IDEA-1.08.tar.gz
+  C:\Perl64\bin\perl.exe Makefile.PL INSTALLDIRS=site -- NOT OK
+Running make test
+  Make had some problems, won't test
+Running make install
+  Make had some problems, won't install
+Could not read metadata file. Falling back to other methods to determine prerequ
+isites
+Failed during this command:
+ DPARIS/Crypt-IDEA-1.08.tar.gz                : writemakefile NO 'C:\Perl64\bin\
+perl.exe Makefile.PL INSTALLDIRS=site' returned status 512
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

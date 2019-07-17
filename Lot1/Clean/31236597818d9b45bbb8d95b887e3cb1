@@ -1,0 +1,19 @@
+Subject:Re: impossible ouvrir mon =?iso-8859-1?Q?c?=
+	=?iso-8859-1?Q?ompte_invit=E9?=
+Le lundi 17 septembre 2012 à 16:56, Nicolas Hémard a écrit :
+> Le user2 s'affiche parfaitement en console... Mystère
+
+Dans quel répertoire se trouve-t-il une fois connecté (commande pwd) ?
+Que vaut la variable $HOME (commande echo $HOME) ?
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120917150222.GE7453@sebian.nob900.homeip.net
+

@@ -1,0 +1,49 @@
+Subject:[Hsqldb-user] Using log4jdbc gives a "user lacks privilege or
+ object not found"
+
+Hi,
+
+I have a data source that works fine with these settings:
+
+hibernate.dialect=org.hibernate.dialect.HSQLDialect
+hibernate.hbm2ddl.auto=create
+dataSource.driverClassName=org.hsqldb.jdbcDriver
+dataSource.url=jdbc:hsqldb:mem:db_integration
+dataSource.username=sa
+dataSource.password=
+
+Now, if I want to output the sql statements with log4jdbc with the following
+settings:
+
+hibernate.dialect=org.hibernate.dialect.HSQLDialect
+hibernate.hbm2ddl.auto=create
+dataSource.driverClassName=net.sf.log4jdbc.DriverSpy
+#org.hsqldb.jdbcDriver
+dataSource.url=jdbc:log4jdbc:hsqldb:mem:db_integration
+dataSource.username=sa
+dataSource.password=
+
+I get the exception:
+
+Caused by: org.hsqldb.HsqlException: user lacks privilege or object not
+found: PUBLIC.ELEARNING_ASSIGNMENT
+
+Note that my log4jdbc works fine when I run the build against MySql or
+Oracle.
+
+
+-- 
+View this message in context: http://old.nabble.com/Using-log4jdbc-gives-a-%22user-lacks-privilege-or-object-not-found%22-tp34777124p34777124.html
+Sent from the HSQLDB - User mailing list archive at Nabble.com.
+
+
+------------------------------------------------------------------------------
+LogMeIn Rescue: Anywhere, Anytime Remote support for IT. Free Trial
+Remotely access PCs and mobile devices and provide instant support
+Improve your efficiency, and focus on delivering more value-add services
+Discover what IT Professionals Know. Rescue delivers
+http://p.sf.net/sfu/logmein_12329d2d
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

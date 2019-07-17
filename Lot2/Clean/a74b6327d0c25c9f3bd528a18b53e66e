@@ -1,0 +1,59 @@
+Subject:Re: Installation sur partition GPT
+Le mercredi 3 octobre 2012 23:19:02, Sylvain L. Sauvage a écrit :
+> Le mercredi 3 octobre 2012 à 20:16:42, Eddy F. a écrit :
+> > Bonjour,
+> 
+> ’soir,
+> 
+> > Confronté pour la première fois à UEFI et une infâme
+> > partition GPT, je ne sais pas comment installer et aurais
+> > bien besoin de conseils.
+> 
+>   Poh poh poh, GPT est très bien, c’est UEFI qui est tout 
+> pourri.
+
+J'avais cru comprendre que GPT est un sous-produit de UEFI.
+Pour le moment en tout cas, je m'en serais bien passé. Ce qui m'énerve
+fondamentalement c'est que c'est un constructeur de matériel qui,
+associé à un vendeur de fenêtres, décide pour moi du type de
+partitionnement que je dois utiliser. Certes, je me doute qu'il faudra
+bien y passer tôt ou tard sauf qu'ils ont décidé pour moi que c'est
+maintenant... et cela ne m'arrange vraiment pas.
+
+Je choisis Linux pour la liberté qu'il me donne sur ma machine
+mais pour le moment c'est la machine qui impose son fonctionnement. 
+Système privateur de m... 
+Enfin, je m'égare.
+
+> > Je souhaite installer Debian Wheezy sur un Asus n56v (le
+> > choix du portable n'étant pas de mon ressort).
+> > 
+> > Contrainte : ne pas bousiller le Windows 7 installé dessus
+> >[…]
+> 
+>   D’abord, la meilleure adresse que j’ai trouvée :
+> http://www.rodsbooks.com/efi-bootloaders/index.html
+> [...] 
+
+J'ai été jeter un œil rapide et cela a l'air bien intéressant ; j'y
+passerai à coup sûr beaucoup de temps demain.
+
+Pour tout le reste de tes précieux commentaires, en les relisant je me
+rends compte qu'ils suscitent chez moi beaucoup de questions. Je vais
+d'abord continuer à chercher mais je crains de devoir rappliquer avec
+des demandes d'éclaircissements.
+
+Merci beaucoup pour ton aide.
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210040037.44539.edfnet-deb@yahoo.fr
+

@@ -1,0 +1,105 @@
+Subject:Re: autenticar squid con LDAP(cuba)
+El 01/10/12 15:37, Cristian Mitchell escribió:
+> El día 1 de octubre de 2012 11:58, linux
+> <liuberperez.mtz@infomed.sld.cu> escribió:
+>> Saludos lista alguien tiene algun ejemplo o documentacion de como autenticar
+>> squid contra ldap, ya tengo montado ldap integrado al correo con iredmail
+>> pero quisiera autenticar los usuarios de mail que tengo en mi ldap contra
+>> squid.
+>>
+>> saludos
+>>
+>> Liuber
+>>
+>> --
+>>
+>> Este mensaje le ha llegado mediante el servicio de correo electronico que
+>> ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema
+>> Nacional de Salud. La persona que envia este correo asume el compromiso de
+>> usar el servicio a tales fines y cumplir con las regulaciones establecidas
+>>
+>> Infomed: http://www.sld.cu/
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/5069AF8A.3030408@infomed.sld.cu
+>>
+> https://www.google.com.ar/#hl=es-419&sclient=psy-ab&q=squid+ldap+authentication&oq=squid+ldap&gs_l=hp.3.1.0l4.2166.4292.0.7242.10.10.0.0.0.2.933.3540.2-7j1j6-2.10.0...0.0...1c.1.fXB30WC4o_o&pbx=1&bav=on.2,or.r_gc.r_pw.r_cp.r_qf.&fp=51277c9f18157bb4&biw=1366&bih=629
+>
+>
+> nunac nada mejor que el sitio oficial
+> o wikipedia
+>
+> segundo en la lisa
+>
+busque documentacion sobre squid cambie los paramtros de autenticacion 
+pero nada, aqui les dejo mi squid conf para ver si puede ayudarme, en 
+estos momentos  no tengo autenticado el squid saludos
+
+#Programa de Autentificacion
+auth_param basic children 5
+auth_param basic realm Proxy "DMS UNION"
+auth_param basic credentialsttl 2 hours
+#auth_param basic casesensitive off
+#auth_param basic program /usr/bin/mysql_auth
+#auth_param basic program /usr/lib/squid/ncsa_auth /etc/squid/usr
+#auth_param basic program /usr/lib/squid/pam_auth
+#auth_param basic program /usr/lib/squid/ldap_auth -R -b 
+"dc=dmsunion,dc=sld,dc=cu" -D cn=Manager,dc=dmsunion,dc=sld,dc=cu -w 
+canonical -f enabledService=squid -h 172.16.0.1 -p 389
+#auth_param basic program /usr/lib/squid/ldap_auth -R -b 
+"dc=mtz,dc=sld,dc=cu" -D "cn=Manager,dc=mtz,dc=sld,dc=cu" -w "lima2010" 
+-f "uid=%s" -h 201.220.197.67 -p 389
+#---------------------------------------------------------------------------
+refresh_pattern ^ftp:                1440        20%        10080
+refresh_pattern ^gopher:             1440         0%        1440
+refresh_pattern .                       0        20%        4320
+#------------------------------------------------------------------------
+#Recommended minimum configuration:
+acl all src 0.0.0.0/0.0.0.0
+acl manager proto cache_object
+acl localhost src 127.0.0.1/32
+acl to_localhost dst 127.0.0.0/8
+#acl ldap-auth proxy_auth REQUIRED
+#acl cuba dstdomain .cu
+#acl password proxy_auth REQUIRED
+acl SSL_ports port 443        # https
+acl SSL_ports port 563        # snews
+acl SSL_ports port 873        # rsync
+acl Safe_ports port 80        # http
+acl Safe_ports port 21        # ftp
+acl Safe_ports port 443        # https
+acl Safe_ports port 70        # gopher
+acl Safe_ports port 210        # wais
+acl Safe_ports port 1025-65535    # unregistered ports
+acl Safe_ports port 280        # http-mgmt
+acl Safe_ports port 488        # gss-http
+acl Safe_ports port 591        # filemaker
+acl Safe_ports port 777        # multiling http
+acl Safe_ports port 631        # cups
+acl Safe_ports port 873        # rsync
+acl Safe_ports port 901        # SWAT
+acl purge method PURGE
+acl CONNECT method CONNECT
+
+#http_access allow ldap-auth
+
+
+
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506A024F.2070102@infomed.sld.cu
+

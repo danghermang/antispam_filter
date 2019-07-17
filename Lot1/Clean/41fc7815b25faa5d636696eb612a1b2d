@@ -1,0 +1,47 @@
+Subject:Re: [EVDL] Calb battery issue
+"3C continuous is, shall we say, optimistic. Even 1C continuous is pushing
+it."
+
+Do you have data showing that?  I am not aware of any data on cells showing
+the effect of discharge current magnitude on cycle life.  Would like to see
+some.
+ 
+"The cycle life ratings for these cells is when they are used at .3C, thats 
+three tenths C."
+
+The CALB spec states 0.3C for charge/discharge, but it does not specifically
+say their spec for cycle life is based on this.  It does not say what the
+spec'ed cycle life is based on, other than DoD.
+ 
+"Without pack heating expect a big hit on EV performance in cold weather." 
+
+I've kept my cells heated to about 60 - 65 F while the car is parked in the
+garage for the last 3 winters, and noticed very little difference in
+performance in winter versus summer.  Mostly what I notice is the greater
+stiffness and friction loss in the drive train in winter.  I don't think
+they need to be heated to higher temperature than this for good performance.
+The battery boxes have 1/2" insulation, and the cells will generally remain
+above 50 F when the car is left parked outside for 4 - 5 hours at temps in
+mid 20's F.  
+
+IMO low temperatures are easier to deal with than high temperatures, since
+heat is not very efficiently removed from the cells with only forced
+convection.
+
+
+
+
+
+--
+View this message in context: http://electric-vehicle-discussion-list.413529.n4.nabble.com/Calb-battery-issue-tp4659218p4659307.html
+Sent from the Electric Vehicle Discussion List mailing list archive at Nabble.com.
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

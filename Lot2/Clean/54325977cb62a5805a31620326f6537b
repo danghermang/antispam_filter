@@ -1,0 +1,23 @@
+Subject:Re: Instalar un paquete .deb en un directorio
+	=?UTF-8?B?ZXNwZWPDrQ==?=
+	=?UTF-8?B?ZmljbyBxdWUgbm8gc2VhIGVuIGVsIHF1ZSBzZSBpbnN0YWxhIHBvciBkZWZlY3Q=?=
+	=?UTF-8?B?bw==?=
+On 10/10/12 15:28, Gonzalo Rivero wrote:
+> El mié, 10-10-2012 a las 08:44 -0500, Miguel Barrera Fernández
+> escribió:
+>> Hola a todos
+>> Necesito instalar un sofware que está enpaquetado como .deb y quiero instalarlo en un directorio específico, no en el directorio que me lo instala por defecto. Cuando lo instalo se me instala en /usr/share y quiero instalarlo en /var/www
+>>
+>>
+>
+> man dpkg
+> está en castellano
+
+Y si no lo está: apt-get install manpages-es
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5075B5CE.1010803@gmail.com
+

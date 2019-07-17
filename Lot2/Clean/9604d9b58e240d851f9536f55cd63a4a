@@ -1,0 +1,31 @@
+Subject:Re: para formatear memorias
+El mar, 02-10-2012 a las 10:24 -0400, luis@ida.cu escribió: 
+> Buenos días a todos
+> 
+> Tengo una duda, necesito formatear una memoria flash o pendrive como 
+> tambien se le conoce pero el Nautilus no le veo queme de esa posibilidad 
+> alguna idea ??
+> 
+> Quiás tengo que isntalarle algo mas al Nautilus o también instalar otro 
+> utilitario ???
+> 
+> 
+> A ver si me aclaran esto pues no se que hacer
+> 
+> Saludos y gracias a todos por la ayuda.
+> 
+> 
+
+mkfs.ext3 /dev/[donde quiera que haya ido el usb] y si querés que además
+se vea en windows, mkfs.vfat
+Mas información en las páginas de manual
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349190192.2489.19.camel@EeePC.ucasal.ar
+

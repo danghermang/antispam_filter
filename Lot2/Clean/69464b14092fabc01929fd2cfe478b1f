@@ -1,0 +1,27 @@
+Subject:[Hsqldb-user] Comparing strings with null values
+I am currently upgrading from 1.7 to 2.2
+Possibly the biggest issue I am faced with is converting conditional
+statements in the where clause from something like:
+
+WHERE customer.name <> 'foo'
+
+to
+
+WHERE IFNULL(customer.name, '') <> 'foo'
+
+It seems that if customer.name is NULL the first statement will no
+longer return true.
+Is there some kind of compatibility setting I can use to all this type
+of comparison or do I need to manually eyeball every piece of SQL to
+adjust each query individually?
+
+------------------------------------------------------------------------------
+Live Security Virtual Conference
+Exclusive live event will cover all the ways today's security and 
+threat landscape has changed and how IT managers can respond. Discussions 
+will include endpoint security, mobile security and the latest in malware 
+threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

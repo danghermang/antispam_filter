@@ -1,0 +1,60 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+On Thu, Nov 15, 2012 at 1:54 PM, Owen DeLong <owen@delong.com> wrote:
+> I actually like this. I support this proposal.
+
+As do I with two caveats:
+
+1. Don't describe it as "unpaid fees," describe it as an "accrued
+transfer fee for registrations not held under a registration services
+agreement" or something similarly neutral. Negative words like
+"unpaid" imply a penalty and this isn't supposed to be a penalty for
+anyone.
+
+2. Don't refuse to interact with a registrant on matters unrelated to
+the legacy registration. Tell a legacy registrant he can't have IPv6
+addresses unless he first signs over his IPv4 addresses and you make
+that registrant's choice an easy one: no IPv6 this year.
+
+Regards,
+Bill Herrin
+
+
+> On Nov 14, 2012, at 20:14 , Jimmy Hess <mysidia@gmail.com> wrote:
+>
+>> On 11/14/12, Owen DeLong <owen@delong.com> wrote:
+>>> On Nov 14, 2012, at 07:52 , Brian Johnson <bjohnson@drtel.com> wrote:
+>> [snip]
+>>> 1.   Discontinue services to legacy holders that don't start paying.
+>>
+>> There is another possibility...   don't discontinue anything to
+>> non-LRSA signees, but retain the usage "tracking" data necessary to
+>> calculate a fee assessment amount for legacy holders who have not
+>> paid, according to the ordinary fee schedule,  all past unpaid fees
+>> since a certain date,  plus compound interest at prime rate plus 5%
+>> over that period.    Require payment of the tracked amount, and signed
+>> RSA, before any resources can be transferred in or out,  or new
+>> resources can be  requested.
+>>
+>> In this manner,  legacy holders  are still assessed the fees.
+>> If they fail or refuse to pay, they are not denied   "legacy services".
+>>
+>> There are no consequences until they need to transfer resources in or out,
+>> or obtain new resources from ARIN  (e.g. IPv6 resources or additional AS number)
+>>
+>>
+>>> 2.   Treat LRSA Signatories as a group that isn't subjected to the new fees.
+
+
+
+
+-- 
+William D. Herrin ................ herrin@dirtside.com  bill@herrin.us
+3005 Crane Dr. ...................... Web: <http://bill.herrin.us/>
+Falls Church, VA 22042-3004
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

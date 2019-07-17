@@ -1,0 +1,61 @@
+Subject:Re: problema de impresion Wheezy (solucionado)
+On Viernes, 16 de noviembre de 2012 16:42:03 Camale=F3n escribi=F3:
+> El Fri, 16 Nov 2012 19:07:33 +0400, Evgeny M. Zubok escribi=F3:
+> > Camale=F3n <noelamac@gmail.com> writes:
+> (...)
+>=20
+> >>> Solo tuve que agregar mi usuario a los grupos 'lp' y 'lpadmin'. Con
+> >>> eso fue suficiente para que Cups me dejara agregar la impresora y
+> >>> configurarla.
+> >>=20
+> >> Ese paso no deber=EDa ser necesario, de hecho mi usuario no pertenece a
+> >> ninguno de esos grupos y puedo a=F1adir impresoras desde la interfaz w=
+eb
+> >> de CUPS, quiz=E1 deber=EDas informar del error :-?
+> >=20
+> > Esta gu=EDa no est=E1 de acuerdo contigo:
+> >=20
+> > http://wiki.debian.org/SystemPrinting#Add_Printer
+>=20
+> Ese es uno de los problemas de las wikis, que se quedan obsoletas en
+> seguida ;-)
+>=20
+> (si te fijas en el pantallazo que hay m=E1s abajo el tutorial est=E1 habl=
+ando
+> de CUPS 1.4.4 que es la versi=F3n de squeeze, por lo que es posible que
+> hayan cambiado esto en wheezy).
+>=20
+> > Ahora mismo hago 'deluser zubok lpadmin', intento a=F1adir una impresora
+> > desde localhost:631 y al autenticarme como usuario me da el error
+> > "Unable to add printer: Forbidden".
+>=20
+> No s=E9 en qu=E9 versi=F3n est=E1s, pero a m=ED eso no me pasa en wheezy =
+cuando
+> quiero a=F1adir una impresora (ojo, no tengo configurado "sudo" por lo que
+> CUPS -1.5.3- me pide el usuario/contrase=F1a de "root").
+>=20
+> Saludos,
+
+
+CUPS a trav=E9s de  localhost:631, con CUPS-1.5.3 y sin sudo, me pide=20
+usuario/contrase=F1a. Como "usuario" y como "root" bien. Si quito al usuari=
+o del=20
+grupo lpadmin no me deja hacer tareas de administraci=F3n de impresoras com=
+o=20
+"usuario" pero si como "root".
+
+Recuerdo que hubo un tiempo, no se cuanto, en el que pod=EDa entrar como=20
+"usuario" (estando este en lpadmin) pero no como "root". Puede que en algun=
+a=20
+actualizaci=F3n se solucionara.
+
+=2D-
+Usuario Linux: #156817
+Debian Wheezy/Sid - Kernel 3.2.0
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211171815.05428.debian@caolin.net
+

@@ -1,0 +1,35 @@
+Subject:Re: Pasar de =?ISO-8859-1?Q?versi=F3n_6_a_7?=
+El 26/11/2012 10:55, Antonio escribió:
+> Hola a todos
+>
+> Tengo mi pc de escritorio en casa con versión 6 y ahora que la 7 esta 
+> congelada me estoy planteando subir de versión.
+>
+> Para hacer esto no se si es tan simple como ejecutar aptitude update, 
+> aptitude safe upgrade, cambiar los apt sources apuntando a la versión 
+> 7 volver a ejecutar aptitude update, aptitude safe-upgrade y aptitude 
+> full-upgrade.
+>
+> Normalmente los cambios los he realizado cuando la versión siguiente 
+> ya estaba como estable, siguiendo las indicaciones oficiales de 
+> debian.org.  Ahora no estoy seguro de como hacerlo por lo que 
+> agradezco vuestras recomendaciones.
+>
+> Otra cosa, si estoy utilizando paquetes descargados de backports, como 
+> puede ser libreoffice ¿Cómo sería el tratamiento correcto ahora? 
+> supongo que sería tan simple como borrar la entrada y dejar que se 
+> actualicen con los paquetes nuevos pero no estoy seguro.
+>
+> Gracias y saludos.
+>
+>
+Puede que tengas problemas si estas usando algun driver privativo de la 
+grafica ya que estarias cambiando la version de kernel instalado, es 
+posible que lo tuvieras que instalar de nuevo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B33EA7.2000400@gmail.com
+

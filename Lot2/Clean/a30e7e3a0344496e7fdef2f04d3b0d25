@@ -1,0 +1,41 @@
+Subject:Re: Socket unix
+Le 07/09/2012 21:11, Stephane Bortzmeyer a =E9crit :
+> On Fri, Sep 07, 2012 at 03:33:38PM +0200,
+>   Gerald <gerald.radix@gmail.com> wrote
+>   a message of 18 lines which said:
+>
+>> La commande n'est pas assez precise, maintenant je sais que c'est du
+>> java (je le savais d=E9j=E0) j'aurais voulu savoir les classes qui
+>> communiquent...
+>
+> Hmmm, Linux ne peut pas le savoir (c'est du code utilisateur comme un
+> autre) donc je ne pense pas que cela soit possible. Il faudrait
+> attacher un d=E9bogueur =E0 ce processus.
+>
+
+Bonsoir,
+
+Merci de faire un effort pour vos r=E9ponses afin de ne 'r=E9pondre qu'=E0=
+ la=20
+liste'.
+Voir le fil que j'ai initi=E9
+
+Amicalement
+
+--=20
+Yannick VOYEAUD
+Nul n'a droit au superflu tant que chacun n'a pas son n=E9cessaire
+(Camille JOUFFRAY 1841-1924, maire de Vienne)
+http://www.voyeaud.org
+Cr=E9ateur CimGenWeb: http://www.francegenweb.org/cimgenweb/
+Journ=E9es du Logiciel Libre: http://jdll.org
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504A4CB6.8090301@voyeaud.org
+

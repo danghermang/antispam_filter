@@ -1,0 +1,81 @@
+Subject:Re: [un peu HS...] RAID1 sata et ssd
+Le 16 novembre 2012 08:54, Bzzz <lazyvirus@gmx.com> a =C3=A9crit :
+> On Fri, 16 Nov 2012 07:12:17 +0100
+> steve <dlist@bluewin.ch> wrote:
+>
+>> changer. Je me demande si c'est possible de le changer pour un disque ss=
+d
+>> afin de passer en douceur en un syst=C3=A8me tout ssd (je changerai le s=
+econd plus
+>> tard). Est-ce que cela pose un probl=C3=A8me particulier ?
+>
+> =C3=80 vue de tarbouif pas vraiment, cependant en =C3=A9criture la dispo =
+de l'array sera
+> directement li=C3=A9e au HD normal, plus lent.
+>
+>> sur le sujet avant de me lancer. Et en passant avez-vous des conseils po=
+ur de
+>> bons disques ssd ? C'est plus la fiabilit=C3=A9 qui m'int=C3=A9resse que=
+ la taille ou
+>> le prix.
+
+Personnellement, je ne jure que par de l'intel. Ils ont fait depuis le
+d=C3=A9but de tr=C3=A8s bon disques, avec un rapport qualit=C3=A9 prix corr=
+ecte. Y a
+peut =C3=AAtre plus haut de gamme, mais en tout cas, jamais =C3=A9t=C3=A9 d=
+=C3=A9=C3=A7u pour
+les SSD, et on les utilises en embarqu=C3=A9 comme en d=C3=A9di=C3=A9s.
+
+>
+> =C3=89tant donn=C3=A9 le peu de fondeurs il-y-a peu de chances de se trom=
+per; je dirais
+> que les 'grandes' marques n'ont aucun int=C3=A9r=C3=AAt =C3=A0 passer pou=
+r des minables; par
+> ailleurs, le d=C3=A9veloppement de firmwares efficaces passe par des moye=
+ns humains
+> cons=C3=A9quents (quoique l=C3=A0, ces marques sont souvent les premi=C3=
+=A8res =C3=A0 ren=C3=A2cler =C3=A0
+> fixer les bugs...)
+>
+> Cependant si l'array a beaucoup de clients simultan=C3=A9s il faut 'gader=
+ de pr=C3=A8s
+> le nombre d'IOPS, qui peut varier du simple au quadruple.
+>
+> Sans compter que l=C3=A0, plus qu'avec les HDz, il serait prudent d'adopt=
+er =C3=A0 terme
+> 2 SSD de marques diff=C3=A9rentes - YMMV; mais au vu des commentaires r=
+=C3=A9cents sur
+> le peu de fiabilit=C3=A9 des SSD en utilisation pro, peut-=C3=AAtre serai=
+t-il mieux
+> d'adopter une solution hybride: soit des HDz int=C3=A9grant directement u=
+n cache
+> SSD, soit une solution logicielle de cache des HDz par des SSD; en commen=
+=C3=A7ant
+> par des HDz haut de gamme ultra-rapides.
+>
+> Perso, je ne prendrais pas le risque de reposer sur une solution 100% SSD=
+.
+
+Ah bon? Et pourquoi donc? J'ai quasi tout mes serveurs d=C3=A9di=C3=A9s qui=
+ sont
+en full SSD, et pas le moindre probl=C3=A8me. Les chances pour que les 2
+disques tombent en m=C3=AAme temps sont quand m=C3=AAme relativement faible=
+, et
+si l'un tombe, y a toujours le second qui est la, le temps de le
+changer. Apr=C3=A8s, ca n'emp=C3=A8che pas de faire du backup, hein...
+
+Mais je ne jure plus que par le SSD, en tout cas pour les hosts
+(Debian / Proxmox). Les datas restent sur du NAS/ou du sata 10k, car
+bonne chance pour trouver des SSD de 1To ou plus :p.
+
+Olivier
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CABGC0bsH74gU8LiQb3x=OELbhhUGS-e0HSNqi6MXMHyT=0GpgQ@mail.gmail.com
+

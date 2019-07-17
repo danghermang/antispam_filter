@@ -1,0 +1,20 @@
+Subject:Re: apt-get remove kwrite
+Le samedi 10 novembre 2012 =C3=A0 08:40:16, Mitran Nicolas a =C3=A9crit :
+> Dans le message je comprends que toute une s=C3=A9rie de paquets
+> ne seront plus n=C3=A9cessaires, non qu'il va les supprimer. Non
+> ?
+
+  Oui. Le autoremove n=E2=80=99est pas actif par d=C3=A9faut avec apt-get.
+
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211101702.40588.Sylvain.L.Sauvage@free.fr
+

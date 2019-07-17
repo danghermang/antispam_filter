@@ -1,0 +1,27 @@
+Subject:Re: xrandr [et rtfm ?]
+Bonjour,
+
+Le 19/09/2012 17:52, Gabriel Euzet a écrit :
+> Bonjour,
+>
+> As-tu essayé la commande :
+> xrandr --output LVDS1 --left-of VGA1
+> (à adapter si je me trompe dans la compréhension de l'ordre d'affichage :p )
+
+Euh... oui, mais c'est en gros exactement pareil que
+xrandr --output VGA1 --right-of LVDS1
+(si j'ai bien compris), c'est-à-dire ce que fait gnome via l'interface 
+système/affichage...
+
+Merci en tout cas :)
+FM
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3coma$gk4$1@ger.gmane.org
+

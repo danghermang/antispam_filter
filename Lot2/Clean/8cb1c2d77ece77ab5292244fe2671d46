@@ -1,0 +1,91 @@
+Subject:Re: Matlab Debian Wheezy
+> Buenas, amigos tengo inconvenientes al momento de instalar Matlab en mi
+> Wheezy. Sigo los pasos publicados en una web <Los acoto al final> y no
+> tengo como resultado la instalaci=F3n de la aplicaci=F3n. Alguna sugerenc=
+ia
+> de como poder instalar dicha utilidad?
+>
+>         Por si alguien tiene problemas para la instalaci=F3n de Matlab en=
+ linux, aqui dejo los pasos a seguir para la instalaci=F3n de Matlab 7 R14 =
+para linux (3 cds) a partir de una imagen.
+>
+>         1=BA) Crear una carpeta (en caso de que no tengamos una) que usar=
+emos como unidad virtual para montar las imagenes.
+>         mkdir carpeta_unidad_virtual
+>
+>         2=BA) Montar la imagen de los cd=92s
+>         sudo mount -t iso9660 -o loop nombre_imagen_CDx.iso /carpeta_dond=
+e_montar_imagen
+>         NOTA1:Tb se puede descomprimir el contenido de la imagen en un ca=
+rpeta
+>         NOTA2: sudo es para obtener privilegios de superusuario o root
+>
+>         3=BA)Una vez montada la imagen crear la carpeta donde vamos a ins=
+talar Matlab y entramos a =E9l
+>         mkdir /directorio_Matlab
+>         cd /directorio_Matlab
+>
+>         4=BA)Copiamos el archivo de licencia en el directorio donde vamos=
+ a instalar Matlab, esto es IMPORTANTE, ya que si est=E1 en la unidad virtu=
+al dar=E1 un fallo cuando pida la licencia
+>
+>         5=BA)Desde el directorio donde queremos instalar Matlab ejecutamo=
+s el instalador que se encuentra en la unidad virtual. Si lo hacemos desde =
+la carpeta de la unidad virtual, no nos dejar=E1 instalar, asi pues, ser=ED=
+a:
+>         sh /carpeta_unidad_virtual/install
+>
+>         6=BA)Empezar=E1 el instalador gr=E1fico, iremos montando y desmon=
+tando los cd=92s conforme los vaya pidiendo.
+>
+>         7=BA)Una vez que haya terminado la instalacion correctamente, hay=
+ que hacer una nueva instalaci=F3n. Desde la carpeta donde hemos instalado =
+Matlab:
+>         sudo sh install_matlab
+>         NOTA:Tiene que ser como superusuario o root
+>
+>         8=BA)Saldr=E1 un instalador de consola, iremos eligiendo las opci=
+ones que nos pida.
+>
+>         9=BA)Ejecutar matlab simplemente escribiendo =93matlab=94 desde c=
+ualquier directorio, ya que este ultimo instalador a creado los enlaces nec=
+esarios
+>
+>         Espero que sirva a alguien y que no se me haya olvidado ninguna p=
+aso, la unica dificultad que se me present=F3 fueron la de ejecutar el inst=
+alador desde el directorio donde iba a instalar matlab y la de colocar la l=
+icencia en ese mismo directorio. Matlab funciona perfectamente en linux.
+
+Muchas gracias por la informaci=F3n, muy util, aunque por el momento me
+mantengo con Octave.
+
+
+--=20
+Dar=EDo
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|=
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+Por favor, no utilice formatos de archivo propietarios para el intercambio
+de documentos, como ser DOC, XLS, BMP, PPT, RAR, MP3, DWG,
+MOV, FLV, WMV, etc.  sino  ODT, ODS, DJVU, PDF, TXT,
+CSV, PNG, FLAC, OGV, GZ o cualquier otro que no obligue a utilizar
+un programa de un fabricante concreto.
+Info: http://www.gnu.org/philosophy/no-word-attachments.es.html
+       http://www.vaslibre.org.ve/publicaciones/odfvsooxml-es.pdf
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|=
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+ ,              ,
+/                \
+((__-^^-,-^^-__))
+ `-_---' `---_-'
+  `--|o` 'o|--'
+     \  `  /
+      ): :(
+     :o_o:
+       "-"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CABbN1RyLmphSMu=PoiCx9Mwq3+ACAzEciri0UdWZtN4hNAKwCA@mail.gmail.com
+

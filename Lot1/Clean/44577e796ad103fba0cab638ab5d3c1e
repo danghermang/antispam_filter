@@ -1,0 +1,21 @@
+Subject:Re: [rlug] kernel panic :: pareri despre motiv
+On Thu, Oct 25, 2012 at 11:18:18AM +0300, Adrian Sevcenco wrote:
+> Salut! Stie cineva sa interpreteze o bucata de kernel panic si sa deduca
+> un motiv? snapshot
+> http://sev.spacescience.ro/adrian/alien-0-39.jpg
+> 
+> Sunt 2 servere amd care la load mare crapa .. nu pot sa ma gindesc decit
+> la memorie .. dar inainte sa schimb 48 gb de ram as vrea sa aud pareri
+> de la oameni cu mai multa experienta decit mine ..
+> 
+in ordinea prioritatilor:
+
+- boteaza de pe altceva si eventual scaneaza discul
+- incearca sa testezi memoria cu ceva inainte de boot, era ceva memtest86+, memtest86 si memtester
+- e posibil ca ram sa nu aibe nimic si sa fie doar o problema de contact, prost pus in sloturi, vibratii, etc, verifica si asta
+
+bafta
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

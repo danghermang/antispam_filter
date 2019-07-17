@@ -1,0 +1,49 @@
+Subject:Re: filedecriptor ulimit -n
+El Fri, 16 Nov 2012 09:25:10 +0100, Trujillo Carmona, Antonio escribió:
+
+> El jue, 15-11-2012 a las 14:40 +0000, Camaleón escribió:
+>> El Thu, 15 Nov 2012 14:04:08 +0100, Trujillo Carmona, Antonio escribió:
+>> 
+>> > Estamos teniendo problemas con el proxy. He encontrado le error: Your
+>> > cache is running out of filedescriptors
+>> 
+>> (...)
+>> 
+>> Me adelanto sólo por si acaso... ¿puede estar relacionado con este otro
+>> hilo? (era para squeeze pero quizá pase lo mismo en wheezy)
+>> 
+>> http://lists.debian.org/debian-user-spanish/2012/09/msg00162.html
+>> 
+>> 
+>> 
+> Ese hilo lo abrí yo 
+
+Claro, por eso te lo decía. Me acordé de que esto ya lo habíamos hablado 
+con anterioridad :-)
+
+> y creía que se había solucionado, pero el hecho es que he vuelto a 
+> tener problemas, 
+
+Pero ¿has aplicado los mismos cambios que aplicaste para Squeeze? 
+Revisando el hilo, la variable que tenías que modificar era 
+"max_filedescriptors" no la que has mencionado antes.
+
+> por lo que he podido ver amplié el numero de ficheros en el squid, 
+
+(...)
+
+Sí, pero en su día cambiaste la variable. Comprueba que hayas hecho lo 
+mismo en el archivo de configuración de squid en wheezy, no vaya a ser 
+que se trate de la misma tontuna.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k85lil$8pk$7@ger.gmane.org
+

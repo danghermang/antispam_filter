@@ -1,0 +1,75 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_=5BOT=5D_Dise=F1ar_GUI=2E_IDEs_m=E1s_utilizadosenDebian?=
+[...]
+[...]
+
+Haya paz! :)
+
+Bueno, lo primero agradeceros a todxs vuestro tiempo y vuestras
+respuestas. Han sido de gran ayuda :)
+
+Intentar=E9 para evitar aumentar el caos de informaci=F3n resumir un poco
+los apuntes que hab=E9is ido haciendo y a continuaci=F3n contestar todas
+las preguntas conjuntamente.
+
+Tened en cuenta que aunque lo hago como puedo, no tengo ni idea de
+programaci=F3n, es decir, nunca lo estudi=E9 de otra manera que no fuera
+autodidacta y por tanto me faltan muchas bases, as=ED que disculpad por
+los errores conceptuales m=E1s o menos graves que pueda cometer.
+
+Lenguaje ----- IDE/RAD
+---------------------------------------------------------------------------=
+-----
+Python ----- wxWidgets
+C++ ----- Qt Creator
+Java ----- Eclipse / NetBeans / KDevelop
+Object Pascal ----- Lazarus
+Tcl/Tk ----- Visual TCL
+C ----- Glade Anjuta (GTK+)
+Bash ----- Zenity (GTK)
+Bash ----- Kommander
+Varios ----- Qt Creator (Qt), Glade (GTK), wxGlade (wxWidgets),
+Anjuta, Boa-constructor
+
+Como dec=EDa antes, no s=E9 c=F3mo relacionar la GUI con el c=F3digo si no =
+es
+que el mismo IDE lo hace solito, creo que a esto se le llama RAD, y
+Lazarus ya me lo hace, pero la cosa es que me gustar=EDa aprender a
+hacerlo en un lenguaje y de una forma m=E1s extendida en el mundo
+Debian, que por lo que veo por ejemplo aqu=ED[1] parece ser lenguaje C o
+C++.
+
+Marc, ya conozco Zenity, de hecho es con lo que he trabajado en esta
+aplicaci=F3n hasta ahora, y que no funcione por ejemplo en Windows no me
+preocupa nada, porque adem=E1s tampoco funcionar=EDan los comandos que
+hace la aplicaci=F3n. Pero Zenity no deja de ser di=E1logos para un script
+y me gustar=EDa hacer una aplicaci=F3n con su propia GUI.
+
+Edwin, el puro texto, por muchas ganas e ilusi=F3n que le ponga a esto,
+se me va de las manos de momento.
+
+Ahora mismo la tengo escrita es Bash+Zenity[2] y en Pascal+Lazarus, y
+si siendo realista no creo que nadie se ponga a colaborar en el
+desarrollo, as=ED que tampoco importa tanto en qu=E9 lenguaje o de qu=E9
+forma lo haga, pues ser=E1 "problema" m=EDo, pero s=ED me gustar=EDa como d=
+igo
+programar las aplicaciones que pueda hacer de la forma m=E1s parecida a
+la que est=E1n desarrolladas la mayor=EDa de aplicaciones Debian, as=ED que
+al final me inclino por C++ y Qt Creator. Ya lo tengo instalado y lo
+he probado y me parece que me ir=E1 muy bien para lo que yo necesito.
+
+Muchas muchas gracias a todxs de nuevo y un saludo!
+
+[1] http://curso-sobre.berlios.de/introsobre/2.0.1/sobre.html/debian.html#t=
+able-debian-languages
+(y tabla anterior).
+[2] http://pastebin.com/GCxNV5pg
+
+Alfonso
+"In a world without frontiers, who needs gates and windows?"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAMZtU=8bN3iXG=K=tGo2u8f5ojvn-UtMZkSz+8pSOhC1v=hL5A@mail.gmail.com
+

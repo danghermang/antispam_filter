@@ -1,0 +1,17 @@
+Subject:Re: Sqitch Build Failures
+On Sep 13, 2012, at 2:46 PM, Gisle Aas <gisle@activestate.com> wrote:
+
+> This build machine still had Hash::Merge v0.11 installed in the "megalib".  I manually forced an install of Hash::Merge v0.12 (it was already built) and then restarted the App-Sqitch build again. It went through this time.  The new build should get published soonish.
+
+Yep, thank you. Saw that I needed to not pass a list to a pipe, so I've just released v0.931 with that fix. Looking forward to seeing the reports tomorrow!
+
+Thanks again for all your help, guys. This is a handy build farm. Not sure why it's not more widely known of in the Perl community.
+
+Best,
+
+David
+
+_______________________________________________
+PPM mailing list
+PPM@listserv.ActiveState.com
+http://listserv.ActiveState.com/mailman/listinfo/ppm

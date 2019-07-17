@@ -1,0 +1,36 @@
+Subject:Re: Proxy squid automatico
+Internet <=3D Tarjeta de red A =3D> Tu servidor <=3D Tarjeta de red B =3D> =
+Tu red
+
+El servidor donde tengas el proxy tambi=E9n deber=EDa funcionar como
+puerta de enlace o gateway de "Tu red" a "Internet" y viceversa.
+
+La idea es que configures iptables en "Tu servidor" para que rediriga
+todo lo que le llega a la tarjeta B por el puerto 80 al puerto donde
+est=E9 escuchando Squid, el cual se encargara de realizar las peticiones
+a Internet por el puerto 80.
+
+Los servidores responder=E1n a las peticiones de Squid y este se
+encargara de devolver los resultados a los clientes que le realizaron
+dichas peticiones.
+
+Adem=E1s de configurar iptables tambi=E9n tienes que activar el modo
+transparente como te dijo Maedca:
+
+> http_port 3128 transparent
+
+http_port es la variable del fichero de configuraci=F3n que controla el
+puerto por donde escuchar=E1 las peticiones Squid. Digo esto ya que
+puede que tu no est=E9s usando el puerto 3128 si no otro.
+
+transparent activa el modo proxy transparente de Squid.
+
+Si, ya s=E9 que no es una guia paso a paso pero no es mi intenci=F3n
+hacerla y adem=E1s manuales de ese estilo hay a patadas en Internet...
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAM0+Cip+tBgB-SRaLcU6OdPHRjchdnmevtCTVXg+QsF+AQiG4A@mail.gmail.com
+

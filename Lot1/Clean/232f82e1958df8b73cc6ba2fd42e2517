@@ -1,0 +1,41 @@
+Subject:Re: =?ISO-8859-15?B?ZOltYXJyYWdl?= automatique de totem
+Le 03 Sep 2012 06:22:57 GMT, moi-meme a =E9crit :
+
+> bonjour,
+> =E0 la suite de je ne sais quelle manip, quand j'ins=E8re un CD audio j'a=
+i=20
+> totem qui d=E9marre tout seul.
+> Cherch=E9 un totem (rgrep ...) dans $HOME/.config, /etc.=20
+> rien trouv=E9 de concluant.
+> rien vu dans gnome-control-center.
+>=20
+> une petite id=E9e ?
+>=20
+> Ma config : crunchbang (debian squeeze avec openbox en WM) sans=20
+> subtilit=E9s.
+>=20
+> Merci d'avance=20
+> C Hiebel
+>=20
+
+Bonsoir,
+
+Lancer le gestionnaire de fichier Thunar
+Aller dans le menu Editer -> Pr=E9f=E9rences
+Puis onglet Avanc=E9e
+Gestionnaire de volume puis cliquer sur le lien Configurer.
+
+A+
+
+--
+Px
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120905200847.57a17c21@lucifer
+

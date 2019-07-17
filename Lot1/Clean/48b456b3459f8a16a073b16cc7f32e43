@@ -1,0 +1,32 @@
+Subject:Re: Baja =?iso-8859-1?q?duraci=F3n_de_la_bater=EDa?=
+El Fri, 07 Sep 2012 14:15:52 +0200, Marc Marí escribió:
+
+> Hola a todos de nuevo, sigo con mis aventuras configurando Debian en mi
+> portátil.
+> 
+> Ahora vengo con el problema que la batería me dura dos horas o menos,
+
+¿Y cuál es la duración estimada de la batería que te indica el fabricante?
+
+> aunque solo haga uso del navegador, por ejemplo. Tengo escalado de
+> frecuencia, laptop-mode-tools, he quitado bastantes servicios de
+> ejecución al inicio, bajo el brillo... Pero la duración no mejora
+> 
+> Me gustaría que me ayudaseis con esto, porque es un poco molesto.
+> 
+> El portátil es un Acer 5750g,con Debian Squeeze, Gnome, Kernel 3.2.0
+> (para que funcione el brillo y la suspensión).
+
+Puedes instalar "powertop" que se supone que te ayuda con estas cosas.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2cueo$bte$5@ger.gmane.org
+

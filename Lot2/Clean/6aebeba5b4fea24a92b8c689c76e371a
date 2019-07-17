@@ -1,0 +1,19 @@
+Subject:Re: [rescue] SMD cap, X2602 (501-4882)
+On 11/01/12 19:17, Patrick Giagnocavo wrote:
+> If you have another such board, you should be able to figure it out :-)
+> 
+> But I thought that for the most part, you could use a cap the same size
+> or larger (within reason) and things would work?
+
+Depends what the cap is there for.  If it's just there for smoothing or
+debouncing, +50% probably won't do any harm.  If it's there to shape a
+waveform, you may need it to be within 13%.
+
+
+-- 
+  Phil Stracchino, CDK#2     DoD#299792458     ICBM: 43.5607, -71.355
+  alaric@caerllewys.net   alaric@metrocast.net   phil@co.ordinate.org
+  Renaissance Man, Unix ronin, Perl hacker, SQL wrangler, Free Stater
+                 It's not the years, it's the mileage.
+_______________________________________________
+rescue list - http://www.sunhelp.org/mailman/listinfo/rescue

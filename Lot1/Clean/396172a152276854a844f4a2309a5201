@@ -1,0 +1,33 @@
+Subject:Re: Nvidia et xorg.conf
+Le dimanche 25 novembre 2012 à 18:19 +0100, Franck Delage a écrit :
+
+> J'ai un tout nouveau laptop, Asus N76VM.
+> Carte graphique : lspci me donne :
+> 01:00.0 VGA compatible controller: NVIDIA Corporation GeForce GT 630M (rev
+> a1)
+
+[couic]
+
+> # grep -B4 "Module class: X.Org Video Driver" /var/log/Xorg.0.log
+> [    21.947] (II) LoadModule: "intel"
+> [    21.948] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+> [    21.952] (II) Module intel: vendor="X.Org Foundation"
+> [    21.952]    compiled for 1.12.3.902, module version = 2.19.0
+> [    21.952]    Module class: X.Org Video Driver
+
+
+Aller voir à http://suwako.nomanga.net/ 
+
+A priori tu as un double chipset graphique, si tu as "optimus" quelque
+part dans ta pub ou sur une étiquette, c'est ce qu'il te faut.
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1354045909.7067.4.camel@azuki.jisui
+

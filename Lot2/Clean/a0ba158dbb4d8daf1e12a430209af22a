@@ -1,0 +1,50 @@
+Subject:Re: (OT) Como crear subcarpetas en la carpeta de plantillas de
+	icedove	(thunderbird)
+El Sun, 30 Sep 2012 11:12:09 +0100, José Manuel (EB8CXW) escribió:
+
+> He buscado en Google, pero no he encontrado nada (o no hago bien la
+> pregunta), por lo que recurro  a ustedes por si me pueden ayudar, por lo
+> que les doy las gracias anticipadamente. He aquí mi preguntas:
+> - Primera: por motivo de mi trabajo tengo que tener distintos tipos de
+> plantillas. Creo con el botón derecho del ratón las distintas
+> subcarpetas, hasta aquí bien, pero a la hora de guardar un mensaje como
+> plantilla no me da la opción de guardarlo en la subcarpeta de plantillas
+> que quiero, se guarda siempre en la carpeta de plantilla principal. hay
+> alguna forma de poderlas guardar en la subcarpeta que quiero. 
+
+Hasta donde sé, la carpeta "especial" de plantillas en Thunderbird se 
+define por cada cuenta de correo, es decir, que si tienes 5 cuentas pop3 
+y 2 cuentas imap puedes definir un almacén/carpeta de plantillas distinta 
+para cada una de ellas (7 en este caso) por lo que cuando guardes un 
+mensaje que hayas creado desde una de esas cuentas y lo quieras guardar 
+como plantilla debería almacenarse en su carpeta correspondiente (es 
+decir, la que hayas definido desde el apartado "Editar → Configuración de 
+las cuentas → [cuenta] → Copias y carpetas").
+
+> - Segunda, cuando se modifica una plantilla al indicar guardar icedove
+> (thunderbirt) la guarda como plantilla nueva. Mi pregunta, hay alguna
+> forma de que cuando se modifique una plantilla machaque la antigua, y no
+> cree una nueva.
+
+Sí, es algo exasperante :-)
+
+Creo que por eso empecé a usar los Borradores a modo de Plantillas porque 
+los borradores sí te permiten editarlos sin necesidad de crear uno nuevo 
+con cada cambio que realizas y que guardas.
+
+De todas formas, quizá haya forma de hacer el uso de las Plantillas más 
+lógico y ameno con alguna extensión dedicada... por aquí indican algunas:
+
+http://kb.mozillazine.org/Thunderbird_:_FAQs_:_Using_Templates
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k73l6i$7h2$7@ger.gmane.org
+

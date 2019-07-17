@@ -1,0 +1,31 @@
+Subject:Re: Chrooter un =?utf-8?q?r=C3=A9pertoire_user_avec?= SSH
+On Tuesday 18 September 2012 20:10:42 Bzzz wrote:
+> On Tue, 18 Sep 2012 19:36:57 +0200
+> andre_debian@numericable.fr wrote:
+>
+> *PREMIER* r=C3=A9sultat de recherche.............................
+> http://www.techrepublic.com/blog/opensource/chroot-users-with-openssh-an-=
+ea
+>sier-way-to-confine-users-to-their-home-directories/229
+
+Merci du lien.
+
+Oui, je l'avais vu mais pas vu qu'il fallait mettre tout=20
+=C3=A0 la fin du fichier "sshd_config" :
+=2E......
+Match User andre
+ChrootDirectory /home/....
+
+Shame on me
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209191246.20269.andre_debian@numericable.fr
+

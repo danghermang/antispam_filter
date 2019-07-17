@@ -1,0 +1,144 @@
+Subject:Re: [EVDL] Pack Cooling
+
+
+> Subject: Re: [EVDL] Pack Cooling
+> =
+
+> =
+
+> OnTopic!
+> -About the cooling problem, and not the *cold* problem  :-)
+> =
+
+
+> ...Also, the BD35,50,80 is mainly for food cooler and freezers =3D low ev=
+ap temperatures.
+> So even if they say low, mid and"high use" you need to have your =
+
+> constant running evaporator temp lower than I would prefer  and should =
+
+> have choosen in a desertbox that aims for +25=B4C degrees.. =
+
+> I am no expert in cooling! But I am almost sure it is not the optimal des=
+ign.  =
+
+> ..and I have never been cooling anything in a dessert.. Actually I have n=
+ever seen a desert at all.  :-)
+> =
+
+> Here in the Example datasheet, it tell you the performances at different =
+speeds and temperatures:
+http://www.ra.danfoss.com/TechnicalInfo/Literature/Manuals/06/Danfoss_bd35f=
+_r134a_12-24vdc_09-2011_dehc100d802.pdf
+> It tell a lot of interesting things. =
+
+> =
+
+
+it also tells that if we run this smallest box cooler, at the lowest speed(=
+zero ohm at R1 =3D 2000rmpm)  =
+
+then we maybe can have up to +10=B4C in boil temp as maximum inside the bat=
+terybox, or heat exhanger =
+
+but I guess it might need a fan on the compressor unit also if you have hig=
+h ambient temperatures. =
+
+Good thing is: COP will go up when you can increase the evap temp in the ba=
+ttery box. =
+
+So at +10=B4C  We find in the datasheet: 136 or 169 W cooling from 70W inpu=
+t. =
+
+( the small BD35F @R134 medium)
+ If this is enough in your cases? I can not know. =
+
+
+But One "easy"(cheap) way to test how much cooling power you need can be =
+
+to use the machine from an old normal 230Vac(110?)fridge with similar =
+
+performance (same flow, as BD35 at 2000 RPM, and use R134A). =
+
+Might be found for free before scrap/recycling when they change *all* in th=
+e same time at apartment buildnings.
+
+I beleve Compressors from scraped indoor-water-coolers, might be perfect =
+
+in evaporator temp-range (you should look for "HBP" type
+ of compressors =
+
+for the dessert battery cooler. Maybe they are to small? I dont
+ know. =
+
+If so..use some more in parallell? hehe..  :-)   =
+
+
+------
+
+This leads me in to next id=E9a..  an old one.
+Can you maybe have that normal cheap/free AC compressor connected =
+
+to grid at home when charging, so you will cool it +  "store the cold" at =
+
+the same event,  is it possible to store enough for over a day or so ? =
+
+
+A Wild guess, it might work, or not....  :-)
+-If we use pure Glycerol for our safe battery temperature buffer material, =
+
+as the "storage of cold", it might be better than water.
+
+it should have about +17.8=B4C in melting point if I understand it right. (=
+Wpedia) =
+
+isnt that a perfect natural temperature buffer for the cells? Also Non toxi=
+c.  =
+
+
+Cool..I must try to find some and test the melting point of pure Glycerol.
+(also an interesting fact was found, that in a water antifreez-blend by 56%=
+  does not expand at all when it did freeze!)
+
+Our energy usage and the COP,just based on temperatures now, =
+
+will be significant better compared to produce normal "water-ice". =
+
+and Glycerol-ICE "stores" about 200kJ/kg acording to WPedia, =
+
+water-ice has a higher level in its phase change. About 333kJ/kg
+
+
+
+
+But..  water-Evaporative cooling in top of box.. seems best to me, if possi=
+ble.
+-cheap, safe, almost no energy needed, and we get the amazing energy level =
+at 2257 kJ/kg of "stored cold" ! =
+
+
+
+However this will not help at all to keep my lithium cells ABOVE my prefere=
+d level +10 to 15=B4C here, as Glycerol might do..  :-)
+yes, it adds kg, but cheaper compared to add up ore battery or fuel just fo=
+r for cooling/heating them, it seems so wrong to me.
+
+/John
+
+
+ 		 	   		  =
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121112/873b162f=
+/attachment.html =
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

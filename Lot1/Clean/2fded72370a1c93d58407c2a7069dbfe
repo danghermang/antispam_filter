@@ -1,0 +1,39 @@
+Subject:Re: wheezy, mise
+	=?UTF-8?B?w6Agam91ciA9PiBwZXJ0ZSBkZXMgcGFydGl0aQ==?=
+	=?UTF-8?B?b25zIGx2bQ==?=
+Le 29/09/2012 22:53, Yann Cohen a écrit :
+> Le 29/09/2012 22:43, Bzzz a écrit :
+>> On Sat, 29 Sep 2012 22:29:53 +0200
+>> Yann Cohen<yann@ianco.org>  wrote:
+>>
+>>> J'aurais tendance à dire : je ne sais pas. La génération de
+>>> initramfs est automatique et transparente.
+>>>
+>>> J'ai réussi à démarrer la machine en appliquant les commandes
+>>> suivantes au prompt initramfs :
+>>> lvm vgscan --mknodes
+>>> lvm lvchange -aly vg0/root
+>>> puis un exit
+>>> et la machine à booté.
+
+C'est un bug du noyau, signalé sur la ml debian-kernel (dans un rapport
+de bug) il y a quelques jours. Si je me souviens bien, il y a eu
+plusieurs bugs d'ouverts. #688846 en est un.
+
+  A+
+    Vincent
+-- 
+Vincent Danjean       GPG key ID 0x9D025E87         vdanjean@debian.org
+GPG key fingerprint: FC95 08A6 854D DB48 4B9A  8A94 0BF7 7867 9D02 5E87
+Unofficial pkgs: http://moais.imag.fr/membres/vincent.danjean/deb.html
+APT repo:  deb http://people.debian.org/~vdanjean/debian unstable main
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/506A1FB5.1000206@free.fr
+

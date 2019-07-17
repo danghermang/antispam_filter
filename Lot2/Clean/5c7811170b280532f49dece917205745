@@ -1,0 +1,41 @@
+Subject:Re: Re : systemd et wheezy
+Le 06/09/2012 18:58, nicolas.patrois@gmail.com a écrit :
+> Le 06/09/2012 18:45:52, Frédéric Massot a écrit :
+>
+>> Ensuite, ajouter "init=/bin/systemd" à la ligne
+>> GRUB_CMDLINE_LINUX_DEFAULT dans le fichier "/etc/default/grub", faire
+>> un update-grub et rebooter.
+>
+>> Tu peux passer d'un boot avec sysvinit à systemd ou l'inverse en
+>> modifiant la ligne GRUB_CMDLINE_LINUX_DEFAULT.
+>
+>> S'il y a un problème de boot avec systemd, il suffit choisir le mode
+>> dépannage dans le menu de Grub (mode single), de modifier la ligne
+>> GRUB_CMDLINE_LINUX_DEFAULT, faire un update-grub et rebooter.
+>
+> Et si on utilise Lilo ?
+
+Dans le cas de lilo, c'est la ligne "append" qui permet de passer des 
+paramètres au noyau, ce qui donne : append="init=/bin/systemd"
+
+Garde une section sans "append" ou avec append="single" pour pouvoir 
+démarrer sans systemd.
+
+
+-- 
+==============================================
+|              FRÉDÉRIC MASSOT               |
+|     http://www.juliana-multimedia.com      |
+|   mailto:frederic@juliana-multimedia.com   |
+| +33.(0)2.97.54.77.94  +33.(0)6.67.19.95.69 |
+===========================Debian=GNU/Linux===
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5049A73C.4060905@juliana-multimedia.com
+

@@ -1,0 +1,23 @@
+Subject:Re: Sin entorno =?utf-8?Q?gr=C3=A1fico?= tras actualizar el kernel
+	en Debian Wheezy
+"José Manuel (EB8CXW)" <eb8cxw52@infonegocio.com> writes:
+
+> Hola
+>
+> Tengo Debian testing, actualice el sistema y entre las actualizaciones
+> estaba el nuevo kernel linux 3.2.0-4-686-pae, reinicie el sistema y mi
+> sorpresa es que no aparece el entorno gráfico.  He buscado en Google,
+> pero no encuentro nada o no hago una búsqueda correcta por lo que he
+> tenido que volver al anterior kernel linux 3.2.0-3-686-pae Me podíais
+> indicar cuál es el error y como solucionarlo para utilizar el nuevo
+> kernel. Gracias de antemano.
+
+Sube los archivos /var/log/Xorg.0.log y /etc/xorg.conf a algún sitio
+como pastebin.com.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87liebd5c9.fsf@tochka.ru
+

@@ -1,0 +1,40 @@
+Subject:Re: [rlug] administrare multi-server
+2012/11/13 Petru Ratiu <rpetre@gmail.com>
+
+> 2012/11/13 Iulian Murgulet <guletz@casbv.ro>
+>
+> >   Dupa ceva analize, am ajuns la concluzia, ca ar fi cazul sa caut niste
+> > scule,
+> > cu care sa fac administrare remote la mai multe
+> > servere(fizice/virtualizate). Sunt undeva in jur de 25(grosul pe
+> > debian/ubuntu) de servere. Voi ce scule folositi pt. asa ceva? La o
+> > prima cautare ar fi pupet. Sugestii?
+> >    Prin administrare inteleg chestii uzuale:
+> > - instalare update-ri cu aptitude;
+> > - instalare aplicatii noi via aptitude;
+> > - modificari/reconfigurari frecvente de servicii(exemple: LAMP, bind,
+> > dhcp, iptables, routing, chestii normale)
+> >
+> >
+> Din cate stiu cele mai populare solutii in domeniu sunt puppet, chef si
+> cfengine. Eu unul sunt oarecum biased catre cfengine, dar sunt suficient de
+> similare ca approach (si implica niste schimbari de perspectiva).
+>
+
+plus spacewalk (redhat) sau landscape (ubuntu) pentru patch management care
+ofera altceva decit configuration management.
+
+
+
+>
+> --
+> Petre.
+> _______________________________________________
+> RLUG mailing list
+> RLUG@lists.lug.ro
+> http://lists.lug.ro/mailman/listinfo/rlug
+>
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

@@ -1,0 +1,24 @@
+Subject:Re: Sin red al actualizar
+Fabián Bonetti <mama21mama2000@yahoo.com.ar> writes:
+
+>> Pero no me queda claro, ¿tienes montados los dos dispositivos de red en
+>> tu ordenador? Pon también la salida de 'lspci'.
+>>
+> Solo un dispositivo montado.
+>
+> mama@zeuza:~$ lspci
+> 01:07.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL-8139/8139C/8139C+ (rev 10)
+
+Por si acaso, comprueba que el controlador se ha cargado correctamente:
+
+lspci | grep 8139
+
+Prueba con 'ifdown eth0', 'ifup eth0' desde consola sin network-manager
+(sería mejor desactivarlo para evitar las colisiones).
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/877grbru1v.fsf@tochka.ru
+

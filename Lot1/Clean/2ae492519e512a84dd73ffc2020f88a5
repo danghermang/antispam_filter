@@ -1,0 +1,69 @@
+Subject:Re: [LUG] Back to the list with a Raspberry PI and a laptop
+On Wed, 7 Nov 2012, Brown Richard wrote:
+
+> Hi Guys
+>
+> Reading the last few emails reminds me why I enjoyed this list. A random 
+> selection of topics and one or two that I understand!!!
+>
+> So I'm back. I bought a Raspberry PI and saw that Paul Sutton is 
+> offering PI training. At the same time I thought I ought to catch up 
+> with all on the list once again. So here I am back again. I am looking 
+> to use the PI as a media centre and to power webcams and upload the 
+> pictures. I mention the laptop because I would like to install Linux on 
+> it but I actually cannot remember the name of the laptop and it isn't 
+> that close.
+
+Well - if Paul isn't offering training, then I am ;-)
+
+> So, let's deal with the PI. Firstly will the PI mount the webcams as is 
+> or will I need to add packages. What webcams would you suggest please?
+
+The Linux distro that most peopel are running right now is Raspbian - this 
+is Debian Testing (aka Wheezy) specifically compiled to match the Pi's 
+FPU. The Pi architecture doesn't fall neatly into Debians ARM releases, so 
+if you do with standard Debian, it's software floating-point.
+
+On the webcam front - You can connect a webcam up, but the issues you'll 
+face will be to do with coding/transcoding the video stream from the 
+camera into something usable. Unless you can use the GPU, then it'll be 
+done in software on the ARM. That's the slow 700MHz ARM (or 1.1GHz 
+overclocked if you're lucky)
+
+Then there's the issue of getting the data somewhere else - lets stream it 
+over the Ethernet - Ah. Slight issue there - maybe - the Pi only have one 
+USB interface and the Ethernet is a peripheral on that USB... USB is half 
+duplex. So reading from a camera and writing over Ethernet may be 
+challenging. Same for writing to a local USB stick...
+
+Sending it to the screen - sure - maybe... Make sure it's a codec the GPU 
+understands..
+
+Now there are some new commercial codecs avalable for purchase to allow 
+you to use the GPU to do some encoding as well as decoding, but it's not 
+an area I'm very familiar with.
+
+Back to your media center - There are other distros avalable and I have 
+actually tried one - and amazingly it worked - I was able to play 45 
+minutes of video & sound at 720p (that's the best I have). The one I tried 
+was Raspbmc. http://www.raspbmc.com/ it takes a while to install - you 
+download the installer, then it downloads the rest. I found it a bit 
+"clunky" but there you go.
+
+Other than that it's a cheap little Linux box! Does most Linuxy things 
+relatively well - it is a little slow at times, but what do you expect for 
+30 quid?
+
+There's some intersting stuff on my projects website - but it's mostly 
+about hardware interfacing and stuff..
+
+https://projects.drogon.net/
+
+Cheers,
+
+Gordon
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

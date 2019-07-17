@@ -1,0 +1,81 @@
+Subject:Re: libreoffice-writer: writer unable to open documents
+On 26/09/12 10:15, Rene Engelhard wrote:
+> On Wed, Sep 26, 2012 at 09:13:25AM +0100, Berni Elbourn wrote:
+>> Package: libreoffice-writer
+>> Version: 1:3.5.4-7~bpo60+1
+>> Severity: important
+> [...]
+>> Backtrace was generated from '/usr/lib/libreoffice/program/soffice.bin'
+>
+> Console output would have made more sense here.
+>
+>> #6  0x00007f17e732c77a in librdf_new_node_from_uri_local_name ()
+>>     from /usr/lib/librdf.so.0
+>> #7  0x00007f17e731ed04 in librdf_init_concepts () from /usr/lib/librdf.so.0
+>> #8  0x00007f17e7317fd5 in librdf_world_open () from /usr/lib/librdf.so.0
+>> #9  0x00007f17e7593cdc in createWorld (this=0x2a61618)
+>>      at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/unoxml/source/rdf/librdf_repository.cxx:1943
+>> [...]
+>
+> This is the problem - we had that report already on IRC.
+>
+>> Versions of packages libreoffice-core depends on:
+> [...]
+>> ii  librdf0      1.0.13-2                    Redland Resource Description Frame
+>
+> This is not squeezes librdf0. Why did you install something from
+> somewhere? (Not that it's not testings either).
+>
+> Anyway, whenever the backport will get updated it will get a Conflicts:
+> against nbewer librdf0s than squeezes. (Some "interesting" incompatibility.)
+>
+> Regards,
+>
+> Rene
+
+Sorry for delay coming back. Rats. I can not explain where that library came from. Replacing with the squeeze version 
+presented no conflicts:
+
+sudo apt-get install librdf0/stable
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Selected version '1.0.10-3' (Debian:6.0.6/stable [amd64]) for 'librdf0'
+The following packages were automatically installed and are no longer required:
+   librasqal3 libraptor2-0
+Use 'apt-get autoremove' to remove them.
+Suggested packages:
+   librdf-storage-postgresql librdf-storage-mysql librdf-storage-sqlite
+   redland-utils
+The following packages will be DOWNGRADED:
+   librdf0
+0 upgraded, 0 newly installed, 1 downgraded, 0 to remove and 7 not upgraded.
+Need to get 141 kB of archives.
+After this operation, 32.8 kB of additional disk space will be used.
+Do you want to continue [Y/n]? y
+Get:1 http://ftp.uk.debian.org/debian/ squeeze/main librdf0 amd64 1.0.10-3 [141 kB]
+Fetched 141 kB in 0s (334 kB/s)
+Reading package fields... Done
+Reading package status... Done
+Retrieving bug reports... Done
+Parsing Found/Fixed information... Done
+dpkg: warning: downgrading librdf0 from 1.0.13-2 to 1.0.10-3.
+(Reading database ... 305341 files and directories currently installed.)
+Preparing to replace librdf0 1.0.13-2 (using .../librdf0_1.0.10-3_amd64.deb) ...
+Unpacking replacement librdf0 ...
+Processing triggers for man-db ...
+Setting up librdf0 (1.0.10-3) ...
+
+I have reverted to OpenOffice for now .. but will make some time to try LibreOffice again soon.
+
+Thanks
+
+-- 
+"Confidence is what you have before you understand a problem" - Woody Allen
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/507ECC24.7000300@gmail.com
+

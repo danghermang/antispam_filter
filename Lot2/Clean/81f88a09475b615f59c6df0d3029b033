@@ -1,0 +1,60 @@
+Subject:Re: debian et onduleur
+On Thu, 20 Sep 2012 23:43:09 +0200
+Ga=C3=ABtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+
+>=20
+> Celui d'APC a la fonctionnalit=C3=A9 ma=C3=AEtre/esclave sur les prises m=
+ais
+> n'en a que 6,
+
+Et...?
+=C3=89tant donn=C3=A9 qu'on ne relie que les UCs =C3=A0 la b=C3=AAte, avoir=
+ 50 prises ne
+sert pas =C3=A0 grand chose; par ailleurs, au cas o=C3=B9, une des prises
+supporte g=C3=A9n=C3=A9ralement un drain de courant Tsup=C3=A9rieur aux aut=
+res et
+une simple multi-prise suffit.
+=C3=80 noter: ils ont tous 4 prises mini, mais sont aussi quasiment tous
+livr=C3=A9s avec seulement 2 rallonges :(
+
+> alors que celui d'Eaton en a 8 et =C3=A0 l'avantage
+> d'avoir un support linux par le fabricant.
+
+En fonction de la gamme choisie et vu le volume repr=C3=A9sent=C3=A9 par
+les OS non-w$ chez les svrs, aucun fabricant ne prendra le risque
+de ne pas =C3=AAtre compatible avec un STD du march=C3=A9 ou de ne pas
+fournir son propre daemon.
+
+> Que pensez-vous de ces deux mod=C3=A8les ? Le Black UPS Pro est-il bien
+> g=C3=A9r=C3=A9 sous debian (sur le site de nut il est marqu=C3=A9 comme d=
+ev par
+> reverse engineering) ?
+
+Que ce sont _aussi_ les dimensions des batteries qui importent, parce
+que certains utilisent les m=C3=AAmes capacit=C3=A9s de batteries mais avec=
+ des
+dimensions diff=C3=A9rentes - la diffusion de certaines dimensions =C3=A9ta=
+nt
+tr=C3=A8s limit=C3=A9e, le prix peut varier du simple au presque double lor=
+s du
+renouvellement.
+
+Et que tout ce qui importe c'est que les 3 niveaux de charge
+soient correctement M=C3=A0J en temps r=C3=A9el; le reste c'est gadget
+(=C3=A0 part peut-=C3=AAtre 'danger d'explosion').
+
+--=20
+<Shiraa_Shiraya> j'ais 6piercing en tout la ^^
+<Shiraa_Shiraya> non 7=20
+<Shiraa_Shiraya> il m'en faut encore 4 mais petit a petit
+<Modem27> Shiraa_Shiraya is now known as Passoire
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120921084854.04faac82@anubis.defcon1
+

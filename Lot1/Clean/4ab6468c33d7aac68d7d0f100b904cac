@@ -1,0 +1,24 @@
+Subject:Re: [OT] Re: Error 500 en apache2 que solo se ve del lado del
+	cliente
+Misterio resuelto.
+
+Gracias a la ayuda de todos en la lista, pude enfocar mi busqueda a
+algo mas que simplemente apache (pues me orientaron a no dejar que
+solo por decir error 500 sea culpa del servidor), y comence a buscar
+en todo lo demas.  Despues de varias horas depurando por todo lado,
+encontre que podia habilitar los logs en php5, esperando que por ahi
+algo "cantara" y efectivamente asi fue.
+
+Faltaba el soporte para curl.   No era error de programacion ni error
+de servidor.  Era error de comunicacion, pues nunca nos comentaron que
+este era necesario para la aplicacion (y yo de symfony, es mi primera
+experiencia asi que sano completamente).
+
+saludos a todos y muchas gracias.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ=UQG7Dw0Ag8YKyn0j8ykxJtQYyQDEwpym-tEUpvYhQMBoW1g@mail.gmail.com
+

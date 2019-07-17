@@ -1,0 +1,93 @@
+Subject:Re: Ext4 Inodos acabados y dudas
+El d=C3=ADa 16 de octubre de 2012 13:19, Francisco J. Bejarano
+<francisco.bejarano@openknowledgenetwork.com> escribi=C3=B3:
+> Hola a todos y gracias de antemano. A ver si me pod=C3=A9is ayudar con un
+> tema de ext4.
+>
+> Estoy intentando buscar la forma de cambiar el numero de inodos de un
+> sistema de ficheros ext4 ya creado (creo que no es posible pero bueno,
+> puede que haya alguna forma que no conozca...)
+>
+> Tengo un sistema de ficheros en /var en un servidor dedicado en la nube,
+> en un proveedor. Cuando se instala el sistema este pone por defecto /var
+> /home y / en tres particiones ext4 de 4GB cada una, todas en un disco de
+> 1 TB m=C3=ADnimo (tengo de 1, 1,5 y 2TB en diferentes servidores) con rai=
+d
+> por hardware o software depende lo que le de al proveedor. Estas
+> particiones est=C3=A1n sobre un LVM2. Esto se crea por defecto y no tengo
+> control sobre ello.
+>
+> Una vez instalado el sistema base de la forma anterior, tengo control
+> sobre el sistema y puedo redimensionar /var al m=C3=A1ximo tama=C3=B1o de=
+l volumen
+> y despu=C3=A9s redimensionar ext4.
+>
+> 1.- Si hago esto =C2=BFal redimensionar ext4 redimensiona tambien el nume=
+ro
+> de inodos al nuevo tama=C3=B1o o deja el numero de inodos para 4Gb?
+
+Al aumentar el tama=C3=B1o, evidentemente aumenta el n=C3=BAmero de inodos.
+
+>
+> 2.- Por otro lado. Hay alguna forma, comando, lo que sea que me permita
+> redimensionar el numero de Inodos una vez creado el sistema de ficheros e=
+x4.
+
+Una vez creado? Creo que no.
+
+>
+> 3.- =C2=BFPodr=C3=ADa, al inicializar un servidor, hacer una copia de /va=
+r,
+> desmontar, crear el sistema de ficheros a mi gusto y montar de nuevo
+> /var y copiar los datos salvados? Esto es por el tema de que /var
+> contiene ficheros dinamicos sensibles y no se si al recuperar datos de
+> la copia de seguridad me petaria el sistema en algun momento. Esto se
+> haria en cuanto se instalara el sistema base, antes de hacer cualquier
+> otra cosa.
+
+Y digo yo.... Por que no puedes dejar una  partici=C3=B3n preparada para
+darle formato con ext4 una vez instalado el sistema.
+
+mkfs.ext4 -i 4096 /dev/......
+
+y despu=C3=A9s montas el /var en esta partici=C3=B3n y te pules la antigua.
+
+Con el -i especificas el ratio bytes/inodo. A menor tama=C3=B1o de bytes
+mayor n=C3=BAmero de inodos. Esto es lo que yo hago cuando necesito un
+numero mayor de inodos.
+
+Esto influye en el performance de la m=C3=A1quina, pero a d=C3=ADa de hoy y=
+o no
+lo he notado y lo tengo hecho en un servidor de im=C3=A1genes.
+
+>
+> Saludos
+>
+>
+>
+> --
+> -----------------------------------------------------------------
+> Francisco J. Bejarano
+> Responsable de Sistemas
+> Dpt. Sistemas e Infraestructuras
+> Open Knowledge Network S.L.
+> francisco.bejarano@openknowledgenetwork.com
+> Tel. (+34) 902 534 004
+> Fax. (+34) 917 266 476
+> -----------------------------------------------------------------
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/507D42BD.3020207@openknowledgenetwork.co=
+m
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+FbNVj4WdiBujrxiSFHeTRgm3m6wY2dsucdWQvwv_PptDc4=w@mail.gmail.com
+

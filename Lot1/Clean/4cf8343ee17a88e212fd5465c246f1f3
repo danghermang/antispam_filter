@@ -1,0 +1,49 @@
+Subject:Re: [address-policy-wg] 2012-03 New Draft Document Published
+ (Intra-RIR Transfer Policy Proposal)
+* Emilio Madaio
+
+> The draft document for the proposal described in 2012-03, "Intra-RIR
+> Transfer Policy Proposal", has been published. The impact analysis
+> that was conducted for this proposal has also been published
+>=20
+> You can find the full proposa and the impact analysis at:
+>=20
+>     https://www.ripe.net/ripe/policies/proposals/2012-03
+
+On this page, it would appear that the phrase =ABWithin the RIPE NCC
+service region,=BB is to be added at the beginning of the second paragrap=
+h
+in section 5.5.
+
+> and the draft document at:
+>=20
+>     https://www.ripe.net/ripe/policies/proposals/2012-03/draft
+
+However, that phrase is not found in the =ABnew text=BB box on this page.
+That must be an omission?
+
+As a general feedback to the draft document page, not specific to
+2012-03, I find it preferable if the =ABoriginal text=BB and =ABnew text=BB
+boxes are made as small as absolutely possible. If the paragraphs that
+aren't touched by the proposal are kept outside of those boxes, it is
+much easier to spot the actual changes made, than it is if you include
+the entire original and new section side-by-side (as is the case with
+2012-03's draft document).
+
+Taking it one step further, it would be even better if those paragraphs
+that have only change by a small amount (i.e., aren't completely
+rewritten) have the actual changes highlighted, e.g., using
+strikethrough for deleted text, and coloured text for added text (such
+as the "Within the RIPE NCC service region" added by this proposal).
+
+The changes indicated in sections 6.0 and 6.3 at
+https://www.ripe.net/ripe/policies/proposals/2009-03/draft are two
+examples I like.
+
+In any case, I support this policy proposal.
+
+Best regards,
+--=20
+Tore Anderson
+Redpill Linpro AS - http://www.redpill-linpro.com/
+

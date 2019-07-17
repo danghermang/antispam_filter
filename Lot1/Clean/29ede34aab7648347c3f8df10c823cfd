@@ -1,0 +1,67 @@
+Subject:FW: duda sobre vulnerabilidad con telnet y port 25
+
+> El d=EDa 6 de septiembre de 2012 19:00=2C <cosme@esid.gecgr.co.cu> escrib=
+i=F3:
+> > ad con el tema del acceso al puerto 25 mediante telnet en las
+> > pc de mi red LAN
+> >
+> > La caracteristicas de mi red LAN
+=A0>
+> > el iptables esta una pc con ip 192.168.1.1
+> > el servidor de correo esta en una pc 192.168.1.2
+>
+>
+> Y de que vulnerabilidad te dijeron?
+> Denegar el puerto 23=2C no te va a ser util en ning=FAn caso (server mail
+> y firewall iptables) dado que con '# telnet ipServerMail 25' entras al
+> servier aunque bloquees el puerto 23. (ah=ED tenes un error de
+> consepto)
+>
+> Si vos queres que no se entre al puerto 25 por telnet=2C tendrias que
+> ver si a iptables se le puede hacer una regla que permita acceso al
+> puerto 25 para los clientes de correo y bloquee el telnet. (yo te
+> "asegurar=EDa" que no se puede=2C pero es iptables :))
+>
+>
+> Saludos.
+
+
+Por lo que entiendo tu mail server esta en la misma red que tus usuarios=2C
+en este conexto=2C cualquier regla que pongas en tus iptables podrian ser i=
+nutiles=2C
+ya que para llegar a tu server no habria que paasr por ese gateway=2C al me=
+nos
+que hagas una regla POSTROUTING y que tu gateway "simule" ser el mail serve=
+r
+y luego el redirija el trafico=2C como vez un lio.
+
+Si quieres controlar las comunicaciones entre tu usuarios=2C servidores y r=
+ed publica
+crero que estamos hablando de #dmznecesaria. Hace unos a=F1os hice algunas
+implementaciones que tal vez te den idea:
+http://www.elrincondemartin.org/search/label/seguridad
+
+Comparto mi url=2C pero no me vayan a hackear :) toma lo que te sirva de ah=
+i.
+Con iptables no creo que puedas hacer eso=2C ya que solo llegamos a la
+capa de transporte y para telnet y correo estamos hablando de aplicaciones=
+=2C
+tal vez ahi te tocaria revisar algo con squid. IPtables puede bloquerte el =
+puerto
+pero es un puerto que requiere ofrecer servicio=2C los contenidos puedes ve=
+rlo con squid.
+Valoralo.
+
+Saludos.
+
+----
+Martin Edmundo
+
+ 		 	   		  =
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU155-W375F1D42B584C55603892E1AF0@phx.gbl
+

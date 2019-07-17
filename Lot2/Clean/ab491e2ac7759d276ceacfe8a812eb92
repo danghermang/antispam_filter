@@ -1,0 +1,97 @@
+Subject:Re: [Antenna-discussion] RF noise
+Stu
+I quite agree with you and the problem lies in the need for economic
+growth at all costs, coupled with the relative unimportance of radio
+comms in the modern world - especially hf, now that we are all wired
+up.  So the 'authorities' don't see noise on HF as one of the big
+problems.  I think the services use hf radio still, but they can place
+antenna farms away from noise sources, where they can still enjoy a
+quiet spectrum.  The rest of us have data on our copper-wire phone
+lines and our power system, plus endless loud noise from anything with
+a switch-mode power supply in it, which means just about everything
+these days :(
+Alan G3NOQ
+
+
+On 17 October 2012 09:23, Stu Nutt <stunutt@gmail.com> wrote:
+> That's one of my next jobs - I've just (almost) finished building a new
+> shack in the garden (with a bit of solar power, and some solar heating), but
+> my small wooden lattice tower had to come down as it was in the only place
+> the shack could go, so now I only have a v/uhf vertical and a 10m vertical
+> available - I need to work out where to re-site the tower and put it up!
+>
+> I think I can rule out the "change in RX design", as my 1990's (or maybe
+> even '80's) era TS150 is no better than the 857 in terms of received noise;
+> I'm pretty convinced that it's mostly the "consumer electronics".  Here in
+> UK, our equivalent of the FCC seems to be under-staffed and not effectively
+> controlling the emissions from a lot of imported equipment; our RSGB (radio
+> society - like ARRL) seems to be permanently up against them over
+> internet-over-power systems that are supposed to be "notched" so as to not
+> interfere with ham bands and other low-signal applications, but has
+> frequently been measured (by the society) at well above these so-called
+> limits.
+>
+> [RANT OFF] !
+>
+> Stu
+>
+>
+> On 17/10/2012 05:19, Augie "Gus" Hansen wrote:
+>>
+>> Hi Stu,
+>>
+>> Sorry about the delayed response. I've been busy upgrading my antennas and
+>> shack solar power system. After all that roof and tower work it feels good
+>> to have my feet back on the ground.
+>>
+>> In addition to electrical storms, here are just a few other possible
+>> factors:
+>>
+>> - Receiver technology changes (analog vs digital, for example).
+>> - AGC characteristics and gain distribution affect perceived S+N/N.
+>> - Increasing man-made noise sources from poorly implemented consumer
+>> electronics.
+>> - Aging power distribution infrastructure (my worst noise problem).
+>>
+>>
+>> I'm not making any claims, simply pointing to a meteorologist's estimate
+>> of the number of lightning strikes per day worldwide.
+>>
+>> Climate changes occur over time, driven by short-, medium-, and long-cycle
+>> phenomena, mostly related to the sun. I don't know whether the frequency or
+>> severity of storms have increased since I was a youngster in the 1950s in
+>> Rhode Island, but I assume that there have been fluctuations.
+>>
+>> Gus Hansen
+>> KB0YH
+>
+>
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

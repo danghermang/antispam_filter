@@ -1,0 +1,42 @@
+Subject:Re: Route statique avec 2 passerelles
+'lut,
+
+> Maintenant, je me demande dans quelle mesure ça pourrait marcher sans
+> manipulation sur les passerelles elles-mêmes...
+Il te faut modifier le routage de gw1.
+
+f.
+
+>
+> Merci.
+>
+> David.
+>
+> Le Fri, 30 Nov 2012 10:37:43 +0100,
+> fabrice régnier<regnier.fab@free.fr>  a écrit :
+>> 'lut,
+>>
+>>> Je souhaiterais ajouter sur mon poste une route statique avec 2
+>>> passerelles.
+>>> Auriez-vous quelques pistes ?
+>> Dans mon /etc/network/interfaces, j'ai mis ça:
+>>
+>> up route add -host IP_DEST_1 gw IP_DE_MA_GW_1
+>> up route add -host IP_DEST_2 gw IP_DE_MA_GW_2
+>>
+>> en lieu et place de -host, tu peux spécifier un réseau: -net
+>>
+>> a+
+>>
+>> f.
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50ba0137$0$1991$426a74cc@news.free.fr
+

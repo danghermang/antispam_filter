@@ -1,0 +1,94 @@
+Subject:Re: [Hsqldb-user] Cannot execute Hibernate query
+The lastest problems are related to two separate issues
+
+1. trunc(?) is normally resolved to numeric, instead of datetime. This
+will be improved in version 2.3.0. Now you can use cast(? as date)
+instead.
+
+2. The Restriction.sqlRestriction() call is generating the timestamp in
+a non-sql format (it has a 'T' instead of a space) therefore it won't
+work.
+
+Try to use sqlRestriction(String, Object[], Type[]) to use parameters
+and rewrite the restriction as CAST. This example is SQL, which you need
+to translate the parameter names to question mark paramaters and specify
+the types in the arguments of sqlRestriction:
+
+"cast(creation_datetime as date) between cast(fromDateTime as date) and
+ cast(toDateTime as date)"
+
+Please do not use this mailing list for development questions which need
+follow-ups. You can use the Help forum for this type of question.
+
+Fred
+
+On Sat, Dec 1, 2012, at 12:12, Stephane Eybert wrote:
+> 
+> Hi,
+> 
+> Thanks for your suggestion.
+> 
+> But I still get a cannot execute sql statement on my sql:
+> 
+> delete from mail where (send_datetime is not null) and
+> trunc(send_datetime)>=trunc(?)
+> 
+> select this_.id as id79_0_, this_.version as version79_0_,
+> this_.firstname
+> as firstname79_0_, this_.lastname as lastname79_0_, this_.organisation as
+> organisa5_79_0_, this_.email as email79_0_, this_.fax as fax79_0_,
+> this_.home_phone as home8_79_0_, this_.work_phone as work9_79_0_,
+> this_.mobile_phone as mobile10_79_0_, this_.password as password79_0_,
+> this_.password_salt as password12_79_0_, this_.readable_password as
+> readable13_79_0_, this_.unconfirmed_email as unconfi14_79_0_,
+> this_.valid_until as valid15_79_0_, this_.last_login as last16_79_0_,
+> this_.profile as profile79_0_, this_.image as image79_0_, this_.imported
+> as
+> imported79_0_, this_.mail_subscribe as mail20_79_0_, this_.sms_subscribe
+> as
+> sms21_79_0_, this_.creation_datetime as creation22_79_0_,
+> this_.address_id
+> as address23_79_0_ from user this_ where trunc(creation_datetime) between
+> trunc('2012-12-01T13:58:10.571') and trunc('2012-12-02T13:58:10.571')
+> order
+> by this_.firstname asc, this_.lastname asc, this_.email asc
+> 
+> select this_.id as id45_0_, this_.version as version45_0_,
+> this_.firstname
+> as firstname45_0_, this_.lastname as lastname45_0_, this_.email as
+> email45_0_, this_.text_comment as text6_45_0_, this_.country as
+> country45_0_, this_.subscribe as subscribe45_0_, this_.imported as
+> imported45_0_, this_.creation_datetime as creation10_45_0_ from
+> mail_address
+> this_ where trunc(creation_datetime) between
+> trunc('2012-12-01T13:58:12.999') and trunc('2012-12-02T13:58:12.999')
+> order
+> by this_.firstname asc, this_.lastname asc, this_.email asc
+> 
+> 
+> -- 
+> View this message in context:
+> http://old.nabble.com/Cannot-execute-Hibernate-query-tp34735211p34746043.html
+> Sent from the HSQLDB - User mailing list archive at Nabble.com.
+> 
+> 
+> ------------------------------------------------------------------------------
+> Keep yourself connected to Go Parallel: 
+> INSIGHTS What's next for parallel hardware, programming and related
+> areas?
+> Interviews and blogs by thought leaders keep you ahead of the curve.
+> http://goparallel.sourceforge.net
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Keep yourself connected to Go Parallel: 
+INSIGHTS What's next for parallel hardware, programming and related areas?
+Interviews and blogs by thought leaders keep you ahead of the curve.
+http://goparallel.sourceforge.net
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

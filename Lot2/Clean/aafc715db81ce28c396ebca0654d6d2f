@@ -1,0 +1,16 @@
+Subject:[Koha] Koha Config All stored in Database?
+Hello,
+
+When setting up a Koha server using the debian packages is the koha 
+configuration all stored in the mysql database? I would be very happy if 
+that wasn't the case, as I then could track my configuration follies using a 
+VCS as git ...
+
+Thank you for any insight into the matter.
+
+Sincerely, Joh
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

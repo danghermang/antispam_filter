@@ -1,0 +1,66 @@
+Subject:Re: gnome terminal et =?utf-8?Q?encodoage_?=
+	=?utf-8?Q?par_d=C3=A9faut?=
+Jérôme,
+
+Merci pour ta réponse.
+
+
+Le 03-10-2012, à 11:36:47 +0200, Jérôme (jerome@aranha.fr) a écrit :
+
+> Le mardi 02 octobre 2012 à 22:54 +0200, steve a écrit :
+> > Et moi aussi en créant un nouvel utilisateur...
+> > 
+> > Donc il y a un truc dans mon compte qui fait que ce ne soit pas le
+> > cas. Onze
+> > ans de bricolage, mmmh, ça ne pas être facile à trouver...
+> > 
+> > Peut-être que quelqu'un a une idée... ? 
+> > 
+> > steve 
+> 
+> ~/.profile ~/.bashrc ~/.Xdefaults ~/.Xresources ...
+
+Pas de .profile, ni de .Xdefaults ni de .Xresources. J'ai essayé de mettre
+
+export LANG=fr_CH.utf8 (ou .UTF-8, les deux semblent exister...)
+
+dans .bashrc, redémarré la session, mais toujours le même problème.
+
+
+> voire gsettings list-recursively |grep terminal
+
+org.gnome.shell favorite-apps ['iceweasel.desktop', 'shotwell.desktop', 'libreoffice-writer.desktop', 'nautilus.desktop', 'gnome-terminal.desktop', 'gimp.desktop', 'zenmap-root.desktop', 'darktable.desktop']
+org.gnome.desktop.default-applications.terminal exec 'gnome-terminal'
+org.gnome.desktop.default-applications.terminal exec-arg '-x'
+
+
+et avec
+
+gsettings list-recursively | grep -i utf
+org.gnome.evolution.bogofilter utf8-for-spam-filter true
+org.gnome.system.locale region 'fr_CH.utf8'
+org.gnome.totem subtitle-encoding 'UTF-8'
+org.gnome.Epiphany.web default-encoding 'UTF-8'
+org.gnome.Epiphany keyword-search-url 'http://www.google.com/search ? q=%s&ie=UTF-8&oe=UTF-8'
+org.gnome.gedit.preferences.encodings auto-detected ['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']
+
+Tout le système semble donc bien être en utf8.
+
+$locale -a
+C
+C.UTF-8
+fr_CH.utf8
+POSIX
+
+
+Je ne sais plus où chercher...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121005135851.GA17206@localhost
+

@@ -1,0 +1,356 @@
+Subject:W3C Public Newsletter, 2012-11-12
+Dear W3C Public Newsletter Subscriber,
+
+The 2012-11-12 version of the W3C Public Newsletter is online:
+  http://www.w3.org/News/Public/pnews-20121112
+
+A simplified plain text version is available below.
+
+Ian Jacobs, W3C Communications Team
+
+-----------------------------------
+Eleven SPARQL 1.1 Specifications Published
+
+   08 November 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9624
+
+   The SPARQL Working Group has today published a set of eleven
+   documents, advancing most of SPARQL 1.1 to Proposed
+   Recommendation. Building on the success of SPARQL 1.0, SPARQL
+   1.1 is a full-featured standard system for working with RDF
+   data, including a query/update language, two HTTP protocols
+   (one full-featured, one using basic HTTP verbs), three result
+   formats, and other features which allow SPARQL endpoints to be
+   combined and work together. Most features of SPARQL 1.1 have
+   already been implemented by a range of SPARQL suppliers, as
+   shown in our table of implementations and test results.
+
+   http://www.w3.org/2009/sparql
+   http://www.w3.org/2009/sparql/implementations/
+
+   The Proposed Recommendations are:
+
+    1. SPARQL 1.1 Overview - Overview of SPARQL 1.1 and the SPARQL
+       1.1 documents
+    2. SPARQL 1.1 Query Language - A query language for RDF data.
+    3. SPARQL 1.1 Update - Specifies additions to the query
+       language to allow clients to update stored data
+    4. SPARQL 1.1 Query Results JSON Format - How to use JSON for
+       SPARQL query results
+    5. SPARQL 1.1 Query Results CSV and TSV Formats - How to use
+       comma-separated values (CVS) and tab-separated values (TSV)
+       for SPARQL query results
+    6. SPARQL Query Results XML Format - How to use XML for SPARQL
+       query results. (This contains only minor, editorial updates
+       from SPARQL 1.0, and is actually a Proposed Edited
+       Recommendation.)
+    7. SPARQL 1.1 Federated Query - an extension of the SPARQL 1.1
+       Query Language for executing queries distributed over
+       different SPARQL endpoints.
+    8. SPARQL 1.1 Service Description - a method for discovering
+       and a vocabulary for describing SPARQL services.
+
+   The following are Candidate Recommendations, as the group still
+   seeks more feedback from implementors:
+
+    1. SPARQL 1.1 Entailment Regimes - defines the semantics of
+       SPARQL queries under entailment regimes such as RDF Schema,
+       OWL, or RIF.
+    2. SPARQL 1.1 Protocol for RDF - A protocol defining means for
+       conveying arbitrary SPARQL queries and update requests to a
+       SPARQL service.
+    3. SPARQL 1.1 Graph Store HTTP Protocol - As opposed to the
+       full SPARQL protocol, this specification defines minimal
+       means for managing RDF graph content directly via common
+       HTTP operations.
+
+   The group has also produced a test suite and a page on using
+   SPARQL 1.1 with RDF 1.1. Learn more about the Semantic Web.
+
+   http://www.w3.org/2009/sparql/docs/tests/
+   http://www.w3.org/2009/sparql/using-with-rdf11
+   http://www.w3.org/standards/semanticweb/
+
+Mobile Web 1 Online Training Starts Today; Still Time to Register
+
+   12 November 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9629
+
+   A new edition of W3C Mobile Web 1: Best Practices online
+   training starts today, and there is still time to register.
+   Participants gain expertise in improving the Web user
+   experience on mobile devices. This 6-week online training
+   course (from 12 Nov. to 23 Dec. 2012), led by a mobile Web
+   professional, lets you study at your own pace. The course is
+   available in English or Spanish during the same period. Learn
+   more about W3DevCampus, W3C's online training for developers.
+
+   http://www.w3devcampus.com/mobile-web-and-application-best-prac
+   tices-training/
+   http://www.w3techcourses.com/course/view.php?id=27
+   http://www.w3devcampus.com/mobile-web-and-application-best-prac
+   tices-training/
+   http://www.w3devcampus.com/buenas-practicas-en-web-movil/
+   http://www.w3devcampus.com/
+
+W3C Launches Pointer Events Working Group
+
+   09 November 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9628
+
+   W3C announced today the launch of the Pointer Events Working
+   Group. Web browsers can receive input in a variety of ways. A
+   “pointer” is an abstract form of input that can be any point of
+   contact on a input surface made by a mouse cursor, pen, finger,
+   or multiple fingers. The mission of this group is to define a
+   single unified event model for mouse, touch, and pen/tablet
+   user interfaces. Enabling content creators to use a single
+   model for different input types will make content creation more
+   efficient and inclusive. See the Pointer Events Working Group
+   Charter for more information.
+
+   http://www.w3.org/2012/pointerevents/
+   http://www.w3.org/2012/pointerevents/charter/
+
+Agenda, Papers Announced for Web and Automotive Workshop
+
+   08 November 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9625
+
+   [] W3C announced today the agenda and accepted papers for Shift
+   into High Gear on the Web , W3C's first Web and Automotive
+   Workshop, hosted by Intel Open Source Technology Center, in
+   Rome, Italy on 14-15 November.
+
+   http://www.w3.org/2012/08/web-and-automotive/
+   http://www.w3.org/2012/08/web-and-automotive/agenda
+   http://www.w3.org/2012/08/web-and-automotive/papers
+   http://www.w3.org/2012/08/web-and-automotive/
+
+   People today enjoy applications and services from multiple
+   networked devices. With our increasingly mobile lifestyles,
+   it’s time to include the connected car in this mix.
+   Participants in this workshop will share their own
+   perspectives, requirements, and ideas to ensure that emerging
+   global technology standards meet the needs of the Web and
+   Automotive industries.
+
+   The Workshop is also supported through sponsorships from QNX
+   and Webinos.
+
+Online Symposium: Text Customization for Readability
+
+   06 November 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9623
+
+   Registration is now open for the online symposium on Text
+   Customization for Readability to be held on 19 November 2012.
+   This symposium brings together researchers, practitioners, and
+   users with disabilities to explore the needs of people with low
+   vision, dyslexia, and other conditions and situations that
+   impact reading. It focuses specifically on text customization
+   requirements and functionality, that is, providing users the
+   ability to change (or personalize) specific aspects of text
+   display to improve readability for their particular needs. For
+   details and registration, see Text Customization for
+   Readability - Online Symposium. To share your perspectives on
+   text customization for readability, see Invitation for short
+   contributions. Learn more about the Web Accessibility
+   Initiative (WAI).
+
+   http://www.w3.org/WAI/RD/2012/text-customization/
+   http://lists.w3.org/Archives/Public/w3c-wai-ig/2012OctDec/0074
+   http://www.w3.org/WAI/
+
+CSS Grid Layout Draft Published
+
+   06 November 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9622
+
+   The Cascading Style Sheets (CSS) Working Group has published a
+   Working Draft of "CSS Grid Layout." Grid Layout contains
+   features targeted at web application authors. The Grid can be
+   used to achieve many different layouts. It excels at dividing
+   up space for major regions of an application, or defining the
+   relationship in terms of size, position, and layer between
+   parts of a control built from HTML primitives. Like tables, the
+   Grid enables an author to align elements into columns and rows,
+   but unlike tables, the Grid doesn't have content structure, and
+   thus enables a wide variety of layouts not possible with
+   tables. In addition, the absence of content structure in the
+   Grid helps to manage changes to layout by using fluid and
+   source order independent layout techniques. By combining media
+   queries with the CSS properties that control layout of the Grid
+   and its children, authors can adapt their layout to changes in
+   device form factors, orientation, and available space, without
+   needing to alter the semantic nature of their content. Learn
+   more about the Style Activity.
+
+   http://www.w3.org/Style/CSS/members
+   http://www.w3.org/TR/2012/WD-css3-grid-layout-20121106/
+   http://www.w3.org/Style/
+
+   More news: http://www.w3.org/News/archive
+
+Workshops
+
+     * 2012-11-14 (14 NOV) – 2012-11-15 (15 NOV)
+       Shift into High Gear on the Web: W3C Workshop on Web and
+       Automotive
+       http://www.w3.org/2012/08/web-and-automotive/
+       Rome, Italy
+       Hosted by Intel and Sponsored by Webinos
+       W3C’s Open Web Platform (OWP) is driving this and other
+       industry transformations. The promise of the early
+       information superhighway is being fulfilled. Whether
+       tethering a driver’s smartphone or tablet to work with a
+       car--or embedding technology into the car itself--there’s
+       no need to reinvent the wheel. The Web can take you there.
+       Participants in this workshop will have the opportunity to
+       share their own perspectives, requirements, and ideas to
+       ensure that emerging global technology standards meet the
+       needs of the Web and Automotive industries.
+     * 2012-11-26 (26 NOV) – 2012-11-27 (27 NOV)
+       Do Not Track and Beyond
+       http://www.w3.org/2012/dnt-ws/
+       Berkeley, California
+       Hosted by UC Berkeley and TRUST Science and Technology
+       Center
+       This workshop serves as a forum for the W3C membership and
+       the public to discuss the Consortium's next steps in the
+       area of tracking protection and Web privacy. What have we
+       learned from Do Not Track standardization and real-world
+       implementations? Furthermore, undoubtedly support for
+       privacy on the Web platform cannot end with Do Not Track:
+       what should we look at next and beyond DNT?
+     * 2013-02-11 (11 FEB) – 2013-02-12 (12 FEB)
+       Electronic Books and the Open Web Platform
+       http://www.w3.org/2012/08/electronic-books/
+       New York (USA)
+       Hosted by O'Reilly Media
+       Today’s eBook market is dynamic, fast-changing and strong.
+       eBooks compete with printed versions, and there is a wide
+       choice of hardware and software available for eBook
+       readers. Nevertheless, publishers face major business and
+       technical challenges in this market, some of which could be
+       reduced or removed by standardization.
+     * 2013-03-12 (12 MAR) – 2013-03-13 (13 MAR)
+       Making the Multilingual Web Work
+       http://www.multilingualweb.eu/en/documents/rome-workshop/ro
+       me-cfp
+       Rome, Italy
+       Hosted by the Food and Agriculture Organization of the
+       United Nations (FAO).
+       The MultilingualWeb community develops and promotes best
+       practices and standards related to all aspects of creating,
+       localizing, and deploying the Web across boundaries of
+       language. It aims to raise the visibility of existing best
+       practices and standards for dealing with language on the
+       Internet and on identifying and resolving gaps that keep
+       the Internet from living up to its global potential.
+
+W3C Blog
+
+     * W3C and Digital Publishing
+       http://www.w3.org/QA/2012/11/w3c_and_digital_publishing
+       9 November 2012 by Ivan Herman
+       http://www.w3.org/People/Ivan
+     * Chinese Developers endeavor to get more involved in the
+       community - Test The Web Forward hackathon in China
+       http://www.w3.org/QA/2012/11/chinese_developers_endeavors_t
+       9 November 2012 by Angel Li
+     * TPAC2012 Storified: "See, sketch and fun"
+       http://www.w3.org/QA/2012/11/tpac2012_storified_see_sketch
+       5 November 2012 by Coralie Mercier
+       http://my.opera.com/koalie/
+
+Upcoming Talks
+
+     * 2012-11-12 (12 NOV)
+       Open Data: Setting the Scene
+       http://www.w3c.es/Presentaciones/2012/1112-openData_EISCO-M
+       A
+       by Martín Álvarez
+       EISCO 2012
+       http://www.eisco2012.eu/
+       Guimarães, Portugal
+     * 2012-11-17 (17 NOV)
+       End-to-end W3C API support
+       by Alexandre Morgaut
+       JS.everywhere(2012) Europe
+       http://jseverywhere.eu
+       Paris, France
+     * 2012-11-20 (20 NOV)
+       Why HTML5?
+       http://www.w3.org/2012/Talks/1120-owp-plh/
+       by Philippe Le Hégaret
+       HTML5FEST 2012
+       http://www.w3c.org.il/HTML5fest/2012/
+       Kfar maccabiah, Ramat Gan, Israel
+     * 2012-11-20 (20 NOV)
+       Web Accessibilty Demystified
+       http://zohararad.github.com/presentations/accessibility-dem
+       ystified/presentation/#/step-1
+       by Zohar Arad
+       HTML5FEST 2012 - The Israeli Web Community conference
+       http://www.w3c.org.il/HTML5fest/2012/
+       Ramat Gan, Israel
+     * 2012-11-23 (23 NOV)
+       Web Accessibility: A Catalyst to Greatness
+       keynote by Shawn Henry
+       a11yMTL
+       http://a11ymtl.org/en/
+       Montreal, Canada
+     * 2012-11-24 (24 NOV)
+       HTML5 and CSS
+       by Bert Bos
+       Web Standards Days
+       http://webstandardsdays.ru/
+       Moscow, Russia
+
+W3C Membership
+
+   Lear more about the benefits of W3C Membership. If you or your
+   organization cannot join W3C, we invite you to support W3C
+   through a contribution.
+
+   http://www.w3.org/Consortium/membership-benefits
+   http://www.w3.org/Consortium/join
+   http://www.w3.org/Consortium/sup
+
+New Members
+
+     * Touch5Mobile
+
+About W3C
+
+   The World Wide Web Consortium (W3C) is an international
+   consortium where Member organizations, a full-time staff, and
+   the public work together to develop "Web standards." Read
+   about W3C.
+
+   http://www.w3.org/TR/
+   http://www.w3.org/Consortium/
+
+Receiving the Newsletter
+
+   Bookmark this edition or the latest Public Newsletter and see
+   past issues and press releases. Subscribe to receive the Public
+   Newsletter by email. If you no longer wish to receive the
+   Newsletter, send us an unsubscribe email. Comments? Write the
+   W3C Communications Team (w3t-comm@w3.org).
+
+   http://www.w3.org/News/Public/pnews-20121112
+   http://www.w3.org/News/Public/
+   http://lists.w3.org/Archives/Public/w3c-announce/latest
+   http://www.w3.org/Press/
+   mailto:w3c-announce-request@w3.org?subject=Subscribe
+   mailto:w3c-announce-request@w3.org?subject=Unsubscribe
+   mailto:w3t-comm@w3.org
+

@@ -1,0 +1,79 @@
+Subject:Re: [LUG] Linux - and security
+On 02/11/12 21:23, Martijn Grooten wrote:
+> I hope fellow list-members know that it is not mandatory to read all
+> the posts. :-)
+And that goes double, if not triple for my posts! 
+> (But then, I don't think we disagree about most the technical details.)
+
+No, I think you're right, and annoyingly you're far too reasonable to
+disagree with (mostly). I do disagree with some of your points still:
+
+CRIME/BEAST are hard. For normal people. But not for skilled hackers, of
+which there are many. It only takes one to compromise a major host, and
+then millions of users are open. Bonus points for targeting
+infrastructure points like ISPs and MITMing even 5% of the connections
+going through. The entire history of hacking is full of exploits of
+staggering complexity, but that hasn't stopped any of them being
+implemented and used heavily. A recent global security survey of SSL/TLS
+amongst top sites showed that nearly 50% were vulnerable: a lot of them
+promptly fixed the hole, but many didn't. And of course, CRIME will be
+tweaked and they'll be vulnerable again... SSL/TLS done *right* is of
+course secure, no arguments there. I should have been more specific
+about how most real-world implementations are effectively broken.
+
+I disagree about DNS too - you even admit that just about anything you
+do online requires it but don't think it effects you. Fair enough, but
+why not go DNSSEC and close the hole? It is your call of course though,
+and your cost/benefit analysis to make.
+
+You've got the wrong end of SCADA attacks too: most SCADA systems are
+just helplessly vulnerable fullstop, and anyone with ICL skills can
+wreak havoc upon them. The difficulty is getting access to the backend
+systems that should be airgapped and that was the genius of
+Stuxnet/Flame. But fair enough, as none of us are SCADA systems admins I
+think even I agree we don't personally have to worry about them!
+
+Also, you yourself actually provided an example of a 0-day in widespread
+use - the Iranian government were broadly intercepting all internal
+google mail traffic for a while before they were busted and the hole
+fixed. Agreed, as you say mostly 0-days are held close to the chest and
+used in targeted attacks but what usually happens though is that someone
+discovers it, it leaks into general usage (often landing in our
+favourites MetaSploit and Canvas very quickly) and then everyone on the
+internet is vulnerable for a few days whilst vendors scramble to release
+out-of-schedule patches. Again, that's my fault for not being strict
+enough with my terminology.
+
+It all boils down to the above cost/benefit analysis. You contend that
+you've already done more than enough and I'm guessing, value your free
+time more than the extra 1% security you could eke out of your system by
+really pushing it.
+
+And who the hell am I to say you're wrong? You're probably already in
+the top 1%, if not 0.1% of secure systems.
+
+Obviously, I have personally decided it is worth it going further, and
+not stopping until I'm in the top 0.00001% of systems. Quite frankly, I
+wouldn't expect most people to go that far and of course, even now, I'm
+not invulnerable because nobody is. cvs.openbsd.org got hacked a few
+years back, and if someone got into that, I'm screwed if the same
+attackers come after me...
+
+To wrap up, I reluctantly agree you're much more realistic than me and
+indeed, "good enough" is probably just that. Well organised backups will
+do the rest so even if you do get trashed, you can nuke the system,
+patch the holes and you're back in business. And that, for the vast
+majority of people and even businesses, is quite enough.
+
+So everyone, listen to Martjin, he's quite right. If on the other hand,
+you ever need something really, REALLY, *REALLY* secured, my rates are
+very reasonable and I promise you my paranoia isn't in any way
+infectious :] I'm not allowed to wear my tinfoil hat in public anymore...
+
+Cheers
+
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

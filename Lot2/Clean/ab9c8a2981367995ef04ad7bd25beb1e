@@ -1,0 +1,11 @@
+Subject:[Koha] Changing the default tab in results page
+Dear friends,
+
+When we search for a record in OPAC, koha by default displays the *Holdings* tab. Can I modify things in a way that instead of Holdings *Title notes* tab is displayed by default. I looked in "Global System Preferences" but was unable to find something. Any ideas?
+
+Thank you in advance,
+Haik.
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

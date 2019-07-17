@@ -1,0 +1,28 @@
+Subject:Re: PC =?UTF-8?B?w6l0ZWludA==?= qui =?UTF-8?B?Y29uc29tbWVbaWRl?=
+	=?UTF-8?B?bnRpZmnDqV0=?=
+On Sat, 17 Nov 2012 20:13:35 +0100
+Francois Mescam <gmane@mescam.org> wrote:
+
+> Avec util-linux 2.20.1-5.2 (testing) j'ai :
+> # These defaults are user-overridable in /etc/default/hwclock
+> BADYEAR=3Dno
+> HWCLOCKACCESS=3Dyes
+>=20
+> Ce qui donne une conclusion diff=C3=A9rente.
+
+En quoi?  =C3=80 moins que tu n'appelles le vice du versa le contraire
+de l'inverse de la m=C3=AAme chose...
+
+--=20
+<Arcturus> je suis au fin fond de la d=C3=A9pr=C3=A9ssion
+<myrdin> donc tu peux nous faire le point m=C3=A9t=C3=A9o ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121117202048.07558702@anubis.defcon1
+

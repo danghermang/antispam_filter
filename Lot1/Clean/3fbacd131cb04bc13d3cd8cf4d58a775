@@ -1,0 +1,52 @@
+Subject:Re: la commande calendar
+On Tuesday 27 November 2012 14:49:21 Fran=C3=A7ois TOURDE wrote:
+> andre debian =C3=A9crivait:
+> > Cette commande permet d'afficher les =C3=A9v=C3=A9nements
+> > marquants du monde selon une date.
+> > (calendrier)
+> > "calendar" me donne ceci :
+> > # calendar
+> > calendar: no calendar file: ``calendar'' or ``~/.calendar/calendar''
+> > Comment cr=C3=A9er ce fichier "calendar"  et ou le placer ?
+> > Si il est vide, comment avoir alors les =C3=A9v=C3=A9nements du jour ?
+
+> Tu as essay=C3=A9 "man calendar" ? :
+Oui
+> > Il y a bien un r=C3=A9pertoire "/etc/calandar/" mais il est vide.
+
+> Ce r=C3=A9pertoire devrait contenir au moins le fichier default, qui va c=
+ontenir
+>   #include <calendar.all>
+> Les fichiers sont aussi dans /usr/share/calendar, cf le r=C3=A9sultat de =
+la =20
+> > commande:=20
+> dpkg -L $(dpkg -S $(which calendar)|sed -e 's/:.*//')|grep calendar
+_____________________________________________
+
+En cr=C3=A9ant le fichier /etc/calendar/default et un y mettant cette ligne=
+ :
+#include "/usr/share/calendar/calendar.all"
+=C3=A7a fonctionne, cependant j'ai ceci :
+nov. 27         N'oubliez pas les Maxime !
+nov. 27         =C3=90=C3=90=C2=B5=C3=90=C2=B6=C3=90=C5=BD=C3=91=C3=90=C5=
+=93=C3=90=C2=B0=C3=91=C3=90=C5=B8=C3=90=C5=BD=C3=90=C5=93=C3=91=C3=90=C2=B9=
+ =C3=90=C5=BD=C3=90=C2=B5=C3=90=C5=93=C3=91 =C3=91=C3=90=C2=B5=C3=90=C2=B0=
+=C3=91=C3=91=C3=90=C2=B0
+
+Des hi=C3=A9roglyphes =C3=A0 la seconde ligne ? :
+probl=C3=A8me de "locales" ou calendar tente d'afficher des caract=C3=A8res
+de langues cyrilliques ou d'id=C3=A9ogrammes=3Dcalendar.all.
+En mettant "calendar.french" j'ai moins de lignes
+uniquement en fran=C3=A7ais et sans hi=C3=A9roglyphes.
+
+Andr=C3=A9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211272037.05352.andre_debian@numericable.fr
+

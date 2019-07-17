@@ -1,0 +1,22 @@
+Subject:=?ISO-8859-1?Q?Baja_duraci=F3n_de_la_bater=EDa?=
+Hola a todos de nuevo, sigo con mis aventuras configurando Debian en
+mi port=E1til.
+
+Ahora vengo con el problema que la bater=EDa me dura dos horas o menos,
+aunque solo haga uso del navegador, por ejemplo. Tengo escalado de
+frecuencia, laptop-mode-tools, he quitado bastantes servicios de
+ejecuci=F3n al inicio, bajo el brillo... Pero la duraci=F3n no mejora
+
+Me gustar=EDa que me ayudaseis con esto, porque es un poco molesto.
+
+El port=E1til es un Acer 5750g, con Debian Squeeze, Gnome, Kernel 3.2.0
+(para que funcione el brillo y la suspensi=F3n).
+
+Un saludo y gracias de antemano
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8RV3oE3pspXytbDaB-zCNo49G0BF=h87EWM6-Tnv+V=+g@mail.gmail.com
+

@@ -1,0 +1,40 @@
+Subject:[HS]Re: alltray et cie
+Bonjour, Bonsoir,=20
+
+En Mode Hors sujet
+
+Le Tue, 06 Nov 2012 10:29:25 +0100, Bruno Richard, vous avez =E9crit :
+
+> bonjour =E0 tous,
+>=20
+> je g=E8re un certain nombre de serveurs et j'aime bien surveiller leur=20
+> charge avec xload : [...] devient vite compliqu=E9
+> d=E8s qu'on a plusieurs xload de lanc=E9s.
+> Avez vous des solutions ?
+
+Je ne sais pas quel pr=E9cision vous souhaitez pour conna=EEtre la charge :
+ - secondes
+ - minutes
+ - 5 minutes
+Si la r=E9ponse est proche de 5 minutes : c'est le travail d'outils de
+supervision (munin, xymon, nagios,  ...), en plus il historisent
+(graphs)
+
+Sinon pour en revenir au sujet le man xload propose de dialoguer avec
+un autre host, mais il semble que l'ajout d'un "rwhod" semble
+n=E9cessaire sur localhost et la machine distante.
+
+
+--
+Cordialement=20
+Gr=E9gory BULOT
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121106191315.45da157a@roland.bulot-fr.com
+

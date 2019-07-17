@@ -1,0 +1,30 @@
+Subject:Re: qt3 in wheezy options to install it
+2012/11/6 Alban Peignier <alban@tryphon.eu>:
+> On 11/05/2012 09:39 PM, Karol Szkudlarek wrote:
+>
+>> In near future I would like install on my machines wheezy and I know
+>> that old qt3 libraries are removed (as obsolete)
+>> But in my commercial work we still use qt-3 so  I would like to know
+>> how can I install it instead of plain
+>> compiling from sources (last option).
+>
+> Hi all,
+>
+> We experienced the same problem with some of our debian packages. We
+> used the latest qt3 source to build packages for wheezy and sid.
+>
+> Git repository, sources and binary packages are available.
+>
+> See our blog post for details :
+> http://projects.tryphon.priv/blog/2012/10/12/qt3-backport-for-debian-wheezy-and-sid/
+>
+
+
+Thanks for info, unfortunately the above link doesn't work.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+1EyU5CHMCm7KNXpLw5-adQ8HZfc6OTBKz6oX4mS1NO+QeBLg@mail.gmail.com
+

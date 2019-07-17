@@ -1,0 +1,29 @@
+Subject:Re: dns+mrtg
+El Sat, 03 Nov 2012 16:59:34 -0500, maikel.manuel escribió:
+
+> Estoy tratando de graficar las consultas de mi dns hacia mrtg.  esto es
+> lo que he echo hasta ahora y no veo resultado a ver si me ayudan tengo
+> un scrip creado en /etc/mrtg/dns.pl con esto dentro:
+
+(...)
+
+Ni idea :-? pero quizá te puedan servir estas dos páginas con ejemplos para los
+scripts en perl y bash:
+
+http://ivanwong.homeip.net:8080/linux003.htm
+https://blog.tuinslak.org/bind-mrtg-stats
+
+Si no tienes acceso a los enlaces y te interesan, me dices y te los mando por
+correo electrónico.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7690f$7if$4@ger.gmane.org
+

@@ -1,0 +1,18 @@
+Subject:Re: [Koha] Amazon API Changes (again)
+On 15 November 2012 01:33, Nicole Engard <nengard@gmail.com> wrote:
+> Does anyone know how this might effect Koha and the use of Amazon content?
+> I don't know how the code works or what API we're using.
+
+I think after the patch on
+http://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=8679 got
+pushed we are only using the images from Amazon, which is a matter of
+constructing URLs to the images? Not sure if using the images would be
+affected by these changes, though.
+
+Best regards,
+Magnus Enger
+libriotech.no
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

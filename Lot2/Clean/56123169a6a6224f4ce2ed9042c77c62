@@ -1,0 +1,52 @@
+Subject:Re: Latence autofs+sshfs
+En fait effectivement si je monte avec sshfs je n'ai pas de soucis.
+Le pb vient de la combinaison autofs+sshfs. On a l 'impression que
+autofs mets du temps à se rendre compte qu'on est rentré dans le
+répertoire...
+C'est exactement la situation du lien que j'ai posté: la première fois
+rien ne se passe, la seconde autofs s'est enfin rendu compte qu'on
+rentrait dans ce répertoire.
+
+
+On Fri, Sep 14, 2012 at 06:35:29PM +0200, Bzzz wrote:
+> On Fri, 14 Sep 2012 18:08:37 +0200
+> Fabien LUCE <ftg@lutix.org> wrote:
+> 
+> > http://serverfault.com/questions/198772/unable-to-access-files-through-autofs-on-first-attempt-only-afterwards
+> > exactement le même pronbleme.
+> 
+> Aucun PB ici, client=squeeze+bpo & server=sid
+> Ligne de Cde de test:
+>    sshfs user1@server:/VD/vwx/en /home/user1/VD -C -o cache_timeout=2
+> 
+> ls ~/VD répond instantanément.
+> 
+> -- 
+> * Le Zoophile est entré sur le chan.
+> * pti_hamster92 a quitté le chan.
+> 
+> --
+> Lisez la FAQ de la liste avant de poser une question :
+> http://wiki.debian.org/fr/FrenchLists
+> 
+> Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+> vers debian-user-french-REQUEST@lists.debian.org
+> En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+> Archive: http://lists.debian.org/20120914183529.62cbf86f@anubis.defcon1
+> 
+
+-- 
+Fabien LUCE
+Jabber ID: ftg@lutix.org
+Identi.ca: http://identi.ca/ftg
+Web: www.lutix.org
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120915074304.GD5434@serveur.lutix.org
+

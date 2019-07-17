@@ -1,0 +1,21 @@
+Subject:Re: How long before a package shows in NEW?
+On 4 September 2012 11:13, Alberto Gonzalez Iniesta <agi@inittab.org> wrote:
+> Hi,
+>
+> I uploaded modsecurity-apache to backports-master yesterday but it does
+> not appear in NEW. Did I FAIL the upload or does it take some time to
+> show on the page?
+>
+
+http://lists.debian.org/debian-backports-changes/2012/09/msg00003.html
+
+Regards,
+
+Dmitrijs.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CANBHLUhpiNxbHJOqiyBXUaO98EE9eKAy3jq4+jXs7YuHw3BDUQ@mail.gmail.com
+

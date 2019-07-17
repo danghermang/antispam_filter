@@ -1,0 +1,72 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+El 23/09/12 19:21, Camaleón escribió:
+> El Sun, 23 Sep 2012 17:30:05 +0200, Juan Antonio escribió:
+> 
+>> El 23/09/12 16:00, Camaleón escribió:
+> 
+> (...)
+> 
+>>>> con mkinitramfs tu generas una imagen rd para cualquier kernel, tanto
+>>>> de repo como compilado a mano, y configuras ciertos "ganchos" que
+>>>> soportan determinados sistemas y cargan ciertos módulos.
+>>>
+>>> No sé, no me termina de quedar claro.
+>>>
+>>> Los archivo "initrd" que se generan por cada kernel instalado en el
+>>> sistema se modifican sólo si ha habido cambios en la imagen del kernel
+>>> (que es lo que sucede con los paquetes "linux-image-*" que proporciona
+>>> Debian cuando existe una actualización, bien sea de seguridad -para la
+>>> versión estable- o en testing).
+>>>
+>>> Pero el resto de archivos intrd (los que han sido generados tras una
+>>> compilación manual del kernel) no se modifican (o no se deberían
+>>> alterar) salvo que se vuelva a ejecutar manualmente el comando (p ej.,
+>>> tras volver a compilar el kernel con cambios en archivo de
+>>> configuración).
+>>>
+>>>
+>> asi es, yo daba por hecho que él generaba las imágenes de nuevo por
+>> algún motivo, quiza al compilar una nueva versión del kernel o por
+>> añadir alguna opción nueva.
+> 
+> (...)
+> 
+> Vale, ya sé lo que ha pasado (si es que no hay nada como leer :-P)
+> 
+> No se trata del paquete initramfs-tools ni del initrd, el problema es del 
+> paquete "udev" que desde la versión 175-4 (como indican en el bug que 
+> mencionaba Ángel) ha dejado de intentar cargar el módulo "unix.ko" 
+> externamente para solucionar ese mensaje de error tan feo que aparecía 
+> nada más iniciar el sistema. 
+> 
+> Este cambio lo indican en el changelog:
+> 
+> udev (175-4) unstable; urgency=low
+> 
+> * Stop trying to load the unix module in the initramfs hook.
+> (Closes: #654282)
+> 
+> Moraleja: cuando se vaya a compilar un kernel "vanilla" manualmente y 
+> para evitar problemas con los paquetes que se incluyen en Debian, 
+> conviene usar la opción de "localmodconfig" que toma los valores del 
+> archivo de configuración del kernel de Debian y además añade todos los 
+> módulos que se encuentren cargados en el momento de la compilación.
+> 
+> Saludos,
+> 
+
+
+si, él ya mencionó ese bug en otro correo, aunque con otro
+identificador, y yo para variar lo malentendí y lo interpreté de otra forma.
+
+-- 
+"Tanto en los deportes como en todo lo demás, soy un experto. Pero para
+mantener viva mi inteligencia natural y fuera de serie, tengo que comer
+mucho"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505F4AF9.9050003@limbo.deathwing.net
+

@@ -1,0 +1,25 @@
+Subject:Re: [testing] webcam Philips SPC1300NC et micro
+Le mardi 06 novembre 2012 à 02:31 +0100, Gaëtan PERRIER a écrit :
+> Il me propose deux types d'entrées:
+> - stéréo analogique input (bizarre pour une webcam en usb, non ?),
+
+non, sur la carte externe ça peut très bien être analogique, l'usb est
+un Universal Serial BUS 
+
+Noter le terme Bus, dont la définition sur Wikipedia est :
+« In computer architecture, a bus is a subsystem that transfers data
+between components inside a computer, or between computers. »
+
+Ok, dans le cas de l'USB, c'est très ambigu ;)
+https://en.wikipedia.org/wiki/Bus_(computing)#Implementation_details
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1352341925.4735.32.camel@azuki.jisui
+

@@ -1,0 +1,18 @@
+Subject:postgresql-9.2 in squeeze-backports(-sloppy)
+Hello,
+
+is there any time schedule for postgresql-9.2 in
+squeeze-backports(-sloppy)?
+
+PostgreSQL 9.2 has some really impressive features which we want to use
+as soon as possible: http://www.postgresql.org/about/news/1415/
+
+regards,
+-arsen
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120925084157.GD3738@univie.ac.at
+

@@ -1,0 +1,52 @@
+Subject:No aparece el selector remoto XDMCP
+Hola,
+tengo configurados 2 equipos con Debian Wheezy en la misma red y deseo
+poder iniciar sesi=C3=B3n remota desde uno de ellos hacia el otro,
+utilizando XDMCP.
+
+A uno de ellos, le he modificado el archivo /etc/gdm3/daemon.conf,
+alterando la secci=C3=B3n [xdmcp] de la siguiente forma:
+
+[xdmcp]
+Enable =3D true
+HonorIndirect =3D false
+
+Desde el otro equipo, realizo una prueba de conexi=C3=B3n con Xephyr desde
+una terminal con un usuario ya iniciado:
+
+Xephyr :1 -query 192.168.0.10 -screen 1024x768
+
+Se abre una ventana con la lista de usuarios de esa m=C3=A1quina para
+escoger uno e iniciar la sesi=C3=B3n de manera correcta
+
+El problema que tengo, es que deseo acceder a realizar login, sin
+iniciar una sesi=C3=B3n de X con un usuario local del cliente y no veo
+ninguna opci=C3=B3n que muestre la posibilidad de buscar servidores en la
+red ni tan siquiera parece detectarlos.
+
+He consultado este documento:
+
+http://library.gnome.org/admin/gdm/stable/configuration.html.en#xdmcpsectio=
+n
+
+y he probado diferentes opciones, pero el inicio de sesi=C3=B3n siempre me
+muestra la lista local de usuarios y no la del equipo remoto. Tampoco
+me da la opci=C3=B3n de buscar equipos, como se pod=C3=ADa hacer con versio=
+nes
+anteriores de GDM.
+
+Buscando por ah=C3=AD he encontrado algunos documentos que no son
+aplicables a esta versi=C3=B3n de GDM que trae Wheezy, por lo que tampoco
+me sirven, ya que modifican secciones que no existen.
+
+Agradezco cualquier ayuda que me puedan prestar.
+
+Un saludo,
+Javier Silva.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAOg_h5bHfBZS0Q=p0PH3F=kQpXPYP76RHbx_RD1kqfgXxjWaFw@mail.gmail.com
+

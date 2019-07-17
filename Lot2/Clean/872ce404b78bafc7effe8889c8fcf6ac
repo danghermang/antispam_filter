@@ -1,0 +1,27 @@
+Subject:[routing-wg] RPKI - LACNIC TAL key rollover
+Folks,
+
+On Thursday, November 29, 2012 LACNIC will be performing a system
+migration to a new release of the RPKI system. We will take the
+opportunity to also perform a key rollover of LACNIC's RPKI trust
+anchor. The new TAL (trust anchor locator) file can be downloaded from
+[1]. Also a ready-to-use configuration file for RIPE-NCC's Validation
+Application is available at [2].
+
+Both the certificate and repository this TAL points to are already
+active, but the main repository material (resource CAs and ROAs) will be
+migrated on the same date at 14.00 UTC. All relying-party operators are
+encouraged to download the TAL file and add it to their validation tool
+configuration before that time in order to maintain continuity of
+validation.
+
+[1] https://rpki.lacnic.net/tal/lacnic-201212.tal
+[2] https://rpki.lacnic.net/tal/lacnic-ripeval-201212.tal
+
+If you have any questions please do not hesitate to contact us at
+rpki-admin@lacnic.net
+
+Warm regards,
+
+Carlos
+

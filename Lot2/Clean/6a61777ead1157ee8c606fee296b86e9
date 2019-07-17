@@ -1,0 +1,132 @@
+Subject:=?utf-8?q?=5BR=C3=A9solu_et_HS=5D_Connexion_ssh_=3A_timed?= out
+Le mercredi 31 octobre 2012 16:57:12, Jean-Luc Bassereau a écrit :
+> Le Wed, 31 Oct 2012 14:04:50 +0100
+> 
+> "Eddy F." <edfnet-deb@yahoo.fr> a écrit :
+> > Le mercredi 31 octobre 2012 13:32:58, Sébastien NOBILI a écrit :
+> > > Bonjour,
+> > > 
+> > > Le mercredi 31 octobre 2012 à 13:17, Eddy F. a écrit :
+> > > > Avez-vous un avis sur ma configuration ? Merci
+> > > 
+> > > Elle me paraît pas mal…
+> > > 
+> > > As-tu configuré le NAT sur ton modem ?
+> > > 
+> > > As-tu des règles de filtrage iptables sur ta machine ?
+> > > 
+> > > Seb
+> > 
+> > Merci.
+> > 
+> > En ce qui concerne le modem, il me semble que j'ai tout essayé.
+> > J'ai effectivement configuré le nat pour rediriger le port 22 TCP
+> > vers la machine locale (qui reçoit une adresse IP locale
+> > statique du serveur DHCP).
+> > 
+> > J'ai aussi essayé de diminuer les règles de pare-feu du modem
+> > pour laisser tout passer et j'ai même été mettre ma machine
+> > locale (momentanément) dans la DMZ. Rien !
+> > 
+> > Je n'ai pas configuré iptables sur ma debian :
+> > 	iptables -L
+> > 
+> > donne
+> > 
+> > Chain INPUT (policy ACCEPT)
+> > target     prot opt source               destination
+> > 
+> > Chain FORWARD (policy ACCEPT)
+> > target     prot opt source               destination
+> > 
+> > Chain OUTPUT (policy ACCEPT)
+> > target     prot opt source               destination
+> > 
+> > Enfin, si j'utilise un site tel que
+> > https://grc.com/x/ne.dll?bh0bkyd2, il me confirme que mon port
+> > 22 est ouvert.
+> > 
+> > Le modem est la BBox 2 de Belgacom (un Sagem F@st3464 adapté à la
+> > sauce Belgacom, je pense).
+> > 
+> > Bon, ok, si la configuration de mon serveur ssh n'a rien
+> > d'anormal, je vais continuer à chercher dans ce foutu modem. Si
+> > quelqu'un le connaît et peut m'aider, qu'il ne se prive pas même
+> > si cela sera hors sujet par rapport à la liste.
+> 
+> Comme vu avec toi en PV, j'ai testé de chez moi et cela fonctionne
+> parfaitement, la connexion SSH passe bien et le password m'est
+> demandé. Je suppose donc que le problème est au niveau de ton
+> client.
+
+Merci beaucoup Jean-Luc pour ton aide.
+Merci aussi aux autres contributeurs qui m'ont permis d'avancer.
+
+C'est formidable de demander de l'aide pour vérifier une config Debian, 
+de dire que l'on va donc chercher ailleurs puisque le problème n'est 
+pas là et que l'on va très certainement se retrouver hors sujet) et de 
+recevoir malgré cela autant d'aide, y compris des propositions d'aide 
+en privé (merci Bzzz). Je n'en demandais pas tant mais j'ai vraiment 
+apprécié.
+
+Bon, pour le problème en question :
+
+- ce n'était pas la configuration du serveur : Sébastien l'avait 
+confirmé et Jean-Luc l'a testée ;
+
+- le test de Jean-Luc confirme aussi qu'il n'y a pas de problème de 
+configuration réseau où le serveur est connecté ;
+
+- les tests étant réalisés avec deux clients différents sur deux 
+machines différentes (openssh-client sur une wheezy à jour et 
+ConnectBot sur un smartphone android) ont quand même tendance à 
+disculper les clients.
+
+Alors où est le problème ?
+
+J'ai réessayé à partir des deux mêmes clients via deux autres 
+connexions : la 3G de mon téléphone et le modem d'un ami. Dans les 
+deux cas, pas de problème.
+
+Je suis retourné chez le voisin d'où je faisais mes tests initiaux : 
+rebelotte ! Connection timed out ou refused (mais l'un ou l'autre 
+selon la configuration de *mon* modem côté serveur - vous suivez ?). 
+Allez comprendre.
+
+J'ai bien proposé au voisin de chercher dans la configuration de son 
+modem la cause de son problème mais comme cela ne l'intéresse pas 
+vraiment (il n'en a pas besoin), je laisse tomber.
+
+Quand à mon modem, la seule configuration du nat (voir autre message) 
+suffit. Il peut garder son parefeu en état normal et il n'y a - 
+heureusement - aucun besoin de mettre le serveur dans la DMZ.
+
+Enfin côté serveur, je confirme que la connexion fonctionne avec des 
+fichiers /etc/hosts.allow|deny vides. Elle fonctionne aussi avec mes 
+fichiers habituels :
+
+cat /etc/hosts.allow
+ALL: localhost
+ALL: 192.168.1.*
+#sshd: ALL
+
+cat /etc/hosts.deny
+ALL: ALL
+
+où je décommente la ligne sshd quand j'en ai besoin.
+
+-- 
+E. Flas
+~~~ Citation aléatoire ~~~
+The most incomprehensible fact about the universe is that it is
+comprehensible. (A. Einstein)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211011652.26176.flas.csfa@gmail.com
+

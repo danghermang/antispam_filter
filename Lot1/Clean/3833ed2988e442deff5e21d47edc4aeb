@@ -1,0 +1,95 @@
+Subject:Re: Problema activando swap desde el inicio
+El d=C3=ADa 27 de noviembre de 2012 00:06, frederit mogollon
+<frederitmogollon@gmail.com> escribi=C3=B3:
+> Buenas tardes, otra vez por aqu=C3=AD, un saludo cordial a todos los que
+> dan vida a esta prodigiosa lista...
+>
+> Tengo una duda que no he podido resolver, tal vez es algo que me he
+> pasado por alto.
+>
+> Estoy con un desktop de mi laboratorio de investigaci=C3=B3n, tiene
+> instalado Windows XP con 2 particiones (C y D) en un s=C3=B3lo disco de 4=
+0
+> GB. Como contiene datos sensibles de varios usuarios dej=C3=A9 =C3=A9ste =
+sistema
+> instalado.
+> A la m=C3=A1quina le mont=C3=A9 otro disco duro de 10 GB donde instal=C3=
+=A9 un Debian
+> 6 m=C3=ADnimo con el punto de montaje /  en una partici=C3=B3n de 4. 7 GB=
+ y
+> /home en otra partici=C3=B3n de 4,88 GB. Para usar todo el espacio
+> disponible, la swap la mont=C3=A9 en una tercera partici=C3=B3n primaria =
+que la
+> met=C3=AD en el disco de 40 GB.
+> El problema es que al arrancar el sistema, la swap no se activa en el
+> inicio, y debo montarla manualmente por terminal o con GParted, y ya
+> estoy cansado de eso.
+>
+> En resumen:
+>
+> Primer HD (40 GB):
+> /dev/sda1   fat32           Windows XP (C)    27.95 GB
+> /dev/sdc1   ntfs             Windows XP (D)     9.22 GB
+> /dev/sdc2   linux-swap      swap                  2.01 GB
+>
+> Segundo HD (10 GB):
+> /dev/sdb1   ext4            /                           4.66 GB
+> /dev/sdb2   ext4            /home                   4.88 GB
+>
+>
+> La orden "cat /etc/fstab" me arroja esto:
+>
+> # / was on /dev/sdb1 during installation
+> UUID=3D1c6828d1-f750-42a6-9497-7578167eb9b2 / ext4 errors=3Dremount-ro 0 =
+   1
+> # /home was on /dev/sdb2 during installation
+> UUID=3D11d3c73b-3061-4d0e-a9a0-abcc7a188ffc  /home ext4 defaults       0 =
+   2
+> # swap was on /dev/sdc2 during installation
+> UUID=3D8b66-7725-4580-4db3-a2fb-1fa01274c38a  swap   swap defaults    0  =
+  0
+
+El guion este (8b66-7725). Has probado a quitarlo?
+
+De todas maneras yo prefiero mirar el uuid con un simple ls -l /dev/disk/by=
+-uuid
+
+> /dev/scd0       /media/cdrom0   udf,iso9660 user,noauto     0       0
+> /dev/fd0        /media/floppy0  auto    rw,user,noauto  0       0
+>
+>
+> La salida del comando "blkid" me dice:
+>
+> /dev/sda1: UUID=3D"3463-438F" TYPE=3D"vfat"
+> /dev/sdc1: LABEL=3D"Disco local" UUID=3D"1695858E18782B64" TYPE=3D"ntfs"
+> /dev/sdb1: LABEL=3D"Debian-GNU/Linux"
+> UUID=3D"1c6828d1-f750-42a6-9497-7578167eb9b2" TYPE=3D"ext4"
+> /dev/sdb2: LABEL=3D"Debian-home"
+> UUID=3D"11d3c73b-3061-4d0e-a9a0-abcc7a188ffc" TYPE=3D"ext4"
+> /dev/sdc2: LABEL=3D"Intercambio"
+> UUID=3D"8b667725-4580-4db3-a2fb-1fa01274c38a" TYPE=3D"swap"
+>
+>
+> El comando "free -m" me arroja:
+>
+>                total       used       free     shared    buffers     cach=
+ed
+> Mem:        502        474         27          0         2      134
+> -/+ buffers/cache:     318        183
+> Swap:           0          0          0
+>
+>
+>
+> GParted me da la opci=C3=B3n de "activar la swap", es decir, que no fue
+> activada desde el inicio.
+>
+>
+> Gracias por adelantado quien pueda ayudarme a vislumbrar una soluci=C3=B3=
+n.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+FbNVgP6VfC1xWHanzgQX1O=+fEY8RyVjD8ws7yuJipAsEyzw@mail.gmail.com
+

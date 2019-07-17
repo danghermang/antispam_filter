@@ -1,0 +1,119 @@
+Subject:Re: Problema instalando paquetes en Debian 6 64bits
+El 28/09/12 11:26, Leosbel Rojas escribió:
+> buenos días, estoy usando Debian 6 pero 64 bits, cada vez que intento
+> instalar un paquete, cualquiera que este sea me da el siguiente error.
+>
+> Do you want to continue [Y/n]? Y
+> Reading changelogs... Done
+> Preconfiguring packages ...
+> dpkg: parse error, in file '/var/lib/dpkg/available' near line 615800:
+> field name `Package2' must be followed by colon
+> E: Sub-process /usr/bin/dpkg returned an error code (2)
+>
+> Les agradeceria cualquier ayuda que me pudieran brindar.
+>
+> Atte, Leosbel
+>
+
+
+Fijate si esto te sirve. No es exactamente lo mismo, pero te puede dar 
+una punta de ovillo.
+
+
+
+
+Re: Problemas al actualizar wheezy [SOLUCIONADO]
+
+     To: debian-user-spanish@lists.debian.org
+     Subject: Re: Problemas al actualizar wheezy [SOLUCIONADO]
+     From: Debian GMail <javier.debian.bb.ar@gmail.com>
+     Date: Tue, 03 Jul 2012 16:08:52 -0300
+     Message-id: <4FF34344.9010505@gmail.com>
+     Reply-to: debian-user-spanish@lists.debian.org
+     In-reply-to: <jsusvs$q1u$6@dough.gmane.org>
+     References: <4FF2D8E5.9060206@gmail.com> <jsusvs$q1u$6@dough.gmane.org>
+
+El 03/07/12 10:44, Camaleón escribió:
+
+     El Tue, 03 Jul 2012 08:35:01 -0300, Debian GMail escribió:
+
+
+         Desde hace un par de días, cuando se congeló wheezy, me quedé 
+con el
+         sistema sistema sin poder actualizar, pues dos paquetes tienen
+         problemas, y me impiden actualizar el resto.
+
+     (...)
+
+
+         disco adicional después de esta operación. Configurando util-linux
+         (2.20.1-5) ... insserv: warning: script 'K01smfpd' missing LSB 
+tags and
+         overrides insserv: warning: script 'smfpd' missing LSB tags and
+         overrides insserv: Starting smfpd depends on rmnologin and 
+therefore on
+         system facility `$all' which can not be true!
+
+     (...)
+
+         insserv:  loop involving service mountall-bootclean at depth 1 
+insserv:
+         exiting now without changing boot order! update-rc.d: error: 
+insserv
+         rejected the script header dpkg: error al procesar
+         keyboard-configuration (--configure):
+            el subproceso instalado el script post-installation devolvió 
+el código
+         de salida de error 1
+         Se encontraron errores al procesar:
+            util-linux
+            keyboard-configuration
+
+     (...)
+
+     Mira a ver si lo que comentan aquí te sirve:
+
+     http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=589238
+
+     EL bug es antiguo pero el error parece el mismo.
+
+     Saludos,
+
+
+Nuevamente, como ya es costumbre, lo que Camaleón dijo es lo correcto.
+Es un "bug" que se pega en el script /etc/init.d/smfpd
+
+La solución en editar dicho script, y adicionar las líneas que indica el 
+reporte
+
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=589238
+que se aclaran en
+http://wiki.debian.org/LSBInitScripts
+
+Se debe pegar esto
+
+     ### BEGIN INIT INFO
+     # Provides:          smfpd
+     # Required-Start:    $remote_fs $syslog
+     # Required-Stop:     $remote_fs $syslog
+     # Default-Start:     2 3 4 5
+     # Default-Stop:      0 1 6
+     # Short-Description: Start daemon at boot time
+     # Description:       Enable service provided by daemon.
+     ### END INIT INFO
+
+antes de la línea que empieza con
+
+     SMFPD=/usr/sbin/smfpd
+
+Muchas gracias otra vez.
+
+JAP
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5065C333.5070001@gmail.com
+

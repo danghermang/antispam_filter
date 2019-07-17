@@ -1,0 +1,194 @@
+Subject:Re: [MG] [Ag Meinungsfindungstool] Requirements in regard to split
+ opinion formation
+@ Michael Allan:
+> Slash said:
+>> 2. Rating will definitifely play a central role within most of the
+>> opinion forming tool plug-ins.  Every argument or key aspect
+>> statement could need a rating...
+> I agree that such evaluations are also important.  But you see my
+> mistake I hope, and understand I'm speaking of something else.
+
+I don't think you are speaking of something else, Mike. Rating each 
+others positions/statements is part of what Votorola does. And it is 
+part of the expression of my own opinion.
+
+@ Slash:
+
+> Basically it's worth it a try and everyone can and is supposed to do what
+> he wants. My personal view, however, is, that it would be more real
+> transparent, if the end results of such developments were stressed.
+> The way up to these end results often contains information, which
+> consist of mistaken assumptions and so are practically 'noise'.
+
+Slash, you must be misunderstanding Mike. In his wording the 
+developments which lead to the end results would be the discussion which 
+leads to consensus. And I know, you don't see the discussion as noise.
+
+@ Marc:
+> Michael Allan wrote
+>
+>> How do you guys feel about opinion expression, as I describe it?
+>> (Myself, again, I feel it's very important to reveal the shape of
+>> opinion as it develops.  And I think active, continuous expression is 
+>> the best approach ...
+>
+> Opinion formation - as you described it - is a process over one's 
+> mind, right?
+> What about groups? Do they have a collective opinion formation process 
+> also?
+
+Yes. Mike is describing that too. Votorola is a tool, where everybody 
+can express his opinion and form groups with others and express their 
+common opinion. In a way you could say: the whole use of expressing your 
+opinion is to reach others, discuss with them and find a common opinion.
+
+> IMHO the most relevant part is to compare different opinions with 
+> eachother. The discussion should evolve from a infinite amount of 
+> opinions into just some variations. Therfore group building processes 
+> might be fundamental to reach consensus.
+
+Exactly!
+
+> the basics needs to be reflected somehow in the domain model 
+> standardization. But the details are to be handled by the plug-ins or 
+> individual implementations. So I think that can be addressed by
+>
+> participant has opinion
+> group consits of participants
+> group has position
+
+I agree.
+
+We are talking about the same and we have the same goal, believe it or 
+not. :-)
+
+Thomas
+
+
+>
+> Again, I'm interested in the views of anyone in the group.  What do
+> you think of this notion of opinion expression?  Is it good, bad or
+> just plain ugly?  ;^)
+>
+> Michael
+>
+>
+> marc said:
+>> Michael Allan wrote:
+>>> Marc said:
+>>>> Yes, that's what our working group tries to establish. ...  And even
+>>>> more, if the user starts with T1 and then recognizes that T2 fits
+>>>> better to his needs, than he can just switch over to T2, if T2
+>>>> provides a migration path to the Common Business Entity Model (CBEM)
+>>>> ;o)
+>>> Okay, sounds good.  So let's assume that both T1 and T2 are compliant
+>>> plug-ins (i.e compliant with S).  This means the user can easily
+>>> switch back and forth.  This is the ideal, I agree.
+>>> Now suppose T1 and T2 are voting tools.  There are different kinds of
+>>> tools, of course, each with its own competing instances.  But I want
+>>> to look specifically at voting tools.  I see that voting is part of
+>>> the model under the category of "assessment", if I understand.
+>> Hmm, I'm not sure if we missed the point here. Voting in the sense of 'to
+>> make a decision' is not part of the Descussion System we are talking about.
+>> It's part of the Decision System.
+>>
+>>> http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg
+>>> (I opened a separate thread to discuss model details)
+>> It's more about Rating (as I tried to clarify on the other thread) and
+>> forming one's opinion.
+>>
+>>> Suppose further that these two voting tools (T1 and T2) are designed
+>>> to reveal and express the shape of opinion (M) as it forms.  Whenever
+>>> a user wants to know the general pattern of consensus and dissensus,
+>>> or related details, he/she can pick up his favourite voting tool (say
+>>> T2) and read the information from it.
+>>> How do you feel about this?  Are you comfortable with voting being
+>>> used for this purpose?  (Myself, I feel it's very important to reveal
+>>> the shape of opinion as it emerges.  And I think active, continuous
+>>> voting is generally the best approach for this.)
+>> Yes. If we can agree on 'VOTING' to be read as 'RATING'.
+>>
+>>> How do others in the group feel?  I wish I could ask my question in
+>>> German, because I'm interested in hearing the views of anyone who
+>>> wants to speak.
+>> The working group has consensus about the trisection of the tool based
+>> process of decision-making into Information, Discussion and Decision System.
+>>
+>> Therefore I think the working group member all agree on 'VOTING' to be
+>> located in the Decision System and 'RATING' to be located in the 'Discussion
+>> System'. This is because we want to distinguish between the more formal
+>> process of decision, that needs to be conform with legal law, and the
+>> process of discussion that is free of all juridical rules.
+>>
+>>
+>> Even if it is very hard for me to find the right words in english, I
+>> appreciate our discussion!
+>>
+>> Hope you are lenient toward me ;o)
+>>
+>> Cheers
+>> Marc
+>
+> Slash said:
+>> I have to make it short, because it's late:
+>>
+>> 2 Points:
+>> 1. The use of the discussion system is not only to form oneself's opinion,
+>> but also and especially to form the group's opinion and making this totally
+>> visible.
+>> 2. Rating will definitifely play a central role within most of the opinion
+>> forming tool plug-ins. Every argument or key aspect statement could
+>> need a rating... The tricky thing is this:
+>> There are different rating types.
+>> There will be plug-in's only with thumb up and down for the whole
+>> argument/key aspect statement/etc. ... and there will be plug-ins
+>> with a more sophisticated approach where you rate an argument
+>> in three different aspects (importance, correctness,
+>> easy-to-understanding, just for instance).
+>> And I fear, that plug-in's with 2 different rating types won't be able
+>> to share their rating data, because they're producing totally different
+>> types of rating data.
+>> And I think that this example gives a good insight in the difficulties of
+>> this approach of the whole rudimentary discussion-system with it's
+>> plug-ins. The more rudimentary similarities a plug-in has with the
+>> rest of the discussion platform, the more it benefits from the platform.
+>> So totally freaky unique plug-in approaches, making everything
+>> fundamentally different than anyone else ever thought of before,
+>> will have the least benefit of the plattform.
+>> But on the other hand, of course, it's important to have diversity and
+>> differences, because after all, this platform is about testing out
+>> different approaches ;) ...
+>> it's meant to be an ideal development environment for developers and a
+>> handy tool for the community at the same time. It is supposed to be
+>> useful for everyone right from the start and be the most efficient,
+>> shortest
+>> way to make progress developing higher, more optimal forms of
+>> a discussion system.
+>>
+>> Just one detail - world premier, never uttered before ! :D
+>> At the bottom of the discussion system site should be a feedback
+>> area, which is nicely designed and collects feedback of the community
+>> for the different plug-ins with a smart system, so that the people
+>> really think through their decissions... maybe by only making it
+>> possible for them to give 3 points as a whole for all listed suggestions
+>> for
+>> improvement regarding a plug-in, so that they can't and won't vote for
+>> all suggestions, but only the currently most important for them...
+>> well, and from there the feedback goes to the developers, so that they
+>> always see, what improvement the community currently wants to be
+>> applied the most...
+>>
+>> I like the thought of designing the discussion system so, that it is strong
+>> where LQFB is weak; and a lively feedbeck system, which is practically
+>> considered by the developers, definetively would be one point to reach
+>> this.
+>>
+>> Greeting,
+>> / aka Oliver
+
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

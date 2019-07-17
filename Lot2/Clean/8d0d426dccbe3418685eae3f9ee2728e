@@ -1,0 +1,34 @@
+Subject:Re: [LUG] Linux - and security
+On 03/11/12 20:09, Martijn Grooten wrote:
+> On Sat, Nov 3, 2012 at 7:02 PM, Simon Avery wrote:
+>> Anyone else remember Macafee being caught
+>> paying virus writers to give them the source a few days ahead of new viruses
+>> being released into the wild?
+> This is simply not true.
+>
+> (In fact, I've worked in IT security long enough to at least have
+> known it if such a rumour were spreading. I had never heard of it.)
+>
+> As for running AV on Linux: as others have said, you're unlikely to
+> really need it. But beware that most vulnerabilities used in
+> drive-by-download attacks are platform independent; it'd be easy for
+> the bad guys to add. So at least make sure your browser and it's
+> plugins are up-to date. Except for Java, that shouldn't be running in
+> a browser at all. (If you really need it, use a secondary browser for
+> it. Or enable it only when you're going to need it.)
+>
+> Martijn.
+>
+I normally run an AV as I get a lot of mail and so get a lot of win 
+viruses that are passing around. At least I know not to forward those 
+ones on and make things worse for the lcc (lower computer classes). On 
+the odd occasion I take a look in the quarantine and check out a virus 
+or too.
+All I can say is there is some advantage to not teaching computing as 
+thoroughly as they could.
+Tom te tom te tom
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

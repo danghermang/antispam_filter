@@ -1,0 +1,67 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Alan,
+
+You're just not getting it.
+
+Your own numbers showed that the SAME power is extracted with and without 
+the ferrite.
+
+Everyone else agrees with this.
+
+--Kirk
+
+-----Original Message----- 
+From: boswell alan
+Sent: Wednesday, October 24, 2012 1:48 PM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] Ferrite Antennas
+
+Kirk
+
+Just look at the two cases I calculated and you will see the presence
+of the ferrite increases the power extracted by a large factor.  It's
+fairly obvious, if you don't believe it, try an experiment, if you
+don't want to do that, look at any transistor radio :).  But please do
+anything rather than just sit there and argue, it's merely destructive
+:).
+
+I understand you are new to noise in radio systems so this is a
+situation where you can learn something instead of arguing :).  In the
+situation we are discussing we must concentrate only on noise in the
+receiver, the incoming noise from outside the receiver is a good 40 dB
+less than the incoming signal so can be neglected, you are off on a
+completely wrong tangent there.  This is AM broadcast, not a
+communications system and the noise calcuation is completely
+different.
+
+Alan G3NOQ
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this 
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm 
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

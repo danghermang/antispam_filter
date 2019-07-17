@@ -1,0 +1,71 @@
+Subject:Re:  Problemas con dovecot-core y dovecot-mysql en Debian squeeze
+Revisa que esos repos esten actualizados a la misma version..puede que el 
+error sea entre dependencias de paquetes..me ha pasado cuando enlazo con 
+varios repos y alguno esta con una verison anterior o posterior a los demas
+
+
+
+
+----- Original Message ----- 
+From: "Ricardo" <web@guzman.com.ar>
+To: <debian-user-spanish@lists.debian.org>
+Sent: Monday, October 29, 2012 11:49 AM
+Subject: Problemas con dovecot-core y dovecot-mysql en Debian squeeze
+
+
+Hola lista
+
+ Esta es la primera vez  que escribo a una lista si hago error excúseme
+
+quiero implementar servidor de correo con Base de datos MySQL, Postfix
+y Postfixadmin,
+dovecot-core, dovecot-mysql dovecot-imapd dovecot-pop3d para múltiples
+dominios.
+
+tengo problemas al instalar el daemon dovecot-core, dovecot-mysql
+dovecot-imapd dovecot-pop3d
+en Debian squeeze, estoy usando los repositorios:
+
+deb http://ftp.ccc.uba.ar/pub/linux/debian/debian/ squeeze main
+deb-src http://ftp.ccc.uba.ar/pub/linux/debian/debian/ squeeze main
+
+deb http://security.debian.org/ squeeze/updates main
+deb-src http://security.debian.org/ squeeze/updates main
+
+# squeeze-updates, previously known as 'volatile'
+deb http://ftp.ccc.uba.ar/pub/linux/debian/debian/ squeeze-updates main
+deb-src http://ftp.ccc.uba.ar/pub/linux/debian/debian/ squeeze-updates main
+
+
+deb http://packages.dotdeb.org squeeze all
+deb-src http://packages.dotdeb.org squeeze all
+deb http://backports.debian.org/debian-backports squeeze-backports main
+
+
+al instalar dovecot-core, dovecot-mysql, lo instala sin problemas la
+version es (2.1.7-2~bpo60+1) de ambos paquetes,
+ahora al querer instalar dovecot-imapd dovecot-pop3d (version
+1.2.15-7) lo rompe a  dovecot-core, dovecot-mysql,
+al parecer tiene que ser la misma versión todos los paquetes.
+
+en Debian Wheezy, se instala sin problemas pero lo instala la version
+(dovecot-core_2.1.7-2~ppa12.
+04+1_i386.deb)
+todo los paquetes son la misma version.
+
+¿ cuales es la version correcta para Debian squeeze?
+
+
+Busque por San Google pero no eh tenido exito.
+
+¿Alguien puede ayudarme?
+
+Ricardo
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/712F5328AA8045038A64F087CFD5A374@dbsrv
+

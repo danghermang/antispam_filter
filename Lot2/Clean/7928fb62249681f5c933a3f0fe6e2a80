@@ -1,0 +1,83 @@
+Subject:Re: [Hsqldb-user] Why using coalesce on a foreign key,
+ results in a non executable statement ?
+What is your full SQL statement?
+
+I tried an example and it works fine:
+CREATE TABLE T (C VARCHAR(10) PRIMARY KEY, CC VARCHAR(10) UNIQUE)
+INSERT INTO T VALUES ('A', 'AB'), ('B', 'BA'), ('D', NULL), ('E', NULL)
+SELECT * FROM T ORDER BY COALESCE(CC, 'AA')
+
+BTW, HSQLDB's default behaviour for ordering nulls first or last is
+configurable with two different URL properties. This may not apply to
+your use, but when you want compatibility with one other database, you
+can change the HSQLDB's default. Furthermore, HSQLDB supports explicit
+NULLS FIRST and NULLS LAST in the ORDER BY clause.
+
+Fred
+
+On Sun, Dec 9, 2012, at 21:41, Stephane Eybert wrote:
+> 
+> Hi,
+> 
+> I would like to have nulls first on an order by statement. Since this
+> statement is part of a DAO that also has to be compatible with Oracle,
+> the
+> function coalesce(documentCategory, '0') is being used to obtain the
+> nulls
+> first. The DAO is a Maven project which may be run against the following
+> database servers: MySql, H2, Oracle and HSQLDB. The statement works fine
+> on
+> all of them except on HSQLDB.
+> 
+> 	public Page<Document> findPublished(final int pageNumber, final int
+> pageSize) {
+> 		String query = "from Document where hide != :hide order by
+> coalesce(documentCategory, '0')";
+> 		Map<String, Object> parameters = new HashMap<String, Object>();
+> 		parameters.put("hide", true);
+> 		Page<Document> page = getPage(pageNumber, pageSize, query, parameters,
+> getSession());
+> 		return page;
+> 	}
+> 
+> After trying different options I noticed that the coalesce use on a key,
+> be
+> it the id primary key of the table, or the documentCategory foreign key
+> of
+> the table, makes the statement being not executable. But using the
+> coalesce
+> function on other columns of the same table, columns that are not the
+> primary key nor the foreign key, the statement becomes executable.
+> Therefore
+> there is something with using coalesce on a key that makes HSQLDB not
+> happy.
+> 
+> Anyone has some experience on this ?
+> 
+> -- 
+> View this message in context:
+> http://old.nabble.com/Why-using-coalesce-on-a-foreign-key%2C-results-in-a-non-executable-statement---tp34777430p34777430.html
+> Sent from the HSQLDB - User mailing list archive at Nabble.com.
+> 
+> 
+> ------------------------------------------------------------------------------
+> LogMeIn Rescue: Anywhere, Anytime Remote support for IT. Free Trial
+> Remotely access PCs and mobile devices and provide instant support
+> Improve your efficiency, and focus on delivering more value-add services
+> Discover what IT Professionals Know. Rescue delivers
+> http://p.sf.net/sfu/logmein_12329d2d
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+LogMeIn Rescue: Anywhere, Anytime Remote support for IT. Free Trial
+Remotely access PCs and mobile devices and provide instant support
+Improve your efficiency, and focus on delivering more value-add services
+Discover what IT Professionals Know. Rescue delivers
+http://p.sf.net/sfu/logmein_12329d2d
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

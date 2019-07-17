@@ -1,0 +1,58 @@
+Subject:[HS] comportement curieux de malloc
+Bonjour,
+
+J'ai bien conscience du HS de ce message masi il y a sur cette liste des
+programmeurs avertis.
+Je maintiens le paquet de camllight et le debug au fur et à mesure (il n'était
+pas libre lors de la version 0.74). Il est utilisé en CPGE donc il faut le
+maintenir à flot (par ailleurs il est 100x plus léger que ocaml).
+Il y a un bug curieux dans la version 64 bits:
+
+camllight utilise une pile dynamiquement étendue vers le bas via des mallocs
+judicieux. Or dans la version 64 bits, cette pile est soudainement saturée
+très rapidement (trop). Qui plus est un free propre de la dernière allocation
+plante le système. En fouillant, je me suis aperçu que la première allocation
+n'est pas contigue des suivantes. Pour être exact voilà ce que donne la
+succession d'appels de la fonction
+
+char *xmallocverbeux(asize_t size) {
+  char *p;
+  printf("->demande de %d\n",size);
+  p=xmalloc(size);
+  printf("<-0x%16x ",p);
+  xfree(p);
+  p=xmalloc(size);
+  printf("<<-0x%16x\n",p);
+  return(p);
+}
+(xmalloc étant malloc):
+
+<-0x        5a768010 <<-0x         1bb3820
+<-0x         1c17a40 <<-0x         1c17a40
+<-0x         1c58aa0 <<-0x         1c58aa0
+<-0x         1d50af0 <<-0x         1d50af0
+<-0x         1d91b10 <<-0x         1d91b10
+<-0x         1dd2b30 <<-0x         1dd2b30
+
+La première ligne est celle qui met le bazar, en effet sans l'appel
+malloc-free-malloc (illogique) la première allocation définissnant le sommet de
+la pile puis les autres étant des augmentations successives, la pile ne peut
+être étendu et bing «Out of memory» (ce qui énerve assez avec 4G de RAM)
+
+La rustine est évidente mais je ne comprends pas ce comportement singulier au
+malloc sur architecture 64 bits.  Si quelqu'un a une explication/
+(cela faisait plusieurs mois que je butais sur ce bug).
+
+Merci
+
+François Boisson
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120929151121.2f2faabe705231f3f3f35669@maison.homelinux.net
+

@@ -1,0 +1,86 @@
+Subject:Re: Debian Wheezy tarda mucho en cargar el sistema.
+El Fri, 07 Sep 2012 17:34:23 -0430, Jose Maldonado escribió:
+
+> El 07/09/12 08:52, Camaleón escribió:
+
+(...)
+
+>> Ese "no funciona" me sabe a poco. Cuando dices que no funciona ¿quieres
+>> decir que no es capaz de iniciar el sistema? Si es así ¿en qué estado
+>> se queda? ¿llegas a ver el gestor de sesiones?
+>> 
+>> 
+> Exactamente Camaleon. Cuando digo "no funciona" es que el sistema no
+> carga apropiadamente (perdón si no me supe explicar correctamente),
+> simplemente queda una "black screen" y no llega a cargar Lightdm, que es
+> mi manejador de sesiones. Voy a a revisar los logs buscando algún error
+> que tenga que ver con el, para descartar que ese sea el problema.
+
+Ah, vale. En ese caso podrías intentar iniciar en modo monousuario ("init 
+1") para ver si notas alguna diferencia porque supongo que habrás 
+intentado saltar a una terminal y seguirá con la pantalla en negro ¿no?
+
+>> Si lo que dices es que notas lento el equipo, eso ya es otra cosa
+>> diferente. Cuando te pase, ejecuta un "top" para ver si hay algún
+>> proceso que esté monopolizando de los recursos (CPU y/o RAM).
+>> 
+>> 
+> Pues la verdad me parece raro. Tengo tiempo con este Wheezy y es primera
+> vez que pasa, lo raro como comente inicialmente es que es intermitente y
+> pasa con cualquier programa, a veces es Thunar cargando los archivos de
+> un directorio, otras veces es Libreoffice, Icedove o Iceweasel, o
+> JDownloader, el cual uso a través de OpenJDK7, lo raro es que hago htop,
+> y por lo general siempre me quedan entre 50% a 60% de memoria libre, y
+> el procesador en 10 a 20%. El disco duro ha quedado descartado, pensé
+> que allí estaría el problema pero SMART me dice que el disco esta sano.
+
+Hum... pero no entiendo ¿puedes iniciar la sesión? :-?
+
+Entonces tienes dos problemas (o yo veo dos problemas claramente 
+diferenciados): uno sería que a veces el arranque se queda pillado y el 
+segundo que una vez iniciada la sesión te pasa algo que aún no sé qué es 
+exactamente :-)
+
+>> Pues no, la verdad, no me ha pasado, la wheezy que tengo inicia siempre
+>> y con un hardware mucho más flojo. Tampoco noto especialmente lento el
+>> entorno y tengo gnome3+gnome-shell en un netbook con micro atom (es
+>> decir, el hardware que tengo es más flojo que el tuyo).
+>> 
+>> 
+> Como dije anteriormente a mi también me extraña, probare la solución del
+> localhost para ver si está allí el problema.
+
+¿Qué es lo del localhost? :-?
+
+>> Si sospechas de alguna actualización que hayas hecho puedes volver a
+>> cargar el kernel anterior (que supongo no habrás eliminado) a ver si
+>> notas alguna diferencia.
+>> 
+>> 
+> El kernel viejo está allí, no borro las actualizaciones muy seguidos,
+> cada tres meses es que le hago mantenimiento en ese sentido, en
+> cualquier caso puedo acudir a otro que este en los repos de Debian.
+
+Si tienes instalado el kernel anterior prueba a seleccionarlo desde GRUB  
+a ver si notas alguna mejoría.
+
+>> Otra cosa que podrías probar es a crear un usuario nuevo y trabajar
+>>  durante unas horas desde ahí para ver si experimentas la misma
+>> lentitud.
+
+> Es otra opción pero me doy por probar primero otras opciones, ya
+> comentaré al respecto.
+
+Okay, ya nos dirás :-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2fnme$j4c$3@ger.gmane.org
+

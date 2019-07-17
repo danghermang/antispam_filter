@@ -1,0 +1,41 @@
+Subject:Re: [rlug] Intrebare file mirroring
+2012/11/13 Petru Ratiu <rpetre@gmail.com>:
+> 2012/11/13 Eugeniu Patrascu <eugen@imacandi.net>
+>
+>> 2012/11/13 Gyula Keresztely-Krall <xenexis@gmail.com>:
+>> > Salut,
+>> >
+>> > Se da urmatoarea situatie: un load balancer in spatele caruia se afla
+>> > mai multe servere apache (www1, wwwx),
+>> >  si o duzina de developers si content updaters (aprox 40-50 persoane).
+>> > Problema fiind fisierele care sunt incarcate pe servere find un pic
+>> > greoi de a tine sincronizat.
+>> > In incercarea de a scapa de griji si multiple rsync-uri ma gandeam sa
+>> > pun ceva gen file mirroring/replication.
+>> > Imi vine in minte glusterfs si nfs si intreb:
+>> > Exista ceva mult mai dedicat?
+>> > Aveti experienta cu asa ceva?
+>>
+>> un server care exporta NFS catre serverele web ? pe un singur server
+>> faci upload, restul citesc ce se uploadeaza.
+>>
+>
+> Sau facuta infrastructura de deployment (cu capistrano sau ce naiba mai
+> folosesc cool kids in ziua de azi, daca rsync pute).
+>
+> /me care are de impuscat un nfs facut tot pe principiul asta...
+
+/me prieten bun cu rsync, deci nu pute, numai ca sunt cazuri in care
+chiar nu merita sa te complici cu sute de scripturi
+care sunt greu de intretinut.
+
+Pana la urma cred ca raman cu gluster/nfs.
+
+Multumesc pentru raspunsuri.
+
+-- 
+Gyula KERESZTELY-KRALL
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

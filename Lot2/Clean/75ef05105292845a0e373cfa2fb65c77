@@ -1,0 +1,129 @@
+Subject:Re: Consulta sobre paquetes
+Este seria mi script ya en pool agregue el paquete mc y las dependencias.
+Me anda el instalador pero no me instala el paqute mc.
+
+No se que hay que tocar para que lo instale.
+Saludos
+Marcos
+
+#!/bin/bash
+
+DIRECTORIO=3D$1
+
+rm ${DIRECTORIO}/dists/squeeze/Release*
+
+rm ${DIRECTORIO}/dists/squeeze/main/debian-installer/binary-amd64/Packages*
+rm ${DIRECTORIO}/dists/squeeze/main/binary-amd64/Packages*
+
+apt-ftparchive generate config-deb
+apt-ftparchive generate config-udeb
+
+apt-ftparchive -c release.conf release ${DIRECTORIO}/dists/squeeze >
+${DIRECTORIO}/dists/sq
+ueeze/Release
+
+cd ${DIRECTORIO}
+md5sum `find ! -name "md5sum.txt" ! -path "./isolinux/*" -follow -type
+f` > md5sum.txt
+cd ..
+
+genisoimage  -r -V "Debian" -cache-inodes -l -b isolinux/isolinux.bin
+-c isolinux/boot.cat
+-no-emul-boot  -boot-load-size 4 -boot-info-table -o
+iso/debian-mini-amd64.iso ${DIRECTORIO
+}
+
+
+
+config-udeb
+-----------------
+
+
+Dir {
+    ArchiveDir "/virtuales/nuevo";
+};
+
+TreeDefault {
+    Directory "pool/";
+};
+
+BinDirectory "pool/" {
+    Packages "dists/squeeze/main/binary-amd64/Packages";
+};
+
+Default {
+    Packages {
+        Extensions ".deb";
+Compress ". gzip";
+    };
+};
+
+Contents {
+    Compress "gzip";
+}
+
+
+
+config-udeb
+-----------------
+
+Dir {
+    ArchiveDir "/virtuales/nuevo";
+ };
+
+ TreeDefault {
+    Directory "pool/";
+ };
+
+ BinDirectory "pool/main" {
+    Packages "dists/squeeze/main/debian-installer/binary-amd64/Packages";
+ };
+
+Default {
+   Packages {
+       Extensions ".udeb";
+   };
+};
+
+
+release.conf
+------------------
+
+APT::FTPArchive::Release::Suite "stable";
+APT::FTPArchive::Release::Codename "squeeze";
+APT::FTPArchive::Release::Architectures "amd64";
+APT::FTPArchive::Release::Components "main contrib";
+APT::FTPArchive::Release::Description "mirror for squeeze";
+
+El d=EDa 12 de noviembre de 2012 14:11, Camale=F3n <noelamac@gmail.com> esc=
+ribi=F3:
+> El 2012-11-12 a las 14:05 -0300, Marcos Russo escribi=F3:
+>
+> (env=EDa a la lista no a m=ED...)
+>
+>> No logro armar el pool y poner el packages y Release.
+>> El tema que no me instala el paquete.
+>
+> Vale, eso es otra cosa diferente.
+>
+> =BFQu=E9 pasos has seguido (alg=FAn manual)? =BFqu=E9 error te aparece?
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/20121112171120.GA5163@stt008.linux.site
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAEP330wA+1AtDxHV=kmEyf4zyz0in51s=JgheJDs=q9KTDq2VA@mail.gmail.com
+

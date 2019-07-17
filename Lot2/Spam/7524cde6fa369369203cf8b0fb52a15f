@@ -1,0 +1,188 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<ercooper@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <info@ghsint.com>
+Received: (qmail 17228 invoked by uid 89); 9 Dec 2012 18:38:11 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 9 Dec 2012 18:38:11 -0000
+Delivery-date: Sun, 09 Dec 2012 10:36:33 -0800
+Received: from node-sl1685.smtp.com ([173.192.40.17]) helo=node-sl1685.smtp.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1Thljl-0007Cs-B6 on interface=184.105.182.43
+	for ercooper@activ8.net.au; Sun, 09 Dec 2012 10:36:31 -0800
+X-MSFBL: ZXJjb29wZXJAYWN0aXY4Lm5ldC5hdUAxNzNfMTkyXzQwXzE3QHNtdHBjb21fMUA=
+DKIM-Signature: v=1; a=rsa-sha256; d=smtp.com; s=smtpcomcustomers; c=relaxed/simple;
+	q=dns/txt; i=@smtp.com; t=1355078180;
+	h=From:Subject:To:Date:MIME-Version:Content-Type;
+	bh=E6YyHVGUrs06cEuK7iftDQen31+6dackCzfT2ERQb1M=;
+	b=uLc1YoBcswe9fX/8p941zACAk3EpgOgerwQITtcCiVlohFJbEi4rltNQEaW0hJmi
+	tSDVs0+HIKGA/ECzDhXYZrG/JRRtPPM4a/LVc7l5uPwO7py8jD89z8Vbetq9DCeu
+	KMoMXzG5yNO9D1l9p0vIOGHSZzRLb/D+AWcP66rQmP0=;
+Received: from [50.28.103.40] ([50.28.103.40:38981] helo=localhost)
+	by sl-mta05 (envelope-from <info@ghsint.com>)
+	(ecelerity 3.3.2.44647 r(44647)) with ESMTP
+	id 06/A4-19978-42AD4C05; Sun, 09 Dec 2012 18:36:20 +0000
+Date: Sun, 9 Dec 2012 13:36:20 -0500
+To: Roslyn <ercooper@activ8.net.au>
+From: GHS Connect <info@ghsint.com>
+Reply-To: GHS Connect <info@ghsint.com>
+Subject: Upcoming Events
+Message-ID: <NTM3NjI3MwAC5620Y239BAMTM1NTA3ODE4MDUxNDg0@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer (phpmailer.sourceforge.net) [version 2.0.4]
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_1abac6dcf1d00108244bdc57e0e94b5f"
+X-SMTPCOM-Tracking-Number: ed94fb06-9d65-412e-9314-05c3423b4037
+X-SMTPCOM-Sender-ID: 6004328
+X-SMTPCOM-Spam-Policy: SMTP.com is a paid relay service. We do not tolerate UCE of any kind. Please report it ASAP to abuse@smtp.com
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: info@ghsint.com
+X-Relay-Countries: us
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd2.ctyme.com
+ Spam Tests:
+ * -0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/, no
+ *      trust
+ *      [173.192.40.17 listed in list.dnswl.org]
+ *  6.0 BAYES_99 BODY: Bayes spam probability is 99 to 100%
+ *      [score: 1.0000]
+ *  0.4 HTML_IMAGE_RATIO_02 BODY: HTML has a low ratio of text to image area
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ * -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+ *  0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily
+ *      valid
+ *  0.0 T_REMOTE_IMAGE Message contains an external image
+X-Spam-Class: SPAM-LOW
+X-Sender-Host-Address: 173.192.40.17
+X-Sender-Host-Name: node-sl1685.smtp.com
+X-Spam-Flag: yes
+
+--b1_1abac6dcf1d00108244bdc57e0e94b5f
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Upcoming Events
+
+A Life without Limits - Brisbane
+ ( http://www.ghsint.com/index.php?option=com_jcalpro&extmode=view&extid=413 )Wednesday, 12 December 2012
+
+Morningside QLD (including Webinar)
+
+A Life Without Limits
+
+A night where you will be taught key principles that will launch you into the life your desire.
+ 
+What is your No. 1 Priority right now ?
+
+This event will also be live by Webinar
+To join the webinar, click the Webinar Link below or type the following URL into your browser http://connectpro62428824.adobeconnect.com/ghsint
+
+Event Flyer:
+
+Webinar Link:
+
+Yours to a better future,
+
+Neale & Christine Gear
+ Crown Triple and Double Crystal Diamonds
+ CEO ~ GHS International Pty Ltd
+
+
+--b1_1abac6dcf1d00108244bdc57e0e94b5f
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<p><img width="570" height="135" src='http://www.ghsint.com/images/stories/GHSgraphics/GHS%20email%20header%20small.jpg' alt="GHS email header small"
+/></p>
+<table cellpadding="0" border="0" style="width: 568px; background-color: #d6e2eb; height: 166px; border: 0pt solid #666666;">
+
+<tr>
+<td width="398" class="style40" colspan="2">
+<h2><br /><em><span style="font-family: verdana,geneva;">Upcoming Events</span></em></h2>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p class="style2"><a href="http://www.ghsint.com/index.php?option=com_acymailing&no_html=1&ctrl=url&urlid=627&mailid=239&subid=5620"><img
+src="http://www.ghsint.com/images/stories/Events/2013-02-17GHS-FOD_570.png" width="570" height="403" alt="2013-02-17GHS-FOD 570"  align="left"
+hspace="5" style="margin: 0px; border-color: rgb(0, 0, 0); border-width: 0px; float: left;" /></a></p>
+<p class="style2">&nbsp;</p>
+<p class="style2">&nbsp;</p>
+<p class="style2">&nbsp;</p>
+<p class="style2"><table><tr><td><div class="acymailing_content"><a style="text-decoration:none;"
+href="http://www.ghsint.com/index.php?option=com_acymailing&no_html=1&ctrl=url&urlid=528&mailid=239&subid=5620" name="event-413" target="_blank" ><h2
+class="acymailing_title">A Life without Limits - Brisbane</h2></a><span class="eventdate">Wednesday, 12 December 2012</span><br/><table style="width:
+525px;" border="0">
+<tbody style="text-align: left;">
+<tr style="text-align: left;">
+<td colspan="4" style="text-align: left;"><span style="font-size: 12pt;"><strong><em><span style="color: #003300;">Morningside QLD (including
+Webinar)</span><br /></em></strong></span></td>
+</tr>
+<tr style="text-align: left;">
+<td colspan="2" style="width: 250px; text-align: left;">
+<p style="text-align: center;"><span style="font-size: small;"><img alt="ALifeWithoutLimits250" height="177" width="250"
+src="http://www.ghsint.com/images/stories/Events/ALifeWithoutLimits250.jpg" /></span></p>
+</td>
+<td colspan="2" style="text-align: left;">
+<p style="text-align: left;"><span style="font-size: 10pt;"><span style="font-size: 14pt;"><strong>A Life Without Limits</strong></span><br
+/></span></p>
+<p> </p>
+<p>A night where you will be taught key principles that will launch you into the life your desire.</p>
+<p> </p>
+<p>What is your No. 1 Priority right now ?</p>
+<p> </p>
+<p> </p>
+</td>
+</tr>
+<tr style="text-align: left; height: 18px;">
+<td style="text-align: left;" colspan="4">
+<p><span style="color: #000000;"><strong><span style="font-size: 12pt;"><span style="color: #003300;">This event will also be live by
+Webinar</span></span></strong></span></p>
+<p><span style="color: #003300;">To join the webinar, click the Webinar Link below or type the following URL into your browser
+http://connectpro62428824.adobeconnect.com/ghsint</span></p>
+</td>
+</tr>
+<tr style="text-align: left; height: 18px;">
+<td style="text-align: left;" width="106"><strong>Event Flyer:</strong></td>
+<td style="text-align: left;" width="144"><a
+href="http://www.ghsint.com/index.php?option=com_acymailing&no_html=1&ctrl=url&urlid=317&mailid=239&subid=5620"><img
+src="http://www.ghsint.com/images/stories/GHSgraphics/Button_download.png" alt="Button_download"  align="left" hspace="5" style="float: left;
+border-width: 0px; margin: 0px;" height="18" width="95" /></a></td>
+<td width="117"><strong>Webinar Link:</strong></td>
+<td width="146"><a href="http://www.ghsint.com/index.php?option=com_acymailing&no_html=1&ctrl=url&urlid=116&mailid=239&subid=5620"><img
+src="http://www.ghsint.com/images/stories/GHSgraphics/Button_link.png" alt="Button_link"  align="left" hspace="5" style="float: left; border-width:
+0px; margin: 0px;" height="18" width="95" /></a></td>
+</tr>
+<tr style="text-align: left; height: 18px;">
+<td colspan="4" style="text-align: left; height: 15px;"><img  align="left" hspace="5" style="float: left; border-width: 0px; border-color: #000000;
+margin: 0px;" alt="Event Banners Divider" src='http://www.ghsint.com/images/stories/Events/Event%20Banners%20Divider.jpg' height="10" width="525"
+/></td>
+</tr>
+
+</table></div></td></tr></table></p>
+<p class="style2">&nbsp;Yours to a better future,</p>
+<p class="style2">&nbsp;<img width="328" height="67" src="http://www.ghsint.com/eFocus/Nice-Dark-Version.gif" /><img  align="left" hspace="5"
+style="margin: 0px 10px 0px 0px; border-color: #000000; border-width: 0px; float: left;" alt="CandN_UpcomingEventsEmail" height="150" width="150"
+src="http://www.ghsint.com/images/stories/Events/CandN_UpcomingEventsEmail.png" /></p>
+<p class="style2">&nbsp;Neale &amp; Christine Gear<br />&nbsp;Crown Triple and Double Crystal Diamonds<br />&nbsp;CEO ~ GHS International Pty Ltd</p>
+<p class="style2">&nbsp;</p>
+</td>
+</tr>
+
+</table><img alt="" src="http://www.ghsint.com/index.php?option=com_acymailing&ctrl=stats&mailid=239&subid=5620&no_html=1"  border="0"  height="1" 
+width="50" />
+
+
+
+--b1_1abac6dcf1d00108244bdc57e0e94b5f--
+
+
+

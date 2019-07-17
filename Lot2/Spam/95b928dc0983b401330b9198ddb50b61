@@ -1,0 +1,49 @@
+Subject:failure notice
+Hi. This is the qmail-send program at muletto.hostdeck.com.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<lpzviabafqnv@cronos.it>:
+ 85.119.183.194 does not like recipient.
+Remote host said: 550 sorry, no mailbox here by that name. (#5.7.17)
+Giving up on 85.119.183.194.
+
+--- Below this line is a copy of the message.
+
+Return-Path: <8A35FB6D@guarantyabstract.com>
+Received: (qmail 6774 invoked from network); 10 Dec 2012 06:46:01 -0000
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.2.5 (2008-06-10) on muletto.hostdeck.com
+X-Spam-Level: *******
+X-Spam-Status: Yes, score=7.9 required=5.0 tests=DIGEST_MULTIPLE,HTML_MESSAGE,
+	HTML_MIME_NO_HTML_TAG,MIME_HTML_ONLY,PYZOR_CHECK,RAZOR2_CF_RANGE_51_100,
+	RAZOR2_CF_RANGE_E8_51_100,RAZOR2_CHECK,RDNS_NONE autolearn=spam version=3.2.5
+X-Spam-Report: 
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  1.5 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CF_RANGE_E8_51_100 Razor2 gives engine 8 confidence level
+	*      above 50%
+	*      [cf: 100]
+	*  0.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  0.5 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  3.7 PYZOR_CHECK Listed in Pyzor (http://pyzor.sf.net/)
+	*  0.0 DIGEST_MULTIPLE Message hits more than one network digest check
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+	*  0.1 RDNS_NONE Delivered to trusted network by a host with no rDNS
+Received: from unknown (HELO ?178.123.169.181?) (178.123.169.181)
+  by muletto.hostdeck.com with SMTP; 10 Dec 2012 06:45:56 -0000
+From: "Support" <8A35FB6D@guarantyabstract.com>
+To: <lpzviabafqnv@cronos.it>
+Subject: *****SPAM***** Order confirmation.
+Date: Mon, 10 Dec 2012 09:45:53 +0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 8bit
+List-Unsubscribe: <mailto:900ED1EEB3E10AF7941@kathyclean.com>
+Message-ID: <20121210094553.0EA0AD47ACC77FF5CC092@MICROSOF-C863EF>
+X-Spam-Prev-Subject: Order confirmation.
+
+If you can't read this message please click this <a href="http://www.leitcomm.org/welcome.php?s002">link</a><br>
+

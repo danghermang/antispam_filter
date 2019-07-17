@@ -1,0 +1,36 @@
+Subject:Re: antivirus proxy
+El Tue, 25 Sep 2012 09:54:03 +0200, Trujillo Carmona, Antonio escribió:
+
+> El lun, 24-09-2012 a las 13:37 +0000, Camaleón escribió:
+
+(...)
+
+>> ¿Has mirado SquidClamav o HAVP?
+
+> Si claro y lo que he visto es que analizan el trafico entrante, pero no
+> el saliente, esto es si te descargas un fichero con virus lo corta, pero
+> no corta el trafico de datos que un espyware manda a una dirección que
+> se sabe que es para eso.
+
+(...)
+
+Hum... si mal no recuerdo Amavisd-New permite analizar el tráfico 
+entrante y saliente, por lo que combinado con una solución (p. ej., SA)
+que detecte patrones de mensajes de spam (uso de direcciones URI 
+"maliciosas", análisis de las imágenes integradas en los mensajes, es 
+decir, que detecte las típicas técnicas utilizadas en los mensajes de 
+spam que salen desde los equipos infectados) y que trabaje con sistemas 
+de colaboración como Razor, Pyzor, etc... junto con un AV convencional 
+(como ClamAV) también te podría servir.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k73fv5$7h2$4@ger.gmane.org
+

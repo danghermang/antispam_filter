@@ -1,0 +1,36 @@
+Subject:Re: Connexion ssh : timed out
+Le mercredi 31 octobre 2012 13:17:07, Eddy F. a écrit :
+> Bonjour,
+> 
+> Je ne parviens pas à me connecter depuis l'extérieur sur le serveur
+> ssh de ma machine debian wheezy : « connection timed out ».
+> 
+
+
+Ah zut. Je modifie des choses dans mon modem, je reteste et j'obtiens 
+
+Connection refused
+
+Ca pourrait être le modem qui refuse la connexion ?
+Ou est-ce à coup sûr la configuration de la machine debian ?
+
+Sinon, après ce connection refused, je ne trouve rien dans 
+/var/log/auth.log
+
+Une idée ?
+
+-- 
+E. Flas
+~~~ Citation aléatoire ~~~
+"Savoir, c'est connaître par le moyen de la démonstration."
+( ARISTOTE )
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210311426.01261.flas.csfa@gmail.com
+

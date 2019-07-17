@@ -1,0 +1,39 @@
+Subject:Re: [EVDL] Ceramic Heater elements
+On 10/29/2012 9:10 PM, Bill Dube wrote:
+> Instead of cutting up the old heater core, I bent up a sheet metal
+> holder/spacer for the ceramic element.
+
+How did you mount the heating element to your sheet metal? The ceramic 
+elements I've seen are metal, and the metal is electrically "live". They 
+depend on a plastic molded part (unique to each heater) to keep them 
+from shorting to ground.
+
+Note: Ceramic elements limit their own temperature; the hotter they get, 
+the higher their resistance. If the voltage isn't too high, they 
+self-limit to a temperature around 200 deg.C. However, many of the cheap 
+120vac heaters use such a crappy plastic that it will melt or burn if 
+the element gets this hot!
+
+They can also get hot enough to set fire to leaves, paper, plastic, and 
+other debris that might get sucked into the heater's air intake. The 
+auto companies also use plastics for the ductwork and dashboard that 
+will melt or even burn at the temperatures a ceramic heater can reach if 
+the airflow is blocked. Watch out for this!
+
+Finally, the thermal fuses and cutouts provided on a 120vac heater *will 
+not* open the circuit if used on high voltage DC!
+-- 
+Ingenuity gets you through times of no money better than money
+will get you through times of no ingenuity. -- Terry Pratchett
+--
+Lee A. Hart http://www.sunrise-ev.com/LeesEVs leeahart@earthlink.net
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

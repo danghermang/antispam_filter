@@ -1,0 +1,55 @@
+Subject:Upgrade auf 12.10, erste Erfahrungen
+Moin!
+
+Meist warte ich ein wenig ab bis eine neue Version "gereift" ist. Dieses =
+
+Mal war ich zu ungeduldig und habe zu fr=FCh den Upgrade von 12.04 auf =
+
+12.10 gemacht.
+
+Meine ersten pers=F6nlichen Erfahrungen:
+
+
+* geeqie
+
+geeqie (Bildbetrachter) st=FCrzt direkt nach dem Start ab.
+Komplett deinstalliert und neu installiert, l=E4uft immer noch nicht.
+Von Konsole:
+  $ geeqie
+  Kann LIRC (Infrarotfernbedienung) nicht aktivieren
+  Speicherzugriffsfehler (Speicherabzug geschrieben)
+Paket lirc deinstalliert, geeqie gestestet,
+Paket lirc  wieder installiert, geeqie gestestet,
+keine Besserung.
+
+
+* shotwell
+
+Die Bilder vom aktuellen Import (nach dem Upgrade) werden angezeigt, =
+
+aber statt der zuvor importieren Bilder erscheinen nur graue Fl=E4chen.
+
+
+* VMware-Player
+
+VMware-Player 4.0.4 musste neu compiliert werden (weil neuer Kernel) =
+
+dabei tritt ein Fehler auf.
+Darum VMware-Player 4.0.4 gleich aktualisiert auf 5.0.
+Wenn eine VM gestartet wird, st=FCrzt der Player komplett ab und reisst =
+
+das gesamte System mit. Das hatte ich unter Linux lange nicht.
+
+
+Ich habe noch nicht alles getestet  ...
+
+-- =
+
+
+Frank
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

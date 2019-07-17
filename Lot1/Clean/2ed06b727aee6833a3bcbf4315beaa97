@@ -1,0 +1,18 @@
+Subject:Re: la commande calendar
+Le 27/11/2012 14:30, andre_debian@numericable.fr a écrit :
+> Comment créer ce fichier "calendar"  et ou le placer ?
+
+Installe, réinstalle ou reconfigure le paquet bsdmainutils
+
+-- 
+François
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k94jnj$uat$1@ger.gmane.org
+

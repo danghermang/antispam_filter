@@ -1,0 +1,74 @@
+Subject:Re: filedecriptor ulimit -n
+
+El vie, 16-11-2012 a las 09:36 +0100, Esteban Torres Rodr=C3=ADguez =
+escribi=C3=B3:
+> El d=C3=ADa 16 de noviembre de 2012 09:35, Esteban Torres =
+Rodr=C3=ADguez
+> <mortenol.torres@gmail.com> escribi=C3=B3:
+> > El d=C3=ADa 15 de noviembre de 2012 14:04, Trujillo Carmona, =
+Antonio
+> > <antonio.trujillo.sspa@juntadeandalucia.es> escribi=C3=B3:
+> >>
+> >> Estamos teniendo problemas con el proxy.
+> >> He encontrado le error:
+> >> Your cache is running out of filedescriptors
+> >> Buscando en google he cambiado los ficheros:
+> >> # cat /etc/default/squid3
+> >> .../...
+> >> SQUID_MAXFD=3D4096
+> >> # cat /etc/sysctl.conf
+> >> .../...
+> >> fs.file-max =3D 82148
+> >> # cat /etc/security/limits.conf
+> >> .../...
+> >> *               -       nofile          4096
+> >> proxy               -       nofile          4096
+> >> (la ultima anotaci=C3=B3n la hice por probar)
+> >> El caso es que si me logeo al poxy como usuario obtengo:
+> >> gdxtrujo@proxy-00:~$ ulimit -n
+> >> 4096
+> >> como root:
+> >> root@proxy-00:/home/HVN/gdxtrujo# ulimit -n
+> >> 1024
+> >>
+> >> como proxy (le he puesto un passwd paras probar)
+> >> $ ulimit -n
+> >> 1024
+> >>
+> >> con lo que, para lo que me interesa que es el proxy, no funciona =
+ninguno
+> >> de los cambios.
+> >> Uso wheezy.
+> >
+> Yo he solventado ese problema poniendo la siguiente linea en el
+> /etc/init.d/squid
+> ulimit -HSn 4096 (es la cifra que yo quer=C3=ADa)
+> Esto tiene que ir acompa=C3=B1ado de su max_filedesc en el =
+squid.conf.
+>=20
+> Lo malo de esto es que necesita reseteo del servicio.
+>=20
+> Yo estaba loco, por que todas las ma=C3=B1anas tenia el dichoso error =
+del
+> "Your cache is running out of filedescriptors" y por mas que =
+aumentaba
+> el filedescriptors no pillaba el valor. Al final haciendo esto se ha
+> solucionado!!!!
+>=20
+> Espero te sirva.
+ulimit -HSn me da error, en su lugar he puesto "ulimit -n 5120"
+de todas formas ya tenia puesto "ulimit 65535"
+no se si es que no funciona por ser demasiado alto o que el squid3 ha
+rebasado el limite fijado de 4096 ficheros y tenia que subirlo.
+lo ver=C3=A9 y os lo contare.
+
+
+--=20
+trujo <antonio.trujillo.sspa@juntadeandalucia.es>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1353058908.17524.17.camel@trujo.hvn.sas.junta-andalucia.es
+

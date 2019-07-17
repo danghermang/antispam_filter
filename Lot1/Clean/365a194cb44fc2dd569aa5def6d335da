@@ -1,0 +1,53 @@
+Subject:Re: wil graag img maken van Ubuntu op hd
+Hartelijk dank voor de suggesties. Ik heb een andere printer aangesloten, =
+
+Canon IP 5000 en die print zonder problemen alle pagina's. De HP laserjet =
+
+1010 stopte na de eerste pagina en een kijkje in de afdrukwachtrij zei bezi=
+g =
+
+met verwerken. Na een half uurtje wachten heb ik de afdrukopdracht =
+
+geannuleerd. Ook via de suggestie naar bestand printen en via de terminal =
+
+gaf geen resultaat. Jammer want die HP leek me nog in goede staat.
+Milton
+----- Original Message ----- =
+
+From: "YP" <yellowpenguin@edpnet.be>
+To: "Ubuntu-NL MList" <ubuntu-nl@lists.ubuntu.com>
+Sent: Saturday, October 27, 2012 3:50 PM
+Subject: wil graag img maken van Ubuntu op hd
+
+
+Hallo,
+
+graag wil ik de "fabrieks-Ubuntu" dat Asus meegeeft op hun EEE 1225C
+correct/zeg maar later bootable, willen recupereren.
+De vraag is:
+kan ik gewoon met een  sudo dd if=3D/dev/sda1 of=3Dubuntu_12.04_eee_1225c.i=
+so
+een bootable iso of img maken dat ik bijv. op een stick of DVD zet ?
+gaat het zo booten ? of moet ik een count=3D10 of bijkomende dd opties =
+
+meegeven ?
+
+Thanx,
+
+Y)ellow P)enguin
+
+
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl =
+
+
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

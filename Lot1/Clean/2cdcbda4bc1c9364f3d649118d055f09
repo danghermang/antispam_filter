@@ -1,0 +1,37 @@
+Subject:Re: [EVDL] Low battery capacity on convertion lawntractor
+
+David wrote -
+
+> I set an AC powered clock for 12:00 and plug it into the
+> other receptacle on the inverter and let 'er rip.  When the battery drops
+to
+> 10.5v, the inverter shuts down and the clock stops.  From the minutes and
+> hours logged, I can calculate amp hours at that load.
+
+Let me see if I understand the above in my terms -  I have a discharger, it
+is a 300wt lamp, I start discharging at' StDisChrgV' (voltage at start of
+Discharge) and end discharging at 'EndDisChgV' (voltage at end of Discharge)
+and I know the 'DisChgT' (Discharge Time). The discharge stops because
+'SlopeDifMax' has been reached (voltage sampling has determined that the
+rate or slope of discharge is too fast and a weak cell reversal may occur or
+the voltage is dropping abnormally fast).
+
+>From the above numbers can I determine the amp hour capacity of the
+pack/battery?
+
+Thanks
+Rush
+www.TucsonEV.com
+
+
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

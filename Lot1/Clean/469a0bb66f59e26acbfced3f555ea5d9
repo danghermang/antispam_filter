@@ -1,0 +1,59 @@
+Subject:Re: [Antenna-discussion] 1/2-wave vertical really needs a
+	groundplane?
+Folks:
+   While I personally subscribe to the view conveyed by w8ji there
+are detractors.  The argument starts like this, "Kirchhoff's law doesn't always
+apply".  Then hands are waved and measurements presented.
+   I happen to think Kirchhoff's law does apply but the arguments can
+be compelling.  I know I can build an antenna which has radiating
+elements which have NO direct electrical connection to the feed line.
+Somehow, currents are induced and therefore Kirchhoff's circuit
+law doesn't apply.
+   I expect the physicists to say something like "Kirchhoff's circuit laws
+apply only to static circuits".  Anyone?
+
+   Just a flare to engage the brain cells.
+
+ward
+
+
+On Nov 8, 2012, at 2:58 AM, Richard Fry wrote:
+
+WBob wrote:
+> am still waiting for a explanation of the J antenna (commonly misscalled the JPole) where a 1/2 wave wire is end fed with a 1/4 wave transmission line shorted on the other end. The transmission line does not radiate (very much) so it is not a counter poise and does not interact with a "ground" so it is not radials. (etc)
+
+The link below has an interesting discussion of this subject, including a section titled "Can we end-feed a halfwave antenna, or end-feed any antenna, without a ground or counterpoise?"
+
+http://www.w8ji.com/end-fed_vertical_j-pole_and_horizontal_zepp.htm
+
+
+_______________________________________________
+This message was sent to: ward2@ussu.us
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm
+
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

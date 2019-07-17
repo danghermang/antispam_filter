@@ -1,0 +1,52 @@
+Subject:Re: Fwd: Debian 7 Beta1 - Duda sobre la
+	=?iso-8859-1?q?instalaci=F3n?=
+El Thu, 06 Sep 2012 12:55:40 -0300, Ariel escribió:
+
+> El día 6 de septiembre de 2012 12:28, Camaleón <noelamac@gmail.com>
+> escribió:
+>> El Thu, 06 Sep 2012 17:04:53 +0200, jose ignacio otero bueno escribió:
+>>
+>>> Hola amigos de Debian, ya he visto que por fin ha salido la primera
+>>> beta de Debian 7,
+>>
+>> Que yo sepa no hay versiones "beta" en el ciclo de desarrollo de
+>> Debian. En todo caso querrás decir que actualmente Wheezy se encuentra
+>> "congelada" :-?
+>>
+>>
+> Entiendo que se refiere al instalador beta del sistema, no a que el
+> sistema sea beta.
+> http://www.debian.org/devel/debian-installer/News/2012/20120804
+
+Ah... el instalador. Pero eso da igual ¿no? El instalador va por libre :-?
+
+>>> y me gustaría que me aclararais una duda al respecto. Quiero instalar
+>>> Debian en dos ordenadores, pero no quiero esperar los dos meses que
+>>> quedan para que salga la versión principal, así que quiero instalar la
+>>> Beta, pero me gustaría saber si tras instalar la Beta y conforme pase
+>>> el tiempo, se pueda ir actualizando hasta la versión Estable oficial,
+>>> sin necesitar reinstalar todos desde el principio.
+>>
+>> Sí, claro, sin problemas.
+>>
+>> Si apuntas los repositorios del "/etc/apt/sources.list" a "wheezy",
+>> tendrás todo el trabajo hecho.
+> 
+> Ya apuntan a wheezy, aun descargando el net de testing. Lo digo ya que
+> recien acabo de instalarlo en una notebook.
+
+Lo que quiero decir es que use el nombre en clave "wheezy" en lugar de 
+"testing" y no tendrá que cambiar nada cuando salga la nueva versión 
+dentro de 5 meses.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2ahgo$vdj$13@ger.gmane.org
+

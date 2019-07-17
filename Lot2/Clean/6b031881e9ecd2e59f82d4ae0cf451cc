@@ -1,0 +1,26 @@
+Subject:Re: Sobre pool del cd de debian wheezy
+El 08/11/12 11:13, Marcos Russo escribió:
+> Buenos días a todos.
+>
+> Tengo la siguiente dudas :
+>
+> 1) Si quiero incorporar un paquete X en el pool del cd de debian y
+> rearmar la iso para que al instalar lo incluya. Que pasos debería seguir ?
+>
+> 2) La instalación de los paquetes de pool lo realiza en orden alfabético ?
+>
+> 3) Si tienen documentación sobre este tema me podrían pasar ?
+>
+> Saludos
+> Marcos
+
+http://www.techradar.com/news/software/operating-systems/10-scripts-to-create-your-own-linux-distribution-665247
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509BCA82.40602@gmail.com
+

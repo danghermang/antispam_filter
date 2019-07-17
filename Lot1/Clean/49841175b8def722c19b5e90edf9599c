@@ -1,0 +1,65 @@
+Subject:Re: acelerar la =?iso-8859-1?q?navegaci=F3n?= en Internet
+El Fri, 31 Aug 2012 09:10:44 -0500, Constantino Vargas escribió:
+
+> Buenas, me conecto a Internet vía wi-fi desde mi pc con debian 6 a un
+> proveedor local de Internet pero que en momento se pone lento sobre todo
+> en las noches razón por el cual he estado buscado información sobre una
+> manera de acelerar la navegación y me topado con dnsmasq, un servidor
+> DNS y DHCP  ligero para su implementacion me he guiado de este tutorial
+
+Normal que se ponga lento. Seguramente porque al tratarse de un nodo wifi 
+es más que probable que haya otros usuarios haciendo uso del mismo enlace 
+y el ISP no haya lo tenga balanceado correctamente con lo que se genera 
+un cuello de botella.
+
+> http://gnulinuxtips.blogspot.com/2010/06/acelerar-navegacion-con-dnsmasq.html
+> 
+> salvo en la parte de:
+> 
+> $ sudo gedit /etc/dhcp3/dhclient.conf
+> 
+> en debian 6 es:
+> 
+> # nano /etc/dhcp/dhclient.conf
+> 
+> el resultado después de su implentacion mejoro en algo la navegación
+> pero lo he probado por la mañana, ha esa hora hay pocos usado Internet,
+> faltaría probar en la noche para saber realmente si ayuda pues en esa
+> hora la conexión a Internet es lenta.
+
+Disponer de un servidor dns local sólo te va a ayudar para acelerar las
+resoluciones de los dominios pero nada más: de donde no hay no se puede
+sacar.
+
+> después de esto surgen una interrogante.
+> 
+> hay otras formas de acelerar la conexiones a Internet desde debian 6,
+
+Pues seguro que sí pero depende de lo que entiendas por "acelerar las 
+conexiones". Por ejemplo, yo "acelero" Firefox al desactivar el ipv6 porque
+algunas páginas tienen problemas cuando está activado y se tarda más en 
+acceder. También "acelero" la navegación usando servidor dns rápidos o bien 
+balanceados.
+
+Pero no haya nada como una buena conexión (mínimo ADSL de 20 Mbps) y usar el 
+cable de red, con eso tendrás el éxito casi asegurado :-)
+
+> Nota: mi hardware para mi conexión a internet es una AP y su antena
+> panel montado en mi techo conectado a mi tarjeta de red desde un cable
+> de red conectada a la AP.
+
+Los enlaces wifi ven mermada su velocidad debido a un montón de factores 
+(interferencias con otros dispositivos inalámbricos y aparatos, aplicación de 
+la capa de seguridad wpa/wpa2, etc...).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k1ql6o$hd2$10@ger.gmane.org
+

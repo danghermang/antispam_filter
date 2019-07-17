@@ -1,0 +1,1489 @@
+Subject:EiZ-Newsletter - Ausgabe November 2012
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"DE" lang=3D"DE" >
+  <head>
+    <meta http-equiv=3D"Content-Style-Type" content=3D"text/css" />
+    <meta http-equiv=3D"Content-Script-Type" content=3D"text/javascript" />
+    <title>EiZ-Newsletter</title>
+    <style type=3D"text/css">
+    <!--h1
+      {line-heigt:20px;}
+    h2
+      {line-heigt:16px;}
+    h3
+      {line-heigt:16px;}
+#CONTENT p.ANREDE
+      {line-heigt:20px;}
+     /* Font Definitions */
+     @font-face
+      {font-family:Calibri;
+      panose-1:2 15 5 2 2 2 4 3 2 4;
+      mso-font-charset:0;
+      mso-generic-font-family:swiss;
+      mso-font-pitch:variable;
+      mso-font-signature:-520092929 1073786111 9 0 415 0;}
+     /* Style Definitions */
+     p.MsoNormal, li.MsoNormal, div.MsoNormal
+      {mso-style-unhide:no;
+      mso-style-qformat:yes;
+      mso-style-parent:"";
+      margin:0cm;
+      margin-bottom:.0001pt;
+      mso-pagination:widow-orphan;
+      font-size:12.0pt;
+      font-family:"Times New Roman","serif";
+      mso-fareast-font-family:Calibri;
+      mso-fareast-theme-font:minor-latin;}
+    h1
+      {mso-style-priority:9;
+      mso-style-unhide:no;
+      mso-style-qformat:yes;
+      mso-style-link:"=C3=9Cberschrift 1 Zchn";
+      margin:0cm;
+      margin-bottom:.0001pt;
+      mso-pagination:widow-orphan;
+      mso-outline-level:1;
+      font-size:12.0pt;
+      font-family:"Arial","sans-serif";
+      mso-fareast-font-family:Calibri;
+      mso-fareast-theme-font:minor-latin;
+      color:#407B89;
+      font-weight:bold;}
+    h2
+      {mso-style-priority:9;
+      mso-style-unhide:no;
+      mso-style-qformat:yes;
+      mso-style-link:"=C3=9Cberschrift 2 Zchn";
+      margin:0cm;
+      margin-bottom:.0001pt;
+      mso-pagination:widow-orphan;
+      mso-outline-level:2;
+      font-size:10.0pt;
+      font-family:"Arial","sans-serif";
+      mso-fareast-font-family:Calibri;
+      mso-fareast-theme-font:minor-latin;
+      font-weight:bold;}
+    h3
+      {mso-style-priority:9;
+      mso-style-unhide:no;
+      mso-style-qformat:yes;
+      mso-style-link:"=C3=9Cberschrift 3 Zchn";
+      margin-top:0cm;
+      margin-right:9.0pt;
+      margin-bottom:4.5pt;
+      margin-left:9.0pt;
+      mso-pagination:widow-orphan;
+      mso-outline-level:3;
+      font-size:10.0pt;
+      font-family:"Arial","sans-serif";
+      mso-fareast-font-family:Calibri;
+      mso-fareast-theme-font:minor-latin;
+      font-weight:bold;}
+    h4
+      {mso-style-priority:9;
+      mso-style-unhide:no;
+      mso-style-qformat:yes;
+      mso-style-link:"=C3=9Cberschrift 4 Zchn";
+      margin:0cm;
+      margin-bottom:.0001pt;
+      mso-pagination:widow-orphan;
+      mso-outline-level:4;
+      font-size:10.0pt;
+      font-family:"Arial","sans-serif";
+      mso-fareast-font-family:Calibri;
+      mso-fareast-theme-font:minor-latin;
+      font-weight:bold;}
+    a:link, span.MsoHyperlink
+      {mso-style-priority:99;
+      mso-ansi-font-size:10.0pt;
+      mso-bidi-font-size:10.0pt;
+      font-family:"Arial","sans-serif";
+      mso-ascii-font-family:Arial;
+      mso-hansi-font-family:Arial;
+      mso-bidi-font-family:Arial;
+      color:#333333;
+      mso-text-animation:none;
+      text-decoration:none;
+      text-underline:none;
+      text-decoration:none;
+      text-line-through:none;}
+    a:visited, span.MsoHyperlinkFollowed
+      {mso-style-noshow:yes;
+      mso-style-priority:99;
+      mso-ansi-font-size:10.0pt;
+      mso-bidi-font-size:10.0pt;
+      font-family:"Arial","sans-serif";
+      mso-ascii-font-family:Arial;
+      mso-hansi-font-family:Arial;
+      mso-bidi-font-family:Arial;
+      color:#333333;
+      mso-text-animation:none;
+      text-decoration:none;
+      text-underline:none;
+      text-decoration:none;
+      text-line-through:none;}
+    p
+      {mso-style-priority:99;
+      margin:0cm;
+      margin-bottom:.0001pt;
+      mso-pagination:widow-orphan;
+      font-size:10.0pt;
+      font-family:"Arial","sans-serif";
+      mso-fareast-font-family:Calibri;
+      mso-fareast-theme-font:minor-latin;}
+    span.berschrift1Zchn
+      {mso-style-name:"=C3=9Cberschrift 1 Zchn";
+      mso-style-priority:9;
+      mso-style-unhide:no;
+      mso-style-locked:yes;
+      mso-style-link:"=C3=9Cberschrift 1";
+      mso-ansi-font-size:14.0pt;
+      mso-bidi-font-size:14.0pt;
+      font-family:"Cambria","serif";
+      mso-ascii-font-family:Cambria;
+      mso-ascii-theme-font:major-latin;
+      mso-fareast-font-family:"Times New Roman";
+      mso-fareast-theme-font:major-fareast;
+      mso-hansi-font-family:Cambria;
+      mso-hansi-theme-font:major-latin;
+      mso-bidi-font-family:"Times New Roman";
+      mso-bidi-theme-font:major-bidi;
+      color:#365F91;
+      mso-themecolor:accent1;
+      mso-themeshade:191;
+      font-weight:bold;}
+    span.berschrift2Zchn
+      {mso-style-name:"=C3=9Cberschrift 2 Zchn";
+      mso-style-priority:9;
+      mso-style-unhide:no;
+      mso-style-locked:yes;
+      mso-style-link:"=C3=9Cberschrift 2";
+      mso-ansi-font-size:13.0pt;
+      mso-bidi-font-size:13.0pt;
+      font-family:"Cambria","serif";
+      mso-ascii-font-family:Cambria;
+      mso-ascii-theme-font:major-latin;
+      mso-fareast-font-family:"Times New Roman";
+      mso-fareast-theme-font:major-fareast;
+      mso-hansi-font-family:Cambria;
+      mso-hansi-theme-font:major-latin;
+      mso-bidi-font-family:"Times New Roman";
+      mso-bidi-theme-font:major-bidi;
+      color:#4F81BD;
+      mso-themecolor:accent1;
+      font-weight:bold;}
+    span.berschrift3Zchn
+      {mso-style-name:"=C3=9Cberschrift 3 Zchn";
+      mso-style-priority:9;
+      mso-style-unhide:no;
+      mso-style-locked:yes;
+      mso-style-link:"=C3=9Cberschrift 3";
+      mso-ansi-font-size:12.0pt;
+      mso-bidi-font-size:12.0pt;
+      font-family:"Cambria","serif";
+      mso-ascii-font-family:Cambria;
+      mso-ascii-theme-font:major-latin;
+      mso-fareast-font-family:"Times New Roman";
+      mso-fareast-theme-font:major-fareast;
+      mso-hansi-font-family:Cambria;
+      mso-hansi-theme-font:major-latin;
+      mso-bidi-font-family:"Times New Roman";
+      mso-bidi-theme-font:major-bidi;
+      color:#4F81BD;
+      mso-themecolor:accent1;
+      font-weight:bold;}
+    span.berschrift4Zchn
+      {mso-style-name:"=C3=9Cberschrift 4 Zchn";
+      mso-style-noshow:yes;
+      mso-style-priority:9;
+      mso-style-unhide:no;
+      mso-style-locked:yes;
+      mso-style-link:"=C3=9Cberschrift 4";
+      mso-ansi-font-size:12.0pt;
+      mso-bidi-font-size:12.0pt;
+      font-family:"Cambria","serif";
+      mso-ascii-font-family:Cambria;
+      mso-ascii-theme-font:major-latin;
+      mso-fareast-font-family:"Times New Roman";
+      mso-fareast-theme-font:major-fareast;
+      mso-hansi-font-family:Cambria;
+      mso-hansi-theme-font:major-latin;
+      mso-bidi-font-family:"Times New Roman";
+      mso-bidi-theme-font:major-bidi;
+      color:#4F81BD;
+      mso-themecolor:accent1;
+      font-weight:bold;
+      font-style:italic;}
+    p.anrede, li.anrede, div.anrede
+      {mso-style-name:anrede;
+      mso-style-unhide:no;
+      margin:0cm;
+      margin-bottom:.0001pt;
+      mso-pagination:widow-orphan;
+      font-size:10.0pt;
+      font-family:"Arial","sans-serif";
+      mso-fareast-font-family:Calibri;
+      mso-fareast-theme-font:minor-latin;}
+    p.rubrik, li.rubrik, div.rubrik
+      {mso-style-name:rubrik;
+      mso-style-unhide:no;
+      margin:0cm;
+      margin-bottom:.0001pt;
+      mso-pagination:widow-orphan;
+      font-size:10.0pt;
+      font-family:"Arial","sans-serif";
+      mso-fareast-font-family:Calibri;
+      mso-fareast-theme-font:minor-latin;}
+    p.anrede1, li.anrede1, div.anrede1
+      {mso-style-name:anrede1;
+      mso-style-unhide:no;
+      margin-top:0cm;
+      margin-right:0cm;
+      margin-bottom:3.0pt;
+      margin-left:0cm;
+      mso-pagination:widow-orphan;
+      font-size:12.0pt;
+      font-family:"Arial","sans-serif";
+      mso-fareast-font-family:Calibri;
+      mso-fareast-theme-font:minor-latin;
+      font-weight:bold;}
+    p.rubrik1, li.rubrik1, div.rubrik1
+      {mso-style-name:rubrik1;
+      mso-style-unhide:no;
+      margin-top:0cm;
+      margin-right:9.0pt;
+      margin-bottom:4.5pt;
+      margin-left:9.0pt;
+      line-height:9.0pt;
+      mso-pagination:widow-orphan;
+      font-size:8.5pt;
+      font-family:"Arial","sans-serif";
+      mso-fareast-font-family:Calibri;
+      mso-fareast-theme-font:minor-latin;
+      text-transform:uppercase;}
+    .MsoChpDefault
+      {mso-style-type:export-only;
+      mso-default-props:yes;
+      font-size:10.0pt;
+      mso-ansi-font-size:10.0pt;
+      mso-bidi-font-size:10.0pt;}
+    @page WordSection1
+      {size:612.0pt 792.0pt;
+      margin:70.85pt 70.85pt 2.0cm 70.85pt;
+      mso-header-margin:36.0pt;
+      mso-footer-margin:36.0pt;
+      mso-paper-source:0;}
+    div.WordSection1
+      {page:WordSection1;}
+    -->
+    </style>
+    <!--[if gte mso 10]>
+    <style type=3D"text/css">
+     /* Style Definitions */
+     table.MsoNormalTable
+      {mso-style-name:"Normale Tabelle";
+      mso-tstyle-rowband-size:0;
+      mso-tstyle-colband-size:0;
+      mso-style-noshow:yes;
+      mso-style-priority:99;
+      mso-style-parent:"";
+      mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+      mso-para-margin:0cm;
+      mso-para-margin-bottom:.0001pt;
+      mso-pagination:widow-orphan;
+      font-size:10.0pt;
+      font-family:"Times New Roman","serif";}
+    </style>
+    <![endif]-->
+  </head>
+  <body>
+    <table class=3D"MsoNormalTable" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"width:459.0pt;background:#EEEEEE; padding: 0; border: 0;=
+">
+      <tr>
+        <td style=3D"padding:0cm 0cm 0cm 0cm">
+          <table class=3D"MsoNormalTable" style=3D"width:459.0pt;background=
+: #ffffff;">
+            <tbody>
+              <tr>
+                <td style=3D"padding:0cm 0cm 0cm 0cm;height:15.0pt;"></td>
+              </tr>
+              <tr>
+                <td style=3D"width:12.0pt;padding:0cm 0cm 0cm 0cm"></td>
+                <td style=3D'padding:0cm 0cm 0cm 0cm'>
+                  <img src=3D"http://www.erfahrung-ist-zukunft.de/SiteGloba=
+ls/StyleBundles/Bilder/EIZ/newsletter/logo_a.png?__blob=3Dnormal" alt=3D"Li=
+nk zur Seite der Bundesregierung" />
+                </td>
+                <td style=3D'padding:0cm 0cm 0cm 0cm'>
+                  <img src=3D"http://www.erfahrung-ist-zukunft.de/SiteGloba=
+ls/StyleBundles/Bilder/Farbschema_A/keyvisual.png?__blob=3Dnormal" alt=3D"E=
+iZ Logo" />
+                </td>
+              </tr>
+              <tr style=3D"height:15.0pt">
+                <td colspan=3D"3" style=3D"padding:0cm 0cm 0cm 0cm;height:1=
+5.0pt"></td>
+              </tr>
+              <tr>
+                <td align=3D"center" colspan=3D"3" style=3D"padding:0cm 0cm=
+ 0cm 0cm;">
+                 =20
+                  <table class=3D"MsoNormalTable" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" id=3D"navi">
+                    <tr>
+                       <td style=3D"padding:0cm 0cm 0cm 0cm">
+                         <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">
+                            <a href=3D"http://www.erfahrung-ist-zukunft.de/=
+DE/Arbeitswelt/arbeitswelt.html" title=3D"Arbeitswelt">
+                              <b><span style=3D"font-size:8.5pt;color:#1849=
+71">Arbeitswelt</span></b>
+                            </a>
+                          </span>
+                        </p>
+                      </td>
+                      <td style=3D"padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                      <td style=3D"border:none;border-left:solid #C9C9C4 1.=
+0pt;padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                       <td style=3D"padding:0cm 0cm 0cm 0cm">
+                         <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">
+                            <a href=3D"http://www.erfahrung-ist-zukunft.de/=
+DE/Bildung/bildung.html" title=3D"Bildung">
+                              <b><span style=3D"font-size:8.5pt;color:#1849=
+71">Bildung</span></b>
+                            </a>
+                          </span>
+                        </p>
+                      </td>
+                      <td style=3D"padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                      <td style=3D"border:none;border-left:solid #C9C9C4 1.=
+0pt;padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                       <td style=3D"padding:0cm 0cm 0cm 0cm">
+                         <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">
+                            <a href=3D"http://www.erfahrung-ist-zukunft.de/=
+DE/Engagement/engagement.html" title=3D"Engagement">
+                              <b><span style=3D"font-size:8.5pt;color:#1849=
+71">Engagement</span></b>
+                            </a>
+                          </span>
+                        </p>
+                      </td>
+                      <td style=3D"padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                      <td style=3D"border:none;border-left:solid #C9C9C4 1.=
+0pt;padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                       <td style=3D"padding:0cm 0cm 0cm 0cm">
+                         <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">
+                            <a href=3D"http://www.erfahrung-ist-zukunft.de/=
+DE/Alltag/alltag.html" title=3D"Alltag">
+                              <b><span style=3D"font-size:8.5pt;color:#1849=
+71">Alltag</span></b>
+                            </a>
+                          </span>
+                        </p>
+                      </td>
+                      <td style=3D"padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                      <td style=3D"border:none;border-left:solid #C9C9C4 1.=
+0pt;padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                       <td style=3D"padding:0cm 0cm 0cm 0cm">
+                         <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">
+                            <a href=3D"http://www.erfahrung-ist-zukunft.de/=
+DE/Erfahrungsberichte/erfahrungsberichte.html" title=3D"Erfahrungsberichte"=
+>
+                              <b><span style=3D"font-size:8.5pt;color:#1849=
+71">Erfahrungsberichte</span></b>
+                            </a>
+                          </span>
+                        </p>
+                      </td>
+                      <td style=3D"padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                      <td style=3D"border:none;border-left:solid #C9C9C4 1.=
+0pt;padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                       <td style=3D"padding:0cm 0cm 0cm 0cm">
+                         <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">
+                            <a href=3D"http://www.erfahrung-ist-zukunft.de/=
+DE/DieInitiative/die-initiative.html" title=3D"Die Initiative">
+                              <b><span style=3D"font-size:8.5pt;color:#1849=
+71">Die Initiative</span></b>
+                            </a>
+                          </span>
+                        </p>
+                      </td>
+                      <td style=3D"padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                      <td style=3D"border:none;border-left:solid #C9C9C4 1.=
+0pt;padding:0cm 0cm 0cm 0cm">
+                        <p>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">&nbsp;&nbsp;</span>
+                        </p>
+                      </td>
+                     =20
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr style=3D"height:6.0pt">
+                <td colspan=3D"2" style=3D"padding:0cm 0cm 0cm 0cm;height:6=
+.0pt"></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr style=3D"height:4.5pt">
+        <td style=3D"padding:0cm 0cm 0cm 0cm;height:4.5pt"></td>
+      </tr>
+      <tr>
+        <td align=3D"center" style=3D"padding:0cm 0cm 0cm 0cm;">
+          <table class=3DMsoNormalTable border=3D"1" cellspacing=3D"0"
+                 cellpadding=3D"0"
+                 style=3D"width:375.0pt;mso-cellspacing:0cm;background:whit=
+e;border:solid #E9E9E9 1.0pt; mso-border-alt:solid #E9E9E9 .75pt;mso-yfti-t=
+bllook:1184;mso-padding-alt:
+ 0cm 0cm 0cm 0cm" id=3D"content">
+            <tr>
+              <td style=3D"border:none;padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr>
+              <td style=3D"border:none;padding:0cm 0cm 0cm 0cm;height:12.0p=
+t"></td>
+            </tr>
+            <tr>
+              <td align=3D"center" style=3D"border:none;padding:0cm 0cm 0cm=
+ 0cm;">
+                <table class=3DMsoNormalTable border=3D"0" cellspacing=3D"0=
+"
+                       cellpadding=3D"0"
+                       style=3D"width:357.0pt;mso-cellspacing:0cm;backgroun=
+d:white;mso-yfti-tbllook: 1184;mso-padding-alt:0cm 0cm 0cm 0cm">
+                  <tr>
+                    <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                      <h1>
+                        <span>EiZ-Newsletter - Ausgabe November 2012</span>
+                      </h1>
+                    </td>
+                  </tr>
+                  <tr style=3D"height:3.0pt">
+                    <td style=3D"padding:0cm 0cm 0cm 0cm;height:3.0pt"></td=
+>
+                  </tr>
+                  <tr>
+                    <td align=3D"left" style=3D'padding:0cm 0cm 0cm 0cm'>
+                      <p class=3Danrede1><span style=3D"color:#333333">Lieb=
+e Leserinnen und Leser,</span></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm;fon=
+t-size:10.0pt;font-family:'Arial','sans-serif';color:#333333">
+                      <p class=3D"MsoNormal" style=3D"margin-bottom:9.0pt">
+                        <span style=3D"font-size:10.0pt;font-family:'Arial'=
+,'sans-serif';color:#333333">
+                          <p>was w=C3=A4re ein aktives Alter ohne Kreativit=
+=C3=A4t? Sie zu leben, h=C3=A4lt Geist und K=C3=B6rper in Schwung, regt die=
+ Phantasie an und sorgt f=C3=BCr echte Gl=C3=BCcksgef=C3=BChle. M=C3=B6glic=
+hkeiten, kreativ zu werden, gibt es viele - wir stellen Ihnen in diesem New=
+sletter das Seniorentheater vor.</p>
+
+<p>Gisela Abels-Lahr hegt eine gro=C3=9Fe Liebe f=C3=BCr kleine Zwei- und V=
+ierbeiner. Die Dame, die in ihrem Heimatort als "Igelmutter" bekannt ist, h=
+at eine Auffangstation f=C3=BCr Tiere gegr=C3=BCndet. Dort p=C3=A4ppelt sie=
+ verletzte V=C3=B6gel, F=C3=BCchse, Schildkr=C3=B6ten auf, bis sie wieder f=
+it f=C3=BCr ein Leben in Freiheit sind (Erfahrungsbericht / Mitten im Leben=
+). </p>
+
+<p>Wer sich ehrenamtlich engagiert, braucht Rahmenbedingungen, die ihn bei =
+der T=C3=A4tigkeit unterst=C3=BCtzen. Die Bundesregierung hat deshalb jetzt=
+ im Kabinett einen Gesetzentwurf beschlossen, der die Arbeit in Initiativen=
+ und Vereinen erleichtern soll.</p>
+
+<p>Ein spezielles Programm f=C3=BCr =C3=84ltere, die als Wikipedia-Autoren =
+Wissen weitergeben m=C3=B6chten, stellen wir Ihnen im Artikel mit dem Titel=
+ "Programm 'Silberwissen': =C3=84ltere als Wikipedia-Autoren" vor. Und schl=
+ie=C3=9Flich haben wir f=C3=BCr Sie - rechtzeitig zum Beginn der kalten Jah=
+reszeit - auch Tipps zum sparsamen Heizen.</p>
+
+                        </span>
+                      </p>
+                      <p class=3D"MsoNormal" style=3D"margin-bottom:9.0pt">
+                        <span style=3D"font-size:10.0pt;font-family:'Arial'=
+,'sans-serif';color:#333333">
+                          Viel Spa=C3=9F beim Weiterlesen und beim Surfen a=
+uf unserer Website  <a href=3D"http://www.erfahrung-ist-zukunft.de" class=
+=3D"RichTextExtLink"><span style=3D"display:inline-block">www.erfahrung-ist=
+-zukunft.de</a> w=C3=BCnscht
+                        </span>
+                      </p>
+                      <p class=3D"MsoNormal" style=3D"margin-bottom:9.0pt">
+                        <span style=3D"font-size:10.0pt;font-family:'Arial'=
+,'sans-serif';color:#333333">
+                          Ihr EiZ-Team
+                        </span>
+                      </p>
+                      <p class=3DMsoNormal>
+                        <strong>
+                          <span style=3D"font-size:10.0pt;font-family:'Aria=
+l','sans-serif';color:#333333">
+                            P.S.: Wird diese E-Mail nicht korrekt dargestel=
+lt? =C3=96ffnen Sie diesen Newsletter im <a  href=3D"http://www.erfahrung-i=
+st-zukunft.de/SharedDocs/Newsletter/newsletter-2012-11.html" title=3D"EiZ-N=
+ewsletter - Ausgabe November 2012">Browser</a>.
+                          </span>
+                        </strong>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr style=3D'mso-yfti-irow:4;height:9.0pt'>
+                    <td style=3D'padding:0cm 0cm 0cm 0cm;height:9.0pt'></td=
+>
+                  </tr>
+                  <tr>
+                    <td style=3D"padding:0cm 0cm 0cm 0cm">
+                      <table class=3D"MsoNormalTable" border=3D"0"
+                             cellspacing=3D"0" cellpadding=3D"0"
+                             width=3D"100%" style=3D"width:100.0%;mso-cells=
+pacing:0cm;mso-yfti-tbllook: 1184;mso-padding-alt:0cm 0cm 0cm 0cm">
+                        <tr>
+                          <td align=3D"left" colspan=3D"2" style=3D"padding=
+:0cm 0cm 0cm 0cm">
+                            <h2>
+                              <span style=3D"color:#333333">Thema der Woche=
+</span>
+                            </h2>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:4.5pt">
+                          <td colspan=3D"2" style=3D"padding:0cm 0cm 0cm 0c=
+m;height:4.5pt"></td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td colspan=3D"2" style=3D"border:none;border-top=
+:solid #C9C9C4 1.0pt;padding:0cm 0cm 0cm 0cm;height:9.0pt"></td>
+                        </tr>
+
+                        <tr>
+                          <td rowspan=3D"4" valign=3D"top" style=3D"padding=
+:0cm 0cm 0cm 0cm">
+                            <p class=3DMsoNormal>
+                                <span style=3D"font-size:10.0pt;font-family=
+:'Arial','sans-serif';color:#333333">
+                                                 <img src=3D"http://www.erf=
+ahrung-ist-zukunft.de/SharedDocs/Bilder/20121105-was-fuer-ein-theater.jpg?_=
+_blob=3Dthumbnail" alt=3D"=C3=84ltere Schauspieler in Theaterkost=C3=BCmen =
+auf der B=C3=BChne" style=3D"width:116px; height:78px" />                  =
+                                =20
+                              </span>
+                            </p>
+                          </td>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"rubrik1">
+                              <span style=3D"color:#333333">ErfahrungWeiter=
+geben</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <h3 style=3D"margin-bottom:0cm;margin-bottom:.0=
+001pt">
+                              <span style=3D"color:#333333">
+                                <a href=3D"http://www.erfahrung-ist-zukunft=
+.de/SharedDocs/Artikel/Engagement/Erfahrung-weitergeben/20121105-was-fuer-e=
+in-theater.html" title=3D"Lesen=C2=A0Sie=C2=A0den=C2=A0Artikel=C2=A0&quot;W=
+as f&#252;r ein Theater! &#196;ltere auf der B&#252;hne&quot;">
+                                  <span style=3D"color:#256878">Was f=C3=BC=
+r ein Theater! =C3=84ltere auf der B=C3=BChne</span>
+                                </a>
+                              </span>
+                            </h3>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"MsoNormal" style=3D"margin-top:0cm;=
+margin-right:9.0pt;margin-bottom:9.0pt;margin-left:9.0pt">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                Wer aus dem Berufsleben ausscheidet, gewinn=
+t vor allem eines: Zeit. Zeit, all das zu tun, was jahre-, oft jahrzehntela=
+ng zu kurz kam. F=C3=BCr viele Menschen ist dies nicht zuletzt die Besch=C3=
+=A4ftigung mit Kunst und Kultur. Mit dem Eintritt in den Ruhestand bietet s=
+ich die Gelegenheit, das Fehlende nachzuholen, (wieder) kreativ zu werden, =
+sich auszuprobieren. Warum nicht auf der B=C3=BChne? Theaterspielen fordert=
+ Geist und K=C3=B6rper, f=C3=B6rdert Fantasie und Einf=C3=BChlungsverm=C3=
+=B6gen. Und macht nicht zuletzt unheimlich Spa=C3=9F!
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"MsoNormal" style=3D"margin-top:0cm;=
+margin-right:9.0pt;margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001p=
+t">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                <img src=3D"http://www.erfahrung-ist-zukunf=
+t.de/SiteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blo=
+b=3Dnormal" alt=3D"Pfeil" />
+                                &nbsp;<a href=3D"http://www.erfahrung-ist-z=
+ukunft.de/SharedDocs/Artikel/Engagement/Erfahrung-weitergeben/20121105-was-=
+fuer-ein-theater.html"
+                                         title=3D"Lesen=C2=A0Sie=C2=A0den=
+=C2=A0Artikel=C2=A0&quot;Was f&#252;r ein Theater! &#196;ltere auf der B&#2=
+52;hne&quot;">
+                                   Beitrag lesen
+                                </a>
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td style=3D"padding:0cm 0cm 0cm 0cm;height:9.0pt=
+"></td>
+                          <td style=3D"padding:0cm 0cm 0cm 0cm;height:9.0pt=
+"></td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td colspan=3D"2" style=3D"border:none;border-top=
+:solid #C9C9C4 1.0pt;padding:0cm 0cm 0cm 0cm;height:9.0pt"></td>
+                        </tr>
+                        <tr>
+                          <td rowspan=3D"4" valign=3D"top" style=3D"padding=
+:0cm 0cm 0cm 0cm">
+                            <p class=3DMsoNormal>
+                                <span style=3D"font-size:10.0pt;font-family=
+:'Arial','sans-serif';color:#333333">
+                                                 <img src=3D"http://www.erf=
+ahrung-ist-zukunft.de/SharedDocs/Bilder/20121106-tierisch-viel-engagement.j=
+pg?__blob=3Dthumbnail" alt=3D"Gisela Abels-Lahr mit jungen F=C3=BCchsen in =
+der Hand" style=3D"width:116px; height:78px" />                            =
+                      =20
+                              </span>
+                            </p>
+                          </td>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"rubrik1">
+                              <span style=3D"color:#333333">Erfahrungsberic=
+hte</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <h3 style=3D"margin-bottom:0cm;margin-bottom:.0=
+001pt">
+                              <span style=3D"color:#333333">
+                                <a href=3D"http://www.erfahrung-ist-zukunft=
+.de/SharedDocs/Erfahrungsberichte/20121106-tierisch-viel-engagement.html" t=
+itle=3D"Lesen=C2=A0Sie=C2=A0den=C2=A0Artikel=C2=A0&quot;Tierisch viel Engag=
+ement&quot;">
+                                  <span style=3D"color:#256878">Tierisch vi=
+el Engagement</span>
+                                </a>
+                              </span>
+                            </h3>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"MsoNormal" style=3D"margin-top:0cm;=
+margin-right:9.0pt;margin-bottom:9.0pt;margin-left:9.0pt">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                Poldi, Schweini, Fix und Foxi, Mogli oder B=
+alu - das sind in Gonsenheim nicht etwa Fu=C3=9Fballspieler der deutschen N=
+ationalmannschaft oder Zeichentrickfiguren, sondern die Namen der Tiere, di=
+e Gisela Abels-Lahr in ihrer Wildtierauffangstation gerettet und wieder auf=
+gep=C3=A4ppelt hat. Seit =C3=BCber 30 Jahren k=C3=BCmmert sich die engagier=
+te Tiersch=C3=BCtzerin um verletzte und verwaiste Tiere. Eine Geschichte =
+=C3=BCber Gisela Abels-Lahr und ihre Sch=C3=BCtzlinge, die zeigt, wie berei=
+chernd F=C3=BCrsorge ist und dass Dankbarkeit mehr ist als nur ein Wort.
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"MsoNormal" style=3D"margin-top:0cm;=
+margin-right:9.0pt;margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001p=
+t">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                <img src=3D"http://www.erfahrung-ist-zukunf=
+t.de/SiteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blo=
+b=3Dnormal" alt=3D"Pfeil" />
+                                &nbsp;<a href=3D"http://www.erfahrung-ist-z=
+ukunft.de/SharedDocs/Erfahrungsberichte/20121106-tierisch-viel-engagement.h=
+tml"
+                                         title=3D"Lesen=C2=A0Sie=C2=A0den=
+=C2=A0Artikel=C2=A0&quot;Tierisch viel Engagement&quot;">
+                                   Beitrag lesen
+                                </a>
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td style=3D"padding:0cm 0cm 0cm 0cm;height:9.0pt=
+"></td>
+                          <td style=3D"padding:0cm 0cm 0cm 0cm;height:9.0pt=
+"></td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td colspan=3D"2" style=3D"border:none;border-top=
+:solid #C9C9C4 1.0pt;padding:0cm 0cm 0cm 0cm;height:9.0pt"></td>
+                        </tr>
+                        <tr>
+                          <td rowspan=3D"4" valign=3D"top" style=3D"padding=
+:0cm 0cm 0cm 0cm">
+                            <p class=3DMsoNormal>
+                                <span style=3D"font-size:10.0pt;font-family=
+:'Arial','sans-serif';color:#333333">
+                                                 <img src=3D"http://www.erf=
+ahrung-ist-zukunft.de/SharedDocs/Bilder/20121107-neues-gesetz-soll-ehrenamt=
+liches-engagement-staerken.jpg?__blob=3Dthumbnail" alt=3D"Eine ehrenamtlich=
+e Mitarbeiterin der Bahnhofsmission begleitet eine =C3=A4ltere Dame zum Zug=
+" style=3D"width:116px; height:78px" />                                    =
+              =20
+                              </span>
+                            </p>
+                          </td>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"rubrik1">
+                              <span style=3D"color:#333333">EngagementImEhr=
+enamt</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <h3 style=3D"margin-bottom:0cm;margin-bottom:.0=
+001pt">
+                              <span style=3D"color:#333333">
+                                <a href=3D"http://www.erfahrung-ist-zukunft=
+.de/SharedDocs/Artikel/Engagement/Ehrenamt/20121107-neues-gesetz-soll-ehren=
+amtliches-engagement-staerken.html" title=3D"Lesen=C2=A0Sie=C2=A0den=C2=A0A=
+rtikel=C2=A0&quot;Neues Gesetz soll ehrenamtliches Engagement st&#228;rken&=
+quot;">
+                                  <span style=3D"color:#256878">Neues Geset=
+z soll ehrenamtliches Engagement st=C3=A4rken</span>
+                                </a>
+                              </span>
+                            </h3>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"MsoNormal" style=3D"margin-top:0cm;=
+margin-right:9.0pt;margin-bottom:9.0pt;margin-left:9.0pt">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                =C3=9Cber ein Drittel aller Deutschen =C3=
+=BCber 14 Jahren bet=C3=A4tigen sich ehrenamtlich. Was sie sich in erster L=
+inie w=C3=BCnschen, sind staatliche Rahmenbedingungen, die sie bei ihrem En=
+gagement unterst=C3=BCtzen. Das Bundeskabinett hat jetzt einen Gesetzentwur=
+f auf den Weg gebracht, der genau hier ansetzt: Vereinsb=C3=BCrokratie soll=
+ abgebaut, Freibetr=C3=A4ge f=C3=BCr =C3=9Cbungsleiter und Ehrenamtliche so=
+llen erh=C3=B6ht werden.
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"MsoNormal" style=3D"margin-top:0cm;=
+margin-right:9.0pt;margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001p=
+t">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                <img src=3D"http://www.erfahrung-ist-zukunf=
+t.de/SiteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blo=
+b=3Dnormal" alt=3D"Pfeil" />
+                                &nbsp;<a href=3D"http://www.erfahrung-ist-z=
+ukunft.de/SharedDocs/Artikel/Engagement/Ehrenamt/20121107-neues-gesetz-soll=
+-ehrenamtliches-engagement-staerken.html"
+                                         title=3D"Lesen=C2=A0Sie=C2=A0den=
+=C2=A0Artikel=C2=A0&quot;Neues Gesetz soll ehrenamtliches Engagement st&#22=
+8;rken&quot;">
+                                   Beitrag lesen
+                                </a>
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td style=3D"padding:0cm 0cm 0cm 0cm;height:9.0pt=
+"></td>
+                          <td style=3D"padding:0cm 0cm 0cm 0cm;height:9.0pt=
+"></td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td colspan=3D"2" style=3D"border:none;border-top=
+:solid #C9C9C4 1.0pt;padding:0cm 0cm 0cm 0cm;height:9.0pt"></td>
+                        </tr>
+                        <tr>
+                          <td rowspan=3D"4" valign=3D"top" style=3D"padding=
+:0cm 0cm 0cm 0cm">
+                            <p class=3DMsoNormal>
+                                <span style=3D"font-size:10.0pt;font-family=
+:'Arial','sans-serif';color:#333333">
+                                                 <img src=3D"http://www.erf=
+ahrung-ist-zukunft.de/SharedDocs/Bilder/20121023-wikimedia-silberwissen-2.j=
+pg?__blob=3Dthumbnail" alt=3D"Mehrere Senioren arbeiten an Computern" style=
+=3D"width:116px; height:78px" />                                           =
+       =20
+                              </span>
+                            </p>
+                          </td>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"rubrik1">
+                              <span style=3D"color:#333333">ErfahrungWeiter=
+geben</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <h3 style=3D"margin-bottom:0cm;margin-bottom:.0=
+001pt">
+                              <span style=3D"color:#333333">
+                                <a href=3D"http://www.erfahrung-ist-zukunft=
+.de/SharedDocs/Artikel/Engagement/Erfahrung-weitergeben/20121023-wikimedia-=
+silberwissen.html" title=3D"Lesen=C2=A0Sie=C2=A0den=C2=A0Artikel=C2=A0&quot=
+;Programm &quot;Silberwissen&quot;: &#196;ltere als Wikipedia-Autoren&quot;=
+">
+                                  <span style=3D"color:#256878">Programm "S=
+ilberwissen": =C3=84ltere als Wikipedia-Autoren</span>
+                                </a>
+                              </span>
+                            </h3>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"MsoNormal" style=3D"margin-top:0cm;=
+margin-right:9.0pt;margin-bottom:9.0pt;margin-left:9.0pt">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                =C3=84ltere verf=C3=BCgen =C3=BCber einen r=
+iesigen Schatz an Wissen, den sie oft nur zu gerne an andere weitergeben w=
+=C3=BCrden. Was in der analogen Welt allerdings gang und g=C3=A4be ist, ist=
+ im Internet noch nicht so weit verbreitet. Dabei gibt es auch dort jede Me=
+nge M=C3=B6glichkeiten - zum Beispiel als Autor der Online-Enzyklop=C3=A4di=
+e Wikipedia. Das Programm "Silberwissen" unterst=C3=BCtzt dabei.
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"MsoNormal" style=3D"margin-top:0cm;=
+margin-right:9.0pt;margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001p=
+t">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                <img src=3D"http://www.erfahrung-ist-zukunf=
+t.de/SiteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blo=
+b=3Dnormal" alt=3D"Pfeil" />
+                                &nbsp;<a href=3D"http://www.erfahrung-ist-z=
+ukunft.de/SharedDocs/Artikel/Engagement/Erfahrung-weitergeben/20121023-wiki=
+media-silberwissen.html"
+                                         title=3D"Lesen=C2=A0Sie=C2=A0den=
+=C2=A0Artikel=C2=A0&quot;Programm &quot;Silberwissen&quot;: &#196;ltere als=
+ Wikipedia-Autoren&quot;">
+                                   Beitrag lesen
+                                </a>
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td style=3D"padding:0cm 0cm 0cm 0cm;height:9.0pt=
+"></td>
+                          <td style=3D"padding:0cm 0cm 0cm 0cm;height:9.0pt=
+"></td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td colspan=3D"2" style=3D"border:none;border-top=
+:solid #C9C9C4 1.0pt;padding:0cm 0cm 0cm 0cm;height:9.0pt"></td>
+                        </tr>
+                        <tr>
+                          <td rowspan=3D"4" valign=3D"top" style=3D"padding=
+:0cm 0cm 0cm 0cm">
+                            <p class=3DMsoNormal>
+                                <span style=3D"font-size:10.0pt;font-family=
+:'Arial','sans-serif';color:#333333">
+                                                 <img src=3D"http://www.erf=
+ahrung-ist-zukunft.de/SharedDocs/Bilder/20121015-richtig-heizen-und-dabei-s=
+paren.jpg?__blob=3Dthumbnail" alt=3D"Heizk=C3=B6rper-Thermostat" style=3D"w=
+idth:116px; height:78px" />                                                =
+  =20
+                              </span>
+                            </p>
+                          </td>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"rubrik1">
+                              <span style=3D"color:#333333">Wohnen</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <h3 style=3D"margin-bottom:0cm;margin-bottom:.0=
+001pt">
+                              <span style=3D"color:#333333">
+                                <a href=3D"http://www.erfahrung-ist-zukunft=
+.de/SharedDocs/Artikel/Alltag/Wohnen/20121012-richtig-heizen-und-dabei-spar=
+en.html" title=3D"Lesen=C2=A0Sie=C2=A0den=C2=A0Artikel=C2=A0&quot;Richtig h=
+eizen und dabei sparen&quot;">
+                                  <span style=3D"color:#256878">Richtig hei=
+zen und dabei sparen</span>
+                                </a>
+                              </span>
+                            </h3>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"MsoNormal" style=3D"margin-top:0cm;=
+margin-right:9.0pt;margin-bottom:9.0pt;margin-left:9.0pt">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                Die kalte Jahreszeit hat begonnen und mit i=
+hr die Heizperiode. Damit diese trotz steigender Brennstoffpreise kein gro=
+=C3=9Fes Loch in die Haushaltskasse rei=C3=9Ft, empfiehlt es sich, einige T=
+ipps zum Energiesparen zu beherzigen. Mit ihnen l=C3=A4sst sich sparen, ohn=
+e zu frieren.
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0=
+cm">
+                            <p class=3D"MsoNormal" style=3D"margin-top:0cm;=
+margin-right:9.0pt;margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001p=
+t">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                <img src=3D"http://www.erfahrung-ist-zukunf=
+t.de/SiteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blo=
+b=3Dnormal" alt=3D"Pfeil" />
+                                &nbsp;<a href=3D"http://www.erfahrung-ist-z=
+ukunft.de/SharedDocs/Artikel/Alltag/Wohnen/20121012-richtig-heizen-und-dabe=
+i-sparen.html"
+                                         title=3D"Lesen=C2=A0Sie=C2=A0den=
+=C2=A0Artikel=C2=A0&quot;Richtig heizen und dabei sparen&quot;">
+                                   Beitrag lesen
+                                </a>
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td style=3D"padding:0cm 0cm 0cm 0cm;height:9.0pt=
+"></td>
+                          <td style=3D"padding:0cm 0cm 0cm 0cm;height:9.0pt=
+"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style=3D"padding:0cm 0cm 0cm 0cm">
+                      <table class=3D"MsoNormalTable" border=3D"0"
+                             cellspacing=3D"0" cellpadding=3D"0"
+                             width=3D"100%" style=3D"width:100.0%;mso-cells=
+pacing:0cm;mso-yfti-tbllook: 1184;mso-padding-alt:0cm 0cm 0cm 0cm">
+                        <tr>
+                          <td align=3D"left" colspan=3D"2" style=3D"padding=
+:0cm 0cm 0cm 0cm">
+                            <h2>
+                              <span style=3D"color:#333333">Veranstaltungen=
+</span>
+                            </h2>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:4.5pt">
+                          <td colspan=3D"2" style=3D"padding:0cm 0cm 0cm 0c=
+m;height:4.5pt"></td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td colspan=3D"2" style=3D"border:none;border-top=
+:solid #C9C9C4 1.0pt;padding:0cm 0cm 0cm 0cm;height:9.0pt"></td>
+                        </tr>
+                        <tr style=3D"height:19.5pt">
+                          <td align=3D"left" width=3D"127" valign=3D"top" s=
+tyle=3D"width:95.25pt;padding:0cm 0cm 0cm 0cm;height:19.5pt">
+                            <p class=3D"MsoNormal" style=3D"margin-bottom:9=
+.0pt">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                         14.11
+
+                             </span>
+                            </p>
+                          </td>
+                          <td align=3D"left" valign=3D"top" style=3D"paddin=
+g:0cm 0cm 0cm 0cm;height:19.5pt">
+                            <p class=3DMsoNormal>
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                <img src=3D"http://www.erfahrung-ist-zukunf=
+t.de/SiteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blo=
+b=3Dnormal" alt=3D"Pfeil" />
+                                &nbsp;<a href=3D"http://www.erfahrung-ist-z=
+ukunft.de/SharedDocs/Veranstaltungen/20121114-gesund-essen-besser-leben.htm=
+l" title=3D"Lesen=C2=A0Sie=C2=A0alle Informationen zur Veranstaltung &quot;=
+&quot;Gesund essen, besser leben&quot;: Kurs zu gesunder Ern&#228;hrung im =
+Alter&quot;">
+                                "Gesund essen, besser leben": Kurs zu gesun=
+der Ern=C3=A4hrung im Alter</a>
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td colspan=3D"2" style=3D"border:none;border-top=
+:solid #C9C9C4 1.0pt;padding:0cm 0cm 0cm 0cm;height:9.0pt"></td>
+                        </tr>
+                        <tr style=3D"height:19.5pt">
+                          <td align=3D"left" width=3D"127" valign=3D"top" s=
+tyle=3D"width:95.25pt;padding:0cm 0cm 0cm 0cm;height:19.5pt">
+                            <p class=3D"MsoNormal" style=3D"margin-bottom:9=
+.0pt">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                         19.11
+ - 20.11
+                             </span>
+                            </p>
+                          </td>
+                          <td align=3D"left" valign=3D"top" style=3D"paddin=
+g:0cm 0cm 0cm 0cm;height:19.5pt">
+                            <p class=3DMsoNormal>
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                <img src=3D"http://www.erfahrung-ist-zukunf=
+t.de/SiteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blo=
+b=3Dnormal" alt=3D"Pfeil" />
+                                &nbsp;<a href=3D"http://www.erfahrung-ist-z=
+ukunft.de/SharedDocs/Veranstaltungen/20121119-senioren-messe-die-besten-jah=
+re.html" title=3D"Lesen=C2=A0Sie=C2=A0alle Informationen zur Veranstaltung =
+&quot;Messe &quot;Die besten Jahre&quot; in Stuttgart&quot;">
+                                Messe "Die besten Jahre" in Stuttgart</a>
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td colspan=3D"2" style=3D"border:none;border-top=
+:solid #C9C9C4 1.0pt;padding:0cm 0cm 0cm 0cm;height:9.0pt"></td>
+                        </tr>
+                        <tr style=3D"height:19.5pt">
+                          <td align=3D"left" width=3D"127" valign=3D"top" s=
+tyle=3D"width:95.25pt;padding:0cm 0cm 0cm 0cm;height:19.5pt">
+                            <p class=3D"MsoNormal" style=3D"margin-bottom:9=
+.0pt">
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                         29.11
+
+                             </span>
+                            </p>
+                          </td>
+                          <td align=3D"left" valign=3D"top" style=3D"paddin=
+g:0cm 0cm 0cm 0cm;height:19.5pt">
+                            <p class=3DMsoNormal>
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                <img src=3D"http://www.erfahrung-ist-zukunf=
+t.de/SiteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blo=
+b=3Dnormal" alt=3D"Pfeil" />
+                                &nbsp;<a href=3D"http://www.erfahrung-ist-z=
+ukunft.de/SharedDocs/Veranstaltungen/20121129-koerber-stiftung-art-lounge-a=
+s-young-as-you-feel.html" title=3D"Lesen=C2=A0Sie=C2=A0alle Informationen z=
+ur Veranstaltung &quot;ART Lounge: &quot;As young as you feel&quot;&quot;">
+                                ART Lounge: "As young as you feel"</a>
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td colspan=3D"2" style=3D"border:none;border-top=
+:solid #C9C9C4 1.0pt;padding:0cm 0cm 0cm 0cm;height:9.0pt"></td>
+                        </tr>
+                        <tr style=3D"height:19.5pt">
+                          <td align=3D"left" colspan=3D"2" valign=3D"top" s=
+tyle=3D"padding:0cm 0cm 0cm 0cm;height:19.5pt">
+                            <p class=3DMsoNormal>
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                <img src=3D"http://www.erfahrung-ist-zukunf=
+t.de/SiteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blo=
+b=3Dnormal" alt=3D"Pfeil" />
+                                &nbsp;<a href=3D"http://www.erfahrung-ist-z=
+ukunft.de/DE/Service/Veranstaltungskalender/veranstaltungskalender.html"
+                                         title=3D"Alle Veranstaltungen anze=
+igen">Alle Veranstaltungen anzeigen</a>
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td colspan=3D"2" style=3D"padding:0cm 0cm 0cm 0c=
+m;height:9.0pt"></td>
+                        </tr>
+                        <tr>
+                          <td align=3D"left" colspan=3D"2" style=3D"padding=
+:0cm 0cm 0cm 0cm">
+                            <h2>
+                              <span style=3D"color:#333333">Der Newsletter =
+als PDF:</span>
+                            </h2>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:4.5pt">
+                          <td colspan=3D"2" style=3D"padding:0cm 0cm 0cm 0c=
+m;height:4.5pt"></td>
+                        </tr>
+                        <tr style=3D"height:19.5pt">
+                          <td align=3D"left" colspan=3D"2" valign=3D"top" s=
+tyle=3D"padding:0cm 0cm 0cm 0cm;height:19.5pt">
+                            <p class=3DMsoNormal>
+                              <span style=3D"font-size:10.0pt;font-family:'=
+Arial','sans-serif';color:#333333">
+                                <img src=3D"http://www.erfahrung-ist-zukunf=
+t.de/SiteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blo=
+b=3Dnormal" alt=3D"Pfeil" />
+                                &nbsp;<a href=3D"http://www.erfahrung-ist-z=
+ukunft.de/SharedDocs/Anlagen/Newsletter-PDFs/20121107-newsletter-november-2=
+012-pdf.pdf?__blob=3DpublicationFile"
+                                         title=3D"=C3=96ffnet im neuen Fens=
+ter:=C2=A0Newsletter November 2012=C2=A0(PDF, 569&nbsp;KB)">Newsletter Nove=
+mber 2012</a>
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr style=3D"height:9.0pt">
+                          <td colspan=3D"2" style=3D"padding:0cm 0cm 0cm 0c=
+m;height:9.0pt"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td align=3D"center" style=3D"padding:0cm 0cm 0cm 0cm">
+          <table class=3D"MsoNormalTable" border=3D"0"
+             cellspacing=3D"0" cellpadding=3D"0" style=3D"width:357.0pt;mso=
+-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm">
+            <tr style=3D"height:15.0pt">
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:15.0pt"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <h2>
+                  <span style=3D"color:#333333">Impressum</span>
+                </h2>
+              </td>
+            </tr>
+            <tr style=3D"height:4.5pt">
+              <td colspan=3D"2" style=3D"padding:0cm 0cm 0cm 0cm;height:4.5=
+pt"></td>
+            </tr>
+            <tr style=3D"height:9.0pt">
+              <td style=3D"border:none;border-top:solid #C9C9C4 1.0pt;paddi=
+ng:0cm 0cm 0cm 0cm;height:9.0pt"></td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:9.0pt"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <p>
+                  <span style=3D"color:#333333">Presse- und Informationsamt=
+ der Bundesregierung</span>
+                </p>
+              </td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <table class=3D"MsoNormalTable" border=3D"0"
+                       cellspacing=3D"0" cellpadding=3D"0" style=3D"width:1=
+00.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm=
+ 0cm">
+                  <tr>
+                    <td width=3D"60" valign=3D"top" style=3D"width:45.0pt;p=
+adding:0cm 0cm 0cm 0cm">
+                      <p>
+                        <span style=3D"color:#333333">E-Mail:&nbsp;</span>
+                      </p>
+                    </td>
+                    <td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+                      <p>
+                        <span style=3D"color:#333333">
+                          <img src=3D"http://www.erfahrung-ist-zukunft.de/S=
+iteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blob=3Dno=
+rmal" alt=3D"Pfeil" />
+                          &nbsp;<a href=3D"&#109;&#97;&#105;&#108;&#116;&#1=
+11;&#58;&#107;&#111;&#110;&#116;&#97;&#107;&#116;&#64;&#101;&#114;&#102;&#9=
+7;&#104;&#114;&#117;&#110;&#103;&#45;&#105;&#115;&#116;&#45;&#122;&#117;&#1=
+07;&#117;&#110;&#102;&#116;&#46;&#100;&#101;"
+                                   title=3D"&#107;&#111;&#110;&#116;&#97;&#=
+107;&#116;&#64;&#101;&#114;&#102;&#97;&#104;&#114;&#117;&#110;&#103;&#45;&#=
+105;&#115;&#116;&#45;&#122;&#117;&#107;&#117;&#110;&#102;&#116;&#46;&#100;&=
+#101;">&#107;&#111;&#110;&#116;&#97;&#107;&#116;&#64;&#101;&#114;&#102;&#97=
+;&#104;&#114;&#117;&#110;&#103;&#45;&#105;&#115;&#116;&#45;&#122;&#117;&#10=
+7;&#117;&#110;&#102;&#116;&#46;&#100;&#101;</a>
+                        </span>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <table class=3D"MsoNormalTable" border=3D"0"
+                       cellspacing=3D"0" cellpadding=3D"0" style=3D"width:1=
+00.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm=
+ 0cm">
+                  <tr>
+                    <td width=3D"60" valign=3D"top" style=3D"width:45.0pt;p=
+adding:0cm 0cm 0cm 0cm">
+                      <p>
+                        <span style=3D"color:#333333">Internet</span>
+                      </p>
+                    </td>
+                    <td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+                      <p>
+                        <span style=3D"color:#333333">
+                          <img src=3D"http://www.erfahrung-ist-zukunft.de/S=
+iteGlobals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blob=3Dno=
+rmal" alt=3D"Pfeil" />
+                          &nbsp;<a href=3D"http://www.erfahrung-ist-zukunft=
+.de" title=3D"Externer Link=C2=A0=C3=96ffnet ein neues Fenster (=C3=96ffnet=
+=C2=A0neues=C2=A0Fenster)" target=3D"_blank">http://www.erfahrung-ist-zukun=
+ft.de</a>
+                        </span>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td style=3D'padding:0cm 0cm 0cm 0cm'></td>
+            </tr>
+            <tr style=3D"height:7.5pt">
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:7.5pt"></td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:7.5pt"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <p>
+                  <span style=3D"color:#333333">Dorotheenstr. 84</span>
+                </p>
+              </td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D'padding:0cm 0cm 0cm 0cm'>
+                <p>
+                  <span style=3D"color:#333333">D-10117 Berlin</span>
+                </p>
+              </td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <p>
+                  <span style=3D"color:#333333">Telefon:&nbsp; 030 18 272 -=
+ 0</span>
+                </p>
+              </td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <p>
+                  <span style=3D"color:#333333">Fax:&nbsp; 030 18 272 - 25 =
+55</span>
+                </p>
+              </td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr style=3D"height:7.5pt">
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:7.5pt"></td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:7.5pt"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <p>
+                  <span style=3D"color:#333333">Wird diese Email nicht korr=
+ekt dargestellt?</span></p>
+              </td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <p>
+                  <span style=3D"color:#333333">
+                    <img src=3D"http://www.erfahrung-ist-zukunft.de/SiteGlo=
+bals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blob=3Dnormal" =
+alt=3D"Pfeil" />
+                    &nbsp;<a href=3D"http://www.erfahrung-ist-zukunft.de/Sh=
+aredDocs/Newsletter/newsletter-2012-11.html"
+                             title=3D"Im Browser =C3=B6ffnen">Im Browser =
+=C3=B6ffnen</a>
+
+                  </span>
+                </p>
+              </td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr style=3D"height:7.5pt">
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:7.5pt"></td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:7.5pt"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <p>
+                  <span style=3D"color:#333333">Sie m=C3=B6chten diesen New=
+sletter abbestellen?</span>
+                </p>
+              </td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <p>
+                  <span style=3D"color:#333333">
+                    <img src=3D"http://www.erfahrung-ist-zukunft.de/SiteGlo=
+bals/StyleBundles/Bilder/EIZ/newsletter/bg-pfeil-blau.png?__blob=3Dnormal" =
+alt=3D"Pfeil" />
+                    &nbsp;<a href=3D"https://www.erfahrung-ist-zukunft.de/D=
+E/Service/Newsletter/newsletter_abbestellen_node.html" title=3D"Zur Rubrik:=
+ Newsletter abbestellen">Zur Abmeldung</a>
+                  </span>
+                </p>
+              </td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr style=3D"mso-yfti-irow:18;height:7.5pt">
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:7.5pt"></td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:7.5pt"></td>
+            </tr>
+            <tr>
+              <td align=3D"left" style=3D"padding:0cm 0cm 0cm 0cm">
+                <p>
+                  <span style=3D"color:#333333">Sie empfangen diese Email, =
+weil Sie sich auf unserer Webseite <a href=3D"http://www.erfahrung-ist-zuku=
+nft.de"><span style=3D"display:inline-block">www.erfahrung-ist-zukunft.de</=
+a> daf=C3=BCr angemeldet haben.</span>
+                </p>
+              </td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm"></td>
+            </tr>
+            <tr style=3D"height:22.5pt">
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:22.5pt"></td>
+              <td style=3D"padding:0cm 0cm 0cm 0cm;height:22.5pt"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

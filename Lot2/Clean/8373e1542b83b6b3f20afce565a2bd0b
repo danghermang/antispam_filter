@@ -1,0 +1,26 @@
+Subject:Re: initramfs-tools - /dev/.initramfs
+On Thu, Sep 13, 2012 at 09:53:08AM +1000, Vincent McIntyre wrote:
+> Hi
+> 
+> I noticed that when /usr/share/initramfs-tools/init
+> from initramfs 0.99~bpo60+1 sets up /dev/.initramfs,
+> it sets it up with permissions 7777/drwsrwsrwt.
+> 
+> Is this correct? I ask because rkhunter is complaining about it.
+> Do you expect any breakage if I used the permissions set by 0.98.8,
+> ie 0755/drwxr-xr-x?
+> 
+
+Further investigation turns up #655175 and the fix:
+
+http://anonscm.debian.org/gitweb/?p=kernel/initramfs-tools.git;a=commitdiff;h=042c5c94deb428109204e8a58385898d1f392bf3;hp=f87e71b8b1c1e5b1f4683dd7d171c515b8aa2b79
+
+Could this be applied to the backport please?
+Vince
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120913000648.GD16168@mayhem.atnf.CSIRO.AU
+

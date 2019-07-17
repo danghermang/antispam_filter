@@ -1,0 +1,48 @@
+Subject:Re: systemd : =?UTF-8?B?cHJvYmzDqG1lIGTDqW1hcnJhZ2Ugc2VydmljZXMg?=
+	=?UTF-8?B?YXUgYm9vdA==?=
+Le 10/09/2012 16:09, maderios a écrit :
+> On 09/10/2012 02:41 PM, Frédéric Massot wrote:
+[...]
+>> Quels sont les premiers messages d'erreurs dans les logs suite au boot ?
+>>
+>
+> Je n'ai rien dans syslog à partir du dernier reboot parce que rsyslog
+> n'a pas été démarré par systemd
+> C'est donc pire que lors de ma première installation de systemd le 6
+> septembre dernier. J'ai des traces de systemd concernant les jours
+> précédents
+>
+> dbus[1105]: [system] Activated service 'org.freedesktop.systemd1'
+> failed: Launch helper exited with unknown return code 1
+
+Il y a eu un bug l'année dernière où le principal symptôme était le non 
+démarrage de dbus et donc de tout ce qui en dépendait, regarde ce rapport :
+
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=634472
+
+Le problème venait d'autres paquets dont les scripts d'initialisation 
+perturbait Systemd.
+
+
+Tu as regardé s'il n'y a pas déjà un rapport de bug qui ressemble au tiens ?
+
+http://bugs.debian.org/cgi-bin/pkgreport.cgi?dist=unstable;package=systemd
+
+
+-- 
+==============================================
+|              FRÉDÉRIC MASSOT               |
+|     http://www.juliana-multimedia.com      |
+|   mailto:frederic@juliana-multimedia.com   |
+| +33.(0)2.97.54.77.94  +33.(0)6.67.19.95.69 |
+===========================Debian=GNU/Linux===
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504E1441.5010909@juliana-multimedia.com
+

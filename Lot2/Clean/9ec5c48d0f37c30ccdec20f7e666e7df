@@ -1,0 +1,45 @@
+Subject:Re: Fwd: RAID
+El Thu, 22 Nov 2012 07:46:57 -0600, Francisco Eduardo Ascencio Dominguez
+escribió:
+
+> Buenos días. ok tengo una duda.
+
+¿Has hecho un reenvío? :-?
+
+Corrijo las citas.
+ 
+> ok si tenemos dos discos en raid espejo 
+
+Supongo que refieres a un nivel de RAID 1.
+
+> que pasa si el primero se quema ? 
+
+Si se quema tendrás que conseguir un extintor de CO₂ para apagar el fuego 
+lo antes posible y con las menores consecuencias :-P
+
+> mis datos quedan en el otro disco pero si quiero iniciar la maquina con
+> el otro disco solo se queda un cursor parpadeando 
+
+Si mal no recuerdo, tienes que tener GRUB instalado en el MBR de ambos 
+discos.
+
+> y otra pregunta si quiero remplazar ese disco quemado como lo hago ?  
+
+Vas a la tienda y compras un disco que se adecúe a tus necesidades. Si la 
+cabina de discos no permite la extracción en caliente, apaga el equipo y 
+reemplaza el disco, inicia el sistema y ejecuta el programa de 
+administración del array (el que fuere) para que empiece con la 
+reconstrucción del volumen y reza para que en el ínterin no se produzca 
+una combustión espontánea que "queme" el segundo disco >>>:-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8lfd8$19p$5@ger.gmane.org
+

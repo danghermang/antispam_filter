@@ -1,0 +1,24 @@
+Subject:Re: [Koha] Barcode - Gaps
+Hi Yesan.
+
+I do not know if the question has been answered in the koha list. However I
+> want to know if there is a SQL script to find the missing barcodes or
+> accession numbers in the database.
+>
+> As I have done bulk import and I would like to find accession/barcode
+> number
+> gaps, so that I would fill the gaps.
+>
+
+I'm not familiar with Koha's reports, but you could try or adapt some of
+the Catalog/Bibliographic Reports e.g. Null barcodes:
+http://wiki.koha-community.org/wiki/SQL_Reports_Library
+http://wiki.koha-community.org/wiki/SQL_Reports_Library#Catalog.2FBibliographic_Reports
+
+David Nind | david.nind@gmail.com
+PO Box 12367, Thorndon, Wellington, New Zealand 6144
+h. +64 4 9720 600 | m. +64 21 0537 847 | w. +64 4 8906 098
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

@@ -1,0 +1,75 @@
+Subject:Re: Ayuda Urgente: Iptables e ip rule no funcionan correctamente en
+	debian 6?
+
+
+El 06/09/12 18:26, Juan Antonio escribió:
+> El 06/09/12 17:39, Francisco J. Bejarano escribió:
+>> Trazo los puertos y se salta la regla 30012, en fin, no entiendo como
+>> funciona esto. Se supone que los numeros de prioridad son para algo...
+>> alguna sugerencia? a mi ya me duele la cabeza...
+> algunas pruebas que he hecho.
+>
+> [root@blackpearl ~]# ip ru ls
+> 0:    from all lookup local
+> 100:    from 192.168.12.35 fwmark 0x1 lookup t1
+> 101:    from 192.168.12.35 lookup t2
+> 32766:    from all lookup main
+> 32767:    from all lookup default
+>
+> [root@blackpearl ~]# iptables -t mangle -vnL PREROUTING
+> Chain PREROUTING (policy ACCEPT 185K packets, 116M bytes)
+>  pkts bytes target     prot opt in     out     source              
+> destination        
+>     0     0 MARK       tcp  --  *      *       192.168.12.35       
+> 0.0.0.0/0            tcp dpt:25 MARK set 0x1
+>
+> root@blackpearl ~]# ip ro get 157.55.43.16 from 192.168.12.35 iif eth0
+> 157.55.43.16 from 192.168.12.35 via 192.168.12.100 dev eth0  src
+> 192.168.12.91
+>     cache <src-direct,redirect>  iif eth0
+> [root@blackpearl ~]# ip ro get 157.55.43.16 from 192.168.12.35 iif eth0
+> mark 0x1
+> 157.55.43.16 from 192.168.12.35 via 172.16.0.1 dev tap1  src
+> 192.168.12.91  mark 1
+>     cache <src-direct>  iif eth0
+>
+> todo correcto hasta aqui. cambiamos la prioridad
+>
+> [root@blackpearl ~]# ip ru del from 192.168.12.35 lookup t2
+> [root@blackpearl ~]# ip ru add from 192.168.12.35 priority 99 table t2
+> [root@blackpearl ~]# ip ro get 157.55.43.16 from 192.168.12.35 iif eth0
+> mark 0x1
+> 157.55.43.16 from 192.168.12.35 via 192.168.12.100 dev eth0  src
+> 192.168.12.91  mark 1
+>     cache <src-direct,redirect>  iif eth0
+>
+>
+> y hasta aqui también.
+>
+> [root@blackpearl ~]# uname -r
+> 3.4.9-1-ARCH
+
+Uff, vamos que podría ser la version del nucleo y la implementacion de
+iproute2 junto con el...
+uname -r
+2.6.32-5-686
+
+
+
+-- 
+-----------------------------------------------------------------
+Francisco J. Bejarano
+Responsable de Sistemas
+Dpt. Sistemas e Infraestructuras
+Open Knowledge Network S.L.
+francisco.bejarano@openknowledgenetwork.com
+Tel. (+34) 902 534 004
+Fax. (+34) 917 266 476
+-----------------------------------------------------------------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50499822.5010806@openknowledgenetwork.com
+

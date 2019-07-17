@@ -1,0 +1,189 @@
+Subject:Re: [okfn-discuss] [pd-discuss] Entering the Public Domain in 2013
+Just in case it's not enough, it's possible to query Google Freebase as wel=
+l:
+
+http://www.freebase.com/queryeditor
+
+[{ type: "/book/author"
+   "/people/deceased_person/date_of_death|=3D" : ["1942"]
+   "name" : null
+   "limit" : 700
+}]
+
+-----
+Yury Katkov, WikiVote
+
+
+
+On Mon, Oct 29, 2012 at 7:18 PM, Finn =C5rup Nielsen <fn@imm.dtu.dk> wrote:
+> On 29-10-2012 15:49, Yury Katkov wrote:
+>>>
+>>>   Does anyone know how if it's possible to
+>>> cross-reference 'Category:1942 deaths' with 'Category:Writers'? There a=
+re
+>>> over 2,000 1942 deaths!
+>
+>
+> If you do not want to use DBpedia's SPARQL service you can use CatScan:
+>
+> http: / / toolserver .
+> org/~daniel/WikiSense/CategoryIntersect.php?wikilang=3Den&wikifam=3D.wiki=
+pedia.org&basecat=3D1942+deaths&basedeep=3D1&mode=3Dcs&tagcat=3DWriters&tag=
+deep=3D3&go=3DScan&format=3Dhtml&userlang=3Den
+>
+> (remove spaces: I do not think you should execute that query too often. It
+> put a high load on the toolserver)
+>
+> I find 116 articles.
+>
+>
+> -- Finn =C5rup Nielsen, http://www.imm.dtu.dk/~fn/
+>
+>
+>> I sure know:
+>> Go to this resource: http://dbpedia.org/sparql
+>>
+>> and put the following query:
+>>
+>> SELECT DISTINCT ?a WHERE {
+>> ?a dcterms:subject category:1942_deaths;
+>>     rdf:type dbpedia-owl:Writer} LIMIT 1000
+>>
+>> if however you want to see all the writers who died before 1942, it's
+>> better to do like that:
+>>
+>> select distinct ?a where {
+>> ?a dbpedia-owl:deathDate ?deathDate;
+>>     rdf:type dbpedia-owl:Writer
+>> FILTER (?deathDate<"1942-01-01"^^xsd:date)} LIMIT 1000
+>> -----
+>> Yury Katkov, WikiVote
+>>
+>>
+>>
+>> On Mon, Oct 29, 2012 at 4:47 PM, Chris Sakkas <sanglorian@gmail.com>
+>> wrote:
+>>>
+>>> That's a great resource, Jonathan. Does anyone know how if it's possible
+>>> to
+>>> cross-reference 'Category:1942 deaths' with 'Category:Writers'? There a=
+re
+>>> over 2,000 1942 deaths!
+>>>
+>>> Cheers,
+>>>
+>>> Chris Sakkas
+>>> Admin of the FOSsil Bank wiki and the Living Libre blog and Twitter fee=
+d.
+>>>
+>>>
+>>>
+>>> On 29 October 2012 21:47, Jonathan Gray <jonathan.gray@okfn.org> wrote:
+>>>>
+>>>>
+>>>> This might be handy:
+>>>>
+>>>> http://en.wikipedia.org/wiki/Category:1942_deaths
+>>>>
+>>>> J.
+>>>>
+>>>> On Mon, Oct 29, 2012 at 10:04 AM, Sam Leon <sam.leon@okfn.org> wrote:
+>>>>>
+>>>>>
+>>>>> Dear All,
+>>>>>
+>>>>> Like most years we want to get together a list of interesting figures
+>>>>> whose work will be entering the public domain next year (2013).
+>>>>>
+>>>>> I've booted a spreadsheet [1] which we can all begin populating with
+>>>>> the
+>>>>> authors whose published works will enter the public domain in the UK =
+in
+>>>>> 2013
+>>>>> (70 years after the death of author).
+>>>>>
+>>>>> We plan to feature this list on the Public Domain Review and use it as
+>>>>> a
+>>>>> point of reference for the collections and articles we get in 2013.
+>>>>>
+>>>>> All the best,
+>>>>> Sam
+>>>>>
+>>>>> [1]
+>>>>>
+>>>>> https://docs.google.com/spreadsheet/ccc?key=3D0Al6mO9_3Hr2PdHJxTFNGSk=
+0wWEdnY2FrMXNmSXlmU2c#gid=3D0
+>>>>>
+>>>>> --
+>>>>> Sam Leon
+>>>>> Community Coordinator
+>>>>> Open Knowledge Foundation
+>>>>> http://okfn.org/
+>>>>> Skype: samedleon
+>>>>>
+>>>>>
+>>>>> _______________________________________________
+>>>>> pd-discuss mailing list
+>>>>> pd-discuss@lists.okfn.org
+>>>>> http://lists.okfn.org/mailman/listinfo/pd-discuss
+>>>>> Unsubscribe:
+>>>>>
+>>>>> http://lists.okfn.org/mailman/options/pd-discuss/jonathan.gray%40okfn=
+.org
+>>>>>
+>>>>
+>>>>
+>>>>
+>>>> --
+>>>> Jonathan Gray
+>>>>
+>>>> Head of Community
+>>>> The Open Knowledge Foundation
+>>>> http://www.okfn.org
+>>>>
+>>>> http://twitter.com/jwyg
+>>>>
+>>>> _______________________________________________
+>>>> okfn-discuss mailing list
+>>>> okfn-discuss@lists.okfn.org
+>>>> http://lists.okfn.org/mailman/listinfo/okfn-discuss
+>>>> Unsubscribe:
+>>>>
+>>>> http://lists.okfn.org/mailman/options/okfn-discuss/sanglorian%40gmail.=
+com
+>>>>
+>>>
+>>>
+>>> _______________________________________________
+>>> okfn-discuss mailing list
+>>> okfn-discuss@lists.okfn.org
+>>> http://lists.okfn.org/mailman/listinfo/okfn-discuss
+>>> Unsubscribe:
+>>>
+>>> http://lists.okfn.org/mailman/options/okfn-discuss/katkov.juriy%40gmail=
+.com
+>>>
+>>
+>> _______________________________________________
+>> okfn-discuss mailing list
+>> okfn-discuss@lists.okfn.org
+>> http://lists.okfn.org/mailman/listinfo/okfn-discuss
+>> Unsubscribe:
+>> http://lists.okfn.org/mailman/options/okfn-discuss/fn%40imm.dtu.dk
+>>
+>
+>
+> _______________________________________________
+> okfn-discuss mailing list
+> okfn-discuss@lists.okfn.org
+> http://lists.okfn.org/mailman/listinfo/okfn-discuss
+> Unsubscribe:
+> http://lists.okfn.org/mailman/options/okfn-discuss/katkov.juriy%40gmail.c=
+om
+
+_______________________________________________
+okfn-discuss mailing list
+okfn-discuss@lists.okfn.org
+http://lists.okfn.org/mailman/listinfo/okfn-discuss
+Unsubscribe: http://lists.okfn.org/mailman/options/okfn-discuss/darebineave=
+dealucruriledefoartemulteori%40honeypots.ro

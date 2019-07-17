@@ -1,0 +1,339 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<solvangfarm@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <arabselect@bmsend.com>
+Received: (qmail 20939 invoked by uid 89); 11 Dec 2012 13:52:25 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 11 Dec 2012 13:52:25 -0000
+Delivery-date: Tue, 11 Dec 2012 05:50:46 -0800
+Received: from mr86.mr.bmdeda99.com ([5.9.190.196]) helo=mr86.mr.bmdeda99.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1TiQEG-0002RB-8o on interface=184.105.182.43
+	for solvangfarm@activ8.net.au; Tue, 11 Dec 2012 05:50:45 -0800
+Received: from mr86.mr.bmdeda99.com (localhost.localdomain [127.0.0.1])
+	by mr86.mr.bmdeda99.com (Postfix) with ESMTP id 17E3778E4D0C
+	for <solvangfarm@activ8.net.au>; Tue, 11 Dec 2012 08:50:58 -0500 (EST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=arabian-select.bmsend.com;
+	 h=reply-to:list-unsubscribe:from:sender:to:subject:date
+	:mime-version:content-type; s=bmdeda; bh=2VUnc1PqsNC6fv9JJ7bNmuN
+	024A=; b=aEDl9D3C24BsU7791g0O/7B5bUChuqL8F6q1EAmphhKuchYkTMEBSeZ
+	EgvZzwC/Bwr7zuL3rsTUfm3KTGFVdWsHWhXMNsG+gNM7NQC/XRa/yIjnEoUnOWLg
+	O6YLXQ0s8h43p8rKoYg0t15dPy/Og5jXnvaFF2RkTTxjP443C8Ck=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=arabian-select.bmsend.com;
+	 h=reply-to:list-unsubscribe:from:sender:to:subject:date
+	:mime-version:content-type; q=dns; s=bmdeda; b=UOsWBi1vMAXXQAG7z
+	NOmEjTg7UImAvJYiEb2+sdt9sUsIh4hMWRY/q0rBsC8E54v4wr9gQpKQkKfLyHzO
+	WnSwmoolFpditqAKPtna5CL3Am77nXVYmnue/LuH4gv2dD7pPfpXIaX+/1ZzwGtj
+	8H7JKEpDICsF2S1JBWutbbNm3M=
+Reply-To: arabselect@yahoo.com
+X-Identify: <1797463_85181704@benchmarkemail.com>
+X-campaignid: 1797463
+RemoveEmail: unsubscribe.asp?g=0&c=1797463&l=85181704&e=solvangfarm@activ8.net.au&ver=2&SentFromServer=5.9.190.196
+SentFromServer: 5.9.190.196
+List-Unsubscribe: <http://www.benchmarkemail.com/c/u?9tSN8Jgb1CaxsXM2Fk6%2BDNIsL3Crp3KOBAJEBuPlQKQd8LKOcpTyulMeZCH8Q110QwaZMgM6oSpRlJa13%2FsIJw%3D%3D>
+From: "Arabian Select" <arabselect@yahoo.com>
+Sender: "Arabian Select" <arabselect@arabian-select.bmsend.com>
+To: "solvangfarm@activ8.net.au" <solvangfarm@activ8.net.au>
+Subject: Hands On Clinic, The Varian Way!
+Date: Tue, 11 Dec 2012 08:50:19 -0500
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_NextPart_15242134431112200135019541"
+X-Link-screwed: viewpage.benchm
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Freemail-From: yahoo.com
+X-Freemail-Reply-to: yahoo.com
+X-Mail-from: arabselect@bmsend.com
+X-Link-screwed: viewpage.benchm
+X-Relay-Countries: unknown unknown
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd0.ctyme.com
+ Spam Tests:
+ *  0.0 FREEMAIL_FROM Sender email is freemail (arabselect[at]yahoo.com)
+ *  0.0 DKIM_ADSP_CUSTOM_MED No valid author signature, adsp_override is
+ *      CUSTOM_MED
+ *  1.0 FORGED_YAHOO_RCVD 'From' yahoo.com does not match 'Received' headers
+ *  1.0 EMAIL_MARKETING BODY: Talks about email marketing
+ *  1.1 URI_HEX URI: URI hostname has long hexadecimal sequence
+ *  0.4 HTML_IMAGE_RATIO_02 BODY: HTML has a low ratio of text to image area
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ * -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+ *  0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily
+ *      valid
+ *  0.5 MISSING_MID Missing Message-Id: header
+ *  0.9 NML_ADSP_CUSTOM_MED ADSP custom_med hit, and not from a mailing list
+X-Spam-Class: SPAM-LOW
+X-Sender-Host-Address: 5.9.190.196
+X-Sender-Host-Name: mr86.mr.bmdeda99.com
+X-Spam-Flag: yes
+
+------=_NextPart_15242134431112200135019541
+Content-type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Having trouble viewing this email=3F click here: http://viewpage=2Ebenchm=
+arkemail=2Ecom/c/v=3Fe=3D245FF9&c=3D2165E&l=3D513C508&email=3DNyB9CuN4lum=
+ZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2FghOQ%3D&relid=3D509BEC4
+Arabian Origins Marketing
+
+[1]
+
+[2]
+
+You are a member of the Arabian Select Marketing community,
+
+one of the most affordable and effective marketing venues
+
+in today's market=2E Arabian Select offers premium opportunities
+
+for showcasing Arabian horses to farms, breeders, trainers,
+
+and owners around the world=2E
+
+E-mails and advertising distributed on behalf of our clients
+
+may not represent the views and opinions of Arabian Select=2E
+
+ [3] [4]
+
+
+ References:
+
+1=2E u=3D1DBB7B1
+2=2E u=3D1DBB7B5
+3=2E u=3D1DBB7B6
+4=2E u=3D1DBB7B7
+
+
+
+
+This message was sent to solvangfarm@activ8=2Enet=2Eau by arabselect@yaho=
+o=2Ecom
+
+You can modify/update your subscription via the link below=2E
+
+Unsubscribe from all mailings
+http://www=2Ebenchmarkemail=2Ecom/c/su=3Fe=3D245FF9&c=3D2165E&l=3D513C508=
+&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2FghOQ%3D&relid=3D509BE=
+C4
+
+Manage Subscription
+http://www=2Ebenchmarkemail=2Ecom/c/s=3Fe=3D245FF9&c=3D2165E&l=3D513C508&=
+email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2FghOQ%3D&relid=3D509BEC=
+4
+
+Forward Email
+http://www=2Ebenchmarkemail=2Ecom/c/f=3Fe=3D245FF9&c=3D2165E&l=3D513C508&=
+email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2FghOQ%3D&relid=3D509BEC=
+4
+
+Report Abuse
+http://www=2Ebenchmarkemail=2Ecom/Abuse=3Fe=3D245FF9&c=3D2165E&l=3D513C50=
+8&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2FghOQ%3D&relid=3D509B=
+EC4
+
+Email Marketing
+BenchmarkEmail=2Ecom
+ [http://www=2Ebenchmarkemail=2Ecom]
+
+Address: 1830 E Parks Ste A113 PMB 330, Wasilla, AK, 99654
+
+
+------=_NextPart_15242134431112200135019541
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+<!--=20
+unsubscribe=2Easp=3Fg=3D0&c=3D1797463&l=3D85181704&e=3Dsolvangfarm@activ8=
+=2Enet=2Eau&ver=3D2&SentFromServer=3D5=2E9=2E190=2E196
+ -->
+<!-- Online Path -->
+<div align=3D"center"=20
+ style=3D"width:100%">
+<div
+ style=3D"font-size:11px; color:#666666; font-family:Arial, Helvetica, sa=
+ns-serif; width:600px; padding-bottom:5px;" align=3D"center">
+Having trouble viewing this email=3F <a target=3D=5Fnew
+ href=3D"http://www=2Ebenchmarkemail=2Ecom/c/v=3Fe=3D245FF9&c=3D2165E&l=3D=
+513C508&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2FghOQ%3D&relid=3D=
+509BEC4">click here</a>
+</div></div>
+<!-- /Online Path -->
+<html>
+<head>
+<title>Arabian Origins Marketing</title>
+<style type=3D"text/css">
+<!--
+body {
+  background-color: #000;
+}
+-->
+</style>
+<meta name=3D"GENERATOR" content=3D"MSHTML 8=2E00=2E6001=2E19222" />
+</head>
+<body
+ style=3D"background-color: #000000;">
+<center><center><img
+ src=3D"http://r20=2Ers6=2Enet/on=2Ejsp=3Ft=3D1111823611226=2E0=2E1102539=
+684987=2E18380&amp;ts=3DS0850&amp;o=3Dhttp://ui=2Econstantcontact=2Ecom/i=
+mages/p1x1=2Egif" alt=3D" " width=3D"1" height=3D"1" />
+
+<table align=3D"center" border=3D"0"
+ style=3D"width: 650px;">
+<tbody>
+<tr><th scope=3D"row"><a
+ href=3D"http://www=2Ebenchmarkemail=2Ecom/c/l=3Fu=3D1DBB7B1&e=3D245FF9&c=
+=3D2165E&t=3D0&l=3D513C508&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2B=
+gW%2FghOQ%3D" target=3D=5Fblank><img
+ src=3D"https://origin=2Eih=2Econstantcontact=2Ecom/fs119/1102539684987/i=
+mg/808=2Ejpg" width=3D"700" height=3D"1711" border=3D"0" /></a></th></tr>=
+
+<tr><th scope=3D"row">&nbsp;</th></tr>
+</tbody>
+
+</table>
+</center></center>
+
+<table bgcolor=3D"#000000" border=3D"5" cellpadding=3D"0" cellspacing=3D"=
+0"
+ style=3D"width: 104=2E71%; 269px;" name=3D"block=5FArticle" background=3D=
+"none #000000">
+<tbody>
+<tr>
+<td
+ style=3D"text-align: center;">
+<br />&nbsp;
+<br />&nbsp; &nbsp;
+&nbsp; &nbsp;
+&nbsp; &nbsp;
+&nbsp; &nbsp;
+&nbsp;
+
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0"
+ style=3D"padding: 0px;" name=3D"imgHolder">
+<tbody>
+<tr>
+<td align=3D"center"><a
+ href=3D"http://www=2Ebenchmarkemail=2Ecom/c/l=3Fu=3D1DBB7B5&e=3D245FF9&c=
+=3D2165E&t=3D0&l=3D513C508&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2B=
+gW%2FghOQ%3D" target=3D=5Fblank><img caption=3D""
+ src=3D"http://images=2Ebenchmarkemail=2Ecom/client136798/image415896=2Ej=
+pg" alt=3D"" width=3D"178" height=3D"141" border=3D"0" hspace=3D"0" /></a=
+></td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"CaptionText"
+ style=3D"font-family: Arial, Verdana; font-size: 12px;"></td>
+</tr>
+</tbody>
+
+</table>
+&nbsp; &nbsp;
+&nbsp; &nbsp;
+
+<br /><span
+ style=3D"color: #ffffff;">You are a member of the Arabian Select Marketi=
+ng community,</span>
+<br /><span
+ style=3D"color: #ffffff;">one of&nbsp;the most affordable and effective =
+marketing venues
+<br />in today's market=2E Arabian Select&nbsp;offers premium&nbsp;opport=
+unities
+<br />for showcasing Arabian horses to farms, breeders, trainers,
+<br />and owners around the world=2E
+<br />
+<br />E-mails and advertising distributed on behalf of our clients
+<br />may not represent&nbsp;the views and opinions of Arabian Select=2E&=
+nbsp;&nbsp;
+<br />
+<br />
+<br />&nbsp;<span><a
+ href=3D"http://www=2Ebenchmarkemail=2Ecom/c/l=3Fu=3D1DBB7B6&e=3D245FF9&c=
+=3D2165E&t=3D0&l=3D513C508&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2B=
+gW%2FghOQ%3D" target=3D=5Fblank><img
+ src=3D"http://www=2Ebenchmarkemail=2Ecom/images/icons/facefind=2Ejpg" bo=
+rder=3D"0" /></a><span>&nbsp;&nbsp; &nbsp;<span><a
+ href=3D"http://www=2Ebenchmarkemail=2Ecom/c/l=3Fu=3D1DBB7B7&e=3D245FF9&c=
+=3D2165E&t=3D0&l=3D513C508&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2B=
+gW%2FghOQ%3D" target=3D=5Fblank><img
+ src=3D"http://www=2Ebenchmarkemail=2Ecom/images/icons/tubefind=2Epng" bo=
+rder=3D"0" /></a><span>&nbsp;=20
+<br /></span></span></span></span>
+<br /></span></td>
+</tr>
+</tbody>
+
+</table>
+</body></html><!-- Footer Path -->
+<div align=3D"center"  class=3Dbmefooter><div
+ style=3D"width: 600px; font-family: Verdana,Arial,Helvetica,sans-serif; =
+font-size: 10px; text-align: left; padding-top:10px;" align=3Dcenter>
+
+<table width=3D"600" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ali=
+gn=3D"center">
+<tr><td align=3Dleft width=3D"79%"
+ style=3D"color: #666666;font-family: Verdana,Arial,Helvetica,sans-serif;=
+ font-size: 10px;" class=3Dbmefootertext>
+This message was sent to solvangfarm@activ8=2Enet=2Eau by arabselect@yaho=
+o=2Ecom
+<div
+ style=3D"padding-top: 10px; font-size: 10px;" class=3Dbmefootertext><a c=
+lass=3Dbmefootertext=20
+ href=3D"http://www=2Ebenchmarkemail=2Ecom/c/su=3Fe=3D245FF9&c=3D2165E&l=3D=
+513C508&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2FghOQ%3D&relid=3D=
+509BEC4">Unsubscribe</a>   | <a class=3Dbmefootertext=20
+ href=3D"http://www=2Ebenchmarkemail=2Ecom/c/s=3Fe=3D245FF9&c=3D2165E&l=3D=
+513C508&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2FghOQ%3D&relid=3D=
+509BEC4">Manage Subscription</a>   |  <a class=3Dbmefootertext=20
+ href=3D"http://www=2Ebenchmarkemail=2Ecom/c/f=3Fe=3D245FF9&c=3D2165E&l=3D=
+513C508&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2FghOQ%3D&relid=3D=
+509BEC4">Forward Email</a>  |  <a class=3Dbmefootertext=20
+ href=3D"http://www=2Ebenchmarkemail=2Ecom/Abuse=3Fe=3D245FF9&c=3D2165E&l=
+=3D513C508&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2FghOQ%3D&rel=
+id=3D509BEC4">Report Abuse</a>
+<br /></div>
+<br/></td><td width=3D"21%" align=3D"left"
+ style=3D"padding-left:10px;"><div
+ style=3D"color:#607d95; font-family:Tahoma, arial; font-size:10px;" alig=
+n=3D"left"></div><a
+ href=3D"http://www=2Ebenchmarkemail=2Ecom/sign-up/email=3Futm=5Fsource=3D=
+cus-foot&utm=5Fmedium=3Demail&utm=5Fcampaign=3Dft-logo-footer&e=3D245FF9&=
+c=3D2165E&l=3D513C508&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2F=
+ghOQ%3D&relid=3D509BEC4" target=3D""><img border=3D"0"
+ src=3D"http://www=2Ebenchmarkemail=2Ecom/mail=5Flogo=5Fnew=2Egif" /></a>=
+
+<br/></td></tr>
+</table></div></div><div align=3D"center"  class=3Dbmefooter>
+<div
+ style=3D"text-align:left;">
+
+<table width=3D"600" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ali=
+gn=3D"center"><tr><td
+ style=3D"font-size: 10px; font-family: Verdana,Arial,Helvetica,sans-seri=
+f; color: #666666;" class=3Dbmefootertext>
+1830 E Parks Ste A113 PMB 330, Wasilla, AK, 99654</td></tr><tr><td>
+<br /></td></tr>
+</table></div></div><!-- /Footer Path -->
+<img
+ src=3D'http://www=2Ebenchmarkemail=2Ecom/c/o=3Fe=3D245FF9&c=3D2165E&l=3D=
+513C508&email=3DNyB9CuN4lumZN5vAUDSS%2F24oxiQxFgiCkH2BgW%2FghOQ%3D&relid=3D=
+509BEC4'>
+<!--=20
+unsubscribe=2Easp=3Fg=3D0&c=3D1797463&l=3D85181704&e=3Dsolvangfarm@activ8=
+=2Enet=2Eau&ver=3D2&SentFromServer=3D5=2E9=2E190=2E196
+ -->
+
+<!-- campaignid: 1797463 -->
+
+------=_NextPart_15242134431112200135019541--
+
+

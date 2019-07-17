@@ -1,0 +1,43 @@
+Subject:Re: OT: la arquitectura correcta para un intel i5 es AMD64?
+On 18/10/12 16:30, Paulo wrote:
+> Hola amigos, he le=EDdo por ah=ED que la arquitectura que se debe usar=20
+> para un procesador i5 de intel es la AMD64? en varios foros he visto=20
+> aquello, por eso les quisiera preguntar a ustedes, =BFser=E1 cierto?, l=
+o=20
+> que pasa es que esos comentarios que encontr=E9 son como del 2010 para=20
+> atr=E1s, ya est=E1n medios viejones y si bien no hablaban del i5 en=20
+> particular dec=EDan que los procesadores intel de 64 bit de ese momento=
+=20
+> pod=EDan usar la arquitectura AMD64.
+>
+> Adem=E1s he le=EDdo que la arquitectura que yo cre=EDa la correcta IA64=
+ es=20
+> s=F3lo para procesadores Itanium o algo por el estilo.
+>
+> As=ED que si alguien sabe se agradece de antemano su respuesta, gracias=
+=20
+> amigos.
+>
+> Paulo
+>
+>
+Puedes usar x86 si vas a instalar 32 bitas o amd64 si quieres 64 bits.=20
+La arquitectura base es la misma, la que desarroll=F3 en un principio=20
+Intel, lo que pasa es que la arquitectura x86 de 64 bits se nombr=F3 amd6=
+4=20
+porque AMD se adelant=F3 a Intel y desarroll=F3 el primer procesador de 6=
+4=20
+bits, es como un "tributo a AMD". En realidad Intel ya hab=EDa=20
+desarrollado con anterioridad un procesador de 64 bits, el Itanium=20
+(nombrada como IA64) como bien dices pero no tuvo =E9xito, el que si cuaj=
+=F3=20
+fue el de AMD por eso la diferencia de nombres.
+
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50814087.8050806@uncu.edu.ar
+

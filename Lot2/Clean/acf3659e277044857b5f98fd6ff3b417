@@ -1,0 +1,104 @@
+Subject:Re: =?ISO-8859-1?Q?T=E9l=E9-installation?= de Debian sur une machine
+	neuve
+Le mardi 16 octobre 2012 à 09:57 +0200, Olivier a écrit :
+> Bonjour,
+> 
+> Je me pose des questions sur les possibilités et la façon d'installer
+> Debian à distance sur une machine neuve "headless".
+> 
+> J'imagine le processus suivant:
+> - une personne insère un media amovible et personnalisé (CD, clé USB) dans
+> la nouvelle machine, y connecte éventuellement un clavier (voir plus bas)
+> et la met sous tension,
+> - la nouvelle machine démarre et installe une version minimale de Debian
+> avec juste assez pour que l'on puisse prendre la main à distance par
+> exemple et personnaliser d'avantage l'installation.
+> 
+> Les contraintes sont :
+> 1. le réseau local auquel la machine neuve est connectée accepte, par
+> défaut, les connections sortantes vers Internet, sans limitation.
+> 2. je ne contrôle pas le service DHCP local, s'il y en a un ( a fortiori,
+> pas de relais DHCP).
+> 
+> 
+> Voici mes questions:
+> 1. Selon vous, combien d'ordinateurs neuf "headless" et sans OS, par
+> défaut, ne sauraient booter sur un CD ? idem avec une clé USB ?
+
+Tous les ordinateurs raisonnablement récents savent booter sur USB et
+une grande partie sur le réseau. Encore faut-il que le bios soit
+correctement configuré. Pour le CD 100% des ordinateurs savent et c'est
+généralement configuré parce que c'est comme ça qu'on installe Windows
+CQFD.
+
+
+> 2. J'ai déjà rencontré des ordinateurs dont le BIOS s'arrête parce qu'il
+> manquait un clavier mais aucun ne s'arrêtait en l'absence de moniteur.
+> Selon vous, combien d'ordinateurs neuf "headless" et sans OS, par défaut,
+> ont un problème si on n'y connecte pas de clavier ? pas de moniteur ?
+
+Aucun, l'arrêt sur erreur (dont l'erreur clavier) se configure dans le
+bios même sur un desktop banal.
+
+> 3. Quelle base utiliser pour produire le media amovible et personnalisé,
+> pivot du système ?
+> Pour ma part, j'imagine utiliser une clé USB avec une ISO de Debian et un
+> fichier preseed.cfg mais y a t-il d'autres moyens plus recommandés ?
+> J'ai jeté un coup d'oeil sur FAI (http://fai-project.org/) mais j'ai
+> l'impression que les alternatives qu'il propose sont :
+> - soit un boot par le réseau, ce qui exige une configuration préalable du
+> BIOS,
+et du réseau...
+
+> - soit un boot via un CD mais celui-ci exige une console pour franchir
+> quelques étapes.
+pas forcément, on peut forcer le yes mais ça demande un cd/usb
+personnalisé qui prenne en compte tout dont le matériel et la conf
+réseau. Un petit essai préalable doit limiter le risque de plantage.
+
+> J'avais aussi pensé utiliser un LiveCD (je trouve que la capacité de ces
+> systèmes à s'auto-configurer est impressionnante), prendre la main à
+> distance sur la machine puis installer Debian sur le disque dur mais les
+> étapes de cette procédure ne paraissent pas claires et je doute qu'il soit
+> possible ou facile de prendre la main sur une machine opérée via un LiveCD.
+> J'ai noté l'existence de Kickstart mais n'ai pas l'impression que cela
+> change grand chose.
+
+Tu peux avoir ssh sur un liveCD, après c'est une procédure d'install
+depuis le live en mode texte et en faisant attention de ne pas se
+planter au reboot. Encore une fois, un live personnalisée avec la conf
+réseau et ssh préconfigurée (et les pilotes de la carte réseau) te
+facilitera la vie.
+
+> 4. Que suggérez-vous ?
+
+Ça dépend aussi si ça devient une procédure habituelle ou si ce n'est
+qu'une fois. Dans le premier cas, travailler un peu sur les outils vaut
+le coup, dans le second cas avec une personne sur place, un liveCD ne me
+semble pas une si mauvaise idée. Une fois que tu as le contrôle de la
+machine en ssh, tout va bien, et le reboot est moins une opération à
+risque.
+
+Si la machine et les paramètres sont suffisamment connus tu peux aussi
+faire une image disque façon dd ou clonezilla. 
+
+Ceci dit je n'ai pas une grande expérience, donc il y aura probablement
+des conseils plus avisés. 
+
+La doc d'install donne quand même pas mal d'indication sur les options
+possibles et la mise en œuvre ; les seuls points critiques à distance,
+quelque soit la méthode utilisée, étant le boot et le montage du réseau
++ssh pour prendre le contrôle de la ma la machine.
+
+Allez, confiance ^_^ et fait un test en local pour tester ta procédure.
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1350378251.7608.22.camel@jisui.aranha
+

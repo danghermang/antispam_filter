@@ -1,0 +1,72 @@
+Subject:Re: nut y Maxim MXE II...
+Hola...
+
+El 05/11/12 12:05, Camale�n escribi�:
+> El Mon, 05 Nov 2012 11:20:49 -0300, Walter O. Dari escribió:
+>
+>> El 04/11/12 07:33, Camaleón escribió:
+>
+> (...)
+>
+>
+> No conozco esa aplicación (winpower) pero suena para "win"dows...
+> ¿funciona bajo linux? :-?
+
+Si, trae software tanto para 32 como para 64 bits.
+
+Descargu� la versi�n m�s nueva que encontr� desde este sitio...
+
+http://www.ups-software-download.com/
+
+... ah� ver�s que soporta varios S.O. y versiones.
+
+
+>> En realidad me gusta la idea de utilizar nut ya que está en los
+>> repositorios y, por lo que entiendo, me permitiría interactuar con el
+>> equipo de forma más clara.
+>
+> Sí, a mi también me gustaría usar NUT para gestionar los SAI, más que
+> nada para centralizar la administración (son 3 unidades) y usar un
+> programa de código abierto (en mi caso el fabricante proporciona un
+> sofwtare para windows, unix, linux y bsd que es muy potente pero es de
+> código cerrado), el problema es que NUT no soporta al 100% estos equipos,
+> al menos de momento :-(
+
+Voy a intentar averiguar si la Maxim es similar a alguna otra marca, a 
+veces fabrican el mismo producto para distintas marcas.
+
+>>> QuizÃ¡ debieras preguntarles si existe algÃºn programa para linux (te
+>>> puedes llevar una sopresa agradable :-P) y en caso contrario probar con
+>>> un driver para comunicaciones USB genÃ©rico de NUT porque a ese
+>>> fabricante no lo veo en la lista:
+>>>
+>>> http://www.networkupstools.org/stable-hcl.html
+>>
+>> Busqué en la página que mencionas y no la vi, ni la marca ni el modelo.
+>
+> Yo tampoco lo vi, por eso conviene que preguntes directamente al
+> fabricante o enviar un mensaje a la lista de NUT a ver si alguien está
+> interesado en que ese fabricante/modelo sea soportado.
+>
+> El problema de la gestión de los SAI suele venir por el uso de algún
+> sistema no convencional en los pines del puerto de comunicaciones (USB o
+> RS-232) o que la tarjeta de red para la gestión de las unidades SAI use
+> un firmware cerrado con comandos no documentados... en estos casos NUT
+> puede hacer poco/nada, salvo que algún valiente se atreva con la
+> ingeniería inversa :-)
+
+Cualquier novedad la comunico por este mismo medio.
+
+>
+> Saludos,
+>
+
+Saludos,
+Walter
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5097DF54.8050905@gmail.com
+

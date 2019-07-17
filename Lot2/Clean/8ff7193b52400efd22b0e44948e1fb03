@@ -1,0 +1,54 @@
+Subject:Re: [HS] Variables serveur Web php.ini
+On Friday 07 September 2012 13:55:03 S=C3=A9bastien NOBILI wrote:
+> Le vendredi 07 septembre 2012 =C3=A0 12:09, andre_debian@numericable.fr a=
+ =C3=A9crit :
+> > Comment se fait-il que tous les navigateurs r=C3=A9affichent les
+> > donn=C3=A9es (variables) d'un formulaire en cas d'erreur et de retour
+> > vers le formulaire, alors que FireFox ne le fait pas ? :
+> > elles sont effac=C3=A9es, il faut tout recommencer.
+>
+> Parce que le navigateur reconna=C3=AEt le formulaire et r=C3=A9initialise=
+ ses champs
+> avec les derni=C3=A8res saisies qu'il conna=C3=AEt. En toute rigueur, =C3=
+=A7a ne devrait
+> pas =C3=AAtre fait, d'ailleurs =C3=A7a me pose r=C3=A9guli=C3=A8rement de=
+s probl=C3=A8mes lorsque je
+> change la valeur par d=C3=A9faut d'un champ et que le navigateur me remet=
+ la
+> derni=C3=A8re saisie. Je cherche cherche =C3=A0 comprendre ce qui provoqu=
+e =C3=A7a dans
+> mon code, alors que c'est le navigateur qui adapte mon code =C3=A0 ce qu'=
+il a
+> pens=C3=A9 pour moi=E2=80=A6
+>
+> La solution la plus fiable, c'est de modifier le contenu de la page pour
+> initialiser les champs (ce qui n'emp=C3=AAchera pas certains navigateurs =
+de
+> s'ent=C3=AAter).   Seb
+
+C'est un d=C3=A9faut bien ennuyeux de FireFox,
+qui n'existe pas avec les autres navigateurs.
+
+=C3=87a va m'obliger =C3=A0 revoir toutes les pages
+de mes formulaires, c'est beaucoup de travail.
+
+Je l'ai signal=C3=A9 sur le forum "FireFox" :
+http://www.geckozone.org/forum
+
+Le site indique une Mailing-Liste,
+je m'y inscris mais en finale aucune liste
+disponible ...
+
+Bonne soir=C3=A9e.
+
+Andr=C3=A9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209071950.45257.andre_debian@numericable.fr
+

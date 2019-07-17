@@ -1,0 +1,44 @@
+Subject:Re: Pasar de =?iso-8859-1?q?versi=F3n?= 6 a 7
+El Mon, 26 Nov 2012 10:55:01 +0100, Antonio escribió:
+
+> Tengo mi pc de escritorio en casa con versión 6 y ahora que la 7 esta
+> congelada me estoy planteando subir de versión.
+
+¿Por qué no esperas a qué salga oficialmente? Debería estar disponible en 
+apenas un par de meses :-?
+
+> Para hacer esto no se si es tan simple como ejecutar aptitude update,
+> aptitude safe upgrade, cambiar los apt sources apuntando a la versión 7
+> volver a ejecutar aptitude update, aptitude safe-upgrade y aptitude
+> full-upgrade.
+> 
+> Normalmente los cambios los he realizado cuando la versión siguiente ya
+> estaba como estable, siguiendo las indicaciones oficiales de debian.org.
+>  Ahora no estoy seguro de como hacerlo por lo que agradezco vuestras
+> recomendaciones.
+
+Pues mi recomendación es que esperes a que salga wheezy, así podrás 
+seguir las instrucciones/sugerencias de actualización que se incluyan en 
+las notas de la versión.
+
+> Otra cosa, si estoy utilizando paquetes descargados de backports, como
+> puede ser libreoffice ¿Cómo sería el tratamiento correcto ahora? supongo
+> que sería tan simple como borrar la entrada y dejar que se actualicen
+> con los paquetes nuevos pero no estoy seguro.
+
+Pues depende... quizá no tengas problemas, quizá sí. Ahora mismo no hay 
+repo de backports para testing pero de todas formas al actualizar 
+conviene dejar sólo los oficiales e ir añadiendo el resto una vez que el 
+sistema se haya actualizado correctamente.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8vtgs$vpg$1@ger.gmane.org
+

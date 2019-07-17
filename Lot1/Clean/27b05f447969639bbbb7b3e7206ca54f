@@ -1,0 +1,87 @@
+Subject:Re: [Komodo-beta] Komodo 8.0.0-alpha1 now available to preview
+On 11/20/2012 7:40 PM, Ron Stewart wrote:
+> Anything specific that we who are working on/maintaining language extensions should know, particularly in terms of what Scintilla 3.2.1 brings to the table?
+>
+
+The only change is that Scintilla 3.2.1 added a few more language lexers:
+TMCD (whatever that is)
+
+CoffeeScript is now lexed in the SCLEX_COFFEESCRIPT lexer, not the C one
+
+Other obscure languages:
+AVS
+ECL
+OSCRIPT
+VISUAL PROLOG (not your grandfather's Prolog, apparently)
+
+Plus most of the difference is in the internal OSX editor.  As a language extension
+writer, you shouldn't be affected.  Please let me know if you run into anything.
+
+- Eric
+
+> On Tue, Nov 20, 2012 at 5:09 PM, Todd Whiteman <toddw@activestate.com <mailto:toddw@activestate.com>> wrote:
+>
+>     Hello,
+>
+>     The first Komodo IDE 8.0.0 alpha (pre-release) is now available for testing. You can download it here:
+>
+>         http://downloads.activestate.com/Komodo/releases/8.0.0a1/
+>
+>     This is the first of many Komodo 8 pre-release builds, which will lead to an official Komodo 8.0.0 final release in 2013. The major changes in Komodo 8 are:
+>
+>       * *Massive Code Update*
+>         Komodo has received a number of updates to it's underlying code base. Komodo now uses Mozilla 17 code base, Python 2.7 and Scintilla 3.2.1, as well as other updated internal components. All of which means:
+>           o Better performance - with faster start times as well as using less CPU and memory resources
+>           o Better hardware support - by detecting and supporting modern computer systems
+>           o A better browser preview - supporting the latest and greatest web technologies
+>
+>       * *Cocoa 64-bit*
+>         On the Mac, Komodo has moved from 32-bit Carbon to 64-bit Cocoa. Komodo will work better when running on the latest Mac OS X computers. With Komodo 8 we've also added initial support for Retina displays, with the Komodo editor component being able to show crystal clear fonts under this mode.
+>
+>       * *New Languages*
+>         The following language changes have been made to Komodo 8:
+>           o Laravel Blade language added - a PHP templating language
+>           o Sass syntax checking added
+>
+>     You can view the release notes for a full list of changes in Komodo 8:
+>
+>     http://docs.activestate.com/komodo/8.0/releases/ide.html#bug_fixes-8.0.0a1
+>
+>     The Komodo IDE 8.0.0 alpha builds can be trialed by anyone (you don't need to hold a Komodo IDE license). We'll continue releasing additional Komodo 8 alpha and beta builds every 4-6 weeks until the final release sometime in 2013.
+>
+>     You can contact us about Komodo 7 questions and problems using any of the mediums below:
+>
+>     forums http://community.activestate.com/products/Komodo
+>     email http://listserv.activestate.com/mailman/listinfo/komodo-discuss
+>     bugs http://bugs.activestate.com/enter_bug.cgi?product=Komodo
+>     irc irc://irc.mozilla.org/#komodo
+>
+>     Cheers,
+>     Todd
+>
+>
+>     _______________________________________________
+>     Komodo-beta mailing list
+>     Komodo-beta@listserv.ActiveState.com <mailto:Komodo-beta@listserv.ActiveState.com>
+>     http://listserv.ActiveState.com/mailman/listinfo/komodo-beta
+>
+>
+>
+>
+> --
+> Ron Stewart
+> ron.stewart@gmail.com <mailto:ron.stewart@gmail.com>
+> <><
+>
+>
+>
+> _______________________________________________
+> Komodo-beta mailing list
+> Komodo-beta@listserv.ActiveState.com
+> http://listserv.ActiveState.com/mailman/listinfo/komodo-beta
+>
+
+_______________________________________________
+Komodo-beta mailing list
+Komodo-beta@listserv.ActiveState.com
+http://listserv.ActiveState.com/mailman/listinfo/komodo-beta

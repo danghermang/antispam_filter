@@ -1,0 +1,38 @@
+Subject:Re: Brillo pantalla en =?utf-8?Q?port=C3=A1til?= Acer con
+	=?utf-8?Q?gr=C3=A1fica?= Intel
+Marc Marí <5.markmb.5@gmail.com> writes:
+
+> Si le doy a "aptitude upgrade -t squeeze-backports
+> xserver-xorg-video-intel", me dice que está retenido, y si le doy con
+> install, me dice esto:
+>
+> No se satisfacen las dependencias de los siguientes paquetes:
+>   xserver-xorg-core: Rompe: xserver-xorg-video-6 que es un paquete virtual.
+>   xserver-xorg-video-nv: Depende: xorg-video-abi-6.0 que es un paquete virtual.
+> Las acciones siguientes resolverán estas dependencias
+>
+>      Eliminar los paquetes siguientes:
+> 1)     xorg
+> 2)     xserver-xorg
+> 3)     xserver-xorg-video-all
+> 4)     xserver-xorg-video-nv
+>
+>      Dejar las siguientes dependencias sin resolver:
+> 5)     gdm3 recomienda xserver-xorg
+> 6)     xinit recomienda xserver-xorg | xserver
+>
+> ¿Y todas las veces que lo intenta resolver, me quiere eliminar xorg.
+> Debería hacerlo por apt-get?
+>
+> Un saludo y gracias
+
+Prueba
+
+aptitude -t squeeze-backports install xserver-xorg-video-intel xserver-xorg
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87ligs1bn4.fsf@tochka.ru
+

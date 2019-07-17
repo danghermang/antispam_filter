@@ -1,0 +1,45 @@
+Subject:Re: Problemas con lector de tarjetas wheezy
+El Sun, 04 Nov 2012 14:55:45 -0500, Odair Augusto Trujillo Orozco
+escribió:
+
+> El día 4 de noviembre de 2012 11:59, Camaleón <noelamac@gmail.com>
+> escribió:
+
+(...)
+
+>> Y apuntan a varios informes de fallo tanto en Ubuntu como en Archlinux,
+>> luego debe ser un error del kernel conocido, concretamente este:
+>>
+>> Bug 43191 - Syslog fills with messages about assuming drive cache when
+>> SD card not present
+>> https://bugzilla.kernel.org/show_bug.cgi?id=43191
+>>
+>>
+>>
+> Salvo porque en Debian no funciona la línea en el /etc/modules sino que
+> hay que ponerla en el /etc/modprobe.d/ con options. (probado, pero no se
+> por qué)
+
+El "porqué" lo explican aquí:
+
+http://kernel-handbook.alioth.debian.org/ch-modules.html
+
+Seguramente el módulo del lector de tarjetas lo cargue automáticamente 
+udev, por eso necesitas especificar las opciones en "/etc/modprobe.d/".
+
+> Esperemos que ya estén bien enterados los desarrolladores sobre este
+> bug.
+
+Deben de estarlo: ventajas de estar "emparentados" con Ubuntu ;-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k76l8u$7if$7@ger.gmane.org
+

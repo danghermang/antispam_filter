@@ -1,0 +1,72 @@
+Subject:=?ISO-8859-1?Q?Re=3A_instalaci=F3n_KDE_en_Wheezy?=
+Aparte de poder seleccionar kde desde las opciones de otros
+entornos de escritorio en el men=FA inicial del instalador, tambi=E9n
+podr=EDas haber instalado este paquete kde-config-gtk-style para
+configurar desde el system-settings-kde las opciones sobre
+gtk, como usar oxygen-gtk para tus aplicaciones gtk.
+
+Podr=EDas tambi=E9n querer instalar las utilidades de pulse audio, para
+que tengas un mejor control sobre tu sistema de audio, o quitarlo
+del todo como hago yo.
+
+El 4 de noviembre de 2012 09:55, Camale=F3n <noelamac@gmail.com> escribi=F3=
+:
+>
+> El Sun, 04 Nov 2012 14:04:13 +0100, Miguel =C1ngel Ord=F3=F1ez escribi=F3=
+:
+>
+> (...)
+>
+> > Me baj=E9 el primer dvd de http://cdimage.debian.org/cdimage/weekly-bui=
+lds/amd64/iso-dvd/debian-testing-amd64-DVD-1.iso
+> > (me sorprendi=F3 gratamente el instalador gr=E1fico). Tras hacer el
+> > particionado del disco, (250Gb para mis datos en formato ext4, lo sient=
+o
+> > MS..,
+>
+> Espero que hayas hecho antes una copia-clon (tambi=E9n conocida como "ima=
+gen
+> de restauraci=F3n") de la partici=F3n de windows :-P
+>
+> 50 Gb para Kubuntu, 50 Gb para Debian, y 4Gb de swap, el resto
+> > est=E1 libre por si pruebo otras distribuciones derivadas de Debian),
+> > instal=E9 el sistema, pero no llegu=E9 a ver si hab=EDa alguna opci=F3n=
+ para
+> > elegir entre Gnome o Kde, as=ED que se instal=F3 Gnome, que no me lleg=
+=F3 a
+> > disgustar, pero como ya estoy acostumbrado a Kde, me decid=ED a
+> > instalarlo.
+>
+> (...)
+>
+> S=F3lo un apunte a esto. Si mal no recuerdo, cuando bajas el primer DVD
+> tienes la opci=F3n de instalar "otros entornos gr=E1ficos" desde una opci=
+=F3n
+> del men=FA de instalaci=F3n, y ah=ED deber=EDa estar KDE, XFCE, etc...
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k75vkj$7if$2@ger.gmane.org
+>
+
+
+
+--
+
+"LARGA VIDA Y PODEROSA."
+              Blog de Haldrik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADYDv-BB6i+KtdRuHOiXahyoNpSXsC6Pi4XRQ7+rsRn_VBgh3g@mail.gmail.com
+

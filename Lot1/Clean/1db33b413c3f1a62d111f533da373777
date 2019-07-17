@@ -1,0 +1,135 @@
+Subject:Re: Re: Ayuda Urgente: Iptables e ip rule no funcionan correctamente
+	endebian 6?
+Tengo exactamente el mismo problema, con la misma versi=F3n de kernel e
+iptables y una configuraci=F3n similar.
+Algo que observo, es que al hacer un tcpdump en alguna de las placas
+externas, veo algunos paquetes (muy pocos en comparaci=F3n con el
+tr=E1fico total) con ip de la otra placa externa. Es decir que el NAT se
+hace deacuerdo a lo previsto con el marcado, pero termina saliendo por
+la otra interface.
+=BFAlguna pista de lo que puede estar pasando?
+
+Saludos,
+Santiago.-
+
+
+El 06/09/12 09:50, Juan Antonio escribi=F3:
+> El 06/09/12 09:35, Francisco J. Bejarano escribi=F3:
+>> El 04/09/12 23:19, Juan Antonio escribi=F3:
+>>> On 05/09/12 16:13, Francisco J. Bejarano wrote:
+>>>> Sep  5 15:24:55 firewall kernel: [1883719.204551] fwmark 1: IN=3Deth1 =
+OUT=3D
+>>>> MAC=3D00:18:8b:f9:f3:34:00:24:8c:de:c8:fb:08:00 SRC=3D10.0.1.153
+>>>> DST=3D10.0.1.1 LEN=3D40 TOS=3D0x00 PREC=3D0x00 TTL=3D128 ID=3D1436 DF =
+PROTO=3DTCP
+>>>> SPT=3D57856 DPT=3D22 WINDOW=3D16323 RES=3D0x00 ACK FIN URGP=3D0 MARK=
+=3D0x1
+>>>> Sep  5 15:24:55 firewall kernel: [1883719.205085] fwmark 1: IN=3Deth1 =
+OUT=3D
+>>>> MAC=3D00:18:8b:f9:f3:34:00:24:8c:de:c8:fb:08:00 SRC=3D10.0.1.153
+>>>> DST=3D10.0.1.1 LEN=3D40 TOS=3D0x00 PREC=3D0x00 TTL=3D128 ID=3D1437 DF =
+PROTO=3DTCP
+>>>> SPT=3D57856 DPT=3D22 WINDOW=3D16323 RES=3D0x00 ACK URGP=3D0 MARK=3D0x1
+>>>> Sep  5 15:25:20 firewall kernel: [1883744.276724] fwmark 2: IN=3Deth2 =
+OUT=3D
+>>>> MAC=3D00:0d:88:c5:ba:53:20:cf:33:d3:a6:d5:08:00 SRC=3D10.0.2.226
+>>>> DST=3D10.0.2.1 LEN=3D52 TOS=3D0x00 PREC=3D0x00 TTL=3D64 ID=3D8254 DF P=
+ROTO=3DTCP
+>>>> SPT=3D52845 DPT=3D22 WINDOW=3D2641 RES=3D0x00 ACK URGP=3D0 MARK=3D0x2
+>>>> Sep  5 15:25:20 firewall kernel: [1883744.280404] fwmark 2: IN=3Deth2 =
+OUT=3D
+>>>> MAC=3D00:0d:88:c5:ba:53:20:cf:33:d3:a6:d5:08:00 SRC=3D10.0.2.226
+>>>> DST=3D10.0.2.1 LEN=3D100 TOS=3D0x00 PREC=3D0x00 TTL=3D64 ID=3D8255 DF =
+PROTO=3DTCP
+>>>> SPT=3D52845 DPT=3D22 WINDOW=3D2641 RES=3D0x00 ACK PSH URGP=3D0 MARK=3D=
+0x2
+>>> mmm, a prop=F3sito, las direcciones 10.0.2.1 y 10.0.1.1 =BFson las que
+>>> tiene configuradas la pasarela? f=EDjate que no se especifica ning=FAn
+>>> interfaz en  OUT =3D y de hecho ese tr=E1fico no tiene que llegar a
+>>> ninguna tabla porque es local =BFtienes tr=E1fico en el log marcado que=
+ no
+>>> sea para el propio router? =BFpor d=F3nde sale el tr=E1fico que no sale=
+ por
+>>> donde deber=EDa?
+>>>
+>>> Un saludo.
+>> Hola, el trafico marcado lo logeo en mangle, prerouting despues de
+>> marcarlo con 1 o 2. Por eso no tiene out, porque todavia no se ha tomado
+>> la decision de ruteo. No es local es forward de eth1 o eth2 a la eth que
+>> corresponda de las adsl. No es para el propio router.
+>>
+>> El trafico, en la tabla main tiene un default route a TB2 (debido a
+>> ciertas necesidades de mi empresa) De hecho se va por ahi el trafico no
+>> marcado.
+>>
+>>
+>>
+>
+> =BFpero por qu=E9 se ve en DST una ip del mismo rango de red? Si es tr=E1=
+fico
+> forwarded deber=EDa verse el dst original y la mac del interfaz del route=
+r.
+Te pongo otro trozo de log de una ip de la red interna 2 que va hacia
+afuera a una ip de internet (forward). Como ves tampoco tiene interfaz
+out. Asi descarto que fuera mi direccion al firewall ya que estoy
+conectado por ssh y mi trafico si iria al propio firewall.
+
+Sep  5 17:13:51 firewall kernel: [1890254.612411] fwmark 2: IN=3Deth2 OUT=
+=3D
+MAC=3D00:0d:88:c5:ba:43:90:4c:e5:41:6b:d7:08:00 SRC=3D10.0.2.121
+DST=3D88.106.32.213 LEN=3D52 TOS=3D0x00 PREC=3D0x00 TTL=3D64 ID=3D312 DF PR=
+OTO=3DTCP
+SPT=3D43691 DPT=3D22 WINDOW=3D2608 RES=3D0x00 ACK URGP=3D0 MARK=3D0x2
+Sep  5 17:13:51 firewall kernel: [1890254.649763] fwmark 2: IN=3Deth2 OUT=
+=3D
+MAC=3D00:0d:88:c5:ba:43:90:4c:e5:41:6b:d7:08:00 SRC=3D10.0.2.121
+DST=3D88.106.32.213 LEN=3D52 TOS=3D0x00 PREC=3D0x00 TTL=3D64 ID=3D313 DF PR=
+OTO=3DTCP
+SPT=3D43691 DPT=3D22 WINDOW=3D2597 RES=3D0x00 ACK URGP=3D0 MARK=3D0x2
+
+
+
+>
+> Si el main default es el mismo que el default de TB2 =BFpara que a=F1ades
+> reglas explicitas para usar esa tabla? =BFhay otras rutas en TB2
+> diferentes a main? Me parece una configuraci=F3n muy compleja que
+> seguramente podr=EDas reducir a 3 o 4 l=EDneas de iptables y dos rules de
+> iproute, asi podr=EDas depurar mucho mejor.
+
+Tengo 5 redes y hay que enviar el trafico dependiendo del origen de la
+red y dentro del origen de la red dependiendo del puerto del destino. Si
+es algo complejo pero necesario debido a ciertas validaciones de
+seguridad de ips en servidores de destino que dependen de donde salga el
+trafico. Las 2 redes que pongo son de 2 empresas diferentes que
+comparten la misma salida TB3 (adsls balanceados con ancho de banda
+elevado) pero que para ciertos traficos, cada empresa ha de salir por su
+propio adsl con ip fija y solo cuando usa determinados puertos, si no
+deber=EDa usar la TB3, peero, por defecto global se usa una de las TB con
+ip fija... Yo no pongo las reglas pero he de ce=F1irme a ellas y esto
+estaba funcionando correctamente en debian 4 y no creo que haya cambiado
+mucho iptables a nivel funcionamiento general, o eso espero. De hecho
+como esta echo deber=EDa funcionar a no ser que algo del marcado y
+prioridades este haciendolo yo mal.
+
+> Un saludo.
+>
+>
+
+
+--=20
+-----------------------------------------------------------------
+Francisco J. Bejarano
+Responsable de Sistemas
+Dpt. Sistemas e Infraestructuras
+Open Knowledge Network S.L.
+francisco.bejarano@openknowledgenetwork.com
+Tel. (+34) 902 534 004
+Fax. (+34) 917 266 476
+-----------------------------------------------------------------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ5eSfb83GSMbu0wH13R_JD3V2o28WiafD3LoCrwR+xTPBhV5w@mail.gmail.com
+

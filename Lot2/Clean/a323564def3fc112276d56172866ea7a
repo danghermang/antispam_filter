@@ -1,0 +1,39 @@
+Subject:Kernel intel atom
+Hola, debianitas tengo una netbook LENOVO con proc Intel Atom
+utilizando WHEEZY,
+ahora bien al utilizar algunas aplicaciones, ej WINE+STARCRAFT noto
+que se pone "pesado"
+es decir el consumo de PROCESADOR se hace excesivo (100%) por lo que
+decidi buscar como
+optimizar el kernel, buscando por la web encontre estos links,
+
+http://www.pumawifi.org/index.php?q=node/49
+
+http://lgallardo.com/2009/06/08/compilando-el-kernel-para-lenovo-s10ekernel-compiling-on-lenovo-s10e/
+
+asi que baje un Kernel y me propuse recompilarlo de hecho ahora estoy
+utilizando 3.5.3, teoricamente optimizado de acuerdo a los links
+arriba expuesto, sin embargo no noto diferencia, quizas deberia probar
+recompilar/compilar un kernel para 486? digo esto en virtud que el
+primer kernel que debian me instalo era un Linux_image4686
+(3.2.0-2-486)
+
+doy detalles de mi equipo
+
+PROC: INTEL ATOM
+RAM: 1GB
+SO: DEBIAN WHEEZY+SLIM+LXDE
+
+Saludos
+
+
+-- 
+"Windows? Reboot
+Debian?      beRoot "
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+0kpa2XQEt-ahV-Bkr4d7MJm6yQHA6KpoyRFgKmv=__c9tHOg@mail.gmail.com
+

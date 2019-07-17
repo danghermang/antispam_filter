@@ -1,0 +1,49 @@
+Subject:catfish, strigi, find, locate et Cie ...
+
+Bonjour,
+
+Debian testing
+Noyau 3.6.2
+
+Applications : strigi, catfish, locate, find
+Session : xfce4
+
+Je m'initie au joue de la recherche de fichier en mode graphique.
+
+Recherche avec  catfish sur un mot pr=E9sent dans plusieurs fichiers et mai=
+ls :=20
+
+=2D locate me dit : erreur fatale
+
+=2D find me dit qu'il ne trouve rien=20
+
+=2D Strigi me dit
+
+AttributeError: 'NoneType' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "/usr/share/catfish/catfish.py", line 787, in=20
+on_treeview_files_row_activated
+    self.on_menu_open_activate(None)
+  File "/usr/share/catfish/catfish.py", line 830, in on_menu_open_activate
+    self.open_file(os.path.join(folder, filename))
+  File "/usr/lib/python2.7/posixpath.py", line 66, in join
+    if b.startswith('/'):
+AttributeError: 'NoneType' object has no attribute 'startswith'
+
+
+Unre id=E9e ?
+
+
+
+=2D-=20
+=46r=E9d=E9ric ZULIAN
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201212101504.28731.zulian@free.fr
+

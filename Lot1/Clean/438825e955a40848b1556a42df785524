@@ -1,0 +1,32 @@
+Subject:Re: FreeRadius y Moxa CN2510 series
+El 16/11/12 12:32, Camaleón escribió:
+> El Thu, 15 Nov 2012 14:04:26 -0500, Yoinier Hernandez Nieves escribió:
+>
+>> buscando entre los hilos de la lista, encontre esto:
+>>
+>> http://lists.debian.org/debian-user-spanish/2008/10/msg00430.html
+>>
+>> pero ya estoy en el mismo paso, como le digo a los modems que consulten
+>> el radious, usando mgetty?? o algo asi, seria bueno un manual a mano,
+>> gracias.
+>
+> No me hagas mucho caso porque de radius estoy pez, pero me parece que
+> tendrás que enlazarlos mediante el complemento "pppd-radius" que se
+> incluye con el paquete ppp (más info en "man pppd-radius" y donde siempre
+> "/usr/share/doc/ppp/*").
+>
+> Saludos,
+>
+Gracias.
+
+Chequeare y les aviso los resultados.
+
+Thanks
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A69271.9040106@lt.datazucar.cu
+

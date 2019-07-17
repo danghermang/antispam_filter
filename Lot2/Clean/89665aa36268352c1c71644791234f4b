@@ -1,0 +1,27 @@
+Subject:Odd warning w/ Mail::Header
+I'm running ActiveState Perl 5.14_02 on Win7 x64.
+
+I'm seeing:
+
+C:\Users\philipp\Desktop\scayl\agent\trunk\tests>perl test001.pl
+Can't use string ("From") as an ARRAY ref while "strict refs" in use at C:/Perl64/site/lib/Mail/Header.pm line 278.
+C:\Users\philipp\Desktop\scayl\agent\trunk\tests>
+
+The $VERSION of Header.pm is 2.11.
+
+The line in question is:
+
+     while(@$lines && $lines->[0] =~ /^($FIELD_NAME|From )/o)
+
+I'm a little boggled by this warning.  Anyone else seen it?
+
+I do no see this on Linux or MacOS with Perl 5.10 or 5.12, respectively.
+
+Thanks,
+
+-Philip
+
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

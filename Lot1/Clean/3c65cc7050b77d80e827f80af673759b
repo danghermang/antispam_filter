@@ -1,0 +1,43 @@
+Subject:Re: Installation sur portable sans CG
+Bonjour,
+
+sinon, il reste l'installation en mode console avec le port série.
+Je l'ai déjà fait et ça fonctionne plutôt bien.
+De plus, après l'installation le port série reste activé et il est 
+possible d'administrer le PC si le réseau est tombé.
+
+voici un message de la liste debian user anglophone qui explique la 
+manipulation :
+
+http://lists.debian.org/debian-user/2011/06/msg02544.html
+
+
+@+
+
+Le 09-11-2012 10:52, Papefigue a écrit :
+> Bonjour,
+>
+> Il y a la possibilité de démonter le disque dur (tournevistiquement 
+> parlant)
+> et de faire l'installation depuis une autre machine. A un moment dans
+> l'installation il y a une option, je ne sais plus la formulation 
+> exacte, qui
+> permet d'installer une image contenant tous les pilotes.
+> Ensuite il n'y a plus qu'à remettre le disque dur dans la machine 
+> d'origine.
+> Mais ça ne fera pas un truc très optimisé.
+> J'ai testé avec un portable autiste (lecteur cd mort, carte réseau 
+> morte, pas
+> de boot sur usb), ça fonctionne.
+>
+> Si ça peut aider...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/119b8dd4ba8388576dbd196a0eb1733b@mail.leslulus.com
+

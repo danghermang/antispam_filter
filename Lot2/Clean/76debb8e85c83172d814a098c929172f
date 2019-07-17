@@ -1,0 +1,34 @@
+Subject:Re: wheezy acer aspire wl
+El Mon, 26 Nov 2012 10:51:45 -0300, Ricardo Delgado escribió:
+
+> hola gente, segui probando, al parecer el problema es con la version del
+> kernel, ya que instale un kernel amd64 para un i5 y hasta ahora no tuve
+> problemas.
+
+Si no explicas un poco más este punto no lo entiendo... ¿quieres decir 
+que has actualizado a una versión del kernel superior a la que tenías o 
+que has cambiado de arquitectura?
+
+> digo esto porque tambien llegue a pensar que era un problema de entorno
+> grafico, desinstale gnome y deje solamente lxde, colgandose igual.
+
+Raro sería que el entorno gráfico afectara al bloqueo de la tarjeta 
+wifi :-)
+ 
+> por ahora voy a probar con este kernel 3.2.0-4-amd64 #1 SMP Debian
+> 3.2.32-1 x86_64 GNU/Linux
+
+Debe ser el mismo kernel que tenías antes ¿no? Si es así, no veo cómo 
+puede esto ayudar con el problema.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8vto1$vpg$2@ger.gmane.org
+

@@ -1,0 +1,21 @@
+Subject:Re: libgl1-nvidia-glx:i386
+Camaleón writes:
+
+> Me pregunto de dónde viene este invento del "multiarch" ¿se trata de 
+> alguna recomendación o estándar global para todas las distribuciones de 
+> linux o es una iniciativa de Debian/Ubuntu? :-?
+
+De momento parece que es sólo de Debian y Ubuntu.  En todo caso, la
+transición está siendo suave, por ejemplo con Skype:
+
+http://www.skype.com/intl/es-es/get-skype/on-your-computer/linux/
+
+-- 
+Alberto
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/8738zi3t0t.fsf@eps142.cdf.udc.es
+

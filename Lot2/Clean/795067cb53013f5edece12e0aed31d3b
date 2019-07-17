@@ -1,0 +1,107 @@
+Subject:Re: [EVDL] Precharge / Discharge
+Hi Mike,
+
+The reason for different resistor values are simply because
+there are different requirements for both and because a
+resistor is cheaper than a relay.
+
+The pre-charge typically needs to happen within a few seconds
+while the discharge can be prolonged to several minutes, because
+it is not likely that you will have your controller apart within
+minutes of turning the key off. This allows for a large value
+discharge resistor which is often left permanently on, so there
+is no chance of a contact failing and the caps not discharging.
+Another reason is that you will need to continue to discharge
+electrolytic caps even after removing an ininital charge, because
+those critters tend to re-build their charge when left unconnected
+(ask me how I know - I even blew an IGBT from the re-built charge
+after initial discharging caps then disconnecting them - upon
+re-connecting to the IGBT it gave a spark and the IGBT was a short)
+so, many large high voltage caps come with a resistor permanently
+attached to their (screw) terminals.
+
+Some indicative calculations as example:
+200V battery voltage
+10,000 uF capacitor
+The RC-time for the pre-charge, if we want a 1 sec time:
+1s = R x 10,000u => R = 1/10,000u => R = 100
+This means that the R must be no larger than 100 Ohms.
+
+If the discharge time can be 5 mins (300s) allows the R to be:
+300s = R x 10,000u => R = 300/10,000u => R = 30,000
+This 30kOhm resistor allows a current of
+200V/30kOhm = 7mA
+This means that the power generated in the discharge resistor
+is 7mA x 200V = 1.4W so a 2W or larger resistor should suffice
+(better to use a 5Watt resistor so it runs cool and will not
+fail from overheating - you do not want a safety item like this
+to fail!)
+As you can see, an additional 1.4W draw as long as your controller
+is on is not significant compared to the power that the controller
+itself is consuming and it guarantees that the controller is at a
+safe voltage within 5 minutes after removing power.
+That is why many user manuals - if they allow you to open a unit -
+suggest to wait 5 mins after removing power.
+
+Regards,
+
+Cor van de Water
+Chief Scientist
+Proxim Wireless Corporation http://www.proxim.com
+Email: CWater@proxim.com Private: http://www.cvandewater.info
+Skype: cor_van_de_water Tel: +1 408 383 7626
+
+
+-----Original Message-----
+From: ev-bounces@lists.sjsu.edu [mailto:ev-bounces@lists.sjsu.edu] On
+Behalf Of Michael A. Radtke
+Sent: Wednesday, October 24, 2012 7:00 PM
+To: ev@lists.sjsu.edu
+Subject: [EVDL] Precharge / Discharge
+
+Hello,
+
+I recently built an OpenRevolt controller to replace my EV1 controller 
+on my Jet ElectraVan.  I have no experience with precharge since the EV1
+
+has no input capacitors.  I have been doing a lot of reading on the 
+archives of this list and elsewhere.  I have a good understanding of the
+
+precharge issue, but I haven't found any reference to the hazards of the
+
+controller retaining a charge on its capacitors after the vehicle is 
+turned off.  It seems to me that there is a safety issue.
+
+I did find a commercially available precharge device that addresses the 
+issue.  However, it uses a different resistance for the precharge and 
+discharge paths.  Why?
+
+My thought is to use a relay to connect the precharge resistor when the 
+ignition switch is on.  The OpenRevolt controller supplies a signal to 
+enable the main contactor at a preset delay.   I was considering using a
+
+SPDP relay and the same resistor to both precharge and discharge the 
+controller capacitors.  Am I mis-thinking?
+
+Thanks,
+Mike  --  Phoenix
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

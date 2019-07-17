@@ -1,0 +1,71 @@
+Subject:Re: Firefox en Deian 6
+On Fri, 28 Sep 2012 18:11:57 +0400, Evgeny M. Zubok wrote:
+> Víctor Villa <vvillap@gmail.com> writes:
+>
+>> Sólo por curiosidad (que no me veo en las mismas de Luis), pero
+>> siempre pensé que la maniobra recomendada para estos casos era tirar
+>> de backports en lugar de mezclar stable y testing.
+>
+> Sí, creo que es muy mala idea mezclar ramas. Nunca lo hago y siempre 
+> no
+> lo recomiendo a nadie precisamente por problemas de colisión. Los
+> usuarios que instalaron los paquetes desde ramas inestables no 
+> entienden
+> por qué las aplicaciones instaladas no funciona bien. A veces tienen
+> suerte y la aplicación funciona, a veces no. Con estas acciones se 
+> puede
+> romper las aplicaciónes de stable, actualizando, por ejemplo, las
+> bibliotecas importantes (gtk, glib,...) desde testing/sid. El hilo 
+> [1]
+> muestra un ejemplo de consecuencias de instalación las bibliotecas 
+> con
+> versiones más actualizadas en el sistema estable.
+>
+> Los 99.9% de mis aplicaciones son de 'stable'. Tengo los 4-5 paquetes
+> compiladas por mí. Yo personalmente siempre hago backport si no hay 
+> la
+> versión o la aplicación en el squeeze-backports: habitualmente yo
+> descargo las fuentes desde 'sid', modifico las especificaciones en la
+> cárpeta debian (debian/control, debian/rules, debian/compat, ...),
+> instalo los paquetes -dev y los paquetes necesarios para compilar la
+> aplicación, trato de compilar y hacer *.deb con dpkg-buildpackage, 
+> muevo
+> automáticamente el paquete o los paquetes a mi repositorio local,
+> aptitude update, aptitude install. Pero este proceso es muy muy 
+> defícil
+> para la mayoría de usuarios y incluso no siempre es posible sin
+> actualizar (compilar) algunas bibliotecas adicionales (que no están 
+> en
+> 'stable') o sin parches. Algunas aplicaciones pueden tener las
+> dependencias muy complejas y pueden requerir la actualización de las
+> bibliotecas importantes del sistema.
+>
+>> ¿No debería haber menos colisiones en las versiones de las librerías
+>> usando backports?
+>
+> Tienes razón. Mejor usar backports o los repositorios fuera de los
+> oficiales que tienen los paquetes compilados para 'stable' (creo que
+> esto último es un poco peligroso).
+>
+> [1] http://lists.debian.org/debian-user-spanish/2012/08/msg00406.html
+
+
+Bueno si puedo agregar algo lo que uso es de los sitios oficiales de 
+Debian y solo para la versión estable
+
+Tengo poco tiempo en Debian pero me ha gusto todo lo que he logrado 
+hasta ahora con estudio y con ayuda tambien de la lista cuando he 
+presentado problemas o alguna duda
+
+Nada las gracias a todos por la ayuda, ya he ayudado a unos cuantos 
+claro los que no tiene la red ni las posibilidades, teransmitiendoles 
+los conocimiento sy programas que necesiten
+
+Saludos a todos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/905ac907d2dc6cfbdf93c6b2bce8a1f4@ida.cu
+

@@ -1,0 +1,63 @@
+Subject:Re: no inicia =?iso-8859-1?Q?sesi=F3n_en_modo_grafico]?=
+
+
+---------------------------- Mensaje original ----------------------------
+Asunto: Re: no inicia sesi�n en modo grafico
+De:     Camale�n <noelamac@gmail.com>
+Fecha:  Mar, 18 de Septiembre de 2012, 9:41 am
+Para:   debian-user-spanish@lists.debian.org
+--------------------------------------------------------------------------
+
+El Mon, 17 Sep 2012 19:12:50 -0500, L.I Jesus Benjamin Yam  escribió:
+
+> Buen dia tengo una pc con debian squeeze de 64 bits de la noche a la
+> mañana ya no inicia sesion en modo grafico, es decir al encender la pc
+> llega hasta el gestor de arranque gdm 3 y ahi me aparecen mis 2 cuentas,
+> al elegir alguna, poner la contraseña y dar iniciar sesión o enter, la
+> pc se queda en negro y no solo eso deja de dar video ya que el monitor
+> de tener el foquito en verde comienza a parpadear como cuando no tiene
+> señal, si inicio en modo a prueba de errores me hace lo mismo, cuando
+> inicio en modo prueba de errores y en vez de dar ctrl+d le pongo la
+> contraseña carga en modo texto, trate de ver si tenia algun archivo
+> x.org en /etc/X11 pero no hay tal, y repito la pc llevaba meses
+> funcionando bien.
+
+Ya no hay archivo "xorg.conf", se supone que ahora todo lo relacionado
+con Xorg se configura automáticamente, así que en cada arranque te puede
+funcionar... o no.
+
+Sube a algún servidor el registro del servidor X que tienes en "/var/log/
+Xorg.0.log" para que podamos echarle un vistazo y también el de la sesión
+gráfica ("~/.xsession-errors"). Es raro que todo funcione correctamente
+hasta que se carga GNOME...
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k39tmn$thl$6@ger.gmane.org
+
+Trata reinstalando el driver de la placa de video, abre el aptitude y
+busca el driver de tu placa y reinstala sino reinstala el xserver-xorg.
+tal ves se arregle el problema a mi me ha sucedido con placas Ati y con
+eso he resuelto en ocasiones. Tambi�n puedes usar el xvesa pero no tiene
+tanto power como el xorg es solo para resolver saludos y ojal� resuelvas.
+
+
+Lic. Ruben Cervantes Rodr�guez
+Instructor y administrador de red
+JCCE Vtes1
+Camag�ey Cuba
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/54570.192.168.9.106.1347991158.squirrel@correo.cmg.jovenclub.cu
+

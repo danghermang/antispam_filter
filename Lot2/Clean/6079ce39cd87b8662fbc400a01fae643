@@ -1,0 +1,35 @@
+Subject:Re: Wheezy : freezes totaux =?ISO-8859-1?Q?fr=E9quents_sur_u?=
+	=?ISO-8859-1?Q?n_nouveau_portable=2E?=
+Donc quelques suggestions,
+
+- Vérifier qu'il n'y a pas un problème matériel.
+- Utilises-tu des logiciels propriétaires (pilotes) ? Si oui essayes de
+les virer pour voir
+si tu as les mêmes problèmes. Sinon essayes une autre version de noyau
+(si possible
+récente).
+- Regarde sur les forums (debian, ubuntu, ...) si ton modèle de PC est
+connu pour poser des pb sous linux ...
+
+Guy
+> J'ai installé une wheezy (avec xfce) sur un portable relativement
+> récent (core i5-3210M, chipset graphique Intel, disque SSD, USB 3), et
+> il arrive que la machine freeze totalement (impossible de basculer
+> vers tty1) : il faut débrancher pour éteindre.
+> Les plantages sont fréquents et ont été constatés principalement
+> pendant la copie de fichiers vers une clef usb ou en surfant via
+> iceweasel.
+> Je m'apprête à farfouiller dans /var/log, mais j'avoue ne pas trop
+> savoir par quoi commencer, ni réellement quoi chercher (il y'a souvent
+> des warnings et des erreurs mineurs dans les logs).
+> Je suis preneur de toute suggestion. 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5059DA39.9000505@teledetection.fr
+

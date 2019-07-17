@@ -1,0 +1,28 @@
+Subject:Re: =?ISO-8859-1?Q?fen=EAtres?= pas dans la liste des
+	=?ISO-8859-1?Q?fen=EAtres?=
+Le jeudi 08 novembre 2012 à 11:12 +0100, Pierre Crescenzo a écrit :
+> Bonjour,
+> 
+> Je suis en stable+testing à jour. Sous Gnome 3, certaines fenêtres
+> (par exemple celles de fpm2) n'apparaissent pas dans la liste des
+> fenêtres : on ne peut donc pas les activer à l'aide de Alt+Tab.
+> Comment faire pour changer cela ? Merci. 
+
+Ce qui est iconifié dans le systray en bas n'est pas dans la liste des
+fenêtres. Ça pourrait avoir un rapport, je n'ai pas testé fpm2 mais
+xchat me pose ce soucis quand gnome-shell est rechargé avec xchat
+iconifié, il n'apparaît plus dans le systray et n'apparaît pas plus dans
+la liste des fenêtres.
+
+Je me dis qu'il y a probablement un soucis de passage GTK2-GTK3
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1352371839.13571.5.camel@azuki.jisui
+

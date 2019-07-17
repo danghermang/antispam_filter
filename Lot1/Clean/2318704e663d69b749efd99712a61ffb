@@ -1,0 +1,46 @@
+Subject:Re: [rlug] chroot jail
+2012/11/2 Alex 'CAVE' Cernat <cave@cernat.ro>
+
+> On 11/2/2012 10:49 AM, Florin Popovici wrote:
+> > 2012/11/2 Alex 'CAVE' Cernat <cave@cernat.ro>
+> >
+> >> salut
+> >>
+> >> trebuie sa dau acces cuiva sa testeze niste programe, si binenteles ca
+> >> vreau sa-l bag la parnaie, ca doar paranoia e in top in job description,
+> >> nu ?
+> >> din consola de root chroot-ul il baga pe nastase la parnaie, sta bine
+> >> mersi, ruleaza tot ce are nevoie, e ok, deci chroot-ul e bine facut; dar
+> >> se pare ca am imbatranit si nu mai mai prind cum sa fac (si 100% safe)
+> >> legatura intre ssh si chroot (adica sa intre direct cu bash in chroot,
+> >> daca intra fara consola sa fie bagat deja in chroot - deci exclusa
+> >> treaba cu .bash_profile sau .bash_login, scp/stfp & friends nu are
+> nevoie)
+> >> any idea ?
+> >>
+> >>
+> > man sshd_config, cauti ChrootDirectory
+> >
+> > vezi ca va trebui sa-i populezi rootdir-ul cu o gramada de chestii
+> > (/dev/null, /dev/zero, /etc/passwd cu userul lui, samd).
+> >
+> > Flo
+> >
+> mda, gasisem solutia asta, dar cica n-ar fi mers, desi ma uit in man si
+> optiunea este acolo, deci ar merita incercata
+> ce n-am inteles pana acuma e cum sa fac chroot-ul doar pentru
+> utilizatorul respectiv (ca din cate vad optiunea este globala)
+> dupa cum ziceam, chroot-ul este functional, cam tot ce e nevoie e acolo
+> (sau daca mai trebuie ceva mai bag pe parcurs), trebuie doar sa-l bag
+> direct in jail atunci cand intra prin ssh (prin orice metoda)
+>
+>
+Optiunea merge, eu o folosesc la greu (cu conturi sftp-only, ce-i drept).
+Si nu trebuie s-o faci globala, poti s-o bagi intr-un Match User.
+
+-- 
+flo.ro
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

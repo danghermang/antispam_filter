@@ -1,0 +1,29 @@
+Subject:Re: [HS] se logguer en ssh en outrepassant le shell defini dans
+	/etc/passwd
+Le 15625i=C3=A8me jour apr=C3=A8s Epoch,
+giggzounet@gmail.com =C3=A9crivait:
+
+> bref avez vous une id=C3=A9e de comment forcer l'utilisation de ash au mo=
+ment
+> de la connection via ssh ?
+
+Au moins 2 possibilit=C3=A9s:
+
+1) Se connecter avec un autre utilisateur, et r=C3=A9parer avec sudo
+
+2) r=C3=A9parer directement avec ssh, en passant des commandes plut=C3=B4t =
+que
+d'attendre un shell. Il me semble que ssh <user@host> "commandes qui
+vont bien pour r=C3=A9parer" ne passent pas forc=C3=A9ment par le lancement=
+ du
+shell user.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/87626f96sa.fsf@tourde.org
+

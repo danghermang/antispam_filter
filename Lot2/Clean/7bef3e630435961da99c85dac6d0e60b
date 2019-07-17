@@ -1,0 +1,49 @@
+Subject:Re: script pour un en =?UTF-8?B?dMOqdGU=?=
+bonjour,
+
+Le 12/10/2012 16:41, Bernard Schoenacker a écrit :
+> bonjour,
+>
+> 	j'ai plusieurs dizaines de fichiers textes à modifier en adjoignant un
+> 	entête ...
+>
+> 	il s'agit de faite un cat en script et de remplacer l'original par son
+> 	nouveau
+>
+> 	voici comment je vois la chose
+>
+> 	for i in $fichier
+> 	do
+> 	cat fichier1>out.txt
+> 	cat fichier-n>>out.txt
+> 	mv out.txt $fichier-n.txt
+> 	done
+>
+> 	est il possible de faire mieux ?
+>
+> 	slt
+> 	bernard
+>
+possible de combiner les 2 lignes de cat en une seule.
+
+for i in $fichier
+do
+    cat fichier1 fichier-n >out.txt
+    mv out.txt fichier-n.txt
+done
+
+mais on reste dans le même principe.
+
+Slt
+
+Denis
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50783D76.9080808@orange.fr
+

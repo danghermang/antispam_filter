@@ -1,0 +1,72 @@
+Subject:[MG] Requirements in regard to split opinion formation
+Hi Marc,
+
+Although I'm not a member of the Meinungsfindungstool working group, I
+have a personal concern with what you're working on.  Specifically it
+involves the problem of "split consensus" as Thomas von der Elbe has
+called it, or "split opinion formation" in your own terms.
+
+But first I have some questions.  Do you have time to answer?
+
+Marc said, October 10:
+> One possible answer our working groups comes out with is, that we need to 
+> define kind of standardization. Like the W3C standardizes the internet and 
+> Business Entity Model...
+
+And in reply to Pietro, October 16:
+> The idea is to have a common base (framework of workflows and
+> entities) for all tools to enable the interaction and extensibility
+> of the overal process of decision-making. Therefore we need a common
+> understanding of how workflows and entities interacts in the
+> process.
+
+I try to picture what you describe (pardon my ASCII):
+
+             ....
+          ..........  M
+        ..............   ....
+       .......................
+       ......................
+        .............   ....
+          ..........
+             ...
+
+
+            +-----+  +-----+
+            |     |  |     |
+            | T1  |  | T2  |
+            |     |  |     |
+            +-|-|-+  +-|-|-+
+    +---------|-|------|-|---+
+    |         | |      | |   |
+    |                        |
+    |    S                   |
+    |                        |
+    +------------------------+
+
+
+     M  Opinion in formation
+     T  Competing tools
+     S  Common standards, practices,
+        databases, and so forth
+
+
+Here T1 and T2 are competing tools for the purpose of opinion forming.
+A user may choose T1 or T2.  But regardless of the choice (say it is
+T2), the user will remain part of the same overall opinion forming
+process (M).  So he/she may continue to work with other users who make
+different choices (T1).  This technical freedom of choice is made
+possible by the common standards, practices and/or databases (S) that
+are shared between the competing tools.  Is this picture correct?
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+http://zelea.com/
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

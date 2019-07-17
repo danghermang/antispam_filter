@@ -1,0 +1,57 @@
+Subject:Re: Samba + LDAP como PDC
+El d=C3=ADa 2 de octubre de 2012 14:35,  <osniel@hosped.cfg.sld.cu> escribi=
+=C3=B3:
+> Saludos lista .. tengo como servidor de dominio un windows NT
+
+bufff, ya tocaba una migraci=C3=B3n.
+
+ ,quiero
+> eliminarlo para completar una fase de nuestro proceso de migraci=C3=B3n..=
+he
+> estado buscando informaci=C3=B3n sobre como implementar un PDC usando sam=
+ba ya
+> que quedarian algunas pc administrativas con windows ,pero me aparecen
+> varias cosas primero samba + openldap ,samba + ldap ,he leido y visto
+> muchos ejemplos y en cada uno a la hora del apt-get install XYZ empiesan =
+a
+> confundirme por los paquetes a usar .. estoy como que aburrido de meterle
+> mano al -purge y al autoremove ...
+> alguien me puede decir que paquetes en realidad instalar para poder tener
+> un PDC usando samba y autentificarlo con un servidor ldap en debian.
+> PD: podria usar zentyal ,pero no!
+
+Hace pocos d=C3=ADas ha salido samba 4 que es el sustituto normal de
+Windows como DC. Esta a=C3=BAn en RC pero ya puedes juguetear con esta
+versi=C3=B3n. Si est=C3=A1s pensando en migrar esa es tu soluci=C3=B3n. Se =
+han
+llevado mucho tiempo en el desarrollo y con muchas espectativas.
+
+http://wiki.samba.org/index.php/Samba4
+
+>
+>
+>
+> --
+>
+> Este mensaje le ha llegado mediante el servicio de correo electronico que=
+ ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema =
+Nacional de Salud. La persona que envia este correo asume el compromiso de =
+usar el servicio a tales fines y cumplir con las regulaciones establecidas
+>
+> Infomed: http://www.sld.cu/
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/2695.192.168.40.133.1349181338.squirrel@=
+192.168.40.200
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+FbNVi3EP1hkHc9eH4Grem0oGm1Km1+zr9tdEg7Htb-E81pQw@mail.gmail.com
+

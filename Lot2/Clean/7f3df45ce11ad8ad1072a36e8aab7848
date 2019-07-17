@@ -1,0 +1,38 @@
+Subject:Re: Apache2 erreurs
+Le dimanche 11 novembre 2012 à 22:37, andre_debian@numericable.fr a écrit :
+> > Oui ca marche sans problème. Je voulais juste dire que ce n'est pas ce
+> > mode de fonctionnement qui à été pensé par les devs. Mais tant qu'on
+> > ne s'y perd pas soit même, tout roule.
+> > Par contre si quelqu'un reprend l'administration du serveur et que les
+> > choses ne sont pas paramétrées comme prévu par les concepteurs, aïe
+> > aïe aïe ! Surprise !
+> 
+> Pas trop de : "aïe aïe aïe ! Surprise !",
+> car l'admin réseau, censé être professionnel, verra tout de suite
+> que les 2 répertoires concernés contiennent les fichiers qu'il faut.
+
+L'admin réseau censé être professionnel supposera que le dossier
+« sites-enabled » contient des liens symboliques, puisque sur toutes les
+installations Debian correctement administrées, c'est ce qu'il contient.
+
+Faire autrement c'est pousser un admin qui viendrait après à la faute, faute
+dont il ne sera pas responsable puisque l'erreur a été commise avant lui.
+
+> Mais effectivement, rien n'empêche de suivre les consignes
+> des howto "Apache2" à la lettre :-)
+
+C'est plutôt l'inverse. Suivre les consignes doit être le mode opératoire par
+défaut, mais rien n'empêche de ne pas les suivre, reste à savoir si on est prêt
+à en assumer les conséquences.
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121112090452.GB7376@sebian.nob900.homeip.net
+

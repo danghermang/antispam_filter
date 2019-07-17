@@ -1,0 +1,31 @@
+Subject:Re: Controlar el trafico consumido de un servidor
+Puedes utilizar vnstat, funciona muy bien.
+
+=11=11Un saludo.
+
+El 05/12/2012, a las 19:43, Altair Linux <altairlinux@gmail.com> =
+escribi=F3:
+
+> Hola,
+>=20
+> estoy mirando unos servidores dedicados que tienen, por ejemplo 400 Gb
+> de tr=E1fico al mes. =BFHay alg=FAn programa con el que pueda saber =
+cuanto
+> tr=E1fico llevo consumido cada mes?.
+>=20
+>=20
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact =
+listmaster@lists.debian.org
+> Archive: =
+http://lists.debian.org/CA+HdPfLh8XpQmTSAYV32crRSphhDXQCMXOAmk9h+5TvL1wtpW=
+w@mail.gmail.com
+>=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/6E54CF5A-22CA-4E6B-8B04-E0D4F7BBAAC8@gmail.com
+

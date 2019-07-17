@@ -1,0 +1,88 @@
+Subject:[HS] - Re: Implication dans le projet Debian
+On Thu, 06 Sep 2012 12:22:17 +0200
+Stephane Ascoet <Stephane.Ascoet@ac-orleans-tours.fr> wrote:
+
+> Le 06/09/2012 11:59, maderios a =C3=A9crit :
+> > Une attitude plus "militante" (ce n'est pas un gros mot...)
+> > permettrait peut-=C3=AAtre de mieux faire conna=C3=AEtre Debian.
+> >
+[linked]
+> Bonjour, autour de moi, j'ai bien du mal, Ubuntu ayant
+> l'injustifiee reputation d'etre la meilleure et plus simple
+> distribution.
+
+C'est difficile de promotionner Debian pour les desktops; d=C3=A9j=C3=A0
+parce que =C3=A7a n'est =C3=A0 l'=C3=A9vidence pas sa destination premi=C3=
+=A8re -
+quant'=C3=A0 la r=C3=A9putation de "plus simple" de Trudububu elle n'est
+pas vraiment usurp=C3=A9e: d=C3=A9j=C3=A0 l'installer a =C3=A9t=C3=A9 repri=
+s, si je ne
+m'abuse, =C3=A0 partir de celui de Knoppix et =C3=A9norm=C3=A9ment retravai=
+ll=C3=A9,
+ensuite pratiquement tous les daemons arrivent avec une conf
+par d=C3=A9faut, ce qui n'est pas le cas de Debian.
+
+Ce sont deux philosophies diam=C3=A9tralement oppos=C3=A9es: Debian-Admin et
+Trudububu-End User; et =C3=A7a n'est pas mal, c'est aussi =C3=A7a la
+pluralit=C3=A9 dans le libre...
+
+> Mais je ne suis plus tres motive non plus, etant pas
+> mal degoute par la direction prise par le libre: beaucoup
+> d'energie consacree a ajouter du clinquant, et refus de corriger
+> de gros bugs handicapants ou de prendre en compte des propositions
+> d'ameliorations, notamment dans l'installeur Debian :-(
+
+?
+Les avis =C3=A9tant comme les trous de balles, voil=C3=A0 le mien: c'est qu=
+e =C3=A7a
+avance plut=C3=B4t p=C3=B4mal et que la fiabilit=C3=A9 de Debian permet d'i=
+nstaller
+des
+serveurs sans soucis.
+
+Et pour ce qui est de l'installer, il a =C3=A9norm=C3=A9ment =C3=A9volu=C3=
+=A9 ces
+derni=C3=A8res ann=C3=A9es (je pense =C3=A0 la d=C3=A9tection des I/F Ether=
+net, par ex.)
+et comme Debian ne semble pas s'adresser aux newbies je ne vois pas
+o=C3=B9 est le PB.
+
+> Il ne faut
+> pas trop se faire d'illusions, cette entreprise linuxienne remplie
+> de succes tient sur tres peu de personnes, qui n'ont pas toutes
+> les memes objectifs.
+
+C'est justement l'int=C3=A9r=C3=AAt, sans ces divergences d'objectifs les
+chercheurs n'auraient rien pour les maths avanc=C3=A9es, la physique,
+l'astronomie, la g=C3=A9n=C3=A9tique, il n'y aurait qu'un seul WM, un seul
+lecteur de Xtimedia, un seul th=C3=A8me de couleur, etc, etc.
+
+> Et rien ne remplace ma distribution favorite,
+> Freeduc, morte faute de contributeurs :-'(
+
+Il faut savoir =C3=A9voluer en son temps; si demain Debian disparaissait
+=C3=A7a me ferait intens=C3=A9ment chier, mais je m'adapterais en t=C3=A2ch=
+ant de
+trouver une approximation potable, quitte =C3=A0 passer de Linux =C3=A0 BSD,
+pas question ne serait-ce de penser retourner s/s w$.
+
+JY
+--=20
+<Deuskull> L'enfance et l'adolescence, c'est comme Windows, c'est simple,
+           t'es (trop) guid=C3=A9, tu ne peux rien faire et tu plantes souv=
+ent.
+<Deuskull> Etre adulte, c'est comme Linux, tu es libre ! Mais pour faire un
+           tout petit truc, putain, qu'est-ce que t'en baves ...
+<Deuskull> La mort, c'est comme un Mac, =C3=A7=C3=A0 existe mais personne n=
+e s'en rend
+           vraiment compte sauf =C3=A0 la fin ...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120906132716.48341c27@anubis.defcon1
+

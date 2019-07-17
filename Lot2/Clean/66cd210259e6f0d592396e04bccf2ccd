@@ -1,0 +1,35 @@
+Subject:Re: [rescue] RISC laptop
+On Mon, Oct 29, 2012 at 9:07 PM, Robert Darlington
+<rdarlington@gmail.com> wrote:
+> RISC is good.  Does it have a 28.8 B P S modem?  And that display?
+> Active matrix man.  A million psychadelic colors.  I want it.  I want
+> it to have my children.
+>
+> ;-)
+>
+> Nice work man.  Looks cool.
+
+It's a raspberry pi running RISC OS connected to a Motorola Atrix
+lapdock. They cost hundreds of dollars until they got discontinued and
+could be had at verizon for $50... It has 2 USB ports, and one is used
+to power the Raspberry Pi (v1.0 - the new ones can be powered directly
+from the micro usb port of the lapdock requiring 2 cables only instead
+of 3). So you could plug a USB to serial and plug in an old 28.8...
+
+The screen, although I said 1080p (and the RISC OS says 1920x1080 by
+default), is actually only a 1360x768 native resolution. RISC OS does
+the interpolation (renders fonts well too, that OS). You can create an
+MDF so it runs at the native resolution (from memory, i think in
+boot.resources.configure.monitors)
+
+I put more pictures up, with all the adapters you'll need:
+http://raspberry-python.blogspot.com/2012/10/risc-laptop-cables-cabos.html
+
+So yeah, it doesn't look as good from the back, but at least no duct tape.
+
+Frangois
+
+--
+solarisdesktop.blogspot.com  -  raspberry-python.blogspot.com
+_______________________________________________
+rescue list - http://www.sunhelp.org/mailman/listinfo/rescue

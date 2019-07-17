@@ -1,0 +1,43 @@
+Subject:Re: Software, herramienta para encriptar y desencriptar un md5
+El Fri, 30 Nov 2012 18:45:07 +0100, Troll Debian escribió:
+
+No hagas top-posting que tú no eres nuevo en la lista ;-)
+
+> 2012/11/30 Camaleón <noelamac@gmail.com>:
+>> El Thu, 29 Nov 2012 14:52:27 -0500, academia escribió:
+>>
+>>> Hola lista. Necesito algún software, herramienta (o cómo desde una
+>>> terminal) poder encriptar y desencriptar un md5.
+>>
+>> Con "openssl" te debería bastar.
+>>
+>> OpenSSL Command-Line HOWTO
+>> http://www.madboa.com/geek/openssl/
+
+> -10!
+> 
+> 1.- Un MD5 no se puede descifrar
+
+Querido Troll, si participaras más activamente en esta lista ya habrías 
+aprendido a leer entre líneas. Por "desencriptar" se entiende "verificar".
+
+> 2.- Existe la orden "md5" (y sha) para generar los hashes. Pa que coño
+> enredas la marrana con scripts OpenSSL Howtos?
+
+No sé de qué "scripts" hablas (antes de escribir burradas deberías leer a 
+lo que respondes). Y también te convendría aprender a usar el comando 
+"openssl" para comprobar la suma de verificación de un archivo. 
+
+Ains... Trolls, dios los cría y ellos se arrejuntan.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9atpv$2aj$7@ger.gmane.org
+

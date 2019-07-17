@@ -1,0 +1,24 @@
+Subject:Re: afdrukken pdf in 12.04
+On Sat, Oct 27, 2012 at 11:41:07AM +0200, Milton wrote:
+> Graag uw hulp:
+> In 12.04 heb ik een HP laserjet 1010 aangesloten en de testpagina ziet er =
+
+> prima uit. Als ik een pdf bestand die 6 pagina's telt wil afdrukken wordt =
+
+> alleen het eerste blad afgedrukt. Bij afdrukinstellingen staat de optie =
+
+> Alle pagina's actief. Zie ik iets over het hoofd?
+> Milton =
+
+
+Probeer te testen of het werkelijk een instellingsprobleem is of iets met de
+pddf:
+terminal openen en met: lpr bestand.pdf laten afprinten.
+
+Y P
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

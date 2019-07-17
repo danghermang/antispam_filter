@@ -1,0 +1,122 @@
+Subject:Re: Informacion como crear mi entorno de escritorio
+El 07/09/12 10:39, Orlando Nuñez escribió:
+>
+> El 07/09/2012 07:08, "Jawifi" <jawifi01@gmail.com
+> <mailto:jawifi01@gmail.com>> escribió:
+>
+>El 07/09/2012 8:30, Debian GMail escribió:
+>> El 06/09/12 22:33, Hugo escribió:
+>>> Hola
+>>> Quiero saber como encontrar información para desarrollar un
+>entorno de
+>>> escritorio, gracias.
+>>>
+>> Buscando con Google, asistiendo a la Universidad, o por lo menos a un
+>> curso, leyendo libros, leyendo la documentación de tu distribución,
+>> asociándose a los grupos de desarrollo d3e Gnome, KDE, xfce, lxde,
+>> etcétera.
+>>
+>> En fin, hay CIENTOS de formas de aprender.
+>> Pero desgraciadamente TODAS implican un poquito de esfuerzo, el que a
+>> simple vista, no tienes ganas de hacer.
+>>
+>> Y por el tenor de tu pregunta, evidentemente te falta tomar mucha
+> sopa
+>> antes de empezar a pelearte con un desarrollo de interfaz gráfica.
+>>
+>> JAP
+>>
+>>
+Y después se preguntan... Porque Linux no ha triunfado como sistema
+> operativo para uso domestico? Pero si es sencillo cuando lo instalas
+> te vas a encontrar siempre con algo que no funciona y si haces una
+> pregunta en el foro si esta mal la pregunta te encuentras con este
+> tipo de respuestas que seguramente necesitan para alimentar sus
+> egos... Y la pregunta es: quienes son estos idiotas que responden con
+> burlas, seran acaso personas reconocidas?, la verdad son solo idiotas!
+>
+
+1) "¿Por qué GNU/Linux no ha triunfado como sistema operativo para uso 
+doméstico?"
+Simple, por la misma razón que Sor Teresa de Calcuta no "triunfó" como 
+"empresa de alimentación a parias en la India". O por la misma razón por 
+la que yo no "triunfo" cada tarde que salgo a correr: NO COMPITO NI ME 
+INTERESA TRIUNFAR.
+Creo poder decir sin miedo que salvo algunas empresas como Oracle que 
+utilizan sistemas basados en *nix, NADIE en el univerdo GNU/Linux quiere 
+que "triunfe", si se entiende por "triunfo" un a cantidad numérica.
+Prefiero el "triunfo" de la calidad; el 92,4% de los supercomputadores 
+que están desentrañando los misterios del universo usan GNU/Linux, y 
+apenas el 0,4% MS-Windows. Lo cual es lógico, dado que MS-W está hecho 
+para jugar, o sea, para uso doméstico.
+Triunfar implica competir, y no se puede competir con quien no le 
+interesa hacerlo.
+
+2) "Es sencillo cuando lo instalas te vas a encontrar siempre con algo 
+que no funciona."
+¿Y? En Debian, lo que no funciona de buenas a primeras, se debe a:
+  - 80% por componentes con partes no libres, lo cual es algo que se 
+BUSCA en la distribución por PRINCIPIOS. El problema es del fabricante 
+que, a pesar que se le paga por producto y soporte técnico, no produce 
+los controladores correspondientes.
+  - 15% por ignorancia del que instala el sistema. Persistir en esto se 
+transforma en necedad, y habilita para cargo político.
+  - 4% por problemas que ni siquiera el que fabrica y vende los 
+aparatos, a veces sabe de por qué sucede.
+  - 1 % por los Gremlims. A estos no hay que darles de comer.
+
+3) "Si haces una pregunta en el foro si esta mal la pregunta te 
+encuentras con este tipo de respuestas que seguramente necesitan para 
+alimentar sus egos."
+Bien, me parece acertada tu respuesta. Por favor, en no más de 100 
+líneas, en modo texto, en este foro, dinos cómo se desarrolla un entorno 
+de escritorio.
+Lo pregunto en serio, pues tengo ganas de aprender.
+¡Ah! Y hazlo con términos que un "usuario doméstico" entienda, no me 
+vengas con temas de frecuencias de refresco de pantallas, programación 
+orientada a objetos, accesos directos a subrutinas de la BIOS en C, o 
+pero aún, en Assembler, manejos de punteros, punteros a punteros, 
+dirección e indirección de memoria, registros de procesadores, 
+interrupciones físicas y lógicas, y toda esas "pavadas" que me costaron 
+(y me siguen costando) varios años de mi vida de asistir a clases, leer, 
+estudiar y sentarme frente a la computadora.
+Pero se debe seguramente a que mi "ego" no me deja ver que son tonteras 
+que cualquier otro lo puede comprender y manejar en cuestión de minutos.
+
+4) "Y la pregunta es: quienes son estos idiotas que responden con 
+burlas, seran acaso personas reconocidas?, la verdad son solo idiotas!"
+Como diría Sheldon, respecto de mi contestación, "Eso fue un sarcasmo, 
+no una burla".
+¿Reconocido? No gracias, no sea cosa si me reconocen me caiga la AFIP.
+¿Idiota? No. Es una falta de respeto para aquellas personas que padecen 
+idiocia, y para aquellos familiares que sobrellevan la cruz de tener un 
+ser querido con ese trastorno.
+Y si lo que quisiste decirme fue "engreído", puede ser, padezco de 
+muchas deficiencias, y no olvidemos que la soberbia es la tentación 
+favorita del maligno.
+Pero en todo caso, se trató de la charla entre dos engreídos: el uno que 
+se presume tan importante que los demás deben presurosos responder a sus 
+caprichos, y el otro, un servidor, que trató de enseñarle un poquito el 
+significado de la palabra "esfuerzo".
+
+JAP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/504A65B2.4020208@gmail.com
+

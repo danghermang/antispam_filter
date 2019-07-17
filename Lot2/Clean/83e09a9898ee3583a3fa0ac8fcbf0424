@@ -1,0 +1,30 @@
+Subject:Re: limitar cantidad de envios de correo con postfix
+On 05/10/12 17:21, linux wrote:
+> El 04/10/12 15:18, jors escribió:
+>> On 02/10/12 22:35, linux wrote:
+>>> Saludos lista como puedo limitar la cantidad de envios de mensajes por
+>>> direccion de correo, es decir, quiero que pepito@x.x envie 10 mensajes
+>>> al dia y cuando exeda esa cantidad se no pueda enviar mas, o por ejemplo
+>>> a veces se usa el correo para chatear, quisiera evitar que hagan esta
+>>> acción, espero puedan ayudarme.
+>>
+>> postfix-policyd es tu amigo (mírate el parámetro throttle).
+>>
+>> Salut.
+>>
+>>
+> donde encuentro el postfix-policyd y que parte estan los parametros de
+> configuracion, lo he buscado he tratado de instalarlo pero no lo encuentro
+
+Puedes instalarlo de los repositorios y leer un poco aquí:
+
+http://policyd.sourceforge.net/readme.html
+
+PD. Responde a la lista.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5071BB5D.1010203@gmail.com
+

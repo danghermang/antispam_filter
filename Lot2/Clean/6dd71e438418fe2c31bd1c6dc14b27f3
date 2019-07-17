@@ -1,0 +1,83 @@
+Subject:ActiveState announces ActivePerl 5.16.1
+ActiveState is pleased to announce ActivePerl 5.16.1 build 1601,
+a complete, ready-to-install binary distribution of Perl.
+
+Builds for Windows, Mac OS X and Linux are made freely available.
+Builds for Solaris, HP-UX and AIX are available with ActivePerl Business
+Edition. For detailed information or to download these releases, see:
+
+  http://www.activestate.com/activeperl
+
+
+What's new in ActivePerl
+========================
+
+ActivePerl 5.16 is now based on the 5.16.1 release. You can read about all
+the changes since Perl 5.16.0 in the perldelta document:
+
+  http://docs.activestate.com/activeperl/5.16/lib/pods/perl5161delta.html
+
+In addition, the 64-bit version of ActivePerl 5.16.1 for Windows now
+automatically supports building and installing additional modules with
+MinGW64 and dmake. These tools are available via PPM the same way MinGW
+has already been supported in the 32-bit version.
+
+Also improved is the way Perl will automatically configure itself on
+Mac OS X to the installed version of XCode to locate the GCC compiler
+and tools.
+
+Getting Started
+===============
+
+Whether you're a first-time user or a long-time fan, our free resources
+will help you get the most from ActivePerl.
+
+Mailing list archives:
+
+  http://code.activestate.com/lists/activeperl/
+
+
+Supported Platforms
+===================
+
+ActivePerl is available for the following platforms:
+
+- Windows/x86   (32-bit)
+- Windows/x64   (64-bit) (aka "AMD64")
+- Mac OS X
+- Linux/x86     (32 bit)
+- Linux/x86_64  (64-bit) (aka "AMD64")
+
+- Solaris/SPARC (32-bit and 64-bit) (Business Edition only)
+- Solaris/x86   (32-bit)            (Business Edition only)
+- HP-UX/PA-RISC (32-bit)            (Business Edition only)
+- AIX/PowerPC   (32-bit)            (Business Edition only)
+
+More information about the Business Edition can be found here:
+
+  http://www.activestate.com/business-edition
+
+Custom builds are available in the Enterprise Edition:
+
+  http://www.activestate.com/enterprise-edition
+
+
+Feedback
+========
+
+Everyone is encouraged to participate in making Perl an even better
+language.
+
+For bugs related to ActiveState use:
+
+  http://bugs.activestate.com/enter_bug.cgi?product=ActivePerl&version=1601
+
+For bugs related directly to Perl please use the 'perlbug' utility.
+
+Enjoy!
+
+
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

@@ -1,0 +1,76 @@
+Subject:Mail delivery failed: returning message to sender
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  greenchoice@normipro.com
+    The mail server detected your message as spam and has prevented delivery (200).
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <FCB87EC8@trexlergroup.com>
+Received: from [5.39.142.227] (port=25949 helo=[5.39.133.255])
+	by trigger.compusoarserver.com with esmtp (Exim 4.80)
+	(envelope-from <FCB87EC8@trexlergroup.com>)
+	id 1TiRGk-0000Sv-Vl
+	for greenchoice@normipro.com; Tue, 11 Dec 2012 08:57:20 -0600
+From: "Today Cialsi" <FCB87EC8@trexlergroup.com>
+Subject: New year sale
+To: <greenchoice@normipro.com>
+List-Unsubscribe: <mailto:164CF9D4CAF0194B@afleels.maori.nz>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; chars="iso-8859-1"
+Date: Tue, 11 Dec 2012 15:57:13 +0200
+Message-ID: <20121211155713.1AF5929438793DA52EFD0.DDAC161@DEJANAÈORAK>
+X-Spam-Subject: ***SPAM*** New year sale
+X-Spam-Status: Yes, score=21.2
+X-Spam-Score: 212
+X-Spam-Bar: +++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "trigger.compusoarserver.com", has
+ identified this incoming email as possible spam.  The original message
+ has been attached to this so you can view it (if it isn't spam) or label
+ similar future email.  If you have any questions, see
+ no for details.
+ 
+ Content preview:  Yo, customer greenchoice! Top sale Want to have something
+   extra? Don't hesitate! Order best ED drugs here! -> Proepcia - 0.34$ ** Levitra
+    - 1.84$ ** Cialis - 1.56$ ++ Viarga - 0.59$ [...] 
+ 
+ Content analysis details:   (21.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  3.6 RCVD_IN_PBL            RBL: Received via a relay in Spamhaus PBL
+                             [5.39.142.227 listed in zen.spamhaus.org]
+  1.5 FH_RELAY_NODNS         We could not determine your Reverse DNS
+  1.5 BOTNET                 Relay might be a spambot or virusbot
+                 [botnet0.8,ip=5.39.142.227,maildomain=trexlergroup.com,nordns]
+  0.1 BOTNET_NORDNS          Relay's IP address has no PTR record
+                             [botnet_nordns,ip=5.39.142.227]
+  1.7 URIBL_WS_SURBL         Contains an URL listed in the WS SURBL blocklist
+                             [URIs: medictreatm.ru]
+  1.9 URIBL_JP_SURBL         Contains an URL listed in the JP SURBL blocklist
+                             [URIs: medictreatm.ru]
+  1.7 URIBL_DBL_SPAM         Contains an URL listed in the DBL blocklist
+                             [URIs: medictreatm.ru]
+  4.6 FB_CIALIS_LEO3         BODY: Uses a mis-spelled version of cialis.
+  2.2 DRUGS_ERECTILE         Refers to an erectile drug
+  1.3 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  1.2 INVALID_MSGID          Message-Id is not valid, according to RFC 2822
+X-Spam-Flag: YES
+
+Yo, customer greenchoice!
+Top sale
+
+Want to have something extra? Don't hesitate! Order best ED drugs here!
+
+-> Proepcia - 0.34$
+** Levitra - 1.84$
+** Cialis - 1.56$
+++ Viarga - 0.59$
+
+It's time to make gifts!  Get yourself a healthy life with our drugstore!
+
+http://Ibhe.medictreatm.ru/
+

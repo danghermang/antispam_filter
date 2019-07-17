@@ -1,0 +1,36 @@
+Subject:[EVDL] battery heating
+I'm thinking of using one of these:
+
+http://www.cantherm.com/products/bimetal_cutouts/index.html
+
+to connect 120VAC (through a fuse) to resistive heaters to turn off power to
+them at 68 F.  They are rated for 100,000 cycles, the same as their control
+thermostats, but uses listed are small appliances, so seems intermittent
+use.  
+
+The control thermostats:
+
+http://www.cantherm.com/products/control_thermostats/index.html
+
+are rated for control of heaters so seem more appropriate, but are too big,
+about 2 1/2" long.  I want to mount them on a piece of brass held in place
+on the LiFePO4 cell with a terminal bolt.  Any opinions on how reliable
+these will perform for this application?  Current draw should be no more
+than 1A, so far below the thermostat rating.
+
+
+
+
+--
+View this message in context: http://electric-vehicle-discussion-list.413529.n4.nabble.com/battery-heating-tp4658939.html
+Sent from the Electric Vehicle Discussion List mailing list archive at Nabble.com.
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

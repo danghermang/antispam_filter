@@ -1,0 +1,31 @@
+Subject:Re: activar segunda tarjeta de red eth1
+El Wed, 07 Nov 2012 09:45:17 -0600, Francisco Eduardo Ascencio Dominguez
+escribió:
+
+> El 07/11/2012, a las 09:37, Camaleón <noelamac@gmail.com> escribió:
+> 
+>> El Wed, 07 Nov 2012 10:05:27 -0500, correo personal escribió:
+>> 
+>>> como lo puedo hacer??
+>> 
+>> ¿Cómo puedes hacer "qué"? ¿Responder a un correo del año 2006 o activar
+>> una segunda tarjeta de red en Sarge? >:-P
+
+> asi. sudo iconfig eth1 up
+
+(...)
+
+Hum... creo que no has pillado el tono irónico de mi respuesta (y eso que 
+el mensaje iba con emoticono incluido).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7e02a$bcr$9@ger.gmane.org
+

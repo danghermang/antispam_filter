@@ -1,0 +1,57 @@
+Subject:Re: apache2 et permissions sur /var/log =?UTF-8?B?bW9udMOp?= entmpfs
+On Thu, 25 Oct 2012 13:15:33 +0200
+Micka=C3=ABl Vera <vera.mickael@gmail.com> wrote:
+
+>=20
+> D'autres packages sont plus robustes, j'ai un r=C3=A9pertoire exim4 qui e=
+st
+> recr=C3=A9=C3=A9 apr=C3=A8s un reboot avec Debian-exim comme user et grou=
+p.
+
+=C3=87a c'est autre chose, =C3=A7a veut juste dire que le pgm recr=C3=A9e c=
+e dir s'il
+est inexistant - =C3=A7a n'est pas le comportement par d=C3=A9faut, dans le=
+quel ledit
+pgm s'attend =C3=A0 trouver son dir de log =C3=A0 sa place et plante ou se =
+lance
+avec/sans avertissement s'il est manquant.
+=20
+> > Et de toute fa=C3=A7on c'est une tr=C3=A8s mauvaise id=C3=A9e que de ba=
+lancer des logs de
+> > _s=C3=A9curit=C3=A9_ lors d'un reboot/arr=C3=AAt/panne de la machine...
+>=20
+> En l'occurrence il s'agit d'un petit NAS que j'ai construit avec un
+> disque SSD, je n'ai pas de contraintes fortes de s=C3=A9curit=C3=A9 et je=
+ n'irai
+> jamais voir ces logs.
+
+=C3=87a reste tjrs une Tmauvaise id=C3=A9e, d'abord parce que l'overhead en=
+gendr=C3=A9 par
+l'=C3=A9criture des logs reste faible (surtout sur du SSD), ensuite parce q=
+ue le
+jour o=C3=B9 tu auras un PB (quelque soit la source, M=C3=A0J, mauvaise con=
+f, etc) tu=20
+n'auras aucune trace pour remonter la piste.
+
+Et c'est pareil pour les fichiers *.lock, s'ils existent c'est bien pour:
+1- =C3=A9viter de lancer 2 fois un pgm|daemon critique,
+2- =C3=AAtre pr=C3=A9venu qu'un gros PB est apparu avant reboot|restart.
+
+On trouve un peu partout sur le web de bons conseils sur quoi faire (et
+ne pas faire).
+
+--=20
+Lepidosteus: de toutes fa=C3=A7ons mon m=C3=A9decin m'a dit que mes crises
+             de n=C3=A9vrose passag=C3=A8res ne me poseraient pas de probl=
+=C3=A8mes
+Lepidosteus: en tout cas, pas tant que je cache les corps
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121025154527.280f7ee6@anubis.defcon1
+

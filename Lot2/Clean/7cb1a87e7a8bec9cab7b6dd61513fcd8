@@ -1,0 +1,46 @@
+Subject:Re: pasar directamente de etch a squeeze
+Esteban Torres Rodríguez wrote:
+[...]
+>>
+> 
+> Triple mortal para atras sin red. Siendo un pc al que no puedes
+> acceder físicamente yo no me arriesgaba tanto. La verdad es que no se
+> por donde puede salir una actualización como la que comentas.
+
+¡ Y yo tampoco hombre se donde eso puede salir ! Eso es mi problema. Tal vez
+alguien a intentado eso y puede tener una experiencia, aun sea negativa. 
+
+Lo que mas me atreve es el problema de udev que al actualizar puede cambiar
+el nombre de la interfaces. He visto una vez en uno de mis PC en dmesg : 
+
+udev: renamed network interface eth0 to eth1
+
+lo que corresponde à este fichero : 
+ 
+/etc/udev/rules.d/70-persistent-net.rules
+
+que contenia : 
+
+# PCI device 0x8086:0x100f (e1000)
+SUBSYSTEM=="net", DRIVERS=="?*", ATTRS{address}=="00:0c:29:65:ae:04",
+NAME="eth0"
+
+# PCI device 0x1039:0x0900 (sis900)
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*",
+ATTR{address}=="00:1c:c0:65:20:06", ATTR{type}=="1", KERNEL=="eth*",
+NAME="eth1"
+
+y claro el servidor no respondia a los pings porque se habian intervertido
+eth0 y eth1.. 
+
+Tuve que editar este fichero para intercambiar el nombre de los devices.
+Pero podia acceder fisicamente al PC. Sino, solo con ssh, era impossible. 
+
+Alguien sabe si se puede prevenir eso ?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3pgfo$t9e$1@ger.gmane.org
+

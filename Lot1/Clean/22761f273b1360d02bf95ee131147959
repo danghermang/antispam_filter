@@ -1,0 +1,41 @@
+Subject:Re: Consulta ftp sobre internet
+El Mon, 12 Nov 2012 16:17:13 -0300, Jawifi escribió:
+
+(...)
+
+> Tengo una maquina con un dominio propio, al que accedo via web y que
+> tiene el ftp andando y sin problemas, el tema es como "traducir" el
+> nombre del ftp en el script de bash.
+
+(...)
+ 
+> y yo lo expresé así:
+> 
+> ftp_host=server.soporteremoto.com.ar:21 
+> ftp_user=user
+> ftp_pass=xxxxxx
+
+Quizá tengas que expresar el valor de los campos entre comillas, por 
+ejemplo: 
+
+ftp_host="server.soporteremoto.com.ar 21"
+
+Pero eso sólo lo podrás saber leyendo el script ;-)
+
+> pero no funciona, 
+
+(...)
+
+¿Y qué error te da?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7tls5$me$1@ger.gmane.org
+

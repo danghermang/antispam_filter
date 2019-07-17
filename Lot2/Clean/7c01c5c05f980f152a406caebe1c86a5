@@ -1,0 +1,85 @@
+Subject:[routing-wg] BGP Update Report
+BGP Update Report
+Interval: 22-Nov-12 -to- 29-Nov-12 (7 days)
+Observation Point: BGP Peering with AS131072
+
+TOP 20 Unstable Origin AS
+Rank ASN                Upds     %  Upds/Pfx    AS-Name
+ 1 - AS37113          100140  5.0%    2328.8 -- tangerine-ug-as
+ 2 - AS37044           46614  2.3%    2330.7 -- Tangerine-AS
+ 3 - AS8402            43314  2.2%      23.0 -- CORBINA-AS OJSC "Vimpelcom"
+ 4 - AS36915           39112  1.9%    1504.3 -- AFOL-KE-AS
+ 5 - AS3909            38402  1.9%    9600.5 -- QWEST-AS-3908 - Qwest Communications Company, LLC
+ 6 - AS9829            33612  1.7%      41.5 -- BSNL-NIB National Internet Backbone
+ 7 - AS35228           30715  1.5%     117.7 -- BEUNLIMITED Avatar Broadband Limited
+ 8 - AS24757           25237  1.3%     467.4 -- EthioNet-AS
+ 9 - AS29039           22891  1.1%    2543.4 -- AFRICAONLINE-UG Africa Online Uganda
+10 - AS22561           22032  1.1%    1049.1 -- DIGITAL-TELEPORT - Digital Teleport Inc.
+11 - AS10620           20644  1.0%      11.3 -- Telmex Colombia S.A.
+12 - AS29049           14202  0.7%      43.0 -- DELTA-TELECOM-AS Delta Telecom LTD.
+13 - AS29032           13570  0.7%     424.1 -- DATANET-UG DATANET LLC
+14 - AS7922            13144  0.7%    1460.4 -- COMCAST-7922 - Comcast Cable Communications, Inc.
+15 - AS21491           13083  0.7%    1189.4 -- UGANDA-TELECOM Uganda Telecom
+16 - AS37048           12852  0.6%     918.0 -- Foris-Uganda
+17 - AS2708            12204  0.6%      89.1 -- Universidad de Guanajuato
+18 - AS9808            11887  0.6%      14.2 -- CMNET-GD Guangdong Mobile Communication Co.Ltd.
+19 - AS13118           11121  0.6%     556.0 -- ASN-YARTELECOM OJSC Rostelecom
+20 - AS43695           10630  0.5%   10630.0 -- LISNER_AS UNIQ LISNER Sp. z o.o.
+
+
+TOP 20 Unstable Origin AS (Updates per announced prefix)
+Rank ASN                Upds     %  Upds/Pfx    AS-Name
+ 1 - AS43695           10630  0.5%   10630.0 -- LISNER_AS UNIQ LISNER Sp. z o.o.
+ 2 - AS3909            38402  1.9%    9600.5 -- QWEST-AS-3908 - Qwest Communications Company, LLC
+ 3 - AS24057            6660  0.3%    6660.0 -- AIGL-AS-AP PT. AIA FINANCIAL, Insurance company, Indonesia
+ 4 - AS6629             8545  0.4%    4272.5 -- NOAA-AS - NOAA
+ 5 - AS19406            4173  0.2%    4173.0 -- TWRS-MA - Towerstream I, Inc.
+ 6 - AS2033             3822  0.2%    3822.0 -- PANIX - Panix Network Information Center
+ 7 - AS29039           22891  1.1%    2543.4 -- AFRICAONLINE-UG Africa Online Uganda
+ 8 - AS37115            2333  0.1%    2333.0 -- TMP-UG
+ 9 - AS37044           46614  2.3%    2330.7 -- Tangerine-AS
+10 - AS37113          100140  5.0%    2328.8 -- tangerine-ug-as
+11 - AS14680            6902  0.3%    2300.7 -- REALE-6 - Auction.com
+12 - AS37273            5777  0.3%    1925.7 -- BCS
+13 - AS37156            9253  0.5%    1850.6 -- XTRANET
+14 - AS57918            1740  0.1%    1740.0 -- ACOD-AS ACOD CJSC
+15 - AS6197             1642  0.1%    1642.0 -- BATI-ATL - BellSouth Network Solutions, Inc
+16 - AS36915           39112  1.9%    1504.3 -- AFOL-KE-AS
+17 - AS7922            13144  0.7%    1460.4 -- COMCAST-7922 - Comcast Cable Communications, Inc.
+18 - AS9950             2508  0.1%    1254.0 -- PUBNETPLUS2-AS-KR DACOM
+19 - AS51122            1210  0.1%    1210.0 -- SIT-CORP-AS Sitronics, AO
+20 - AS36529            2416  0.1%    1208.0 -- AXXA-RACKCO - Rackco.com
+
+
+TOP 20 Unstable Prefixes
+Rank Prefix             Upds     % Origin AS -- AS Name
+ 1 - 151.118.18.0/24   12818  0.6%   AS3909  -- QWEST-AS-3908 - Qwest Communications Company, LLC
+ 2 - 151.118.255.0/24  12790  0.6%   AS3909  -- QWEST-AS-3908 - Qwest Communications Company, LLC
+ 3 - 151.118.254.0/24  12790  0.6%   AS3909  -- QWEST-AS-3908 - Qwest Communications Company, LLC
+ 4 - 184.159.130.0/23  10892  0.5%   AS22561 -- DIGITAL-TELEPORT - Digital Teleport Inc.
+ 5 - 184.157.224.0/19  10824  0.5%   AS22561 -- DIGITAL-TELEPORT - Digital Teleport Inc.
+ 6 - 93.181.254.0/23   10640  0.5%   AS13118 -- ASN-YARTELECOM OJSC Rostelecom
+ 7 - 91.198.110.0/24   10630  0.5%   AS43695 -- LISNER_AS UNIQ LISNER Sp. z o.o.
+ 8 - 202.14.255.0/24    6660  0.3%   AS24057 -- AIGL-AS-AP PT. AIA FINANCIAL, Insurance company, Indonesia
+ 9 - 23.67.247.0/24     6541  0.3%   AS7922  -- COMCAST-7922 - Comcast Cable Communications, Inc.
+10 - 184.51.102.0/24    6537  0.3%   AS7922  -- COMCAST-7922 - Comcast Cable Communications, Inc.
+11 - 12.139.133.0/24    5626  0.3%   AS14680 -- REALE-6 - Auction.com
+12 - 203.28.157.0/24    5167  0.2%   AS4802  -- ASN-IINET iiNet Limited
+13 - 139.139.19.0/24    4939  0.2%   AS1562  -- DNIC-ASBLK-01550-01601 - DoD Network Information Center
+14 - 194.63.9.0/24      4636  0.2%   AS1273  -- CW Cable and Wireless Worldwide plc
+15 - 192.58.232.0/24    4515  0.2%   AS6629  -- NOAA-AS - NOAA
+16 - 123.252.208.0/24   4446  0.2%   AS17762 -- HTIL-TTML-IN-AP Tata Teleservices Maharashtra Ltd
+17 - 49.248.72.0/21     4226  0.2%   AS17762 -- HTIL-TTML-IN-AP Tata Teleservices Maharashtra Ltd
+18 - 69.38.178.0/24     4173  0.2%   AS19406 -- TWRS-MA - Towerstream I, Inc.
+19 - 192.58.2.0/24      4030  0.2%   AS6629  -- NOAA-AS - NOAA
+20 - 209.48.168.0/24    3822  0.2%   AS2033  -- PANIX - Panix Network Information Center
+
+Details at http://bgpupdates.potaroo.net
+------------------------------------
+Copies of this report are mailed to:
+  nanog@nanog.org
+  eof-list@ripe.net
+  apops@apops.net
+  routing-wg@ripe.net
+  afnog@afnog.org
+

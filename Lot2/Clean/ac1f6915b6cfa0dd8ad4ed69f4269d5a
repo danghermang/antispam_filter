@@ -1,0 +1,29 @@
+Subject:Re: =?ISO-8859-1?Q?=BFcomo?= se hace una busqueda avanzada con
+	google?
+On ds, 2012-10-06 at 01:54 +0000, Victor Hugo Cespedes Zuleta wrote:
+> la busqueda básica la realiza dandoles la misma prioridad a todas las
+> palabras pero excluye "de" "y" "para" "en" es decir los conectores eso
+> es obvio porque no aporta nada nuevo y son palabras muy comunes.
+> 
+> 
+> bueno, y si por ejemplo deseo buscar la palabras exacta "ARDUINO" Y
+> "PROYECTOS" Y "ELECTRÓNICA" Y "MÚSICA" pero que no tenga "precio" ni
+> "venta" ni "coche" ni "barato" y que tenga en segunda prioridad las
+> palabras: 'brecha digital' o 'invento' y que no sea artículo de
+> 'wikipedia'
+> 
+> 
+> ¿como le hago entender esa lógica a Google?
+
+intext:arduino intext:proyectos intext:electronica intext:musica -precio
+-venta -coche -barato "brecha digital" invento -site:wikipedia.org
+
+https://sites.google.com/site/gwebsearcheducation/advanced-operators
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349573751.30830.2.camel@escampalaboira.local
+

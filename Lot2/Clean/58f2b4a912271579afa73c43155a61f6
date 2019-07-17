@@ -1,0 +1,20 @@
+Subject:[testing] /etc/sysfs.conf n'est plus =?ISO-8859-1?Q?appel=E9?=
+Bonjour,
+
+Depuis les mises =E0 jours de ce jour sur testing (notamment
+sysvinit) /etc/sysfs.conf n'est plus pris en compte sur ma machine.
+Pourtant j'ai bien S18sysfsutils dans /etc/rc2.d, script qui normalement
+lit /etc/sysfs.conf
+Aucune trace d'erreur dans syslog ou message.
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120902002524.1c567540e0069524bffb65d3@neuf.fr
+

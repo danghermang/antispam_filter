@@ -1,0 +1,85 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<mikvikmik@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <apps+kr4mmryggmsa@facebookappmail.com>
+Received: (qmail 18911 invoked by uid 89); 11 Dec 2012 12:22:32 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 11 Dec 2012 12:22:32 -0000
+Delivery-date: Tue, 11 Dec 2012 04:20:53 -0800
+Received: from outmail024.ash2.facebook.com ([66.220.155.158] helo=mx-out.facebook.com) helo=mx-out.facebook.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1TiOpE-0006kp-Da on interface=184.105.182.43
+	for mikvikmik@activ8.net.au; Tue, 11 Dec 2012 04:20:51 -0800
+DKIM-Signature: v=1; a=rsa-sha256; d=facebookappmail.com; s=s1024-2011-q2; c=relaxed/simple;
+	q=dns/txt; i=@facebookappmail.com; t=1355228433;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=8CwMtHWc5f6Sh2TO0eEquAaVJq7uB0IjtJEB0PexrXE=;
+	b=THPT+decZYPqUoR1wApDDRKaACKtBDCItEAMm83d26HPIW5OxbeGcL97fadg2JyM
+	2OLVoI+WNTaHd2OHofOTVCi9YzaDqUxskMv8Y37o4qjn/r5hCrmgbQu+Cik3wwT1
+	r6N4+ZKPw3reKNIirHV9FcTcAjrh3kkVz5tpEaqSPNg=;
+Received: from [10.216.222.69] ([10.216.222.69:54406])
+	by smout031.ash4.facebook.com (envelope-from <apps+kr4mmryggmsa@facebookappmail.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ECSTREAM
+	id A1/2A-32684-11527C05; Tue, 11 Dec 2012 04:20:33 -0800
+X-Facebook: from zuckmail ([MTI3LjAuMC4x]) 
+	by api.facebook.com with HTTP (ZuckMail);
+Date: Tue, 11 Dec 2012 04:20:33 -0800
+To: Vickie Farrow <mikvikmik@activ8.net.au>
+From: "Will you KISS me?" <apps+kr4mmryggmsa@facebookappmail.com>
+Reply-to: noreply <noreply@facebookmail.com>
+Subject: You have a new crush nearby & Kiss 15
+Message-ID: <4fab244b3b4e0ecd3f86c01957d8e770@api.facebook.com>
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Errors-To: apps+kr4mmryggmsa@facebookappmail.com
+X-Facebook-Notify: platform_email; from_app=6323135851; mailid=731223fG5af32197df7aG0G27
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_4fab244b3b4e0ecd3f86c01957d8e770"
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: apps+kr4mmryggmsa@facebookappmail.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=facebook.com - X=apn H=outmail024.ash2.facebook.com [66.220.155.158] HELO=[mx-out.facebook.com] F=[apps+kr4mmryggmsa@facebookappmail.com] T=[mikvikmik@activ8.net.au] S=[You have a new crush nearby & Kiss 15]
+X-Sender-Host-Address: 66.220.155.158
+X-Sender-Host-Name: outmail024.ash2.facebook.com
+
+
+--b1_4fab244b3b4e0ecd3f86c01957d8e770
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+This message contains a rich-text HTML portion. Consult your mail client's =
+documentation for information on how to view it.
+
+
+--b1_4fab244b3b4e0ecd3f86c01957d8e770
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><div class=3D"app_content app_content_6323135851" =
+id=3D"app_content_6323135851"><span fb_protected=3D"true" =
+class=3D"fb_protected_wrapper">A new crush wants to meet you and is =
+waiting for your reply<br /><br /><a href=3D"http://apps.facebook.com/ukis=
+sme/email?src=3Dcrushemail&amp;locale=3Den_GB">Unlock to view crush</a><br =
+/><br /><a =
+href=3D"http://apps.facebook.com/ukissme/email?src=3Dcrushemail">Unlock to =
+view Crush</a></span></div><br/><br/>---<br/>This email was sent by Will =
+you KISS me? You can <a href=3D"http://www.facebook.com/n/?editaccount.php=
+&amp;notifications&amp;block=3D6323135851&amp;t=3D1355228433&amp;l=3Db&amp=
+;mid=3D731223fG5af32197df7aG0G27&amp;bcode=3D1.1355228433.Ablat_wuCjuZg89r=
+&amp;n_m=3Dmikvikmik%40activ8.net.au">disable emails here</a>.<br/></html>
+
+
+
+--b1_4fab244b3b4e0ecd3f86c01957d8e770--
+
+

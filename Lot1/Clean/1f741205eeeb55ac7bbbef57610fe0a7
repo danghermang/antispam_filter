@@ -1,0 +1,37 @@
+Subject:Re: =?ISO-8859-1?B?W3Lpc29sdV0gZXjpY3V0ZXI=?= des commandes avec
+	droits root =?ISO-8859-1?B?KGh5cG90aOhzZQ==?= sudo)
+Bonjour, Bonsoir,=20
+
+Le Sun, 4 Nov 2012 11:31:20 +0100, Bzzz, vous avez =E9crit :
+
+
+
+> > Il fallait rebooter pour que cela fonctionne, du moins face au test
+> > d'"aptitude"
+>=20
+> Un simple '/etc/init.d/sudo restart' devrait =EAtre suffisant...
+>=20
+
+
+J'avais m=EAme pas imagin=E9 qu'il existait un service : Merci !=20
+
+Par contre je pense que seul un start est pertinent car dans le
+script :
+  stop|reload|restart|force-reload)
+        ;;
+
+
+
+--
+Cordialement=20
+Gr=E9gory BULOT
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121104121501.71461ecf@roland.bulot-fr.com
+

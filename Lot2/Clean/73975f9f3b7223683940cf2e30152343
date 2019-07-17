@@ -1,0 +1,64 @@
+Subject:Re: [Aviso a navegantes] =?ISO-8859-1?B?v1Npbg==?= "gnome-fallback"
+	a	partir de GNOME 3.8?
+El Fri, 9 Nov 2012 18:32:29 +0000 (UTC)
+Camale=F3n <noelamac@gmail.com> escribi=F3:
+> El Fri, 09 Nov 2012 18:01:21 +0100, Luis Felipe Tabera Alonso
+> escribi=F3:
+>=20
+> > On Friday November 9 2012 16:20:06 Camale=F3n wrote:
+> >> Hola,
+> >>=20
+> >> Pues eso, que me entero a trav=E9s de Phoronix=B9 que ya est=E1n
+> >> planteando fechas (GNOME 3.8) para eliminar el modo
+> >> "gnome-fallback" de GNOME3.
+> >=20
+> > Sobre este tema, parece que si no se tiene el hardware y los drivers
+> > necesarios se realizar=E1 un renderizado por software usando llvmpipe.
+> >=20
+> > Me parece muy interesante el blog de Martin Glaesslin,
+> > desarrollador de kwin, el gestor de ventanas de kde. Entre otros
+> > temas, opina que si el hardware no soporta opengl para el
+> > escritorio, es probable que el procesador tampoco sea el id=F3neo
+> > para un renderizado del escritorio por software usando llvmpipe.
+> >=20
+> > http://blog.martin-graesslin.com/blog/2012/10/to-llvmpipe-or-not/
+>=20
+> Muy buen resumen.
+>=20
+> Yo a=F1adir=EDa adem=E1s que hay usuarios que, independientemente de las=
+=20
+> capacidad de su hardware, sencillamente _no quieren_ utilizar un=20
+> escritorio o un entorno con efectos de ninguna clase puesto que no
+> hay que olvidar que m=E1s all=E1 de las restricciones y/o limitaciones
+> impuestas por los componentes del equipo y de los drivers, el uso que
+> se haga de los recursos de "sus" sistemas es una decisi=F3n _personal_,
+> como suele ser todo en el FLOSS.
+>=20
+> Sinceramente, creo que GNOME se equivoca completamente en este
+> aspecto :-/
+>=20
+> Saludos,
+>=20
+
+La decisi=F3n que tome GNOME no importa en lo m=E1s m=EDnimo, ellos tendr=
+=E1n
+sus razones ($$$$), pero el usuario sigue teniendo el poder de decidir
+qu=E9 usar y GNU/Linux tiene muchas opciones para la interfaz gr=E1fica del
+usuario. Es mi punto de vista. A m=ED me gustaba mucho GNOME, ahora me
+gusta mucho XFCE, ya que es un entorno que busca adaptarse y se adapta
+a los usuarios que buscamos "ciertas cosas" en un entorno de escritorio
+que otros como GNOME y KDE no. Y los m=E1s minimalistas tienen varios WM
+para elegir. O sea, en conclusi=F3n, si no gusta el camino que sigue
+GNOME, se puede decidir seguir por el mismo camino y quejarse todo el
+tiempo o cambiar de rumbo y darle la oportunidad a otros que son m=E1s
+"humildes" pero que van a crecer a costa de las "malas" decisiones que
+los "grandes" tomen.
+
+Saludos!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121109164132.7611021d@gmail.com
+

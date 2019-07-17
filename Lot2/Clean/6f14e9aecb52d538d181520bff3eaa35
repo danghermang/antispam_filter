@@ -1,0 +1,60 @@
+Subject:Re: Unetbootin no inicia
+El d=EDa 24 de octubre de 2012 08:54, Sergio Bessopeanetto
+<sbess63@myopera.com> escribi=F3:
+> El 24/10/12 08:57, Carlos Nicolas escribi=F3:
+>
+>> Has probado usando con un usuario que no sea root, puede ser que por ser
+>> root no te deje usar dicho usuario para levantar la sesion X
+>>
+>>
+> Es muy extra=F1o eso. Ninguna otra aplicaci=F3n que necesite iniciar como
+> root me da problemas, por ejemplo, Synaptic. Y por la actividad de esta
+> aplicaci=F3n es obvio que deba ser usada como root. Quiz=E1s haya un erro=
+r
+> en el script de arranque me no s=E9 c=F3mo editarlo ni qu=E9 buscar en =
+=E9l.
+>
+
+  En efecto, unetbootin debe ejecutarse como root.
+  Es probable que tengas que usar gksu o gksudo para lanzar la
+aplicaci=F3n, es decir,
+
+  $ gksudo unetbootin ## si es que lo tienes en $PATH.
+
+  Saludos,
+
+> --
+> Sergio Bessopeanetto
+> Buenos Aires, Argentina
+> Skype: sergio.bess
+> msn: sergiebess@hotmail.com
+> Jabber: sergio.bess@jabber.org
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/5087D6E4.1010109@myopera.com
+>
+
+
+
+--=20
+Santiago L=F3pez Denazis
+GNU/Linux SysAdmin
+sldenazis@gmail.com
+Open your source, open your mind.
+----
+Por favor, NO utilice formatos de archivo propietarios para el
+intercambio de documentos, como DOC y XLS, sino HTML, PDF, TXT, CSV o
+cualquier otro que no obligue a utilizar un programa de un fabricante
+concreto. Vea http://www.gnu.org/philosophy/no-word-attachments.es.html
+--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAOVL+ZCBs9x7LvyGgcsiKuo0qBB0z8qpaj0wmzmT+JZZLT2SuQ@mail.gmail.com
+

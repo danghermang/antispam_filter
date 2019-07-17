@@ -1,0 +1,85 @@
+Subject:Re: [EVDL] DC motors/chain saw
+I own several  chainsaws, My favorites are the electrics. Its not only the 
+on/off switch you  have to worry about, theres also the safety bar mounted 
+just in front of your  hand. It is made to shut off the saw if you get a kick 
+back. Some cheap saws  don't have this switch. My McCullough has one but my 
+Remington does not because  its from a pole saw. The performance of the 
+electrics is amazing. Where a gas  saw would stall out the McCullough just 
+draws more current. Just keep a sharp  chain on it and get some experience with 
+it. Unfortunately though the 14" is the  biggest one I've seen. I like the 
+McCullough to much to try to put DC  through it.
+
+Rick  Miller
+
+In a message dated 11/9/2012 1:52:42 P.M. Central Standard Time,  
+leeahart@earthlink.net writes:
+On 11/8/2012 6:36 PM, Steve Clunn  wrote:
+> I had a lawn business with 84v mower and have had a few 120v  chain
+> saws that I ran off the mower ( along with an edger and  hedger
+> trimmer). Most E chain saws I've had were PM motors  (permanent
+> magnet) and there is a bridge rectifiers to convert the Ac to  Dc so
+> either way you plugged it in it worked.
+
+I have an electric  chainsaw, and it happens to have a universal (series) 
+motor. I have no idea  what the various makes/models use (and their 
+marketing is mute on the  subject).
+
+>> You will need to change out the switch to something  that will break your
+>> DC voltage and last
+
+> I believed the  switch takes the arc when opening not closing
+
+It arcs both times, but  it's the arc on opening that lasts long enough 
+to do the damage.
+
+>  A few time I let the switch slip and its still working.
+
+If you can see  the switch contact, you'll observe that the arcing is 
+*drastically* worse on  DC than on AC. It's obviously going to 
+significantly shorten the life of the  switch.
+
+The big unknown is -- how much life and safety factor was  designed into 
+the switch in the first place? You might have an el-crappo  switch that 
+will barely last 100 cycles even on AC. Shorten its life by 10:1  on DC, 
+and it will fail very soon!
+
+Or, you might have a "heavy duty"  switch, with snap-acting contacts and 
+a 250vac rating for double the current  it's actually switching. That 
+switch might last 10,000 on/off cycles on AC,  and will *still* last 1000 
+cycles on DC -- that may be good enough to "get  by".
+
+My view: It's next to impossible to get parts for products today, so  if 
+the switch fails, you'll have a heck of a time finding a replacement. So  
+it's better NOT to use it to switch DC directly -- rewire the switch to  
+operate a relay that *is* rated for the DC voltage and current you will  
+be using.
+
+> If farmers start worrying about "safety issue" we'll  all go hungry
+
+Indeed. Farming is a dangerous occupation, because they  often *don't* 
+worry about safety in the interests of getting things  done.
+-- 
+If we knew what we were doing, it wouldn't be called research,  would it?
+-- Albert Einstein
+--
+Lee A. Hart  http://www.sunrise-ev.com/LeesEVs  leeahart@earthlink.net
+
+_______________________________________________
+|  Moratorium on drag racing discussion is in effect.
+| Please take those  discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to  ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be  rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER  HELP: http://evdl.org/help/
+| CONFIGURE:  http://lists.sjsu.edu/mailman/listinfo/ev  
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

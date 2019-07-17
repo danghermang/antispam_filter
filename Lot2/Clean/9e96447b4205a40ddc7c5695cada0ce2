@@ -1,0 +1,16 @@
+Subject:[Koha] Catalog Error
+I've trimmed down the cataloging process a lot for our very small library, but
+when I try to add a book now I get the following error: 
+
+Can't call method "fields" on an undefined value at
+/usr/share/koha/lib/C4/Biblio.pm line 2438.
+
+I'm a complete beginner with Linux, Koha, everything- I've struggled a lot to
+get even this far, PLEASE HELP!
+
+Thanks
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

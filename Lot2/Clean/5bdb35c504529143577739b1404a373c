@@ -1,0 +1,38 @@
+Subject:Re: =?UTF-8?B?RMOpcGFubmFnZSBzdXIgUEMgZGlzdGFudA==?=
+On 28/10/2012 15:41, Pascal Obry wrote:
+> Le 28/10/2012 12:27, andre_debian@numericable.fr a écrit :
+>> Il faut déjà se féliciter qu'il existe une version Linux,
+>> mieux, pour plusieurs distributions, du logiciel "teamviewer"
+>> et non d'un logiciel que pour Windows ...
+>> La société éditrice a fait un effort sympathique,
+>> et c'est pas souvent le cas ...
+> Non de non, elle offre une version libre en espérant vendre la version
+> pro. Que ne naïveté!!!
+>
+>> Maintenant, dommage qu'il n'existe pas un équivalent "Libre".
+> VNC, ce n'est pas parce que tu ne connais pas que ça n'existe pas :)
+>
+VNC nécessite IMPÉRATIVEMENT d'ouvrir des ports sur sa box Internet et de connaître 
+l'adresse IP du client.
+
+Donc ce n'est pas à la porté de l'utilisateur néophyte...
+
+Teamviewer est certe pas libre, mais il ne nécessite *aucune* configuration réseau et il 
+marche sur tous les OS (M$ windows, MacOs, GNU/Linux, Android et iOS).
+
+Personnellement quand je doit dépanner quelqu'un à distance, je n'ai pas de temps à perdre 
+pour expliquer comment fonctionne un réseau !
+
+Mes 2 cents
+
+Mourad
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/508E974B.7040201@nativobject.net
+

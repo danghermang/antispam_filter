@@ -1,0 +1,575 @@
+Subject:Re: [rlug] RLUG Digest, Vol 88, Issue 4
+Salut,
+
+Este un bug al php ce a fost rezolvat pe 12.04 server .
+Incearca un patch;cred ca php-5.4.7 rezolva problema.
+
+=A0
+
+-----------------------------------------------------------
+Catalin Vasilescu
+
+
+
+
+________________________________
+ From: "rlug-request@lists.lug.ro" <rlug-request@lists.lug.ro>
+To: rlug@lists.lug.ro =
+
+Sent: Sunday, November 4, 2012 12:00 PM
+Subject: RLUG Digest, Vol 88, Issue 4
+ =
+
+Send RLUG mailing list submissions to
+=A0=A0=A0 rlug@lists.lug.ro
+
+To subscribe or unsubscribe via the World Wide Web, visit
+=A0=A0=A0 http://lists.lug.ro/mailman/listinfo/rlug
+or, via email, send a message with subject or body 'help' to
+=A0=A0=A0 rlug-request@lists.lug.ro
+
+You can reach the person managing the list at
+=A0=A0=A0 rlug-owner@lists.lug.ro
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of RLUG digest..."
+
+
+Today's Topics:
+
+=A0  1. Intrebare nginx-wordpress (Gyula Keresztely-Krall)
+=A0  2. Re: Intrebare nginx-wordpress (Flower)
+=A0  3. Re: Intrebare nginx-wordpress (Gyula Keresztely-Krall)
+=A0  4. Re: Intrebare nginx-wordpress (Dan Borlovan)
+=A0  5. Re: Intrebare nginx-wordpress (Gyula Keresztely-Krall)
+=A0  6. Re: Intrebare nginx-wordpress (Adi Pircalabu)
+=A0  7. Re: Intrebare nginx-wordpress (Nux!)
+=A0  8. Re: Intrebare nginx-wordpress (Gyula Keresztely-Krall)
+=A0  9. Re: Intrebare nginx-wordpress (Gyula Keresztely-Krall)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Sat, 3 Nov 2012 18:04:45 +0000
+From: Gyula Keresztely-Krall <xenexis@gmail.com>
+Subject: [rlug] Intrebare nginx-wordpress
+To: Romanian Linux Users Group <rlug@lists.lug.ro>
+Message-ID:
+=A0=A0=A0 <CAPaK_FqxjPZ2=3D1fg36ShXfMz=3D57zGOeVrCNDwMigOk4fUUHDkQ@mail.gma=
+il.com>
+Content-Type: text/plain; charset=3DISO-8859-1
+
+Salutare,
+
+De ceva vreme ma lupt cu urmatoarea problema, postez si aici poate
+gasesc pe cineva sa ma ajute:
+
+Incerc sa migrez de pe o masina Debian (6.0.2) cateva situri Wordpress.
+
+Masina pe care testez e un Ubuntu 12.10 cu configul:
+apt-show-versions php5-fpm nginx mysql-server
+mysql-server/quantal uptodate 5.5.27-0ubuntu2
+nginx/quantal uptodate 1.2.1-2.2
+php5-fpm/quantal uptodate 5.4.6-1ubuntu1
+
+Diferenta dintre cele doua masini ar fi numai php5-fpm, care e 5.3 pe Debia=
+n.
+Problema apare la incercarea de lansa pagina, unde primesc o pagina
+blank cu textul: "No input file specified."
+In log apare urmatorul mesaj:
+
+[error] 10661#0: *3 FastCGI sent in stderr: "Unable to open primary
+script: /www/vhosts/www.myserver.com/public (Success)" while reading
+response header from upstream, client: 127.0.0.1, server:
+myserver.com, request: "GET /wp-admin/ HTTP/1.1", upstream:
+"fastcgi://127.0.0.1:9000", host: "www.myserver.com"
+
+La fel se comporta si in cazul in care incerc sa deschid un test.php
+creat manual.
+Cautand in diverse documentati se pare ca ar fii o problema cu
+fastcgi, cu toate ca (cred) am verificat totul :
+
+Configuratia actuala:
+
+Permisiunile directorului /www/vhosts:
+ls -la /www/
+total 16
+drwxr-xr-x=A0 4 www-data www-data 4096 Nov=A0 3 13:20 .
+drwxr-xr-x 24 root=A0 =A0  root=A0 =A0  4096 Nov=A0 3 13:20 ..
+drwxr-xr-x=A0 2 www-data www-data 4096 Nov=A0 3 15:30 logs
+drwxr-xr-x=A0 3 www-data www-data 4096 Nov=A0 3 13:21 vhosts
+
+cat /etc/nginx/fastcgi_params:
+...
+fastcgi_param=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 SCRIPT_NAME=
+=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 $fastcgi_script_name;
+fastcgi_param=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 SCRIPT_FILEN=
+AME=A0=A0=A0 =A0=A0=A0 $document_root$fastcgi_script_name;
+fastcgi_param=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 REQUEST_URI=
+=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 $request_uri;
+fastcgi_param=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 DOCUMENT_URI=
+=A0=A0=A0 =A0=A0=A0 $document_uri;
+fastcgi_param=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 DOCUMENT_ROO=
+T=A0=A0=A0 =A0=A0=A0 $document_root;
+fastcgi_param=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 SERVER_PROTO=
+COL=A0=A0=A0 =A0=A0=A0 $server_protocol;
+...
+
+cat /etc/nginx/sites-available/www.myserver.com
+
+server {
+=A0=A0=A0 server_name myserver.com www.myserver.com ;
+=A0=A0=A0 root /www/vhosts/www.myserver.com/public;
+
+=A0=A0=A0 include global/restrictions.conf;
+
+=A0=A0=A0 access_log /www/logs/myserver.com_nginx_access.log;
+=A0=A0=A0 error_log /www/logs/myserver.com_nginx_error.log;
+
+=A0=A0=A0 index index.php index.html index.htm default.html Default.html
+default.htm Default.htm;
+
+=A0=A0=A0 error_page 404 /index.php;
+=A0=A0=A0 error_page 403 /index.php;
+
+
+=A0=A0=A0 if ($host !~* ^(85|www|blog|cdn|content|www\d+(\.coreix)?)\.(.*))=
+ {
+=A0=A0=A0 =A0=A0=A0 rewrite ^/(.*)$ $scheme://www.$host/$1 permanent;
+=A0=A0=A0 }
+
+=A0=A0=A0 location ~ subs_list.php {
+=A0=A0=A0 =A0=A0=A0 auth_basic "Restricted";
+=A0=A0=A0 =A0=A0=A0 auth_basic_user_file /www/vhosts/www.myserver.com/.htpa=
+sswd;
+
+=A0=A0=A0 =A0=A0=A0 try_files $uri =3D404;
+
+=A0=A0=A0 =A0=A0=A0 #fastcgi_split_path_info ^(.+\.php)(/.+)$;
+=A0=A0=A0 =A0=A0=A0 include fastcgi_params;
+=A0=A0=A0 =A0=A0=A0 fastcgi_index index.php;
+=A0=A0=A0 =A0=A0=A0 fastcgi_param APPLICATION_ENV live;
+=A0=A0=A0 =A0=A0=A0 #fastcgi_intercept_errors on;
+=A0=A0=A0 =A0=A0=A0 fastcgi_pass php;
+=A0=A0=A0 }
+
+=A0=A0=A0 include global/wordpress-live.conf;
+}
+
+
+cat /etc/nginx/nginx.conf
+
+# Generic startup file.
+user www-data www-data;
+worker_processes=A0 2;
+
+error_log=A0 /var/log/nginx/error.log;
+pid=A0 =A0 =A0 =A0 /var/run/nginx.pid;
+
+# Keeps the logs free of messages about not being able to bind().
+#daemon=A0 =A0  off;
+
+events {
+=A0=A0=A0 worker_connections=A0 1024;
+}
+
+http {
+#=A0=A0=A0 rewrite_log on;
+
+=A0=A0=A0 fastcgi_cache_path /tmp/fastcgi_cache levels=3D1:2
+keys_zone=3DWORDPRESS:10m inactive=3D5m;
+
+=A0=A0=A0 include mime.types;
+=A0=A0=A0 default_type=A0 =A0 =A0  application/octet-stream;
+=A0=A0=A0 access_log=A0 =A0 =A0 =A0  /var/log/nginx/access.log;
+=A0=A0=A0 sendfile=A0 =A0 =A0 =A0 =A0  on;
+=A0=A0=A0 keepalive_timeout=A0 3;
+=A0=A0=A0 gzip=A0 =A0 =A0 =A0 =A0 =A0 =A0  on;
+=A0=A0=A0 gzip_http_version 1.1;
+=A0=A0=A0 gzip_vary on;
+=A0=A0=A0 gzip_proxied any;
+=A0=A0=A0 gzip_comp_level 1;
+=A0=A0=A0 gzip_min_length 1400;
+=A0=A0=A0 gzip_types text/plain text/css application/json
+application/x-javascript text/xml application/xml application/xml+rss
+text/javascript application/javascript text/x-js;
+=A0=A0=A0 gzip_buffers 16 8k;
+=A0=A0=A0 gzip_disable "MSIE [1-6]\.(?!.*SV1)";
+
+=A0=A0=A0 client_max_body_size 13m;
+=A0=A0=A0 index=A0 =A0 =A0 =A0 =A0 =A0 =A0 index.html index.php index.htm;
+
+=A0=A0=A0 # Upstream to abstract backend connection(s) for PHP.
+=A0=A0=A0 upstream php {
+#=A0=A0=A0 =A0=A0=A0 server unix:/tmp/php-fpm.sock;
+=A0=A0=A0 =A0=A0=A0 server 127.0.0.1:9000;
+=A0=A0=A0 }
+
+=A0=A0=A0 include sites-enabled/*;
+}
+
+
+Orice idee e binevenita.
+Multumesc.
+
+
+
+-- =
+
+Gyula KERESZTELY-KRALL
+
+
+------------------------------
+
+Message: 2
+Date: Sat, 03 Nov 2012 21:50:18 +0200
+From: Flower <floweros@golia.ro>
+Subject: Re: [rlug] Intrebare nginx-wordpress
+To: Romanian Linux Users Group <rlug@lists.lug.ro>
+Message-ID: <5095757A.8000108@golia.ro>
+Content-Type: text/plain; charset=3DUTF-8
+
+On 11/03/2012 08:04 PM, Gyula Keresztely-Krall wrote:
+> Salutare,
+>
+> De ceva vreme ma lupt cu urmatoarea problema, postez si aici poate
+> gasesc pe cineva sa ma ajute:
+>
+> Incerc sa migrez de pe o masina Debian (6.0.2) cateva situri Wordpress.
+>
+> Masina pe care testez e un Ubuntu 12.10 cu configul:
+> apt-show-versions php5-fpm nginx mysql-server
+> mysql-server/quantal uptodate 5.5.27-0ubuntu2
+> nginx/quantal uptodate 1.2.1-2.2
+> php5-fpm/quantal uptodate 5.4.6-1ubuntu1
+>
+> Diferenta dintre cele doua masini ar fi numai php5-fpm, care e 5.3 pe Deb=
+ian.
+> Problema apare la incercarea de lansa pagina, unde primesc o pagina
+> blank cu textul: "No input file specified."
+> In log apare urmatorul mesaj:
+>
+> [error] 10661#0: *3 FastCGI sent in stderr: "Unable to open primary
+> script: /www/vhosts/www.myserver.com/public (Success)" while reading
+> response header from upstream, client: 127.0.0.1, server:
+> myserver.com, request: "GET /wp-admin/ HTTP/1.1", upstream:
+> "fastcgi://127.0.0.1:9000", host: "www.myserver.com"
+>
+> La fel se comporta si in cazul in care incerc sa deschid un test.php
+> creat manual.
+> Cautand in diverse documentati se pare ca ar fii o problema cu
+> fastcgi, cu toate ca (cred) am verificat totul :
+>
+> Configuratia actuala:
+>
+
+ps ax | grep php
+Zice ceva sau nu?
+
+La cum arat? eroarea nu e pornit PHP-ul.
+
+
+Flower
+
+-- =
+
+http://tech.serafimpantea.ro/
+
+
+
+------------------------------
+
+Message: 3
+Date: Sat, 3 Nov 2012 19:56:33 +0000
+From: Gyula Keresztely-Krall <xenexis@gmail.com>
+Subject: Re: [rlug] Intrebare nginx-wordpress
+To: Romanian Linux Users Group <rlug@lists.lug.ro>
+Message-ID:
+=A0=A0=A0 <CAPaK_FqG32X6X58knuBFcFXmNpYYny6jEY_Z5a3L-sBYGCOh4A@mail.gmail.c=
+om>
+Content-Type: text/plain; charset=3DISO-8859-2
+
+2012/11/3 Flower <floweros@golia.ro>:
+> On 11/03/2012 08:04 PM, Gyula Keresztely-Krall wrote:
+>> Salutare,
+>>
+>> De ceva vreme ma lupt cu urmatoarea problema, postez si aici poate
+>> gasesc pe cineva sa ma ajute:
+>>
+>> Incerc sa migrez de pe o masina Debian (6.0.2) cateva situri Wordpress.
+>>
+>> Masina pe care testez e un Ubuntu 12.10 cu configul:
+>> apt-show-versions php5-fpm nginx mysql-server
+>> mysql-server/quantal uptodate 5.5.27-0ubuntu2
+>> nginx/quantal uptodate 1.2.1-2.2
+>> php5-fpm/quantal uptodate 5.4.6-1ubuntu1
+>>
+>> Diferenta dintre cele doua masini ar fi numai php5-fpm, care e 5.3 pe De=
+bian.
+>> Problema apare la incercarea de lansa pagina, unde primesc o pagina
+>> blank cu textul: "No input file specified."
+>> In log apare urmatorul mesaj:
+>>
+>> [error] 10661#0: *3 FastCGI sent in stderr: "Unable to open primary
+>> script: /www/vhosts/www.myserver.com/public (Success)" while reading
+>> response header from upstream, client: 127.0.0.1, server:
+>> myserver.com, request: "GET /wp-admin/ HTTP/1.1", upstream:
+>> "fastcgi://127.0.0.1:9000", host: "www.myserver.com"
+>>
+>> La fel se comporta si in cazul in care incerc sa deschid un test.php
+>> creat manual.
+>> Cautand in diverse documentati se pare ca ar fii o problema cu
+>> fastcgi, cu toate ca (cred) am verificat totul :
+>>
+>> Configuratia actuala:
+>>
+>
+> ps ax | grep php
+> Zice ceva sau nu?
+>
+> La cum arat? eroarea nu e pornit PHP-ul.
+>
+>
+> Flower
+
+ps ax | grep php
+16557 ?=A0 =A0 =A0 =A0 Ss=A0 =A0  0:00 php-fpm: master process
+(/etc/php5/fpm/php-fpm.conf)
+16558 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+16559 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+16560 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+16561 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+16563 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+
+Nu vad nici o neregula pe aici...
+
+Mersi,
+
+
+
+-- =
+
+Gyula KERESZTELY-KRALL
+
+
+------------------------------
+
+Message: 4
+Date: Sat, 3 Nov 2012 20:48:14 +0000
+From: Dan Borlovan <danb@level7.ro>
+Subject: Re: [rlug] Intrebare nginx-wordpress
+To: Romanian Linux Users Group <rlug@lists.lug.ro>
+Message-ID:
+=A0=A0=A0 <4FE451359124C54C80C3E31F65DD891F6C8BB183@exchange1.datagroup.loc=
+al>
+Content-Type: text/plain; charset=3D"us-ascii"
+
+> Masina pe care testez e un Ubuntu 12.10 cu configul:
+
+Vezi sa nu dai cu capul de apparmor
+
+Dan
+
+
+------------------------------
+
+Message: 5
+Date: Sat, 3 Nov 2012 21:12:12 +0000
+From: Gyula Keresztely-Krall <xenexis@gmail.com>
+Subject: Re: [rlug] Intrebare nginx-wordpress
+To: Romanian Linux Users Group <rlug@lists.lug.ro>
+Message-ID:
+=A0=A0=A0 <CAPaK_Fp+KFUxvQS+ov_3yaZM2t0NixrLk_FX74ZchSRX_zP03A@mail.gmail.c=
+om>
+Content-Type: text/plain; charset=3DISO-8859-1
+
+2012/11/3 Dan Borlovan <danb@level7.ro>:
+>> Masina pe care testez e un Ubuntu 12.10 cu configul:
+>
+> Vezi sa nu dai cu capul de apparmor
+>
+> Dan
+E la fel si cu apparmor disabled, din pacate.
+
+Mersi,
+
+-- =
+
+Gyula KERESZTELY-KRALL
+
+
+------------------------------
+
+Message: 6
+Date: Sun, 4 Nov 2012 12:10:20 +1100
+From: Adi Pircalabu <apircalabu@gmail.com>
+Subject: Re: [rlug] Intrebare nginx-wordpress
+To: Romanian Linux Users Group <rlug@lists.lug.ro>
+Message-ID:
+=A0=A0=A0 <CANG6DRnnbht0Piw+86RAUCOFZyYn=3DWnFkkEt_x-cez_yrzagYg@mail.gmail=
+.com>
+Content-Type: text/plain; charset=3DISO-8859-1
+
+2012/11/4 Gyula Keresztely-Krall <xenexis@gmail.com>:
+>
+> ps ax | grep php
+> 16557 ?=A0 =A0 =A0 =A0 Ss=A0 =A0  0:00 php-fpm: master process
+> (/etc/php5/fpm/php-fpm.conf)
+> 16558 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+> 16559 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+> 16560 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+> 16561 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+> 16563 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+
+Ce zice 'ps auxww| grep php-fpm'?
+
+-- =
+
+Adi Pircalabu
+
+
+------------------------------
+
+Message: 7
+Date: Sun, 04 Nov 2012 08:30:00 +0000
+From: Nux! <nux@li.nux.ro>
+Subject: Re: [rlug] Intrebare nginx-wordpress
+To: Romanian Linux Users Group <rlug@lists.lug.ro>
+Message-ID: <0c213ce655177a8ffd7209114c1ec22a@li.nux.ro>
+Content-Type: text/plain; charset=3DUTF-8; format=3Dflowed
+
+On 03.11.2012 18:04, Gyula Keresztely-Krall wrote:
+> Salutare,
+>
+> De ceva vreme ma lupt cu urmatoarea problema, postez si aici poate
+> gasesc pe cineva sa ma ajute:
+
+Ia vezi daca asta te ajuta:
+http://blog.martinfjordvald.com/2011/01/no-input-file-specified-with-php-an=
+d-nginx/
+
+-- =
+
+Sent from the Delta quadrant using Borg technology!
+
+Nux!
+www.nux.ro
+
+
+------------------------------
+
+Message: 8
+Date: Sun, 4 Nov 2012 09:55:42 +0000
+From: Gyula Keresztely-Krall <xenexis@gmail.com>
+Subject: Re: [rlug] Intrebare nginx-wordpress
+To: Romanian Linux Users Group <rlug@lists.lug.ro>
+Message-ID:
+=A0=A0=A0 <CAPaK_FooWkBwdx9LSa=3Dh8FgPva0xXt+jN+_3nv72KteUkFatpg@mail.gmail=
+.com>
+Content-Type: text/plain; charset=3DISO-8859-1
+
+On Sun, Nov 4, 2012 at 1:10 AM, Adi Pircalabu <apircalabu@gmail.com> wrote:
+> 2012/11/4 Gyula Keresztely-Krall <xenexis@gmail.com>:
+>>
+>> ps ax | grep php
+>> 16557 ?=A0 =A0 =A0 =A0 Ss=A0 =A0  0:00 php-fpm: master process
+>> (/etc/php5/fpm/php-fpm.conf)
+>> 16558 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+>> 16559 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+>> 16560 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+>> 16561 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+>> 16563 ?=A0 =A0 =A0 =A0 S=A0 =A0 =A0 0:00 php-fpm: pool www
+>
+> Ce zice 'ps auxww| grep php-fpm'?
+>
+> --
+> Adi Pircalabu
+
+ps auxww| grep php-fpm
+root=A0 =A0  17586=A0 0.0=A0 0.2 115328=A0 5796 ?=A0 =A0 =A0 =A0 Ss=A0  Nov=
+03=A0  0:01
+php-fpm: master process (/etc/php5/fpm/php-fpm.conf)
+www-data 17587=A0 0.0=A0 0.2 115328=A0 4440 ?=A0 =A0 =A0 =A0 S=A0 =A0 Nov03=
+=A0  0:00
+php-fpm: pool www
+www-data 17588=A0 0.0=A0 0.2 115332=A0 5308 ?=A0 =A0 =A0 =A0 S=A0 =A0 Nov03=
+=A0  0:00
+php-fpm: pool www
+www-data 17589=A0 0.0=A0 0.2 115332=A0 5308 ?=A0 =A0 =A0 =A0 S=A0 =A0 Nov03=
+=A0  0:00
+php-fpm: pool www
+www-data 17591=A0 0.0=A0 0.2 115332=A0 5308 ?=A0 =A0 =A0 =A0 S=A0 =A0 Nov03=
+=A0  0:00
+php-fpm: pool www
+www-data 17592=A0 0.0=A0 0.2 115332=A0 5308 ?=A0 =A0 =A0 =A0 S=A0 =A0 Nov03=
+=A0  0:00
+php-fpm: pool www
+
+Pare in ordine.
+
+Mersi,
+
+-- =
+
+Gyula KERESZTELY-KRALL
+
+
+------------------------------
+
+Message: 9
+Date: Sun, 4 Nov 2012 09:57:50 +0000
+From: Gyula Keresztely-Krall <xenexis@gmail.com>
+Subject: Re: [rlug] Intrebare nginx-wordpress
+To: Romanian Linux Users Group <rlug@lists.lug.ro>
+Message-ID:
+=A0=A0=A0 <CAPaK_FqN8+X1AqKbnfpP71E_n6+TeZAv3Co2i3M3FyxPwGUbzw@mail.gmail.c=
+om>
+Content-Type: text/plain; charset=3DISO-8859-1
+
+On Sun, Nov 4, 2012 at 8:30 AM, Nux! <nux@li.nux.ro> wrote:
+> On 03.11.2012 18:04, Gyula Keresztely-Krall wrote:
+>> Salutare,
+>>
+>> De ceva vreme ma lupt cu urmatoarea problema, postez si aici poate
+>> gasesc pe cineva sa ma ajute:
+>
+> Ia vezi daca asta te ajuta:
+> http://blog.martinfjordvald.com/2011/01/no-input-file-specified-with-php-=
+and-nginx/
+>
+> --
+> Sent from the Delta quadrant using Borg technology!
+>
+> Nux!
+> www.nux.ro
+
+Mersi, am dat de asta ieri, am verificat toate optiunile listate acolo.
+Mai nou (azi) gasesc:
+
+kernel: [465523.691641] php5-fpm[21831]: segfault at b4615cf0 ip
+b774c419 sp bfe2b1a0 error 4 in ld-2.15.so[b773d000+20000]
+
+Si refuza sa mai porneasca.
+
+Ciudat.
+
+-- =
+
+Gyula KERESZTELY-KRALL
+
+
+------------------------------
+
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug
+
+
+End of RLUG Digest, Vol 88, Issue 4
+***********************************
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

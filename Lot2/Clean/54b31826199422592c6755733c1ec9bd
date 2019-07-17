@@ -1,0 +1,53 @@
+Subject:Re: Debian/ w530 & sortie VGA
+Je ne pense pas, il y a toujours un mode d'=C3=A9conomie d'=C3=A9nergie. On=
+ aura
+toujours au moins 7W de conso de plus qu'avec la carte intel seulement,
+mais ce n'est pas vraiment =C3=A9norme.
+
+ On Thu, 18 Oct 2012 17:35:42 +0200
+jerome moliere <jerome.moliere@gmail.com> wrote:
+
+> merci j essaierai d y penser...du coup je vais tester ce soir...mais
+> sans video proj..repasser sur la carte intel ne pose aucun souci
+> apres?car j ai peur que la dissipation doit terrible non?
+> Le 18 oct. 2012 17:23, "Arnaud Hocevar" <arnaud@hocevar.net> a =C3=A9crit=
+ :
+>=20
+> > Si tu utilises le driver propri=C3=A9taire, n'oublie pas de rajouter
+> > nouveau dans la blacklist, sinon le m=C3=A9lange kms+nvidia fera boum.
+> >
+> > jerome moliere <jerome.moliere@gmail.com> wrote:
+> >>
+> >>
+> >> Le 18 octobre 2012 07:35, Arnaud Hocevar <arnaud@hocevar.net> a
+> >> =C3=A9crit :
+> >>
+> >>> Salut,
+> >>>
+> >>> Si les limitations sont les m=C3=AAmes que sur le w520 tu dois activer
+> >>> la carte Nvidia pour utiliser les sorties externes (m=C3=AAme pas
+> >>> c=C3=A2bl=C3=A9es sur le gpu intel).
+> >>> En revanche j'ai une option du BIOS pour forcer le passage
+> >>> complet a la carte Nvidia; je suppose que tu peux faire de m=C3=AAme.
+> >>>
+> >>
+> >> Vraiment ? cela expliquerait alors mes echecs repetes ?
+> >> Je vais tester avec la Nvidia ...
+> >> merci beaucoup Arnaud
+> >>
+> >> Jerome
+> >>
+> >
+> > --
+> > Arnaud
+> >
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121018184546.2a9f021e@kroquette.zep.tld
+

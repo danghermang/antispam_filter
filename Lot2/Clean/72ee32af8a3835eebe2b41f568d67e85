@@ -1,0 +1,62 @@
+Subject:Re: [OT]Lectura: Linus Torvalds se pronuncia sobre el fracaso de
+	Linux	en su escritorio
+El Wed, 05 Sep 2012 10:38:59 -0430, Miguel Matos escribió:
+
+> Saludos a tod@s en el grupo. Quizás esto sea muy muy o muy poco
+> off-topic, pero quise aprovechar en compartirlo. Leí en un post
+> compartido en Twitter esto:
+> "Linus Torvalds no se quedó callado ante las palabras de Miguel de Icaza
+> sobre el fracaso de Linux en el escritorio. El finlandés asegura que el
+> hecho de acusarle a él por establecer “la actitud” que causó el problema
+> es risible."
+
+(...)
+
+He seguido la noticia y en cierta manera comparto ambos puntos de vista, 
+tanto el de Linus/Alan (qué razón tienen al decir que el kernel se ha 
+adaptado mejor, o dicho de otra forma, establece un ratio de soporte más 
+comedido entre lo nuevo y lo viejo) como el de Miguel (que algo está 
+pasando dentro del mundillo de los entornos de escritorio -principalmente 
+GNOME y KDE- es evidente, se podría decir que hay un desencantamiento/
+distanciamiento generalizado entre los usuarios y sus desarrolladores).
+
+Lo del los entornos de escritorio lo he vivido en mis propias carnes: era 
+feliz (pero feliz de verdad, es decir que "disfrutaba" y estaba 
+orgullosa) cuando tenía KDE 3, sencillamente el mejor DE con el que he 
+trabajado y me he sentido a gusto. Ni KDE 4 (al que ya no me asomo ni en 
+pintura después del susto de las primeras versiones) ni GNOME 3 me hacen 
+sentir "bien" ni "a gusto" con mi sistema, no he podido desarrollar una 
+interacción completa como me pasó con KDE 3, noto que he perdido algo.
+
+Se podría decir que esto suena un tanto "sensacionalista" o que se podría 
+entender como un caso "aislado" pero no hay más que preguntar a cualquier 
+usuario si una actualización del kernel lo ha dejado tan hecho polvo como 
+el cambio que se está llevando a cabo a nivel de las aplicaciones de 
+usuario (y no sólo hablo del DE sino de systemd, de pulseaudio, de grub2, 
+del dinamismo del servidor X, udev...). 
+
+Sinceramente, creo que del mensaje de Miguel se podría extraer la 
+conclusión de que, aunque todos estos nuevos cambios parece que se hagan 
+para bien, para mejorar lo existente, para no quedarse atrás y adaptarse 
+a los nuevos requerimientos, la falta de unidad que existe en todos ellos 
+(sí, los proyectos se relacionan entre ellos pero al final cada uno va 
+por y mira para "su" lado) hace que el usuario perciba que algo "falla", 
+que algo "falta" y eso es lo que Apple (MacOS) ha sabido mantener durante 
+mucho tiempo. De hecho, gran parte del éxito de Apple es la unidad 
+extrema (yo lo llamaría "dictadura") que existe en todos sus productos, 
+sean sistemas operativos o teléfonos.
+
+Ahora bien, prefiero deambular por el pequeño caos de Linux que pasarme 
+toda la vida en las mazmorras de MacOS :-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k27v3j$gbk$9@ger.gmane.org
+

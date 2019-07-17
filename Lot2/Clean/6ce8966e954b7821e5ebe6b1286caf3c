@@ -1,0 +1,40 @@
+Subject:=?ISO-8859-1?Q?cr=E9er_une_partition_luks_sur_une_sq?=
+	=?ISO-8859-1?Q?ueeze_=28RAID1_+_LVM=29?=
+Bonjour la liste,
+
+j'ai une debian squeeze sur mon desktop. Je l'avais installée sur un
+ensemble RAID1 + LVM directement à l'installation. J'avais créé
+plusieurs partitions LVM (/boot, /home, /tmp, /usr, /var, /data...).
+
+Il reste de l'espace non alloué derrière ces partitions.
+
+Je voudrais maintenant utilisé luks pour ma partition de données (/data)
+tout en conservant mon RAID + LVM.
+
+J'ai un peu regardé sur le net. Il y a bcp de doc mais ce n'est pas tjs
+clair. J'ai installé cryptsetup. Mais pour la suite je voudrais vos
+avis.
+
+Je pensais:
+- créer une partition LVM temporaire /data_tmp pour sauver mes données
+de /data.
+- supprimer l'ancienne partition LVM /data.
+- créer la nouvelle partition encryptée LVM /data
+- copier les données de /data_tmp vers /data
+- supprimer la partition /data_tmp
+
+Si qqn pourrait m'aider pour trouver les commandes pour faire ça sans
+bêtises :) ça serait super!
+
+Merci d'avance
+GiGGz
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8v6mb$ph9$1@ger.gmane.org
+

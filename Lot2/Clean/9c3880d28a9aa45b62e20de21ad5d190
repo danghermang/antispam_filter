@@ -1,0 +1,38 @@
+Subject:Re: Media Center bajo debian
+2012/10/22  <maykel@maykel.sytes.net>:
+> Gracias por contestar Jawifi y Jes=C3=BAs. Si pongo que necesito consejo =
+es
+> porque ya he buscado y lo que he buscado no me ha convencido(lo digo por
+> Cristian) s=C3=A9 perfectamente buscar en google s=C3=B3lo pido opini=C3=
+=B3n.
+>
+> XBMC es lo que me refer=C3=ADa con geexbox.
+>
+> Gracias nuevamente, lo probar=C3=A9 a fondo.
+>
+
+Si especificaras mejor que has intentado y que no, nadie responder=C3=ADa
+con google :)
+
+Con streaming te refieres a streaming hacia tu televisor? o hacia
+otras PCs. En local o por internet?
+
+Lo m=C3=A1s sencillo ser=C3=ADa usar nfs o sshfs y montar la partici=C3=B3n=
+ con tus
+archivos en las otras pcs donde quieras verlos. Luego es cuesti=C3=B3n de
+abrir el video como si estuviera en local.
+
+Si quieres acceder a los videos por un navegador web, prueba media goblin.
+http://mediagoblin.org/
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjPZrCCw8amequWSPfV3rhJYa4De20VS-UPeV-26qhV3Uw@mail.gmail.com
+

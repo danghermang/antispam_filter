@@ -1,0 +1,61 @@
+Subject:Re: OT numero de ficheros en squid3 en debian estable
+
+El jue, 06-09-2012 a las 13:59 +0000, Camale=C3=B3n escribi=C3=B3:
+> El Thu, 06 Sep 2012 13:52:39 +0000, Camale=C3=B3n escribi=C3=B3:
+>=20
+> > El Thu, 06 Sep 2012 12:17:20 +0200, Trujillo Carmona, Antonio =
+escribi=C3=B3:
+> >=20
+> >> Tengo un problema con el numero de ficheros:
+> >=20
+> > (...)
+> >=20
+> >> he incrementado el numero de ficheros con:
+> >>=20
+> >> # cat /etc/default/squid3
+> >> KRB5_KTNAME=3D/etc/squid3/PROXY.keytab
+> >> export KRB5_KTNAME
+> >> SQUID_MAXFD=3D4096
+> >>=20
+> >> tras lo que con squidclient veo:
+> >=20
+> > (...)
+> >=20
+> >> =C2=BFAlguien sabe porque sale 65535 y no 4096 como yo esperaba?
+> >=20
+> > =C2=BFHas reiniciado el servicio?
+>=20
+> Y rev=C3=ADsate tambi=C3=A9n este comentario:
+>=20
+> =
+http://paulgoscicki.com/archives/2007/01/squid-warning-your-cache-is-run=
+ning-out-of-filedescriptors/comment-page-1/#comment-52573
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+
+Ese en concreto no, pero otros an=C3=A1logos si, por eso hice los =
+cambios, lo
+que a mi me extra=C3=B1a es que si pongo 4096 (que es lo que ponen en =
+todos
+los ejemplos que he visto en internet, por lo que imagino que es un
+valor aceptable) en lugar de 4096 sale 65535 cuando en el SO el limite
+es 4096 ( ulimit -n da 4096).
+Creo (y me da miedo) que es alg=C3=BAn tipo de desbordamiento, de hay =
+la
+cifra 65535, lo que puede ser fatal, pues =C2=BFque pasara cuando el =
+squid
+quiera manejar mas ficheros de los que el SO pueda?
+--=20
+trujo <antonio.trujillo.sspa@juntadeandalucia.es>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1347002584.1311.4.camel@trujo.hvn.sas.junta-andalucia.es
+

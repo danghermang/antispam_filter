@@ -1,0 +1,22 @@
+Subject:Sobre OpenVPN Roadwarrior y/o Red a Red
+Hola lista, buen día.
+
+Tengo 2 oficinas remotas las cuales se conectan a internet por ADSLs (Ip 
+públicas pero dinámicas).
+
+Una de las Oficinas tendrá el server OpenVPN y la otra se conectará una 
+PC a ciertos sistemas.
+
+Les consulto, el modo de configuración de OpenVPN debería ser 
+RoadWarrior o Red a Red?
+
+Muchas Gracias.
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B5F0E4.6070106@gmail.com
+

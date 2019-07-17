@@ -1,0 +1,71 @@
+Subject:Re: Posible problema al actualizar initrd
+El Thu, 20 Sep 2012 17:47:12 +0200, Angel Vicente escribió:
+
+> On Tue, Sep 18, 2012 at 01:19:53PM +0000, Camaleón wrote:
+
+>> ¿Cómo has compilado el kernel?
+> 
+> Lo compilo con make-kpkg, 
+
+Es decir:
+
+fakeroot make-kpkg --initrd --revision=version kernel_imag
+
+¿no? 
+
+> previamente preparo el .config con make menuconfig.
+
+Entonces generas un nuevo menú con cada compilación.
+
+>> Quizá generaste la imagen mal... Mira a ver si lo que te dice es cierto
+>> o no, es decir, si el identificador de la partición apunta al lugar
+>> correcto.
+>> 
+>> Otro de los motivos habituales por los que aparece este mensaje es que
+>> te falte algún módulo de gestión del disco duro (sata, ahci... o alguno
+>> específico para tu controladora), o que no lo hayas compilado integrado
+>> sino como módulo, y no lo pueda cargar.
+> 
+> Con lo que he observado puedo deducir que no seria el caso: el primer
+> kernel que empezó a fallar fue uno que tenia funcional desde el mes de
+> junio, 
+
+¿Y dejó de funcionar sin más?
+
+> el siguiente ha fallado desde el primer momento y está compilado
+> en fechas posteriores a la de la observacion del fallo, es decir, en
+> este ultimo si cabe la posibilidad que indicas, pero en el otro no.
+
+Igualmente convendría que descartaras lo que te dice el mensaje de error 
+(es decir, que el cargador de arranque apunta al disco/partición 
+correcto), cosas más tontunas he visto.
+
+>> Puedes comparar los dos ".config" de los kernels (de uno que funcione y
+>> otro que no) para ver las diferencias :-?
+> 
+> Normalmente "reciclo" los .config: copio de un kernel para la siguiente
+> compilacion, y despues ajusto con make menuconfig, 
+
+Una vez que ejecutas "menuconfig" y guardas los cambios sobreescribes 
+(bueno, no, creo que lo renombra a ".config.old") cualquier ".config" que 
+tengas en la raíz donde están las fuentes, es decir, que te cargas todos 
+los cambios que estuvieran en el .config original reutilziado.
+
+> pero los he estado comparando y aparte de varios drivers de tarjetas de
+> red retirados en el ultimo y tambien en el ultimo, la opcion
+> CONFIG_ARCH_HAS_CPU_AUTOPROBE, estan iguales
+
+No creo que este valor te sirva para nada relacionado con los 
+controladores del disco duro que sería lo que nos interesa ;-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3feht$ocp$12@ger.gmane.org
+

@@ -1,0 +1,39 @@
+Subject:Re: pasar directamente de etch a squeeze
+Juan Manuel Acuña wrote:
+
+[...]
+
+> Cuando salió squeeze me quise ahorrar un rato y pasar directo una
+> máquina de etch a squeeze ...y fue muy muy mala idea, la máquina
+> simplemente se hizo un lio con las configuraciones y no arrancaba bien,
+> todo un problema :( La máquina no era crucial y tenía todo respaldado
+> pero al final le tuve que poner mucho más tiempo para volverla a dejar
+> andando que si hubiera pasado de etch a lenny y de lenny a squeeze. En
+> mi humilde opinión, sin acceso físico a la máquina es muy pero que muy
+> arriesgado.
+> 
+> Tal vez me perdí ese correo, pero ¿hay alguna razón en especial para que
+> no quieras/puedas hacer el paso etch - lenny - squeeze ?
+> 
+> Saludos!
+
+Queria ganar tiempo, pero leyendo lo que escribes parece que el riesgo es
+perder mucho mas tiempo que el tiempo de pasar de Etch a Lenny y de Lenny a
+Squeeze. 
+
+Lo que no sé es si se puede hacer una actualización desde un depósito de
+archivos como el actual de lenny : 
+
+deb http://archive.debian.org/debian-archive/debian/ lenny main contrib
+non-free
+
+Si se puede, lo hare en dos etapas. 
+
+gracias por tu respuesta.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3rsbt$aq6$1@ger.gmane.org
+

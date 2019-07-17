@@ -1,0 +1,32 @@
+Subject:Re: [HS] comportement curieux de malloc
+On 02/10/2012 22:50, François Boisson wrote:
+> Le Tue, 2 Oct 2012 14:23:27 +0000 (UTC)
+> Tanguy Ortolo <tanguy+debian@ortolo.eu> a écrit:
+>
+>   
+>> Si la nouvelle licence est libre, et si vous êtes prêt à faire un paquet
+>> propre, vous pourriez envisager de mettre réellement Camllight dans
+>> Debian. Il serait ainsi automatiquement disponible pour toutes les
+>> architectures prises en charge par Debian et Ubuntu.
+>>     
+> Il est impossible de garantir un paquet propre avec ce bug dans la mesure où
+> le fonctionnement dépend du comportement de malloc. Il faut d'abord le
+> résoudre. Je vais tacher de le faire mais ça risque de prendre du temps vu que
+> je n'en ai pas beaucoup...
+>
+> François Boisson
+>   
+Si tu as la possibilité de poster le code sur github en indiquant le
+problème, il pourra rapidement faire de petits...
+-
+Fabien
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/506BE526.8030702@free.fr
+

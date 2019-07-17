@@ -1,0 +1,55 @@
+Subject:Re: Installation postgresql
+Le Wed, 14 Nov 2012 11:30:39 +0100,
+Grégoire COUTANT <gregoire.coutant@gmail.com> a écrit :
+
+> Bonjour à tous,
+> Merci pour vos nombreux messages.
+> J'ai finalement fait comme j'avais dit en réinstallant le serveur.
+> J'ai modifié le sources.list pour y mettre les mêmes sources que pour
+> le serveur avec lequel l'installation avait fonctionné et
+> l'installation de postgresql est maintenant ok.
+> 
+> Libreplan lui ne s'installe pas correctement, mais c'est une autre 
+> histoire, j'ai longtemps installé cela en faisant simple sans me 
+> préoccuper du fonctionnement derrière (hormis les backups), je vais 
+> devoir essayer de comprendre ce qui cloche.
+> 
+> Merci
+> 
+> Greg
+
+bonjour,
+
+	quelle est la version de libreplan à installer :
+
+	AMD64  ( )
+	I386   ( )
+
+	en tout cas il faut impérativement employer (i386):
+	
+	gdebi libreplan_1.3.1-1_i386.deb
+
+
+	dépot du paquet pour i386 :
+	http://downloads.sourceforge.net/project/libreplan/LibrePlan/libreplan_1.3.1-1_i386.deb
+
+	lien et documentation:
+
+	http://www.libreplan.org/INSTALL.html#debian-packages
+
+	attention :
+
+	la version actuelle envigueur est 1.3.1 et non 1.3.0
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121114141502.50e2b215.bernard.schoenacker@free.fr
+

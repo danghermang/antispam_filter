@@ -1,0 +1,20 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint?= qui consomme
+Le Fri, 2 Nov 2012 08:33:38 +0100
+François Boisson <user.anti-spam@maison.homelinux.net> a écrit:
+
+> . J'ai remplacé le sysvinit par le sysvinit de squeeze qui est
+> la même version mais là encore c'est un échec. Chaque installation est une
+> recompilation des sources des paquets ubuntu.
+
+Je viens de m'apercevoir de l'existence d'upstart qui remplacerait sysvinit à
+terme et qui est utilisé sous Ubuntu. J'essaye donc...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121102093557.b485f2be36b46501de22a47e@maison.homelinux.net
+

@@ -1,0 +1,134 @@
+Subject:Re: [eix-wg] IPv6 Link Local Addressing on IXPs?
+Harald
+
+Thanks for the feedback.
+
+Regarding the IXP discussion, based on Jerome Durand's I-D, it appears that=
+ IXP prefix are sometimes longer than /48 and some people drop such prefixe=
+s received over BGP. And, it there is no route the IXP prefix, then packets=
+ generated with the IXP prefix as source address will be dropped by uRPF ch=
+ecks. Using LLA in IXP will prevent any IXP customer to use the IXP prefix =
+as a source address ;-)=20
+
+Nothing magic but could be useful
+
+> -----Original Message-----
+> From: Harald Michl [mailto:harald.michl@univie.ac.at]
+> Sent: vendredi 23 novembre 2012 09:14
+> To: Michael Behringer (mbehring)
+> Cc: eix-wg@ripe.net; Eric Vyncke (evyncke)
+> Subject: Re: [eix-wg] IPv6 Link Local Addressing on IXPs?
+>=20
+> Servus Michael, Hi Eric,
+>=20
+> My first impression was "wow what an idea". But while reading the documen=
+t I
+> must admit that some concerns where rising on the horzion..
+>=20
+> Some comments and thoughts wearing different hats:
+>=20
+> IXP-related:
+>=20
+> I think it is a big advantage of having global routable addresses on an I=
+XP-
+> LAN. You can easily see in a traceroute whether you cross an IXP or not.
+> If you see only loopback-addresses in the traceroute you never know wheth=
+er
+> the routed traffic goes via a private interconnect or the IXP plattform. =
+That
+> makes debugging much more complex from my point of view.
+>=20
+> Except from limited reachablitity (=3D attack risk) I do not see any adva=
+ntage
+> of LLAs. Limiting this risk is also possible via filtering of traffic fro=
+m
+> outside to the IXP of all participants as you mention in the document. An=
+d
+> it's a kind of trust that all parties connected to an IXP do what is expe=
+cted
+> and I can imagine ways to check that -> ping or traceroute to the IXP LAN=
+ via
+> Atlas UDM would be one of the possibilities. Or having a probe within the
+> IXP-LAN pinging an address at the IXP-Members network which shouldn't wor=
+k.
+> In case it works -> alarm.
+>=20
+>=20
+> ISP-related:
+>=20
+> The Austrian Academic Network consists of multiple redundant links. Our (=
+open
+> source) monitoring system Icinga pings regularly all our router interface=
+s
+> (dual-stack) to ensure all links are working properly. The real-config is
+> syced with our database and it's therefore very easy to automagically
+> generate the config for the monitoring tool (and the (r)dns-config as wel=
+l,
+> btw).
+> Having only LLAs in the network would certainly make monitoring and the
+> configuration of the monitoring system much more complex.
+>=20
+> Something I do not understand: one one side the documents mentions that t=
+he
+> configuration gets lighter as addresses don't have to be configured
+> - on the other hand recommends to use statically configured LLAs (which w=
+ould
+> make sense from my point of view). The problem is: if you configure LLAs
+> statically, the benefit is lost.
+>=20
+> Attack potential:
+> Of course link interfaces could not be attacked from outside if they have=
+ no
+> global routeable address, but: you still have to have a loopback-address,
+> which has to be global routable. And as long as the router has one single
+> global reachable address, it's attackable.
+> Therefore you need an infrastructure protection acl anyway (as mentioned =
+in
+> your document) -> We solve this problem by having a nice address-structur=
+e
+> and our infrastructure protection acl has exactly one entry which include=
+s
+> Loopback _and_ link networks. very easy, very clear.
+>=20
+> The only benefit I really see is that the routing table can be reduced.
+> For a network of our size this benefit is not worth the risks, I personal=
+ly
+> think.
+>=20
+>=20
+> So, these are my comments - I'm curiously waiting for other opinions to
+> discuss.
+>=20
+> kind regards from Vienna,
+> Harald
+>=20
+>=20
+>=20
+> On 21.11.12 14:42, Michael Behringer (mbehring) wrote:
+> > EIX WG,
+> >
+> > Eric and myself have put together an internet draft on the usage of
+> > IPv6 link local addressing on infrastructure links. The goal is to
+> > document what works and what doesn't when you only have IP6 link local
+> > addresses on such links.
+> >
+> > We were pointed to the fact that this question is also arising for
+> > IXPs, and have now tried to capture the high level view for IXPs.
+> >
+> > We'd appreciate feedback on our draft, specifically section 2.4
+> > http://tools.ietf.org/html/draft-ietf-opsec-lla-only-02
+> >
+> > Please let us know how we can improve the draft, specifically this
+> > section. Any feedback is welcome. If you are "okay" with the current
+> > draft, a quick note would also help us.
+> >
+> > Thanks! Eric and Michael
+> >
+> >
+>=20
+> --
+>  Harald Michl                <harald.michl@univie.ac.at>
+>  Vienna University - ACOnet www.ACO.net - VIX www.VIX.at
+> Universitaetsstrasse 7, A-1010 Vienna,  Austria, Europe
+>  Tel: +43 1 4277 - 14078 (Fax: - 9140)       HM3550-RIPE
+

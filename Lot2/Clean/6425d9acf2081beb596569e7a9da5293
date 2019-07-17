@@ -1,0 +1,177 @@
+Subject:Re: Wheezy : freezes totaux =?ISO-8859-1?Q?fr=E9quents_sur_u?=
+	=?ISO-8859-1?Q?n_nouveau_portable=2E?=
+ça peut effectivement faire avancer vers une solution...
+
+Le 3.5 est en experimental est fonctionne très bien sur mes machines !
+
+Cependant, les erreur de disque me semble assez inquiétante, j'ai une configuration à base 
+de SSD et pas de truc inquiétant comme :
+Sep 22 10:33:31 AppleSeed kernel: [   13.402389] ata1.00: cmd 
+06/01:01:00:00:00/00:00:00:00:00/a0 tag 0 dma 512 out
+Sep 22 10:33:31 AppleSeed kernel: [   13.402391]          res 
+51/30:01:00:00:00/00:00:00:00:00/a0 Emask 0x81 (invalid argument)
+
+Ou ça :
+Sep 22 10:33:31 AppleSeed kernel: [   13.419732] sd 0:0:0:0: [sda] CDB: Write same(16): 93 
+08 00 00 00 00 01 a7 88 28 00 00 00 08 00 00
+
+J'ai également une option noatime,discard pour utiliser la commande ATA trim et pour 
+éviter les écriture inutiles, par contre, je ne comprends pas bien à quoi sert l'option 
+commit=600 sur un SSD, un commit toutes les 600 secondes ! tu peux perdre 10 minutes 
+d'activité en cas de coupure de courant !
+
+++
+
+Mourad
+
+On 23/09/2012 21:03, Antoine wrote:
+> Merci, je vais essayer avec un noyau plus récent.
+>
+> Le 23/09/2012 20:36, Christian Ottié a écrit :
+>> On 23/09/2012 19:57, Antoine wrote:
+>>> Merci pour ces suggestions.
+>>>
+>>> -Il n'y a aucun problème détecté par memtest,
+>>>
+>>> -J'ai utilisé cpuburn (avec parcimonie, car je ne connais pas trop ce
+>>> genre d'outils), et je n'ai rien vu d'anormal genre fonte de la coque
+>>> en plastique ou fumée émanant du machin...
+>>>
+>>> -Pour le disque ssd, plusieurs choses :
+>>> 1. j'ai suivi les recommandations de cette page
+>>> (http://wiki.debian.org/SSDoptimization) en modifiant comme conseillé
+>>> /etc/fstab et je me retrouve avec une flopée de message de ce type :
+>>>
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.388562] end_request: I/O error,
+>>> dev sda, sector 34154656
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.391939] ata1: EH complete
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.392312] ata1.00: exception
+>>> Emask 0x0 SAct 0x0 SErr 0x0 action 0x0
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.395702] ata1.00: irq_stat
+>>> 0x40000001
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.399039] ata1.00: failed
+>>> command: DATA SET MANAGEMENT
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.402389] ata1.00: cmd
+>>> 06/01:01:00:00:00/00:00:00:00:00/a0 tag 0 dma 512 out
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.402391] res
+>>> 51/30:01:00:00:00/00:00:00:00:00/a0 Emask 0x81 (invalid argument)
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.409148] ata1.00: status: { DRDY
+>>> ERR }
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.412510] ata1.00: error: { IDNF }
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.419667] ata1.00: configured for
+>>> UDMA/133
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.419677] ata1.00: device
+>>> reported invalid CHS sector 0
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.419694] sd 0:0:0:0: [sda]
+>>> Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.419699] sd 0:0:0:0: [sda] Sense
+>>> Key : Aborted Command [current] [descriptor]
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.419706] Descriptor sense data
+>>> with sense descriptors (in hex):
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.419709] 72 0b 14 00 00 00 00 0c
+>>> 00 0a 80 00 00 00 00 00
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.419720] 00 00 00 00
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.419725] sd 0:0:0:0: [sda] Add.
+>>> Sense: Recorded entity not found
+>>> Sep 22 10:33:31 AppleSeed kernel: [ 13.419732] sd 0:0:0:0: [sda] CDB:
+>>> Write same(16): 93 08 00 00 00 00 01 a7 88 28 00 00 00 08 00 00
+>>>
+>>> Après avoir supprimer les options "discard,noatime,commit=600", c'est
+>>> revenu dans l'ordre.
+>>>
+>>> De même j'ai ajouté, sans mauvaise surprise, au fstab :
+>>> tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0
+>>> tmpfs /var/lock tmpfs defaults,noatime,mode=1777 0 0
+>>> tmpfs /var/run tmpfs defaults,noatime,mode=1777 0 0
+>>>
+>>> après lecture de cette page :
+>>> http://libre-ouvert.toile-libre.org/index.php?article72/ssd-crucial-m4-64-go-linux-trim-ext4-noatime 
+>>>
+>>>
+>>> Est ce toujours utile ?
+>>>
+>>> 2.j'ai aussi lancé (peut être à tort sur ce type de disque ?) un
+>>> smartcl --test=short /dev/sda, et je me retrouve avec une série de :
+>>>
+>>> [22837.746440] Buffer I/O error on device sda6, logical block 34248
+>>> [22837.746445] Buffer I/O error on device sda6, logical block 34249
+>>> [22837.746451] Buffer I/O error on device sda6, logical block 34250
+>>> [22837.746456] Buffer I/O error on device sda6, logical block 34251
+>>> [22837.746461] Buffer I/O error on device sda6, logical block 34252
+>>> [22837.746467] Buffer I/O error on device sda6, logical block 34253
+>>> [22837.746472] Buffer I/O error on device sda6, logical block 34254
+>>> [22837.746477] Buffer I/O error on device sda6, logical block 34255
+>>> [22837.746483] EXT4-fs warning (device sda6): ext4_end_bio:251: I/O
+>>> error writing to inode 262246 (offset 294912 size 32768 starting block
+>>> 5405648)
+>>> [22837.746494] sd 0:0:0:0: [sda] Unhandled error code
+>>> [22837.746499] sd 0:0:0:0: [sda] Result: hostbyte=DID_BAD_TARGET
+>>> driverbyte=DRIVER_OK
+>>> [22837.746505] sd 0:0:0:0: [sda] CDB: Write(10): 2a 00 02 93 de c0 00
+>>> 00 40 00
+>>>
+>>> et une impossibilité de reboot...
+>>>
+>>> Est ce que tout est cassé ou est ce juste le résultat d'un smartctl
+>>> scabreux ?
+>>>
+>>> Spécifications technique :
+>>> le portable tourne sous wheezy, avec un noyau 3.2.0-3.amd64, il s'agit
+>>> d'un clevo W270EQ, avec comme cpu un Intel Core i5-3210M, le disque
+>>> ssd un OCZ Octane de 256 GB.
+>>>
+>>> Je patauge, et toute idée est la bienvenue.
+>>>
+>>> Le 19/09/2012 16:44, Guy Roussin a écrit :
+>>>> Donc quelques suggestions,
+>>>>
+>>>> - Vérifier qu'il n'y a pas un problème matériel.
+>>>> - Utilises-tu des logiciels propriétaires (pilotes) ? Si oui essayes de
+>>>> les virer pour voir
+>>>> si tu as les mêmes problèmes. Sinon essayes une autre version de noyau
+>>>> (si possible
+>>>> récente).
+>>>> - Regarde sur les forums (debian, ubuntu, ...) si ton modèle de PC est
+>>>> connu pour poser des pb sous linux ...
+>>>>
+>>>> Guy
+>>>>> J'ai installé une wheezy (avec xfce) sur un portable relativement
+>>>>> récent (core i5-3210M, chipset graphique Intel, disque SSD, USB 3), et
+>>>>> il arrive que la machine freeze totalement (impossible de basculer
+>>>>> vers tty1) : il faut débrancher pour éteindre.
+>>>>> Les plantages sont fréquents et ont été constatés principalement
+>>>>> pendant la copie de fichiers vers une clef usb ou en surfant via
+>>>>> iceweasel.
+>>>>> Je m'apprête à farfouiller dans /var/log, mais j'avoue ne pas trop
+>>>>> savoir par quoi commencer, ni réellement quoi chercher (il y'a souvent
+>>>>> des warnings et des erreurs mineurs dans les logs).
+>>>>> Je suis preneur de toute suggestion.
+>>>>
+>>>
+>> Bonsoir,
+>>
+>> J'ai résolu mes pb de freezes fréquents sur un core i7 ivy
+>> bridge/H77/graphique intel en installant un noyau 3.4.
+>> J'avais commencé par changer tout le hard (cm Z77 vers H77, proc, ram)
+>> sans résultat...
+>> Et après 15 jours de galère, recherches et essais en tous genres, le
+>> changement de noyau a été miraculeux
+>>
+>> Voir le fil "Freeze regulier" du 12/06 et sa conclusion du 29/06 :
+>> http://lists.debian.org/debian-user-french/2012/06/msg00119.html
+>> et
+>> http://lists.debian.org/debian-user-french/2012/06/msg00329.html
+>>
+>> Cordialement
+>>
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/505F863B.6020103@nativobject.net
+

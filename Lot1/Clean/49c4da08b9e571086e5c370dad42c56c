@@ -1,0 +1,80 @@
+Subject:[Koha] Fwd: Koha Database Migration
+Yesan,
+
+Please send your support requests to the Koha User's list. You will
+have a much greater chance of getting a response that way.
+
+You should be able to do an "in place" upgrade. After taking a backup
+of your current database, just install the new version of Koha and
+browse to the staff interface to run the installer. There is also at
+least one script you will need to run from the command line to remove
+the items from the bibs.
+
+Probably the best way is to move to the packages. I believe there is a
+way when installing from the packages to import your existing
+database. Check out koha-create for more on that. Also, I think the
+packages will run all of the necessary back-end scripts. Someone else
+will correct me if I'm wrong.
+
+Read more here: http://wiki.koha-community.org/wiki/Debian
+
+Kind Regards,
+Chris
+
+---------- Forwarded message ----------
+From: Chief Librarian, SAIACS <library@saiacs.org>
+Date: Thu, Oct 25, 2012 at 1:58 AM
+Subject: Koha Database Migration
+To: paul.a@aandc.org
+Cc: cnighswonger@foundations.edu
+
+
+Dear friends,
+
+
+
+I would like to know if you have got a solution to migrate my KOHA
+database 3.6 to 3.8. I know marc records export and import. But I
+would like to know if we can migrate the database itself.
+
+
+
+Thanks
+
+
+
+______________________________________
+
+Yesan Sellan,  B.Com., MLISc., PGDLAN
+
+Chief Librarian
+
+South Asia Institute of Advanced Christian Studies (SAIACS)
+
+363 Dodda Gubbi Cross Road, Kothanur Post Office, Bangalore -560077, INDIA
+
+Phone    : 91 80 2846 5235/5344/ 5649,
+
+Fax          : 91 80 28465412,
+
+Mobile   : 91-9972348251
+
+Website : www.saiacs.org
+
+Alternative Email: yesan.sellan@saiacs.org or yesans@gmail.com
+
+______________________________________
+
+IMPORTANT : This message is intended only for the addressee. It may
+contain confidential information. Any unauthorized disclosure is
+strictly prohibited. If you have received this message in error,
+please notify us immediately so that we may correct our internal
+records. Please then delete the original message. Thank you.
+
+
+
+P Please consider the environment before printing this email.
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

@@ -1,0 +1,12 @@
+Subject:Re: [rlug] php - xml_parse_into_struct fail
+> <?xml version="1.0" encoding="utf-16"?>
+> 
+> Daca ii zic tot utf-16 in set_option obtin (evident) Warning: xml_parser_set_option(): Unsupported target encoding "UTF-16"
+> 
+> Nu am control asupra xml-ului, iar in php5.2 merge ok asa. Am ceva optiuni la php/xml sau ma apuc sa editez xml-ul?
+
+http://php.net/manual/en/function.mb-convert-encoding.php
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

@@ -1,0 +1,40 @@
+Subject:[svnbook] r4297 committed - Merge from trunk r4296.
+Revision: 4297
+Author:   cmpilato@gmail.com
+Date:     Thu Sep  6 07:36:02 2012
+Log:      Merge from trunk r4296.
+http://code.google.com/p/svnbook/source/detail?r=4297
+
+Modified:
+  /branches/1.7/en
+  /branches/1.7/en/book/ch03-advanced-topics.xml
+
+=======================================
+--- /branches/1.7/en/book/ch03-advanced-topics.xml	Fri Apr 20 09:34:35 2012
++++ /branches/1.7/en/book/ch03-advanced-topics.xml	Thu Sep  6 07:36:02 2012
+@@ -2386,20 +2386,6 @@
+        modify from outside the format's native application (as is true
+        for the older Microsoft Office document formats).</para>
+
+-    <note>
+-      <para>Subversion will only perform keyword substitution on files
+-        that it considers to be human-readable&mdash;this is, files
+-        which don't carry an <literal>svn:mime-type</literal> property
+-        whose value indicates otherwise.  To force keyword
+-        substitution on binary files, you'll need to either lie or
+-        feign ignorance about their true content type.  Understand,
+-        however, that doing so will also enable for those files other
+-        Subversion behaviors that you might not desire, including
+-        line-based differencing and merging.  For more about content
+-        types, see <xref linkend="svn.advanced.props.special.mime-type"
+-        />.</para>
+-    </note>
+-
+      <warning>
+        <para>Be aware that because the width of a keyword field is
+          measured in bytes, the potential for corruption of
+
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

@@ -1,0 +1,146 @@
+Subject:[ubuntu-jp:4231] Re:
+	=?iso-2022-jp?b?VWJ1bnR1IDEyLjEwIBskQkZ8S1w4bBsoQiBSZW1peCBS?=
+	=?iso-2022-jp?b?QzIbJEJIRxsoQg==?=
+長谷川です。
+
+ubuntu-ja-12.10-rc2-desktop-i386.iso を一部だけ試してみました。
+
+自作PC
+
+M/B : ASUS P8Z77-V
+CPU : Intel i7-3770K
+MEM : 32GB
+VGA : Nvidia GT640
+HDD : HGST 1TB , 2TB
+OPT : Blu-ray iHBS11204
+KBD : Owltech PS/2 KEYBORD
+
+VGA の方は正常に高解像度（1920×1080）で表示しています。
+
+DVD Test
+[○] DVDのセルフテストを含め、メニューを選択して画面が遷移するか
+[○] DVDからブートできるか。
+[] USB Startup Diskを作成し、USBメモリからブートできるか。
+[存在している] squashfsに/var/lib/dbus/machine-idが含まれていないか。
+
+Live session
+放置してブート後（or 「Ubuntuを試してみる」選択後）、
+[○] UbiquityからLiveSessionが起動され、Desktopが提供されるか
+日本語キーボードを想定した配列になっているか
+[○] Shift+2 = "
+[○] Shift+8 = (
+[○] Shift+9 = )
+利用されるフォントはTakao Pゴシックになっているか
+アプリケーションレベル
+[] Nautilus = GTK/Serif
+[] gedit (Takaoゴシック) = GTK/Monospace
+[] LibO/Calc = Xft/Serif
+レンダラレベル
+[] 日本語はTakaoPゴシックで表示されるか
+[] ボールドは正常に表示されるか
+[] イタリック（オブリーク）は正常に表示されるか
+[] ボールドイタリック（オブリーク）は正常に表示されるか
+[] IBusの変換中文字列（preedit）は正常に表示されるか
+[○] Evinceで日本語PDFを開いた際、正常に表示されるか
+※　500ページの文献をサラっと見た程度
+
+以下のソフトウェアの動作状態からチェックする
+[] Unity(Nux/Cairo/Pango/fontconfig)
+[] Firefox(Gecko/Cairo/Pango/fontconfig)
+[] Nautilus(GTK/Cairo/Pango/fontconfig)
+[] LibO(Xft/Cairo/Pango/fontconfig; ただしfc設定を部分的に経由しない)
+Calcで、セルとタブそれぞれに日本語文字列を入れて「選択状態」「非選択状
+態」それぞれでチェックする
+[] Flash(独自/fontconfig) ; ubuntu-restcited-extraのインストールテストを
+兼ねる
+
+LiveSessionでibus-anthyによる日本語入力が可能か
+以下のソフトウェアでテストする
+[○] gedit(gtk)
+[○] Nautilus(gtk+独自ハンドラ)
+[○] LibO/Calc(一部独自)
+[○] Firefox(独自)
+
+[] UnityのDash(NUX:Dash)
+[] UnityのHUD(NUX:一部自前)
+FirefoxのスタートページはGoogleか
+[○] Googleページは日本語のものになっているか
+[○] Liveセッションから「インストール」をダブルクリックしてインストーラが
+起動するか
+[○] 正常にLiveセッションは終了できるか
+[○] Dashは開くか
+[] 各 Lens は正常に表示されていて、クリックに応答するか
+[] 各 Lens の文字列が切れていないか
+[○] 画面右上のシャットダウン/設定メニューは開くか
+[○] 各メニューアイテムは開くか
+[○] 「システム設定」を開いて各アイテムの個別設定ページが開くか
+以下のIndicatorのメニューに問題はないか
+[○] Network
+[○] Battery
+Desktopで非表示
+[○] Bluetooth
+非搭載機で非表示
+[○] Sound
+[○] Time (UTCで表示)
+[○] 設定・ログアウト
+[○] Launcherに登録されている全てのアプリケーションが起動するか
+
+フォント候補の動作確認
+
+[○] 以下のコマンドを実行し、結果が一致することを確認する。
+
+$ fc-match "sans"
+fonts-japanese-gothic.ttf: "Takao Pゴシック" "Regular"
+$ fc-match "sans:lang=ja"
+fonts-japanese-gothic.ttf: "Takao Pゴシック" "Regular"
+$ fc-match "sans:lang=ja:charset=\!\!\$jy\!\!\!\!\# "
+fonts-japanese-gothic.ttf: "Takao Pゴシック" "Regular"
+$ fc-match "serif"
+fonts-japanese-mincho.ttf: "Takao P明朝" "Regular"
+$ fc-match "serif:lang=ja"
+fonts-japanese-mincho.ttf: "Takao P明朝" "Regular"
+$ fc-match "serif:lang=ja:charset=\!\!\$jy\!\!\!\!\# "
+fonts-japanese-mincho.ttf: "Takao P明朝" "Regular"
+[○] ソフトウェア・ソースのダウンロードもとは日本のサーバになっているか
+[] 起動画面でキーボード入力して、LiveSessionが起動できるか
+[] 起動画面でキーボード入力して、InstallSessionが起動できるか
+
+Install test
+
+※ VirtualBox-4.2.2 を使いました。
+
+Ubiquity/通常のインストールプロセス
+[※] 1HDDに対してクリーンインストール
+※ 試した項目を明記しました。（こちらの方が分かり易いのではないでしょうか？）
+[○] ディスクを削除してUbuntuをインストール
+[] 安全のため新しいUbuntuのインストールを暗号化する
+[] 新しいUbuntuのインストールにLVMを利用する
+----------------------------------------------------
+[○] 1HDDに対し既存のOSを残してデュアルブート設定
+※ Ubuntu12.10 2つでのデュアルブート
+
+Ubiquity関連共通
+[] slideshowはTakaoPゴシックで表示されているか
+[○] デフォルトの地域はAsia/Tokyoか
+[○] キーボードレイアウトのデフォルトはJapanか
+[○] 誤植・誤った日本語表現はないか
+[○] わかりにくい日本語表現はないか
+* [] インストール with Internet connection
+終了後、正常に終了できるか
+* [] インストール without Internet connection
+終了後、正常に終了できるか
+[] 正常にインストールできるか
+インストール後
+[] Liveセッションで確認した内容をもう一度(インストール時点でインターネッ
+ト接続性がある場合, ない場合それぞれ)
+
+Upgrade test
+
+[] Ubiquity/アップグレード from 任意のバージョン
+Ubiquity経由でのアップグレード（by apt-clone）
+[] アップグレード from Precise
+[] アップグレード from Precise(Japanese Remix)
+
+
+
+

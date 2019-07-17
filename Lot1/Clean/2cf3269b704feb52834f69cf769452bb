@@ -1,0 +1,216 @@
+Subject:Re: [Flexradio] Blown finals
+Nigel:
+
+The ATU is a 2 layer board.
+Just the top and bottom outer layers.
+No inner layers.
+
+--- Graham
+
+=3D=3D
+
+On Fri, Oct 19, 2012 at 2:36 PM, Nige G7CNF <g7cnf.nige@gmail.com> wrote:
+
+> My English teacher (a Greek chap named Mr Avrimedes) used to say, "Never
+> assume anything because you make an ASS out of yoU and ME."
+>
+> I made an assumption - and paid for it. The finals arrived from Icom today
+> and I set-to. Because I'm disabled I cannot hold a standing posture to wo=
+rk
+> on equipment so I did it on the kitchen table. Out came the ATU, out came
+> the RD70's which looked suspiciously healthy (although I'd like to know
+> what mig welder was used to "solder" them in, high temp solder, oh boy). =
+In
+> went the new ones and then the reassembly. Only then did I see what I can
+> only describe was the cause of yet another bad day.  .  .  .
+>
+> One of the relays on the ATU board was fried, along with the adjacent PCB.
+> Relay K7 is toast.
+>
+> How many layers does the ATU have? The damage is nearly through to the
+> rear of the PCB so I'm not holding my breath that I can fix this - or
+> anyone else for that matter. I have taken a photo but not attached it to
+> this post as I don't know if it would be sent to everyone and not everyone
+> wants their bandwidth used up on graphics.
+>
+> Cheers, from one rather despondent Nigel.
+>
+>
+>
+>
+> On 18/10/2012 18:27, Bill Ockert - ND0B wrote:
+>
+>> Maybe I am just unlucky but I have blown mine twice. First time I blamed
+>> myself as I had an extended JT65 session
+>> over several bands at full power.  JT65 is about 40% duty cycle with 48
+>> seconds out of each two minute period as
+>> key down time.  The SWR was very low on all bands (autotuned with and
+>> AT-Auto) so while I do not
+>> believe this type of operation should have ben an issue but I did take
+>> the precaution of having DDUtil cut the power
+>> back to 50% any time I go into a digital mode.
+>>
+>> The second time, about six months later they failed sometime between the
+>> end of a 160m rag chew session at 22W AM
+>> driving my ACOM amp and an attempted 6m USB session, there was a two day
+>> span where  the radio was
+>> powered but not in use.  I believe it failed while sitting there so I
+>> have not come up with a good explanation for
+>> the second failure.
+>>
+>> Both times I shipped it back to Flex and between shipping and repair
+>>  this "feature" has cost me close to
+>> $600.  I plan to stock the finals from here on out to avoid most of the
+>> cost and the downtime should this happen
+>> again.
+>>
+>> 73 de Bill ND0B
+>>
+>> -----Original Message----- From: Rich
+>> Sent: Wednesday, October 17, 2012 12:06 PM
+>> To: flexradio@flex-radio.biz
+>> Subject: Re: [Flexradio] Blown finals
+>>
+>> that's so strange ,that you should have blown finales,, have done a lot
+>> with Flex's
+>> and have never heard of a blown finale .
+>> but whatever the case ,, hope all goes well
+>> "Rich"
+>>
+>>
+>>
+>>
+>> On 10/17/2012 10:18 AM, Nige G7CNF wrote:
+>>
+>>> To any UK Flexer who might find themself in the same position, courtesy
+>>> of N1DL the F5K's finals are also used in the Icom IC-7000. The RD70HHF=
+1's
+>>> were in stock @ =A344ea. That's about middle of the road from the price=
+s I
+>>> obtained but the only supplier to have them in stock.
+>>>
+>>> Nige.
+>>>
+>>> On 17/10/2012 14:42, Karl Geng wrote:
+>>>
+>>>> Just remembered the ICOM IC7000 uses the same MOSFETS in the final
+>>>> try the UK ICOM guy.
+>>>>
+>>>> Karl N1DL
+>>>>
+>>>>
+>>>> On Oct 17, 2012, at 8:46 AM, Nige G7CNF <g7cnf.nige@gmail.com> wrote:
+>>>>
+>>>>  Cheers. Managed to confirm that. Now the trouble is I can't find any
+>>>>> in the UK - any help appreciated.
+>>>>>
+>>>>> Nige.
+>>>>>
+>>>>> On 17/10/2012 12:57, dan edwards wrote:
+>>>>>
+>>>>>> pair of rd70hhf's in push-pull, i THINK....73, w5xz
+>>>>>>
+>>>>>>
+>>>>>> --- On *Wed, 10/17/12, Nige G7CNF /<g7cnf.nige@gmail.com>/* wrote:
+>>>>>>
+>>>>>>
+>>>>>>     From: Nige G7CNF <g7cnf.nige@gmail.com>
+>>>>>>     Subject: [Flexradio] Blown finals
+>>>>>>     To: flexradio@flex-radio.biz
+>>>>>>     Date: Wednesday, October 17, 2012, 11:54 AM
+>>>>>>
+>>>>>>     Hi guys.
+>>>>>>
+>>>>>>     Following an unexpected high SWR condition on 10m (@80w full
+>>>>>>     carrier), the PA failed to fold back for some reason and smoked
+>>>>>>     them. To save me the bother of opening the box prematurely, could
+>>>>>>     someone tell me which MOSFETs are used, please?
+>>>>>>
+>>>>>>     Regards,
+>>>>>>
+>>>>>>     Nige.
+>>>>>>
+>>>>>>     ______________________________**_________________
+>>>>>>     FlexRadio Systems Mailing List
+>>>>>>     FlexRadio@flex-radio.biz </mc/compose?to=3DFlexRadio@**
+>>>>>> flex-radio.biz <FlexRadio@flex-radio.biz>>
+>>>>>> http://mail.flex-radio.biz/**mailman/listinfo/flexradio_**
+>>>>>> flex-radio.biz<http://mail.flex-radio.biz/mailman/listinfo/flexradio=
+_flex-radio.biz>
+>>>>>>     Archives: http://www.mail-archive.com/**
+>>>>>> flexradio%40flex-radio.biz/<http://www.mail-archive.com/flexradio%40=
+flex-radio.biz/>
+>>>>>>     Knowledge Base: http://kc.flexradio.com/ Homepage:
+>>>>>>     http://www.flexradio.com/
+>>>>>>
+>>>>>>  ______________________________**_________________
+>>>>> FlexRadio Systems Mailing List
+>>>>> FlexRadio@flex-radio.biz
+>>>>> http://mail.flex-radio.biz/**mailman/listinfo/flexradio_**
+>>>>> flex-radio.biz<http://mail.flex-radio.biz/mailman/listinfo/flexradio_=
+flex-radio.biz>
+>>>>> Archives: http://www.mail-archive.com/**flexradio%40flex-radio.biz/<h=
+ttp://www.mail-archive.com/flexradio%40flex-radio.biz/>
+>>>>> Knowledge Base: http://kc.flexradio.com/  Homepage:
+>>>>> http://www.flexradio.com/
+>>>>>
+>>>>
+>>>
+>>> ______________________________**_________________
+>>> FlexRadio Systems Mailing List
+>>> FlexRadio@flex-radio.biz
+>>> http://mail.flex-radio.biz/**mailman/listinfo/flexradio_**flex-radio.bi=
+z<http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz>
+>>> Archives: http://www.mail-archive.com/**flexradio%40flex-radio.biz/<htt=
+p://www.mail-archive.com/flexradio%40flex-radio.biz/>
+>>> Knowledge Base: http://kc.flexradio.com/  Homepage:
+>>> http://www.flexradio.com/
+>>>
+>>>
+>> ______________________________**_________________
+>> FlexRadio Systems Mailing List
+>> FlexRadio@flex-radio.biz
+>> http://mail.flex-radio.biz/**mailman/listinfo/flexradio_**flex-radio.biz=
+<http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz>
+>> Archives: http://www.mail-archive.com/**flexradio%40flex-radio.biz/<http=
+://www.mail-archive.com/flexradio%40flex-radio.biz/>
+>> Knowledge Base: http://kc.flexradio.com/  Homepage:
+>> http://www.flexradio.com/
+>>
+>>
+>>
+>> -----
+>> No virus found in this message.
+>> Checked by AVG - www.avg.com
+>> Version: 2012.0.2221 / Virus Database: 2441/5337 - Release Date: 10/17/12
+>>
+>>
+>> ______________________________**_________________
+>> FlexRadio Systems Mailing List
+>> FlexRadio@flex-radio.biz
+>> http://mail.flex-radio.biz/**mailman/listinfo/flexradio_**flex-radio.biz=
+<http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz>
+>> Archives: http://www.mail-archive.com/**flexradio%40flex-radio.biz/<http=
+://www.mail-archive.com/flexradio%40flex-radio.biz/>
+>> Knowledge Base: http://kc.flexradio.com/  Homepage:
+>> http://www.flexradio.com/
+>>
+>
+>
+> ______________________________**_________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/**mailman/listinfo/flexradio_**flex-radio.biz<=
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz>
+> Archives: http://www.mail-archive.com/**flexradio%40flex-radio.biz/<http:=
+//www.mail-archive.com/flexradio%40flex-radio.biz/>
+> Knowledge Base: http://kc.flexradio.com/  Homepage:
+> http://www.flexradio.com/
+>
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.co=
+m/

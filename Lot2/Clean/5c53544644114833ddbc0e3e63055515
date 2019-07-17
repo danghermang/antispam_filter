@@ -1,0 +1,59 @@
+Subject:Re: [Jukebox-list] Bench  testing SHP-1 Amp.
+Using a radio signal as a test signal. Let me tell you the whole wierd prob=
+lem with this jukebox. When I first powered up the jukebox, there were lots=
+ of selections written in to the tormat that I had to cancel out to get the=
+ juke to the rest position. During the zeroizing process, I could hear the =
+audio and it was loud and clear. The guy told me that after it warmed up aw=
+hile he would hear a crackling noise coming from the speakers. Well, after =
+it warmed up a bit, I could hear the crackling and popping noise start , an=
+d I lost all audio, at the same time, all selections were written into the =
+tormat. Could a stray high voltage from the amp somehow feedback into the j=
+uke and cause the tormat to go squirrely? Not sure if I have one problem or=
+ two. Definately lost my audio though. Jim
+
+--- On Fri, 10/19/12, Chan Gade <chan.gade@yahoo.com> wrote:
+
+
+From: Chan Gade <chan.gade@yahoo.com>
+Subject: Re: [Jukebox-list] Bench testing SHP-1 Amp.
+To: "Jukebox mailing list" <jukebox-list@lists.netlojix.com>
+Date: Friday, October 19, 2012, 6:46 AM
+
+
+Jim, you go from Pin 6 into 7, Pin 8 into 9.
+
+It doesn't matter if that crosses channels.
+
+As for the ground just connect whatever signal source you are using to chas=
+sis ground, or you can Pin 1 on the V.C. plug.
+
+What are you using for a test signal?
+
+BTW: I see that Vern Tisdale has schematics for this amp:
+
+http://www.verntisdale.com/Seeburgschem.htm
+
+
+Volume pots: http://www.verntisdale.com/schem/shp1-3b.jpg
+
+Rob
+--- On Thu, 10/18/12, Jim McClave <juker17@yahoo.com> wrote:
+
+From: Jim McClave <juker17@yahoo.com>
+Subject: Re: [Jukebox-list] Bench=A0 testing SHP-1 Amp.
+To: "Jukebox mailing list" <jukebox-list@lists.netlojix.com>
+Date: Thursday, October 18, 2012, 10:45 PM
+
+Ok Rob, so i can jumper pins 6 to 8 , and 7 to 9 ? Then what would I need t=
+o do with pin1 { the signal ground} ? thanks, jim
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

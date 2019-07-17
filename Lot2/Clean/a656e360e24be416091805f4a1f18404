@@ -1,0 +1,33 @@
+Subject:Re: Correo rechazado debian-user-spanish
+El Sun, 02 Dec 2012 17:43:31 -0800, consultores escribió:
+
+> Estoy recibiendo este mensaje:
+> 
+> RCPT TO <debian-user-spanish@lists.debian.org> failed:
+> <debian-user-spanish@lists.debian.org>... Relaying denied
+> 
+> Uso Evolution en Squezze y quiero enviar correo desde la pagina web de
+> la lista Debian-user-spanish.
+
+No veo ninguna diferencia entre enviar el correo desde la página web o 
+enviarlo directamente desde un cliente de correo y este que has mandado 
+ha llegado bien.
+
+> Alguien sabe de que se trata?
+> 
+> Gracias por su atencion.
+
+Podría ser un error temporal de tu servidor de correo, del de la lista... 
+el mensaje de error que recibes es escueto ¿no hay más información?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9in06$u32$3@ger.gmane.org
+

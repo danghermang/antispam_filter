@@ -1,0 +1,42 @@
+Subject:Re: [Koha] How to export data iso2709?
+Yes. Yyou can send me the command line instruction Thank you for the answer
+but when I do that with that option only give the archive name with the
+option to save it in -marc extension. Is this file with the extension -marc
+a iso2709?
+Thank u in advance
+El 31/10/2012 18:20, "Bernardo Gonzalez Kriegel" <bgkriegel@gmail.com>
+escribi=F3:
+
+> Juan,
+> in tools there is an option to export bibliographic records.
+>
+> http://<your staff url>/cgi-bin/koha/tools/export.pl
+>
+> From there you can export part or all, the "marc" option gives you an
+> iso2709 file.
+> I have a command line tool to do that, in case you need it.
+>
+> Regards,
+> Bernardo
+>
+> --
+> Bernardo Gonzalez Kriegel
+> bgkriegel@gmail.com
+>
+>
+>
+> On Wed, Oct 31, 2012 at 3:57 PM, juan hernandez <jnherz@gmail.com> wrote:
+>
+>> How to export all my bibliographic data to iso2709? How can I do that?
+>> thankU
+>> _______________________________________________
+>> Koha mailing list  http://koha-community.org
+>> Koha@lists.katipo.co.nz
+>> http://lists.katipo.co.nz/mailman/listinfo/koha
+>>
+>
+>
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

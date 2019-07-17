@@ -1,0 +1,63 @@
+Subject:Re: Gmail in Thunderbird
+Op 20-10-12 12:59, Ekrem Ko=E7 schreef:
+> Hallo,
+>
+> Sinds week heb ik 12.10 ge=EFnstalleerd en Gmail in Thunderbird =
+
+> synchroniseert regelmatig probleem, dan moet ik opnieuw elke keer om =
+
+> captcha van Google verzoeken om imap van Gmail weer aan de orde =
+
+> instellen.
+>
+> Gisteren heb ik mijn computer schoongemaakt en 12.04 LTS =
+
+> ge=EFnstalleerd. Gmail in Thunderbird synchroniseert stabiel zonder =
+
+> probleem.
+>
+> Weet iemand wat is een oorzaak? Het ligt waarschijnlijk aan Ubuntu 12.10.
+>
+> Met vriendelijke groet,
+> Ekrem
+>
+Hallo Ekrem,
+
+Geen idee wat de oorzaak kan zijn. Maar wel weet ik dat de definitieve =
+
+Ubuntu 12.10 pas gisteren is uitgegeven, en dat je dus de beta2-versie =
+
+of nog eerder hebt ge=EFnstalleerd. En daarin kan je fouten verwachten die =
+
+nog niet zijn gevonden en hersteld (daar dienen die beta's voor :)  ).
+Voorbeeldje: met de beta's deed mijn beeldscherm het niet (zwart), nu =
+
+werkt het wel.
+
+Ik ben het met je eens dat de fout dus waarschijnlijk in 12.10 ligt.
+
+12.04 LTS is overigens prima om mee te werken, en wordt veel langer =
+
+ondersteund (5 jaar) dan 12.10 (2 jaar). De LTS-versies krijgen de =
+
+nadruk op degelijk, stabiel werken en zo, de tussenversies zoals 12.10 =
+
+krijgen de nadruk op experimenteren, ervaring mee opdoen, het nieuwste =
+
+van het nieuwste, en zijn in feite een voorbereiding op de volgende LTS =
+
+(om de twee jaar). Bijvoorbeeld Unity wordt steeds verder verbeterd en =
+
+ontwikkeld.
+
+Het is maar wat je wilt.
+
+Groeten,
+
+Jaap
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

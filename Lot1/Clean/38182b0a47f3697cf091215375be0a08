@@ -1,0 +1,28 @@
+Subject:Re: Reboot
+On Mon, 17 Sep 2012 15:28:21 +0200
+Gerald <gerald.radix@gmail.com> wrote:
+
+>=20
+> Le red=C3=A9marrage d'une debian squeeze ne se fait pas correctement :
+> la machine bloque.
+>=20
+> Or je n'ai acc=C3=A8s =C3=A0 cette machine que par ssh.
+
+T'es coinc=C3=A9 parce que SSH ne se met en branle qu'=C3=A0 la fin du boot
+et que de toute fa=C3=A7on la policy Debian interdit toute connection
+avant la fin effective dudit boot.
+
+--=20
+NNaw=C3=A2K: NOUS SOMME UNE GENERATION PERVERTIE PAR LA TELEVISION,
+        L'ALCOOL, LA DROGUE ET INTERNET !
+Naw=C3=A2K: Mais on s'en plaint pas !
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120917154426.35abf111@anubis.defcon1
+

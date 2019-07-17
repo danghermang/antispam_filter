@@ -1,0 +1,67 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+El 22/09/12 18:18, Camaleón escribió:
+> El Sat, 22 Sep 2012 17:09:54 +0200, Angel Vicente escribió:
+> 
+>> On Sat, Sep 22, 2012 at 11:15:22AM +0000, Camaleón wrote:
+> 
+> (...)
+> 
+>>>> La solucion pasa por compilar el protocolo unix en el nucleo y
+>>>> no como modulo, puesto que ya el udev no soporta el unix como modulo;
+>>>> la verdad es que es muy escueto y no encontre relacion entre el error
+>>>> de udev y el problema posterior. Ni corto ni perezoso, recompile
+>>>> cambiando esta configuracion, esperando que en el siguiente arranque
+>>>> me dejaria de preocupar por los mensajes de udev para continuar con
+>>>> el problema de la particion no encontrada. Pues bien, ahora arranca
+>>>> todo correctamente.
+>>>
+>>> (...)
+>>>
+>>> Lo que no me cuadra es antes funcionara.
+>>>
+>>>
+>> Nuevamente tal y como lo imagino, producto de mi desconocimiento del
+>> funcionamiento de udev: un nucleo compilado por mi con el protocolo unix
+>> en forma de modulo unix.ko, udev capaz de cargar dicho nucleo en el
+>> arranque y un initrd que contiene dicho nucleo. Cambio de udev, el
+>> soporte de unix debe estar incluido en el propio nucleo, asi que los
+>> nuevos initrd no incluiran el unix.ko, aunque los nucleos hallan sido
+>> compilados con el soporte modular: el mismo nucleo de antes con un NUEVO
+>> initrd, tendra en el paquete el modulo de unix.ko, en /lib/modules pero
+>> NO lo tendra en su NUEVO initrd, no se puede cargar en el arranque,
+>> resultado: a mi me ha pasado esto por tener el soporte pata en forma de
+>> modulo, pero tal vez podria haber sido otro efecto.
+> 
+> (...)
+> 
+> Sigue sin cuadrarme porque el cambio que has hecho requiere la 
+> recompilación del kernel algo que anteriormente no se había hecho y no 
+> era necesario. Las posteriores actualizaciones que hayas podido hacer no 
+> han alterado el contenido del resto de elementos ("intrd") que hayan sido 
+> compilados/generados por ti, luego o se me escapa algo o sigo sin 
+> verlo :-)
+> 
+> Saludos,
+> 
+
+
+al parecer el nuevo paquete de initramfs no incluye "soporte" para unix
+socket como módulo, cuando actualizó este paquete y generaba nuevas
+imágenes initrd para sus "custom kernel" estos dejaban de funcionar
+porque el había compilado el soporte de unix socket como módulo en esos
+kernels.
+Esta es la conclusión que yo he sacado al menos.
+
+Un saludo.
+
+-- 
+"Tanto en los deportes como en todo lo demás, soy un experto. Pero para
+mantener viva mi inteligencia natural y fuera de serie, tengo que comer
+mucho"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505DF4BE.1060801@limbo.deathwing.net
+

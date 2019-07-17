@@ -1,0 +1,101 @@
+Subject:[svnbook] r4294 committed - Ticket #321: Introduction "Write-through
+ proxying" (cf....
+Revision: 4294
+Author:   jmfelderhoff@gmx.eu
+Date:     Tue Sep  4 12:01:04 2012
+Log:      Ticket #321: Introduction "Write-through proxying" (cf.
+              http://www.svnbook.de/ticket/321)
+
+http://code.google.com/p/svnbook/source/detail?r=3D4294
+
+Modified:
+  /branches/1.5/de/book/ch06-server-configuration.xml
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+--- /branches/1.5/de/book/ch06-server-configuration.xml	Tue Jul 24 11:03:06=
+  =
+
+2012
++++ /branches/1.5/de/book/ch06-server-configuration.xml	Tue Sep  4 12:01:04=
+  =
+
+2012
+@@ -5213,8 +5213,12 @@
+
+        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  =
+
+-->
+        <sect3 id=3D"svn.serverconfig.httpd.extra.writethruproxy">
++<!--
+          <title>Write-through proxying</title>
++-->
++        <title>Proxy mit Weiterleitung beim Schreiben</title>
+
++<!--
+          <para>One of the nice advantages of using Apache as a
+            Subversion server is that it can be set up for simple
+            replication.  For example, suppose that your team is
+@@ -5234,18 +5238,57 @@
+            then automatically <quote>pushes</quote> the new revision to
+            each slave server using the <command>svnsync</command>
+            replication tool.</para>
++-->
++        <para>Einer der netten Vorteile von Apache als
++          Subversion-Server ist die M=F6glichkeit zur Einrichtung eines
++          einfachen Abgleichs. Nehmen wir zum Beispiel an, dass Ihr
++          Team =FCber vier Standorte auf der Welt verteilt ist. Da das
++          Subversion-Projektarchiv nur an einem davon untergebracht
++          sein kann, ist es f=FCr die anderen drei Standorte kein
++          Vergn=FCgen, darauf zuzugreifen, da sie wahrscheinlich eine
++          sp=FCrbar langsamere Verbindung und l=E4ngere Antwortzeiten beim
++          Aktualisieren und Abliefern von Code erdulden m=FCssen. Eine
++          leistungsf=E4hige L=F6sung besteht darin, ein System
++          aufzusetzen, das aus einem
++          <firstterm>Master</firstterm>-Apache-Server und mehreren
++          <firstterm>Slave</firstterm>-Apache-Servern besteht. Falls
++          Sie an jedem Standort einen Slave-Server aufstellen, k=F6nnen
++          die Benutzer eine Arbeitskopie vom n=E4chstgelegenen Slave
++          auschecken. Alle Leseanfragen gehen an den Server vor Ort.
++          Schreibanfragen werden automatisch an den einzigen
++          Master-Server weitergeleitet. Wenn die =DCbergabe
++          abgeschlossen ist, <quote>schiebt</quote> der Master
++          automatisch die neue Revision mithilfe des
++          Abgleichswerkzeugs <command>svnsync</command> auf jeden
++          Slave-Server.</para>
+
++<!--
+          <para>This configuration creates a huge perceptual speed
+            increase for your users, because Subversion client traffic
+            is typically 80&ndash;90% read requests.  And if those
+            requests are coming from a <emphasis>local</emphasis>
+            server, it's a huge win.</para>
++-->
++        <para>Diese Konfiguration bewirkt eine riesige, f=FCr Ihre
++          Benutzer deutlich wahrnehmbare Geschwindigkeitszunahme, da
++          der Netzverkehr von Subversion-Clients normalerweise zu
++          80&mdash;90% aus Leseabfragen besteht. Und wenn diese
++          Abfragen von einem <emphasis>lokalen</emphasis> Server
++          kommen, ist das ein Riesengewinn.</para>
+
++<!--
+          <para>In this section, we'll walk you through a standard setup
+            of this single-master/multiple-slave system.  However, keep
+            in mind that your servers must be running at least Apache
+            2.2.0 (with <command>mod_proxy</command> loaded) and
+            Subversion 1.5 (<command>mod_dav_svn</command>).</para>
++-->
++        <para>In diesem Abschnitt begleiten wir Sie durch eine
++          Standard-Einrichtung dieses
++          Ein-Master/Mehrere-Slaves-Systems. Denken Sie jedoch daran,
++          dass auf Ihren Servern mindestens Apache 2.2.0 (mit
++          geladenem <command>mod_proxy</command>) und Subversion 1.5
++          (<command>mod_dav_svn</command>) laufen muss.</para>
+
+          <sect4 id=3D"svn.serverconfig.httpd.extra.writethruproxy.configur=
+e">
+            <title>Configure the servers</title>
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

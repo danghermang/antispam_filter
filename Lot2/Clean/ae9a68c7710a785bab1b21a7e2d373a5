@@ -1,0 +1,485 @@
+Subject:Re: [Antenna-discussion] RMS power, II
+Yes, the term "rms power" is sometimes incorrectly applied to what is corre=
+ctly called the "mean power". But neither term is a misnomer.  =
+
+________________________________________
+From: antenna-discussion-bounces@antennex.com [antenna-discussion-bounces@a=
+ntennex.com] on behalf of Kirk T McDonald [kirkmcd@princeton.edu]
+Sent: Saturday, October 27, 2012 5:54 PM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] RMS power, II
+
+Bruce,
+
+As pointed out by Dave, the misnomer is calling "average power" by the term
+"RMS power".
+
+As I pointed out several emails ago, if the wave amplitude varies as A0 sin
+wt, then the wave power varies as A0^2 sin^2 wt
+
+The average power is K A0^2 / 2,
+where constant K depends on the wave speed, and the relation between
+amplitude and energy.
+The mathematical RMS power is K A0^2 sqrt(3/8) =3D 0.61 K A0^2.
+
+But when people speak of RMS power in cases like this, they (usually) mean
+K A0^2 / 2 =3D average power,
+and NOT
+K A0^2 sqrt(3/8) =3D mathematical RMS power.
+
+-------------
+How did this widespread confusion arise?
+
+My speculation is that this is because we do (correctly) speak of the RMS
+AMPLITUDE as
+A0 / sqrt(2).
+
+Then it is "natural" (but not technically correct) to speak of the square of
+the RMS amplitude, namely
+K A0^2 / 2,
+as the "RMS power".
+
+As Clemens notes, AVERAGE power is the product of the relevant RMS
+amplitudes, while mathematical RMS power is not equal to the product of
+these amplitudes.
+
+Rob Thorpe has given an interesting discussion of how HP spectrum-analyzer
+labels also contributed to the confusion.
+
+--------------------
+It appears to me that Dave is the only one bothered by this extremely common
+misnomer.   I'm sure I will revert to my old bad habits on this one in a few
+days.
+
+--Kirk
+
+-----Original Message-----
+From: Bruce L Cragin
+Sent: Saturday, October 27, 2012 4:41 PM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] RMS power, II
+
+I don't see why you can't speak of the rms average of power, or almost any
+other quantity. As long as you can square it, evaluate the mean value of
+that square, and take the square root of the result, you've got a
+root-mean-square average value. True, you run the risk of being
+misunderstood by people who might not think clearly about the meaning of the
+term.  But it's certainly not a "misnomer" -- in fact it's just the
+opposite!
+
+Best regards,
+
+Bruce Cragin
+________________________________________
+From: antenna-discussion-bounces@antennex.com
+[antenna-discussion-bounces@antennex.com] on behalf of Kirk T McDonald
+[kirkmcd@princeton.edu]
+Sent: Saturday, October 27, 2012 4:27 PM
+To: antenna-discussion@antennex.com
+Subject: [Antenna-discussion] RMS power, II
+
+Ed,
+
+It would be interesting to see a quote from the FCC that uses the term "RMS
+power", since this is a technical misnomer, as pointed out by Dave.
+
+I found some FCC stuff on the web:
+
+Slide 21 of
+http://transition.fcc.gov/oet/ea/presentations/files/oct11/5cEMC-Power-Meas=
+urements-Review-102611-SKJ.pdf
+uses the term "average/RMS power", probably to indicate that what many
+people call "RMS power" is really "average power".
+
+Item 4b(vi) on p. 3 of
+https://apps.fcc.gov/eas/comments/GetPublishedDocument.html?id=3D226&tn=3D4=
+05605
+says "Detector =3D RMS (i.e. averaging)".
+This seems to be pointing out that a knob/button on a power meter is
+mislabeled.
+ditto for item 4b(viii)
+
+I think the message is that lots of us are sloppy about using the term "RMS
+power" when we mean "average power".   The FCC seems to be aware of this.
+
+--------------------------
+Example, in a series R_L_C circuit driven sinusoidally, the average power
+delivered to each of the capacitor and inductor is zero, but that delivered
+to the resistor is not.
+
+However, energy does flow onto, and back off of each of the capacitor and
+inductor.
+
+So, it is valid to speak of the nonzero, RMS power associate with the
+capacitor and inductor.
+
+But, does anyone ever do this?
+
+V =3D V0 cos wt =3D Re v0 exp(j w t)
+Z =3D R + j X
+X =3D w L - 1 / w C =3D (w^2 L C - 1) / w C
+A =3D 1 / z =3D 1 / (R + j X) =3D (R - j X) / (R^2 + X^2)
+I =3D V / Z =3D V A
+We need
+Re I =3D [V0 / (R^2 + X^2)] Re[(R - j X) exp(j wt)]
+      =3D  [V0 / (R^2 + x^2)] [R cos wt + X sin wt]
+To discuss the power in the inductor, we need
+V_L =3D j w L I
+We need the real part of this
+Re[V_L] =3D w L Re[j I] =3D - w L Im I
+             =3D - w  L [V0 / (R^2 + X^2)] Im[(R - j X) exp(j wt)]
+             =3D - w  L [V0 / (R^2 + X^2)] [R sin w t - X cos wt]
+
+The power in the inductor is
+P_L =3D Re[V_L] [Re I
+      =3D - [w L V0^2 / (R^2 + L^2)^2] [R X (sin^2 wt - cos^2 wt) + (R^2 -
+X^2) cos wt sin wt]
+      =3D [w L V0^2 / (R^2 + L^2)^2] [R X cos 2wt + (1/2)(R^2 - X^2) sin 2w=
+t]
+
+The AVERAGE of P_L is zero, since both terms are sinusoidal.
+
+However the RMS power is nonzero
+P_L,RMS =3D [w L V0^2 / (R^2 + x^2)^2] sqrt[ R^2 X^2 / 2 + (R^2 - X^2)^2 / =
+8]
+               =3D [w L V0^2 / (R^2 + x^2)^2] [(R^2 + X^2) / 2 sqrt(2)]
+               =3D w L V0^2 / [2 sqrt(2) (R^2 + X^2)]
+
+for what it's worth.
+
+At resonance, where X =3D 0 (and w L =3D 1 / w C), this becomes
+P_L,RMS,resonance =3D w L V0^2 / [2 sqrt(2) R^2]
+
+Similarly, the RMS power into the capacitor at resonance is
+P_C,RMS,resonance =3D V0^2 / [2 sqrt(2) w R C]
+                                 =3D P_L,RMS,resonance
+
+At resonance, energy flows back and forth between the C and the L.
+The average power of this flow is zero, but the RMS power is nonzero.
+
+
+--Kirk
+
+
+V_L =3D j w L I =3D j w L V / Z
+P_L =3D V_L I =3D j w L V^2 / Z^2
+-----Original Message-----
+From: Ed Seedhouse
+Sent: Saturday, October 27, 2012 2:39 PM
+To: antenna-discussion@antennex.com
+Subject: Re: [Antenna-discussion] crystal radios and the capture area
+paradox
+
+
+Back in the 1970's the FCC in the USA published rules about how audio
+amplifier manufacturers could make claims about the power output of
+their products.
+And the requirement was that RMS power per channel with all channels
+fully driven with a sinusoidal wave form was the only claim allowed.
+Anything that follows a sinusoidal wave form has an r.m.s. measurement.
+
+On 27/10/2012 6:18 AM, Clemens Paul wrote:
+> Dave, Kirk
+>
+>> Ok, you mean average power. There's no such thing as RMS power.
+>> That is Prms exists in the mathematical sense, but nobody uses it.
+> ?????????
+> As soon you have to deal with measurement of noise,SNR,or unlinear
+> signals, RMS power is essential as is RMS voltage.
+> There were application notes from HP how to calculate RMS power
+> from the PEP measurments of their old spectrum analyzers like the HP141
+> system.
+> Today that is all done in software.
+> The S-meter of my Perseus SDR can be toggled between reading in RMS of
+> peak
+> power.
+>
+> 73
+> Clemens
+> DL4RAJ
+>
+>
+>
+>> -----Original Message-----
+>> From: antenna-discussion-bounces@antennex.com
+>> [mailto:antenna-discussion-bounces@antennex.com] On Behalf Of
+>> telegrapher9@gmail.com
+>> Sent: Friday, October 26, 2012 9:49 PM
+>> To: Discussions of Antennas and Related Topics; Antennex
+>> Subject: Re: [Antenna-discussion] crystal radios and the
+>> capture area paradox
+>>
+>> Ok, you mean average power. There's no such thing as RMS power.
+>>
+>> Dave
+>>
+>> Sent from my Verizon Wireless 4GLTE smartphone
+>>
+>> ----- Reply message -----
+>> From: "Kirk T McDonald" <kirkmcd@Princeton.EDU>
+>> To: "Antennex" <antenna-discussion@antennex.com>
+>> Subject: [Antenna-discussion] crystal radios and the capture
+>> area paradox
+>> Date: Fri, Oct 26, 2012 13:23
+>>
+>>
+>> Dave,
+>>
+>> Actually, the formula I gave differs from by a factor of 2
+> >from the one I usually use, because I use rms power rather
+>> than peak power.
+>>
+>> So, I'm happy to use the version 3 lambda^2 / 8 pi, which
+>> appears, for example, in eq. 18 of my note
+>> http://puhep1.princeton.edu/~mcdonald/examples/power.pdf
+>>
+>> You are correct that besides power absorbed by the matched
+>> load (neglecting losses), power is scattered out of the
+>> incident wave (into the radiation
+>> pattern of the antenna).   Typically, the scattered power equals the
+>> absorbed power, as you noted.
+>>
+>> --Kirk
+>>
+>> -----Original Message-----
+>> From: telegrapher9@gmail.com
+>> Sent: Friday, October 26, 2012 2:36 PM
+>> To: Discussions of Antennas and Related Topics ; Antennex
+>> Subject: Re: [Antenna-discussion] crystal radios and the
+>> capture area paradox
+>>
+>> Kirk, the formula you give for capture error differs from mine
+>> by a factor of two. Does yours take into account the antenna
+>> re-radiating one half the post?
+>>
+>> Dave C
+>>
+>> Sent from my Verizon Wireless 4GLTE smartphone
+>>
+>> ----- Reply message -----
+>> From: "Kirk T McDonald" <kirkmcd@Princeton.EDU>
+>> To: "Antennex" <antenna-discussion@antennex.com>
+>> Subject: [Antenna-discussion] crystal radios and the capture
+>> area paradox
+>> Date: Fri, Oct 26, 2012 11:20
+>>
+>>
+>> Folks,
+>>
+>> The role of =93received power=94 by a radio antenna is obscured by
+>> the use of an amplifier, which can in principle deliver any
+>> output power whatsoever, independent of the power intercepted
+> >from the incident wave by the antenna.
+>> So, it may be interesting to return to considerations of early crystal
+>> radios that involved no battery and no amplifier.   In these
+>> devices the
+>> signal power that one hears (in headphones) was derived from
+>> the power in the incident wave.
+>>
+>> So, it is desirable that the crystal radio sets capture as
+>> much power from the incident wave as possible.
+>>
+>> The capture area theorem is that ANY small antenna that is
+>> MATCHED (TUNED) and LOSSLESS captures the same amount of power
+> >from the incident wave, namely the power in an area 3 lambda^2
+>> / 4 pi of the incident wavefront.
+>>
+>> So, do we need to struggle to provide some special antenna
+>> configuration for crystal radios?
+>>
+>> And, why bother adding a ferrite to a loop antenna when the
+>> ferrite is =93lossy=94?
+>>
+>> ---------------------------------------------------------------
+>> ----------
+>> Looking at ham web sites about crystal radios, there seem to
+>> be 2 classes of answers.
+>>
+>> Some sites say that one must use a big linear antenna, a
+>> lambda/4 monopole
+>> preferably.     Short of that, bigger is better (they say).
+>>
+>> Other sites say that you will do just fine with a small loop
+>> antenna.   You
+>> can add a ferrite if you want, but it is not necessary.
+>>
+>> ---------------
+>> I have my opinions as to the answers, but it would be
+>> interesting to hear from the List on this.
+>>
+>> --Kirk
+>>
+>> _______________________________________________
+>> This message was sent to: telegrapher9@gmail.com
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email
+>> address this message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>> _______________________________________________
+>> This message was sent to: kirkmcd@princeton.edu
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email
+>> address this message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>>
+>> _______________________________________________
+>> This message was sent to: telegrapher9@gmail.com
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email
+>> address this message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>> _______________________________________________
+>> This message was sent to: cpaul@gmx.net
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email
+>> address this message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>>
+>> -----
+>> E-Mail ist virenfrei.
+>> Von AVG =FCberpr=FCft - www.avg.de
+>> Version: 2012.0.2221 / Virendatenbank: 2441/5355 -
+>> Ausgabedatum: 26.10.2012
+>>
+>
+> _______________________________________________
+> This message was sent to: eseedhouse@gmail.com
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+
+
+--
+Ed Seedhouse
+VA7SDH
+
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm
+
+_______________________________________________
+This message was sent to: bcragin@capcityresearch.com
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm
+
+
+
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm
+
+_______________________________________________
+This message was sent to: bcragin@capcityresearch.com
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm
+
+
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots=
+.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

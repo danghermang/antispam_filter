@@ -1,0 +1,45 @@
+Subject:Re: [HS] se logguer en ssh en outrepassant le shell defini dans
+	/etc/passwd
+Le vendredi 12 octobre 2012 =C3=A0 16:53:49, Steve Fouchet a =C3=A9crit :
+>[=E2=80=A6]
+> Salut,
+
+=E2=80=99lut,
+
+>[=E2=80=A6]
+> sed -i
+> 's/\(^USER.*:\)\/bin\/bash/\1\/path\/mon\/shell\/kitue/'
+> /etc/passwd
+
+  Pour info, pour les archives, la post=C3=A9rit=C3=A9, tout =C3=A7a, on n=
+=E2=80=99est=20
+pas oblig=C3=A9 d=E2=80=99utiliser / comme d=C3=A9limiteur d=E2=80=99expres=
+sion r=C3=A9guli=C3=A8re,=20
+=C3=A7a aide =C3=A0 =C3=AAtre beaucoup plus lisible (tout en =C3=A9vitant d=
+e taper=20
+un tas de caract=C3=A8res \ et de se gourer) :
+
+  sed -i 's|\(^root.*:\)/bin/bash|\1/bin/ash|'
+
+(N=E2=80=99importe quel caract=C3=A8re apr=C3=A8s la commande (ici 's'), et=
+=20
+n=E2=80=99importe quel caract=C3=A8re avant la commande (les adresses), du=
+=20
+moment que le premier est pr=C3=A9c=C3=A9d=C3=A9 de \ :
+  /d=C3=A9but/,/fin/ s/truc/bidule/
+=E2=86=92
+  \:d=C3=A9but:,\:fin: s:truc:bidule:
+)
+
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210121744.36871.Sylvain.L.Sauvage@free.fr
+

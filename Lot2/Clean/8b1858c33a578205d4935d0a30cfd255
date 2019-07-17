@@ -1,0 +1,23 @@
+Subject:=?ISO-8859-1?Q?Re=3A_comando_informaci=F3n_de_hardware?=
+El d=C3=ADa 16 de octubre de 2012 12:05, Claudio Torres
+<dtulf.08@gmail.com> escribi=C3=B3:
+> El d=C3=ADa 16 de octubre de 2012 04:33, Liuber's Hdez=E2=88=B4
+> <hliuber@ucm.vcl.sld.cu> escribi=C3=B3:
+>> Buenos d=C3=ADas Lista,
+>> Saludos
+>>
+>> Qu=C3=A9 comando me recomiendan para obtener informaci=C3=B3n del hardwa=
+re,
+>>
+>> Gracias de antemano,
+>> liuber's hdez.
+>>
+
+hwinfo  y dmidecode
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADqxbRQUu+gqtbu+CzqNv8XpHzykiQ9CSiGiBU4XOJKqyn2fUA@mail.gmail.com
+

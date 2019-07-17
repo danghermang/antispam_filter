@@ -1,0 +1,139 @@
+Subject:Re: Como isntalo codec para video y audio ?
+El 01/10/12 18:34, linux escribió:
+> El 01/10/12 17:27, luis@ida.cu escribió:
+>> On Mon, 01 Oct 2012 18:14:35 -0300, Debian GMail wrote:
+>>> El 01/10/12 18:10, luis@ida.cu escribió:
+>>>> hola a todos
+>>>>
+>>>> Cómo isntalo codec para poder ver los mgp, .mp4 .avi. .vob todo lo que
+>>>> sea video y sonido mp3, wav en Debian squeeze ???
+>>>>
+>>>> Alguien que me de una mano, le agradecería muchísimo
+>>>>
+>>>>
+>>>
+>>> Primero y principal, asegurate de tener los repositorios de
+>>> deb-multimedia en tu /etc/apt/sources.list
+>>>
+>>>
+>>> The first package to install is deb-multimedia-keyring.
+>>> Since Squeeze you can install this package with apt-get but you need
+>>> to presse Y when the package ask what to do and do not press return.
+>>> An new “apt-get update” is also necessary.
+>>>
+>>> For squeeze (stable) amd64, armel, i386, ia64, kfreebsd-i386, mipsel,
+>>> powerpc and sparc packages
+>>> add in your /etc/apt/sources.list
+>>> deb http://www.deb-multimedia.org squeeze main non-free
+>>> or
+>>> deb ftp://ftp.deb-multimedia.org squeeze main non-free
+>>> or
+>>> deb http://www.deb-multimedia.org stable main non-free
+>>> or
+>>> deb ftp://ftp.deb-multimedia.org stable main non-free
+>>>
+>>> For wheezy (testing) amd64, armel, i386, ia64, kfreebsd-amd64,
+>>> kfreebsd-i386, mips, mipsel, powerpc and sparc packages
+>>> add in your /etc/apt/sources.list
+>>> deb http://www.deb-multimedia.org wheezy main non-free
+>>> or
+>>> deb ftp://ftp.deb-multimedia.org wheezy main non-free
+>>> or
+>>> deb http://www.deb-multimedia.org testing main non-free
+>>> or
+>>> deb ftp://ftp.deb-multimedia.org testing main non-free
+>>>
+>>> For sid (unstable) amd64, armel, armhf, i386, ia64, kfreebsd-amd64,
+>>> kfreebsd-i386, mips, mipsel, powerpc and sparc packages.
+>>> add in your /etc/apt/sources.list
+>>> deb http://www.deb-multimedia.org sid main non-free
+>>> or
+>>> deb ftp://ftp.deb-multimedia.org sid main non-free
+>>>
+>>> For squeeze backports (stable backports) amd64, armel, i386, ia64,
+>>> kfreebsd-i386, mipsel, powerpc and sparc packages
+>>> add in your /etc/apt/sources.list
+>>> deb http://www.deb-multimedia.org squeeze main non-free
+>>> deb http://www.deb-multimedia.org squeeze-backports main
+>>> or
+>>> deb ftp://ftp.deb-multimedia.org squeeze main non-free
+>>> deb ftp://ftp.deb-multimedia.org squeeze-backports main
+>>>
+>>> For experimental amd64, i386 and powerpc packages.
+>>> add in your /etc/apt/sources.list
+>>> deb http://www.deb-multimedia.org experimental main
+>>> or
+>>> deb ftp://ftp.deb-multimedia.org experimental main
+>>> The official Debian experimental repository isn't needed
+>>> but the sid repository is mandatory.
+>>> For source
+>>> add in your /etc/apt/sources.list
+>>> deb-src http://www.deb-multimedia.org sid main
+>>> or
+>>> deb-src ftp://ftp.deb-multimedia.org sid main
+>>
+>> Si si los tengo en el sources.list y que más como instalo los codec ???
+>>
+>>
+>>
+> bueno sin comentar lo antes dicho porque ya te explicaron en un post
+> anterior lo de los repos, puedo decirte que cuando agregas las lineas de
+> los repos en el sources.list, salvas los cambios y luego tecleas
+>
+> aptitude update
+>
+> despues que lea y actualice el acceso a los repos
+>
+> si eres novato te aconsejo que instales synaptic
+>
+> aptitude install synaptic o apt-get install synaptic
+>
+> tecleas en el pront synaptic
+>
+> y ahi puedes buscar todos los paquetes que tengan que ver con codec
+>
+> teclas en la caja de busquedad codec y ahi puedes ver todos los paquetes
+> que que de una forma u otra tienen relacion con codec escoges el que mas
+> te guste, en tu caso tambien puedes teclear mp4 o la extension que
+> desees. Otra forma muy facil para los novatos es usar el centro de software
+>
+> saludos
+>
+>
+>
+>
+>
+>
+>
+> --
+>
+> Este mensaje le ha llegado mediante el servicio de correo electronico
+> que ofrece Infomed para respaldar el cumplimiento de las misiones del
+> Sistema Nacional de Salud. La persona que envia este correo asume el
+> compromiso de usar el servicio a tales fines y cumplir con las
+> regulaciones establecidas
+>
+> Infomed: http://www.sld.cu/
+>
+>
+
+Una vez que hayas instalado Synaptic como gestor de paquetes busca en la 
+caja de búsqueda "W32codecs" para que puedas reproducir archivos en 
+formatos privativos. Luego busca "vorbis" y te traerá las librerías para 
+formatos libres como OGG, por ejemplo.
+
+Saludos
+
+-- 
+Sergio Bessopeanetto
+Buenos Aires, Argentina
+Skype: sergio.bess
+msn: sergiebess@hotmail.com
+Jabber: sergio.bess@jabber.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506A26E4.7050401@myopera.com
+

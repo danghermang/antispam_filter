@@ -1,0 +1,93 @@
+Subject:Re: libgl1-nvidia-glx:i386
+El Wed, 05 Dec 2012 18:30:25 +0100, Alberto Luaces escribió:
+
+> Camaleón writes:
+
+(...)
+
+>>> Ciertamente no he prestado atención; sabía que llegaría este día.
+>>> Simplemente le di a actualizar, y cuando la resolución automática
+>>> determinó que había que eliminarlos, lo hice sin dudar.  Activé
+>>> multiarch con un par de líneas, y volví a instalar las versiones de 32
+>>> bit de todos esos falsos paquetes de 64 bit.
+>>
+>> ¿A "actualizar" o a "instalar"? En tu caso, ¿qué es lo que estabas
+>> haciendo? :-?
+>>
+>>
+> Actualizar. 
+
+¿Pero el qué, exactamente? ¿El sistema, Google Earth o algún paquete en 
+particular...?
+
+> *Después* tuve que instalar aquellos paquetes que tuve que eliminar
+> dado que dependían de ia32-libs.
+
+Pues entonces hay un problema con ese paquete pero no es culpa del 
+binario de Google Earth sino de Debian, es decir, instalar "ia32-libs" es 
+problemático. Pues eso conviene reportarlo, obviamente aportando los  
+registros de apt para ver los errores y conflictos que genera.
+ 
+>>>> Si Google ha hecho dos paquetes diferenciados para las dos
+>>>> arquitecturas será por algo. Yo informaría del error donde
+>>>> corrseponda y viendo que el paquete ia32-libs sí existe en Debian
+>>>> pues ya sabemos a quién le ha caído el sambenito.
+>>> 
+>>> No es así.  Precisamente, Google sólo suministra el binario de 32bit.
+>>> El paquete de 64 es simplemente un amaño para que los que tienen un
+>>> sistema de 64 se lo puedan instalar más o menos fácilmente.
+>>
+>> Claro, eso es lo que decía antes, que no hay paquete de 64 bits, pero
+>> sí hay dos paquetes distintos y las bibliotecas de compatibilidad de 32
+>> bits puede ser neecsarias para poder ejecutar alguna función de Google
+>> Earth en sistemas de 64 bits. No sé...
+>>
+>>
+> No hay otra razón que no sea ejecutar binarios de 32bit.
+
+Precisamente... si instalas el binario de 32 bits en un sistema de 64 
+bits sin las bibliotecas de compatibilidad lo más normal es que tengas 
+problemas porque el binario de Google Earth requiere ese paquete y "no 
+sabe nada" del sistema multiarch de Debian/Ubuntu, de lo contrario no lo 
+pediría.
+
+>>> Ahora ya no hay motivo para perpetuarlo: ni por parte de Google, que
+>>> así tiene menos paquetes que mantener, ni por parte de Debian, que
+>>> decidió atajar la caótica situación del paquete ia32-libs.
+>>
+>> Hay motivo, hay motivo: sistemas anteriores que no admitan multiarch
+>> (squeeze, lenny...). Además de que el invento del multiarch no parece
+>> que esté muy fino aún en Debian.
+>>
+>>
+> Pues wheezy va a salir con ello.  Y lo veo turbio para las versiones
+> anteriores, dado que el paquete ia32-libs no se va a actualizar...
+
+Por eso Google Earth lo marca como requisito, si no tendría que crear 
+distintos paquetes para cada versión pre/post-multiarch.
+
+> En cualquier caso, de lo único que quiero dejar constancia es del nuevo
+> modo de instalar binarios de diferentes arquitecturas en Debian,
+> eliminando duplicidades.  Hay incluso algunas personas que empiezan a
+> trabajar en x32, ahora que los paquetes de las plataformas pueden
+> coexistir tan fácilmente.
+
+Sí, lo sé, pero hay que entender que las decisiones de Debian no tienen 
+por qué afectar al resto de empaquetadores externos al proyecto (Mozilla, 
+OpenOffice, Google...). Que los paquetes de Debian para versiones 
+superiores a wheezy estén preparados para multiarch me parece perfecto 
+pero no le puedes exigir lo mismo al resto de proyectos. En definitiva, 
+es Debian quien debe encargarse de hacer una transición suave y hacerla 
+compatible, no al revés.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9o164$th8$14@ger.gmane.org
+

@@ -1,0 +1,27 @@
+Subject:Re: ActivePerl on OS X: ppm not working, no DBD::mysql PPM available
+Jan,
+
+On Thu, Oct 4, 2012 at 9:44 PM, Jan Dubois <jand@activestate.com> wrote:
+
+> Yes, we will probably switch to 64-bit-only builds on OS X for Perl 5.18
+> next year. Switching the 5.16 builds right now will require setting up yet
+> another PPM repo and build system, and will also not work well with the PPM
+> Index pages.
+
+Sure; I understand!
+
+> As for the GUI crash, I heard back from QA that this issue only happens on
+> OS X 10.8 systems that have been upgraded from an earlier version of OS X,
+> and not on fresh installs of Mountain Lion. That way it slipped through the
+> release testing.
+
+This is indeed not a fresh install. I do not have any statistics, but
+I think it is not uncommon to have a system that is upgraded to
+Mountain Lion; upgrades of OS X are not very expensive and pretty
+good. So it might be affecting more users.
+--
+Mike
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

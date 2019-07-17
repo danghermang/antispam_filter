@@ -1,0 +1,75 @@
+Subject:Re: [EVDL] DC motors
+That is not a "safety" issue.  It is a SAFETY ISSUE!!!!!
+
+DO NOT DO THIS!!!!  We are talking about a chainsaw.  Who cares about the
+switch?  Only one way to find out if it will fail or not.  That is a tiny
+issue.   Having the chainsaw at FULL throttle is NOT a viable option.  I am
+a certified feller and use a chainsaw regularly.  Even a pro sawyer with
+full protective gear would NEVER do this.  Please, please, please.  Killing
+yourself to save a "switch" is beyond stupid.  You don't even know it will
+fail.  That is pure speculation without knowing the specs of the switch
+used in production.
+
+On Thu, Nov 8, 2012 at 7:05 AM, Willie McKemie <wmckemie2@gmail.com> wrote:
+
+> On Wed, Nov 07, 2012 at 05:23:35PM -0800, Alan Brinkman wrote:
+> > Willie,
+> >
+> > The switch will not last on DC because it will be made to handle AC
+> > which is easier to break because of the alternating nature of the
+> > current.
+> >
+> > Most likely you have a universal motor in the chainsaw that will run on
+> > AC or DC. An electromagnetic field coil is used that has its polarity
+> > reversed along with the armature coil when the AC source reverses,
+> > keeping the attraction between the two coils in the same direction.
+> >
+> > These motors are not intended to run on DC, but they do.
+> >
+> > You will need to change out the switch to something that will break your
+> > DC voltage and last.
+>
+> Thanks for the responses!
+>
+> I haven't yet used the chainsaw; I'll first get a feel for how to use
+> it on AC, then maybe test it on DC.  Will consider ziptying the
+> "throttle" open to avoid the switch problem and just use the plug for a
+> switch.  Yeah, yeah, I know.  "Safety issue".
+>
+> --
+> Willie, ONWARD!  Through the fog!
+> http://counter.li.org Linux registered user #228836 since 1995
+> Debian3.1/GNU/Linux system uptime  113 days 22 hours 23 minutes
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+
+
+
+-- 
+Marcus Reddish
+
+*North Valley Systems LLC*
+Stevensville, Montana
+406-360-8628
+northvalleyev.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121108/dea2db5f/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

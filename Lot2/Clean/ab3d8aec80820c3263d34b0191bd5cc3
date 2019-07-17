@@ -1,0 +1,83 @@
+Subject:Re: Sin opciones de accesibilidad en Iceweasel (era: Problems with
+	iceweasel 10 in squeeze.)
+Es extra=C3=B1o el comportamiento. Instal=C3=A9 el paquete gnome session fa=
+llback=2C=20
+para probar el error=2C y efectivamente=2C aparece. Curiosamente=2C el=20
+navegador web integrado dentro del proyecto gnome=2C funciona bien dentro=20
+de la interfaz cl=C3=A1sica de gnome=2C y dentro de gnome shell=2C no lo ha=
+ce.
+
+Tengo definida la accesibilidad desde gconf=2C adem=C3=A1s que he exportado=
+ la=20
+variable que comentas=2C e incluso uso el plugin de qt para conectarlo con=
+=20
+at-spi=2C todas las aplicaciones que usan qt=2C funcionan medianamente bien=
+=20
+con at-spi=2C no as=C3=AD iceweasel 16. Igual podr=C3=ADa tratarse de un fa=
+llo que=20
+impida a at-spi-registry recoger los datos que env=C3=ADa icewease=2C aunqu=
+e=20
+conociendo lo que han ido haciendo el equipo de gnome=2C no me=20
+sorprender=C3=ADa si la sesi=C3=B3n cl=C3=A1sica tiene recesiones en accesi=
+bilidad.
+
+Saludos=2C seguir=C3=A9 probando a ver si encuentro algo.
+
+
+El 10/11/12 17:33=2C Camale=C3=B3n escribi=C3=B3:
+> El Sat=2C 10 Nov 2012 10:59:43 +0000=2C manuel escribi=C3=B3:
+>
+>> Saludos.
+>>
+>> El 10/11/12 15:33=2C Camale=C3=B3n escribi=C3=B3:
+>>> El Sat=2C 10 Nov 2012 11:25:42 -0300=2C francisco del roio escribi=C3=
+=B3:
+>>>
+>>>> Saludos lista.
+>>> Saludos pero por favor=2C evita usar un formato html cuando env=C3=ADes
+>>> mensajes a la lista... gracias :-)
+>>>
+>>>> voy de nuevo=2C porque est=C3=A1 claro que el mensaje no lo redact=C3=
+=A9 bien...
+>>>> Lo que hice:
+>>>>
+>>>> 1) Instal=C3=A9 lo =C3=BAltimo del iceweasel desde el repo [1]=2C y cu=
+ando lo abr=C3=AD
+>>>> me encuentro con que "No es accesible".
+>>> (...)
+>>>
+>>> No entiendo a qu=C3=A9 te refieres con eso de que "no es accesible".
+>>>
+>>> =C2=BFEs un mensaje que te aparece nada m=C3=A1s iniciar el navegador=
+=2C es que
+>>> echas en falta alguna opci=C3=B3n o que sencillamente algo no funciona?
+>>>
+>>>
+>> Hola. Al referirse a no ser accesible=2C se refiere m=C3=A1s bien a que =
+no
+>> conecta con at-spi2=2C lo que se necesita para que brinde la
+>> accesibilidad.
+> (...)
+>
+> Ah=2C okay=2C gracias por la aclaraci=C3=B3n :-)
+>
+> Entonces podr=C3=ADa tratarse de una regresi=C3=B3n de estos errores:
+>
+> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D682912
+> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D682914
+>
+> Quiz=C3=A1 funcione lo que comentan en los informes que es definir la var=
+iable
+> de entorno con "export GNOME_ACCESSIBILITY=3D1" :-?
+>
+> Saludos=2C
+>
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU0-SMTP47483B4B24A4DA2834D4D34BE6F0@phx.gbl
+

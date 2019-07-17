@@ -1,0 +1,44 @@
+Subject:Re: [OT] Datos de localizacion para app
+El Mon, 05 Nov 2012 11:05:45 -0430, Luis Díaz escribió:
+
+(ese html...)
+
+> saludos sr.
+> 
+> disculpen el tema..
+> estoy desarrollando una app, para la cual necesito tener una lista de
+> los estados por pais y ubicaciones claves.
+> 
+> ejemplo:
+> País             * Estado    * Ciudad         *  Ubicación 
+> Venezuela        > Carabobo  > Puerto Cabello > Centro. 
+> Venezuela        > Barinas   > Barinas        > Aeropuerto. 
+> Venezuela        > Barinas   > Barinitas      > Parque Publico pedro perez
+> 
+> conseguir una lista con lat y log seria un extra..
+> 
+> alguno sabe de alguna app o sitio? que me permita extraer esos datos?
+> pensé en google map, pero no encontré referencia de como extraer los
+> datos que necesito.
+
+(...)
+
+¿Y el proyecto OpenStreetMap? Deberían tener estos datos disponibles :-?
+
+http://planet.openstreetmap.org/
+http://wiki.openstreetmap.org/wiki/Planet.osm
+
+También puedes buscar por PI (puntos de interés) para las zonas que 
+quieras.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k78ook$eq2$7@ger.gmane.org
+

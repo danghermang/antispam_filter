@@ -1,0 +1,85 @@
+Subject:Re: [Antenna-discussion] Another Crystal Radio Question
+Oliver,
+
+David's comments are correct.
+
+To go a bit further, the capture area theorem tells us that a tuned receiver 
+captures all the power in the incident wave over a circle of radius about 1 
+wavelength around the receiver.
+
+If two radios are located within one wavelength of one another, they will 
+interfere destructively, and each will hear a smaller signal than if the 
+other radio weren't present.
+
+AM wavelengths are long enough that this effect is not entirely negligible.
+If two cars pass one another while tuned to the same AM station, there will 
+be bit of a fadeout on their radios.   This usually goes away as traffic 
+changes, so you attribute these fadeouts to the poor quality of AM signals, 
+etc.
+
+The cellphone industry needs to be able to deliver signals to two people 
+standing fairly close to one another.   This means that the carrier 
+frequency needs to be less than the size of a person.
+
+The cellphone frequencies of 1-2 GHZ correspond to wavelengths of 15-30 cm, 
+which are OK in this sense.
+
+With much longer wavelengths, people would complain about fadeouts in 
+crowded areas.....
+
+--Kirk
+
+
+
+-----Original Message----- 
+From: Oliver Steiner
+Sent: Friday, October 26, 2012 5:42 PM
+To: Discussions of Antennas and Related Topics
+Subject: [Antenna-discussion] Another Crystal Radio Question
+
+This is probably not fitting into the crystal radio topic presently
+being discussed so I'll list it separately:
+
+If a one watt AM transmitter is being received on a nearby crystal
+radio at comfortable headphone listening level - (let's call that
+1/50th of a watt going into the headphones, if that's a reasonable
+estimate) - What happens if 51 or more nearby crystal radios are
+listening?  Surely the total power output of all the crystal radios
+can't exceed the transmitted power!  I once asked a similar question
+here, but must confess to not understanding how this works.
+
+Ollie
+W2QXR
+
+-- 
+http://oliversteiner.com
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this 
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm 
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

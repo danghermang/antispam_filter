@@ -1,0 +1,34 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint?= qui consomme
+Le Sat, 3 Nov 2012 12:19:33 +0100
+Bzzz <lazyvirus@gmx.com> a écrit:
+
+> On Sat, 3 Nov 2012 10:14:10 +0100
+> Francois Boisson <user.antispam@maison.homelinux.net> wrote:
+> 
+> > Groumf, il n'y a pas d'aufs dans leur foutu noyau...
+>  
+> Pas grave, tu ne feras pas d'emaulette:)
+> 
+> Reste donc maintenant à trouver pourquoi il suspend en RAM au lieu de sur
+> DISK.  Idée: configure-le pour qu'il suspend2RAM et on verra bien ce que
+> ça donne...
+> 
+
+Mais je ne fais pas de suspend, le suspend to ramp fonctionne très bien et est
+instantané. Là il n'y a pas de susepnd que ce soit sur disque ou en RAM. Seule
+la consommation est du même ordre, mais elle est aussi du même ordre que le
+WOL par exemple...
+
+Je vais essayer de creuser la différence Ubuntu/Debian mais ça va être long
+
+F.B
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121103173543.ca07b17baf5839ca355faf03@maison.homelinux.net
+

@@ -1,0 +1,63 @@
+Subject:Re: KVM =?ISO-8859-1?Q?r=E9seaux_Host-only?=
+Merci beaucoup pour ces quelques précisions.
+Est ce que je suis obligé de passé par une requête DHCP ? je prefere 
+configurer mes VM en statique
+L'interface br0 doit remplacer la eth0 ? ou tout du moins être sur un 
+réseau différent ?
+
+
+Le 02/12/2012 15:31, daniel huhardeaux a écrit :
+> Le 02/12/2012 14:47, nicolas bouige a écrit :
+>> Bonjour tout le monde,
+>
+> Bonjour
+>
+>>
+>> Je suis en train de me créer plusieurs machine virtuelle avec KVM.
+>> J'aimerais que cette machine communique avec l'hôte physique mais j'y 
+>> arrive pas...je veux qu'elle soit sur le même réseaux, j'ai essayé de 
+>> bridger mais cela ne marche pas non-plus.
+>
+> Ton interface du host doit être en mode bridgr (Ex: br0). Ensuite dans 
+> la définition de la MV
+>
+> <interface type='bridge'>
+> <mac address='52:54:00:c4:f8:10'/>
+> <source bridge='br0'/>
+> <model type='virtio'/>
+> <address type='pci' domain='0x0000' bus='0x00' slot='0x03' 
+> function='0x0'/>
+> </interface>
+>
+> Une requête dhcp suivante dans la MV attribuera une adresse IP du 
+> réseau de la machine physique.
+>
+>>
+>> Je peux l'utiliser en NAT mais le ping ne fonctionne pas non-plus 
+>> entre les machines...
+>
+> Si un firewall est installé, vérifier que le trafic est autorisé
+>
+>> il y'a bien une interface vnet0 de créer (qui doit correspondre a vnet0)
+>
+> Il s'agit d'une interface de communication pour la MV. Si un réseau 
+> bridge pour les MV est créé, l'interface sera nommée virbr0 par ex.
+>
+>> mais je ne sais pas comment l'utiliser avec KVM. J'ai installé 
+>> l'interface graphiquevirt-manager.
+>
+> Pas nésessaire, virsh + la manipulation manuelle des fichiers dans 
+> /etc/libvirt/qemu fonctionne également
+>>
+> [...]
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BB6E51.1030904@free.fr
+

@@ -1,0 +1,48 @@
+Subject:AW: externe HDD nicht lesbar
+Danke Nils. Lade es schon mit "apt-get" herunter. Scheint offensichtlich da=
+s einzige Tool zu sein, mit dem das klappen k=F6nnte?
+
+-----Urspr=FCngliche Nachricht-----
+Von: ubuntu-de-bounces@lists.ubuntu.com [mailto:ubuntu-de-bounces@lists.ubu=
+ntu.com] Im Auftrag von Nils Kassube
+Gesendet: Freitag, 26. Oktober 2012 10:34
+An: ubuntu-de@lists.ubuntu.com
+Betreff: Re: externe HDD nicht lesbar
+
+Bj=F6rn Hahnefeld wrote:
+> ich habe hier eine externe USB-Festplatte. Auf selbiger wird nicht =
+
+> mehr das Filesystem erkannt, denn Windows m=F6chte diese Platte stets =
+
+> formatieren. Wenn ich mir mit Debian oder Ubuntu die Sache ansehe, =
+
+> bekomme ich beispielsweise folgendes zu sehen (geht um sdb):
+[...]
+> Wenn ich die Platte einbinden m=F6chte, erscheint folgendes:
+> =
+
+> root@apl:/# mount /dev/sdb1 /mnt
+> =
+
+> mount: /dev/sdb1: Konnte den Superblock nicht lesen
+> =
+
+> Wie k=F6nnte ich dennoch die Platte lesen und an die Daten kommen?
+
+Du k=F6nntest mal mit den Programmen testdisk und photorec probieren, an di=
+e Daten zu kommen. Beide Programme sind im Paket "testdisk".
+
+
+Nils
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

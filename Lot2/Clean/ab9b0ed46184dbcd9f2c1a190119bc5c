@@ -1,0 +1,67 @@
+Subject:Re: schroot. comment
+	=?UTF-8?B?ZXjDqWN1dGVyIGxlcyBzY3JpcHRzIGRlIA==?=
+	=?UTF-8?B?Y29uZmlndXJhdGlvbiA/?=
+Bonsoir,
+
+Merci mais j'ai l'impression qu'il y a eu du changement, j'ai ça
+lorsque je met une ligne "script-config=desktop/config" dans la
+conf et que je lance la commande schroot :
+
+$ schroot -c maverick
+A : Ligne 82 [maverick] : la clé « script-config » n'est plus gérée
+I : Cette option sera supprimée ; mettez à jour votre configuration
+
+En plus il n'y a pas de fichier config dans les différents dossiers
+de conf proposés. Il y a seulement les fichiers :
+
+$ ls /etc/schroot/desktop/
+copyfiles  fstab  nssdatabases
+
+Je note aussi qu'avec squeeze il n'y a pas la ligne :
+Exécuter les scripts de configuration (« Setup Scripts »)  faux
+
+Guy
+
+Le 09/09/2012 21:59, Vincent Demeester a écrit :
+> Bonsoir,
+> 
+> Il faut préciser l'option script-config dans le configuration. Par 
+> défault il y a default, desktop, minimal et build je crois.
+> 
+> Un exemple de ce que j'utilise, avec une config custom (mysql) :
+> 
+> [mysql] type=lvm-snapshot device=/dev/hokkaido/schroot-mysql 
+> description=Debian MySQL users=vincent root-users=vincent 
+> source-root-users=vincent,root mount-options=-o
+> relatime,discard,commit=60 lvm-snapshot-options=--size 5G 
+> script-config=mysql/config
+> 
+> ─── Chroot ─── Name                  mysql Description
+> Debian MySQL Type                  lvm-snapshot Priority
+> 0 Message Verbosity     normal Users                 vincent 
+> Groups Root Users            vincent Root Groups Aliases Preserve
+> Environment  false Environment Filter 
+> ^(BASH_ENV|CDPATH|ENV|HOSTALIASES|IFS|KRB5_CONFIG|KRBCONFDIR|KRBTKFILE|KRB_CONF|LD_.*|LOCALDOMAIN|NLSPATH|PATH_LOCALE|RES_OPTIONS|TERMINFO|TERMINFO_DIRS|TERMPATH)$
+>
+> Run Setup Scripts     true
+> Script Configuration  mysql/config Session Managed       true 
+> Session Cloned        true Session Purged        false Device
+> /dev/hokkaido/schroot-mysql LVM Snapshot Options  --size 5G 
+> Personality           undefined Mount Options         -o
+> relatime,discard,commit=60 Source Users Source Groups Source Root
+> Users     vincent root Source Root Groups
+> 
+> Par contre ma version est un peu différente (1.4.19 squeeze) mais
+> je pense que le fonctionnement reste le même avec wheezy.
+> 
+> Vincent
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504D09EE.4000302@teledetection.fr
+

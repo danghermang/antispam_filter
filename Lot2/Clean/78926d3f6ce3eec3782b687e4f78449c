@@ -1,0 +1,21 @@
+Subject:[Koha] Browse by author or subject
+Good day koha users and developers! I installed koha 3.8.4 on a debian 6.0
+machine. I was putting in cronjobs for the site by following this:
+http://manual.koha-community.org/3.2/en/cronjobsch.html. My last cron job is
+/build_browser_and_cloud.pl -f -b 100a -t 600 -c. I was able to successfully
+run it, I think. I was also tinkering on the OPAC of our site
+(http://hreplib.congress.gov.ph), I tried the Browse by author or subject,
+now my question is: when I search here, I'm getting results of authorized
+headings with HASH(xxxxx). Is this normal? What shoud I do (to get it
+right)? You can try going into the OPAC so you see what I was saying. Thanks
+and more power!
+
+
+
+--
+View this message in context: http://koha.1045719.n5.nabble.com/Browse-by-author-or-subject-tp5731224.html
+Sent from the Koha-general mailing list archive at Nabble.com.
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

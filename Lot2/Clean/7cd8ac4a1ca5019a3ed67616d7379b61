@@ -1,0 +1,40 @@
+Subject:Re: alltray et cie
+Le Tue, 06 Nov 2012 10:29:25 +0100,
+Bruno Richard <richard.brunooo@gmail.com> a écrit :
+
+> bonjour à tous,
+> 
+> je gère un certain nombre de serveurs et j'aime bien surveiller leur 
+> charge avec xload : nos écrans sont maintenant suffisamment grands
+> pour se permettre d'avoir une série de xload sur un bord.
+> Seul problème : si on lance xload comme ca "ssh -X serveur xload", il 
+> apparait dans le tableau de bord ce qui devient vite compliqué
+> dès qu'on a plusieurs xload de lancés.
+> Du coup j'utilise alltray, qui limite le problème mais l'idéal serait
+> de pouvoir lancer xload sans qu'il y ait un affichage autre que la
+> fenêtre xload.
+> 
+> Avez vous des solutions ?
+> Merci
+> Bruno
+> PS : J'espère avoir été clair !
+> 
+bonjour,
+
+	pourquoi ne pas employer un système proche de rrdtools avec
+	munin + boa?
+
+	je propose ce genre de solution mais d'autres outils existent
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121106111154.16cd3a34.bernard.schoenacker@free.fr
+

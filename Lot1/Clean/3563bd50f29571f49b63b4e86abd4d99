@@ -1,0 +1,194 @@
+Subject:Re: [Jukebox-list] 6973 to el84 info needed.
+Guy's
+It has been my experiance that the EH 6973's, for the most part have been "=
+perfect"--However, about 2-2.5 years ago, I got a batch that "stunk"--These=
+ will test "bad" on almost any tester--I can not recall the code date of th=
+is series-sorry--but all later dates have been fine-=A0 Ron Rich=20
+
+--- On Sun, 11/11/12, James Alexander <jalexandercc11@att.net> wrote:
+
+From: James Alexander <jalexandercc11@att.net>
+Subject: Re: [Jukebox-list] 6973 to el84 info needed.
+To: "Jukebox mailing list" <jukebox-list@lists.netlojix.com>
+Date: Sunday, November 11, 2012, 10:07 AM
+
+Gentlemen:
+
+I've=A0bought and used quite a number of the ElectroHarmonix 6973 tubes in =
+my=20
+repair/rebuild work and have had very few quality-control,=20
+warranty-returned=A0problems or complaints about them.=A0 Repaired amplifie=
+rs using=20
+these tubes have=A0 tested (audio performance tests) within their published=
+=20
+performance specs.=A0In one case, I tested amp output/distortion substituti=
+ng the=20
+EH 6973's versus a set of NOS, US made RCA=A06973's---no measurable differe=
+nce.=A0=20
+I've had more problems with 6973 circuits the times I had to=A0substitute o=
+ther=20
+tubes for 6973's (6EM5 comes to mind) due to lack of availability.
+
+I've had to change plate loading and other resistors surrounding the 6973=
+=20
+circuits frequently=A0when repairing AMI amps.=A0 It's my experience that t=
+he=20
+resistors tend to get "cooked out" in these amps because unlike other jukeb=
+ox=20
+makes,AMI's amps are powered up 100% of the time.=A0 In most other tube typ=
+e juke=20
+amps, the rectifier tube is switched off when the juke is in the at-rest mo=
+de.=20
+Tube filaments are kept partially lit in order to get a quick warm-up time.=
+=A0=20
+
+
+IMO, the 6973 tube,in general, is rather fragile and under rated=A0for the =
+job=20
+it's being asked to do,so they don't work as dependably as the hardier EL84=
+.=A0I=20
+don't notice any difference in sound=A0comparing correctly-running 6973's t=
+o EL84=20
+circuits.=A0 Other factors will have a bigger influence on the sound of an =
+amp=20
+used for a playback app.=A0(i.e. phono cartridge choice, speakers, room=20
+acoustics,etc) than will the output tube type.=A0=A0=A0For a brief period i=
+n the early=20
+60's, 6973's were in popular use in a variety of medium-wattage stereo=20
+components, and commercial sound amplifiers.=A0 They sure disappeared from =
+the=20
+scene quickly,to be replaced by other tube types.=A0=A0Around this time, so=
+lid state=20
+amp. technology was being rolled out to replace tube-type amps which brough=
+t=20
+with them a number of new problems.=A0 Some equipment manufacturers dealt w=
+ith the=20
+issue by offering a choice of both tube-type and solid state=A0amplifiers.=
+=A0 Not=20
+sure if the 60's jukebox companies did this or not. =A0=A0
+
+With regard to 6973 output tube substitution, I've heard that a European pa=
+rts=20
+manufacturer (I don't have the name) is offering=A0adapter sockets that wil=
+l let=20
+you plug in EL84/6BQ5's for a number of different output tube types.=A0 Any=
+ pin=20
+basing changes,passive electronic components needed are built into the=A0ba=
+se of=20
+the adapter socket.=A0=A0 There's supposed to be an adapter socket=A0in the=
+ line=20
+allowing EL84's to substitute for several octal-based tube types.=A0=A0=A0=
+=A0=A0=A0
+
+Jim Alexander
+
+
+
+
+________________________________
+From: Ed Owens <eowens@eojohnson.com>
+To: NORMAN MACRAE <nmacrae23@btinternet.com>; Jukebox mailing list=20
+<jukebox-list@lists.netlojix.com>
+Sent: Sun, November 11, 2012 9:35:47 AM
+Subject: Re: [Jukebox-list] 6973 to el84 info needed.
+
+I found some matched pairs of 6973eh online, but I read they had some quali=
+ty=20
+issues and the tubes just didn't work.=A0=20
+
+=A0 If I go with the 6973 s should I replace those resistors that are off.=
+=A0 Both=20
+the schematic and banding tell me 470k but they measure way off.=A0 Maybe t=
+hat is=20
+why the existing 6973 tests at 50%.=A0 It was cooked.=A0 I'm also going to =
+replace=20
+the 1 watt bias resistor and diode.=A0 What diode would you use a 1n4004?
+Thanks
+
+Ed Owens
+E O Johnson Co
+
+On Nov 11, 2012, at 5:14 AM, "NORMAN MACRAE" <nmacrae23@btinternet.com> wro=
+te:
+
+> Jay is correct, there is a fair bit of rewiring required; I think only th=
+e=20
+>heater connections are the same.=A0 Some Rock-Ola amps (eg 429) used EL84s=
+ so if=20
+>you are determined to go this route, then just re-wire like the Rock-Ola.=
+=A0 The=20
+>HT supply to the EL84s on the Rock-Ola is 310V so an adjustment for this w=
+ould=20
+>be required, as Jay also indicated.
+>=20
+>=20
+> I also happen to think that EL84s produce a nicer sound than 6973s - noth=
+ing=20
+>like being controversial, eh?
+>=20
+> Norman.
+>=20
+>=20
+> ________________________________
+> From: Jay Hennigan <jay@west.net>
+> To: Jukebox mailing list <jukebox-list@lists.netlojix.com>=20
+> Sent: Sunday, 11 November 2012, 5:17
+> Subject: Re: [Jukebox-list] 6973 to el84 info needed.
+>=20
+> On 11/10/12 8:41 PM, Ed Owens wrote:
+>> Howdy,=A0=20
+>>=A0 =A0 I'm getting close to finishing my ami continental 2.=A0 I have al=
+l the tubes=20
+>>except the 6973s.=A0 I have a pile of el84 tubes and have read I can use =
+these as=20
+>>a sub.=A0 I am ok with rewiring the sockets and I also understand I need =
+to change=20
+>>a resistor per socket.=A0 According to the schematic this resistor is cur=
+rently=20
+>>470k and they are reading at 550k.
+>>=A0 =A0 Is there any info out there on what needs to be done for this con=
+version.=A0=20
+>>Any one know what value resistor I need to change to.
+>=20
+> The EL84 has a maximum rated plate voltage of 300 volts.=A0 Using these i=
+n
+> most 6973 applications means that the tube will be operating beyond its
+> specifications.
+>=20
+> There are some EL84 variants with higher voltage ratings that could
+> work, but 6973s are now being produced by Electro-Harmonix at reasonable
+> prices.
+>=20
+> I would get new EH 6973s rather than rewire, which is a relatively
+> daunting process as almost all of the pins will need to be rewired.
+>=20
+> --
+> Jay Hennigan - CCIE #7880 - Network Engineering - jay@impulse.net
+> Impulse Internet Service=A0 -=A0 http://www.impulse.net/
+> Your local telephone and internet company - 805 884-6323 - WB6RDV
+> _______________________________________________
+> Jukebox-list mailing list
+> Jukebox-list@lists.netlojix.com
+> http://lists.netlojix.com/mailman/listinfo/jukebox-list
+> Searchable Archives: http://jukebox.markmail.org/
+> _______________________________________________
+> Jukebox-list mailing list
+> Jukebox-list@lists.netlojix.com
+> http://lists.netlojix.com/mailman/listinfo/jukebox-list
+> Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

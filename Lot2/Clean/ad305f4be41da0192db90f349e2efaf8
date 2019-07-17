@@ -1,0 +1,21 @@
+Subject:Re: Wheezy : freezes totaux =?ISO-8859-1?Q?fr=E9quents?= sur un
+	nouveau portable.
+Le mercredi 26 septembre 2012 à 15:56 +0200, Christophe Barès a écrit :
+> C'est résolu à coup de vgaswitcheroo (toujours sous ubuntu), et en
+> plus
+> j'ai presque doublé l'autonomie des batteries... 
+
+Avec les chipset nvidia Optimus, se tourner vers bumblebee (pour
+information au cas zou ça intéresse quelqu'un)
+http://suwako.nomanga.net/
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1348715228.8587.2.camel@jisui.aranha
+

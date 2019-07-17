@@ -1,0 +1,70 @@
+Subject:Re: filedecriptor ulimit -n
+El Fri, 16 Nov 2012 09:25:10 +0100
+"Trujillo Carmona, Antonio" <antonio.trujillo.sspa@juntadeandalucia.es> esc=
+ribi=F3:
+
+>=20
+> El jue, 15-11-2012 a las 14:40 +0000, Camale=F3n escribi=F3:
+> > El Thu, 15 Nov 2012 14:04:08 +0100, Trujillo Carmona, Antonio escribi=
+=F3:
+> >=20
+> > > Estamos teniendo problemas con el proxy. He encontrado le error:
+> > > Your cache is running out of filedescriptors=20
+> >=20
+> > (...)
+> >=20
+> > Me adelanto s=F3lo por si acaso... =BFpuede estar relacionado con este =
+otro=20
+> > hilo? (era para squeeze pero quiz=E1 pase lo mismo en wheezy)
+> >=20
+> > http://lists.debian.org/debian-user-spanish/2012/09/msg00162.html
+> >=20
+> > Saludos,
+> >=20
+> > --=20
+> > Camale=F3n
+> >=20
+> >=20
+> Ese hilo lo abr=ED yo y cre=EDa que se hab=EDa solucionado, pero el hecho=
+ es
+> que he vuelto a tener problemas, por lo que he podido ver ampli=E9 el
+> numero de ficheros en el squid, pero no en el SO por lo que hay
+> problemas,
+> La ampliaci=F3n en el SO resulta ser por usuario y consigo aplic=E1rsela a
+> los usuarios gen=E9ricos, pero no al usuario "proxy" que es quien lanza el
+> squid, como es un tema del SO y no del squid es por lo que no he
+> nombrado al squid en el asunto.
+>=20
+
+De donde sacaste semejante barvaridad??
+
+man limits.conf
+> --=20
+> Es hora de negarse a caminar de puntillas cerca de los que piden
+> respeto, consideraci=F3n, tratamiento especial, basados en que tienen fe
+> religiosa, como si fuera noble creer afirmaciones sin base y
+> superticiones antiguas. -A. C. Grayling, fil=F3sofo Por favor, NO utilice
+> formatos de archivo propietarios para el intercambio de documentos, como
+> DOC y XLS, sino HTML, RTF, TXT,CSV o cualquier otro que obligue a
+> utilizar un programa de un fabricante concreto para tratar la
+> informaci=F3n contenida en =E9l. SALUD.
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/1353054310.17524.12.camel@trujo.hvn.sas.=
+junta-andalucia.es
+>=20
+
+
+--=20
+Angel Claudio Alvarez <angel@angel-alvarez.com.ar>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121117115606.3dfa88cea8ad97a677cf950f@angel-alvarez.com.ar
+

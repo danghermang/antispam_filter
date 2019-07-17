@@ -1,0 +1,70 @@
+Subject:Re: Como hacer backups "sencillos" programados ?
+El 10/11/12 05:57, silodepam escribió:
+> Suelo revisar la casilla una vez cada dos dias, disculpenme.
+>
+> Muchas gracias a los muchachos que se han "copado" y dan orientacion.
+> Veo como es slbackup ya sea desde sid o si es que esta en backports.
+> Tambien hoy estaba pensando en cron (aunque jamas yo lo use, supongo que
+> si el sistema) y escribir algun comandito. Vere que es rsync (sincroniza
+> supongo) y su uso.
+>
+> Repregunto una cosa mas que pregunto "Ramses" que ayer me vino tambien a
+> mi cabeza:
+> ya sea con rsync, slbackup o los comandos 'copy', 'tar', etc., ¿se
+> reescribe por completo un archivo o solo su parte modificada?
+> ¿Depende esto del formato del archivo?
+> (los que utilizo son los de imagenes, .odf, .pdf, .html, .css, .cbr; y
+> simples o sin formato. Nada en audio o video).
+>
+> Nos estamos copiando, alunado.
+>
+>
+
+No sé de los demás, pero Simple BackUp (sbackup), que sólo está en 
+"sid", se lo puede configurar desde GUI como quieras:
+1 - Generar una copia de todo cada día, y borra las que sean de más de 
+xx días de antigüedad.
+2 - Generar copias incrementales, es decir, mantiene una copia completa 
+de cada mes (en realidad, cada 4 semanas), una copia parcial (sólo los 
+cambios que difieren de la del último mes) de las últimas 4 semanas, y 
+una copia parcial (sólo los cambios que difieren del último mes / ultima 
+semana) de los últimos siete días. Automáticamente, cuando hace la 
+semanal, borra las diarias, y cuando hace la mensual, borra las semanales.
+
+A su vez, también tiene su herramienta GUI para restaurar archivos, que 
+te permite seleccionar el momento al cual quieres restaurar tus copias.
+
+El modo recomendado es el 2, y es el que uso. Como ejemplo, te paso el 
+listado de copas de mi disco:
+
+2012-06-12_16.30.55.645824.japw250.ful
+2012-07-23_08.49.21.727709.japw250.ful
+2012-09-08_07.52.16.000591.japw250.ful
+2012-10-09_09.46.44.227951.japw250.ful
+2012-10-23_10.37.05.756934.japw250.ful
+2012-10-24_08.26.37.520745.japw250.inc
+2012-10-25_08.34.35.995833.japw250.inc
+2012-10-26_08.59.11.752484.japw250.inc
+2012-10-28_17.19.28.295346.japw250.inc
+2012-10-29_07.47.32.958613.japw250.inc
+2012-10-30_08.09.08.153643.japw250.inc
+2012-10-31_08.24.15.189848.japw250.inc
+2012-11-01_08.36.35.041146.japw250.inc
+2012-11-05_11.15.21.922573.japw250.inc
+2012-11-06_08.29.52.350224.japw250.inc
+2012-11-07_08.19.17.189192.japw250.inc
+2012-11-08_07.01.52.672609.japw250.inc
+2012-11-09_08.31.31.774543.japw250.inc
+2012-11-10_07.47.28.608674.japw250.inc
+
+Y ahora que lo estoy viendo, he estado un tanto vago; tengo que bajar a 
+un DVD las más viejas y borrarlas.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509F039C.8020006@gmail.com
+

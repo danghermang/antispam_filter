@@ -1,0 +1,39 @@
+Subject:Re: Solo tengo sonido en aplicaciones de KDE
+Hola
+
+El 22/10/12 17:40, Haitike escribió:
+> Saludos.
+>
+> Instalé hace poco Debian testing fresco con entornos de escritorio
+> alternativo KDE en lugar de gnome.
+>
+> Pero me pasa algo rarísimo, tengo sonido en aplicaciones que vienen
+> con KDE como VLC, el reproductor de video por defecto o en el Audio
+> Settings Test.
+>
+> Pero no tengo ningún sonido en otras aplicaciones como Mplayer (sin
+> gui desde consola), Iceweasel, aplay.
+>
+> Otra cosa rara es que aunque el Mixer de Kde funciona bien y puedo
+> cambiar los valores de sonido. El comando AlsaMixer en consola me da
+> el siguiente error "cannot open mixer: No existe el fichero o el
+> directorio".
+
+Seguro que este enlace te ayudará.
+
+
+http://lmgtfy.com/?q=cannot+open+mixer%3A+No+existe+el+fichero+o+el+directorio
+
+
+Éxito
+
+>
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5089A78A.7010000@gmail.com
+

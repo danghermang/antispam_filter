@@ -1,0 +1,27 @@
+Subject:Re: Configuration =?ISO-8859-15?Q?r=E9seau_dans_un_VLAN?=
+David BERCOT a écrit :
+> Le Sat, 08 Dec 2012 18:18:18 +0100,
+>>>
+>>> Or, une fois cette configuration mise en place (et apparemment
+>>> bonne), impossible de joindre les ESXi...
+
+Au fait, comment se caractérise *d'un point de vue réseau IP/ethernet*
+"joindre les ESXi" et "impossible de..." précisément ?
+
+>> Le port du switch connecté à la station Debian est-il configuré pour le
+>> trafic taggé de ce VLAN ?
+> 
+> En effet, il l'est... D'ailleurs, les ESXi se "voient" entre eux...
+
+Les ESXi sont connectés sur d'autres ports du switch, dont je ne vois
+pas en quoi c'est pertinent. Ou alors je n'ai pas tout compris.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C397A2.2030904@plouf.fr.eu.org
+

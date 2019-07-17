@@ -1,0 +1,47 @@
+Subject:Re: [Jukebox-list] 6973 to el84 info needed.
+Some answers:
+
+"When I do my bias voltage checks, do I have all the tubes in or just the=
+=0A 5u4g?"
+
+-You can measure the bias voltage on pins 3&6 (these are grid 1) w/out the =
+5U4 but it is better to have a full load on the power supply tran to give a=
+ more accurate reading.
+
+Pin 1 is the G2. In this circuit it will be at or near that of the Plate wh=
+ich is Pin 9. On Pin 9 you should find very close to 400VDC.
+
+I have used diodes instead of a 5U4 on some amps where I had to use a subst=
+itute power tran.=A0 In your case where the tran is original and designed f=
+or the greater voltage drop across the 5U4 you'll need to add approx 100 oh=
+m -10watt resister in series with Pin 8 of the 5U4 socket to the first filt=
+er to bring down the voltage approximately to original.=A0=A0 This rect tub=
+e is -very- reliable, I doubt it will ever give you trouble. I have about 6=
+ of them in commercial service today and even when a filter shorted and ble=
+w the fuse, the 5U4 was good to go afterward.
+
+As for your ealier questions about the 470k/ohm resistors in the 6973 grid =
+circuit. The negative grid bias is applied through these resistors, so they=
+ are important. However the circuit impedance is so high at this point that=
+ the drift upward to 550+ would not be consequential.=A0 The only time this=
+ would matter would be if the grid 1 went positive with respect to the cath=
+ode. This would require either extreme overdrive of audio, or a short in th=
+e tube (not uncommon in these tubes) or severe leakage of the coupling capa=
+citor.
+
+Since you are already in there you might as well change them, It's not some=
+thing I bother with on-location as long as the bias is within norm.
+
+One mod I will suggest is to add a 100 ohm 1/2 watt resistor in series with=
+ the Grid 2 (Pin 1 or 8) to act as a fuse if the tube becomes shorted. This=
+ can save your output tran.
+
+This is a good idea for all power pentode circuits.
+
+Rob/NYC
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

@@ -1,0 +1,45 @@
+Subject:=?ISO-8859-1?Q?Re=3A_comando_informaci=F3n_de_hardware?=
+El d=C3=ADa 16 de octubre de 2012 04:33, Liuber's Hdez=E2=88=B4
+<hliuber@ucm.vcl.sld.cu> escribi=C3=B3:
+> Buenos d=C3=ADas Lista,
+> Saludos
+>
+> Qu=C3=A9 comando me recomiendan para obtener informaci=C3=B3n del hardwar=
+e,
+>
+> Gracias de antemano,
+> liuber's hdez.
+>
+>
+> --
+>
+> Este mensaje le ha llegado mediante el servicio de correo electronico que=
+ ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema =
+Nacional de Salud. La persona que envia este correo asume el compromiso de =
+usar el servicio a tales fines y cumplir con las regulaciones establecidas
+>
+> Infomed: http://www.sld.cu/
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/1350372816.3051.16.camel@infobiblio.fts.=
+local
+>
+
+Ese comando que dio la respuesta anterior es m=C3=A1s que recomendable. Lo
+apliqu=C3=A9 y me arroj=C3=B3 7 hojas con info del sistema (en Libre Office=
+),
+seguro es lo que necesitas.  Con lshw -html, si no entend=C3=AD mal, lo
+exporta a ese formato.
+
+Un saludo, Claudio
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAK407D5B53hoa8Zt0Kyx17zs53tr1dT7mSERcS7R-Qz9X37jOQ@mail.gmail.com
+

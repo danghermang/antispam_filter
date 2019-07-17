@@ -1,0 +1,44 @@
+Subject:Re: systemd et debian
+Le 09/10/2012 16:38, JB1 a écrit :
+> Le Tue, 09 Oct 2012 15:49:48 +0200,
+> maderios <maderios@gmail.com> a écrit :
+>
+>> On 10/09/2012 11:45 AM, David Soulayrol wrote:
+>>> Bonjour,
+>>>
+>>> Un récent fil à propos d'un problème avec systemd m'a poussé à me
+>>> pencher dessus. Après avoir lu son fonctionnement global dans un
+>>> intéressant article de GLMF ainsi que les pages :
+>>>
+>>> -<http://wiki.debian.org/systemd>  ;
+>>> -<http://bugs.debian.org/cgi-bin/pkgreport.cgi?package=systemd>,
+>>>
+>>> je souhaiterais savoir à quel point systemd est aujourd'hui intégré
+>>> dans Debian, et si ça vaut le coup de l'essayer.
+>>>
+>>> Est-ce que vous rencontrez des problèmes au jour le jour ? Y a-t-il
+>>> des services importants non supportés ? Est-ce que cela apporte un
+>>> confort particulier (en toute subjectivité) ?
+>> Salut
+>> Il y a un ou deux mois, j'ai tenté d'utiliser systemd avec Wheezy.
+>> Les services n'étaient pas lancés au boot, j'ai essayé de comprendre
+>> puis j'ai abandonné la partie... Cela marche pour d'autres personnes
+>> avec Wheezy, c'est peut être une affaire de matos, CM, etc...
+>> Cordialement
+> bonjour,
+> les logs spécifiques à systemd ne sont pas bavard?
+> A+
+> jb1
+Le problème, c'est si on arrive pas à booter assez loin pour prendre la 
+main et regarder les logs...
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50743767.6030109@nuagelibre.org
+

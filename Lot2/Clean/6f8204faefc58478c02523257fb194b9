@@ -1,0 +1,60 @@
+Subject:Re: libgl1-nvidia-glx:i386
+El Wed, 05 Dec 2012 18:00:04 +0100, Alberto Luaces escribió:
+
+> Camaleón writes:
+> 
+>> Pues eso hay que informarlo, digo, si se genera algún conflicto al
+>> instalarlo.
+>>
+>>
+> Ciertamente no he prestado atención; sabía que llegaría este día.
+> Simplemente le di a actualizar, y cuando la resolución automática
+> determinó que había que eliminarlos, lo hice sin dudar.  Activé
+> multiarch con un par de líneas, y volví a instalar las versiones de 32
+> bit de todos esos falsos paquetes de 64 bit.
+
+¿A "actualizar" o a "instalar"? En tu caso, ¿qué es lo que estabas 
+haciendo? :-?
+
+>>>> Realmente no hay paquete de 64 bits puro, pero si el paquete pide una
+>>>> dependencia que no es posible satisfacer, habría que informar al
+>>>> empaquetador (que es Google en este caso) para que lo corrija.
+>>> 
+>>> Efectivamente.  Por eso lo que hay que hacer es eliminar el de 64 por
+>>> completo.
+>>
+>> Pelín radical ¿no? :-?
+>>
+>> Si Google ha hecho dos paquetes diferenciados para las dos
+>> arquitecturas será por algo. Yo informaría del error donde corrseponda
+>> y viendo que el paquete ia32-libs sí existe en Debian pues ya sabemos a
+>> quién le ha caído el sambenito.
+> 
+> No es así.  Precisamente, Google sólo suministra el binario de 32bit. El
+> paquete de 64 es simplemente un amaño para que los que tienen un sistema
+> de 64 se lo puedan instalar más o menos fácilmente.  
+
+Claro, eso es lo que decía antes, que no hay paquete de 64 bits, pero sí 
+hay dos paquetes distintos y las bibliotecas de compatibilidad de 32 bits 
+puede ser neecsarias para poder ejecutar alguna función de Google Earth 
+en sistemas de 64 bits. No sé... 
+
+> Ahora ya no hay motivo para perpetuarlo: ni por parte de Google, que
+> así tiene menos paquetes que mantener, ni por parte de Debian, que
+> decidió atajar la caótica situación del paquete ia32-libs.
+
+Hay motivo, hay motivo: sistemas anteriores que no admitan multiarch 
+(squeeze, lenny...). Además de que el invento del multiarch no parece que 
+esté muy fino aún en Debian.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9nvt1$th8$13@ger.gmane.org
+

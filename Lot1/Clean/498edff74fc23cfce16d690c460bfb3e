@@ -1,0 +1,167 @@
+Subject:Re: [EVDL] Cross Country EV?
+Installing four DC-DC converters in my EV, I had to mounted way in the back 
+of the EV attach to the outside of the enclosed fiberglass battery box.
+
+It is always best to tap off the main battery pack ahead of the shunt that 
+is use for the E-meter.  The problem I have is the shunt was mounted in the 
+front of the EV which is about a 25 foot run of cable from the converters. 
+The total run of cable would be 25 foot from the shunt, 25 foot run back to 
+the converters for the high voltage side and then another 25 foot back to 
+the front for the 12 volt side.
+
+Instead of doing a 75 foot circuit run, I just tap off the battery pack 
+which was only 4 foot from the main battery with a fuse and contactors to 
+the converter thinking the DC-DC converter load will not show up on the 
+E-meter.
+
+I also use a 9 to 15 volt and a 0-100 amp Stewart Warner meters on this 
+circuit.  When I first turn on the Zilla 12 volt control power and three 
+contactors, the main battery pack load was indicated on the E-meter.
+
+I then turn on the DC-DC converters which show the 12 volt and ampere 
+indicating on the 12 volt and amp meters. This also show a rise of amperes 
+on the E-Meter of the main battery pack which I thought would not happen.
+
+For some reason the E-Meter is reading the main battery input load to the 
+converters, even though the main battery tap off is between the E-meter 
+shunt and main battery.
+
+If you think about it, the main battery pack positive, E-meter shunt, motor 
+controller, motor, and the main battery pack negative is in one series loop 
+or what we call a circle or circuit and the DC-DC converter taps off 
+parallel any place in that circuit in that circuit draws power from the main 
+battery will show that DC-DC converter load on the E-meter or NOT?
+
+Roland
+
+
+----- Original Message ----- 
+From: "Jay Summet" <jay@summet.com>
+To: "Electric Vehicle Discussion List" <ev@lists.sjsu.edu>
+Sent: Tuesday, October 30, 2012 8:03 AM
+Subject: Re: [EVDL] Cross Country EV?
+
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> I recommend "self powered meters" as they are very easy to hook up,
+> and run off of the measured voltage (2 wires only). Either a simple
+> analog meter, or fancy digital ones which are a bit more pricey ($35-50):
+>
+>
+> You can see my Datel digital LED ones here:
+> http://www.summet.com/blog/2011/06/08/new-voltage-gauges/
+>
+> Jay
+>
+> On 10/30/2012 09:16 AM, Pestka, Dennis J wrote:
+> > Mike;
+> >
+> > I installed a volt meter for my 12V system. It's powered from the
+> > key, and I see my DC/DC ramp it up to ~ 14V when starting off. Volt
+> > meters are fairly inexpensive, and may be some cheap insurance for
+> > you.
+> >
+> >
+> > Thanks; Dennis Elsberry, MO http://www.evalbum.com/1366
+> > http://www.evalbum.com/3715
+> >
+> >
+> >
+> >
+> > -----Original Message----- From: Mike Nickerson
+> > [mailto:mike@nickersonranch.com] Sent: Monday, October 29, 2012
+> > 12:26 AM To: 'Electric Vehicle Discussion List' Subject: Re: [EVDL]
+> > Cross Country EV?
+> >
+> > I agree.  In two years of driving my conversion almost every day,
+> > it has left me walking exactly once.  The original conversion had a
+> > separate charger for the 12V battery and it died silently so the
+> > 12V battery eventually discharged.  It is really frustrating to
+> > have 14kWh on board and not be able to go because of a dead 12V
+> > battery!  I called my wife to bring the battery from the tractor,
+> > put it in the passenger seat and ran some temporary wiring to get
+> > home.
+> >
+> > Very soon after that, I had a real DC-DC converter.  Problem
+> > solved.  I also carry spare wiring in the trunk now to tap 4 3.2V
+> > lithium cells for emergency 12V power, just in case.
+> >
+> > My son's Mazda pickup left him walking for exactly the same reason;
+> > 3 times. Dead alternator and bad rebuilt replacements.  Once we
+> > finally got a good (not rebuilt alternator), his truck has been
+> > reliable too.
+> >
+> > Quality of workmanship and quality of parts is the key.  The other
+> > key is knowing enough about your vehicle to deal with emergency
+> > on-the-road repairs.  This applies no matter what the type of
+> > vehicle.  Of course, the alternative is joining something like AAA
+> > and being within range of a cell-phone tower.
+> >
+> > Mike
+> >
+> > Lee Hart said:
+> >>
+> >> Whether a car is a conversion or not has little bearing on its
+> > reliability. This is
+> >> really a quality and competency issue. There are some mechanics
+> >> whose work is liable to leave you stranded or get you killed! And
+> >> there are
+> > others
+> >> that do flawless work, every bit as good as the factory.
+> >>
+> >> -- Results! Why man, I have gotten a lot of results. I know
+> >> several thousand things that won't work. -- Thomas A. Edison -- 
+> >> Lee A. Hart http://www.sunrise-ev.com/LeesEVs
+> >> leeahart@earthlink.net
+> >>
+> >> _______________________________________________ | Moratorium on
+> >> drag racing discussion is in effect. | Please take those
+> >> discussions elsewhere.  Thanks. | | REPLYING: address your
+> >> message to ev@lists.sjsu.edu only. | Multiple-address or CCed
+> >> messages may be rejected. | UNSUBSCRIBE:
+> >> http://www.evdl.org/help/index.html#usub | OTHER HELP:
+> >> http://evdl.org/help/ | CONFIGURE:
+> >> http://lists.sjsu.edu/mailman/listinfo/ev
+> >
+> >
+> >
+> > _______________________________________________ | Moratorium on
+> > drag racing discussion is in effect. | Please take those
+> > discussions elsewhere.  Thanks. | | REPLYING: address your message
+> > to ev@lists.sjsu.edu only. | Multiple-address or CCed messages may
+> > be rejected. | UNSUBSCRIBE:
+> > http://www.evdl.org/help/index.html#usub | OTHER HELP:
+> > http://evdl.org/help/ | CONFIGURE:
+> > http://lists.sjsu.edu/mailman/listinfo/ev
+> >
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.10 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://www.enigmail.net/
+>
+> iEYEARECAAYFAlCP3kQACgkQSWJjSgPNbM8uvgCaAj6U80kyfLLW7EEK12SrhcGh
+> jvwAn1Kc11+1pYUP9RLVRf9yaVVJSxkX
+> =qiot
+> -----END PGP SIGNATURE-----
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+> 
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

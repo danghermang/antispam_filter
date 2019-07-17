@@ -1,0 +1,46 @@
+Subject:Re: kvm + disk =?ISO-8859-1?Q?encrypt=E9?=
+Bonjour,
+
+Vu l'enthousiasme, je me r=C3=A9ponds =C3=A0 moi m=C3=AAme :-)
+Les supports sd, usb, ect.. sont maintenant mont=C3=A9s
+sous /media/<user>/<nom>. Ces r=C3=A9pertoires sont d=C3=A9truits =C3=A0 ch=
+aque
+d=C3=A9montage/reboot, ect..., la modification des droits est donc perdue =
+=C3=A0
+chaque fois.
+
+a++
+Guy
+
+Le jeudi 15 novembre 2012 =C3=A0 16:34 +0100, Guy Deleeuw a =C3=A9crit :
+> Bonjour,
+>=20
+> J'ai format=C3=A9 un disque avec encryption.
+> J'y ai ensuite copi=C3=A9 une image kvm que j'essaie d'ajouter dans
+> virt-manager. Mais je re=C3=A7ois cette erreur :
+> "L'=C3=A9mulateur peut ne pas avoir les permissions de recherche pour le
+> chemin <lePathDeMonImage>".
+>=20
+> J'ai fait aussi :
+> adduser guy libvirtd
+> adduser guy kvm
+>=20
+> J'ai =C3=A9galement jou=C3=A9 avec les droits du r=C3=A9pertoire de l'ima=
+ge et de
+> l'image elle m=C3=AAme, mais rien n'y fait.
+>=20
+> une id=C3=A9e ?
+>=20
+> a++
+> Guy
+>=20
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1353078643.2710.5.camel@pc-0100
+

@@ -1,0 +1,62 @@
+Subject:Outil de synchronisation de dossiers...
+Salut,
+
+
+Voila encore une journ=C3=A9e "perdue"...
+J'avais plein d=C3=A9j=C3=A0 du travail en retard...
+Mais il a fallut qu'un besoin nouveau se fasse ressentir...
+
+Contexte :
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Milieux pro, 13 postes de travail, dualboot WinXP et Ubuntu 12.04 64
+bits (d=C3=A9riv=C3=A9 de Debian...)
+Serveur de fichiers Samba sur Debian Squeeze
+J'essaye de d=C3=A9fendre l'utilisation (simple ?) d'un syst=C3=A8me GNU(/L=
+inux)...
+=C2=B1 30 travailleurs...
+
+Besoin :
+=3D=3D=3D=3D=3D=3D=3D
+R=C3=A9guli=C3=A8rement, synchroniser (bidirectionnelle) un dossier se trou=
+vant
+sur une cl=C3=A9 usb (/media/MaCle/Mondossier) et un dossier se trouvant
+sur le serveur de fichier (smb://partga/Mondossier)
+
+Au d=C3=A9part, j'avais le souvenir d'un projet datant d=C3=A9j=C3=A0 et qu=
+i =C3=A9tait
+prometteur, Gnome Conduit ... mais il semble =C3=AAtre "mort" et foireux en
+l'=C3=A9tat :(
+
+J'ai =C3=A9galement essay=C3=A9 Unison mais il ne sais pas directement util=
+iser
+smb et je n'aime pas la solution qui consiste =C3=A0 dire =C3=A0 mes utilis=
+ateur
+=C2=AB Il suffit de faire un montage smb et d'utiliser autofs... =C2=BB) L'=
+acc=C3=A8s
+aux deux dossiers se fait parfaitement dans Nautilus et m=C3=AAme =C3=A0 pa=
+rtir
+d'application comme LibreOffice... Comment justifier le fait de devoir
+faire d'autre trucs du genre montage, etc. ?
+
+J'ai trouv=C3=A9 Synchrorep qui =C3=A0 l'aire tr=C3=A8s bien ...
+=E2=86=92 http://iceberg-linux.net//index.php?menu=3Dsynchrorep
+Mais ne fonctionne pas bien, plantage =C3=A0 l'ex=C3=A9cution de la synchro=
+' ... :(
+
+Ben voila...
+
+Si vous avez des id=C3=A9es ou des pistes ... merci d'avance :)
+
+
+=C3=80+,
+Serge S.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAFeEpGCPEqAK7ZDhgjhhL=Cx=ByaV+Di4ZOwQkwjCwVpex5DzA@mail.gmail.com
+

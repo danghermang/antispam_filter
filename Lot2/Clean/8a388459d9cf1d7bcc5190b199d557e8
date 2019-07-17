@@ -1,0 +1,56 @@
+Subject:systemd : =?UTF-8?B?cHJvYmzDqG1lIGTDqW1hcnJhZ2Ugc2VydmljZXMgYXUg?=
+	=?UTF-8?B?Ym9vdA==?=
+Bonjour
+J'ai installé systemd il y a quelques jours. Je suis obligé de lancer le 
+réseau et cups à la main après chaque  boot
+
+Dans syslog
+/sbin/ifup: failed to open statefile /run/network/ifstate: No such file 
+or directory
+
+systemd-gui ne répertorie ni networking ni cups si je ne les ai pas 
+lancé préalablement à la main.
+
+Sorties dans systemd-gui
+networking-services
+requires: systemd-journald.socket(running)
+wanted by: snapshot-1.snapshot(active)
+after: local-fs.target(active), mountkernfs.service(dead), 
+systemd-journald.socket(running)
+before: snapshot-1.snapshot(active)
+
+mountkernfs.services
+dependancies before: networking.service(exited)
+GDBus.Error:org.freedesktop.systemd1.Masked: Unit mountkernfs.service is 
+masked.
+
+Cela vient de initscripts
+dpkg -S mountkernfs.sh
+initscripts: /etc/init.d/mountkernfs.sh
+
+Ensuite
+systemctl unmask mountkernfs.service
+systemctl start  mountkernfs.service
+Failed to issue method call: Unit mountkernfs.service is masked.
+
+Expérience pas concluante.... Qu'en pensez vous, utilisez vous systemd 
+sur Debian ?
+Par ailleurs certains fichiers semblent absents chez debian dans 
+/etc/systemd/system/
+A comparer:
+https://wiki.archlinux.org/index.php/Systemd/Services#Network
+
+Cordialement
+-- 
+Maderios
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504C72D3.7020802@gmail.com
+

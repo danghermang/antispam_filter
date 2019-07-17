@@ -1,0 +1,35 @@
+Subject:Re: Debian et =?UTF-8?B?ZMOpYml0?= USB3
+On Wed, 31 Oct 2012 00:27:44 +0100
+Ga=C3=ABtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+
+> J'aimerai avoir des retours sur les d=C3=A9bits de disque dur en USB3.
+> Parce que je suis en train de faire une sauvegarde avec rsync sur un tel
+> disque (WD My Book Essential 1To) et je ne constate pas de diff=C3=A9renc=
+e avec un
+> disque USB2 ...
+> Pourtant dans l'utilitaire de disque il affiche bien disque connect=C3=A9=
+ en USB =C3=A0
+> 705 Mo/s.
+
+=C3=87a, c'est la th=C3=A9orie, C=C3=A0D la vitesse max atteignable; ce qui=
+ ne veut
+nullement dire que le HD soit capable de soutenir une telle vitesse
+que ce soit en lecture ou =C3=A9criture.
+
+Disons que c'est comme pisser dans un violon, c'est pas parce que tu
+l'=C3=A9changes avec une contrebasse que tu pisses plus vite :p
+
+--=20
+Sylviane: Coucou
+Ctuchik: Tu veux voir ma bite?
+Ctuchik: heu... D=C3=A9sol=C3=A9 maman mauvais r=C3=A9flexe.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031003704.24542ddd@anubis.defcon1
+

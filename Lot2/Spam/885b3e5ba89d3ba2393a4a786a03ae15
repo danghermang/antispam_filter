@@ -1,0 +1,371 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<candlebark@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <ng-b-126474-46649920-8640235-13214815-0e840e75@australia.care2.com>
+Received: (qmail 18340 invoked by uid 89); 11 Dec 2012 10:27:03 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 11 Dec 2012 10:27:03 -0000
+Delivery-date: Tue, 11 Dec 2012 02:25:24 -0800
+Received: from natural-mta.care2.com ([63.146.170.169]) helo=natural-mta.care2.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1TiN1V-0003mi-H3 on interface=184.105.182.43
+	for candlebark@activ8.net.au; Tue, 11 Dec 2012 02:25:22 -0800
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=private; d=care2.com;
+ h=To:Subject:Content-Transfer-Encoding:MIME-Version:Content-Type:Reply-To:List-Unsubscribe:From:Message-Id:Date; i=care2-causes@newsletters.care2.com;
+ bh=pc4hoohOBNJSV2tTJ5w3T45rdso=;
+ b=MTUOce1woxoFNfmC5zTwQYfYoyFMkuxtk8a6lfHLMBPkGiNY/IyrKbiWeCedqhQ5ExiWD3MxSyL1
+   QXsMDC4eWw0Qx80T0Yp4AXhnrPQJHqJYoNSh/DDPbINuqk7+R7M9gqrd2mIa+pXy9rANJPpnKXWH
+   6Q0b8kOjCx3xWG2qejQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=private; d=care2.com;
+ b=m2WwUcPGAy04p6A15ur4E6UFo+161ZD9kH/ARKfxr2UJ2sx7mBkV7ncy8ymC8lWJB91Q32fZgReU
+   CdKHGZQbWA+kC+OxG1XWsHac8J3jIrjrd1NTP5Sb1gA7lpLZP7nKkodmC7QtlPBX8d8WT2+FLAHG
+   +nDyneG2QLrwwWHJ//s=;
+Received: from blade04-12.care2.com (192.168.101.80) by natural-mta.care2.com id hos50a19m7kn for <candlebark@activ8.net.au>; Tue, 11 Dec 2012 02:24:49 -0800 (envelope-from <ng-b-126474-46649920-8640235-13214815-0e840e75@australia.care2.com>)
+Received: by blade04-12.care2.com (Postfix, from userid 490)
+	id 49F0A3F40A7; Tue, 11 Dec 2012 02:18:13 -0800 (PST)
+To: Alan Cassell <candlebark@activ8.net.au>
+Subject: Zombie Caterpillar Fungus Could Heal Humans
+Content-Transfer-Encoding: 7bit
+X-Care2-NGMS-Type: MIME
+X-Care2-NGMS: mlg=8640235 msg=13214815 tp=MIME v=h:1-t:1-a:1
+X-Care2-NGMS-SubAge: inf
+X-campaignid: care213214815
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary=care2-mulitpart-boundary-1234567890.1122334455
+X-Care2-media: mime m=0 p=780276875 a=46649920 t=0
+Reply-To: ng-r-126474-46649920-8640235-13214815-c2f91e69@australia.care2.com
+List-Unsubscribe: <mailto:ng-u-126474-46649920-8640235-13214815-da6c753a@australia.care2.com>
+From: "Care2 Causes" <care2-causes@newsletters.care2.com>
+X-Care2-Source: EnigmaNewsletter
+Message-Id: <20121211102457.49F0A3F40A7@blade04-12.care2.com>
+Date: Tue, 11 Dec 2012 02:24:49 -0800
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Freemail-From: care2.com
+X-Freemail-Reply-to: australia.care2.com
+X-Mail-from: ng-b-126474-46649920-8640235-13214815-0e840e75@australia.care2.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-soft - Domain White Listed Host = [natural-mta.care2.com]
+X-Sender-Host-Address: 63.146.170.169
+X-Sender-Host-Name: natural-mta.care2.com
+
+
+--care2-mulitpart-boundary-1234567890.1122334455
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+This newsletter is available in HTML only.  Your
+email client is configured to view plain text instead
+of HTML.  Please change your settings or visit our site:
+
+  http://www.care2.com/
+
+
+To unsubscribe: http://www.care2.com/newsletters/unsub/126474/0/46649920/5766eca4
+
+
+-------------------------------------------
+To stop receiving this newsletter, visit: 
+http://www.care2.com/newsletters/unsub/126474/0/46649920/5766eca4 
+
+or send a blank email message to:
+ng-u-126474-46649920-8640235-13214815-da6c753a@australia.care2.com
+Care2.com, Inc.
+275 Shoreline Drive, Suite 300
+Redwood City, CA 94065 
+http://www.care2.com
+--care2-mulitpart-boundary-1234567890.1122334455
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+
+    
+    <meta name="modified" content="2012-12-11 02:02:05"></meta>
+
+    <title>Causes</title>
+
+</head>
+
+<body>
+
+    <style>
+        td {
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            color: #494949;
+            line-height: 1.4;
+        }
+    </style>
+
+    <table width="600" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td bgcolor="fefcf6">
+
+                                <div><img src="http://dingo.care2.com/newsletters/wp/causes/header.jpg" alt="Care2 Causes" width="600" height="94" /></div>
+
+                                <div style="padding:17px 23px;">
+                    <!-- AMS: slot [causes_newsletter_left_1] --><div id='ams_slot_1' class='ams_slot ams_slot_causes_newsletter_left_1' style=""><div id="ams_block_1" class="ams_block" style=""><br><b>Check out the causes you care about most -- with stories from Care2's network of bloggers and non-profit partners.</b><br /></div></div>
+<!-- AMS: end slot -->                </div>
+                
+                                                <div style="padding:8px 14px 23px;border-top:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="310" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBy0/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2994/2993050.large.jpg" width="300" height="180" /></a>
+                            </td>
+                            <td valign="top">
+                                <div style="margin-bottom:10px;"><a href="http://www.care2.com/go/z/e/AhBy0/znIP/bY8Ea" style="font-size:20px;font-weight:bold;text-decoration:none;color:inherit;">Motorists&#8217; Happy Honks as Man Saves Ducklings from Road</a></div>
+                                <div style="margin-bottom:10px;font-size:13px;">For every driver impatiently hollering out the window while an animal is given assistance in crossing the road, there are a dozen others lending silent...</div>
+                                <span style="background:#044e5f;padding:2px 2px 3px 3px;"><a href="http://www.care2.com/go/z/e/AhBy0/znIP/bY8Ea" style="color:#fff;border:1px solid #a9cdd4;text-decoration:none;padding:0 5px;">read more</a></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                                <div style="background:#e6e4de;padding:5px 0;text-align:center;">
+                    <a href="http://yads.zedo.com/ads2/r?n=885;c=1004;s=1;x=3584;u=j;z=[timestamp]" target="_blank"><img border="0" width="575" height="71" src="http://yads.zedo.com/ads2/x?n=885;c=1004;s=1;x=3584;u=j;z=[timestamp]" alt="Click here"></a>
+                </div>
+
+                                <div style="padding:10px 20px;border-bottom:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="190" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBYa/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2993/2992609.large.jpg" width="175" height="105" /></a>
+                            </td>
+                            <td valign="top">
+                                <div><a href="http://www.care2.com/go/z/e/AhBYa/znIP/bY8Ea" style="text-transform:uppercase;text-decoration:none;color:inherit;">Zombie Caterpillar Fungus Could Heal Humans</a></div>
+                                <div style="font-size:13px;">
+                                    A fungus that attacks caterpillars' brains could (it is a bit mind-boggling) benefit humans.<br/>
+                                    <a href="http://www.care2.com/go/z/e/AhBYa/znIP/bY8Ea" style="color:#1b7b8f;text-decoration:none;">read more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                                <div style="padding:10px 20px;border-bottom:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="190" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBYA/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2994/2993391.large.jpg" width="175" height="105" /></a>
+                            </td>
+                            <td valign="top">
+                                <div><a href="http://www.care2.com/go/z/e/AhBYA/znIP/bY8Ea" style="text-transform:uppercase;text-decoration:none;color:inherit;">2 Monarch Butterflies Escape Hurricane Sandy Thanks to Thoughtful Family</a></div>
+                                <div style="font-size:13px;">
+                                    Have you ever been late?  Not extremely late, but five minutes here, ten there? <br/>
+                                    <a href="http://www.care2.com/go/z/e/AhBYA/znIP/bY8Ea" style="color:#1b7b8f;text-decoration:none;">read more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                                <div style="padding:10px 20px;border-bottom:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="190" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBYb/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2993/2992560.large.jpg" width="175" height="105" /></a>
+                            </td>
+                            <td valign="top">
+                                <div><a href="http://www.care2.com/go/z/e/AhBYb/znIP/bY8Ea" style="text-transform:uppercase;text-decoration:none;color:inherit;">Living in a Sacrifice Zone</a></div>
+                                <div style="font-size:13px;">
+                                    A growing contingent of Houston residents are concerned about the overburdening of minority and low-income communities with the ill effects of energy...<br/>
+                                    <a href="http://www.care2.com/go/z/e/AhBYb/znIP/bY8Ea" style="color:#1b7b8f;text-decoration:none;">read more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+                                <div style="border-top:1px solid #acacac;">
+                    <div style="background:#044e5f;border-top:2px solid #e6e4de;font-size:20px;height:34px;line-height:34px;color:#fff;padding-left:28px;">
+                        take action, now!
+                    </div>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:7px 13px 13px 28px;">
+                        <tr>
+                            <td valign="top">
+                                <div style="margin-bottom:5px;"><strong>Stop Shooting Innocent Wolves</strong></div>
+                                <div style="font-size:12px;line-height:1.8;">
+                                    <strong>signatures:</strong> 17679<br/>
+                                    <strong>created by:</strong> <br/>
+                                    <span style="background:#044e5f;padding:2px 2px 3px 3px;"><a href="http://www.thepetitionsite.com/takeaction/122/743/287/" style="color:#fff;border:1px solid #a9cdd4;text-decoration:none;padding:0 5px;font-size:11px;font-weight:bold;">sign now</a></span>
+                                </div>
+                            </td>
+                            <td width="170" align="right" valign="top">
+                                <a href="http://www.thepetitionsite.com/takeaction/122/743/287/"><img src="http://dingo.care2.com/pictures/petition_images/petition/287/122743-1354580628-thumb.jpg" width="133" height="106" style="border:1px solid #dfdfdf;" /></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+                                <div style="background:#e6e4de;padding:5px 0;text-align:center;">
+                    <a href="http://yads.zedo.com/ads2/r?n=885;c=1005;s=1;x=3584;u=j;z=[timestamp]" target="_blank"><img border="0" width="575" height="71" src="http://yads.zedo.com/ads2/x?n=885;c=1005;s=1;x=3584;u=j;z=[timestamp]" alt="Click here"></a>
+                </div>
+
+                                <div style="padding:10px 20px;border-bottom:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="190" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBYB/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2994/2993234.large.jpg" width="175" height="105" /></a>
+                            </td>
+                            <td valign="top">
+                                <div><a href="http://www.care2.com/go/z/e/AhBYB/znIP/bY8Ea" style="text-transform:uppercase;text-decoration:none;color:inherit;">Paris to Go Dark At Night to Save Energy</a></div>
+                                <div style="font-size:13px;">
+                                    In a bid to make France more energy efficient, lights outside public buildings, shops and offices in Paris are to be turned off between 1 a.m. and 7a.m....<br/>
+                                    <a href="http://www.care2.com/go/z/e/AhBYB/znIP/bY8Ea" style="color:#1b7b8f;text-decoration:none;">read more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                                <div style="padding:10px 20px;border-bottom:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="190" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBYc/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2994/2993251.large.jpg" width="175" height="105" /></a>
+                            </td>
+                            <td valign="top">
+                                <div><a href="http://www.care2.com/go/z/e/AhBYc/znIP/bY8Ea" style="text-transform:uppercase;text-decoration:none;color:inherit;">Finally, Freedom for India&#8217;s Dancing Bears</a></div>
+                                <div style="font-size:13px;">
+                                    They were stolen from their mothers, their teeth and claws were ripped out, and they were forced to dance. But it looks like the misery is over for the...<br/>
+                                    <a href="http://www.care2.com/go/z/e/AhBYc/znIP/bY8Ea" style="color:#1b7b8f;text-decoration:none;">read more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                                <div style="padding:10px 20px;border-bottom:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="190" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBYC/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2994/2993193.large.jpg" width="175" height="105" /></a>
+                            </td>
+                            <td valign="top">
+                                <div><a href="http://www.care2.com/go/z/e/AhBYC/znIP/bY8Ea" style="text-transform:uppercase;text-decoration:none;color:inherit;">California, Here We Come: Why We Need to Protect the Natural Beauty of the Golden State</a></div>
+                                <div style="font-size:13px;">
+                                    Nature plays a big role in my life, and it's so important to me to be able to share California's natural beauty with my family and protect it for everyone...<br/>
+                                    <a href="http://www.care2.com/go/z/e/AhBYC/znIP/bY8Ea" style="color:#1b7b8f;text-decoration:none;">read more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                                <div style="padding:10px 20px;border-bottom:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="190" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBYd/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2994/2993244.large.jpg" width="175" height="105" /></a>
+                            </td>
+                            <td valign="top">
+                                <div><a href="http://www.care2.com/go/z/e/AhBYd/znIP/bY8Ea" style="text-transform:uppercase;text-decoration:none;color:inherit;">I&#8217;m Boycotting Holiday Shopping, and You Can Too</a></div>
+                                <div style="font-size:13px;">
+                                    No matter which holiday you celebrate this season, the most important part is supposed to be taking time out of our busy schedules to enjoy some quality...<br/>
+                                    <a href="http://www.care2.com/go/z/e/AhBYd/znIP/bY8Ea" style="color:#1b7b8f;text-decoration:none;">read more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                                <div style="padding:10px 20px;border-bottom:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="190" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBYD/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2994/2993227.large.jpg" width="175" height="105" /></a>
+                            </td>
+                            <td valign="top">
+                                <div><a href="http://www.care2.com/go/z/e/AhBYD/znIP/bY8Ea" style="text-transform:uppercase;text-decoration:none;color:inherit;">Global Warming Causing Nasty Weather? Go Inside And Turn On The Air Conditioning</a></div>
+                                <div style="font-size:13px;">
+                                    A definitive scientific report warns that extreme weather events linked to climate change will continue around the world in coming decades. Another study...<br/>
+                                    <a href="http://www.care2.com/go/z/e/AhBYD/znIP/bY8Ea" style="color:#1b7b8f;text-decoration:none;">read more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                                <div style="padding:10px 20px;border-bottom:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="190" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBYe/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2993/2992595.large.jpg" width="175" height="105" /></a>
+                            </td>
+                            <td valign="top">
+                                <div><a href="http://www.care2.com/go/z/e/AhBYe/znIP/bY8Ea" style="text-transform:uppercase;text-decoration:none;color:inherit;">Is Your Drinking Water Giving You Allergies?</a></div>
+                                <div style="font-size:13px;">
+                                    Frightening faucet news: new research suggests that the tap water you drink may give you food allergies. According to ScienceDaily, a new study has found...<br/>
+                                    <a href="http://www.care2.com/go/z/e/AhBYe/znIP/bY8Ea" style="color:#1b7b8f;text-decoration:none;">read more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                                <div style="padding:10px 20px;border-bottom:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="190" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBYE/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2993/2992936.large.jpg" width="175" height="105" /></a>
+                            </td>
+                            <td valign="top">
+                                <div><a href="http://www.care2.com/go/z/e/AhBYE/znIP/bY8Ea" style="text-transform:uppercase;text-decoration:none;color:inherit;">Top 3 Catastrophes Linked to Natural Gas Fracking</a></div>
+                                <div style="font-size:13px;">
+                                    Thanks to hydraulic fracturing, often referred to as fracking, there&#8217;s a ton of natural gas available on the market right now. Those in the industry...<br/>
+                                    <a href="http://www.care2.com/go/z/e/AhBYE/znIP/bY8Ea" style="color:#1b7b8f;text-decoration:none;">read more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                                <div style="padding:10px 20px;border-bottom:2px solid #e6e4de;line-height:20px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="190" valign="top">
+                                <a href="http://www.care2.com/go/z/e/AhBYf/znIP/bY8Ea"><img src="http://dingo.care2.com/pictures/causes/2993/2992602.large.jpg" width="175" height="105" /></a>
+                            </td>
+                            <td valign="top">
+                                <div><a href="http://www.care2.com/go/z/e/AhBYf/znIP/bY8Ea" style="text-transform:uppercase;text-decoration:none;color:inherit;">You Say &#8220;Tree-Hugging Atheist Coven&#8221; Like It&#8217;s a Bad Thing?</a></div>
+                                <div style="font-size:13px;">
+                                    With news that the UK&#8217;s Scout Association is considering creating a version of their promise that does not mention God, one Anglican priest has...<br/>
+                                    <a href="http://www.care2.com/go/z/e/AhBYf/znIP/bY8Ea" style="color:#1b7b8f;text-decoration:none;">read more</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+                                <div style="background:#e6e4de;padding:5px 0;text-align:center;">
+                    <a href="http://www.care2.com/dailyaction/homepage.html" target="_blank"><img border="0" width="575" src="http://dingo.care2.com/newsletters/wp/causes/dailyaction.gif" alt="Care2's Daily Action. Fast, fun, easy, free! Take action!"></a>
+                </div>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+<div id="ngms_universal_footer">
+<br><br>
+<hr>
+<font face="Arial, Verdana, sans-serif" size="2" color=#666666>
+To stop receiving this newsletter, visit: <br>
+<a href="http://www.care2.com/newsletters/unsub/126474/0/46649920/5766eca4">http://www.care2.com/newsletters/unsub/126474/0/46649920/5766eca4</a> 
+<br><br>
+or send a blank email message to:<br>
+<a href="mailto:ng-u-126474-46649920-8640235-13214815-da6c753a@australia.care2.com">ng-u-126474-46649920-8640235-13214815-da6c753a@australia.care2.com</a> <br><br>
+Care2.com, Inc.<br>
+275 Shoreline Drive, Suite 300<br>
+Redwood City, CA 94065<br>
+<a href="http://www.care2.com">http://www.care2.com</a>
+</font>
+<br>
+<img src='http://www.care2.com/go/z/e/AhBYF/znIP/bY8Ea' width='1px' height='1px'>
+</div>
+--care2-mulitpart-boundary-1234567890.1122334455--
+
+

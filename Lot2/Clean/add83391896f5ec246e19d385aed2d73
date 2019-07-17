@@ -1,0 +1,28 @@
+Subject:Re: wheezy acer aspire wl
+El 24/11/12 03:22, Ricardo Delgado escribió:
+> ahora el problema es que cada cierto tiempo el equipo simplemente se cuelga
+> sin responder a otra cosa que el apagado mediante el boton,
+
+Yo tuve el mismo problema pero no con una Broadcom si no con una Intel.
+
+Al menos en mi caso, el origen del problema era una mala refrigeración 
+del equipo sumado a una potencia innecesariamente alta de la tarjeta wifi.
+
+Esto provocaba que al minimo intento de hacer un uso moderado de 
+Internet (por ejemplo, descargar unos pocos megas) el sistema se bloqueaba.
+
+Revisa el valor del parámetro Tx-power de la salida del comando iwconfig 
+y prueba a reducirlo:
+
+iwconfig nombre_de_la_interfaz txpower numero
+
+ah! Y si no vas a utilizar una rede wifi N te recomiendo que desactives 
+dicho modo en las opciones del módulo... aunque no sé si con tu Broadcom 
+es posible.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B03245.6000103@gmail.com
+

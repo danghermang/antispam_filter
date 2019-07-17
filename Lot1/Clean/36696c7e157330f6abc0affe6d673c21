@@ -1,0 +1,35 @@
+Subject:Miniatures de fichiers Libre/OpenOffice sous Nautilus de Squeeze
+Bonjour,
+
+Sous Nautilus, je n'arrive pas =C3=A0 obtenir de miniatures de mes fichiers
+OpenDocument (ODT, etc. textes, dessins ou autres) mais dans certains
+r=C3=A9pertoires seulement. Pourtant, cela marche dans la plupart des autre=
+s.
+Je suis sous Debian Squeeze agr=C3=A9ment=C3=A9 de squeeze-backports. Les a=
+utres
+fichiers (PDF, etc.) ne pr=C3=A9sentent pas ce probl=C3=A8me.
+
+J'ai tent=C3=A9 d'effacer tout sous $HOME/.thumbnails/ de fa=C3=A7on =C3=A0=
+ r=C3=A9g=C3=A9n=C3=A9rer
+l'ensemble des diapos/miniatures, mais rien y fait.
+
+C'est un probl=C3=A8me mineur mais qui m'agace =C3=A0 la longue.
+
+J'ai v=C3=A9rifi=C3=A9 le contenu des fichiers ODT en cause : la miniature =
+existe
+bien (thumbnail.png). Je ne comprends pas.
+
+Une id=C3=A9e ?
+
+--=20
+Alain Rpnpif
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121203135750.9B161100104@chro.home
+

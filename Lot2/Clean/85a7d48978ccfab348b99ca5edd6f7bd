@@ -1,0 +1,151 @@
+Subject:Re: [EVDL] Ceramic Heater Installation
+I'm telling you, I used the same schematic, and mine's worked fine for year=
+s...
+Might give Wistar at KTA a call, and he should be able to tell you which si=
+de is anode and which side is cathode...?
+
+Thinking about converting a gen. 5 ('92-95) Honda Civic?  See http://home.b=
+udget.net/~bbath/CivicWithACord.html for DVD and tons more info!
+		____ =
+
+             __/__|__\__	 =
+
+   =3DD-------/   -   -   \ 	=
+
+            'O'-----'O'-'
+Would you still drive your car if the tailpipe came out of the steering whe=
+el?
+OR Lic. "LCTRNS"
+
+
+--- On Thu, 10/18/12, Mike Beem <beemike03@gmail.com> wrote:
+
+> From: Mike Beem <beemike03@gmail.com>
+> Subject: Re: [EVDL] Ceramic Heater Installation
+> To: "David Chapman" <iasimovian@yahoo.com>, "Electric Vehicle Discussion =
+List" <ev@lists.sjsu.edu>
+> Date: Thursday, October 18, 2012, 1:29 PM
+> So the wiring connections, including
+> polarity look exactly like what Dan
+> has posted at http://www.envirokarma.org/ev/gallery/090301_final_assy00b.=
+htm
+> When I take the large diode out, it works fine. The KTA
+> diagram and
+> description reference an "alternate diode" which is reversed
+> (polarity) in
+> the same place in the circuit. It does not say how to
+> determine which diode
+> is supplied, but, dead short with the diode in as shown,
+> normal current
+> operation without it=3Dwhat does the diode add to the finished
+> product?
+> Thanks-
+> Michael B
+> =
+
+> On Mon, Oct 15, 2012 at 3:44 PM, David Chapman <iasimovian@yahoo.com>
+> wrote:
+> =
+
+> > Sounds like you wired the contactor/relay into a dead
+> short loop. Check
+> > your connections. Dach.
+> >
+> >
+> >
+> >
+> >
+> > ________________________________
+> >=A0 From: Mike Beem <beemike03@gmail.com>
+> > To: Electric Vehicle Discussion List <ev@lists.sjsu.edu>
+> > Sent: Monday, October 15, 2012 3:13 PM
+> > Subject: [EVDL] Ceramic Heater Installation
+> >
+> > I need some help on my heater installation=3D I wired and
+> installed a ceramic
+> > heater kit originally from KTA (bought on Tradin' Post)
+> the last 2 days in
+> > my EScortEV. It blows the fuse on the Negative high
+> voltage side of the
+> > contactor when I apply the 12v to close the circuit in
+> testing without the
+> > heater element connected. I installed the P&B
+> relay/contactor in a box with
+> > the diodes, capacitors, resistors and fuses using 50
+> amp Anderson
+> > connectors for high voltage in and out. I was trying to
+> test the voltage
+> > out with the circuit closed at the connector before I
+> connected the heater
+> > elements. The P&B relay/contactor in the kit has
+> different
+> > numbers/positions of terminals from the one in the
+> diagram which KTA
+> > included, so I don't know now if I have miswired the
+> circuit, or if it is
+> > just that the the fuses on the supply side blow when
+> there is no load on
+> > the high voltage circuit.
+> > Any help or insight greatly appreciated!!!
+> > MIchael B
+> > -------------- next part --------------
+> > An HTML attachment was scrubbed...
+> > URL:
+> > http://lists.sjsu.edu/mailman/private/ev/attachments/20121015/95685d02/=
+attachment.html
+> > _______________________________________________
+> > | Moratorium on drag racing discussion is in effect.
+> > | Please take those discussions elsewhere.=A0
+> Thanks.
+> > |
+> > | REPLYING: address your message to ev@lists.sjsu.edu
+> only.
+> > | Multiple-address or CCed messages may be rejected.
+> > | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> > | OTHER HELP: http://evdl.org/help/
+> > | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+> > -------------- next part --------------
+> > An HTML attachment was scrubbed...
+> > URL:
+> > http://lists.sjsu.edu/mailman/private/ev/attachments/20121015/4db0a6b2/=
+attachment.html
+> > _______________________________________________
+> > | Moratorium on drag racing discussion is in effect.
+> > | Please take those discussions elsewhere.=A0
+> Thanks.
+> > |
+> > | REPLYING: address your message to ev@lists.sjsu.edu
+> only.
+> > | Multiple-address or CCed messages may be rejected.
+> > | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> > | OTHER HELP: http://evdl.org/help/
+> > | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+> >
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121018/cdaea6=
+b5/attachment.html
+> =
+
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.=A0 Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu
+> only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+> =
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

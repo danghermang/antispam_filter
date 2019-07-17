@@ -1,0 +1,33 @@
+Subject:Re: Re: Re: Correo rechazado debian-user-spanish
+Este mensaje lo envio via web. Es una prueba.
+
+Ya averigüe la causa y es la siguiente: (lo de las dieresis es invento
+de Evolution)
+
+Tengo configurada una cuenta de correo en Evolution, luego voy a la
+pagina web debian-user-spanish y desde un mensaje, marco Replay to: la
+lista.
+
+Evolution se conecta por fuerza (esto parece ser nuevo) al servidor de
+correo del ISP que estoy usando y alli esta el error; porque mi cuenta
+apunta al servidor de correo Labavit.
+
+El problema es que varios ISPs hacen pasar por fuerza cualquier mensaje
+enviado por sus usuarios hacia otros servidores. Dicho de otra forma,
+supervisan todo correo enviado por los que pagan por su servicio.
+
+Moraleja:
+Cifrar los mensajes?
+
+Hasta luego y gracias.
+
+PD:
+Al responder via Web, no aparece el mensaje al que se responde.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1354674303.2492.15.camel@debian.MiRed
+

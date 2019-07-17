@@ -1,0 +1,38 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_Re=3A_apache2_et_permissions_sur_=2Fvar=2Flog_mont=E9_e?=
+	=?ISO-8859-1?Q?ntmpfs?=
+> =C7a reste tjrs une Tmauvaise id=E9e, d'abord parce que l'overhead engend=
+r=E9 par
+> l'=E9criture des logs reste faible (surtout sur du SSD), ensuite parce qu=
+e le
+> jour o=F9 tu auras un PB (quelque soit la source, M=E0J, mauvaise conf, e=
+tc) tu
+> n'auras aucune trace pour remonter la piste.
+
+> Et c'est pareil pour les fichiers *.lock, s'ils existent c'est bien pour:
+> 1- =E9viter de lancer 2 fois un pgm|daemon critique,
+> 2- =EAtre pr=E9venu qu'un gros PB est apparu avant reboot|restart.
+
+Merci pour vos conseils. D=E8s le d=E9part j'ai mesur=E9 les risques de
+cette manipulation que je n'ai pas invent=E9e mais qui est recommand=E9e
+pour les disques SSD.
+Ce n'est pas un probl=E8me de overhead mais c'est =E0 cause du nombre
+limit=E9 de cycles d'=E9criture que supporte un SSD.
+
+Le risque reste peu =E9lev=E9. Debian =E7a marche bien :-) Et en cas de
+p=E9pin les logs ne disparaissent qu'en cas de reboot, idem pour les
+locks. Si j'ai vraiment des
+probl=E8mes s=E9v=E8res je pourrai toujours d=E9sactiver ce montage tempora=
+irement.
+
+Merci =E0 tous,
+Micka=EBl
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+uPJnrWrUWezyZOA2e26bjxqbfzFfoNPpKmF-W9ZaxdpeJ8ag@mail.gmail.com
+

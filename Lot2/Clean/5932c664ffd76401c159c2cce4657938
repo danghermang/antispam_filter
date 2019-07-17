@@ -1,0 +1,21 @@
+Subject:Re: automatizar procesos con cron
+El lun, 01-10-2012 a las 11:32 -0400, linux escribió: 
+> Saludos lista alguien tiene alguna documentacion detallada de cron que 
+> especifique como automatizar procesos, saludos
+> 
+
+¿que tal las páginas de manual de cron (cron(1), crontab(1) y
+crontab(5))?
+
+
+
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349106128.2871.30.camel@EeePC.ucasal.ar
+

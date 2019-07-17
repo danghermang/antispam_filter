@@ -1,0 +1,34 @@
+Subject:Re: [HS] comportement curieux de malloc
+François Boisson, 2012-09-29 15:11+0200:
+> J'ai bien conscience du HS de ce message masi il y a sur cette liste des
+> programmeurs avertis.
+> Je maintiens le paquet de camllight
+
+Quel paquet de camllight ? Je ne vois rien de tel dans Debian,
+malheureusement.
+
+> Il est utilisé en CPGE donc il faut le
+> maintenir à flot
+
+Bof, ce qui est fait en prépa en Caml Light doit bien tourner avec OCaml
+non ?
+
+> (par ailleurs il est 100x plus léger que ocaml).
+
+Ça c'est une bonne raison en revanche.
+
+-- 
+ ,--.
+: /` )   Tanguy Ortolo      <xmpp:tanguy@ortolo.eu>
+| `-'    Debian Developer   <irc://irc.oftc.net/Tanguy>
+ \_
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k4ced2$d86$1@ger.gmane.org
+

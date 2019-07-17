@@ -1,0 +1,67 @@
+Subject:Re: [EVDL] 3D modeling
+Actually it's already like printing. Coating the foils.
+
+I briefly evaluated the idea of material toner which could be fit in
+certain standard laserprinters. Using the paper as a separator and
+printing the anode and cathode to opposite sides. It's doable but
+materials have to be developed specifically to this kind of printing.
+Contamination issues are still a hurdle but when materials evolve we
+can do it.
+
+What I had in mind was a bit more traditional. Using foils. Cutting
+them from standard rolls to fit the special requirements. Cells could
+be installed in one large thin-walled plastic box (printable) with
+separate cell compartments. Box is sealed and only then electrolyte
+added. After storing the cells after formation charge (done with the
+BMS and main charger) we can see defects. It's still possible to cut
+one cell off and replace it if needed.
+
+Quality issues what was mentioned can be addressed with taking that
+additional effort in quality control. Doing that with smart BMS with
+remote diagnostics would not leave anyone sitting at the side of the
+road. If replacement is needed we did something horribly wrong.
+
+I developed a method earlier to bypass a cell if it goes bad. BMS
+takes it down to 0VDC in a controlled way. After it has been done a
+short circuit block it stroke through sealed box lid. You'll go along
+until enough cells have reached the end of life. You would not see
+performance drop in a 100 cell string if one is off.
+
+-Jukka
+
+http://www.google.com/profiles/jarviju#about
+
+
+2012/11/3 John Lussmyer <Cougar@casadelgato.com>:
+> On Sat Nov 03 08:46:54 PDT 2012 akkujukka@akkujukka.fi said:
+>>How to make it all right will be tricky. Has to be admitted. But the
+>>trade-off could be a killer solution for converters. And we know there
+>>are plenty new battery innovations in the labs that will be here now
+>>or bit later.
+>
+> What you need is to be able to build a 3D Printer that can print batteries.
+>
+>
+> --
+>
+> Worlds only All Electric F-250 truck! http://john.casadelgato.com/Electric-Vehicles/1995-Ford-F-250
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

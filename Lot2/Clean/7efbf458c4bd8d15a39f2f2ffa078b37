@@ -1,0 +1,74 @@
+Subject:configuration wpa_supplicant (via wicd)
+Bonjour,
+
+Je cherche à trouver le bon template wpa_supplicant, sachant que
+ma configuration de mon Nokia N900 fonctionne. En gros, j'ai les
+infos, mais je ne sais pas comment les fournir pour wpa_supplicant.
+Voici ce que j'ai pour mon N900 (le *** étant mon login):
+
+  SSID: eduroam
+  Network mode: Infrastructure
+  Security method: WPA with EAP
+  EAP type: PEAP
+  Certificate: None
+  EAP method: EAP MSCHAPv2
+  User name: ***@ens-lyon.fr
+  Advanced - EAP - Use manual user name: ***@ens-lyon.fr
+
+Pour info, c'est pour me connecter à partir de l'Université Paris 6
+(UPMC). Sur N900, la config "Use manual user name" est nécessaire
+(le "User name" seul ne fonctionne pas: l'authentification échoue).
+
+Voici ce que dit le site eduroam.fr, qui n'indique que la config
+pour Network Manager:
+
+  Sécurité : WPA2
+  Authentification : Protected EAP (PEAP)
+  Identité anonyme : anonymous@ens-lyon.fr
+  Certificat du CA : si votre établissement ne fournit pas de fichier
+                     contenant le certificat du serveur qui vous
+                     authentifie, ne mettez rien dans ce champ
+  Version de PEAP : Version 0
+  Authentification interne : mschapv2
+  Nom d'utilisateur : <votre nom d'utilisateur habituel>
+  Mot de passe : <votre mot de passe habituel>
+
+Le template wicd pour wpa_supplicant que j'utilisais jusqu'à présent
+(qui fonctionne sur un certain nombre de sites d'accueil, mais pas à
+l'UPMC, où l'authentification échoue):
+
+network={
+        ssid="$_ESSID"
+        scan_ssid=$_SCAN
+        proto=WPA
+        key_mgmt=WPA-EAP
+        eap=PEAP
+        identity="$_IDENTITY"
+        password="$_PASSWORD"
+        phase1="peaplabel=0"
+        phase2="auth=MSCHAPV2"
+}
+
+Je suppose qu'il faut que j'ajoute quelque chose correspondant
+au "Use manual user name" du N900 ($_IDENTITY contient le nom
+d'utilisateur).
+
+Est-ce que la ligne "proto=" est spécifique à wicd? Il n'y a rien
+de tel dans les exemples de la page man wpa_supplicant.conf(5).
+
+Merci d'avance pour toute information.
+
+-- 
+Vincent Lefèvre <vincent@vinc17.net> - Web: <http://www.vinc17.net/>
+100% accessible validated (X)HTML - Blog: <http://www.vinc17.net/blog/>
+Work: CR INRIA - computer arithmetic / AriC project (LIP, ENS-Lyon)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121018224817.GA7950@ioooi.vinc17.net
+

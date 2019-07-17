@@ -1,0 +1,84 @@
+Subject:Re: [Koha] Addition to Koha Web Page as a Koha Support Provider /
+	Ozgur Yazilim A.S.
+Hi Doruk,
+
+welcome to the community :)
+
+I am forwarding your mail to the translation mailing list. =
+
+
+I checked Pootle and Turkish is already there (http://translate.koha-commun=
+ity.org/tr/). So I think your problem with uploading the files might be rel=
+ated to permissions. Uploading and merging doesn't work too well in my expe=
+rience. So maybe if it's ok for the other translators you could upload your=
+ complete files there. But as there is other translation activity for this =
+language, you should try and check with the other translators first.
+
+The po files can be updated to newer versions, this has been done on Pootle=
+. Of course there is always some work to do, like translating the strings f=
+or new features and checking old strings where the templates got changed. B=
+ut it should not be necessary to completely retranslate.
+
+Hope that helps,
+
+Katrin
+
+
+-----Urspr=FCngliche Nachricht-----
+Von: koha-bounces@lists.katipo.co.nz im Auftrag von Doruk Fisek
+Gesendet: Mo 05.11.2012 12:58
+An: Chris Cormack
+Cc: koha-user
+Betreff: Re: [Koha] Addition to Koha Web Page as a Koha Support Provider / =
+Ozgur Yazilim A.S.
+ =
+
+Hi,
+
+Tue, 6 Nov 2012 00:17:49 +1300, Chris Cormack
+<chris@bigballofwax.co.nz> :
+
+> Welcome to the community Doruk, I hope to see more of you on the
+> mailing lists, and perhaps IRC.
+> Hopefully on bugs.koha-community.org too :)
+Thank you.
+
+As a seperate but somehow related issue, we had had tried to be active
+before actually but lacked communication skills I believe :).
+
+We had had packaged Koha last year for a Turkish distribution called
+Pardus (which resulted in us actually packaging a lot of Perl packages
+and other stuff) for its LTS release. The distribution is
+government-funded but unfortunately currently in disarray (due to
+political power shifts).
+
+We also had done a near complete Turkish translation of Koha 3.4 (the
+latest release at that time) via PO files (Kbabel, etc). Then we
+uploaded it to Pootle but it didn't get approved and merged (don't know
+why). So we published it as a patch via a web page.
+
+We're still using Koha 3.4 in our installations because of that and it's
+going to be a real drag to merge strings or translate from scratch.
+
+What is the correct way to make the translations? Pootle isn't really
+practical for everyone, especially when translating offline, that's
+why we had preferred PO file translation method. However we don't want
+to risk making another version specific translation.
+
+                   Doruk
+
+--
+=D6zg=FCr Yazilim A.S. ~ #
+http://www.ozguryazilim.com.tr
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha
+
+
+
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

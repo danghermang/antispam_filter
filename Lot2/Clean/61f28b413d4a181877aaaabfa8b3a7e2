@@ -1,0 +1,10 @@
+Subject:Re: [Koha] All items say new.
+You just need to create a "new collection code" in Administration > Authorized values, then clic select "Authorized values" and CCODE... and in the add ITEM part of your record select from the pull-down menu the one (or another) you define.
+
+Saludos,
+
+FAOA
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

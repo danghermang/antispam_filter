@@ -1,0 +1,43 @@
+Subject:Re: [pkg-bacula-devel] Bacula 5.2.6+dfsg-5_bpo60+1 review & upload
+	request
+Ahoi!
+
+On 30 September 2012 12:43, Luca Capello <luca@pca.it> wrote:
+> Here I am, what better than a raining day for an upload?
+
+Haha - welcome to my world.  Nothing like a rain to welcome you in the morn=
+ing!
+
+> -bacula (5.2.6+dfsg-5~bpo60+1) barts-squeeze-backports; urgency=3Dlow
+> +bacula (5.2.6+dfsg-5~bpo60+1) squeeze-backports; urgency=3Dlow
+
+Ah crap I forgot about this one - fixed that now.
+
+> The following packages have unmet dependencies:
+>  bacula-common : Depends: initscripts (>=3D 2.88dsf-13.3) but
+> 2.88dsf-13.1+squeeze1 is to be installed
+>  bacula-fd : Depends: initscripts (>=3D 2.88dsf-13.3) but
+> 2.88dsf-13.1+squeeze1 is to be installed
+> E: Broken packages
+> mantissa:~#
+
+Whoops - pretty embarrassing.  I fixed that in 5.2.6+dfsg-5~bpo60+2
+(i.e reverted it back to use /var/run).  Please see
+http://sultan.timedout.org/~bart/debian/barts-squeeze-backports/ again
+as well as http://anonscm.debian.org/gitweb/?p=3Dpkg-bacula/bacula.git;a=3D=
+tag;h=3Drefs/tags/debian/5.2.6%2Bdfsg-5_bpo60%2B2
+tag.
+
+I *did* check the installation in chroot this time :) and it installed
+fine (bacula-fd, bacula-sd=E2=80=A6).  I've it running and simply upgraded
+last time hence didn't spot that problem=E2=80=A6
+
+Let me know should you spot anything else.  But I reckon it should be
+good to go now.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAFBzO+GPCdyJ=BuAhq0bZJeTUYKFq9baRN6U75DuOc5h15wz1A@mail.gmail.com
+

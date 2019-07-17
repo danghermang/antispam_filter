@@ -1,0 +1,43 @@
+Subject:Re: serveur sftp
+On Sat, 08 Sep 2012 22:30:13 +0200
+Colin <colin@colinusmaximus.com> wrote:
+
+> J'utilise g=C3=A9n=C3=A9ralement la couche sftp d'OpenSSH, qui me convient
+> tout =C3=A0 fait.
+
+Perso, =C3=A7a va de la pampers =C3=A0 la huggies, en finissant par la popo.
+
+> Cependant, d=C3=A9s lors que je dois chrooter un utilisateur, c'est tr=C3=
+=A8s
+> p=C3=A9nible : est-il possible de faire en sorte que ce soit pas
+> *uniquement* root qui ait les droits d'=C3=A9criture sur le que l'on
+> chroote =C3=A0 un utilisateur ?
+
+C'est assez =C3=A9tonnant, il doit _s=C3=BBrement_ y avoir un parm qui perm=
+et
+un chown sur le user qui =C3=A9crit.
+
+> Un exemple un c'est g=C3=AAnant : pour partager un espace web avec une
+> autre personne, j'ai pas envie de la chrooter plus haut dans
+> l'arborescence (je pourrai utiliser WebDAV, mais je veux du SSL,
+> et j'utilise d=C3=A9j=C3=A0 HTTPS dans un autre virtualhost...).
+
+waim=C3=A8l=C3=A0 tu chinoises: tu veux des droits =C3=A0 la w$, sans avoir=
+ aucune
+id=C3=A9e des effets de bords que cela peut g=C3=A9n=C3=A8rer...
+
+--=20
+Pancho : Entendu aux infos
+Pancho : Fran=C3=A7ois Hollande : "...il faut prendre une position et une s=
+eule !"
+Pancho : Bah, m'=C3=A9tonne plus que S=C3=A9gol=C3=A8ne soit parti
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120908224650.1f9447e5@anubis.defcon1
+

@@ -1,0 +1,51 @@
+Subject:Re: [EVDL] Old and new in pack
+Good to know thank you!
+On Oct 23, 2012 8:14 PM, "Lee Hart" <leeahart@earthlink.net> wrote:
+
+> On 10/23/2012 6:13 PM, Kiff Wilson wrote:
+> > Can I use my high current charger until about 80 percent charged and then
+> > switch to individual chargers for the last 20 percent and avoid
+> > overcharging and undercharging?
+>
+> Yes. I've even done it! :-)
+>
+> It's actually a pretty effective way to do it. In my case, I have a
+> "dumb" onboard charger that gets the pack up to 80-100% SOC. I then have
+> my Battery Balancer, that finished charging each battery individually.
+> The Balancer has one small "smart" charger to do the finish charging,
+> with a set of relays that selects each battery, one at a time. This
+> minimizes the amount of hardware needed.
+>
+> But it could also be done with a lot of "smart" small chargers. The
+> problem with this approach has been discussed earlier; the cost of all
+> these smart little chargers is probably more than one big smart charger.
+> Plus, there are reliability problems unless these little chargers are
+> very reliable.
+>
+> --
+> *BE* the change that you wish to see in the world. -- Mahatma Gandhi
+> --
+> Lee A. Hart http://www.sunrise-ev.com/LeesEVs leeahart@earthlink.net
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121023/15ced53a/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

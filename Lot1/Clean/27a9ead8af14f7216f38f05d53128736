@@ -1,0 +1,60 @@
+Subject:debian-backports consistency during updates?
+Hi,
+I have setup one Approx apt proxy cache for our company with
+debian-backports line:
+
+backports       http://backports.debian.org/debian-backports
+
+During apt-get update on servers I noticed Packages MD5 sum errors for
+backports. While retrying I encountered even GPG signature error.
+While investigating the problem I have got using wget:
+
+wget http://backports.debian.org/debian-backports/dists/squeeze-backports/Release.gpg
+wget http://backports.debian.org/debian-backports/dists/squeeze-backports/Release
+
+following set of results (modification times or versions):
+
+-rw-r--r-- 1 zito zito 77618 Sep 30 05:36 Release
+-rw-r--r-- 1 zito zito   836 Oct  2 10:41 Release.gpg
+
+gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-automatic.gpg
+--verify Release.gpg Release
+gpg: Signature made Tue 02 Oct 2012 10:41:18 AM CEST using RSA key ID 473041FA
+gpg: BAD signature from "Debian Archive Automatic Signing Key
+(6.0/squeeze) <ftpmaster@debian.org>"
+
+=> inconsistent
+
+after a while:
+
+-rw-r--r-- 1 zito zito 77618 Oct  2 10:41 Release
+-rw-r--r-- 1 zito zito   836 Sep 30 05:36 Release.gpg
+
+=> inconsistent
+
+and finaly OK:
+
+-rw-r--r-- 1 zito zito 77618 Oct  2 12:35 Release
+-rw-r--r-- 1 zito zito   836 Oct  2 12:35 Release.gpg
+
+gpg --keyring /etc/apt/trusted.gpg.d//debian-archive-squeeze-automatic.gpg
+--verify Release.gpg Release
+gpg: Signature made Tue 02 Oct 2012 12:35:52 PM CEST using RSA key ID 473041FA
+gpg: Good signature from "Debian Archive Automatic Signing Key
+(6.0/squeeze) <ftpmaster@debian.org>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 9FED 2BCB DCD2 9CDF 7626  78CB AED4 B06F 4730 41FA
+
+
+It this known bug or feature of backports archive?
+Regards
+-- 
+Zito
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAO-QV53a4TSGHaNZHMY6ukwPH0tEvCaeFqnDKrDeKZO6JHrBgQ@mail.gmail.com
+

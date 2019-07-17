@@ -1,0 +1,29 @@
+Subject:Re: Rhythmweb et temps de =?utf-8?Q?r=C3=A9ponse?= de rhythmbox
+Le 15643i=C3=A8me jour apr=C3=A8s Epoch,
+Bzzz =C3=A9crivait:
+
+> On Tue, 30 Oct 2012 09:11:06 +0100
+> fra-duf-no-spam@tourde.org (Fran=C3=A7ois TOURDE) wrote:
+>
+>> Je r=C3=A9utilise depuis quelque temps l'interface RhythmWeb de Rhythmbo=
+x, et
+>> je me suis rendu compte que rhythmbox se mettait =C3=A0 consommer entre =
+8 et
+>> 12% de CPU, et la page mets plus d'une minute =C3=A0 s'afficher en local.
+>
+> Il-y-a des chances que tu ais coch=C3=A9 l'option qui recherche de nouvea=
+ux
+> fichiers =C3=A0 chaque ouverture, d'o=C3=B9 ce lag.
+
+Avec ou sans cette option, j'avais pas de lag avant (mais avant quoi?),
+et j'en ai maintenant.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/87390vdoty.fsf@tourde.org
+

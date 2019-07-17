@@ -1,0 +1,73 @@
+Subject:Re: Instalar Iceeasel 15.0 en Debian squeeze
+El 01/10/12 17:47, Debian GMail escribió:
+> El 01/10/12 18:41, luis@ida.cu escribió:
+>> Hola a todos miren esto
+>>
+>> Desinstale Iceweasel 3.5 porque quiero instalar la 15.o es decir la
+>> última pero me da este error
+>>
+>> apt-get install iceweasel
+>> Leyendo lista de paquetes... Hecho
+>> Creando árbol de dependencias
+>> Leyendo la información de estado... Hecho
+>> No se pudieron instalar algunos paquetes. Esto puede significar que
+>> usted pidió una situación imposible o, si está usando la distribución
+>> inestable, que algunos paquetes necesarios no han sido creados o han
+>> sido movidos fuera de Incoming.
+>> La siguiente información puede ayudar a resolver la situación:
+>>
+>> Los siguientes paquetes tienen dependencias incumplidas:
+>> iceweasel : Depende: xulrunner-15.0 (>= 15.0.1-1~bpo60+1) pero no va a
+>> instalarse
+>> Depende: libsqlite3-0 (>= 3.7.12-1~) pero 3.7.3-1 va a ser instalado
+>>
+>> Ya tengo el sources list ok quizas me falte algo por instalar primero
+>>
+>> traté de hacer esto apt-get install iceweasel-l10n-es-es pero ahí es
+>> dode me da este error y el iceweasel lo tengo ya desisntalado es decir
+>> el que trae el, pues no se si se podia actualizar de la 3.5 a la 15.0 
+>> ....
+>>
+>> Alguna idea
+>> Agradezo toda ayuda ...
+>>
+>>
+>
+>
+> Viene bárbaro tu pregunta para hacer una prueba:
+>
+> Inicia la redacción de un nuevo correo.
+>
+> En la dirección "Para", pon www4mail@wm.ictp.trieste.it
+>
+> En "Asunto", pon lo que se te ocurra, por ejemplo, iceweasel
+>
+> En el cuerpo del mensaje, pon (todo seguido)
+> GET 
+> http://linuxgnublog.org/instalar-la-ultima-version-de-iceweasel-en-debian-squeeze/
+>
+> A ver si eso resuelve tus dudas.
+>
+> JAP
+>
+>
+este es el resultado hermano
+
+Ocurrió un error al enviar el mensaje. El servidor de correo respondió: 
+Access denied. Por favor, compruebe el destinatario del mensaje 
+www4mail@wm.ictp.trieste.it y vuelva a intentarlo.
+
+saludos
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506A0FE2.1080402@infomed.sld.cu
+

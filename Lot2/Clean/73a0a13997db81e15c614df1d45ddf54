@@ -1,0 +1,83 @@
+Subject:Re: Duda particiones gpt en debian
+
+>
+>> El Tue, 04 Dec 2012 16:56:52 +0100, maykel escribió:
+>>
+>>>> El Tue, 04 Dec 2012 12:59:43 +0100, maykel escribiÃ³:
+>>
+>> (...)
+>>
+>>>> Personalmente prefiero no usar "hÃ­bridos" en este aspecto, es
+>>>> decir,
+>>>> placa base con soporte nativo para BIOS â MBR, placa base con
+>>>> soporte nativo EFI â GPT. Punto.
+>>
+>>> Como siempre gracias por contestar Camaleón, un sólo apunte,
+>>> clonezilla
+>>> no es capaz de hacer backups en tablas de particiones GPT, te dice que
+>>> con sgdisk -z /dev/sdx lo conviertas...Pero luego no me arranca el SO.
+>>
+>> Me extraña que Clonezilla no tenga soporte para GPT :-?
+>>
+>> Lo que dice en su FAQ¹ es que si sobreescribes una partición del
+>> sistema
+>> que usa GPT por otra con MBR te puede aparece un error porque queden
+>> restos
+>> de datos de la tabla GPT que no se puedan interpretar, por lo que tienes
+>> que
+>> destruir cualquier vestigio de las estructuras GPT con ese comando que
+>> dices.
+>>
+>> Ojo, que para el caso contrario (pasar de MBR a GPT) no aplica.
+>>
+>> http://drbl.org/faq/fine-print.php?path=./2_System/116_unmatched_partition_table.faq#116_unmatched_partition_table.faq
+>>
+>> Saludos,
+>>
+>> --
+>> Camaleón
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/k9l7hb$37l$6@ger.gmane.org
+>>
+>>
+>
+> A m� tambi�n me extra�a pero te aseguro que es as�, te obliga a pasarla a
+> MBR.
+>
+> Ya me ha pasado en varios equipos.
+>
+> Saludos.
+>
+> --
+> ADMIN: Maykel Franco Hdez
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/7795915812e62c408bd05cdcdf9af0d9.squirrel@maykel.sytes.net
+>
+>
+
+Ma�ana adjunto una captura y lo ves.
+
+Por otro lado me parece un poco productible por clonezilla...
+
+Saludos.
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/cd00c5eeaed9084e3adc33a72d8d3f76.squirrel@maykel.sytes.net
+

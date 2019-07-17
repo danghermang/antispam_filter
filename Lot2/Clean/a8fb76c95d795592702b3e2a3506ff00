@@ -1,0 +1,31 @@
+Subject:Re: Comment installer plusieurs instances de PHP
+Le 15621i=C3=A8me jour apr=C3=A8s Epoch,
+Basile Starynkevitch =C3=A9crivait:
+
+> On Mon, Oct 08, 2012 at 02:23:40PM +0200, Olivier wrote:
+>>=20
+>> Est-il possible d'installer PHP5.3 sur Wheezy en parall=C3=A8le =C3=A0 P=
+HP5.3 et
+>> sp=C3=A9cifier qu'une appli utilise la version 5.3 de PHP plut=C3=B4t qu=
+e la version
+>> "par d=C3=A9faut" ?
+>
+> Oui, et on peut au moins faire tourner d'autres serveurs Web=20
+> (sur d'autres ports), et rediriger (=3Dproxy) une URL vers l'un de ces au=
+tres ports/serveurs...
+
+Ou alors, utiliser l'un des php sous forme de modules apache, et l'autre
+sous forme de cgi.
+
+Par contre, aucune id=C3=A9e de ce qu'il en est des fichiers de conf de
+/etc/php/ ...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/87fw5pdnu6.fsf@tourde.org
+

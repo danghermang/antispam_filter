@@ -1,0 +1,62 @@
+Subject:Re: Nettoyage du spam: =?iso-8859-1?q?ao=FBt?= 2012
+Le mardi 4 septembre 2012 16:28:55, Sébastien NOBILI a écrit :
+> Bonjour,
+> 
+> Le dimanche 02 septembre 2012 à  7:41, Christian PERRIER a écrit :
+> > Si tu es certain de l'avoir fait, tu peux faire comme
+> > cela. Personnellement, je signale les spams au fur et à mesure mais en
+> > les bounçant à une adresse mail dédiée. Pour le moment, cela n'est pas
+> > couplé avec le système de signalement de spams via l'interface
+> > web. Cela explique que je refais un tour des archives chaque mois.
+> 
+> Quelle méthode simple existe pour signaler un SPAM dès sa réception ? Je
+> pense, par exemple, à un lien direct vers l'archive qu'on pourrait générer
+> à partir de l'ID du message (voire même une adresse qui serait ajoutée
+> dans les en-têtes ou en bas de message).
+
+Sur la page http://wiki.debian.org/Teams/ListMaster/ListArchiveSpam on peut 
+lire : 
+
+[ citation ]
+Methods to Nominate Spam for the Review-Process
+
+1) Press the 'Report as Spam'-Button in the Archive.
+2) Use https://lists.debian.org/cgi-bin/nominate-for-review.pl to report Spam. 
+(You might want to call it like this from your MUA: 
+http://lists.debian.org/cgi-bin/nominate-for-review.pl?Quiet=on&msgid=<MSGID>) 
+see /MUAPlugins for Plugins.
+3) Bounce (as in mutt) the Spam-Message to 
+    report-listspam arobase lists.debian.org
+[ /citation ]
+
+On pourrait donc penser qu'il suffit d'utiliser cette dernière adresse, non ?
+
+Mais il me reste deux questions :
+
+a) Pourquoi Christian Perrier écrit-il que « ce n'est pas couplé avec le 
+signalement de spam via l'adresse web »  alors que la page citée semble 
+indiquer que ce sont des méthodes équivalentes ? Cela sert-il à quelque chose 
+oui ou non de bouncer les messages spam vers cette adresse ?
+
+b) Si oui, quelqu'un peut-il me dire qu'elle fonction de kmail correspond à ce 
+"bounce" : s'agit-il de ce que kmail appelle "rediriger" ? Ou est-ce un simple 
+"transférer" ?
+
+Moi aussi je parcours tous les messages de la liste debian-user-french. Si on 
+me dit que bouncer tous les messages spam est utile, je le ferai volontiers. 
+Mais pour le moment, pour moi du moins, ce n'est pas clair.
+
+
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209041928.18513.edfnet-deb@yahoo.fr
+

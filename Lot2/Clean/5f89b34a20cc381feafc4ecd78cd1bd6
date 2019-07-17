@@ -1,0 +1,26 @@
+Subject:Duda en la config de interfaces
+hola a todos
+
+Tengo una duda con la configuración de mi interface
+
+Cuando voy al  fichero /etc/network/interfaces
+
+La duda es:
+
+De tener 2 DNS, uno primario y otro secundario, cómo agrego otra IP al 
+nameserver ???
+
+tengo que repetir nameserver con la otra IP del server en una nueva 
+línea, o puedo escribir la otra IP del 2do DNS dejando un espacio?
+
+ej: nameserver 192.168.100.50 192.168.100.51    ????
+
+Gracias dpor el tiempo que me han dedicado a mis dudas, muy agradecido.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/3a374a1fe91fee905e7fd2a18bea794d@ida.cu
+

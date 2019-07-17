@@ -1,0 +1,51 @@
+Subject:Re: Installation sur partition GPT
+Le jeudi 4 octobre 2012 10:53:51, didier gaumet a écrit :
+> 
+> je serais toi, comme il s'agit d'un PC qui ne t'appartient pas, je
+> toucherais le moins possible Windows 7; donc je laisserais à Bootmgr
+> (le bootloader de Windows 7) le soin de démarrer le PC (si tu démarres
+> directement à partir de Grub, certaines mises-à-jour Windows ne
+> pourront pas s'effectuer).
+
+Si ça c'est vrai, je suis sur le cul. Comment peut-on accepter que les
+mises à jour dépendent de la façon dont l'OS est démarré ?
+
+Attention, je ne mets pas en cause ce que tu dis. C'est juste que je
+n'en reviens pas.
+
+> - je crois que ton Windows 7 est installé sur un PC avec un
+>   partitionnement GPT avec mode de compatibilité partitionnement DOS/MBR
+> - Dans windows, je commencerais par réduire D:
+> - j'installerais Debian dans l'espace ainsi libéré et installerais Grub
+>   sur l'une des partitions nouvellement créées par Debian (il n'y a pas
+>   de partitions primaires/secondaires/étendues avec le GPT de l'UEFI)
+> - pour démarrer Debian, dans Windows j'utiliserais Bcdedit (utilitaire
+>   en ligne de commande pour configurer Bootmgr) pour créer un
+>   chainloader vers Grub. tu trouveras sur le net et sur technet.com
+>   (site assistance technique Windows) comment faire tout ça.
+
+C'est intéressant car je n'aurais pas pensé que Windows puisse faire
+cela. Bon j'avoue ne rien connaître à Windows (pour moi c'est une
+vraie boîte noire). 
+
+Maintenant pour le principe : non. Je dois laisser Windows sur le
+portable, c'est déjà pénible, mais rien ne m'oblige à m'en servir.
+Alors utiliser Windows *pour installer Linux* : non. 
+(Enfin, sauf si je n'arrive pas autrement. J'ai des principes mais je
+ne suis pas borné.)
+
+Évidemment cette position de principe de ma part n'enlève rien à la
+qualité de ta proposition et je t'en remercie.
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210061813.02188.edfnet-deb@yahoo.fr
+

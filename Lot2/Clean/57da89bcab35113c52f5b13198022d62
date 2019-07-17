@@ -1,0 +1,33 @@
+Subject:Re: SSH Tunneling
+On 09/12/2012 08:42 AM, Josué Marrero Bermúdez wrote:
+> Saludos Colegas
+>
+> En estos dias he estado tratando de configurar un SSH Tunneling, por el
+> simple hecho de saber como se hace, y si es verdad que es tan seguro.
+>
+> En google he encontrado varios ejemplos de configuracion, pero entre
+> ellos existen notables diferencias, unos hablan de configurar en la PC
+> remota un squid que administre la navegacion..y en otros ejemplos solo
+> hablan de hace el tunel y a navegar.
+>
+> Mi duda es la siguiente.
+>
+> Realmente hace falta un proxy al otro lado del tunnel? o es que los ISP
+> que dan servicio en otros paises permiten la navegacion sin tener que
+> configurar nada...
+
+Depende: si deseas navegar a través del túnel, sí necesitarás un proxy. 
+Si deseas acceder a otro tipo de servicios --escritorio remoto, correo, 
+etc.--, sólo requieres que el servidor ssh esté en un segmento de red 
+con acceso a dichos servicios. El límite es tu habilidad para acceder a 
+redes remotas y enlazar servicios.
+-- 
+Ulises M. Alvarez
+http://sophie.unam.mx/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5050B86F.2010109@sophie.unam.mx
+

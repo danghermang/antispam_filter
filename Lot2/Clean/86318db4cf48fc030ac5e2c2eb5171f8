@@ -1,0 +1,26 @@
+Subject:[Flexradio] Image rejection -- Flex1500?
+I subjected my Flex1500 to its first contest last weekend, and several times
+I noticed that there were signals moving in the wrong drection on the
+display as I tuned. 
+
+They seemed to be images of stronger signals the other side of zero audio
+frequency. Each time I cleared them by closing down PSDR (2.4) and sometimes
+the flex as well. This made the bands much quieter in comparison after a
+restart.It occurred on several bands, certainly 10, 20 and 160.
+
+What is the likely prognosis? A corrupted file, RF ingress (I was running an
+external 100w amplifier) or something more serious.
+
+Any suggestions?
+
+-- 
+Brian Duffell G3VGZ G8AOE 
+Yarm    
+North East England
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

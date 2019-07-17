@@ -1,0 +1,41 @@
+Subject:Re: Miniatures de fichiers Libre/OpenOffice sous Nautilus de Squeeze
+Le 03/12/2012 14:57, Alain Rpnpif a écrit :
+> Bonjour,
+>
+> Sous Nautilus, je n'arrive pas à obtenir de miniatures de mes fichiers
+> OpenDocument (ODT, etc. textes, dessins ou autres) mais dans certains
+> répertoires seulement. Pourtant, cela marche dans la plupart des autres.
+> Je suis sous Debian Squeeze agrémenté de squeeze-backports. Les autres
+> fichiers (PDF, etc.) ne présentent pas ce problème.
+>
+> J'ai tenté d'effacer tout sous $HOME/.thumbnails/ de façon à régénérer
+> l'ensemble des diapos/miniatures, mais rien y fait.
+>
+> C'est un problème mineur mais qui m'agace à la longue.
+>
+> J'ai vérifié le contenu des fichiers ODT en cause : la miniature existe
+> bien (thumbnail.png). Je ne comprends pas.
+
+Les miniatures des fichiers ODT sont créées par le paquet ooo-thumbnailer.
+
+ooo-thumbnailer ne fonctionne plus avec Gnome 3 : 
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=659321
+
+
+-- 
+==============================================
+|              FRÉDÉRIC MASSOT               |
+|     http://www.juliana-multimedia.com      |
+|   mailto:frederic@juliana-multimedia.com   |
+| +33.(0)2.97.54.77.94  +33.(0)6.67.19.95.69 |
+===========================Debian=GNU/Linux===
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BDBC32.3000600@juliana-multimedia.com
+

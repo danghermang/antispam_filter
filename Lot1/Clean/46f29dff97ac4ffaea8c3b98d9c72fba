@@ -1,0 +1,302 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Alan,
+
+Only you have been talking about the EFFICIENCY of ferrite transmitters. =
+
+I agree that it is more relevant for transmitting antennas than the rest of =
+
+us have acknowledged in this thread -- which has been about receiving =
+
+antennas.
+
+However, I use your numbers below to illustrate a different point.
+
+The ratio of the (inductive) reactance with/without the ferrite (and withou=
+t =
+
+the tuning capacitor) is 700/14 =3D 50
+according to your numbers.
+
+The ratio of the radiation resistance Rrad with/without the ferrite is
+1e-8/4e-12 =3D 2500 =3D 50^2
+
+The open-circuit voltage Voc is proportional flux thru the coil, which is =
+
+proportional to the inductance, which equals the (inductive) reactance, so =
+
+this ratio with/without the ferrite is also 50.  [A delicacy is that Voc is =
+
+to be measured without the tuning capacitor; it is the voltage between the =
+
+antenna terminals when nothing is connected to them, neither tuning =
+
+capacitor nor load.]
+
+The received power (of a tuned antenna)  is Voc^2 / Rrad, which is the SAME =
+
+with/without the ferrite (to the extent that losses can be ignored.   Since =
+
+losses are greater with the ferrite present, the received power is actually =
+
+somewhat less with the ferrite than without.)
+
+The capture area is proportional to the received power, so the tuned captur=
+e =
+
+area is the SAME with/without the ferrite (and LESS with the ferrite if you =
+
+take losses into account).   [You can always make the capture area very low =
+
+by detuning the antenna, but this is of little interest.]
+
+---------------------------
+The ferrite serves as a cheap voltage amplifier, boosting Voc by 50.   This =
+
+is what matters for the cheap receiver circuit, which involves a further =
+
+voltage amplifier.   The received power is not important for an antenna =
+
+connected to a voltage amplifier.
+
+As you have often noted, power/energy efficiency does not matter for the =
+
+receiving antenna -- for which the voltage is what matters.    So, ferrites =
+
+can help here (especially at lower frequencies).
+
+Energy losses in the ferrite affect the voltage at the receiving antenna =
+
+terminals only indirectly.   In the frequency regime where losses in the =
+
+ferrite are high, the atomic magnetic moments in the ferrite have reduced =
+
+ability to flip, and the effective permeability of the ferrite is reduced. =
+
+The latter reduction translates into reduced voltage.   But this reduced =
+
+voltage is not "caused" by the losses in a simple way; it is perhaps better =
+
+to say that it is "associated" with the losses.
+
+In contrast, as you have often noted, power efficiency does matter when =
+
+considering a transmitter, and adding a ferrite, which adds losses, is not =
+
+such a good thing to do.
+
+Cellphones, which must both receive and transmit (and which operate at high =
+
+frequencies) do not have ferrite antennas.
+
+--Kirk
+
+-----Original Message----- =
+
+From: boswell alan
+Sent: Tuesday, October 23, 2012 5:01 PM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] Ferrite Antennas
+
+Hi
+
+The main point to remember about ferrite antennas is the losses, which
+are high.  For that reason this kind of antenna is most used below 1.6
+MHz for receiving, in systems where there is plenty of field strength.
+I thought it might be useful to jump ahead to see what to expect from
+a typical ferrite-rod antenna.
+
+For a typical ferrite rod antenna of 100x10 mm wound with 10 turns at
+1 MHz the following parameters apply in round numbers (Alan Payne's
+figures might differ, he said by about 10 dB):
+
+Radiation resistance:  1E-8 ohms,
+Reactance: 700 ohms,
+Tuning capacitor: 200 pF
+Loss resistance (assuming a tuned Q of 100): 7 ohms
+Radiation efficiency: with tuning 1E-9, without tuning 1E-11.
+
+We can now take away the ferrite, leaving the coil, and the parameters
+are obviously different:
+Radiation resistance: 4E-12,
+Reactance: 14 ohms,
+Tuning capacitor: 10,000 pF
+Loss resistance (assuming a tuned Q of 200): 0.07 ohms
+Radiation efficiency: with tuning 2E-11, without tuning 2E-13.
+
+These numbers might seem strange, but they show that the presence of
+the ferrite improves the radiation efficiency.  But it only improves
+it from impossible to extremely bad :)  If there is any interest in
+how these figures are derived, we can discuss them.  This level of
+performance is all right for a transistor radio, by the way.
+
+I might have made some errors in the numbers, but these are put up as
+a starting point and I don't mind sticking my neck out in the
+interests of science :).
+
+Alan G3NOQ
+
+
+
+
+
+
+On 23 October 2012 17:47, Les and Kathy <lkbaraz@rogers.com> wrote:
+> Jack:
+>
+> You are absolutely right, thank you for reminding me to be more open =
+
+> minded.
+>
+> Les
+>
+> --- On Tue, 10/23/12, Jack L Stone <jack@antennex.com> wrote:
+>
+> From: Jack L Stone <jack@antennex.com>
+> Subject: Re: [Antenna-discussion] Ferrite Antennas
+> To: "Discussions of Antennas and Related Topics" =
+
+> <antenna-discussion@antennex.com>
+> Date: Tuesday, October 23, 2012, 2:32 AM
+>
+> Les:
+>
+> You may be overlooking that one of the main purposes for this list is
+> all about experimenting with antennas and how to get more out of less.
+>
+> Thus, that objective is to make a smaller antenna somehow act and
+> perform like its bigger brother so something has to be changed:
+> designs and materials to mention a few.
+>
+> Indeed, we also desire to answer questions and discuss current
+> conventional designs and the forum is meant to include that as well.
+> And, those discussions are always welcome. For your case, just skip
+> over these brain-strainers while others my be enjoying them. It's a
+> broad-minded list.
+>
+> --
+> (^o-)
+> Happy Trails,
+> Jack L. Stone
+>
+> Egotist: A person of low taste,
+> more interested in himself than me.
+> =97 Ambrose Bierce (1842-1914)
+>
+> On 10/22/2012 8:19 PM, Les and Kathy wrote:
+>> Gentlemen:
+>>
+>> Please, take these hair splitting discussions to the more sophisticated =
+
+>> forum. We are hams that like antennas.  Call me a simpleton if you will, =
+
+>> but following the rather heated discussion about the definition of the =
+
+>> capture area with or without ferrite did not add one iota to my of =
+
+>> knowledge about antennas.
+>>
+>> If the ferrite stick inserted into my antenna coil enhances the voltage, =
+
+>> wow, that's good, it is what I want.
+>>
+>> I don't mind the mental exercises such as falling flashlight explained =
+
+>> either with the theory of relativity or the quantum theory, it is a good =
+
+>> idea to keep one's mind occupied when the retirements lack of challenges =
+
+>> sets in.
+>>
+>> 73 de
+>>
+>> VA3LBZ
+>>
+>> Les
+>>
+>> _______________________________________________
+>> This message was sent to: jack@antennex.com
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address =
+
+>> this message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>>
+>>
+> _______________________________________________
+> This message was sent to: lkbaraz@rogers.com
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address thi=
+s =
+
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address thi=
+s =
+
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm =
+
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots=
+.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

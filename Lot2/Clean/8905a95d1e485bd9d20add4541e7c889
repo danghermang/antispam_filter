@@ -1,0 +1,24 @@
+Subject:Re: Permiso en vsftpd
+El Fri, 19 Oct 2012 17:03:07 -0400, Osvaldo Benítez Aliaga escribió:
+
+(ese html y esas citas...)
+
+> Hola lista: tengo instalado vsftpd como servidor FTP. La cuestión es
+> que quiero sea público para todo el mundo pero solo un usuario pueda
+> escribir. Saludos
+
+Tienes ejemplos de configuraciones en "/usr/share/doc/vsftpd/examples" y 
+más concretamente te puede interesar la que está bajo "VIRTUAL_USERS_2/
+README".
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k74235$7h2$21@ger.gmane.org
+

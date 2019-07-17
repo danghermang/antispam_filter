@@ -1,0 +1,44 @@
+Subject:[Antenna-discussion] {Antenna-discussion] 1/2-wave vertical really
+	needs a ground plane?
+Greg Morris wrote:
+>I had a question concerning whether a half wave vertical really needs a 
+>ground plane or not.
+
+Assuming that this radiator is a monopole -- then for good performance, a 
+half-wave vertical monopole needs to be driven against either a set of 
+buried r-f ground radials with as low an r-f loss as possible/justifiable 
+within ~1/2WL of the monopole, or a counterpoise of several elevated, 
+symmetrically-arrayed, 1/4-wave resonant radials.
+
+Such r-f loss resistances are in series with the r-f current that can flow 
+along a monopole radiator itself, regardless of its physical/electrical 
+height, and will directly affect the radiation efficiency of that antenna 
+system.
+
+>I have recently read that all unbalanced antennas (regardless of 
+>wavelength) require some sort of return path for the currents following 
+>through them.
+
+True.  For one real-world example, WLS in Chicago (50 kW omni, 24/7 on 890 
+kHz) uses a vertical monopole of about 1/2-wavelength -- and it is driven 
+against  _240_  x 1/2-WL buried radials.
+
+WLS would not have installed such an expensive r-f ground reference if it 
+wasn't needed to maximize the fields radiated by their ~1/2-WL monopole.
+
+R. Fry 
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

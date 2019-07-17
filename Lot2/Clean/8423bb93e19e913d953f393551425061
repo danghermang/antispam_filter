@@ -1,0 +1,21 @@
+Subject:Re: Iceweasel 17.0 problem and solution
+2012/11/30 Ond=C5=99ej Sur=C3=BD <ondrej@sury.org>:
+> Could you please take this offtopic elsewhere? Thanks.
+>
+> Ond=C5=99ej Sur=C3=BD
+
+Sorry. I think there's a single reason why this discussion is somewhat
+relevant here on the backports mailing lists: Debian Wheezy
+installations will have many more EXT4 filesystems, whereas Squeeze
+has EXT3 as default and a very common choice. The biggest
+synchronization problems seem to only appear on EXT3. If newer
+versions of Iceweasel have more problems, it might be nice to inform
+the user that EXT3 does not play nice with fsync, and about the
+possibility to turn synchronization off. That's all, bye!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAHp61vvBe4x8vjOTGDWDZcPRJBezGC6+V1SQ9hHNXqPHWrwdnQ@mail.gmail.com
+

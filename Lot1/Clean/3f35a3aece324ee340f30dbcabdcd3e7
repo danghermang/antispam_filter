@@ -1,0 +1,72 @@
+Subject:Re: [un peu HS...] RAID1 sata et ssd
+Merci pour vos réponses.
+
+
+Le 16-11-2012, à 08:54:15 +0100, Bzzz (lazyvirus@gmx.com) a écrit :
+
+> On Fri, 16 Nov 2012 07:12:17 +0100
+> steve <dlist@bluewin.ch> wrote:
+> 
+> > changer. Je me demande si c'est possible de le changer pour un disque ssd
+> > afin de passer en douceur en un système tout ssd (je changerai le second plus
+> > tard). Est-ce que cela pose un problème particulier ?
+> 
+> À vue de tarbouif pas vraiment, cependant en écriture la dispo de l'array sera
+> directement liée au HD normal, plus lent.
+
+Oui c'est bien ce que je pensais. L'idée sous-jacente est de passer un premier
+disque de la grappe en ssd, puis de remplacer le second disque sata par un ssd,
+ce qui m'éviterais de devoir tout réinstaller (et tout se qui va avec). Avec
+cette solution, une simple reconstruction de la grappe et le tour est joué.
+C'est donc ce que je vais faire, très probablement.
+
+
+> > sur le sujet avant de me lancer. Et en passant avez-vous des conseils pour de
+> > bons disques ssd ? C'est plus la fiabilité qui m'intéresse que la taille ou
+> > le prix.
+> 
+> Étant donné le peu de fondeurs il-y-a peu de chances de se tromper; je dirais
+> que les 'grandes' marques n'ont aucun intérêt à passer pour des minables; par
+> ailleurs, le développement de firmwares efficaces passe par des moyens humains
+> conséquents (quoique là, ces marques sont souvent les premières à renâcler à
+> fixer les bugs...)
+> 
+> Cependant si l'array a beaucoup de clients simultanés il faut 'gader de près
+> le nombre d'IOPS, qui peut varier du simple au quadruple.
+
+Je regarderai, merci du conseil.
+
+
+> Sans compter que là, plus qu'avec les HDz, il serait prudent d'adopter à terme 
+> 2 SSD de marques différentes - YMMV;
+
+Je partage totalement cette idée, qui se généralise pour tout type de support
+de données.
+
+> mais au vu des commentaires récents sur
+> le peu de fiabilité des SSD en utilisation pro, peut-être serait-il mieux
+> d'adopter une solution hybride: soit des HDz intégrant directement un cache
+> SSD, soit une solution logicielle de cache des HDz par des SSD; en commençant
+> par des HDz haut de gamme ultra-rapides.
+
+Les avis sur la fiabilité du SSD sont vraiment partagés.
+
+
+> Perso, je ne prendrais pas le risque de reposer sur une solution 100% SSD.
+
+Moi si à l'heure actuelle, mais avec un spare dans la grappe et une sauvegarde
+régulière des données importantes, il va de soi.
+
+
+Merci et bonne journée,
+steve
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121116124341.GA3744@localhost
+

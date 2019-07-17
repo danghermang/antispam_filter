@@ -1,0 +1,51 @@
+Subject:Re: problema de impresion Wheezy
+2012/11/15 Evgeny M. Zubok <evgeny.zubok@tochka.ru>:
+> Alberto Guerrero <alguerrerodeb@gmail.com> writes:
+>
+>> pero por mas que he intentado configurarla no me deja... trat=C3=A9 de
+>> hacerlo por medio de localhost:631, pero cuando me pide la contrase=C3=
+=B1a
+>> el usuario y contrase=C3=B1a no me acepta ni el de "usuario normal"
+>
+> A=C3=B1=C3=A1de tu usuario a los grupos 'lp' y 'lpadmin' con
+>
+> adduser <tu_nombre> lp
+> adduser <tu_nombre> lpadmin
+>
+> y reinicia la sesi=C3=B3n.
+>
+>> ni el de root, entonces me he quedado patinando...
+>
+> =C2=BFC=C3=B3mo lo has hecho? =C2=BFHas puesto el nombre "root" y contras=
+e=C3=B1a de root o
+> el nombre de tu usuario y contrase=C3=B1a de root?
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/87ehjvjmxb.fsf@tochka.ru
+>
+
+Buenas,
+
+el otro d=C3=ADa wheezy al actualizar me dejo sin impresi=C3=B3n, hasta aho=
+ra el
+modulo del kernel usblp estaba vetado porque bloqueaba o imped=C3=ADa el
+acceso de CUPS para imprimir , pero en la actualizaci=C3=B3n me lo
+desbloqueo por que dec=C3=ADa que estaba obsoleto el bloqueo, resultado no
+pod=C3=ADa imprimir, lo volv=C3=AD a bloquear y he vuelto a imprimir sin
+problemas.
+Prueba primero lo que te ha dicho Evgeny que ser=C3=A1 lo m=C3=A1s normal y
+despu=C3=A9s sal y vuelve a loguearte (suena feo verdad?) para ver si
+funciona, si no prueba a bloquear el m=C3=B3dulo usblp del kernel.
+
+Suerte
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAE98w9s6CGJPMv7DW-NraMvcS7beGgsB9XpwurDNyA6bCK6cWA@mail.gmail.com
+

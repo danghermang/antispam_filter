@@ -1,0 +1,45 @@
+Subject:Re: [HS] comportement curieux de malloc
+Le 29/09/2012 18:23, François Boisson a écrit :
+> Le Sat, 29 Sep 2012 17:51:46 +0200
+> "Sylvain L. Sauvage" <Sylvain.L.Sauvage@free.fr> a écrit:
+> 
+>>   À mon avis, c’est un gros bogue de camllight de se reposer sur 
+>> un comportement non spécifié et dépendant d’une mise en œuvre 
+>> particulière.
+> 
+> 
+>> 3. une fonction intermédiaire « à sommet constant » ne ferait
+>>   qu’encourager les programmeurs à faire ce que semble faire
+>>   camllight. Quand on se fait un tas, les objets que l’on met
+>>   dedans doivent être placés _relativement_ au début du tas, en
+>>   clair, on les place par des offset relatifs à heap_start,
+>>   laquelle valeur doit être dans une _variable_ qui est utilisée
+>>   _à chaque fois_ pour retrouver l’adresse complète de l’objet.
+>>   (Et ça fonctionne que ce soit heap_start ou head_end et que
+>>   l’on y place les objets en « montant » les offsets ou en les
+>>   « descendant ».)
+> 
+> Ben oui, mais ça ne fait pas mon affaire tout ça, en gros il faudrait que je
+> refasse la gestion complète de la mémoire de camllight... 
+
+Il suffit de se passer de malloc et d'utiliser plutôt mmap dans une
+zone libre de l'espace d'adressage, zone qu'on pourra faire grandir
+par le bas avec d'autres mmap quand le besoin s'en fait sentir...
+
+  A+
+    Vincent
+-- 
+Vincent Danjean       GPG key ID 0x9D025E87         vdanjean@debian.org
+GPG key fingerprint: FC95 08A6 854D DB48 4B9A  8A94 0BF7 7867 9D02 5E87
+Unofficial pkgs: http://moais.imag.fr/membres/vincent.danjean/deb.html
+APT repo:  deb http://people.debian.org/~vdanjean/debian unstable main
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/506A1EF9.3020406@free.fr
+

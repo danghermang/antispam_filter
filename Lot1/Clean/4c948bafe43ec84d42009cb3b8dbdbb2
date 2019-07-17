@@ -1,0 +1,39 @@
+Subject:Dudas con un segundo MX en DNS
+        Estimados gusto en saludarlos , tengo una duda que me quiero
+quitar , actualmente en la empresa donde trabajo tengo un servidor de
+correos en Exchange 2003 que esta sobre cargado de usuarios y no tengo
+espacio suficiente para mantenerlo , estoy configurando uno nuevo y
+quiero publicarlo para ir poniendo usuarios nuevos ahi y ir moviendo
+algunos otros q estan en exchange , mi duda es la siguiente tendre con
+este otro servidor  dos servidores MX y quiero que los usuarios que
+esten en servidor A y servidor B puedan enviarse correos sin tener
+ambas cuentas en los servidores, o cuando les envien correo de afuera
+lleguen a sus respectivas cuentas creadas en cualquiera de los dos
+servidores.
+
+pienso declarar en mi servidor DNS este escenario de la siguiente manera:
+
+ejemplo:
+dominio : @superdominio.com
+MX10 = mail.superdominio.com
+MX20 = mail2.superdominio.com
+
+mail   IN A X.X.X.1
+mail2 IN A X.X.X.2
+
+
+no se si estoy en lo correcto? , alguien que por fa me ilumine
+
+sldsss
+
+-- 
+rickygm
+
+http://gnuforever.homelinux.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAL_GE3QTT7=CretQjdeBz2RDjRWkZooCKZwkNvkHD-aVGYZsTQ@mail.gmail.com
+

@@ -1,0 +1,18 @@
+Subject:Re: ssh roto ?
+El 01/12/12 23:09, Francisco Ascencio Dominguez escribió:
+> Buenas tardes amigos. 
+> lo que pasa es que tengo una maquina con debian squeeze y no puedo acceder via ssh desde otra maquina local. y desde la misma maquina si puedo. ya reinstale ssh ya instale el servidor ssh que sera ? 
+> 
+> 
+¿Qué será será? Casi me atrevería decir que alguno te contestará que
+tiene la bola de cristal averiada. Si proporcionaras algún dato más como
+la configuración de ese servidor de ssh (naturalmente sin proporcionar
+datos que vulneren tu seguridad) seguro que alguno de los gurús locales
+podría prescindir de la bolita.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BA9E84.6070502@gmail.com
+

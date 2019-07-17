@@ -1,0 +1,71 @@
+Subject:Re: debian et onduleur
+On 09/25/2012 01:37 AM, Gaëtan PERRIER wrote:
+> Le Fri, 21 Sep 2012 10:21:44 +0200
+> maderios<maderios@gmail.com>  a écrit:
+>
+>> On 09/20/2012 11:37 PM, Gaëtan PERRIER wrote:
+>>> Le Thu, 20 Sep 2012 12:05:08 +0200
+>>> maderios<maderios@gmail.com>   a écrit:
+>>>
+>>>> On 09/20/2012 11:48 AM, Bzzz wrote:
+>>>>> On Thu, 20 Sep 2012 11:36:26 +0200
+>>>>> maderios<maderios@gmail.com>    wrote:
+>>>>>
+>>>>>>     Ton onduleur consomme donc exactement de la même manière,
+>>>>>> qu'il alimente un PC, écran, etc ou qu'il n'alimente rien du tout.
+>>>>>> Ce n'est pas négligeable pour un onduleur qui consomme entre 600
+>>>>>> et 1000 Wh.
+>>>>>
+>>>>> NON, un onduleur offline ne consommera que ce qu'il lui faut pour
+>>>>> maintenir la batterie à 100% de charge (ou la recharger si besoin
+>>>>> est).
+>>>>> Un onduleur online, qui est doté d'une technologie faisant qu'en
+>>>>> sus de la consommation ci-dessus, ne consomme que lorsqu'il est
+>>>>> sollicité (et qq µA sinon).
+>>>>> Le tout s'ajoutant, bien sûr à la consommation de veille du PC qd
+>>>>> son alim n'est pas coupée manuellement.
+>>>>>
+>>>> J'utilise des onduleurs online et offline depuis 1997. Ces onduleurs
+>>>> consomment dès qu'ils sont branchés sur le secteur. Touche ton onduleur,
+>>>> il est aussi chaud, utilisé ou non. Ensuite le compteur électrique
+>>>> tourne de la même manière, que tu te serves de l'onduleur ou non. Les
+>>>> "économiseurs" en tous genres n'ont donc aucune utilité si le PC est
+>>>> alimenté par un onduleur.
+>>>>
+>>>
+>>> Et c'est quoi qui fait que ça consomme ? Parce quand la charge (le PC) ne
+>>> tire pas dessus dans quoi débite-t-il pour consommer autant ???
+>>>
+>>> Gaëtan
+>>>
+>> Le pont redresseur qui charge la batterie est alimenté en permanence par
+>> le secteur. La batterie est constamment sous tension.
+>> https://fr.wikipedia.org/wiki/Onduleur
+>> https://fr.wikipedia.org/wiki/Redresseur
+>>
+>
+> Oui bien sur mais ce n'est pas ça qui va tirer 500W ou plus surtout une fois
+> les batteries pleines.
+> Ton frigo consomme bien plus en une journée que ton onduleur ...
+
+D'où tiens tu ton info ?  J'écris ici ce que j'ai constaté avec mon 
+compteur électrique : PC connecté/démarré ou "éteint", mon onduleur 
+Pulsar Ellipse 650 (MGE/Eaton) tire autant sur le secteur.
+Cordialement
+
+
+-- 
+Maderios
+
+"Art is meant to disturb. Science reassures."
+"L'art est fait pour troubler. La science rassure" (Georges Braque)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5061BB22.3080908@gmail.com
+

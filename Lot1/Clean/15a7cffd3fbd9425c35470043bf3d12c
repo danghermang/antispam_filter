@@ -1,0 +1,40 @@
+Subject:Re: =?ISO-8859-1?Q?Probl=E8me?= avec aufs et switch_root
+Le Fri, 7 Sep 2012 17:07:24 +0200
+"Boiteux Frederic" <fboiteux@prosodie.com> a écrit:
+
+>      Bonjour,
+> 
+>   Je ne vois pas où aufs est utilisé dans ta manip. Tu ne te serais pas
+> trompé dans ton montage tmpfs ? Que fais-tu de /var/tmp/essai ?
+> De /var/tmp/rootnew ?!?
+> 
+
+J'ai «merdouillé» dans le copier/coller, c'était ça la bonne suite de commande.
+
+totoche:/home/francois# mount /dev/disk/by-uuid/a73e8085-03d8-4a4c-8a9e-2bfa88b3 1ef5 /var/tmp/essai
+totoche:/home/francois# mount /dev/sda6 /var/tmp/essai/var
+totoche:/home/francois# mount /dev/sda8 /var/tmp/essai/home
+totoche:/home/francois# mount /dev/sda2 /var/tmp/essai/data
+totoche:/home/francois# mount -o bind /dev /var/tmp/essai/dev
+totoche:/home/francois# mount -o bind /run/ /var/tmp/essai/run/
+totoche:/home/francois# mkdir /var/tmp/rootnew
+totoche:/home/francois# mount -t tmpfs /var/tmp/tmpfs /var/tmp/tmpfs
+totoche:/home/francois# mount -t aufs /var/tmp/rootnew -o dirs=/var/tmp/tmpfs=rw:var/tmp/essai=ro
+totoche:/home/francois# switch_root /var/tmp/rootnew /bin/bash
+
+Effectivement, il y a un RemoveDirectory récursif dans le code de 
+switch_root. Je l'ai viré et ai recompilé le tout en switch_root_soft. 
+
+Ça fonctionne mieux.
+
+François Boisson
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120908225954.04c5424ec12b5582e55af9d0@maison.homelinux.net
+

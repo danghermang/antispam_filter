@@ -1,0 +1,47 @@
+Subject:Boot =?iso-8859-15?q?r=E9calcitrant_avec_disque?= SSD
+Bonsoir =E0 tous,
+
+=C0 chaque boot de ma Debian Squeeze, j'ai ce message
+en premi=E8res lignes :
+Loading wait
+Ata 2.01 failed to resume system link
+Ata 1.01 failed to resume system link
+
+Le syt=E8me boot normalement mais j'ai parfois un figeage
+complet m'obligeant =E0 un hard reset.
+
+Parfois, j'ai droit =E0 plusieurs "kernel panic", m'obligeant =E0 rebooter
+hard reset, puis =E7a remarche.
+
+Voici l'=E9tat de mes 4 disques SATA :
+(excusez pour le nombre des infos)
+
+1] DVD/CD (1er boot) (port SATA N=B0 4),
+2] SSD (2=E8me boot)  (Windows + uniquement /boot et /usr)=20
+    (2 partitions NTFS et ext4)   (port SATA N=B01),
+3] Debian squeeze (3=E8me boot) (2 partitions NTFS et ext4 + Swap) =20
+    (port SATA N=B02),
+4] Data sauvegarde (2 partitions ext4 + Swap)  (port SATA N=B03).
+
+=46aut-il brancher les c=E2bles comme ceci ? (ports SATA) :
+N=B01 =3D DVD/CD,
+N=B02 =3D disque dur SSD,
+N=B03 =3D disque dur Debian squeeze,
+N=B04 =3D disque dur sauvegarde.
+
+Sous Windows alors que le syst=E8me boot d'abord
+=E9galement sur le disque SSD, aucun probl=E8me.
+
+Merci d'une aide, d'une id=E9e.
+
+Andr=E9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201212022244.11287.andre_debian@numericable.fr
+

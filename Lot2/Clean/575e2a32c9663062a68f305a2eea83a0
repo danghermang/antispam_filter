@@ -1,0 +1,25 @@
+Subject:Re: =?UTF-8?B?RMOpcGFubmFnZQ==?= sur PC distant
+On Mon, 29 Oct 2012 21:00:45 +0100
+luc schimpf <lucdeb@free.fr> wrote:
+
+> ssh -p 5522 -R 5901:localhost:5900 -R 5522:localhost:22  moi@mon_ip
+
+Pourquoi y'a t'il 2 parties forward (-R, et sp=C3=A9cifiquement la 1=C3=A8r=
+e) alors que=20
+http://www.howtoforge.com/reverse-ssh-tunneling n'en utilise qu'une seule?
+
+--=20
+SkinRed : quelles sont les 3 plus grandes catastrophes du si=C3=A8cle ?
+SkinRed : Hiroshima, 1945
+SkinRed : Tchernobyl, 1986
+SkinRed : et Windows 2000
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121029211515.103772e6@anubis.defcon1
+

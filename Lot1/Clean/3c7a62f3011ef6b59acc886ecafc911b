@@ -1,0 +1,35 @@
+Subject:=?UTF-8?Q?Re=3A_=C2=BFcomo_hago_para_enclavar_una_ventana=3F?=
+2012/10/8 Victor Hugo Cespedes Zuleta <cespedes.zuleta.victor@gmail.com>:
+> mi pregunta es como hago para enclavar una ventana de terminal, es decir
+> como hago para que no se cierre de manera involuntaria.
+>
+> y solo se cierre con el comando exit.
+>
+> en otras palabras como elimino la X de cerrar de la parte superior derech=
+a
+> de la pantalla.
+>
+> y otra pregunta relacionada. como hago para que lo de minimizar, maximiza=
+r y
+> cerrar queden al medio del panel de cualquier ventana.
+
+Qu=C3=A9 entorno de escritorio o manejador de ventanas utilizas?
+
+Veo dos maneras: manipular las propiedades de la ventana, ya sea
+mediante tu manejador de ventanas o mediante wmctrl. La otra, prueba
+una consola tipo quake, como tilda o yakuake.
+
+Una tercera, puedes usar screen para que, a=C3=BAn si cierras la ventana,
+no se pierda la sesi=C3=B3n en ella.
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjM0EUubX8-UMPNTdiSukEaJAeeRK9ip1bKV0F1Jv469ZA@mail.gmail.com
+

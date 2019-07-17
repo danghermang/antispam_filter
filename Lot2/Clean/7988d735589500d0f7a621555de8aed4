@@ -1,0 +1,45 @@
+Subject:Re: =?ISO-8859-1?Q?=BFEst=E1n_de_broma_con_gnome3=3F?=
+On 11/11/2012 12:05 AM, Cosme Domínguez Díaz wrote:
+> Si quieres volver a GNOME 2 en Debian Testing:
+> 
+> http://mate-desktop.org
+> 
+> Repositorio para Wheezy: http://wiki.mate-desktop.org/download
+> 
+> Si quieres seguir en GNOME 3 sin GNOME Shell (es decir, con el aspecto
+> de GNOME 2)
+> 
+> http://cinnamon.linuxmint.com
+> 
+> Repositorio para Wheezy: ¿? (Yo lo estoy usando en Fedora)
+> 
+> Pero si quieres GNOME Shell... dicen, comentan... que sin GNOME Tweak
+> [1] no puedes sobrevivir
+> 
+> De cualquier forma... suerte! :-\
+> 
+> [1] https://live.gnome.org/GnomeTweakTool
+> [2] http://packages.debian.org/wheezy/gnome-tweak-tool
+> 
+> 
+
+Si, ya he descubierto gnome-tweak (gracias a el he podido configurar)
+... Pero lo que no entiendo es lo del screensaver, porque la
+configuración de estar, tiene que estar ...
+
+ De todas formas con la que está cayendo en cuanto a fuga de datos, no
+entiendo como "una mente pensante" de estas cree que screensaver no es
+necesario en el desktop ... No tengo palabras ...
+
+ Saludos.
+
+-- 
+CL Martinez
+carlopmart {at} gmail {d0t} com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509F6B9D.1060401@gmail.com
+

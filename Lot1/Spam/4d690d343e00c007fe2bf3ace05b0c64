@@ -1,0 +1,147 @@
+Subject:Su entrada ha sido activada
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta xmlns="http://www.w3.org/1999/xhtml" http-equiv="content-language" content="de"></meta><meta xmlns="http://www.w3.org/1999/xhtml" http-equiv="cache-control" content="no-cache"></meta><meta xmlns="http://www.w3.org/1999/xhtml" http-equiv="pragma" content="no-cache"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="title" content="Foro"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="description" content="TINCAS basierte CGI-Schnittstelle"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="keywords" lang="de" content="CGI, Gästebuch, Counter, Forum, TINC, TINCAS"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="keywords" lang="en" content="CGI, Guestbook, Counter, Forum, TINC, TINCAS"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="author" content="1&amp;1 Internet AG"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="copyright" content="1&amp;1 Internet
+  AG"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="publisher" content="1&amp;1 Internet AG"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="robots" content="noindex"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="DC.Format" content="text/html, charset=utf-8"></meta><meta xmlns="http://www.w3.org/1999/xhtml" name="DC.Language" content="de"></meta><title>Foro</title><style xmlns:js="http://www.schlund.de/tinc/runtimexsl/js" type="text/css">
+			body {
+				margin:15px 10px 20px;
+			}
+
+			h2 {
+				text-decoration:underline;
+				/*font-size:16px;*/
+				font-size:133%;
+			}
+
+			h3 {
+				/*font-size:14px*/
+				font-size:116%;
+			}
+
+			input {
+				/*font-size:11px;*/
+				font-size:95%;
+			}
+
+			/* not found */
+			/*.gross {
+				font-size:16px
+			}*/
+			/* found in messageboard.xsl. formatting of links in entryhandle and entrymenu templates.
+			formatting of submitted fields in guest/moderator html mails (template entry).
+			formatting of user name and submission date of an entry in layout mode 2.
+			formatting of response type message in templates preview and updateform*/
+			.klein {
+				font-size:90%;
+				/*font-size:10px*/
+			}
+			/* found in messageboard.xsl. formatting of | chars in template entryhandle.
+			formatting of entry subject (template entry) in layout mode 2*/
+			.mittel {
+				font-size:116%;
+				/*font-size:14px;*/
+			}
+			/* found in messageboard.xsl. formatting entryhandle and entrymenu template contents */
+			.rechts {
+				text-align:right
+			}
+			/* found in messageboard.xsl. formatting entry number */
+			.riesig {
+				/*font-size:20px;*/
+				font-size:166%;
+			}
+
+			/* not found */
+			/*.noline {
+				text-decoration: none
+			}*/
+
+			.admin {
+				margin:0 4px;
+			}
+
+			.warn {
+				color:#000000;
+				font-weight:bold;
+			}
+		</style><style xmlns:js="http://www.schlund.de/tinc/runtimexsl/js" type="text/css">
+			body,table,tr,td,li,a {
+				color:#000000;
+				font-family:Arial, Helvetica, sans-serif;;
+				font-size:12px;
+			}
+
+			
+
+			body, table, td, .bgnorm {
+				background-color:#FFFFFF
+			}
+
+			/* found in messageboard.xsl and feedback.xsl */
+			.invert {
+				background-color:#000000;
+				color:#FFFFFF
+			}
+
+			input,textarea {
+				border:0px none #FFFFFF;
+				color:#383838;
+				scrollbar-base-color:#FFFFFF;
+				scrollbar-shadow-color:#383838;
+				scrollbar-darkshadow-color:#FFFFFF;
+				scrollbar-track-color:#FFFFFF;
+				scrollbar-3dlight-color:#FFFFFF;
+				scrollbar-face-color:#FFFFFF;
+				scrollbar-highlight-color:#FFFFFF;
+				scrollbar-arrow-color:#383838
+			}
+
+			/* found in messageboard.xsl and feedback.xsl */
+			.high,input,textarea {
+				background-color:#D8D8D8
+			}
+
+			/* found in messageboard.xsl and feedback.xsl. styling of input fields in case of
+			wrong/missing input.*/
+			.warn {
+				background-color:#F71F1F
+			}
+
+			/* found in messageboard.xsl. formatting of admin link texts in template entryhandle. */
+			.admin {
+				color:#F71F1F;
+			}
+
+			/* found in messageboard.xsl and feedback.xsl. border around table components.*/
+			.dborder {
+				border:1px dotted #383838;
+				padding:2px 2px 2px 2px;
+			}
+
+			/* found in messageboard.xsl, feedback.xsl and counter.xsl. submit buttons. */
+			.button {
+				border:1px solid #383838;
+			}
+
+			/* found in messageboard.xsl. formatting of header for guest html reply mail (template entry).
+			formatting of entry body (both modes) (template entry).
+			found in feedback.xsl. formatting of header for reply mail.*/
+			.message {
+				border-bottom:1px solid #ECECEC;
+				border-left:1px solid #ECECEC;
+				/*line-height:18px;*/
+				line-height:150%;
+				padding:3px 3px 3px 3px
+			}
+		</style><script xmlns:js="http://www.schlund.de/tinc/runtimexsl/js">
+		try {
+  			if (window.parent.parent.CSSInject) {
+				var listLength = window.parent.parent.CSSInject.length;
+				for(var i=0; i<listLength; i++){
+					var cssInjectUrl = window.parent.parent.CSSInject[i];
+					document.writeln("<style type='text/css'>@import url("+cssInjectUrl+");</style>");
+				};
+  			}
+		} catch (ex) {};
+	</script></head><body><div id="tinc_content"><center><table xmlns="http://www.w3.org/1999/xhtml" width="95%" cellspacing="0"><tr><td colspan="2" class="dborder"><p class="message"><a href="http://pilarcruz.es/tinc?key=64m4akxq&amp;start=4974.14&amp;reverse=1"><b>Su mensaje en Foro</b>de dom 09 dic 2012 14:06:12 CET</a><br></br></p><h3>Estimado(a) Evaline,
+									</h3><p><acktxt xmlns="">Gracias por tu opinión</acktxt></p><p>Atentamente, <br></br>Pilo</p></td></tr><tr height="25"><td height="25"></td></tr><tr><td colspan="2" class="high" style="padding:3px"><span class="klein"><b>Se presentó el siguiente mensaje:</b></span></td></tr><tr valign="top"><td class="invert" style="padding:3px"><span class="klein"><b>Asunto:</b></span></td><td style="padding:3px"><span class="klein">kgvwigKWEpuweghY</span></td></tr><tr valign="top"><td style="padding:3px" class="invert"><span class="klein"><b>Comentarios:</b></span></td><td style="padding:3px"><span class="klein"><body xmlns="">%3Ca href="http://www.txautoinsurquotes.com/"%3Eauto insurance quotes tx%3C/a%3E fmfty %3Ca href="http://www.mynjquotes.com/"%3Ecar insurance quotes nj%3C/a%3E 48603 %3Ca href="http://www.aboutcarinsurancerates.com/"%3Ecar insurance%3C/a%3E :]]] %3Ca href="http://www.bestautoinsurancepolicies.net/"%3Einsurance auto%3C/a%3E 8-OOO </body></span></td></tr><tr>
+ <td style="padding:3px" class="invert"><span class="klein"><b>E-mail:</b></span></td><td style="padding:3px"><span class="klein">xxx@xxxxxxx.xxx</span></td></tr></table></center></div></body></html>
+

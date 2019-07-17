@@ -1,0 +1,45 @@
+Subject:Re: Printf not working
+On 10/16/2012 16:32, FRASER, JACK B wrote:
+> print " Starting program to print out decimal to hex chart \n";
+>
+> @HexD = ('0','1','2','3','4','5,','6','7','8','9','A','B','C','D','E','F');
+>
+> for ($i = 0;$i < 255;$i = $i++) {
+>
+>                  printf("%3S=$HexD[INT($i / 16)]$HexD[$i % 16] ", $i);
+>
+>                  if (($i % 8) == 7) { print"\n" }
+>
+> }
+
+ALWAYS use:
+
+use strict;
+use warnings;
+
+First error: Undefined subroutine &main::INT called at xx.pl line xxx.
+	Change INT to int
+Second error: Invalid conversion in printf: "%3S" at xx.pl line xxx.
+	Changed %S to %s
+Third error: It looped due to bad $i increment
+	Changed $i = $i++ to ++$i
+Fourth error: didn't print 255
+	Changed 255 to 256 (or add '=' to '<' = '<=')
+
+My version (no need for HexD:
+
+#!perl --
+use strict;
+use warnings;
+print "Starting program to print out decimal to hex chart\n";
+for (my $ii = 0; $ii < 256; ++$ii) {
+	printf "%3u=%02X ", $ii, $ii;
+	print "\n" if $ii % 8 == 7;
+}
+__END__
+
+
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

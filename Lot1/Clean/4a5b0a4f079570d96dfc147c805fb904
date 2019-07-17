@@ -1,0 +1,50 @@
+Subject:Re: pasar directamente de etch a squeeze
+El d=C3=ADa 21 de septiembre de 2012 12:21, Alarc'h <alarch@alarch.ath.cx> =
+escribi=C3=B3:
+> Hola,
+>
+> Heredo de un servidor que aun esta bajo Debian Etch...
+>
+> su "uptime" es el siguiente :
+>  13:18:18 up 1342 days, 22:21,  1 user,  load average: 0.00, 0.00, 0.00
+>
+> =C2=A1 Pues podemos decir que Etch funcionaba bien ! Pero claro no hay m=
+=C3=A1s
+> actualizaciones etc. ya que Lenny, que sigui=C3=B3 a Etch, es el oldstabl=
+e.
+>
+>
+> Pues quer=C3=ADa saber si es posible hacer directamente la actualizaci=C3=
+=B3n de Etch
+> hasta Squeeze sin pasar por la etapa a Lenny (lo que vuelve a saber
+> si se puede actualizar a Debian saltando 1 o x versiones).
+>
+> Preciso que la computadora esta en un data center, que no puedo acceder a
+> esta computadora f=C3=ADsicamente y que todo deber=C3=A1 utilizar la l=C3=
+=ADnea de
+> commandos v=C3=ADa una conexi=C3=B3n ssh a trav=C3=A9s de Internet.
+>
+> =C2=BF Sabe alguien si modificar el fichero /etc/apt/sources.list reempla=
+zando
+> etch por squeeze es suficiente para lanzar dist-upgrade ?
+>
+> Gracias si alguien me puede ayudar.
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k3hf44$hu8$1@ger.gmane.org
+>
+
+Triple mortal para atras sin red. Siendo un pc al que no puedes
+acceder f=C3=ADsicamente yo no me arriesgaba tanto. La verdad es que no se
+por donde puede salir una actualizaci=C3=B3n como la que comentas.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+FbNVg8ei9f1vGEra1+pG81bNPA0jABbOuHTnZeQosTq2KCnw@mail.gmail.com
+

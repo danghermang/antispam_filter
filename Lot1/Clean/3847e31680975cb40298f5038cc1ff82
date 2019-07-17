@@ -1,0 +1,257 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Kirk
+Well, you had a chance but you are going off on a tangent again.  It
+doesn't matter to me whether you think I am right or wrong.  I see you
+are choosing to redefine capture area  again - incorrectly - and
+generating another smokescreen in the process.  I don't think the
+learning process should be based on spoon-feeding so we'll leave it
+for a while until my motivation improves . . I really don't think
+anyone else is very much interested in this :).
+Alan G3NOQ
+
+
+
+
+
+
+On 21 October 2012 18:57, Kirk T McDonald <kirkmcd@princeton.edu> wrote:
+> Alan,
+>
+> I think you are "playing on words", and thereby missing the key point
+> (stated yet another way at the bottom of this email).
+>
+> The notion of "capture area" tacitly means "maximum capture area".
+>
+> Any antenna can be "mismatched/detuned" so that the power received is much
+> less than the maximum possible.
+>
+> No one (except you?) refers to the "capture" area of a badly tuned antenna
+> -- as this is so small as not to be worth discussing.
+>
+> A small loop antenna can be tuned to capture the maximum possible power with
+> use of a ferrite.
+>
+> Adding a ferrite requires "retuning" of that antenna (via the tuning
+> capacitor), but once it is retuned, the power captured is EXACTLY the same
+> as before (if "losses" can be ignored).
+>
+> The ferrite does NOT change the maximum power than can be received, but it
+> does boost the open circuit voltage [which increases the effective height of
+> the antenna and its radiation resistance, while leaving its effective area
+> (capture area) unchanged.]
+>
+> -----------------
+> It seems to me that you are claiming that the ferrite should get credit for
+> "tuning" the antenna, which process certainly increases the power received.
+> However, just adding a ferrite, but leaving out the tuning capacitor,
+> actually results in LOWER received power, because the ferrite increases the
+> inductance, and the impedance of the antenna (when no tuning capacitor is
+> present).    Without matching, the current, and power, in the load resistor
+> is lower than before.
+>
+> ------------
+> ------------
+> Your (true) arguments about open circuit voltage are irrelevant to the above
+> discussion.
+>
+> Adding the ferrite changes BOTH the open circuit voltage and the radiation
+> resistance in such a way that the ratio Voc^2 / Rrad (and the power captured
+> by a "matched/tuned" receiver circuit) is the same as without the ferrite.
+>
+> --Kirk
+>
+>
+> -----Original Message----- From: boswell alan
+> Sent: Sunday, October 21, 2012 1:24 PM
+>
+> To: Discussions of Antennas and Related Topics
+> Subject: Re: [Antenna-discussion] Ferrite Antennas
+>
+> Kirk
+>
+> You need to look at the formulas, you are trying to run before you can
+> walk.  It goes in easy steps and although it's tempting to come out
+> with grandstanding statements, I am suggesting that a better approach
+> is to try and understand the theory first.
+>
+> 'Adding ferrite to a small loop' comes ahead, but without
+> understanding the theory you will not be able to make convincing
+> statements of the type you are inviting me to make.  I understand
+> exactly why you are having difficulty, but until you acknowledge it
+> and go into receive mode, I am powerless to help :)
+>
+> At the moment the main difficulty is the difference between the
+> 'lossless' 'maximum capture area', for which we have the formula, then
+> the smaller 'maximum capture area' when a small antenna is tuned with
+> a capacitor (or inductor), then the smallest of all, the 'maximum
+> capture area' without tuning.
+>
+> The theory covers all three, but you must realise from your own branch
+> of physics that there is no short-cut to a proper understanding other
+> than working through the theory in easy stages - which is why I
+> suggested those questions in a previous message.
+>
+> Alan G3NOQ
+>
+>
+>
+>
+>
+>
+> On 21 October 2012 17:59, Kirk T McDonald <kirkmcd@princeton.edu> wrote:
+>>
+>> Alan,
+>>
+>> The question for you seems to be:
+>> If "the exact formula for the capture area of any small antenna,
+>> ignoring loss resistance and reactance, is 3.lambda^2 / 8.pi", then why do
+>> you say that adding a ferrite to a small loop antenna greatly increases
+>> its
+>> capture area?
+>>
+>> I agree with the first statement about capture area, but not the second.
+>>
+>> --Kirk
+>>
+>> PS  Your qualifier "ignoring reactance" means the antenna is "matched".
+>>
+>> A small loop antenna is readily matched by tuning the tuning capacitor, so
+>> the role of the ferrite is NOT to make a match possible -- since this is
+>> easily done without the ferrite.
+>>
+>>
+>>
+>> -----Original Message----- From: boswell alan
+>> Sent: Sunday, October 21, 2012 9:49 AM
+>>
+>> To: Discussions of Antennas and Related Topics
+>> Subject: Re: [Antenna-discussion] Ferrite Antennas
+>>
+>> Kirk and all
+>>
+>> What I am trying to say is that there is a good step forward in
+>> knowledge of small antennas to be had by addressing the question I put
+>> a good few days ago, but no-one has looked up from the pit to address
+>> it.  I feel that may be because we may be in danger of deserting
+>> intelligence and becoming another internet shouting shop :)  But it
+>> hasn't happened just yet . . . so here is the question with some more
+>> hints:
+>>
+>> The equivalent circuit for a small receive antenna is a voltage
+>> generator in series with a radiation resistance, a loss resistance,
+>> and a reactance.  That leads us to these questions:
+>>
+>> 1. The exact formula for the capture area of any small antenna,
+>> ignoring loss resistance and reactance, is 3.lambda^2 / 8.pi,
+>>
+>> 2. hence or otherwise, find out the formula relating the open-circuit
+>> output voltage (for a given field strength) to the radiation
+>> resistance,
+>>
+>> 3. does this provide a useful check on formulas for output voltage and
+>> radiation resistance encountered in the literature?
+>>
+>> Keen students could check the answers for a small dipole, a small
+>> loop; and a ferrite rod antenna using whatever formulas are quoted in
+>> the literature.
+>>
+>> More hints:
+>>
+>> Use the formula for the capture area of a small antenna (above) and
+>> equate it to the formula for the available power as given by circuit
+>> theory (temporarily ignoring losses):
+>>
+>> 1. Available power = capture area times power density of the incident
+>> field:
+>> Pav =  3 lambda^2 / (8.pi)  *  E^2 / eta0   where eta0 is the
+>> free-space wave impedance.
+>>
+>> 2. Available power is also given in terms of open-circuit voltage and
+>> radiation resistance:
+>> Pav = V^2/(4.Rr)
+>>
+>> This links the radiation resistance to the open-circuit voltage for
+>> any small antenna.  In the equations E is the incident field and V the
+>> open-circuit voltage (rms values).
+>>
+>> Don't write that ferrite rod antennas are highly lossy, it's already
+>> common knowledge, but understanding theory requires a degree of
+>> abstract thought on the way to understanding, and losses can be dealt
+>> with later.
+>>
+>> Alan G3NOQ
+>> _______________________________________________
+>> This message was sent to: kirkmcd@princeton.edu
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address this
+>> message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>> _______________________________________________
+>> This message was sent to: alan.boswell@blueyonder.co.uk
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address this
+>> message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>
+> _______________________________________________
+> This message was sent to: kirkmcd@princeton.edu
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

@@ -1,0 +1,136 @@
+Subject:Connexion M2M SFR via wvdial et ppp
+Bonjour,
+
+Je rencontre un problème avec un modem USB ercogener et une connexion 
+m2m en gprs/3G : le lien ppp ne tient pas et le modem raccroche.
+
+Il me semble que l'ensemble des paramètres sont correctes. J'ai réussi 
+(il y a deux ans) à faire fonctionner ce type de configuration mais 
+aujourd'hui plus rien. À ce moment là il fallait recompiler le driver 
+sierra. mais aujourd'hui je n'ai pas trouvé de sources adapté au noyau 
+3.2 d'une wheezy.
+
+J'ai essayé avec une clé SFR USB vodafone (Huawei) mais même constat...
+
+qqu'1 a-t-il résolu de pareils pb ?
+
+uname
+Linux trafic 3.2.0-3-486 #1 Mon Jul 23 02:47:49 UTC 2012 i586 GNU/Linux
+
+lsusb
+Bus 001 Device 011: ID 1199:683c Sierra Wireless, Inc.
+
+
+Trace wvdial
+--> WvDial: Internet dialer version 1.61
+--> Cannot get information for serial port.
+--> Initializing modem.
+--> Sending: ATZ
+ATZ
+OK
+--> Sending: ATQ0 V1 E1 S0=0 &C1 &D2 +FCLASS=0
+ATQ0 V1 E1 S0=0 &C1 &D2 +FCLASS=0
+OK
+--> Sending: at+CPIN?
+at+CPIN?
++CPIN: READY
+OK
+--> Sending: at+creg?
+at+creg?
++CREG: 0,1
+OK
+--> Sending: at+csq
+at+csq
++CSQ: 19,99
+OK
+--> Sending: AT+CGDCONT=1,"IP","m2mpremium"
+AT+CGDCONT=1,"IP","m2mpremium"
+OK
+--> Modem initialized.
+--> Sending: ATDT*99#
+--> Waiting for carrier.
+ATDT*99#
+CONNECT 115200
+--> Carrier detected.  Starting PPP immediately.
+--> Starting pppd at Tue Sep 11 13:56:11 2012
+--> Pid of pppd: 19956
+--> Using interface ppp0
+--> pppd: <A0><E5><8A> @܊
+--> pppd: <A0><E5><8A> @܊
+--> pppd: <A0><E5><8A> @܊
+--> pppd: <A0><E5><8A> @܊
+--> pppd: <A0><E5><8A> @܊
+--> pppd: <A0><E5><8A> @܊
+--> Disconnecting at Tue Sep 11 13:56:12 2012
+--> The PPP daemon has died: A modem hung up the phone (exit code = 16)
+--> man pppd explains pppd error codes in more detail.
+--> Try again and look into /var/log/messages and the wvdial and pppd 
+man pages for more information.
+--> Auto Reconnect will be attempted in 5 seconds
+--> Cannot get information for serial port.
+
+Trace /var/log/messages
+Sep 11 13:56:18 trafic pppd[19965]: pppd 2.4.5 started by root, uid 0
+Sep 11 13:56:18 trafic pppd[19965]: Using interface ppp0
+Sep 11 13:56:18 trafic pppd[19965]: Connect: ppp0 <--> /dev/ttyUSB3
+Sep 11 13:56:18 trafic pppd[19965]: CHAP authentication succeeded
+Sep 11 13:56:18 trafic pppd[19965]: CHAP authentication succeeded
+Sep 11 13:56:18 trafic pppd[19965]: Terminating on signal 15
+Sep 11 13:56:18 trafic pppd[19965]: Connection terminated.
+Sep 11 13:56:18 trafic pppd[19965]: Exit.
+
+Sep 11 14:28:41 trafic kernel: [20576.288100] usb 1-3: new high-speed 
+USB device number 17 using ehci_hcd
+Sep 11 14:28:42 trafic kernel: [20576.422743] usb 1-3: New USB device 
+found, idVendor=12d1, idProduct=14b7
+Sep 11 14:28:42 trafic kernel: [20576.422768] usb 1-3: New USB device 
+strings: Mfr=3, Product=2, SerialNumber=0
+Sep 11 14:28:42 trafic kernel: [20576.422789] usb 1-3: Product: 
+Vodafone Mobile Broadband (Huawei)
+Sep 11 14:28:42 trafic kernel: [20576.422826] usb 1-3: Manufacturer: 
+Vodafone Group (Huawei)
+Sep 11 14:28:42 trafic kernel: [20576.433204] scsi8 : usb-storage 
+1-3:1.0
+Sep 11 14:28:42 trafic usb_modeswitch: switching device 12d1:14b7 on 
+001/017
+Sep 11 14:28:42 trafic kernel: [20577.068473] usb 1-3: USB disconnect, 
+device number 17
+Sep 11 14:28:46 trafic kernel: [20580.948095] usb 1-3: new high-speed 
+USB device number 18 using ehci_hcd
+Sep 11 14:28:46 trafic kernel: [20581.083102] usb 1-3: New USB device 
+found, idVendor=12d1, idProduct=14cc
+Sep 11 14:28:46 trafic kernel: [20581.083127] usb 1-3: New USB device 
+strings: Mfr=4, Product=3, SerialNumber=0
+Sep 11 14:28:46 trafic kernel: [20581.083149] usb 1-3: Product: 
+Vodafone Mobile Broadband (Huawei)
+Sep 11 14:28:46 trafic kernel: [20581.083185] usb 1-3: Manufacturer: 
+Vodafone Group (Huawei)
+Sep 11 14:28:46 trafic kernel: [20581.103557] option 1-3:1.0: GSM modem 
+(1-port) converter detected
+Sep 11 14:28:46 trafic kernel: [20581.104897] usb 1-3: GSM modem 
+(1-port) converter now attached to ttyUSB0
+Sep 11 14:28:46 trafic kernel: [20581.124137] option 1-3:1.4: GSM modem 
+(1-port) converter detected
+Sep 11 14:28:46 trafic kernel: [20581.124631] usb 1-3: GSM modem 
+(1-port) converter now attached to ttyUSB1
+Sep 11 14:28:46 trafic kernel: [20581.140124] scsi9 : usb-storage 
+1-3:1.5
+Sep 11 14:28:46 trafic logger: usb_modeswitch: switched to 12d1:14cc on 
+001/018
+Sep 11 14:28:47 trafic kernel: [20582.141894] scsi 9:0:0:0: 
+Direct-Access     Vodafone Storage (Huawei) 2.31 PQ: 0 ANSI: 2
+Sep 11 14:28:47 trafic kernel: [20582.151207] sd 9:0:0:0: Attached scsi 
+generic sg2 type 0
+Sep 11 14:28:47 trafic kernel: [20582.151693] sd 9:0:0:0: [sdc] 
+Attached SCSI removable disk
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/10d665e606f864b8ef6741d72aef39f8@webmail.ianco.homelinux.org
+

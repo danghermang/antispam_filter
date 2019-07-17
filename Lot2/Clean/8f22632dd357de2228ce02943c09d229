@@ -1,0 +1,33 @@
+Subject:Re: Error al actualizar sid.
+El d=EDa 31 de octubre de 2012 14:51, Marcos Delgado
+<juanmarc@gmail.com> escribi=F3:
+> Me aparecen estos mensajes hoy al prender la computadora, la cual
+> actualice ayer:
+>  signal 11 (segv) caught by ps (procps version 3.3.4) ps:display.c:59:
+>
+> warn udev does not suport containers, not started
+>
+> Y al iniciar gdm se pasma, no reconoce ni el teclado ni el rat=F3n.
+> Tampoco tengo conexi=F3n a internet.
+>
+> Estoy buscando en internet (en otra computadora) como resolver esto,
+> pero agradecer=EDa cualquier ayuda.
+>
+> Saludos.
+> Marcos Delgado.
+
+Instalando el paquete procs se solucion=F3, no lo hab=EDa instalado porque
+ten=EDa errores. Es curioso, por decir lo menos, que al instalar un
+paquete marcado con bugs, se solucionen problemas:
+
+aptitude install  procps
+
+Saludos.
+Marcos Delgado.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAB_R4cWSa1__YJMUfiqQ5yv0CSz-jBm4UNrThsT37=B0_025yg@mail.gmail.com
+

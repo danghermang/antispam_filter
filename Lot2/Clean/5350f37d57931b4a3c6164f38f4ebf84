@@ -1,0 +1,41 @@
+Subject:Re: Fallo con la hora del sistema
+2012/11/26 Miguel Matos <unefistanoche@gmail.com>:
+> Intentar=C3=A9 ser breve y directo: esto que les muestro es cuasi recient=
+e
+> (son las 22:04 seg=C3=BAn mi celular Android, pero dice 17:35 mi compu):
+> http://twitpic.com/bgszsi
+>
+> La sub=C3=AD ac=C3=A1 para no colapsar las redes en sitios que no carguen=
+ correo
+> con HTML. Y quiero saber: =C2=BFc=C3=B3mo puedo hacer para que me lea la =
+hora
+> correcta? Ya lo intent=C3=A9 con
+> hwclock --set --date "2012-11-26 22:04"
+> [OK]
+> date --set "2012-11-26 22:04"
+> lun nov 26 22:04:00 VET 2012
+> root@debian-LT(...)
+>
+> Pero quiero que sea permanente. =C2=BFC=C3=B3mo poder hacer esto? Si algu=
+na
+> respuesta es a causa de la pila del BIOS, entonces tendr=C3=A9 un gran y
+> enorme problema, porque no s=C3=A9 abrir mi laptop. Agradecido por alguna
+> ayuda que me faciliten.
+
+No ser=C3=A1 que el reloj est=C3=A1 en UTC? Mira en la BIOS si eso se puede=
+ configurar.
+
+Por otro lado si es problema de la pila, puedes instalar el paquete
+ntp para que sincronice la hora desde internet.
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjOnAVB3s=ghq0kBuMGTWjDy88fZkwGD+3g+GLDYVd_wPw@mail.gmail.com
+

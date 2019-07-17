@@ -1,0 +1,52 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<byboo@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <info@eap.org>
+Received: (qmail 26014 invoked by uid 89); 11 Dec 2012 12:07:17 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 11 Dec 2012 12:07:17 -0000
+Delivery-date: Tue, 11 Dec 2012 04:05:38 -0800
+Received: from mail.cablemail.de ([195.234.128.48]) helo=mail.cablemail.de
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1TiOac-0004fM-5x on interface=184.105.182.43
+	for byboo@activ8.net.au; Tue, 11 Dec 2012 04:05:36 -0800
+Received: from localhost (localhost [127.0.0.1])
+	by mail.cablemail.de (Postfix) with ESMTP id 7AEC510010C;
+	Tue, 11 Dec 2012 13:08:02 +0100 (CET)
+Received: from mail.cablemail.de (localhost [127.0.0.1])
+	by localhost (AvMailGate-3.2.1.26) id 3269-M6hlty;
+	Tue, 11 Dec 2012 12:08:02 -0000
+Received: from User (unknown [96.125.160.104])
+	by mail.cablemail.de (Postfix) with ESMTPA id 02F0810010C;
+	Tue, 11 Dec 2012 13:06:54 +0100 (CET)
+Reply-To: <juliet.berry@contactoffice.net>
+From: "eAct Award Program"<info@eap.org>
+Subject: = Your email address just won you $4.2M =
+Date: Tue, 11 Dec 2012 04:05:23 -0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-AntiVirus: checked by Avira MailGate (version: 3.2.1.26; AVE: 8.2.10.216; VDF: 7.11.53.120; host: mailKD); id=3269-M6hlty
+Message-Id: <20121211120802.7AEC510010C@mail.cablemail.de>
+To: undisclosed-recipients:;
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: info@eap.org
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=cablemail.de - X=apn H=mail.cablemail.de [195.234.128.48] HELO=[mail.cablemail.de] F=[info@eap.org] T=[byboo@activ8.net.au] S=[= Your email address just won you $4.2M =]
+X-Sender-Host-Address: 195.234.128.48
+X-Sender-Host-Name: mail.cablemail.de
+
+Congratulations
+

@@ -1,0 +1,37 @@
+Subject:Re: =?iso-8859-1?Q?D=E9pannag?= =?iso-8859-1?Q?e?= sur PC distant
+
+Re,
+
+On Mon, Oct 29, 2012 at 05:57:49PM +0100, luc schimpf wrote:
+
+[...]
+> >Tiens, et avec un 'reverse ssh' ? Y a pas moyen de lancer un viewer
+> >VNC facilement ?
+> >
+> >Je n'ai jamais essayé ; quelqu'un ?
+
+> Je dépanne régulierement une dizaine de pc avec un reverse ssh et vnc
+> ça fonctionne très bien.
+
+Ben voilà ;)
+
+Et, donc ? Tu fais initier la connexion par le dépanné directement
+entre les ports 5900 ou bien il faut prendre d'abord le contrôle en
+shell et lancer un second tunnel pour VNC ?
+
+A+
+ 
+
+-- 
+
+JFS.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121029183020.GB2005@jones.jfs.dt
+

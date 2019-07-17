@@ -1,0 +1,36 @@
+Subject:Re: Wheezy : freezes totaux =?ISO-8859-1?Q?fr=E9quents_sur_u?=
+	=?ISO-8859-1?Q?n_nouveau_portable=2E?=
+Moi j'ai quand même bien l'impression que ton ssd est HS.
+Peux-tu le retirer facilement de ton portable ?
+Si oui, plante le dans un boitier 2"1/2 USB pour faire
+quelques tests ...
+Si non SAV/RMA.
+
+Guy
+
+Le 18/09/2012 20:47, Antoine a écrit :
+> Bonsoir,
+> 
+> J'ai installé une wheezy (avec xfce) sur un portable relativement récent
+> (core i5-3210M, chipset graphique Intel, disque SSD, USB 3), et il
+> arrive que la machine freeze totalement (impossible de basculer vers
+> tty1) : il faut débrancher pour éteindre.
+> Les plantages sont fréquents et ont été constatés principalement pendant
+> la copie de fichiers vers une clef usb ou en surfant via iceweasel.
+> Je m'apprête à farfouiller dans /var/log, mais j'avoue ne pas trop
+> savoir par quoi commencer, ni réellement quoi chercher (il y'a souvent
+> des warnings et des erreurs mineurs dans les logs).
+> Je suis preneur de toute suggestion.
+> 
+> Antoine
+> 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50622F3F.4010601@teledetection.fr
+

@@ -1,0 +1,22 @@
+Subject:Re: [Koha] is it possible item batch modification?
+> Hi. I have the same problem. The status option is not shown.
+> Have you found the problem / solution?
+
+Using 3.8.5 and MARC21 I see all the statuses: Withdrawn, lost, damaged, etc.
+
+Your comment on Bug 8902
+(http://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=8902) says
+you use UNIMARC, which is relevant to this discussion. Perhaps the
+originator of this discussion can tell us whether that installation is
+UNIMARC as well? Any UNIMARC users willing to take a look and comment?
+
+  -- Owen
+
+-- 
+Web Developer
+Athens County Public Libraries
+http://www.myacpl.org
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

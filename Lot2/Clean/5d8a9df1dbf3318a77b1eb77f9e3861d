@@ -1,0 +1,107 @@
+Subject:Re: PC =?UTF-8?B?w6l0ZWludA==?= qui consomme
+Le Fri, 2 Nov 2012 15:33:13 +0100
+Bzzz <lazyvirus@gmx.com> a écrit:
+
+> On Fri, 2 Nov 2012 15:00:26 +0100
+> François Boisson <user.anti-spam@maison.homelinux.net> wrote:
+> 
+> > 
+> > Si tu me donnes un moyen de vérifier ça je suis preneur,  j'ai essayé de
+> > recompiler le noyau pour tracer l'arrêt à coup de printk bien placés et en
+> > filamant l'écran (puisqu'il s'éteint à la fin) et extrayant les images mais
+> > c'est un flop, la séquence d'arrêt est finalement très courte et tout
+> > semble dans la préparation.
+> 
+> C'est déjà ça.
+> Ne se mettrait-il pas en suspend2RAM au lieu de suspend2DISK?
+
+C'est un arrêt, pas un suspend et non ça n'est pas un suspend2ram mais si la
+consommation électrique correspond presque.
+
+>  
+> > 
+> >  J'ai essayé des noyaux 3.0, 3.1, 3.2, 3.3, 3.5.2 et 3.5.4. De ce coté là
+> > ça n'a rien donné.  Le problème a lieu sur des gentoo, des debian sur
+> > différents portables mais pas sur une lenny avec un 2.6.37 32 bits
+> > (clefagreg) et donc sur une Ubuntu precise avec un noyau 3.3. J'ai déposé
+> > un message sur linux-acpi mais qui n'a pas suscité un intérêt énorme. 
+> 
+> Hmm, as-tu 'gadé sur le web si tu trouvais une liste exhaustive de tous les
+> pkgs concernés par l'hibernation?
+
+Ça ne concerne pas l'hibernation, c'est un shutdown avec toutes les options
+possibles imaginables.
+
+>  
+> > 
+> > Ben oui, et tu chercherais où? J'ai épluché la configuration acpi, j'ai
+> > multiplié les changements de configuration à l'arrêt,
+> 
+> Je ne pense pas que ça soit ACPI.
+
+Pourquoi? Si quelque chose reste allumé, ça dépend de la gestion ACPI.
+
+> 
+> > une seule chose marche:
+> > si je redémarre la machine et l'arrète au menu de grub, le phénomène n'a
+> > pas lieu. J'ai également blacklisté les modules WIFI (pour le WakeonWLAN),
+> > etc.
+> 
+> Wai, mais si mes souvenirs sont bons, le menu grub c'est quand la machine
+> n'a pas chargée son kernel ni OS; mais c'est déjà une élimination :)
+
+C'est surtout après que le BIOS ait réinitialisé les périphériques et donc à
+l'arrêt, ceux ci sont éteints normalement.
+
+>  
+> > 
+> > Sur un portégé (ultrabook), la théorie est bonne mais la pratique? Comment
+> > ferais tu pour voir si le SSD est alimenté par exemple? Tu exploses la
+> > nappe?
+> 
+> Ça n'est pas avec ce que bouffe un SSD que ça te videra aussi vite la
+> batterie.
+
+C'est un exemple.
+
+> 
+> Ptêt un truc: un watch/une loop toutes les secondes du hard (genre hwinfo, ou
+> autre parce que celui-ci est lent) qui balance le résultat dans un fichier;
+> ça peut ptêt t'aider à trouver ce qui n'est pas arrêté.
+
+
+Mais la machine ne tourne pas, que veux tu voir dans ce fichier?? C'est un
+«shutdown» pas une hibernation.
+
+> 
+> Par ailleurs, c'est _aussi_ un PB rencontré par certains utilisateurs de w$7.
+
+Pas sur cette machine, arrếtée sous W7 tout se passe bien.
+
+> 
+> Sinon, certains forums parlent d'une désactivation du WOL; vérifie aussi si
+> le timer de réveil et le réveil par une touche ou une combinaison de touches
+> ne serait pas positionné dans le BIOS.
+> 
+> Vérifie aussi ce qui se passe avec les drivers: sont-ils déchargés et
+> rechargés au démarrage ou non; et 'gade si certaines options (pas
+> spécialement desdits drivers) ne seraient pas positionnées
+> (/etc/modprobe.d/*) différemment suivant la distro.
+> 
+
+Comme je l'ai dit dans mes messages, j'ai tout essayé de ce coté y compris en
+blacklistant les modules  WIFI, bluetooth, USB et réseau et ça n'est pas une
+hibernation mais un shutdown, tout est arrêté à l'arrêt (en théorie) et tout
+est rechargé au démarrage. C'est pour cela que je m'oriente sur le shutdown.
+
+François Boisson
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121102172728.6b90df7dd0fc47e3b44c2c20@maison.homelinux.net
+

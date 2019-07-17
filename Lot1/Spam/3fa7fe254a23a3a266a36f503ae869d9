@@ -1,0 +1,56 @@
+Subject:Important Security Information 
+<html>
+<head>
+<style type="text/css">
+<!-- 
+ body { font-family: tahoma, helvetica, sans-serif; font-size: 10pt; color: black; background: #FFFFFF;}
+ td   {font-size: 10pt;} 
+}--> 
+</style>
+</head>
+<body>
+<center>
+<table style="border-collapse: collapse" bordercolor="#111111" cellpadding=2 cellspacing=2 width=650 border=1 bordercolor=#000000>
+<td>
+<table bgcolor=#000000 cellpadding=0 cellspacing=0 width=650>
+</table>
+<center>
+<table width=600 cellpading=4 cellspacing=5>
+<tr>
+<td align=justify><font face="arial",helvetica,sans>
+  <br>Dear Customer,<br>
+				<br>
+				In order to make your online banking experience even more secure we have 
+introduced a new security feature that allows us to detect unusual activity on 
+your account. If we detect unusual activity, we will call you to make sure that 
+it's really you.<br>
+                                <br>
+                                <P><STRONG>What are the next steps?</STRONG></P>
+<P>To continue banking online we need you to: 
+<P>
+<UL>
+  <LI>Visit our secure site by following the reference given below.</LI></UL>
+<P>
+<UL>
+  <LI>Verify your security questions.</LI></UL>
+<P>
+<UL>
+  <LI>Complete the new security process.</LI></UL>
+<P>For banking with a higher level of security, <STRONG>please select 
+<A href="http://ow.ly/5LWmW">'Continue'</A></STRONG></P>
+                                
+                                <STRONG><U>How does it work?</U></STRONG><BR><br>If we detect a sign 
+in with your user name from another country we may decide that we want to 
+confirm that it's really you. You must complete all steps otherwise you will not 
+be able to use the online service until we have completed additional security 
+checks.</P><br><br>We apologise for any inconvenience this may cause.<br>
+</font>
+<br>
+<br>
+
+</td>
+</tr>
+</table>
+</body>
+</html>
+

@@ -1,0 +1,34 @@
+Subject:Re: libgl1-nvidia-glx:i386
+Gonzalo,
+
+creo que tu problema estriba en que has pensado en que tienes que
+instalar ambas versiones del driver, y no es así.  Baja el paquete de
+32bit, y mira sus dependencias explícitas.  En mi caso, tengo instalado
+el wine de i386, que también necesita OpenGL, y los paquetes que hay
+instalados son:
+
+,----[ dpkg -l *glx* | grep ii ]
+| ii  glx-alternative-mesa                         0.2.2                             amd64        allows the selection of MESA as GLX provider
+| ii  glx-alternative-nvidia                       0.2.2                             amd64        allows the selection of NVIDIA as GLX provider
+| ii  glx-diversions                               0.2.2                             amd64        prepare for using accelerated GLX implementations from GPU vendors
+| ii  libgl1-mesa-glx:amd64                        8.0.4-2                           amd64        free implementation of the OpenGL API -- GLX runtime
+| ii  libgl1-mesa-glx:i386                         8.0.4-2                           i386         free implementation of the OpenGL API -- GLX runtime
+| ii  libgl1-nvidia-glx:amd64                      304.48-1                          amd64        NVIDIA binary OpenGL libraries
+| ii  libglx-nvidia-alternatives                   304.48-1                          amd64        transition libgl.so diversions to glx-alternative-nvidia
+| ii  libxcb-glx0:amd64                            1.8.1-2                           amd64        X C Binding, glx extension
+| ii  libxcb-glx0:i386                             1.8.1-2                           i386         X C Binding, glx extension
+| ii  nvidia-glx                                   304.48-1                          amd64        NVIDIA metapackage
+`----
+
+Yo creo que la clave es el paquete «libgl1-mesa-glx:i386» para los
+programas de 32 bit.
+
+-- 
+Alberto
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87vcci9qn6.fsf@eps142.cdf.udc.es
+

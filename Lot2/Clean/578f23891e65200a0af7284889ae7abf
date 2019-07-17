@@ -1,0 +1,28 @@
+Subject:Alternativas para Sistema Cliente-Servidor (OpenVPN o similar)
+Hola Grupo.
+
+Les consulto una situación:
+
+Dadas 2 oficinas (denominadas Oficina 1 y Oficina 2) con sendas 
+conexiones ADSL (denominadas ADSL1 y ADSL2) la idea es que desde 
+Oficina2 se pueda acceder a un Sistema en Oficina1.
+
+En Oficina1 tengo un equipo con Debian y OpenVZ en el cual quisiera 
+levantar una VM con OpenVPN.
+
+Y en Oficina2 tengo Win2 XP SP3 y donde la idea es instalar el cliente 
+de OpenVPN.
+
+Les consulto, tienen alguna sugerencia u otra alternativa para tener en 
+cuenta?
+
+Muchas Gracias.
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/508FC714.1020701@gmail.com
+

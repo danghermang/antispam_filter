@@ -1,0 +1,48 @@
+Subject:Re: Sauvegarde du =?UTF-8?B?c3lzdMOobWU=?= pour =?UTF-8?B?Y3I=?=
+	=?UTF-8?B?w6llcg==?= un ISO
+On Sat, 6 Oct 2012 01:49:07 +0200
+Cyrille germain <cyrillegermain@gmail.com> wrote:
+
+> Bon c'est balo car RAID 6 2To de dispo pour le coup pour 4disque
+> de 1To. A r=C3=A9fl=C3=A9chir... :(
+
+Tout d=C3=A9pend de la valeur des donn=C3=A9es...
+=20
+> Hs On
+> Je suis fier de viens de cr=C3=A9er mon 1er sript pour sauvegarder les
+> disques:
+>=20
+> #!/bin/bash
+>=20
+MYDATE=3D`date +%G_%m_%d`
+
+sudo mkdir  /media/Back_Sys/$MYDATE
+cd /media/Back_Sys/$MYDATE
+>=20
+> # Sauvegarde des disques:
+> echo Sauvegarde des disques:
+# (pas besoin du path: tu es d=C3=A9j=C3=A0 dans le bon dir avec le cd pr=
+=C3=A9c=C3=A9dent)
+sudo dd if=3D/dev/sda1 of=3Ddev_sda1.ddimg=20
+sudo dd if=3D/dev/sda5 of=3Ddev_sda5.ddimg
+sudo tar zcvf $MYDATE.tar.gz .
+#
+# Mais si tu veux effectuer la compression en temps r=C3=A9el en laissant
+# les backups s=C3=A9par=C3=A9s, c'est plut=C3=B4t:
+sudo dd if=3D/dev/sda1 | gzip > dev_sda1.ddimg.gz
+sudo dd if=3D/dev/sda5 | gzip > dev_sda5.ddimg.gz
+# ou 'bzip2' avec extension '.bz2'.
+
+--=20
+<Wolf> on est des geeks, a la limite la derni=C3=A8re fois qu'on a vu
+       le soleil c'=C3=A9tait sur un pop up de pub pour le club med
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121006020438.147f53ae@anubis.defcon1
+

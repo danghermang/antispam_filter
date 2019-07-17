@@ -1,0 +1,44 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_Organizaci=F3n_y_distribuci=F3n_de_imagenes_por_re?=
+	=?ISO-8859-1?Q?d?=
+El d=EDa 20 de septiembre de 2012 09:01, Trujillo Carmona, Antonio
+<antonio.trujillo.sspa@juntadeandalucia.es> escribi=F3:
+>
+> =BFAlguien sabe de alg=FAn sistema para organizar y distribuir im=E1genes=
+ de
+> equipos por red?.
+> Ni que decir tiene que lo quiero con Debian (o como m=EDnimo para Linux).
+> La idea seria de poder meter los equipos estropeados en una vlan (eso ya
+> lo tengo) y lo mas autom=E1tico posible volver a pegarle la imagen del
+> disco.
+> Para el arranque y el pegado de im=E1genes creo que lo podre organizar co=
+n
+> PXE y parted, lo que mas me interesa es saber si hay algo que lo integre
+> todo y sobre todo que lo organice (base de datos etc)
+> --
+> trujo <antonio.trujillo.sspa@juntadeandalucia.es>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/1348124487.9341.5.camel@trujo.hvn.sas.ju=
+nta-andalucia.es
+>
+
+buscas algo rollo CLONEZILLA =BF?
+
+--=20
+
+        [o - -  -   -    -      -
+   (\   |                  u d t
+   (  \_('>              c c s
+   (__(=3D_)             s o ?
+      -"=3D
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAB-01r7Ls6Hse7=wEOwg1anK70p_QP495uBo-pPDe0eaoBNQHA@mail.gmail.com
+

@@ -1,0 +1,35 @@
+Subject:Re: [Flexradio] PowerSDR on a Mac?
+On Sun, Nov 11, 2012 at 12:41 PM, Ken Alexander <k.alexander@rogers.com>wrote:
+
+> I'm planning on upgrading my computer and getting a Mac Mini (2.5 GHz quad
+> core i7, 16 gig RAM).  Does anyone have any experience running PowerSDR
+> with Parallels or Fusion 5 on a Mac?
+>
+
+If you have enough processing power you can sort-of get it to work with the
+1500. But performance is poor and if you do anything over on the MacOS side
+of things, it gets really bad fast. None of the virtualization packages
+support FireWire. The solution is running BootCamp and dual-boot the Mac to
+run PowerSDR.
+
+
+> While we're on the subject; is anyone running PowerSDR under Windows 8?
+>  Any gotchas there too?
+>
+
+I can't answer that but it seems to be that many are running Windows 8.
+Perhaps others will respond.
+
+-- 
+Brian Lloyd, WB6RQN/J79BPL
+3191 Western Dr.
+Cameron Park, CA 95682
+brian@lloyd.com
++1.767.617.1365 (Dominica)
++1.916.877.5067 (USA)
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

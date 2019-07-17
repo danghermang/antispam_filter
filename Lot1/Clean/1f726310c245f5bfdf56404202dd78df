@@ -1,0 +1,43 @@
+Subject:Re: sobre postfixadmin
+El Mon, 03 Sep 2012 10:12:01 -0400, Ariel Alvarez escribió:
+
+> hola lista tengo una duda, llevo ya algun tiempo implementando servicios
+> en linux, tengo un servidor con un postfix para hacer pruebas y recien
+> conoci que existe una aplicacion llamada postfixadmin mediante la cual
+> se pueden hacer una serie de acciones en base al control de usuarios sus
+> contraseñas, dominios ect, al probarla me doy cuenta o al menos eso
+> pieso que postfixadmin se trata de conectar a una base de datos en mysql
+> en la cual deben estar los datos referentes a mis usuarios de correo,
+> dominios ect, el postfix que tengo como prueba gestiona los usuarios
+> mediante usuarios unix es decir usuarios de sistema, hay alguna forma de
+> que postfixadmin no gestione su base da datos por mysql ni ningun otro
+> gestor y que lo haga por los datos expuestos en el sistema???
+
+No uso postfixadmin ya que configuro manualmente el servidor de correo 
+por lo que desconozco sus requisitos/limitaciones pero Postfix puede 
+trabajar con distintos sistemas de gestión de usuarios (virtuales y/o 
+locales), no tiene por qué ser una base de datos SQL (permite pam, 
+sasldb2, ldap...).
+
+Tienes más información sobre esto en la excelente documentación del 
+propio programa (paquete "postfix-doc") y más concretamente, te puede 
+interesar el "virtual_readme":
+
+/usr/share/doc/postfix/
+
+Y supongo que también tendrás cosas interesantes en la de la propia 
+aplicación:
+
+/usr/share/doc/postfixadmin/
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k22gsh$vnl$9@ger.gmane.org
+

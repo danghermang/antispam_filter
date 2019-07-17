@@ -1,0 +1,44 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_Brillo_pantalla_en_port=E1til_Acer_con_gr=E1fica_I?=
+	=?ISO-8859-1?Q?ntel?=
+El d=EDa 2 de septiembre de 2012 21:40, Evgeny M. Zubok
+<evgeny.zubok@tochka.ru> escribi=F3:
+> Marc Mar=ED <5.markmb.5@gmail.com> writes:
+>
+>> Ya est=E1 actualizado, pero sigue sin funcionar Fn+< o Fn+> o la
+>> aplicaci=F3n de brillo del panel. Voy a probar ahora con los par=E1metro=
+s
+>> del grub, a ver si ahora van, porque otra cosa...
+>
+> Hm, ahora mismo has dicho que te funciona con n=FAcleo actualizado:
+>
+>> -Actualizar el kernel (funciona, pero hace que me dejen de funcionar
+>> los videos en el vlc, cosa rara)
+>
+> Tienes que iniciar el sistema con n=FAcleo nuevo. El n=FAcleo puedes
+> instalar tamb=EDen desde squeeze-backports. Comprueba c=F3mo funciona el
+> VLC.
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/87harg1adk.fsf@tochka.ru
+>
+
+Hola
+
+Como ya he dicho en el hilo que abr=ED por lo de los MKVs, ya est=E1
+solucionado. Con el kernel 3.2.0, y con el par=E1metro acpi_osi=3DLinux en
+el grub, me funciona el brillo (ya lo sab=EDa de antes), pero es que
+ahora, al haber actualizado la gr=E1fica, me funcionan los v=EDdeos en el
+VLC.
+
+Gracias por todo!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8SfQeexaHs+19Kx2SdHfKTQ1Xn1kfE13WNdgGkpNF89PQ@mail.gmail.com
+

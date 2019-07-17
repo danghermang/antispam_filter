@@ -1,0 +1,31 @@
+Subject:[ubuntu-jp:4248] Re:
+ =?iso-2022-jp?b?bG9nIGluGyRCJEclUSU5JW8hXSVJJHJGfk5PJDcbKEI=?=
+ =?iso-2022-jp?b?GyRCJEYkYkxhJEMkRiQ3JF4kJhsoQg==?=
+渥美です．
+
+いろいろな方からアドバイスがあると思いますが，とりあえず
+
+CTRL + F1
+
+などして，コンソールに移り，
+
+export LANG=C
+
+でエラーメッセージなどを英語にしてから作業してみてはどうでしょう．戻る
+のは大抵
+
+CTRL + F7
+
+です．頑張って下さい．
+
+--
+Kiyotaka ATSUMI, Suzuka National College of Technology
+E-mail: kiyotaka [at] ka-lab.jp / kiyotaka [at] cc.suzuka-ct.ac.jp
+Web: https://www.ka-lab.jp/
+PGP Public Key: https://www.ka-lab.jp/pubkey/20090703.kiyotaka-at-ka-lab.jp.asc
+Finger Print: 3A57 C5CB 7A23 CB1C 9D50 D314 8F10 D612 C138 F31E
+
+
+
+
+

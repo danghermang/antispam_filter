@@ -1,0 +1,78 @@
+Subject:Re: [Fwd: Re: [Jukebox-list] Wurlitzer 3000]
+---and to further confuze things--other relay manufactures made both AC, an=
+d DC=A0 relays with white, and red covers---also clear, blue, yellow, orang=
+e, and amber ---=20
+Also, they have been made/marked as 6, 8, 12, 24, 28, 30, 48, 50, 110, 117,=
+ and 120 volt coils, that I have seen--Ron Rich=20
+
+--- On Thu, 10/25/12, James Alexander <jalexandercc11@att.net> wrote:
+
+From: James Alexander <jalexandercc11@att.net>
+Subject: Re: [Fwd: Re: [Jukebox-list] Wurlitzer 3000]
+To: "Jukebox mailing list" <jukebox-list@lists.netlojix.com>
+Date: Thursday, October 25, 2012, 9:56 AM
+
+The difference between the red and white relays is that the red ones have 2=
+4=20
+volt AC coils and the white/clear ones have 24 volt DC coils.=A0 If you che=
+ck the=20
+schematic, you'll see that your W2900/W3000 jukes have both AC and DC power=
+ed=20
+circuits.=A0=A0 The switching configuration of either relay type is plug-in=
+=20
+compatible and sometimes the AC relay coils will function=A0if plugged into=
+ the DC=20
+circuits, etc.=A0=A0To further confuse the issue,once in awhile you'll find=
+ relays=20
+where the red and white plastic covers have been removed and switched.=A0 O=
+n Wurl=20
+jukes the 24 VAC relay sockets are either painted red, or have a dot of red=
+=20
+paint on them.=A0=A0 No marks on the DC powered sockets.
+
+
+Jim Alexander
+
+
+
+
+________________________________
+From: Shankar Singh <shankarsingh1@gmail.com>
+To: jukebox-list@lists.netlojix.com
+Sent: Thu, October 25, 2012 12:54:02 AM
+Subject: Re: [Fwd: Re: [Jukebox-list] Wurlitzer 3000]
+
+Newtjr:
+
+I did encounter a bit of confusion with the relays in the junction box in=
+=20
+relation to the junction schematics in both the W2900 and W3300 manuals.
+
+According to the schematic RY2 should be a dc/white relay. However, on the=
+=20
+junction itself this is a red ac relay.
+I was advised that the red and white relays can sometimes be interchanged.
+
+The relay sockets are painted ry2 and 6 are red. They work fine this way. T=
+hey=20
+should also be labelled on the junction. Else you can use the junction sche=
+matic=20
+to trace which of the round sockets go to which relays.
+
+Shankar Singh
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

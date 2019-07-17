@@ -1,0 +1,39 @@
+Subject:Re: Consulta sobre paquetes
+El Mon, 12 Nov 2012 14:35:26 -0300, Marcos Russo escribió:
+
+(responde debajo)
+
+> El día 12 de noviembre de 2012 14:11, Camaleón <noelamac@gmail.com>
+> escribió:
+>> El 2012-11-12 a las 14:05 -0300, Marcos Russo escribió:
+>>
+>> (envía a la lista no a mí...)
+>>
+>>> No logro armar el pool y poner el packages y Release. El tema que no
+>>> me instala el paquete.
+>>
+>> Vale, eso es otra cosa diferente.
+>>
+>> ¿Qué pasos has seguido (algún manual)? ¿qué error te aparece?
+
+> Este seria mi script ya en pool agregue el paquete mc y las
+> dependencias. Me anda el instalador pero no me instala el paqute mc.
+> 
+> No se que hay que tocar para que lo instale. Saludos
+> Marcos
+
+(...)
+
+Bien, ¿y qué error te aparece al querer instalar el paquete?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7rg57$l1q$9@ger.gmane.org
+

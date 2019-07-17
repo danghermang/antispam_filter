@@ -1,0 +1,36 @@
+Subject:Re: Instalar USB
+* Martin Fernandez <mfernandez@metroil.com.pe> [2012-10-03 16:23:02 -0500]:
+
+> Buenas tardes:
+>=20
+> Necesito instalar USB, que lo monte y desmonte autom=C3=A1ticamente cuand=
+o los detecte.
+>=20
+
+Hola Martin,
+
+Por favor no secuestres otros hilos (Thread hijacking):
+(http://es.wikipedia.org/wiki/Hijacking)
+
+Quiz=C3=A1 te pueda servir usbmount:
+
+$ apt-cache show usbmount
+[...]
+Description: automatically mount and unmount USB mass storage devices
+ This package automatically mounts USB mass storage devices=20
+[...]=20
+
+--=20
+Saludos,
+Ferran Donadie.
+
+El amigo leal se r=C3=ADe con tus chistes, aunque no sean tan buenos, y se
+conduele de tus problemas aunque no sean tan graves.
+		-- Arnold Glaso.=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121004092716.GC1995@cateto
+

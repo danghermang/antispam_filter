@@ -1,0 +1,39 @@
+Subject:Re: Upgrade auf 12.10, erste Erfahrungen
+On Sat, Oct 27, 2012 at 06:14:17PM +0200, Frank wrote:
+ =
+
+> Meist warte ich ein wenig ab bis eine neue Version "gereift" ist.
+> Dieses Mal war ich zu ungeduldig und habe zu fr=FCh den Upgrade von
+> 12.04 auf 12.10 gemacht.
+ =
+
+> Meine ersten pers=F6nlichen Erfahrungen:
+
+[...]
+
+Ich habe =E4hnlich =FCble Erfahrungen gemacht. Unity ist alle 10 Sekunden
+abgest=FCrzt. Konnte man nur wieder beleben durch Abschie=DFen von X und
+neues Einloggen. War wohl ein Problem mit der Graphikkartentreiber, was
+ich recherchieren konnte.
+
+Aber als dann auch noch alle m=F6glichen Programme abst=FCrzten, bin ich ich
+wieder zur=FCck auf 12.04 gegengen.
+
+Ich arbeite jetzt mit Linux seit mehr als einem Jahrzehnt, aber sowas
+habe ich bis jetzt noch nicht erlebt.
+
+
+
+Gru=DF, Frank
+
+-- =
+
+gpg public key available from keyservers
+        please use key 9572A519
+
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

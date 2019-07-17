@@ -1,0 +1,20 @@
+Subject:Re: missing firmware e100/d101m_ucode.bin
+Javier Santiesteban <javiers@gms.minbas.cu> writes:
+
+> gracias a los que respondieron pero cuando omito este paso en la
+> instalacion de debian y despues instalo normal no puedo hacer ninguna
+> de las dos soluciones puesto que al no reconocerme la red no puedo
+> configurarle ningun repositorio... asi que podran ver hasta donde he
+> tratado de invertar y no he podido encontrar el .bin en internet para
+> al menos por una flash agregarlo
+
+¿Puedes descargar el paquete directamente? 
+
+http://ftp.br.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-linux-nonfree_0.28+squeeze1_all.deb
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87obklaq5n.fsf@tochka.ru
+

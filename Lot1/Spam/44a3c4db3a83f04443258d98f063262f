@@ -1,0 +1,214 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<GJLITTLEJOHNS@ACTIV8.NET.AU>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <weightwatchers-ctg1aeb7caadi43azcex4vimj4tjacha@info.weightwatchers.com.au>
+Received: (qmail 2535 invoked by uid 89); 9 Dec 2012 20:21:44 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 9 Dec 2012 20:21:44 -0000
+Delivery-date: Sun, 09 Dec 2012 12:20:05 -0800
+Received: from mta1.primary.na.epidm.net ([146.82.220.35]) helo=mta1.primary.na.epidm.net
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1ThnM0-0007Ky-5r on interface=184.105.182.43
+	for GJLITTLEJOHNS@ACTIV8.NET.AU; Sun, 09 Dec 2012 12:20:04 -0800
+DKIM-Signature: v=1; a=rsa-sha1; d=info.weightwatchers.com.au; s=ei0; c=simple/simple;
+	q=dns/txt; i=@info.weightwatchers.com.au; t=1355084393;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=3QW+mRDiKr+5R4BOdUOiarQdy38=;
+	b=MHJbJSgc2yxgIUt6+ShJ/s9v0+aNW3HqhA1z+yM3oSvAqh7GTRjkMi9Gy1ABbUtg
+	TwKwwWsxXAEdm4tdKO7JJ9htLYJAgtjKNhxC9g+KdB4me6r4bFQd1I0E1yoNsoQz
+	gOaZIPo/743yft8Ht7nVdqxzNhF4M1BwEmm1v1A2vgI=;
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=dk; d=info.weightwatchers.com.au;
+	h=Received:Date:Message-Id:X-DMHA-ID-Packet:From:Reply-To:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	b=LSjuPubLIPfCRHdvcxZw+Fs5/ZM1tkirgYvNRJrCySUvKguK4ej5p7sjSVJvSzGp
+	vhGBH07pur3NvcbXwP9kAKINJy3dSYojIMECL726cIQLNP+3H+pWthI+72hVpOiF
+Received: from [10.21.250.235] ([10.21.250.235:2167] helo=CORE9PUMPER1)
+	by pc1udsmta1n20 (envelope-from <weightwatchers-ctg1aeb7caadi43azcex4vimj4tjacha@info.weightwatchers.com.au>)
+	(ecelerity 2.2.2.45 r(34222M)) with ESMTP
+	id 2F/95-20471-962F4C05; Sun, 09 Dec 2012 15:19:53 -0500
+Date: Sun, 09 Dec 2012 15:19:53 -0500 (EST)
+Message-Id: <Kilauea214838-192732-210278373-0-1009@flonetwork.com>
+X-DMHA-ID-Packet: Z4gvK5o622MzTByYWzQ7qDhVM7QQbENfYljEzBAr0A14DCMy5DAtAlIKnPMEXG9As2khkdgDAOA=
+From: =?utf-8?B?V2VpZ2h0V2F0Y2hlcnMuY29tLmF1?=<weightwatchers@info.weightwatchers.com.au>
+Reply-To: =?utf-8?B?V2VpZ2h0V2F0Y2hlcnMuY29tLmF1IA==?=<weightwatchers-ctg1aeb7caadi43azcex4vimj4tjacha@info.weightwatchers.com.au>
+To: GJLITTLEJOHNS@ACTIV8.NET.AU
+Subject: =?utf-8?B?Q2hpY2tlbiB3cmFwIHJlY2lwZSA6OiBQYXVsYSBsb3N0IDIwLjFrZyA6OiBT?=
+ =?utf-8?B?aGFyZSB5b3VyIHBsYXRl?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: weightwatchers-ctg1aeb7caadi43azcex4vimj4tjacha@info.weightwatchers.com.au
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - SPFOK weightwatchers.com.au - X=apn H=mta1.primary.na.epidm.net [146.82.220.35] HELO=[mta1.primary.na.epidm.net] F=[weightwatchers-ctg1aeb7caadi43azcex4vimj4tjacha@info.weightwatchers.com.au] T=[gjlittlejohns@activ8.net.au] S=[Chicken wrap recipe :: Paula lost 20.1kg :: Share your plate]
+X-Sender-Host-Address: 146.82.220.35
+X-Sender-Host-Name: mta1.primary.na.epidm.net
+
+Weight Watchers (R) Australia & New Zealand
+10 December 2012
+
+W E L C O M E  T O  Q U I C K B I T E S !
+
+The weekly newsletter you've requested from WeightWatchers.com.au.
+
+---------------------------------------------------------------------
+
+HELP US FIND AUSTRALIA'S BEST PLATE
+
+Simply click on your favourite plate from the two displayed. To get
+involved: Snap and submit your own plate via Instagram #plateoff - May
+the best plate win!
+
+Share your plate:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls3p0Ej
+
+*********************************************************************
+
+JOIN FOR $1 | START TODAY
+
+Get started on the ProPoints Plan and you'll soon be celebrating
+weight-loss success like thousands of our members. Join today for $1*.
+
+Join today and save:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls3q0Ek
+
+*********************************************************************
+
+RECIPE TO TRY | CHICKEN AND AVO WRAP
+
+Roasted capsicum, fresh chives and creamy avocado top these
+quick-to-assemble wraps. They beat the old sandwich any day!
+
+Get the recipe:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls3r0El
+
+*********************************************************************
+
+MY STORY | PAULA LOST 20.1KG
+
+"One thing to remember is that good health doesn't have a
+finish line..."
+
+Meet Paula:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls3s0Em
+
+*********************************************************************
+
+IN THE SHOP | STRAWBERRY FRUITIES
+
+Satisfy your sweet tooth with Weight Watchers Fruities. They come in a
+portable handy flip-top packet. Each order comes in a duo pack with 2
+ProPoints(R) values per box.
+
+Buy now:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls3t0En
+
+*********************************************************************
+
+PRODUCT WATCH
+QUESTION OF THE WEEK
+
+Q: Does lack of sleep contribute to obesity?
+
+Get the answer:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls3u0Eo
+
+*********************************************************************
+
+WHY WEIGHT WATCHERS?
+
+ProPoints(R) plan
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls3v0Ep
+
+What you'll eat
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls3w0Eq
+
+How we're unique
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls3x0Er
+
+Meetings or Online?
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls3y0Es
+
+*********************************************************************
+
+FOLLOW WEIGHT WATCHERS
+
+Facebook:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls3z0Et
+
+Twitter:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls310Eg
+
+YouTube:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls320Eh
+
+*********************************************************************
+
+More to Explore
+
+KNOW YOUR BMI?
+Take the quiz to find your 10% goal weight and healthy BMI.
+
+Take the quiz:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls330Ei
+
+GET OUR FREE APP
+Download our app and get Weight Watchers recipes and ideas
+on your smart phone.
+
+App:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls340Ej
+
+MAGAZINE
+See what's inside our latest issue and snap up this month's
+subscription offer.
+
+Subscription offer:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls350Ek
+
+---------------------------------------------------------------------
+
+We hope you have enjoyed this issue of QUICKBITES.
+
+Sincerely,
+
+WeightWatchers.com.au
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+To unsubscribe from future communications, check out the link below:
+http://www.weightwatchers.com.au/afl/ecrm/index.aspx?redirecturl=http://www.weightwatchers.com.au/util/news/unsubcriber_cntr.aspx?email=337AB807B1A7BCB10907047249B95779E1981FD7FC258D73B5E27A2E198C5C22
+
+Change your e-mail address and select what type of e-mail you'd like
+to receive at the e-mail control centre:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls360El
+
+To view our privacy policy, check out the link below:
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls370Em
+
+You are subscribed as GJLITTLEJOHNS@ACTIV8.NET.AU.
+
+
+(C) 2012 Weight Watchers International, Inc. (C) 2012
+WeightWatchers.com, Inc. All rights reserved. WEIGHT WATCHERS and
+ProPoints are the registered trade marks of Weight Watchers
+International, Inc. and are used under licence by Weight Watchers
+Services Pty Ltd.
+
+*Ongoing fees apply after joining. Please click for full terms and
+conditions.
+http://info.weightwatchers.com.au/cgi-bin9/DM/t/e8om0QNenh02gM0Ls380En
+
+Weight Watchers Services Pty Ltd | Locked Bag 2020 | Ultimo, NSW 2007
+Australia
+
+
+
+

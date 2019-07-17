@@ -1,0 +1,105 @@
+Subject:Re: Rolling release (et Skype)
+Le Thu, 15 Nov 2012 14:01:52 +0100,
+Danilo Uccelli <danucc@gmail.com> a =C3=A9crit :
+>Au niveau sources.list, j'ai juste ajout=C3=A9 le
+>http://www.deb-multimedia.orgavec mention sid, pour le moment j'y
+>trouve tout ce dont j'ai besoin =C3=A0 part
+>skype car celui sur le site de skype se plaint de d=C3=A9pendances
+>incompatibles. Mais pour l'instant je peux m'en passer.
+
+Pour ce qui concerne Skype, je te propose d'ajouter un truc de ce genre
+dans tes proc=C3=A9dures de mises =C3=A0 jour :
+# Support de plusieurs architectures
+dpkg --add-architecture i386
+apt-get update
+# T=C3=A9l=C3=A9chargement de Skype en version x86
+wget -O skype.deb http://www.skype.com/go/getskype-linux-deb
+dpkg -i skype.deb
+# Gestion des d=C3=A9pendances
+apt-get install -f
+# Suppression du .deb
+rm skype.deb
+
+Perso, en Sid 64 bits, c'est la solution que je trouve la meilleure.
+Et depuis un jour ou deux, on a chang=C3=A9 de version de Skype (4.1) avec
+le support de la fusion des comptes MSN & Skype (oui, je sais, c'est un
+peu HS, mais j'ai bien aim=C3=A9 ;-)).
+
+>Je n'ai pas de fichier preferences, si quelqu'un pense qu'il faut faire
+>quelque chose pour la gestion du d=C3=A9p=C3=B4t multimedia, je suis prene=
+ur.
+
+En ce qui me concerne, voici mes grandes lignes :
+<sources.list>
+### Miroir Debian 'Unstable' ###
+deb [arch=3Damd64,i386] http://http.debian.net/debian unstable main
+contrib non-free
+
+### Miroir Debian 'Testing' ###
+deb [arch=3Damd64,i386] http://http.debian.net/debian testing main
+contrib non-free
+
+### Miroir Debian 'Stable' ###
+deb [arch=3Damd64,i386] http://http.debian.net/debian stable main contrib
+non-free
+
+### Miroir Debian 'Experimental' ###
+deb [arch=3Damd64,i386] http://http.debian.net/debian experimental main
+contrib non-free
+
+### Miroirs 'Debian Multimedia' ###
+deb http://www.deb-multimedia.org unstable main non-free
+deb http://www.deb-multimedia.org experimental main
+
++ quelques autres d=C3=A9p=C3=B4ts
+</sources.list>
+
+<preferences>
+Explanation: Debian Unstable (Sid)
+Package: *
+Pin: release a=3Dunstable,o=3DDebian
+Pin-Priority: 800
+
+Explanation: Debian Testing
+Package: *
+Pin: release a=3Dtesting,o=3DDebian
+Pin-Priority: 600
+
+Explanation: Debian Stable
+Package: *
+Pin: release a=3Dstable,o=3DDebian
+Pin-Priority: 400
+
+Explanation: Debian Experimental
+Package: *
+Pin: release a=3Dexperimental,o=3DDebian
+Pin-Priority: 200
+
+Explanation: Debian Multimedia Unstable
+Package: *
+Pin: release o=3DUnofficial Multimedia Packages,a=3Dunstable
+Pin-Priority: 850
+
+Explanation: Debian Multimedia Experimental
+Package: *
+Pin: release o=3DUnofficial Multimedia Packages,a=3Dexperimental
+Pin-Priority: 860
+
++ ce qui concerne les autres d=C3=A9p=C3=B4ts
+</preferences>
+
+Et tout =C3=A7a fonctionne plut=C3=B4t bien...
+
+Bon courage.
+
+David.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121115141550.00919f6e@debian-david
+

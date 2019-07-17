@@ -1,0 +1,40 @@
+Subject:Re: Problemas al actualizar Debian 6
+El Tue, 20 Nov 2012 15:40:44 -0500, luis escribió:
+
+> Hola a todos
+> 
+> Cuando trao d actualizar y llegando ya al final de la actualización del
+> sistema me da este error que acontinuación muestro
+
+¿Sigues con el mismo problema? :-?
+
+(...)
+
+> Descargados 85,7 kB en 15seg. (5696 B/s) W: Imposible obtener
+> http://security.debian.org/dists/squeeze/updates/main/source/Sources.gz
+> La suma hash difiere
+> 
+> E: No se han podido descargar algunos archivos de índice, se han
+> ignorado, o se ha utilizado unos antiguos en su lugar.
+
+(...)
+
+Puedes probar con dos cosas (dinos qué resultado obtienes con cada una de 
+ellas):
+
+1/ Aptitude
+
+2/ Comenta ("#") las líneas "deb-src" de tu archivo "/etc/apt/
+sources.list" y prueba de nuevo el "apt-get update".
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8ipvp$fe8$1@ger.gmane.org
+

@@ -1,0 +1,68 @@
+Subject:Re: MKV se oye pero no se ve
+El Thu, 30 Aug 2012 16:16:18 +0200, Marc Marí escribió:
+
+> Hola
+
+(ese top-posting...)
+
+> Cada vez parece que hablo mejor otras lenguas y peor la propia :D
+
+Ná, eso es cosa del catalán/valenciano, que de vegades ens la fa bona :-P
+
+> Realmente, he probado con 5 o 6 mkvs, aunque tengo muchos por ahí que
+> funcionaban bien, y supongo que no funcionan ahora. MKV es el formato
+> que normalmente uso, y solo tengo unos archivos en mp4, que no se ven,
+> pero tampoco se si se veían.
+
+¿Tampoco se ven los mp4? Juvar... ¿y con totem?
+> 
+> Si pruebo con el vlc por línea de comandos (sin nada de verbose o
+> debug), cosas que puedan ser errores me sale: Warning: call to
+> srand(1346332680)
+
+(...)
+
+> Warning: call to signal(13, 0x1)
+>  m_el[mi_level] == NULL
+>  arrrrrrrrrrrrrg Up cannot escape itself
+   ^^^^^^^^^^^^^^^
+
+X-)
+ 
+> No he podido buscar todos los errores en google, pero estoy en ello,
+> aunque aún no he solucionado nada
+
+Tampoco veo yo ningún error relacionado con el vídeo, es como si no 
+tuviera ningún problema.
+ 
+> Mplayer, por su parte, muestra esto:
+> open: No such file or directory
+> [MGA] Couldn't open: /dev/mga_vid
+> open: No such file or directory
+> [MGA] Couldn't open: /dev/mga_vid
+> [VO_TDFXFB] This driver only supports the 3Dfx Banshee, Voodoo3 and
+> Voodoo 5. [VO_3DFX] Unable to open /dev/3dfx.
+> 
+> Pero nada de esto parece fatal para el video, además, en mplayer, me
+> dice claramente que:
+> Opening video decoder: [ffmpeg] FFmpeg's libavcodec codec family INFO:
+> libavcodec init OK!
+> Selected video codec: [ffh264] vfm: ffmpeg (FFmpeg H.264)
+> 
+> El codec de vídeo fue cargado bien
+
+Quizá necesites algún códec extra o los que se encuentran en el repo 
+multimedia. Lo raro es que te haya dejado de funcionar de un día para 
+otro cambiando sólo la versión del kernel :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k1nube$pns$5@ger.gmane.org
+

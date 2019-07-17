@@ -1,0 +1,36 @@
+Subject:Re: Issues w/ POSIX's strftime() ?
+On 9/14/2012 18:12, Philip Prindeville wrote:
+> I tried to use strftime() with '%T' and it fails... but works when I use '%H:%M:%S' instead. Is this a known issue?
+
+I thought I reported that years ago - you have to use %H:%M:%S
+instead until someone fixes it.
+
+> Also, '%Z' is supposed to give the time zone name or abbreviation, but '%z' is supposed to give the time zone offset as +/-hhmm.
+>
+> However, I just tried, and '%z' and '%Z' yield identical results.
+
+Same here (see below).
+
+> I'm thinking that under Win32, %Z (and %z) should be formatted via:
+>
+> TIME_ZONE_INFORMATION tzinfo;
+> DWORD ret = GetTimeZoneInformation(&tzinfo);
+>
+> if (ret == 2) {
+>    strcpy(tzName, tzinfo.DaylightName);
+> } else {
+>    strcpy(tzName, tzinfo.StandardName);
+> }
+>
+> sprintf(tzOffset, "%c%02d%02d", (tzinfo.Bias < 0 ? '-' : '+'), abs(tzinfo.Bias) / 60, abs(tzinfo.Bias) % 60);
+>
+> What am I missing?
+
+It's supposed to follow ANSI C standard (C89).
+I think %z is 'Single UNIX' only - rather than ANSI C89.
+
+
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

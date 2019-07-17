@@ -1,0 +1,28 @@
+Subject:Re: impossible ouvrir mon =?iso-8859-1?Q?c?=
+	=?iso-8859-1?Q?ompte_invit=E9?=
+Bonjour,
+
+Le mardi 18 septembre 2012 à  8:08, Nicolas Hémard a écrit :
+> >Dans quel répertoire se trouve-t-il une fois connecté (commande pwd) ?
+> */home/user2*
+> >Que vaut la variable $HOME (commande echo $HOME) ?
+> */home/user2*
+
+Ton mail d'hier à 16:18:28 (où tu as donné le résultat du ls -l) ne montre
+*aucun* répertoire /home/user2…
+
+Donc, soit le ls -l n'était pas bon, soit le répertoire /home/user2 n'existe
+pas. Il y a de toute façon quelque chose qui cloche (dans l'état des lieux que
+tu nous a fait).
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120918084240.GB7469@sebian.nob900.homeip.net
+

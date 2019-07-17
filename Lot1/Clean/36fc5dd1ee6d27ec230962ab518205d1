@@ -1,0 +1,33 @@
+Subject:Re: sid sur un portable
+On 29/11/2012 20:39, Cyrille wrote:
+> Bonsoir,
+> Ai concrétisé l'achat d'un portable sans OS. Je vais y mettre une SID.
+> J'ai actuellement un DELL avec une SID mais c'est du "vieux" matériel et ça fait quelques temps que je n'ai pas trifouillé ou suivi le développement Linux.
+> Avec les dernières SID, y a t il des subtilités à connaitre dans l'installation pour un laptop ou l'installation par défaut est elle suffisante ?
+>
+> C'est ce portable http://www.ldlc.com/fiche/PB00137372.html
+>
+> D'avance merci
+>
+> Cyrille
+>
+Bonjour,
+
+Ce portable est du 'tout intel' y compris la carte graphique et le 
+chipset wifi. Tout devrait fonctionner tel quel avec une sid. A 
+l'exception peut-être du bluetooth si on en croit les commentaires sur 
+le site ldlc... Lors de l'installation il faut juste être sûr 
+d'installer l'ensemble de paquets 'laptop' mais normalement 
+l'installateur te le coche par défaut.
+
+Pascal
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B85487.6090604@gmail.com
+

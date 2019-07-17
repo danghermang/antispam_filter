@@ -1,0 +1,71 @@
+Subject:Re: [Antenna-discussion] Ordinary run of the mill dipole
+                       EZNEC+ ver. 5.0
+
+20m Dipole in Free Space                     11/8/2012 11:32:20 PM
+
+          --------------- SOURCE DATA ---------------
+
+Frequency = 14.16 MHz
+
+Source 1      Voltage = 72.83 V at 0.0 deg.
+               Current = 1 A at 0.0 deg.
+               Impedance = 72.83 - J 0.0000813 ohms
+               Power = 72.83 watts
+               SWR (50 ohm system) =  1.457  (74.76 ohm system) = 1.026
+
+
+Wire OD = 2mm
+Total overall length of dipole is 10.2699m
+
+
+
+Lou KE4UYP
+
+
+
+
+
+On 11/8/2012 6:41 PM, Richard Fry wrote:
+> Alan G3NOQ wrote:
+>> Kirk is right - Kraus was partly right. The amount by which the 
+>> dipole has to be shortened depends on the diameter, a fatter dipole 
+>> needs to be shortened by more to make the reactance zero.
+>
+> John Kraus did not change the conductor OD in his textbook example for 
+> a 1/2WL, center-fed dipole when he stated that its (free space) 
+> radiation resistance would drop from 73 ohms to ~ 65 ohms, when its 
+> end-end length was reduced to achieve an input reactance of zero ohms 
+> -- i.e., first resonance.
+>
+> R. Fry
+> _______________________________________________
+> This message was sent to: ke4uyp@tampabay.rr.com
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address 
+> this message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+>
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

@@ -1,0 +1,73 @@
+Subject:=?iso-8859-1?Q?RE:_aceler?= =?iso-8859-1?Q?ar_la_nave?=
+	=?iso-8859-1?Q?gaci=F3n_en_?= =?iso-8859-1?Q?Internet?=
+
+Hola Muchas gracias por refrescar la=A0informaci=F3n=2C=A0
+
+El tema del dns evidentemente puede ayudar a mejorar la=A0navegaci=F3n=2C=
+=A0
+he tenido problemas cuando los servidores no=A0responden=A0o son lentos=A0
+haciendo su trabajo=2C sobre los provedores locales al ISP: Malos=2C ya ten=
+go tiempo
+usando google dns.
+
+=DAltimamente=A0yo he tenido mas problemas de=A0latencia=A0en mi=A0navegaci=
+=F3n=2C=A0
+con algunos problemas que asocio al Adobe Flash Player=2C se bloquea=2C no =
+responde=2C
+no tiene un buen cache=2C etc.
+
+Saludos.
+
+> Buenas=2C me conecto a Internet v=EDa wi-fi desde mi pc con debian 6 a un
+> proveedor local de Internet pero que en momento se pone lento sobre
+> todo en las noches raz=F3n por el cual he estado buscado informaci=F3n
+> sobre una manera de acelerar la navegaci=F3n y me topado con dnsmasq=2C u=
+n
+> servidor DNS y DHCP ligero para su implementacion me he guiado de
+> este tutorial
+>=20
+> http://gnulinuxtips.blogspot.com/2010/06/acelerar-navegacion-con-dnsmasq.=
+html
+>=20
+> salvo en la parte de:
+>=20
+> $ sudo gedit /etc/dhcp3/dhclient.conf
+>=20
+> en debian 6 es:
+>=20
+> # nano /etc/dhcp/dhclient.conf
+>=20
+> el resultado despu=E9s de su implentacion mejoro en algo la navegaci=F3n
+> pero lo he probado por la ma=F1ana=2C ha esa hora hay pocos usado
+> Internet=2C faltar=EDa probar en la noche para saber realmente si ayuda
+> pues en esa hora la conexi=F3n a Internet es lenta.
+>=20
+>=20
+> despu=E9s de esto surgen una interrogante.
+>=20
+> hay otras formas de acelerar la conexiones a Internet desde debian 6=2C
+>=20
+> Nota: mi hardware para mi conexi=F3n a internet es una AP y su antena
+> panel montado en mi techo conectado a mi tarjeta de red desde un cable
+> de red conectada a la AP.
+>=20
+> saludos
+> --=20
+> Constantino Vargas C.
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE=2C email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/CAGbsZA9Yv=3DGT2rNAitprcPfKgE3n+aUttDp_w=
+uQ6+JpDOVhQ@mail.gmail.com
+>=20
+ 		 	   		  =
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU155-W55179F3DDF06691B40D6A4E1A60@phx.gbl
+

@@ -1,0 +1,55 @@
+Subject:Re: No-Ip en lugar en DynDns en Debian Squeeze
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+El 28/11/12 09:23, Fabián Bonetti escribió:
+> On Wed, 28 Nov 2012 10:02:00 -0200 tq <tqlistas@gmail.com> wrote:
+> 
+> El paquete se llama noip2 se encuentra en el repo sid
+> 
+> http://packages.debian.org/sid/noip2
+> 
+> O aqui yo uso este mirror
+> 
+> http://mamalibre.no-ip.org/pub/puppylinux/pet_packages-5/noip_2_2.1.9_i686_lupq_511.pet
+>
+> 
+> 
+> o el cliente http://www.no-ip.com/downloads.php?page=linux
+> 
+> Saludos
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+
+Yo uso desde hace tiempo:
+
+http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+
+y funciona estupéndamente, nunca he tenido ningún problema.
+
+Espero que te sirva.
+
+Saludos!
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+Comment: GPGTools - http://gpgtools.org
+Comment: Using GnuPG with undefined - http://www.enigmail.net/
+
+iEYEARECAAYFAlC2Ld4ACgkQTc4QiYN6hDdoCgCgiaUkciJ9L2U14NgBGNeUvhQX
+lAMAnAz14LuWLuWc9QAKnzfknDLcoopR
+=fc4q
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B62DDF.6030904@gmail.com
+

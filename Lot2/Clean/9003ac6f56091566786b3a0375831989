@@ -1,0 +1,56 @@
+Subject:	=?UTF-8?Q?Re=3A_=C2=BFEs_necesario_reinstalar_Debian_cada_vez_que_un?=
+	=?UTF-8?Q?a_nueva_versi=C3=B3n_es_publicada=3F?=
+2012/10/26 Alejandro Liv Barrera Nuncio <lividineitor@gmail.com>:
+> Para mi es importante la permanencia de la informaci=C3=B3n, aplicaciones=
+ y
+> configuraci=C3=B3n de las mismas.
+>
+> En el momento que una nueva versi=C3=B3n de Debian surja, =C2=BFes sufici=
+ente con que
+> las listas de fuentes apunten a la siguiente versi=C3=B3n?.
+>
+> Si es as=C3=AD, =C2=BFexiste el riesgo de incompatibilidades en el sistem=
+a?. En todo
+> caso, lo menos importante seria respaldar la informaci=C3=B3n y tal vez c=
+rear
+> guiones de configuraci=C3=B3n de las aplicaciones, pero lo que me interes=
+a es la
+> integridad del sistema despu=C3=A9s de dicha actualizaci=C3=B3n.
+>
+> Espero que la informaci=C3=B3n que ofrezco sea clara y suficiente.
+>
+
+Cada vez que sale una nueva versi=C3=B3n de Debian, con ella se publican
+"Release notes"[1]. El equipo de traducci=C3=B3n de Debian intenta que las
+mismas est=C3=A9n tambi=C3=A9n disponibles en Espa=C3=B1ol al momento de pu=
+blicaci=C3=B3n.
+
+[1] http://www.debian.org/releases/stable/releasenotes
+
+En las mismas, se incluye el proceso recomendado para actualizar un
+equipo con la versi=C3=B3n estable anterior. El proceso es muy meticuloso y
+casi excesivamente detallado. Con pasos, por ejemplo, para "grabar"
+todo lo que se est=C3=A1 haciendo y todo lo que pasa por la consola para
+poder revisar si algo sale mal. Incluye tambi=C3=A9n aclaraciones sobre
+posibles problemas o diferencias notables en paquetes importantes. No
+es una lista exhaustiva, pero deber=C3=ADa de cubrir la mayor=C3=ADa de los
+casos.
+
+Te recomendar=C3=ADa leer lo que fueron las notas cuando sali=C3=B3 la vers=
+i=C3=B3n
+estable actual[2] para que te des una idea de lo que estoy hablando.
+
+[2] http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.e=
+s.html
+
+Saludos,
+Toote
+--=20
+Web: http://www.enespanol.com.ar
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CANk6MLaGwe_9fX29qTRCp_gLL9RG945Gt5WhVPDkQaqGrnofPg@mail.gmail.com
+

@@ -1,0 +1,53 @@
+Subject:Re: Dudas con un segundo MX en DNS
+El Thu, 15 Nov 2012 11:37:19 -0600, troxlinux escribió:
+
+> Estimados gusto en saludarlos , tengo una duda que me quiero quitar ,
+> actualmente en la empresa donde trabajo tengo un servidor de correos en
+> Exchange 2003 que esta sobre cargado de usuarios y no tengo espacio
+> suficiente para mantenerlo , estoy configurando uno nuevo y quiero
+> publicarlo para ir poniendo usuarios nuevos ahi y ir moviendo algunos
+> otros q estan en exchange , mi duda es la siguiente tendre con este otro
+> servidor  dos servidores MX y quiero que los usuarios que esten en
+> servidor A y servidor B puedan enviarse correos sin tener ambas cuentas
+> en los servidores, o cuando les envien correo de afuera lleguen a sus
+> respectivas cuentas creadas en cualquiera de los dos servidores.
+
+(...)
+
+Hum... no termino de verlo. Lo que yo haría sería configurar el Exchange 
+2003 para que redirija todo el tráfico al segundo servidor, directamente, 
+sin que se pare a mirar los usuarios que tienes ahí, que lo mande todo al 
+servidor nuevo (onde obviamente debería estar todo configurado: usuarios, 
+configuraciones, etc...
+
+> pienso declarar en mi servidor DNS este escenario de la siguiente
+> manera:
+> 
+> ejemplo:
+> dominio : @superdominio.com
+> MX10 = mail.superdominio.com
+> MX20 = mail2.superdominio.com
+> 
+> mail   IN A X.X.X.1
+> mail2 IN A X.X.X.2
+> 
+> 
+> no se si estoy en lo correcto? , alguien que por fa me ilumine
+
+Bueno, los registros MX sirven para dar "prioridad" a los servidores de 
+correo, si el primero no responde se intenta con el segundo, el 
+tercero... por lo que si haces eso lo que sucederá es que el primer 
+servidor de correo que se contacte sea "mail.superdominio.com" y si está 
+operativo y funcionando se encargará de enrutar el correo.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k83ba0$vma$7@ger.gmane.org
+

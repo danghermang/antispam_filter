@@ -1,0 +1,30 @@
+Subject:postfix crear usuarios
+hola
+
+Recien instalo Postfix, Dovecot Squirrelmail y sasl para correo seguro
+
+Estoy en la parte de postfix...
+
+Ahora como hago en mi configuracion para decir que mis usuarios de correo
+con su correspondente buzon los cree en /home/Mail/
+
+con que comando lo hago
+
+Como defino que por ejemplo el usuario pepe tenga salida nacional y el
+usuario juan tenga salida internacional
+
+Donde aplico el postmap
+
+
+
+Salu2
+Cosme
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/f0f1ec30cc60eb2e55fb132be6224624.squirrel@192.168.13.16
+

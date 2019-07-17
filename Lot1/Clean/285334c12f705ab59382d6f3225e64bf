@@ -1,0 +1,17 @@
+Subject:Re: [HS] se logguer en ssh en outrepassant le shell defini dans
+	/etc/passwd
+> j'ai oublié de préciser que la machine en question est un NAS...alors le
+> liveCD n'est pas utilisable :'( je vous ai dit c'est un gros FAILED...
+
+Il n'y a pas de prise usb sur ton NAS ? Aucun moyen de démarrer avec un media
+externe ? 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121012130829.GA9604@localhost
+

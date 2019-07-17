@@ -1,0 +1,48 @@
+Subject:[Fedora-it] [SOLVED] kernel 2.6.x and Broadcom Corporation BCM4313
+ 802.11b/g/n Wireless LAN Controller (kmod-wl)
+On this Asus EeePC seashell series Notebook:
+http://www.smolts.org/client/show/pub_e9f34fbb-dd9d-4b7d-8c77-027292c81297
+
+After kernel update to 3.6.[12] (plus relative kmod-wl* module) the WiFi
+stop work
+
+I have found this article:
+https://bbs.archlinux.org/viewtopic.php?pid=3D1176829
+
+then I have install the akmod driver and I have apply to .spec file this
+patch:
+ =
+
+> [root@ludvic ~]# diff -Naur rpmbuild/SPECS/wl-kmod.spec.orig rpmbuild/SPE=
+CS/wl-kmod.spec
+> --- rpmbuild/SPECS/wl-kmod.spec.orig    2012-10-22 22:57:55.284478328 +02=
+00
+> +++ rpmbuild/SPECS/wl-kmod.spec 2012-10-22 22:32:17.134583423 +0200
+> @@ -69,7 +69,7 @@
+>  %build
+>  for kernel_version in %{?kernel_versions}; do
+>   pushd _kmod_build_${kernel_version%%___*}
+> - make -C ${kernel_version##*___} M=3D`pwd` modules
+> + make -C ${kernel_version##*___} M=3D`pwd` modules API=3DWEXT
+>   popd
+>  done
+
+Rebuild with "rpmbuild -ba rpmbuild/SPECS/wl-kmod.spec", remove old
+module "rmmod wl", uninstall and reinstall new RPMS generated, reload
+module "modprobe wl", and test it:
+
+Now WiFi work
+
+Hope this help
+
+Many thanks
+
+-- =
+
+Dario Lesca - sip:dario@solinos.it
+(Inviato dal mio Linux Fedora 17 Gnome3)
+
+_______________________________________________
+it-users mailing list
+it-users@lists.fedoraproject.org
+https://admin.fedoraproject.org/mailman/listinfo/it-users

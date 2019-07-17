@@ -1,0 +1,39 @@
+Subject:Re: Conexion 3G con network-manager [error: No agents were available
+	for	this request]
+El Sat, 15 Sep 2012 15:13:14 -0300, Manuel Ramos escribió:
+
+> On Sáb 15 Sep 2012 12:40:47 Camaleón escribió:
+ 
+>> De todas formas, por el tipo de error podría ser cosa del KWallet que
+>> es quien se encarga de gestionar las contraseñas de las aplicaciones,
+>> mira a ver si lo tienes instalado e iniciado.
+>>
+>>
+> Si, KWallet esta iniciado y funcionando, ya que al configurar kmail, me
+> solicito configurar la contraseña.
+> 
+> El tema me parece, es que existe algun otro paquete que en conjunto con
+> el paquete netkwork-manager-kde brinda la funcionalidad que quiero, me
+> refiero a que conecte el modem y me permita iniciar una conexion
+> exitosa, sin ese error. O alguna configuracion que desconozco.
+
+(...)
+
+Puedes comparar los paquetes que tienes instalados en cada uno de los 
+equipos (dpkg -l) y ver si alguno que falta está relacionado con esto.
+
+Otra cosa que puedes probar es a volver a introducir manualmente la 
+contraseña del punto de acceso y como siempre, revisar los registros, 
+quizá te den alguna pista ("/var/log/syslog" y el "daemon.log").
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k34jjj$vkm$1@ger.gmane.org
+

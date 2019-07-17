@@ -1,0 +1,43 @@
+Subject:Re: Problema activando swap desde el inicio
+El Mon, 26 Nov 2012 18:36:36 -0430, frederit mogollon escribió:
+
+> Buenas tardes, otra vez por aquí, un saludo cordial a todos los que dan
+> vida a esta prodigiosa lista...
+
+(Ese html...)
+
+(...)
+
+> El problema es que al arrancar el sistema, la swap no se activa en el
+> inicio, y debo montarla manualmente por terminal o con GParted, y ya
+> estoy cansado de eso.
+
+(...)
+
+¿Cómo la montas manualmente?
+
+> La orden "cat /etc/fstab" me arroja esto:
+(...)
+> UUID=8b66-7725-4580-4db3-a2fb-1fa01274c38a  swap   swap defaults    0   0
+(...)
+
+Hum... esto es de mi Lenny:
+
+sm01@stt008:~$ grep -i swap /etc/fstab
+/dev/sda1       none            swap    sw              0       0
+                ^^^^            ^^^^    ^^
+
+Mira a ver si eso que has puesto tú en las opciones de montaje es 
+correcto.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k92k8b$2d1$2@ger.gmane.org
+

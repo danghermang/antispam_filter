@@ -1,0 +1,21 @@
+Subject:	=?ISO-8859-1?Q?Ordenar_archivos_por_el_n=FAmero_de_caracteres_de_su_?=
+	=?ISO-8859-1?Q?nombre?=
+Pues bien, necesito realizar esa labor, hasta el momento lo que m=E1s he
+podido hacer revisando opciones en internet es la siguiente orden:
+
+for i in *; do echo $i ;  echo -e $i | tr -d '\n' | wc -c ; done
+
+pero no me sirve ya que aparecen en l=EDneas separadas el n=FAmero de
+caracteres y el nombre del archivo.
+
+Se agradece cualquier ayuda.
+
+Gracias.
+Marcos Delgado.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAB_R4cVr+em10BxnhnG5bQw8c5-K1wD7Goa73k4vKGP7CTYuKg@mail.gmail.com
+

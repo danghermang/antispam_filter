@@ -1,0 +1,55 @@
+Subject:Re: error al acutalizar multimedia yude los repo debian 6
+El mié, 26-09-2012 a las 07:38 -0400, luis@ida.cu escribió: 
+> Buenos días
+> 
+> primero doy apt-get update
+> 
+> luego
+> apt-get install debian-multimedia-keyring y me retorna lo siguiente
+> 
+> # apt-get install debian-multimedia-keyring
+> Leyendo lista de paquetes... Hecho
+> Creando árbol de dependencias
+> Leyendo la información de estado... Hecho
+> E: No se ha podido localizar el paquete debian-multimedia-keyring
+> 
+> No instala la llave
+> 
+> Me da este problema
+> 
+> Leyendo lista de paquetes... Hecho
+> W: Error de GPG: http://www.deb-multimedia.org squeeze Release: Las 
+> firmas siguientes no se pudieron verificar porque su llave pública no 
+> está disponible: NO_PUBKEY 07DC563D1F41B907
+> W: Error de GPG: http://www.deb-multimedia.org sid Release: Las firmas 
+> siguientes no se pudieron verificar porque su llave pública no está 
+> disponible: NO_PUBKEY 07DC563D1F41B907
+> 
+> 
+> En el sources list lo tengo así:
+> 
+> deb http://www.deb-multimedia.org squeeze main non-free
+> deb-src http://www.deb-multimedia.org sid main
+> deb http://www.deb-multimedia.org sid main non-free
+> 
+> Muchas gracias por la ayuda para modificar los repo de multimedia
+> 
+> Gracias a todos a ver que creen que suceda con ese error y como darle 
+> solución
+> 
+entrá en http://www.deb-multimedia.org/ y leyendo un poco ahí vas a
+encontrar la solución 
+> 
+> 
+
+
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1348662839.2489.1.camel@EeePC.ucasal.ar
+

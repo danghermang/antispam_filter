@@ -1,0 +1,29 @@
+Subject:Re: Affichage =?UTF-8?B?ZXJyb27DqSBkZSBjZXJ0YWlucyBub21zIGRlIGZp?=
+	=?UTF-8?B?Y2hpZXJz?=
+Le 26/10/2012 21:04, maderios a écrit :
+> On 10/26/2012 06:09 PM, Alain Vaugham wrote:
+>>
+>> Bonjour la liste,
+>>
+>> J'ai trouvé ce nom fichier sur un disque :
+>> ��g�Excel.Sheet.5OLE1�_Excel.Sheet.5
+>>
+>> Forcément, je ne peux ni le renommer, ni le copier, ni le détruire.
+> Paquet très utile à essayer:
+> nautilus-filename-repairer
+
+Une autre tactique pour la ligne de commande est de mettre de * pour
+tous les groupes de caractères dont on n'est pas sûr. Par exemple :
+rm -v -- *Excel.Sheet.5*Excel.Sheet.5
+
+  Vincent
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/508C63E0.1050107@free.fr
+

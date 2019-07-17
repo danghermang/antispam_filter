@@ -1,0 +1,65 @@
+Subject:Configuration du serveur tftpd-hpa
+
+Bonjour =E0 tous.
+
+J'essaie de faire fonctionner tftpd-hpa, sans succ=E8s, sur Wheezy.
+
+J'ai install=E9 tftpd-hpa et le client tftp-hpa.
+le fichier /etc/default/tftpd-hpa contient
+
+TFTP_USERNAME=3D"tftp"
+TFTP_DIRECTORY=3D"/srv/tftp"
+TFTP_ADDRESS=3D"0.0.0.0:69"
+TFTP_OPTIONS=3D"--secure -vvv"
+
+ps indique que le processus tourne bien:=20
+/usr/sbin/in.tftpd --listen --user tftp --address 0.0.0.0:69 --secure\
+-vvv /srv/tftp
+
+netstat me donne:
+udp  0  0  0.0.0.0:69  0.0.0.0:*  14951/in.tftpd=20
+/etc/inetd est enti=E8rement comment=E9=20
+
+le repertoire /srv/tftp contient un fichier foo de quelques octets, le
+repertoire et le fichier sont la propri=E9t=E9 de l'utilisateur tftp, et de
+plus comme "=E7a marche p=F4" ont des droits 666 et 777 respectivement...
+
+/etc/passwd contient
+tftp:x:116:123:tftp daemon,,,:/srv/tftp:/bin/false
+/etc/group=20
+tftp:x:123:
+
+depuis un repertoire aux droits aussi tr=E8s larges, (777,
+christophe:tftp)
+
+christophe@albert:~/testftp$ tftp -vvv localhost -c get foo
+Connected to localhost (::1), port 69
+getting from localhost:foo to foo [netascii]
+Transfer timed out.
+
+root@albert:/home/christophe/testftp# tftp -vvv localhost -c get foo
+Connected to localhost (::1), port 69
+getting from localhost:foo to foo [netascii]
+Transfer timed out.
+
+avec dans les deux cas la cr=E9ation d'un fichier foo vide dans le
+r=E9pertoire courant.
+
+Les logs sont vides et j'ai donc manifestement rat=E9 quelque chose.
+J'ai aussi essay=E9 sans --secure, voire avec --permissive mais sans plus
+de succ=E8s..
+
+Merci d'avance pour votre aide!
+--=20
+Christophe Maquaire <christophe.maquaire@free.fr>
+Happy Debian User
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121120151753.c95124218312d68908a6e4f1@free.fr
+

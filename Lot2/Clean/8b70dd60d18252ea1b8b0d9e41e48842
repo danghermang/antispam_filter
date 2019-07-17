@@ -1,0 +1,49 @@
+Subject:Re: Problema Interfaces de Red
+> Personalmente, en las port=E1tiles elimino todo lo que sea "network-algo"=
+, e
+> instalo wicd.
+>
+>
+> Una tonteroa, pero CREO (y resalto el CREO), que cuando usas un
+> network-manager de esos, tu /etc/network/interfaces lo =FAnico que deber=
+=EDa
+> tener es ellocalhost habilitados, y nada m=E1s.
+> Porque estos network-manager empiezan a levantar redes como se les d=E1 l=
+a
+> gana.
+> Y si est=E1s usando /etc/init.d/networking restart, quiere decir que la r=
+ed
+> inal=E1mbrica est=E1 difinida en /etc/network/interfaces, lo cual CREO es
+> inompatible con network-manager.
+>
+
+No estaba definida, solo lo estaba la de red cableada, que quedo
+definida cuando hice la instalaci=F3n por red.
+> Sugerencia.
+>
+> 1) Deja esto as=ED:
+>
+> =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+> # /etc/network/interfaces
+> # This file describes the network interfaces available on your system
+> # and how to activate them. For more information, see interfaces(5).
+>
+> # The loopback network interface
+> auto lo
+> iface lo inet loopback
+>
+> =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Como sugieres deje eso solo, es decir borre toda la config de la red
+cableada. Y m=E1gicamente funciono.
+
+Ya esta funcionando correctamente, por suerte no tuve que acudir a
+usar wicd, porque no estaba tolerada esa opci=F3n, gustos son gustos.
+
+Suerte y muchas gracias.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAACM3-6+SMTmTBSrhKmPcfzstL9wr8=PMpvGtf0gV0f2ao6cZg@mail.gmail.com
+

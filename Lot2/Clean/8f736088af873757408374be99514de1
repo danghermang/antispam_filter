@@ -1,0 +1,56 @@
+Subject:Re: =?ISO-8859-1?Q?r=E9sultat=2E?=
+Le jeudi 29 novembre 2012 à 23:23 +0100, Raphaël POITEVIN a écrit :
+> Sniff ! Tu n'as pas l'air d'avoir de partition /home/
+> 
+> Du coup, tu es bon pour la sauvegarde de toutes tes données.
+> 
+> Raphaël 
+
+Si ton disque de sauvegarde est suffisant, tu peux aussi tout
+sauvegarder, ça ne te coûtera qu'un peu de temps en plus. 
+
+La sauvegarde est à faire même quand tout marche, un disque grillé, une
+chute, un orage, un vol... c'est si vite arrivé...
+
+Avant la sauvegarde, sauvegarde les config, scripts, mails et ce genre
+de choses (bases de données...). Evolution par exemple récupère bien les
+archives d'une version à l'autre, mais moins bien la structure en place
+dans le cas d'un downgrade.
+
+Ensuite peux utiliser un live-CD/USB pour faire tes manips simplement.
+Gparted manipule les partitions facilement en graphique avec une bonne
+fiabilité.
+- Supprimer les dossiers système si tu as besoin de place.
+- réduire la partition existante.
+- Tu peux aussi créer ta/tes nouvelles partitions dans la foulée, ou le
+faire à l'install plus tard.
+
+Il n'y a plus qu'à réinstaller en choisissant "partitionnement manuel"
+
+- Il faut au moins créer une partition / et tu lui mets le flag
+"bootable" ( pour un portable ou un pc bureautique/famille 2 partitions
+c'est classique et généralement suffisant ).
+
+- Tu utiliser ton ancienne partition en tant que /home en conservant les
+données (donc dans le même format : ext3, ext4...)
+
+Dans le partitionnement manuel, K = conserver, F = formater (et 
+B = bootable)
+ 
+Et enfin n'oublie pas que dans les fichiers cachés il peut y avoir des
+choses intéressantes à transférer, que le premier utilisateur par défaut
+à l'uid = 1000 (même si tu prends un autre nom) et que, dans le même
+esprit, une sauvegarde se fait en root pour être sûr de transférer tous
+les fichiers quels qu'en soit le propriétaire et les permissions.
+
+P.S. Je présume que ton PC est formaté classiquement en ext3 ou ext4
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1354297634.3946.67.camel@azuki.jisui
+

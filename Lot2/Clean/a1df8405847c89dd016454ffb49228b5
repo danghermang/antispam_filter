@@ -1,0 +1,20 @@
+Subject:Re: catfish, strigi, find, locate et Cie ...
+Le Mon, 10 Dec 2012 15:10:02 +0100, zulian a écrit :
+
+> - locate me dit : erreur fatale
+> 
+> - find me dit qu'il ne trouve rien
+> 
+> - Strigi me dit
+
+rgrep (ou grep -R suivant les versions) ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50c5f09a$0$6476$426a34cc@news.free.fr
+

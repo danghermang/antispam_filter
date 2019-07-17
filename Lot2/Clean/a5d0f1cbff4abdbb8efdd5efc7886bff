@@ -1,0 +1,62 @@
+Subject:Re: Connexion ssh : timed out
+Le mercredi 31 octobre 2012 13:32:58, Sébastien NOBILI a écrit :
+> Bonjour,
+> 
+> Le mercredi 31 octobre 2012 à 13:17, Eddy F. a écrit :
+> > Avez-vous un avis sur ma configuration ? Merci
+> 
+> Elle me paraît pas mal…
+> 
+> As-tu configuré le NAT sur ton modem ?
+> 
+> As-tu des règles de filtrage iptables sur ta machine ?
+> 
+> Seb
+
+Merci.
+
+En ce qui concerne le modem, il me semble que j'ai tout essayé. 
+J'ai effectivement configuré le nat pour rediriger le port 22 TCP vers 
+la machine locale (qui reçoit une adresse IP locale statique du 
+serveur DHCP).
+
+J'ai aussi essayé de diminuer les règles de pare-feu du modem pour 
+laisser tout passer et j'ai même été mettre ma machine locale 
+(momentanément) dans la DMZ. Rien !
+
+Je n'ai pas configuré iptables sur ma debian : 
+	iptables -L
+donne
+
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination  
+
+Enfin, si j'utilise un site tel que https://grc.com/x/ne.dll?bh0bkyd2, 
+il me confirme que mon port 22 est ouvert. 
+
+Le modem est la BBox 2 de Belgacom (un Sagem F@st3464 adapté à la 
+sauce Belgacom, je pense).
+
+Bon, ok, si la configuration de mon serveur ssh n'a rien d'anormal, je 
+vais continuer à chercher dans ce foutu modem. Si quelqu'un le connaît 
+et peut m'aider, qu'il ne se prive pas même si cela sera hors sujet 
+par rapport à la liste.
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210311404.50618.edfnet-deb@yahoo.fr
+

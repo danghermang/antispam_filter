@@ -1,0 +1,46 @@
+Subject:Consulta ftp sobre internet
+Buenas tardes, estoy probando unos scripts para backup y en uno aparece
+la posibilidad de subir la copia a un ftp, está explicado para hacerlo
+en la red local, pero a mi me gustaria hacerlo a otro lugar, a traves de
+internet.
+
+Tengo una maquina con un dominio propio, al que accedo via web y que
+tiene el ftp andando y sin problemas, el tema es como "traducir" el
+nombre del ftp en el script de bash.
+
+Lo que yo uso en Filezilla es:
+
+FTP: server.soporteremoto.com.ar
+Puerto: 21
+Usuario: user
+Clave: xxxxxx
+
+en el script de ejemplo dice esto:
+
+# datos ftp, si están en blanco el backup es sólo local
+ftp_host=10.0.0.1
+ftp_user=backup
+ftp_pass=******
+
+y yo lo expresé así:
+
+ftp_host=server.soporteremoto.com.ar:21
+ftp_user=user
+ftp_pass=xxxxxx
+
+pero no funciona, y creo que es porque algo no está bien en la forma en
+la que pongo esas definiciones.
+Aguardo sus comentarios
+
+Juan
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A14B39.3040705@gmail.com
+

@@ -1,0 +1,377 @@
+Subject:Mail delivery failed: returning message to sender
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  cathedralpews@gmail.com
+    SMTP error from remote mail server after end of data:
+    host outscan.junkemailfilter.com [184.105.182.200]:
+    550-REJECTED - SpamAssassin rejected - Score=33 (21) X=outscan
+    550-H=smtpvault.secure-cluster.com [216.38.13.106]
+    550-HELO=[smtpvault.secure-cluster.com] F=[Larry@pletiarver.info]
+    550-T=[cathedralpews@gmail.com] S=[[SPAM] Catch cheats with
+    550-your-own-Wire-less-security cameras::
+    550--Find-some Now] - X=outscan H=smtpvault.secure-cluster.com [216.38.13.106]
+    550-HELO=[smtpvault.secure-cluster.com] F=[Larry@pletiarver.info]
+    550-T=[cathedralpews@gmail.com] S=[[SPAM] Catch cheats with
+    550 your-own-Wire-less-security cameras:: -Find-some Now]
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <Larry@pletiarver.info>
+Received: from [208.100.9.137] (helo=control.expansioncloud.com)
+	by smtpvault.secure-cluster.com with esmtp (Exim 4.72)
+	(envelope-from <Larry@pletiarver.info>)
+	id 1ThlXp-0004f8-Db
+	for cathedralpews@gmail.com; Sun, 09 Dec 2012 12:24:05 -0600
+Received: (qmail 14122 invoked by uid 108); 9 Dec 2012 12:24:05 -0600
+Delivered-To: chris@cathedralpews.com
+Received: (qmail 14050 invoked by uid 108); 9 Dec 2012 12:24:05 -0600
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on
+	control.expansioncloud.com
+X-Spam-Flag: YES
+X-Spam-Level: *****
+X-Spam-Status: Yes, score=5.9 required=4.5 tests=HTML_MESSAGE,MIME_HTML_ONLY,
+	RDNS_NONE,T_REMOTE_IMAGE,URIBL_BLACK,URIBL_DBL_SPAM autolearn=disabled
+	version=3.3.1
+X-Spam-Report: 
+	*  1.7 URIBL_DBL_SPAM Contains an URL listed in the DBL blocklist
+	*      [URIs: pletiarver.info]
+	*  1.8 URIBL_BLACK Contains an URL listed in the URIBL blacklist
+	*      [URIs: pletiarver.info]
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  1.1 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.3 RDNS_NONE Delivered to internal network by a host with no rDNS
+	*  0.0 T_REMOTE_IMAGE Message contains an external image
+Received: from unknown (HELO dzxe212.pletiarver.info) (75.75.244.212)
+  by control.expansioncloud.com with SMTP; 9 Dec 2012 12:24:03 -0600
+Received-SPF: pass (control.expansioncloud.com: SPF record at pletiarver.info designates 75.75.244.212 as permitted sender)
+Subject: [SPAM] Catch cheats with your-own-Wire-less-security cameras:: -Find-some Now
+Date: Sun, 9 Dec 2012 13:11:20 -0500
+To: <chris@cathedralpews.com>
+From: "WiFi_Security_Cameras" <Larry@pletiarver.info>
+Mime-Version: 1.0
+Message-ID: <3548a947b99c4c6569a44bd31ff4da4b@dzxe212.pletiarver.info>
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 8bit
+Content-Disposition: inline
+X-Spam-Prev-Subject: Catch cheats with your-own-Wire-less-security cameras:: -Find-some Now
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+<html>
+
+
+
+<head>
+
+
+
+
+
+
+
+<style type="text/css">
+
+
+
+#tab{width: 603px; background-color: #ccccff;}
+
+
+
+#tap{margin: 20px 0; font: 10px Tahoma;}
+
+
+
+#subj{font: 22px  Georgia; color: #009900 ; margin: auto auto 20px auto;}
+
+
+
+#imag{background-color:#ccccff; padding-top: 10px;}
+
+
+
+#imag1{max-width: 603px; background-color: #ccccff; padding: 16px; border: 7px double red;}
+
+
+
+#content{background-color: #FFFFFF; color: #FFFFFF; font-size: xx-small;}
+
+
+
+</style>
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+<center>
+
+
+
+<table id="tab">
+
+
+
+<tr>
+
+
+
+<td align="center">
+
+
+
+<p id="tap">
+
+
+
+Can't scan this Ad underneath? <a href="http://dzxe212.pletiarver.info/4659ba58caad5d763333117ab44bd31ff4da4b"> You may follow the site.</a>
+
+
+
+<br>
+
+
+
+</p>
+
+
+
+</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td align="center" style="padding: 10px;">
+
+
+
+<a target="" href="http://dzxe212.pletiarver.info/4659ba58caad5d763333127ab44bd31ff4da4b" id="subj"> Catch cheats with your-own-Wire-less-security cameras:: -Find-some Now </a>
+
+
+
+</td>
+
+
+
+</tr>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<tr>
+
+
+
+<td align="center" id="imag" >							
+
+
+
+<a href="http://dzxe212.pletiarver.info/4659ba58caad5d763333137ab44bd31ff4da4b"><img src="http://dzxe212.pletiarver.info/images/33346bd43.jpg" id="imag1" ></a>
+
+
+
+</td>
+
+
+
+</tr>			
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<tr>
+
+
+
+<td align="center">
+
+
+
+<a href="http://dzxe212.pletiarver.info/4659ba58caad5d763333157ab44bd31ff4da4b"><img src="http://dzxe212.pletiarver.info/images/33365f4a9.jpg"/></a>
+
+
+
+</td>
+
+
+
+</tr>
+
+
+
+<tr><td></td></tr><tr><td></td></tr><tr><td></td></tr>
+
+
+
+<table style="width: 603px; background-color: #FFFFFF; border: 7px;">
+
+
+
+<tr>
+
+
+
+<td>
+
+
+
+<span id="content">
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<p align="center">Her siblings knew 2395448102392809836 2395448102392809836 she needed to leave, get away from their tiny town, in need of new scenery, or old scenery but with a new purpose. Once they returned, Summer had seemed eased, the children certainly setting some pain behind them, the older children. Skye was mostly safe from what her father had done.
+The kids returned at eight-thirty, Nat and Erika making piles and trading candy in the kitchen. Skye was 1582580547 dressed for bed and Forest used a 1582580547 commercial break to offer an abbreviated installment of The Rutabaga Queen. As soon as Skye was asleep, Dan set Summer near Spring, in the middle of the sofa. Then he stood, lifting Summer without a hint of protest. She was nearly catatonic and as Dan hefted her down the hallway, her sisters followed.
+Spring had already  cleared  the bed, folding most of the children’s clothes except socks and underwear. Dan lay Summer down and she curled into a fetal position. Autumn knelt beside her sister. Honey, do you need a doctor?
+Shaking her head, 2395448102392809836 Summer mumbled a  distraught no.
+Summer,  3548a947b99c4c6569a44bd31ff4da4b do you wanna just sleep this off?
+She nodded, but said nothing. 3548a947b99c4c6569a44bd31ff4da4b 
+Dan led the 1582580547 women to the hallway. Let me look 1582580547 after of her.
+Shall we all NDY1OWJhNThjYWFkNWQ3NjdhYjQ0YmQzMWZmNGRhNGI_ go?
+No, I don’t want Nat and Erika aware. Just tell them she 1582580547 fell asleep, they  know I’m spending the night anyway.
+Spring nodded as Autumn looked  back. I  think I hear her.
+I’ll take care of it. Dan  stepped Summer’s way. Just make 1582580547 sure the kids brush their teeth before they go to bed and lock up before you leave. Any food to put away?
+Don’t worry. 3548a947b99c4c6569a44bd31ff4da4b We’ll get it. 1582580547 You just take care of her.
+Spring had NDY1OWJhNThjYWFkNWQ3NjdhYjQ0YmQzMWZmNGRhNGI_ already returned to the living room, Autumn sending  Dan to his charge.</p>
+<BR />
+<span style="font-family: Helvetica, Arial, sans-serif;"></span>
+<p align="center">Summer,  I’m gonna get you  undressed and then we’re going to bed, okay?
+Dan, the 1582580547 kids.
+Spring and Autumn are on it. Don’t  worry about a thing.
+She couldn’t NDY1OWJhNThjYWFkNWQ3NjdhYjQ0YmQzMWZmNGRhNGI_ worry, because it was over. Jody  was dead and she would never have to worry about him again. Terry’s words hadn’t abated, still dwelled inside, as if a beacon to Jody, keeping him so close, except that it was Dan removing her clothes, a man’s shirt over a long sleeved t-shirt, then her bra, Summer’s pink nightshirt slipped over her as if Dan was dressing Skye. He moved to Summer’s lower extremities, tennis shoes untied, but he left her socks. Then to the waistband of her jeans and Dan pulled them from Summer’s legs in slow increments. Then he slipped her underwear from her body.
+Having placed her on the left side, he had to walk NDY1OWJhNThjYWFkNWQ3NjdhYjQ0YmQzMWZmNGRhNGI_ around the bed, taking the 2395448102392809836 blankets away from the fitted sheet. Then back around he went, picking her up, laying her on the exposed linen. The blankets were laid back over her, then Dan undressed from top to bottom.
+He 1582580547 got in on his side, finding 1582580547 her still flat body unchanged. Summer didn’t move, barely breathed. Exactly how she was when taking Terry’s call on a Thursday, Jody died on a Thursday. She had missed a few days’ work; the immediate Friday afterwards, then the first three days of the following week. But seven days after Jody’s death she was scanning anything from vitamin water to condoms, all done with a smile.
+Summer, what do you want?  
+I don’t want to 1582580547 feel him anymore.
+Baby, oh Summer.  
+She accepted Dan’s hands on her 1582580547 face, along her body, down 2395448102392809836 to her pubic hair. Then it was his face, his tongue, his tears. Dan’s tears settled along her inner thighs as he kissed her, reaching into her, alleviating her pain. He had set a blanket over her chest so, as before when Jody found them, she wasn’t exposed. When Summer came, it was silent, but the pleasure was actual, therapeutic, and when Dan moved from her, she curled to her left, where he could hold her. Then she wept.</p>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+</span>
+
+
+
+</td>
+
+
+
+</tr>
+
+
+
+</table>
+
+
+
+<tr><td></td></tr><tr><td></td></tr><tr><td></td></tr>
+
+
+
+</table>
+
+
+
+</center>
+
+
+
+<br><center><a href="http://dzxe212.pletiarver.info/7ab44bd31ff4da4b84659ba58caad5d76"><img src="http://dzxe212.pletiarver.info/images/7ab44bd31ff4da4b1195284659ba58caad5d76.gif" border="0"></a></center>
+</body>
+
+
+
+</html>
+
+
+

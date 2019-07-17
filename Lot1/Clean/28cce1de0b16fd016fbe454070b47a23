@@ -1,0 +1,41 @@
+Subject:Re: [rlug] chroot jail
+http://lwn.net/Articles/252794/
+"chroot() is a useful call, many install programs use it, as do
+programs that need to see a consistent set of older libraries, but it
+has very limited use in security applications.
+It does NOT provide a sandbox that can be used to test suspicious
+code, that code might escalate its privilege and access anything it
+wished.
+Maintaining an up-to-date chroot() environment adds an additional
+burden on administrators as well; update tools do nothing to help keep
+utilities secure if they live outside of the normal places.
+It is probably safest to avoid using it as any kind of security tool."
+
+
+   Mircea "Really, chroot for testing possibly rogue code ?!?!?!" C.
+
+
+2012/11/2 Alex 'CAVE' Cernat <cave@cernat.ro>:
+> salut
+>
+> trebuie sa dau acces cuiva sa testeze niste programe, si binenteles ca
+> vreau sa-l bag la parnaie, ca doar paranoia e in top in job description,
+> nu ?
+> din consola de root chroot-ul il baga pe nastase la parnaie, sta bine
+> mersi, ruleaza tot ce are nevoie, e ok, deci chroot-ul e bine facut; dar
+> se pare ca am imbatranit si nu mai mai prind cum sa fac (si 100% safe)
+> legatura intre ssh si chroot (adica sa intre direct cu bash in chroot,
+> daca intra fara consola sa fie bagat deja in chroot - deci exclusa
+> treaba cu .bash_profile sau .bash_login, scp/stfp & friends nu are nevoie)
+> any idea ?
+>
+> Alex
+>
+> _______________________________________________
+> RLUG mailing list
+> RLUG@lists.lug.ro
+> http://lists.lug.ro/mailman/listinfo/rlug
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

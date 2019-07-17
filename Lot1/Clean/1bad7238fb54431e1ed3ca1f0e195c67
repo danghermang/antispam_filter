@@ -1,0 +1,34 @@
+Subject:Re: systemd : =?UTF-8?B?cHJvYmzDqG1lIGTDqW1hcnJhZ2Ugc2VydmljZXMg?=
+	=?UTF-8?B?YXUgYm9vdA==?=
+Le 09/09/2012 12:43, maderios a écrit :
+> Bonjour
+> J'ai installé systemd il y a quelques jours. Je suis obligé de lancer le
+> réseau et cups à la main après chaque boot
+>
+> Dans syslog
+> /sbin/ifup: failed to open statefile /run/network/ifstate: No such file
+> or directory
+
+Le message d'erreur que tu donnes me fait aussi penser à une mauvaise 
+migration vers "/run" d'un paquet comme ifupdown, initscripts ou netbase.
+
+Avant cette migration le fichier "ifstate" était dans "/etc/network/run/".
+
+
+-- 
+==============================================
+|              FRÉDÉRIC MASSOT               |
+|     http://www.juliana-multimedia.com      |
+|   mailto:frederic@juliana-multimedia.com   |
+| +33.(0)2.97.54.77.94  +33.(0)6.67.19.95.69 |
+===========================Debian=GNU/Linux===
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504DCD35.2070208@juliana-multimedia.com
+

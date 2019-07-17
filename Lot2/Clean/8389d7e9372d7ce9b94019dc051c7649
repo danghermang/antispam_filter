@@ -1,0 +1,39 @@
+Subject:Re: systemd : =?ISO-8859-15?Q?probl=E8me_d=E9marrage_service?=
+	=?ISO-8859-15?Q?s_au_boot?=
+On 09/09/2012 01:57 PM, Yves Rutschle wrote:
+> On Sun, Sep 09, 2012 at 01:40:57PM +0200, Bzzz wrote:
+>>> apt-listbugs ne signale pas que systemd est bugué... J'ai
+>>> l'impression que chez debian, peu de gens s'intéressent à systemd.
+>>> Conservatisme ?
+>>
+>> Si tu vas sur le site, il détaille tout un tas d'avantages à utiliser
+>> systemd, cependant QUI a réellement besoin de cela?....
+>
+> Ouais, bouter plus vite, c'est bon pour les gens qui
+> boutent... Sous Debian, on ne boute qu'une fois (jusqu'à la
+> prochaine panne matérielle. :) ).
+
+Booter + vite n'a pas d'intérêt pour moi. La police Debian fait que les 
+services tournent en permanence. Si on veut les désactiver "en 
+permanence" et les démarrer à la main seulement quand on en a besoin, on 
+se retrouve avec des erreurs notamment, lors des mises à jour de sysv-rc 
+insserv etc...
+Systemd permet de lancer des services à la main sans perturber le 
+système. Cela fonctionne bien à l'instant où j'écris, à part deux 
+services essentiels non lancés au boot, networking et cups. C'est un peu 
+gênant.....
+
+Cordialement
+-- 
+Maderios
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504CA73B.9000103@gmail.com
+

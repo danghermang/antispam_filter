@@ -1,0 +1,99 @@
+Subject:Re: =?UTF-8?B?Q29udHLDtGxldXJzIFJBSUQgU0FTIHByaXMgZW4gY2hhcmdl?=
+Le 03/09/2012 15:53, titouan a écrit :
+> Le 31/08/2012 16:32, Arthur a écrit :
+>> Le 31/08/2012 12:53, Bzzz a écrit :
+>>> On Fri, 31 Aug 2012 10:57:27 +0200
+>>> Artur <debian-user-french@netdirect.fr> wrote:
+>>>
+>>>> Plus précisément, quels contrôleurs RAID SAS de LSI sont
+>>>> pris en charge par le driver megaraid_sas dans Wheezy et dans
+>>>> Squeeze ? Je parle bien évidemment du support natif dans le noyau
+>>>> standard, pas des drivers/modules propriétaires.
+>>> La façon la plus rapide de le savoir est de parcourir le source
+>>> du module, tu y trouveras tout ce que tu souhaites.
+>>>
+>> J'ai essayé aussi, mais je ne vois aucune référence nulle part et ce
+>> n'est pas très facile de se repérer avec les identifiants PCI quand tu
+>> n'as pas encore le matos...
+>>
+>
+> bonjour Arthur
+>
+> pour ma part, LSI megaraid 9260-4i, fonctionne très bien.
+> (Prévoir une bonne ventilation de la carte)
+>
+> il y a deux 2 ans, j'avais compilé en me servant des ressources au
+> http://www.lsi.com/support/Pages/Download-Results.aspx?keyword=9260-4i
+> maintenant, c'est natif au niveau du kernel.
+>
+> pour la partie management, soit tu accèdes à partir du bios, ou à
+> partir du megaraid management.
+>
+> 2.6.32-42-generic x86_64 GNU/Linux
+>
+> sudo lspci -d 1000:0079 -vv
+>
+> 04:00.0 RAID bus controller: LSI Logic / Symbios Logic LSI MegaSAS
+> 9260 (rev 03)
+>     Subsystem: LSI Logic / Symbios Logic Device 9260
+>     Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop-
+> ParErr- Stepping- SERR- FastB2B- DisINTx-
+>     Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort-
+> <TAbort- <MAbort- >SERR- <PERR- INTx-
+>     Latency: 0, Cache Line Size: 64 bytes
+>     Interrupt: pin A routed to IRQ 32
+>     Region 0: I/O ports at 2000 [size=256]
+>     Region 1: Memory at c5a40000 (64-bit, non-prefetchable) [size=16K]
+>     Region 3: Memory at c5a00000 (64-bit, non-prefetchable) [size=256K]
+>     Expansion ROM at c5f00000 [disabled] [size=256K]
+>     Capabilities: [50] Power Management version 3
+>         Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=0mA
+> PME(D0-,D1-,D2-,D3hot-,D3cold-)
+>         Status: D0 PME-Enable- DSel=0 DScale=0 PME-
+>     Capabilities: [68] Express (v2) Endpoint, MSI 00
+>         DevCap:    MaxPayload 4096 bytes, PhantFunc 0, Latency L0s
+> <64ns, L1 <1us
+>             ExtTag+ AttnBtn- AttnInd- PwrInd- RBE+ FLReset+
+>         DevCtl:    Report errors: Correctable- Non-Fatal- Fatal-
+> Unsupported-
+>             RlxdOrd+ ExtTag+ PhantFunc- AuxPwr- NoSnoop+ FLReset-
+>             MaxPayload 256 bytes, MaxReadReq 512 bytes
+>         DevSta:    CorrErr+ UncorrErr- FatalErr- UnsuppReq+ AuxPwr-
+> TransPend-
+>         LnkCap:    Port #0, Speed 5GT/s, Width x8, ASPM L0s, Latency
+> L0 <64ns, L1 <1us
+>             ClockPM- Suprise- LLActRep- BwNot-
+>         LnkCtl:    ASPM Disabled; RCB 64 bytes Disabled- Retrain-
+> CommClk+
+>             ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+>         LnkSta:    Speed 5GT/s, Width x8, TrErr- Train- SlotClk+
+> DLActive- BWMgmt- ABWMgmt-
+>     Capabilities: [d0] Vital Product Data <?>
+>     Capabilities: [a8] Message Signalled Interrupts: Mask- 64bit+
+> Queue=0/0 Enable-
+>         Address: 0000000000000000  Data: 0000
+>     Capabilities: [c0] MSI-X: Enable- Mask- TabSize=15
+>         Vector table: BAR=1 offset=00002000
+>         PBA: BAR=1 offset=00003800
+>     Capabilities: [100] Advanced Error Reporting <?>
+>     Capabilities: [138] Power Budgeting <?>
+>     Kernel driver in use: megaraid_sas
+>     Kernel modules: megaraid_sas
+>
+>
+
+Ah ! Super, merci.
+
+-- 
+Cordialement,
+Artur.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504747ED.2070901@netdirect.fr
+

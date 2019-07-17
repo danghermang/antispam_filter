@@ -1,0 +1,27 @@
+Subject:[OT] JSP y envio de formularios POST
+Se que es un offtopic, pero he buscado en varios lugares y no he 
+encontrado suficiente informacion.
+
+Estoy haciendo un pequeño JSP que necesito usar para enviar 
+automaticamente un formulario POST a otro servidor.
+
+He encontrado la libreria Apache-Common, y este tiene una clase llamada 
+HttpClient, y trae ademas todos los metodos entre ellos, el method POST, 
+ahora, no he encontrado como hacerlo funcionar, siempre me devuelve 
+error 500.
+
+Ahora bien, lo que se necesita yo lo habia resuelto con un php y curl, 
+pero exigen que sea sobre JSP, y no tengo esa gran idea de como 
+lograrlo. No se que librerias usar.
+
+Alguien puede darme un norte?? o un buen tutorial??
+
+Gracias.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/508AA2EF.7050303@lt.datazucar.cu
+

@@ -1,0 +1,41 @@
+Subject:Re: Duda para eliminar KDE
+Darío <darioslc@gmail.com> writes:
+
+> Hola debianeras/os, tengo una duda con la eliminación de KDE, ya que
+> Wheezy me informa qu hay actualizaciones a realizar, cuando las miro,
+> hay cosas para KDE, y no uso este escritorio. Antes de aceptar voy a
+> la consola y tecleo:
+>
+> apt-get remove --purge kdelibs* kde*
+>
+> lo cual me tira todo esto:
+
+
+...
+
+> Los paquetes indicados a continuación se instalaron de forma
+> automática y ya no son necesarios.
+
+>   kaffeine* 
+
+> ¿Desea continuar [S/n]?
+>
+> por lo que se ve no hay nada relativo a KDE, mi duda es por qué quiere
+> eliminar todo lo demás que no tiene que ver con KDE y por qué las
+> actualizaciones incluyen cosas de KDE como ser kde-runtime (sin estar
+> instalado como se muestra arriba de todo) kde-runtime-data
+> kdelibs-bin, etc.
+
+Eso porque tienes unos cuantos programas instalados que dependen de las
+bibliotecas de KDE. Por ejemplo, kaffeine reqiere kde-runtime:
+
+[1] http://packages.debian.org/wheezy/kaffeine
+
+Elimina todas las aplicaciones que dependen de las bibliotecas de KDE.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87txszd8jf.fsf@tochka.ru
+

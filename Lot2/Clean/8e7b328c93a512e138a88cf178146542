@@ -1,0 +1,47 @@
+Subject:Re: [HS] conseil imprimante-scanner
+On Thursday 08 November 2012 03:15:09 J=C3=A9r=C3=B4me wrote:
+> Comme je disais, soit le pilote existe, soit tu installe le pilote
+> approchant qui fonctionne tr=C3=A8s bien m=C3=AAme s'il peut =C3=A9ventue=
+llement
+> manquer un param=C3=A8tre (ex. pilote hl-2170w pour la hl-2250dn ou la
+> hl-2270dw), soit tu installe le pilote constructeur que tu trouvera =C3=
+=A0 :
+> http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/index.html
+> (paquets en 32 bits par contre, il faut installer ia32-libs)
+> No-stress ;)
+
+> Pour HP, =C3=A7a doit pas =C3=AAtre loin. Le soft (hplip) est plus lourd =
+et
+> sp=C3=A9cifique et plus lourd mais bien g=C3=A9r=C3=A9 avec CUPS et XSANE=
+ pour les
+> scanners. =C3=87a marche bien et se configure tr=C3=A8s facilement avec h=
+plip-gui
+> (et plus durement avec hp-setup) pour tous les mod=C3=A8les que j'ai eu e=
+ntre
+> les mains, v=C3=A9rifie quand m=C3=AAme =C3=A0
+> http://hplipopensource.com/hplip-web/supported_devices/index.html).
+
+> Donc =C3=A0 priori pas de mauvaise surprise avec ces deux marques. Il me
+> semble qu'il y a d'autres marques comme Samsung qui fournissent le
+> support Linux =C3=A9galement, mais je n'ai pas test=C3=A9.
+
+Grand merci pour ces conseils techniques.
+
+Effectivement, selon la boutique pr=C3=A8s de chez moi=20
+qui vend et recharge des cartouches+ toner,
+elle conseille les imprimantes HP et BROTHER
+(cartouches et recharges moins ch=C3=A8res + mat=C3=A9riels fiables).
+Bien des imprimantes Samsung ont des pilotes Linux
+mais cartouches plus ch=C3=A8res.
+
+Andr=C3=A9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211081230.52070.andre_debian@numericable.fr
+

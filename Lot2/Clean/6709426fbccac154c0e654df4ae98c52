@@ -1,0 +1,14 @@
+Subject:[Flexradio] Changing TX frequency while transmitting on FLEX-1500
+While testing my FLEX-1500 driving a DEMI L432-28HP transverter on CW, I noticed the transmit frequency did not change while transmitting, even though VFO A was being changed through CAT commands. PowerSDR v2.4.4 was being controlled by SatPC32 via CAT and the frequency was changing due to changing Doppler shift of a amateur satellite. The FLEX-1500 was driving a 432 MHz transverter using the XVTR table in PowerSDR.
+
+As long as the key was down, the frequency transmitted did not change even though VFO A changed. If the transmitter was un-keyed momentarily, the transmitted frequency changed to the new VFO A frequency, but held steady as long as the key was held down even though VFO A continued to change.
+
+Am I missing something that is keeping the frequency from changing? 
+
+Ron W5RKN
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

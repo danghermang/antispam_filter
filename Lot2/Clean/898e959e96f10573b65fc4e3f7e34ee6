@@ -1,0 +1,26 @@
+Subject:Re: zones horaires
+Tanguy Ortolo <tanguy+debian@ortolo.eu> writes:
+
+> Bzzz, 2012-09-17 15:38+0200:
+>> je pense que je vais me cantonner à UTC ± NN:NN, au moins ça lève
+>> toute équivoque.
+>
+> Mieux encore : contrairement aux sigles, les décalages UTC peuvent être
+> compris par n'importe quel humain intelligent après de très courtes
+> explications.
+
+Sauf que si je veux parler d'un rendez vous tout les jours à 10h, le
+décalage UTC pose problème: 10h en été n'est pas la même heure UTC que
+10h en hivers...
+-- 
+Rémi Vanicat
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/877grqzjbx.fsf@debian.org
+

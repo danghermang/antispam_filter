@@ -1,0 +1,45 @@
+Subject:Re: =?ISO-8859-1?Q?Probl=E8me?= d'affichage en lecture
+	=?ISO-8859-1?Q?vid=E9o?=
+Le Mon, 10 Dec 2012 11:02:03 +0100
+J=E9r=F4me <jerome@aranha.fr> a =E9crit:
+
+> Le lundi 10 d=E9cembre 2012 =E0 02:01 +0100, Ga=EBtan PERRIER a =E9crit :
+> > Bonjour,
+> >=20
+> > Je rencontre un probl=E8me d'affichage en lecture d'une vid=E9o (une li=
+gne qui
+> > d=E9file et qui d=E9cale l'image) sur l'un de mes 2 affichages.
+> > J'ai une CG Nvidia GT430 avec pilote Nvidia (310-19) avec deux =E9crans=
+ :=20
+> > - DELL U2410 connect=E9 en DVI
+> > - Sony Bravia KDL-40EX500 connect=E9 en HDMI
+> > Le probl=E8me appara=EEt sur ce dernier aussi bien avec Totem que VLC. =
+Aucun
+> > soucis sur le Dell.
+> >=20
+> > Est-ce que quelqu'un aurait une id=E9e de la cause ? Et comment le r=E9=
+soudre ?
+> >=20
+> > Ga=EBtan
+>=20
+> Peut-=EAtre un probl=E8me de d=E9tection d'un param=E8tre d'=E9cran. V=E9=
+rifier si
+> une configuration manuelle, en regardant bien les sp=E9cifications
+> constructeur, changerait quelque chose, ou en changeant la config au
+> niveau de l'=E9cran (vitesse rafra=EEchissement, r=E9solution, mode de
+> recadrage/zoom...).
+
+J'ai essay=E9 les 3 fr=E9quences de rafra=EEchissement possible mais sans s=
+ucc=E8s.
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121211000817.4eed0ad50018f7fa0cbdb316@neuf.fr
+

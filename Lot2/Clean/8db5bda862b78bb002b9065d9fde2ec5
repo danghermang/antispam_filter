@@ -1,0 +1,45 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+On Nov 14, 2012, at 12:44 PM, Jeremy Anthony Kinsey <jer@mia.net>
+ wrote:
+
+> "Fees I think should be more directly related to resources consumed."
+
+Be very carefully what you wish for...
+
+The vast majority of organizations (end-user or ISP) making use of ARIN 
+services do not need to contact the registration services helpdesk nor 
+the financial team in any given year, they don't attend the twice annual
+meetings, and they may not even participate in the number resource policy
+development process.
+
+They simply wish to make use of their number resources, to be shown as
+the listed resource holder in the registry, and to have reverse DNS work.
+
+As it turns out, the actual effort related to providing those services is 
+_not_ proportional to the number of IP addresses, but rather to the address 
+block entry itself.  (Folks should be very thankful for such, since if there 
+ever were any costs actual proportional to number of addresses, no one 
+would ever be able to afford to be issued an IPv6 address block... :-)
+
+So, the reality is that each issued IPv4 and IPv6 block (and to some 
+extent each issued AS number) imputes very similar costs on ARIN as an
+organization.  Note also that if we really wanted to be fair regarding
+costs, we should treat ISPs via the same model as end-users, and the 
+annual maintenance fees per block would be higher due to the lack of 
+the indirect subsidy of these costs by the ISP members, and the costs
+for a typical ISP would drop significantly.
+
+FYI,
+/John
+
+John Curran
+President and CEO
+ARIN
+ 
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

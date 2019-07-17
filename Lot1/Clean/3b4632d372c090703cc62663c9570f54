@@ -1,0 +1,22 @@
+Subject:Re: Modificar =?ISO-8859-1?Q?im=E1genes_de_escaner_en_Li?=
+	=?ISO-8859-1?Q?breOffice?=
+On 20/09/12 11:08, Miguel Matos wrote:
+> Saludos al grupo. Esta duda me salió un tanto "liberada". ¿Existe
+> alguna forma de poder modificar una imagen obtenida de un de escáner
+> en LibreOffice? O veamos si lo puedo plantear bien: inserto la hoja a
+> escanear, uso la función, obtengo la imagen. Esa imagen ¿cómo la puedo
+> modificar para obtener el texto en la misma posición del original?
+> Quizás lo haya, pero no sé cómo plantear la pregunta en Google, por
+> ello recurro de nuevo a la lista.
+>
+>   
+Tal vez Tesseract puede servirte con ese propósito.
+
+http://en.wikipedia.org/wiki/Tesseract_(software)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505C6AA4.7000900@gamil.com
+

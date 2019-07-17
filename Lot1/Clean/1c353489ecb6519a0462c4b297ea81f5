@@ -1,0 +1,51 @@
+Subject:Re: Availability of Numpy, WX, Matplotlib and Scipy under Python3
+On 3 September 2012 21:27, Thomas Kluyver <thomas@kluyver.me.uk> wrote:
+> Hi Nigel,
+>
+> On 3 September 2012 14:57, Nigel Sedgwick <ncs@camalg.co.uk> wrote:
+>> The application makes heavy use of numpy and wx and will soon make heavy
+>> use of scipy, matplotlib and various other python libraries that are
+>> widely used.
+>
+> Python 3 versions of numpy and scipy are already in wheezy. wx and
+> matplotlib haven't yet released Python 3 compatible versions, and
+> Wheezy is frozen now, so they've missed that boat. If you need to use
+> those packages for a substantial application in the near future,
+> sticking with Python 2 for now is your safest bet. If you use Python
+> 2.6 or 2.7 with modern idioms, it should be relatively easy to port
+> code later when all the libraries are ready.
+>
+> As far as I understand Debian, none of those python3- packages will be
+> added to Squeeze. The idea of a stable release is that the only
+> updates it gets are bugfixes and security.
+>
+
+One more thing.... there is debian-backports =)
+
+http://backports-master.debian.org/
+
+You may want to request a backport from folks who do those, and maybe
+(dependencies permitting) they can make a python3 backport of scipy /
+numpy for current stable release squeeze.
+
+
+> Looking further ahead: matplotlib is aiming to release a Python 3
+> version in October. wxPython has a development version working on
+> Python 3, but I don't see any indication of how soon a release is
+> planned. Other GUI toolkits (Qt, GTK) already support Python 3, if
+> they are an option for you.
+>
+> Best wishes,
+> Thomas
+>
+
+Regards,
+
+Dmitrijs.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CANBHLUj7xCPpO3BguJW-7+saZvJVeT_kJTqdOVfh-3-7RuKqwQ@mail.gmail.com
+

@@ -1,0 +1,40 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+ IPv4 from last /8
+On Wed, 7 Nov 2012, Gert Doering wrote:
+
+> If everybody gets exhausted doing a new round of IPv4 PI policy every 
+> time the "we do IPv4 PI only until <x> happens, and then no more!" mark 
+> is reached, other policy proposals do not get the attention they 
+> deserve.
+
+I agree totally. This seems to happen all the time, people just want to 
+solve the problems of today and care little about the longer term.
+
+I'm exhausted by this, so I would like to see a policy that handles all of 
+the space. Also, since people seem to be motivated to get IPv4 space and 
+don't care about IPv6, let's just put a price on IPv4 which is now a 
+scarce resource.
+
+I would like RIPE to stop doing justification handling for IPv4. Just 
+stop. It's wasted time for everybody. People have IPv4 addresses, they 
+won't get substantially more, people will game the system to not have to 
+return them. Let people trade them as they want, and new PI (/24) or PA 
+(/22) space costs the equivalent per-IPv4 address cost as getting a new 
+LIR, getting the /22, and paying the fees. This would mean a /24 PI out of 
+the remaining pool costs 1/4 of the /22 LIR cost (which would mean what, 
+around 750 EUR per year) ?
+
+Just take the money, keep down on administration, and use the excess money 
+to fund community development projects (R&D, FOSS etc).
+
+> (By which I'd ask you to please stay away from a PI policy that will do 
+> things like "but only in the first /9 of the last /8, not in the second 
+> /9" - *iff* the community decides to bring back IPv4 PI, then let's do 
+> it for good and for all the remaining space.  Doing it for "but not for 
+> the last /x" is exactly what we have now - let's not do *that* again).
+
+I totally agree.
+
+-- 
+Mikael Abrahamsson    email: swmike@swm.pp.se
+

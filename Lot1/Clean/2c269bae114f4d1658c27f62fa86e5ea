@@ -1,0 +1,51 @@
+Subject:Re: debian et onduleur
+Le 25/09/2012 18:41, Bzzz a écrit :
+> On Tue, 25 Sep 2012 16:31:13 +0000 (GMT+00:00)
+> "philippe.fischer@bluewin.ch" <philippe.fischer@bluewin.ch> wrote:
+> 
+>> Le mieux ne serait-il pas de mesurer le courant consommé par
+>> l'onduleur tout seul, au moyen d'une pince ampèremétrique ? Parce
+>> que le compteur électrique ne mesure certainement pas que la
+>> consommation de l'onduleur. Bonne soirée. La Grenouille
+> 
+> C'est un peu léger comme courant pour une pince qui est généralement
+> destinée aux gros ampérages (>10A|20A), plutôt avec un ampèremètre en
+> série ou une prise-wattmètre.
+
+J'ai un onduleur MGE Back-UPS ES 700 qui protège un PC avec son écran
+ainsi que quelques accessoires. Comme je me posais beaucoup de
+question sur la consommation de mon installation (allumée 24/24 :
+je m'en sers comme serveur pour des sites web, du DNS, du mail, ...)
+j'ai emprunté un jour une prise-wattmètre à un copain, au moment
+où j'ai changé d'unité centrale.
+  Je n'ai pas mesuré à vide, donc je ne connais pas la conso de
+l'onduleur seul.
+  Mais j'ai mesuré avec l'ancien ordi environ 90 W, avec le nouveau
+70 W quand les ordi étaient plus ou moins idle (et écran en veille)
+et environ 30 W de plus avec l'écran en fonctionnement et avec une
+activité minimum devant l'ordi.
+
+  Donc je confirme expérimentalement que la consommation de l'onduleur
+varie assez fortement avec celle du matériel qu'on met derrière. Et
+je confirme aussi que, dans mon cas, les modes "économie d'énergie"
+jouent pas mal sur la consommation. Évidemment, le processeur, la RAM,
+l'alim, les disques, ... sont tous des éléments influant sur la conso.
+
+Entre l'ancien et le nouveau, 20W de différence. J'ai changé la CM
+(plus de fonctionnalités), le proc (maintenant plus puissant), la RAM
+(deux fois plus) et l'alim. Même tour, même disques. Comme quoi, le
+matériel récent consomme effectivement moins que l'ancien, même s'il
+est plus performant.
+
+  Cordialement,
+    Vincent
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50621A63.1070702@free.fr
+

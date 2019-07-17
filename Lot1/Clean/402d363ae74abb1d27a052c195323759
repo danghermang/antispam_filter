@@ -1,0 +1,43 @@
+Subject:Re: [LUG] temperature sensors for Raspberry Pi brewery controller
+On 09/11/12 16:35, Mark Evans wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> On 09/11/12 09:54, tom wrote:
+>> Someone recently mentioned the
+>> http://www.raspberrypi.org/archives/2129 brewery controller. The
+>> temperature sensors are +/- 0.5 C which isn=92t accurate enough for
+>> my liking. Does anyone know of better ones?
+> Could you not use a more accurate thermometer to calibrate each sensor?
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.10 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://www.enigmail.net/
+>
+> iEYEARECAAYFAlCdMLUACgkQsoRLMhsZpFdOaQCgjbqUB3K7O0aFmtjgcEJtsdlG
+> 2YEAn3hffBkZp1fjsLiHtS/dPIyQI86e
+> =3DpY+q
+> -----END PGP SIGNATURE-----
+>
+Currently it looks the cheapest option to buy 3 kitchen 0.1c accurate =
+
+LED thermometers (for the price of 1 thermocouple resistor WTF!) and =
+
+modify them.
+I will get one and see if whats in there - a pic and a small cct board I =
+
+guess - if I can get the pic out without damaging it I can dump the code =
+
+and see how it works and may be able to extract the temperature info one =
+
+way or another.
+Calibration is a strange one - what does one calibrate against freezing =
+
+and boiling are rarely where you think they should be!
+Tom te tom te tom
+
+-- =
+
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,26 @@
+Subject:Re: =?UTF-8?B?w6l0YXQ=?= de la fragmentation d'une partition
+On Wed, 5 Sep 2012 18:58:46 +0200
+"Sylvain L. Sauvage" <Sylvain.L.Sauvage@free.fr> wrote:
+
+>=20
+> filefrag ?
+> Ok, c=E2=80=99est en extent qu=E2=80=99il cause, pas en %=E2=80=A6
+=20
+Ben c'est surtout que sa sortie est un poil cryptique.
+
+--=20
+Pad : Haha 2min pour DL 500Mo
+Dylan : grrr...
+Pad : Moi j'ai 4Mo/s de DL =3DD
+Dylan : Moi j'ai une copine=20
+Pad : Connard ...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120905192811.4c38e449@anubis.defcon1
+

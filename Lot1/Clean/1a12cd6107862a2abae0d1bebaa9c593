@@ -1,0 +1,89 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_OT=3A_un_error_l=F3gico_=28Gnu=2FLinux=2Bfilesystem=29de_di?=
+	=?ISO-8859-1?Q?sco_puede_producir_sectores_defectuosos=3F?=
+El d=EDa 10 de diciembre de 2012 13:05, Cristian Mitchell
+<mitchell69uk@gmail.com> escribi=F3:
+> El d=EDa 10 de diciembre de 2012 09:26, Flako <subforos@gmail.com> escrib=
+i=F3:
+>> El d=EDa 7 de diciembre de 2012 12:40, Camale=F3n <noelamac@gmail.com> e=
+scribi=F3:
+>>> El Fri, 07 Dec 2012 10:37:24 -0300, Flako escribi=F3:
+>>>
+>>>
+>>> Te recomiendo que antes de nada analices el disco con la herramienta de=
+l
+>>> fabricante (ahora Seagate) y le pases el "test largo". Si te da alg=FAn
+>>> error y el disco es nuevo y est=E1 en garant=EDa, gestiona un RMA y que=
+ te
+>>> manden uno nuevo.
+>>>
+>>> Si el test no detecta fallos, los errores que mencionas pueden ser
+>>> debidos a factor externos: cables y conexiones del disco en mal estado
+>>> (doblados, forzados o partidos), fuente de alimentaci=F3n, placa base,
+>>> voltajes... tendr=EDas que descartar uno a uno estos elementos.
+>>>
+>>> Por =FAltimo, quedar=EDa un error/problema de software. Probar con un k=
+ernel
+>>> nuevo ser=EDa una posible opci=F3n para descartar alguna incompatibilid=
+ad
+>>> entre la controladora del disco duro y el driver utilizado (libata, ahc=
+i,
+>>> etc...).
+>>>
+>>
+>>
+>> Hola Camale=F3n
+>> Me puse a buscar con mas detalle los errores y "puede ser" un tema de
+>> kernel con el disco.
+>> De cierta forma los errores son gen=E9ricos, pero es como que hay veo en
+>> google una cierta similitud en algunas cosas.
+>> Voy a ver si cambio kernel y veo si se repite.
+>>
+>> Saludos.
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debia=
+n.org
+>> Archive: http://lists.debian.org/CADqxbRQER5N0nSD7dRBPP0PZcmU-Hp0YAUfQh-=
+-RXcycLPBnA@mail.gmail.com
+>>
+>
+>
+> Hola
+> si estas suponiendo que es el kernel o el file system
+> por que no pones las versiones y tipos que estas usando
+>
+> un disco nuevo no te olvides que puede aver golpeado en el traslado
+> el error cuando comenzo
+> justo antes de comezar paso algo diferente
+> corte de suministro electrico
+> la maquina que fuente tiene
+> pudiste probar el disco en otra maquina y en la maquina pudiste probar
+> otro disco
+> y si podes cambia cables de datos y aliemntacion
+> la fuente es grande y de marca
+> con estos datos podemos ver de donde vien el problema
+>
+>
+> saludos
+>
+> --
+
+Hala Cristian
+El kernel es 2.6.32, y por el disco es lo que pens=E9 (que estuviese ya
+roto), por eso lo remplace por uno que verifique antes. pero el disco
+parece no estar roto..
+Por el hardware es un servidor HP DL120 G5 y como esta en producci=F3n
+no puedo jugar mucho..
+Por ahora voy a dejar el tema en standby, a esperar si falla de nuevo.
+
+Gracias a todos.
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADqxbRRLsXv7DEYhsyhwWPkzGF8ifF=mcnt4DWa3wRmng9e44g@mail.gmail.com
+

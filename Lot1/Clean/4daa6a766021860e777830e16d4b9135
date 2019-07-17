@@ -1,0 +1,71 @@
+Subject:Re: [Translators-l] Fundraising_2012/Translation/Launch_email
+In my opinion, the paragraph starting by "When I founded Wikipedia",
+should be placed above the two paragraphs written before. It placement
+is not very logical, and its placement below them reduces the positive
+effects of the arguments given in these two paragraphs, that give a
+less personal (more collective) opinion that people will adhere.
+
+No need to change the translations, just swap the paragraphs.
+
+Also, even the source in Engliosh should use "$firstname $familyname"
+instead of just "$firstname" for a good reason : it is a less familiar
+language, more formal, and more respectful (also because some people
+do not provide their first name completely, and will prefer to be
+cited with their full name (as specified in their Wikimedia account),
+or will have reversed the two account fields, but won't accept a
+sentence using "Dear" followed by only their family name, as it is
+also unrespectful in languages like French, where we want to see the
+family name preceded by either a first name or a title like
+"Monsieur").
+
+Note also : the expression "Dear" has translations that depends on the
+*gender* of the person. It is strange to have to use the neutral
+alternative (masculine/feminine) when the user has explicitly stated
+his gender (male/female/don't say) in his Wikimedia account.
+
+So may be this small sentence should become 3 distinctly translatable
+resources : one for "male", one for "female", and one for
+"unspecified". This way the email would start reading in French :
+
+- "Cher Jean Dujardin," (male gender)
+- "Ch=E8re Marion Cotillard," (female gender)
+- "Cher/ch=E8re ENIAC Computer," (unknown/unspecified gender, may be the
+name of a genderless organisation)
+
+Thanks.
+
+2012/10/16 Takashi OTA <supertakot+translators@gmail.com>:
+> Peter, Nemo,
+> Thanks for your help. Now I used $familyname instead, in Japanese transla=
+tion.
+>
+> --Takashi
+>
+> On Tue, Oct 16, 2012 at 1:53 AM, Federico Leva (Nemo)
+> <nemowiki@gmail.com> wrote:
+>> Peter Gehres, 15/10/2012 18:39:
+>>
+>>> Yes, you can use $familyname.
+>>
+>>
+>> Thanks, I've added docs to https://meta.wikimedia.org/?oldid=3D4262279 (=
+can be
+>> needed elsewhere too).
+>>
+>> Nemo
+>>
+>>
+>> _______________________________________________
+>> Translators-l mailing list
+>> Translators-l@lists.wikimedia.org
+>> https://lists.wikimedia.org/mailman/listinfo/translators-l
+>
+> _______________________________________________
+> Translators-l mailing list
+> Translators-l@lists.wikimedia.org
+> https://lists.wikimedia.org/mailman/listinfo/translators-l
+
+_______________________________________________
+Translators-l mailing list
+Translators-l@lists.wikimedia.org
+https://lists.wikimedia.org/mailman/listinfo/translators-l

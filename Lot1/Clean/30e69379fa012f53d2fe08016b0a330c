@@ -1,0 +1,32 @@
+Subject:[OT] Re: =?iso-8859-1?q?=BFAlguien?= sabe donde hay un GNU/Hurd
+	live?
+El Mon, 24 Sep 2012 22:16:16 -0500, Helado escribió:
+
+(ese html...)
+
+> El caso es que la quiero probar, sin el uso de un CD, ¿existe algún
+> GNU/Hurd live-usb?
+> 
+> no importa si es solo en modo linea de comandos. saludos.
+
+Pues según esta página¹ no parece que haya muchos proyectos que aún 
+activos :-(
+
+Podrías intentarlo con la imagen para CD de Debian GNU/Hurd², 
+modificándola para que se ejecute desde una llave USB mediante 
+UNetbootin, por ejemplo.
+
+¹http://www.gnu.org/software/hurd/hurd/running/distrib.html
+²http://www.debian.org/ports/hurd/hurd-cd
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k73f94$7h2$3@ger.gmane.org
+

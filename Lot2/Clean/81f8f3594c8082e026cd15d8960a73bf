@@ -1,0 +1,46 @@
+Subject:Enrutador sobre proxy
+Estimados:
+
+Tengo acceso a internet a través de un cable UTP, el cual ingresa a un 
+distribuidor (switch) y de allí se distribuye a los distintos usuarios.
+Esta red de internet está protegida con un proxy, el cual uno debe 
+ingresar nombre de usuario, contraseña, dirección y puerto proxy del 
+siguiente tipo:
+mi_nombre:mi_clave@proxy_empresa.com.ar  8080
+
+Esto me está trayendo inconvenientes porque convivimos con otra red 
+interna, y utilizamos el poco prolijo pero más seguro expediente de 
+desenchufar el cable UTP de la red interna y enchufar el de internet 
+cada vez que queremos accede a una u otra red, para evitar un acceso 
+externo a la red interna.
+Lo que causa que según la red que se use, los 
+mono-neurónicos-windows-explorer tienen que reconfigurar el modo en que 
+se conectan a internet.
+
+¿Qué quiero hacer?
+Conectar el cable UTP de la red WAN que me trae internet a un enrutador, 
+que éste enrutador se las tenga que ver con el proxy, es decir, que él 
+tenga la clave de acceso, y a partir de allí, tener una subred con 
+internet "transparente", o sea, que los usuarios de mi sección no tengan 
+que andar cambiando la configuración del modo de conexión a la red, y 
+que al enchufar uno u otro cable, se configuren como si no existiese 
+proxy alguno.
+
+He trasteado con dos enrutadores distintos, y no veo la forma de hacer 
+esto, dado que las opciones que posee (WAN por TCP/IP, ADSL o PPPoE) no 
+me sirven.
+
+Estoy empezando a trastear con "brazilfw" en una máquina vieja, y 
+tampoco doy pié con bola.
+
+Escucho sugerencias, dado que configurar esa maquinita con brazilfw o 
+una Debian que haga más o menos lo mismo, me da lo mismo.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5080552E.6050802@gmail.com
+

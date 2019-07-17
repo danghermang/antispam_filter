@@ -1,0 +1,34 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+ IPv4 from last /8
+* Mikael Abrahamsson
+
+> I would like RIPE to stop doing justification handling for IPv4. Just
+> stop. It's wasted time for everybody.
+
+For what it's worth, I agree fully, and I've already prepared a proposal
+that does exactly this. It's awaiting review by the WG chairs before
+being formally submitted. If you or anyone else would like to (p)review
+it to see if it is in a shape you could support, or even help co-author
+it, that would be much appreciated.
+
+>> (By which I'd ask you to please stay away from a PI policy that will
+>> do things like "but only in the first /9 of the last /8, not in the
+>> second /9" - *iff* the community decides to bring back IPv4 PI, then
+>> let's do it for good and for all the remaining space.  Doing it for
+>> "but not for the last /x" is exactly what we have now - let's not do
+>> *that* again).
+> 
+> I totally agree.
+
+Partially to this end, my proposal also takes the opportunity to clean
+up the last /8 policy - making it "the everything policy" - by merging
+it into or replacing the main policy sections.
+
+(It does not seek to actually change the mechanics of the last /8 policy
+though, only to do some cosmetic reconstructive surgery. This means the
+two "last /16" reservations for IXPs and unforeseen circumstances remain.)
+
+-- 
+Tore Anderson
+Redpill Linpro AS - http://www.redpill-linpro.com
+

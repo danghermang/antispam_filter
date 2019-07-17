@@ -1,0 +1,41 @@
+Subject:Re: Preguntas Noob
+El Thu, 06 Dec 2012 20:31:37 -0500, Jo Sé escribió:
+
+> 1).  Si yo creo servidores virtuales en apache. Les tengo que asignar un
+> dominio. 
+
+No necesariamente, puedes acceder a ellos a través de la dirección IP.
+
+> La pregunta es, Esos dominios de que van? Osea. Tiene que existir, osea
+> estar comprado? y enlazarlo con el servidor debian en X o Y servidor
+> virtual
+
+No necesariamente, pueden ser dominios ficticios (www.linux.site) para 
+uso local en tu intranet. Si quieres que sean enrutables y accesibles 
+desde el exterior (Internet) entonces sí, deben estar comprados y 
+registrados.
+
+> 2) Supongamos que tengo 3 pc en mi casa. en un pc hay un servidor ssh,
+> en otro pc hay un servidor web y en otro un servidor DNS (Por decir
+> algo) Como se hace para que una conexión entrante sepa en cual de los 3
+> pc está el servicio X o Y
+
+Pues depende del tipo de configuración de red que utilices tendrás que 
+hacerlo de una forma u otra pero an cualquier caso tienes que configurar 
+el enrutador (ordenador o modem/router) para redirigir los puertos a cada 
+equipo de tu red local.
+
+Si no usas una configuración con NAT el cortafuegos es casi de uso 
+obligatorio para proteger al resto de equipos de la red local.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9t06i$brf$1@ger.gmane.org
+

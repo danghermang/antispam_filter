@@ -1,0 +1,38 @@
+Subject:Re: Upgrade von 11.04 auf 12.10
+>  Am 08.11.2012 19:59, schrieb Ralf Lehmeier:
+>  Gibt es etwas zu beachten und wie komme ich um den Unity-Desktop drumrum.
+>  Gibt es eine M=F6glichkeit den Gnome 2 wieder zu bekommen? Den kennen
+>  meine Anwender ja oder wenigstens nur den normalen Gnome ohne Unity.
+
+Hei,
+
+
+was spricht gegen den Einsatz der Gnomeshell bei 12.04? Unity war mir zu
+z=E4h, also einfach zu schwerf=E4llig und zu langsam. Die Gnomeshell ist fix
+und die Umstellungen sind leicht f=FCr einen Gnome-Nutzer. Mir fiel es
+nicht schwer, als langj=E4hrigem Gnome-Nutzer mich an die Gnomeshell zu
+gew=F6hnen. Ich w=FCrde auch die LTS-Version empfehlen, also die 12.04.
+Allerdings habe ich das v=F6llig verbuggte Libre-Office gegen Apache
+Office (das vormalige Open Office bzw. Staroffice) ausgetauscht, das
+hier standardm=E4=DFig mitinstalliert wird; eine echte Zumutung, so etwas
+bei einer LTS-Version den Nutzern durch die Paketquellen aufzuzwingen.
+Wenn ich eine LTS-Version verwende, dann tue ich das, weil ich mich auf
+zuverl=E4ssige Software verlassen m=F6chte, die f=FCr den produktiven Einsa=
+tz
+auch funktioniert.
+
+Da muss ich doch einmal klar in schonungsloser Offenheit feststellen:
+Unity hat mich ausgebremst, Libre-Office hat mich bei meinen t=E4glichen
+Arbeiten sabotiert.
+
+
+Gr=FC=DFe
+Stefan
+
+
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

@@ -1,0 +1,76 @@
+Subject:Re: [MG] Requirements in regard to split opinion formation
+Hi Michael,
+
+There is always time, when people doing the right things together ;o)
+
+So you wrote
+>Although I'm not a member of the Meinungsfindungstool working group, I
+>have a personal concern with what you're working on.  Specifically it
+>involves the problem of "split consensus" as Thomas von der Elbe has
+>called it, or "split opinion formation" in your own terms.
+
+To be honest you don't need to be a member of our working group - even not
+of Pirate Party - when you want to cooperate with us. It's all about coming
+together and working on the right things.
+
+>But first I have some questions.  Do you have time to answer?
+
+Sure, you are welcome.
+
+>Marc said, October 10:
+>> One possible answer our working groups comes out with is, that we need to
+>> define kind of standardization. Like the W3C standardizes the internet
+>> and
+>> Business Entity Model...
+
+>And in reply to Pietro, October 16:
+>> The idea is to have a common base (framework of workflows and
+>> entities) for all tools to enable the interaction and extensibility
+>> of the overal process of decision-making. Therefore we need a common
+>> understanding of how workflows and entities interacts in the
+>> process.
+
+>I try to picture what you describe (pardon my ASCII):
+
+Sorry, I can't cite your ascii ;o)
+
+>Here T1 and T2 are competing tools for the purpose of opinion forming.
+>A user may choose T1 or T2.  But regardless of the choice (say it is
+>T2), the user will remain part of the same overall opinion forming
+>process (M).  So he/she may continue to work with other users who make
+>different choices (T1).  This technical freedom of choice is made
+>possible by the common standards, practices and/or databases (S) that
+>are shared between the competing tools.  Is this picture correct?
+
+Yes, that's what our working group tries to establish.
+
+And even more, if the user starts with T1 and then recognizes that T2 fits 
+better to his needs, than he can just switch over to T2, if T2 provides a 
+migration path to the Common Business Entity Model (CBEM) ;o)
+
+Here is a first draft of our idea of a Common Business Entity Model (where 
+'Business' means it's not a 'Data' Entity Relationship Model assignable to a 
+database schema, it's just objects found in the real world - the database 
+schema might look totally different):
+http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg
+
+Unfortunately it's not fully translated yet, but I hope you understand our 
+intention. The blue rectangles are objects that are part of the base 
+framework standard. The red ones are specific to plug-ins, using the blue 
+ones to inherit from, or just defining new ones.
+
+At the end the blue ones are those who all tools should be able to convert 
+their own Model into. That's the way the different tools can interchange 
+their data.
+
+Does this make sense?
+
+Cheers
+Marc 
+
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

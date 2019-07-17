@@ -1,0 +1,47 @@
+Subject:Re: [Koha] [Koha-devel] Koha 3.6.x EOL
+A hearty congratulations on a job well-done Jared!
+
+Kind Regards,
+Chris
+
+
+On Tue, Oct 23, 2012 at 11:11 AM, Jared Camins-Esakov
+<jcamins@cpbibliography.com> wrote:
+> Good morning.
+>
+> Earlier today I released Koha 3.6.10, my final release as Release Maintainer
+> for the Koha 3.6.x branch. So far no one has accepted the position of RMaint
+> for 3.6.x during the 3.12 release cycle, despite my various pleas,
+> entreaties, and threats. It is my hope that a new release maintainer will
+> step forward for 3.6.x, since I believe that this branch has not yet
+> exhausted its usefulness, but until this happens the 3.6.x branch should be
+> considered orphaned, and libraries should begin to consider upgrading to
+> 3.8.x or the forthcoming 3.10.
+>
+> One further note about 3.6.10: this upgrade included fixes for several
+> cross-site scripting (XSS) vulnerabilities in Koha that have been present at
+> least since 3.4. ALL USERS OF KOHA SHOULD UPGRADE TO THE LATEST RELEASE ON
+> THE BRANCH THEY ARE FOLLOWING TO RECEIVE PROTECTION FROM THESE THREATS.
+>
+> Regards,
+> Jared
+>
+> --
+> Jared Camins-Esakov
+> Bibliographer, C & P Bibliography Services, LLC
+> (phone) +1 (917) 727-3445
+> (e-mail) jcamins@cpbibliography.com
+> (web) http://www.cpbibliography.com/
+>
+>
+> _______________________________________________
+> Koha-devel mailing list
+> Koha-devel@lists.koha-community.org
+> http://lists.koha-community.org/cgi-bin/mailman/listinfo/koha-devel
+> website : http://www.koha-community.org/
+> git : http://git.koha-community.org/
+> bugs : http://bugs.koha-community.org/
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

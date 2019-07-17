@@ -1,0 +1,29 @@
+Subject:Re: OT: Acceso remoto por =?iso-8859-1?q?t=FAnel_SSH_a_trav=E9s?= de
+	proxy
+El Tue, 20 Nov 2012 09:47:31 -0300, Javier Argentina escribió:
+
+(...)
+
+> Me han metido en mi trabajo un proxy que sólo tiene habilitado los
+> puertos 80 UDP HTTP y 8080 TCP HTTP Proxy. Quiero acceder a una máquina
+> externa a través de ssh, y se me ha complicado la cosa.
+
+(...)
+
+Por si te da alguna idea:
+
+How to SSH an outside server from a computer which is behind a proxy 
+firewall?
+http://superuser.com/questions/66258/how-to-ssh-an-outside-server-from-a-computer-which-is-behind-a-proxy-firewall
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8g680$27v$7@ger.gmane.org
+

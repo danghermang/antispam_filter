@@ -1,0 +1,117 @@
+Subject:Re: [EVDL] Calb battery issue
+The voltage droop when my Thundersky cells were cold was the driving reason
+for my modifications last year.  I added 1/2" foam insulation and 1/4"
+plywood around the cells and heaters under 1/4" aluminum plates.  So far,
+the insulation is helping enough that I haven't had to plug in the heaters.
+
+If your cells don't like the environmental conditions, it is time to create
+them conditions that make them happy.  My intent is to keep the cells
+insulated and heated to75F when parked.  The cells will cool down somewhat
+while driving, but should still be warm enough.  The heaters are Hydor
+Hydrokables with thermostats.  They are attached to the back side of the
+aluminum plate in a serpentine pattern.
+
+Mike
+
+> -----Original Message-----
+> From: ev-bounces@lists.sjsu.edu [mailto:ev-bounces@lists.sjsu.edu] On
+> Behalf Of Hoegberg .
+> Sent: Thursday, November 08, 2012 3:46 PM
+> To: ev@lists.sjsu.edu
+> Subject: Re: [EVDL] Calb battery issue
+> =
+
+> =
+
+> =
+
+> =
+
+> > From: bigg_al@verizon.net
+> > To: ev@lists.sjsu.edu
+> > Date: Wed, 7 Nov 2012 22:32:41 -0500
+> > Subject: Re: [EVDL] Calb battery issue
+> >
+> > It seems most people are running their Calb cells way too hard for
+> > their amp hour rating.
+> > This is mainly because they chose too small a cell due to cost concerns.
+> > 3C continuous is, shall we say, optimistic. Even 1C continuous is
+> > pushing it.
+> > The cycle life ratings for these cells is when they are used at .3C,
+> > thats three tenths C.
+> > I run 100ah cells at no more than a brief max of 150a. Most of the
+> > time they are at 30 to 50A.
+> > I was shocked to see the increased internal resistance and resultant
+> > increased voltage sag at a not all that cold cell temp of 10C.
+> > Without pack heating expect a big hit on EV performance in cold weather.
+> >
+> > Al
+> >
+> =
+
+> =
+
+> yes,
+> I did try the Tsky LFP90 and 40AHA in winter-cell-lab-benchtest, and they
+did
+> not work at all..
+> This was very very low curent and they did drop below 1.5V at just some
+few
+> amps, and this is only at -30=B4C and they Still fails really bad to perf=
+orm
+and
+> give something useful at this normal temperature
+> -30 is nothing extreme. Not even in north China..  ;-)
+> =
+
+> So in a real and very cold winter in north europe(Jukkas friends in the
+north
+> of finland for example) or russia, the -40 to -55=B4C will cause big prob=
+lem
+for
+> most Lithium and other chem.
+> I dont even know if the cars with normal NiCD can perform decent at -
+> 50=B4Celcius.
+> But I am sure all LiFePo4 of todays low standard will be "dead", and lead
+acid
+> performs better here.
+> =
+
+> Maybe SAFT have some special mil-spec LiFePO4, but if so..it will *not* be
+> cheap...  :-)
+> =
+
+> -Please be careful with charging in winter,  even now in October we had
+-10
+> degrees C at night here in mid-sweden, just some weeks ago, The BMS must
+> not allow to charge a cold lithium cell.
+> As far as I know, it will give you permanent damage! (from internal
+Li-plating)
+> /John
+> =
+
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL:
+> http://lists.sjsu.edu/mailman/private/ev/attachments/20121108/dfa3a11d/a
+> ttachment.html
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

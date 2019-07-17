@@ -1,0 +1,75 @@
+Subject:Re: systemd : =?UTF-8?B?cHJvYmzDqG1lIGTDqW1hcnJhZ2Ugc2VydmljZXMg?=
+	=?UTF-8?B?YXUgYm9vdA==?=
+On 09/09/2012 06:34 PM, Vincent Demeester wrote:
+> Bonjour,
+>
+> On 09/09/2012 18:15, maderios wrote:
+>> […]
+>>>
+>>> La commande "mount" te retourne bien plusieurs lignes ?
+>>
+>> Non seulement ceci Ex mount /dev/sda4  /mnt/sda4 -v
+>> mount: you didn't specify a filesystem type for /dev/sda4
+>>         I will try type ext4
+>> /dev/sda4 on /mnt/sda4 type ext4 (rw)
+>>
+>
+> Frederic pose la question quand tu ne lances que la commande "mount"
+> (sans arguments). Cela te retourne l'ensemble des "points de montages".
+
+# mount
+sysfs on /sys type sysfs (rw,relatime)
+proc on /proc type proc (rw,relatime)
+udev on /dev type devtmpfs 
+(rw,relatime,size=10240k,nr_inodes=1020029,mode=755)
+devpts on /dev/pts type devpts 
+(rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,relatime,size=1633308k,mode=755)
+/dev/disk/by-uuid/3b48f8b1-4e7e-422a-ac21-3212af48c662 on / type ext4 
+(rw,relatime,data=ordered)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev,relatime)
+tmpfs on /sys/fs/cgroup type tmpfs 
+(rw,nosuid,nodev,noexec,relatime,mode=755)
+cgroup on /sys/fs/cgroup/systemd type cgroup 
+(rw,nosuid,nodev,noexec,relatime,release_agent=/lib/systemd/systemd-cgroups-agent,name=systemd)
+cgroup on /sys/fs/cgroup/cpuset type cgroup 
+(rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup 
+(rw,nosuid,nodev,noexec,relatime,cpuacct,cpu)
+cgroup on /sys/fs/cgroup/devices type cgroup 
+(rw,nosuid,nodev,noexec,relatime,devices)
+cgroup on /sys/fs/cgroup/freezer type cgroup 
+(rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup on /sys/fs/cgroup/blkio type cgroup 
+(rw,nosuid,nodev,noexec,relatime,blkio)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs 
+(rw,relatime,fd=24,pgrp=1,timeout=300,minproto=5,maxproto=5,direct)
+securityfs on /sys/kernel/security type securityfs (rw,relatime)
+mqueue on /dev/mqueue type mqueue (rw,relatime)
+/dev/sda7 on /mnt/sda7 type ext4 (rw,relatime,data=ordered)
+gvfs-fuse-daemon on /run/user/root/gvfs type fuse.gvfs-fuse-daemon 
+(rw,nosuid,nodev,relatime,user_id=0,group_id=0)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)
+gvfs-fuse-daemon on /run/user/root/gvfs type fuse.gvfs-fuse-daemon 
+(rw,nosuid,nodev,relatime,user_id=0,group_id=0)
+
+
+J'ai compilé un nouveau kernel avec option DEVTMPFS_MOUNT [=Y]
+et rebouté. Idem, ni réseau ni cups lancés
+Dans syslog
+/sbin/ifup: failed to open statefile /run/network/ifstate: No such file 
+or directory
+
+-- 
+Maderios
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504CCA5C.6080601@gmail.com
+

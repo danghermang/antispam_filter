@@ -1,0 +1,93 @@
+Subject:Re: [arin-ppml] Utilization policy is not aggregate
+On Fri, Nov 16, 2012 at 8:05 PM, Larry Ash <lar@mwtcorp.net> wrote:
+> On Fri, 16 Nov 2012 18:22:53 -0600
+>  Jimmy Hess <mysidia@gmail.com> wrote:
+>>
+>> On 11/15/12, Scott Leibrand <scottleibrand@gmail.com> wrote:
+>>>
+>>> Not necessarily opposed, but one reason for the existing language is: if
+>>> you
+>>> are at 90% of a /16, and your 3 month need is only for a /20, then you
+>>> would
+>>> still be at >80% immediately after getting your /20, without using a bit
+>>> of
+>>
+>>
+>> exactly....  and It would not be favorable to have a measure of
+>> utilization that allowed an organization to fail to efficiently
+>> utilize  each of the allocations they obtain, before requesting
+>> another.
+>>
+>> It's essentially like saying  "You used your previous allocation _SO_
+>> efficiently, that we will give you a bonus,  and  let you not use the
+>> next allocation so efficiently, and still obtain more resources."
+>>
+>> Instead it should just be  "lesson learned"  for the applicant;  if
+>> you ever actually exceed 80% utilization, stop allocating from that
+>> block, start allocating from the new one, and there is no need to
+>> change policy.
+>
+>
+> Reaching 80% on a smaller allocation is a lot
+> harder than a /18. Over time holes develop in the utilization.
+> You will reuse them but at any given time it's difficult if not
+> impossible.
+>
+> How about 80% overall with no single allocation under 70% (whatever).
+>
+> The 80% policy has always greatly favored the big guys. It's much
+> easier to reach 80% on a /18 than a /20. Natural holes that occur
+> always seem to amount to almost 10-25% in a /20 unless much of it
+> has been delegated as /23's or /24's.
+>
+> I have turned away customers on a number of occasions over the years
+> because they needed /24's or larger and I didn't have any open and no
+> hope of getting more. For several years my utilization was only in the
+> lower 70's but the largest contiguous blocks were frequently /26's.
+>
+> We constantly worked at closing the gaps but you can only ask customers
+> to do so much.
+>
+>>
+>> (Except to increase the utilization requirement to a higher value);
+>> E.g.  80%  utilization on the preceding allocation,  and 99%
+>> utilization on  allocations that preceded it..
+>>
+>>
+>> The applicant who got the larger allocation and achieved the same
+>> overall percentage of utilization,  had to meet a larger need
+>> requirement to obtain that allocation.    And they also had to
+>> allocate more number resources after actually obtaining the
+>> allocation, to be allocated the next one.
+>>
+>>> Scott
+>>
+>> --
+>> -JH
+>> _______________________________________________
+>> PPML
+>> You are receiving this message because you are subscribed to
+>> the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+>> Unsubscribe or manage your mailing list subscription at:
+>> http://lists.arin.net/mailman/listinfo/arin-ppml
+>> Please contact info@arin.net if you experience any issues.
+>
+>
+> Larry Ash
+
+Larry,
+
+Ditto. My largest contiguous is probably a /28 right now, but I still
+did not (until yesterday) qualify for more space with ARIN.
+
+-- 
+Jeffrey A. Lyon, CISSP
+President, Black Lotus Communications
+mobile: (757) 304-0668 | gtalk: jeffrey.lyon@gmail.com | skype: blacklotus.net
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

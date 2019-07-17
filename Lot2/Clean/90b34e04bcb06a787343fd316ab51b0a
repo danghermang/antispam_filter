@@ -1,0 +1,174 @@
+Subject:Re: [arin-ppml] Updates to 2012-6
+While I support this policy as written.  I think it is important for the 
+community to at least consider alternative approaches to this issue.
+
+ICANN's New gTLD Program represents a significant departure from the 
+original scope of gTLDs contemplated when the current critical 
+infrastructure policy was originally considered and the ARIN community 
+decided to include all TLDs (both gTLDs and ccTLDs) as critical 
+infrastructure based solely on their location in the DNS hierarchy.
+
+One such alternate approach could be to redefine critical infrastructure 
+such that it is base on a objective standard of dependency by other 
+systems and processes and not simply based on the fact that some word or 
+string has been designated a TLD.  In other-words a TLD should only be 
+considered critical infrastructure if it meets some threshold of 
+dependency by other systems and processes, and not merely based on its 
+location in the DNS hierarchy.
+
+If a properly objective measure of dependency by other systems and 
+processes could be found, it may also be reasonable to allow other parts 
+of the DNS hierarchy, meeting this objective measure, to qualify as 
+critical infrastructure as well.  Today, there are many large scale 
+domain providers or even sufficiently critical individual domain names 
+that are arguably as critical, or more, to the global Internet as many 
+of the more obscure ccTLDs.  However, with the current definition being 
+based solely on location in the DNS hierarchy, these other parts of the 
+DNS hierarchy do not qualify as critical infrastructure in ARIN policy.
+
+I have no doubt that some of the new gTLDs may eventually rise to an 
+objective level of criticality that truly justifies the term critical 
+infrastructure.  However, it seems fairly obvious that the vast majority 
+of the several thousand gTLDs being considered will never meet such a 
+standard and should not be considered any more critical than most other 
+parts of the DNS hierarchy.
+
+If the community supports this approach, I would suggest;
+
+1. We ask the Board to suspend gTLDs as a justification for critical 
+infrastructure, both for IPv4 and IPv6, until the ARIN policy community 
+has time to reconsider the definition of critical infrastructure and 
+recommend new policy.
+
+1.A. Or, alternatively suspend everything other than Exchange Points as 
+critical infrastructure for both both for IPv4 and IPv6.
+
+2. Then focus our policy efforts on finding an "objective measure of 
+dependency by other systems and processes" that all TLDs, and possibly 
+other parts of the DNS hierarchy need to meet in order to justify being 
+considered critical infrastructure and receiving preferential access to 
+Internet Number Resources.
+
+Is this a preferable approach to the proposed policy below?  Also, I'd 
+be interested in other alternate approaches members of community would 
+like to suggest.
+
+However, without some kind of suspension of the current policy, I 
+support the policy as written below to go to Last Call and be 
+implemented ASAP.  The policy below is preferable to having the proposed 
+new gTLDs potentially consume large amounts of IPv4 address space, 
+exhausting the reservation and essentially preventing LXPs and other 
+current critical infrastructure from have access to IPv4 resources as 
+intended by the reservation created in ARIN-2011-4.
+
+Thanks.
+
+On 11/21/12 13:21 , Bill Sandiford wrote:
+> All,
+>
+> Since the conclusion of the Dallas PPM the AC has spent considerable
+> time working on Draft Policy 2012-6.  As a result, we have come up with
+> modified text as below.  You will note that the new policy text makes
+> minimal changes to the existing policy in the NRPM, but still obtains
+> the goals as intended by the author and expressed by the community in
+> Dallas.
+>
+> Please provide comments.
+>
+> Regards,
+>
+> Bill
+>
+> ------
+>
+> Policy text:
+>
+> 4.4. Micro-allocation
+>
+> ARIN will make IPv4 micro-allocations to critical infrastructure
+> providers of the Internet, including public exchange points, core DNS
+> service providers (e.g. ICANN-sanctioned root and ccTLD operators) as
+> well as the RIRs and IANA. These allocations will be no smaller than a
+> /24. Multiple allocations may be granted in certain situations.
+>
+> Exchange point allocations MUST be allocated from specific blocks
+> reserved only for this purpose. All other micro-allocations WILL be
+> allocated out of other blocks reserved for micro-allocation purposes.
+>
+> ARIN will make a list of these blocks publicly available.
+>
+> Exchange point operators must provide justification for the allocation,
+>
+> including: connection policy, location, other participants (minimum of
+> two total), ASN, and contact information. ISPs and other organizations
+> receiving these micro-allocations will be charged under the ISP fee
+> schedule, while end-users will be charged under the fee schedule for
+> end-users. This policy does not preclude exchange point operators from
+> requesting address space under other policies.
+>
+> ARIN will place an equivalent of a /16 of IPv4 address space in a
+> reserve for Critical Infrastructure, as defined in section 4.4. If at
+> the end of the policy term there is unused address space remaining in
+> this pool, ARIN staff is authorized to utilize this space in a manner
+> consistent with community expectations.
+>
+> ICANN-sanctioned gTLD operators may justify up to the equivalent of an
+>
+> IPv4 /23 block for each authorized new gTLD, allocated from the free
+> pool or received via transfer, but not from the above reservation. This
+> limit of a /23 equivalent per gTLD does not apply to gTLD allocations
+> made under previous policy.
+>
+> Rationale:
+>
+> Additional ICANN-sanctioned DNS infrastructure is being added to the
+> Internet and in quantities greater than anticipated when the micro
+> allocation proposal was written and adopted.
+>
+> The original CI pool was created to serve new IXP and new CI
+> requirements. The pending need is estimated to be over 1000 new gTLD
+> range, which may exhaust the current /16 reservation before the ARIN
+> free pool is exhausted. Once the current /16 reservation is exhausted,
+> CI providers would no longer be eligible to receive address space,
+> either via the general free pool or via transfer.
+>
+> The original proposal dealt with this by expanding the reservation to a
+>
+> /15 and allowing CI to draw from the free pool instead of the
+> reservation until it gets down to a /8.  The consensus coming out of the
+> Dallas meeting seems to be that this is an inadequate solution. As the
+> new expanded gTLD demand will obliterate any reasonable reservation,
+> leaving no resources for the other IXP and CI demands that the original
+> reservation was intended to serve. It is therefore, not possible to
+> services them both out of a common reservation.
+>
+> In order to ensure continued access to IPv4 number resources by new IXP
+> and DNS operators alike, the AC is modifying the proposal going into
+> last call to allow gTLD operators to continue to qualify for micro
+> allocations from the general free pool or via transfer only, and leaving
+> one /16 reserved for IXP, root, and ccTLD DNS operators.
+>
+> As a result of the close examination of the CI policy brought about by
+> this proposal, the AC has identified a number of issues in the original
+> policy text that should be addressed. However, the AC is intentionally
+> minimizing the overall changes to this proposal as much as possible for
+> last call in keeping with the spirit of the PDP. The AC intends to make
+> future proposals to deal with these other concerns. The current proposal
+> addresses issues of some urgency and we did not want to delay it to
+> another policy cycle as a result.
+
+-- 
+================================================
+David Farmer               Email: farmer@umn.edu
+Office of Information Technology
+University of Minnesota
+2218 University Ave SE     Phone: 1-612-626-0815
+Minneapolis, MN 55414-3029  Cell: 1-612-812-9952
+================================================
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

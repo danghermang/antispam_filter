@@ -1,0 +1,109 @@
+Subject:Re: [LUG] Python Question
+Wow.
+
+Didn't realise that Open source software and questions about it were that o=
+ffensive.
+
+As a predominantly Linux user, I figured my colleagues in the open source c=
+ommunity might like to contribute to the shared knowledge for the benefit o=
+f the next generation of computer users.
+
+I'm now told they'll be running the 3.3 from the official Python repo, does=
+ that make it less offensive?
+
+Thanks at least to the previous poster (Robin) for confirming what my paran=
+oia was leading me to.
+
+And we wonder why cultural imperialism prevents the mass uptake of open sou=
+rce software...
+
+I'll take my questions elsewhere, I think.
+
+Message sent using BlackBerry=AE
+
+-----Original Message-----
+From: Philip Hudson <phil.hudson@iname.com>
+Sender: list-bounces@dcglug.org.uk
+Date: Tue, 23 Oct 2012 12:34:08 =
+
+To: <list@dcglug.org.uk>
+Reply-To: list@dcglug.org.uk
+Subject: Re: [LUG] Python Question
+
+Off-topic. Not even running on Cygwin. Take it to a Python list, Adam.
+
+On 23 Oct, 2012, at 10:34 am, Adam Latham wrote:
+
+> Hi all!
+>
+> Just a brief one.  We've finally managed to convince the IT  =
+
+> department in the Academy I work at to try Python.  Which is pretty  =
+
+> cool in itself.
+>
+> However, as they run Windows 7 and everything is locked down pretty  =
+
+> tight, I'm wondering about the wisdom of the default install path.
+>
+> I should mention they've opted for the community edition of  =
+
+> ActivePython (why? No idea...) and have installed in the C: =
+
+> \Python2.7 directory.
+>
+> They're intending for people to use Idle to develop.
+>
+> Having briefly played with it and done the obligatory os.getcwd()  =
+
+> Idle is running straight out of the Python directory.
+>
+> Don't ask me why but it just rang some alarm bells.
+>
+> Whilst I'm sure that the average student at my school has little  =
+
+> desire or skill to run malicious scripts, it just seems a bit mental  =
+
+> to allow these to be run directly on this path.
+>
+> Am I just being paranoid?  What about a CLI argument such as:
+>
+> idle.py -c "os.chdir('some-user-path')"
+>
+> Added to the shortcut/launcher?
+>
+> Any comments or suggestion welcomed. I'd like them to at least give  =
+
+> python a good go, rather than give it up as too difficult to  =
+
+> configure...
+>
+> Write permissions to the c:\ drive are strictly controlled, I should  =
+
+> add, and the userspace is in H:\
+>
+> Thanks in advance.
+>
+> Adam
+> Message sent using BlackBerry=AE
+> -- =
+
+> The Mailing List for the Devon & Cornwall LUG
+> http://mailman.dclug.org.uk/listinfo/list
+> FAQ: http://www.dcglug.org.uk/listfaq
+
+--
+Phil Hudson                  http://hudson-it.no-ip.biz
+@UWascalWabbit                 PGP/GnuPG ID: 0x887DCA63
+
+
+-- =
+
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq
+-- =
+
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

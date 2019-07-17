@@ -1,0 +1,63 @@
+Subject:Re: debian et onduleur
+
+LO,
+
+On Wed, Sep 19, 2012 at 11:10:15PM +0200, Gaëtan PERRIER wrote:
+
+> J'aimerai avoir vos retours d'expériences sur les onduleurs et leur
+> support par debian pour une machine personnelle.
+
+Point de vue 'support', Debian propose (notamment) NUT, qui est ZE
+projet phare en la matière.
+
+Ici :
+
+http://www.networkupstools.org/stable-hcl.html
+
+tu trouveras ce qui est supporté.
+
+En bref, tout ce qui est MGE (ou maintenant EATON) devrait fonctionner
+TB.
+
+Le project leader, Arnaud Quette, travaille chez eux _et_ est DD, ce
+qui ne gâche rien :-)
+
+
+Pour les retours :
+
+- MGE Pulsar Evolution 1500 : fonctionnait très bien, en série ou avec
+  la carte réseau additionnelle (jamais testé en USB, par contre) ;
+
+- MGE Evolution 850 : fonctionne très bien (testé en USB) ;
+
+- MGE Pulsar Extreme C 1500 : parfait aussi, avec la carte réseau
+  additionnelle (jamais testé en USB, ni en série).
+
+
+Le deux premiers sont des 'line interactive' et le troisième 'true
+online', ce qui est un réel plus à mon avis, bien que probablement
+d'un coût prohibitif pour une machine perso.
+
+On ne les trouve plus en neuf (mais il y a des équivalents en EATON),
+sauf à en récupérer sur Ebay (le second vient de là d'ailleurs).
+
+Si tu envisages l'achat, n'hésite pas à surdimensionner légèrement la
+puissance par rapport au besoin ; ça allonge l'autonomie avant le
+shutdown forcé en cas de coupure de jus.
+
+
+Hih,
+
+-- 
+
+JFS.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120919214554.GA29558@jones.jfs.dt
+

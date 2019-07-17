@@ -1,0 +1,70 @@
+Subject:Re: [HS] se logguer en ssh en outrepassant le shell defini dans
+	/etc/passwd
+Le 12/10/2012 16:53, Steve Fouchet a écrit :
+> Le vendredi 12 oct. 2012 à 16:03:08 (+0200), giggzounet a écrit :
+>> Le 12/10/2012 15:52, Sébastien NOBILI a écrit :
+>>> Bonjour,
+>>>
+>>> Le vendredi 12 octobre 2012 à 15:35, giggzounet a écrit :
+>>>> Le 12/10/2012 15:08, François TOURDE a écrit :
+>>>>> Le 15625ième jour après Epoch,
+>>>>> giggzounet@gmail.com écrivait:
+>>>>>
+>>>>>> bref avez vous une idée de comment forcer l'utilisation de ash au moment
+>>>>>> de la connection via ssh ?
+>>>>>
+>>>>> Au moins 2 possibilités:
+>>>>>
+>>>>> 1) Se connecter avec un autre utilisateur, et réparer avec sudo
+>>>>>
+>>>>
+>>>> ça serait trop facile ;) sudo n'est pas installé ou n'est pas trouvé en
+>>>> tout cas.
+>>>
+>>> Et « su -c "vi /etc/passwd" » ?
+>>>
+>>> Seb
+>>>
+>>
+>> non il ne veut malheuresement pas.
+>>
+>> -- 
+>> Lisez la FAQ de la liste avant de poser une question :
+>> http://wiki.debian.org/fr/FrenchLists
+>>
+>> Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+>> vers debian-user-french-REQUEST@lists.debian.org
+>> En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/k597uq$85e$1@ger.gmane.org
+>>
+> 
+> Salut,
+> 
+> Si tu peux acceder au repertoire personnel du user par le FTP
+> 
+> créer un fichier "rc" dedans tu y mets un petit sed pour modifier le fichier
+> passwd du style
+> sed -i 's/\(^USER.*:\)\/bin\/bash/\1\/path\/mon\/shell\/kitue/' /etc/passwd
+> 
+> par le FTP tu le pousse dans $HOME/.ssh/rc
+> et enfin essaie de te reconnecter :)
+> 
+> J'espere que ca peux aider.
+> 
+> Good luck.
+> 
+> Steve.
+> 
+
+hou ça c'est malin! bon je testerai la prochaine fois :) j'ai
+réinstallé...ça va plus vite...mais je vais qd même testé ta bidouille!
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k59cps$lnj$1@ger.gmane.org
+

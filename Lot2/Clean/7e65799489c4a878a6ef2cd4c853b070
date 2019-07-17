@@ -1,0 +1,43 @@
+Subject:Re: [EVDL] Best EV Tires
+"As for the coast vs regen debate, it completely depends whether you are a
+NY taxi driver (regen good) or live in rural Kansas (coasting good).  Steep
+hills are better with regen, but flat or mellow hills is better with
+coasting."
+
+It depends more on how regen is implemented on the vehicle.  If it is on the
+accelerator pedal and your throttle control (Hall or pot) is set for close
+to its max voltage range, then you can easily continuously vary from motor
+to generator, and hold it at any position along the curve, including zero
+current, or coasting.  Then it does not matter what terrain you are driving,
+having regen will be more efficient than not, and you will be able to coast
+when you want.  Of course, if most driving is miles of open roads with few
+stops or hills, you won't get much energy back from regen.  It will be more
+efficient than coasting, but not a lot.
+
+If regen is set up so you don't have much control, it is strongly on, or
+completely off, then you won't be able to use it as above.  In this case you
+can only apply it when you want to stop fairly quickly, as when you are very
+close to a red light.  If it is applied sooner, it will slow the vehicle too
+much so that you have to then accelerate to boost speed back up a bit.  If
+you go through several cycles like this, the efficiency will be less than
+just coasting since you use more energy during the acceleration phase than
+during the regen phase.
+
+It is all in how it is implemented, how much control of it you have.  Not
+topography.
+
+
+
+--
+View this message in context: http://electric-vehicle-discussion-list.413529.n4.nabble.com/Best-EV-Tires-tp4658788p4658877.html
+Sent from the Electric Vehicle Discussion List mailing list archive at Nabble.com.
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

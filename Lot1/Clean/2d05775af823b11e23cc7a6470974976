@@ -1,0 +1,37 @@
+Subject:Re: [LUG] Linux - and security
+  On 02/11/2012 11:36, Martijn Grooten wrote:
+> On Fri, Nov 2, 2012 at 11:30 AM, malcolm wrote:
+>> Do you think a personal firewall like Ubuntu's ufw is necessary in a home
+>> environment or is the router's firewall sufficient (with the other measures
+>> you suggest) for the current level of threat?
+> After I add a disclaimer that I don't know very much about both
+> existing and possible future threats on Linux, nor do I know a great
+> deal about firewalls, I think that in a home environment, running a
+> firewall on the router is generally sufficient.
+>
+> But then, if it doesn't hurt your experience of using the computer, I
+> don't see why you wouldn't run an internal firewall was well. For one
+> thing, it does help bad stuff from spreading inside the network.
+>
+> Martijn.
+Also I have recently discovered that the Virginmedia so-called Superhub 
+(more like Stuporhub) latest firmware update forced on customers is 
+broken.  In essence it won't let you carry out some basic functions 
+unless the Firewall security is set to Low, and it doesn't even tell you 
+anywhere the difference between Low, Medium and High.  For example, to 
+FTP I have to set the Firewall to Low, upload or download my files, and 
+then reset the Firewall to Medium.  You may think an easy remedy would 
+be to set a Port Forwarding rule on port 21 to my desktop PC.  
+Unfortunately the forums are full of people complaining that Port 
+Forwarding on the Superhub doesn't work, and in my experience they're right.
+
+Sorry for the segue, but my point is not to rely solely on your router's 
+firewall, especially if provided by your ISP as you have no control over 
+updates.
+
+Julian
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

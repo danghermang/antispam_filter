@@ -1,0 +1,43 @@
+Subject:Re: Preguntas Noob
+On Thu, 2012-12-06 at 20:31 -0500, Jo Sé wrote:
+> Hola, de nuevo yo. Hoy les vengo con un par de preguntas quizá muy
+> tontas. Pero que no sé
+> 
+> 1).  Si yo creo servidores virtuales en apache. Les tengo que asignar
+> un dominio. La pregunta es, Esos dominios de que van? Osea. Tiene que
+> existir, osea estar comprado? y enlazarlo con el servidor debian en X
+> o Y servidor virtual
+
+Si, deberias asignarles un domonio a cada uno de los huéspedes virtuales
+(virtual_host); los dominios peudenser de pago o gratuitos, no-ip, por
+ejemplo.
+
+> 
+> 2) Supongamos que tengo 3 pc en mi casa. en un pc hay un servidor ssh,
+> en otro pc hay un servidor web y en otro un servidor DNS (Por decir
+> algo) Como se hace para que una conexión entrante sepa en cual de los
+> 3 pc está el servicio X o Y
+
+En tu ruteador (router), abris los puertos correspondientes a cada
+servicio; y en el caso de ssh, podes usar cualquiera arriba de 1024.
+
+> 
+> Muchas gracias por su atención.
+> 
+> --
+> 
+> José Luis Cortés Mesa
+> Medellin Colombia
+> User Linux #533154
+> 
+> 
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1354850906.2417.8.camel@debian.MiRed
+

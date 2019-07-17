@@ -1,0 +1,18 @@
+Subject:Re: Socket unix
+
+> Avec lsof, fuser ou netstat, oui.
+>
+>    
+
+Sauf que j'utilise déjà lsof et je voudrais savoir quand celui-ci me 
+répond socket unix si je peux savoir qui communique sur ce socket unix...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5049E9A2.4080202@gmail.com
+

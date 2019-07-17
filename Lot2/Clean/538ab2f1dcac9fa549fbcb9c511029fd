@@ -1,0 +1,42 @@
+Subject:Re: [LUG] Raspberry Pi now 100% Open Source on the ARM side
+On Wed, 24 Oct 2012, paul sutton wrote:
+
+> On 24/10/12 12:17, Gordon Henderson wrote:
+>> ----- Message Text -----
+>>
+>> http://www.raspberrypi.org/archives/2221
+>>
+> Yay,  this is excellent, i guess we will start seeing some real hard
+> core stuff coming out now.  Going back to that pi cluster they made a
+> while back you said it would be better if they could access the video
+> Graphics bit, i take it this announcement makes that possible.   So in
+> theory we could have a pretty cool cluster.
+>
+> Am I right here ?
+
+Sort of.
+
+The GPU/Videocore is still a black box with lots of knobs, buttons, 
+switches and levers with a binary blob of code to boot into it, but what 
+they've opened up is the manual for those knobs, buttons, switches and 
+levers that let you access the functions inside it.
+
+So really not much different from plugging in any dedicated hardware into 
+a PC - e.g. a SCSI RAID conroller card. You get the register descirptions 
+and how they work in the hardware manual for that card so you can write a 
+Linux device driver to control it, but you don't get the circuit diagram 
+or any internal code that may run on any microcontrollers on that card.
+
+So if one of those buttons is "matrix multiply", or "fft", or some other 
+general purpose mathamatical function then it might be usable as a mini 
+"supercomputer" type of thing, however given that its name is "videocore", 
+I somehow doubt it.
+
+It should allow people to write better/faster video drivers for it though.
+
+Gordon
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

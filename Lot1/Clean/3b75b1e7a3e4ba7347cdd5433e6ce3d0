@@ -1,0 +1,43 @@
+Subject:Re: apt-get remove kwrite
+Le samedi 10 novembre 2012 23:17:13, Sylvain L. Sauvage a écrit :
+> Le samedi 10 novembre 2012 à 22:18:05, Alain Vaugham a écrit :
+> >[…]
+> >
+> > Oui, c'est ce que j'avais lu aussi, mais de quel droit se
+> > permet il de juger qu'ils ne sont plus nécessaires?
+> > J'utilise Okular plus de 10 fois par jour pourtant il est
+> > dans la liste des paquets "plus nécessaires"!
+> 
+>   APT fait une différence entre les paquets installés
+> « manuellement » (c’est toi qui lui dis) et les paquets
+> « automatiquement » (par dépendance).
+>   Ceux qu’il dit « plus nécessaires » sont ceux qui sont marqués
+> « auto » : tu ne lui as pas explicitement dit que tu les voulais
+> (« manuel »), il pense donc que tu les tolères sur ton système
+> parce qu’installés par dépendance (donc « nécessaires »).
+
+J'étais en train de préparer une réponse similaire. Je me permets 
+d'ajouter que le malentendu vient de l'expression « nécessaire » 
+qu'Alain interprète comme nécessaire par lui. Pas d'egocentrisme 
+Alain, apt s'en fiche de ce que tu trouves nécessaire ; que tu utilises 
+okular fréquemment, apt ne le sait même pas.
+
+Non, ici « nécessaire » signifie « nécessaire (au sens des dépendances) 
+à l'installation des autres paquets.
+
+kde-standard dépend d'okular donc quand kde-standard a été installé, 
+okular était nécessaire à cette installation. Maintenant que kde-
+standard va être désinstallé, okular n'est plus nécessaire.
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211102326.45022.edfnet-deb@yahoo.fr
+

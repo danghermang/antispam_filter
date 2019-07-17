@@ -1,0 +1,23 @@
+Subject:[testing] Lenovo T420 mtrr allocation failed
+Bonjour,
+
+J'ai un Lenovo T420 (core i5 2520M, 8 Gio de RAM), je tourne avec le
+noyau 3.4.4 d'exp=E9rimental et je viens de m'apercevoir que j'ai ce
+message dans /var/log/messages :
+
+[drm] MTRR allocation failed.  Graphics performance may suffer.
+
+Apr=E8s recherche sur internet j'ai essay=E9 de rajouter
+enable_mtrr_cleanup aux options de boot mais sans succ=E8s ...
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120903004743.767a1fcd14aa373aa361cba0@neuf.fr
+

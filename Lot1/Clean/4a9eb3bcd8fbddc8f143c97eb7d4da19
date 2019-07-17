@@ -1,0 +1,29 @@
+Subject:Re: alt-tab dans =?utf-8?Q?fen=C3=AAtr?= =?utf-8?Q?e?= active VB
+Le 02-10-2012, à 22:49:05 +0200, Bzzz (lazyvirus@gmx.com) a écrit :
+
+> On Tue, 2 Oct 2012 22:38:41 +0200
+> steve <dlist@bluewin.ch> wrote:
+> 
+> > Si je suis dans une fenêtre virtualbox et que je fais alt-tab sur
+> > mon clavier, je ne vois pas les autres fenêtres ouvertes, comme
+> > c'est la cas quand la fenêtre active est un autre programme comme
+> > iceweasel, un terminal quelconque ou gimp, par exemple. Est-ce à
+> > dire que virtualbox n'est pas une applications « comme les
+> > autres »  ? Est-ce un bug ou une fonctionnalité ?
+> 
+> ALT-TAB est aussi utilisé dans w$ pour faire défiler les pgms
+> apparaissant dans la taskbar; la seule manière que ça fonctionne
+> avec ton WM est de rendre la sortie de VBX transparente de façon
+> à ce qu'une fois sorti de VBX le WM reprenne la main.
+
+C'est logique. Et je fais cela comment ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121002205603.GB22041@localhost
+

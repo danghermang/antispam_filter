@@ -1,0 +1,50 @@
+Subject:Re: impossible ouvrir mon compte =?windows-1252?Q?invit=E9?=
+Le user2 s'affiche parfaitement en console... Mystère
+
+Le 17/09/2012 16:37, Sébastien NOBILI a écrit :
+> Bonjour,
+>
+> Le lundi 17 septembre 2012 à 16:18, Nicolas Hémard a écrit :
+>>> id user2
+>>> uid=1002(user2) gid=1002(user2) groupes=1002(user2)
+> [...]
+>
+>>> ls -l /home
+>>> total 36
+>>> drwxr-xr-x  2 user3     user3      4096 sept. 16 20:40 ida
+>>> drwx------  2 root    root    16384 sept. 16 16:47 lost+found
+>>> drwxr-xr-x 28 user2 user2  4096 sept. 17 15:17 nicolas
+>>> drwxr-xr-x 39 user1 user1  4096 sept. 17 15:17 nicopro
+>>> -rw-r--r--  1 root    root      712 sept. 16 18:49 restauration
+>>> -rwxr-xr-x  1 root    root      712 sept. 16 18:47 sauvegarde
+> [...]
+>
+>>> grep user1 /etc/passwd
+>>> user2:x:1002:1002:,,,:/home/user2:/bin/bash
+> Moi, ça ne me parait pas correct…
+>
+> user2 a bien l'UID 1002 et un répertoire personnel qui lui appartient
+> (/home/nicolas), mais le répertoire personnel de user2 (dans /etc/passwd) est
+> /home/user2.
+>
+> À la connexion graphique, on ne trouve pas son répertoire personnel et ça
+> plante. Tout ça se verra au premier coup d'œil en se connectant (en user2) dans
+> une console (comme conseillé par JY), le shell affichera un message indiquant
+> que l'utilisateur n'a pas de répertoire personnel et démarrera dans /tmp.
+>
+> Renommer un compte utilisateur est possible (je l'ai déjà fait), mais peut
+> entraîner des effets indésirables, comme celui-là. Une fois ce problème corrigé,
+> il en viendra sûrement d'autres (chemins en dur, par exemple)…
+>
+> Seb
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50573A1C.2060409@hemard.eu
+

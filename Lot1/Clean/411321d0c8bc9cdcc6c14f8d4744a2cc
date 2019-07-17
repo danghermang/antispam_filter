@@ -1,0 +1,107 @@
+Subject:Re: opensource admin camaras ip
+El d=EDa 1 de diciembre de 2012 12:55, Cristian Mitchell
+<mitchell69uk@gmail.com> escribi=F3:
+> El d=EDa 1 de diciembre de 2012 12:37, Camale=F3n <noelamac@gmail.com> es=
+cribi=F3:
+>> El Sat, 01 Dec 2012 09:45:28 -0500, Mauricio Erazo Mejia escribi=F3:
+>>
+>>> Cordial saludo,
+>>
+>> Ser=EDan m=E1s cordiales si enviaras el mensaje en formato texto ;-)
+>>
+>>> Estoy buscando un software open source que administre C=E1maras IP PTZ =
+de
+>>> diversas marcas, la idea es poder integrar en un mismo software la
+>>> administraci=F3n, visualizaci=F3n y grabaci=F3n de c=E1maras de varios
+>>> fabricantes y no estar solo con el software del fabricante de cada una
+>>> de ellas.
+>>
+>> Pues hace poco se habl=F3 del tema. Pero b=E1sicamente depender=E1 del s=
+oporte
+>> que tengan los componentes de cctv que uses con las aplicaciones elegida=
+s
+>> ("zoneminder" es de las m=E1s completas).
+>>
+>>> De antemano ofrezco excusas porque estoy seguro que en esta lista ya se
+>>> ha tratado este tema, pero la verdad no encuentro el hilo, alguna vez v=
+i
+>>> que exist=EDa  lo que estoy buscando, pero en ese momento no lo necesit=
+aba
+>>> y no le preste mayor atenci=F3n.
+>>
+>> Puedes usar el buscador:
+>>
+>> http://lists.debian.org/cgi-bin/search?P=3Dcamara+ip&DEFAULTOP=3Dor&sort=
+=3Drevdate&HITSPERPAGE=3D100
+>>
+>> Saludos,
+>>
+>> --
+>> Camale=F3n
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debia=
+n.org
+>> Archive: http://lists.debian.org/k9d86u$ccj$3@ger.gmane.org
+>>
+>
+> Definitivamente zoneminder
+> mas completo, por el principio de funcionamiento. cualquier camara ip
+> deve funcionar
+> por ftp, http, etc
+> soporta webcam.
+> placas de captura
+> streaming
+>
+> o sea casi cualquier opcion
+>
+>
+> --
+> MrIX
+> Linux user number 412793.
+> http://counter.li.org/
+>
+> las grandes obras,
+> las sue=F1an los santos locos,
+> las realizan los luchadores natos,
+> las aprovechan los felices cuerdo,
+> y las critican los in=FAtiles cr=F3nicos,
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/CALvB54ZUZcvAMEiGVH5i4pejKGbR-kJEXBeMHNw=
+CBpZZS9jL2Q@mail.gmail.com
+>
+
+Efectivamente como dice camaleon hace poco se hablo de ello, es m=E1s
+creo que el tema lo inicie yo, te comento que yo instale zoneminder en
+debian pero no me funciono pero no por problemas con debian o el
+software, simplemente fue una putada de las camaras que aqu=ED tenemos
+(en mi trabajo). tenemos unas camaras verint S2700E-vr que andan bajo
+VSIP y no bajo RTP o RTPS que si zoneminder soporta y puede
+administrar, te sugiero que verifiques si tus camaras traen dicho
+protocolo y de tenerlo con zone minder te andara de maravilla.
+
+Saludos
+--=20
+--------------------------------------------
+Roberto Qui=F1ones
+
+Owner - Service Manager and System
+ACShell.NET =96 Internet Services
+roberto@acshell.net - www.acshell.net
+San Martin #311 Santiago =96 CL (Chile)
++560981361713
+--------------------------------------------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAO7F6e8F5PRJoi9kJ=Uewp75c4BbBMyaC7KvKjPjz=e4ab8aLQ@mail.gmail.com
+

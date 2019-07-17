@@ -1,0 +1,21 @@
+Subject:Re: [anti-abuse-wg] [db-wg] RIPE NCC's proposed implementation of
+	Abuse Contact Management in the RIPE Database
+* Denis Walker:
+
+> The discussions around the abuse handling in the Anti Abuse Working
+> Group have made it clear that this will not be personal data. So these
+> ROLE objects will be available without the limits that personal data
+> is subject to. They will also be available in the bulk data
+> dumps. This is why we propose to allow an "abuse-c:" attribute to
+> reference only a ROLE object and not a PERSON object. As Kaveh said,
+> the ROLE object was not designed to, and should not, hold personal
+> data.
+
+Does this mean that you will publish a ROLE object in the bulk dump
+once it is referenced from an abuse-c: field?
+
+Right now, you're redacting ROLE objects=E2=80=94but as Kaveh said, ROLE
+objects should not contain personal data, so there shouldn't be a
+reason for redacting them.  That's where my confusion comes from, I
+guess.
+

@@ -1,0 +1,78 @@
+Subject:Re: Apache2 ereurs
+Le vendredi 09 novembre 2012 à 14:02, Jean-marc Dufour a écrit :
+
+[...]
+
+> <VirtualHost *:80>
+>         ServerAdmin   webmaster@localhost
+>         ServerName    sitenumero01
+>         DocumentRoot "/mnt/dreamer/travail/00sites-jmarc/www/spip"
+>    <Directory "/mnt/dreamer/travail/00sites-jmarc/www/spip/">
+>        Options Indexes FollowSymLinks MultiViews
+>        AllowOverride All
+>        Order allow,deny
+>        Allow from all
+>    </Directory>
+> </VirtualHost>
+> --------------------------
+> et le default qui lui a :
+> 
+> <VirtualHost *:80>
+> 	ServerAdmin webmaster@localhost
+> 
+> 	DocumentRoot /var/www
+> 	<Directory />
+> 		Options FollowSymLinks
+> 		AllowOverride None
+> 	</Directory>
+> 	<Directory /var/www/>
+> 		Options Indexes FollowSymLinks MultiViews
+> 		AllowOverride All
+> 		Order allow,deny
+> 		allow from all
+> 	</Directory>
+> 
+> 	ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
+> 	<Directory "/usr/lib/cgi-bin">
+> 		AllowOverride None
+> 		Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+> 		Order allow,deny
+> 		Allow from all
+> 	</Directory>
+> 
+> 	ErrorLog ${APACHE_LOG_DIR}/error.log
+> 
+> 	# Possible values include: debug, info, notice, warn, error, crit,
+> 	# alert, emerg.
+> 	LogLevel warn
+> 
+> 	CustomLog ${APACHE_LOG_DIR}/access.log combined
+> </VirtualHost>
+
+Si tu désactives la conf par défaut, ça devrait régler ton problème.
+
+Ton premier VirtualHost écoute sur le port 80 de « sitenumero01 », correctement
+défini dans /etc/hosts. Lorsqu'arrive le démarrage du second, n'ayant pas de
+directive « ServerName », il va tenter de se mettre en écoute sur le port 80 de
+toutes les interfaces du système, dont celle qui est déjà prise par
+« sitenumero01 ».
+
+Selon l'ordre de nommage des fichiers dans /etc/apache2/sites-enabled, la
+logique du paragraphe précédent peut être inversée, mais le principe reste le
+même.
+
+Commence par désactiver la conf par défaut et vérifier si ça arrange ton
+problème. Ensuite, si tu as besoin de la conf par défaut, modifie-la pour
+qu'elle écoute sur une interface précise et dont le port 80 n'est pas utilisé.
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121109151904.GC7351@sebian.nob900.homeip.net
+

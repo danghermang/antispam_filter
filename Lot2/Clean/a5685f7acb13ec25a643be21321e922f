@@ -1,0 +1,37 @@
+Subject:[arin-ppml] Utilization policy is not aggregate
+All,
+
+I put in a IPv4 request today and received this reply:
+
+-- snip --
+
+Message:Hello Jeffrey,
+
+Thank you for the reply. We don't aggregate your holdings to come up
+with a utilization percent. Each individual block must be efficiently
+utilized. That's how policy is written, and that's how ARIN's operated
+since our inception. 2% of a /21 isn't a lot, you're right, but policy
+is policy, and it says 80%, so it's best if we don't make exceptions
+and hold everyone to the same rule, dont you agree?
+
+-- snip --
+
+We hold 2 x /21 and it seems that 78% + 92% = 85% aggregate
+utilization is not sufficient under current policy.  I do not believe
+it is equitable that we're ineligible to request resources because our
+space is deaggregated where a network operator with contiguous /20
+would be eligible.
+
+Would anyone else be in favor of amending this?
+
+-- 
+Jeffrey A. Lyon, CISSP
+President, Black Lotus Communications
+mobile: (757) 304-0668 | gtalk: jeffrey.lyon@gmail.com | skype: blacklotus.net
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

@@ -1,0 +1,110 @@
+Subject:Re: [Antenna-discussion] Capture Area
+For an interesting treatment of loops near small ferrite-front-end radios,
+the late Mike Villard (Stanford) did a lot of work in this area.  He was
+trying to design loops that Eastern European listeners could use to
+selectively accept their desired radio stations' signals, and reject jamming
+signals produced by displeased governments.  The loops he used were
+air-cored, and were tuned.  Orientation of the loop with respect to the
+radio/ferrite coil orientation,  all with respect to the directions of the
+desired and rejected signals made for complex user activities, but
+satisfying result much of the time.
+Ed
+
+-----Original Message-----
+From: antenna-discussion-bounces@antennex.com
+[mailto:antenna-discussion-bounces@antennex.com] On Behalf Of John Bordelon
+Sent: Tuesday, October 30, 2012 4:24 PM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] Capture Area
+
+	Well, a tuned loop placed near an AM radio with the usual ferrite
+loop inside greatly increases the sensitivity and selectivity of the AM
+radio.  There are examples on the net.  
+	I have noticed that the time shown by my GPS receiver usually
+differs by a a second or few from my 60KHz clocks.  I don't know why that
+is.
+
+On Oct 30, 2012, at 4:07 PM, Ed Seedhouse <eseedhouse@gmail.com> wrote:
+
+> Out here on the west coast of North America, at just over 48 degrees
+latitude (southern Vancouver Island) the "atomic" wristwatch doesn't seem to
+be able to get a signal at all and the watch has to be reset manually from
+time to time.  The nearest signal, if I recall rightly, is in Fort Collins
+Colorado and we are at the very edge of the range at 60hz or thereabouts.
+It is a decent watch, though, so I don't really mind, but I wonder if I
+wound a larger loop and left the watch near it for awhile if that might
+help.  Or maybe reception will get better as atmospheric noise declines with
+the onset of winter.  Actually I haven't reset it for awhile and it seems to
+be withing a second of my GPS so that might have happened already, or am I
+being too optimistic?
+
+> 
+> On 30/10/2012 12:06 PM, boswell alan wrote:
+>> Hi Jose
+>> 
+>> I would also like to know how these very small devices can receive on 
+>> frequencies in the 50-100 kHz range.
+>> 
+>> In principle it is possible because the signal bandwidth is no more 
+>> than about 5 Hz (i.e. 5th harmonic of a 1 Hz square wave).  But that 
+>> would need a Q of at least 12,000, and the highest Q we have seen 
+>> experimentally on here is around 1500.  The other problem is detuning 
+>> from proximity of the person wearing the watch.
+>> 
+>> Where I live our electronic clocks and watches work on 60 kHz with a 
+>> transmitter of about 10 kW which used to be at Rugby but is now up 
+>> near the Scottish border.
+>> 
+>> Alan G3NOQ
+>> 
+> 
+> --
+> Ed Seedhouse
+> VA7SDH
+> 
+> _______________________________________________
+> This message was sent to: j.bordelon@comcast.net Antenna-discussion 
+> mailing list Antenna-discussion@antennex.com 
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+message was sent to.
+> 
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+
+
+_______________________________________________
+This message was sent to: lyon@fred.net
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

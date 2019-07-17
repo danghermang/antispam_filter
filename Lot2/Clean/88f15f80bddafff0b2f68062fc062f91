@@ -1,0 +1,43 @@
+Subject:Re: pcsc-lite and ccid backports: where is source?
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Le 06/11/2012 21:08, Jean-Michel Pouré - GOOZE a écrit :
+> Hello,
+> 
+> pcsc-lite and ccid reached the new queue in backports (thanks
+> Ludovic). Where is the source of the package available for review?
+
+Is that what you're looking for?
+
+http://backports-master.debian.org/dak/new/ccid_1.4.7-1~bpo60+1.html
+
+I loaded http://backports.debian.org and clicked on "NEW queue"...
+
+Regards, Thibaut.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iQIcBAEBCAAGBQJQmXHMAAoJEJOUU0jg3ChA5FIQAJ2EhyvO1XivcUGBvnpWR77v
+6cxqZZXKl559uQAQyeHFt5O6DDKpJ4QOdEYZrDLgALDeQpdnapBns+OYMxzUQdr3
+ycN/mmiC9GbOcIfxK+yZ7FWZlj98rZVwxXd4AMS7Cmviuz/omxwsIkCGST0YCi2Y
+YWwkmC58Oc0HlEqYAFPP7uIlyjH3Rrn3RJmt+P4devd8lol73qIcBsHxvbJ6378I
+qd5YwbJLOsjg1v0f3CUDmVIW+s1VTijf1KEilTCgsxXv01aL+7350G+PypNq8ik2
+WdUCo6Sc8PR6+rxuPziOIrRKqcCUAgRzhgEhcfSjQNx0igYWmFLHYU6kN2fDKJJf
+nWOVG9uX6DV/kNRwytQ3IdKV1Kt27bqWFm01t33z8QEqKGirGxy9l5i15KOBFMT1
+Rr74X+/zkUPB+HRc/ofn2ipwgbRyLxl8TaAw0ex1VcCjVcQ3p3wxS+KE3jQidTuj
+1f2ypIBuKZeSjDhzE74nRvRGNGn8nai1NzRHrJfMjOD2uvVAlY7OpkGEhtRMWsk3
+c1oWuZN6cGWQhkDJz0v3VC4NRw9CzzRqdZNrSnHbuv7Vwz2Ndp7n7vp0iEc6p+Um
+0C/yWUbkpNKjBgofUbypSBmar2jtTdF0NiopQjpMu4VfZo+vWaQ6/sLtMJRA2eJ/
+wucwqlQBHTkan5ZABQYa
+=+1bI
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509971CD.5030505@debian.org
+

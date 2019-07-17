@@ -1,0 +1,30 @@
+Subject:Re: Usuario para RAS
+El Tue, 11 Sep 2012 13:01:00 -0400, luis escribió:
+
+> On Tue, 11 Sep 2012 15:22:55 +0000 (UTC), Camaleón wrote:
+
+(...)
+
+>> Lo único que tendrás que ajustar en ese archivo es la ruta al
+>> dispositivo
+>> del modem que tal y como lo tienes puesto apunta a "/dev/ttyS0" y eso
+>> es
+>> para un módem externo conectado al puerto serie.
+
+> Perfecto si para los modem serie es "/dev/ttyS0" como seria en mi caso
+> que elmodem es USB ?
+
+Te lo comento en el otro correo (parece que estemos jugando al gato y al 
+ratón), ejecuta "dmesg | grep -i tty".
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2nrgi$3ru$15@ger.gmane.org
+

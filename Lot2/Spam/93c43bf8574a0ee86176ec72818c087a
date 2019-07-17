@@ -1,0 +1,641 @@
+Subject:Cheaper fault tolerance with Hyper-V Replica
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+ <html>
+ <head>
+ <META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8">
+ <title>Windows in the Enterprise</title>
+ </head>
+ 
+  <body bgcolor="#ffffff" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0"> 
+  
+
+
+ 
+ 
+ 
+  <!-- begin contols page width table -->
+  <table width="600" cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td width="100%" bgcolor="#FFFFFF" background="">
+     
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+           
+     
+       
+     
+     
+
+ 
+
+<!-- begin portfolio band -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+ <tr bgcolor="#000000" style="margin:2px 0px 3px 0px;">
+  <td nowrap style="padding-left:5px;"><font face="arial, trebuchet, verdana" color="#FFFFFF" size="1">December 10, 2012</font></td>
+  <td width="100%"><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" height="1" width="1" alt=""></td>
+  <td nowrap><font face="arial, trebuchet, verdana" color="#FFFFFF" size="1">Published by&nbsp;</font></td>
+  <td nowrap>
+   
+    <a href="http://go.techtarget.com/r/19881225/6483470"><font face="arial, trebuchet, verdana" color="#ffcc00" size="1"> SearchWinIT.com</font></a><br>   
+    </td>
+  <td><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="5" height="1" alt=""></td>
+ </tr>
+</table>
+<!-- end portfolio band -->
+
+ 
+  <!-- begin header -->
+ <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr bgcolor="#ffffff">
+   <td style="padding:0px 20px 0px 5px;border-bottom:1px solid #000;"> 
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td nowrap align="left" valign="bottom"><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="290" height="1" alt=""><br><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="10" height="1" alt=""><font face="arial, trebuchet, verdana" color="#000000" size="4">
+       Windows in the Enterprise</font>
+         
+         <br><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="1" height="6" alt="">
+         </td>   
+      <td ><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="4" height="1" alt=""></td>
+      <td width="100%" align="right" >
+       <img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="1" height="6" alt=""><br>
+       
+       
+       <a href="http://go.techtarget.com/r/19881226/6483470"><font face="arial, trebuchet, verdana" color="#ffffff" size="3"><b><img src="http://media.techtarget.com/searchWinIT/images/header_logo.gif" border="0" alt="SearchWinIT.com" width='175' height='33'></b></font></a>
+        <br>
+       <img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="1" height="6" alt="">
+      </td>
+      
+     </tr>
+    </table>
+   </td>
+  </tr>
+ </table>
+ <!-- end header -->
+ 
+ 
+ 
+      
+       <table border="0" cellspacing="0" cellpadding="0" width="100%" valign="top">
+       <!-- Article Title Goes Here -->
+       <tr><td colspan="3" style="padding: 10px;">
+           <!-- Article Title Goes Here -->
+ 
+ 
+  
+  
+    <div style="margin-bottom:10px;"><a href="http://go.techtarget.com/r/19881227/6483470"><font face="arial, trebuchet, verdana" size="3"><b>Hyper-V Replica improves fault tolerance without a failover cluster</b></font></a><br></div>
+    <div style="margin-bottom:10px;"><font face="arial, trebuchet, verdana" color="#666666" size="2">Brien Posey, Contributor</font><br></div>
+    
+   
+    <table width="300" cellspacing="0" cellpadding="0" border="0" align="right">
+    <tr><td valign="top" style="margin:5px;"> 
+   
+  </td></tr>
+   </table>
+   <span style="font-family : arial, trebuchet, verdana; color: #000000; font-size: x-small;">
+  Are you looking for a cheaper alternative to a failover cluster? Windows Server 2012 includes a new feature, Hyper-V Replica, that can be an effective substitute. </span><br>
+  <font face="verdana" size="-2"><a href="http://go.techtarget.com/r/19881228/6483470">READ THE FULL TIP</a></font>
+  <br><br><br>
+ 
+  
+  
+    <a href="http://go.techtarget.com/r/19881229/6483470"><font face="arial, trebuchet, verdana" size="2"><b>Q&A: System Center 2012 SP1 to deliver key management features</b></font></a><br>
+    <span style="font-family : arial, trebuchet, verdana; color: #000000; font-size: x-small;">
+  Systems management expert Don Retallack offers details of next year's Microsoft System Center 2012 Service Pack 1. </span><br>
+  <font face="verdana" size="-2"><a href="http://go.techtarget.com/r/19881230/6483470">READ THE FULL ARTICLE</a></font>
+  <br><br><br>
+ 
+  
+  
+    <a href="http://go.techtarget.com/r/19881231/6483470"><font face="arial, trebuchet, verdana" size="2"><b>Getting granular with SharePoint backup</b></font></a><br>
+    <span style="font-family : arial, trebuchet, verdana; color: #000000; font-size: x-small;">
+  SharePoint backup and restore can be tricky business. Here's how to get the granularity right. </span><br>
+  <font face="verdana" size="-2"><a href="http://go.techtarget.com/r/19881232/6483470">READ THE FULL TIP</a></font>
+  <br><br><br>
+  </td>
+       </tr>
+      </table>
+         <table border="0" cellspacing="0" cellpadding="0" width="100%">
+       <tr>
+        <td rowspan="99"><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="10" height="1" alt=""></td>
+        <td><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="1" height="1" alt=""></td>
+        <td rowspan="99"><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="10" height="1" alt=""></td>
+       </tr>
+         
+ 
+        
+  <tr>
+   <td valign="top" width="100%">       
+    <style type="text/css">
+    <!--
+    p {font-family: Arial, Trebuchet MS, Helvetica, sans-serif; font-size: 12px; line-height: normal; margin-top:0px;}
+    -->
+    </style>
+    <table bgcolor="#EFEFEF" border="0" cellpadding="0" cellspacing="0" width="100%">
+     <tbody><tr>
+      <td colspan="5"><img src="http://media.techtarget.com/digitalguide/images/Misc/spacer.gif" alt="" width="1" height="5"></td>
+     </tr>
+    
+     <tr>
+      <td width="10"><img src="http://media.techtarget.com/digitalguide/images/Misc/spacer.gif" alt="" width="10" height="1"></td>
+      <td valign="top"><img src="http://media.techtarget.com/digitalguide/images/Misc/nl_itke_logo.gif"></td>
+      <td width="10"><img src="http://media.techtarget.com/digitalguide/images/Misc/spacer.gif" alt="" width="10" height="1"></td>
+      <td>
+      <p>Need Windows enterprise answers? <a href=http://go.techtarget.com/r/19881233/6483470 target=_blank>Ask your own question</a> or browse thousands of IT answers on IT Knowledge Exchange.</p>
+      </td>
+      <td width="10"><img src="http://media.techtarget.com/digitalguide/images/Misc/spacer.gif" alt="" width="10" height="1"></td>
+     </tr>
+    
+     <tr>
+      <td colspan="5"><img src="http://media.techtarget.com/digitalguide/images/Misc/spacer.gif" alt="" width="1" height="5"></td>
+     </tr>
+    </tbody></table><br><br>
+   <!-- END: page content -->
+   </td>
+  </tr>
+  <!-- END: page content -->
+      </table>
+      
+
+<!-- TID: 4027 -->
+
+  
+     <!-- LID: 1179104 - Windows in the Enterprise -->
+   
+  
+      <!-- begin footer -->
+
+ <table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr bgcolor="#000000">
+  <td valign="middle" style="border-bottom:1px solid #000;border-top:1px solid #000;"><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="1" height="2"><br><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="10" height="1"><font face="arial, trebuchet, verdana" color="#ffffff" size="2">ABOUT THIS E-NEWSLETTER</font><br><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="1" height="2"></td>
+ </tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td colspan="5"><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="1" height="15"></td>
+ </tr>
+ <tr>
+  <td><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="10" height="1"></td>
+  <td valign="top"><img src="http://searchtechtarget.techtarget.com/images/ttlogofooter_white-lg.gif" border="0" width="101" height="98" alt="TechTarget"></td>
+  <td><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="15" height="1"></td>
+  <td><font face="arial, trebuchet, verdana" color="#000000" size="2">
+    
+    This e-newsletter is published by SearchWinIT.com, part of the TechTarget network. TechTarget provides IT professionals with the resources they need to perform their jobs: Web sites, newsletters, forums, blogs, white papers, webcasts, events and more.<p>
+    Copyright 2012 <a href="http://go.techtarget.com/r/19881234/6483470"><font face="arial, trebuchet, verdana" size="2" >TechTarget</font></a>. All rights reserved. Designated trademarks and brands are the property of their respective owners.
+    <br><br>
+   
+    <b>We're sending you this information based on the Topics you selected in your TechTarget Member Profile. To unsubscribe, <a href="http://searchWinIT.techtarget.com/u?track=NL-463&em=kelproco%40softitmag.com&uid=6483470&eid=883980&"><font face="arial, trebuchet, verdana" size="2" >click here</font></a>.</b><br>
+    <br>Unsubscribe requests may take up to 24 hours to process; you may receive additional mailings during that time. A confirmation e-mail will be sent when your request has been successfully processed.<p>
+
+ 
+
+Please note, this will not affect any other subscriptions you have signed up for.
+
+ 
+  
+   
+   <br>
+   <p>
+   Contact Us:<br>
+
+ 
+   
+   
+ 
+SearchWinIT.com
+ <br>
+ Member Services<br>
+ 275 Grove Street<br>
+ Newton, MA 02466<br>
+ Contact: <a href="mailto:webmaster@techtarget.com">Webmaster@techtarget.com</a>
+ <br><br>When you access content from this newsletter, your information may be shared with the sponsors or future sponsors of that content as described in our Privacy Policy: 
+<a href="http://go.techtarget.com/r/19881235/6483470"> PRIV LINK</a>
+  </td>
+  <td><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="15" height="1"></td>
+ </tr>
+ <tr>
+  <td colspan="5"><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="1" height="21"></td>
+ </tr>
+ <tr bgcolor="#000000">
+  <td colspan="5"><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="1" height="1"></td>
+ </tr>
+</table>
+<!-- end footer --> <!-- begin contols page width table -->
+      </td>
+      <td class="color3"><img src="http://media.techtarget.com/searchWinIT/images/spacer.gif" width="1" height="1"></td>
+     </tr>
+   </table>
+  <skipWrap>
+<img src="http://go.techtarget.com/clear.jpg?g=395122&u=6483470" width="1" height="1"/></body>
+</skipWrap>
+
+ </html>
+
+

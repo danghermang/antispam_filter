@@ -1,0 +1,91 @@
+Subject:Re: [LUG] Linux - and security
+On 05/11/12 15:49, Neil Winchurst wrote:
+> On 03/11/12 18:00, bad apple wrote:
+>
+>> sudo apt-get install keepass2
+>> sudo apt-get install clamav
+>> sudo apt-get install openssh-server (I still can't understand why this
+>> is not installed by default on Ubuntu, Mint, etc)
+>> sudo apt-get install gufw && gksudo gufw
+>> sudo apt-get install gparted && gksudo gparted (gparted is a graphical
+>> partitioning tool)
+>> sudo apt-get install fail2ban (it will set itself up with a basic but
+>> workable configuration out of the box)
+>> sudo apt-get remove unity-lens-shopping
+>>
+> I have been looking through your email (mostly snipped), thanks.
+> I use keepass already, but I did not know that there was a new version.
+> Seahorse seems to be for Gnome.
+>
+> You mention gufw which I assume is a Gnome program. If this is to look
+> after setting up keys for gpg then I suppose, as a KDE user, I would use
+> kgpg instead? Likewise instead of gksudo I use kdesudo.
+>
+> I already have gparted installed and use it to reformat memory sticks
+> for example.
+>
+> Openssh-server is new to me, but I may well not need this. Will research
+> it to see. Likewise fail2ban.
+>
+> Unity is irrelevant to me.
+>
+> I expect to be installing the new distro very soon, so I am trying to
+> get all research done first.
+>
+> Neil
+>
+>
+>
+>
+>
+
+Oh yes, I forgot you're a KDE user - I tend to use just about every DE
+except KDE (I loathe it with a vengeance I'm afraid) and automatically
+assume everyone else is using Gnome/Unity/XFCE as well, especially with
+the Debian derivatives.
+
+You're completely right though - GUFW is a Gnome app, but although
+desktop integration won't be quite as nice when you start mixing and
+matching Gnome/KDE elements you won't usually run into any problems -
+I've got a bunch of KDE apps and all of the KDE development libraries
+installed now on my Gnome3 desktop for example. And you're also using
+Gparted already yourself, which is a Gnome app. But for you, yes, of
+course feel free to stick to more 'native' KDE tools as appropriate,
+like kdesudo, kgpg, etc.
+
+A KDE using friend pointed out this firewall GUI to me -
+http://kde-apps.org/content/show.php/UFW+KControl+Module?content=137789.
+I've never personally used it myself but I'm assured it works fine.
+Alternatively, there are plenty of other DE-agnostic firewall frontends
+you can use like Firestarter, etc. I've never tried but I don't see any
+reason why GUFW wouldn't work fine on KDE as well, although it might
+look a bit ugly - ultimately, GUFW is just a frontend to UFW (the
+terminal-based backend, which is itself only a proxy to the actual
+iptables tool) but I'm not sure - maybe a KDE user could chime in?
+
+Openssh is totally optional - it's just that it's such an integral part
+of my daily life and workflow I can't imagine not having it by default.
+Even my (jailbroken, obviously) iPhone runs sshd and it's the first
+thing I install and configure on any machine I touch. I use it for
+literally everything (secure proxy, file transfer, general admin,
+reverse tunnels for dodging crappy NAT firewalls, etc, etc) and it's an
+ideal and simple solution for your home network file sharing needs
+without getting your hands too dirty. Of course, if you don't feel you
+need it, don't install it! Having the choice is nice - you can always
+install it to play with it as it won't do any harm just running, or
+install it later when you've had a chance to evaluate it properly, or
+completely nuke it if it's worthless to you.
+
+>>>
+Unity is irrelevant to me.
+
+
+*chortles* Good man: if this was a test, you'd have just passed...
+
+Cheers
+
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

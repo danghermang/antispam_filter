@@ -1,0 +1,28 @@
+Subject:Re: Compartir impresoras en red por debian
+El 16/10/12 14:08, residentresureccion@gmail.com escribió:
+>
+> saludos a todos amigos
+>
+> Tengo una impresora hp 2055dn  conectada a un equipo vía usb en debían 6.0.5 quisiera que varios  equipo dentro de la misma red pudiesen imprimir con la misma impresora desde otras oficinas ya probé por el administrador de impresión que trae  busco la ip del equipo que tiene la impresora conectada vía usb pero  ha sido insatisfactorío el resultado. Por favor necesito ayuda con esto. Gracias de antemano
+
+La HP 2055dn tiene una placa de red Ethernet, razón por la cual no veo 
+el motivo por el cual está conectada a un equipo vía USB, que te obliga 
+a mantener una computadora prendida.
+Si la conectas directamente a la red, todo va a funcionar mejor y 
+ahorarás recursos.
+
+http://www.solutionbox.com.ar/mailing/HP16-11/Laserjet_P2055dn.pdf
+
+Si te tomas el trabaja do leer esto,
+http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?lang=en&cc=us&taskId=115&prodSeriesId=3662052&prodTypeId=18972&objectID=c01596979
+
+te indica cómo configurarla sobre una red.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/507D9A89.9050200@gmail.com
+

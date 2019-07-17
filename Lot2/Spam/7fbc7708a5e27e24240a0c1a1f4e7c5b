@@ -1,0 +1,873 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<nickandkatie@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <cottonon.51547@envfrm.rsys5.com>
+Received: (qmail 4566 invoked by uid 89); 10 Dec 2012 10:43:10 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 10 Dec 2012 10:43:10 -0000
+Delivery-date: Mon, 10 Dec 2012 02:41:31 -0800
+Received: from omp.members.cottonon.com ([199.7.202.185]) helo=omp.members.cottonon.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1Ti0na-0002uE-8G on interface=184.105.182.43
+	for nickandkatie@activ8.net.au; Mon, 10 Dec 2012 02:41:30 -0800
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=cottonon; d=members.cottonon.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From:Reply-To:Subject:List-Unsubscribe:Message-ID; i=cottonon@members.cottonon.com;
+ bh=YXHZg9mzl9Fy7yD3c9EV/24fGaI=;
+ b=a4JlzaZXg8ax6O35Zdd70xPfYoksUBVrX+5OjpGDNmZJrT4JiTgB/r71CPhCUxk737x/LGuStIws
+   6YbMMYo3eFJ8G5tp6E3TLMGnDIQtBFRiYmPrAbJTfskv+MrU0rddYvMOZAfBVtNQ9JEZTV31kh+Q
+   /62W0zeiZNJZeC0GGuk=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=cottonon; d=members.cottonon.com;
+ b=AgfXn8vpCa090EXAU3PcWfjW60H1c2Weg5avHj6HICpztanKEJnvT6qmLw4o7d6t+Gt03m8GMC5K
+   2hq7QXUFE9Np68QtOTPbtC5V+KyhTt3zWqsV7ImcXVClyyPjbNmGPW1BxWWQlI0V/02lomZtocz+
+   D1wRoysJPP4D5n1Nqds=;
+Received: by omp.members.cottonon.com id homu541hcl81 for <nickandkatie@activ8.net.au>; Mon, 10 Dec 2012 02:41:15 -0800 (envelope-from <cottonon.51547@envfrm.rsys5.com>)
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Date: Mon, 10 Dec 2012 02:41:15 -0800
+To: nickandkatie@activ8.net.au
+From: "Cotton On" <cottonon@members.cottonon.com>
+Reply-To: "Cotton On" <reply@members.cottonon.com>
+Subject: Get your gifts sorted with up to 50% off online
+List-Unsubscribe: <https://members.cottonon.com/pub/optout/UnsubscribeOneStepConfirmAction?YES=true&_ri_=X0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JA&_ei_=EolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw>, <mailto:unsubscribe-WQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JA@imh.rsys5.com?subject=List-Unsubscribe>
+X-sgxh1: gpJsHgKsHlpLxHJlpNCQgLlQHm
+X-rext: 4.interact5.ErAtrE9wdmVTqhkc6_wJ3lRW-x1a4Dc6
+X-cid: cottonon.4364
+Message-ID: <0.1.23.9AD.1CDD6C2E15F5F4C.0@omp.members.cottonon.com>
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: cottonon.51547@envfrm.rsys5.com
+X-Relay-Countries: us
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd3.ctyme.com
+ Spam Tests:
+ * -0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/, no
+ *      trust
+ *      [199.7.202.185 listed in list.dnswl.org]
+ *  6.0 BAYES_99 BODY: Bayes spam probability is 99 to 100%
+ *      [score: 0.9931]
+ *  1.0 CT_PERCENT BODY: Percent Off
+ *  0.4 HTML_IMAGE_RATIO_02 BODY: HTML has a low ratio of text to image area
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ *  1.0 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+ * -0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from author's
+ *       domain
+ * -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+ *  0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily
+ *      valid
+X-Spam-Class: SPAM-LOW
+X-Sender-Host-Address: 199.7.202.185
+X-Sender-Host-Name: omp.members.cottonon.com
+X-Spam-Flag: yes
+
+<=21DOCTYPE html PUBLIC =22-//W3C//DTD XHTML 1=2E0 Transitional//EN=22 =22h=
+ttp://www=2Ew3=2Eorg/TR/xhtml1/DTD/xhtml1-transitional=2Edtd=22>
+<html xmlns=3D=22http://www=2Ew3=2Eorg/1999/xhtml=22>
+<head>
+<meta http-equiv=3D=22Content-Type=22 content=3D=22text/html; charset=3Dutf=
+-8=22 />
+<title>Cotton On</title>
+
+<style type=3D=22text/css=22>
+
+body=7B
+	margin:0px;
+	padding:0px;
+	background:=23ffffff;
+=7D
+
+img =7B
+	border: none;
+=7D
+
+a,a:hover
+=7B
+	text-decoration:underline;
+	color:=23aeaeae;
+=7D
+
+h2
+=7B
+	color:=235a5858;
+=7D
+
+p
+=7B
+	margin:0px;
+	padding:0px;
+=7D
+</style>
+
+</head>
+
+<body>
+
+<=21--Table start-->
+
+<table width=3D=22650=22 border=3D=220=22 align=3D=22center=22 cellpadding=
+=3D=220=22 cellspacing=3D=220=22>
+  <tr>
+    <td align=3D=22left=22 valign=3D=22top=22>
+   =20
+    <table width=3D=22650=22 border=3D=220=22 cellspacing=3D=220=22 cellpad=
+ding=3D=220=22>
+      <tr>
+        <td align=3D=22center=22 valign=3D=22top=22 style=3D=22font:Normal =
+12px Arial, Helvetica, sans-serif; color:=23aeaeae; padding:10px 0px=22>
+          Email not displaying correctly?  <a href=3D=22https://members=2Ec=
+ottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt0=
+4qzfSHW9JAVXtpKX%3DURRDT&_ei_=3DEolaGGF4SNMvxFF7KucKuWPTBxIdnsspboriYEWLk_9=
+Jna5Jwi7u5R-6ZJuLYFEFGYumzsDlkJYDPJpu=2E=22 style=3D=22font:Normal 12px Ari=
+al, Helvetica, sans-serif; color:=23aeaeae;=22>View it in your browser</a>
+        </td>
+      </tr>
+    </table>
+
+    <=21--Header start-->
+    <table width=3D=22650=22 border=3D=220=22 cellspacing=3D=220=22 cellpad=
+ding=3D=220=22>
+      <tr>
+        <td align=3D=22left=22 valign=3D=22top=22 style=3D=22padding:18px 0=
+px 29px 0px;=22>
+          <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc=
+2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURRDU&_ei_=3DE=
+olaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><img style=
+=3D=22DISPLAY: block=22 title=3DLogo border=3D0 alt=3DLogo src=3D=22https:/=
+/responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210_AUNZ_G=
+IFTSALE/COO_121210_AUNZ_GIFTSALE/logo=2Epng=22 width=3D=22275=22 height=3D=
+=2265=22 />
+          </a>
+        </td>
+      </tr>
+    </table>
+    <=21--Header End-->
+   =20
+   =20
+    <=21--Content start-->
+    <table width=3D=22650=22 border=3D=220=22 cellspacing=3D=220=22 cellpad=
+ding=3D=220=22>
+      <tr>
+        <td align=3D=22left=22 valign=3D=22top=22>
+          <=21--Banner start-->
+          <table width=3D=22650=22 border=3D=220=22 cellspacing=3D=220=22 c=
+ellpadding=3D=220=22>
+            <tr>
+             =20
+              <=21--Banner Image start-->
+              <td align=3D=22left=22 valign=3D=22top=22>
+                <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_ri_=
+=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURRDW&=
+_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><im=
+g style=3D=22DISPLAY: block=22 title=3DHero border=3D0 alt=3DHero src=3D=22=
+https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210=
+_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/banner-image=2Ejpg=22 width=3D=2265=
+0=22 height=3D=22296=22/>
+                </a> =20
+              </td>
+              <=21--Banner Image End-->
+             =20
+            </tr>
+            <tr>
+              <td align=3D=22left=22 valign=3D=22top=22 style=3D=22backgrou=
+nd:=23ffffff; border:1px solid =23ebebeb; color:=23333030;=22>
+             =20
+                <=21--Banner Text start-->
+                <table width=3D=22648=22 border=3D=220=22 cellspacing=3D=22=
+0=22 cellpadding=3D=220=22>
+                  <tr>
+                    <td align=3D=22left=22 valign=3D=22top=22 style=3D=22fo=
+nt:Normal 24px Futura,'Century Gothic','Trebuchet MS',Arial,Helvetica,sans-=
+serif; color:=23333030; padding:21px 20px 6px 20px;=22>
+                      Get Christmas sorted with up to 50% off online*
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align=3D=22left=22 valign=3D=22top=22 style=3D=22fo=
+nt:Normal 12px Arial, Helvetica, sans-serif; color:=235a5858; padding:0px 2=
+0px 6px 20px;=22><b>Place your order before 11:59pm AEST 14 December 2012 t=
+o receive your items in time for Christmas=2E</b><br>*Prices as marked=2E F=
+or a limited time=2E Online only=2E
+                 =20
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align=3D=22right=22 valign=3D=22top=22>
+                      <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?=
+_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DUR=
+RDY&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22=
+><img src=3D=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cott=
+onon/COO_121210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/shop-more=2Epng=22 w=
+idth=3D=2295=22 height=3D=2228=22 alt=3D=22View More=22 /></a>
+                    </td>
+                  </tr>
+                </table>
+                <=21--Banner Text End-->
+                 =20
+              </td>
+            </tr>
+            <tr>
+              <td align=3D=22right=22 valign=3D=22top=22>
+                <img src=3D=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/respo=
+nsysimages/cottonon/COO_121210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/banne=
+r-shadow=2Epng=22 width=3D=22283=22 height=3D=2218=22 alt=3D=22=22 /></td>=
+=20
+            </tr>
+          </table>
+          <=21--Banner End-->
+       =20
+        </td>
+      </tr>
+
+      <=21-- Separator -->
+      <tr><td><table width=3D=22650=22 border=3D=220=22 cellspacing=3D=220=
+=22 cellpadding=3D=220=22 style=3D=22border-bottom:1px solid =23d3d4d4;marg=
+in:20px 0;=22><tr><td style=3D=22border-bottom:1px solid =23f4f4f4;=22></td=
+></tr></table></td></tr>
+      <=21-- End Separator -->
+
+      <tr>
+        <td align=3D=22left=22 valign=3D=22top=22>
+       =20
+          <=21--2 Columns Category Module Start-->
+          <table width=3D=22650=22 border=3D=220=22 cellspacing=3D=220=22 c=
+ellpadding=3D=220=22>
+            <tr>
+              <td width=3D=22650=22 colspan=3D=222=22 align=3D=22left=22 va=
+lign=3D=22top=22 style=3D=22font:Normal 24px Futura,'Century Gothic','Trebu=
+chet MS',Arial,Helvetica,sans-serif; color:=23333030; padding-bottom:18px;=
+=22></td>
+            </tr>
+            <tr>
+              <td width=3D=22325=22 align=3D=22left=22 valign=3D=22top=22>
+             =20
+              <=21--Category 1 Start-->
+             =20
+              <table width=3D=22305=22 border=3D=220=22 cellspacing=3D=220=
+=22 cellpadding=3D=220=22>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22>
+                    <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_r=
+i_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURRD=
+A&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><=
+img style=3D=22DISPLAY: block=22 title=3DCat1 border=3D0 alt=3DCat1 src=3D=
+=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121=
+210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/2-colum-img1=2Ejpg=22 width=3D=
+=22305=22 height=3D=22149=22/></td>
+                    </a>
+                </tr>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22 style=3D=22back=
+ground:=23ffffff; padding:17px 0px 0px 12px; color:=23333030; border:1px so=
+lid =23ebebeb;=22><table width=3D=22291=22 border=3D=220=22 cellspacing=3D=
+=220=22 cellpadding=3D=220=22>
+                    <tr>
+                      <td width=3D=22258=22 align=3D=22left=22 valign=3D=22=
+top=22><table width=3D=22258=22 border=3D=220=22 cellspacing=3D=220=22 cell=
+padding=3D=220=22>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 16px Futura,'Century Gothic','Trebuchet MS',Arial,Helveti=
+ca,sans-serif; color:=23333030;=22>Avoid an awkward Christmas=2E=2E=2E</td>
+                        </tr>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 12px Arial, Helvetica, sans-serif; color:=235a5858; line-=
+height:18px; padding:2px 0px 5px 0px;=22>=2E=2E=2Ewith 30% off all Typo pro=
+ducts sitewide=2E</td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                    <tr>
+                      <td align=3D=22right=22 valign=3D=22bottom=22><a href=
+=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQ=
+Gj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURRDB&_ei_=3DEolaGGF4SNMvxFF7Ku=
+cKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><img src=3D=22https://respon=
+sys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210_AUNZ_GIFTSALE=
+/COO_121210_AUNZ_GIFTSALE/shop-more=2Epng=22 width=3D=2295=22 height=3D=222=
+8=22 alt=3D=22View_More=22 /></a></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td align=3D=22right=22 valign=3D=22top=22><img src=3D=22=
+https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210=
+_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/banner-shadow=2Epng=22 width=3D=222=
+98=22 height=3D=2217=22 alt=3D=22=22 /></td>
+                </tr>
+              </table>
+              <=21--Category 1 End-->
+             =20
+              </td>
+              <td width=3D=22325=22 align=3D=22right=22 valign=3D=22top=22 >
+             =20
+              <=21--Category 2 Start-->
+              <table width=3D=22305=22 border=3D=220=22 cellspacing=3D=220=
+=22 cellpadding=3D=220=22>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22>
+                    <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_r=
+i_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURRD=
+C&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><=
+img style=3D=22DISPLAY: block=22 title=3DCat2 border=3D0 alt=3DCat2 src=3D=
+=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121=
+210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/2-colum-img2=2Ejpg=22 width=3D=
+=22305=22 height=3D=22149=22/></td>
+                    </a> =20
+                </tr>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22 style=3D=22back=
+ground:=23ffffff; padding:17px 0px 0px 12px; color:=23333030; border:1px so=
+lid =23ebebeb;=22><table width=3D=22291=22 border=3D=220=22 cellspacing=3D=
+=220=22 cellpadding=3D=220=22>
+                    <tr>
+                      <td width=3D=22258=22 align=3D=22left=22 valign=3D=22=
+top=22><table width=3D=22258=22 border=3D=220=22 cellspacing=3D=220=22 cell=
+padding=3D=220=22>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 16px Futura,'Century Gothic','Trebuchet MS',Arial,Helveti=
+ca,sans-serif; color:=23333030;=22>Joy to the World=2E=2E=2E</td>
+                        </tr>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 12px Arial, Helvetica, sans-serif; color:=235a5858; line-=
+height:18px; padding:2px 0px 5px 0px;=22>=2E=2E=2E with 30% off all Cotton =
+On Kids=2E </td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                    <tr>
+                      <td align=3D=22right=22 valign=3D=22bottom=22><a href=
+=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQ=
+Gj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURRDD&_ei_=3DEolaGGF4SNMvxFF7Ku=
+cKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><img src=3D=22https://respon=
+sys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210_AUNZ_GIFTSALE=
+/COO_121210_AUNZ_GIFTSALE/shop-more=2Epng=22 width=3D=2297=22 height=3D=222=
+8=22 alt=3D=22Shop_More=22 /></a></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td align=3D=22right=22 valign=3D=22top=22><img src=3D=22=
+https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210=
+_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/banner-shadow=2Epng=22 width=3D=222=
+98=22 height=3D=2217=22 alt=3D=22=22 /></td>
+                </tr>
+              </table>
+               <=21--Category 2 End-->
+             =20
+              </td>
+            </tr>
+          </table>
+          <=21--2 Columns Category Module End-->
+
+        </td>
+      </tr>
+
+ <tr>
+        <td align=3D=22left=22 valign=3D=22top=22>
+       =20
+          <=21--2 Columns Category Module Start-->
+          <table width=3D=22650=22 border=3D=220=22 cellspacing=3D=220=22 c=
+ellpadding=3D=220=22>
+            <tr>
+              <td width=3D=22650=22 colspan=3D=222=22 align=3D=22left=22 va=
+lign=3D=22top=22 style=3D=22font:Normal 24px Futura,'Century Gothic','Trebu=
+chet MS',Arial,Helvetica,sans-serif; color:=23333030; padding-bottom:18px;=
+=22></td>
+            </tr>
+            <tr>
+              <td width=3D=22325=22 align=3D=22left=22 valign=3D=22top=22>
+             =20
+              <=21--Category 1 Start-->
+             =20
+              <table width=3D=22305=22 border=3D=220=22 cellspacing=3D=220=
+=22 cellpadding=3D=220=22>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22>
+                    <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_r=
+i_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURSR=
+R&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><=
+img style=3D=22DISPLAY: block=22 title=3DCat1 border=3D0 alt=3DCat1 src=3D=
+=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121=
+210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/2-colum-img3=2Ejpg=22 width=3D=
+=22305=22 height=3D=22149=22/></td>
+                    </a>
+                </tr>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22 style=3D=22back=
+ground:=23ffffff; padding:17px 0px 0px 12px; color:=23333030; border:1px so=
+lid =23ebebeb;=22><table width=3D=22291=22 border=3D=220=22 cellspacing=3D=
+=220=22 cellpadding=3D=220=22>
+                    <tr>
+                      <td width=3D=22258=22 align=3D=22left=22 valign=3D=22=
+top=22><table width=3D=22258=22 border=3D=220=22 cellspacing=3D=220=22 cell=
+padding=3D=220=22>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 16px Futura,'Century Gothic','Trebuchet MS',Arial,Helveti=
+ca,sans-serif; color:=23333030;=22>Hey Ladies=21</td>
+                        </tr>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 12px Arial, Helvetica, sans-serif; color:=235a5858; line-=
+height:18px; padding:2px 0px 5px 0px;=22>Treat yourself, or someone else, w=
+ith up to 50% off selected styles=2E <br></td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                    <tr>
+                      <td align=3D=22right=22 valign=3D=22bottom=22><a href=
+=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQ=
+Gj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURSRS&_ei_=3DEolaGGF4SNMvxFF7Ku=
+cKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><img src=3D=22https://respon=
+sys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210_AUNZ_GIFTSALE=
+/COO_121210_AUNZ_GIFTSALE/shop-more=2Epng=22 width=3D=2295=22 height=3D=222=
+8=22 alt=3D=22View_More=22 /></a></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td align=3D=22right=22 valign=3D=22top=22><img src=3D=22=
+https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210=
+_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/banner-shadow=2Epng=22 width=3D=222=
+98=22 height=3D=2217=22 alt=3D=22=22 /></td>
+                </tr>
+              </table>
+              <=21--Category 1 End-->
+             =20
+              </td>
+              <td width=3D=22325=22 align=3D=22right=22 valign=3D=22top=22 >
+             =20
+              <=21--Category 2 Start-->
+              <table width=3D=22305=22 border=3D=220=22 cellspacing=3D=220=
+=22 cellpadding=3D=220=22>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22>
+                    <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_r=
+i_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURSR=
+T&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><=
+img style=3D=22DISPLAY: block=22 title=3DCat2 border=3D0 alt=3DCat2 src=3D=
+=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121=
+210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/2-colum-img4=2Ejpg=22 width=3D=
+=22305=22 height=3D=22149=22/></td>
+                    </a> =20
+                </tr>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22 style=3D=22back=
+ground:=23ffffff; padding:17px 0px 0px 12px; color:=23333030; border:1px so=
+lid =23ebebeb;=22><table width=3D=22291=22 border=3D=220=22 cellspacing=3D=
+=220=22 cellpadding=3D=220=22>
+                    <tr>
+                      <td width=3D=22258=22 align=3D=22left=22 valign=3D=22=
+top=22><table width=3D=22258=22 border=3D=220=22 cellspacing=3D=220=22 cell=
+padding=3D=220=22>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 16px Futura,'Century Gothic','Trebuchet MS',Arial,Helveti=
+ca,sans-serif; color:=23333030;=22>For the Guys=21</td>
+                        </tr>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 12px Arial, Helvetica, sans-serif; color:=235a5858; line-=
+height:18px; padding:2px 0px 5px 0px;=22>Stock up on gifts for that special=
+ guy (or for yourself) with up to 50% off selected styles=2E</td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                    <tr>
+                      <td align=3D=22right=22 valign=3D=22bottom=22><a href=
+=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQ=
+Gj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURSRU&_ei_=3DEolaGGF4SNMvxFF7Ku=
+cKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><img src=3D=22https://respon=
+sys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210_AUNZ_GIFTSALE=
+/COO_121210_AUNZ_GIFTSALE/shop-more=2Epng=22 width=3D=2297=22 height=3D=222=
+8=22 alt=3D=22Shop_More=22 /></a></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td align=3D=22right=22 valign=3D=22top=22><img src=3D=22=
+https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210=
+_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/banner-shadow=2Epng=22 width=3D=222=
+98=22 height=3D=2217=22 alt=3D=22=22 /></td>
+                </tr>
+              </table>
+               <=21--Category 2 End-->
+             =20
+              </td>
+            </tr>
+          </table>
+          <=21--2 Columns Category Module End-->
+
+        </td>
+      </tr>
+
+       <tr>
+        <td align=3D=22left=22 valign=3D=22top=22>
+       =20
+          <=21--2 Columns Category Module Start-->
+          <table width=3D=22650=22 border=3D=220=22 cellspacing=3D=220=22 c=
+ellpadding=3D=220=22>
+            <tr>
+              <td width=3D=22650=22 colspan=3D=222=22 align=3D=22left=22 va=
+lign=3D=22top=22 style=3D=22font:Normal 24px Futura,'Century Gothic','Trebu=
+chet MS',Arial,Helvetica,sans-serif; color:=23333030; padding-bottom:18px;=
+=22></td>
+            </tr>
+            <tr>
+              <td width=3D=22325=22 align=3D=22left=22 valign=3D=22top=22>
+             =20
+              <=21--Category 1 Start-->
+             =20
+              <table width=3D=22305=22 border=3D=220=22 cellspacing=3D=220=
+=22 cellpadding=3D=220=22>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22>
+                    <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_r=
+i_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURSR=
+W&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><=
+img style=3D=22DISPLAY: block=22 title=3DCat1 border=3D0 alt=3DCat1 src=3D=
+=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121=
+210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/2-colum-img5=2Ejpg=22 width=3D=
+=22305=22 height=3D=22150=22/></td>
+                    </a>
+                </tr>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22 style=3D=22back=
+ground:=23ffffff; padding:17px 0px 0px 12px; color:=23333030; border:1px so=
+lid =23ebebeb;=22><table width=3D=22291=22 border=3D=220=22 cellspacing=3D=
+=220=22 cellpadding=3D=220=22>
+                    <tr>
+                      <td width=3D=22258=22 align=3D=22left=22 valign=3D=22=
+top=22><table width=3D=22258=22 border=3D=220=22 cellspacing=3D=220=22 cell=
+padding=3D=220=22>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 16px Futura,'Century Gothic','Trebuchet MS',Arial,Helveti=
+ca,sans-serif; color:=23333030;=22>It's a shoe in=21</td>
+                        </tr>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 12px Arial, Helvetica, sans-serif; color:=235a5858; line-=
+height:18px; padding:2px 0px 5px 0px;=22>Treat your feet, or stock up on ac=
+cessories, with up to 50% off selected Rubi product=2E</td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                    <tr>
+                      <td align=3D=22right=22 valign=3D=22bottom=22><a href=
+=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQ=
+Gj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURSRY&_ei_=3DEolaGGF4SNMvxFF7Ku=
+cKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><img src=3D=22https://respon=
+sys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210_AUNZ_GIFTSALE=
+/COO_121210_AUNZ_GIFTSALE/shop-more=2Epng=22 width=3D=2295=22 height=3D=222=
+8=22 alt=3D=22View_More=22 /></a></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td align=3D=22right=22 valign=3D=22top=22><img src=3D=22=
+https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210=
+_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/banner-shadow=2Epng=22 width=3D=222=
+98=22 height=3D=2217=22 alt=3D=22=22 /></td>
+                </tr>
+              </table>
+              <=21--Category 1 End-->
+             =20
+              </td>
+              <td width=3D=22325=22 align=3D=22right=22 valign=3D=22top=22 >
+             =20
+              <=21--Category 2 Start-->
+              <table width=3D=22305=22 border=3D=220=22 cellspacing=3D=220=
+=22 cellpadding=3D=220=22>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22>
+                    <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_r=
+i_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURSR=
+A&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><=
+img style=3D=22DISPLAY: block=22 title=3DCat2 border=3D0 alt=3DCat2 src=3D=
+=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121=
+210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/2-colum-img6=2Ejpg=22 width=3D=
+=22305=22 height=3D=22149=22/></td>
+                    </a> =20
+                </tr>
+                <tr>
+                  <td align=3D=22left=22 valign=3D=22top=22 style=3D=22back=
+ground:=23ffffff; padding:17px 0px 0px 12px; color:=23333030; border:1px so=
+lid =23ebebeb;=22><table width=3D=22291=22 border=3D=220=22 cellspacing=3D=
+=220=22 cellpadding=3D=220=22>
+                    <tr>
+                      <td width=3D=22258=22 align=3D=22left=22 valign=3D=22=
+top=22><table width=3D=22258=22 border=3D=220=22 cellspacing=3D=220=22 cell=
+padding=3D=220=22>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 16px Futura,'Century Gothic','Trebuchet MS',Arial,Helveti=
+ca,sans-serif; color:=23333030;=22>Love your body=21</td>
+                        </tr>
+                        <tr>
+                          <td align=3D=22left=22 valign=3D=22top=22 style=
+=3D=22font:Normal 12px Arial, Helvetica, sans-serif; color:=235a5858; line-=
+height:18px; padding:2px 0px 5px 0px;=22>Spoil your bestie with up to 50% o=
+ff selected Body products=2E </td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                    <tr>
+                      <td align=3D=22right=22 valign=3D=22bottom=22><a href=
+=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQ=
+Gj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURSRB&_ei_=3DEolaGGF4SNMvxFF7Ku=
+cKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22><img src=3D=22https://respon=
+sys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210_AUNZ_GIFTSALE=
+/COO_121210_AUNZ_GIFTSALE/shop-more=2Epng=22 width=3D=2297=22 height=3D=222=
+8=22 alt=3D=22Shop_More=22 /></a></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td align=3D=22right=22 valign=3D=22top=22><img src=3D=22=
+https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottonon/COO_121210=
+_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/banner-shadow=2Epng=22 width=3D=222=
+98=22 height=3D=2217=22 alt=3D=22=22 /></td>
+                </tr>
+              </table>
+               <=21--Category 2 End-->
+             =20
+              </td>
+            </tr>
+          </table>
+          <=21--2 Columns Category Module End-->
+
+        </td>
+      </tr>
+
+    =20
+      <tr>
+        <td align=3D=22left=22 valign=3D=22top=22>
+         =20
+          <=21--Content Modules Start-->
+          <table width=3D=22650=22 border=3D=220=22 cellspacing=3D=220=22 c=
+ellpadding=3D=220=22>
+            <tr>
+              <td valign=3D=22top=22 style=3D=22font:Normal 24px Futura,'Ce=
+ntury Gothic','Trebuchet MS',Arial,Helvetica,sans-serif; color:=23333030; p=
+adding-bottom:18px;=22>Can't decide? Get a gift card=21</td>
+            </tr>
+            <tr>
+              <td align=3D=22left=22 valign=3D=22top=22>
+             =20
+        <=21--Banner Strip Module Start-->
+                <table width=3D=22650=22 border=3D=220=22 cellspacing=3D=22=
+0=22 cellpadding=3D=220=22>
+                  <tr>
+
+                    <=21--Banner Strip Image  Start-->
+                    <td width=3D=22650=22 align=3D=22left=22 valign=3D=22to=
+p=22>
+                      <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?=
+_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DUR=
+SRC&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22=
+><img style=3D=22DISPLAY: block=22 title=3DContent2 border=3D0 alt=3DConten=
+t2 src=3D=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages/cottono=
+n/COO_121210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/bannerstrip1=2Ejpg=22 w=
+idth=3D=22650=22 height=3D=22195=22/>
+                      </a> =20
+                    </td>
+                    <=21--Banner Strip Image  End-->
+
+                  </tr>
+                  <tr>
+                    <td colspan=3D=222=22 align=3D=22right=22 valign=3D=22t=
+op=22><img src=3D=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysimages=
+/cottonon/COO_121210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/banner-shadow=
+=2Epng=22 width=3D=22298=22 height=3D=2217=22 alt=3D=22=22 /></td>
+                    </tr>
+                </table>
+        <=21--Banner Strip Module End-->      =20
+      =20
+        </td>
+      </tr>
+
+      <=21-- Separator -->
+      <tr><td><table width=3D=22650=22 border=3D=220=22 cellspacing=3D=220=
+=22 cellpadding=3D=220=22 style=3D=22border-bottom:1px solid =23d3d4d4;marg=
+in:20px 0;=22><tr><td style=3D=22border-bottom:1px solid =23f4f4f4;=22></td=
+></tr></table></td></tr>
+      <=21-- End Separator -->
+   =20
+    </table>
+    <=21--Content End-->
+   =20
+    <=21--Footer start-->
+    <table width=3D=22650=22 border=3D=220=22 cellspacing=3D=220=22 cellpad=
+ding=3D=220=22 style=3D=22margin-top:10px;=22>
+      <tr>
+        <td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:Normal 12=
+px Arial, Helvetica, sans-serif; color:=23aeaeae;=22>
+          <table border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=
+=22>
+            <tr>
+              <=21-- Promo Space -->
+              <td align=3D=22left=22 valign=3D=22top=22 width=3D=22135=22 s=
+tyle=3D=22font:Normal 14px Arial, Helvetica, sans-serif; padding:10px 8px; =
+background:=23dbdbdb; color:=23838282;=22>
+                <p style=3D=22margin-bottom:6px;=22><b>WORK WITH US THESE H=
+OLIDAYS</b></p>
+                <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_ri_=
+=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURSRD&=
+_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22 sty=
+le=3D=22color:=23aeaeae;=22>more=2E=2E</a>
+              </td>
+              <=21-- End Promo Space -->
+
+              <td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:Nor=
+mal 12px Arial, Helvetica, sans-serif; color:=23aeaeae; border-left:1px das=
+hed =23aeaeae; padding:0 8px;=22>
+                <p style=3D=22margin-bottom:6px;=22><strong>ACCOUNT</strong=
+></p>
+               =20
+                  <p style=3D=22margin-bottom:5px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSSR&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22>Manage Preferences</a></p>
+                </ul>
+              </td>
+              <td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:Nor=
+mal 12px Arial, Helvetica, sans-serif; color:=23aeaeae; border-left:1px das=
+hed =23aeaeae; padding:0 8px;=22>
+                <p style=3D=22margin-bottom:6px;=22><strong>HELP</strong></=
+p>
+               =20
+                  <p style=3D=22margin-bottom:3px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSSS&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22>Contact Us</a></p>
+                  <p style=3D=22margin-bottom:3px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSST&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22>FAQ</a></p>
+                  <p style=3D=22margin-bottom:3px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSSU&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22>Product code of conduct</a></p>
+                  <p style=3D=22margin-bottom:3px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSSW&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22>Privacy Policy</a></p>
+                </ul>
+              </td>
+              <td align=3D=22left=22 valign=3D=22top=22 width=3D=2290=22 st=
+yle=3D=22font:Normal 12px Arial, Helvetica, sans-serif; color:=23aeaeae; bo=
+rder-left:1px dashed =23aeaeae; padding:0 8px;=22>
+                <p style=3D=22margin-bottom:6px;=22><strong>SHOP</strong></=
+p>
+               =20
+                  <p style=3D=22margin-bottom:3px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSSY&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22>Women</a></p>
+                  <p style=3D=22margin-bottom:3px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSSA&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22>Men</a></p>
+                  <p style=3D=22margin-bottom:3px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSSB&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22>Kids</a></p>
+                  <p style=3D=22margin-bottom:3px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSSC&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22>Typo</a></p>
+                  <p style=3D=22margin-bottom:3px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSSD&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22>Rubi</a></p>
+                  <p style=3D=22margin-bottom:3px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSTR&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22>Body</a></p>
+                </ul>
+              </td>
+              <td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:Nor=
+mal 12px Arial, Helvetica, sans-serif; color:=23aeaeae; border-left:1px das=
+hed =23aeaeae; padding:0 8px;=22>
+                <p style=3D=22margin-bottom:6px;=22><strong>FOLLOW US</stro=
+ng></p>
+               =20
+                  <p style=3D=22margin-bottom:5px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSTS&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22><img src=3D=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysi=
+mages/cottonon/COO_121210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/facebook=
+=2Epng=22 align=3D=22center=22> Facebook</a></p>
+                  <p style=3D=22margin-bottom:5px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSTT&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22><img src=3D=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysi=
+mages/cottonon/COO_121210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/youtube=2E=
+png=22 align=3D=22center=22> YouTube</a></p>
+                  <p style=3D=22margin-bottom:5px;=22><a href=3D=22https://=
+members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2z=
+bosJAXOcUt04qzfSHW9JAVXtpKX%3DURSTU&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMe=
+p-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22color:=23aeaeae; text-decoratio=
+n:none;=22><img src=3D=22https://responsys=2Ehs=2Ellnwd=2Enet/i5/responsysi=
+mages/cottonon/COO_121210_AUNZ_GIFTSALE/COO_121210_AUNZ_GIFTSALE/twitter=2E=
+png=22 align=3D=22center=22> Twitter</a></p>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td align=3D=22center=22 valign=3D=22top=22 style=3D=22font:Normal =
+12px Arial, Helvetica, sans-serif; color:=23aeaeae; line-height:18px; paddi=
+ng:15px 0px 35px 0px;=22>You have received this email because you have subs=
+cribed to <a href=3D=22https://members=2Ecottonon=2Ecom/pub/cc?_ri_=3DX0Gzc=
+2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbosJAXOcUt04qzfSHW9JAVXtpKX%3DURSTW&_ei_=3DE=
+olaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor3lT76iS6Qw=2E=22 style=3D=22=
+color:=23aeaeae;=22>Cotton On</a>=2E<br />
+        If you no longer wish to receive emails <a href=3D=22https://member=
+s=2Ecottonon=2Ecom/pub/optout?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2zbo=
+sJAXOcUt04qzfSHW9JA&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-DivG8f3BWyZVor=
+3lT76iS6Qw=22 style=3D=22color:=23aeaeae;=22>Unsubscribe</a></td>
+      </tr>
+    </table>
+    <=21--Footer End-->
+      =20
+    </td>
+  </tr>
+</table>
+</table>
+<=21--Table End-->
+</body>
+</html>
+<br>
+<br><img border=3D=220=22 width=3D=223=22 height=3D=223=22 src=3D=22https:/=
+/members=2Ecottonon=2Ecom/pub/as?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGj6ljGDOKuze2=
+zbosJAXOcUt04qzfSHW9JAVXHkMX%3Dw&_ei_=3DEolaGGF4SNMvxFF7KucKuWMRz6qIXNMep-D=
+ivG8f3BWyZVor3lT76iS6Qw=2E=22>
+
+
+

@@ -1,0 +1,32 @@
+Subject:Re: update gimp 2.6
+El Sun, 11 Nov 2012 09:37:20 -0600, Francisco Eduardo Ascencio Dominguez
+escribió:
+
+> El 11/11/2012, a las 08:53, Camaleón <noelamac@gmail.com> escribió:
+
+(...)
+
+>> Pero salvo que te manejes bien con las dependencias/conflictos que te
+>> pueda generar usar un paquete como The GIMP desde los repos de Wheezy
+>> no te recomendaría actualizarlo.
+
+> ok. y por que no me recomiendas actualizarlo ? que es mejor 2.6 ?
+> saludos
+
+Salvo que necesites urgentemente alguna funcionalidad que tenga la nueva 
+versión, actualizar The GIMP no es fácil ya que es un paquete que 
+contiene (y que depende) de versiones concretas de paquetes de 
+bibliotecas que al actualizar te va a generar, casi seguro, conflictos 
+con las que ya tienes instaladas.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7ojat$7di$8@ger.gmane.org
+

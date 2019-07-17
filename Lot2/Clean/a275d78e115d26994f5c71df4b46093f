@@ -1,0 +1,45 @@
+Subject:Re: Compiler son noyau
+On 09/21/2012 08:33 PM, Bzzz wrote:
+> On Fri, 21 Sep 2012 19:58:11 +0200
+> Gaël<gagou9@gmail.com>  wrote:
+>
+>> Du coup, j'en profite, connais-tu un bon lien qui explique la
+>> compilation du noyau ?
+>
+> Déjà, installer kernel-package qui devrait normalement entrainer
+> les dépendances voulues,
+>
+> Après, installer un source du kernel, Debian ou à partir de
+> www.kernel.org et le décompresser dans /usr/src, puis faire
+> un symlink: ln azerty-NNN linux,
+>
+> cd linux, puis make menuconfig&  choisir les options voulues - vu
+> que tu ne l'as jamais fait, mieux vaut d'abord partir du fichier de
+> conf d'un kernel Debian
+> (cp /boot/config-a.b.c-986 /usr/src/linux/.config
+> et élaguer au fur et à mesure que tu connaîtras mieux ton matériel,
+>
+> Et enfin, un make-kpkg kernel_image qui va lancer la compilation du
+> kernel et des modules, et leur encapsulation dans un .deb qui se
+> trouvera un étage plus haut (/usr/src).
+
+la commande minimum c'est
+
+make-kpkg kernel_image --initrd
+sinon boxon assuré concernant les modules !
+
+-- 
+Maderios
+
+"Art is meant to disturb. Science reassures."
+"L'art est fait pour troubler. La science rassure" (Georges Braque)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/505CB8FC.4070008@gmail.com
+

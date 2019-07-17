@@ -1,0 +1,74 @@
+Subject:Re: [arin-ppml] Utilization policy is not aggregate
+On 11/16/12, Larry Ash <lar@mwtcorp.net> wrote:
+> Reaching 80% on a smaller allocation is a lot
+> harder than a /18. Over time holes develop in the utilization.
+> You will reuse them but at any given time it's difficult if not
+> impossible.
+> How about 80% overall with no single allocation under 70% (whatever).
+OK....  that solves that particular problem.
+
+Although, still... the  20%  criterion  is really there to give
+applicants time to request new IPs before their existing resources are
+exhausted;   I would say that  "allowing holes"  would be an
+unintended side effect of the policy.
+
+How exactly do we come up with the 80% rule in the first place, and
+how exactly do we prove that 80% is the right number, and not  90% or
+75%?
+
+Instead of looking at the size of the allocation, and the number of
+IPs used, perhaps policy for ISPs should look at the size of the
+allocation,  and the _average size of a suballocation_  of each size
+from  /32  down to the length of the block assigned.
+
+e.g.
+                       Total average number allocated  per 12 month period
+/32                   0
+/31                   0
+/30                   0
+/29                   10
+/28                   5
+/27                   3
+/26                   2
+/25                   4
+/24                   1
+
+And state,  that  new resources may be assigned when any of these
+conditions are true:
+
+ (i)    Of all IPv4 resources previously received,  99% have been suballocated.
+
+ (ii)    The number   of   unallocated IP addresses   sums to a number less than
+         or equal to the  number of IP addresses allocated over the
+previous 6 month period.
+
+ (iii)  The ISP organization can show,   that when the ISP makes
+allocations  for the next 3
+       months,   it is not possible to map their existing unallocated
+address space, onto
+       each of those allocations,  without  renumbering customers,
+
+       Or reducing  the available aggregate IP addresses that can be
+allocated below
+       the size of that ISP's average allocation,  times the average 3
+months' number of allocations of that size.
+
+
+
+
+
+
+> The 80% policy has always greatly favored the big guys. It's much
+> easier to reach 80% on a /18 than a /20. Natural holes that occur
+> always seem to amount to almost 10-25% in a /20 unless much of it
+> has been delegated as /23's or /24's.
+
+--
+-JH
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

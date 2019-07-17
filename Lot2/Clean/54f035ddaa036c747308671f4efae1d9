@@ -1,0 +1,27 @@
+Subject:Re: Squeeze - MySQL : erreur =?UTF-8?B?w6A=?= chaque requete SHOW
+	FULL FIELDS
+On Wed, 5 Sep 2012 18:18:59 +0200
+Olivier <oza_4h07@yahoo.fr> wrote:
+
+> mysql> SHOW FULL FIELDS FROM `matable1` ;
+> ERROR 1 (HY000): Can't create/write to file
+> '/tmp/#sql_4d3_0.MYI' (Errcode: 13)
+
+Mauvais droits sur /tmp (41777 dans mc)?
+
+--=20
+dindin dit : vista c'est trop bon
+dindin dit : je coupe word, jvois une fenetre qui s'ouvre
+dindin dit : "microsoft word a cess=C3=A9 de fonctionner, windows tente de
+             trouver une solution a ce probleme"
+dindin dit : cherche mon grand, cherche...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120905182507.07efcf5e@anubis.defcon1
+

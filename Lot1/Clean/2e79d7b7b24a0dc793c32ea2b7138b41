@@ -1,0 +1,36 @@
+Subject:Re: Compartir disco entre Linux y Windows
+El Sat, 29 Sep 2012 19:51:47 +0200, Cristian Prado escribió:
+
+(...)
+
+> Algun tutorial que explique mi problema ?
+
+El problema que planteas es muy sencillo pero con solución complicada 
+porque a Microsoft no le da la gana de dar soporte a otros sistemas de 
+archivo de forma nativa :-/
+
+En resumen, para acceder (lectura y escritura) a un disco duro desde dos 
+sistemas operativos distintos y desde un mismo equipo necesitas darle 
+formato a ese disco (o partición) utilizando un sistema de archivos 
+soportado por los sistemas operativos que piensas usar y que en este caso 
+se reducen a FAT32 (soportado por windows y linux  pero con grandes 
+limitaciones intrínsecas debido a su diseño) o NTFS (soportado por 
+windows y linux pero tampoco exento de problemas).
+
+Otra alternativa podría ser el uso de aplicaciones (como "Ext2Fsd") para 
+el equipo con windows que habiliten la escritura/lectura desde este 
+sistema operativo en sistemas de archivo ext2/3 o usar ese disco duro que 
+quieres añadir desde la red local, ya que de esta forma el sistema de 
+archivos que uses es indiferente.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k73kec$7h2$6@ger.gmane.org
+

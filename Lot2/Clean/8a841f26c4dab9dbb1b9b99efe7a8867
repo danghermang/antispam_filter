@@ -1,0 +1,63 @@
+Subject:backports kernel: support for t430s laptop in backports?
+Hi folks,
+
+on my shiny new t430s laptop the external display is not detected
+at run time (HD4000 graphics). Especially I cannot make use of a
+beamer, which is highly painful. For Wheezy there is no such problem,
+but unfortunately Wheezy is not an option yet.
+
+lspci shows me for Squeeze's backports kernel (3.2.0-0.bpo.4-amd64):
+
+00:00.0 Host bridge: Intel Corporation Device 0154 (rev 09)
+00:02.0 VGA compatible controller: Intel Corporation Device 0166 (rev 09)
+00:14.0 USB Controller: Intel Corporation Device 1e31 (rev 04)
+00:16.0 Communication controller: Intel Corporation Device 1e3a (rev 04)
+00:16.3 Serial controller: Intel Corporation Device 1e3d (rev 04)
+00:19.0 Ethernet controller: Intel Corporation 82579LM Gigabit Network Connection (rev 04)
+00:1a.0 USB Controller: Intel Corporation Device 1e2d (rev 04)
+00:1b.0 Audio device: Intel Corporation Device 1e20 (rev 04)
+00:1c.0 PCI bridge: Intel Corporation Device 1e10 (rev c4)
+00:1c.1 PCI bridge: Intel Corporation Device 1e12 (rev c4)
+00:1c.2 PCI bridge: Intel Corporation Device 1e14 (rev c4)
+00:1d.0 USB Controller: Intel Corporation Device 1e26 (rev 04)
+00:1f.0 ISA bridge: Intel Corporation Device 1e55 (rev 04)
+00:1f.2 SATA controller: Intel Corporation Device 1e03 (rev 04)
+00:1f.3 SMBus: Intel Corporation Device 1e22 (rev 04)
+03:00.0 Network controller: Intel Corporation 6000 Series Gen2 (rev 34)
+04:00.0 System peripheral: Ricoh Co Ltd MMC/SD Host Controller (rev 07)
+
+If I boot wheezy with kernel 3.2.0-4-amd64 (of course I tried),
+then lspci recognizes all the hardware:
+
+00:00.0 Host bridge: Intel Corporation 3rd Gen Core processor DRAM Controller (rev 09)
+00:02.0 VGA compatible controller: Intel Corporation 3rd Gen Core processor Graphics Controller (rev 09)
+00:14.0 USB controller: Intel Corporation 7 Series/C210 Series Chipset Family USB xHCI Host Controller (rev 04)
+00:16.0 Communication controller: Intel Corporation 7 Series/C210 Series Chipset Family MEI Controller #1 (rev 04)
+00:16.3 Serial controller: Intel Corporation 7 Series/C210 Series Chipset Family KT Controller (rev 04)
+00:19.0 Ethernet controller: Intel Corporation 82579LM Gigabit Network Connection (rev 04)
+00:1a.0 USB controller: Intel Corporation 7 Series/C210 Series Chipset Family USB Enhanced Host Controller #2 (rev 04)
+00:1b.0 Audio device: Intel Corporation 7 Series/C210 Series Chipset Family High Definition Audio Controller (rev 04)
+00:1c.0 PCI bridge: Intel Corporation 7 Series/C210 Series Chipset Family PCI Express Root Port 1 (rev c4)
+00:1c.1 PCI bridge: Intel Corporation 7 Series/C210 Series Chipset Family PCI Express Root Port 2 (rev c4)
+00:1c.2 PCI bridge: Intel Corporation 7 Series/C210 Series Chipset Family PCI Express Root Port 3 (rev c4)
+00:1d.0 USB controller: Intel Corporation 7 Series/C210 Series Chipset Family USB Enhanced Host Controller #1 (rev 04)
+00:1f.0 ISA bridge: Intel Corporation QM77 Express Chipset LPC Controller (rev 04)
+00:1f.2 SATA controller: Intel Corporation 7 Series Chipset Family 6-port SATA Controller [AHCI mode] (rev 04)
+00:1f.3 SMBus: Intel Corporation 7 Series/C210 Series Chipset Family SMBus Controller (rev 04)
+03:00.0 Network controller: Intel Corporation Centrino Advanced-N 6205 (rev 34)
+04:00.0 System peripheral: Ricoh Co Ltd MMC/SD Host Controller (rev 07)
+
+Actually both kernels should be the same, so how comes that
+the Squeeze backports kernel doesn't recognize the hardware?
+Is this an udev issue?
+
+
+Any helpful comment would be highly appreciated
+Harri
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BF3F99.60700@aixigo.de
+

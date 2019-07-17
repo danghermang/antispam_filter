@@ -1,0 +1,188 @@
+Subject:Re: [Antenna-discussion] Another Crystal Radio Question
+Kirk
+
+Supposing it was an AM radio, which can be assumed, the wavelength
+will be be 180-550 metres, so adjacent tables are a small fraction of
+a wavelength apart.
+
+But the main thing you are still lagging on is that antennas in AM
+radios are mismatched by a factor of 60-80 dB.  That explains why
+Oliver did not see an effect and why you won't either, if you took the
+trouble to do the experiment.
+
+Alan G3NOQ
+
+
+
+
+
+On 28 October 2012 18:05, Kirk T McDonald <kirkmcd@princeton.edu> wrote:
+> Oliver,
+>
+> We need to know the frequency of the station you tuned to, and the distance
+> between the two radios, before we can comment further.
+>
+> Strictly, the two radios need to be within lambda/3 of one another before
+> you could detect much of an effect.
+>
+> So, to do a good experiment, you need to move one radio around and plot the
+> signal strength of the other as a function of the distance between them.
+>
+> ---------------
+> A second caveat is that it is possible that the radios don't actually
+> capture the maximum power that they could.   Because the radios have
+> amplifiers, they work well enough even if they are not ideally "matched".
+>
+> Strictly, "matching" involves 2 separate conditions:
+>
+> A.   The antenna is "tuned" to be "resonant" via a tuning capacitor.
+> This is surely done in your radios.
+>
+> B.   The load impedance of the "tuned" radio equals the radiation resistance
+> of the "tuned" antenna.
+>
+> The radiation resistance varies with the frequency, but your radio probably
+> has a fixed load resistance, chosen to be that of a frequency in the center
+> of the tuning band.
+>
+> For a general frequency in that band, the radio won't actually be fully
+> "matched", and the power extracted from the wave is less than maximum.   The
+> amplifier makes up for this "loss".
+>
+> ----------
+> So, to do an even better experiment, you should make your study at several
+> different frequencies across the band.    The frequency at which you find
+> the greatest "proximity effect" corresponds to the one for which the load
+> resistance best matches the radiation resistance.
+>
+>
+> --Kirk
+>
+> -----Original Message----- From: Oliver Steiner
+> Sent: Sunday, October 28, 2012 1:32 PM
+>
+> To: Discussions of Antennas and Related Topics
+> Subject: Re: [Antenna-discussion] Another Crystal Radio Question
+>
+> I tuned in a local broadcast station, then switched on and off another
+> radio in the same room which was tuned to the same station.  Then I
+> left the second radio on, but changed the frequency to which it was
+> tuned.  I was not able to hear any change nor see any change on the
+> signal strength meter of the first radio.  Can you suggest a simple
+> experiment/demonstration that I might do to demonstrate the principle
+> described below?
+>
+> Many thanks,
+> Ollie
+> W2QXR
+>
+> Kirk wrote:
+>
+> "....  the capture area theorem tells us that a tuned receiver
+> captures all the power in the incident wave over a circle of radius
+> about 1 wavelength around the receiver.
+>
+> If two radios are located within one wavelength of one another, they
+> will interfere destructively, and each will hear a smaller signal than
+> if the other radio weren't present.
+>
+> AM wavelengths are long enough that this effect is not entirely negligible.
+> If two cars pass one another while tuned to the same AM station, there
+> will be bit of a fadeout on their radios.   This usually goes away as
+> traffic changes, so you attribute these fadeouts to the poor quality
+> of AM signals, etc.
+>
+>
+> On 10/27/12, david vanhorn <kc6ete@gmail.com> wrote:
+>>>
+>>> Here's a site that claims that the difference between one bar and two on
+>>> a
+>>> cellphone is 6 dB.
+>>> http://www.tested.com/news/**news/510-cell-phone-reception-**
+>>>
+>>> explained-what-the-bars-mean/<http://www.tested.com/news/news/510-cell-phone-reception-explained-what-the-bars-mean/>
+>>>
+>>> This is of the size of the possible effect of another cellphone in front
+>>> of you in reducing your reception.
+>>>
+>>
+>> It may be true that on some particular phone, a "bar" is 6dB.  I wouldn't
+>> count on that being any sort of standard.
+>>
+>> The near field effects of putting one phone near another are complicated.
+>> You would see a much more complicated picture if you looked at moving that
+>> phone to various positions in a cubical grid around the reference phone,
+>> against a signal from a reference antenna out many meters.  Another
+>> interesting experiment would be to create a low loss resonant circuit with
+>> simply a loop and tuning capacitor, load that, and repeat the gridding.
+>> The second phone, in the near field, is also acting as part of the antenna
+>> system of the reference phone.
+>>
+>> I don't think your lunar thought experiment scales very well, there are
+>> many orders of magnitude difference in the ratio of wavelength vs
+>> obstructor.
+>> _______________________________________________
+>> This message was sent to: steinerviolinist@gmail.com
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address this
+>> message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>>
+>
+>
+> --
+> http://oliversteiner.com
+> _______________________________________________
+> This message was sent to: kirkmcd@princeton.edu
+>
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

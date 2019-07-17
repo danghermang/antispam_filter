@@ -1,0 +1,42 @@
+Subject:Re: Mutt et locales
+On 10/11/12 18:48, fred wrote:
+> Le vendredi 9 novembre 2012 16:28:35, Vincent Lefevre a écrit :
+>> Autre chose...
+>>
+>> On 2012-11-09 00:53:57 +0100, fred wrote:
+>>> Voici un extrait de mon .muttrc (il est configuré afin de pouvoir
+>>> lire le cyrillique comme le français).
+>>>
+>>> set charset=fr_FR.UTF-8
+>> Le choix du charset lié au terminal doit se faire par le terminal
+>> et non être hardcodé dans le muttrc. Donc cette ligne est soit
+>> inutile, soit incorrecte.
+>
+> Ben, j'ai enlevé "set charset=fr_FR.UTF-8"
+> mais cela n'arrange pas les choses.
+>
+> Quand je ferme  mon texte  mutt m'informe  que : [text/plain, 7bit, us-ascii, 
+> 0,1K]
+>
+> Pourtant dans mon .muttrc j'ai bien :
+>
+> set locale=fr_FR.UTF-8
+> set allow_8bit=yes
+>
+>
+> Une idée ?
+>
+>
+Ça c'est juste que tu as reçu un mail en 7bits
+
+C'est une info sur le mail, pas sur ton terminal.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/509E96F4.9080505@rail.eu.org
+

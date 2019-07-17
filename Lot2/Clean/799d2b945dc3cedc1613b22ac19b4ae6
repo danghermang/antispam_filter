@@ -1,0 +1,27 @@
+Subject:Re: [anti-abuse-wg] abuse-c implementation schedule
+2012-10-22 17:59, Denis Walker skrev:
+> Dear Colleagues,
+>
+> The RIPE NCC is working on the implementation plan. It requires=20
+> changes to the core RIPE Database as well as several tools, such as=20
+> Webupdates and the LIR Portal, and then finally the Abuse Finder Tool.=20
+> Also some internal processes managed by the Registration and Customer=20
+> Services Departments need modifying to include a check that an=20
+> "abuse-c:" has been provided by a resource holder when requesting=20
+> services.
+>
+> The RIPE NCC expects to have the plan ready for publishing to the=20
+> community by mid November 2012.
+>
+
+I sent almost the exact same mail, as the questioner of this thread, in=20
+response to Emilio Madaios mail "[anti-abuse-wg] 2011-06 Proposal=20
+Accepted (Abuse Contact Management in the RIPE NCC Database)" asking for=20
+an ETA for the implementation. It makes me really angry to be ignored by=20
+people I pay to get service. It's not the first time I've been treated=20
+like this.
+
+Bengt G=C3=B6rd=C3=A9n
+Resilans AB
+Paying customer to RIPE
+

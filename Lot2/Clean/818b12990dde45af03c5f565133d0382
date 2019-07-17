@@ -1,0 +1,50 @@
+Subject:Re: Wheezy : freezes totaux =?ISO-8859-15?B?ZnLpcXVlbnRz?= sur un
+	nouveau portable.
+Le Tue, 18 Sep 2012 20:47:10 +0200, Antoine a =E9crit :
+
+> Bonsoir,
+>=20
+> J'ai install=E9 une wheezy (avec xfce) sur un portable relativement r=E9c=
+ent=20
+> (core i5-3210M, chipset graphique Intel, disque SSD, USB 3), et il=20
+> arrive que la machine freeze totalement (impossible de basculer vers=20
+> tty1) : il faut d=E9brancher pour =E9teindre.
+> Les plantages sont fr=E9quents et ont =E9t=E9 constat=E9s principalement =
+pendant=20
+> la copie de fichiers vers une clef usb ou en surfant via iceweasel.
+> Je m'appr=EAte =E0 farfouiller dans /var/log, mais j'avoue ne pas trop=20
+> savoir par quoi commencer, ni r=E9ellement quoi chercher (il y'a souvent=
+=20
+> des warnings et des erreurs mineurs dans les logs).
+> Je suis preneur de toute suggestion.
+>=20
+> Antoine
+>=20
+
+Salut,
+
+
+D=E9j=E0 =E9carter tout probl=E8me mat=E9riel: m=E9moire, disque, etc.
+
+Par exemple, une fois j'ai eu une barrette m=E9moire d=E9faillante: mon
+pc fonctionnait correctement mais sur certaines op=E9rations, =E7a
+plantait ou j'obtenais des r=E9sultats al=E9atoires. Ainsi, lorsque je
+calculais le md5 d'un iso, je n'avais jamais la m=EAme valeur(!). J'ai
+cherch=E9 un moment avant de comprendre que j'avais l'une des 4
+barrettes m=E9moires d=E9faillantes.
+
+D'o=F9 mon conseil dans cette situation de bien v=E9rifier le mat=E9riel
+avant d'aller plus en avant.
+
+--
+Px
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120919130323.368db26c@lucifer
+

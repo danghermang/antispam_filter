@@ -1,0 +1,48 @@
+Subject:Re: Acceder como root en gnome
+Mon, Oct 08, 2012 at 11:18:51AM -0300, Diego Sanchez escribió:
+> Gente,
+> Me parece que se les va un poco la mano.
+> La mayoría, no contestó educadamente.
+> 
+> No hace falta agredir.
+> 
+> Si yo tener ssh y root login permitido publicado a internet, es MI problema
+> Si yo quiero loguearme con root en donde sea, sigue siendo mi problema.
+> 
+> Please, respondamos :
+>   a) con las recomendaciones necesarias de seguridad, si quieren
+>   b) como hacerlo (si saben), en lo posible
+> 
+
+Independientemente de que hubiera respuestas mas o menos educadas, si que
+es importante lo siguiente:
+
+1.- Usar cualquier sistema *nix como root de manera habitual está
+completamente desaconsejado y además no es necesario. 
+
+2.- Permitir el acceso por ssh como root no tiene ningún sentido.
+
+3.- Cuando un administrador conoce muy bien su sistema y quiere hacer
+algo de lo indicado anteriormente, pues allá el (o ella), pero sigue
+siendo innecesario. 
+
+4.- Si a lo anterior añadimos que el nivel habitual que (en general 
+y de momento) tienen los administradores cubanos no es precisamente 
+alto... pues animarlos a permitir accesos root o a usar el sistema 
+como root... no creo que sea de ninguna ayuda para ellos.
+
+Por ello creo que no es bueno enseñarles malas prácticas, entre otras
+cosas porque lo más probable es que acaben rompiendo el sistema y
+acaben aquí planteando problemones extraños fruto de malas operaciones
+en el sistema.
+
+Un saludo
+
+JulHer 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121008171213.GA4042@smtp.jherrero.org
+

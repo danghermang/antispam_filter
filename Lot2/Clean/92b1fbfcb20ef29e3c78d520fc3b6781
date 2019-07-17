@@ -1,0 +1,37 @@
+Subject:Re: configuration serveur mail IMAP (dovecot)
+On Sun, 9 Dec 2012 09:29:40 +0100
+Nicolas KOWALSKI <nicolas.kowalski@gmail.com> wrote:
+
+> On Sun, Dec 09, 2012 at 09:21:56AM +0100, Basile Starynkevitch wrote:
+> > [09:18:13] IMAP4> 14 STATUS Trash (MESSAGES RECENT UIDNEXT UIDVALIDITY =
+UNSEEN)
+> > [09:18:13] IMAP4< 14 NO Mailbox doesn't exist: Trash
+>=20
+> La boite "Trash" n'existe apparemment pas. Elle est probablement list=E9e=
+=20
+> dans les abonnements IMAP par erreur, et Sylpheed ne g=E8re pas ce cas.
+>=20
+> Puisque tu utilises du mbox, tu peux la cr=E9er =E0 la main facilement:
+>=20
+> touch ~/mail/Trash
+
+Merci, ca semble marcher correctement.....
+
+Cordialement
+
+
+--=20
+Basile STARYNKEVITCH         http://starynkevitch.net/Basile/
+email: basile<at>starynkevitch<dot>net mobile: +33 6 8501 2359
+8, rue de la Faiencerie, 92340 Bourg La Reine, France
+*** opinions {are only mine, sont seulement les miennes} ***
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121209094427.88f70aac5b81d7a8ceda59fd@starynkevitch.net
+

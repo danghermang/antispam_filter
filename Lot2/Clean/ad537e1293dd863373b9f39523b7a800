@@ -1,0 +1,151 @@
+Subject:Re: OFF - TOPIC Referente a pfsense y IPSEC
+
+> strike 1: contestar en top posting
+> strike 2: no contestar a la lista (aunque esto es taaaaaaaaan offtopic
+> (estamos hablando de un freebsd que no es debian/kFreebsd) que no se si
+> cuenta como strike el no contestar a la lista en este caso) xD
+> Sigue abajo:
+>
+> El mar, 04-12-2012 a las 18:47 +0100, Maykel Franco Hernandez escribió:
+>> Gracias por contestar. Con lo cual no puedo hacer nada excepto lo que
+>> he comentado en el correo, cambiar el lan subnet del otro extremo al
+>> rango de mi red.
+>
+>> Lo extraño, es que los de cisco me dicen que estan artos de configurar
+>> vpn por ipsec como os he comentado pero a mi no mr funciona,
+>> directamente ni me aparece el boton de connect....que raro que pfsense
+>> no lo soporte
+>>
+> es que no hay un botón connect en pfsense, se configura las dos puntas y
+> se conecta solo si está todo en orden. A lo sumo podés tildar [] Enable
+> IPsec o destildar para apagarlo.
+>
+> El estado podés revisarlo en Status -> ipsec, si ves una flechita verde
+> es que se levantó sin problemas, si no conectó, buscá por los logs
+> (status->system logs -> ipsec) vas a tener un poco de información sobre
+> que pasó
+>
+>> El 04/12/2012 18:36, "Gonzalo Rivero" <fishfromsalta@gmail.com>
+>> escribió:
+>>         El mar, 04-12-2012 a las 16:41 +0100, maykel@maykel.sytes.net
+>>         escribió:
+>>         > Hola muy buenas esto es un OFF-TOPIC pero recurro a vosotros
+>>         por su
+>>         > pudiera tener alguna solución porque no encuentro
+>>         información.
+>>         >
+>>         > La historia es que estoy configurando una VPN con IPSEC
+>>         desde el firewall
+>>         > pfsense basado en la distro PFsense.
+>>         >
+>>         > Tengo todo bien configurado para conectarme a una VPN
+>>         remota, el tema es
+>>         > que falla en la fase 2 porque en el campo Local Subnet, sino
+>>         pones la LAN
+>>         > de tu red y en el otro extremo ponen la misma que tu LAN no
+>>         va a
+>>         > funcionar. El caso es que me han pasado una red diferente al
+>>         rango de la
+>>         > mía, y en teoría, tengo que poner ésa red de conexión en
+>>         Local Subnet y en
+>>         > Remote Subnet tengo que añadir las ips accesibles por el
+>>         túnel.
+>>         >
+>>         yo tengo ipsec y con pfsense, pero pfsense en ambas puntas, y
+>>         el esquema
+>>         es:
+>>
+>>         [lan local]<->pfsense -> internet<-> pfense <-> [lan remota]
+>>
+>>         y funciona. Pero creo que la idea de hacer un tunel ipsec es
+>>         que se vean
+>>         dos lan a través de internet... por eso no te va a aparecer el
+>>         botón de
+>>         connect
+>>
+>>         > El tema es que PFSENSE, sino pones tu LAN en en Local
+>>         Subnet, ni si quiera
+>>         > aparece el boton de "CONNECT VPN". Esto se solventa,
+>>         cambiando del otro
+>>         > extremo donde yo me conecto en el Local Subnet poniendo mi
+>>         LAN pero quería
+>>         > saber si hay alguna alternativa haciendo nat outbound o algo
+>>         así para
+>>         > poder conectarme...
+>>         >
+>>         > He mirado la conexión IPSEC entre pfsense y un CISCO pero lo
+>>         único que
+>>         > saco en claro es que utiliza la LAN en el campo Local
+>>         Subnet...
+>>         >
+>>         >
+>>         http://doc.pfsense.org/index.php/IPsec_between_pfSense_and_a_Cisco_PIX
+>>         >
+>>         >
+>>         http://doc.pfsense.org/index.php/IPsec_between_pfSense_and_Cisco_IOS
+>>         >
+>>         > Porque el otro extremo tiene un CISCO.
+>>         >
+>>         > Saludos y gracias.
+>>         >
+>>         >
+>>         > --
+>>         > ADMIN: Maykel Franco Hdez
+>>         >
+>>         >
+>>
+>>
+>>         --
+>>         (-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+>>
+>>
+>>
+>
+>
+>
+> --
+> (-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/1354645868.2802.23.camel@EeePC.ucasal.ar
+>
+>
+
+Gracias por contestar, este es el error que me aparece en pfsense:
+
+Dec 7 10:15:23	racoon: [VPN]: [x.x.x.x] INFO: Hashing x.x.x.x[500] with
+algo #2
+Dec 7 10:15:23	racoon: INFO: NAT-D payload #1 verified
+Dec 7 10:15:23	racoon: INFO: NAT not detected
+Dec 7 10:15:23	racoon: INFO: received Vendor ID: DPD
+Dec 7 10:15:23	racoon: WARNING: port 500 expected, but 0
+Dec 7 10:15:23	racoon: [VPN]: INFO: ISAKMP-SA established
+x.x.x.x[500]-x.x.x.x[500] spi:07b58eeac2421428:b42a45c9edd53be4
+Dec 7 10:15:24	racoon: [VPN]: INFO: initiate new phase 2 negotiation:
+x.x.x.x[500]<=>x.x.x.x[500]
+Dec 7 10:15:24	racoon: [VPN]: [x.x.x.x] ERROR: notification
+NO-PROPOSAL-CHOSEN received in informational exchange.
+Dec 7 10:15:24	racoon: [VPN]: [x.x.x.x] ERROR: error message: '>'.
+Dec 7 10:15:24	racoon: INFO: purging ISAKMP-SA
+spi=07b58eeac2421428:b42a45c9edd53be4.
+Dec 7 10:15:24	racoon: INFO: purged IPsec-SA spi=4609319.
+Dec 7 10:15:24	racoon: INFO: purged ISAKMP-SA
+spi=07b58eeac2421428:b42a45c9edd53be4.
+Dec 7 10:15:24	racoon: [VPN]: INFO: ISAKMP-SA deleted
+x.x.x.x[500]-x.x.x.x[500] spi:07b58eeac2421428:b42a45c9edd53be4
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4cc5ce7005e0ec545b8cfe16c5fa5291.squirrel@maykel.sytes.net
+

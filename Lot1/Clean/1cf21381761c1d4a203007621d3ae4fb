@@ -1,0 +1,27 @@
+Subject:Re: Configuration du serveur tftpd-hpa
+On Tue, 20 Nov 2012 15:17:53 +0100
+Christophe Maquaire <christophe.maquaire@free.fr> wrote:
+
+> tftpd-hpa
+
+Et on suppose que tu as bien la ligne: in.tftpd:ALL
+dans /etc/hosts.allow et que tu as test=C3=A9 sur le svr
+avec: tftp 127.0.0.1?
+
+--=20
+<Exo> Putain ma m=C3=A8re qui lit le journal, un article sur une siamoise q=
+ui
+      a juste deux t=C3=AAtes...
+<Exo> Tout ce qu'elle trouve =C3=A0 me dire c'est "Tu crois que quand elle =
+se
+      fait couper les cheveux, elle paie pour un ou deux ?"
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121120175124.2791b118@anubis.defcon1
+

@@ -1,0 +1,52 @@
+Subject:Re: phpmyadmin et ssh
+
+Le 06/12/2012 20:28, andre_debian@numericable.fr a écrit :
+> Bonsoir à tous,
+>
+> Depuis peu "phpmyadmin" depuis un poste client distant,
+> refuse de s'ouvrir : ça mouline dans le navigateur.
+>
+> Je constate que parallèlement, le poste client connecté
+> au serveur "ssh", se fige : je dois fermer la console.
+>
+> Je n'ai rien touché, ni aux configurations de phpmyadmin ni de ssh.
+>
+> J'ai tenté "dpkg-reconfigure phpmyadmin"
+> "je me vois proposer de réinstaller la base de données qu'il utilise".
+> À moins d'une autre méthode , si je réponds "oui" mes bases de données
+> seront-elles effacées ?
+>
+> Merci.
+>
+> André
+>
+Bonsoir,
+
+Tout d'abord, il n'y a pas de lien entre SSH et phpmyadmin, sauf si tu utilise ssh comme 
+tunnel pour accéder au serveur ce qui n'est pas le cas que tu décris...
+
+La reconfiguration de phpmyadmin ne va probablement rien changer à la choucroute !
+
+Quand tu ferme la console figée, y'a-t-il un déblocage de ton navigateur internet (aucun 
+lien entre les 2, mais au cas où !)...
+
+As-tu d'autre sites internet sur le serveur http qui héberge phpmyadmin ? Si oui, quand tu 
+tente d'y accéder, est-ce que cela provoque le même comportement sur ton client ?
+
+Sur ton serveur, as-tu possibilité de vérifier les logs ssh, apache et système ?
+
+Peux-tu reproduire ce comportement avec un autre poste client ?
+
+++
+
+Mourad
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C12CE1.3020201@nativobject.net
+

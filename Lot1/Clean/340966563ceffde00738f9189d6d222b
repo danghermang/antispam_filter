@@ -1,0 +1,44 @@
+Subject:Re: Debian 6 regular cantidad de hilos de descargas en Squid
+El Mon, 26 Nov 2012 17:28:34 -0500, luis escribió:
+
+> On Mon, 26 Nov 2012 18:38:11 +0000 (UTC), Camaleón wrote:
+
+>> Aquí tienes una página que te puede servir:
+>>
+>> Squid Proxy Server Limit the number of simultaneous Web connections
+>> from
+>> a client with maxconn ACL
+>> 
+>> http://www.cyberciti.biz/tips/howto-limit-squid-proxy-number-web-connections.html
+ Camaleón
+> 
+> Hola Camalion, no lo logro
+
+Veamos.
+ 
+> creo mi acl limitar maxconn 3
+>          acl minet 192.168.100.0/24
+> http_access minet limitar
+
+A menos que se me escape algo, en la página no pone eso.
+
+> Hice esto pero la descarga se me va de las manos lo tengo regulado con
+> delay_pool y eso hace que se rompa y no cumpla comprendes, probé en
+> varios lugares antes del acceso a usuarios después etc y nada es peor la
+> cosa jajaj alguna idea y gracias por la ayuda
+
+Ni idea, pero creo que deberías empezar por seguir las instrucciones que 
+indican y comprobar si funciona, al menos desde conexiones http 
+convencionales para comprobar que lo estás haciendo bien.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k92jnh$2d1$1@ger.gmane.org
+

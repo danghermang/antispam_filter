@@ -1,0 +1,46 @@
+Subject:Re: Gestion d'un repository & support d'apt-mirror [was Re:
+	Apt-mirror et "Le fichier =?UTF-8?B?wqs=?= Release =?UTF-8?B?wrs=?= a
+	=?UTF-8?B?ZXhwaXLDqSJd?=
+Le Thu, 11 Oct 2012 09:51:30 +0200,
+David BERCOT <debian@bercot.org> a =C3=A9crit :
+>Bonjour,
+>
+>Comme ce sujet int=C3=A9resse apparemment d'autres personnes et que j'ai
+>beaucoup de mal =C3=A0 trouver du support sur l'outil "apt-mirror", je
+>retente ma chance ;-)
+>
+>Concernant ma question pr=C3=A9c=C3=A9dente ("Le fichier =C2=AB Release =
+=C2=BB a expir=C3=A9"),
+>je n'ai toujours pas de r=C3=A9ponse. J'ai essay=C3=A9 d'=C3=A9crire aux m=
+ainteneurs
+>du paquet sans succ=C3=A8s. Est-ce que, par hasard, vous savez =C3=A0 qui =
+je
+>pourrais m'adresser ?
+>
+>Ensuite, sur mon repository local, j'ai de nouveaux besoins qui
+>arrivent. Ainsi, je souhaiterais mettre =C3=A0 disposition des packages
+>Debian internes. Pour cela, j'aurais besoin que ces paquets soient
+>"visibles" =C3=A0 partir des serveurs (via apt-cache search, apt-get
+>install, etc...). Je suppose donc qu'il faudrait que les fichiers
+>Contents-amd64.gz, Release, Release.gpg, etc... int=C3=A8grent les bonnes
+>informations. Savez-vous comment je dois proc=C3=A9der ?
+
+J'ai oubli=C3=A9 un petit d=C3=A9tail... J'ai trouv=C3=A9 l'outil "reprepro=
+" (qui
+semblerait =C3=AAtre une possibilit=C3=A9) mais je n'ai pas "os=C3=A9" le l=
+ancer sur
+mon repository. Si vous l'avez d=C3=A9j=C3=A0 utilis=C3=A9...
+
+>Merci d'avance.
+>
+>David.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121011095622.2ee46069@debian-david
+

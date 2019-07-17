@@ -1,0 +1,48 @@
+Subject:Re: =?UTF-8?B?RMOpcGFubmFnZQ==?= sur PC distant
+On Sun, 28 Oct 2012 15:41:11 +0100
+Pascal Obry <pascal@obry.net> wrote:
+
+>=20
+> Non de non, elle offre une version libre en esp=C3=A9rant vendre la versi=
+on
+> pro. Que ne na=C3=AFvet=C3=A9!!!
+
+Rien ne force qui que ce soit =C3=A0 l'acheter (et c'est de "bonne guerre",
+un peu comme avast s/s w$ qui propose de migrer vers sa version payante).
+
+Et c'est quand m=C3=AAme un chtit peu logique, ne serais-ce que parce que c=
+'est
+leur server qui effectue l'identification de chaque machine et permet donc
+de s'affranchir de toute identification IP - sans compter que c'est une
+solution imm=C3=A9diatement fonctionnelle, m=C3=AAme avec un firewall s=C3=
+=A9v=C3=A8re.
+
+Comprenons-nous bien, je ne pr=C3=AAche pas pour leur solution mais je reme=
+ts
+les choses en place question facilit=C3=A9 d'emploi.
+=20
+> > Maintenant, dommage qu'il n'existe pas un =C3=A9quivalent "Libre".
+>=20
+> VNC, ce n'est pas parce que tu ne connais pas que =C3=A7a n'existe pas :)
+
+Rappelons tout de m=C3=AAme que VNC seul ne servira =C3=A0 rien si la machi=
+ne
+r=C3=A9ceptrice n'int=C3=A8gre pas un m=C3=A9canisme quelconque permettant =
+de=20
+l'identifier lorsqu'elle est connect=C3=A9e...
+
+--=20
+eaSy dit: OK on parie une nuit de saiks, si je perds tu couches avec moi
+          sinon l'inverse :D
+la BlOnde du 57 dit: okay mais tu vas perdre et moi jserais tranquille
+eaSy dit: ...au moins tu m=C3=A9rites ton pseudo..
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121028161536.069f657b@anubis.defcon1
+

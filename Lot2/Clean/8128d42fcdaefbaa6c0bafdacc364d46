@@ -1,0 +1,119 @@
+Subject:Re: [anti-abuse-wg] RIPE NCC's proposed implementation of Abuse
+	Contact Management in the RIPE Database
+* Kaveh Ranjbar:
+
+> One of the reasons that it is only tied to the "role" object and not
+> the "person" object is to avoid those issues. A role object is not
+> designed to hold personal information, it is a representation of a
+> unit in an organisation. The "abuse-mailbox:" attribute is also
+> supposed to represent the generic email address of the contact point
+> for the abuse handling entity within an organisation, not a real
+> person. We will place clarifying notifications about this when users
+> enter the data.
+>
+> None of the objects in the chain, "inetnum/inet6num/aut-num",
+> "organisation" and "role" are provisioned as, or designed to be
+> private data holders.
+
+Are you sure?  After all, you anonymize these objects in the database
+dumps, citing data protection concerns:
+
+aut-num:         AS3255
+as-name:         UARNET-AS
+descr:           State Enterprise Scientific and Telecommunication Centre "Ukrainian Academic and Research Network" of the Institute for Condensed Matter Physics of the National Academy of Sc
+ience of Ukraine (UARNet)
+descr:           EARN-Ukraine
+[...]
+admin-c:         DUMY-RIPE
+tech-c:          DUMY-RIPE
+[...]
+changed:         [...]
+source:          RIPE
+remarks:         ****************************
+remarks:         * THIS OBJECT IS MODIFIED
+remarks:         * Please note that all data that is generally regarded as personal
+remarks:         * data has been removed from this object.
+remarks:         * To view the original object, please query the RIPE Database at:
+remarks:         * http://www.ripe.net/whois
+remarks:         ****************************
+
+inet6num:        2001:0658:021A::/48
+netname:         DE-TRMD-HACKETHAL-1
+descr:           IPv6 Markus Hackethal
+descr:           Langenfeld
+country:         DE
+admin-c:         DUMY-RIPE
+tech-c:          DUMY-RIPE
+status:          ASSIGNED
+mnt-by:          TRMD-MNT
+changed:         [...]
+source:          RIPE
+remarks:         ****************************
+remarks:         * THIS OBJECT IS MODIFIED
+remarks:         * Please note that all data that is generally regarded as personal
+remarks:         * data has been removed from this object.
+remarks:         * To view the original object, please query the RIPE Database at:
+remarks:         * http://www.ripe.net/whois
+remarks:         ****************************
+
+inetnum:         80.16.151.184 - 80.16.151.191
+netname:         NETECONOMY-MG41731
+descr:           TELECOM ITALIA LAB SPA
+country:         IT
+admin-c:         DUMY-RIPE
+tech-c:          DUMY-RIPE
+status:          ASSIGNED PA
+[...]
+changed:         [...]
+source:          RIPE
+remarks:         ****************************
+remarks:         * THIS OBJECT IS MODIFIED
+remarks:         * Please note that all data that is generally regarded as personal
+remarks:         * data has been removed from this object.
+remarks:         * To view the original object, please query the RIPE Database at:
+remarks:         * http://www.ripe.net/whois
+remarks:         ****************************
+
+organisation:    ORG-NCC1-RIPE
+org-name:        Dummy organisation name for ORG-NCC1-RIPE
+org-type:        RIR
+address:         Dummy address for ORG-NCC1-RIPE
+e-mail:          unread@ripe.net
+mnt-ref:         RIPE-NCC-RIS-MNT
+mnt-ref:         RIPE-NCC-HM-MNT
+mnt-by:          RIPE-NCC-HM-MNT
+changed:         unread@ripe.net 20000101
+source:          RIPE
+remarks:         ****************************
+remarks:         * THIS OBJECT IS MODIFIED
+remarks:         * Please note that all data that is generally regarded as personal
+remarks:         * data has been removed from this object.
+remarks:         * To view the original object, please query the RIPE Database at:
+remarks:         * http://www.ripe.net/whois
+remarks:         ****************************
+
+person:         Placeholder Person Object
+address:        RIPE Network Coordination Centre
+address:        P.O. Box 10096
+address:        1001 EB Amsterdam
+address:        The Netherlands
+phone:          +31 20 535 4444
+nic-hdl:        DUMY-RIPE
+mnt-by:         RIPE-DBM-MNT
+remarks:        **********************************************************
+remarks:        * This is a placeholder object to protect personal data.
+remarks:        * To view the original object, please query the RIPE
+remarks:        * Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        **********************************************************
+changed:        ripe-dbm@ripe.net 20090724
+source:         RIPE
+
+The latter is from the ripe.db.role.gz file.  (Curiously, the
+"changed:" lines are left intact in the dump.)
+
+I worry that most LIRs put quite a bit of effort into updating the
+contact information, and then RIPE NCC decides to hide it because it's
+considered personal data, like all the other contact information
+currently in the database.
+

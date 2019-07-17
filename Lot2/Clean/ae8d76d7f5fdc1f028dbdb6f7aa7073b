@@ -1,0 +1,49 @@
+Subject:Re: para formatear memorias
+Buenas. Pod=E9s instalar Gparted, que si bien la utilizaci=F3n principal
+radica en su capacidad para crear particiones, tambi=E9n lo pod=E9s usar
+para formatear dispositivos. Como funciona como superusuario, ten=E9
+cuidado al seleccionar. Una de mis primeras veces, vol=E9 mi HD y no fue
+muy gracioso.
+
+Por otra parte, se puede hacer desde la terminal, m=E1s a lo chacal \m/.
+Desmontas el dispositivo y le met=E9s el formato que quieras. Por
+ejemplo, desmostar y formatear como root
+
+# umount /dev/sdd1 --> debes ver en qu=E9 lugar est=E1 montado previamente
+(# fdisk -l)
+# mkfs.vfat /dev/sdd1 -->fat32, pero pod=E9s usar otros formatos
+
+Claudio
+
+El d=EDa 2 de octubre de 2012 11:24,  <luis@ida.cu> escribi=F3:
+> Buenos d=EDas a todos
+>
+> Tengo una duda, necesito formatear una memoria flash o pendrive como tamb=
+ien
+> se le conoce pero el Nautilus no le veo queme de esa posibilidad alguna i=
+dea
+> ??
+>
+> Qui=E1s tengo que isntalarle algo mas al Nautilus o tambi=E9n instalar ot=
+ro
+> utilitario ???
+>
+>
+> A ver si me aclaran esto pues no se que hacer
+>
+> Saludos y gracias a todos por la ayuda.
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/45fbb2b937de0335def751f1d2e9eba4@ida.cu
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAK407D4x8O9mwZn++RDouM3a9+d052ti5RUEN1X_vtwNSCopEw@mail.gmail.com
+

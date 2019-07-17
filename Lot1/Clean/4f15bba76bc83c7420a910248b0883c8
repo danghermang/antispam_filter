@@ -1,0 +1,49 @@
+Subject:Re: OT numero de ficheros en squid3 en debian estable
+El Fri, 07 Sep 2012 09:23:04 +0200, Trujillo Carmona, Antonio escribió:
+
+> El jue, 06-09-2012 a las 13:59 +0000, Camaleón escribió:
+>> El Thu, 06 Sep 2012 13:52:39 +0000, Camaleón escribió:
+
+(...)
+
+>> >> ¿Alguien sabe porque sale 65535 y no 4096 como yo esperaba?
+>> > 
+>> > ¿Has reiniciado el servicio?
+>> 
+>> Y revísate también este comentario:
+>> 
+>> http://paulgoscicki.com/archives/2007/01/squid-warning-your-cache-is-running-out-of-filedescriptors/comment-page-1/#comment-52573
+>> 
+
+>> 
+> Ese en concreto no, pero otros análogos si, por eso hice los cambios, lo
+> que a mi me extraña es que si pongo 4096 (que es lo que ponen en todos
+> los ejemplos que he visto en internet, por lo que imagino que es un
+> valor aceptable) en lugar de 4096 sale 65535 cuando en el SO el limite
+> es 4096 ( ulimit -n da 4096).
+
+Según ese comentario, tienes que modificar el valor de "max_filedescriptors"
+en el archivo "/etc/squid3/squid.conf" porque lo otro no funciona.
+
+> Creo (y me da miedo) que es algún tipo de desbordamiento, de hay la
+> cifra 65535, lo que puede ser fatal, pues ¿que pasara cuando el squid
+> quiera manejar mas ficheros de los que el SO pueda?
+
+A ver... el script de inicio de squid3 establece el valor de ulimit a 65535,
+lo cual no tiene mucho sentido porque entonces ¿de qué sirve definirlo 
+manualmente a través de las variables "max_filedescriptors" o "SQUID_MAXFD"?
+
+No sé, algo no me cuadra... revisa la documentación del paquete de squid3 
+a ver si comentan algo de esto :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2cu01$bte$4@ger.gmane.org
+

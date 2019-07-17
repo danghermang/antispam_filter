@@ -1,0 +1,26 @@
+Subject:[Hsqldb-user] HSQL database size limit reached
+Large Data support has been introduced in the latest version and allows
+the .data file to grow to 128 times the default maximum.
+
+If you use version 2.2.9, or the latest jar snapshot, it should open
+this database. Also see the Guide on the hsqldb.large_data property,
+which you can before the database reaches the default limit.
+
+Fred
+
+> I'm working with version 2.2.8. I just hit a problem I wasn't aware of,
+> a size limitation of the database, which seems to be 16GB in my version
+> of the software. I checked into the script file of the database, and I
+> have the files size parameter set to 8, so this is matching with what is
+> told into the documentation.
+
+------------------------------------------------------------------------------
+Monitor your physical, virtual and cloud infrastructure from a single
+web console. Get in-depth insight into apps, servers, databases, vmware,
+SAP, cloud infrastructure, etc. Download 30-day Free Trial.
+Pricing starts from $795 for 25 servers or applications!
+http://p.sf.net/sfu/zoho_dev2dev_nov
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

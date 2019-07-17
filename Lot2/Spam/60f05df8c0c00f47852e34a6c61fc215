@@ -1,0 +1,168 @@
+Subject:'CityPrayz - Let It Out! La Crosse city praise & worship' on SearchSight.com
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+<body bgcolor="#3565CC" onload="FP_preloadImgs(/*url*/'http://searchsight.com/images/button4.jpg',/*url*/'http://searchsight.com/images/button3.jpg')">
+<p align="center"><font size="1">
+<a href="http://searchsight.com/email/December-12-Newsletter.htm?LID=2489923">
+<font face="Arial" color="#C0C0C0">If you can't view HTML email, please go to http://SearchSight.com/email/December-12-Newsletter.htm?LID=2489923</font></a></p>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse" width="95%" height="456">
+    <tr>
+      <td width="100%" height="129" bgcolor="#FFFFEC">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%" height="85">
+          <tr>
+            <td width="45%" height="142">
+            <div align="center">
+              <center>
+              <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" background="http://SearchSight.com/images/bkgd-page2.GIF" width="310" height="155">
+                <tr>
+                  <td width="193" height="155">
+                  <p align="center"><a href="http://www.cityprayz.com">
+                  <img border="0" src="http://img.WebNailer.com/thmnls/160x120/VF/www.cityprayz.com.jpg" width="160" height="120"></a></p>
+                  </td>
+                  <td width="117" height="155">&nbsp;</td>
+                </tr>
+              </table>
+              </center>
+            </div>
+            </td>
+            <td width="29%" height="85" rowspan="2">
+            <p style="TEXT-ALIGN: center" align="center">
+            <span style="font-family: Arial; font-weight: 700; color: #FF0000">
+			<font size="6">Rank your listing at the TOP of our results<br>
+			Immediately !!</font></span></p>
+            </td>
+            <td width="26%" height="157" valign="middle" rowspan="2">
+            <p align="center"><a href="http://searchsight.com">
+            <img border="0" src="http://searchsight.com/images/Logo1.gif" width="106" height="83"></a></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="45%" height="15">
+            <p align="center"><b><font size="2" face="Arial" color="#3565CC">Do 
+			we have a current image of your web site?<br>
+            <a href="http://searchsight.com/submit.htm?sEmail=cityprayzwebmaster@trashymail.com&link=http://www.cityprayz.com">
+            <font color="#2F5CBB">Update it Now!</font></a></font></b></td>
+            </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="100%" height="26" bgcolor="#3967CE" background="http://searchsight.com/images/bar1.gif">
+      </td>
+    </tr>
+    <tr>
+      <td width="100%" height="297" bgcolor="#FFFF99">
+      <p><b>
+      <font size="4" color="#000080"><span style="font-family: Arial">Thank 
+      you for allowing us to display web 
+      sites </span>
+      </font>
+      </b>
+      <font size="2" color="#000080">
+      <b><font size="1">
+      <font color="navy" size="4">
+      <span style="COLOR: navy; FONT-FAMILY: Arial"> <a href="http://searchsight.com/listing.htm?Link=http://www.cityprayz.com">
+      like yours</a></span></font><font color="#000080" size="4"><span style="FONT-FAMILY: Arial"> in our listings!</span></font></font></b></p>
+      <font size="4" color="#000080">
+		<p><span style="font-family: Arial; font-weight:700">It's December and Christmas is just 
+		around the corner. Time to rocket your website to the top of the 
+		Internet. Let us here at SearchSight help you do that.</span></p>
+</font>
+</font>
+		<p><font size="1">
+      	<b>
+      	<font face="Arial" size="4" color="#000080">To help you  
+		promote your web 
+      site and gain increased exposure, you can upgrade your listing to a
+      </font><font size="4" color="#000080"><span style="font-family: Arial">
+      	<a href="http://searchsight.com/feat/featpurch.htm?LID=2489923">premiere listing</a></span></font><font face="Arial" size="4" color="#000080"> 
+		for only </font>
+      	<font face="Arial" size="4" color="#FF0000">$29.95 </font></b>
+		<font face="Arial" size="4" color="#000080"> 
+		<b>through the 
+		end of the year. That puts you as a Premiere 
+      Listing advertiser and 1,000 displays as a Featured web site, 
+		all for a one time cost of $29.95. That is 6 Months of advertising for a one 
+		time cost. </b>
+		<span style="background-color: #FFFF00"><b>&nbsp;Your listing goes to the 
+		top as soon as your payment clears, not waiting, no guessing, instant 
+		results.</b></span></font></font></p>
+		<p align="center"><font size="1">
+		<b><font face="Arial" size="4">
+		<span style="font-family: Arial"><font color="#000080">Click the button below to ORDER NOW</font><br>
+		</span>
+			<a href="http://searchsight.com/feat/featpurch.htm?LID=2489923">
+			<font color="#000000">
+			<img border="0" id="img1" src="http://searchsight.com/images/button2.jpg" height="30" width="150" alt="Purchase Now!" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'http://searchsight.com/images/button3.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'http://searchsight.com/images/button2.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'http://searchsight.com/images/button4.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'http://searchsight.com/images/button3.jpg')" fp-style="fp-btn: Glass Rectangle 3; fp-orig: 0" fp-title="Purchase Now!"></font></a></font></b></font></p><font size="1">
+      <p><span style="font-family: Arial"><font size="4" color="#009933"><b>We 
+      sincerely hope that you have a safe and Happy Holiday Season!</b></font><b><font size="4" color="#000080"><br>
+      </font></b></span>
+</font><b><span style="font-family: Arial"><font size="4" color="#009933">
+      Merry Christmas from t</font><font size="1"><font size="4" color="#009933">he Team at </font>
+		<font size="4" color="#000080"> <a href="http://SearchSight.com">
+      <font color="#009933">SearchSight.com</font></a></font></font></span></b><font size="1"></p>
+</font><font size="2">
+      <hr color="#3565CC" size="1">
+      <p><font face="Arial">You have received this email 
+      as a result of submitting your web page to SearchSight.com and agreeing to 
+      our terms of service.&nbsp; We only 
+      want to send update information to those who want to receive it.&nbsp; You 
+      have received this newsletter as 'cityprayzwebmaster@trashymail.com'.&nbsp; To stop 
+      receiving email update information from SearchSight.com, please go <a href="http://SearchSight.com/SpecialOffers/dne.htm">
+      <font color="#000000">here.</font></a></font></p>
+      <p align="center"><b><font face="Arial" color="#3565CC">SearchSight.com 
+      is a TJ Ventures Inc. company<br></font></b></font>
+		<b>
+		<font color="navy" face="Arial" size="2">
+		<span style="font-family: Arial; color: #3565CC"><st1:address w:st="on"><st1:street w:st="on">
+		3321 Preston Hwy<br>
+		</st1:street>
+		<st1:city w:st="on">Louisville</st1:city>
+ <st1:state w:st="on">KY</st1:state> <st1:postalcode w:st="on">40213&nbsp; USA<br>
+		email us at support @ searchsight.com
+		</st1:postalcode></st1:address>
+		<st1:address w:st="on">
+		<st1:postalcode w:st="on"><br>
+		</st1:postalcode></st1:address></span></font>
+		<font size="2" face="Arial" color="#3967CE">1-866-352-0748</font></b><br>
+&nbsp;</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="100%"">&nbsp;</td>
+    </tr>
+  </table>
+  </center>
+</div>
+<img border="0" src="http://img.Webnailer.com/lid~2489923.gif">
+</body>
+
+

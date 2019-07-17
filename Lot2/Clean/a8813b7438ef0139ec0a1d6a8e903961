@@ -1,0 +1,26 @@
+Subject:Re:  Analizador de trazas del squid
+Sarg puede ser una buena opcion. manuales de como configurarlo puedes 
+encontrar varios en Internet
+
+----- Original Message ----- 
+From: "Felix Fournier Martinez" <felixfoma@geysel.camaguey.cu>
+To: <debian-user-spanish@lists.debian.org>
+Sent: Tuesday, October 30, 2012 12:53 PM
+Subject: Analizador de trazas del squid
+
+
+> Hola a todos, tengo mi servidor proxy
+> instalado  sobre Debian squeeze y necesito un programa que me sirva para
+> analizar las trazas del squid. Quisiera que alguno de ustedes me dijeran
+> cual instalar y como configurarlo.
+>
+> Saludos
+> 
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1B99EC9FA5374C098FDBB8C854C2A971@dbsrv
+

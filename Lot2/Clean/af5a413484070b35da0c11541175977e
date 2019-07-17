@@ -1,0 +1,198 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Vadim
+
+The poor efficiency of rod antennas might come from the low value of
+radiation resistance rather than because they are mass-produced, cheap
+and nasty.  Alan P. quoted a typical radiation resistance of 1
+microhm, and if the loss resistance is 1 ohm there is immediately a 60
+dB loss there.
+
+If the radiation resistance is the only resistance and a matched load
+is connected, the capture area of the antenna follows the formula,
+3.lambda^2/(8pi).  With a loss resistance of 1 ohm, then maximum power
+is transferred when the load is also 1 ohm, and there is a 60 dB loss,
+in other words the capture area is 60 dB less.
+
+There is an interesting connection between the capture area and the
+effective length, which comes from considering a lossless antenna.
+The power available from the antenna is given in terms of the capture
+are and the power density of the incident wave:
+
+P = 3.lambda^2 / 8pi * E^2/zo, where zo is the free-space wave impedance;
+
+The power can also be written in terms of the open-circuit voltage and
+radiation resistance:
+
+P = V^2 / 4Rr
+
+Combining these two equations leads to the interesting result that for
+any small antenna the radiation resistance can be written in terms of
+the effective length Le, defined by the equation V = Le.E:
+
+Rr = 789(Le/lambda)^2
+
+and by using the induction law V = wNBA this formula can be adapted to
+give the radiation resistance for an N-turn small loop antenna:
+
+Rr = 20.N^2.k^4.A^2.
+
+So both these formulas can be deduced from simple considerations.
+
+Alan G3NOQ
+
+
+
+
+
+
+On 26 October 2012 07:50, Vadim Demidov <QRP@peterstar.ru> wrote:
+> Dear Kirk,
+>
+> I believe some "common physics" terms may differ from their meaning in RF
+> engineering, the capture area is probably one of them. The -90dB or so
+> efficiency figure is a real world result of a mass production ferrite
+> antenna, and I see no magic behind this figure. Actually the losses in
+> ferrite are smaller, than in coil wire, and wire losses in case of air-wound
+> coil having the same inductance are even higher due to greater wire length.
+> An infinitely small coil would have the same capture area, but matching it
+> to a real world load (BJT transistor) will transfer all the RF energy to
+> heat in matching circuit components. The stick you see inside transistor
+> radio is what works just good enough - cost engineering has cut off all the
+> bells and whistles already.
+>
+> And please don't attribute the 1-1.5dB loss of RF transformer to its ferrite
+> core only. Most broadband RF transformers are of transmission line type,
+> they may cover some decades of frequency, and on higher end of their band
+> the mu of ferrite goes down to a small fraction of its low-frequency value,
+> while losses are much higher. Effectively above some frequency a
+> ferrite-wound coil shows almost constant real impedance rather than
+> imaginary +j*omega*L you see on low frequency. However due to the right
+> choice of this real impedance shunting the signal path, it's still possible
+> to get a 1dB loss figure. If you try to make a purely magnetic coupled
+> transformer on such ferrite core at this frequency, it simply won't work.
+> And this is just another area of physics which I personally consider
+> interesting.
+>
+> --
+> With best regards,
+>
+> Vadim
+>
+>
+> On 10/26/2012 3:24 AM, Kirk T McDonald wrote:
+>>
+>> Alan,
+>>
+>> As I said, I am not much interested in slogging thru the messy story of
+>> lossy ferrites.
+>>
+>> But I suspect that you are too pessimistic.
+>>
+>> An rf company that I deal with is Minicircuits.
+>> They make ferrite transformers with less than 1.5 dB insertion loss at
+>> 1.5 GHz.
+>> http://www.minicircuits.com/pages/BalunApplicationNote.htm
+>> In fact, I've bought some of these.   (Minicircuits has lots of high
+>> performance rf products at remarkably low cost -- especially if you buy
+>> unmounted parts.)
+>>
+>> Here's another such company:
+>> http://www.rfmd.com/CS/Documents/FP-512_Datasheet.pdf
+>> This rf transformer has a 1dB insertion loss at 1.5 GHz.
+>>
+>> I'm not sure where your number of 70 dB at 1 MHz comes from.   Maybe
+>> this was the case back in 1955...
+>>
+>> --Kirk
+>>
+>> -----Original Message----- From: boswell alan
+>> Sent: Thursday, October 25, 2012 5:58 PM
+>> To: Discussions of Antennas and Related Topics
+>> Subject: Re: [Antenna-discussion] Ferrite Antennas
+>>
+>> Kirk
+>>
+>> If you can find a lossless ferrite antenna it will be the first.  The
+>> figure I quoted, 70 dBs loss at 1 MHz, is quite typical and I have
+>> shown how that figure can be incorporated into a system design for
+>> transistor radios, which is the only widespread application these
+>> antennas have found in the market-place.  An important question is to
+>> ask yourself why that is . . :)
+>>
+>> At lower frequencies the losses become even larger, but lossy
+>> receiving antennas are more acceptable because of the extremely high
+>> level of external noise at low frequencies.
+>>
+>> Alan P. has derived loss resistances between 1 and 10 ohms in a
+>> typical case, while stating that a typical radiation resistance is
+>> 10^-6 ohms, implying typical losses of somewhat more than 60 dB, so
+>> this idea of lossless ferrites is a misrepresentation.
+>>
+>> You still refuse to consider details, but all you need to do is
+>> calculate the radiation resistance and inductance of one of these
+>> antennas.  As long as you continue to keep your head in the sand you
+>> will stay as you are now - in a state of blissful ignorance :).
+>>
+>> Alan G3NOQ
+>> _______________________________________________
+>> This message was sent to: kirkmcd@princeton.edu
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address
+>> this message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>> _______________________________________________
+>> This message was sent to: qrp@peterstar.ru
+>>
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address
+>> this message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>>
+>>
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

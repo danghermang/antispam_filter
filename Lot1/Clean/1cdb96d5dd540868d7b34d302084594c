@@ -1,0 +1,44 @@
+Subject:Re: Las redes no se inician correctamente al arranque.
+2012/10/26 Debian GMail <javier.debian.bb.ar@gmail.com>:
+> Estimados:
+>
+> Para variar, yo, con problemas de redes.
+> # INTRANET
+>  auto eth0
+>  allow-hotplug eth0
+>  iface eth0 inet dhcp
+>  post-up route del default
+>  post-up route add -net 10.0.0.0 netmask 255.0.0.0 gw 10.6.1.254 dev eth0
+>
+> # INTERNET
+>  auto eth1
+>  allow-hotplug eth1
+>  iface eth1 inet dhcp
+
+1ro. Utiliza "auto" o "allow-hotplug" pero no ambos
+
+2do. la carga de las interfaces es secuencial por lo tanto cuando
+levante eth1 va a borrar tu default gateway que normalmente lo ves
+con:
+# ip route show
+
+3ro. est=C3=A1 bien utilizar post-up, pero hazlo en eth1, no en eth0
+
+4to. te puedes ahorrar una linea con:
+post-up ip route change default via 10.6.1.254  dev eth0
+
+
+5to. qui=C3=A9n es el animal que usa 10.6.1.254/255.0.0.0 ..........?
+
+Saludos
+
+--=20
+"La Voluntad es el =C3=BAnico motor de nuestros logros"
+http://ngen.com.ar/blog
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CACJp8-rkH4UQXZtwgsHev3kEV+aYj=RUgnKYkepZ8F=HkMM7-Q@mail.gmail.com
+

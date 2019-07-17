@@ -1,0 +1,113 @@
+Subject:Re: [Antenna-discussion] 1/2-wave vertical really needs a
+	groundplane?
+Ward
+
+A NEC model of a 10-metre Zepp:
+
+CM 10 m long Zepp with 5 mm wire
+CE NEC2 model 08-11-2012
+GW  1  100      0.00      0.00      0.00     10.00      0.00      0.00    0.0025
+GW 11   50      0.00      0.00      0.00      0.00      0.00     -5.00    0.0025
+GW 12   50     -0.10      0.00      0.00     -0.10      0.00     -5.00    0.0025
+GW 21    1     -0.10      0.00     -5.00      0.00      0.00     -5.00    0.0025
+GE
+EX  0   21    1    0     1.000
+FR  0  101    0    0      10.0     0.100
+XQ
+EN
+
+This shows a resonance at 14.7 MHz with an input resistance of 20
+ohms.  Obviously it shows a common-mode current at the top of the
+feeder but it was a surprise how quickly the common-mode effect died
+away down the feeder.  At 0.1 wavelength from the feed point the
+current imbalance was about -30 dB.
+
+Alan G3NOQ
+
+
+
+On 8 November 2012 17:17, boswell alan <alan.boswell@blueyonder.co.uk> wrote:
+> Ward
+>
+> I always wondered what a J-pole was but if it's the same as a Zepp, no
+> problem.  There must be a common mode current on the feeder.  It would
+> not have mattered up in the air on a Zeppelin :).  It can be modelled
+> by NEC provided the rules on segmentation are followed.
+>
+> Alan G3NOQ
+>
+>
+>
+> On 8 November 2012 16:14, ward <ward2@ussu.us> wrote:
+>> Folks:
+>>    While I personally subscribe to the view conveyed by w8ji there
+>> are detractors.  The argument starts like this, "Kirchhoff's law doesn't always
+>> apply".  Then hands are waved and measurements presented.
+>>    I happen to think Kirchhoff's law does apply but the arguments can
+>> be compelling.  I know I can build an antenna which has radiating
+>> elements which have NO direct electrical connection to the feed line.
+>> Somehow, currents are induced and therefore Kirchhoff's circuit
+>> law doesn't apply.
+>>    I expect the physicists to say something like "Kirchhoff's circuit laws
+>> apply only to static circuits".  Anyone?
+>>
+>>    Just a flare to engage the brain cells.
+>>
+>> ward
+>>
+>>
+>> On Nov 8, 2012, at 2:58 AM, Richard Fry wrote:
+>>
+>> WBob wrote:
+>>> am still waiting for a explanation of the J antenna (commonly misscalled the JPole) where a 1/2 wave wire is end fed with a 1/4 wave transmission line shorted on the other end. The transmission line does not radiate (very much) so it is not a counter poise and does not interact with a "ground" so it is not radials. (etc)
+>>
+>> The link below has an interesting discussion of this subject, including a section titled "Can we end-feed a halfwave antenna, or end-feed any antenna, without a ground or counterpoise?"
+>>
+>> http://www.w8ji.com/end-fed_vertical_j-pole_and_horizontal_zepp.htm
+>>
+>>
+>> _______________________________________________
+>> This message was sent to: ward2@ussu.us
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address this message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>>
+>>
+>> _______________________________________________
+>> This message was sent to: alan.boswell@blueyonder.co.uk
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address this message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

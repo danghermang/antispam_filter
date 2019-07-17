@@ -1,0 +1,96 @@
+Subject:Delivery failure
+Message from yahoo.com.
+Unable to deliver message to the following address(es).
+
+<kailacheeze@yahoo.com>:
+This user doesn't have a yahoo.com account (kailacheeze@yahoo.com) [-5]
+
+<ruebingoldberg@yahoo.com>:
+Sorry your message to ruebingoldberg@yahoo.com cannot be delivered. This account has been disabled or discontinued [#102].
+
+--- Original message follows.
+
+The original message is over 5K. Message truncated.
+
+Return-Path: <patrick.wolf@trashymail.com>
+X-YahooFilteredBulk: 37.215.108.61
+Received-SPF: none (domain of trashymail.com does not designate permitted sender hosts)
+X-YMailISG: F9wI03IWLDs3WtzWrjtEwSwBZiIgf6maIWNVYBy0jBozQ1DR
+ HE4Gx_F8Km5wPCfLNxVH7bqVftCWYb7tjRHkoO4w23ENwzIZvWVBbEyI1Qm7
+ C6hOMvGls.yOkrYZ9OhyF1PjT9UQNMs0LsHpP292jkzC0FtkFYsZ4RBbafHl
+ pdcOdxPGIdjcA9tCoYx_f_Bm2AAFIAB_IpqBj6FyEojGubNtYRKAnR6Iankg
+ 87R.hE7.2Hiood.Qt0x3MbxSHPlen74G5sgtecsxArDwKELkfXzfB4mUc3cn
+ UiG0qbKaan6EahXiHROtoa0BgWf9V7tpkMW8mKm9vLM97lLVdKL1Aj3vbn3P
+ 0.eJt77EMjtUY8N9TMBVpym0fXlix.2p_PDq7UjGIXQFBGENEiJ9JBNvQaY7
+ oz5qXOGkOU3mVOFh09elj7IrQ0qcwhjyv2tg3.1vzJ68LgpOAjw5h3Yec4g2
+ H1VA.3qnHgHYatFUb_h.ObawhtPrWr7hhzfd.fBr19DkBqYTBg2HsdptqQkJ
+ BRar5nkiGQNrbdBwATujP2ZB30FA1ZE1O83yrkNUGbtzXa9BWo756xKCUOkW
+ aCn2xxmRw4kIX9iA4JwMeMOPW8Pq_e2AKCXZf5r4BRFpeimmOP.zS9cfhgbt
+ d5cluJvU5cqjbKVfRe4egmt7ZI7LXa_HEOcmz7DFNJyj9vrIdkHe4.SJYjbA
+ F4_IQwAztUs_SIEW99VIdHem5d1ltvWIq8etGx2rDG51tthEAuLT0T1QEizA
+ VpLkAs3FpnA4edfmMD6LsyUxMWvyfhGt9t201jGxndVSHscRN0z0PN7P4zWx
+ fleig7Qy124tFPfI1RmQGCnoF6puFjm4yuf9czrXHccmjgnliL9AmqXRf5Kk
+ jvDKmLyxPfdNHrVOLJXcVV4_KMRgvwmneDY6uFEgQU9u5qCSmgnTurSpLzO1
+ 13GZSbZAo2malHdO1b3Jgt9kmTdpnUQqJGcTcVwY5Bws1UHqrwDgToJFS8AG
+ Lura7vE44DMulM31lbaTlnFUETR55_lW_sL8tJp54QfvMBFfhSKw6pbrXYSJ
+ ink0h_3dqnoDzzvWuDccxVremNDzSl5XhLd0KOIOS00A.tKR_pJxG8c1y5in
+ Z8xhZ7H512V_h0WOUbCXmVIWAcBYxyRSn_NaDp82.Hhg8TiMYCzAQE2zq.f_
+ O.Jvrrj4zmKck95k6UrgGK6eEuxom.JRE6r5lsHTIgmUmDevsT1MvkzaEFuK
+ sf9h._nBNlKMAeHPr4rW8zdBsd2TfClcIsEwmXpnEo8p.QTTmzF03H_aFQ3V
+ 7OUBiqTKRedxJPrt2TndQ3wcLnI8LdGSA2oww53ts_Z1upU7R2EYfju84Muu
+ gMlhiszFxhxBZal67.PqNG.WkxbQ9OggcyalnXD8d6SCI3tqHHUltPvK3CCW
+ pm_GULYu6wMI6FVcwyuWD.ZER1jPLG2VAlCE5l7nSYX.
+X-Originating-IP: [37.215.108.61]
+Authentication-Results: mta1112.mail.mud.yahoo.com  from=trashymail.com; domainkeys=neutral (no sig);  from=trashymail.com; dkim=neutral (no sig)
+Received: from 127.0.0.1  (HELO 61.108.215.37.in-addr.arpa) (37.215.108.61)
+  by mta1112.mail.mud.yahoo.com with SMTP; Sun, 09 Dec 2012 07:38:24 -0800
+Received: from your70745ed430 (unverified [37.215.108.61]) 
+	by balibagus.com (SurgeMail 5.2a) with ESMTP id 84029298-1388489 
+	for <goeatvegan@yahoo.com>; Sun, 09 Dec 2012 10:38:18 -0500
+Return-Path: <patrick.wolf@trashymail.com>
+Message-ID: <0F3614A833F24EE6CC9C42B48DCDB8B8@your70745ed430>
+From: "LR WatchZone" <patrick.wolf@trashymail.com>
+To: <goeatvegan@yahoo.com>
+Subject: This weekend only
+Date: Sun, 09 Dec 2012 10:38:18 -0500
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0034_01CDD52B.BD661C10"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.5931
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.6157
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0034_01CDD52B.BD661C10
+Content-Type: multipart/related;
+	type="multipart/alternative";
+	boundary="----=_NextPart_001_0035_01CDD52B.BD661C10"
+
+
+------=_NextPart_001_0035_01CDD52B.BD661C10
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_002_0036_01CDD52B.BD661C10"
+
+
+------=_NextPart_002_0036_01CDD52B.BD661C10
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+LR WatchZone
+2 DAYS LEFT!
+
+This will be the last weekend for Online Christmas Orders.
+Orders place before or on Monday December 10th, 2012 will ensure on-time
+delivery, watch model availability and price reductions of 30-75%!
+
+YES! Every watch has been reduced by 30-75%. (Ending Monday December 10th).
+Please be advised that these reductions only apply to in stock items.
+Currently everything is in stock and ready to ship within 1 hou
+*** MESSAGE TRUNCATED ***
+
+
+.
+

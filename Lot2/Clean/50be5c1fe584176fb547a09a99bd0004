@@ -1,0 +1,55 @@
+Subject:Surveiller les logs
+Bonjour,
+
+J'ai besoin de surveiller des logs et de d=C3=A9clencher qqchose quand je t=
+rouve certaines erreurs
+dedans.
+
+Vous utilisez quoi pour faire =C3=A7a ?
+
+Je fais =C3=A7a avec logtail, =C3=A7a marche tr=C3=A8s bien (=C3=A7a n'affi=
+che que ce qui a =C3=A9t=C3=A9 ajout=C3=A9 depuis la
+derni=C3=A8re fois, en m=C3=A9morisant l'offset dans un autre fichier). Le =
+pb est que ce paquet est
+marqu=C3=A9 d=C3=A9pr=C3=A9ci=C3=A9 http://packages.debian.org/fr/squeeze/l=
+ogtail
+
+=C3=87a me chagrine pas plus que =C3=A7a, mais je me demandais pourquoi et =
+s'il fallait lui chercher un
+rempla=C3=A7ant.
+C'est vrai que la derni=C3=A8re modif de src dans le git remonte =C3=A0 08/=
+2009, mais pour ce genre de
+fonctionnalit=C3=A9 =C3=A7a me choque pas.
+
+=C3=80 quoi correspond ce "d=C3=A9pr=C3=A9ci=C3=A9" ? Plus de mainteneur ? =
+Il dispara=C3=AEtrait quand ?
+
+J'ai trouv=C3=A9=20
+http://packages.debian.org/squeeze/tenshi, trop complexe pour ce besoin
+et
+http://packages.debian.org/squeeze/since
+qui a l'air de faire pareil, sauf que :
+  since uses the inode of a file as its key, if that inode is recycled sinc=
+e will get confused.
+
+(alors que, en cas de rotation de log, logtail se d=C3=A9brouille pour retr=
+ouver l'inode d'apr=C3=A8s le
+nom du fichier qu'il avait)
+
+Vous en connaissez d'autres ?
+
+--=20
+Daniel
+
+Il y a trois sortes de math=C3=A9maticiens : ceux qui savent=20
+compter et ceux qui ne savent pas.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120913191155.696fdec8@quad.lairdutemps.org
+

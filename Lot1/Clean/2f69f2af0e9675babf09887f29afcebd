@@ -1,0 +1,40 @@
+Subject:Renverse proxy smtp
+Bonjour,
+je suis entrain de monter 2 serveurs qui sont sur debian squeeze. Le 
+premier s'appelle neo et le
+second r2-d2.
+
+Neo est visible depuis Internet, tandis que r2-d2 pas. Neo sert à faire 
+du reverse proxy sur r2-d2.
+
+Pour http j'utilise nginx, pour pop/imap c'est perdition ( facile 
+jusqu'ici ;) ).
+
+Le soucis que je rencontre maintenant c'est pour smtp. Sachant que je 
+peut pas toucher à la config
+de r2-d2 et qu'il utilise du ssl avec authentification.
+
+Si je regarde du coté de postfix sa marche pour l'envoi d'email depuis 
+r2-d2 et la réception d'email
+depuis internet. Mais l'envoi d'email depuis Internet en ssl avec 
+authentification je voie pas
+comment faire, sachant que l'authentification doit se faire sur r2-d2.
+
+Si vous avez une idée de solution ou un autre programme pour faire du 
+renverse proxy smtp.
+Merci d'avance
+
+Bonne journée
+Sabazyo
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50572EF1.2020203@gmail.com
+

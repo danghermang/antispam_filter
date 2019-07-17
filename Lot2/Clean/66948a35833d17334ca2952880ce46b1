@@ -1,0 +1,47 @@
+Subject:Re: Debian (ou Linuxmint) sous W530
+Le Sat, 15 Sep 2012 23:11:32 +0200
+Colin <colin@colinusmaximus.com> a =E9crit:
+
+> Le samedi 15 septembre 2012 =E0 23:05 +0200, Ga=EBtan PERRIER a =E9crit :
+> > Le Sat, 15 Sep 2012 22:28:09 +0200
+> > andre_debian@numericable.fr a =E9crit:
+> >=20
+> > > On Saturday 15 September 2012 21:51:08 jerome moliere wrote:
+> > > > L utilitaire de restore semble ok et je n ai touche a presque
+> > > > rien les partoches sont vues et reconnues ..
+> > > > dois je prendre une sid / wheezy ou squeeze pour maximiser mes
+> > > > chances de voir l install aller au bout ?
+> > > > merci de vos retours
+> > >=20
+> > > Je dirai Squeeze vu qu'elle est stable.
+> >=20
+> > Je dirai plut=F4t une Wheezy au minimum vu que le W530 est fort
+> > r=E9cent ... J'ai un T420 et je suis en Wheezy avec des bouts de Sid
+> > et Experimental et je n'ai pas encore tout de totalement
+> > fonctionnel ...
+>=20
+> Aie. Je projette d'acheter un T420s d'occaz, et de le mettre sous
+> Wheezy (sans faire de pinning avec les d=E9p=F4ts sid/exp)
+> Qu'est-ce qui n'est pas fonctionnel chez toi ?
+>=20
+
+D=E9j=E0 le support de la plateforme Sandy Bridge a beaucoup gagn=E9 avec le
+noyau 3.4. J'utilise actuellement le 3.4.4 d'exp=E9rimental (le 3.5.2
+apportant des r=E9gressions normalement corrig=E9es en 3.5.3 mais qui n'est
+pas encore dans exp.). Les plus gros probl=E8mes qui me reste concernent
+essentiellement la ventilation et la gestion de l'=E9nergie ainsi que
+quelques boutons qui ne font rien (rec mute par exemple).
+
+Pour le reste c'est ok.
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120916000453.60f37cf839afa4a33493a93d@neuf.fr
+

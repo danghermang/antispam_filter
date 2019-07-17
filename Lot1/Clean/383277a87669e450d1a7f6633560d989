@@ -1,0 +1,145 @@
+Subject:Re: [EVDL] EVLN: EVs powering homes when the power is knocked out
+Several of us in EVADC fixed our Leafs for emergency power during Sandy.
+All it takes is a standard inverter connected to the 12 volt supply. Turn
+on the Leaf so the DC/DC is active and you have power. I figure I can run
+the refrigerator, sump pump, and small television for several days from my
+Leaf. Any EV should be able to do this and a plug in hybrid will start the
+engine when the pack gets low, providing even more power.
+
+Dave
+On Oct 31, 2012 5:32 AM, "brucedp5" <brucedp5@operamail.com> wrote:
+
+>
+>
+> http://www.torquenews.com/1075/electric-cars-could-power-homes-when-hurri=
+canes-knock-out-power
+> [image] Electric cars could power homes when hurricanes knock out power
+> By David Herron  10/30/2012
+>
+> One of the envisioned roles for electric cars is providing emergency power
+> when disaster knocks out the power.
+>
+> This week the 'Frankenstorm', Hurricane Sandy, is pummeling the East Coast
+> with rain and flooding that has killed several people and reportedly 8
+> million or more people are without power. Last summer during a heat wave,
+> the political comedian Rush Limbaugh ranted against electric cars
+> suggesting
+> that they become useless when the electricity goes out. This is not the
+> first time Limbaugh has been incorrect about (or lied about) electric car=
+s,
+> because in truth some design features in modern electric cars have the go=
+al
+> of using electric cars to act as an emergency power supply to stabilize t=
+he
+> electric grid, such that an electric car could be a great resource when t=
+he
+> power goes out, rather than a hindrance.
+>
+> By the way, when the electricity goes out how will gas stations pump
+> gasoline? Won't gasoline cars also become useless pretty quick?
+>
+> One of the common "what if" portrayals of electric cars is an idea Nissan
+> placed in a Leaf commercial the company began airing last week. The
+> commercial showed the Leaf owner arriving at her home, driving into the
+> garage, plugging a cord into the car, all the lights come on in the house,
+> and the narrator voice saying "What if, one day, [electric cars] could
+> power
+> your house?"
+>
+> Functionally, the large battery pack on an electric car is electrical
+> storage. The prime purpose of that electricity is to power the car down t=
+he
+> road, but it can be used for other purposes.
+>
+> One of the elements of the Smart Grid is deployment of electrical storage
+> units that serve as a distributed resource for generation of AC power to
+> improve the security and reliability of the electric grid. If the
+> electrical
+> grid needs more power, signals are sent from the grid operators to tap on
+> electricity sources. In the era of the dumb grid those electricity sources
+> are generally fossil fuel power plants, but in the era of the smart grid =
+it
+> could be electricity stored in large grid-connected battery packs. All of
+> the battery companies making batteries for electric cars, are also involv=
+ed
+> with making electrical storage units for this purpose. Coda Automotive for
+> example is a subsidiary of Coda Holdings, and that company is also the
+> parent of Coda Energy that repurposes battery packs designed for Coda
+> Automotive as electrical storage units. Battery maker A123 Systems (that
+> recently entered bankruptcy proceedings) makes electrical storage units f=
+or
+> the smart grid that store 10-20 megawatt-hours per unit.
+>
+> Does this capability exist today? The vision is not fully implemented but
+> elements of the vision do exist today, but there are many barriers.
+>
+> The technology that is closest to implementation is the DC Fast Charging
+> systems, because both the CHADEMO and SAE DC Fast Charge systems allow for
+> bidirectional energy flow while an electric car is connected to a charging
+> station. That bidirectional energy flow means that electricity can flow n=
+ot
+> just from the electrical grid into the car, but from the car to the
+> electrical grid, if needed.
+>
+> What's different between CHADEMO and SAE DC Fast Charging is the
+> communications protocol governing the bidirectional energy flow. CHADEMO,
+> designed in Japan, uses CANBUS communications for the charging station to
+> communicate with the car, to control charging rate, and to release
+> electricity from the car. The SAE however saw the need to integrate smart
+> grid communications protocols like ZigBee and HomePhy so that the car can
+> directly communicate with the smart grid
+> [=A9 2012 torquenews.com ]
+>
+>
+>
+>
+> For all EVLN posts use:
+>
+> http://electric-vehicle-discussion-list.413529.n4.nabble.com/template/Nam=
+lServlet.jtp?macro=3Dsearch_page&node=3D413529&query=3Devln&sort=3Ddate
+>
+> Here are today's archive-only posts:
+>
+> EVLN: Best Selling EV in Europe This Year May Be An Utility Van
+> EVLN: Lit C-1, a self-balancing electric motorcycle r:200mi ts:120mph
+> EVLN: Purpose-built ZeroTruck EVs for movie studios & caterers
+> EVLN: Prius Plug-in pih that could
+> +
+> i-MiEV: A Pure-Electric Car That=92s Fun
+>
+>
+> {brucedp.150m.com}
+>
+>
+>
+> --
+> View this message in context:
+> http://electric-vehicle-discussion-list.413529.n4.nabble.com/EVLN-EVs-pow=
+ering-homes-when-the-power-is-knocked-out-tp4659044.html
+> Sent from the Electric Vehicle Discussion List mailing list archive at
+> Nabble.com.
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121031/5c4822c0=
+/attachment.html =
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

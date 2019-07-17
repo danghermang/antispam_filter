@@ -1,0 +1,38 @@
+Subject:Re: Systemd
+El 11/10/12 20:21, Javier San Román escribió:
+>  Por enredar un poco, ando mirando la posibilidad de poner un híbrido System 
+> V/Systemd con miras de, según como vaya, volver a System V o pasar a Systemd 
+> completo. Y antes de hacer nada me gustaría saber vuestras opiniones al 
+> respecto, sobre el Systemd en concreto. Gracias.
+> 
+> --
+> Usuario Linux: #156817
+> Debian Wheezy/Sid - Kernel 3.2.0
+> 
+> 
+
+yo migré a systemd en mi portatil hace dos o tres semanas, pero es arch
+linux y han facilitado mucho el proceso por lo que me resultó harto
+sencillo, no se en debian como será el proceso.
+
+En cuanto a systemd como tal, a mi particularmente me gusta, siendo poco
+riguroso  es como daemontools de bernstein con esteroides. El inicio y
+apagado del sistema es inmediato, se integra con cgroups y la gestión es
+muy sencilla.
+
+Te paso este enlace que aunque esta escrito desde la perspectiva de
+archlinux da una idea global sobre systemd muy buena.
+
+http://archlinux.me/brain0/2012/09/10/yet-another-systemd-comment/
+
+-- 
+"Tanto en los deportes como en todo lo demás, soy un experto. Pero para
+mantener viva mi inteligencia natural y fuera de serie, tengo que comer
+mucho"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5077D5AA.4090105@limbo.deathwing.net
+

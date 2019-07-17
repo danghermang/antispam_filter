@@ -1,0 +1,82 @@
+Subject:Re: [Antenna-discussion] Capture Area
+Hi Alan P
+
+That all looks OK, and I agree the ferrite increases the actual power
+output of the antenna by reducing the losses.
+
+It's also right that if we could realise the lossless capture area of
+a small antenna by matching the radiation resistance, the Q would be
+too high and the bandwidth unacceptably low.
+
+I believe we are agreeing that the 'available power' of the antenna is
+V^2/4Rr if losses are ignored, and the output power is then given by
+that 3.Lambda^2/8pi formula, but also that the loss resistance for
+ferrite antennas is greater than the radiation resistance, perhaps by
+several orders of magnitude.  There is scope for confusion from
+different definitions of 'capture area'.
+
+From what I saw of your papers the loss resistance for a typical
+ferrite antenna is in the order of single numbers of ohms, while a
+typical radiation resistance is 10^-6 ohms; have I read it right?
+
+I haven't seen crystal sets with ferrite rod antennas, and the one
+that Kirk found turned out to have a wire antenna running 'down the
+garden', so that the ferrite rod antenna was actually only a tuning
+coil, but I wouldn't rule them out as we are discovering that
+headphones can work with very low power.
+
+Alan G3NOQ
+
+
+
+
+
+On 28 October 2012 18:54, Alan Payne <paynealpayne@aol.com> wrote:
+>
+>
+>
+> Kirk and Alan B
+>
+>
+> I have not been reading your arguments very closely so forgive me if you have already covered the following. My comments relate only to small antennas, that is smaller than Wheeler's radian sphere.
+>
+>
+> If we make a small antenna even smaller the output voltage reduces, but so does the radiation resistance, so that the available output power is always the same irrespective of the size of the antenna. However to access this available power we must match to a smaller and smaller impedance, which might be measured in milli-ohms or less. This is too low an impedance for any practical matching circuit, and so with a small antenna there is always a very large mismatch loss. However we can reduce this loss by making the antenna larger, for instance by adding some ferrite, because this raises the radiation resistance and thereby reduces the mismatch loss. So the effect of the ferrite could be considered as a method of improving the match.
+> Incidentally, even if we could match to the very low radiation resistance, it would be of no practical value because the bandwidth would be far to small, and therefore a small antenna must be lossy.
+> So by adding a ferrite the power into the receiver increases but the available power does not. The ferrite is not unusual in this respect, the same thing will happen with a small dipole if we increase the length of its arms. Another way of saying that the available power is independent of antenna size is that the capture area is constant, and this is true of both the ferrite and the dipole.
+> Kirk has asked the question why a loop is good for a crystal set but for a transistor radio a ferrite antenna is used. The answer is size. There are in fact many crystal sets with ferrite aerials, but if you want better performance use a loop. But to get the better performance the loop will have to be much bigger than the ferrite aerial, and thus too big for the radio.
+>
+>
+> Alan Payne G3RBJ
+>
+>
+>
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

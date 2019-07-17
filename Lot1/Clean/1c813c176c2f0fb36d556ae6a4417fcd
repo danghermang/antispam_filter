@@ -1,0 +1,32 @@
+Subject:Re: Como hacer backups "sencillos" programados ?
+El 08/11/12 06:42, silodepam escribió:
+>
+>> Simple Backup
+>>
+>> # apt-get install sbackup
+>>
+>> JAP
+>>
+>>
+>
+> JAP, no se encuentra en los repos; puede ser slbackup ? con un search
+> encontre este...
+>
+>
+
+Perdón.
+Está en "sid".
+Solía estar en "testing" también.
+No tiene demasiadas dependencias, por lo que se puede hacer una 
+instalación cruzando las ramas, que es como yo lo tengo.
+
+http://packages.debian.org/search?keywords=sbackup&searchon=names&suite=all&section=all&sourceid=mozilla-search
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509BABAE.1040505@gmail.com
+

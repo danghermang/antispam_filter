@@ -1,0 +1,314 @@
+Subject:Re: [Koha] Koha Digest, Vol 84, Issue 38
+Dear Vimal,
+
+I just have gone through your thread of koha livecd.
+
+We have been working hard on getting latest koha livecd but koha versions
+above 3.8 all give following error while searching OPAC. I had posted this
+query on IRC  but had not got any answer. After all the attempts of trial
+we could bring live CD with 3.6.9 on lubuntu 12.04. We have just finished
+compiling the one with lUbuntu, DSpace 1.8.2, Koha 3.6.9 & Drupal 7.15. We
+have used uck for compiling the liveCD. We will soon be uploading on
+sourceforge.
+
+I am giving herewith the error in koha-zebraqueue-output.log. This has been
+already posted earlier but had not found any answer and because of which we
+could not announce livecd. Finally we decided to use 3.6 version. If anyone
+has any fix available for this error pl. let us know and we can try
+compiling koha with 3.8.5.
+
+DBD::mysql::st execute failed: Table 'koha.zebraqueue' does not exist at
+/home/koha/bin/zebraqueue_daemon.pl line 124.
+DBD::mysql::st fetchrow_hashref failed: fetch() without execute() at
+/home/koha/bin/zebraqueue_daemon.pl line 125.
+
+The above lines get repeated.
+
+If anyone has any answer to it we will try to incorporate that change and
+create livecd with latest version of koha.
+
+reg
+
+Sunita Barve
+
+
+> Message: 1
+> Date: Sat, 20 Oct 2012 16:22:38 +0530
+> From: "Vimal Kumar V." <vimal0212@gmail.com>
+> To: Koha-List <koha@lists.katipo.co.nz>
+> Subject: Re: [Koha] Some thoughts about an ?official? Koha LiveCD
+> Message-ID:
+>         <CAEaJrwX5WFDptWVq_Hi3Kq2r=rCx7J-9P4ov4gmDagkKf=kT=
+> g@mail.gmail.com>
+> Content-Type: text/plain; charset=UTF-8
+>
+> Dear Friends,
+>
+> I posted the same in Koha-devel list.
+> Thank you for your suggestions on Live CD/DVD.
+>
+> I started to work for Live CD/DVD.
+> In my experience Remastersys is the right tool to make Live CD/DVD.
+> It has provision to make ISO in backup mode.
+> So we can include user account and related files too.
+>
+> Remastersys with Ubuntu 12.04 is successful.
+> Both live mode and installer are working well.
+> I started with Ubuntu 12.04 ISO image.
+> One problem with size of the CD/DVD. I removed many heavy applications like
+> Libreoffice etc.
+> Even though it size about 800 MB.
+>
+>
+> I strictly followed the instructions from following link to install Koha,
+> http://wiki.koha-community.org/wiki/Koha_on_ubuntu_-_packages
+> I found that Z39.50 does not download records.
+> When try to search records from z39.50 servers, it says Try another search.
+> Anybody noticed this problem with 3.8.5?
+> We have to solve this problem.
+>
+> Koha CD/DVD should be easy to use.
+> We have to think about Koha newbies in mind when making CD/DVD.
+>
+> I am preparing for a family tour and I return only on October 24.
+> So I am little bit hurry and have to started to prepare bag packs.
+> I would like to put forward more ideas from your side to improve the live
+> CD.
+>
+> Regards
+>
+>
+> --
+> Vimal Kumar V.
+> Mahatma Gandhi University Library
+> Kottayam, Kerala- 686 560
+> Web: http://www.vimalkumar.org
+> Blog: http://linuxhalwa.blogspot.com http://kohageek.blogspot.in
+> ---------------------------------------------------------------------------
+> "I forget what I was taught. I only remember what I have learnt"
+> -Patrick White
+>
+>
+> ------------------------------
+>
+> Message: 2
+> Date: Sat, 20 Oct 2012 13:29:27 +0200
+> From: aszomor@szomor.hu
+> To: "Vimal Kumar V." <vimal0212@gmail.com>
+> Cc: Koha-List <koha@lists.katipo.co.nz>
+> Subject: Re: [Koha] Some thoughts about an >>official<< Koha LiveCD
+> Message-ID: <20121020132927.77405dm2vemye1w7@webmail.dravanet.hu>
+> Content-Type: text/plain; charset=ISO-8859-2; DelSp="Yes";
+>         format="flowed"
+>
+> Dear Vimal,
+>
+> > I found that Z39.50 does not download records.
+> > When try to search records from z39.50 servers, it says Try another
+> search.
+> It is a suddenly idea did you set up the Zebra cron job ?
+> http://manual.koha-community.org/3.8/en/cronjobsch.html
+>
+> Best Regards,
+> Attila.
+>
+>
+> Id?zet ("Vimal Kumar V." <vimal0212@gmail.com>):
+>
+> > Dear Friends,
+> >
+> > I posted the same in Koha-devel list.
+> > Thank you for your suggestions on Live CD/DVD.
+> >
+> > I started to work for Live CD/DVD.
+> > In my experience Remastersys is the right tool to make Live CD/DVD.
+> > It has provision to make ISO in backup mode.
+> > So we can include user account and related files too.
+> >
+> > Remastersys with Ubuntu 12.04 is successful.
+> > Both live mode and installer are working well.
+> > I started with Ubuntu 12.04 ISO image.
+> > One problem with size of the CD/DVD. I removed many heavy applications
+> like
+> > Libreoffice etc.
+> > Even though it size about 800 MB.
+> >
+> >
+> > I strictly followed the instructions from following link to install Koha,
+> > http://wiki.koha-community.org/wiki/Koha_on_ubuntu_-_packages
+> > I found that Z39.50 does not download records.
+> > When try to search records from z39.50 servers, it says Try another
+> search.
+> > Anybody noticed this problem with 3.8.5?
+> > We have to solve this problem.
+> >
+> > Koha CD/DVD should be easy to use.
+> > We have to think about Koha newbies in mind when making CD/DVD.
+> >
+> > I am preparing for a family tour and I return only on October 24.
+> > So I am little bit hurry and have to started to prepare bag packs.
+> > I would like to put forward more ideas from your side to improve the live
+> > CD.
+> >
+> > Regards
+> >
+> >
+> > --
+> > Vimal Kumar V.
+> > Mahatma Gandhi University Library
+> > Kottayam, Kerala- 686 560
+> > Web: http://www.vimalkumar.org
+> > Blog: http://linuxhalwa.blogspot.com http://kohageek.blogspot.in
+> >
+> ---------------------------------------------------------------------------
+> > "I forget what I was taught. I only remember what I have learnt"
+> > -Patrick White
+> > _______________________________________________
+> > Koha mailing list  http://koha-community.org
+> > Koha@lists.katipo.co.nz
+> > http://lists.katipo.co.nz/mailman/listinfo/koha
+> >
+>
+>
+>
+>
+> ------------------------------
+>
+> Message: 3
+> Date: Sat, 20 Oct 2012 07:52:32 -0700 (PDT)
+> From: zalabany <mh_zalabany@hotmail.com>
+> To: koha@lists.katipo.co.nz
+> Subject: [Koha] need help in report using XML
+> Message-ID: <1350744752273-5730388.post@n5.nabble.com>
+> Content-Type: text/plain; charset=us-ascii
+>
+> i need to make report including the main data of the books
+> and i have data in 880 field i want to include this field in the report
+> the report
+> note(880 is vernacular field that i put the title and author and publisher
+> and statement with Arabic )
+> SELECT
+>   ExtractValue((
+>     SELECT marcxml
+>     FROM biblioitems
+>     WHERE biblionumber
+>     = '520'),
+>       '//datafield[@tag="880"]/subfield[@code>="a"]') AS AR
+>
+> then i make the next report to premit to user to add the number of biblio
+> number
+> SELECT
+>   ExtractValue((
+>     SELECT marcxml
+>     FROM biblioitems
+>     WHERE biblionumber
+>     = <<>>),
+>       '//datafield[@tag="880"]/subfield[@code>="a"]') AS AR
+>
+> i have tow problem now
+> i want to run this report to display range from biblionumber to another one
+> i try to use between but it doesn't work
+> this was the statement
+>
+>  WHERE biblionumber BETWEEN <<>> AND <<>>),
+>  WHERE biblionumber BETWEEN 100 AND 150),
+>
+> and there is no result
+>
+> the second problem
+>
+> i need to make bibliographic report with the field 100 245  250  260 and
+> 880
+> fields
+> how to insert 880 field in to the same record
+>
+> thanks
+>
+>
+>
+> --
+> View this message in context:
+> http://koha.1045719.n5.nabble.com/need-help-in-report-using-XML-tp5730388.html
+> Sent from the Koha-general mailing list archive at Nabble.com.
+>
+>
+> ------------------------------
+>
+> Message: 4
+> Date: Sun, 21 Oct 2012 10:07:57 +1300
+> From: David Nind <david.nind@gmail.com>
+> To: koha@lists.katipo.co.nz
+> Subject: Re: [Koha] need help in report using XML
+> Message-ID:
+>         <
+> CAK5OMPdSqRQZzn-o0NaH+DWhi0DsNhgCL-QvnEA0gSdPpMeFtQ@mail.gmail.com>
+> Content-Type: text/plain; charset=ISO-8859-1
+>
+> Hi.
+>
+> I don't have any reports experience with Koha (yet), so can't help with
+> your specific questions.
+>
+> You may wish to check out the reports library to see if there is anything
+> similar to what you require:
+> http://wiki.koha-community.org/wiki/SQL_Reports_Library
+>
+>
+> David Nind | david.nind@gmail.com
+> PO Box 12367, Thorndon, Wellington, New Zealand 6144
+> h. +64 4 9720 600 | m. +64 21 0537 847 | w. +64 4 8906 098
+>
+>
+> ------------------------------
+>
+> Message: 5
+> Date: Sat, 20 Oct 2012 15:32:12 -0700 (PDT)
+> From: anjoze <joseanjos@gmail.com>
+> To: koha@lists.katipo.co.nz
+> Subject: Re: [Koha] Restriction on renewal of items on expiration of
+>         patrons account
+> Message-ID: <1350772332728-5730391.post@n5.nabble.com>
+> Content-Type: text/plain; charset=UTF-8
+>
+> I've never tried but maybe the option ReturnBeforeExpiry in System
+> Preferences.
+>
+>
+>
+> -----
+> Koha version:   3.08.04
+>        - -
+> Jos? Anjos
+> --
+> View this message in context:
+> http://koha.1045719.n5.nabble.com/Restriction-on-renewal-of-items-on-expiration-of-patrons-account-tp5730132p5730391.html
+> Sent from the Koha-general mailing list archive at Nabble.com.
+>
+>
+> ------------------------------
+>
+> _______________________________________________
+> Koha mailing list
+> Koha@lists.katipo.co.nz
+> http://lists.katipo.co.nz/mailman/listinfo/koha
+>
+>
+> End of Koha Digest, Vol 84, Issue 38
+> ************************************
+>
+
+
+
+-- 
+Sunita Barve, Ph. D.
+Senior Technical Officer
+National Chemical Laboratory
+Dr, Homi Bhaba Road
+Pune 411008, INDIA
+Phone : Residence : 91-020- 24470022
+            Mobile: 9922753827 ; 7588229335
+Email :sunitabarve@gmail.com
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

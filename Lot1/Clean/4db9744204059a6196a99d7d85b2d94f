@@ -1,0 +1,55 @@
+Subject:Re: Consulta con librerias en software
+Respuestas entre lineas.
+
+El d=EDa 9 de octubre de 2012 07:40, JulHer <julher@escomposlinux.org> escr=
+ibi=F3:
+> El 08/10/12 23:54, Jose Pablo Rojas escribi=F3:
+>> Hola gente, tengo un servidor al que solo tengo acceso como un usuario
+>> normal y el mismo no tiene instalado el fetchmail, por lo que pas=E9 el
+>> archivo de fetchmail de mi m=E1quina y al correrlo me pide la librer=EDa
+>> libkrb5.so.3
+>
+> Cualquier aplicaci=F3n que "instales" de esa manera va a requerir alguna
+> librer=EDa y vas a encontrarte con ese problema m=FAltiples veces.
+>
+>> Existe alguna forma de que en este caso yo pase el archivo de la
+>> librer=EDa a la misma carpeta e intente leer esta librer=EDa desde una
+>> ruta diferente a /usr/lib/libkrb5.so.3
+>> Saludos y gracias de antemano.
+>
+> Que yo sepa no, pero para leer el correo tienes m=E1s opciones:
+>
+> 1.- =BFCon cual cliente de correo ibas a leer el correo que te bajara
+> fetchmail? pues configura ese cliente con tus cuentas para que se
+> baje el correo.
+
+El servidor tiene funciones de pop e imap, entonces lo que quiero es
+bajar correos de varias cuentas para descargarlo a las cuentas que se
+encuentran en ese server, el server es un web hosting.
+
+>
+> 2.- Compilar fetchmail con librer=EDas est=E1ticas y pasar el binario al
+> sistema donde lo necesites.
+
+Voy a intentarlo a ver como me va.
+
+>
+> 3.- Pedirle al administrador que te instale fetchmail y si no se
+> puede pues que te de una alternativa para que puedas ver tu correo.
+>
+
+Ya se los ped=ED pero me dijeron que no
+
+> Un saludo
+
+Igualmente!! Saludos y gracias por la ayuda.
+
+>
+> JulHer
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJUzirGb-EW0307yRvndJ=k5uoOJL8iUv96UFsxFeYjrL+C+xg@mail.gmail.com
+

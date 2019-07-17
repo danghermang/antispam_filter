@@ -1,0 +1,31 @@
+Subject:Re: antivirus proxy
+El Mon, 24 Sep 2012 09:45:27 +0200, Trujillo Carmona, Antonio escribió:
+
+> Estoy probando el funcionamiento del proxy squid3 con el antivirus. Va
+> bien pero veo que solo analiza los ficheros que se descargan, a mi me
+> gustaría que cortara las conexiones a direcciones sabidas maliciosas,
+> esto es hay virus que realizan conexiones a direcciones concretas para
+> enviar datos, pues se trataría de cortar esas direcciones. No estoy
+> hablando del control parenteral, aunque se parezca mucho, quiero que sea
+> el antivirus (que es el que se supone que sabe lo que hacen los virus)
+> el que se comunique con el squid3 y corte el acceso.
+
+¿Has mirado SquidClamav o HAVP? 
+
+Seguramente permitan configurar algún tipo de redireccionamiento cuando 
+detecten un bicho en ciernes. Aún así, para equipos con Windows (que 
+supongo es lo que te interesa proteger) no hay nada como un antimalware 
+especializado para estos sistemas, los que hay para Linux detectan poco/
+nada.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3pnm0$e50$3@ger.gmane.org
+

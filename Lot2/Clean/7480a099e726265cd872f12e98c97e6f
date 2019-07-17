@@ -1,0 +1,57 @@
+Subject:Re: [arin-ppml] Updates to 2012-6
+While I don't support recognizing alternate root operators in the policy, I would
+support s/ICANN/ICANN or the properly appointed successor to IANA Functions/.
+
+Owen
+
+On Nov 23, 2012, at 13:39 , ebw@abenaki.wabanaki.net wrote:
+
+> The example offered reads "ICANN-sanctioned root and ccTLD operators". This
+> confuses me.
+> 
+> There are at least two root zone editors -- one in Marina del Rey and Reston,
+> and one or more in Beijing and elsewhere(s).
+> 
+> Publication of the MdR/R editor's data is made by one constellation of servers
+> authoritative for that root zone.
+> 
+> Publication of the Beijing editor's data is made by another constellation of
+> servers authoritative for that root zone.
+> 
+> The data originatived by two root zone editors differ. The difference is at
+> present a small number of labels and associated NS records present only in
+> the data originating from the Beijing editor.
+> 
+> I suggest first that it is unnecessary to take note only of one editor, and
+> may have adverse outcomes.
+> 
+> Next, to be slightly pendantic, the editorial function carried out in MdR/R
+> arises from the IANA Functions Contract, not the current incumbent contractor.
+> This may not appear to matter but the current IANA Function Contract award
+> was made through open, competitive bidding, and subsequent awards may be to
+> parties other than the current incumbent contractor. If this text is not to
+> have only momentary validity the reference could be to the contract, not to
+> the contractor.
+> 
+> I appreciate that the example language is in the current NPRM -- this is
+> not the only place where uniqueness and authority appears as fact, when the
+> converse are facts in evidence.
+> 
+> In the next note I'll comment on the allocation policy comment Rodney made.
+> 
+> Eric
+> _______________________________________________
+> PPML
+> You are receiving this message because you are subscribed to
+> the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+> Unsubscribe or manage your mailing list subscription at:
+> http://lists.arin.net/mailman/listinfo/arin-ppml
+> Please contact info@arin.net if you experience any issues.
+
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

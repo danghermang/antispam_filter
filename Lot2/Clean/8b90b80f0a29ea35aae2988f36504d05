@@ -1,0 +1,32 @@
+Subject:Re: afdrukken pdf in 12.04
+On 27-10-12 11:41, Milton wrote:
+> Graag uw hulp:
+> In 12.04 heb ik een HP laserjet 1010 aangesloten en de testpagina ziet
+> er prima uit. Als ik een pdf bestand die 6 pagina's telt wil afdrukken
+> wordt alleen het eerste blad afgedrukt. Bij afdrukinstellingen staat de
+> optie Alle pagina's actief. Zie ik iets over het hoofd?
+> Milton
+>
+
+Ik heb bij een gesloten pdf het volgende gedaan:
+
+afdrukken als pdf naar bestand
+dat bestand dan openen --> het paswoord was weg.
+
+Misschien zit er iets in?
+
+Marc
+
+-- =
+
+The "Penguin" has arrived - and he's not going away - ever.
+What's on Shortwave guide: choose an hour, go!
+http://shortwave dot tk
+700+ Radio Stations on SW http://swstations dot tk
+300+ languages on SW http://radiolanguages dot tk
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

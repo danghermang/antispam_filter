@@ -1,0 +1,46 @@
+Subject:Re: [Jukebox-list] Bench  testing SHP-1 Amp.
+Ok, I have not been following this thread, but if you want to inject audio =
+into the power stage w/out a volume control plugged in:
+
+The arms from the pot are the Red and Blue wires.
+
+Pin 9 is Red. Pin 7 Blue.
+
+Output from the preamp to pot:
+
+Pin 6 Blk=A0=A0 Pin 8 White
+
+Signal ground is Pin 1.
+
+it should be fine to simply jump the out from the pre into the P.A. in, I d=
+oubt the absence of the 25k/ohm load on the pre will have any meaningful ef=
+fect.
+
+You can ignore the contour taps if all you want is simple injection.These a=
+re the connections on the amp i have in front of me and they are from a 197=
+3 machine.
+
+Rob/NYC=20
+
+--- On Thu, 10/18/12, Jim McClave <juker17@yahoo.com> wrote:
+
+From: Jim McClave <juker17@yahoo.com>
+Subject: Re: [Jukebox-list] Bench  testing SHP-1 Amp.
+To: "Jukebox mailing list" <jukebox-list@lists.netlojix.com>
+Date: Thursday, October 18, 2012, 9:17 PM
+
+Ron, I have figured out how to mute and un-mute the amp using a jumper wire=
+ on the mute plug on the amp. Now , the only thing I need is some volume co=
+ntrol. I do not have the volume control here, it is a long distance from he=
+re. Couldnt I just jumper a resistor into the curcuit to get some output ou=
+t of this amp? I notice it has a dual 25K ohm volume control, half for each=
+ channel., with various taps. Thats where Im getting confused. I thought so=
+meone on the list would have worked on one of these before on the bench and=
+ had an easy test jig/ reference for how to rig this up for bench troublesh=
+ooting. Jim
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

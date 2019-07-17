@@ -1,0 +1,62 @@
+Subject:Re: [Flexradio] Power SDR on a Mac
+... the Mac mini has FireWire 800 ...
+
+Regards,
+
+Carsten, DL6LAU
+
+Am 12.11.12 22:05, schrieb Richard Lawn:
+> I'm running Power SDR on an iMac i5 processor with only 4meg RAM. But I'm
+> running WIn 7 under BootCamp. It works just fine and have been doing so f=
+or
+> some time now. Just be care to make sure you update BootCamp when you
+> update the main Mac OSX to a significant new OS like Lion to Mountain Lio=
+n,
+> or whatever. I thought the BootCamp upgrade was automatic with the Mac
+> system upgrade and learned that it is not and it can create some issues if
+> you don't upgrade both.
+>
+> Good luck and I suspect the Mini will be fine but does it support FireWir=
+e?
+> That's not an issue if you are using a Flex 1500 of course.
+>
+> 73
+> Rick
+> W2JAZ
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.=
+com/
+>
+>
+
+-- =
+
+--
+T +49 431 71975365
+F +49 431 71975367
+
+appello GmbH
+Edisonstr. 20
+24145 Kiel
+GERMANY
+
+http://www.appello-funk.de [Gesch=E4ftsbereich Funk]
+http://www.appello-hifi.de [Gesch=E4ftsbereich HiFi]
+
+info@appello.de
+
+Gesch=E4ftsf=FChrer: Carsten Esch, Sitz Kiel
+Amtsgericht Kiel HRB 14100 KI
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.co=
+m/

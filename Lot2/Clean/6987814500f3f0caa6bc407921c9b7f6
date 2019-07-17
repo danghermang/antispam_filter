@@ -1,0 +1,88 @@
+Subject:Re: [Flexradio] (no subject)
+These are not Virus generated.  These are compromised accounts.    They use brute force dictionary
+attacks direct on the SMTP connector of Yahoo, Hotmail etc to crack the password - as this method
+does not lead to a locked out account.   If you use a simple password, then it is only a matter of
+time before your account becomes one of the spam senders.   
+
+The days of virus spam bots on machines are dying out, there is no need to do that anymore as
+people are lax with their passwords and make them easy to crack.   Once they gain access to your
+account, then they will spam everyone in your address book.   This includes reflectors (easy now as
+you have an authenticated account).   And replying to one of these simply gets you on the crack
+list and spam list.   Best just to block the offending account from the reflector and you own
+email.
+
+You can simply check the X-Originating IP of these emails to find they originated from a machine in
+a foreign land - this one for example came from a machine in Germany (a university).
+
+--
+Richard A Clafton | the brITish guy | W5\G7EIX
+RIROC - Hosting -  Development - Technology
+http://www.riroc.com | rclafton@riroc.com
+"Jack of all trades, master of none, though often better than the master of one."
+
+
+-----Original Message-----
+From: FlexRadio [mailto:flexradio-bounces@flex-radio.biz] On Behalf Of Rich - W3ZJ
+Sent: Monday, October 22, 2012 8:47 AM
+To: flexradio@flex-radio.biz
+Subject: Re: [Flexradio] (no subject)
+
+I own two fairly large Yahoo reflectors, DXLab and SteppIR, and have 
+been receiving dozens of those scam messages both via the reflectors and 
+privately. Fortunately, most of the people sending the scam are 
+moderated on my reflectors so very few of them are getting through to 
+the lists but it is wide spread and attacking a lot of hams. Most of it 
+seems to be from people using Msn, Gmail and Yahoo mail.
+
+73, Rich - W3ZJ
+
+w8hw@att.net wrote:
+> Hello Dan R.
+>
+> Please check your computer. You have a virus. The link you sent is a 
+> scam. Looks like they got into your email list and sent this using 
+> your email list.
+>
+> 73, Bruce
+>
+> -----Original Message----- From: Dan R
+> Sent: Monday, October 22, 2012 9:05 AM
+> To: dwaugh@missouristate.edu ; ehr@qrv.com ; ejh14275@comcast.net ; 
+> flexradio@flex-radio.biz ; franke@flex-radio.com ; we9m@decaturwb.com 
+> ; hamfish@hughes.net ; italian@tds.net
+> Subject: [Flexradio] (no subject)
+>
+> http://elpostreweb.com/wp-content/plugins/akismet/Boriers.php
+>
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: 
+> http://www.flexradio.com/
+>
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: 
+> http://www.flexradio.com/
+>
+>
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/
+
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

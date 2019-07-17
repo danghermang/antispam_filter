@@ -1,0 +1,42 @@
+Subject:Re: [Flexradio] MOX button and TX audio in 2.4.4 ?
+I discovered that with certain VAC configuration, the MOX gets its audio 
+from VAC, not the mic. This is how I operate remotely using VAC and 
+MOX.  Might look and see if ur VAC is turned on.
+
+Steve WA7DUH
+
+On 10/28/2012 10:36 AM, Jim Barber wrote:
+> I normally use a boom mike and footswitch with my 5000A, but
+> occasionally like to click the MOX button for PTT on/off.
+>
+> Somewhere along the way, TX audio disappeared when using the MOX button.
+> It keys the radio, but no output on SSB and just carrier on AM. This 
+> is with PSDR 2.4.4 .
+>
+> Does anyone's installation work with the MOX button, or am I just 
+> deluded that it ever worked that way at all?
+>
+> For other reasons, I've swapped out that shack PC and imported a copy 
+> of the database made with the "Export" function on the other machine. 
+> Right or wrong it still behaves the same way.
+>
+> Any ideas?
+>
+> Thanks,
+> Jim N7CXI
+>
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: 
+> http://www.flexradio.com/
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

@@ -1,0 +1,72 @@
+Subject:Re: User-password y/o OTP
+
+On 06/09/12 19:32, Camaleón wrote:
+> El Thu, 06 Sep 2012 18:57:22 +0200, Troans escribió:
+>
+>> tengo un servidor que se usa, básicamente, como repositiorio de
+>> información y subversion entre varios usuarios de un grupo. Sin embargo
+>> sería útil poder facilitar usuarios temporales, externos al grupo, que
+>> pudieran acceder a un cierto directorio donde poder bajar o subir algún
+>> fichero mediante scp/sftp.
+>>
+>> La primera idea que se me ha ocurrido es crear los usuarios según se
+>> necesiten según las necesidades pertenecientes a un grupo determinado y
+>> establecer un tiempo para que expire la contraseña del mismo (10 días,
+>> por ejemplo).
+>
+> No es mala idea: fácil de implementar para ti y de usar para ellos.
+>
+>> Sin embargo, googleando un poco he visto lo de One Time Password (OTP) y
+>> no me ha parecido una idea descabellada ya que, aunque los usuarios
+>> temporales son personas conocidas y confiaría en que siempre accederían
+>> desde la empresa o su casa, no descartaría que pudieran hacerlo desde
+>> cualquier sitio.
+>>
+>> Y mis preguntas son las siguientes:
+>>
+>> 1) ¿Es ir demasiado lejos en materia de seguridad el tratar de usar OTP?
+>
+> No veo por qué... en cuestión de seguridad más vale prevenir.
+>
+> Lo único que necesitarías es un generador de contraseñas que estuviera en
+> posesión de los usuarios (hay llaves con esta función pero son soluciones cerradas)
+> y sincronizado con tu sistema pero hay implementaciones majas para móviles incluso:
+>
+> http://blog.dhampir.no/content/otp-one-time-passwords-on-debian-squeeze-ssh-logins
+>
+> http://www.worksinmymind.com/blog/?p=1083
+>
+>> 2) En caso usar OTP, ¿es posible usar simultaneamente el actual sistema
+>> de acceso basado en usuario/contraseña (algunos usuarios usan clave
+>> asimétrica) para los usuarios del grupo y OTP para los usuarios
+>> temporales?.
+>
+> Esto ya no lo sé... lo que sí podrías es hacer es configurar el servidor
+> ssh para que aceptara ambos (autentificación mediante otp y usuario/
+> contraseña). Los usuarios otp no tendrían cuenta en el sistema así que
+> sin validación otp no pasarían, mientras que los otros tendrían se les
+> preguntaría por la contraseña aleatoria y al no tenerla se pasaría a la
+> autentifiación convencional.
+>
+>> 3) ¿Alguna alternativa?
+>
+> Tu primera opción tampoco me parece mal, es más práctica y la contraseña
+> cambiante se la podías generar automáticamente desde algún servidor web
+> previa autentificación, mediante SMS o a través de correo electrónico firmado
+> y cifrado.
+
+Perfecto, optaré por la primera solución porque veo que es más sencilla.
+
+Muchísimas gracias.
+
+
+>
+> Saludos,
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/504B70D6.2010708@gmail.com
+

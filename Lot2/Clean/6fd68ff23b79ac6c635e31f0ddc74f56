@@ -1,0 +1,150 @@
+Subject:Re: [Flexradio] RFI on 10 meter
+I had some RF issues with my very compromised OCF.    I made one of these a=
+nd put it in line.  RF
+issues no more (and I still get out!)
+
+http://www.hamuniverse.com/balun.html
+
+
+--
+Richard A Clafton | the brITish guy | W5\G7EIX
+RIROC - Hosting -  Development - Technology
+http://www.riroc.com | rclafton@riroc.com
+"Jack of all trades, master of none, though often better than the master of=
+ one."
+
+
+-----Original Message-----
+From: FlexRadio [mailto:flexradio-bounces@flex-radio.biz] On Behalf Of Ulf =
+Holt
+Sent: Monday, October 29, 2012 1:09 PM
+To: Tim Ellison; flexradio@flex-radio.biz
+Subject: Re: [Flexradio] RFI on 10 meter
+
+
+Have been out from home for some days now, but I'm back, and have just rewi=
+red the Mic. Works fine
+on all bands except 15 and 10 meters. It's not so bad on 15 meters, but 10 =
+meter is really bad.  I
+know my antenna is out of tune on 10 meters, but it's not even supported on=
+ 12, 17 and 6 meters,
+and there are no problems there.
+
+Have tried ferrite bead on the mic cable, but does not seem to make any dif=
+ference.
+
+73 =
+
+
+Ulf
+-----Opprinnelig melding-----
+Fra: FlexRadio [mailto:flexradio-bounces@flex-radio.biz] P=E5 vegne av Tim =
+Ellison
+Sendt: 26. oktober 2012 03:42
+Til: flexradio@flex-radio.biz
+Emne: Re: [Flexradio] RFI on 10 meter
+
+Check the wiring on the mic cable.  If it is a Heil cable, the MIC- and gro=
+und may be bonded
+(connected) together (they should not be connected) and the ground/cable sh=
+ield may not be
+connected to the shell of the 8-pin Foster connector (which it should).
+
+
+
+Then try a ferrite bead on the mic cable.
+
+-Tim
+
+On 10/25/2012 5:51 PM, Ulf Holt wrote:
+>
+> Some more info.
+>
+> Antenna is Butternut HF6V mounted on the barn using the metal roof as a c=
+ounterpoise.
+> Mic is Heil HM-5
+> I have a ground strap from my FLEX to the PSU on my computer and also gro=
+und to a copper plate
+buried outside the barn. The grounding system in Norway is very bad.
+>
+> 73
+>
+> Ulf
+>
+> Den 25. okt. 2012 kl. 23:39 skrev "Michael Walker"
+<va3mw@portcredit.net<mailto:va3mw@portcredit.net>>:
+>
+> Ulf
+>
+> You will need to describe more of your setup.  Antennas, grounds, type of=
+ mics, etc.
+>
+> If you have a ground on the radio, try removing it and see if it clears u=
+p.
+>
+> RFI issues require a lot of trial and error testing.  It is not a fault o=
+f the radio
+unfortunately.
+>
+> Mike va3mw
+>
+>
+> On Thu, Oct 25, 2012 at 4:09 PM, Ulf Holt
+<ulf.holt@kragero-data.no<mailto:ulf.holt@kragero-data.no>> wrote:
+> I have had my FLEX-5000A for a couple of months now, and I love it. Get g=
+reat reports on audio on
+all bands, (haven't tested 6 meter yet, since I don't have an antenna for t=
+his band), but on 10
+meter they complain about really bad RF in the audio. What can be the cause=
+, and what can I do
+about it?
+>
+> 73 de LA2SL
+>
+> Ulf
+>
+>
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz<mailto:FlexRadio@flex-radio.biz>
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: =
+
+> http://www.flexradio.com/
+>
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: =
+
+> http://www.flexradio.com/
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.co=
+m/
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.co=
+m/
+
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.co=
+m/

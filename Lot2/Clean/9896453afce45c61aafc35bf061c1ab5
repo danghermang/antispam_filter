@@ -1,0 +1,39 @@
+Subject:Re: [arin-ppml] REVISED: Draft Policy ARIN-2012-8: Aligning 8.2 and
+ 8.3 Transfer Policy
+On 11/19/12, Owen DeLong <owen@delong.com> wrote:
+
+> IOW, I want to avoid extending the more lenient 8.2 provisions to a sale
+> where someone buys $100,000 worth of IP addresses and $20,000 worth of
+> hardware and then sells the hardware to $SCRAP_DEALER just to keep the
+> addresses.
+
+IP addresses don't belong to hardware;  IP addresses belong to IP
+interfaces, attached to hardware, in order to provide connectivity to
+a network node for communicating or offering a service.     A change
+of hardware does not imply that the need for the logical IP interface
+goes away.     If you send a router to a scrap dealer, that doesn't
+mean all the networks it routed necessarily go away.
+
+What about cases, where the acquiring organization finds the hardware
+_belongs_ with  $TRASH_COLLECTION or $SCRAP_DEALER    due to the
+obsolescence of said decrepit hardware,   and after acquiring,  they
+will make a non-disruptive reallocation of the hardware used to
+provide IT services?      Probably by re-consolidating on new
+hardware.
+
+That kind of restructuring does not make renumbering reasonable
+and doesn't belong under 8.3.
+
+
+> Those kinds of purchases belong under the scrutiny of 8.3.
+> Owen
+[snip]
+--
+-JH
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

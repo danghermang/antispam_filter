@@ -1,0 +1,32 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint_qui_consomme?=
+
+Le 02/11/2012 09:35, François Boisson a écrit :
+> Le Fri, 2 Nov 2012 08:33:38 +0100
+> François Boisson <user.anti-spam@maison.homelinux.net> a écrit:
+>
+>> . J'ai remplacé le sysvinit par le sysvinit de squeeze qui est
+>> la même version mais là encore c'est un échec. Chaque installation est une
+>> recompilation des sources des paquets ubuntu.
+> Je viens de m'apercevoir de l'existence d'upstart qui remplacerait sysvinit à
+> terme et qui est utilisé sous Ubuntu. J'essaye donc...
+Je ne suis pas sûr que upstart remplacera sysvinit, cela va plutôt vers systemd ces 
+temps-ci...
+
+upstart est un outils ubuntu et aucune autre distribution ne s'y est vraiment intéressée !
+
+A contrario, une partie des distribution ont déjà franchi le pas vers systemd et debian 
+devrait être du lot, mais après la sortie de wheezy !
+
+++
+
+Mourad
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5093C7B4.1090305@nativobject.net
+

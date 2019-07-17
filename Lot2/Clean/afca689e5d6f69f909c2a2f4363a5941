@@ -1,0 +1,28 @@
+Subject:Re: errror de ECEauthority!
+El Sun, 11 Nov 2012 10:05:01 -0800, Aristobulo Pinzon escribió:
+
+(ese html...)
+
+> Saludos a todos ...
+> Desinstale gdm3 pretendiendo quitar gnome, y ahora solo puedo entrar
+> como root; Cuando entro como otro usuario me  da un errror de
+> ECEauthority que NO permite usar las X; No se como dar la autorización a
+> ese usuario usando xauth. Como lo hago?
+
+Prueba creando otro usuario e intentando iniciar sesión con él. 
+
+Si funciona sin problemas, compara los permisos de los dos archivos 
+"~/.ICEauthority" de cada usuario y verifica que el del tuyo (el que no 
+te permite iniciar sesión) tiene el propietario y el modo adecuado.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7r3bt$l1q$1@ger.gmane.org
+

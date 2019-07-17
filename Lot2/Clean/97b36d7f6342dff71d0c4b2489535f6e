@@ -1,0 +1,41 @@
+Subject:=?UTF-8?Q?Re=3A_no_inicia_sesi=C3=B3n_en_modo_grafico?=
+2012/9/17 L.I Jesus Benjamin Yam <jesusbenja@yahoo.com.mx>:
+> Buen dia tengo una pc con debian squeeze de 64 bits de la noche a la ma=
+=C3=B1ana
+> ya no inicia sesion en modo grafico, es decir al encender la pc llega has=
+ta
+> el gestor de arranque gdm 3 y ahi me aparecen mis 2 cuentas, al elegir
+> alguna, poner la contrase=C3=B1a y dar iniciar sesi=C3=B3n o enter, la pc=
+ se queda en
+> negro y no solo eso deja de dar video ya que el monitor de tener el foqui=
+to
+> en verde comienza a parpadear como cuando no tiene se=C3=B1al, si inicio =
+en modo
+> a prueba de errores me hace lo mismo, cuando inicio en modo prueba de
+> errores y en vez de dar ctrl+d le pongo la contrase=C3=B1a carga en modo =
+texto,
+> trate de ver si tenia algun archivo x.org en /etc/X11 pero no hay tal, y
+> repito la pc llevaba meses funcionando bien.
+>
+> gracias.
+>
+
+Haz actualizado drivers gr=C3=A1ficos o el escritorio =C3=BAltimamente? Pue=
+des
+probar iniciar sesi=C3=B3n con otro entorno de escritorio (no gnome sino
+xfce o gnome fallback), en el gdm debe haber un combo que te permita
+cambiar de entorno a cargar.
+
+Tambi=C3=A9n mira en /var/log/Xorg.0.log si hay alg=C3=BAn error.
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjOeVUs1dUXfHeBts_b_D98T2L-Z4mARMzxYSon12_azpw@mail.gmail.com
+

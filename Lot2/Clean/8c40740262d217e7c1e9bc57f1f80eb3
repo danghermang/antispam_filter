@@ -1,0 +1,51 @@
+Subject:Re: Duda para eliminar KDE
+El Thu, 08 Nov 2012 18:51:34 -0300, Darío escribió:
+
+> Hola debianeras/os, tengo una duda con la eliminación de KDE, ya que
+> Wheezy me informa qu hay actualizaciones a realizar, cuando las miro,
+> hay cosas para KDE, y no uso este escritorio. Antes de aceptar voy a la
+> consola y tecleo:
+> 
+> apt-get remove --purge kdelibs* kde*
+> 
+> lo cual me tira todo esto:
+
+(...)
+
+> Los paquetes indicados a continuación se instalaron de forma automática
+> y ya no son necesarios.
+
+(...)
+
+> Use 'apt-get autoremove' to remove them. Los siguientes paquetes se
+> ELIMINARÁN:
+
+(...)
+
+> 0 actualizados, 0 se instalarán, 100 para eliminar y 86 no actualizados.
+> Se liberarán 217 MB después de esta operación. ¿Desea continuar [S/n]?
+> 
+> por lo que se ve no hay nada relativo a KDE, mi duda es por qué quiere
+> eliminar todo lo demás que no tiene que ver con KDE 
+
+Hombre, algunos sí están relacionados con KDE, como por ejemplo todas las 
+bibliotecas que comienzan por "libk..." o las de "nepomuk" pero es que 
+has ejecutado un comando muy amplio para eliminar KDE :-/
+
+> y por qué las actualizaciones incluyen cosas de KDE como ser kde
+>-runtime (sin estar instalado como se muestra arriba de todo) kde
+>-runtime-data kdelibs-bin, etc.
+
+No veo que se vaya a "actualizar" ningún paquete :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7j683$5pg$2@ger.gmane.org
+

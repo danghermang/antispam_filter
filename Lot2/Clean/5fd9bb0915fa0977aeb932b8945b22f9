@@ -1,0 +1,24 @@
+Subject:Re: [HS] supprimer espaces interlignes fichier texte
+On Wednesday 28 November 2012 15:51:46 Edi Stojicevic wrote:
+> * Gabriel Euzet <geuzet@sqli.com> [2012-11-28 15:41:19 +0100] wrote :
+> > grep -v "^\s*$" monFichier.txt
+
+> Sinon pour modifier le fichier directement avec un fichier de backup en
+> .bak par exemple :
+> perl -i.bak -pe 's/^\s+$//' monFichier.txt
+> Edi Stojicevic
+
+Merci =E0 tous ceux qui m'ont r=E9pondu.
+
+C'est la seconde m=E9thode juste ci-dessus qui fonctionne chez moi :
+perl -i.bak -pe 's/^\s+$//'   monFichier.txt
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211281623.10786.andre_debian@numericable.fr
+

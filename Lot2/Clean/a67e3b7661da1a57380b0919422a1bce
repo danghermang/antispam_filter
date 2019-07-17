@@ -1,0 +1,21 @@
+Subject:Re: Removal of underscore package from squeeze-backports?
+Stuart Prescott <stuart@debian.org> writes:
+>> I modified the package in backports to not compress the *.js files:
+>
+> Indeed! Excellent. Is that diff better for the RC bug #679669 better than the 
+> one that is now there? (patches that fix rc bugs coming from squeeze-backports 
+> is a new and interesting direction)
+
+Your patch for #679669 simply drops the *.min.js, however other packages
+might rely on these files to be present.  Replacing them with a symlink
+on the non-minified version like in the backports package seems safer to
+me.
+
+Ansgar
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/878vb95k6z.fsf@deep-thought.43-1.org
+

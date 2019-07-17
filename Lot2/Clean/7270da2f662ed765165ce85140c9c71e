@@ -1,0 +1,54 @@
+Subject:[EVDL] Elcon PFC 1500 Died
+Troubles again ... my upgraded Leopard's charger, an Elcon PFC 1500, decided
+to quit on me.  The LED doesn't blink, the relay closes (from my Lithiumate
+Lite BMS), but I get no current.  It died, as far as I can tell, when
+charging off of a standard 120vac just 10% from reaching a full charge on my
+120vdc pack.  
+
+I'm depressed to think that I have to pack it up and ship it back to
+California after getting only about 5 full cycles out of it after they
+reprogrammed it for the 38xCALB 130ah lithium pack.  (They reprogrammed it
+to curve 520, to 137 volts).  
+
+1.- What's the typical reason for such a failure?  (I'm not ruling out my
+doing something stupid / or at least not good for it - though it seems like
+I would not have gotten the 5 cycles out of it if I had).  
+
+2.- Does anybody have experience with this kind problem with their Elcon? 
+If yes, are there some things I can do to diagnose (or better yet fix), the
+problem?
+
+3.- If it is the AC fuse (as support at Elcon has suggested), is this
+something I could try on my own instead of being down for a couple weeks and
+paying for shipping?  (I realize this is more a question for Elcon and would
+perhaps void any warranty [see q#4 below], but wondered if anyone had tried
+it).  
+
+4.- Should they cover this under a warranty?
+
+
+Thanks - Dan
+
+
+
+  
+
+
+
+-----
+Dan Gallagher
+http://www.evalbum.com/3854
+
+--
+View this message in context: http://electric-vehicle-discussion-list.413529.n4.nabble.com/Elcon-PFC-1500-Died-tp4659099.html
+Sent from the Electric Vehicle Discussion List mailing list archive at Nabble.com.
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

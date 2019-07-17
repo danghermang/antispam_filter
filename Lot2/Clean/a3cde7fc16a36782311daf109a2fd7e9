@@ -1,0 +1,30 @@
+Subject:Re: Cups - HP1606dn - Marche en USB mais pas en Ethernet
+On Wednesday 05 December 2012 14:35:17 moi-meme wrote:
+> Le Wed, 05 Dec 2012 14:10:01 +0100, Bzzz a =C3=A9crit=C2=A0:
+> > Non, ipp c'est sur le port 631, 9100 c'est jetdirect
+> > http://en.wikipedia.org/wiki/JetDirect
+> Mais =C3=A7a marche ...
+____________________________=20
+
+Avec une imprimante p. ex. Brother (port Ethernet)
+y a t-il des difficult=C3=A9s pour la faire fonctionner via
+le port Ethernet sous Linux (Debian-Squeeze) ?
+
+Je poss=C3=A8de un modem-routeur ADSL Netgear,
+(Numericable), IP fournis en mode DHCP.
+
+Je me renseigne avant de l'acheter incessament ...
+
+Merci.
+
+andr=C3=A9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201212051521.27408.andre_debian@numericable.fr
+

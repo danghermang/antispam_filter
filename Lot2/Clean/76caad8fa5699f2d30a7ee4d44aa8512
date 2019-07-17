@@ -1,0 +1,22 @@
+Subject:Re: =?UTF-8?B?RMOpcGFubmFnZSBzdXIgUEMgZGlzdGFudA==?=
+le 29/10/2012 15:48, Mourad Jaber a écrit:
+> Teamviewer est certe pas libre, mais il ne nécessite *aucune*
+> configuration réseau et il marche sur tous les OS (M$ windows, MacOs,
+> GNU/Linux, Android et iOS).
+
+Bonjour,
+Marche sur tous les OS ? Pas en ce moment sur SID amd64 vu les problèmes 
+de dépendance de leur vieux paquet... ;-) (ia32-libs)
+Dommage
+
+Samy
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/508E9B36.4000102@wanadoo.fr
+

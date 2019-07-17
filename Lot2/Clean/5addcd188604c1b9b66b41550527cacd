@@ -1,0 +1,58 @@
+Subject:Re: [address-policy-wg] 2012-02 New Draft Document Published
+	(Policy forInter-RIR Transfers of IPv4 Address Space) (Tore
+	Anderson)
+Dear Tore,
+
+>> This policy proposal requires the RIPE NCC LIRs to be in compliance
+>> with the RIPE NCC's policies. The RIPE NCC will conduct an audit to
+>> ensure that this is the case prior to completing a transfer.
+>=20
+> I think that this is an excessively strict interpretation of the =
+policy,
+> one which I suspect isn't the intention of the proposer. In my =
+opinion,
+> an LIR should be assumed to be in compliance with the RIPE NCC's [sic]
+> policies; the mere act of participating in an inter-RIR transfer =
+should
+> not cause an automatic LIR Audit.
+>=20
+> Mandatory LIR Audits would only serve to increase the amount of hassle
+> and bureaucracy involved in completing such transfers, and might well
+> discourage LIRs from participating in them at all.
+>=20
+> Given that this is the NCC's interpretation of 2012-02, I don't =
+support
+> the proposal as it is currently worded, and hope it could be modified =
+so
+> that it will not cause mandatory or automatic LIR Audits.
+
+The "audit" that is referred to here is the small audit that we have =
+always
+done when evaluating an additional allocation request. It is not the
+full LIR audit that we conduct as part of our Audit Activity, nor is it
+something new.
+
+It mostly concerns cleaning up exsting records such as:
+
+- LIR contact details that are out of date
+- PA approvals that are no longer in use
+- Direct assignment customers for whom the LIR is no longer the =
+sponsoring LIR
+- Invalid assignments in the RIPE DB
+
+Experience shows that in the vast majority of such evaluations, there =
+are
+at least a few records and registrations that are out of date and have =
+to be
+corrected and that this is rarely a lot of work.
+
+The RIPE NCC has always considered this to be part of the basic =
+due-dilligence
+required to keep records correct and up to date.
+
+Best regards,
+
+Alex Le Heux
+Policy Implementation and Co-ordination
+RIPE NCC
+

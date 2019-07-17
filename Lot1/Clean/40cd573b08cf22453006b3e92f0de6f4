@@ -1,0 +1,51 @@
+Subject:Re: Rebote con ajustes del servidor de pruebas
+El Thu, 13 Sep 2012 23:42:36 -0430, Miguel Matos escribió:
+
+(...)
+
+> ln -s /var/www/phpmyadmin /home/usuario/www/phpmyadmin
+> 
+> Una vez creado el enlace debemos ver ya el directorio de la aplicación
+> en la raíz de nuestro servidor. Abrimos un navegador e introducimos la
+> direcciónhttp://ipdelservidor/www/phpmyadmin/ ( En mi
+> casohttp://192.168.1.71/www/phpmyadmin/ )como podéis ver en la imagen …]
+> 
+> Pero comprobando la dirección que coincide con la máquina virtual
+> (192.168.xxx.xxx), el directorio www sólo tiene un archivo, creado en el
+> paso anterior al del problema. Al ingresar al /var/www, ¡¿QUE RAYOS?,
+> ¿UN SOLO ARCHIVO?! ¿QUE PASA ACA? 
+
+Supongo que tendrás un sólo archivo que es el enlace simbólico que apunta 
+a la ubicación real donde tienes instalado phpmyadim.
+
+> ¿Entonces el paso del enlace está inválido? 
+
+No veo por qué... ¿qué esperabas ver? :-?
+
+> Vamos a pedir ayuda:
+> 
+> root@miguel-LT:/home/miguel# man phpmyadmin 
+> No manual entry for phpmyadmin
+
+Correcto, no existe página de manual para esa aplicación. La 
+documentación la tienes en "/usr/share/doc/phpmyadmin", como siempre.
+
+> ¿quéeeeee? ¿y ahora? ¿qué puedo hacer? 
+
+(...)
+
+Pues seguir los pasos que te dicen en la página y si te atoras en algún 
+paso concreto, mejor nos dices en cuál exactamente y qué mensaje de error 
+recibes :-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2vge6$4lj$3@ger.gmane.org
+

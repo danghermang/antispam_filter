@@ -1,0 +1,21 @@
+Subject:Chgt machine :: clonage de ~/Maildir
+Bonjour
+
+J'ai un vénérable (pentium 3 sous Etch) , serveur, principalement mail 
+(postfix, imap, ...) dont le disque dur crie "retraite".
+Un vieux portable ecran HS va le remplacer.
+Est-ce que scp -pr source destination des répertoires 
+/home/<user>/Maildir/ sera correct pour respecter propriétaires, 
+groupes, droits, etc ?
+
+Merci d'avance
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/508EC76F.8040600@free.fr
+

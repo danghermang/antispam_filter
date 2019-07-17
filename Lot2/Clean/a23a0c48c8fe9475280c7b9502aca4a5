@@ -1,0 +1,130 @@
+Subject:Re: foutje met update
+Op 14-11-12 18:59, ro-esp schreef:
+>  jeroen.hendrickx@telenet.be  sendis:
+>
+>> Ronaldo,
+>>
+>> het is eigenlijk niet helemaal duidelijk wat je aan het doen bent.
+>>
+>> Ik veronderstel dat je van Ubuntu 12.04 naar 12.10 wil upgraden?
+>
+> euh, neu
+>
+>> Je vertelt er niet bij hoe je dat doet. Heb je de volledige distributie
+>> (een .iso-bestand) proberen downloaden, dus van de website van Ubuntu?
+>
+> nee
+>
+>> Of heb je "OK" geklikt toen je update manager je zei "er is een nieuwe
+>> versie beschikbaar"?
+>
+> precies, zo doe ik dat al dik twee jaar. En terwijl ie bezig was kwam =
+
+> dus de "geen ruimte"-melding langs
+>
+>>> net de laatste update (versie 45?) proberen te downloaden, maar het =
+
+>>>  ging niet helemaal goed ("geen ruimte op het apparaat"?). =
+
+>>> Opstarten  met de nieuwste versie van ubuntu lukt nu niet, de 1 =
+
+>>> versie oudere  variant doet het gelukkig nog wel.
+>>>
+>>> Moet ik iets opnieuw installeren (zoja, hoe?)? Moet ik eerst oudere =
+
+>>>  versies verwijderen (hoe?) ?
+>
+> Iemand anders had het over cache leegmaken en ruimte vrijmaken op de =
+
+> HD, maar ik heb geen idee hoe
+>
+>                                 groetjes, Ronaldo
+>
+
+Aha, ik had geen idee waar je het over had, maar misschien nu wel: Bij =
+
+een upgrade, zoals dat heet, worden vele honderden, misschien wel =
+
+duizenden (hangt af van wat je hebt ge=EFnstalleerd) MB's aan gegevens =
+
+gedownload en daarna ge=EFnstalleerd. Een gegantische update dus. Daar =
+
+moet voldoende ruimte voor aanwezig zijn op de schijf: a) om al die data =
+
+in op te slaan, en b) om voldoende bewegingsvrijheid op de schijf te =
+
+hebben om al die update operaties uit te voeren (dat een zwembad groot =
+
+genoeg is om daar een walvis in "op te slaan" betekent nog niet dat die =
+
+walvis daar in kan rondzwemmen).
+
+Dus ga eerst na of er nog voldoende ruimte is op de schijf.
+
+In de loop van de tijd heb je je Ubuntu steeds bijgehouden (updates =
+
+uitgevoerd), mag ik hopen, omdat je anders een vreselijk onveilig =
+
+systeem hebt. Dat betekent elke keer weer: updates downloaden, en =
+
+installeren. De updatebestanden blijven op de schijf staan, afhankelijk =
+
+van de instellingen hiervoor, en dat kan best betekenen dat er vele GB's =
+
+aan updatebestanden op de schijf staan, die niet meer nodig zijn.
+
+Je kunt ze op diverse manieren verwijderen, ik doe dit het liefst (en =
+
+gemakkelijkst :) ) met de terminal (het zwarte scherm met de =
+
+commandoregel). Open de terminal, en doe eerst:
+
+df -h
+
+(betekent disk free human readable) --> je krijgt dan informatie over de =
+
+vrije ruimte op je schijf. Kijk hoeveel % ruimte er gebruikt is. =
+
+Mogelijk heel veel, bijna of helemaal 100%)
+
+Doe daarna
+
+sudo apt-get clean
+
+en geef je wachtwoord, waarom wordt gevraagd.
+
+Met
+
+man apt-get
+
+kan je bij clean zien wat er gebeurt:
+
+=3D=3D=3D
+clean
+            clean clears out the local repository of retrieved package =
+
+files.
+            It removes everything but the lock file from
+            /var/cache/apt/archives/ and /var/cache/apt/archives/partial/.
+=3D=3D=3D
+
+Als je  nu weer df -h doet, kan je zien hoeveel ruimte er nu is =
+
+vrijgekomen. Ik denk heel veel, en als dat zo is ben je geholpen. =
+
+Voordat je nu weer een upgrade probeert, even het systeem updaten, zoals =
+
+je dat altijd doet. Dan kan het upgrade proces uitgaan van een voor dat =
+
+proces bekende situatie. Het is een zeer ingewikkeld proces.
+
+Groeten,
+
+Jaap
+
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

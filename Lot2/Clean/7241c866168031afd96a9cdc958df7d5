@@ -1,0 +1,27 @@
+Subject:Bug in iceape(2.7.7-1~bpo60+1) postinst script
+Hello.
+
+I found a bug in
+iceape_2.7.7-1~bpo60+1_i386.deb
+
+in the postinst script:
+
+...
+case "$1" in
+    configure)
+        rm -f /usr/lib/iceape/.autoreg \    <---- !! backspash
+        rm -f /usr/lib/iceape/components/compreg.dat \
+              /usr/lib/iceape/components/xpti.dat
+        rm -rf /usr/lib/iceape/updates
+    ;;
+esac
+...
+
+Thanks
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/507FF8F4.10706@xi.kaiyodai.ac.jp
+

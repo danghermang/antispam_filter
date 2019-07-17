@@ -1,0 +1,29 @@
+Subject:Re: =?UTF-8?B?RMOpcGFubmFnZQ==?= sur PC distant
+On Mon, 29 Oct 2012 21:23:31 +0100
+"JF Straeten" <jfstraeten@scarlet.be> wrote:
+
+> Cette doc ne fait qu'un tunnel en mode shell.
+>=20
+> Le second ici servira =C3=A0 faire passer VNC : il lance x11vnc sur la
+> machine distante =C3=A0 travers le tunnel shell et r=C3=A9cup=C3=A8re l'a=
+ffichage
+> chez lui, avec son client VNC, au bout du second tunnel.
+>=20
+> Du moins, si j'ai bien compris :-)
+
+Mwai, ben justement un chtit n=C3=A9claircissement clair ne serait pas de t=
+rop :)
+
+--=20
+<cornibus> la maison est la plus belle invention de l'homme s=C3=A9dentaire
+<cornibus> viennent ensuite la chaise et le clavier
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121029213634.64a612bd@anubis.defcon1
+

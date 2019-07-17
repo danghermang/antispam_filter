@@ -1,0 +1,20 @@
+Subject:Re: Socket unix
+La commande n'est pas assez precise, maintenant je sais que c'est du 
+java (je le savais déjà) j'aurais voulu savoir les classes qui 
+communiquent...
+
+Le 07/09/2012 15:26, Stephane Vigan a écrit :
+> Plus précis : netstat -axp
+> Comme cela tu ne vois que les socket
+>
+>    
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5049F7B2.3030707@gmail.com
+

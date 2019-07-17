@@ -1,0 +1,31 @@
+Subject:Re: renommer les extensions
+Le 13/10/2012 11:36, Thierry Despeyroux a écrit :
+> Le Sat, 13 Oct 2012 11:31:12 +0200,
+> Bernard Schoenacker<bernard.schoenacker@free.fr>  a écrit :
+>
+>> bonjour,
+>>
+>> 	j'ai à renommer 85 fichiers txt.html en html
+>>
+>> 	qui a une soluiton élégante ?
+ >
+> utiliser la commande rename qui utilise du sed
+>
+
+Pour ce genre de manip, depuis que j'ai découvert vidir (paquet moreutils), 
+je ne peux plus m'en passer. Toute la puissance de vi au service de 
+l'édition des noms de fichiers.
+
+HTH
+
+pp
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50796972.2040507@toulouse.archi.fr
+

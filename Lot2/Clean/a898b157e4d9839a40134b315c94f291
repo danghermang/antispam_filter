@@ -1,0 +1,38 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_Ordenar_archivos_por_el_n=FAmero_de_caracteres_de?=
+	=?ISO-8859-1?Q?_su_nombre?=
+El d=EDa 6 de diciembre de 2012 11:17, fernando sainz
+<fernandojose.sainz@gmail.com> escribi=F3:
+> El d=EDa 6 de diciembre de 2012 18:07, Marcos Delgado
+> <juanmarc@gmail.com> escribi=F3:
+>> Pues bien, necesito realizar esa labor, hasta el momento lo que m=E1s he
+>> podido hacer revisando opciones en internet es la siguiente orden:
+>>
+>> for i in *; do echo $i ;  echo -e $i | tr -d '\n' | wc -c ; done
+>>
+>> pero no me sirve ya que aparecen en l=EDneas separadas el n=FAmero de
+>> caracteres y el nombre del archivo.
+>>
+>> Se agradece cualquier ayuda.
+>>
+>> Gracias.
+>> Marcos Delgado.
+>>
+>>
+>
+> $ man echo
+>
+> echo -n
+>
+> S2.
+
+Gracias, me funciona para listar en una sola l=EDnea, pero tengo el
+error de que el n=FAmero aparece al final y de esa manera no lo puedo
+ordenar. Cambiando de lugar los "echo" no se soluciona. Seguir=E9
+buscando, muchas gracias.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAB_R4cVT77FCLPYrhiaLK1pViCcZCbS2Bos+DrWi_wTjYvUjqA@mail.gmail.com
+

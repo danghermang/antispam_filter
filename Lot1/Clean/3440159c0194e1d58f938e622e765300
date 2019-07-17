@@ -1,0 +1,50 @@
+Subject:=?utf-8?Q?Gestion_des_d=C3=A9pendances?=
+Bonjour
+
+la gestion des d=C3=A9pendances reste myst=C3=A9rieuse. Exemple.
+
+Je veux installer cmake: le paquet libnettle4 doit =C3=AAtre install=C3=A9:
+
+root@debian:/home/thierry# apt-get -s install cmake
+Lecture des listes de paquets... Fait
+Construction de l'arbre des d=C3=A9pendances=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=20
+Lecture des informations d'=C3=A9tat... Fait
+Les paquets suppl=C3=A9mentaires suivants seront install=C3=A9s=C2=A0:=20
+=C2=A0 libarchive12 libnettle4
+Les NOUVEAUX paquets suivants seront install=C3=A9s=C2=A0:
+=C2=A0 cmake libarchive12 libnettle4
+
+Pourtant, quand je regarde les d=C3=A9pendances de cmake, libnettle4 n'y fi=
+gure pas:
+
+root@debian:/home/thierry# apt-cache depends cmake
+cmake
+=C2=A0 D=C3=A9pend: libarchive12
+=C2=A0 D=C3=A9pend: libc6
+=C2=A0 D=C3=A9pend: libcurl3-gnutls
+=C2=A0 D=C3=A9pend: libexpat1
+=C2=A0 D=C3=A9pend: libgcc1
+=C2=A0 D=C3=A9pend: libstdc++6
+=C2=A0 D=C3=A9pend: libxmlrpc-core-c3
+=C2=A0 D=C3=A9pend: zlib1g
+=C2=A0 D=C3=A9pend: cmake-data
+=C2=A0 D=C3=A9pend: procps
+=C2=A0 Sugg=C3=A8re: gcc
+=C2=A0 Sugg=C3=A8re: make
+
+Alors pourquoi apt force l'installation de ce paquet?
+
+Merci de votre =C3=A9clairage
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/4587850.142722.1353139101131.JavaMail.www@wsfrf1134
+

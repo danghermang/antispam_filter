@@ -1,0 +1,40 @@
+Subject:Re: [MG] (proposal) Metagov as a technical plug-in framework
+Ronald Grindle said:
+> I think you got me wrong on my Statement "The same applies to the
+> question about the numbers of supporters...".
+> 
+> It's also concerning the documents, not the tools used.
+
+That was my understanding, too.  But the fragmentation of documents
+and their popular support is caused by the fragmentation of tools.
+Right?  It's here in your example:
+
+> An example for scattering and fragmentation: Let's assume we have 3
+> different tools plugged into Metagov and let's assume there a
+> discussion going on how to establish "Peace on Earth". Unless the
+> contents (documents) on this topic in these 3 tools [are]
+> synchronized to a common view at some central point it's up to the
+> user to find out what documents are available and what the current
+> state on the topic is (I call this phenomenon "Searching instead of
+> Finding").
+
+So the documents (and popular support) cannot be defragmented without
+defragmenting the tools.  There are two approaches to that that differ
+in the up-front principles they enshrine:
+
+  A. Simplification and standardization (then restricted choice)
+     http://metagovernment.org/pipermail/start_metagovernment.org/2012-October/005111.html
+
+  B. Equality and freedom of choice (then ad hoc inter-communication)
+     http://metagovernment.org/pipermail/start_metagovernment.org/2012-October/005114.html
+
+We propose a mechanism for B.  We rig Metagov as a plug-in framework
+with a neutral tool switch.
+
+Mike
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

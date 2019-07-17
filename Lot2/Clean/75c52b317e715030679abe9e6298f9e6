@@ -1,0 +1,46 @@
+Subject:Re: Bonnes pratiques =?iso-8859-1?Q?d'admi?=
+	=?iso-8859-1?Q?nistration_de_Debian_c=F4t=E9_s=E9curit=E9?=
+On Fri, Sep 28, 2012 at 11:48:25AM CEST, David BERCOT <debian@bercot.org> said:
+> Le Fri, 28 Sep 2012 11:28:55 +0200,
+> daniel huhardeaux <no-spam@tootai.net> a écrit :
+> >Le 28/09/2012 11:21, David BERCOT a écrit :
+> >> Bonjour,
+> >Bonjour
+> >
+> >> Comme je ne suis certainement pas le premier à me pencher sur ce
+> >> sujet, je me permets de faire appel à vos lumières (et surtout à
+> >> votre expérience ;-))...
+> >>
+> >> Donc, au sein de vos entreprises, vous avez sûrement des serveurs
+> >> Debian géographiquement éloignés. Comment vous y connectez-vous ?
+> >> Directement en root ?
+> >
+> >Jamais
+> >
+> >>   Via un compte "de service" (générique et
+> >> utilisé par plusieurs personnes) ?
+> >
+> >Jamais
+> >
+> >>   Avec un identifiant personnalisé ?
+> >
+> >Oui
+> 
+> Bon, sur ces principes, ça me paraît logique. Maintenant, concrètement,
+> ça me paraît plus délicat. En effet, si un nouvel administrateur
+> arrive, comment ajouter facilement son compte et sa clé sur les 50
+> (chiffres au hasard mais, potentiellement, ça pourrait même être plus)
+> serveurs locaux & distants qu'il doit gérer ?
+
+Ça me semble un boulot pour puppet/chef/cfengine ou tout autre système
+de gestion d'ensemble de machines.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120928104824.GN5283@rail.eu.org
+

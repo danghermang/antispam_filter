@@ -1,0 +1,25 @@
+Subject:Bleutooth probleem
+Hoi,
+Ik heb een probleem met bluetooth op Asus eee-pc (seashell; is van =
+
+Newbe) (12.04)
+Kan wel aankoppelen maar geluid (input en output) werkt niet goed.
+Heb een usbdongle (hci1) die op pc zonder interne hci0, wel werkt, maar =
+
+eee-pc gebruikt hci0.
+Na hciconfig hci0 down krijg ik in GUI (via applet op balk) foutmelding; =
+
+zoiets als hci0 (niet) in rfkill. De GUI schakelt dus kennelijk niet =
+
+over naar hci1.
+Hoe kan ik GUI wel standaard naar hci1 laten zoeken?
+Of:
+Hoe schakel ik hci0 permanent goed uit? Niet laden? Hoe moet dat?
+Alvast bedankt,
+Hein
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

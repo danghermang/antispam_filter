@@ -1,0 +1,150 @@
+Subject:Re: Installation sur partition GPT
+Le mercredi 3 octobre 2012 =C3=A0 20:16:42, Eddy F. a =C3=A9crit :
+> Bonjour,
+
+=E2=80=99soir,
+
+> Confront=C3=A9 pour la premi=C3=A8re fois =C3=A0 UEFI et une inf=C3=A2me
+> partition GPT, je ne sais pas comment installer et aurais
+> bien besoin de conseils.
+
+  Poh poh poh, GPT est tr=C3=A8s bien, c=E2=80=99est UEFI qui est tout=20
+pourri.
+
+> Je souhaite installer Debian Wheezy sur un Asus n56v (le
+> choix du portable n'=C3=A9tant pas de mon ressort).
+>=20
+> Contrainte : ne pas bousiller le Windows 7 install=C3=A9 dessus
+>[=E2=80=A6]
+
+  D=E2=80=99abord, la meilleure adresse que j=E2=80=99ai trouv=C3=A9e :
+http://www.rodsbooks.com/efi-bootloaders/index.html
+
+  Ensuite, l=E2=80=99installateur Debian ne g=C3=A8re pas encore l=E2=80=99=
+UEFI (pas=20
+au mois de juillet en tout cas, il y a des travaux dessus mais=20
+je n=E2=80=99ai pas vu d=E2=80=99annonce sp=C3=A9cifique =C3=A0 ce propos).
+
+  Donc, pour installer une Debian, il faut commencer par=20
+installer autre chose (perso : une Fedora, mais certains=20
+auraient r=C3=A9ussi avec des *buntu) et utiliser debootstrap (qui,=20
+=C3=A7a tombe bien, est disponible en paquet pour =C3=A0 peu pr=C3=A8s tout=
+es=20
+les distributions).
+
+  Perso, je n=E2=80=99ai pas d=E2=80=99exp=C3=A9rience avec UEFI pour du bo=
+ot Windows=20
++ Linux, seulement pur Linux. Le cas qui aurait pu se pr=C3=A9senter=20
+a =C3=A9t=C3=A9 r=C3=A9gl=C3=A9 simplement par un passage en BIOS (disable =
+UEFI pour=20
+toi ; ce qui n=E2=80=99est pas toujours possible sur les toute nouvelles=20
+machines) et, comme il y a eu r=C3=A9installation de Windows (pour=20
+cause de passage sur un SSD _et_ parce que le Windows tout neuf=20
+sur la b=C3=AAte de course utilis=C3=A9e ramait d=C3=A9j=C3=A0 comme un mal=
+ade =C3=A0=20
+cause des pourriciels install=C3=A9s d=E2=80=99office et pas vraiment=20
+d=C3=A9sinstallables=E2=80=A6), je n=E2=80=99ai pas eu besoin de faire d=C3=
+=A9marrer
+Windows install=C3=A9 en UEFI pr=C3=A9sent. (Je ne sais donc pas si un=20
+Windows install=C3=A9 en UEFI fonctionnera si le syst=C3=A8me passe en=20
+BIOS. On ne sait jamais avec cette m=E2=80=A6)
+
+  Note que je ne suis pas s=C3=BBr non plus que LILO, GRUB et Cie=20
+sachent d=C3=A9marrer un Windows en UEFI. =C3=87a ne devrait pas emp=C3=AAc=
+her=20
+de d=C3=A9marrer le Windows depuis le menu UEFI mais j=E2=80=99ai lu (je ne=
+=20
+sais plus si c=E2=80=99est dans le lien donn=C3=A9 plus haut) qu=E2=80=99il=
+ =C3=A9tait=20
+plut=C3=B4t conseill=C3=A9 de rester en BIOS pour du multiboot=E2=80=A6
+
+
+  Sinon, voil=C3=A0 en gros comment se pr=C3=A9sente l=E2=80=99UEFI :
+=E2=80=94 il y a une partition sp=C3=A9ciale, FAT ou VFAT, d=E2=80=99enviro=
+n 100 ou
+  200 Mio, en g=C3=A9n=C3=A9ral la premi=C3=A8re, mais pas toujours=E2=80=
+=A6, qui=20
+  contient les chargeurs de d=C3=A9marrage (boot loaders) ;
+=E2=80=94 chaque syst=C3=A8me peut y avoir un chargeur ;
+=E2=80=94 _et_ chaque chargeur continue de pouvoir d=C3=A9marrer plusieurs
+  syst=C3=A8mes (youpi !).
+
+  Le micrologiciel en CMOS (je vais dire =C3=A7a puisque l=E2=80=99UEFI=20
+remplace le BIOS, ou plut=C3=B4t que chacun est un =C2=AB mode =C2=BB) voit=
+ les=20
+diff=C3=A9rents chargeurs et _peut_ te les proposer (menu de=20
+d=C3=A9marrage).
+
+
+  Sur ma machine UEFI, j=E2=80=99ai deux chargeurs : un GRUB-1-modifi=C3=A9=
+=20
+de Fedora (que j=E2=80=99ai conserv=C3=A9e, pour le moment) et un eLILO=20
+install=C3=A9 depuis ma Debian. Le eLILO est le premier, s=E2=80=99il plant=
+e,=20
+le GRUB-1-modifi=C3=A9 de Fedora prend la main automatiquement (d=E2=80=99o=
+=C3=B9=20
+sa conservation ;o).
+  Oh, une grosse astuce au passage, pour les clefs USB (sur ma=20
+machine UEFI, je n=E2=80=99ai pas de lecteur optique et, de toutes=20
+fa=C3=A7ons, je serais pass=C3=A9 par une clef USB) : ne pas utiliser=20
+unetbootin pour cr=C3=A9er la clef mais copier directement l=E2=80=99image=
+=20
+ISO (p.ex. avec dd).  Sinon, la clef d=C3=A9marre gr=C3=A2ce =C3=A0 syslinu=
+x,=20
+donc en mode BIOS, donc le linux de l=E2=80=99installateur est en BIOS,=20
+donc pas en UEFI et ne peut donc pas s=E2=80=99installer (=3D installer un=
+=20
+chargeur) parce qu=E2=80=99il n=E2=80=99a pas acc=C3=A8s aux informations E=
+=46I.
+
+  Euh, note aussi qu=E2=80=99avec eLILO, les initrd et les noyaux=20
+doivent tenir dans la partition UEFI. 100 Mio, =C3=A7a peut vite =C3=AAtre=
+=20
+court=E2=80=A6
+
+  Sur un syst=C3=A8me avec un Windows pr=C3=A9install=C3=A9, tu te retrouve=
+s=20
+avec :
+=E2=80=94 la partition UEFI ;
+=E2=80=94 une partition de boot pour Windows ;
+=E2=80=94 une partition syst=C3=A8me pour Windows ;
+=E2=80=94 possiblement, une partition donn=C3=A9es pour Windows ;
+=E2=80=94 une partition de r=C3=A9cup=C3=A9ration parce qu=E2=80=99ils sont=
+ pas foutus de
+  livrer un DVD=E2=80=A6
+
+  Donc, ouais, faut retrouver qui est qui.
+
+  Pour toi :
+
+> SCSI 1 (0,0,0) (sda) - 500.1 GB ATA ST9500423AS
+> n=C2=B0 1    134.2 MB
+>           1.0 MB                Espace libre
+> n=C2=B0 2     26.8 GB                ntfs
+> n=C2=B0 3    209.7 MB        B       fat 32
+> n=C2=B0 4    200.0 GB                ntfs
+> n=C2=B0 5    272.9 GB                ntfs
+>         7.7 kB                Espace libre
+
+  Je dirais que :
+=E2=80=94 la n=C2=B03 est l=E2=80=99UEFI ;
+=E2=80=94 la n=C2=B04, le Windows ;
+=E2=80=94 la n=C2=B05, la Windows Donn=C3=A9es ;
+=E2=80=94 la n=C2=B02, la r=C3=A9cup=C3=A9ration ;
+=E2=80=94 la n=C2=B01, un gros trou ?
+
+  Je te conseille vraiment de lire le lien plus haut=E2=80=A6
+
+Bon courage,
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210032319.02605.Sylvain.L.Sauvage@free.fr
+

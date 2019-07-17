@@ -1,0 +1,107 @@
+Subject:The Reg HPC: Fujitsu to embiggen iron bigtime with Sparc64-X [
+  Thu Sep 6 2012]
+Dear braun as,
+
+Join the conversation at The Reg HPC Community Forum
+
+  http://forums.theregister.co.uk/section/forums/hardware/hpc/
+
+Your HPC newsletter from theregister.co.uk
+for the week ending 6th September 2012
+
+
+*** HPC News ***
+
+US energy lab's pump-happy petaflopper goes green
+Shiny new Xeon=E2=80=93Xeon Phi hybrid splashes into water-cooled data cent=
+er
+http://www.theregister.co.uk/2012/09/05/nerl_hp_intel_hybrid_water_cooled_s=
+upercomputer/
+
+The US Department of Energy's National Renewable Energy Laboratory has
+hooked up with HP, Intel, and partners to design a new hybrid
+supercomputer and an energy-efficient data center wrapper for it that
+will =E2=80=93 among other green gains =E2=80=93 use the exhaust heat from =
+the
+supercomputer to heat adjacent offices.
+
+----
+
+Intel teaches Xeon Phi x86 coprocessor snappy new tricks
+The interconnect rings a bell
+http://www.theregister.co.uk/2012/09/05/intel_xeon_phi_coprocessor/
+
+It took fifteen years for Intel to shrink the computing power of the
+teraflops-busting ASCI Red massively parallel Pentium II supercomputer
+down to something that fits inside of a PCI-Express coprocessor card =E2=80=
+=93
+and the Xeon Phi coprocessor is only the first step in a long journey
+with coprocessor sidekicks riding posse with CPUs in pursuit of
+exascale computing.
+
+----
+
+Supercomputing takes a slight pause in Q2
+Big systems drive HPC sales
+http://www.theregister.co.uk/2012/09/04/idc_q2_2012_hpc_server_stats/
+
+With all of the relatively cheap computing power available today, and
+with the expanding focus from traditional supercomputers to clusters
+that can run simulations or big data workloads, you'd think that the
+HPC market would be growing like gangbusters. Not so.
+
+That's the latest news from the box counters at IDC. But there's good
+news, as well: in terms of sales, the HPC space helped prop up the rest
+of the server racket in the second quarter of this year, and looks to
+do even better in the second half.
+
+----
+
+Fujitsu to embiggen iron bigtime with Sparc64-X
+So is this the Sparc M4 on Oracle's roadmaps?
+http://www.theregister.co.uk/2012/09/04/fujitsu_sparc64_x_processor/
+
+While Fujitsu has made some very respectable Sparc64 chips aimed at the
+supercomputing market, it has been a long time since the Japanese chip
+and server maker has put out a new Sparc64 processor that went into
+general purpose servers.
+
+That changes in a big way with the forthcoming Sparc64-X processor,
+which will be used in both plain vanilla midrange and high-end servers
+as well as in the PrimeHPC supercomputer clusters.
+
+----
+
+Mellanox rips covers off virt-SAN beast, claims Fibre Channel vanquish
+Preparing a whuppening for VNX ass, one might think
+http://www.theregister.co.uk/2012/08/31/mellanox_vsa/
+
+InfiniBand vendor Mellanox has demonstrated a Fibre Channel-beating
+virtual SAN appliance at VMworld, claiming it's six times faster than
+FC SANs.
+
+Virtual SAN appliances (VSAs) are becoming more serious. They started
+out as SAN try-outs using server SW and the server's local disks to
+produce a shared block-access storage area network (SAN) system without
+the actual Fibre Channel or iSCSI Ethernet-connected storage arrays.
+The server SW was basically the SAN array controller software.
+
+----
+
+
+
+------------------------------------------------------------------------
+
+This email was sent to legit4as@gmail.com
+
+To change your email or your email subscriptions
+
+    http://account.theregister.co.uk/login/
+
+To unsubscribe from all The Register newsletters
+
+    http://account.theregister.co.uk/unsubscribe/352570/0e7cc08c
+
+The Register and its contents are Copyright =C2=A9 2012 Situation Publishin=
+g.
+All rights reserved.

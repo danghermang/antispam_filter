@@ -1,0 +1,515 @@
+Subject:[svnbook] r4308 committed - Corrected semantics by telling German
+ "authentisieren" from "authentif...
+Revision: 4308
+Author:   jmfelderhoff@gmx.eu
+Date:     Sun Sep 16 22:25:04 2012
+Log:      Corrected semantics by telling German "authentisieren"  =
+
+from "authentifizieren".
+
+http://code.google.com/p/svnbook/source/detail?r=3D4308
+
+Modified:
+  /branches/1.5/de/book/ch02-basic-usage.xml
+  /branches/1.5/de/book/ch03-advanced-topics.xml
+  /branches/1.5/de/book/ch05-repository-admin.xml
+  /branches/1.5/de/book/ch06-server-configuration.xml
+  /branches/1.5/de/book/ch07-customizing-svn.xml
+  /branches/1.5/de/book/ch09-reference.xml
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+--- /branches/1.5/de/book/ch02-basic-usage.xml	Mon Aug  2 11:28:16 2010
++++ /branches/1.5/de/book/ch02-basic-usage.xml	Sun Sep 16 22:25:04 2012
+@@ -675,7 +675,7 @@
+          case-by-case basis.</para>
+  -->
+        <para>Wenn Sie eine Subversion-Operation ausf=FChren, f=FCr die Sie
+-        sich authentifizieren m=FCssen, speichert Subversion Ihre
++        sich authentisieren m=FCssen, speichert Subversion Ihre
+          Zugangsdaten standardm=E4=DFig auf der Platte. Das geschieht zu
+          Ihrer Annehmlichkeit, damit Sie bei k=FCnftigen Operationen
+          nicht st=E4ndig Ihr Passwort eingeben m=FCssen. Falls Sie wegen
+@@ -715,7 +715,7 @@
+  <!--
+        <title>Authenticating As a Different User</title>
+  -->
+-      <title>Authentifizierung als ein anderer Anwender</title>
++      <title>Authentisierung als ein anderer Anwender</title>
+
+  <!--
+        <para>Since Subversion caches auth credentials by default (both
+@@ -738,7 +738,7 @@
+          eines Webservers. In diesem Fall brauchen Sie nur die
+          <option>--username</option>-Option auf der Kommandozeile zu
+          =FCbergeben und Subversion versucht, sich als dieser Benutzer zu
+-        authentifizieren und wird Sie, wenn n=F6tig, zur Eingabe eines
++        authentisieren und wird Sie, wenn n=F6tig, zur Eingabe eines
+          Passworts auffordern.</para>
+
+      </sect2>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+--- /branches/1.5/de/book/ch03-advanced-topics.xml	Sat Mar  3 11:01:02 2012
++++ /branches/1.5/de/book/ch03-advanced-topics.xml	Sun Sep 16 22:25:04 2012
+@@ -4642,7 +4642,7 @@
+          =E4ndern oder zu l=F6schen (oder eins der Elternverzeichnisse der
+          Datei zu l=F6schen), verlangt das Projektarchiv zweierlei
+          Informationen: dass der die =DCbertragung ausf=FChrende Client
+-        sich als der Eigner der Sperrmarke authentifiziert, und dass
++        sich als der Eigner der Sperrmarke authentisiert, und dass
+          die Sperrmarke im Zuge der =DCbertragung vorgelegt wird, um zu
+          beweisen, dass der Client wei=DF, welche Sperre verwendet
+          wird.</para>
+@@ -4847,7 +4847,7 @@
+            daf=FCr, dass die Sperre in dieser bestimmten Arbeitskopie
+            angelegt wurde und nicht irgendwo anders durch irgendeinen
+            anderen Client. Es reicht nicht, sich als Sperreigner zu
+-          authentifizieren, um Missgeschicke zu verhindern.</para>
++          authentisieren, um Missgeschicke zu verhindern.</para>
+
+  <!--
+          <para>For example, suppose you lock a file using a computer at
+@@ -4867,7 +4867,7 @@
+            dieser Datei fertiggestellt haben. Es sollte nicht m=F6glich
+            sein, sp=E4ter am Abend versehentlich =C4nderungen an derselben
+            Datei von Ihrem Rechner zu Hause aus zu machen, nur weil Sie
+-          sich als Sperreigner authentifiziert haben. Mit anderen
++          sich als Sperreigner authentisiert haben. Mit anderen
+            Worten verhindert die Sperrmarke, dass ein Teil von
+            Subversion-Software die Arbeit eines anderen Teils
+            unterminiert. (In unserem Beispiel h=E4tten Sie eine
+@@ -4912,7 +4912,7 @@
+
+        <para>Harry aber kann seine =C4nderungen an der Datei =FCbertragen,
+          nachdem er das Gelb der Banane verbessert hat. Das
+-        funktioniert, da er sich als der Sperreigner authentifiziert
++        funktioniert, da er sich als der Sperreigner authentisiert
+          hat, und weil seine Arbeitskopie die korrekte Sperrmarke
+          beinhaltet:</para>
+
+@@ -5315,10 +5315,10 @@
+          die Sperre direkt aus dem Projektarchiv zu entfernen, muss sie
+          <command>svn unlock</command> einen URL =FCbergeben. Ihr erster
+          Versuch, den URL zu entsperren, schl=E4gt fehl, da sie sich
+-        nicht als der Sperreigner authentifizieren kann (sie hat ja
++        nicht als der Sperreigner authentisieren kann (sie hat ja
+          auch nicht die Sperrmarke). Wenn sie jedoch
+          <option>--force</option> =FCbergibt, werden die
+-        Authentifizierungs- und Autorisierungsanforderungen ignoriert
++        Authentisierungs- und Autorisierungsanforderungen ignoriert
+          und die entfernte Freigabe wird erzwungen.</para>
+
+  <!--
+@@ -7786,7 +7786,7 @@
+  -->
+        <para>Wenn der Server-Prozess eine Anfrage eines Clients erh=E4lt,
+          verlangt er h=E4ufig, dass der Client sich identifiziert. Er
+-        sendet eine Authentifizierungsaufforderung an den Client und
++        sendet eine Authentisierungsaufforderung an den Client und
+          der Client antwortet, indem er
+          <firstterm>Zugangsdaten</firstterm> zur=FCckschickt. Sobald die
+          Authentifizierung abgeschlossen ist, antwortet der Server mit
+@@ -7801,7 +7801,7 @@
+          gewisse Operationen eleganter. Wenn ein Server beispielsweise
+          so konfiguriert ist, dass jedem auf der Welt erlaubt ist, ein
+          Projektarchiv zu lesen, wird der Server niemals eine
+-        Authentifizierungsaufforderung ausgeben, wenn ein Client
++        Authentisierungsaufforderung ausgeben, wenn ein Client
+          <command>svn checkout</command> versucht.</para>
+
+  <!--
+@@ -7827,7 +7827,7 @@
+          <literal>svn:author</literal> der neuen Revision zugewiesen
+          wird (siehe <xref linkend=3D"svn.ref.properties"/>). Falls der
+          Client nicht authentifiziert wurde (d.h., falls der Server
+-        niemals eine Authentifizierungsaufforderung ausgegeben hat),
++        niemals eine Authentisierungsaufforderung ausgegeben hat),
+          bleibt die Revisionseigenschaft <literal>svn:author</literal>
+          leer.</para>
+
+@@ -7858,7 +7858,7 @@
+          server's hostname, port, and authentication realm.</para>
+  -->
+        <para>Viele Server sind so konfiguriert, dass sie vor jeder
+-        Anfrage eine Authentifizierung ben=F6tigen. F=FCr Benutzer w=E4re =
+es
++        Anfrage eine Authentisierung ben=F6tigen. F=FCr Benutzer w=E4re es
+          sehr l=E4stig, wenn sie jedes Mal das Passwort eingeben m=FCssten.
+          Gl=FCcklicherweise hat der Subversion-Client hierf=FCr eine Abhil=
+fe:
+          ein eingebautes System zum Zwischenspeichern der Zugangsdaten
+@@ -7869,7 +7869,7 @@
+          <filename>%APPDATA%/Subversion/auth/</filename> unter Windows;
+          siehe <xref linkend=3D"svn.advanced.confarea" /> f=FCr Details zum
+          Laufzeitkonfigurationssystem), wenn er erfolgreich auf die
+-        Authentifizierungsanfrage des Servers antwortet. Die g=FCltigen
++        Authentisierungsanfrage des Servers antwortet. Die g=FCltigen
+          Zugangsdaten werden auf Platte zwischengespeichert und mit
+          einer Kombination aus dem Rechnernamen des Servers, dem Port
+          und dem Anmeldebereich referenziert.</para>
+@@ -7882,12 +7882,12 @@
+          the client will, by default, fall back to prompting the
+          user for the necessary information.</para>
+  -->
+-      <para>Wenn der Client eine Authentifizierungsaufforderung
++      <para>Wenn der Client eine Authentisierungsaufforderung
+          empf=E4ngt, schaut er zun=E4chst nach den passenden Zugangsdaten
+          im Cache des Benutzers auf Platte. Falls passend erscheinende
+          Zugangsdaten nicht verf=FCgbar sind oder die
+          zwischengespeicherten Zugangsdaten letzlich nicht f=FCr eine
+-        Authentifizierung ausreichen sollten, wird der Client
++        Authentisierung ausreichen sollten, wird der Client
+          standardm=E4=DFig den Benutzer zur Eingabe der notwendigen
+          Informationen auffordern.</para>
+
+@@ -8162,7 +8162,7 @@
+          Wurde ein Benutzername und/oder ein Passwort als Optionen
+          mitgegeben, werden sie dem Server nur auf Verlangen vorgelegt.
+          =DCblicherweise werden diese Optionen verwendet, um sich als ein
+-        anderer Benutzer zu authentifizieren als derjenige, den
++        anderer Benutzer zu authentisieren als derjenige, den
+          Subversion standardm=E4=DFig gew=E4hlt h=E4tte (etwa Ihr Anmelden=
+ame),
+          oder falls Sie die interaktive Abfrage vermeiden m=F6chten (etwa
+          beim Aufruf von <command>svn</command> aus einem
+@@ -8182,7 +8182,7 @@
+        <note>
+          <para>Ein verbreiteter Fehler ist die Fehlkonfigurierung eines
+            Servers, so dass er nie eine Aufforderung zur
+-          Authentifizierung ausgibt. Falls Benutzer dann die Optionen
++          Authentisierung ausgibt. Falls Benutzer dann die Optionen
+            <option>--username</option> und <option>--password</option>
+            an den Client =FCbergeben, wundern sie sich, dass sie nie
+            verwendet werden, d.h., es sieht so aus, dass neue
+@@ -8196,7 +8196,7 @@
+  -->
+        <para>An dieser Stelle sei abschlie=DFend zusammengefasst, wie
+          sich ein Subversion-Client bei Erhalt einer Aufforderung zur
+-        Authentifizierung verh=E4lt.</para>
++        Authentisierung verh=E4lt.</para>
+
+        <orderedlist>
+          <listitem>
+@@ -8213,7 +8213,7 @@
+              (<option>--username</option> und/oder
+              <option>--password</option>) angegeben hat. Falls ja,
+              versucht der Client, diese Zugangsdaten zur
+-            Authentifizierung gegen=FCber dem Server zu
++            Authentisierung gegen=FCber dem Server zu
+              verwenden.</para>
+          </listitem>
+          <listitem>
+@@ -8232,7 +8232,7 @@
+              Laufzeitkonfigurationsbereich <filename>auth/</filename>
+              nach passenden zwischengespeicherten Zugangsdaten zu
+              suchen. Falls solche vorhanden sind, probiert er, sich
+-            hiermit zu authentifizieren.</para>
++            hiermit zu authentisieren.</para>
+          </listitem>
+          <listitem>
+  <!--
+@@ -8244,7 +8244,7 @@
+              client-specific equivalents).</para>
+  -->
+            <para>Falls letztendlich alle vorherigen Mechanismen keine
+-            erfolgreiche Authentifizietrung des Benutzers gegen den
++            erfolgreiche Authentisierung des Benutzers gegen den
+              Server bewirken, greift der Client auf eine interaktive
+              Abfrage der Zugangsdaten zur=FCck (sofern ihm das nicht
+              durch die Option <option>--non-interactive</option> oder
+@@ -8259,7 +8259,7 @@
+          earlier).</para>
+  -->
+        <para>Falls sich der Client durch irgendeine dieser Methoden
+-        erfolgreich authentifiziert, versucht er, die Zugangsdaten auf
++        erfolgreich authentisiert, versucht er, die Zugangsdaten auf
+          der Platte zwischenzuspeichern (sofern der Benutzer dieses
+          Verhalten nicht, wie oben beschrieben, unterbunden
+          hat).</para>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+--- /branches/1.5/de/book/ch05-repository-admin.xml	Mon Aug  2 11:28:16 2010
++++ /branches/1.5/de/book/ch05-repository-admin.xml	Sun Sep 16 22:25:04 2012
+@@ -5227,7 +5227,7 @@
+          <para>In Subversion 1.4 wurden die an die
+            Kommandozeilenoptionen <option>--username</option> und
+            <option>--password</option> von <command>svnsync</command>
+-          =FCbergebenen Werte sowohl f=FCr die Authentifizierung gegen=FCb=
+er
++          =FCbergebenen Werte sowohl f=FCr die Authentisierung gegen=FCber
+            dem Quell-Projektarchiv als auch gegen=FCber dem Ziel-Projektar=
+chiv
+            verwendet. Das f=FChrte zu Problemen, falls die Zugangsdaten
+            eines Benutzers nicht f=FCr beide Projektarchive identisch ware=
+n,
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+--- /branches/1.5/de/book/ch06-server-configuration.xml	Tue Sep  4 12:38:56=
+  =
+
+2012
++++ /branches/1.5/de/book/ch06-server-configuration.xml	Sun Sep 16 22:25:04=
+  =
+
+2012
+@@ -113,7 +113,7 @@
+        zustandsorientiert ist, bietet es einen deutlich schnelleren
+        Netzwerkzugriff &ndash; spart allerdings auch einige wichtige
+        Funktionen aus. So bietet er eine SASL-basierte Verschl=FCsselung
+-      und Authentifizierung, hat aber keine Protokollierungsfunktionen
++      und Authentisierung, hat aber keine Protokollierungsfunktionen
+        oder eingebauten Web-Browser-Zugriff. Wie auch immer, er ist
+        extrem einfach einzurichten und f=FCr kleinere Teams, welche
+        einfach nur schnell mit Subversion "loslegen" wollen, die beste
+@@ -143,7 +143,7 @@
+        unterscheidet sich die Funktionalit=E4t ziemlich von der normalen
+        Nutzung von <command>svnserve</command>. SSH wird zur
+        Verschl=FCsselung der gesamten Kommunikation verwendet. Ebenso zur
+-      Authentifizierung, was die Verwendung von realen Nutzerkonten
++      Authentisierung, was die Verwendung von realen Nutzerkonten
+        auf dem Subversion-Server notwendig macht (anders als beim
+        einfachen <command>svnserve</command>, der seine eigene
+        Nutzerverwaltung hat).  Des weiteren ist es notwendig &ndash; da
+@@ -909,7 +909,7 @@
+        oder das <literal>svn+ssh://</literal>-Schema. In diesem
+        Abschnitt behandeln wir die unterschiedlichen M=F6glichkeiten,
+        <command>svnserve</command> einzusetzen, wie sich die Clients am
+-      Server authentifizieren und wie die passenden Zugangsrechte zum
++      Server authentisieren und wie die passenden Zugangsrechte zum
+        Projektarchiv korrekt eingerichtet werden.</para>
+
+
+@@ -1221,7 +1221,7 @@
+            aufzurufen.  Bei diesem Aufruf wird vorausgesetzt, dass ein
+            anderes Programm f=FCr den Remote-Zugriff &ndash; etwa
+            <command>rsh</command> oder <command>ssh</command> &ndash;
+-          den Nutzer bereits erfolgreich authentifiziert hat, um nun
++          den Nutzer bereits erfolgreich authentisiert hat, um nun
+            einen privaten
+            <command>svnserve</command>-Prozess als <emphasis>dieser
+              Nutzer</emphasis> zu starten. (Beachten Sie, dass f=FCr Sie
+@@ -1541,7 +1541,7 @@
+            <itemizedlist>
+              <listitem><para>Der Client kann seine Anfragen anonym,
+                  also ohne eine vorhergehende
+-                Authentifizierungsanfrage, senden.</para></listitem>
++                Authentisierungsanfrage, senden.</para></listitem>
+
+              <listitem><para>Der Client kann jederzeit eine
+                  Anmeldeaufforderung erhalten.</para></listitem>
+@@ -1983,9 +1983,9 @@
+          normalerweise eine Begr=FC=DFung, die eine Auflistung der von ihm
+          unterst=FCtzten F=E4higkeiten umfasst, woraufhin der Client mit
+          einer =E4hnlichen Liste von F=E4higkeiten antwortet. Falls der
+-        Server so konfiguriert wurde, dass er eine Authentifizierung
++        Server so konfiguriert wurde, dass er eine Authentisierung
+          ben=F6tigt, sendet er eine Aufforderung, die die verf=FCgbaren
+-        Authentifizierungsmechanismen auflistet; der Client antwortet,
++        Authentisierungsmechanismen auflistet; der Client antwortet,
+          indem er einen der Mechanismen ausw=E4hlt und die
+          Authentifizierung erfolgt dann mittels eines
+          Nachrichtenaustausches. Selbst falls keine SASL-F=E4higkeiten
+@@ -1993,7 +1993,7 @@
+          CRAM-MD5- und ANONYMOUS-Mechanismen (siehe <xref
+            linkend=3D"svn.serverconfig.svnserve.auth"/>). Falls Client
+          und Server mit SASL gebaut wurden, k=F6nnten eine Anzahl
+-        weiterer Authentifizierungsmechanismen verf=FCgbar sein.
++        weiterer Authentisierungsmechanismen verf=FCgbar sein.
+          Trotzdem m=FCssen Sie serverseitig ausdr=FCcklich SASL
+          konfigurieren, um es anbieten zu k=F6nnen.</para>
+
+@@ -2191,10 +2191,10 @@
+            Sie beachten, dass damit auch alle Clients gezwungen sind,
+            SASL zu unterst=FCtzen. Kein Subversion-Client ohne
+            SASL-Unterst=FCtzung (u.a. alle Clients vor Version 1.5) kann
+-          sich authentifizieren. Andererseits m=F6chten Sie vielleicht
++          sich authentisieren. Andererseits m=F6chten Sie vielleicht
+            gerade diese Einschr=E4nkung (<quote>Meine Clients m=FCssen
+              s=E4mtlich Kerberos verwenden!</quote>). Wenn Sie jedoch
+-          m=F6chten, dass sich auch Nicht-SASL-Clients authentifizieren
++          m=F6chten, dass sich auch Nicht-SASL-Clients authentisieren
+            k=F6nnen, stellen Sie sicher, dass optional der
+            CRAM-MD5-Mechanismus angeboten wird. Alle Clients k=F6nnen
+            CRAM-MD5 verwenden, egal, ob sie SASL verstehen oder
+@@ -2335,7 +2335,7 @@
+          lokalen <command>ssh</command>-Prozess auf, der sich mit
+          <literal>host.example.com</literal> verbindet, sich (gem=E4=DF der
+          SSH-Benutzerkonfiguration) als Benutzer
+-        <literal>harryssh</literal> authentifiziert und dann auf dem
++        <literal>harryssh</literal> authentisiert und dann auf dem
+          entfernten Rechner einen privaten
+          <command>svnserve</command>-Prozess unter der Benutzerkennung
+          <literal>harryssh</literal> startet. Der Befehl
+@@ -2611,8 +2611,8 @@
+            verwenden m=F6chten. Stellen Sie sicher, dass f=FCr das Konto
+            ein Paar bestehend aus einem =F6ffentlichen und einem privaten
+            SSH-Schl=FCssel installiert ist und dass sich der Benutzer
+-          =FCber die Authentifizierung mit einem =F6ffentlichen Schl=FCssel
+-          anmelden kann. Die Authentifizierung mit Passwort wird nicht
++          =FCber die Authentisierung mit einem =F6ffentlichen Schl=FCssel
++          anmelden kann. Die Authentisierung mit Passwort wird nicht
+            funktionieren, da sich alle folgenden SSH-Tricks um die
+            Verwendung der SSH-Datei
+            <filename>authorized_keys</filename> drehen.</para>
+@@ -2758,7 +2758,7 @@
+            account.</para>
+  -->
+          <para>Dieses Beispiel erlaubt sowohl Harry als auch Sally,
+-          sich =FCber die Authentifizierung durch einen =F6ffentlichen
++          sich =FCber die Authentisierung durch einen =F6ffentlichen
+            Schl=FCssel mit demselben Konto zu verbinden. Beide verf=FCgen
+            =FCber einen angepassten Befehl, der ausgef=FChrt wird. Die
+            Option <option>--tunnel-user</option> teilt
+@@ -3386,7 +3386,7 @@
+  <!--
+        <title>Authentication Options</title>
+  -->
+-      <title>Authentifizierungsoptionen</title>
++      <title>Authentisierungsoptionen</title>
+
+  <!--
+        <para>At this point, if you configured
+@@ -3413,7 +3413,7 @@
+          accessible to everyone.  In other words:</para>
+  -->
+        <para>kann die Welt <quote>anonym</quote> auf Ihr Projektarchiv
+-        zugreifen. Bis Sie Authentifizierungs- und
++        zugreifen. Bis Sie Authentisierungs- und
+          Autorisierungsrichtlinien konfiguriert haben, sind die =FCber
+          die Direktive <literal>Location</literal> zur Verf=FCgung
+          gestellten Projektarchive allgemein f=FCr jedermann zugreifbar.
+@@ -3597,7 +3597,7 @@
+            fehlt, sind Direktiven, die Apache sagen,
+            <emphasis>welche</emphasis> Arten von Client-Anfragen eine
+            Autorisierung erfordern.  =DCberall dort wo eine Autorisierung
+-          verlangt wird, erwartet Apache auch eine Authentifizierung.
++          verlangt wird, erwartet Apache auch eine Authentisierung.
+            Das Einfachste ist es, alle Anfragen zu sch=FCtzen. Durch
+            Hinzuf=FCgen von <literal>Require valid-user</literal> wird
+            Apache mitgeteilt, dass alle Anfragen einen
+@@ -3708,7 +3708,7 @@
+            asymmetrisches Kryptosystem das Mittel der Wahl. Am besten
+            solte eine Art der SSL-Verschl=FCsselung eingesetzt werden, so
+            dass Clients sich =FCber <literal>https://</literal> statt
+-          <literal>http://</literal> authentifizieren; als
++          <literal>http://</literal> authentisieren; als
+            Minimall=F6sung k=F6nnen Sie Apache so einstellen, dass ein
+            selbstsigniertes Server-Zertifikat verwendet wird.
+            <footnote>
+@@ -4150,7 +4150,7 @@
+              url=3D"http://svn.collab.net/repos/svn"/> allen auf der Welt
+            lesende Operationen (wie etwa das Auschecken von
+            Arbeitskopien und das St=F6bern mit einem Web-Browser),
+-          beschr=E4nkt jedoch Schreiboperationen auf authentifiziere
++          beschr=E4nkt jedoch Schreiboperationen auf authentifizierte
+            Nutzer. Um diese abgestufte Einschr=E4nkung einzurichten,
+            k=F6nnen Sie die Konfigurationsdirektiven
+            <literal>Limit</literal> und <literal>LimitExcept</literal>
+@@ -4334,7 +4334,7 @@
+  -->
+          <para>Der einfachste Block besteht aus einem v=F6llig offenen
+            Zugang. In diesem Szenario schickt Apache niemals
+-          Aufforderungen zur Authentifizierung, so dass alle Benutzer
++          Aufforderungen zur Authentisierung, so dass alle Benutzer
+            als <quote>anonymous</quote> behandelt werden.  (Siehe <xref
+              linkend=3D"svn.serverconfig.httpd.authz.perdir.ex-1"/>.)
+          </para>
+@@ -4376,9 +4376,9 @@
+            <xref  =
+
+linkend=3D"svn.serverconfig.httpd.authz.perdir.ex-2"/>.)</para>
+  -->
+          <para>Am anderen Ende der Paranoia-Skala k=F6nnen Sie Ihren
+-          Block so konfigurieren, dass sich jedermann authentifizieren
++          Block so konfigurieren, dass sich jedermann authentisieren
+            muss. Alle Clients m=FCssen sich ausweisen. Ihr Block verlangt
+-          eine unbedingte Authentifizierung mit der Direktive
++          eine unbedingte Authentisierung mit der Direktive
+            <literal>Require valid-user</literal>;  diese Direktive
+            definiert auch, wie die Authentifizierung erfolgen soll.
+            (Siehe <xref
+@@ -4451,7 +4451,7 @@
+            Benutzer zun=E4chst anonym auf das Projektarchiv zu. Falls
+            Ihre Zugangsrichtlinien an einer Stelle einen echten
+            Benutzernamen erfordern sollte, fordert Apache den Client
+-          auf, sich zu authentifizieren. Eingestellt wird dieses
++          auf, sich zu authentisieren. Eingestellt wird dieses
+            Verhalten mit den gemeinsam verwendeten Direktiven
+            <literal>Satisfy Any</literal> sowie <literal>Require
+              valid-user</literal>. (Siehe <xref
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+--- /branches/1.5/de/book/ch07-customizing-svn.xml	Mon Aug  2 11:28:16 2010
++++ /branches/1.5/de/book/ch07-customizing-svn.xml	Sun Sep 16 22:25:04 2012
+@@ -223,7 +223,7 @@
+          contents.</para>
+  -->
+        <para>Der benutzereigene Konfigurationsbereich enth=E4lt auch
+-        einen Zwischenspeicher mit Authentifizierungsdaten. Das
++        einen Zwischenspeicher mit Authentisierungsdaten. Das
+          Verzeichnis <filename>auth</filename> beinhaltet eine Reihe
+          Unterverzeichnisse, die Teile zwischengespeicherter
+          Informationen enthalten, welche von den verschiedenen durch
+@@ -885,7 +885,7 @@
+                  linkend=3D"svn.serverconfig.netmodel.credcache"/>.</para>
+  -->
+                <para>Ordnet an, ob Subversion vom Benutzer nach
+-                Authentifizierungsaufforderungen eingegebene
++                Authentisierungsaufforderungen eingegebene
+                  Passw=F6rter zwischenspeichern soll oder nicht. Der
+                  Standardwert ist <literal>yes</literal>. Setzen Sie
+                  den Wert auf <literal>no</literal>, um die
+@@ -913,7 +913,7 @@
+                <para>Diese Einstellung ist die gleiche wie
+                  <literal>store-passwords</literal>, au=DFer dass sie die
+                  Zwischenspeicherung <emphasis>aller</emphasis>
+-                Authentifizierungsinformationen erlaubt:
++                Authentisierungsinformationen erlaubt:
+                  Benutzernamen, Passw=F6rter, Server-Zertifikate und alle
+                  m=F6glichen anderen Typen speicherbarer
+                  Berechtigungsnachweise.</para>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+--- /branches/1.5/de/book/ch09-reference.xml	Mon Aug  2 11:28:16 2010
++++ /branches/1.5/de/book/ch09-reference.xml	Sun Sep 16 22:25:04 2012
+@@ -146,7 +146,7 @@
+                runtime configuration directories.</para>
+  -->
+              <para>Verhindert die Zwischenspeicherung von
+-              Authentifizierungsinformationen (z.B. Benutzername und
++              Authentisierungsinformationen (z.B. Benutzername und
+                Passwort) in den Laufzeitkonfigurationsverzeichnissen
+                von Subversion.</para>
+            </listitem>
+@@ -184,7 +184,7 @@
+                incorrect, Subversion will prompt you for this
+                information as needed.</para>
+  -->
+-            <para>Gibt das Passwort zur Authentifizierung gegen=FCber
++            <para>Gibt das Passwort zur Authentisierung gegen=FCber
+                einem Subversion-Server an. Falls es nicht mitgegeben
+                wird oder falsch ist, fragt Subversion bei Bedarf
+                nach.</para>
+@@ -201,7 +201,7 @@
+                incorrect, Subversion will prompt you for this
+                information as needed.</para>
+  -->
+-            <para>Gibt den Benutzernamen zur Authentifizierung gegen=FCber
++            <para>Gibt den Benutzernamen zur Authentisierung gegen=FCber
+                einem Subversion-Server an. Falls er nicht mitgegeben
+                wird oder falsch ist, fragt Subversion bei Bedarf
+                nach.</para>
+@@ -13076,7 +13076,7 @@
+                runtime configuration directories.</para>
+  -->
+              <para>Verhindert die Zwischenspeicherung von
+-              Authentifizierungsinformationen (z.B. Benutzername und
++              Authentisierungsinformationen (z.B. Benutzername und
+                Passwort) in den Laufzeitkonfigurationsverzeichnissen
+                von Subversion.</para>
+            </listitem>
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

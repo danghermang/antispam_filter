@@ -1,0 +1,56 @@
+Subject:Re: [EVDL] Precharge / Discharge
+Michael A. Radtke wrote:
+> I have a good understanding of the precharge issue, but I haven't found
+> any reference to the hazards of the controller retaining a charge on
+> its capacitors after the vehicle is turned off. It seems to me that
+> there is a safety issue.
+
+I think discharge is normally ignored because the controller itself 
+draws power from the capacitors. This will discharge the capacitors 
+without the need for any extra circuitry. Within a minute or so, the 
+capacitors would be discharged.
+
+If the design of the Revolt controller does not do this, then you are 
+correct; it would be prudent to add a resistor or equivalent to 
+discharge the capacitors.
+
+My practice has been to include an indicator light across the controller 
+B+ and B- input. This warns me when it is "live", and also provides a 
+discharge path. It can be a 4w light bulb, neon light, or LED with a 
+suitable series resistor.
+
+> I did find a commercially available precharge device that addresses the
+> issue.  However, it uses a different resistance for the precharge and
+> discharge paths.  Why?
+
+Probably because they connect to different places, and have different 
+resistor values. The precharge resistance is usually quite low, to 
+precharge quickly. The discharge resistance can be much larger, as there 
+is no hurry -- you shouldn't be able to turn off the car and physically 
+get at the controller terminals in less than a minute.
+
+> My thought is to use a relay to connect the precharge resistor when the
+> ignition switch is on.  The OpenRevolt controller supplies a signal to
+> enable the main contactor at a preset delay.   I was considering using a
+> SPDP relay and the same resistor to both precharge and discharge the
+> controller capacitors.
+
+That can work. However, it does put B+ and B- right next to each other 
+on the same relay. Be sure that the relay has enough spacing so this is 
+safe. It would be a wonderful place to drop a screw or for a bug to 
+crawl across.
+-- 
+Ingenuity gets you through times of no money better than money
+will get you through times of no ingenuity. -- Terry Pratchett
+--
+Lee A. Hart http://www.sunrise-ev.com/LeesEVs leeahart@earthlink.net
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

@@ -1,0 +1,37 @@
+Subject:Re: Quelle carte
+	=?UTF-8?B?bcOocmUgcG91ciB0ZXN0ZXIgbCdVRUZJIChhdg==?=
+	=?UTF-8?B?ZWMgV2hlZXp5KSA/?=
+On 10/24/2012 10:02 AM, tv.debian@googlemail.com wrote:
+
+>> Par curiosité, quels avantages as-tu trouvé à l'UEFI, par rapport à un
+>> BIOS classique ?
+>>
+>
+> Aucun en dehors de s'affranchir de certaines limitations techniques du
+> bios (taille des disques de boot, table gpt).
+>
+Concernant le gpt, du nouveau chez moi. J'avais partitioné il y a +- 3 
+ans mon dd en gpt tout en démarrant sur le mbr, donc exit l'uefi dont je 
+ne vois pas l'intérêt, sauf celui d'alimenter les forum. J'ai écrit sur 
+cette liste que cela beuguait parfois après un update-grub. Je perdais 
+parfois le clavier lors de l'affichage du menu grub avant de démarrer.
+Le bug semble résolu puisque depuis quelques semaines j'ai un clavier 
+normal avant le boot, quelles que soient les mises à jour du kernel.
+  Donc le gpt sans l'uefi, cela marche pour moi.
+Cordialement
+
+-- 
+Maderios
+
+"Art is meant to disturb. Science reassures."
+"L'art est fait pour troubler. La science rassure" (Georges Braque)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5087C044.5000604@gmail.com
+

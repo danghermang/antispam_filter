@@ -1,0 +1,45 @@
+Subject:Re: Migrar correo de Evolution a Outlook
+2012/9/24 Camale=F3n <noelamac@gmail.com>:
+> El Mon, 24 Sep 2012 10:47:19 -0400, Adri=E1n Alem=E1n Cruz escribi=F3:
+>
+>> Un amigo ac=E1 ha utilizado Debian GNU/Linux (Lenny) por varios a=F1os e=
+n su
+>> trabajo, ahora tiene que instalar windows para correr una aplicaci=F3n
+>> contable que le exige la empresa.
+>>
+>> =BFC=F3mo har=EDa para migrar los correos?
+
+=BFY no se puede plantear al rev=E9s? Es decir, en vez de adaptar los
+datos a los requisitos del aplicativo, ejecutar el aplicativo en una
+m=E1quina virtual.
+
+>
+> Dile que puede usar un servidor local IMAP ("local" para que el proceso
+> de traspaso de carpetas y mensajes sea m=E1s r=E1pido), es lo m=E1s senci=
+llo.
+> Para los contactos, tareas y calendario no s=E9 si se podr=E1 exportar/
+> importar directamente.
+>
+
+=C9sta desde luego es la forma m=E1s elegante.
+
+Otra, m=E1s artesana, por ejemplo, es importar el correo a Icedove, y
+una vez ya en el otro sistema operativo importar el correo a
+Thunderbird. Luego abrir Outlook a ver si tiene algun asistente para
+importar el correo; de no ser as=ED pasar por Outlook Express, que
+importa de Thunderbird, y de ah=ED finalmente a Outlook.
+Es un proceso entretenido, y te saca una sonrisa cuando acaba y ves
+que ha funcionado todo f:)
+
+
+
+--=20
+Adri=E0
+adria@esdebian.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAH8Gut8ZbO+bK6YwDoWod7a4b7qOkP_1ESot0MdZJQ0Tq01Gsg@mail.gmail.com
+

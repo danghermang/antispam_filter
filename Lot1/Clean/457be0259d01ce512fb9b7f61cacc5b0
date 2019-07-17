@@ -1,0 +1,22 @@
+Subject:DBD::Oracle loaded by ppm does not work with Perl 5.14
+I have used previously Perl 5.8.8 on Windows 7, and now try to port the application to 5.14.2.
+
+The new Perl version is installed, the PATHes set up correctly. Next I used ppm to get the newest
+version of DBD::Oracle for this Perl version. According to ppm, this is version 1.52. I installed
+this version. However, when using  the module, 
+
+perl -we "use DBD::Oracle qw(:ora_types);"
+
+an error dialogue pops up, saying that OCI.dll is missing. After clicking OK, I get the error message
+
+Can't load 'c:/UserData/rofischx/p/perl_5.14.2/lib/auto/DBD/Oracle/Oracle.dll' for module 
+DBD::Oracle: load_file:The specified module could not be found at c:/UserData/rofischx/p/perl_5.14.2/lib/DynaLoader.pm line 191.
+
+It is not clear, why OCI.dll is not found, or where it is supposed to be. However, when I set my PATH and PERL5LIB that it points to the Perl 5.8.8 installation on the same host, I don't see this error.
+
+Ronald
+
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

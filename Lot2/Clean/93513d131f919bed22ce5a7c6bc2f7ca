@@ -1,0 +1,21 @@
+Subject:[Koha] Switching from default to fast add framework is very slow...
+Greetings,
+
+When adding a new marc record i usually change the framework from 
+defauit to the fast add framework and it is extremely slow in the 
+transition.
+
+It takes about 20 - 25 seconds just to change the framework.
+
+Any tips on how to improve the loading time.
+
+Running Koha version: 3.06.10.000
+
+Previous versions loaded much faster than now
+
+Regards,
+Amir
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

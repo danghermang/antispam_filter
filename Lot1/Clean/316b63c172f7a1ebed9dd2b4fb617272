@@ -1,0 +1,57 @@
+Subject:Re: [HS] se logguer en ssh en outrepassant le shell defini dans
+	/etc/passwd
+pas de serveur ftp ou nfs qui serait lanc=C3=A9 ?
+voire de partage W$ ?
+
+giggzounet a =C3=A9crit :
+> Le 12/10/2012 15:14, Bernardo a =C3=A9crit :
+>> D=C3=A9monter le DD pour le remonter dans une autre machine ?
+>>=20
+>> giggzounet a =C3=A9crit :
+>>> Bonjour la liste,
+>>>=20
+>>> tout est dans le titre...
+>>>=20
+>>> j'ai fait un truc tr=C3=A8s tr=C3=A8s b=C3=AAte...j'ai un beau NAS. m=
+ais bon root
+>>> avait pour shell par d=C3=A9faut ash. j'ai donc install=C3=A9 bash et=
+ modifi=C3=A9 le
+>>> chemin dans /etc/passwd. Malheuresement le chemin n'est pas bon...et
+>>> tous mes terminaux root sont ferm=C3=A9s. Donc qd je veux me connecte=
+r j'ai
+>>> droit =C3=A0: /bin/bash: No such file or directory car bash n'y est
+>>> pas...FAILED
+>>>=20
+>>> bref avez vous une id=C3=A9e de comment forcer l'utilisation de ash a=
+u
+>>> moment de la connection via ssh ?
+>>>=20
+>>> Merci d'avance GiGGz
+>>>=20
+>=20
+> oui mais c'est un NAS...avec 8 DD de 4tera mont=C3=A9 en RAID 5...et je=
+ ne sais
+> pas o=C3=B9 s'installe le syst=C3=A8me...est ce sur les disques ou alor=
+s sur une
+> m=C3=A9moire dans le NAS...
+>=20
+> merci
+>=20
+--=20
+Cordialement,
+Bernardo.
+
+Quand la chance se pr=C3=A9sente, nul doit h=C3=A9siter. Il faut tout qui=
+tter
+pour la saisir. Elle ne passera pas deux fois.
+	-+- Friedrich Nietzsche, La Volont=C3=A9 de puissance, 1844-1900 -+-
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50781AB6.3050704@siorat.net
+

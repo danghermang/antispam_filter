@@ -1,0 +1,18 @@
+Subject:Re: iceweasel 10.0.7 backport
+On Sat, Sep 08, 2012 at 11:10:49PM +0800, Thomas Goirand wrote:
+> On 09/08/2012 09:27 PM, Robert Pommrich wrote:
+> > Please backport iceweasel 10.0.7 as it provides important security fixes.
+> http://mozilla.debian.net/ has a Squeeze backport of verison 15.0. Do
+> you really need something older? :)
+
+Not everyone uses x86.
+
+Kind regards
+Philipp Kern, now using an iBook G4 because his other laptop is in repair
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120908222232.GA3439@hub.kern.lc
+

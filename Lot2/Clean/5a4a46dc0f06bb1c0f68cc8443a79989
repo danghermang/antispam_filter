@@ -1,0 +1,45 @@
+Subject:Debian linux-image-3.2.0-0.bpo.1 bis 3 / cryptsetup
+Hallo Gemeinde,
+
+ich habe heute das Paket cryptsetup installiert. Nach dem Neustart vom Kernel linux-image-3.2.0-0.bpo.3 sowie auch in der Version 3.2.0-0.bpo.1 erhalte ich nur eine Fehlermeldung.
+Beim Booten von älteren Kernels funktioniert alles einwandfrei. Kennt jemand diesen Fehler?
+Dies ist die noch sichtbare Fehlermeldung:
+
+------------------------------------------
+
+pts/local-top/cryptroot: line 345: cat: Permission denied
+done.
+error sending message: Connection refused
+udevadm[92]: error sending message: Connection refused
+
+Begin: Running /scripts/local-premount ... done
+/init: line 3: mount: Permission denied
+Begin: Running /scripts/local-bottom ... done.
+done.
+Begin: Running /scripts/init-bottom ... /scripts/init-bottom/udev: line 30: mount: Permission denied
+done.
+/init: line 239: umount: Permission denied
+/init: line 242: mount: Permission denied
+/init: line 243: mount: Permission denied
+Target filesystem doesn't have requested /sbin/init.
+/init: line 291: chvt: not found
+No init found. Try passing init= bootarg
+
+
+Busybox ...
+[...]
+
+/bin/sh: can't access tty: job control turned off
+(initramfs)
+
+------------------------------------------
+
+Mit besten Grüßen
+H-Peter Teufel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121102213444.58370@gmx.net
+

@@ -1,0 +1,47 @@
+Subject:Re: PC =?UTF-8?B?w6l0ZWludA==?= qui consomme
+Le Fri, 2 Nov 2012 18:26:34 +0100
+"Sylvain L. Sauvage" <Sylvain.L.Sauvage@free.fr> a écrit:
+>   Il se peut que ce soient certains périphériques qui ne passent 
+> pas en D3 (éteint) mais restent en D[0-2]. Sauf que, comme tu 
+> l’as dit, c’est difficile de vérifier qui bouffe du courant sans 
+> avoir un matériel spécial et une bonne connaissance des flux 
+> dans le bouzin.
+
+En fait depuis le début je soupconne le wake on wlan au niveau du noyau. C'est
+une fonction qui est apparue récemment mais je ne l'ai pas activé dans le
+noyau et il n'était pas activé dans les noyaux utilisés.
+
+J'ai désactivé le WOL dans le BIOS, vérifié qu'il était à DISABLED
+dans /proc/acpi/wakeup, désactivé via ethtool et fait un modprobe -r des
+modules réseaux sans changement. Je pense qu'on peut écarter le WOL.
+
+La consommation correspond exactement à celle de la machine mise en «suspend
+to ram». Tout cela m'incitait à un problème  noyau...
+
+> 
+>   J’aurais aussi tendance à dire que c’est le noyau (notamment 
+> si, comme je crois me souvenir que tu l’as dit, la consommation 
+> d’énegie correspond à celle d’une veille suspend2ram : c’est  
+> alors le CPU qui n’est pas passé en C3). Et j’ai donc un peu de 
+> mal à voir comment ça peut ne pas être seulement un problème 
+> dans le noyau… mais tes tests semblent prouver le contraire¹…
+> 
+>  ¹ : euh, tu as bien essayé le noyau de « la Ubuntu qui marche » 
+> (et seulement lui) dans « la Debian qui marche pas », hein ?
+> (Je demande parce que, à force de faire des tests, parfois, on 
+> en loupe un et, Murphy aidant, c’est souvent le « bon »…)
+> 
+
+Bon, je vais l'essayer, un noyau de plus, ça ne change pas grand chose...
+
+François Boisson
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121103100821.05fe749aa067de295048f700@maison.homelinux.net
+

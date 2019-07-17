@@ -1,0 +1,50 @@
+Subject:Re: Apache2 erreurs
+On Monday 12 November 2012 10:04:52 S=E9bastien NOBILI wrote:
+> Le dimanche 11 novembre 2012 =E0 22:37, andre_debian@numericable.fr a =E9=
+crit :
+> > Pas trop de : "a=EFe a=EFe a=EFe ! Surprise !",
+> > car l'admin r=E9seau, cens=E9 =EAtre professionnel, verra tout de suite
+> > que les 2 r=E9pertoires concern=E9s contiennent les fichiers qu'il faut.
+
+On Monday 12 November 2012 10:04:52 S=E9bastien NOBILI wrote:
+> L'admin r=E9seau cens=E9 =EAtre professionnel supposera que le dossier
+> =AB=A0sites-enabled=A0=BB contient des liens symboliques, puisque sur tou=
+tes les
+> installations Debian correctement administr=E9es, c'est ce qu'il contient.
+> Faire autrement c'est pousser un admin qui viendrait apr=E8s =E0 la faute,
+> faute dont il ne sera pas responsable puisque l'erreur a =E9t=E9 commise=
+=20
+> avant  lui.
+> > Mais effectivement, rien n'emp=EAche de suivre les consignes
+> > des howto "Apache2" =E0 la lettre :-)
+> C'est plut=F4t l'inverse. Suivre les consignes doit =EAtre le mode op=E9r=
+atoire
+> par d=E9faut, mais rien n'emp=EAche de ne pas les suivre, reste =E0 savoi=
+r si on
+> est pr=EAt =E0 en assumer les cons=E9quences.
+> Seb
+
+C'est ce qu'on appelle =E9crire pour ne rien dire :-)
+
+Heureusement que des sportifs ont fini par ne pas trop=20
+appliquer "=E0 la lettre" les conseils de leur entraineur,
+sinon ils n'auraient pas =E9t=E9 m=E9daill=E9s olympiques.
+(le petit coup perso de "g=E9nie").
+
+Et puis, c'est int=E9ressant et =E7a fait comprendre,
+de tester un syst=E8me en appliquant des r=E8gles diff=E9rentes
+de celles prescrites.
+
+Bonne soir=E9e.
+
+Andr=E9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211121956.42042.andre_debian@numericable.fr
+

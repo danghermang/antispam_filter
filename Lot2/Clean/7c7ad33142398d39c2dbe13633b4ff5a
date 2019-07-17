@@ -1,0 +1,57 @@
+Subject:Re: [LUG] Qubes
+Simon Avery wrote:
+>
+> Y'know, I think the bigger picture is being missed here - which is the
+> far more common-or-garden user and good old human nature.
+
+I don't think so.
+
+My question is what is Qubes like to use.
+
+Sure it is likely the average user is not going to be using version 1, but
+it is likely that if you need security online (and most of us like to bank
+or use Paypal, or EBay, or a brokerage, or otherwise expose funds we can't
+afford to lose) then an OS that provides a reasonably secure method of
+accessing your online financial services, or protecting sensitive
+cryptographic keys, would be a good idea.
+
+Kai would suggest Web Converger, but currently I'd have to reboot for
+that. Sure I could use virtualization and run Web Converger in one
+instance, but that is precisely the sort of thing Qubes is trying to make
+easier.
+
+I agree we want tools that avoid a lot of the attack vectors, but
+realistically we don't know how to build them, when we do know we aren't
+using that knowledge, and even if we did build such tools it is likely
+they wouldn't inter-operate with the Internet systems of interest as they
+are currently deployed because so much of it is borked (take for example
+the low emphasis on mixed content warnings in browsers these days, clearly
+the only meaningful response to a mixed content is to downgrade the
+displayed security to unencrypted, or just block access as it is difficult
+to explain to the user).
+
+Even if we magically mastered perfection in software engineering we would
+still have to trust the authors of software we use that it does what they
+say in the current model. As such appropriate containment will mean we
+don't have to trust everyone who contributed to every single piece of
+software on our machine to protect all our data. A rogue browser would
+them be restricted to only accessing the stuff we surf in it, and not able
+to see my email (for example).
+
+And yes humans are often the weak link in the chain, but not all of us
+switch browser because a browser gives us a security warning, but we are
+still exposed to a raft of threats for which greater knowledge is little
+benefit. For example attacks against SSL, where I have no way of knowing
+the place I'm entering my credentials isn't the site I intended to visit.
+
+ Simon
+
+PS: Fetching a jpeg from a compromised site is probably less safe than you
+might expect, certainly IE7 will content sniff and act on HTML delivered
+for an image request.
+
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

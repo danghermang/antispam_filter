@@ -1,0 +1,76 @@
+Subject:=?UTF-8?Q?Re:_Acceder_a_carpeta_desde_cons?=
+	=?UTF-8?Q?ola_en_PCanfitri=C3=B3n?=
+----- Original Message ----- 
+From: "Camaleón" <noelamac@gmail.com>
+To: <debian-user-spanish@lists.debian.org>
+Sent: Monday, November 12, 2012 12:05 PM
+Subject: Re: Acceder a carpeta desde consola en PCanfitrión
+
+
+> El Mon, 12 Nov 2012 11:09:05 -0500, Ismael L. Donis Garcia escribió:
+>
+> (...)
+>
+>> No se como configurar el sources.list para que me coja los paquetes que
+>> están en \\Clt_iyc_03\debian\wheezy
+>
+> ¿Quieres decir cómo configurar el "sources.list" para trabajar con un
+> recurso samba? Veamos:
+>
+> sm01@stt008:~$ ls -la /usr/lib/apt/methods/
+> total 328
+> drwxr-xr-x 2 root root   336 jun 27  2010 .
+> drwxr-xr-x 3 root root    72 nov 14  2009 ..
+> -rwxr-xr-x 1 root root 17616 may 13  2010 bzip2
+> -rwxr-xr-x 1 root root 23552 may 13  2010 cdrom
+> -rwxr-xr-x 1 root root 15160 may 13  2010 copy
+> -rwxr-xr-x 1 root root 13672 may 13  2010 file
+> -rwxr-xr-x 1 root root 49312 may 13  2010 ftp
+> -rwxr-xr-x 1 root root 33256 may 13  2010 gpgv
+> -rwxr-xr-x 1 root root 17616 may 13  2010 gzip
+> -rwxr-xr-x 1 root root 48536 may 13  2010 http
+> -rwxr-xr-x 1 root root 17616 may 13  2010 lzma
+> -rwxr-xr-x 1 root root 19400 may 13  2010 rred
+> -rwxr-xr-x 1 root root 25216 may 13  2010 rsh
+> -rwxr-xr-x 1 root root 25216 may 13  2010 ssh
+>
+> Esto es desde una Lenny y no aparece... Quizá tengas que montar el
+> recurso samba en local y usar un recurso de tipo file://.
+>
+>> Como podría configurar para alar los paquetes desde la PC original que
+>> está en squeeze y poder montar el entorno gráfico?
+>
+> Esto no lo entiendo... para instalar un entorno gráfico selecciona el
+> metapaquete del entorno que prefieras y punto (apt-get install ...) :-?
+>
+> Saludos,
+>
+> Camaleón
+>
+
+
+Lo que pretendía es ver si existe alguna forma de que me vea la ruta 
+\\Clt_iyc_03\debian\wheezy desde consola para poder instalar. Se de sobra 
+que después se instala con apt-get o aptitude. Pero para eso el sources.list 
+debe estar apuntando al repositorio, que es lo que no se hacer.
+
+Ahora mirando el listado de consola les pregunto que si no podría entrar por 
+ssh? Talvez esto se una burrada.
+
+Ya que si copio samba para una memoria seguro me pedirá otros paquetes. Y 
+sería el como nunca acabar.
+
+Quisisera saber si existe alguna vía posible que yo desde consola vea una 
+carpeta de la PC anfitrión o si tendría que por obligación copiar el 
+repositorio a un disco externo e instalar desde este?
+=========
+|| ISMAEL ||
+=========
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/99A136EA87E84B46BA9A71234A6FA94E@eicc.citricos.cu
+

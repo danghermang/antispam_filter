@@ -1,0 +1,94 @@
+Subject:Delivery failure
+Message from yahoo.com.
+Unable to deliver message to the following address(es).
+
+<nickyevans1@yahoo.com>:
+This user doesn't have a yahoo.com account (nickyevans1@yahoo.com) [-5]
+
+--- Original message follows.
+
+The original message is over 5K. Message truncated.
+
+Return-Path: <patrick.wolf@trashymail.com>
+X-YahooFilteredBulk: 1.173.171.99
+Received-SPF: none (domain of trashymail.com does not designate permitted sender hosts)
+X-YMailISG: rdLsNqsWLDsi8Pbafk8AjZ_C0kCjZFtgW.K.eEqWEwzgUE4D
+ eE5o8oUDmJy2SDn8TZjpIwBpEJzIK1IpD_XSGbmUhP2NktQgzN6K95en4Y6C
+ 29HB65_D5e5ph0oMzUB5VBfftR72laNhJRvFspdHenLfdFgfkIQ5f0t0y2pb
+ _brEI_SdE2aU7ovbYHyfs3ILf09T1n7_vKTqd6ho2XrTdfEB_gF8YUpYb3az
+ AcmBJrePwxGmeegL_ryTS68kurV626wJnBlBivjMoRiJKPB6TeSrLXe7B8A0
+ gwHmbTFE4t6r0ZXk4Ct4RaTyYehSrQkXAsYNn2yb09EQmwcoaP7tuurPfHFT
+ 6UfsKoiHUrkSJMgIyUouWLUuEeOBpIhBtvk3qPndDAVlrD8s2rXz6pKbhTHR
+ iqBuS5jYNznzpSXxN0N2xU9rnFZJ2N.NkRrfCwexjoAf5odJE.DNhdQfwhon
+ HCk97f1BtFyoPdglljO_w3_loI7Z8ajode_k.MMqFLB.wmOSX0KxltDUSuob
+ HFc5817iCjyXZ2W5KXHFCnXn35H.inyMZWZYtUyUJNGUKo_RGZSeLUloxtfU
+ niBi304quAQ6yhTs2o6s0KVq48IV4puoyD4TXoJtN2ZlqfOIpDRFxl.fZYUW
+ 70MTXiq5D8x9Mc6q_8pDdSLEqpJ6St2RV0OKFhc1s_MnLbhGBJRrvOb82zWi
+ .h0onbSvIuCqiSmI088U6foYdE5pPiY57MIAcFTySGRiZ63JqaBgNyDA7PH5
+ WuXQ3lG97fuNdWHZaRDFUA2BUXgfQ4PGFng0EdAhWWyzezFj3xJEpvP77HFH
+ PRPrZs8za8GdvX0ccezZ7YzhoF5TP6WPf1FO3o4xIMsMweylx8P4zC4cmH3r
+ WB3T1n6m8D_NqlgVP6FQcxggaSLQ4GLlFKHB6mODhKBPqN2.qDVGXRbHRT35
+ 9jX4EgeeH.ic6sTg0RMP8FsnUqJf7jy7HD6kMWihwP0nbsSi9NnyQ6Po3JWF
+ tgPsFbmF6fGx8DvOMTEJRUxjjq53yccR3gZ9pzuIf4PgZTyVaYqH.NA7p_GY
+ eeYvtpGJOuMFWGtop6gsjhsG4Di.5MlikrsvVMnb7XTEt_h16oVWOdCoGpGT
+ YTP00l6.NUyNlxNeWtEK0Ji7U25Orw9iVcFfBpcX6hOgU8DGzg3auYueIUvk
+ 7OlMwWSA7LQCmar49eC.DQ.S4HXYlRioUIZ61gZwVpMM.JPHh_IR95DOYxZw
+ bjR6NpLWQ1vuWHsX14IHCoBEDKpx_XK5J8bDG7mVegCHQyD9IKm_fQX5VYA7
+ rLpTtCxr0jzgBOCkITftlLcV6T9PFauCLsoHy0QF73VGheG5UkHDSiskKMbg
+ YH8IIEzfKAaTfvZJHhfwn468SZoKfhU6J5HLO3Y23o5vtOOp7PdXZZUZjUHe
+ 4ey1qzNXv766wrIWEVZ4mdr60uXJqdH0JSyg0el.J3AFkxt.Og--
+X-Originating-IP: [1.173.171.99]
+Authentication-Results: mta1257.mail.sk1.yahoo.com  from=trashymail.com; domainkeys=neutral (no sig);  from=trashymail.com; dkim=neutral (no sig)
+Received: from 127.0.0.1  (HELO 1-173-171-99.dynamic.hinet.net) (1.173.171.99)
+  by mta1257.mail.sk1.yahoo.com with SMTP; Sun, 09 Dec 2012 07:38:35 -0800
+Received: from d24-235-172-214.home2.justinofaria.com (HELO Kisha-PC) ([24.235.172.214])
+  by fipsb04.justinofaria.com with SMTP; Sun, 09 Dec 2012 10:38:26 -0500
+MIME-Version: 1.0
+Message-Id: <50C4221C.000014.02242@Kisha-PC>
+Date: Sun, 09 Dec 2012 10:38:26 -0500 (Eastern Standard Time)
+Content-Type: Multipart/related;
+  charset="iso-8859-1";
+  type="multipart/alternative";
+  boundary="------------Boundary-00=_WN0RENY1VA4000000000"
+X-Mailer: IncrediMail (6295181)
+From: "LRwatchzone" <patrick.wolf@trashymail.com>
+X-Priority: 3
+To: <larice219@yahoo.com>
+Subject: Must be in this weekend
+
+
+--------------Boundary-00=_WN0RENY1VA4000000000
+Content-Type: Multipart/Alternative;
+  boundary="------------Boundary-00=_XN0R9Y21VA4000000000"
+
+
+--------------Boundary-00=_XN0R9Y21VA4000000000
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+LRwatchzone
+2 DAYS LEFT!
+
+This will be the last weekend for Online Christmas Orders.
+Orders place before or on Monday December 10th, 2012 will ensure on-time
+delivery, watch model availability and price reductions of 30-75%!
+
+YES! Every watch has been reduced by 30-75%. (Ending Monday December 10th).
+Please be advised that these reductions only apply to in stock items.
+Currently everything is in stock and ready to ship within 1 hour.
+
+THE WORLD'S MOST ACCURATE WATCH COPIES BECAUSE:
+1. Metals and materials are the same as the original watch
+2. Labeling and engravings are the same as the original watch
+3. Hand Movement and time accuracy are the same as the original watch
+
+THE COUNTDOWN IS ON:
+http://www.lrwatchzone.com
+
+----
+*** MESSAGE TRUNCATED ***
+
+
+.
+

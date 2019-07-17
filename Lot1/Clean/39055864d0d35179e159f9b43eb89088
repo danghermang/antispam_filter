@@ -1,0 +1,26 @@
+Subject:kan je een bootable CD maken van een Ubuntu op (verborgen) disk ? 
+Hallo,
+
+daar ik vermoed dat er op de Ubuntu 12.04 van m'n Asus EEE 1225C ook nog
+extra drivers zijn meegegevel voor de MGA grafische kaart en de Cedar
+chipset, durf ik niet vanaf nul een kersverse 12.04 installeren.
+
+Ik vroeg me af of ik gewoon zonder meer van de dist op /dev/sda1 (die in 1b =
+
+type is) een bootable CD kon maken, zodat ik dit niet kwijt geraak ?
+
+(bij het live uitproberen van Cubuntu bleek al dat deze vermoedens gegrond
+waren: 't scherm ging in een lagere resolutie, 't scherm was daardoor niet
+gevuld).
+Tips welkom!
+
+Dank u.
+
+Y P =
+
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

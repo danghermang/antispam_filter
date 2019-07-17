@@ -1,0 +1,58 @@
+Subject:Re: Instalar FirebirdCS-2.5.2.26536-0.RC1.i686.tar.gz en squeeze
+On 17/09/12 20:28, Ismael L. Donis Garcia wrote:
+>> ----- Original Message ----- From: "Antonio Galicia"
+>> <antonio.galicia@gmail.com>
+>> To: "Ismael L. Donis Garcia" <ismael@citricos.co.cu>
+>> Cc: <debian-user-spanish@lists.debian.org>
+>> Sent: Monday, September 17, 2012 1:32 PM
+>> Subject: Re: Instalar FirebirdCS-2.5.2.26536-0.RC1.i686.tar.gz en squeeze
+>
+>
+>> 2012/9/17 Ismael L. Donis Garcia <ismael@citricos.co.cu>:
+>
+>>> Hoy estoy tratando de instalar al versión
+>>> FirebirdCS-2.5.2.26536-0.RC1.i686.tar.gz. Descargado desde el sitio
+>>> oficial
+>
+>>> Instala perfectamente, pero no inicia el servidor y no veo por ningún
+>>> lado
+>>> el porque no inicia.
+>
+>> Si usas la CS no hay servidor que iniciar, es inetd quien se encargar
+>> de escuchar el puerto y levantar un proceso que atienda la conexión.
+>> Entonces la pregunta es, ¿cómo sabes que no inicia el servidor más
+>> allá de que no puedes conectarte? Lo que debe arrancar el
+>> openbsd-inetd y debe estar escuchando el pto 3050. ¿Está ejecutando
+>> inetd? ¿Está escuchando el pto? ¿Te contesta desde localhost? ¿Puedes
+>> conectarse sin usar el pto tcp (por bibliotecas) ?
+>
+> Ese es el hecho que no te contesta desde localhost, ni desde ninguna
+> parte. Y si das la opción: ps aux desde una terminal ves que no está
+> correindo el servicio.
+>
+> Si, se debe iniciar el servicio cuando inicie el sistema operativo de
+> forma automática como un servicio, sin uno tenerlo que hacer a mano.
+>
+> De hecho ya logré hacerlo funcionar a mano con la instrucción:
+> root@ueb_cgi_05:/home/idonis# /opt/firebird/bin/fb_inet_server -s
+> DefaultInstance -m
+>
+> Pero lo que deseo es que se inicie cuando se inicie la PC. Y no tenerlo
+> que inicial a mano, ya que de esta forma no me sirve.
+>
+>> Saludos,
+>> PP
+>
+> Ahora lo que necesito conocer donde y como se configuran los servicios
+> en Debian para que inicien al iniciar la PC. Sin haberse logueado con un
+> usuario.
+> Alguien de la lista me podría dar una ayudita en esto?
+
+http://www.debian.org/doc/debian-policy/ch-opersys.html#s-sysvinit
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50577B99.70207@gmail.com
+

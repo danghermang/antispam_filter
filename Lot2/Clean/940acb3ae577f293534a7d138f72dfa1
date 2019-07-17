@@ -1,0 +1,56 @@
+Subject:Re: no me funciona el teclado ni mouse en X
+
+El vie, 21-09-2012 a las 19:45 -0300, Gonzalo Rivero escribi=C3=B3:
+> Holas,
+> pues... eso. Ayer o anteayer actualic=C3=A9 mi debian (tengo testing, =
+para
+> amd64 y actualizo cada 15 dias a un mes mas o menos)  y al volver a
+> encender la computadora desde entonces me doy con que no funcionaba =
+el
+> teclado ni el mouse, inicialmente pens=C3=A9 que era algo raro del
+> gdm/gnome, as=C3=AD que entr=C3=A9 por ssh y apagu=C3=A9 gdm, =
+prob=C3=A9 startx y nada,
+> teclado ni mouse responden (pero se que no se clav=C3=B3 el sistema =
+porque
+> veo cosas como el clima actualiz=C3=A1ndose)
+> Entonces fui un paso mas atr=C3=A1s, xinit, para no cargar =
+ning=C3=BAn
+> entorno... y tampoco. Como pueden ver en el log (
+> http://pastebin.com/9FFx8DGc ) lo =C3=BAnico raro son unos warning en =
+la
+> l=C3=ADnea 40 que me desactiva teclado y mouse por no se que de =
+hotplug,
+> prob=C3=A9 arrancando entonces SIN archivo de configuraci=C3=B3n y lo =
+=C3=BAnico que
+> cambi=C3=B3 es resoluci=C3=B3n bien fea porque levant=C3=B3 con vesa =
+y no el driver
+> de nvidia... y el mouse y teclado siguen sin funcionar. =C2=BFdonde =
+se como
+> desactivar ese hotplug?, igual no estoy desconectando y conectando el
+> teclado ni el mouse todo el tiempo, de hecho mi computadora est=C3=A1 =
+en un
+> lugar que esos conectores quedan muy inc=C3=B3modos como para estar
+> poniendo y sacando a cada rato
+> Cabe notar que no son usb o algo 'nuevo' sino los ps/2 de toda la
+> vida, y que ni siquiera responden los led de blocknum/mayus/despl
+> cuando estoy en X, por lo tanto no puedo pasar a las consolas y estoy
+> obligado a entrar por ssh para matar X y poder hacer cosas.
+>=20
+>=20
+
+Yo hice esa misma pregunta hace poco por que me pasa lo mismo y nadie =
+me
+ha contestado.
+Por lo que he visto en mis log solo falla el usbfs que no se soporta el
+las nuevas versiones.
+=C2=BFLo usas tu?.
+
+--=20
+trujo <antonio.trujillo.sspa@juntadeandalucia.es>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1348473337.5390.14.camel@trujo.hvn.sas.junta-andalucia.es
+

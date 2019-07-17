@@ -1,0 +1,21 @@
+Subject:Re: [LUG] Linux - and security
+On Fri, Nov 2, 2012 at 12:40 PM, Julian Hall wrote:
+> something which was previously perfectly safe to do
+
+I'm not sure if I agree with this. Sure, it was safe for you to do so,
+but it also allowed malware and/or people having gained unauthorized
+access to your machine to upload your files onto a remote FTP server.
+
+Ideally, you'd block outbound FTP to all servers but the one(s) you use.
+
+Also, since you mention "port forwarding", are you talking about an
+FTP server running on your machine, or one running elsewhere that you
+use to download files from and upload files to? Your email suggests
+the latter, but port forwarding is generally about the former.
+
+Martijn.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

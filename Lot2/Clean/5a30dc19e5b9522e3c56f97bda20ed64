@@ -1,0 +1,63 @@
+Subject:Re: OT: Programar en python
+2012/10/9 Carlos Carcamo <eazyduiz@gmail.com>:
+> Saludos lista.
+>
+> Hace d=C3=ADas que me he venido interesando por aprender python, ya conoz=
+co java,
+> php, scala, y otros lenguajes, ahora quiero aprender python nada m=C3=A1s=
+ por
+> hoby,  pues veo que es muy usado en la comunidad open source, pero no se =
+por
+> donde empezar, me he bajado algunos libros sin leerlos aun pues no se cua=
+l
+> es el indicado para mi...
+>
+> me pregunto si ustedes me pueden recomendar uno que me ayude a entender l=
+as
+> bases de este lenguaje, pues he bajado unos y me doy cuenta que se centra=
+n
+> en como programar y usan python para los ejemplos, pero no se centran en =
+el
+> lenguaje en si.
+> Me gustar=C3=ADa saber si habr=C3=A1 un libro al estilo de "como programa=
+r en java de
+> deitel" que se centra de lleno en las cualidades de java, o tambi=C3=A9n =
+al
+> estilo de "scala for impatient" que igual se centra en las caracter=C3=AD=
+sticas
+> del lenguaje scala.
+>
+> Otra raz=C3=B3n por aprender python es porque en pocos d=C3=ADas comienza=
+ el curso "an
+> introduction to interactive programming in python" en coursera aunque ah=
+=C3=AD me
+> dar=C3=A1n algunas de las bases quiero tener un libro como referencia par=
+a seguir
+> el curso.
+>
+> Cual libro me recomiendan?
+>
+
+Tal vez te interese este, "Python for Java Programmers":
+http://python4java.necaiseweb.org/Main/TableOfContents
+
+No esta terminado, pero al menos la parte 2 te ser=C3=A1 =C3=BAtil.
+
+A parte ac=C3=A1 hay varios tutoriales orientados a personas que ya saben
+de programaci=C3=B3n:
+http://wiki.python.org/moin/BeginnersGuide/Programmers
+
+Entre otros, ah=C3=AD mencionan un libro "Python essential reference" que
+puede ser lo que estas buscando.
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjOZYu_xxkB7t39xX=y+7j5m8AUTYNfupb7qDdZ4_wCUXQ@mail.gmail.com
+

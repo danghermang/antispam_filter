@@ -1,0 +1,22 @@
+Subject:Re: [Jukebox-list] 6973 to el84 info needed.
+Ed, that is correct, disconnect the wire(s) that go to Pins 1and/or 8 which=
+ is grid 2, place a terminal strip nearby (or use a convenient non-grounded=
+ tie point)=A0 and place the new 100 ohm resistors in place of the direct c=
+onnection.
+
+Since the diagrams show the tube having Pins 1&8 together internally the ch=
+oice to jump them is up to you. No big advantage that i can see.
+
+Rowe did not start adding those resistors until a year or so into the use o=
+f 7868 tubes. Those tubes being highly efficient, are prone to shorts and I=
+ guess a few fried trans convinced them that it was worth the 100th of a ce=
+nt more to add them.
+
+Rob/NYC
+
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

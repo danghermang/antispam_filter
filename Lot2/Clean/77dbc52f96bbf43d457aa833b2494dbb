@@ -1,0 +1,48 @@
+Subject:Re: [rlug] chroot jail
+Salut,
+
+incearca un "restricted shell" si vezi daca te ajuta cu ceva. Un exemplu ca=
+ sa vezi functionalitatile ar fi rssh.
+
+CH.
+
+--- On Fri, 11/2/12, Ovidiu Constantin <ovidiu@mybox.ro> wrote:
+
+> From: Ovidiu Constantin <ovidiu@mybox.ro>
+> Subject: Re: [rlug] chroot jail
+> To: rlug@lists.lug.ro
+> Date: Friday, November 2, 2012, 2:13 PM
+> On 11/02/2012 10:55 AM, Alex 'CAVE'
+> Cernat wrote:
+> > mda, gasisem solutia asta, dar cica n-ar fi mers, desi
+> ma uit in man si
+> > optiunea este acolo, deci ar merita incercata
+> > ce n-am inteles pana acuma e cum sa fac chroot-ul doar
+> pentru
+> > utilizatorul respectiv (ca din cate vad optiunea este
+> globala)
+> > dupa cum ziceam, chroot-ul este functional, cam tot ce
+> e nevoie e acolo
+> > (sau daca mai trebuie ceva mai bag pe parcurs), trebuie
+> doar sa-l bag
+> > direct in jail atunci cand intra prin ssh (prin orice
+> metoda)
+> =
+
+> Uita-te in man sshd_conf, la Match User.
+> =
+
+> -- =
+
+> Ovidiu Constantin <ovidiu@mybox.ro>
+> http://blog.mybox.ro/=A0 *=A0 http://twitter.com/ovidiusoft
+> _______________________________________________
+> RLUG mailing list
+> RLUG@lists.lug.ro
+> http://lists.lug.ro/mailman/listinfo/rlug
+> =
+
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

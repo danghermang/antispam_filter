@@ -1,0 +1,82 @@
+Subject:Re: Gestion d'un repository & support d'apt-mirror [was Re:
+	Apt-mirror et "Le fichier =?UTF-8?B?wqs=?= Release =?UTF-8?B?wrs=?= a
+	=?UTF-8?B?ZXhwaXLDqSJd?=
+Le Thu, 11 Oct 2012 10:13:47 +0200,
+Jean-Jacques Doti <bugs@doti.fr> a =C3=A9crit :
+>Salut,
+>
+>Le 11/10/2012 09:51, David BERCOT a =C3=A9crit :
+>> Bonjour,
+>>
+>> Comme ce sujet int=C3=A9resse apparemment d'autres personnes et que j'ai
+>> beaucoup de mal =C3=A0 trouver du support sur l'outil "apt-mirror", je
+>> retente ma chance ;-)
+>>
+>> Concernant ma question pr=C3=A9c=C3=A9dente ("Le fichier =C2=AB Release =
+=C2=BB a
+>> expir=C3=A9"), je n'ai toujours pas de r=C3=A9ponse. J'ai essay=C3=A9 d'=
+=C3=A9crire aux
+>> mainteneurs du paquet sans succ=C3=A8s. Est-ce que, par hasard, vous
+>> savez =C3=A0 qui je pourrais m'adresser ?
+>Dans chaque r=C3=A9pertoire "dists" cr=C3=A9=C3=A9 par apt-mirror (ou plut=
+=C3=B4t dans le=20
+>sous r=C3=A9pertoire de la distribution, par exemple=20
+>.../ftp.fr.debian.org/debian/dists/wheezy), il y a un fichier
+>"Release" qui contient une donn=C3=A9e "Valid-Until:". Je pense que ton
+>probl=C3=A8me survient lorsque la date indiqu=C3=A9e est d=C3=A9pass=C3=A9=
+e. J'ai tout de
+>m=C3=AAme peur que si tu modifie cette date, la signature contenue dans le
+>fichier Release.gpg ne soit plus valide. Tu as donc, il me semble,
+>deux solutions : soit tu ne v=C3=A9rifies pas la date, soit tu ne v=C3=A9r=
+ifies
+>pas la signature (ou alors tu ressignes avec une cl=C3=A9 t'appartenant,
+>mais tu devras aussi distribuer le certificat).
+
+Comme indiqu=C3=A9 dans mon mail pr=C3=A9c=C3=A9dent, en effet, il faut
+vraisemblablement resigner l'ensemble... La m=C3=A9thode qui consiste =C3=A0
+utiliser une cl=C3=A9 personnelle et =C3=A0 la redistribuer sur les serveur=
+s qui
+se synchronisent sur ce repository semble en effet la meilleure. Il ne
+me reste plus qu'=C3=A0 trouver comment faire cela ;-)
+
+>> Ensuite, sur mon repository local, j'ai de nouveaux besoins qui
+>> arrivent. Ainsi, je souhaiterais mettre =C3=A0 disposition des packages
+>> Debian internes. Pour cela, j'aurais besoin que ces paquets soient
+>> "visibles" =C3=A0 partir des serveurs (via apt-cache search, apt-get
+>> install, etc...). Je suppose donc qu'il faudrait que les fichiers
+>> Contents-amd64.gz, Release, Release.gpg, etc... int=C3=A8grent les bonnes
+>> informations. Savez-vous comment je dois proc=C3=A9der ?
+>Il me semble que pour cela, l'id=C3=A9al serait que tu cr=C3=A9=C3=A9s ton=
+ propre=20
+>d=C3=A9p=C3=B4t, en plus des d=C3=A9p=C3=B4ts officiels que tu r=C3=A9pliq=
+ues. =C3=87a t'obligera
+>tout de m=C3=AAme =C3=A0 ajouter ce d=C3=A9p=C3=B4t sur les machines en ay=
+ant besoin
+>(fichier =C3=A0 ajouter dans  /etc/apt/sources.list.d/).
+>Pour faire les choses proprement, il faudrait aussi que tu signes les=20
+>fichiers de ton d=C3=A9p=C3=B4t ou que tu ne v=C3=A9rifie pas les signatur=
+es (ajout
+>de l'option "trusted=3Dyes" [cf man sources.list]) pour ce d=C3=A9p=C3=B4t.
+
+J'ai donc ajout=C3=A9 un nouveau repository avec reprepro et =C3=A7a foncti=
+onne
+tr=C3=A8s bien. Il ne me reste donc l=C3=A0 encore plus que la question de =
+la
+signature...
+
+>> Merci d'avance.
+>De rien. J'esp=C3=A8re que cela te sera utile.
+
+Ca m'a =C3=A9t=C3=A9 utile ;-) Merci.
+
+David.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121013102335.2c2ac88a@debian-david
+

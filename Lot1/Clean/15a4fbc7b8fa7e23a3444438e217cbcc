@@ -1,0 +1,54 @@
+Subject:Re: Acceder como root en gnome
+No entiendo bien la pregunta, quieres saber c=C3=B3mo acceder al sistema
+como s=C3=B9perusuario? OMFG Debian es la distro y Gnome, Lxde. Xfce, KDE,
+etc, son desk, cosa distinta y que pueden variar y hasta convivir
+varias de ellas.
+Am=C3=A9n de eso. en una termial pon=C3=A9s el comando "su", te pide la
+contrase=C3=B1a que asignaste para el caso y ya. en la terminal aparecer=C3=
+=A1 #
+que indicar=C3=A1 que est=C3=A1s como root.
+
+Reitero, OMFG
+Claudio
+
+El d=C3=ADa 4 de octubre de 2012 07:03, Liuber's Hdez=E2=88=B4
+<hliuber@ucm.vcl.sld.cu> escribi=C3=B3:
+> Hola Lista, Buenas tardes.
+>
+> Qu=C3=A9 fichero debo modificar en squeeze para accesar a gnome como root=
+.
+>
+> gracias de antemano,
+> --
+> Atentamente,
+> M=E2=88=B4M=E2=88=B4 liuber hdez
+> Villa Clara, Cuba.
+>
+>
+>
+>
+>
+> --
+>
+> Este mensaje le ha llegado mediante el servicio de correo electronico que=
+ ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema =
+Nacional de Salud. La persona que envia este correo asume el compromiso de =
+usar el servicio a tales fines y cumplir con las regulaciones establecidas
+>
+> Infomed: http://www.sld.cu/
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/1349345013.3959.1.camel@infobiblio.fts.l=
+ocal
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAK407D6R8PdO1StftdH58mpVYG-_jeRjfrULyWOz8ANFmgJDTw@mail.gmail.com
+

@@ -1,0 +1,22 @@
+Subject:Warning: message 1ThRbw-0003Bk-7G delayed 24 hours
+This message was created automatically by mail delivery software.
+A message that you sent has not yet been delivered to one or more of its
+recipients after more than 24 hours on the queue on jon-ext-mx12.ports.local.
+
+The message identifier is:     1ThRbw-0003Bk-7G
+The subject of the message is: Good day to you my friend
+The date of the message is:    Sat, 08 Dec 2012 16:06:57 -0500
+
+The address to which the message has not yet been delivered is:
+
+  cu-taaket.31@got-pih-mail01.ports.local
+    (generated from 0d7d5d74@scantech.se)
+    Delay reason: SMTP error from remote mail server after RCPT TO:<cu-taaket.31@got-pih-mail01.ports.local>:
+    host got-pih-mail01.ports.local [192.168.20.178]:
+    452 4.2.2 Over quota
+
+No action is required on your part. Delivery attempts will continue for
+some time, and this warning may be repeated at intervals if the message
+remains undelivered. Eventually the mail delivery software will give up,
+and when that happens, the message will be returned to you.
+

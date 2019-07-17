@@ -1,0 +1,56 @@
+Subject:Re: libgl1-nvidia-glx:i386
+Hola...
+
+El 05/12/12 13:20, Camaleón escribió:
+> El Wed, 05 Dec 2012 13:04:14 -0300, Walter O. Dari escribiÃ³:
+>
+>> El 05/12/12 12:23, CamaleÃ³n escribiÃ³:
+>
+> (...)
+>
+>>> de todas formas, hay un paquete de "transiciÃƒÂ³n" aquÃƒÂ­:
+>>>
+>>> http://packages.debian.org/wheezy/ia32-libs
+>>>
+>>>> Por eso es por lo que recomiendo pasar del paquete de 64 bit e
+>>>> instalar el original de 32.
+>>>
+>>> Realmente no hay paquete de 64 bits puro, pero si el paquete pide una
+>>> dependencia que no es posible satisfacer, habrÃƒÂ­a que informar al
+>>> empaquetador (que es Google en este caso) para que lo corrija.
+>>
+>> Casualmente, ayer no pude instalar google-earth 64 bits en Wheezy,
+>> instalÃ© lsb-core sin problemas pero ia32-libs fue imposible.
+>
+> Â¿Y no lo pudiste instalar por algÃºn motivo en concreto? Es decir, Â¿te
+> aparecÃ­a algÃºn error o conflicto cuando lo marcabas?
+
+Daba problema de dependencias y la única opción era dejar ia32-libs y 
+google-earth sin instalar.
+
+Cómo a ese programa no me lo habían pedido y ya hacía más de 20 hs. que 
+estaba despierto, cancelé la instalación y me fui a dormir. Ahora ya no 
+tengo el equipo.
+
+> Si hay algÃºn error hay que informar porque el problema no se va a
+> solucionar por sÃ­ solo :-)
+>
+> Saludos,
+>
+
+Saludos
+
+
+-- 
+
+Walter O. Dari
+
+http://swcomputacion.com/
+skype: waomda
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BFC1A1.2010505@gmail.com
+

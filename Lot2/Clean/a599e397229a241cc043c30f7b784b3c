@@ -1,0 +1,68 @@
+Subject:Re: activar segunda tarjeta de red eth1
+El 07/11/12 13:25, Francisco Eduardo Ascencio Dominguez escribi�:
+>
+>
+> El 07/11/2012, a las 09:59, "Walter O. Dari"<wlinuxw@gmail.com>  escribió:
+>
+>> El 07/11/12 12:45, Francisco Eduardo Ascencio Dominguez escribió:
+>>>
+>>>
+>>>
+>>> El 07/11/2012, a las 09:37, CamaleÃ³n<noelamac@gmail.com>   escribiÃ³:
+>>>
+>>>> El Wed, 07 Nov 2012 10:05:27 -0500, correo personal escribiÃ³:
+>>>>
+>>>>> como lo puedo hacer??
+>>>>
+>>>> Â¿CÃ³mo puedes hacer "quÃ©"? Â¿Responder a un correo del aÃ±o 2006 o activar
+>>>> una segunda tarjeta de red en Sarge?>:-P
+>>>>
+>>>> Saludos,
+>>>>
+>>>> --
+>>>> CamaleÃ³n
+>>>>
+>>>>
+>>>> --
+>>>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>>>> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+>>>> Archive: http://lists.debian.org/k7dv7c$bcr$7@ger.gmane.org
+>>>
+>>> asi. sudo iconfig eth1 up
+>>>
+>>> y para que siempre se monte automatikamente modifica /etc/network/interfaces y donde dice auto lo agregale eth1
+>>>
+>>> corriganme si me equivoco saludos
+>>
+>> Bueno, ya que lo pides...
+>>
+>> Es "automáticamente" y no "automatikamente"
+>> Es "corríjanme" y no "corriganme"
+>>
+>> :-b
+>>
+>>
+>> Saludos,
+>> Walter
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/509A855A.8080508@gmail.com
+>>
+>>
+>
+> jaja ok ok en veces suele pasar jaja XD:
+>
+
+A veces metemos el dedo mal...
+
+Saludos !
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509A9C1E.2010104@gmail.com
+

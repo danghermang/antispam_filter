@@ -1,0 +1,24 @@
+Subject:Re: [mat-wg] New on RIPE Labs: New Text Service for RIPEstat
+Hello Mirjam, et al,
+
+thank you for the work on providing the text-based output for STAT.
+Please send thank-yous to the team.
+
+I have just noticed that if you query for e.g. an IPv4 prefix,
+it also seems to report a 1% IPv6-visibility on the 88 IPv6 peers.
+Is that a rounding-bug? :)
+
+Cheers
+Sascha
+
+> RIPEstat is now also available as a text-based interface for users who prefer 
+> a command-line interface (CLI) and those interested in including RIPEstat 
+> data in shell scripting. Please find more information on RIPE Labs:
+
+-- 
+Sascha E. Pollok                      E-Mail: sp@iphh.net
+Manager Network Design and Operations Tel: +49 (0)40 374919-10
+IPHH Internet Port Hamburg GmbH       Fax: +49 (0)40 374919-29
+Wendenstrasse 408                     AG Hamburg, HRB 76071
+20537 Hamburg, Germany                CEO: Axel G. Kroeger
+

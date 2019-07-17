@@ -1,0 +1,62 @@
+Subject:Re: Upgrade von 11.04 auf 12.10
+Harald Weidner schrieb:
+> Hallo,
+>
+> Ralf Lehmeier <r.lehmeier@freenet.de>:
+>
+>> Ich m=F6chte meinen Rechner von 11.04 auf 12.10 upraden.
+>> Gibt es etwas zu beachten
+>
+> Da 11.04 keine LTS Distribution ist, gibt es nur einen offiziell
+> unterst=FCtzten Upgrade-Pfad:
+> 11.04 -> 11.10 -> 12.04 LTS -> 12.10
+
+Wie bekomme ich das denn hin =FCber die Aktualisierungssoftware wird zwar =
+
+11.10 angeboten scheint aber nicht mehr auf dem Server zu liegen.
+
+> Es ist zu =FCberlegen, ob eine Neuinstallation nicht schneller zum
+> Ziel f=FChrt.
+
+Hatte ich auch schon ins Auge gefasst aber das ist immer so aufwendig =
+
+wenn ich die Software nachr=FCsten und neu konfigurieren mu=DF
+
+...
+
+>> Gibt es eine M=F6glichkeit den Gnome 2 wieder zu bekommen? Den kennen
+>> meine Anwender ja oder wenigstens nur den normalen Gnome ohne Unity.
+>
+> Gnome 2 ist nicht mehr in Ubuntu enthalten. Man kann aber den MATE
+> Desktop, ein Fork von Gnome 2, installieren.
+> http://mate-desktop.org/
+
+Mate entspricht dem Gnome 2? Gut zu wissen.
+
+> Oder man nimmt gleich LinuxMint Maya, das ist ein Ubuntu-Derivat mit
+> dem MINT Desktop.
+> http://blog.linuxmint.com/?p=3D2031
+
+Hatte ich auch schon =FCberlegt aber ich wei=DF nicht wie ich Mint =
+
+einsch=E4tzen soll z.B bei Updates.
+Die Version die ich mir angesehen habe hei=DFt LMDE und ist ein =
+
+sogenanntes "Rolling Release", weil ich gern mit der aktuellsten =
+
+Software arbeite.
+Leider wei=DF ich nicht ob es zuverl=E4ssig funktioniert. Ich pers=F6nlich =
+
+arbeite gern lieber mit KDE, nur bei einem Rechner m=F6chte ich lieber =
+
+Gnome 2 f=FCr die Anwender haben da hier weniger Einarbeitung n=F6tig ist.
+
+MfG R.Lehmeier
+
+
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

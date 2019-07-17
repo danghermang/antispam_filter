@@ -1,0 +1,464 @@
+Subject:LeParisien.fr - A la Une ce matin
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>leParisien.fr</title>
+</head>
+
+<body bgcolor="#dcdcdc">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#dcdcdc" style="font-family:Arial, Helvetica, sans-serif;">
+<tr>
+<td align="center" valign="top">
+
+<!-- header -->
+<table width="520" height="80" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+    <tr>
+        <td height="65" colspan="5" align="center" valign="middle" style="font-size:11px; color:#666;" bgcolor="#DCDCDC">
+            Si cet email ne s'affiche pas correctement, vous pouvez le <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NAwfcStGb5lw8W0bBhOG5mpqVsje_HheFbilN0" style="color:#666;"><u>visualiser ici</u></a>.<br/>
+			Pour vous assurer de recevoir nos emails, ajoutez <a href="mailto:news@email.leparisien.fr" style="color:#666;">news@email.leparisien.fr</a> &agrave; votre carnet d'adresses.<br/>
+			Si vous ne souhaitez plus recevoir la newsletter de la part du Parisien.fr, vous pouvez vous <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NAxvcStGb5lw8W0bBhOG5mpqVsje_HheFbilN1" style="color:#666;"><u>d&eacute;sabonner</u></a>.
+		</td>
+    </tr>
+    <tr>
+        <td width="5" rowspan="2" align="right" valign="top">
+            <img src="http://www.leparisien.fr/icons/header-degradeleft.png" width="5" height="52" style="display:block;" /></td>
+        <td width="163" height="24" valign="bottom">
+            <img src="http://www.leparisien.fr/icons/header-topleft.png" width="163" height="24" style="display:block;" /></td>
+        <td rowspan="2" valign="bottom">
+            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NAx_cStGb5lw8W0bBhOG5mpqVsje_HheFbilN6">
+                <img src="http://www.leparisien.fr/img/logoParisien-202x57.png" alt="leParisien.fr" width="184" border="0" style="display:block;" /></a></td>
+        <td width="163" height="24" align="right" valign="bottom">
+            <img src="http://www.leparisien.fr/icons/header-topright.png" width="163" height="24" style="display:block;" /></td>
+        <td width="5" rowspan="2" align="left" valign="top">
+            <img src="http://www.leparisien.fr/icons/header-degraderight.png" width="5" height="52" style="display:block;" /></td>
+    </tr>
+    <tr>
+        <td height="28" valign="top" background="http://www.leparisien.fr/icons/bg-header.png" style="font-size:11px; color:#333;">
+            <img src="http://www.leparisien.fr/icons/dot.gif" width="10" height="5" align="texttop" /></td>
+        <td width="163" height="28" align="right" valign="top" background="http://www.leparisien.fr/icons/bg-header.png" style="font-size:14px; color:#333;font-weight:bold;">
+            <img src="http://www.leparisien.fr/icons/dot.gif" width="10" height="5" align="texttop" style="display:block;" /></td>
+    </tr>
+</table>
+
+<!-- main -->
+<table width="520" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+<!--col N10 -->
+<!-- ###debut-BLOC### Newsletter - PUB1-->
+<!--bH-->
+<tr><td width="5" rowspan="9" align="right" valign="top" background="http://www.leparisien.fr/icons/degrade-left.png"></td><td width="21" rowspan="2"><img src="http://www.leparisien.fr/icons/dot.gif" width="21" height="10" /></td><td><table width="468" height="91"  border="0" align="left" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"><tr><td height="91" valign="middle"><img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="20" /><br><a href="http://email.leparisien.fr/HS?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NAxPcStGb5lw8W0bBhOG5mpqVsje_HheFbilN7"><img src="http://www.smartadserver.com/call/pubi/2358/76804/631/M/1355127229/?" border="0"></a><br><img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="11" /></td></tr></table></td><td width="21" rowspan="2"><img src="http://www.leparisien.fr/icons/dot.gif" width="21" height="10" /></td><td width="5" rowspan="9" valign="top" background="http://www.leparisien.fr/icons/degrade-right.png"></td></tr>
+
+<!-- ###fin-BLOC### Newsletter - PUB1-->
+<!-- ###debut-BLOC### Newsletter - A LA UNE-->
+<!--bMnorm - template :  bloc_une_nl.tpl -->
+                        <tr>
+                            <td align="left">
+                                                    <!-- UNE article avec image-->
+                                <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10"/>
+                                <br>
+                                <table width="468" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="border-bottom:1px solid #dcdcdc;">
+                                    <tr>
+                                        <td width="116" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NAxfcStGb5lw8W0bBhOG5mpqVsje_HheFbilN4">
+                                                <img src="http://www.leparisien.fr/images/2012/12/06/2385149_photo-1354792492438-2-0_95x95.jpg" alt="" width="95" height="95" border="0" style="display:block;" /></a></td>
+                                        <td width="352" align="left" valign="top" style="font-size:13px; color:#666;">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA2vcStGb5lw8W0bBhOG5mpqVsje_HheFbilN5" style="font-size:18px; color:#333; text-decoration:none; margin-bottom:11px; display:block; line-height:18px;" title="">
+                                                <font size="4" color="#333"><strong>Gaz : les tarifs r&eacute;glement&eacute;s augmenteront de 2,4% au 1er janvier</strong>
+                                                </font></a>
+                                            Les tarifs r&eacute;glement&eacute;s du gaz de GDF Suez augmenteront de 2,4% au 1er janvier, a annonc&eacute; ce lundi sur France Inter Delphine Batho, la ministre de...
+                                         </td>
+                                    </tr>
+									<tr>
+										<td colspan="2" width="468"><img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10"/></td>
+									</tr>
+                                </table>
+                             
+       
+                                                    <!-- UNE article avec image-->
+                                <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10"/>
+                                <br>
+                                <table width="468" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="border-bottom:1px solid #dcdcdc;">
+                                    <tr>
+                                        <td width="116" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA2_cStGb5lw8W0bBhOG5mpqVsje_HheFbilN-">
+                                                <img src="http://www.leparisien.fr/images/2012/12/10/2395481_prof-illustr_95x95.jpg" alt="" width="95" height="95" border="0" style="display:block;" /></a></td>
+                                        <td width="352" align="left" valign="top" style="font-size:13px; color:#666;">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA2PcStGb5lw8W0bBhOG5mpqVsje_HheFbilN_" style="font-size:18px; color:#333; text-decoration:none; margin-bottom:11px; display:block; line-height:18px;" title="">
+                                                <font size="4" color="#333"><strong>Peillon lance une campagne pour recruter 43 000 profs</strong>
+                                                </font></a>
+                                            Les suppressions de postes inqui&eacute;taient lors du quinquennat pr&eacute;c&eacute;dent, aujourd&#039;hui, c&#039;est la profusion qui fait peur : Vincent Peillon lance lundi...
+                                         </td>
+                                    </tr>
+									<tr>
+										<td colspan="2" width="468"><img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10"/></td>
+									</tr>
+                                </table>
+                             
+       
+                                                    <!-- UNE article avec image-->
+                                <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10"/>
+                                <br>
+                                <table width="468" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="border-bottom:1px solid #dcdcdc;">
+                                    <tr>
+                                        <td width="116" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA2fcStGb5lw8W0bBhOG5mpqVsje_HheFbilN8">
+                                                <img src="http://www.leparisien.fr/images/2012/12/09/2392953_dede_95x95.jpg" alt="" width="95" height="95" border="0" style="display:block;" /></a></td>
+                                        <td width="352" align="left" valign="top" style="font-size:13px; color:#666;">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA3vcStGb5lw8W0bBhOG5mpqVsje_HheFbilN9" style="font-size:18px; color:#333; text-decoration:none; margin-bottom:11px; display:block; line-height:18px;" title="">
+                                                <font size="4" color="#333"><strong>G&eacute;rard Depardieu s&#039;installe en Belgique,  &agrave; un kilom&egrave;tre de la fronti&egrave;re...</strong>
+                                                </font></a>
+                                            Comme un pied-de-nez &agrave; l&#039;Hexagone, notre&nbsp;&laquo;g&eacute;g&eacute; national&raquo; s&#039;est install&eacute; &agrave; moins d&#039;un kilom&egrave;tre de la fronti&egrave;re... L&#039;acteur a &eacute;lu domicile le 7...
+                                         </td>
+                                    </tr>
+									<tr>
+										<td colspan="2" width="468"><img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10"/></td>
+									</tr>
+                                </table>
+                             
+       
+                                                    <!-- UNE article avec image-->
+                                <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10"/>
+                                <br>
+                                <table width="468" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="border-bottom:1px solid #dcdcdc;">
+                                    <tr>
+                                        <td width="116" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA3_cStGb5lw8W0bBhOG5mpqVsje_HheFbilyC">
+                                                <img src="http://www.leparisien.fr/images/2012/12/09/2393059_img-0580-new_95x95.jpg" alt="  Rosalie Lucas" width="95" height="95" border="0" style="display:block;" /></a></td>
+                                        <td width="352" align="left" valign="top" style="font-size:13px; color:#666;">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA3PcStGb5lw8W0bBhOG5mpqVsje_HheFbilyD" style="font-size:18px; color:#333; text-decoration:none; margin-bottom:11px; display:block; line-height:18px;" title="">
+                                                <font size="4" color="#333"><strong>L&eacute;gislatives : rudes partielles pour le PS</strong>
+                                                </font></a>
+                                            C&rsquo;est une mauvaise nouvelle de plus pour Fran&ccedil;ois Hollande et Jean-Marc Ayrault. Hier soir, les r&eacute;sultats du premier tour des partielles des...
+                                         </td>
+                                    </tr>
+									<tr>
+										<td colspan="2" width="468"><img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10"/></td>
+									</tr>
+                                </table>
+                             
+       
+                                                    <!-- UNE article avec image-->
+                                <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10"/>
+                                <br>
+                                <table width="468" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="border-bottom:none;">
+                                    <tr>
+                                        <td width="116" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA3fcStGb5lw8W0bBhOG5mpqVsje_HheFbilyA">
+                                                <img src="http://www.leparisien.fr/images/2012/12/10/2394461_bc69e8ae-4253-11e2-a04f-00151780182c_95x95.jpg" alt="   N.J." width="95" height="95" border="0" style="display:block;" /></a></td>
+                                        <td width="352" align="left" valign="top" style="font-size:13px; color:#666;">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA0vcStGb5lw8W0bBhOG5mpqVsje_HheFbilyB" style="font-size:18px; color:#333; text-decoration:none; margin-bottom:11px; display:block; line-height:18px;" title="">
+                                                <font size="4" color="#333"><strong>DSK &agrave; l&rsquo;heure des comptes</strong>
+                                                </font></a>
+                                            Ce devrait &ecirc;tre le d&eacute;nouement de l&rsquo;un des plus incroyables feuilletons politico-juridiques que la France a connu. A 14 heures &agrave; New York &mdash; 19...
+                                         </td>
+                                    </tr>
+									<tr>
+										<td colspan="2" width="468"><img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10"/></td>
+									</tr>
+                                </table>
+                             
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+                            </td>
+                        </tr>
+
+<!-- ###fin-BLOC### Newsletter - A LA UNE-->
+<!-- ###debut-BLOC### Newsletter - VIDEO/ABO-->
+<!--bMnorm - template :  bloc_videoabo_nl.tpl -->
+                        <tr>
+                            <td colspan="3" align="center">
+                                <!-- SERVICES -->
+                                <table width="510" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td width="342" align="left" valign="top" bgcolor="#E6E6E6">
+                                            <!-- VIDEOS -->
+                                            <table width="342" height="250" border="0" cellpadding="0" cellspacing="0" bgcolor="#E6E6E6">
+                                                <tr>
+                                                    <td width="1" bgcolor="#FFFFFF">
+                                                        <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="250" /></td>
+                                                    <td width="20" align="right" valign="top" bgcolor="#E6E6E6">
+                                                        <img src="http://www.leparisien.fr/icons/video-cote.png" width="20" height="160" /></td>
+                                                    <td height="250" colspan="2" valign="top">
+                                                        <img src="http://www.leparisien.fr/icons/video-top.png" width="300" height="10" align="top" /><br />
+                                                        <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA0_cStGb5lw8W0bBhOG5mpqVsje_HheFbilyG"><img style="border:0px" src="http://www.leparisien.fr/icons/titreVideos.png" alt="VID&Eacute;OS" width="300" height="18" align="top" /></a><br />
+                                                        <img src="http://www.leparisien.fr/icons/video-top2.png" width="300" height="21" align="top" />
+                                                        <table width="300" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr bgcolor="#E6E6E6">
+                                                                <td width="147" height="116" valign="top" bgcolor="#E6E6E6">
+                                                                    <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA0PcStGb5lw8W0bBhOG5mpqVsje_HheFbilyH">
+                                                                        <img src="http://ta.kewego.com/t/0/0954/154x114_8676285a488s_2_kew1355081166.jpg" alt="Miss France 2013 : &laquo;Ma robe &eacute;tait trop petite &raquo;" width="147" height="111" border="0" align="top" style="margin-bottom:5px;" /></a></td>
+                                                                <td width="6" rowspan="3" valign="top" bgcolor="#E6E6E6">
+                                                                    <img src="http://www.leparisien.fr/icons/video-middle.gif" width="6" height="111" /></td>
+                                                                <td width="147" height="116" valign="top" bgcolor="#E6E6E6">
+                                                                    <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA0fcStGb5lw8W0bBhOG5mpqVsje_HheFbilyE">
+                                                                        <img src="http://ta.kewego.com/t/0/0639/154x114_0bd43293a67s_2_kew1355040392.jpg" alt="Gameiro : &laquo;On est repartis de plus belle&raquo;" width="147" height="111" border="0" align="top" style="margin-bottom:5px;" /></a></td>
+                                                            </tr>
+                                                            <tr bgcolor="#E6E6E6">
+                                                                <td width="147" align="left" valign="top" bgcolor="#E6E6E6" style="border-bottom:1px solid #C8C8C8; padding-bottom:8px;">
+                                                                    <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA1vcStGb5lw8W0bBhOG5mpqVsje_HheFbilyF" style="font-size:13px; color:#333; font-weight:bold; text-decoration:none;" >Miss France 2013 : &laquo;Ma robe &eacute;tait trop petite &raquo;</a></td>
+                                                                <td width="147" align="left" valign="top" bgcolor="#E6E6E6" style="border-bottom:1px solid #C8C8C8; padding-bottom:8px;">
+                                                                    <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA1_cStGb5lw8W0bBhOG5mpqVsje_HheFbilyK" style="font-size:13px; color:#333; font-weight:bold; text-decoration:none;">Gameiro : &laquo;On est repartis de plus belle&raquo;</a></td>
+                                                            </tr>
+                                                            <tr bgcolor="#E6E6E6">
+                                                                <td width="147" height="28" align="right" valign="middle" bgcolor="#E6E6E6">
+                                                                    <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA1PcStGb5lw8W0bBhOG5mpqVsje_HheFbilyL" style="font-size:11px; color:#333; text-decoration:none;">LIRE LA VID&Eacute;O 
+                                                                        <img src="http://www.leparisien.fr/icons/fl-gris.png" alt="Lire la vid&eacute;o" width="16" height="17" border="0" align="absmiddle" style="margin:5px 0" /></a></td>
+                                                                <td width="147" height="28" align="right" valign="middle" bgcolor="#E6E6E6">
+                                                                    <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA1fcStGb5lw8W0bBhOG5mpqVsje_HheFbilyI" style="font-size:11px; color:#333; text-decoration:none;">LIRE LA VID&Eacute;O 
+                                                                        <img src="http://www.leparisien.fr/icons/fl-gris.png" alt="Lire la vid&eacute;o" width="16" height="17" border="0" align="absmiddle" style="margin:5px 0" /></a></td>
+                                                            </tr>
+                                                        </table></td>
+                                                    <td width="20" align="left" valign="top" bgcolor="#E6E6E6">
+                                                        <img src="http://www.leparisien.fr/icons/video-cote.png" width="20" height="160" /></td>
+                                                    <td width="1" bgcolor="#FFFFFF">
+                                                        <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="250" /></td>
+                                                </tr>
+                                            </table>
+										</td>
+                                        <td width="168" align="left" valign="top" bgcolor="#00B4E6">
+                                            <!-- LE PARISIEN -->
+                                            <table width="168" height="250" border="0" cellpadding="0" cellspacing="0" bgcolor="#00B4E6">
+                                                <tr>
+                                                    <td width="20" rowspan="2" align="right" valign="top" bgcolor="#00B4E6">
+                                                        <img src="http://www.leparisien.fr/icons/parisien-cote.png" width="20" height="160" /></td>
+                                                    <td width="127" valign="center" style="font-size:13px; background-image:url('http://www.leparisien.fr/icons/parisien-cote.png'); color:#FFF; text-decoration:none; background-repeat:repeat-x;" bgcolor="#00B4E6">
+                                                         	 Recevez <b>le Parisien</b> chez vous tous les matins <b>avant 7h00</b><br /><br />
+                                                        <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA6vcStGb5lw8W0bBhOG5mpqVsje_HheFbilyJ">
+                                                            <img src="http://www.leparisien.fr/espace-premium/pdf-interactif/75_T_1.jpg" width="127" height="173" border="0" align="top" /></a></td>
+                                                    <td width="20" rowspan="2" align="left" valign="top" bgcolor="#00B4E6">
+                                                        <img src="http://www.leparisien.fr/icons/parisien-cote.png" width="20" height="160" /></td>
+                                                    <td width="1" rowspan="2" bgcolor="#FFFFFF">
+                                                        <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="250" /></td>
+                                                </tr>
+                                            </table></td>
+                                    </tr>
+                                </table></td>
+                        </tr>
+
+<!-- ###fin-BLOC### Newsletter - VIDEO/ABO-->
+<!-- ###debut-BLOC### Newsletter - PUB2-->
+<!--bH-->
+                        <tr>
+                            <td width="21">
+                                <img src="http://www.leparisien.fr/icons/dot.gif" width="21" height="10" /></td><td>
+                                <!-- PUB 2 -->
+                                <table width="468" height="92" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                                    <tr>
+                                        <td height="92" valign="middle">
+                                            <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="21" />
+                                            <br>
+<a href="http://email.leparisien.fr/HS?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA6_cStGb5lw8W0bBhOG5mpqVsje_HheFbilyO"><img src="http://www.smartadserver.com/call/pubi/2358/76804/5052/S/1355127229/?" border="0"></a>
+                                            <br>
+                                            <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="11" /></td>
+                                    </tr>
+                                </table></td>
+                            <td width="21">
+                                <img src="http://www.leparisien.fr/icons/dot.gif" width="21" height="10" /></td>
+                        </tr>
+
+<!-- ###fin-BLOC### Newsletter - PUB2-->
+<!-- ###debut-BLOC### Newsletter - PDCM-->
+<!--bMnorm - template :  bloc_pdcm_nl.tpl -->
+                        <tr>
+                            <!-- PDCM -->
+                            <td colspan="3">
+                                <table width="510" border="0" align="left" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td bgcolor="#F0F0F0">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA6PcStGb5lw8W0bBhOG5mpqVsje_HheFbilyP" title="L'actualit&#233; en Ile-de-France">
+                                                <img src="http://www.leparisien.fr/icons/bandeau-pdcm.gif" alt="L'actualit&eacute; en Ile-de-France" width="510" height="88" border="0" style="display:block;"></a></td>
+                                    </tr>
+                                </table></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="center">
+                                <table width="508" border="0" cellpadding="0" cellspacing="0" bgcolor="#F0F0F0">
+                                    <tr>
+                                        <td height="10" colspan="3">
+                                            <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10" style="display:block;" /></td>
+                                    </tr>
+                                    <!-- dep-->
+                                    <tr>
+                                        <td width="119" height="22" align="right" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA6fcStGb5lw8W0bBhOG5mpqVsje_HheFbilyM" style="font-size:13px; color:#330066; text-decoration:none; font-weight:bold;" title="Paris">Paris</a></td>
+                                        <td width="35" height="22" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA7vcStGb5lw8W0bBhOG5mpqVsje_HheFbilyN" title="75">
+                                                <img src="http://www.leparisien.fr/icons/puce75.gif" alt="75" width="25" height="18" border="0" style="display:block;"></a></td>
+                                        <td width="354" height="22" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA7_cStGb5lw8W0bBhOG5mpqVsje_HheFbilyS" style="font-size:13px; color:#333; text-decoration:none; font-weight:bold;" title="">La folle semaine  du tram des Mar&eacute;chaux</a></td>
+                                    </tr>
+                                    <!-- dep-->
+                                    <tr>
+                                        <td width="119" height="22" align="right" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA7PcStGb5lw8W0bBhOG5mpqVsje_HheFbilyT" style="font-size:13px; color:#330066; text-decoration:none; font-weight:bold;" title="Hauts-de-Seine">Hauts-de-Seine</a></td>
+                                        <td width="35" height="22" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA7fcStGb5lw8W0bBhOG5mpqVsje_HheFbilyQ" title="92">
+                                                <img src="http://www.leparisien.fr/icons/puce92.gif" alt="92" width="25" height="18" border="0" style="display:block;"></a></td>
+                                        <td width="354" height="22" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA4vcStGb5lw8W0bBhOG5mpqVsje_HheFbilyR" style="font-size:13px; color:#333; text-decoration:none; font-weight:bold;" title="">Devedjian survole la premi&egrave;re manche</a></td>
+                                    </tr>
+                                    <!-- dep-->
+                                    <tr>
+                                        <td width="119" height="22" align="right" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA4_cStGb5lw8W0bBhOG5mpqVsje_HheFbilyW" style="font-size:13px; color:#330066; text-decoration:none; font-weight:bold;" title="Seine-Saint-Denis">Seine-Saint-Denis</a></td>
+                                        <td width="35" height="22" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA4PcStGb5lw8W0bBhOG5mpqVsje_HheFbilyX" title="93">
+                                                <img src="http://www.leparisien.fr/icons/puce93.gif" alt="93" width="25" height="18" border="0" style="display:block;"></a></td>
+                                        <td width="354" height="22" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA4fcStGb5lw8W0bBhOG5mpqVsje_HheFbilyU" style="font-size:13px; color:#333; text-decoration:none; font-weight:bold;" title="">Le tramway T4&nbsp;divise toujours autant</a></td>
+                                    </tr>
+                                    <!-- dep-->
+                                    <tr>
+                                        <td width="119" height="22" align="right" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA5vcStGb5lw8W0bBhOG5mpqVsje_HheFbilyV" style="font-size:13px; color:#330066; text-decoration:none; font-weight:bold;" title="Val-de-Marne">Val-de-Marne</a></td>
+                                        <td width="35" height="22" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA5_cStGb5lw8W0bBhOG5mpqVsje_HheFbilya" title="94">
+                                                <img src="http://www.leparisien.fr/icons/puce94.gif" alt="94" width="25" height="18" border="0" style="display:block;"></a></td>
+                                        <td width="354" height="22" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA5PcStGb5lw8W0bBhOG5mpqVsje_HheFbilyb" style="font-size:13px; color:#333; text-decoration:none; font-weight:bold;" title="">Duel &agrave; droite  au second tour</a></td>
+                                    </tr>
+                                    <!-- dep-->
+                                    <tr>
+                                        <td width="119" height="22" align="right" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA5fcStGb5lw8W0bBhOG5mpqVsje_HheFbilyY" style="font-size:13px; color:#330066; text-decoration:none; font-weight:bold;" title="Seine-et-Marne">Seine-et-Marne</a></td>
+                                        <td width="35" height="22" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA-vcStGb5lw8W0bBhOG5mpqVsje_HheFbilyZ" title="77">
+                                                <img src="http://www.leparisien.fr/icons/puce77.gif" alt="77" width="25" height="18" border="0" style="display:block;"></a></td>
+                                        <td width="354" height="22" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA-_cStGb5lw8W0bBhOG5mpqVsje_HheFbilye" style="font-size:13px; color:#333; text-decoration:none; font-weight:bold;" title="">Il tue sa femme avant de se donner la mort</a></td>
+                                    </tr>
+                                    <!-- dep-->
+                                    <tr>
+                                        <td width="119" height="22" align="right" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA-PcStGb5lw8W0bBhOG5mpqVsje_HheFbilyf" style="font-size:13px; color:#330066; text-decoration:none; font-weight:bold;" title="Yvelines">Yvelines</a></td>
+                                        <td width="35" height="22" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA-fcStGb5lw8W0bBhOG5mpqVsje_HheFbilyc" title="78">
+                                                <img src="http://www.leparisien.fr/icons/puce78.gif" alt="78" width="25" height="18" border="0" style="display:block;"></a></td>
+                                        <td width="354" height="22" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA_vcStGb5lw8W0bBhOG5mpqVsje_HheFbilyd" style="font-size:13px; color:#333; text-decoration:none; font-weight:bold;" title="">Yvelines : le film made in Val-Fourr&eacute; au cin&eacute;ma</a></td>
+                                    </tr>
+                                    <!-- dep-->
+                                    <tr>
+                                        <td width="119" height="22" align="right" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA__cStGb5lw8W0bBhOG5mpqVsje_HheFbilyi" style="font-size:13px; color:#330066; text-decoration:none; font-weight:bold;" title="Essonne">Essonne</a></td>
+                                        <td width="35" height="22" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA_PcStGb5lw8W0bBhOG5mpqVsje_HheFbilyj" title="91">
+                                                <img src="http://www.leparisien.fr/icons/puce91.gif" alt="91" width="25" height="18" border="0" style="display:block;"></a></td>
+                                        <td width="354" height="22" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA_fcStGb5lw8W0bBhOG5mpqVsje_HheFbilyg" style="font-size:13px; color:#333; text-decoration:none; font-weight:bold;" title="">Essonne : l&rsquo;idylle de Blanco et du grand stade au beau fixe</a></td>
+                                    </tr>
+                                    <!-- dep-->
+                                    <tr>
+                                        <td width="119" height="22" align="right" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA8vcStGb5lw8W0bBhOG5mpqVsje_HheFbilyh" style="font-size:13px; color:#330066; text-decoration:none; font-weight:bold;" title="Val-d'Oise">Val-d'Oise</a></td>
+                                        <td width="35" height="22" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA8_cStGb5lw8W0bBhOG5mpqVsje_HheFbilym" title="95">
+                                                <img src="http://www.leparisien.fr/icons/puce95.gif" alt="95" width="25" height="18" border="0" style="display:block;"></a></td>
+                                        <td width="354" height="22" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA8PcStGb5lw8W0bBhOG5mpqVsje_HheFbilyn" style="font-size:13px; color:#333; text-decoration:none; font-weight:bold;" title="">Le village traumatis&eacute; veut tourner la page</a></td>
+                                    </tr>
+                                    <!-- dep-->
+                                    <tr>
+                                        <td width="119" height="22" align="right" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA8fcStGb5lw8W0bBhOG5mpqVsje_HheFbilyk" style="font-size:13px; color:#330066; text-decoration:none; font-weight:bold;" title="Oise">Oise</a></td>
+                                        <td width="35" height="22" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA9vcStGb5lw8W0bBhOG5mpqVsje_HheFbilyl" title="60">
+                                                <img src="http://www.leparisien.fr/icons/puce60.gif" alt="60" width="25" height="18" border="0" style="display:block;"></a></td>
+                                        <td width="354" height="22" align="left" valign="top">
+                                            <a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA9_cStGb5lw8W0bBhOG5mpqVsje_HheFbilyq" style="font-size:13px; color:#333; text-decoration:none; font-weight:bold;" title="">Mosqu&eacute;e&nbsp;: bras de fer autour d&rsquo;un terrain</a></td>
+                                    </tr>
+                                    </table  ></td>
+                        </tr>
+
+<!-- ###fin-BLOC### Newsletter - PDCM-->
+<!-- ###debut-BLOC### Newsletter - PUB3-->
+<!--bH-->
+                        <tr>
+                            <td rowspan="2">
+                                <img src="http://www.leparisien.fr/icons/dot.gif" width="21" height="10" /></td><td>
+                                <!-- PUB 3 -->
+                                <table width="468" border="0" align="left" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                                    <tr>
+                                        <td height="82" valign="middle">
+                                            <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="21" />
+                                            <br>
+                                            <a href="http://email.leparisien.fr/HS?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA9PcStGb5lw8W0bBhOG5mpqVsje_HheFbilyr"><img src="http://www.smartadserver.com/call/pubi/2358/76804/5053/S/1355127229/?" border="0"></a>
+                                            <br>
+                                            <img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="21" /></td>
+                                    </tr>
+                                </table></td>
+                            <td rowspan="2">
+                                <img src="http://www.leparisien.fr/icons/dot.gif" width="21" height="10" /></td>
+                        </tr>
+
+<!-- ###fin-BLOC### Newsletter - PUB3-->
+<!-- ###debut-BLOC### Newsletter - SERVICES-->
+<!--bH-->
+                        <tr><td>
+                                <!-- SERVICES -->
+                                <table width="468" border="0" align="left" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td width="224" valign="top">
+                                            <!-- FACEBOOK -->
+                                            <table width="224" border="0" align="left" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td valign="top"><a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NA9fcStGb5lw8W0bBhOG5mpqVsje_HheFbilyo" title="Devenir Fan du Parisien sur Facebook"><img src="http://www.leparisien.fr/imgs/nl_facebook.jpg" alt="Devenir Fan du Parisien sur Facebook" width="224" height="141" border="0"></a><img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10" /></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="30" align="right" valign="middle" style="border-top:1px solid #DCDCDC"><a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NAivcStGb5lw8W0bBhOG5mpqVsje_HheFbilyp" style="font-size:11px; color:#333; text-decoration:none;" title="Devenir Fan du Parisien sur Facebook">DEVENIR FAN <img src="http://www.leparisien.fr/icons/fl-gris.png" width="16" height="17" border="0" align="absmiddle"></a></td>
+                                                </tr>
+												<tr>
+												<td height="10"></td>
+												</tr>                                         
+												   <!-- ASTRO -->
+											    <tr>
+                                                    <td valign="top"><a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NAi_cStGb5lw8W0bBhOG5mpqVsje_HheFbilyu" title="Tarot"><img src="http://www.leparisien.fr/imgs/nl_astro.jpg" alt="tarot" width="224" height="141" border="0"></a><img src="http://www.leparisien.fr/icons/dot.gif" width="1" height="10" /></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="30" align="right" valign="middle" style="border-top:1px solid #DCDCDC"><a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NAiPcStGb5lw8W0bBhOG5mpqVsje_HheFbilyv" style="font-size:11px; color:#333; text-decoration:none;" title="Inscription">S'INSCRIRE <img src="http://www.leparisien.fr/icons/fl-gris.png" width="16" height="17" border="0" align="absmiddle"></a></td>
+                                                </tr>
+                                            </table></td>
+                                        <td width="244" valign="top">
+                                            <!-- APPLI LP -->
+                                            <table width="224" border="0" align="right" cellpadding="0" cellspacing="0">
+											    <tr>
+                                                    <td valign="top" align="right"><a href="http://email.leparisien.fr/HP?a=ENX7CkIsKo8d8SA9MOAKcFznGHxKX4NAifcStGb5lw8W0bBhOG5mpqVsje_HheFbilys" title="Mobiles"><img src="http://www.leparisien.fr/imgs/applilp-blocnl.jpg" alt="Application leParisien" width="224" height="346" border="0"></a></td>
+                                                </tr>
+                                            </table></td>
+                                    </tr>
+                                </table></td>
+                        </tr>
+
+<!-- ###fin-BLOC### Newsletter - SERVICES-->
+<!--/col N10 -->
+</table>
+
+                    <table width="520" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td valign="top">
+                                <img src="http://www.leparisien.fr/icons/footer.png" width="520" height="27" style="display:block;"></td>
+                        </tr>
+                    </table>
+					<br /><img width="1" height="1" alt="" src="http://logp2.xiti.com/hit.xiti?s=40086&s2=8&p=info_a_la_une&" /></td>
+
+</td>
+</tr>
+</table>
+<img src="http://email.leparisien.fr/HO?DdX7CkIsKo8d8SA9MOPe3VPnGHxKbthYbAjtS5lEToEYJjE.gif" border="0" alt="" width="1" height="1"></body>
+</html>
+

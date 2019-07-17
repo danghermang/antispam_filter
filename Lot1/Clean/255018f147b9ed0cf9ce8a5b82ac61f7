@@ -1,0 +1,32 @@
+Subject:=?UTF-8?Q?Re=3A_=5BOT=5D_Servidor_Multimedia_v=C3=ADa_Web=2E?=
+2012/11/19 Ramses <ramses.sevilla@gmail.com>:
+> Hola a todos,
+>
+> Estoy buscando un software para servir contenido multimedia v=C3=ADa web.
+>
+> Es decir, este software instalado en un servidor, donde se configuren las=
+ carpetas que contienen las fotos, la m=C3=BAsica y los v=C3=ADdeos, etc, y=
+ desde un cliente Web, en otro equipo de la red, se ataque a este servidor =
+multimedia y se pueda seleccionar el contenido a reproducir hacia el client=
+e...
+>
+> Una especie de XBMC, pero que los clientes accedan a =C3=A9l mediante cli=
+entes Web para seleccionar el contenido a reproducir en el cliente...
+>
+> =C2=BFOs hab=C3=A9is encontrado con alg=C3=BAn software libre que realice=
+ estas funciones?
+>
+
+Chequea http://mediagoblin.org/
+
+Saludos
+--
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjPSZr8jr5sz9J95a7YbL-mescfkQTxA_ERD+UtrKAqXwA@mail.gmail.com
+

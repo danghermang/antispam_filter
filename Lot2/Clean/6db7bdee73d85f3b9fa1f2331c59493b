@@ -1,0 +1,27 @@
+Subject:Re: Debian (ou Linuxmint) sous W530
+On Saturday 15 September 2012 21:51:08 jerome moliere wrote:
+> L utilitaire de restore semble ok et je n ai touche a presque rien
+> les partoches sont vues et reconnues ..
+> dois je prendre une sid / wheezy ou squeeze pour maximiser mes chances
+> de voir l install aller au bout ?
+> merci de vos retours
+
+Je dirai Squeeze vu qu'elle est stable.
+
+Si tu as r=C3=A9tr=C3=A9ci la  partition de Windows (NTFS),=20
+tous les OS (Mint ou autres), ne verront que cette partition :
+il faut donc installer Debian dans la partie vide
+en cr=C3=A9ant avant la (ou les) partition(s) n=C3=A9cessaire(s),
+puis leur syst=C3=A8me de fichiers.
+
+Andr=C3=A9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209152228.09787.andre_debian@numericable.fr
+

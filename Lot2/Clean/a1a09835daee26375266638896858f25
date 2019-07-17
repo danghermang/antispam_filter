@@ -1,0 +1,68 @@
+Subject:[Koha] =?iso-8859-15?q?Some_thoughts_about_an_=BBofficial=AB_Koha?=
+ =?iso-8859-15?q?_LiveCD?=
+Hello everyone,
+
+as of the last IRC meeting, we have a LiveCD manager and that leads
+us one step into the direction of an =BBofficial=AB, maintained Koha
+LiveCD as opposed to various more or less outdated disks that are to
+be found scattered across the interwebs.
+
+I was wondering if we should start to gather some ideas of what we
+would agree on to be deserving the label =BBofficial Koha LiveCD=AB --
+or if we would not want that label at all.
+
+Some things that came to minds (to my own and those of others in
+discussions about it) are
+
+- being up-to-date
+    One of the problems now is that a lot of the available liveCDs
+are very outdated, thus carrying bugs and security risks. LiveCDs
+are old as soon as they get out by default. It would be important to
+have the latest stable version ready. I don't know if it is
+realistic to expect a fresh disk each month (or even two, for stable
+and oldstable)?! Would there be less stressful release cycles
+imaginable for this kind of release?
+
+- promoting liveCDs for testing, not for production
+    LiveCDs are very common in GNU/Linux land and a nice way to try
+things without having to go through a more or less complicated
+installation routine and maybe breaking what you had running before.
+But I think once you tested and decided to use the system, you
+should go for a real installation and I'd like to see that promoted
+to avoid having people run outdated versions forever. There is even
+the idea of an expiration date for LiveCDs to decrease the number of
+outdated, insecure Koha systems.
+
+- promoting package installation
+    Having the choice to install directly from the live medium after
+testing would be desirable. The best/ easiest/ recommended way of
+installation is an installation with Debian packages. I hope to see
+the inclusion of this way of installation as a goal of the
+development of an =BBofficial=AB disk.
+
+- bug tracking/ transparency
+    Koha development happens mostly in the open and can be observed
+on bugzilla and git. It would be nice to see a =BBLiveCD=AB section on
+bugzilla that is assigned to the LiveCD Manager to be able to give
+feedback on bugs specific to this form of release, discuss
+development and also have some people test new releases of the disk
+before release.
+
+There is probably a lot more I forgot but I thought it might be
+useful to start a discussion about it. What are your thoughts on the
+points given here, what other things do you consider important? I'd
+be particularly interested in Vimal's views of course, but also like
+to see participation by everybody else.
+
+I send this email to both lists but I would propose to discuss on
+[koha-devel]. Vimal, are you subscribed to the developer list[1]?
+That would be a good thing to do if you have not done so already.
+
+-- Mirko
+
+[1] http://lists.koha-community.org/cgi-bin/mailman/listinfo/koha-devel
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

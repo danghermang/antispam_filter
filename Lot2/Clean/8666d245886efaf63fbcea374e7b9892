@@ -1,0 +1,95 @@
+Subject:Re: favicon.ico no se muestra en apache2
+>> Pongo el favicon.ico en /var/www/www.example.com/htdocs/ (este es un
+>> dominio de pruebas común tanto para http como para https) Junto
+>> favicon.ico hay un index.html que no tiene nada más que un 'hola mundo'
+>
+> O sea, que compartes ambos directorios ¿no?
+
+Eso es.
+
+>
+>> Este es el fichero de configuración del virtual host, por si es el
+>> problema está ahí:
+>
+> (...)
+>
+> A simple vista no veo nada raro pero puedes probar lo siguiente:
+>
+> 1/ Prueba A. Crea dos páginas html, una sin referencia alguna al
+> favicon.ico en su código y la otra forzando la carga del favicon mediante
+> html y carga las dos a través del https://.
+
+OK. Voy a llamarles index1.html e index2.html respectivamente.
+
+(...)
+
+Pufff. A ver cómo te lo explico ...
+Ahora funciona todo perfectamente, incluso habilito de nuevo la 
+autenticación contra MySQL que quité ... y todo funciona a las mil 
+maravillas (por lo menos en Firefox). Sinceramente no sé qué decirte, no 
+he tocado nada. Funciona cuando entro con index1.html como cuando entro 
+con index2.html
+
+Puede que fuera un problema de cache porque lo que sí que he hecho es 
+instalar el plugin 'Empty Cache Button' y limpiar la caché con él en 
+lugar de desde las opciones de FF.
+
+Voy a probar con Internet Explorer a ver ...
+
+Ohhhh, en IE sigue sin funcionar.
+
+> 2/ Prueba B. Fuerza la carga del favicon.ico accediendo directamente a su
+> ruta "https://www.example.com/favicon.ico".
+
+Esto funciona siempre sin problemas tanto en FF como en IE.
+
+> Se me ocurre que quizá los navegadores no soliciten "automáticamente" el
+> favicon.ico en las páginas que usen cifrado para no (mal)gastar ancho de
+> banda, pero es sólo una teoría ya que el hecho de que no aparezca
+> registrado en el log del servidor web me hace pensar que es el cliente el
+> que no lo solicita porque:
+>
+> 1/ Si lo pide y el archivo no existe (o está en una ruta incorrecta o
+> inaccesible para el apache) quedaría registrado el error.
+>
+> 2/ Si lo pide y el archivo existe quedaría registrado igualmente.
+>
+> Pero si no hay rastro del "favicon.ico" en los logs es que algo pasa...
+> haz un "grep -i favicon /var/www/www.example.com/logs/error*" a ver si
+> salta algo.
+>
+> Saludos,
+>
+
+Sé que es extraño, pero no ha rastro de favicon ni en los logs (de 
+error) de mi VirtualHost ni en los de apache2 (en el access.log sí que 
+se registra ahora cuando entro con FF). En realidad no se genera ningún 
+log de error, y eso que le pido en index2.html:
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+Pero nada.
+Veamos qué hace Google Chrome (voy a instalarlo) ...
+
+Y parece que, al igual que en FF se ve el favicon perfectamente, incluso 
+sin necesidad del <link rel=...> (y también se registra en el 
+access.log, al igual que en el FF). Luego ahora mismo el único que da 
+problemas es el IE.
+
+No sé qué hacer, en los logs no tengo ningún error, y ahora mismo sólo 
+parece fallar en IE. En fin, si no quieres no te rompas más la cabeza, 
+compañero. Si en el futuro (no muy lejano) descubro alguna explicación o 
+cambia algo trataré de comentarlo aquí.
+
+Gracias por todo, Camaleón.
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A540F6.8010502@gmail.com
+

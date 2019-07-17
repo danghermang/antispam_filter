@@ -1,0 +1,30 @@
+Subject:[MG] Freenode channel #metagov
+We registered #metagov on freenode IRC yesterday.  This allows us to
+administer the channel.  If you don't have an IRC client, you can
+connect here: http://irc.lc/freenode/metagov/guest@@@
+
+Conseo and I currently have equal admin rights.  To see everyone's
+rights, type this:
+
+  /msg chanserv access #metagov list
+
+To see the available rights:
+
+  /msg chanserv help flags
+
+The channel isn't active at the moment, but we monitor it.  Logs are
+posted here: http://zelea.com/var/cache/irc/metagov/
+
+If anyone needs help using it, please let us know.
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+http://zelea.com/
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

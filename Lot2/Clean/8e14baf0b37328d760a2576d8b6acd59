@@ -1,0 +1,36 @@
+Subject:Re: systemd : =?iso-8859-1?Q?probl=E8me_d?=
+	=?iso-8859-1?Q?=E9marrage?= services au boot
+Le Mon, Sep 10, 2012 at 12:16:17PM +0200, maderios a écrit :
+> Bonjour
+> J'ai tout repris à 0 : purge de systemd puis boot classique avec
+> file-rc, tous les services lancés normalement au boot.
+> Aucun problème donc avec le système init sysvinit file-rc classique.
+>   J'ai réinstallé systemd. Toujours le même problème: aucun service
+> lancé au boot, dont networking et cups. Avec le gui systemadm, les
+> services non démarrés sont invisibles. Ils apparaissent si je les
+> lance à la main.
+
+Bonjour,
+
+hier en lisant cette discussion, j'ai installé systemd sur mon mix Wheezy/Sid,
+et pour le moment je n'observe pas de problème avec le réseau (GNOME 3 plus
+NetworkManager).
+
+Le problème ne serait-il pas que tant qu'on n'essaye pas d'accéder au service
+via son iterface, systemd ne va pas le lancer ?
+
+Amicalement,
+
+-- 
+Charles Plessy
+Tsurumi, Kanagawa, Japan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120910102332.GF32623@falafel.plessy.net
+

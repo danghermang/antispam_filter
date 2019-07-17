@@ -1,0 +1,171 @@
+Subject:Enroll My Child
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+					  <html>
+						 <head>
+							<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+							<base href="http://www.bigmentor.org//" />
+							<title>Email</title>
+						 </head>
+						 
+						 <body><div class="form_item">
+<div class="form_element cf_heading">
+<h1 class="cf_text">ENROLL A CHILD<br /></h1>
+</div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Parent/Guardian Name</label></strong><span> Yvette lerma</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Address</label></strong><span> 1221 E. Ave B</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">City</label></strong><span> Kingsville </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">State</label></strong><span> Texas</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Zip Code</label></strong><span> 78363</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Home Phone</label></strong><span> 3614881133</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Other Phone</label></strong><span> 3612311950</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Parent/ Guardian Workplace</label></strong><span> none</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Workplace Phone</label></strong><span> </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_radiobutton"><strong><label class="cf_label">May we call you at work?</label></strong> No<br /></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">E-mail (primary)</label></strong><span> yvelerma22@hotmail.com</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">E-Mail (secondary)</label></strong><span> yve_lerma22@yahoo.com</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Best point of contact</label></strong><span> 614 1/2 E. Ella Ave</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Best time to contact</label></strong><span> afternoon<br /><br /><strong><span style="color: #0000ff;">CHILD #1 INFORMATION</span></strong><br /></span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Child's Name</label></strong><span> Hayley garza</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_radiobutton"><strong><label class="cf_label">Sex</label></strong> Female<br /></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Age</label></strong><span> 6</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Birth Date</label></strong><span> 2006-05-17</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Ethnicity</label></strong><span> Hispanic </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Child's School</label></strong><span> perez elementary </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Grade</label></strong><span> 1st<br /><br /><span style="color: #0000ff;"><strong>CHILD #2 INFORMATION</strong></span><br /></span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Child's Name</label></strong><span> Elijah Rodriguez </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_radiobutton"><strong><label class="cf_label">Sex</label></strong> Male</div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Age</label></strong><span> 1</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Birth Date</label></strong><span> 2011-05-04</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_password"><strong><label class="cf_label">Ethnicity</label></strong><span> Hispanic </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Child's School</label></strong><span> none</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Grade</label></strong><span> <br /><br /><span style="color: #0000ff;"><strong>CHILD #3 INFORMATION</strong></span></span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Child's Name</label></strong><span> </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_radiobutton"><strong><label class="cf_label">Sex</label></strong> {radio6}<br /></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Age</label></strong><span> </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Birth Date</label></strong><span> </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Ethnicity</label></strong><span> </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Child's School</label></strong><span> </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Grade</label></strong><span> <br /><br /><span style="color: #0000ff;"><strong>CHILD #4 INFORMATION<br /></strong></span></span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Child's Name</label></strong><span> </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_radiobutton"><strong><label class="cf_label">Sex</label></strong> {radio8}<br /></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Age</label></strong><span> </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Birth Date</label></strong><span> </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Ethnicity</label></strong><span> </span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Child's School</label></strong> <span></span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textbox"><strong><label class="cf_label">Grade</label></strong><span> <br /><br /></span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textarea"><strong><label class="cf_label">Why would you like your child(ren) to have a Big Brother and/or Big Sister?</label></strong><span> Yes</span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_text"><span class="cf_text"><br /><span style="color: #0000ff;"><strong>For Statistical Purposes: (Please circle the answers that apply to your family.)</strong></span><br /></span></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_radiobutton"><strong><label class="cf_label">Living Situation</label></strong> single mother<br /></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_radiobutton"><strong><label class="cf_label">Do you receive any Income Assistance?</label></strong>No<br /></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_radiobutton"><strong><label class="cf_label">Food Stamps?</label></strong> Yes<br /></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_radiobutton"><strong><label class="cf_label">Free/Reduced Lunch?</label></strong> Yes<br /></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_radiobutton"><strong><label class="cf_label">Family Annual Income Range</label></strong> $10000-14999<br /></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_radiobutton"><strong><label class="cf_label">Does your child have a significant family member (parent, sibling, grandparent, etc.) who is currently</label></strong> N/A<br /></div>
+</div>
+<div class="form_item">
+<div class="form_element cf_textarea"><strong><label class="cf_label">If yes, please describe how this person is related to your child.</label></strong><span> </span></div>
+</div><br /><br />
+Submitted by 69.171.187.25</body>
+					  </html>
+
+

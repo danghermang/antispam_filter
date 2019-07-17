@@ -1,0 +1,44 @@
+Subject:Re: [Digression]: systemd : =?UTF-8?B?cHJvYmzDqG1lIGTDqW1hcnJhZ2U=?=
+	=?UTF-8?B?IHNlcnZpY2VzIGF1IGJvb3Q=?=
+Sylvain L. Sauvage a écrit :
+> Le dimanche 9 septembre 2012 à 20:32:12, François Boisson a
+> écrit :
+>> […]
+>> À ce sujet, su un portable muni d'un disque SSD et de 4G de
+>> RAM, vaut-il mieux redémarrer à chaque fois ou mettre en
+>> hibernation (avec une écriture sur le disque swap). Le gain
+>> de vitesse n'est pas flagrant et peut être que l'écriture
+>> systématique sur le swap n'est as géniale pour le disque.
+>>
+>> Il y a des avis???
+>
+>    La durée de vie des SSD actuels est plus longue que celle des
+> disques durs.  En gros, avant d’user toutes les cellules, on
+> peut écrire tout le disque chaque jour pendant 5 ou 10 ans, si
+> ce n’est plus.
+
+	Ça, c'est la théorie. Dans l'embarqué, on a plein de problèmes avec les 
+SSD et mon plus vieux SSD n'a pas un an. Ce sont pourtant des SLC de 
+compétition et je puis t'assurer que je n'écris pas beaucoup sur ces 
+disques (et que le fs n'est pas journalisé). Ce n'est pas demain la 
+veille que  je mettrais ce genre de saleté dans un PC même portable.
+
+	En plus, dans le vieillissement, il ne faut pas oublier la température 
+(plus ça chauffe, plus il y a de migration de charges) et le firmware. 
+Certains SSD (au hasard Kingston Business) chauffent plus qu'un disque 
+dur équivalent et d'autres ont un firmware tellement buggué que les 
+algorithmes de waterleaving sont inefficaces !
+
+	Cordialement,
+
+	JKB
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504DC309.1030306@systella.fr
+

@@ -1,0 +1,49 @@
+Subject:Re: OT: configurar zona horaria a un no-debian por linea de comando
+El d=EDa 6 de noviembre de 2012 11:38, Camale=F3n <noelamac@gmail.com> escr=
+ibi=F3:
+> El Mon, 05 Nov 2012 19:30:45 -0300, Flako escribi=F3:
+>
+>> Hola
+>>    Esto es un offtopic porque no es de Debian, pero si asociado a
+>> Linux en general (fecha  y zonetime)
+>>
+>>    Estoy intentando definir la zona-horaria de un Linux embebido
+>> (kernel 2.6.11-1), como este no tiene los programas para configurar la
+>> zona horaria lo estoy intentado manualmente.
+>
+> (...)
+>
+> Mira a ver si te sirve con lo que detallan aqu=ED:
+>
+> Generic procedure to change timezone under Linux
+> http://www.cyberciti.biz/faq/howto-linux-unix-change-setup-timezone-tz-va=
+riable/
+>
+
+ Camale=F3n:
+           Es lo que estado haciendo.. pero produce lo que intento
+explicar en el mail..
+
+ Sergio:
+          Con la idea de tu mail segu=ED probando "ensayo-error"   y se
+me ocurre cambiar el archivo /etc/adjtime cambiando la opci=F3n LOCAL
+por UTC  (para mi LOCAL estaba bien) y espeso andar como yo quer=EDa..
+          Luego para mantener el cambio, modifique todo el  c=F3digo de
+"hwclock  --localtime"  por "hwclock  --utc"  y parece haber quedado
+bien..
+
+          No tengo claro porque as=ED anda..   y si ponerlo en UTC puedo
+tener alg=FAn inconveniente a futuro. En relaci=F3n a datos generados (los
+timestamp) desde este GNU/Linux y enviados a otro GNU/Linux que tiene
+LOCAL.
+
+          Si me pueden explicar porque anda colocando UTC y "falla"
+con LOCAL se los agradecer=E9. (podre usar mis horas de google en algo
+nuevo)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADqxbRSXjGHQvoGxZ628Urxn2tPPUSUwab7A1GnQ8voce=Erzg@mail.gmail.com
+

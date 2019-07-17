@@ -1,0 +1,32 @@
+Subject:Re: Error en debian etch kernel panic - not syncing: No init found.
+	Try passing init = option to kernel
+El Fri, 21 Sep 2012 15:16:01 +0200, Maykel Franco Hernández escribió:
+
+> Hola muy buenas, al arrancar un debian un pelín antiguo que tenemos un
+> proxy http montado, me ha reportado el siguiente error...
+
+¿Has probado lo que te sugiere?
+
+> Según he leído, puede deberse a que el initrd esté dañado.
+
+¿Dañado, así sin más? ¿Has tenido algún apagón brusco del sistema o has 
+hecho algún cambio en el hardware o de software recientemente?
+ 
+> Alguien ha tenido el mismo error??
+
+Pues no, pero Google está lleno de gente que sí, mira a ver si te dan 
+alguna idea:
+
+http://bit.ly/P5S61t
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3hrln$oni$1@ger.gmane.org
+

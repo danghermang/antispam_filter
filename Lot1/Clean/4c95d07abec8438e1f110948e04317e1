@@ -1,0 +1,33 @@
+Subject:Re: XFCE et mes clefs USB
+On Mon, 17 Sep 2012 21:17:19 +0200
+Nicolas FRANCOIS <nicolas.francois@free.fr> wrote:
+
+>=20
+> Non.
+
+Alors n'y aurait'il pas 2 instances de Thunar se faisant concurrence?
+
+Ou bien Thunar + <whatever> qui se font concurrence (et de fait ne
+doivent pas monter la cl=C3=A9 au m=C3=AAme endroit)?
+Peux-tu:
+* ins=C3=A9rer la cl=C3=A9 (et laisser les 2 fen=C3=AAtres ouvertes),
+* renvoyer la partie de l'arborescence de 'ps axf' concernant le
+  graphique + le listing de 'mount'?
+
+--=20
+<Erlk=C3=B6nig> La guitare est =C3=A0 mon frere, en fait.
+<Calintz> il a quoi ?
+<Erlk=C3=B6nig> une libanaise ou un truc comme =C3=A7a
+<Erlk=C3=B6nig> il l'a re=C3=A7u =C3=A0 noel elle est toute neuve \o
+<Calintz> AHAHAHAHAHA
+<Erlk=C3=B6nig> ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120917212728.1a9d9b4a@anubis.defcon1
+

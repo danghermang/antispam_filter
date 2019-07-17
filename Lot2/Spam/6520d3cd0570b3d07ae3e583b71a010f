@@ -1,0 +1,643 @@
+Subject:=?utf-8?B?w5pqZG9uc8OhZ29rIGEgVmVuZMOpZ3bDoXLDs24gw6lzIMO6dGlrw7ZueXbDoXJ1aMOhesOhYmFu?=
+<html>
+	<head>
+	
+		<style>
+		
+		body
+		{
+			background-color:	#BABABA;
+			margin:				10px;
+		}
+		
+		div.container
+		{
+			font-family: 		Verdana, sans-serif; 
+			font-size: 			11px;
+			color: 				#737373; 
+			background-color: 	#FFFFFF; 
+			width:				650px;
+			padding-bottom:		0px;	
+		}
+		
+		div.inner
+		{
+			padding:			10px;
+		}
+		
+		div.header
+		{
+			background-image:	url(http://www.vendegvaro.hu/dl/newsletter/vv/header.png);
+			background-repeat:	no-repeat;
+			width:				650px;
+			height:				112px;
+			margin:				0px;
+			padding:			0px;
+		}
+
+		/* Felcím */
+		h2 
+		{
+			color:				#80AA28;
+			font-size: 			12px;
+			font-weight:		bold;
+			text-align: 		left;
+			padding: 			0px;
+			margin: 			0px 0px 10px 0px;
+		}
+		
+		/* Közcím - ebbol generálódik a tartalomjegyzék */
+		h3 
+		{ 
+			color: 				#80AA28;
+			font-size:			12px; 
+			font-weight:		bold; 
+			padding:			0px;
+			margin: 			20px 0px 10px 0px;
+		} 
+		
+		/* Alcím */
+		h4 
+		{
+			color: 				#737373;
+			font-size: 			11px; 
+			font-weight:		bold; 
+			padding:			0px;
+			margin: 			20px 0px 10px 0px;
+		}
+		
+		
+		/* Lead */ 
+		.lead 
+		{
+		 	font-weight: 		bold;
+		}
+		
+		/* Link */
+		a 
+		{
+			color:				#81A925;
+			text-decoration:	underline;
+		}
+		
+		a:hover 
+		{
+			color: 				#81A925; 
+		}
+		
+		/* Elvalálasztó */ 
+		hr
+		{
+		 	display: 			block;
+			height: 			1px;
+			background: 		url(http://www.vendegvaro.hu/dl/images/separator_gray_1.png);
+			margin-top: 		5px;
+			border: 			none 0px;
+		}
+		
+		
+		/* Táblázat */
+		table
+		{
+			border-collapse: 	collapse;   
+		}
+		
+		td,  th
+		{
+			border: 			solid 1px #C0C0C0;
+		}
+		
+		table.border0 td,  
+		table.border0 th
+		{
+			border: 			none 0px !important;
+		}
+		
+		table.border1 td,  
+		table.border1 th
+		{
+			border: 			solid 1px #C0C0C0 !important;
+		}
+		
+		table.border2 td,  
+		table.border2 th
+		{
+			border: 			solid 2px #C0C0C0 !important;
+		}
+		
+		.table_head,  
+		th
+		{
+			font-weight: 		bold;
+			background-color: 	#98CB37;
+			color: 				#FFFFFF; 
+			text-align: 		center;
+			border-left-color: 	#98CB37;
+			border-right-color:	#98CB37;
+		}
+		
+		.table_even
+		{
+			background-color: 	#FAFAFA;
+		}
+		
+		.table_odd
+		{
+			background-color: 	#E0E0E0;
+		}
+		
+		img.simple,  
+		img.clickable
+		{
+			float: 				left;
+			margin: 			5px;
+		}
+
+		div.image
+		{
+			font-weight:		bold;
+			color:				black;
+			font-size:			10px;
+			padding-right:		10px;
+			padding-top:		0px;
+			height:				95px;
+		}
+		
+		div.image a.forward
+		{
+			display:			block;
+			float:				right;
+			width:				250px;
+			height:				20px;
+			background-image:	url(http://www.vendegvaro.hu/dl/images/button_forward_bg.png);
+			padding-top:		4px;
+			background-position:230px 5px;
+			background-repeat:	no-repeat;	
+			font-size:			10px;
+			color:				#81AB2F;
+			text-decoration:	none;
+		}
+		div.image a.forward:hover
+		{
+			text-decoration:	underline;		
+			color:				#81AB2F;
+		}
+		
+		div.image a.gohome
+		{
+			display:			block;
+			float:				left;
+			height:				90px;
+			width:				365px;
+		}
+		
+		div.date
+		{
+			font-weight:		bold;
+			font-size:			10px;
+			color:				white;
+			margin:				0px;
+			padding:			0px;
+			padding-right:		10px;
+			float:				right;
+		}
+		
+		div.title
+		{
+			font-weight:		bold;
+			font-size:			10px;
+			color:				white;
+			margin:				0px;
+			padding:			0px;
+			padding-left:		10px;
+			float:				left;
+		}
+		
+		div.title h1, div.date h5
+		{
+			font-weight:		bold;
+			font-size:			10px;
+			color:				white;
+			margin:				0px;
+			padding:			0px;
+		}
+
+		div.block
+		{
+			clear:				both;
+			border-width:		1px;
+			border-color:		#C3C3C3;
+			border-style:		solid;
+			margin-bottom:		10px;
+			padding:			0px;
+		}
+		
+		
+		div.block div.footer
+		{
+			position:			relative;
+			left:				0px;
+			right:				0px;
+			height:				19px;
+			background-color:	#E8E8EA;		
+		}
+		
+		a.button
+		{
+			display:			block;
+			float:				right;
+			background-image:	url('http://www.vendegvaro.hu/dl/images/button_bg.gif');
+			background-repeat: 	repeat-x;
+			border: 			0px;
+			font-family: 		Verdana;
+			font-size: 			10px;
+			font-weight: 		bold;
+			color: 				#FFFFFF;
+			margin: 			0px 0px 0px 0px;
+			height: 			19px;
+			/* IE button width correction */
+			padding:			0px .5em ;
+			width:				auto;
+			overflow:			visible;		
+			text-decoration:	none;
+			padding-top:		3px;
+		}
+		
+		a.button:hover
+		{
+			color: 				#FFFFFF;		
+		}
+		
+		div.subButton
+		{
+			text-align:center;
+			background-color:	#BABABA;
+			margin: 			0px auto;
+			padding:			5px;
+		}
+		
+		div.subButton a
+		{
+			background-image:	url('http://www.vendegvaro.hu/dl/images/button_bg.gif');
+			background-repeat: 	repeat-x;
+			border: 			0px;
+			font-family: 		Verdana;
+			font-size: 			10px;
+			font-weight: 		bold;
+			color: 				#FFFFFF;
+			height: 			19px;
+			text-align:			center;
+			/* IE button width correction */
+			padding:			0px .5em ;
+			padding:			3px 10px 5px 10px;
+			overflow:			visible;		
+			text-decoration:	none;
+			margin-left:		10px;
+		}
+		
+		div.subButton a:hover
+		{
+			color: 				#FFFFFF;		
+		}		
+		
+		div.tableofcontents
+		{
+			background-color: 	#E7E7E9;
+			width:				650px;			
+		}
+		
+		div.column
+		{
+			background-color: 	#E7E7E9;
+			float:				left;
+			width:				325px;
+			margin-bottom:		10px;
+		}
+		
+		div.column a
+		{
+			display:			block;
+			background-image:	url(http://www.vendegvaro.hu/dl/images/button_forward_bg.png);
+			margin:				0px;
+			padding:			0px;
+			padding-top:		2px;
+			padding-bottom:		2px;
+			padding-left:		25px;
+			background-position:0px 5px;
+			background-repeat:	no-repeat;	
+			color:				#80AA2A;
+			text-decoration:	none;
+			font-weight:		bold;
+			font-size:			11px;
+		}
+		
+		div.column a:hover
+		{
+			text-decoration:	underline;		
+			color:				#81AB2F;
+		}
+		
+		div.column span
+		{
+			display:			block;
+			margin:				0px;
+			padding:			0px;
+			padding-top:		2px;
+			padding-bottom:		2px;
+			padding-left:		25px;
+			color:				#80AA2A;
+		}
+
+		BUTTON.iButton
+		{
+			background-image: url('http://www.vendegvaro.hu/dl/images/button_bg.gif');
+			background-repeat: repeat-x;
+			border: 0px;
+
+			font-family: Verdana;
+			font-size: 10px;
+			font-weight: bold;
+
+			color: #FFFFFF;
+
+			margin: 0px 0px 0px 0px;
+
+			height: 19px;
+
+			/* IE button width correction */
+			padding: 0px .5em ;
+			width:auto;
+			overflow:visible;
+		}
+		
+		
+		</style>
+		<script type="text/javascript" src="http://www.vendegvaro.hu/dl/scripts/median.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">document.write('<!-- Medián WebAudit Vendégváró [hu_other] 1/2 --><img src="http://audit.median.hu/cgi-bin/track.cgi?uc=10348319833645&amp;dc=1&amp;ui='+same+'" width="1" height="1" alt="">');</script><noscript><!-- Medián WebAudit Vendégváró [hu_other] 1/2 --><img src="http://audit.median.hu/cgi-bin/track.cgi?uc=10348319833645&amp;dc=1" width="1" height="1" alt=""/></noscript>
+		<a name="0"></a>
+		
+		<div class="container">
+			<div class="header">
+				<div class="image">
+					<a class="gohome" href="http://www.vendegvaro.hu" target="_BLANK">&nbsp;</a>
+					<a class="forward" href="mailto:?subject=H&iacute;rlevelek a Vend&eacute;gv&aacute;r&oacute;n&body=Olvasd te is a Vend&eacute;gv&aacute;r&oacute; h&iacute;rleveleit&gt;&gt; http://vendegvaro.hu/previewNewsletter?id=17048">Küldje tovább ismerőseinek, barátainak</a>
+				</div>
+				<div class="date"><h5>2008. november 26., szerda</h5></div>
+				<div class="title"><h1>Hírlevél &mdash; Újdonságok a Vendégvárón és útikönyváruházában</h1></div>
+			</div>
+			<div class="column"><div class="inner"><div><a href="#1">Újbor- és Sajtfesztivál
+
+<br />
+</a></div><div><a href="#2">Ma ád Isten szerencsét...
+
+ - túraajánlat
+</a></div><div><a href="#3">Különleges ajánlat kizárólag a vendegvaro.hu olvasóinak!</a></div><div><a href="#4">Téli kedvezményes pihenés a Corvus Hotel Bük***-ben</a></div><div><a href="#5">Téli fények az Erzsébet Park Hotel***-ben<b><br /></b></a></div><div><a href="#6">Casa Gyémánt - szilveszteri akció<br /></a></div></div></div><div class="column"><div class="inner"><div><a href="#7">Nyitási akció a Ramada Resort**** Aquaworld Budapest komplexumban</a></div><div><a href="#8">A VIP Arts Management különleges rendezvényei<br />
+</a></div><div><a href="#9">Szakértői sarok a topjob.hu-n
+
+</a></div><div><a href="#10">Előrendelhető: Miskolc és a Bükk<br />
+</a></div><div><a href="#11">Utolsó kötetek - legjobb áron!</a></div><span>&nbsp;</span></div></div>
+			
+			<div class="inner">
+		
+				<a name="1"></a>
+<div class="block">
+	<div class="inner">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Újbor- és Sajtfesztivál
+
+<br />
+</h2>
+<img width="186" height="176" border="0" class="simple" src="http://www.vendegvaro.hu/dl/media/group_19/group_A1/group_46d3eb56f2308/group_47a98dadc0dec/group_492ab378cdca8/item_38186.jpg" /><br />A jó borok és finom sajtok rajongói számára igazi csemege a hétvégén immár ötödik alkalommal megrendezett Újbor- és Sajtfesztivál a Vajdahunyadvárban.<br />A belépőjegyhez fesztivállogóval ellátott pohár jár, amellyel Magyarország legjobb újborait kóstolhatja meg.
+
+<br /><br />Időpont: <b>2008. november 29-30., 10-18 óra</b><br />
+Helyszín: <b>Budapest, Vajdahunyadvár</b><br /><br />
+<a target="_blank" href="http://www.vendegvaro.hu/gen?genid=61987"></a><a href="http://www.vendegvaro.hu/Ujbor-es-Sajtfesztival-Budapest" target="_blank">A fesztivál programja&gt;&gt;</a><br />
+<br /><br /><br />
+
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+<a name="2"></a>
+<div class="block">
+	<div class="inner">
+		
+<h2>Ma ád Isten szerencsét...
+
+ - túraajánlat
+</h2><img width="188" height="123" border="0" class="simple" src="http://www.vendegvaro.hu/dl/media/group_19/group_A1/group_46d3eb56f2308/group_47a98dadc0dec/group_492ab378cdca8/item_38204.jpg" /><br />Árpád vezér a honfoglalás fárasztó teendői közben a Szerencs feletti dombon áldomást ült, és állítólag itt hangzott el a leendő hegyaljai településeknek nevet adó mondata: Ma ád Isten e tájon szerencsét Ondnak és Tarcalnak.
+
+<br />
+<a target="_blank" href="http://www.vendegvaro.hu/A-kiralyok-varosaban"><br />
+Az autós/vonatos/kerékpáros túra további részletei&gt;&gt;</a><a href="http://www.vendegvaro.hu/Ma-ad-Isten-szerencset" target="_blank"><span style="text-decoration: underline;"></span></a><br />
+<br />
+<br /><br />
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+<a name="3"></a>
+<div class="block">
+	<div class="inner">
+		<br /><h2>Különleges ajánlat kizárólag a vendegvaro.hu olvasóinak!</h2><br /><b><img width="191" height="129" border="0" class="simple" src="http://www.vendegvaro.hu/dl/media/group_19/group_A1/group_46d3eb56f2308/group_47a98dadc0dec/group_492ab378cdca8/item_38328.jpg" />Pihenés a Soproni Vadászkürt Panzióban!</b><br /><br />Ajánlat: 4 nap, 3 éjszaka szállás - bőséges reggelivel<br />Csomagár 2 fő részére: 36 000 Ft, kétágyas szobában<br /><b><br /></b><b>Az akció 2008. december 15-ig tart.<br /></b><span style="font-weight: bold;"><br /></span>Az idegenforgalmi adó külön, a helyszínen fizetendő (2008-ban ez 340Ft/fő/éj).<br /><br /><b>A panzió ajándéka egy Voucher, amelyet az éttermükben költhetnek el: </b>az
+első tíz foglalónak 12.000 Ft-os, a második tíz foglalónak 6000 Ft-os,
+a harmadik tíz foglalónak 3000 Ft-os utalványt biztosítanak + a
+huszonötödikként foglaló a panzió vendége egy 4 fogásos gyertyafényes vacsorára! (Az utalvány beváltható: 2009.01.02.-től 2009.02.28-ig, a panzióval történő egyeztetés után.)<br /><br />A sorrendet a bejelentkezés, és a feladás dátuma dönti el!<b><br />Az ajánlatot kizárólag a vendegvaro.hu látogatói vehetik igénybe!</b><br /><br /><a href="http://www.vendegvaro.hu/A-Vadaszkurt-Panziokulonleges-ajanlata-kizarolag-a-vendegvarohu-latogatoi-reszere" target="_blank">További információ&gt;&gt;</a>
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+<a name="4"></a>
+<div class="block">
+	<div class="inner">
+		
+<h2>Téli kedvezményes pihenés a Corvus Hotel Bük***-ben</h2>
+<img width="180" height="120" border="0" src="http://www.vendegvaro.hu/dl/media/group_19/group_A1/group_46d3eb56f2308/group_47a98dadc0dec/group_492ab378cdca8/item_38189.jpg" class="simple" />Kedvezményes csomag 3 éj szállással, félpanzióval, szauna- és pezsgőfürdő használatával.<br /><br />Részvételi díj: 21 900 Ft/fő standard kétágyas szobában<br /><br />A téli kedvezményes ajánlat a 2008.12.01. és 2009.03.06. közötti foglalásokra érvényes (kivéve a 2008.12.23-2009.01.03. közötti időszakot).<br /><br />Az ajánlat meghosszabbítás azonos kondíciók mellett lehetséges!<br /><br />Minden csomagra vonatkozóan:<br />- Egyágyas felár: 2500 Ft/éj<br />- Classic felár:      500 Ft/fő/éj<br />- Szuperior felár: 1000 Ft/fő/éj
+
+<br />Az idegenforgalmi adót a csomagárak nem tartalmazzák, mértéke 360 Ft/fő/éj.
+<br />
+<b><br />
+Corvus Hotel Bük***</b><br />
+Cím: 9740 Bükfürdő, Termál körút 24.<br />
+Tel.: 94/6558-028, fax: 94/558-027, e-mail: <a href="mailto:reservation@corvushotelbuk.hu" target="_blank">reservation@corvushotelbuk.hu</a>, honlap: <a href="http://www.corvushotelbuk.hu/" target="_blank" rel="nofollow">www.corvushotelbuk.hu</a><br />
+
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+<a name="5"></a>
+<div class="block">
+	<div class="inner">
+		<h2>Téli fények az Erzsébet Park Hotel***-ben<b><br /></b></h2><p><img width="179" height="242" border="0" src="http://www.vendegvaro.hu/dl/media/group_19/group_A1/group_46d3eb56f2308/group_47a98dadc0dec/group_492ab378cdca8/item_38291.jpg" class="simple" />A parádfürdői Erzsébet Park Hotelben megálmodták, hogyan lehet a hideg téli éjszakákba fényt csempészni... A szállodát karácsonyi színekbe öltöztetik, aromás forralt borral várják Önöket, az érkezésük napján, gazdag büféreggelit és vacsorát kínálnak, színes lehetőségeket biztosítanak az élményszerzésre (wellness, bowling, biliárd, koktélok), és egy exkluzív, illatos díszgyertyát helyeznek a szobájukba! A többi már csak Önökön múlik...<br /></p><p><b>A december 1. és 22. közötti időszakra érvényes, 2 éjszakás tartózkodásra vonatkozó ajánlat ára: 40 000 Ft/2 fő.</b><br /><br />A csomag tartalma:<br />- két éjszakai szállás a rendelkezésre álló legszebb
+kétágyas szobatípusban 2 főre<br />- gazdag büféreggeli és vacsora<br />- érkezéskor személyenként egy pohár forralt bor<br />- ajándék gyertya<br />- a wellness-részleg használata<br />- parkoló, törölköző- és köntöshasználat<br />- Áfa<br />Az idegenforgalmi adó külön fizetendő, mértéke 330 Ft/fő/éj.<br /></p><p><b>Erzsébet Park Hotel***</b><br />Cím: 3244 Parádfürdő, Kossuth Lajos út 372.<br />Tel.: 36/444-044, 20/553-7190
+
+fax: 36/544-170, e-mail: <a target="_blank" href="mailto:info@erzsebetpark.hu">info@erzsebetpark.hu</a>, honlap: <a rel="nofollow" type="" target="_blank" href="http://www.erzsebetparkhotel.hu/">www.erzsebetparkhotel.hu</a></p>
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+<a name="6"></a>
+<div class="block">
+	<div class="inner">
+		<h2>Casa Gyémánt - szilveszteri akció<br /></h2><b><img border="0" class="simple" src="http://www.vendegvaro.hu/dl/media/group_19/group_A1/group_46d3eb56f2308/group_47a98dadc0dec/group_492ab378cdca8/item_38310.jpg" style="width: 185px; height: 120px;" />Érvényes: 2008. december 28. és 2009. január 04. között - minimum 3 éjszakától</b><br /><br />A csomag tartalma:<br />- szállás, gazdag büféreggelivel és büfévacsorával<br />-
+részvétel a szilveszteri programokon: Diamante különterem (élőzene:
+Golden Party Dance Band, éjfél után meglepetés sztárvendég, Monte
+Carlo-i hangulat: póker és rulett, éjféli tombola szenzációs
+nyereményekkel)<br />- 5 fogásos svédasztalos gálavacsora és éjféli menü - Granario Étterem<br />- fürdőköpeny és a wellness központ teljes körű használata<br />- korlátlan Internet hozzáférés, parkolási lehetőség a szálloda mélygarázsában, késői kicsekkolás utazás napján 15 óráig<br />- áfa és idegenforgalmi adó<br /><b><br />3 éjszakás foglalás esetén:</b><br />Kétágyas szobában: 28 300 Ft/fő/éj, apartmanban: 31 300 Ft/fő/éj<br />Pótágy (12 év felett): 22 300 Ft/fő/éj, gyermek pótágy (6-12 éves kor között): 14 300 Ft/fő/éj<br /><br /><b>4 éjszakás foglalás esetén:</b><br />Kétágyas szobában: 25 725 Ft/fő/éj, apartmanban: 28 725 Ft/fő/éj<br />
+Pótágy (12 év felett): 19 725 Ft/fő/éj, gyermek pótágy (6-12 éves kor között): 12 725 Ft/fő/éj<br /><br />Egyágyas elhelyezés esetén 4900 Ft/éjszaka felárat számolnak fel. Üdülési csekket elfogadnak.<br /><br />
+
+<b>Casa Perla**** Konferencia és Wellness Szálloda</b><br />Cím: Siófok, Somogyi Béla u. 18/b.<br />Tel.: 84/889-100, 84/889-227, e-mail: <a target="_blank" href="mailto:info@casaperla.hu">info@casaperla.hu</a>, <a target="_blank" href="mailto:sales@casaperla.hu">sales@casaperla.hu</a><br />
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+<a name="7"></a>
+<div class="block">
+	<div class="inner">
+		<h2>Nyitási akció a Ramada Resort**** Aquaworld Budapest komplexumban</h2><b><img width="188" height="125" border="0" src="http://www.vendegvaro.hu/dl/media/group_19/group_A1/group_46d3eb56f2308/group_47a98dadc0dec/group_49213eb2f0242/item_37964.jpg" class="simple" />2=3 éjszakás csomagajánlat 2008. december 8-22. között</b><br /><br />Részvételi díj: 43 000 Ft-tól/ fő/ 3 éj<br /><br />Az ajánlat a következő szolgáltatásokat tartalmazza:<br />- szállás, gazdag büféreggelivel<br />- 1 db Aquaworld belépő/ fő<br />-
+a szálloda Oriental Spa-, Wellness- és Fitneszközpontjának ingyenes
+használata (relaxációs medence kerti kiúszó résszel, mandala-medence
+szaunák, gőzkabin, fitneszterem)<br />- fürdőköpeny díjmentes biztosítása<br />- ingyenes WIFI internet csatlakozási lehetőség a szálloda egész területén<br />- a szálloda szabadtéri parkolójának díjmentes használata<br />- vonatkozó adók (ÁFA, IFA)<br />A program- és árváltozás jogát fenntartják.<br /><br />Az ajánlatot lefoglalhatja a <a rel="nofollow" target="_blank" href="http://www.ramadaresortbudapest.hu/">www.ramadaresortbudapest.hu</a> honlapon, ha további kérdése van, írjon a <a rel="nofollow" target="_blank" href="mailto:sales@aqua-world.hu">sales@aqua-world.hu</a> e-mail címre.<br />
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+<a name="8"></a>
+<div class="block">
+	<div class="inner">
+		<h2>A VIP Arts Management különleges rendezvényei<br />
+</h2>
+<h2>
+
+</h2>
+
+<p>
+	<b><img border="0" class="simple" src="http://www.vendegvaro.hu/dl/media/group_19/group_A1/group_46d3eb56f2308/group_47a98dadc0dec/group_492ab378cdca8/item_38331.jpg" style="width: 190px; height: 185px;" />Szilveszteri
+	Operabál Miklósa Erikával<br />
+	</b>2008. december 31.<br />A gálaműsorban a Magyar Állami Operaház énekművészei és balett szólistái, valamint a Váci Szimfonikus Zenekar működik közre.<br /><a href="http://www.vendegvaro.hu/Szilveszteri-Operabal-Miklosa-Erikaval" target="_blank">További
+	információ&gt;&gt;</a> <b><br /></b></p><b>
+	</b><b><br />&quot;Zene-bor</b>&quot; <b>- A 100 tagú
+	cigányzenekar ünnepi koncertje</b><br />
+	2008.
+	december 30., 18 óra<br />
+	A
+	100 tagú cigányzenekar ünnepi koncertje nagy hagyományokkal rendelkező esemény. Idén
+	már 12. alkalommal rendezik meg a Budapest Kongresszusi Központban.<a href="http://www.vendegvaro.hu/Zene-bor-a-100-Tagu-Ciganyzenekar-unnepi-koncertje" target="_blank"><br />
+	További
+	információ&gt;&gt;</a><b><br />
+	</b>
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+<a name="9"></a>
+<div class="block">
+	<div class="inner">
+		<h2>Szakértői sarok a topjob.hu-n
+
+</h2><img width="190" height="74" border="0" src="http://www.vendegvaro.hu/dl/media/group_19/group_A1/group_46d3eb56f2308/group_47a98dadc0dec/group_492ab378cdca8/item_38330.gif" class="simple" />Vannak a munkájához kapcsolódó kérdések, amelyek régóta foglalkoztatják Önt? Állást keres, és nem tudja, mi a siker titka? Eddig nem volt olyan fórum, ahol választ kaphatott volna ezekre a kérdésekre? Nincs sem ideje, sem anyagi forrása arra, hogy szakértőhöz forduljon? <br />A topjob.hu-n választ kaphat! <a rel="nofollow" target="_blank" href="http://expertcorner.topjob.hu/">Forduljon kérdéseivel szakértőikhez</a>, akik teljesen ingyen megválaszolják azokat! Jelenleg hét kategóriában hat szakértő várja Öntől a kérdéseket. <a rel="nofollow" target="_blank" href="http://www.topjob.hu/site/Static/topjob_expert_corner_promo_pr.html">További részleteket a Topjob.hu oldalán olvashat!</a><br />
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+<a name="10"></a>
+<div class="block">
+	<div class="inner">
+		
+<h2>Előrendelhető: Miskolc és a Bükk<br />
+</h2>
+<p>
+	<img border="0" class="simple" style="width: 141px; height: 195px;" src="http://www.vendegvaro.hu/dl/media/group_19/group_A1/group_46d3eb56f2308/group_47a98dadc0dec/group_48eb0465f08dc/item_36252.jpg" /> Az új generációs Vendégváró útikönyvek még ez évben megjelenő, legújabb darabja, a <i>Miskolc és a Bükk</i> című kötet több mint 200 oldalon, 270 színes fotó és 7 térkép segítségével mutatja be a Bükk lábánál fekvő várost és környékét.<br />
+	<br />
+	Külön
+	fejezet ad tippeket a gyermekkel kiránduló családoknak, a túrázni,
+	gombázni, kerékpározni, lovagolni, horgászni, vadászni szerető
+	utazóknak az aktív pihenéshez, a Miskolcon töltött napok tartalmasabbá
+	tételéhez. <br />
+	<br />
+	<a href="http://www.vendegvaroutikonyvek.hu/shop/product_info.php?products_id=1206" target="_blank" type=""><br />
+	A kötet 20% kedvezménnyel már előrendelhető webáruházunkban&gt;&gt;</a><b><br />
+	</b><br />
+	<a href="http://www.vendegvaroutikonyvek.hu/" target="_blank" type="">Legfrissebb útikönyveinkről itt olvashat&gt;&gt;</a></p><p><a href="http://www.vendegvaroutikonyvek.hu/" target="_blank" type=""><br /></a> 
+</p>
+
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+<a name="11"></a>
+<div class="block">
+	<div class="inner">
+		<h2>Utolsó kötetek - legjobb áron!</h2><img width="137" height="192" border="0" src="http://www.vendegvaro.hu/dl/media/group_19/group_A1/group_46d3eb56f2308/group_47a98dadc0dec/group_492ab378cdca8/item_38341.jpg" class="simple" /><br />Ezúttal
+olyan Vendégváró útikönyveket szeretnénk figyelmükbe ajánlani, amelyekből
+már csak néhány darab van kiadónk birtokában. <br /><br />A felkínált darabok között akadnak első kiadású könyvek is, amelyek ma már legfeljebb az antikváriumok
+polcain fordulnak elő. <br /><br />A kötetek többségéből mindössze 1-2 db áll rendelkezésre!<br /><br /><a target="_blank" href="http://www.vendegvaroutikonyvek.hu/shop/index.php?cPath=173">Tovább az utolsó kötetekhez&gt;&gt;</a><br /><br /><br /><br /><br /><br />
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+<a name="12"></a>
+<div class="block">
+	<div class="inner">
+		
+<p>
+	Ezt a hírlevelet Ön mint a Vendégváró turisztikai portál (<a href="http://www.vendegvaro.hu/" target="_blank" type="">www.vendegvaro.hu</a>)
+	regisztrált felhasználója kapta. Hetente egy e-mailt küldünk, melyben
+	tájékozatjuk a Vendégváró és partnereinek újdonságairól. Amennyiben a
+	jövőben nem szeretné megkapni hírlevelünket, úgy bejelentkezés után a
+	&quot;Beállítások&quot; menüben leiratkozhat róla.<br />
+</p>
+
+	</div>
+	<div class="footer">
+		<a href="#0" class="button">lap tetejére</a>
+	</div>
+</div>
+
+						
+			</div>
+
+		</div>
+		<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script><script type="text/javascript">_uacct = "UA-153795-2";urchinTracker();</script>
+	</body>
+</html>
+
+

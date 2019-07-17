@@ -1,0 +1,59 @@
+Subject:=?ISO-8859-1?Q?Re=3A_=BFcomo_hago_para_enclavar_una_ventana=3F?=
+El d=EDa 11 de octubre de 2012 14:39, Victor Hugo Cespedes Zuleta
+<cespedes.zuleta.victor@gmail.com> escribi=F3:
+> uso el navegador de ventanas nautilius.
+>
+> el manejador de ventanas. dentro de preferences y windows no me da la
+> opcion de quitar los tres botones del t=EDtulo de la ventana.
+>
+> screen es un multiplexador de ventanas (o solo de terminales) con un
+> manual de mas de 1000 lineas, es demasiado para leer.
+
+Hummmm.... esto es justo lo que no ten=EDas que decir ,,,,
+
+>
+> mi proposito es lograr realizar un torneo inform=E1tico de ajedrez en sim=
+ultaneo.
+>
+> es decir que mi PC juegue con el motor GNUCHESS contra unas cincuenta per=
+sonas.
+>
+> la interfaz de gnuchess es a traves de la terminal de forma nativa.
+>
+> el torneo se realizara de la siguiente manera.
+>
+> todos dictan su jugada en orden. luego el computador responde
+> inmediatamente a cada jugada. en orden ascendente. de la mesa uno a la
+> 50.
+
+Pregunta:
+=BFquer=E9s abrir 50 terminales o vas a pasar las 50 jugadas en la misma te=
+rminal?
+Si solo va a haber una terminal abierta, ctrl-alt-F1 al F6 te da lo
+que necesitas.
+Una ventana (mejor dicho 6) sin bot=F3n de cierre, ni minimizar, ni
+nada. Texto puro y duro.
+=BFo necesitas las 50?
+Se me ocurre que tambi=E9n se podr=EDa, pero no s=E9 como invocarlas.
+A lo mejor otro compa=F1ero te da la pista de como hacer eso.
+
+>
+> y para no estar cambiando de terminales. seria bueno "screen" (como
+> multiplexador) o por lo menos que las terminales no se cierren por
+> descuido perdiendo la sesi=F3n.
+>
+> no pude invesitgar sobre tilda o quake. disculpa.
+
+Un abrazo
+
+--=20
+Jorge A Secreto
+Analista de Sistemas
+MP 361
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJx9gij_Y14Go9jGU3HjRMi7M9fvMX=MdJKvQp3mNwbwEJeBtw@mail.gmail.com
+

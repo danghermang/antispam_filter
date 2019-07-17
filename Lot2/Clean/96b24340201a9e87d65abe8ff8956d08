@@ -1,0 +1,72 @@
+Subject:Re: ldap questions
+On Mon, 3 Dec 2012 21:21:38 +0100
+xavier limodin <xavier.limodin@gmail.com> wrote:
+
+>=20
+> Les comptes LDAP peuvent =C3=AAtre utilis=C3=A9s sur le syst=C3=A8me mais=
+ l'inverse ?
+
+C'est justement la question: ce que je voudrais c'est rentrer user/pw/infos,
+et que =C3=A7a serve ensuite pour "le reste" (notamment samba).
+=20
+>  4- les docs sont tr=C3=A8s en retard entre la version de squeeze et les =
+versions
+> >    ant=C3=A9rieures, qqun a-t'il une URL avec un howto =C3=A0 jour (voi=
+re un howto
+> >    pour les nuls;)?
+>=20
+>=20
+> Jette un oeil dans les docs en/us Ubuntu, y a des choses int=C3=A9ressant=
+es.
+> Surtout sur le dorsal cn=3Dconfig qui remplace le fichier de conf
+> Je sais, c'est mal !!
+
+S=C3=A8p=C3=B4tro: jusqu'=C3=A0 maintenant j'ai r=C3=A9ussi =C3=A0 =C3=A9vi=
+ter ldap; mais =C3=A0 la
+lecture des docs il semble que l'ancien mode de conf texte =C3=A9tait
+m=C3=A9chamment plus pratique que le cn=3Dconfig (d=C3=A9j=C3=A0 ne serait-=
+ce qu'=C3=A0
+comprendre et parce qu'il =C3=A9vitait les .ldif!)
+
+>=20
+> 7- existe-t'il autre chose que 389DS pour faciliter l'usage de ldap?
+> >
+> > Oui, Apache Directory Studio
+
+Ok, j'ai d=C3=A9j=C3=A0 vu ce nom passer :)
+
+> > 8- existe-t'il qq chose bcp mieux (facile!) que slapd comme svr?
+> >
+>=20
+> Pas sur, mais une fois pass=C3=A9e la config de base, avec ADS, c'est bon=
+heur
+
+L=C3=A0 aussi =C3=A7a me brouille l'=C3=A9coute: les modifs (ajouts d'index=
+es) pr=C3=A9conis=C3=A9es
+dans les howtos que j'ai trouv=C3=A9 plantent :( - donc, vu que =C3=A7a ne =
+commence
+m=C3=AAme pas, impossible d'aller plus loin qu'avant le d=C3=A9but et vice-=
+versa :((
+
+Je me demande si =C3=A7a ne serait pas plus facile avec une synchro de /etc=
+/passwd*
+/etc/shadow*, etc/group* & /etc/gshadow* vers les autres machines pour les
+utilisateurs system (reste que je ne sais pas o=C3=B9 se trouve les "compte=
+urs" user
+& group (eg: user1=3D1000, user2=3D1001, etc)) et un backup des bons fichie=
+rs pour
+le reste... (?)
+
+--=20
+(Tazo) les soirs tout seul, c'est dur
+(@Potatoe) On veut pas savoir...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121203214601.7a3e1497@anubis.defcon1
+

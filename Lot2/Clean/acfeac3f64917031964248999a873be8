@@ -1,0 +1,28 @@
+Subject:Re: [Flexradio] mike
+At 23:55 10/27/2012, AT&T Online Services wrote:
+>What is a good desk mike to use on the Flex-3000?
+
+I use the Yamaha CM500 recommended on this list (headset and boom 
+mic, about $50) and it works a treat.  Be sure to put a couple of 
+ferrites around the audio input to the F3K to kill any RF picked up 
+in the wire.   You need to make your own adaptor to the RJ45 on the 
+front panel for the mic/headset/ptt switch.
+
+There is another headset, highly recommended, using a OVL750MV 
+headset with boom mic, that includes all the cable wiring done for 
+you.  It is sold by someone on the list, but I can't remember who.
+
+
+
+-- 
+Dave Gomberg, San Francisco   NE5EE     Programming since 1961
+All addresses, phones, etc. at http://www.wcf.com/ham/info.html
+----------------------------------------------------------------- 
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

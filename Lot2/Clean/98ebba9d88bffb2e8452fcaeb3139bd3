@@ -1,0 +1,31 @@
+Subject:=?ISO-8859-1?B?W3Lpc29sdV0gZXjpY3V0ZXI=?= des commandes avec droits
+	root =?ISO-8859-1?B?KGh5cG90aOhzZQ==?= sudo)
+Bonjour,=20
+
+> > Sissi(c) ils le sont conform=E9ment =E0 ce qui est d=E9crit dans la
+> > proc=E9dure cit=E9e dans mon post initial=20
+
+bon en fait se d=E9logguer n'=E9tait pas suffisant.
+
+Il fallait rebooter pour que cela fonctionne, du moins face au test
+d'"aptitude"
+
+
+Quand je dit aptitude, je ne parle pas juste d'=E9x=E9cuter aptitude, mais
+bien : faire un update (Ctrl + T + mise =E0 jour des paquets sans demande
+de mot passe)
+
+
+--
+Cordialement=20
+Gr=E9gory BULOT
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121104103729.066714b9@roland.bulot-fr.com
+

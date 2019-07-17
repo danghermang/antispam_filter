@@ -1,0 +1,64 @@
+Subject:Re: [EVDL] pre-charge resistor?
+On 10/18/2012 11:25 PM, Dennis Miles wrote:
+> the "Mean Time Between Fails," is a (Sort of) average compilation
+> over many units, not a particular units guaranteed failure time...
+
+That's a good summary. Of course, the exact numbers vary significantly 
+depending on the product.
+
+Here's a way to describe it that's easy to remember. Think of the cross 
+section of a bathtub (view with a fixed-width font like Courier). It 
+starts high at the faucet/drain end, but falls very quickly to the 
+bottom. It then has a long, nearly flat bottom. Then at the far end, it 
+rises back to the top, somewhat slower than it did at the faucet/drain end.
+
+  |                    _-
+  |                  _-
+   \________________-
+
+This is the "bathtub curve" as it is known to reliability engineers. The 
+horizontal axis is time (in hours or even years). The height is the 
+failure rate. High means very likely to fail; low means very unlikely to 
+fail.
+
+Something brand new (time=0, at the left end) has a very high failure 
+rate. Maybe 10% of them don't work right out of the box! Hopefully, the 
+company you bought it from tested it, and weeded out all these "infant 
+mortality" failures so you won't see them. (Of course, this step is left 
+out if you buy something cheap with no warranty or return options).
+
+If it works for the first few weeks, you get into the low flat bottom of 
+the bathtub. Any weak parts, careless assembly, or other problems have 
+been weeded out. The product is likely to work for a long time.
+
+As it gets old, the failure rate gradually starts to rise. This is the 
+"wear out" portion of the curve. Just about *everything* has a wear-out 
+mechanism. It could be months or years, depending on the type of 
+product, how often you use it, how hot it gets, how hard you are 
+stressing it, etc.
+
+And, it depends on luck. :-) You could buy two identical products, and 
+use them in identical applications. But one lasts a month, and one lasts 
+10 years. It's just the luck of the draw.
+
+You won't see the shape of this curve until you are buying 100's of 
+something. If you carefully record exactly when each one fails, then you 
+will see the shape of this curve. Most of the failures will either be 
+from infant mortality, or wearout, with just a few random failures in 
+between.
+
+-- 
+Humanity is acquiring all the right technology for all the wrong 
+reasons. -- R. Buckminster Fuller
+--
+Lee A. Hart http://www.sunrise-ev.com/LeesEVs leeahart@earthlink.net
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

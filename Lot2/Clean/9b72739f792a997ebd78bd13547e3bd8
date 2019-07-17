@@ -1,0 +1,92 @@
+Subject:Re: [Hsqldb-user] Comparing strings with null values
+Versions up to 1.7.2 (8 years old) had this deficiency in comparing NULL
+to a value.
+
+As suggested by A.S., adding a DEFAULT clause with NOT NULL constraints
+on the relevant columns looks like the best solution.
+
+If you are inserting / updating your data in too many places, you can
+add a "BEFORE" TRIGGER to the table to check the relevant values for
+NULL and replace them with the default value.
+
+However, you also have the following options:
+
+1. Standard SQL option of using IS DISTINCT FROM for your comparison
+when the column value could be NULL.
+
+WHERE customer.name IS DISTINCT FROM 'foo' =
+
+
+2. Standard SQL predicates which allow an index on the column to be used
+for searching, which improves the query speed with large tables.
+
+WHERE column.name IS NULL OR  column.name > 'foo' OR column.name < 'foo'
+
+Fred
+
+
+On Mon, Sep 3, 2012, at 12:17, Andreas S=E4ger wrote:
+> Am 03.09.2012 01:36, Dean Oemcke wrote:
+> > I am currently upgrading from 1.7 to 2.2
+> > Possibly the biggest issue I am faced with is converting conditional
+> > statements in the where clause from something like:
+> >
+> > WHERE customer.name <> 'foo'
+> >
+> > to
+> >
+> > WHERE IFNULL(customer.name, '') <> 'foo'
+> >
+> > It seems that if customer.name is NULL the first statement will no
+> > longer return true.
+> > Is there some kind of compatibility setting I can use to all this type
+> > of comparison or do I need to manually eyeball every piece of SQL to
+> > adjust each query individually?
+> >
+> =
+
+> Hi,
+> Any comparison with Null returns Null.
+> You want a compatibility setting for compatibility with what? As far as =
+
+> I know, this is compatible to any other database.
+> =
+
+> You may update all fields in question with '', set default '' and =
+
+> disallow Null values.
+> Hope this helps.
+> A.S.
+> =
+
+> =
+
+> -------------------------------------------------------------------------=
+-----
+> Live Security Virtual Conference
+> Exclusive live event will cover all the ways today's security and =
+
+> threat landscape has changed and how IT managers can respond. Discussions =
+
+> will include endpoint security, mobile security and the latest in malware =
+
+> threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+---------------------------------------------------------------------------=
+---
+Live Security Virtual Conference
+Exclusive live event will cover all the ways today's security and =
+
+threat landscape has changed and how IT managers can respond. Discussions =
+
+will include endpoint security, mobile security and the latest in malware =
+
+threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

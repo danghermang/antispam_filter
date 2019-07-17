@@ -1,0 +1,42 @@
+Subject:Re: PC =?UTF-8?B?w6l0ZWludA==?= qui consomme
+On Fri, 2 Nov 2012 22:55:35 +0100
+Fran=C3=A7ois Boisson <user.anti-spam@maison.homelinux.net> wrote:
+
+>=20
+> Ma question est de savoir si le WOL d=C3=A9sactiv=C3=A9 (/proc/acpi/wakeup
+> le montre d=C3=A9sactiv=C3=A9) pourrait =C3=AAtre en fait aliment=C3=A9 m=
+algr=C3=A9 une inactivit=C3=A9
+> apparente (pas de voyant, pas de fonctionnement) et programm=C3=A9 (WOL d=
+=C3=A9sactiv=C3=A9
+> vu du noyau).
+
+Ben pour ce faire ethtool est ton ami.
+
+Et pour ce qui est des voyants, rien ne dit s'ils sont command=C3=A9s volon=
+tairement
+ou pas par le chipset (et le chipset command=C3=A9 par le driver et les voy=
+ants
+par le chipset ou par le driver qui commande le chipset)... Sans pr=C3=A9ju=
+dice
+d'un =C3=A9ventuel va-et-vient entre driver et ACPI ;)
+
+> Ce serait quand m=C3=AAme vicieux.
+=20
+Si c'est =C3=A7a, tu pourra toujours crier au WOL :p
+
+--=20
++ZeeToms: c koi google talk?
+@LamerFowl: c'est pour parler =C3=A0 google
+@LamerFowl: "salut google, je cherche quelques photos de kirsten dunst, tu
+            peux m'aider ?" hop il fait la recherche. mais faut un micro
++ZeeToms: c genial
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121102230802.32807e66@anubis.defcon1
+

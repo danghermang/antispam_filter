@@ -1,0 +1,26 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint?= qui consomme
+Le Fri, 2 Nov 2012 23:08:02 +0100
+Bzzz <lazyvirus@gmx.com> a écrit:
+
+> On Fri, 2 Nov 2012 22:55:35 +0100
+> François Boisson <user.anti-spam@maison.homelinux.net> wrote:
+> 
+> > 
+> > Ma question est de savoir si le WOL désactivé (/proc/acpi/wakeup
+> > le montre désactivé) pourrait être en fait alimenté malgré une inactivité
+> > apparente (pas de voyant, pas de fonctionnement) et programmé (WOL
+> > désactivé vu du noyau).
+> 
+Echec complet. Ça n'est pas ça, 
+
+François Boisson
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121103083044.285e3f9fdbc8de41a6134f8a@maison.homelinux.net
+

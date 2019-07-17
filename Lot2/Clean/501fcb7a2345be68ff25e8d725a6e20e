@@ -1,0 +1,23 @@
+Subject:Re: Donde y como recomiendan almacenar =?ISO-8859-1?Q?informaci=F3?=
+	=?ISO-8859-1?Q?n_sensible_=28claves_de_seguridad=29?=
+Hola,
+
+El 25/10/12 14:39, adriancito escribió:
+
+> Grupo, aquí les escribo con un tema harto tratado pero que nunca he
+> definido aún.
+
+Suelo utilizar un fichero contenedor creado con http://www.truecrypt.org/
+
+Razonablemente seguro,
+
+Saludos
+-- 
+Cayetano
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50896538.1060907@boj.org
+

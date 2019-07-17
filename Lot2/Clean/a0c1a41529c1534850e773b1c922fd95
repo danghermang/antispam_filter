@@ -1,0 +1,19 @@
+Subject:Re: [rlug] php - xml_parse_into_struct fail
+On 22.10.2012, at 13:21, Valentin Cozma <valentin@deversoft.ro> wrote:
+
+> Intai as zice sa verifici contentul XML. 
+> 
+> incearca cu un string cu care a mers inainte.
+> 
+
+Acelasi string merge acum cu php5.2
+
+
+> daca ai diacritice aici poate fi o prob.
+
+Verific
+
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

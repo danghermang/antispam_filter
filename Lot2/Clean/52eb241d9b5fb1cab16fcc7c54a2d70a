@@ -1,0 +1,57 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+El Sat, 22 Sep 2012 21:10:01 +0200, Juan Antonio escribió:
+
+> El 22/09/12 19:45, Camaleón escribió:
+
+(...)
+
+>>> al parecer el nuevo paquete de initramfs no incluye "soporte" para
+>>> unix socket como módulo, cuando actualizó este paquete y generaba
+>>> nuevas imágenes initrd para sus "custom kernel" estos dejaban de
+>>> funcionar porque el había compilado el soporte de unix socket como
+>>> módulo en esos kernels.
+>>> Esta es la conclusión que yo he sacado al menos.
+>> 
+>> Eso es lo que me escama porque no existe ningún paquete "initramfs"
+>> como tal sino el de las herramientas (initramfs-tools) que se encarga
+>> de generar el intrd del kernel de Debian, pero entiendo que no altera/
+>> modifica/toca los que han sido compilados manualmente (los archivos
+>> initrd son independientes para cada kernel que exista en el sistema)
+>> :-?
+>> 
+> con mkinitramfs tu generas una imagen rd para cualquier kernel, tanto de
+> repo como compilado a mano, y configuras ciertos "ganchos" que soportan
+> determinados sistemas y cargan ciertos módulos. 
+
+No sé, no me termina de quedar claro.
+
+Los archivo "initrd" que se generan por cada kernel instalado en el 
+sistema se modifican sólo si ha habido cambios en la imagen del kernel 
+(que es lo que sucede con los paquetes "linux-image-*" que proporciona 
+Debian cuando existe una actualización, bien sea de seguridad -para la 
+versión estable- o en testing).
+
+Pero el resto de archivos intrd (los que han sido generados tras una 
+compilación manual del kernel) no se modifican (o no se deberían alterar) 
+salvo que se vuelva a ejecutar manualmente el comando (p ej., tras volver 
+a compilar el kernel con cambios en archivo de configuración).
+
+> Supongo que la configuración por defecto de la nueva versión de
+> initramfs no incluía el módulo para socket-unix, asi que o bien los
+> compilaba "dentro" del kernel o cambiaba la configuración para que al
+> generar la imagen se añadiese el módulo en cuestión.
+
+¿A qué versión de initramfs te refieres? Yo no tengo ningún paquete 
+instalado con ese nombre :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3n4mf$lsj$1@ger.gmane.org
+

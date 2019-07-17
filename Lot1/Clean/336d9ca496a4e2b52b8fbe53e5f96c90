@@ -1,0 +1,29 @@
+Subject:Re: Sin opciones de accesibilidad en Iceweasel (era: Problems with
+	iceweasel 10 in squeeze.)
+El Sun, 11 Nov 2012 08:49:21 -0300, Francisco Rafael Del Roio escribió:
+
+> Parece ser que mi sistema me está haciendo una mala jugada. Por alguna
+> razón, ayer conseguí que iceweasel pudiera leerse, como lo comentaba en
+> el mensaje anterior. Sin embargo, sigo sin navegador, ya que el epipany
+> se cierra sin razón alguna cuando lo uso con orca. ¿Alguna otra idea?
+
+Usa Icewasel mientras tanto e informa del fallo con Epiphany (ejecuta 
+Epiphany desde línea de comandos para ver qué mensajes de error registra) 
+ya que seguramente ambas cosas estén relacionadas.
+
+> Recordar que no tengo el navegador, por favor pásenme adjunto el texto
+> del reporte que citaron para que lo pueda leer...
+
+Entonces ¿tampoco funciona Iceweasel? :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7odrm$7di$2@ger.gmane.org
+

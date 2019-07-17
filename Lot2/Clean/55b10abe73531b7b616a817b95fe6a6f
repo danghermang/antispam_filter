@@ -1,0 +1,78 @@
+Subject:Re: Proxy squid automatico
+facil. yo quiero que me orienten sobre como poner un servidor proxy transpar=
+ente con squid. el servidor ya funciona lo que pasa que tengo que configurar=
+ el navegador ( la ip del proxy ) en cada computadora como hago que esto sea=
+ autom=C3=A1tico ?  e le=C3=ADdo que es con 2 tarjetas de red como hago esto=
+ ?=20
+
+El 28/11/2012, a las 15:30, Osniel Fari=C3=B1as S=C3=A1nchez <osniel@hosped.=
+cfg.sld.cu> escribi=C3=B3:
+
+>>=20
+>>=20
+>> El 28/11/2012, a las 14:37, Francisco Eduardo Ascencio Dominguez
+>> <azul_chido@hotmail.com> escribi=C3=B3:
+>>=20
+>>> El 28/11/2012, a las 14:28, Cosme Dom=C3=ADnguez D=C3=ADaz
+>>> <cosme.ddiaz@gmail.com> escribi=C3=B3:
+>>>=20
+>>>> Lo que buscas se llama proxy transparente.
+>>>>=20
+>>>>=20
+>>>> --
+>>>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>>>> with a subject of "unsubscribe". Trouble? Contact
+>>>> listmaster@lists.debian.org
+>>>> Archive: http://lists.debian.org/50B673EE.9040608@gmail.com
+>>>=20
+>>>=20
+>>> Ok si se que se llama proxy transparente el problema es que tengo que
+>>> configurar ip tablee pero como lo ago ? solo escribo las cosas as=C3=AD e=
+n
+>>> la consola o tengo que poner las configuraciones en un archivo o como ?
+>>>=20
+>>> --
+>>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>>> with a subject of "unsubscribe". Trouble? Contact
+>>> listmaster@lists.debian.org
+>>> Archive:
+>>> http://lists.debian.org/BLU0-SMTP148E7F9EF51DEB548845B8FB5D0@phx.gbl
+>>=20
+>>=20
+>> ok ok y como lo ago con 2 tarjetas de red ? por que yo solo tengo una
+>>=20
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive:
+>> http://lists.debian.org/BLU0-SMTP310F9B7A04B2DB1D0F46015C55D0@phx.gbl
+> ...que tipo de red estas configurando?? me parece que andas desorientado
+> y asi va a ser dificil ayudar...
+>=20
+>=20
+> --
+>=20
+> Este mensaje le ha llegado mediante el servicio de correo electronico que o=
+frece Infomed para respaldar el cumplimiento de las misiones del Sistema Nac=
+ional de Salud. La persona que envia este correo asume el compromiso de usar=
+ el servicio a tales fines y cumplir con las regulaciones establecidas
+>=20
+> Infomed: http://www.sld.cu/
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/4899.201.220.209.50.1354138256.squirrel@h=
+osped.cfg.sld.cu
+>=20
+>=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU0-SMTP81115C589F3F5A03856956C55D0@phx.gbl
+

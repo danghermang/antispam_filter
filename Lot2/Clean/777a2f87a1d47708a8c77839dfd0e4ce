@@ -1,0 +1,30 @@
+Subject:Re: sobre el uso correcto de youtube-dl
+El 05/10/12 15:26, Victor Hugo Cespedes Zuleta escribió:
+> bien. ahora quiero instalarme el download helper.
+>
+> lo busque en mi gestor de paquetes synaptic y no se encuentra.
+>
+> ¿me pueden indicar cual es la URL de su repositorio oficial?
+>
+> para instalarlo a traves de la consola.
+
+Y no lo vas a encontrar, porque es un complemento del navegador 
+Firefox.No se instala desde consola.
+Ejecutá Firefox, te vas al menú Herramientas - Complementos, botón 
+"Descubre más..." y en el buscados de la derecha escribís DownloadHelper.
+Una vez instalado cerrás FF y lo abrís de nuevo. Verás 3 bolitas grises 
+a la izquierda de la barra de direcciones. Cuando estés viendo una 
+página con contenido descargable las bolitas se ponen de color y giran.
+Ahí abrís el desplegable que está pegado a las bolitas a su derecha, y 
+elegís lo que querés descargarte. Si también le agregás el 
+DownloadConverter podés convertir el formato mientras se descarga.
+
+Saludos
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506F2B68.9050804@gmail.com
+

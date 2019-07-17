@@ -1,0 +1,66 @@
+Subject:Re: Agrandar espacio a Debian
+A=C3=BAn as=C3=AD , yo recomendar=C3=ADa respaldar e implementar LVM en todo=
+ el sistema
+
+Enviado desde mi iPhone
+
+El 30/10/2012, a las 08:37, "Francisco J. Bejarano" <francisco.bejarano@open=
+knowledgenetwork.com> escribi=C3=B3:
+
+> Hola
+>=20
+> Aunque no tengas LVM puedes hacerlo si redimensionas la particion con el
+> espacio libre de las otras particiones y el sistema de ficheros que uses
+> es capaz de redimensionarse.
+>=20
+> Por ejemplo, con ext4 puedes usar el comando resize2fs para aumentar
+> espacio.
+>=20
+> Con LVM simplemente a=C3=B1adir=C3=ADas las particiones al grupo de volume=
+n y
+> redimensionarias el volumen y, ademas, harias la redimension del sistema
+> de ficheros al nuevo espacio pero te ahorras los trabajos de redimension
+> de particiones, eliminacion y dem=C3=A1s.
+>=20
+> Siempre haz copia de seguridad cuando redimensiones particiones... por si.=
+
+>=20
+> Saludos
+>=20
+> -----------------------------------------------------------------
+> Francisco J. Bejarano
+> Responsable de Sistemas
+> Dpt. Sistemas e Infraestructuras
+> Open Knowledge Network S.L.
+> francisco.bejarano@openknowledgenetwork.com
+> Tel. (+34) 902 534 004
+> Fax. (+34) 917 266 476
+> -----------------------------------------------------------------
+>=20
+> El 30/10/12 14:40, Dar=C3=ADo escribi=C3=B3:
+>> Hola lista, estoy pensando en agrandar el espacio (no libre) que
+>> tengo, el problema es que en ese espacio hay dos particiones, en una
+>> de las cuales tengo instalado Scientific Linux junto a su respectivo
+>> /home en otra partici=C3=B3n. Mi duda es si puedo eliminar dichas
+>> particiones (pensaba hacerlo con gparted) y a=C3=B1adirlas al resto de la=
+s
+>> particiones en partes iguales. El problema es que al crear esas
+>> particiones no lo hice con LVM, no s=C3=A9 si tiene que ver eso.
+>>=20
+>> Saludos y gracias!
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/508FE637.6080104@openknowledgenetwork.com=
+
+>=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/8E8B8F8E-84D6-487F-B80B-EF011B040532@joiz.net
+

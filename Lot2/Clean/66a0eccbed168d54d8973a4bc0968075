@@ -1,0 +1,47 @@
+Subject:Re: Ubuntu 12.04 > 12.10
+Hoi,
+een vraag Robert:
+
+On Sat, Oct 27, 2012 at 08:31:36AM +0000, Robert Spanjaard wrote:
+> On Fri, 26 Oct 2012 21:56:02 +0200, Han Bronsveld wrote:
+> =
+
+> > Bij vorige updates van Ubuntu versies kreeg ik via Update-beheer de
+> > optie om de nieuwe versie te installeren. Deze keer niet. Het
+> > informatiepakket is wel bijgewerkt.
+> > Kan het aan de updateinstellingen liggenof wordt er naar de hardware
+> > gekeken? Ik heb een HP Pavilion dv6000e:
+> > Intel=AE Core^(TM)2 Duo CPU T5450 @ 1.66GHz =D7 2 3 Gb intern 250 Gb sc=
+hijf
+> > Grafisch NVIDIA
+ =
+
+> Je hebt kans dat de Update Manager zo staat ingesteld dat er alleen naar =
+
+> LTS-versies gekeken wordt. Als je naar 12.10 wilt upgraden, zal je dat ui=
+t =
+
+> moeten zetten.
+> =
+
+> Start de Update Manager, en ga naar de instellingen (linksonder). Er open=
+t =
+
+> een nieuw venster, en helemaal onderin kan je instellen of de Update =
+
+> Manager alleen naar LTS-versies moet kijken of naar alle versies.
+
+Is dit nergens met de hand meer te wijzigen ? zoja, kun jij/iemand zeggen i=
+n =
+
+welk bestand ? Thanx!
+
+Y P =
+
+
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

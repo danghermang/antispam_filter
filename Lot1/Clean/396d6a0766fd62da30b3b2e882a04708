@@ -1,0 +1,28 @@
+Subject:Re: [Koha] Purchase request vanishes into thin air?
+Hi, Elaine--
+
+To see of all our pending purchase suggestions, after clicking
+"Suggestions pending approval," there is a pull-down menu on the left
+("Organize by")--it's set to "Status" but we need to change it to
+"Library," then click "Go," and then we'll see anonymous purchase
+suggestions that we didn't see before.  Maybe worth a try?  (We're
+running 3.8, also allow anonymous suggestions, and have a
+one-library/no branches catalog.)
+
+Cheers,
+heather
+-- 
+```````````````````````````````````````````````````````````````````````
+Heather Hernandez
+Technical Services Librarian
+Cultural Resources and Museum Management Division
+San Francisco Maritime National Historical Park
+heather_hernandez@nps.gov
+415-561-7032 (voice)       415-556-3540 (fax)
+http://www.nps.gov/safr/historyculture/library-collections.htm
+
+"The sailor does not pray for wind, he learns to sail."--Gustaf Lindborg
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

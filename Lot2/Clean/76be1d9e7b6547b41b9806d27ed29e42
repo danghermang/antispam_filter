@@ -1,0 +1,28 @@
+Subject:[Flexradio] Limited Network Setup and Flex 6700 - Questions
+As I eagerly await the Networking Quick Reference guide (as well as the 
+6700) from Flex, I am contemplating how I will connect my PC to the 6700.
+
+I have a USB wireless adapter (thankfully, no RFI from this) for 
+Internet access and printing from this PC, as well as an unused gigabit 
+ethernet port on the motherboard. Could I just use that port for direct 
+connection to the Flex and keep the wireless adapter as it is? Using 
+DPCLAT.exe, I see numbers in the consistently low 100's on my current 
+setup running Windows 7/32. Running a CAT5 cable from the router 
+(located across the house) to a switch in the radio room would be a 
+fairly major project, but could be done if necessary. Other than the 
+"main" computer near the router and a printer, there is rarely any other 
+WiFi activity on my network.
+
+Just trying to plan (pre-arrival) ahead as much as possible without 
+over-engineering this stuff...
+
+Thanks in advance,
+
+Jerry- W2TXB
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

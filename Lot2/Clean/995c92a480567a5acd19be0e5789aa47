@@ -1,0 +1,27 @@
+Subject:Re: Plus de boot graphique auto au =?ISO-8859-1?Q?d=E9marrage?=
+On 09/04/2012 10:26 AM, Tanguy Ortolo wrote:
+> maderios, 2012-09-03 17:11+0200:
+>> Pourrais tu préciser ce que tu penses être déconseillé ?
+>
+> Utiliser les versions non empaquetées des pilotes Nvidia ou AMD.
+>
+
+Je n'ai jamais utilisé les paquets debian nvidia. Pas assez à jour pour 
+moi. Je n'ai jamais rencontré un problème avec les drivers d'origine. 
+Quant on compile une nouvelle version de noyau, il faut simplement 
+penser à recompiler le driver, ce qui prend 1 mn.
+
+Cordialement
+
+-- 
+Maderios
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5045C5B6.2000200@gmail.com
+

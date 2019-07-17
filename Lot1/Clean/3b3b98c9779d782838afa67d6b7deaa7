@@ -1,0 +1,142 @@
+Subject:	=?UTF-8?Q?Re=3A_OT=3A_Acceso_remoto_por_t=C3=BAnel_SSH_a_trav=C3=A9s_de_pr?=
+	=?UTF-8?Q?oxy?=
+El d=C3=ADa 20 de noviembre de 2012 10:33, Federico Alberto Sayd
+<fsayd@uncu.edu.ar> escribi=C3=B3:
+> On 20/11/12 09:47, Javier Argentina wrote:
+>>
+>> Estimados:
+>>
+>> Este correo deber=C3=ADa llamares "el proxy empresario vs. JAP", round 3=
+.
+>> Si buscan el historial, ver=C3=A1n que ya he tocado el tema del proxy, y
+>> hasta ahora la vengo apechugando m=C3=A1s o menos bien.
+>> Lo del "OT", va porque no es espec=C3=ADfico Debian.
+>>
+>> Me han metido en mi trabajo un proxy que s=C3=B3lo tiene habilitado los
+>> puertos 80 UDP HTTP y 8080 TCP HTTP Proxy.
+>> Quiero acceder a una m=C3=A1quina externa a trav=C3=A9s de ssh, y se me =
+ha
+>> complicado la cosa.
+>> He intentado con corkscrew, y no he tenido suerte, adem=C3=A1s de ser po=
+co
+>> manejable.
+>> He intentado con proxytunnel, y tampoco.
+>> Sobre todo este =C3=BAltimo, y creo que corkscrew tambi=C3=A9n, utilizan=
+ el
+>> puerto 443 TCP HttpS para acceder como SSL al anfitri=C3=B3n, y es un
+>> puerto que tampoco est=C3=A1 abierto.
+>> Tengo intenciones de hacer los siguiente, y antes de hacerlo, escucho
+>> sugerencias, dado que la m=C3=A1quina a la que debo acceder est=C3=A1 un=
+ poco
+>> lejos, y s=C3=B3lo la veo los fines de semana.
+>> No quiero echar a perder el sistema a la distancia.
+>> Lo extra=C3=B1o del caso, es que el proxy me deja acceder a p=C3=A1ginas=
+ https
+>> sin inconvenientes.
+>
+> No deber=C3=ADa ser extra=C3=B1o, cualquier proxy decente deber=C3=ADa po=
+der manejar
+> peticiones https
+>
+>> Asumo que es por lo mal configurado que est=C3=A1, y, como ejemplo, cuan=
+do
+>> una accede a Facebook, en realidad lo hace a un http que lo
+>> redirecciona a una IP que est=C3=A1 bajo https.
+>> Lo de mal configurado el proxy, es porque las p=C3=A1ginas est=C3=A1n bl=
+oqueadas
+>> por direcci=C3=B3n; si uno las accede por IP, pasa como por un tubo sin
+>> inconvenientes.
+>
+> No veo por qu=C3=A9 est=C3=A1 mal configurado, en este caso seguramente e=
+l proxy
+> bloquea a trav=C3=A9s de una expresi=C3=B3n regular que coincide con el n=
+ombre del
+> hosts. Imaginate que bloquear por ip ser=C3=ADa toda una odisea, c=C3=B3m=
+o sabes a
+> ciencia cierta cuales son los ip's de Facebook, y si lo sabes, qu=C3=A9
+> posibilidades hay de que cambien en el corto plazo? Seguramente ser=C3=A1=
+ posible
+> hacer acl's por ip pero no me imagino lo que debe costar mantener este ti=
+po
+> de acl's actualizadas.
+>
+>>
+>> Aclaro que si tengo una m=C3=A1quina sin proxy, el acceso remoto es impe=
+cable.
+>>
+>> La primer pregunta:
+>> =C2=BFHay alguna forma de hacer que la m=C3=A1quina remota responda por =
+el
+>> puerto 80, y mediante alg=C3=BAn artilugio, que me encamine a un t=C3=BA=
+nel ssh?
+>
+> Seguramente s=C3=AD
+>
+>>
+>> La segunda pregunta:
+>> Se me ocurri=C3=B3 habilitar en el anfitri=C3=B3n como escucha para ssh =
+el
+>> puerto 80 (y si falla, el 8080), en lugar del que actualmente tengo
+>> habilitado.
+>
+> Puedes hacerlo perfectamente, solo deber=C3=A1s asegurarte de que el tr=
+=C3=A1fico que
+> llegue a dicho puerto sea ssh y no http
+>
+>> Antes de eso, debo desactivar apache2, lo que no me causa inconvenientes=
+.
+>> =C2=BFTendr=C3=ADa posibilidades de =C3=A9xito? Mi teor=C3=ADa dice que =
+s=C3=AD, pues es
+>> cambiar el puerto de acceso a ssh.
+>> =C2=BFNo estar=C3=ADa metiendo la pata haciendo algo irremediable?
+>> Pasa que no s=C3=A9 si el puerto 80 sirve para otra cosa o embarra algo =
+m=C3=A1s.
+>
+> El puerto 80 es un n=C3=BAmero m=C3=A1s, ahora que se utilice por convenc=
+i=C3=B3n para
+> mandar tr=C3=A1fico http es otra cosa. Lo que no quita que pongas a escuc=
+har en
+> ese puerto el programa que se te ocurra.
+>
+>> Nunca me he metido con puertos de la lista est=C3=A1ndar que son en teor=
+=C3=ADa
+>> para otro menester. Cuando uso puertos para mis cosas, utilizo
+>> aquellos que no est=C3=A1n en la "tablita".
+>
+> No habr=C3=A1 problema, solo tendr=C3=A1s que tener en cuenta que por raz=
+ones
+> "hist=C3=B3ricas" y de "seguridad" solo una aplicaci=C3=B3n lanzada por e=
+l usuario
+> root puede escuchar en los llamados "puertos conocidos", o sea, por debaj=
+o
+> de 1024
+>
+>>
+>> Escucho ofertas. Muchas gracias.
+>>
+>> JAP
+>>
+>>
+> Saludos
+>
+
+He fracasado con todo =C3=A9xito.
+Redirig=C3=AD los puertos, y la cosa la hice bien, pues puedo acceder a la
+m=C3=A1quina remota desde una internet sin proxy, o sea, desde mi celular,
+utilizando el puerto 80.
+Pero el proxy de la empresa no me deja ingresar, por m=C3=A1s que ssh est=
+=C3=A1
+escuchando en el puerto 80, que te=C3=B3ricamente est=C3=A1 habilitado.
+
+Seguir=C3=A9 con otras alternativas.
+
+Muchas gracias
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAG0od5cptPY120A6JuwU+cHSKHOQ=DaJ-uCKaSCk5ryg-CQJAA@mail.gmail.com
+

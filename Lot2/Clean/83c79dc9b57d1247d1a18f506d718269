@@ -1,0 +1,49 @@
+Subject:Re: nut y Maxim MXE II...
+Hola Camaleón...
+
+El 04/11/12 07:33, Camaleón escribió:
+> El Tue, 30 Oct 2012 18:43:47 -0300, Walter O. Dari escribiÃ³:
+>
+>> Alguien por casualidad estÃ¡ usando nut con una UPS Maxim MXE II ?
+>> NecesitarÃ­a saber que driver debo utilizar para este equipo.
+>
+> Supongo que refieres a alguno de esta gama:
+>
+> http://www.energitsa.com.ar/MXE.php
+
+Si, así es, se la compré a esa empresa.
+
+> Aparentemente, segÃºn la hoja de especificaciones, dispone de puerto de
+> comunicaciones USB y se puede gestionar a travÃ©s de SNMP pero en la
+> pÃ¡gina no veo disponible aplicaciÃ³n alguna de gestiÃ³n ni para windows ni
+> para linux.
+
+La tengo conectada por el puerto USB y con un software provisto con el 
+equipo que se llama WinPower. La versión era bastante antigua y pude 
+actualizarla luego de invertir un buen tiempo en Internet.
+
+En realidad me gusta la idea de utilizar nut ya que está en los 
+repositorios y, por lo que entiendo, me permitiría interactuar con el 
+equipo de forma más clara.
+
+> QuizÃ¡ debieras preguntarles si existe algÃºn programa para linux (te
+> puedes llevar una sopresa agradable :-P) y en caso contrario probar con
+> un driver para comunicaciones USB genÃ©rico de NUT porque a ese fabricante
+> no lo veo en la lista:
+>
+> http://www.networkupstools.org/stable-hcl.html
+
+Busqué en la página que mencionas y no la vi, ni la marca ni el modelo.
+
+>
+> Saludos,
+
+Igualmente,
+Walter
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5097CB41.4090506@gmail.com
+

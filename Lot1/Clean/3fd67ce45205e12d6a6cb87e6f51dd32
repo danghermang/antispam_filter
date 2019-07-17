@@ -1,0 +1,27 @@
+Subject:Re: install debian et captures =?UTF-8?Q?d=27=C3=A9cran?=
+Bernard Schoenacker, 2012-11-30 17:49+0100:
+>        merci pour le tuto qui pourra servir à un novice, les disques durs 
+>        sont passés d'ide au pseudo scsi et ce qui donne pour un disque
+>        dur ide /dev/sda-n
+> 
+>        est il possible de corriger cette annotation ?
+
+Refaire les captures d'écran pour ça ? Je ne suis pas sûr que ça vaille
+la peine, mais j'y penserai en mettant cette formation à jour pour la
+Wheezy.
+
+-- 
+ ,--.
+: /` )   Tanguy Ortolo      <xmpp:tanguy@ortolo.eu>
+| `-'    Debian Developer   <irc://irc.oftc.net/Tanguy>
+ \_
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9b4s7$o53$1@ger.gmane.org
+

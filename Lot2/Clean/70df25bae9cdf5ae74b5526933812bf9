@@ -1,0 +1,37 @@
+Subject:Re: Crash de X avec google-chrome
+Bonjour,
+
+Le lundi 12 novembre 2012 à 18:16, Olivier a écrit :
+> Bonjour,
+> J'ai un petit soucis avec google-chrome-stable (et chromium).
+> En effet, lors du lance ment d'une de ces application, mons serveur X crash.
+> En cherchant sur le net, j'ai trouvé deux trois piste non résolue du
+> coté des drivers invidia, mais ce n'est pas très concluant.
+> Est ce que quelqu'un à déjà eu ce problème?
+> 
+> Config:
+> debian wheezy.
+> xorg 1:7.7+1
+> nvidia 304.48
+> WM Fluxbox
+> 
+> Je ne sais pas trop où chercher pour résoudre ce problème...
+
+Commence par regarder dans ~/.xsession-errors, /var/log/Xorg.0.log et
+/var/log/messages.
+
+> Merci d'avance pour votre aide!
+
+Pas de quoi.
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121112184617.GL22028@serveur.nob900.homeip.net
+

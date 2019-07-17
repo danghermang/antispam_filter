@@ -1,0 +1,27 @@
+Subject:Re: [anti-abuse-wg] [db-wg] RIPE NCC's proposed implementation of
+ Abuse Contact Management in the RIPE Database
+Hi,
+
+On Wed, Dec 05, 2012 at 11:10:09AM +0100, Denis Walker wrote:
+> If at some point a customer chooses to do their own management of abuse 
+> handling for their assigned address space you simply create the 
+> ORGANISATION and abuse ROLE objects for this customer and add the "org:" 
+> reference to this customers assignment.
+
+I'm not sure if I find this "simple", to be honest.
+
+Being able to specify an abuse-c: in the ASSIGNED inet(6)num: object, 
+and having the RIPE DB software honour that on queries - that is: not 
+go to the allocation's org->abuse-c - would require less objects to be 
+created, and thus, less effort and less opportunity for confusion.
+
+Gert Doering
+        -- NetMaster
+-- 
+have you enabled IPv6 on something today...?
+
+SpaceNet AG                        Vorstand: Sebastian v. Bomhard
+Joseph-Dollinger-Bogen 14          Aufsichtsratsvors.: A. Grundner-Culemann
+D-80807 Muenchen                   HRB: 136055 (AG Muenchen)
+Tel: +49 (89) 32356-444            USt-IdNr.: DE813185279
+

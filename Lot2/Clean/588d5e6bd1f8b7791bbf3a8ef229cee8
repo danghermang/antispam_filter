@@ -1,0 +1,38 @@
+Subject:Re: [EVDL] Pack Cooling
+David wrote -
+> On Sat, Nov 10, 2012 at 9:21 AM, Rush Dougherty <Rush@ironandwood.org>
+> wrote:
+> > So I'm going to have to devise an outlet, probably somewhere to the
+> > bottom of the car, ductwork, ductwork, ductwork.
+>
+> There is already one outlet to the bottom of the 2000-2006 Insights. I
+think it
+> is the air that has passed over the DC-DC and Inverter. It exits out the
+> bottom of the car on the right side. Maybe you can do something similar to
+> that.
+>
+
+That's correct. It comes in about mid car on the driver's side. The opening
+is actually above the gas tank and has a wire mesh in it to stop rodents
+from entering that way. The air is sucked in and goes thru PCM, Power
+Control Module (which contains the DC/DC , Voltage Converter Module, IGBTs)
+and the fan which then pushes the air out thru the bottom of the car
+(screened again).
+
+I've thought about that and it is still a possibility. Thanks for the
+suggestion. The gas tank is right there, so I have to be careful.
+
+Rush
+www.TucsonEV.com
+
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

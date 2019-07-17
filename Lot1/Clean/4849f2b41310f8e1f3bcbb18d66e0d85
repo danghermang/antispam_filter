@@ -1,0 +1,105 @@
+Subject:Re: [Antenna-discussion] 1/2-wave vertical really needs a ground
+	plane?
+Computer simulation programs are normally able to calculate the length
+ of a dipole very accurately, provided that all the variables and 
+elements that affect the operation of the dipole can be entered 
+accurately so that the simulation is realistic and therefore accurate. 
+The major problem is normally being able to enter the real-life 
+environmental data accurately to enable a realistic simulation to be 
+undertaken.
+
+For various ratios of wire diameters to Lambda, the real length of the subject dipole is between 76.2 and 79 meters.
+
+Les
+
+--- On Tue, 11/6/12, Lou <ke4uyp@tampabay.rr.com> wrote:
+
+From: Lou <ke4uyp@tampabay.rr.com>
+Subject: Re: [Antenna-discussion] 1/2-wave vertical really needs a ground plane?
+To: "Discussions of Antennas and Related Topics" <antenna-discussion@antennex.com>
+Date: Tuesday, November 6, 2012, 3:04 PM
+
+Not enough coffee this morning it is actually 76.33 meters.
+
+
+Lou KE4UYP
+
+
+On 11/6/2012 9:27 AM, Lou wrote:
+> 1/2 WL at 1850Khz is not 77M it is 84.32m
+> 
+> 
+> Lou KE4UYP
+> 
+> 
+> On 11/6/2012 9:17 AM, Richard Fry wrote:
+>> Alan G3NOQ wrote:
+>>> Quarterwave and halfwave verticals are both resonant, ...
+>> 
+>> Just to note that a 1/2WL vertical monopole is far from self-resonant.
+>> 
+>> A NEC4 model of a 77m series-fed, base-driven monopole having an OD of 760mm (L/D = 101) shows a terminal impedance of about 550 -j 350 ohms on 1850 kHz, when driven against a perfect ground plane.
+>> 
+>> These values also are supported by the measured curves in Figs 2.15 and 2.16 in RADIO ANTENNA ENGINEERING by E. A. Laport.
+>> 
+>> R. Fry
+>> _______________________________________________
+>> This message was sent to: ke4uyp@tampabay.rr.com
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address this message was sent to.
+>> 
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>> 
+> 
+> _______________________________________________
+> This message was sent to: ke4uyp@tampabay.rr.com
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this message was sent to.
+> 
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+> 
+
+_______________________________________________
+This message was sent to: lkbaraz@rogers.com
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

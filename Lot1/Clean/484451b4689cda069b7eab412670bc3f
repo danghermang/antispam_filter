@@ -1,0 +1,23 @@
+Subject:Re: [Koha] Changing the default tab in results page
+> Can I modify things in a way that instead of Holdings *Title notes* tab is displayed by
+> default. I looked in "Global System Preferences" but was unable to find something.
+
+There isn't a preference for it. You can accomplish it by adding some
+custom JavaScript to the OpacUserJS system preference:
+
+$(document).ready(function(){
+  $('#bibliodescriptions > ul').tabs('select', 1);
+});
+
+(Where "1" is the sequential number of the tab, starting from zero).
+
+-- Owen
+
+-- 
+Web Developer
+Athens County Public Libraries
+http://www.myacpl.org
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

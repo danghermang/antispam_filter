@@ -1,0 +1,26 @@
+Subject:Re: =?ISO-8859-1?Q?D=E9marrage_via_cl=E9_usb_pour_l=27?=
+	=?ISO-8859-1?Q?installation_probl=E9matique?=
+On 01/09/12 11:27 AM, Klaus Becker wrote:
+> Ca concerne Debian, Ubuntu et peut-=EAtre d'autres qui utilisent un noy=
+au avec le m=EAme bug (qui vient du noyau ou du pilote Realtek, =E7a j'ai=
+ pas tout =E0 fait compris).
+>
+> J'ai sous unstable :
+>
+> $ ls /lib/modules/3.2.0-2-amd64/kernel/drivers/staging/rts5139/
+> rts5139.ko
+>
+> Kllaus
+
+Je confirme, ce fichier n'existe pas en stable, je vais tenter avec la=20
+testing, je verrai bien si le probl=E8me persiste ou pas.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50433B3C.80102@snurf.info
+

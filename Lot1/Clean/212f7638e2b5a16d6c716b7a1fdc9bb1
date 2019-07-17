@@ -1,0 +1,28 @@
+Subject:Re: Postfix : correspondance utilisateur@domaine utilisateur@machine
+	?
+Salut,
+
+Le 07/10/2012 20:05, Adrien Caillot a écrit :
+> Idem si j'écris depuis l'extérieur un e-mail à root@monserveur.mondomaine ou
+> adrien@monserveur.mondomaine.
+>
+> Par contre, si j'écris un e-mail à root@mondomaine ou adrien@mondomaine, je
+> reçois un mail d'erreur.
+
+En voyant du côté de :
+
+http://www.postfix.org/ADDRESS_REWRITING_README.html
+
+peut-être ?
+
+pp
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5071E6A6.7050005@toulouse.archi.fr
+

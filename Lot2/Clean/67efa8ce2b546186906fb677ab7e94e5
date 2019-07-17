@@ -1,0 +1,55 @@
+Subject:Re: Conexiones SMTP activas
+
+Colega, como bien dice camaleon puedes usar cacti, que es=20
+bastante eficiente a la hora de graficar, solo que es un poco=20
+complicado, si te cuesta trabajo pues intala mrtg que con el=20
+puedes graficar tambien la entrada y salida de smtp
+
+Salu2 espero te sirva
+
+On Viernes 09 Noviembre 2012 09:56:22 Camale=C3=B3n escribi=C3=B3:
+> El Thu, 08 Nov 2012 14:14:56 -0500, Josu=C3=A9 Marrero=20
+Berm=C3=BAdez escribi=C3=B3:
+> > Tengo un servidor de correo con postfix y demas artilugios=20
+en plena
+> > produccion en mi empresa, y me gustaria poder revisar el=20
+comportamiento
+> > de las conexiones SMTP entrantes y salientes, ver de=20
+donde y hacia donde
+> > se realizan..y en tiempo real por supuesto, no un resumen=20
+de esos de fin
+> > de dia.
+> >=20
+> > He revisado un poco En la red pero no he encontrado=20
+nada..solo unas
+> > consultas con netstat, pero no me brindan mucha=20
+informacion en
+> > realidad..o al menos no en el formato que quisiera.
+>=20
+> Recuerdo que Pflogsumm te sacaba estad=C3=ADsticas de las=20
+conexiones entrantes/
+> salientes pero no en tiempo real sino a modo de registro=20
+para su
+> posterior an=C3=A1lisis.
+>=20
+> Como herramientas de apoyo tienes las del tipo de sar=20
+(sysstat) y si
+> necesitas algo m=C3=A1s m=C3=A1s complejo munin, nagios o cacti.
+>=20
+> Saludos,
+---------------------------------------------------
+Ya estamos en Congreso PEDAGOGIA 2013
+"Encuentro por la unidad de los educadores".
+Palacio de Convenciones de La Habana, del 4 al 8 de febrero.
+Favor de consultar detalles en:
+www.pedagogiacuba.com
+Esto es un mensaje de la Red Informática del  Ministerio de Educación de la
+República de Cuba.
+---------------------------------------------------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211091007.42192.maikel.manuel@ipicmw.rimed.cu
+

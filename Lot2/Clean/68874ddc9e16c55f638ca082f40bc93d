@@ -1,0 +1,24 @@
+Subject:Re: Chgt machine :: clonage de ~/Maildir
+On Tue, 30 Oct 2012 15:29:17 +0100
+Thomas Clavier <tom@tcweb.org> wrote:
+
+qq chose comme =C3=A7a:
+
+rsync -avzuAXEs --recursive --delete --prune-empty-dirs \
+    /home/user1/Maildir/    osiris:/home/user1/Maildir/
+
+(ne pas oublier les / de fin)
+
+--=20
+<Thibaud> t'as d=C3=A9j=C3=A0 lu le mur de sartre ?
+<St=C3=A9phane> d=C3=A9sol=C3=A9 je l'ai pas en ami sur facebook.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121030154401.39dfbd42@anubis.defcon1
+

@@ -1,0 +1,76 @@
+Subject:Re: [address-policy-wg] 2012-03 New Draft Document
+	Published(Intra-RIR Transfer Policy Proposal)
+Last month I brokered a sale of legacy ARIN space to a customer in the APNIC 
+region using the Inter-RIR transfer policies in place in both regions.
+As we know, ARIN has the lion's share of IPv4 space, and this proposal would 
+open the door to this source of address space for buyers in Europe.
+For sellers of RIPE space, this proposal provides another market or two to 
+sell into.
+I believe a viable global transfer market in IPv4 addresses will assist in 
+what appears to be a lengthy transition to IPv6 by making available 
+underutilized address space and equalizing transition pressure around the 
+world.
+
+I support the proposal.
+
+Regards,
+Mike Burns
+IPTrading.com
+
+
+
+
+-----Original Message----- 
+From: Tore Anderson
+Sent: Monday, November 26, 2012 4:27 PM
+To: address-policy-wg@ripe.net
+Subject: Re: [address-policy-wg] 2012-03 New Draft Document 
+Published(Intra-RIR Transfer Policy Proposal)
+
+* Emilio Madaio
+
+> The draft document for the proposal described in 2012-03, "Intra-RIR
+> Transfer Policy Proposal", has been published. The impact analysis
+> that was conducted for this proposal has also been published
+>
+> You can find the full proposa and the impact analysis at:
+>
+>     https://www.ripe.net/ripe/policies/proposals/2012-03
+
+On this page, it would appear that the phrase «Within the RIPE NCC
+service region,» is to be added at the beginning of the second paragraph
+in section 5.5.
+
+> and the draft document at:
+>
+>     https://www.ripe.net/ripe/policies/proposals/2012-03/draft
+
+However, that phrase is not found in the «new text» box on this page.
+That must be an omission?
+
+As a general feedback to the draft document page, not specific to
+2012-03, I find it preferable if the «original text» and «new text»
+boxes are made as small as absolutely possible. If the paragraphs that
+aren't touched by the proposal are kept outside of those boxes, it is
+much easier to spot the actual changes made, than it is if you include
+the entire original and new section side-by-side (as is the case with
+2012-03's draft document).
+
+Taking it one step further, it would be even better if those paragraphs
+that have only change by a small amount (i.e., aren't completely
+rewritten) have the actual changes highlighted, e.g., using
+strikethrough for deleted text, and coloured text for added text (such
+as the "Within the RIPE NCC service region" added by this proposal).
+
+The changes indicated in sections 6.0 and 6.3 at
+https://www.ripe.net/ripe/policies/proposals/2009-03/draft are two
+examples I like.
+
+In any case, I support this policy proposal.
+
+Best regards,
+-- 
+Tore Anderson
+Redpill Linpro AS - http://www.redpill-linpro.com/ 
+
+

@@ -1,0 +1,60 @@
+Subject:Re: serveur sftp
+Le samedi 08 septembre 2012 à 22:46 +0200, Bzzz a écrit :
+> On Sat, 08 Sep 2012 22:30:13 +0200
+> Colin <colin@colinusmaximus.com> wrote:
+> 
+> > J'utilise généralement la couche sftp d'OpenSSH, qui me convient
+> > tout à fait.
+> 
+> Perso, ça va de la pampers à la huggies, en finissant par la popo.
+> 
+Ahahahah :) J'y penserai en cas de fuite... de mémoire !
+
+
+> > Cependant, dés lors que je dois chrooter un utilisateur, c'est très
+> > pénible : est-il possible de faire en sorte que ce soit pas
+> > *uniquement* root qui ait les droits d'écriture sur le que l'on
+> > chroote à un utilisateur ?
+> 
+> C'est assez étonnant, il doit _sûrement_ y avoir un parm qui permet
+> un chown sur le user qui écrit.
+C'est justement ma question. Un peu partout où j'ai trouvé des gens qui
+parlent de ça, il est indiqué qu'il faut que saul root ait les droits
+d'écriture dans le dossier chroot.
+Évidement, avec une ACL où l'on rajoute un deuxième propriétaire en
+écriture, ça ne marche plus. De plus, si le groupe ou les autres ont
+droit d'écrire, marche plus non plus !
+
+> 
+> > Un exemple un c'est gênant : pour partager un espace web avec une
+> > autre personne, j'ai pas envie de la chrooter plus haut dans
+> > l'arborescence (je pourrai utiliser WebDAV, mais je veux du SSL,
+> > et j'utilise déjà HTTPS dans un autre virtualhost...).
+> 
+> waimèlà tu chinoises: tu veux des droits à la w$, sans avoir aucune
+> idée des effets de bords que cela peut génèrer...
+
+Ah, là, je ne te suis plus ? Pas sûr de comprendre le rapport avec W$ et
+les chinois ;) !
+
+
+
+Merci de ta réponse,
+Colin
+
+> 
+> -- 
+> Pancho : Entendu aux infos
+> Pancho : François Hollande : "...il faut prendre une position et une seule !"
+> Pancho : Bah, m'étonne plus que Ségolène soit parti
+> 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1347191904.9158.10.camel@Cocopad
+

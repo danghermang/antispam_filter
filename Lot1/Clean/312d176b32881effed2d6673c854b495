@@ -1,0 +1,47 @@
+Subject:Re: Migrar correo de Evolution a Outlook
+El mar, 25-09-2012 a las 10:13 -0300, Debian GMail escribi=C3=B3:
+> El 24/09/12 11:47, Adri=C3=A1n Alem=C3=A1n Cruz escribi=C3=B3:
+> > Hola,
+> >
+> > Un amigo ac=C3=A1 ha utilizado Debian GNU/Linux (Lenny) por varios a=C3=
+=B1os en su
+> > trabajo, ahora tiene que instalar windows para correr una aplicaci=C3=
+=B3n
+> > contable que le exige la empresa.
+> >
+> > =C2=BFC=C3=B3mo har=C3=ADa para migrar los correos?
+> F=C3=A1cil: llama a Redmont y le pide que le digan c=C3=B3mo hacerlo, ya =
+que se=20
+> supone que con el pago de licencias tiene soporte t=C3=A9cnico.
+>=20
+> Fuera broma, no necesita salirse de GNU/Linux.
+> La aplicaci=C3=B3n contable la puede correr bajo wine o en una m=C3=A1qui=
+na=20
+> virtual en forma totalmente transparente.
+> Lo llevo haciendo 8 a=C3=B1os en mi trabajo.
+> De hecho, WinXP y la aplicaci=C3=B3n corren m=C3=A1s r=C3=A1pido en Virtu=
+alBox, que en=20
+> la misma m=C3=A1quina en forma nativa.
+>=20
+> JAP
+
+Muchas gracias,=20
+
+Probaremos con una m=C3=A1quina virtual a ver si nos funciona. Gracias
+nuevamente.
+
+
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1348665933.3405.11.camel@pcdebian
+

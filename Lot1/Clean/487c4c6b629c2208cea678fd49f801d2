@@ -1,0 +1,28 @@
+Subject:usb 3-2: reset low speed USB device using uhci_hcd and address 3
+Hola:
+
+Abro un nuevo hilo con este tema de la UPS.
+
+Este mensaje me lo da por el puerto USB al que está conectada la UPS.
+
+Revisando los logs veo que ya tengo más de 60 Mb en kern.log y messages 
+y todo debido a esta conexión.
+
+Hay alguna forma de solucionarlo aparte de desconectar el cable USB de 
+la UPS ?
+
+Esto significa que continuamente está reiniciando el puerto USB ?
+
+Les agradecería cualquier orientación sobre este asunto.
+
+Saludos,
+Walter
+
+http://swcomputacion.com/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50ACE7C6.4070503@gmail.com
+

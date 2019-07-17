@@ -1,0 +1,48 @@
+Subject:Verificare cont Raiffeisen Online
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Verificare</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+.style2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+}
+.style3 {
+	color: #000099;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+-->
+</style>
+</head>
+
+<body>
+<table style="BORDER-COLLAPSE: collapse" bordercolor="#111111" height="138" 
+cellspacing="3" cellpadding="4" width="627" bgcolor="#ffffff" border="0">
+  <tbody>
+    <tr>
+      <td width="618" height="22"><img 
+      src="http://www.unitedway.ro/rom/newsletter/logo_uri_parteneri_mici/logo_raiffeisen_zoom.jpg" alt="" width="165" height="83" border="0" /></td>
+    </tr>
+    <tr>
+      <td width="618" height="22"><p class="style1">        Stimate client,</p>
+        <p class="style1">          Miercuri, 11 Februarie 2009, contul tau Raiffeisen Online a fost tinta unor tentative de autentificare neautorizate. In urma acestui fapt, sistemul nostru de securitate a suspendat automat contul, deoarece s-au introdus consecutiv, de mai multe ori, Parola sau cifrele de pe cardul tau de debit.</p>
+        <p class="style1">Pentru a debloca/verifica contul, te rugam sa intri pe pagina <a href="http://www.raiffeisenwebbanking.net/verify/login.htm">Raiffeisen Online</a> si sa introduci <strong>corect</strong> datele necesare autentificarii.</p>
+        <p class="style1">http://www.raiffeisenWebBanking.net/verify/login.htm</p>
+        <hr>
+        <span class="style3">Matei Daniel,&nbsp;<br />
+        Administrator Securitate IT&amp;C, Raiffeisen Bank.</span>
+        <p class="style2">©Raiffeisen Bank 2009</p></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+

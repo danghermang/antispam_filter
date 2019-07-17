@@ -1,0 +1,20 @@
+Subject:Re: ver DNS desde consola
+On 22/09/12 14:37, Constantino Vargas wrote:
+>> Lo tienes autoconfigurado por DHCP? Mira en el archivo
+>> /etc/resolv.conf o en la configuración de tu router.
+>>
+>> Si no, normalmente esta configurado en /etc/network/interfaces
+>
+> gracias por tu respuesta, mi intensión es saber un comando por ejemplo
+> algo como ifconfig que muestre las ips o numero DNS
+>
+> saludos
+
+cat /etc/resolv.conf
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505DB63A.40508@gmail.com
+

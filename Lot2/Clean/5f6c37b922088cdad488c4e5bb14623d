@@ -1,0 +1,27 @@
+Subject:Re: Chrooter un =?UTF-8?B?csOpcGVydG9pcmU=?= user avec SSH
+On Wed, 19 Sep 2012 12:46:20 +0200
+andre_debian@numericable.fr wrote:
+
+>=20
+> Oui, je l'avais vu mais pas vu qu'il fallait mettre tout=20
+> =C3=A0 la fin du fichier "sshd_config" :
+
+C'est de la logique pure: il existe une balise d'ouverture du bloc
+mais pas de balise de fermeture, donc le(s) bloc(s) ne peu(ven)t =C3=AAtre
+positionn=C3=A9(s) qu'=C3=A0 la fin du fichier de conf.
+
+--=20
+* Kartapus s'appelle maintenant Hitler.
+<Hitler> re
+<%Staline> Hitler, change ton pseudo, merci.
+           On ne supporte pas le fascisme ici;
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120919134134.68e64a25@anubis.defcon1
+

@@ -1,0 +1,31 @@
+Subject:Re: PC =?UTF-8?B?w6l0ZWludA==?= qui =?UTF-8?B?Y29uc29tbWVbaWRl?=
+	=?UTF-8?B?bnRpZmnDqV0=?=
+On Sat, 17 Nov 2012 16:49:08 +0100
+andre_debian@numericable.fr wrote:
+
+> L"application "hwclock" existe dans Squeeze,
+> mais le fichier /etc/default/hwclock n'est pas pr=C3=A9sent.
+>=20
+> Peut-on alors cr=C3=A9er ce fichier et y inclure ? :
+> HWCLOCKACCESS=3Dno
+
+Il faut v=C3=A9rifier si le script de start/stop source un tel fichier ou n=
+on.
+
+--=20
+* ZiGGy =C3=A9coute THE LIBERTINES "Up the Baguette" (Harry Potter BO)
+* Lynx a encore l'esprit mal tourn=C3=A9
+* ZiGGy aussi. :)
+<JS> La Braguette n'a jamais =C3=A9t=C3=A9 que l'invention musicale de Moza=
+rt,
+     afin d'avoir une ouverture ad=C3=A9quat pour sa Flute Enchant=C3=A9e
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121117170512.62a9e610@anubis.defcon1
+

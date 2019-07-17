@@ -1,0 +1,72 @@
+Subject:Re: Problema Interfaces de Red
+El 17/09/12 19:55, Ariel escribió:
+> Buenas acudo a ustedes, porque tengo un inconveniente con las
+> interfaces de red, precisamente con un dispositvo wifi.
+> Resulta que tengo una notebook, a la que le tuve que reinstalar
+> debían, dado que la lleve al servicio técnico, y me cambiaron el disco
+> rígido.
+> Tengo instalado GNome 3(Estoy en testing) con el networkmanager. Lo
+> configure para que maneje las interfaces. Y el problema esta , en que
+> me marca que esta conectado a la red, sin embargo no tengo salida a la
+> red.
+> En la instalación anterior que tenia no tuve el inconveniente este.
+> La placa de red en cuestión es:(salida de lspci)
+>
+> 01:00.0 Network controller: Realtek Semiconductor Co., Ltd. RTL8188CE
+> 802.11b/g/n WiFi Adapter (rev 01)
+>
+> El inconveniente se soluciona si reinicio el servicio  de redes con el
+> siguiente comando:
+> /home/ariel# /etc/init.d/networking restart
+>
+> Pero debo ejecutarlo cada vez que inicio el sistema y no es nada
+> practico, siendo que en la instalación anterior este problema no se
+> presentaba.
+>
+> Desde ya muchas gracias.
+> Saludos!
+>
+>
+
+
+Personalmente, en las portátiles elimino todo lo que sea "network-algo", 
+e instalo wicd.
+
+
+Una tonteroa, pero CREO (y resalto el CREO), que cuando usas un 
+network-manager de esos, tu /etc/network/interfaces lo único que debería 
+tener es ellocalhost habilitados, y nada más.
+Porque estos network-manager empiezan a levantar redes como se les dá la 
+gana.
+Y si estás usando /etc/init.d/networking restart, quiere decir que la 
+red inalámbrica está difinida en /etc/network/interfaces, lo cual CREO 
+es inompatible con network-manager.
+
+Sugerencia.
+
+1) Deja esto así:
+
+========================
+# /etc/network/interfaces
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+========================
+
+2) Elimina todo los que sea network-algo.
+
+3) Instala wicd.
+
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5057AE68.1020307@gmail.com
+

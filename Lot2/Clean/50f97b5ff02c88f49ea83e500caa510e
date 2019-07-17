@@ -1,0 +1,168 @@
+Subject:[MG] Common business entity model
+
+Marc said:
+> To be honest you don't need to be a member of our working group -
+> even not of Pirate Party - when you want to cooperate with us. It's
+> all about coming together and working on the right things.
+
+Thank you, I'd like that. :-)  I've been hopeful ever since I listened
+to the transcript of the first meeting, especially where Oliver
+describes the group and it's raison d'=EAtre.
+
+> Here is a first draft of our idea of a Common Business Entity Model
+> (where 'Business' means it's not a 'Data' Entity Relationship Model
+> assignable to a database schema, it's just objects found in the real
+> world - the database schema might look totally different):
+> http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg
+
+I have some questions about the model.  To keep them separate from my
+other questions, I opened this thread.
+
+(a) Why is discussion itself not modeled?  It's crucial of course, but
+I don't see it anywhere.
+
+(b) Why is a vote included as an actual (real world) entity?  Myself,
+I think of voting as a formality of the system, something new we
+introduce.  It does have *correlates* in the real world, but people
+don't actually go about casting votes in order to form their opinions,
+not yet.  (In fact, most of the right side seems to be modeling a
+artificial system yet to be deployed, not the real world.  I probably
+mistook your meaning for "business entity".)
+
+Looking at the left side, I see a few possible errors:
+
+(c) An opinion is not really (in itself) a document.  A document can
+be involved in the formalization and expression of an opinion, but the
+opinion is not bound to that form.
+
+(d) Likewise, a point of view is not an opinion (at least not in
+English).  It is one's outlook from a personal situation.  It may
+influence opinion in peculiar ways, but is not an opinion in itself.
+
+(e) Group membership is not a closed composite relation, but rather an
+open aggregate.  One can be a member of many groups.
+
+Although I don't have a full understanding yet, I suspect it will be
+difficult to find the right model to code by.  It may take a while.
+Later (in the other thread), I'll try to suggest a way of buying time
+and (possibly) evolving some of the models by discovery.
+
+-- =
+
+Michael Allan
+
+Toronto, +1 416-699-9528
+http://zelea.com/
+
+
+marc said:
+> Hi Michael,
+> =
+
+> There is always time, when people doing the right things together ;o)
+> =
+
+> So you wrote
+> >Although I'm not a member of the Meinungsfindungstool working group, I
+> >have a personal concern with what you're working on.  Specifically it
+> >involves the problem of "split consensus" as Thomas von der Elbe has
+> >called it, or "split opinion formation" in your own terms.
+> =
+
+> To be honest you don't need to be a member of our working group - even not
+> of Pirate Party - when you want to cooperate with us. It's all about comi=
+ng
+> together and working on the right things.
+> =
+
+> >But first I have some questions.  Do you have time to answer?
+> =
+
+> Sure, you are welcome.
+> =
+
+> >Marc said, October 10:
+> >> One possible answer our working groups comes out with is, that we need=
+ to
+> >> define kind of standardization. Like the W3C standardizes the internet
+> >> and
+> >> Business Entity Model...
+> =
+
+> >And in reply to Pietro, October 16:
+> >> The idea is to have a common base (framework of workflows and
+> >> entities) for all tools to enable the interaction and extensibility
+> >> of the overal process of decision-making. Therefore we need a common
+> >> understanding of how workflows and entities interacts in the
+> >> process.
+> =
+
+> >I try to picture what you describe (pardon my ASCII):
+> =
+
+> Sorry, I can't cite your ascii ;o)
+> =
+
+> >Here T1 and T2 are competing tools for the purpose of opinion forming.
+> >A user may choose T1 or T2.  But regardless of the choice (say it is
+> >T2), the user will remain part of the same overall opinion forming
+> >process (M).  So he/she may continue to work with other users who make
+> >different choices (T1).  This technical freedom of choice is made
+> >possible by the common standards, practices and/or databases (S) that
+> >are shared between the competing tools.  Is this picture correct?
+> =
+
+> Yes, that's what our working group tries to establish.
+> =
+
+> And even more, if the user starts with T1 and then recognizes that T2 fit=
+s =
+
+> better to his needs, than he can just switch over to T2, if T2 provides a =
+
+> migration path to the Common Business Entity Model (CBEM) ;o)
+> =
+
+> Here is a first draft of our idea of a Common Business Entity Model (wher=
+e =
+
+> 'Business' means it's not a 'Data' Entity Relationship Model assignable t=
+o a =
+
+> database schema, it's just objects found in the real world - the database =
+
+> schema might look totally different):
+> http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg
+> =
+
+> Unfortunately it's not fully translated yet, but I hope you understand ou=
+r =
+
+> intention. The blue rectangles are objects that are part of the base =
+
+> framework standard. The red ones are specific to plug-ins, using the blue =
+
+> ones to inherit from, or just defining new ones.
+> =
+
+> At the end the blue ones are those who all tools should be able to conver=
+t =
+
+> their own Model into. That's the way the different tools can interchange =
+
+> their data.
+> =
+
+> Does this make sense?
+> =
+
+> Cheers
+> Marc =
+
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metag=
+overnment.org

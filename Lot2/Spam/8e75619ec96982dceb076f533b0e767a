@@ -1,0 +1,234 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<jodiewilson1@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <update+zidplvge@facebookmail.com>
+Received: (qmail 23926 invoked by uid 89); 11 Dec 2012 12:06:37 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 11 Dec 2012 12:06:37 -0000
+Delivery-date: Tue, 11 Dec 2012 04:04:58 -0800
+Received: from outmail021.ash2.facebook.com ([66.220.155.155] helo=mx-out.facebook.com) helo=mx-out.facebook.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1TiOZt-0008WA-JH on interface=184.105.182.43
+	for jodiewilson1@activ8.net.au; Tue, 11 Dec 2012 04:04:57 -0800
+DKIM-Signature: v=1; a=rsa-sha256; d=facebookmail.com; s=s1024-2011-q2; c=relaxed/simple;
+	q=dns/txt; i=@facebookmail.com; t=1355227484;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=qmchtel+/2zrEN/4Z66Lo6SJ8cCR8kheRLaR0WklB60=;
+	b=FdnTm7UCRRtZADgKDXueK35a1/ivXzAQibGUD9zGHuHxrI6n7tiR0OBHmwluKzVh
+	4i9dwDtarjPRR/mXfNmHFgeFte88KrYnL+eXeD+KCQze3aBhhKnsUi9RkAT1IaTl
+	3UMkmSnlmd7xHWAkJKb0Y6u+4WuI6gGOa99Rh8Kvk4g=;
+Received: from [10.178.117.93] ([10.178.117.93:43829])
+	by smout065.ash4.facebook.com (envelope-from <update+zidplvge@facebookmail.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ECSTREAM
+	id CD/1F-04051-C5127C05; Tue, 11 Dec 2012 04:04:44 -0800
+X-Facebook: from zuckmail ([MTI3LjAuMC4x]) 
+	by async.facebook.com with HTTP (ZuckMail);
+Date: Tue, 11 Dec 2012 04:04:44 -0800
+To: Jodie Wilson <jodiewilson1@activ8.net.au>
+From: "Facebook" <update+zidplvge@facebookmail.com>
+Reply-to: noreply <noreply@facebookmail.com>
+Subject: Jodie, you have 1 friend request
+Message-ID: <aacd87ff460131f40a292ad4c105ad61@async.facebook.com>
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Errors-To: update+zidplvge@facebookmail.com
+X-Facebook-Camp: stale_email
+X-Facebook-Notify: stale_email; mailid=7311e8aG4c2faa61G0G2b
+X-FACEBOOK-PRIORITY: 1
+X-Auto-Response-Suppress: All
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_aacd87ff460131f40a292ad4c105ad61"
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: update+zidplvge@facebookmail.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=facebook.com - X=apn H=outmail021.ash2.facebook.com [66.220.155.155] HELO=[mx-out.facebook.com] F=[update+zidplvge@facebookmail.com] T=[jodiewilson1@activ8.net.au] S=[Jodie, you have 1 friend request]
+X-Sender-Host-Address: 66.220.155.155
+X-Sender-Host-Name: outmail021.ash2.facebook.com
+
+
+--b1_aacd87ff460131f40a292ad4c105ad61
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+View Notifications
+http://www.facebook.com/n/?index.php&mid=3D7311e8aG4c2faa61G0G2b&bcode=3D1=
+.1355227484.Abm2BSE7uN7LFIDr&n_m=3Djodiewilson1%40activ8.net.au&lloc=3Dcta
+
+Go to Facebook
+http://www.facebook.com/n/?home.php&mid=3D7311e8aG4c2faa61G0G2b&bcode=3D1.=
+1355227484.Abm2BSE7uN7LFIDr&n_m=3Djodiewilson1%40activ8.net.au&lloc=3D2nd_=
+cta
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Hi Jodie,
+
+You have new notifications.
+
+A lot has happened on Facebook since you last logged in. Here are some =
+notifications you've missed from your friends.
+
+1 friend request
+
+Thanks,
+The Facebook Team
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+This message was sent to jodiewilson1@activ8.net.au. If you don't want to =
+receive these emails from Facebook in the future, please follow the link =
+below to unsubscribe.
+http://www.facebook.com/o.php?k=3DAS2bJAT-y2q3j3QP&u=3D1278192225&mid=3D73=
+11e8aG4c2faa61G0G2b
+Facebook, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA =
+94303
+
+
+--b1_aacd87ff460131f40a292ad4c105ad61
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional =
+//EN"><html><head><title>Facebook</title><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3Dutf-8" /></head><body style=3D"margin: 0; =
+padding: 0;" dir=3D"ltr"><table cellspacing=3D"0" cellpadding=3D"0" =
+id=3D"email_table" style=3D"border-collapse:collapse;width:98%;" =
+border=3D"0"><tr><td id=3D"email_content" =
+style=3D"font-size:12px;font-family:&#039;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:620px;"><tr><td =
+style=3D"font-size:16px;font-family:&#039;lucida grande&#039;,tahoma,verda=
+na,arial,sans-serif;background:#3b5998;color:#FFFFFF;font-weight:bold;vert=
+ical-align:baseline;letter-spacing:-0.03em;text-align:left;padding:5px =
+20px;"><a style=3D"text-decoration: none;" href=3D"http://www.facebook.com=
+/n/?index.php&amp;mid=3D7311e8aG4c2faa61G0G2b&amp;bcode=3D1.1355227484.Abm=
+2BSE7uN7LFIDr&amp;n_m=3Djodiewilson1%40activ8.net.au&amp;lloc=3Dlogo"><spa=
+n style=3D"background:#3b5998;color:#FFFFFF;font-weight:bold;font-family:&=
+#039;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;vertical-align:middle; =
+font-size:16px;letter-spacing:-0.03em;text-align:left;vertical-align:basel=
+ine;">facebook</span></a></td></tr></table><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:620px;" =
+border=3D"0" width=3D"620px"><tr><td style=3D"font-size:11px;font-family:L=
+ucidaGrande,tahoma,verdana,arial,sans-serif;padding:0px;background-color:#=
+f2f2f2;border-left:none;border-right:none;border-top:none;border-bottom:no=
+ne;"><table cellspacing=3D"0" cellpadding=3D"0" width=3D"620px" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size:11px;font-f=
+amily:LucidaGrande,tahoma,verdana,arial,sans-serif;padding:0px;width:620px=
+;"><table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:20px;background-color:#fff;border-left:none;border-right:no=
+ne;border-top:none;border-bottom:none;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+valign=3D"top" style=3D"font-size:11px;font-family:LucidaGrande,tahoma,ver=
+dana,arial,sans-serif;padding-right:15px;text-align:left;"><a =
+href=3D"http://www.facebook.com/n/?index.php&amp;mid=3D7311e8aG4c2faa61G0G=
+2b&amp;bcode=3D1.1355227484.Abm2BSE7uN7LFIDr&amp;n_m=3Djodiewilson1%40acti=
+v8.net.au&amp;lloc=3Dprofile_pic" =
+style=3D"color:#3b5998;text-decoration:none;"><img src=3D"http://profile.a=
+k.fbcdn.net/hprofile-ak-ash4/c34.0.113.113/s100x100/252231_1002029915278_1=
+941483569_a.jpg" style=3D"border:0;" /></a></td><td valign=3D"top" =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;width:100%;text-align:left;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-bottom:5px;"><span =
+style=3D"color:#111111;font-size:14px;font-weight:bold;">You have new =
+notifications.</span></td></tr><tr><td style=3D"font-size:11px;font-family=
+:LucidaGrande,tahoma,verdana,arial,sans-serif;padding-top:5px;padding-bott=
+om:5px;"><span style=3D"color:#333333;">A lot has happened on Facebook =
+since you last logged in. Here are some notifications you&#039;ve missed =
+from your friends.</span></td></tr><tr><td style=3D"font-size:11px;font-fa=
+mily:LucidaGrande,tahoma,verdana,arial,sans-serif;padding-top:5px;"><table =
+cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:10px 0px;background-color:#fff;border-left:none;border-righ=
+t:none;border-top:1px solid #ccc;border-bottom:none;"><table =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size: 12px; =
+padding: 3px 10px 3px 0px;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td valign=3D"top" =
+style=3D"padding-right:10px;font-size: 0px;"><a href=3D"http://www.faceboo=
+k.com/n/?index.php&amp;mid=3D7311e8aG4c2faa61G0G2b&amp;bcode=3D1.135522748=
+4.Abm2BSE7uN7LFIDr&amp;n_m=3Djodiewilson1%40activ8.net.au" =
+style=3D"color:#3b5998;text-decoration:none;"><img =
+src=3D"http://static.ak.fbcdn.net/rsrc.php/v2/yw/r/OpnXm-HZHKy.gif" =
+style=3D"border:0;" /></a></td><td valign=3D"top" style=3D"width:100%;"><a =
+href=3D"http://www.facebook.com/n/?index.php&amp;mid=3D7311e8aG4c2faa61G0G=
+2b&amp;bcode=3D1.1355227484.Abm2BSE7uN7LFIDr&amp;n_m=3Djodiewilson1%40acti=
+v8.net.au" style=3D"color:#3b5998;text-decoration:none;"><b>1</b> friend =
+request</a></td></tr></table></td></tr></table></td></tr></table></td></tr=
+></table></td></tr></table></td></tr></table></td></tr><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:0px;width:620px;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:100%;" =
+border=3D"0"><tr><td style=3D"font-size:11px;font-family:LucidaGrande,taho=
+ma,verdana,arial,sans-serif;padding:7px 20px;background-color:#f2f2f2;bord=
+er-left:none;border-right:none;border-top:1px solid #ccc;border-bottom:1px =
+solid #ccc;"><table cellspacing=3D"0" cellpadding=3D"0" style=3D""><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-left:65px;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"border-width: =
+1px;border-style: solid;border-color: #29447E #29447E =
+#1a356e;background-color: #5b74a8;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:2px 6px 4px;border-top:1px solid #8a9cc2;"><a =
+href=3D"http://www.facebook.com/n/?index.php&amp;mid=3D7311e8aG4c2faa61G0G=
+2b&amp;bcode=3D1.1355227484.Abm2BSE7uN7LFIDr&amp;n_m=3Djodiewilson1%40acti=
+v8.net.au&amp;lloc=3Dcta" =
+style=3D"color:#3b5998;text-decoration:none;"><span =
+style=3D"font-weight:bold;white-space:nowrap;color: #fff;font-size: =
+13px;">View =
+Notifications</span></a></td></tr></table></td></tr></table></td><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:0px 5px;"></td><td style=3D"font-size:11px;font-family:Luci=
+daGrande,tahoma,verdana,arial,sans-serif;padding:7px 0px 6px;"><table =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"border-width: =
+1px;border-style: solid;border-color: #999 #999 #888;background-color: =
+#eee;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size:11px;font-f=
+amily:LucidaGrande,tahoma,verdana,arial,sans-serif;padding:2px 6px =
+4px;border-top:1px solid #fff;"><a href=3D"http://www.facebook.com/n/?home=
+.php&amp;mid=3D7311e8aG4c2faa61G0G2b&amp;bcode=3D1.1355227484.Abm2BSE7uN7L=
+FIDr&amp;n_m=3Djodiewilson1%40activ8.net.au&amp;lloc=3D2nd_cta" =
+style=3D"color:#3b5998;text-decoration:none;"><span =
+style=3D"font-weight:bold;white-space:nowrap;color: #333;font-size: =
+13px;">Go to Facebook</span></a></td></tr></table></td></tr></table></td><=
+/tr></table></td></tr></table></td></tr></table></td></tr></table><table =
+cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+style=3D"border-collapse:collapse;width:620px;"><tr><td =
+style=3D"font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, =
+verdana, arial, sans-serif;padding:30px 20px;background-color:#fff;border-=
+left:none;border-right:none;border-top:none;border-bottom:none;color:#9999=
+99;border:none;">This message was sent to <a =
+href=3D"mailto:jodiewilson1&#064;activ8.net.au" style=3D"color:#3b5998;tex=
+t-decoration:none;">jodiewilson1&#064;activ8.net.au</a>. If you don&#039;t =
+want to receive these emails from Facebook in the future, please <a =
+href=3D"http://www.facebook.com/o.php?k=3DAS2bJAT-y2q3j3QP&amp;u=3D1278192=
+225&amp;mid=3D7311e8aG4c2faa61G0G2b" =
+style=3D"color:#3b5998;text-decoration:none;">unsubscribe</a>.<br =
+/>Facebook, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA =
+94303</td></tr></table><span style=3D"width:620px;"><img =
+src=3D"http://www.facebook.com/email_open_log_pic.php?c=3D984886371&amp;mi=
+d=3D7311e8aG4c2faa61G0G2b" style=3D"border:0;width:1px;height:1px;" =
+/></span></td></tr></table></body></html>
+
+
+
+--b1_aacd87ff460131f40a292ad4c105ad61--
+
+

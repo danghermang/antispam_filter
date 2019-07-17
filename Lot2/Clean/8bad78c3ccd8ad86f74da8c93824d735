@@ -1,0 +1,267 @@
+Subject:Re: OT Re: antivirus proxy SOLUCIONADO
+
+El vie, 16-11-2012 a las 09:53 +0100, Esteban Torres Rodr=C3=ADguez =
+escribi=C3=B3:
+> El d=C3=ADa 15 de noviembre de 2012 14:48, Trujillo Carmona, Antonio
+> <antonio.trujillo.sspa@juntadeandalucia.es> escribi=C3=B3:
+> >
+> > El vie, 09-11-2012 a las 16:48 +0100, Esteban Torres Rodr=C3=ADguez =
+escribi=C3=B3:
+> > .../...
+> >> Nos puedes dar mas detalles de como est=C3=A1 montado? Tengo que =
+migrar el
+> >> servicio de 2 proxy en sedes diferentes a centralizarlo todo a 3 =
+proxy
+> >> en la sede central y todo consejo me interesa.
+> >>
+> >> Cuantas m=C3=A1quinas forman el servicio? Utilizan la cache =
+preguntandose
+> >> entre ellas o tienen una particion compartida con algun sistema de
+> >> ficheros  como GFS (Claro est=C3=A1, si tienes la posibilidad que =
+puedan
+> >> compartir mismo almacenamiento)? Que sistema de ficheros utiliza =
+tu
+> >> cache? Como autentican los usuarios? Active Directory? Utilizas =
+Single
+> >> Sign-On?
+> >>
+> > .../...
+> >
+> > El servicio en dado por una sola maquina montada en un proliant =
+DL360,
+> > con una CPU dual core Intel Xeon a 2.33GHz y 4G de memoria.
+> > Tengo una maquina virtual (VMware ESX) para dar el servicio en caso =
+de
+> > ca=C3=ADda de la principal.
+>=20
+> Esta es una de mis dudas. Tengo unas m=C3=A1quinas RX220 / RX200 para =
+poder
+> montar el proxy, pero el rendimiento de I/O de los discos es malo. Al
+> final me he decantado por montarlo en virtual ya que ah=C3=AD =
+tendr=C3=A9 mas
+> juego con el hardware. Pero, que opinas de montarlo todo en virtual?
+> Ya dependes de la capa virtualizada.
+>=20
+Como te he comentado la maquina de respaldo la tenemos virtualizada,
+pero hay un gran punto de problemas en la virtualizaci=C3=B3n, es la =
+red.
+La red se comparte entre todos los equipos virtuales (tenemos unos 120
+en 4 ESX fisicos) por lo que si repartes 2G (dos tarjetas de red de 1G)
+entre todos estos servidores el ancho de banda y la latencia que quedan
+son muy escasos, por eso servidores como el nagios y el proxy los hemos
+tenido que "desvirtualizar", si tu disponibilidad de =
+virtualizaci=C3=B3n es
+distinta no creo que tengas problemas.
+
+> > No lo he montado en cluster por que fallo, y todav=C3=ADa no se por =
+que,
+> > tengo montado un cluster con maquinas iguales y funciona perfecto, =
+pero
+> > este no. Quiz=C3=A1s el fallo sea por las versiones del "corosin" =
+que al
+> > estar en "testin" cambia, lo tengo en asuntos pendientes el volver =
+a
+> > montarlo.
+>=20
+> Las m=C3=A1quinas que yo estoy montando las tengo detr=C3=A1s de un =
+balanceador
+> con roundrobin.
+>=20
+> > La maquina principal valida contra un A.D. montado sobre unos =
+windows
+> > 2008R2 valida a los usuarios por kerberos o por los ticket de =
+windows,
+> > adem=C3=A1s de por clave, pero solo activamos la validaci=C3=B3n de =
+usuarios de
+> > forma puntual, pues tenemos problemas con algunas maquinas, y es =
+que
+> > cuando lo activas el proxy tiene que identificar a todos los =
+usuarios y
+> > las conexiones hechas por los sistemas (actualizaciones de =
+software...)
+> > no tienen usuario valido, por lo que poner el sistema en orden da =
+mucho
+> > trabajo.
+>=20
+> Esto no lo entiendo muy bien. Dices que la validaci=C3=B3n de los =
+usuarios
+> es contra AD, bien. Pero haces el Single Sign-On? Yo, los clientes =
+los
+> tengo configurados con un .pac para poder poner las exclusiones y
+> redirigir el tr=C3=A1fico como yo quiera. Lo de la autenticaci=C3=B3n =
+me
+> interesa mucho, ya que mi jefe est=C3=A1 caprichado en que los =
+usuarios no
+> tengan que poner usuario y contrase=C3=B1a para poder navegar y eso, =
+seg=C3=BAn
+> las pruebas que hice en su d=C3=ADa, ralentiza mucho y hay =
+p=C3=A1ginas que por
+> un bug del firefox no hacen bien la autenticaci=C3=B3n (al menos esto =
+me
+> paso en su d=C3=ADa).
+>=20
+Si, cuando lo hemos activado, se hace Single Sign-On, por cierto para
+que funcione en firefox hay que cambiar un atributo entrando en el
+"about:config" :
+network.automatic-ntlm-auth.allow-proxies
+network.automatic-ntlm-auth.trusted-uris (donde tienes que poner el
+dominio).
+Incluso funciona el Single desde mi Debian (la sesi=C3=B3n de gnome =
+tambi=C3=A9n
+valida contra dominio)
+
+>=20
+> > Adem=C3=A1s identificar por usuario mete retardos (que pueden ser =
+minimizados
+> > ampliando el tiempo y tama=C3=B1o de la cache, pero los mete).
+>=20
+> Ampliando tiempo? a que tiempo te refieres?
+>=20
+Perd=C3=B3n hablaba de memoria, el tiempo de la cache solo se ajusta =
+para la
+identificaci=C3=B3n "basic", esta es la configuraci=C3=B3n que ponemos =
+(por si te
+sirve):
+
+### negociaci=C3=B3n kerberos e identificaci=C3=B3n ntlm
+#auth_param negotiate program /usr/local/bin/negotiate_wrapper -d
+--ntlm /usr/bin/ntlm_auth --helper-protocol=3Dsquid-2.5-ntlmssp
+--domain=3DHVN
+ --kerberos /usr/lib/squid3/squid_kerb_auth -d=20
+#auth_param negotiate children 10
+#auth_param negotiate keep_alive off
+#
+#### identificaci=C3=B3n ntlm pura
+#auth_param ntlm program /usr/bin/ntlm_auth --diagnostics
+--helper-protocol=3Dsquid-2.5-ntlmssp --domain=3DHVN
+#auth_param ntlm children 10
+#auth_param ntlm keep_alive off
+#
+#### identificaci=C3=B3n basic usando ldap para clientes no =
+identificados por
+kerberos/ntlm
+#auth_param basic program /usr/lib/squid3/squid_ldap_auth -R -s sub \
+#    -b "dc=3Dhvn,dc=3Dsas,dc=3Djunta-andalucia,dc=3Des" \
+#    -D U_Servicio_Cursos@hvn.sas.junta-andalucia.es
+-W /etc/squid3/ldappass.txt \
+#    -f sAMAccountName=3D%s -h hvn.sas.junta-andalucia.es
+#auth_param basic children 10
+#auth_param basic realm HVN
+#auth_param basic credentialsttl 1 minute
+#
+
+
+
+> > Lo que si usamos es la denegaci=C3=B3n de acceso a internet a =
+maquinas que
+> > est=C3=A9n metidas en un grupo de dominio AD de maquinas sin =
+internet.
+> > No utilizamos cache compartida pues los fallos del proxy principal =
+son
+> > m=C3=ADnimos (pr=C3=A1cticamente inexistentes si no los tocamos) y =
+no creo que
+> > valga la pena el ahorro de tiempo perdido por el servidor =
+secundario en
+> > descargar lo que tenia el primero en la cache contra la complejidad =
+que
+> > a=C3=B1ade tener un disco compartido.
+>=20
+> Si, llevas raz=C3=B3n. Yo habia pensado en tener una lun compartida =
+entre
+> las m=C3=A1quinas virtuales. Pero esto, a parte de tener la =
+complicaci=C3=B3n
+> a=C3=B1adida de ese disco, creo que puede penalizar en I/O de disco. =
+No
+> se.... Al final creo que pondr=C3=A9 3 proxys con su cache individual =
+para
+> cada uno y que todos sean hermanos de todos.
+>=20
+> > El proxy secundario no tiene configurado control de usuarios, =
+maquinas o
+> > acceso a paginas maliciosas alguno, tal y como esta montado no lo
+> > soportar=C3=ADa, pero para el poqu=C3=ADsimo nivel de fallos se =
+asume que en caso
+> > de estos no haya control hasta la reparaci=C3=B3n del principal.
+> > El sistema de ficheros, visto desde el SO es xfs (para la cache, =
+para el
+> > sistema es ext3 y desde el squid3 es ufs:
+> > # mount
+> > /dev/cciss/c0d0p1 on / type ext3 (rw,errors=3Dremount-ro)
+> > tmpfs on /lib/init/rw type tmpfs (rw,nosuid,mode=3D0755)
+> > proc on /proc type proc (rw,noexec,nosuid,nodev)
+> > sysfs on /sys type sysfs (rw,noexec,nosuid,nodev)
+> > udev on /dev type tmpfs (rw,mode=3D0755)
+> > tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+> > devpts on /dev/pts type devpts =
+(rw,noexec,nosuid,gid=3D5,mode=3D620)
+> > /dev/cciss/c0d0p2 on /var/spool/squid3 type xfs (rw)
+> >
+> > # cat /etc/squid3/squid.conf |grep "cache_dir"
+> > #       cache_dir aufs Directory-Name Mbytes L1 L2 [options]
+> > cache_dir aufs /var/spool/squid3 14336 16 256
+> >
+> > Tenemos unos 2500 PC en 4 sedes manejados por unos 6000 usuarios y =
+por
+> > exigencias superiores todo el acceso a internet lo tenemos que =
+encaminar
+> > a un proxy padre del que solo se su nombre y el puerto.
+>=20
+> El servicio que yo quiero montar es para unos 1300 usuarios (de
+> momento). Yo lo quiero poner en varias m=C3=A1quinas ya que ahora lo =
+tengo
+> todo en una sola y cuando quiero hacer algo en esa m=C3=A1quina me =
+veo
+> pillado por que en ese momento no se puede reiniciar el servicio. Lo
+> que busco es un poco la alta disponibilidad y poder hacer un =
+peque=C3=B1o
+> mantenimiento en las m=C3=A1quinas sin que el servicio se vea =
+afectado.
+>=20
+> >
+> > Espero que te sea de utilidad y si crees que hay algo mal en la
+> > configuraci=C3=B3n que tengo doy por bien venida cualquier =
+sugerencia.
+>=20
+> Muchas gracias!!!!
+>=20
+>=20
+> >
+> >
+> >
+> >
+> > --
+> > Es hora de negarse a caminar de puntillas cerca de los que piden
+> > respeto, consideraci=C3=B3n, tratamiento especial, basados en que =
+tienen fe
+> > religiosa, como si fuera noble creer afirmaciones sin base y
+> > superticiones antiguas. -A. C. Grayling, fil=C3=B3sofo Por favor, =
+NO utilice
+> > formatos de archivo propietarios para el intercambio de documentos, =
+como
+> > DOC y XLS, sino HTML, RTF, TXT,CSV o cualquier otro que obligue a
+> > utilizar un programa de un fabricante concreto para tratar la
+> > informaci=C3=B3n contenida en =C3=A9l. SALUD.
+> >
+> >
+> > --
+> > To UNSUBSCRIBE, email to =
+debian-user-spanish-REQUEST@lists.debian.org
+> > with a subject of "unsubscribe". Trouble? Contact =
+listmaster@lists.debian.org
+> > Archive: =
+http://lists.debian.org/1352987310.6685.36.camel@trujo.hvn.sas.junta-and=
+alucia.es
+> >
+>=20
+>=20
+
+
+--=20
+trujo <antonio.trujillo.sspa@juntadeandalucia.es>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1353343761.7578.14.camel@trujo.hvn.sas.junta-andalucia.es
+

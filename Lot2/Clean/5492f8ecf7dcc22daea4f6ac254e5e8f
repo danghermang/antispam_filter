@@ -1,0 +1,36 @@
+Subject:Re: la commande calendar
+> Il y a bien un répertoire "/etc/calandar/" mais il est vide.
+
+Chez moi, j'ai cat /etc/calendar/default
+
+/* This is the system-wide default calendar file, used if calendar(1)
+ * is invoked by a user without a ~/calendar or ~/.calendar/calendar file.
+ * It may be edited or even deleted to reflect local policy.
+ *
+ * In the standard setup, we simply include the default calendar
+ * definitions from /usr/share/calendar/calendar.all.  If you want
+ * only some of those definitions, copy calendar.all to /etc/calendar
+ * and edit it there.  That way, your changes will be kept next time
+ * you upgrade.
+ *
+ * The search path for include files is:
+ *   /etc/calendar
+ *   /usr/share/calendar
+ */
+#include "calendar.all"
+
+Les fichiers standards se trouvent dans /usr/share/calendar, mais tu peur créer tes propres calendriers dans $HOME/.calendar/ en t'inspirant de la syntaxe dans /usr/share/calendar.
+
+man calendar pour plus d'info
+
+steve
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121127134535.GA9701@localhost
+

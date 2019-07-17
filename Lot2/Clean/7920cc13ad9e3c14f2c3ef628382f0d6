@@ -1,0 +1,22 @@
+Subject:Re: [OT] javascript graficas bar charts
+El Fri, 09 Nov 2012 22:04:31 +0100, J.Alejandro Martinez Linares escribió:
+
+> Hola gente, alguien de ustedes conoce alguna librería libre y facil de
+> emplear para poder hacer gráficas en una WEB?
+
+"jqPlot" y "Highcharts JS" lucen muy profesional (quizá demasiado... 
+habría que revisar sus licencias :-P).
+
+Google también menciona "raphaeljs" o "flot" (este último es para jQuery).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7lnnq$he7$1@ger.gmane.org
+

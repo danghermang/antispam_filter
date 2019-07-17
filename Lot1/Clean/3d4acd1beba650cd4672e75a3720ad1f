@@ -1,0 +1,107 @@
+Subject:Re: Estoy abierto a opiniones sobre montar servidor debian
+----- Original Message ----- 
+From: "Camaleón" <noelamac@gmail.com>
+To: <debian-user-spanish@lists.debian.org>
+Sent: Thursday, November 22, 2012 9:48 AM
+Subject: Re: Estoy abierto a opiniones sobre montar servidor debian
+
+
+> El Wed, 21 Nov 2012 14:30:11 -0500, Ismael L. Donis Garcia escribió:
+>
+>>>> Ahora mis preguntas:
+>>>>
+>>>> Como ahora voy a empezar a hacer pruebas para lo que tengo todo el
+>>>> tiempo del mundo quisiera montar el servidor en wheezy, el cual al
+>>>> final de todo esto sería el servidor de dominio en Wheezy. Es esto
+>>>> recomendado aun estando en testing? Recuerden que es solo de prueba
+>>>> por ahora. Sería oficial para cuando yo lo disponga el año que viene.
+>>>
+>>> Sí, ¿por qué no? Ahora mismo se encuentra congelada y es muy estable.
+>>> Sólo recuerda que el archivo "/etc/apt/sources.list" los repositorios
+>>> deben apuntar a "wheezy" en lugar de "testing", así cuando salga en
+>>> unos meses no tendrás que hacer nada y tendrás la versión estable.
+>
+> (...)
+>
+>> Otra pregunta que se me olvidó preguntarle.
+>>
+>> El servidor tiene un arreglo de 8 discos de 146 GB cada uno. Como creen
+>> ustedes que debo crear los arreglos de disco para garantizar velocidad y
+>> integridad de los datos a la vez?
+>
+> (...)
+>
+> Pues depende del uso que quieras darle al servidor, es decir, si
+> prefieres obtener la mayor cantidad de espacio posible (un volumen grande
+> que te sirva de almacenamiento para copias de seguridad, por ejemplo)
+> pues te puede convenir usar LVM con un RAID6 por debajo. Si por el
+> contrario quieres que la partición que aloje el sistema operativo para
+> rapidita, puedes optar por un RAID10 con un par de discos.
+>
+> Ten en cuenta que este tipo de "arreglos" pueden ser vistos como una arma
+> de doble filo: son instalaciones complejas y requieren una administración
+> y conocimientos específicos porque añaden una capa adicional de
+> dificultad que vas a tener que saber gestionar como administrador del
+> sistema y jugar con los datos nunca es buena cosa. Las pruebas mejor
+> hacerlas sobre máquinas virtuales o equipos secundarios, nunca sobre
+> servidores que contengan datos importantes.
+>
+> Saludos,
+>
+> Camaleón
+>
+
+
+Gracias por los consejos.
+
+Pero el servidor ahora mismo no los estoy utilizando. Compramos 2 servidores 
+nuevos idénticos.
+
+Antes teníamos 2 servidores también. Por lo que ahora tenemos 4 servidores. 
+2 nuevos y 2 más viejos.
+
+Cogí uno de los servidores nuevos y monté Windows 2003 Server y el DNS y 
+demás.
+Desmonté el DNS del servidor viejo y lo cogí exclusivamente para servidor de 
+datos.
+Cogí el otro servidor viejo y lo puse exclusivamente de servidor de correo.
+
+Entonces me quedó un servidor nuevo completamente a mi disposición para 
+probar lo que quiera, en este servidor hasta ahora estuve probando Windows 
+2008 Server con miras a eliminar Windows 2003 Server y dejar 2008.
+
+Pero ahora cambié de idea ya que la política del país es migrar a Linux y 
+quise darle un impulso a esto ya que he ido ganando en conocimientos() de 
+Linux. Por lo tanto en vez de montar un servidor en Windows 2008 Server 
+quiero montar en el Wheezy como servidor. Pero con todas las de la ley como 
+se dice. Donde van a convivir 98% de PC clientes en Windows y 2% en debian. 
+Lo cual debe ir cambiando de correlación en el transcurso del tiempo.
+
+Como bien ustedes saben, yo en estoy frito, pero dentro de las personas que 
+no saben nada de nada soy el rey. Pero para eso cuento con su ayuda + el 
+curso que voy a pasar + lo que estudie para lograrlo + la ayuda de algunos 
+amigos que dominan algo, aunque ya he hablado con ellos, incluso anoche 
+estuve con un amigo en su trabajo navegando en Internet y buscando 
+información de samba4 ya que me dijo que el no lo había ni mirado y que no 
+sabía nada de samba4 pero que estaba dispuesto a venir a mi trabajo y 
+enredarse conmigo a ayudarme a ver que sale. Ese amigo trabaja en un joven 
+club de computación y tiene acceso a Internet aunque muy, pero muy limitado, 
+pero me sirve para buscar literatura y leer sobre el tema.
+
+Así que camaleon no te preocupes por los datos que no tengo absolutamente 
+nada en el servidor todavía. Ya después que todo esté funcionando si voy a 
+meter 2 servidores de datos en el o 1 aun eso no lo he definido. Ya que 
+nosotros aquí usamos para unos sistemas Firebird y para otros Prostgres.
+
+Saludos Reiterados
+=========
+|| ISMAEL ||
+=========
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4FA09A70578D46448A4FB1FC32BF254E@eicc.citricos.cu
+

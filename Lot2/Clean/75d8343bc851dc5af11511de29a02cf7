@@ -1,0 +1,25 @@
+Subject:Re: =?iso-8859-1?q?D=E9marrage_via_cl=E9?= usb pour l'installation
+	=?iso-8859-1?q?probl=E9matique?=
+Le Sat, 01 Sep 2012 13:10:02 +0200, Scurz a écrit :
+
+> Je tente d'installer debian 6.0.5 via clé usb sur un pc portable packard
+> bell easy note TS. Durant le démarrage, le pc arrive jusqu'au menu (où
+> l'on choisit installation, installation graphique, etc.) et il est
+> impossible de faire quoi que ce soit, et donc de sélectionner quelque
+> chose.
+
+sur un netbook ASUS  je n'ai pas réussi à booter sur une "liveUSB".
+
+Par contre avec un lecteur de CD USB aucun problème. 
+
+Sans doute le BIOS dans mon cas
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5045c948$0$16484$426a74cc@news.free.fr
+

@@ -1,0 +1,69 @@
+Subject:Re: [Hsqldb-user] download odbc drivers?
+It should work on 64 bit as well.
+
+Fred
+
+On Sat, Sep 15, 2012, at 19:25, Marc Ravensbergen wrote:
+> Thanks Fred... I downloaded the the drivers, but it looks like it is 
+> only available for win 32 bit. Is that the case, or do these drivers 
+> work on windows 7 / 64 bit as well?
+> Marc
+> 
+> 
+> Fred Toussi wrote:
+> > It is available at the SourceForge project file download, in the
+> > alpha-beta folder.
+> >
+> > Fred
+> >
+> > On Thu, Aug 23, 2012, at 16:15, Marc Ravensbergen wrote:
+> >> Can anyone tell me where I can download the odbc drivers for hsqldb? I
+> >> have managed to download the source, but I definitely don't have a c
+> >> compiler available or anything of that nature...
+> >>
+> >> Thanks,
+> >> Marc
+> >>
+> >> ------------------------------------------------------------------------------
+> >> Live Security Virtual Conference
+> >> Exclusive live event will cover all the ways today's security and
+> >> threat landscape has changed and how IT managers can respond. Discussions
+> >> will include endpoint security, mobile security and the latest in malware
+> >> threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+> >> _______________________________________________
+> >> Hsqldb-user mailing list
+> >> Hsqldb-user@lists.sourceforge.net
+> >> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+> > ------------------------------------------------------------------------------
+> > Live Security Virtual Conference
+> > Exclusive live event will cover all the ways today's security and
+> > threat landscape has changed and how IT managers can respond. Discussions
+> > will include endpoint security, mobile security and the latest in malware
+> > threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+> > _______________________________________________
+> > Hsqldb-user mailing list
+> > Hsqldb-user@lists.sourceforge.net
+> > https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+> 
+> 
+> ------------------------------------------------------------------------------
+> How fast is your code?
+> 3 out of 4 devs don\\\'t know how their code performs in production.
+> Find out how slow your code is with AppDynamics Lite.
+> http://ad.doubleclick.net/clk;262219672;13503038;z?
+> http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://ad.doubleclick.net/clk;258768047;13503038;j?
+http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

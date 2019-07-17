@@ -1,0 +1,59 @@
+Subject:Re: Instalar Iceeasel 15.0 en Debian squeeze
+El Mon, 01 Oct 2012 17:41:22 -0400
+luis@ida.cu escribi=F3:
+
+> Hola a todos miren esto
+>=20
+> Desinstale Iceweasel 3.5 porque quiero instalar la 15.o es decir la=20
+> =FAltima pero me da este error
+>=20
+> apt-get install iceweasel
+> Leyendo lista de paquetes... Hecho
+> Creando =E1rbol de dependencias
+> Leyendo la informaci=F3n de estado... Hecho
+> No se pudieron instalar algunos paquetes. Esto puede significar que
+> usted pidi=F3 una situaci=F3n imposible o, si est=E1 usando la distribuci=
+=F3n
+> inestable, que algunos paquetes necesarios no han sido creados o han
+> sido movidos fuera de Incoming.
+> La siguiente informaci=F3n puede ayudar a resolver la situaci=F3n:
+>=20
+> Los siguientes paquetes tienen dependencias incumplidas:
+>   iceweasel : Depende: xulrunner-15.0 (>=3D 15.0.1-1~bpo60+1) pero no va =
+a=20
+> instalarse
+>               Depende: libsqlite3-0 (>=3D 3.7.12-1~) pero 3.7.3-1 va a se=
+r=20
+> instalado
+>=20
+> Ya tengo el sources list ok quizas me falte algo por instalar primero
+>=20
+> trat=E9 de hacer esto apt-get install iceweasel-l10n-es-es pero ah=ED es=
+=20
+> dode me da este error y el iceweasel lo tengo ya desisntalado es decir=20
+> el que trae el, pues no se si se podia actualizar de la 3.5 a la 15.0=20
+> ....
+>=20
+> Alguna idea
+> Agradezo toda ayuda ...
+>=20
+Si, bajate los tar.gz de la pagina oficial, los desempaquetas y listo
+
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/07151fcbf5775e3a7f3501040813a049@ida.cu
+>=20
+
+
+--=20
+Angel Claudio Alvarez <angel@angel-alvarez.com.ar>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121001200758.15f4897e60fb92ed22ce0a0a@angel-alvarez.com.ar
+

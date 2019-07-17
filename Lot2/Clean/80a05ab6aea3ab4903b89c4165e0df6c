@@ -1,0 +1,23 @@
+Subject:Re: MKV se oye pero no se ve
+Marc Marí <5.markmb.5@gmail.com> writes:
+
+> No consigo entender porqué se veían en Totem y en los otros no, ni
+> porqué tampoco se veían con optirun cuando tenía bumblebee
+> configurado, pero me conformo con que funcione al menos con la gráfica
+> intel
+
+Creo que tenías algunos problemas con overlay (XVideo, Xv) en el
+controlador de intel. Precisamente por eso te he pedido que ejecutes el
+mplayer sin overlay. Supongo (supongo porque no tengo instalado el
+Totem) que Totem tiene el siguiente comportamiento: si el Totem no puede
+reproducir un vídeo a través de overlay (Xv), selecciona automáticamente
+el escalado por software y cambia el modo de salida a X11 y por eso
+puedes ver los vídeos en Totem. Quizá el VLC no tenga ese
+comportamiento. El mismo se refiere al mplayer.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87txvfdphh.fsf@tochka.ru
+

@@ -1,0 +1,41 @@
+Subject:Re: DEBIAN et SKYPE
+Bonjour,
+
+La dernière version de skype 4.1.0 pour debian linux 7.0 (multiarch) 
+n'est pas une version beta.
+
+Guy
+
+On 21/11/2012 20:50, Alex Padoly wrote:
+> Bonsoir à tous,
+>
+> J' utilise la dernière version de DEBIAN et depuis le mois de 
+> Septembre, j'ai installé SKYPE, l'éditeur fournit un paquet en version 
+> beta.
+> J'ai une webcam Logitech, après avoir installer guvcview. J'ai pu 
+> faire de la visioconférence.
+> Je ne sais pas pourquoi mais à partir d'un moment, mon correspondant 
+> ne me voyait plus, il m'entendait, de mon coté je le voyais et je 
+> l'entendais.
+>
+> Depuis hier, j'ai eu une panne de disque dur et j'ai installé en 
+> urgence la webcam sur l'ordinateur de mon fils avec WINDOWS XP et la
+> surprise, la visioconférence fonctionne à 100% alors que je pensais 
+> que c'etait une insuffisance de débit chez mon correspondant.
+>
+> Comment interprétez-vous cela et comment pourrait-on faire sous Debian 
+> pour faire de la visioconférence en toute fiabilité.
+>
+> Merci pour vos réponses.
+>
+> Alex
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50ADE1ED.3040201@teledetection.fr
+

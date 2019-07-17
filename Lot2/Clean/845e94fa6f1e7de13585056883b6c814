@@ -1,0 +1,47 @@
+Subject:Re: Derechos de lectura por defecto en la clave privada de la CA
+El d=EDa 27 de octubre de 2012 02:46, Carlos Miranda Molina (Mstaaravin)
+<mstaaravin@gmail.com> escribi=F3:
+> 2012/10/26 Francesc Guitart <fguitart@gmail.com>:
+>> Hola,
+>>
+>> Estoy en squeeze haciendo pruebas con HTTPS y para ello he creado una
+>> CA y un certificado de servidor con el script CA.pl.
+>>
+>> Me extra=F1a ver que por defecto deja las claves privadas con permisos
+>> de lectura incluido el directorio /usr/lib/ssl/misc/demoCA/private
+>> donde va la clave privada de la CA.
+>>
+>> Alguien sabe una raz=F3n de porque esto es as=ED? Me extra=F1a que se tr=
+ate
+>> de un descuido del creador del script...
+>
+> Interesante descubrimiento
+>
+> Aunque se supone que la private key debe estar protegida con un
+> password potente.
+
+Efectivamente la llave privada de la CA debe estar protegida con una
+passphrase. Idealmente tambi=E9n la llave privada de un certificado de
+servidor, aunque no suele hacerse por un tema de comodidad.
+
+>
+> Estamos de acuerdo tambi=E9n que es inteligente que el server que genere
+> los certificados tiene que ser un server aislado, ademas esos scripts
+> son para pruebas y uso privado.
+>
+
++1. Aunque hay empresas que tienen su propia CA y distribuyen sus
+certificados para usarlos sobretodo para HTTPS y VPNs.
+
+Gracias por tu respuesta.
+
+
+--=20
+Francesc Guitart
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAOUhjL59_7_zcWbgFmMJh+x0+EtLPdUrDj-pqg14b2EwX892-A@mail.gmail.com
+

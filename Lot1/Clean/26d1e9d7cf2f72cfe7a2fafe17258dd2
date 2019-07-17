@@ -1,0 +1,54 @@
+Subject:Re: no inicia =?ISO-8859-1?Q?sesi=F3n_en_modo_grafico=5D?=
+El 18/09/12 13:59, Ruben Cervantes Rodr�guez escribi�:
+>
+>
+> ---------------------------- Mensaje original ----------------------------
+> Asunto: Re: no inicia sesi�n en modo grafico
+> De:     Camale�n<noelamac@gmail.com>
+> Fecha:  Mar, 18 de Septiembre de 2012, 9:41 am
+> Para:   debian-user-spanish@lists.debian.org
+> --------------------------------------------------------------------------
+>
+> El Mon, 17 Sep 2012 19:12:50 -0500, L.I Jesus Benjamin Yam  escribió:
+>
+>> Buen dia tengo una pc con debian squeeze de 64 bits de la noche a la
+>> mañana ya no inicia sesion en modo grafico, es decir al encender la pc
+>> llega hasta el gestor de arranque gdm 3 y ahi me aparecen mis 2 cuentas,
+>> al elegir alguna, poner la contraseña y dar iniciar sesión o enter, la
+>> pc se queda en negro y no solo eso deja de dar video ya que el monitor
+>> de tener el foquito en verde comienza a parpadear como cuando no tiene
+>> señal, si inicio en modo a prueba de errores me hace lo mismo, cuando
+>> inicio en modo prueba de errores y en vez de dar ctrl+d le pongo la
+>> contraseña carga en modo texto, trate de ver si tenia algun archivo
+>> x.org en /etc/X11 pero no hay tal, y repito la pc llevaba meses
+>> funcionando bien.
+>
+> Ya no hay archivo "xorg.conf", se supone que ahora todo lo relacionado
+> con Xorg se configura automáticamente, así que en cada arranque te puede
+> funcionar... o no.
+>
+> Sube a algún servidor el registro del servidor X que tienes en "/var/log/
+> Xorg.0.log" para que podamos echarle un vistazo y también el de la sesión
+> gráfica ("~/.xsession-errors"). Es raro que todo funcione correctamente
+> hasta que se carga GNOME...
+>
+> Saludos,
+>
+No es tanto que no exista el xorg.conf, sino que el las cosas por 
+defecto no los escribe, o sea, los carga en el aire.
+
+Si deseas darle algun parametro al xorg, simple, crea en 
+xorg.conf.d/XX-dispositivo_o_seccion.conf y el lo cargara, donde XX 
+vendria siendo como el orden en el que se ir�n adjuntando si hay varios, 
+al xorg.conf que el cargar� al vuelo, o simplemente, crea un xorg.con 
+que configure correctamente tus X.
+
+Yo.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5058C02A.3060400@lt.datazucar.cu
+

@@ -1,0 +1,165 @@
+Subject:Re: [Antenna-discussion] 1/2-wave vertical really needs a ground
+ plane?
+I can definitely testified to the fact that a vertical half-wave, centre =
+
+fed not attached to ground, does not need wires in the ground.
+
+Back during (Solar Cycle 21) I worked 125 countries with 10 watt's on
+10 m.  using this antenna.  The feed point was slightly less than =BD =
+
+wavelength above ground.
+It also had a local night time communication range of more than 50 air
+miles and a mobile to base range of about 30 air miles.
+
+
+
+Lou KE4UYP
+
+
+
+On 11/6/2012 6:47 AM, boswell alan wrote:
+> Greg and all,
+>
+> Vertical monopoles driven at the base always need some kind ground
+> plane because the feeder has two sides and something is needed to send
+> the return current into.
+>
+> Quarterwave and halfwave verticals are both resonant, but the halfwave
+> has a higher impedance with less base-current, so in principle the
+> ground losses can be covered adequately with less wire in the ground
+> plane.  A slightly larger 5/8-lambda vertical maximises the gain along
+> the ground, and although there is some reactance in the base-impedance
+> that is not usually a big problem.
+>
+> A vertical half-wave, centre fed and not attached to ground, does not
+> need wires in the ground.
+>
+> Alan G3NOQ
+>
+>
+>
+>
+>
+> On 5 November 2012 23:43, Kirk T McDonald <kirkmcd@princeton.edu> wrote:
+>> Gregg,
+>>
+>> IF a quarter-wave (or half wave) vertical without ground plane were self
+>> resonant, it would not need a ground plane.
+>>
+>> But it is NOT self-resonant if there is no ground plane.
+>>
+>> The needed ground plane does not have to be supplied by radials, if, say,
+>> the ground is damp and conductive.    So, it depends on where you live h=
+ow
+>> much difference adding radials makes.
+>>
+>> If you want to avoid radials, you can add an matching inductor (without =
+the
+>> ground plane, the reactance of an end-fed antenna is negative/capacitive=
+).
+>>
+>> Changing from a quarter-wave to a half-wave vertical, without ground pla=
+ne,
+>> does bring the radiation resistance up to about 1/2 that for a half-wave
+>> center-fed, self resonant antenna, but the reactance is still large and
+>> negative.
+>>
+>> If you do add the ground plane, the vertical should be quarter wave, not
+>> half wave, for the antenna to be self resonant.
+>>
+>> --Kirk
+>>
+>> -----Original Message----- From: kb0zut@hotmail.com
+>> Sent: Monday, November 05, 2012 5:37 PM
+>> To: antenna-discussion@antennex.com
+>> Subject: [Antenna-discussion] 1/2-wave vertical really needs a ground pl=
+ane?
+>>
+>>
+>> Hello,
+>> I had a question concerning whether a half wave vertical really
+>> needs a ground plane or not.
+>>
+>> I recently gave a friend of mine an old half wave vertical and
+>> I told him it does not require the radials because its a
+>> half wave, and they are self resonant antennas that will work
+>> without them.
+>>
+>> I have recently read that all unbalanced antennas
+>> (regardless of wavelength) require some sort of return path
+>> for the currents following through them.
+>>
+>> This has me really confused, because I have never noticed
+>> a problem with RFI, common mode currents usf. while using this
+>> antenna.
+>>
+>> What is your opinion on this?
+>>
+>> Best Regards,
+>> Greg Morris
+>> _______________________________________________
+>> This message was sent to: kirkmcd@princeton.edu
+>>
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address th=
+is
+>> message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>> _______________________________________________
+>> This message was sent to: alan.boswell@blueyonder.co.uk
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address th=
+is
+>> message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+> _______________________________________________
+> This message was sent to: ke4uyp@tampabay.rr.com
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address thi=
+s message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+>
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots=
+.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

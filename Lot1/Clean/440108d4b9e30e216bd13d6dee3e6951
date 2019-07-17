@@ -1,0 +1,100 @@
+Subject:Re: [EVDL] EVLN: EVs powering homes when the power is knocked out
+I knew one 45 amp DC-DC converter would not supply enough ampere for my 
+onboard 7kw 110 DC converter that is then inverted to 6kw 120 vac 60 hz.  So 
+I had to parallel four 45 amp DC-DC converters where the outputs are fuse at 
+35 amp each which would be 140 amp maximum on the 12 volt side.
+
+The 7kw converter input is circuit breaker at 100 amp and the output has a 
+rating for two lines of 25 amps which are breaker for 20 amps each.
+
+Never had to use this unit for any outboard emergency power unit.  In Great 
+Falls, Montana which is also call the electric city, we have five hydro dams 
+with six generators each.  At each dam, two generators are running under 
+load, two are in running standby mode which are not load, and two are in 
+maintenance.
+
+We had problems over 20 years ago when they are interconnected to the power 
+grids in the U.S. where one power system have problems and would bump some 
+of generators off the line.  Today we have high speed disconnect systems in 
+place.
+
+I use these on-board inverter system to power three electric heaters, two 
+pumps which one is use for the hot water heater and one for the water cool 
+Z1K.  Also four fans for cooling the motor, additional cooling the Z1K, A/C 
+condenser, cab heater circulation fans.
+
+These 120 vac hz units can be either run by the on board inverter or using a 
+transformer switch, I can power all these units with commercial AC power 
+when the main AC plug is connected to the EV.
+
+On the dash plates, there are 12 volt and amp meters and 120 volt and amp 
+meters that monitor this power system.  On the 12 volt side, I have peak at 
+100 amps with one heater and all other systems on. This is only 1200 watts 
+at 12 volts.  On the AC side this is about 10 amps.
+
+Running any AC motor that has a running ampere of 8 amps at 120 vac will 
+have a start up surge to about 30 amps.  The newer appliances may have a 
+interrupted start up protector design for any motor or even welder machines. 
+You can also install these units on any inductive load device by just 
+plugging this unit inline with the power cord.
+
+Roland
+
+
+
+
+
+
+----- Original Message ----- 
+From: "David Ladd" <david.ladd@yahoo.com>
+To: "Electric Vehicle Discussion List" <ev@lists.sjsu.edu>
+Sent: Wednesday, October 31, 2012 11:06 AM
+Subject: Re: [EVDL] EVLN: EVs powering homes when the power is knocked out
+
+
+I'm surprised the DCDC has the current carrying capacity for this! I know 
+mine wouldn't, but it's a DIY conversion with a 45a DCDC. Might support ~4a 
+at 120v, doubt it would start the motor in a sump pump or refrigerator 
+though.
+
+david.
+http://www.evalbum.com/4021
+
+
+
+
+----- Original Message -----
+> From: Dave Davidson <davetex99@gmail.com>
+> To: Electric Vehicle Discussion List <ev@lists.sjsu.edu>
+> Cc:
+> Sent: Wednesday, October 31, 2012 9:49 AM
+> Subject: Re: [EVDL] EVLN: EVs powering homes when the power is knocked out
+>
+> Several of us in EVADC fixed our Leafs for emergency power during Sandy.
+> All it takes is a standard inverter connected to the 12 volt supply. Turn
+> on the Leaf so the DC/DC is active and you have power. I figure I can run
+> the refrigerator, sump pump, and small television for several days from my
+> Leaf. Any EV should be able to do this and a plug in hybrid will start the
+> engine when the pack gets low, providing even more power.
+>
+> Dave
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev 
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

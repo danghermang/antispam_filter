@@ -1,0 +1,39 @@
+Subject:Re: Wheezy : freezes totaux =?UTF-8?B?ZnLDqXF1ZW50cyBzdXIgdW4gbm8=?=
+	=?UTF-8?B?dXZlYXUgcG9ydGFibGUu?=
+Bonjour,
+
+Merci pour le coup de main.
+
+Voici l'avancée des travaux :
+
+Un nouveau noyau a été installé : le 3.5-trunk-amd64.
+
+1. L'option discard dans le fstab, me provoque les mêmes erreurs.
+Je viens de lancer (sait on jamais) un "tune2fs -o discard /dev/sda" et 
+ça m'a renvoyer l'erreur suivante : "Numéro magique invalide dans le 
+super-bloc lors de la tentative d'ouverture de /dev/sda. Impossible de 
+trouver un superbloc de système de fichiers valide"...
+
+2. Mon ssd n'est toujours pas l'ami de smartmontools (version squeeze et 
+wheezy), quelque soit la version du noyau, ça plante et impossible de 
+lancer un reboot.
+Et en lançant un "samrtctl -all /dev/sda", j'obtiens une valeur de 69 
+pour le résultat suivant : 5 Reallocated_Sector_Ct
+
+3. Je ne vois pas trop comment comparer taille déclarée et taille 
+physique réelle ?
+
+>> [22837.746440] Buffer I/O error on device sda6, logical block 34248
+>
+> Commence déjà par vérifier si la taille déclarée de la partoche
+> correspond exactement à sa taille physique réelle.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50603354.9050207@gmail.com
+

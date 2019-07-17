@@ -1,0 +1,30 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+	IPv4 from last /8
+Hi,
+
+> this statement might need some adjustment to "there is no IPv4 PI, can =
+we do something else?", like "can we use IPv6 PI plus double-IPv4-PA?" =
+or "can we use IPv6 PI plus our ISP's friendly NAT64 translator?"...
+
+I think these are the only options that can survive in the medium to =
+long term. At some point in time the final /8 will also be depleted and =
+then everybody will be unhappy. We should start moving in such a =
+direction *now*.
+
+Geoff Huston showed us years ago: we were meant to deploy IPv6 before =
+the IPv4 pool ran out. We postponed deployment until we did run out. If =
+we keep postponing solutions that don't rely on IPv4 address space then =
+we will remain in the situation we are in now and the pain will become =
+worse and worse.
+
+We have been making policies for specific cases (we now have PA form the =
+final /8, we have IXP space from that /8, we are discussing PI from that =
+/8 now). Maybe we need to take a step back and look at the big picture =
+first. I personally think that it would be very bad if ISPs don't have =
+any IPv4 space for things like central NAT64 boxes or similar services =
+for example. We have the current final /8 policy for that now, but lets =
+look a few steps ahead...
+
+- Sander
+
+

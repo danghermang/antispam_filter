@@ -1,0 +1,1417 @@
+Subject:Tech Tips [ Windows 8 Is Finally Here! - Are You Ready? + How To Get A Better Mobile Search + 32-bit Vs. 64-bit - What's The Difference? ] 10/26/2012
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1" />
+<title>WorldStart</title>
+</head>
+
+<body bgcolor=3D"#ffffff" style=3D"font-family:arial, helvetica, sans-serif=
+;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size:=
+12px; font-family:Arial, Helvetica, sans-serif;">
+	<tbody>
+		<tr>
+			<td background=3D"http://imgsrv.worldstart.com/nl-images/tech/header-bg.=
+jpg">
+				<img align=3D"left" alt=3D"WorldStart's Tech Tips" height=3D"125" src=
+=3D"http://imgsrv.worldstart.com/nl-images/tech/tech-tips.png" width=3D"405=
+" /> <img align=3D"right" alt=3D"WorldStart" height=3D"125" src=3D"http://i=
+mgsrv.worldstart.com/nl-images/tech/logo.jpg" width=3D"225" /></td>
+		</tr>
+		<tr>
+			<td align=3D"center" background=3D"http://imgsrv.worldstart.com/nl-image=
+s/menu-back.jpg" bgcolor=3D"#dddddd" colspan=3D"3" height=3D"22">
+				<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+					<tbody>
+						<tr>
+							<td align=3D"center" width=3D"17%">
+								<a href=3D"http://www.worldstart.com/"><img alt=3D"" border=3D"0" h=
+eight=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/tech/menu-ws.jpg=
+" width=3D"106" /></a></td>
+							<td align=3D"center" width=3D"17%">
+								<a href=3D"http://store.worldstart.com/"><img alt=3D"" border=3D"0"=
+ height=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/tech/menu-tech=
+-store.jpg" width=3D"106" /></a></td>
+							<td align=3D"center" width=3D"16%">
+								<a href=3D"http://www.worldstart.com/new-tips/"><img alt=3D"" borde=
+r=3D"0" height=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/tech/me=
+nu-tech-tips.jpg" width=3D"106" /></a></td>
+							<td align=3D"center" width=3D"16%">
+								<a href=3D"http://www.worldstart.com/newsletters.php"><img alt=3D""=
+ border=3D"0" height=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/t=
+ech/menu-nl.jpg" width=3D"106" /></a></td>
+							<td align=3D"center" width=3D"17%">
+								<a href=3D"http://www.worldstart.com/message-board/"><img alt=3D"" =
+border=3D"0" height=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/te=
+ch/menu-mb.jpg" width=3D"106" /></a></td>
+							<td align=3D"center" width=3D"17%">
+								<a href=3D"http://www.worldstart.com/contact/"><img alt=3D"" border=
+=3D"0" height=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/tech/men=
+u-support.jpg" width=3D"106" /></a></td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor=3D"#ffffff">
+				<p>
+					<font size=3D"3"><strong><font face=3D"Arial, Helvetica, sans-serif" s=
+ize=3D"2"><strong><img src=3D"http://www.worldstart.com/images/nlimage/1026=
+2012tt1-=
+1420010=
+.png" alt=3D"ws" name=3D"ws" width=3D"16" height=3D"16" id=3D"ws" /></stron=
+g> WorldStart Tech Tips <strong>2012-10-26</strong></font></strong></font><=
+/p>
+				<p>
+					<font size=3D"2"><strong><font face=3D"Arial, Helvetica, sans-serif">H=
+aving trouble viewing parts or all of the newsletter?</font></strong> <font=
+ face=3D"Arial, Helvetica, sans-serif"><strong><a href=3D"http://www.worlds=
+tart.com/newsletters.php/computer_tips/2012-10-26">View the entire newslett=
+er here!</a></strong></font></font><br />
+					<br />
+					 </p>
+				<!-- homepage_start -->
+				<p>
+					<img alt=3D"Quick Tip" height=3D"40" src=3D"http://imgsrv.worldstart.c=
+om/nl-images/tech/quick-tip.jpg" width=3D"385" /></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;"><strong>In =
+The News 10-26-2012</strong></span><br />
+					<span style=3D"font-family: arial, helvetica, sans-serif;"><em>Your We=
+ekly Update In The World Of Technology </em></span></p>
+				<p>
+					 <img alt=3D"Windows 8" class=3D"alignnone size-full wp-image-32159" h=
+eight=3D"150" src=3D"http://imgsrv.worldstart.net/images/ct-images/2012/10/=
+in-the-news-10-26-2012.jpg" title=3D"in-the-news-10-26-2012" width=3D"332" =
+/></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;"><strong>A B=
+ig Day In The World Of Microsoft</strong></span></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;">October 26 =
+=96 the release of Microsoft=92s next operating system, Windows 8, is final=
+ly upon us.  The 26th also marks the release of Microsoft=92s new tablet, t=
+he Surface.  In case you=92re wondering =96 this is a big day for Microsoft=
+.</span></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;">The biggest=
+ news is probably the release of Windows 8 itself, an operating system that=
+ many are claiming will be a complete game changer in the world of PC to mo=
+bile computing.  In fact, this is Microsoft=92s first attempt at creating a=
+n operating system that will run on PCs, tablets, <em>and </em>phones.  Win=
+dows 8 features an interface (formally known as =93Metro=94=85 and that=92s=
+ the name I=92m sticking with for now) that is vastly different from the de=
+sktops many of us are familiar with.  8 starts out in the Metro interface, =
+which includes a series of tiles and applications.  Some of these tiles eve=
+n have live updating information, depending on what that particular app is.=
+  Metro is built with touchscreens in mind and includes the large tiles to =
+make it easier access each individual app.  You can also have separate =93p=
+ages=94 of tiles that can be accessed by a simple swipe, or in the PC versi=
+on=92s case, a click of the mouse.  The apps dedicated to each tile can eit=
+her be built-in Windows or software applications, such as web browsers and =
+photo viewers, or apps downloaded from Windows Store.</span></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;">The next bi=
+g release to go along with Windows 8 is the Surface tablet.  The first Surf=
+ace tablet to be released will feature a 10.6&#8243; display, start off at =
+32GB with an expandable microSDXC card slot, and will run on Windows RT.  W=
+indows RT is a scaled-down version of Windows 8 built to run on the tablet=
+=92s ARM CPU.  Later versions of the Surface tablet will feature larger sto=
+rage and use an Intel CPU.  These =93Pro=94 versions will also be running a=
+ full edition of Windows 8 Pro, have more RAM, and include a higher resolut=
+ion screen.</span></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;">Be sure to =
+keep reading Tech Tips in the coming days and weeks as we continue to take =
+a more in-depth look at Windows 8, the Surface tablet, and whether or not W=
+indows 8 is right for <em>you!</em></span></p>
+				<p>
+					 <br />
+					<img alt=3D"iPad Mini" class=3D"alignnone size-full wp-image-32161" he=
+ight=3D"150" src=3D"http://imgsrv.worldstart.net/images/ct-images/2012/10/i=
+pad-mini1.jpg" title=3D"ipad-mini" width=3D"332" /></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;"><strong>=85=
+What Did Apple Just <em>Do?</em></strong></span></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;">The release=
+ of Windows 8 isn=92t the only thing causing waves in the tech world.  Appl=
+e also had some big news of its own that it released earlier this week.</sp=
+an></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;">The biggest=
+ news?  The new iPad Mini.  So what is it?  To put it in simple terms, it=
+=92s an iPad =96 only smaller.  A more in-depth look reveals a new tablet t=
+hat comes in with a 7.9&#8243; screen, 7.2mm width, and a weight of only 0.=
+7 lbs.  The Mini starts off at $329 for its 16GB Wi-Fi only model and finis=
+hed off at $659 for the 64GB model and cellular capability.  It will also i=
+nclude a resolution comparable to the iPad 2 and not the newer iPad=92s =91=
+retina display=92. Speaking of the new iPad=85</span></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;">The =93new =
+iPad=94 got an update as well.  The tablet, which was only released six mon=
+ths ago, received an upgrade to its camera, a faster processor, and 4G LTE =
+capability.  The iPhone 5, released last month, was the first Apple device =
+to finally make use of 4G LTE.</span></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;">The iPad Mi=
+ni kicks off pre-orders today (October 26) and the Wi-Fi only version will =
+hit store shelves on November 2.  Models using cellular networks will be re=
+leased in the few weeks after.</span></p>
+				<p>
+					<span style=3D"font-family: arial, helvetica, sans-serif;"> -Mike</spa=
+n></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/in-the-news-10-26-2012/">Click here to rate this tip<=
+/a> | <a href=3D"http://www.worldstart.com/in-the-news-10-26-2012/print">Pr=
+inter friendly version</a></font><br />
+					 </p>
+				<p>
+					 </p>
+				<p>
+					<img alt=3D"Announcements" height=3D"40" src=3D"http://imgsrv.worldsta=
+rt.com/nl-images/tech/announcements.jpg" width=3D"385" /></p>
+				<p style=3D"text-align: center;">
+	<strong><span style=3D"font-size:20px;"><font face=3D"Arial, Helvetica, sa=
+ns-serif"><font face=3D"Courier New, Courier, monospace">Buy One Pack, Get =
+One FREE!</font></font></span></strong></p>
+<p style=3D"text-align: center;">
+	<strong><span style=3D"font-size:20px;"><font face=3D"Arial, Helvetica, sa=
+ns-serif"><font face=3D"Courier New, Courier, monospace">That's 6 Stylus Pe=
+ns! BAM!</font></font></span></strong></p>
+<p style=3D"text-align: center;">
+	<strong><span style=3D"font-size:18px;"><span style=3D"color:#0000ff;">STO=
+P! Your Fingers Are Your Phone's Worst Enemy!</span></span></strong></p>
+<p style=3D"text-align: center;">
+	<img alt=3D"" src=3D"http://imgsrv.worldstart.com/ct-images/gross-dirty-ip=
+ad.jpg" style=3D"width: 415px; height: 276px;" /></p>
+<p style=3D"text-align: center;">
+	<strong><span style=3D"font-size:18px;"><em><span style=3D"color:#ff0000;"=
+>All Those Scratches and Smudges Add Up!!</span></em></span></strong></p>
+<p style=3D"text-align: center;">
+	<strong><span style=3D"font-size:18px;">There's a Better Way to Use Your T=
+ouchscreens!</span></strong></p>
+<p style=3D"text-align: center;">
+	<span style=3D"font-size:18px;"><strong><span style=3D"color:#0000ff;">Pre=
+ciseTouch Capacitive Universal Touchscreen Stylus Pens</span></strong></spa=
+n></p>
+<p style=3D"text-align: center;">
+	<span style=3D"font-size:18px;"><strong><em><span style=3D"color:#000000;"=
+>Cell Phones, iPads, iPod Touches, iPhones and Tablets</span></em></strong>=
+<br />
+	<br />
+	<u><strong><span style=3D"color:#ff0000;">Works With ANY Capacitive Touchs=
+creen Device</span></strong></u></span></p>
+<p style=3D"text-align: center;">
+	<img alt=3D"" src=3D"http://imgsrv.worldstart.com/ct-images/stylus-pens.jp=
+g" style=3D"width: 300px; height: 300px;" /></p>
+<p>
+	<span style=3D"font-size:16px;"><strong>Everyone has touchscreens on every=
+thing nowadays.</strong> And while it may only take two seconds to cover a =
+screen in smudges, it takes a lifetime to clean them off. Not to mention th=
+ose scratches that <strong><u>NEVER</u></strong> go away!</span></p>
+<p>
+	<span style=3D"color:#ff0000;"><strong><span style=3D"font-size: 18px;">Wh=
+y not just save yourself the hassle?</span></strong></span></p>
+<p>
+	<span style=3D"color:#0000ff;"><em><span style=3D"font-size: 16px;">If pre=
+vention is the best medicine, these stylus pens are the ultimate vaccine fo=
+r dirty screens.</span></em></span></p>
+<p>
+	<span style=3D"font-size:16px;">The precision tips ensure that you can qui=
+ckly and easily use your touchscreens without the risk of turning your scre=
+en into a blurry mess.</span></p>
+<p>
+	<span style=3D"font-size:16px;"><strong><span style=3D"color:#ff0000;">Lig=
+htweight and comfortable, you'll forget you're even holding it!</span></str=
+ong></span></p>
+<p>
+	<span style=3D"font-size:18px;"><em><strong><span style=3D"color: rgb(0, 0=
+, 255);">It's like writing with a feather.</span></strong></em></span></p>
+<p>
+	<span style=3D"font-size:16px;"><strong>Tired of tiny buttons making it im=
+possible to use?</strong> The PreciseTouch stylus pens make good on their n=
+ame. <u><em>No more missed buttons!</em></u></span></p>
+<p>
+	<strong><span style=3D"color:#0000ff;"><span style=3D"font-size: 16px;">Ea=
+ch pack comes with three stylus pens of varying colors, and they'll fit whe=
+rever </span></span></strong><strong><span style=3D"color:#0000ff;"><span s=
+tyle=3D"font-size: 16px;">you want to keep them!</span></span></strong></p>
+<p>
+	<strong><em><span style=3D"color:#ff0000;"><span style=3D"font-size: 18px;=
+">You'll always have one nearby!</span></span></em></strong></p>
+<p>
+	<span style=3D"font-size:16px;">As if this stylus pen wasn't great already=
+, you get <u><strong>SIX PENS</strong></u> for just <strong>$8.97</strong> =
+with <strong>FREE US SHIPPING!</strong></span></p>
+<p>
+	<span style=3D"font-size:16px;"><span style=3D"font-family: arial, helveti=
+ca, sans-serif; "><a href=3D"http://store.worldstart.com/product/8312?utm_s=
+ource=3Dtech_tipsv1&utm_medium=3Demail&utm_campaign=3D2012-10-26&from=3Dnew=
+sletter">http://store.worldstart.com/product/8312</a></span></span></p>
+<p>
+	<span style=3D"font-size:16px;">PS - Make sure you get this ASAP, before t=
+he price goes up to $19.97 on Saturday!</span></p>
+<br/> <hr size=3D'10' noshade=3D'noshade'/><br/><p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font size=3D"4"><strong><font=
+ face=3D"Arial, Helvetica, sans-serif">"Everyone Wants My Earbuds!"</font><=
+br />
+	<br />
+	<em><font color=3D"#FF0000" face=3D"Arial, Helvetica, sans-serif">Your Poo=
+r Ears Haven't LIVED - Till They've Tried On These Babies!</font></em></str=
+ong></font></font></p>
+<div align=3D"center">
+	<div align=3D"center">
+		<p>
+			<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helveti=
+ca, sans-serif"><img alt=3D"Bendy-z" border=3D"0" height=3D"218" src=3D"htt=
+p://imgsrv.worldstart.com/ct-images/SentryNeons2.jpg" style=3D"display:inli=
+ne" width=3D"317" /><br />
+			<br />
+			<font color=3D"blue" size=3D"4"><strong>Take One Part Absolutely Remarka=
+ble Sound, One Part Ultra-Comfort...</strong></font></font></font></p>
+		<p>
+			<font face=3D"Arial, Helvetica, sans-serif"><strong><font color=3D"#FF00=
+00" face=3D"Arial, Helvetica, sans-serif" size=3D"4">And You Get<em> THESE =
+</em>Phenomenal Earbuds!</font></strong></font></p>
+		<p>
+			<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helveti=
+ca, sans-serif"><font color=3D"#0000FF" size=3D"4"><strong><em>Noise Reduct=
+ion!</em></strong></font><font color=3D"#0000FF" size=3D"4"><strong><em> Ex=
+tra Bass!</em></strong></font><br />
+			<br />
+			<em><strong><font color=3D"red" size=3D"4">Sends Every Other Set Of Earb=
+uds Cryin' For Their Mommas!</font></strong></em></font></font></p>
+		<p>
+			<span style=3D"font-size:18px;"><font face=3D"Arial, Helvetica, sans-ser=
+if"><font face=3D"Arial, Helvetica, sans-serif"><em><strong>** LOWEST PRICE=
+ EVER! **</strong></em></font></font></span></p>
+	</div>
+</div>
+<div align=3D"left">
+	<p>
+		<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetic=
+a, sans-serif" size=3D"3">If you've ever tried to listen music with hard pl=
+astic earbuds, you've probably had the same gripes that I've had with 'em. =
+Yeah, they're lightweight but the trouble is your ear has to be just the ri=
+ght size to fit them. You have to jam them in your ear - hoping and praying=
+ that they stay. But they always end up falling out... so you have to jam '=
+em so far into your ear that they're REALLY uncomfortable. <img align=3D"ri=
+ght" alt=3D"" height=3D"400" name=3D"133adfc10949ee2b_0.1_13341ba0aee25fe4_=
+0.1_0.1_" src=3D"http://imgsrv.worldstart.com/ct-images/SentryNeons1.jpg" s=
+tyle=3D"display:block" width=3D"179" /><br />
+		<br />
+		<font color=3D"blue"><strong><em>That's why I was so excited found the PE=
+RFECT solution!</em></strong></font> We've just come across an incredible s=
+et that sound GREAT <em>(<strong>YES</strong></em>...they're <font color=3D=
+"red"><em><strong>STEREO, have EXTRA BASS & are NOISE REDUCTION! </strong><=
+/em></font><em>)</em> and are VERY comfortable.<br />
+		<br />
+		Let's face it, if earphones aren't comfortable, who <em>cares</em> how th=
+ey sound, cuz you'll never wear 'em to ever find out! Well, these stream-li=
+ned earphones really deliver not only on great sound but comfort too!<br />
+		<br />
+		<strong>Here's why these Stereo Earbuds work:</strong><br />
+		<br />
+		Each earpiece features a <font color=3D"blue"><strong><em>soft silicone e=
+arpad</em></strong></font> and they will fit in almost any ear. They create=
+ a slight suction - so when you place the earpiece in your ear it stays the=
+re ...comfortably, and doesn't fall out!<br />
+		<br />
+		<font color=3D"#ff0000"><strong><em>These truly are a have a great set of=
+ earphones that you can take where ever you go!</em></strong></font> In fac=
+t, you can use these at your computer desk if you're working on your comput=
+er late at night or early in the morning and you need to keep the sound dow=
+n.<br />
+		<br />
+		And the cord is long enough (4 foot) without being too long so as to get =
+tangled and in the way (another small point but something I've noticed as a=
+ problem with other earphones I've tried!)<br />
+		<br />
+		And in case you were wonderin', this is the common plug (3.5 mm) that fit=
+s into the front and your computer and most other audio devices, like porta=
+ble radios, laptops, cd /dvd/mp3 players, iPods etc.<br />
+		<br />
+		<font color=3D"red"><strong>Do <em>NOT</em> let the low price fool you on=
+ this.</strong></font> We just <strong><em>happened</em></strong> to get a =
+great deal on these so we're passin' along the savings! <font color=3D"blue=
+"><strong>Believe it or not, today these are just </strong></font></font></=
+font><span style=3D"color:#0000ff;"><span style=3D"font-size: 16px;"><stron=
+g>$4.97 </strong></span></span><font face=3D"Arial, Helvetica, sans-serif">=
+<font face=3D"Arial, Helvetica, sans-serif" size=3D"3"><font color=3D"blue"=
+><strong> and shipping in the US is <em>FREE on all orders over $5.00!</em>=
+</strong></font></font></font></p>
+	<p>
+		<span style=3D"font-size:16px;"><a href=3D"http://store.worldstart.com/pr=
+oduct/6928?utm_source=3Dtech_tipsv1&utm_medium=3Demail&utm_campaign=3D2012-=
+10-26&from=3Dnewsletter">http://store.worldstart.com/product/6928</a> </spa=
+n></p>
+	<p>
+		<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetic=
+a, sans-serif" size=3D"3"><font color=3D"red"><strong><em>PS - At this pric=
+e, might want to consider picking up 2 or three of these so you have one at=
+ your computer, one in the car and one you can stick in your pocket or purs=
+e for walks or bike rides!</em></strong></font></font></font></p>
+	<p>
+		<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetic=
+a, sans-serif" size=3D"3"><font color=3D"black"><strong>Warning - </strong>=
+This price is set to increase soon! Don't pay </font></font></font><span st=
+yle=3D"font-size:16px;">$14.97 </span><font face=3D"Arial, Helvetica, sans-=
+serif"><font face=3D"Arial, Helvetica, sans-serif" size=3D"3"><font color=
+=3D"black"><span style=3D"font-size:16px;"> </span>for 'em later - grab 'em=
+ today!</font></font></font></p>
+</div>
+<p>
+	 </p>
+<br/> <hr size=3D'10' noshade=3D'noshade'/><br/>
+				<p>
+					<a href=3D"http://store.worldstart.com/product/5895"><img alt=3D"http:=
+//imgsrv.worldstart.com/ct-images/sick-of-ads.jpg" border=3D"0" height=3D"3=
+1" src=3D"http://imgsrv.worldstart.com/ct-images/sick-of-ads.jpg" width=3D"=
+363" /></a></p>
+				<p>
+					 </p>
+				<p>
+					<img alt=3D"Computers 101" height=3D"40" src=3D"http://imgsrv.worldsta=
+rt.com/nl-images/tech/comp-101.jpg" width=3D"385" /><a id=3D"comp101" name=
+=3D"comp101"></a></p>
+				<p>
+					<span style=3D"color: rgb(0, 0, 205); "><strong>Print My Fonts - Print=
+/Preview Installed Fonts</strong></span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Ever wante=
+d to add a bit of flavor to a document? Make text in a photo or video stand=
+ out? Make a headline in a presentation really pop? Well, the vast array of=
+ fonts in your computer (or if you=92ve bought font packs) can help do that=
+.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><em>So why=
+ is it that everyone keeps using the same few fonts over and over?</em> Sim=
+ple: No one knows what all the fonts look like. Sure, you could change the =
+font to a random font in the list to try it, or look at the <em>tiny</em> p=
+review and try to guess if that=92s what you=92re looking for, but wouldn=
+=92t it be nice if you could just get a printout of every font with a line =
+of text you choose as an example?</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Well thank=
+ you Stefan Trost from STT Media for making the freeware program: <strong>P=
+rint My Fonts</strong>.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><img alt=
+=3D"" class=3D"alignnone  wp-image-31864" height=3D"515" src=3D"http://imgs=
+rv.worldstart.net/images/ct-images/2012/10/fontprint1.jpg" style=3D"border:=
+ 0px; margin: 0px; padding: 0px; " width=3D"420" /></span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Just like =
+the name implies, this software allows you to print your font list out usin=
+g an example line of text. The software also can export this list of fonts =
+as a JPEG image or a PDF document. The download is free, and once you unzip=
+ the file and double click PrintMyFonts.exe you=92ll be presented with a li=
+st of your system installed fonts and a preview of each font if you click o=
+n it. You can then select in the lower right hand corner Printer or other O=
+utput Format (default is printer), then click export to print or export the=
+ document.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">If you cli=
+ck on Tool then Advanced Settings you can select the layout, spacers, what =
+information to display and even the size of the example font.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><img alt=
+=3D"" class=3D"alignnone size-full wp-image-31865" height=3D"578" src=3D"ht=
+tp://imgsrv.worldstart.net/images/ct-images/2012/10/fontprint2.jpg" style=
+=3D"border: 0px; margin: 0px; padding: 0px; " width=3D"400" /></span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">So what do=
+es the output look like? Well I can=92t send you a sample page from my prin=
+ter, but to download the JPEG I outputted of my system fonts <a href=3D"htt=
+p://imgsrv.worldstart.com/tim/printmyfonts/fonts2.jpg" style=3D"color: rgb(=
+59, 103, 165); font-weight: bold; text-decoration: none; " target=3D"_blank=
+">click here</a>. Be warned, it=92s a <em>REALLY</em> long document as it c=
+ontains 597 font examples.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">If you=92v=
+e ever wanted to see what fonts you have, get printed examples to see what =
+they look like printed and have a reference book to be able to quickly scan=
+ through fonts I highly recommend downloading this application.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">You can do=
+wnload Print My Fonts by <a href=3D"http://www.sttmedia.com/printmyfonts-do=
+wnload" style=3D"color: rgb(59, 103, 165); font-weight: bold; text-decorati=
+on: none; " target=3D"_blank">clicking here</a>.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">~Tim</span=
+></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/print-my-fonts-printpreview-installed-fonts/">Click h=
+ere to rate this tip</a> | <a href=3D"http://www.worldstart.com/print-my-fo=
+nts-printpreview-installed-fonts/print/">Printer friendly version</a></font=
+></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Do you have a q=
+uestion for us? Ask it <a href=3D"http://www.worldstart.com/ask">here</a>!<=
+/font></p>
+				<p>
+					 </p>
+				<p>
+					<img alt=3D"On The Move" height=3D"40" src=3D"http://imgsrv.worldstart=
+.com/nl-images/tech/tech-101.jpg" width=3D"385" /><a id=3D"comp" name=3D"on=
+themove"></a></p>
+				<p>
+					<span style=3D"color: rgb(0, 0, 205); "><strong>Switch your iPad Searc=
+h Engine</strong></span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">On your iP=
+ad, Safari uses Google as its default search engine. That=92s all well and =
+good, but what if your allegiance lies with another provider =96 say Bing o=
+r Yahoo?</span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<em><span style=3D"font-family: arial, helvetica, sans-serif; ">Let=92=
+s make the switch.</span></em></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">First, cli=
+ck on your Settings icon. Once in the Settings panel, click Safari in the l=
+eft-hand column.</span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><img alt=
+=3D"" class=3D"alignnone size-medium wp-image-24644" height=3D"228" src=3D"=
+http://imgsrv.worldstart.net/images/ct-images/2012/05/ipad_se_1-300x228.jpg=
+" style=3D"border: 0px; margin: 0px; padding: 0px; " title=3D"ipad_se_1" wi=
+dth=3D"300" /></span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					Read how <a href=3D"http://www.worldstart.com/switch-your-ipad-search-=
+engine/">here</a>!</p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; font-size: s=
+mall; ">(Want these tips in their entirety? Sign up for </span><a href=3D"h=
+ttp://store.worldstart.com/product/5895" style=3D"color: rgb(59, 103, 165);=
+ font-weight: bold; text-decoration: none; font-family: arial, helvetica, s=
+ans-serif; font-size: small; ">Premium</a><span style=3D"font-family: arial=
+, helvetica, sans-serif; font-size: small; ">!)</span><br />
+					 </p>
+				<p>
+					<img alt=3D"From The Archives" height=3D"40" src=3D"http://imgsrv.worl=
+dstart.com/nl-images/tech/from-the-archives.jpg" width=3D"385" /><a id=3D"c=
+omp2" name=3D"archives"></a></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><strong><s=
+pan style=3D"color: rgb(0, 0, 255); ">Vernon from Tennessee writes:</span><=
+/strong></span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><strong><s=
+pan style=3D"color: rgb(0, 0, 255); ">What advantage/disadvantage is there =
+between 32 bit and 64 bit Windows?</span></strong></span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">If you=92v=
+e ever tried to compare different computer or laptop models to see which is=
+ a better deal, you=92ve realized it=92s like comparing apples and oranges.=
+ There are just too many variables to be able to make this comparison valid=
+. While browsing, you may have noticed that most non-Macintosh computers co=
+me with Windows pre-installed, though some come with a 32-bit version and o=
+thers with a 64-bit Windows.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><strong>Me=
+mory</strong></span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Higher num=
+bers are typically better when looking at computer components and software,=
+ and this instance is no different. The 64-bit Windows is newer and better =
+than the 32-bit in a number of ways. The 32-bit version of both Windows Vis=
+ta and Windows 7 can only handle up to 4 gigabytes of RAM (random access me=
+mory), which is what your computer relies on when running programs and load=
+ing files. Your computer can=92t truly utilize every byte of RAM, so you=92=
+re left with about 3 gigabytes of RAM to work with. The 64-bit version, on =
+the other hand, can handle up to 17.2 billion gigabytes of memory. That=92s=
+ four-billion times more RAM than the 32-bit! Don=92t rush right out to buy=
+ that much RAM just yet though. Your computer=92s motherboard can only hand=
+le so much RAM too, so you=92ll need to check the specifications for it bef=
+ore adding mass quantities of RAM.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<font face=3D"arial, helvetica, sans-serif">But wait, there's <a href=
+=3D"http://www.worldstart.com/the-pros-and-cons-of-64-bit-windows/">more</a=
+>!</font></p>
+				<p>
+					<span style=3D"color: rgb(0, 0, 0); text-align: justify; font-family: =
+arial, helvetica, sans-serif; font-size: small; ">(Want these tips in their=
+ entirety? Sign up for </span><a href=3D"http://store.worldstart.com/produc=
+t/5895" style=3D"color: rgb(59, 103, 165); font-weight: bold; text-decorati=
+on: none; text-align: justify; font-family: arial, helvetica, sans-serif; f=
+ont-size: small; ">Premium</a><span style=3D"color: rgb(0, 0, 0); text-alig=
+n: justify; font-family: arial, helvetica, sans-serif; font-size: small; ">=
+!)</span><br />
+					 </p>
+				<p>
+					<img alt=3D"Today's Feature" height=3D"40" src=3D"http://imgsrv.worlds=
+tart.com/nl-images/tech/todays-feature.jpg" width=3D"385" /><a id=3D"comp3"=
+ name=3D"feature"></a></p>
+				<p>
+					<span style=3D"color: rgb(0, 0, 205); "><strong>Friday Funnies!</stron=
+g></span></p>
+				<p>
+					<img src=3D"http://imgsrv.worldstart.com/jfg-images/1997-01-09C.gif" s=
+tyle=3D"font-size: 12px; " /></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><em><strong>For=
+ stories, jokes, quotes and cartoons every day, sign up for our <a href=3D"=
+http://www.worldstart.com/newsletters.php/just_for_grins">Just for Grins</a=
+> newsletter.</strong></em></font></p>
+				<p>
+					 </p>
+				<p>
+					<img alt=3D"Amanda's Coolsite" height=3D"40" src=3D"http://imgsrv.worl=
+dstart.com/nl-images/tech/amandas-coolsite.jpg" width=3D"385" /><a id=3D"co=
+mp4" name=3D"coolsite"></a></p>
+				<p>
+					<strong><a href=3D"http://www.alertful.com/">Alertful</a></strong></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Have an im=
+portant project due on a deadline? Have an appointment you absolutely canno=
+t miss? Well then Alertful might be the free reminder service for you! </sp=
+an></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">So how doe=
+s it work? Click the Get Started button, and then select one of the post it=
+ notes that best matches your reminder needs. They range from Birthdays, Th=
+ings to Do, Appointments, Shopping, Call Someone, and Custom reminders.</sp=
+an></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Once selec=
+ted, you=92re whisked away to fill out the form with What Thing, Template D=
+ate, Your E-mail, Frequency, Message, and the Verification box that proves =
+you=92re human. After you=92ve setup it up with your reminder information c=
+lick the green  Submit button. </span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">It=92s jus=
+t that easy to get a reminder in your inbox for things you don=92t want to =
+forget to do!</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><a href=3D=
+"http://www.alertful.com/" style=3D"color: rgb(59, 103, 165); font-weight: =
+bold; text-decoration: none; " target=3D"_blank">http://www.alertful.com/</=
+a></span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">~Amanda</s=
+pan></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/alertful/">Click here to rate this tip</a> | <a href=
+=3D"http://www.worldstart.com/alertful/print/">Printer friendly version</a>=
+</font></p>
+				<font color=3D"#0000FF" face=3D"Arial, Helvetica, sans-serif" size=3D"2=
+">Do you have a cool, non-commercial site that you want to share?</font><br=
+ />
+				<br />
+				<font color=3D"#000000" face=3D"Arial, Helvetica, sans-serif" size=3D"2=
+">Send it to Amanda at </font><font color=3D"#000099" face=3D"Arial, Helvet=
+ica, sans-serif" size=3D"2"><a href=3D"mailto:amanda@worldstart.com">amanda=
+@worldstart.com</a></font><br />
+				<br />
+				<p>
+					<img alt=3D"One More Big Deal" height=3D"40" src=3D"http://imgsrv.worl=
+dstart.com/nl-images/tech/big-deal.jpg" width=3D"385" /></p>
+				<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif" size=3D"4"><strong><u><font co=
+lor=3D"#000000">LIMITED TIME ONLY</font></u><font color=3D"#ff0000"> Specia=
+l Pricing Event!</font></strong></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#ff0000" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><strong>We Guarantee You Won't=
+ Wanna Miss Out On This Deal!</strong></font></font></p>
+<p align=3D"left">
+	<font face=3D"Arial, Helvetica, sans-serif" size=3D"3">Ok, so here's the d=
+eal...we're offering a limited time only price-break on WorldStart's Intern=
+et Security Survival Guide for<strong> just </strong></font><strong><span s=
+tyle=3D"font-size:16px;">$6.97</span></strong><font face=3D"Arial, Helvetic=
+a, sans-serif" size=3D"3"><strong>!</strong> The advice in this Internet Se=
+curity Survival Guide is so critical and valuable that we recommend that an=
+yone who surfs the net - read this guide! Now, I want to stress that this i=
+s<strong> a 24-HOUR ONLY deal</strong>...so you're gonna need to get to the=
+ store before <strong>this sale expires </strong></font><span style=3D"font=
+-size:16px;"><strong>Saturday</strong></span><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong>!</strong> <em>No exceptions will be made!=
+</em></font></p>
+<hr />
+<p align=3D"left">
+	 </p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"4"><strong><em>"The Most Powerful Advice We've Ever O=
+ffered!"</em></strong></font></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><strong><font color=3D"#ff0000" size=3D"4">Hands-Down The Mos=
+t Important Material You'll Ever Read!</font></strong><br />
+	<br />
+	<font color=3D"#ff0000"><strong><font color=3D"#0000ff" size=3D"4">WorldSt=
+art's Internet Security Survival Guide!</font></strong></font></font></font=
+></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#ff0000" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><em><strong>The Eye-Opening Ne=
+w E-Book Hackers Don't Want You To See!</strong></em></font></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img alt=3D"lead" height=3D"424" src=3D"http://imgsrv.worldst=
+art.com/promos/leadphoto.jpg" style=3D"display:inline" width=3D"491" /></fo=
+nt></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#0000ff" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><strong>Our Breakthrough E-boo=
+k Will Rock Your World!</strong></font></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#ff0000" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><strong>If You Only Buy One Th=
+ing From WorldStart In Your Lifetime...</strong></font></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#ff0000" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><strong><em>Make Sure It's THI=
+S Revolutionary New Book!</em></strong></font></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#0000ff" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><strong>Master The Tricks You =
+Need To Stay Safe With Your PC!</strong></font></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img alt=3D"safe" height=3D"263" src=3D"http://imgsrv.worldst=
+art.com/promos/safe.jpg" style=3D"display:inline" width=3D"399" /></font></=
+font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#0000ff" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><strong><em>A Disastrous Secur=
+ity Blunder Is In Your Future...</em></strong></font></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#ff0000" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><em><strong>UNLESS You Know Th=
+e Material In This Brilliant, Cutting-Edge Book!</strong></em></font></font=
+></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"4"><strong>Security Advice So Potent It Brings Viruse=
+s, Hackers, And Scammers</strong></font></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><font size=3D"4"><strong>TO</strong></font> <font size=3D"4">=
+<strong>THEIR KNEES!!</strong></font></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#0000ff" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"3"><strong>OH WOW! We're so excit=
+ed! </strong></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><font color=3D"#ff0000"><strong>Steve and Gary hav=
+e an absolutely incredible new E-Book that's going to rock the entire Inter=
+net </strong></font>- <em><strong>WorldStart's Internet Security Survival G=
+uide</strong></em> - and it's finally ready to go!</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Everyone loves their computers - but very few real=
+ize how <strong>devastatingly DANGEROUS things can get</strong> when that P=
+C is compromised and turned against you!</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><em><strong>And it happens to people just like you=
+ EVERY DAY!!</strong></em></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><img alt=3D"millfall" height=3D"261" hspace=3D"4" =
+src=3D"http://imgsrv.worldstart.com/promos/mill.jpg" style=3D"display:inlin=
+e" vspace=3D"4" width=3D"386" /></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#0000ff" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"3"><strong>The threats just keep =
+piling up </strong><em>- hackers, viruses, malware, spyware, scammers, phis=
+hing attacks, compromised public WiFi, over the shoulder attacks, router at=
+tacks, password crackers, compromised software, outdated operating systems,=
+ firewall breaches, browser hijacking, malicious web sites, dangerous pop-u=
+ps, cross site scripting, e-mail hacking, virus hoaxes, deadly file attachm=
+ents, compromised personal information, stolen data from old computers, hij=
+acked HOSTS files, spoofed file extension tricks, autorun viruses, ransomwa=
+re, infested freeware - well, you get the idea! </em></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><font size=3D"3">Do <strong>you</strong> know how to protect =
+yourself from ALL of the threats listed above?</font><img align=3D"right" a=
+lt=3D"why" height=3D"339" src=3D"http://imgsrv.worldstart.com/promos/why.jp=
+g" style=3D"display:block" width=3D"200" /><br />
+	<font color=3D"#ff0000" size=3D"4"><strong>If you don't, I can PROMISE thi=
+s...<br />
+	It's not a matter of <em>IF</em> you become a victim - it's truly a matter=
+ of <em>WHEN!</em></strong></font></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">They always say, "What you don't know can't hurt y=
+ou." Well, here in the Internet age, the opposite is true:</font></font></p=
+>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#0000ff" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><strong>What you don't know CA=
+N and WILL hurt you - <em>probably severely!</em> </strong></font></font></=
+p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><font size=3D"3"><strong><font color=3D"#ff0000">Millions of =
+people who didn't think it could happen to them fall victim <em>EVERY DAY</=
+em></font></strong> - <strong><em>simply because they didn't KNOW there was=
+ a threat! </em></strong>That's CRAZY. In fact, it's not just a little craz=
+y, it's "Trying-To-Jump-The-Grand-Canyon-With-A-Bicycle" <strong>INSANE!</s=
+trong></font> </font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Especially when it's SOOOO easy to avoid the probl=
+ems in the first place <em><strong>IF</strong></em> you know what the threa=
+ts are <em><strong>AND</strong></em> how to avoid them!</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Bottom line -<font color=3D"#0000ff"><strong> You =
+need to know exactly what dangers lurk around the dark corners of the inter=
+net</strong></font> - or you WILL be the next victim! You absolutely, posit=
+ively MUST know HOW you can get attacked and HOW to defend yourself! </font=
+></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong>And THAT'S why we created this absolutely =
+fantastic new E-Book! </strong></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#ff0000" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"3"><strong>Our breakthrough 430 p=
+age e-book will teach you all the tips, tricks, and techniques you need to =
+steer clear of the bad guys! </strong></font></font></p>
+<p align=3D"left">
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#0000ff" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><strong><em>Everything we know=
+ about Internet and PC security is IN THIS BOOK!</em></strong></font></font=
+></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#ff0000">PLUS - we've writt=
+en this in a way EVERYONE can understand!</font></strong> Each and every ch=
+apter is written in<strong> fun, easy to read language</strong> that you'll=
+ discover is REALLY SIMPLE to follow! We even have loads of pictures and il=
+lustrations! </font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img alt=3D"saved" height=3D"281" src=3D"http://imgsrv.worlds=
+tart.com/promos/happyuser1.jpg" style=3D"display:inline" width=3D"448" /></=
+font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#0000ff" size=3D"4"><em>Fin=
+ally! </em></font></strong><br />
+	<font color=3D"#ff0000"><strong>You don't need a degree in Computer Scienc=
+e to stay safe anymore - our incredible new book will take you there!</stro=
+ng></font></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">I know there's a few people out there crazy enough=
+ to think:</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><em>"There's nothing of value on my comput=
+er, I have nothing to hide, so I don't care if someone gets in or I get a v=
+irus."</em></strong></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#ff0000">Music to a hacker'=
+s EARS!</font></strong> <strong><em>The bad guys rely on IGNORANCE in order=
+ to attack your PC! </em></strong>They rely on people who think that there'=
+s nothing of value on their computer - and NOTHING could be further from th=
+e truth! </font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img alt=3D"happyhack" height=3D"353" src=3D"http://imgsrv.wo=
+rldstart.com/promos/happyhacker.jpg" style=3D"display:inline" width=3D"340"=
+ /></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#0000ff" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"3"><strong>Even a computer with n=
+othing but a fresh Windows install is a juicy target!</strong></font></font=
+></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">If your computer is compromised - either by a hack=
+er or malware (viruses, rogueware, spyware, etc) <strong>any</strong> of th=
+e following can happen:</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#ff0000" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"3"><img align=3D"absmiddle" alt=
+=3D"arrow" height=3D"21" src=3D"http://imgsrv.worldstart.com/promos/arrow-1=
+212.jpg" style=3D"display:inline" width=3D"47" /> Your identity is stolen (=
+easier than you think - we spill the beans)<br />
+	<img align=3D"absmiddle" alt=3D"arrow" height=3D"21" src=3D"http://imgsrv.=
+worldstart.com/promos/arrow-1212.jpg" style=3D"display:inline" width=3D"47"=
+ /> Your credit card information is stolen<br />
+	<img align=3D"absmiddle" alt=3D"arrow" height=3D"21" src=3D"http://imgsrv.=
+worldstart.com/promos/arrow-1212.jpg" style=3D"display:inline" width=3D"47"=
+ /> Your bank account is compromised<br />
+	<img align=3D"absmiddle" alt=3D"arrow" height=3D"21" src=3D"http://imgsrv.=
+worldstart.com/promos/arrow-1212.jpg" style=3D"display:inline" width=3D"47"=
+ /> Your friends e-mail addresses are stolen - then attacked<br />
+	<img align=3D"absmiddle" alt=3D"arrow" height=3D"21" src=3D"http://imgsrv.=
+worldstart.com/promos/arrow-1212.jpg" style=3D"display:inline" width=3D"47"=
+ /> Any documents are fair game and can be used for identity theft<br />
+	<img align=3D"absmiddle" alt=3D"arrow" height=3D"21" src=3D"http://imgsrv.=
+worldstart.com/promos/arrow-1212.jpg" style=3D"display:inline" width=3D"47"=
+ /> Files or entire drives can be deleted - all your music, photos, etc - G=
+ONE!<br />
+	<img align=3D"absmiddle" alt=3D"arrow" height=3D"21" src=3D"http://imgsrv.=
+worldstart.com/promos/arrow-1212.jpg" style=3D"display:inline" width=3D"47"=
+ /> Your computer can be turned into a server for adult sites<br />
+	<img align=3D"absmiddle" alt=3D"arrow" height=3D"21" src=3D"http://imgsrv.=
+worldstart.com/promos/arrow-1212.jpg" style=3D"display:inline" width=3D"47"=
+ /> Your computer can be used to commit fraud - and YOU take the blame<br /=
+>
+	<img align=3D"absmiddle" alt=3D"arrow" height=3D"21" src=3D"http://imgsrv.=
+worldstart.com/promos/arrow-1212.jpg" style=3D"display:inline" width=3D"47"=
+ /> Your computer can be used as an illegal attack "zombie"<br />
+	<img align=3D"absmiddle" alt=3D"arrow" height=3D"21" src=3D"http://imgsrv.=
+worldstart.com/promos/arrow-1212.jpg" style=3D"display:inline" width=3D"47"=
+ /> Your computer may be held ransom until you pay up - happens 35 MILLION =
+times a month!<br />
+	<img align=3D"absmiddle" alt=3D"arrow" height=3D"21" src=3D"http://imgsrv.=
+worldstart.com/promos/arrow-1212.jpg" style=3D"display:inline" width=3D"47"=
+ /> You will be blasted with non-stop pop-ups<br />
+	<img align=3D"absmiddle" alt=3D"arrow" height=3D"21" src=3D"http://imgsrv.=
+worldstart.com/promos/arrow-1212.jpg" style=3D"display:inline" width=3D"47"=
+ /> Your computer will be inoperable to the point of needing an expensive o=
+verhaul</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img alt=3D"scared" height=3D"287" src=3D"http://imgsrv.world=
+start.com/promos/scared.jpg" style=3D"display:inline" width=3D"234" /></fon=
+t></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#0000ff" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"3"><strong>And that's only the TI=
+P of a very dangerous iceberg! </strong></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><em>So, yeah, it IS a big deal if you get =
+compromised.</em></strong> In addition, if your computer is used for illega=
+l purposes by the hacker the feds could come knocking on YOUR door - not th=
+eirs.</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong>Oh - and just think how expensive it would=
+ be to take your computer to a shop to get it working again</strong> - <fon=
+t color=3D"#ff0000"><strong>all because YOU didn't know what's in our life-=
+saving e-book!</strong></font></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">We want to show you how to recognize and avoid the=
+ pitfalls that <strong>MILLIONS of people fall victim to each and every day=
+.</strong> You know -<em> the people who never thought it would happen to t=
+hem.</em></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#0000ff">This includes a wh=
+oppin' 54 chapters that will launch you into the security stratosphere! </f=
+ont></strong>By the time you finish reading this incredible book, <strong>y=
+ou'll have your computer locked down so tight the folks over at Fort Knox w=
+ill come to YOU looking for advice!</strong></font></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><img alt=3D"glad" height=3D"337" src=3D"ht=
+tp://imgsrv.worldstart.com/promos/glad.jpg" style=3D"display:inline" width=
+=3D"199" /></strong></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">We've divided the book into 9 sections and there's=
+ a VERY brief outline below. But...</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#0000ff">PLEASE keep in min=
+d you're only seeing a small FRACTION of the information that's jam-packed =
+into this breakthrough book!!! </font></strong><br />
+	<font color=3D"#ff0000"><strong>There's another 85% of the book we haven't=
+ even hinted at below! WOW!</strong></font></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img height=3D"65" src=3D"http://imgsrv.worldstart.com/promos=
+/vsm.jpg" style=3D"display:inline" width=3D"502" /></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">When it comes to attacking your computer, there ar=
+e no shortage of tools at the disposal of the bad guys! <font color=3D"#000=
+0ff"><em><strong>Do you REALLY know how to stay safe?</strong></em></font> =
+This section will show you the threats - and how to avoid them! We show you=
+ how to set up your computer to guard against all types of malicious softwa=
+re - viruses, spyware, adware, rogueware, ransomware -<font color=3D"#ff000=
+0"><strong> we show you the software and techniques you need to block it AL=
+L!</strong></font></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Oh, and just wait till you see the<strong> free an=
+ti-malware titles and amazing firewall</strong> we've discovered!</font></f=
+ont></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img alt=3D"1" height=3D"65" src=3D"http://imgsrv.worldstart.=
+com/promos/wireless.jpg" style=3D"display:inline" width=3D"502" /> </font><=
+/font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Everyone loves to use their laptops with public Wi=
+Fi. Hey, what could be better than sitting down in your hotel room, at an a=
+irport, or coffee shop and logging on for some free Internet? </font></font=
+></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Well, hackers LOVE these places too - only it's yo=
+ur data they're after! <font color=3D"#ff0000"><strong>If you don't know AL=
+L the dangers of public WiFi, you're in BIG trouble. </strong></font></font=
+></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">In fact, I'd go so far as to say <strong>if you do=
+n't know what we have in our book you probably shouldn't even be using publ=
+ic WiFi - EVER! </strong>It's FAR more dangerous than most people realize!<=
+/font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Your accounts can get compromised, your passwords =
+stolen, and your e-mail intercepted - and that's just for starters. Identit=
+y theft, attacks on your friends / contacts are ALL possible - AND probable=
+!</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#0000ff">Oh, yeah - and the=
+ hacker doesn't even need to break into your computer to pull this off! </f=
+ont></strong>He just logs onto the wireless network and goes to work with s=
+oftware that can "spy" on you!</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">We'll show you how he does it - and how YOU can st=
+ay safe!</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img alt=3D"1" height=3D"65" src=3D"http://imgsrv.worldstart.=
+com/promos/online.jpg" style=3D"display:inline" width=3D"502" /></font></fo=
+nt></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#ff0000">The online world i=
+s a dangerous place - from scams, to hijacking, to malicious pops-ups, to f=
+raud - </font></strong>there's a lot of ways to trip and fall out there! Yo=
+u need to know how to tell the good from the bad, how to spot phishing scam=
+s, online scams, and con artists. You need to know how to properly set up y=
+our browser, how to stay safe on Facebook, how to respond to malicious pop-=
+up windows, how to deal with cookies, and more!</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#0000ff">A lack of knowledg=
+e in ANY of the areas above is a guarantee for trouble down the road. </fon=
+t></strong>And that's a HUGE problem! All it takes is one scam, one vicious=
+ pop-up, or one drive-by infection to compromise your data, ruin your compu=
+ter, and get your identity stolen - <strong>what you DON'T know WILL hurt y=
+ou</strong></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img height=3D"65" src=3D"http://imgsrv.worldstart.com/promos=
+/pw.jpg" style=3D"display:inline" width=3D"502" /></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Oh, this is HUGE - <font color=3D"#ff0000"><em><st=
+rong>this chapter ALONE is worth the price of the entire book!</strong></em=
+></font> We reveal all the pitfalls people make when setting and using pass=
+words - and show you how to avoid 'em! </font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Knowing the difference between a strong password a=
+nd a typical password is the difference between getting your accounts hacke=
+d or staying secure. </font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">We also talk about how you handle passwords in gen=
+eral. <font color=3D"#0000ff"><strong>If you don't know the critical 7 step=
+s we outline in this book even the strongest of passwords are at risk!</str=
+ong></font> <strong>Getting your accounts hacked can RUIN your life in ways=
+ you've never even thought of!</strong> </font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><font size=3D"3">What happens if a hacker breaks into your ba=
+nk account? Or your credit card account? Or heck - even your Amazon account=
+? Talk about a nightmare!</font> <font size=3D"3">Our passwords section giv=
+es you the key to minimizing your risk!</font></font></font></p>
+<p>
+	<br />
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img height=3D"65" src=3D"http://imgsrv.worldstart.com/promos=
+/home.jpg" style=3D"display:inline" width=3D"502" /></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#ff0000">It takes less than=
+ 30 minutes to compromise an unsecured computer connected to the Internet.<=
+/font></strong> There are thousands of hackers out there scanning for weakn=
+esses right now - <em><strong>you're likely getting scanned dozens of times=
+ a day</strong></em> - you could be getting scanned even as you read this! =
+</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Is your home network set up properly or are you ab=
+out to be the next statistic? Make sure you know for sure with our book!</f=
+ont></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#0000ff">We're going to sho=
+w you how to lock down your home network </font></strong>- your router, you=
+r wired network, your wireless network - everything. We'll show you how to =
+set the right encryption on your wireless, how to make sure your firewall i=
+s engaged properly, and even how to name your network to avoid getting pers=
+onally targeted for a WiFi attack.</font></font><br />
+	 </p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img height=3D"65" src=3D"http://imgsrv.worldstart.com/promos=
+/email.jpg" style=3D"display:inline" width=3D"502" /></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">E-mail is literally the door to your digital world=
+. <strong><font color=3D"#ff0000">A compromise here - by either a hacker or=
+ malware program - can be devastating!</font></strong> If there's ONE place=
+ you need to be safe, it's when you deal with your e-mail!</font></font></p=
+>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong>Just think - what would happen if someone =
+had access to your e-mail account?</strong> Chances are they could easily p=
+iece together enough information about you to steal your identity (just thi=
+nk of all the items in your inbox, sent items box, and outbox). In addition=
+, every private account you have online - your bank, credit cards, Amazon, =
+Paypal, etc ALL use e-mail to recover passwords. If the bad guy has your e-=
+mail account, he can be in ALL your accounts in a matter of MINUTES!</font>=
+</font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#0000ff">You DO NOT want yo=
+ur e-mail compromised - and we're going to show you how to keep it locked d=
+own tight.</font></strong> Everything you need to know to set the right kin=
+d of password, avoid scams, and KEEP IT PRIVATE!</font></font><br />
+	 </p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img height=3D"65" src=3D"http://imgsrv.worldstart.com/promos=
+/general.jpg" style=3D"display:inline" width=3D"502" /></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">This is the fun section! <font color=3D"#ff0000"><=
+strong>We have a LOAD of general safety tips designed to help you keep safe=
+ in all your online endeavors. </strong></font>We'll show you a "secret" fi=
+le you can use to <font color=3D"#0000ff"><strong>prevent your computer fro=
+m ever seeing another malicious site.</strong></font> We'll show you how to=
+ properly dispose of an old hard drive. We'll show you how to avoid "bad" f=
+reeware. We'll show you how to avoid ransomware. And that's just for starte=
+rs! </font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong>There's a literally TRUCKLOAD of advice in=
+ this section that'll help keep you super-secure and safe!</strong></font><=
+/font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#FF0000" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><strong>And that's just a smal=
+l sample of what we're going to cover!</strong></font></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img alt=3D"jampacked" height=3D"369" src=3D"http://imgsrv.wo=
+rldstart.com/promos/jampacked.jpg" style=3D"display:inline" width=3D"439" /=
+></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">In addition to the sections above, there's also a =
+section on why the bad guys are after you and what they can do if they get =
+access to your PC. <font color=3D"#0000ff"><strong>We also cover just what =
+to do if you get infected - and 6 easy step to follow for getting uninfecte=
+d!</strong></font> Our book also includes tips for keeping your computer ph=
+ysically safe from theft - after all, if your computer gets stolen, what's =
+the point of the rest of the security?</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Finally, we've also included a glossary to help wi=
+th the terms found throughout the book and<strong> 20 of our favorite FREE =
+security-related programs! <font color=3D"#ff0000">The money you save on co=
+mmercial software will pay for this book 20X over!</font></strong></font></=
+font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#0000ff" size=3D"4">Whew - =
+this is BY FAR the most important book ANY computer user will ever read!</f=
+ont></strong> </font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong>We've looked around - and there isn't anyt=
+hing like this anywhere!</strong> Amazingly enough, finding a traditional b=
+ook on computer security is almost impossible - and when you DO find one, i=
+t's written in such a technical manner you'd need a degree in Computer Scie=
+nce to figure the thing out!</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong><font color=3D"#ff0000">This innovative ne=
+w book is TRULY unprecedented! It's easy to read, packed with pictures, scr=
+een shots, and illustrations, and hey - we even try to make the whole thing=
+ entertaining! </font></strong>You'll BLAST through the material and before=
+ you know it everyone will be coming to YOU for advice on computer security=
+!</font></font></p>
+<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img alt=3D"clv" height=3D"367" src=3D"http://imgsrv.worldsta=
+rt.com/promos/complv.jpg" style=3D"display:inline" width=3D"328" /></font><=
+/font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#ff0000" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"3"><strong>Yup, EVERTHING we know=
+ about Internet security for the home user is JAMMED into this earth-shatte=
+ring e-book!!</strong></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Your cost? Get this - we're almost giving this awa=
+y! <font color=3D"#0000ff"><strong>Just </strong></font></font></font><span=
+ style=3D"color:#0000ff;"><span style=3D"font-size: 16px;"><strong>$6.97</s=
+trong></span></span> <font face=3D"Arial, Helvetica, sans-serif"><font face=
+=3D"Arial, Helvetica, sans-serif" size=3D"3"><font color=3D"#0000ff"><stron=
+g> and you get an immediate download! </strong></font>How cool is that? <st=
+rong>You could be browsing the pages of this e-book in a matter of MINUTES!=
+ </strong>Oh - and no special reader required either - it's a standard PDF =
+file that can be read with the free Adobe Reader!</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif"><img alt=3D"eye" height=3D"223" src=3D"http://imgsrv.worldsta=
+rt.com/promos/eyepop.jpg" style=3D"display:inline" width=3D"430" /></font><=
+/font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Think about it for a second - <strong><font color=
+=3D"#0000ff">if just <em>ONE</em> of the tips, techniques, or suggestions i=
+n this book saves you from a compromised computer,</font><font color=3D"#ff=
+0000"> <em>then it was probably worth 10X what you paid for it - or MORE!!<=
+/em></font></strong></font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3"><strong>HURRY! Grab your copy of this indispensabl=
+e book now for just </strong></font></font><span style=3D"font-size:16px;">=
+<strong>$6.97</strong></span><font face=3D"Arial, Helvetica, sans-serif"><f=
+ont face=3D"Arial, Helvetica, sans-serif" size=3D"3"><strong>!</strong></fo=
+nt></font></p>
+<p>
+	<span style=3D"font-size:16px;"><a href=3D"http://store.worldstart.com/pro=
+duct/6753?utm_source=3Dtech_tipsv1&utm_medium=3Demail&utm_campaign=3D2012-1=
+0-26&from=3Dnewsletter">http://store.worldstart.com/product/6753</a> </span=
+></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">PS - Anyone who thinks they don't need this inform=
+ation and that an attack "won't happen to them" is living a lie. It's like =
+not wearing a seatbelt because "so far" you've never been in a bad accident=
+.</font></font></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetica=
+, sans-serif" size=3D"3">Bottom line - If you're using the Internet and you=
+ don't know the information we outline in our e-book, then it's not a matte=
+r of IF you'll get compromised - it's simply a matter of WHEN.</font></font=
+></p>
+<p>
+	<font face=3D"Arial, Helvetica, sans-serif"><font color=3D"#ff0000" face=
+=3D"Arial, Helvetica, sans-serif" size=3D"4"><strong><em>Don't Surf The Int=
+ernet Without It!</em></strong></font></font></p>
+<br/> <hr size=3D'10' noshade=3D'noshade'/><br/>
+				<p>
+					 </p>
+				<p>
+					<img alt=3D"Monthly Wallpaper" height=3D"40" src=3D"http://imgsrv.worl=
+dstart.com/nl-images/tech/monthly-wallpaper.jpg" width=3D"385" /></p>
+				<p><font color=3D"#0000FF" size=3D"3" face=3D"Arial, Helvetica, sans-se=
+rif"><strong>4. Wallpaper</strong></font></p>
+      <p><font size=3D"3" face=3D"Arial, Helvetica, sans-serif">It's time f=
+or some desktop fall color! Unfortunately, I didn't much in the way of fall=
+ color last season, so I'm featuring some images from previous years that w=
+ere really popular. Enjoy!</font></p>
+      <table width=3D"512" border=3D"0" cellspacing=3D"3" cellpadding=3D"3"=
+>
+        <tr>
+          <td width=3D"210" height=3D"146"><img src=3D"http://imgsrv.worlds=
+tart.com/1/fall-cascades-in-the-smokies-wp.jpg" width=3D"210" height=3D"139=
+"></td>
+          <td width=3D"281"><p><font size=3D"2" face=3D"Arial, Helvetica, s=
+ans-serif"><strong>Fall Cascades In The Smokies</strong></font></p>
+            <p><font size=3D"2" face=3D"Arial, Helvetica, sans-serif">Somet=
+imes the good shots aren=92t where you think they are. It was autumn in the=
+ Smoky Mountains. If you=92ve never been there in the fall, you can be forg=
+iven for thinking it=92s a quiet, peaceful time of year when the tourists h=
+ave flown home and you have the place to yourself. Nope, it=92s a zoo. I th=
+ink fall is actually ...</font><font size=3D"2" face=3D"Arial, Helvetica, s=
+ans-serif">(<a href=3D"http://www.backcountrygallery.com/photos/fall-cascad=
+es-in-the-smokies/">More</a>)</font></p>          </td>
+        </tr>
+        <tr>
+          <td height=3D"146"><img src=3D"http://imgsrv.worldstart.com/1/bla=
+ck-bear-stare-down-wp.jpg" width=3D"210" height=3D"158"></td>
+          <td><p><font size=3D"2" face=3D"Arial, Helvetica, sans-serif"><st=
+rong>Black Bear Stare Down</strong></font></p>
+          <p><font size=3D"2" face=3D"Arial, Helvetica, sans-serif">It was =
+=93Bear Week=94 in Yellowstone fall of 2007! Seems like everywhere I went, =
+I ended up takin=92 snaps of bears. This guy was by far my favorite though.=
+ He was walking below the ridge line and...<br>
+          </font><font size=3D"2" face=3D"Arial, Helvetica, sans-serif"> (<=
+a href=3D"http://www.backcountrygallery.com/photos/black-bear-stare-down/">=
+More</a>)</font></p>
+          <p> </p></td>
+        </tr>
+        <tr>
+          <td><img src=3D"http://imgsrv.worldstart.com/1/lamar-valley-trees=
+-in-fall-wp.jpg" width=3D"210" height=3D"154"></td>
+          <td><p><strong><font size=3D"2" face=3D"Arial, Helvetica, sans-se=
+rif">Lamar Valley Trees In Fall</font></strong></p>
+            <p><font size=3D"2" face=3D"Arial, Helvetica, sans-serif">This =
+was taken on one of my week-long trips to Yellowstone National Park. When I=
+ first arrived and drove by this stand of trees next to the river, I knew t=
+here was a shot there =96 but the trees weren=92t =93ripe=94 enough yet, if=
+ you know what I mean. So, each day, I=92d drive by an (<a href=3D"http://w=
+ww.backcountrygallery.com/photos/lamar-valley-trees-in-fall/">More</a>)</fo=
+nt></p>          </td>
+        </tr>
+      </table>
+      <p><strong><font size=3D"3" face=3D"Arial, Helvetica, sans-serif">It =
+can all be found here, 100% free:</font></strong></p>
+      <p><strong><font size=3D"3" face=3D"Arial, Helvetica, sans-serif"><a =
+href=3D"http://www.backcountrygallery.com/wallpaper/">http://www.backcountr=
+ygallery.com/wallpaper/</a></font></strong></p>
+      <p><font size=3D"3" face=3D"Arial, Helvetica, sans-serif">~ Steve<br>
+      </font></p>
+      <p><font size=3D"3" face=3D"Arial, Helvetica, sans-serif">PS - Rememb=
+er to try a copy of the <font color=3D"#FF0000"><strong>Backcountry Gallery=
+ Screen Save</strong>r</font> too! It's a free trial and if you like it, yo=
+ur purchase helps support the site :) </font></p>
+      <p><font size=3D"3" face=3D"Arial, Helvetica, sans-serif">And hey, it=
+'ll make you PC look oh-so-cool when you're away from your desk! See the li=
+nk below:</font></p>
+      <p><font size=3D"3"><a href=3D"http://www.backcountrygallery.com/prod=
+uct/6908/"><font face=3D"Arial, Helvetica, sans-serif">http://www.backcount=
+rygallery.com/product/6908/</font></a></font></p>
+      <p><br>
+      </p>
+				<p>
+					 </p>
+				<!-- homepage_end --></td>
+		</tr>
+		<tr>
+			<td bgcolor=3D"#ffffff">
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">You can also vi=
+ew the current newsletter and archives online at<br />
+					<a href=3D"http://www.worldstart.com/newsletters.php">http://www.world=
+start.com/newsletters.php</a></font></p>
+				<hr noshade=3D"noshade" size=3D"3" />
+				<p>
+					<b><font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Copyright, D=
+isclaimer, Etc.</font></b></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">ISSN: 1529-336X=
+<br />
+					Copyright 2012, <a href=3D"http://www.worldstart.com">WorldStart</a>. =
+All unauthorized reproduction strictly prohibited.</font><br />
+					<br />
+					<font size=3D"2"><font face=3D"Arial, Helvetica, sans-serif"><font fac=
+e=3D"Arial, Helvetica, sans-serif">WorldStart is not responsible for errors=
+, omissions, or pricing mistakes.</font></font></font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">You are welcome=
+ to reproduce this newsletter (i.e. print it, store it) for your own person=
+al use. You are also welcome to forward it, in its entirety, to friends and=
+ family.</font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">If you would li=
+ke to reproduce this publication, or any part of it, in any other publicati=
+on, be it web based or otherwise, you must contact us for permission. Any u=
+nauthorized re-distribution will be considered a copyright infringement and=
+ grounds for a lawsuit.</font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Finally, you ag=
+ree to try any advice contained or suggested in this newsletter at your own=
+ risk.</font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Microsoft and W=
+indows are trademarks or registered trademarks of Microsoft Corporation (du=
+h!)</font></p>
+				<hr noshade=3D"noshade" size=3D"3" />
+				<p>
+					<strong><font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Did som=
+eone forward this to you? Get your free subscription <a href=3D"http://www.=
+worldstart.com/newsletters.php">here</a>:</font></strong><br />
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/subscriptions/">http://www.worldstart.com/subscriptio=
+ns/</a></font></p>
+				<p>
+					<strong><font face=3D"Arial, Helvetica, sans-serif" size=3D"2">If dail=
+y newsletters are too much to handle, then change your subscription to our =
+Weekly Edition...</font></strong><br />
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/subscriptions/">http://www.worldstart.com/subscriptio=
+ns/</a></font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><strong>If you =
+need to change your email address, go here...</strong><br />
+					<a href=3D"http://www.worldstart.com/subscriptions/">http://www.worlds=
+tart.com/subscriptions/</a></font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><strong>"I don'=
+t want yer stinkin' email!"</strong><br />
+					To remove yourself from our mailing list please head to:</font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/subscriptions/">http://www.worldstart.com/subscriptio=
+ns/</a></font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><strong>WorldSt=
+art, Inc. </strong>- 2620 Centennial Rd, Suite C / Toledo, OH 43617 - Phone=
+: 1-800-915-2088</font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">You are receivi=
+ng this daily newsletter because you requested it either at <a href=3D"http=
+://www.worldstart.com">Worldstart.com</a> or one of our affiliates.<br />
+					You are currently subscribed as=20=
+darebineavedealucruriledefoartemulteori@honeypots.ro=
+</font></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	 </p>
+
+  </body>
+</html>
+
+

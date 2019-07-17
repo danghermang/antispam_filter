@@ -1,0 +1,705 @@
+Subject:libreoffice-writer: writer unable to open documents
+Package: libreoffice-writer
+Version: 1:3.5.4-7~bpo60+1
+Severity: important
+
+
+Starting libre office writer from the menu, entering the text hello, and trying to save it in my home folder produces the following trace:
+
+System: Linux 3.2.0-0.bpo.2-amd64 #1 SMP Fri Jun 29 20:42:29 UTC 2012 x86_64
+X Vendor: The X.Org Foundation
+X Vendor Release: 11004000
+Selinux: No
+Accessibility: Disabled
+GTK+ Theme: Clearlooks
+Icon Theme: gnome
+GTK+ Modules: gnomebreakpad, canberra-gtk-module
+
+Memory status: size: 827957248 vsize: 827957248 resident: 122490880 share: 85700608 rss: 122490880 rss_rlim: 18446744073709551615
+CPU usage: start_time: 1348646953 rtime: 158 utime: 146 stime: 12 cutime:0 cstime: 0 timeout: 0 it_real_value: 0 frequency: 100
+
+Backtrace was generated from '/usr/lib/libreoffice/program/soffice.bin'
+
+[Thread debugging using libthread_db enabled]
+[New Thread 0x7f17e840f700 (LWP 18254)]
+[New Thread 0x7f17e8e3d700 (LWP 18253)]
+[New Thread 0x7f17f02a2700 (LWP 18252)]
+[New Thread 0x7f18019a6700 (LWP 18249)]
+[New Thread 0x7f17f3fff700 (LWP 18199)]
+[New Thread 0x7f17faa48700 (LWP 18193)]
+[New Thread 0x7f18011a5700 (LWP 18192)]
+[New Thread 0x7f180a677700 (LWP 18190)]
+Traceback (most recent call last):
+  File "/usr/lib/debug/usr/lib/libreoffice/program/libsvllo.so-gdb.py", line 39, in <module>
+    from libreoffice.svl import register_pretty_printers
+ImportError: No module named libreoffice.svl
+Traceback (most recent call last):
+  File "/usr/lib/debug/usr/lib/libreoffice/program/libsvllo.so-gdb.py", line 39, in <module>
+    from libreoffice.svl import register_pretty_printers
+ImportError: No module named libreoffice.svl
+Traceback (most recent call last):
+  File "/usr/lib/debug/usr/lib/libreoffice/program/libtllo.so-gdb.py", line 39, in <module>
+    from libreoffice.tl import register_pretty_printers
+ImportError: No module named libreoffice.tl
+Traceback (most recent call last):
+  File "/usr/lib/debug/usr/lib/libreoffice/program/libtllo.so-gdb.py", line 39, in <module>
+    from libreoffice.tl import register_pretty_printers
+ImportError: No module named libreoffice.tl
+Traceback (most recent call last):
+  File "/usr/lib/debug/usr/lib/libreoffice/program/libswlo.so-gdb.py", line 39, in <module>
+    from libreoffice.sw import register_pretty_printers
+ImportError: No module named libreoffice.sw
+Traceback (most recent call last):
+  File "/usr/lib/debug/usr/lib/libreoffice/program/libswlo.so-gdb.py", line 39, in <module>
+    from libreoffice.sw import register_pretty_printers
+ImportError: No module named libreoffice.sw
+0x00007f18144dd63d in __libc_waitpid (pid=18255, 
+    stat_loc=<value optimized out>, options=0)
+    at ../sysdeps/unix/sysv/linux/waitpid.c:41
+	in ../sysdeps/unix/sysv/linux/waitpid.c
+#0  0x00007f18144dd63d in __libc_waitpid (pid=18255, 
+    stat_loc=<value optimized out>, options=0)
+    at ../sysdeps/unix/sysv/linux/waitpid.c:41
+#1  0x00007f18052fea01 in g_spawn_sync () from /lib/libglib-2.0.so.0
+#2  0x00007f18052fed19 in g_spawn_command_line_sync ()
+   from /lib/libglib-2.0.so.0
+#3  0x00007f1801dc6de1 in ?? ()
+   from /usr/lib/gtk-2.0/modules/libgnomebreakpad.so
+#4  <signal handler called>
+#5  0x00007f17e6e5cbc5 in raptor_new_uri_from_uri_local_name_v2 ()
+   from /usr/lib/libraptor.so.1
+#6  0x00007f17e732c77a in librdf_new_node_from_uri_local_name ()
+   from /usr/lib/librdf.so.0
+#7  0x00007f17e731ed04 in librdf_init_concepts () from /usr/lib/librdf.so.0
+#8  0x00007f17e7317fd5 in librdf_world_open () from /usr/lib/librdf.so.0
+#9  0x00007f17e7593cdc in createWorld (this=0x2a61618)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/unoxml/source/rdf/librdf_repository.cxx:1943
+#10 0x00007f17e7587c63 in librdf_Repository (this=0x2a61580, i_xContext=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/unoxml/source/rdf/librdf_repository.cxx:801
+#11 0x00007f17e7595f9e in comp_librdf_Repository::_create (context=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/unoxml/source/rdf/librdf_repository.cxx:2281
+#12 0x00007f181376c2e1 in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+#13 0x00007f1813768d9a in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+#14 0x00007f1813769019 in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+#15 0x00007f181376ba74 in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+#16 0x00007f181376beb9 in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+#17 0x00007f181376cd49 in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+#18 0x00007f1809be25ff in ?? () from /usr/lib/ure/lib/bootstrap.uno.so
+#19 0x00007f1812dde842 in com::sun::star::rdf::Repository::create (
+    the_context=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/solver/unxlngx6.pro/inc/offapi/com/sun/star/rdf/Repository.hpp:30
+#20 0x00007f1812dd6f2c in DocumentMetadataAccess (this=0x2883200, 
+    i_xContext=..., i_rRegistrySupplier=..., i_rURI=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/DocumentMetadataAccess.cxx:815
+#21 0x00007f1812ef7f24 in IMPL_SfxBaseModel_DataContainer::GetDMA (
+    this=0x1e36f40)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/sfxbasemodel.cxx:316
+#22 0x00007f1812ef5291 in SfxBaseModel::storeMetadataToStorage (
+    this=0x1e36c60, i_xStorage=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/sfxbasemodel.cxx:4355
+#23 0x00007f17f2ecaceb in SwXMLWriter::_Write (this=0x2a57ee0, 
+    pTargetMedium=0x2887f40)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sw/source/filter/xml/wrtxml.cxx:349
+#24 0x00007f17f2ecbdbf in SwXMLWriter::WriteMedium (this=0x2a57ee0, 
+    aTargetMedium=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sw/source/filter/xml/wrtxml.cxx:513
+#25 0x00007f17f2e97a02 in StgWriter::Write (this=0x2a57ee0, rPaM=..., 
+    rStg=..., pFName=0x0, pMedium=0x2887f40)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sw/source/filter/writer/writer.cxx:585
+#26 0x00007f17f2ecbe44 in SwXMLWriter::Write (this=0x2a57ee0, rPaM=..., 
+    rMed=..., pFileName=0x0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sw/source/filter/xml/wrtxml.cxx:521
+#27 0x00007f17f2de8db3 in SwWriter::Write (this=0x7fff01d34a20, rxWriter=..., 
+    pRealFileName=0x0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sw/source/filter/basflt/shellio.cxx:912
+#28 0x00007f17f2f1fcc3 in SwDocShell::SaveAs (this=0x1e36790, rMedium=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sw/source/ui/app/docsh.cxx:497
+#29 0x00007f1812eab008 in SfxObjectShell::SaveAsOwnFormat (this=0x1e36790, 
+    rMedium=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/objstor.cxx:3022
+#30 0x00007f1812ea2e7b in SfxObjectShell::SaveTo_Impl (this=0x1e36790, 
+    rMedium=..., pSet=0x0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/objstor.cxx:1407
+#31 0x00007f1812eaa192 in SfxObjectShell::PreDoSaveAs_Impl (this=0x1e36790, 
+    rFileName=..., aFilterName=..., pParams=0x22db910)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/objstor.cxx:2746
+#32 0x00007f1812ea97bd in SfxObjectShell::CommonSaveAs_Impl (this=0x1e36790, 
+    aURL=..., aFilterName=..., aParams=0x28a3eb0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/objstor.cxx:2608
+#33 0x00007f1812e950e5 in SfxObjectShell::APISaveAs_Impl (this=0x1e36790, 
+    aFileName=..., aParams=0x28a3eb0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/objserv.cxx:342
+#34 0x00007f1812eebc83 in SfxBaseModel::impl_store (this=0x1e36c60, sURL=..., 
+    seqArguments=..., bSaveTo=0 '\000')
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/sfxbasemodel.cxx:2847
+#35 0x00007f1812ee4ac2 in SfxBaseModel::storeAsURL (this=0x1e36c60, rURL=..., 
+    rArgs=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/sfxbasemodel.cxx:1715
+#36 0x00007f1812e77655 in SfxStoringHelper::GUIStoreModel (
+    this=0x7fff01d36c90, xModel=..., aSlotName=..., aArgsSequence=..., 
+    bPreselectPassword=0 '\000', aSuggestedName=..., 
+    nDocumentSignatureState=0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/guisaveas.cxx:1647
+#37 0x00007f1812e96a6c in SfxObjectShell::ExecFile_Impl (this=0x1e36790, 
+    rReq=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/doc/objserv.cxx:628
+#38 0x00007f1812e9439f in SfxStubSfxObjectShellExecFile_Impl (
+    pShell=0x1e36790, rReq=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/workdir/unxlngx6.pro/SdiTarget/sfx2/sdi/sfxslots.hxx:151
+#39 0x00007f1812d0ca84 in SfxShell::CallExec (this=0x1e36790, 
+    pFunc=0x7f1812e9437c <SfxStubSfxObjectShellExecFile_Impl(SfxShell*, SfxRequest&)>, rReq=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/inc/sfx2/shell.hxx:201
+#40 0x00007f1812d0613f in SfxDispatcher::Call_Impl (this=0x1ed2650, 
+    rShell=..., rSlot=..., rReq=..., bRecord=1 '\001')
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/control/dispatch.cxx:276
+#41 0x00007f1812d07e98 in SfxDispatcher::_Execute (this=0x1ed2650, 
+    rShell=..., rSlot=..., rReq=..., eCallMode=4)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/control/dispatch.cxx:971
+#42 0x00007f1812cfd84f in SfxBindings::Execute_Impl (this=0x1ed39c0, 
+    aReq=..., pSlot=0x7f18132cb480, pShell=0x1e36790)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/control/bindings.cxx:1307
+#43 0x00007f1812d24ef5 in SfxDispatchController_Impl::dispatch (
+    this=0x22867d0, aURL=..., aArgs=..., rListener=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/control/unoctitm.cxx:743
+#44 0x00007f1812d22822 in SfxOfficeDispatch::dispatch (this=0x2286770, 
+    aURL=..., aArgs=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/sfx2/source/control/unoctitm.cxx:375
+#45 0x00007f18001f2c9c in framework::MenuBarManager::Select (this=0x207b4c0, 
+    pMenu=0x1f89470)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/framework/source/uielement/menubarmanager.cxx:1124
+#46 0x00007f18001f24ed in framework::MenuBarManager::LinkStubSelect (
+    pThis=0x207b4c0, pCaller=0x1f89470)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/framework/source/uielement/menubarmanager.cxx:1054
+#47 0x00007f18105f0bf6 in Link::Call (this=0x1f894d8, pCaller=0x1f89470)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/solver/unxlngx6.pro/inc/tools/link.hxx:140
+#48 0x00007f18109587bd in Menu::Select (this=0x1f89470)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/source/window/menu.cxx:1141
+#49 0x00007f181095fcc8 in Menu::ImplCallSelect (this=0x1f89470)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/source/window/menu.cxx:3023
+#50 0x00007f181095fc8f in Menu::LinkStubImplCallSelect (pThis=0x1f89470, 
+    pCaller=0x0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/source/window/menu.cxx:3020
+#51 0x00007f18105f0bf6 in Link::Call (this=0x22dc700, pCaller=0x0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/solver/unxlngx6.pro/inc/tools/link.hxx:140
+#52 0x00007f1810a1af4b in ImplHandleUserEvent (pSVEvent=0x26b1f10)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/source/window/winproc.cxx:1999
+#53 0x00007f1810a1c21a in ImplWindowFrameProc (pWindow=0x1ae9610, nEvent=22, 
+    pEvent=0x26b1f10)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/source/window/winproc.cxx:2571
+#54 0x00007f1810a2d29b in SalFrame::CallCallback (this=0x1ae9a50, nEvent=22, 
+    pEvent=0x26b1f10)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/inc/salframe.hxx:294
+#55 0x00007f1810a2cff6 in SalGenericDisplay::DispatchInternalEvent (
+    this=0x1a4df90)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/generic/app/gendisp.cxx:102
+#56 0x00007f1807657cf6 in GtkData::userEventFn (data=0x19c21c0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/unx/gtk/app/gtkdata.cxx:945
+#57 0x00007f1807657d56 in call_userEventFn (data=0x19c21c0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/unx/gtk/app/gtkdata.cxx:955
+#58 0x00007f18052ba6f2 in g_main_context_dispatch ()
+   from /lib/libglib-2.0.so.0
+#59 0x00007f18052be568 in ?? () from /lib/libglib-2.0.so.0
+#60 0x00007f18052be71c in g_main_context_iteration ()
+   from /lib/libglib-2.0.so.0
+#61 0x00007f1807656aa0 in GtkData::Yield (this=0x19c21c0, bWait=true, 
+    bHandleAllCurrentEvents=false)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/unx/gtk/app/gtkdata.cxx:582
+#62 0x00007f1807659b5e in GtkInstance::Yield (this=0x19c30a0, bWait=true, 
+    bHandleAllCurrentEvents=false)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/unx/gtk/app/gtkinst.cxx:613
+#63 0x00007f1810605bcf in ImplYield (i_bWait=true, i_bAllEvents=false)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/source/app/svapp.cxx:458
+#64 0x00007f1810602021 in Application::Yield (i_bAllEvents=false)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/source/app/svapp.cxx:492
+#65 0x00007f1810601fc2 in Application::Execute ()
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/source/app/svapp.cxx:435
+#66 0x00007f1814f78efe in desktop::Desktop::Main (this=0x7fff01d38520)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/desktop/source/app/app.cxx:1885
+#67 0x00007f181060b918 in ImplSVMain ()
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/source/app/svmain.cxx:178
+#68 0x00007f181060ba6f in SVMain ()
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/source/app/svmain.cxx:215
+#69 0x00007f1814faba6f in soffice_main ()
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/desktop/source/app/sofficemain.cxx:67
+#70 0x0000000000400774 in sal_main ()
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/desktop/source/app/main.c:34
+#71 0x0000000000400759 in main (argc=3, argv=0x7fff01d386d8)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/desktop/source/app/main.c:33
+
+Thread 9 (Thread 0x7f180a677700 (LWP 18190)):
+#0  pthread_cond_timedwait@@GLIBC_2.3.2 ()
+    at ../nptl/sysdeps/unix/sysv/linux/x86_64/pthread_cond_timedwait.S:211
+No locals.
+#1  0x00007f181522f126 in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_sal.so.3
+No symbol table info available.
+#2  0x00007f18140238ca in start_thread (arg=<value optimized out>)
+    at pthread_create.c:300
+        __res = <value optimized out>
+        pd = 0x7f180a677700
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {139741230495488, 
+                -6390006523018237031, 139741391675328, 0, 139741415018560, 3, 
+                6440769939194358681, 6440722409618254745}, 
+              mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, 
+            data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <value optimized out>
+        freesize = <value optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#3  0x00007f181450c92d in clone ()
+    at ../sysdeps/unix/sysv/linux/x86_64/clone.S:112
+No locals.
+#4  0x0000000000000000 in ?? ()
+No symbol table info available.
+
+Thread 8 (Thread 0x7f18011a5700 (LWP 18192)):
+#0  0x00007f181450d4ed in accept () at ../sysdeps/unix/syscall-template.S:82
+No locals.
+#1  0x00007f181520f2c2 in osl_acceptPipe ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_sal.so.3
+No symbol table info available.
+#2  0x00007f1814fa9f30 in osl::Pipe::accept (this=0x1a765c0, Connection=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/solver/unxlngx6.pro/inc/osl/pipe.hxx:141
+No locals.
+#3  0x00007f1814fa79d7 in desktop::OfficeIPCThread::run (this=0x1a765b0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/desktop/source/app/officeipcthread.cxx:655
+        nError = osl_Pipe_E_None
+#4  0x00007f1814fa9b19 in threadFunc (param=0x1a765b0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/solver/unxlngx6.pro/inc/osl/thread.hxx:190
+        pObj = 0x1a765b0
+#5  0x00007f181520946c in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_sal.so.3
+No symbol table info available.
+#6  0x00007f18140238ca in start_thread (arg=<value optimized out>)
+    at pthread_create.c:300
+        __res = <value optimized out>
+        pd = 0x7f18011a5700
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {139741074446080, 
+                -6390006523018237031, 139741391675328, 0, 139741415018560, 3, 
+                6440746532696337305, 6440722409618254745}, 
+              mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, 
+            data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <value optimized out>
+        freesize = <value optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#7  0x00007f181450c92d in clone ()
+    at ../sysdeps/unix/sysv/linux/x86_64/clone.S:112
+No locals.
+#8  0x0000000000000000 in ?? ()
+No symbol table info available.
+Current language:  auto
+The current source language is "auto; currently asm".
+
+Thread 7 (Thread 0x7f17faa48700 (LWP 18193)):
+#0  0x00007f18145019d3 in *__GI___poll (fds=<value optimized out>, 
+    nfds=<value optimized out>, timeout=1000)
+    at ../sysdeps/unix/sysv/linux/poll.c:87
+        _a3 = 1000
+        _a1 = 139740966058480
+        resultvar = <value optimized out>
+        _a2 = 1
+        oldtype = 0
+        result = <value optimized out>
+#1  0x00007f1804fe7a9c in x11::SelectionManager::dispatchEvent (
+    this=0x1d40570, millisec=1000)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/unx/generic/dtrans/X11_selection.cxx:3737
+        aPollFD = {fd = 27, events = 1, revents = 0}
+        aGuard = {<osl::ClearableGuard<osl::Mutex>> = {pT = 0x0}, 
+          pResetT = 0x1d40930}
+#2  0x00007f1804fe7d40 in x11::SelectionManager::run (pThis=0x1d40570)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/unx/generic/dtrans/X11_selection.cxx:3775
+        aNow = {tv_sec = 1348647066, tv_usec = 49670}
+        This = 0x1d40570
+        aLast = {tv_sec = 1348647066, tv_usec = 49670}
+        xFact = {<com::sun::star::uno::BaseReference> = {
+            _pInterface = 0xf536d0}, <No data fields>}
+#3  0x00007f1804fd6904 in call_SelectionManager_run (pMgr=0x1d40570)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/unx/generic/dtrans/X11_selection.cxx:108
+No locals.
+#4  0x00007f181520946c in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_sal.so.3
+No symbol table info available.
+#5  0x00007f18140238ca in start_thread (arg=<value optimized out>)
+    at pthread_create.c:300
+        __res = <value optimized out>
+        pd = 0x7f17faa48700
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {139740966061824, 
+                -6390006523018237031, 139741391675328, 0, 139741415018560, 3, 
+                6448547343820237721, 6440722409618254745}, 
+              mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, 
+            data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <value optimized out>
+        freesize = <value optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#6  0x00007f181450c92d in clone ()
+    at ../sysdeps/unix/sysv/linux/x86_64/clone.S:112
+No locals.
+#7  0x0000000000000000 in ?? ()
+No symbol table info available.
+
+Thread 6 (Thread 0x7f17f3fff700 (LWP 18199)):
+#0  0x00007f18145019d3 in *__GI___poll (fds=<value optimized out>, 
+    nfds=<value optimized out>, timeout=-1)
+    at ../sysdeps/unix/sysv/linux/poll.c:87
+        _a3 = -1
+        _a1 = 31025472
+        resultvar = <value optimized out>
+        _a2 = 2
+        oldtype = 0
+        result = <value optimized out>
+#1  0x00007f1804fc1d76 in ICEConnectionWorker ()
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/vcl/unx/generic/app/sm.cxx:665
+        nConnectionsBefore = 1
+        bWakeup = false
+        nBytes = 16
+        pLocalFD = 0x1d96940
+        nRet = 1
+#2  0x00007f181520946c in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_sal.so.3
+No symbol table info available.
+#3  0x00007f18140238ca in start_thread (arg=<value optimized out>)
+    at pthread_create.c:300
+        __res = <value optimized out>
+        pd = 0x7f17f3fff700
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {139740854613760, 
+                -6390006523018237031, 139741391675328, 0, 30947472, 3, 
+                6448526929303808921, 6440722409618254745}, 
+              mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, 
+            data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <value optimized out>
+        freesize = <value optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#4  0x00007f181450c92d in clone ()
+    at ../sysdeps/unix/sysv/linux/x86_64/clone.S:112
+No locals.
+#5  0x0000000000000000 in ?? ()
+No symbol table info available.
+Current language:  auto
+The current source language is "auto; currently c".
+
+Thread 5 (Thread 0x7f18019a6700 (LWP 18249)):
+#0  pthread_cond_timedwait@@GLIBC_2.3.2 ()
+    at ../nptl/sysdeps/unix/sysv/linux/x86_64/pthread_cond_timedwait.S:211
+No locals.
+#1  0x00007f1805762482 in ?? () from /usr/lib/libgthread-2.0.so.0
+No symbol table info available.
+#2  0x00007f18052957a1 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f18052e5601 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f18052e3784 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f18140238ca in start_thread (arg=<value optimized out>)
+    at pthread_create.c:300
+        __res = <value optimized out>
+        pd = 0x7f18019a6700
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {139741082838784, 
+                -6390006523018237031, 140733224009952, 139741082838784, 
+                27748464, 3, 6440747632744835993, 6440722409618254745}, 
+              mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, 
+            data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <value optimized out>
+        freesize = <value optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#6  0x00007f181450c92d in clone ()
+    at ../sysdeps/unix/sysv/linux/x86_64/clone.S:112
+No locals.
+#7  0x0000000000000000 in ?? ()
+No symbol table info available.
+
+Thread 4 (Thread 0x7f17f02a2700 (LWP 18252)):
+#0  pthread_cond_timedwait@@GLIBC_2.3.2 ()
+    at ../nptl/sysdeps/unix/sysv/linux/x86_64/pthread_cond_timedwait.S:211
+No locals.
+#1  0x00007f1805762482 in ?? () from /usr/lib/libgthread-2.0.so.0
+No symbol table info available.
+#2  0x00007f18052957a1 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f18052e5601 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f18052e3784 in ?? () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f18140238ca in start_thread (arg=<value optimized out>)
+    at pthread_create.c:300
+        __res = <value optimized out>
+        pd = 0x7f17f02a2700
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {139740790269696, 
+                -6390006523018237031, 140733224008800, 139740790269696, 
+                36115072, 3, 6448524338901658521, 6440722409618254745}, 
+              mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, 
+            data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <value optimized out>
+        freesize = <value optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#6  0x00007f181450c92d in clone ()
+    at ../sysdeps/unix/sysv/linux/x86_64/clone.S:112
+No locals.
+#7  0x0000000000000000 in ?? ()
+No symbol table info available.
+Current language:  auto
+The current source language is "auto; currently asm".
+
+Thread 3 (Thread 0x7f17e8e3d700 (LWP 18253)):
+#0  pthread_cond_timedwait@@GLIBC_2.3.2 ()
+    at ../nptl/sysdeps/unix/sysv/linux/x86_64/pthread_cond_timedwait.S:211
+No locals.
+#1  0x00007f1815205a96 in osl_waitCondition ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_sal.so.3
+No symbol table info available.
+#2  0x00007f180790e481 in osl::Condition::wait (this=0x29cdc00)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/solver/unxlngx6.pro/inc/osl/conditn.hxx:84
+No locals.
+#3  configmgr::Components::WriteThread::run (this=0x29cdc00)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/configmgr/source/components.cxx:201
+        t = {Seconds = 1, Nanosec = 0}
+#4  0x00007f180791440a in threadFunc (param=0x1dc11e4)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/solver/unxlngx6.pro/inc/osl/thread.hxx:190
+No locals.
+#5  0x00007f181520946c in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_sal.so.3
+No symbol table info available.
+#6  0x00007f18140238ca in start_thread (arg=<value optimized out>)
+    at pthread_create.c:300
+        __res = <value optimized out>
+        pd = 0x7f17e8e3d700
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {139740668221184, 
+                -6390006523018237031, 139741391675328, 0, 139741415018560, 3, 
+                6448577610991643545, 6440722409618254745}, 
+              mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, 
+            data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <value optimized out>
+        freesize = <value optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#7  0x00007f181450c92d in clone ()
+    at ../sysdeps/unix/sysv/linux/x86_64/clone.S:112
+No locals.
+#8  0x0000000000000000 in ?? ()
+No symbol table info available.
+
+Thread 2 (Thread 0x7f17e840f700 (LWP 18254)):
+#0  pthread_cond_timedwait@@GLIBC_2.3.2 ()
+    at ../nptl/sysdeps/unix/sysv/linux/x86_64/pthread_cond_timedwait.S:211
+No locals.
+#1  0x00007f1815205a96 in osl_waitCondition ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_sal.so.3
+No symbol table info available.
+#2  0x00007f18000b6a4a in osl::Condition::wait (this=0x7f17e840ebd0, 
+    pTimeout=0x7f17e840ebc0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/solver/unxlngx6.pro/inc/osl/conditn.hxx:84
+No locals.
+#3  0x00007f18000b6851 in framework::WakeUpThread::run (this=0x2a5e0a0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/framework/source/helper/wakeupthread.cxx:63
+        aReadLock = {<framework::INonCopyable> = {<No data fields>}, 
+          m_pLock = 0x2a5e0b8, m_bLocked = 0 '\000'}
+        xListener = {<com::sun::star::uno::BaseReference> = {
+            _pInterface = 0x1dfb9f0}, <No data fields>}
+        aSleeper = {condition = 0x2a5cee0}
+        aTime = {Seconds = 0, Nanosec = 25000000}
+#4  0x00007f18000a8207 in threadFunc (param=0x2a5e0a0)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/solver/unxlngx6.pro/inc/osl/thread.hxx:190
+        pObj = 0x2a5e0a0
+#5  0x00007f181520946c in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_sal.so.3
+No symbol table info available.
+#6  0x00007f18140238ca in start_thread (arg=<value optimized out>)
+    at pthread_create.c:300
+        __res = <value optimized out>
+        pd = 0x7f17e840f700
+        unwind_buf = {cancel_jmp_buf = {{jmp_buf = {139740657547008, 
+                -6390006523018237031, 139741391675328, 0, 139741415018560, 3, 
+                6448576793874115481, 6440722409618254745}, 
+              mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, 
+            data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+        not_first_call = <value optimized out>
+        freesize = <value optimized out>
+        __PRETTY_FUNCTION__ = "start_thread"
+#7  0x00007f181450c92d in clone ()
+    at ../sysdeps/unix/sysv/linux/x86_64/clone.S:112
+No locals.
+#8  0x0000000000000000 in ?? ()
+No symbol table info available.
+
+Thread 1 (Thread 0x7f181562c8a0 (LWP 18189)):
+#0  0x00007f18144dd63d in __libc_waitpid (pid=18255, 
+    stat_loc=<value optimized out>, options=0)
+    at ../sysdeps/unix/sysv/linux/waitpid.c:41
+        _a3 = 0
+        _a1 = 18255
+        resultvar = <value optimized out>
+        _a4 = 0
+        _a2 = 140733224005792
+        oldtype = 0
+        result = <value optimized out>
+#1  0x00007f18052fea01 in g_spawn_sync () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f18052fed19 in g_spawn_command_line_sync ()
+   from /lib/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f1801dc6de1 in ?? ()
+   from /usr/lib/gtk-2.0/modules/libgnomebreakpad.so
+No symbol table info available.
+#4  <signal handler called>
+No symbol table info available.
+#5  0x00007f17e6e5cbc5 in raptor_new_uri_from_uri_local_name_v2 ()
+   from /usr/lib/libraptor.so.1
+No symbol table info available.
+#6  0x00007f17e732c77a in librdf_new_node_from_uri_local_name ()
+   from /usr/lib/librdf.so.0
+No symbol table info available.
+#7  0x00007f17e731ed04 in librdf_init_concepts () from /usr/lib/librdf.so.0
+No symbol table info available.
+#8  0x00007f17e7317fd5 in librdf_world_open () from /usr/lib/librdf.so.0
+No symbol table info available.
+#9  0x00007f17e7593cdc in createWorld (this=0x2a61618)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/unoxml/source/rdf/librdf_repository.cxx:1943
+        pWorld = 0x2a617c0
+        origprefs = 0x0
+        newprefs = 0x470d
+#10 0x00007f17e7587c63 in librdf_Repository (this=0x2a61580, i_xContext=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/unoxml/source/rdf/librdf_repository.cxx:801
+        g = {pT = 0x7f17e77b9798}
+#11 0x00007f17e7595f9e in comp_librdf_Repository::_create (context=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/unoxml/source/rdf/librdf_repository.cxx:2281
+No locals.
+#12 0x00007f181376c2e1 in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+No symbol table info available.
+#13 0x00007f1813768d9a in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+No symbol table info available.
+#14 0x00007f1813769019 in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+No symbol table info available.
+#15 0x00007f181376ba74 in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+No symbol table info available.
+#16 0x00007f181376beb9 in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+No symbol table info available.
+#17 0x00007f181376cd49 in ?? ()
+   from /usr/lib/libreoffice/program/../ure-link/lib/libuno_cppuhelpergcc3.so.3
+No symbol table info available.
+#18 0x00007f1809be25ff in ?? () from /usr/lib/ure/lib/bootstrap.uno.so
+No symbol table info available.
+#19 0x00007f1812dde842 in com::sun::star::rdf::Repository::create (
+    the_context=...)
+    at /home/rene/Debian/Pakete/LibreOffice/bpo/libreoffice-3.5.4/solver/unxlngx6.pro/inc/offapi/com/sun/star/rdf/Repository.hpp:30
+        the_factory = {<com::sun::star::uno::BaseReference> = {
+            _pInterface = 0xf536d8}, <No data fields>}
+        the_instance = {<com::sun::star::uno::BaseReference> = {
+            _pInterface = 0x7fff01d33d20}, <No data fields>}
+        the_instance = Current language:  auto
+The current source language is "auto; currently c".
+A debugging session is active.
+
+	Inferior 1 [process 18189] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+
+
+----------- .xsession-errors ---------------------
+(evolution-alarm-notify:4675): evolution-alarm-notify-WARNING **: alarm.c:252: Requested removal of nonexistent alarm!
+Error: [Exception... "'[JavaScript Error: "this_ is not defined" {file: "file:///home/elbournb/.icedove/h1qw5nt0.default/extensions/%7Be2fda1a4-762b-4020-b5ad-a41df1933103%7D/components/calMemoryCalen
+Warning: CalDAV: Exception: OPTIONS returned unexpected status code: 500
+41	../sysdeps/unix/sysv/linux/waitpid.c: No such file or directory.
+41	../sysdeps/unix/sysv/linux/waitpid.c: No such file or directory.
+Warning: CalDAV: Exception: OPTIONS returned unexpected status code: 500
+41	../sysdeps/unix/sysv/linux/waitpid.c: No such file or directory.
+DWARF-2 expression error: DW_OP_reg operations must be used either alone or in conjuction with DW_OP_piece.
+Warning: CalDAV: Exception: OPTIONS returned unexpected status code: 500
+Unable to open desktop file /home/elbournb/Desktop/k3b.desktop for panel launcher: No such file or directory
+41	../sysdeps/unix/sysv/linux/waitpid.c: No such file or directory.
+DWARF-2 expression error: DW_OP_reg operations must be used either alone or in conjuction with DW_OP_piece.
+41	../sysdeps/unix/sysv/linux/waitpid.c: No such file or directory.
+DWARF-2 expression error: DW_OP_reg operations must be used either alone or in conjuction with DW_OP_piece.
+--------------------------------------------------
+
+
+
+-- System Information:
+Debian Release: 6.0.5
+  APT prefers stable-updates
+  APT policy: (500, 'stable-updates'), (500, 'stable')
+Architecture: amd64 (x86_64)
+
+Kernel: Linux 3.2.0-0.bpo.2-amd64 (SMP w/4 CPU cores)
+Locale: LANG=en_GB.UTF-8, LC_CTYPE=en_GB.UTF-8 (charmap=UTF-8)
+Shell: /bin/sh linked to /bin/bash
+
+Versions of packages libreoffice-writer depends on:
+ii  libc6              2.11.3-3              Embedded GNU C Library: Shared lib
+ii  libgcc1            1:4.4.5-8             GCC support library
+ii  libicu44           4.4.1-8               International Components for Unico
+ii  libreoffice-base-c 1:3.5.4-7~bpo60+1     office productivity suite -- share
+ii  libreoffice-core   1:3.5.4-7~bpo60+1     office productivity suite -- arch-
+ii  libstdc++6         4.4.5-8               The GNU Standard C++ Library v3
+ii  libxml2            2.7.8.dfsg-2+squeeze5 GNOME XML library
+ii  uno-libs3          3.5.4-7~bpo60+1       LibreOffice UNO runtime environmen
+ii  ure                3.5.4-7~bpo60+1       LibreOffice UNO runtime environmen
+ii  zlib1g             1:1.2.3.4.dfsg-3      compression library - runtime
+
+Versions of packages libreoffice-writer recommends:
+ii  default-jre [java 1:1.6-40               Standard Java or Java compatible R
+ii  libreoffice-email 1:3.5.4-7~bpo60+1      office productivity suite -- email
+ii  libreoffice-filte 1:3.5.4-7~bpo60+1      office productivity suite -- legac
+ii  libreoffice-java- 1:3.5.4-7~bpo60+1      office productivity suite -- arch-
+ii  libreoffice-math  1:3.5.4-7~bpo60+1      office productivity suite -- equat
+ii  openjdk-6-jre [ja 6b18-1.8.13-0+squeeze2 OpenJDK Java runtime, using Hotspo
+
+Versions of packages libreoffice-writer suggests:
+ii  libreoffice-base       1:3.5.4-7~bpo60+1 office productivity suite -- datab
+pn  libreoffice-gcj        <none>            (no description available)
+
+Versions of packages libreoffice-core depends on:
+ii  fontconfig   2.8.0-2.1                   generic font configuration library
+ii  fonts-opensy 2:102.2+LibO3.5.4-7~bpo60+1 OpenSymbol TrueType font
+ii  libc6        2.11.3-3                    Embedded GNU C Library: Shared lib
+ii  libcairo2    1.10.2-7~bpo60+1            The Cairo 2D vector graphics libra
+ii  libcurl3-gnu 7.21.0-2.1+squeeze2         Multi-protocol file transfer libra
+ii  libdb4.8     4.8.30-2                    Berkeley v4.8 Database Libraries [
+ii  libexpat1    2.0.1-7+squeeze1            XML parsing C library - runtime li
+ii  libfontconfi 2.8.0-2.1                   generic font configuration library
+ii  libfreetype6 2.4.2-2.1+squeeze4          FreeType 2 font engine, shared lib
+ii  libgcc1      1:4.4.5-8                   GCC support library
+ii  libglib2.0-0 2.24.2-1                    The GLib library of C routines
+ii  libgstreamer 0.10.30-1                   GStreamer libraries from the "base
+ii  libgstreamer 0.10.30-1                   Core GStreamer libraries and eleme
+ii  libhunspell- 1.2.11-1                    spell checker and morphological an
+ii  libhyphen0   2.5-1                       ALTLinux hyphenation library - sha
+ii  libice6      2:1.0.6-2                   X11 Inter-Client Exchange library
+ii  libicu44     4.4.1-8                     International Components for Unico
+ii  libjpeg62    6b1-1                       The Independent JPEG Group's JPEG 
+ii  libneon27-gn 0.29.3-3                    An HTTP and WebDAV client library 
+ii  libnspr4-0d  4.8.6-1                     NetScape Portable Runtime Library
+ii  libnss3-1d   2:3.13.6-1~bpo60+1          Network Security Service libraries
+ii  libpng12-0   1.2.44-1+squeeze4           PNG library - runtime
+ii  librdf0      1.0.13-2                    Redland Resource Description Frame
+ii  libreoffice- 1:3.5.4-7~bpo60+1           office productivity suite -- arch-
+ii  librsvg2-2   2.26.3-1                    SAX-based renderer library for SVG
+ii  libsm6       2:1.1.1-1                   X11 Session Management library
+ii  libssl0.9.8  0.9.8o-4squeeze13           SSL shared libraries
+ii  libstdc++6   4.4.5-8                     The GNU Standard C++ Library v3
+ii  libx11-6     2:1.3.3-4                   X11 client-side library
+ii  libxext6     2:1.1.2-1                   X11 miscellaneous extension librar
+ii  libxinerama1 2:1.1-3                     X11 Xinerama extension library
+ii  libxml2      2.7.8.dfsg-2+squeeze5       GNOME XML library
+ii  libxrandr2   2:1.3.0-3                   X11 RandR extension library
+ii  libxrender1  1:0.9.6-1                   X Rendering Extension client libra
+ii  libxslt1.1   1.1.26-6                    XSLT 1.0 processing library - runt
+ii  uno-libs3    3.5.4-7~bpo60+1             LibreOffice UNO runtime environmen
+ii  ure          3.5.4-7~bpo60+1             LibreOffice UNO runtime environmen
+ii  zlib1g       1:1.2.3.4.dfsg-3            compression library - runtime
+
+-- no debconf information
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120926081325.16872.16003.reportbug@cat.ecs
+

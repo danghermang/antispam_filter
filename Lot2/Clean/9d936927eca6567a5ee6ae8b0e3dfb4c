@@ -1,0 +1,38 @@
+Subject:Re: [EVDL] How do I drive my EV?
+On Wed, Nov 7, 2012 at 7:56 AM, Joel Sell <justthesells@yahoo.com> wrote:
+> ...
+> Before, when I was staying in 1st so long, I would watch the older
+> batteries sag and then, as my rpms got really high -around 5000 I guess- the
+> batteries would stop sagging and start recovering while I still had my foot
+> on the accelerator.  I didn't see that happening last night. So am I looking
+> at a trade off- batteries or motor, pick one?
+> ...
+
+The batteries started to "recover" while you still had your foot on
+the accelerator because the controller was on 100% and your RPMs were
+high enough that the current (and power) were falling.
+
+With "full throttle" (voltage limited by batteries and current limited
+by controller), as a series motor increases speed, power and battery
+current go up until the back EMF of the motor equals pack voltage.
+Above that speed, the power, motor current, battery current, and
+torque all fall as the RPMs increase.
+
+When you're in first gear accelerating, you exceed that speed and the
+power falls, so the batteries see the load easing up and seem to
+recover.
+
+In second gear, your RPMs are low enough that you can still increase
+power and acceleration with an increase in RPMs.
+
+-Morgan
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

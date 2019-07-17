@@ -1,0 +1,40 @@
+Subject:Re: virtualbox fait freezer wheezy
+Le mardi 02 octobre 2012 à 21:45 +0200, steve a écrit :
+> Salut,
+> 
+> Je fais tourner (parfois) un win xp dans virtualbox. J'ai remarqué que
+> si j'ai
+> une session ouverte (kde, xfce ou gnome-shell), ma machine hôte freeze
+> complètement, seule solution, un redémarrage brutal. Il arrive même
+> (mais pas
+> toujours) qu'une sortie de session ne suffise pas pour empêcher cela.
+> Je ne
+> sais pas vraiment comment déboguer ce problème. Pour le moment, je
+> sais que
+> pour ne pas avoir ce problème, il me faut redémarrer la machine et
+> ensuite
+> lancer virtualbox. Je peux vivre avec mais idéalement, je désirerais
+> éviter
+> cela.
+> 
+> Une idée ? 
+
+J'avais ça mais je ne l'ai plus, surtout conjointement avec evolution
+sous Wheezy.
+
+Je suppose un problème de mémoire ou d'i/o, mais je n'ai rien debuggué.
+Pour fermer brutalement mais moins, regarde les
+https://fr.wikipedia.org/wiki/Magic_SysRq_key
+
+Au passage, éventuellement regarde si les "guest additions" sont à jour.
+> 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349210685.8688.15.camel@jisui.aranha
+

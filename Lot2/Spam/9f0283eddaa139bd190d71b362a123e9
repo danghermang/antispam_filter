@@ -1,0 +1,859 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<steelframekits@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <ESC1111810156230_1102018840400_8109_r20@in.constantcontact.com>
+Received: (qmail 16427 invoked by uid 89); 9 Dec 2012 17:33:56 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 9 Dec 2012 17:33:56 -0000
+Delivery-date: Sun, 09 Dec 2012 09:32:17 -0800
+Received: from ccm134.constantcontact.com ([208.75.123.134]) helo=ccm134.constantcontact.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1Thkjb-0003Ve-O9 on interface=184.105.182.43
+	for steelframekits@activ8.net.au; Sun, 09 Dec 2012 09:32:16 -0800
+Received: from p2-jbsched08.ad.prodcc.net (p2-pen2.ad.prodcc.net [10.252.0.102])
+	by p2-mail188.ccm134.constantcontact.com (Postfix) with ESMTP id 0D74510B3DAB
+	for <steelframekits@activ8.net.au>; Sun,  9 Dec 2012 12:32:09 -0500 (EST)
+DKIM-Signature: v=1; q=dns/txt; a=rsa-sha256; c=relaxed/relaxed; s=126184; d=mindfood.ccsend.com; h=to:subject:mime-version:message-id:from:date:sender:list-unsubscribe:reply-to; bh=0xQTYT+b+jy4FI2rORdpVCI/MWpgOdYWWQ8ztoKqRAo=; b=1YZWsWWpwG+nxINYrgrVP+oHlXPPmmzO1sv3GmxT1sh1ke4+f2XQ4tVGID2IhM2KmZ8aaBLpoH4C3eCvD62jrfsdemGmq1IdZWNAjZdtmaxXLoLPlI/AZSI8aOkmwzEOExTGL/3EOEDJrxHDrhvUkWu7clhtUw0uS0JPnVisYGM=
+Message-ID: <1111810156230.1102018840400.8109.8.3312301A@scheduler.constantcontact.com>
+Date: Sun, 9 Dec 2012 12:32:09 -0500 (EST)
+From: MiNDFOOD <newsletter@mindfood.com>
+Reply-To: newsletter@mindfood.com
+Sender: MiNDFOOD <nicola@mindfood.ccsend.com>
+To: steelframekits@activ8.net.au
+Subject: WEEKLY MENU PLANNER: WIN 1 of 4 Spiral Food Hampers | CHRISTMAS
+ Craisin & Pistachio Nougat | STICKY Moroccan Lamb Ribs | TASTY Bean &
+ Crispy Tofu Stir-fy | QUICK Whole Asian-Flavoured Snapper
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10403680_572637845.1355074329045"
+X-Mailer: Roving Constant Contact 2009 (http://www.constantcontact.com)
+List-Unsubscribe: http://visitor.constantcontact.com/do?p=un&mse=0010opz9yIv185uNw5dsqa6fjtXPDyZ6m3t&t=001WgzOemK57r0_hZGH-oqmEQ%3D%3D&llr=q9bcxkcab
+X-Return-Path-Hint: ESC1111810156230_1102018840400_8109_r20@in.constantcontact.com
+X-Roving-ID: 1102018840400.8109
+X-Lumos-SenderID: 1102018840400
+X-Roving-CampaignId: 1111810156230
+X-Roving-StreamId: 0
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: ESC1111810156230_1102018840400_8109_r20@in.constantcontact.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=constantcontact.com - X=apn H=ccm134.constantcontact.com [208.75.123.134] HELO=[ccm134.constantcontact.com] F=[ESC1111810156230_1102018840400_8109_r20@in.constantcontact.com] T=[steelframekits@activ8.net.au] S=[WEEKLY MENU PLANNER: WIN 1 of 4 Spiral Food Hampers | CHRISTMAS
+ Craisin & Pistachio Nougat | STICKY Moroccan Lamb Ribs | TASTY Bean &
+ Crispy Tofu Stir-fy | QUICK Whole Asian-Flavoured Snapper]
+X-Sender-Host-Address: 208.75.123.134
+X-Sender-Host-Name: ccm134.constantcontact.com
+
+------=_Part_10403680_572637845.1355074329045
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+Dear lin,
+
+Forward email
+http://ui.constantcontact.com/sa/fwtf.jsp?llr=q9bcxkcab&m=1102018840400&ea=steelframekits%40activ8.net.au&a=1111810156230
+
+
+
+
+
+This email was sent to steelframekits@activ8.net.au by newsletter@mindfood.com.
+
+Update Profile/Email Address
+http://visitor.constantcontact.com/do?p=oo&mse=0010opz9yIv185uNw5dsqa6fjtXPDyZ6m3t&t=001WgzOemK57r0_hZGH-oqmEQ%3D%3D&l=001FCSs65SMrsI%3D&r=001IqezpQbqEsU%3D&llr=q9bcxkcab
+
+
+Instant removal with SafeUnsubscribe(TM)
+http://visitor.constantcontact.com/do?p=un&mse=0010opz9yIv185uNw5dsqa6fjtXPDyZ6m3t&t=001WgzOemK57r0_hZGH-oqmEQ%3D%3D&l=001FCSs65SMrsI%3D&r=001IqezpQbqEsU%3D&llr=q9bcxkcab
+
+
+Privacy Policy:
+http://ui.constantcontact.com/roving/CCPrivacyPolicy.jsp
+
+
+
+
+
+Online Marketing by
+Constant Contact(R)
+www.constantcontact.com
+
+
+
+MiNDFOOD | PO Box 588 | NSW 2024 | Waverley | Australia
+
+
+
+
+
+
+
+
+
+------=_Part_10403680_572637845.1355074329045
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<tr >
+
+					
+					                </tr>
+
+<tr >
+<td bgcolor="#000000" height="30" valign="middle" ><table ID="Table2" align="center" border="0" cellpadding="0" cellspacing="0" width="600" >
+<tr >
+<td ><a href="http://www.mindfood.com/pg-subscribe-mindfood-magazine.seo"><img alt="Subscribe" border="0" height="120" src="http://www.mindfood.com/newsletter/ftp/recipes/Intl-EBanner.gif" width="630"/></a></td>
+</tr>
+<tr >
+<td ><img alt="MiNDFOOD NEWSLETTER December 10, 2012" height="13" src="http://www.mindfood.com/newsletter/ftp/recipes/121203-date.jpg" width="301" /></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr >
+<td bgcolor="#dfdfdf" valign="top" ><table ID="Table3" align="center" border="0" cellpadding="0" cellspacing="0" width="600" >
+<tr >
+<td height="14" />
+</tr>
+
+<tr >
+<td height="14" />
+</tr>
+<tr >
+<td bgcolor="#FFFFFF" ><table ID="Table4" align="center" border="0" cellpadding="0" cellspacing="0" width="577" >
+<tr >
+<td height="11" />
+</tr>
+<tr >                              <td ><table ID="Table5" border="0" cellpadding="0" cellspacing="0" width="577" >
+<tr >
+<td valign="top" width="379" ><table ID="Table6" border="0" cellpadding="0" cellspacing="0" width="100%" >
+<tr >
+<td ><img alt="MiNDFOOD - Smart Thinking" height="94" src="http://www.mindfood.com/newsletter/ftp/Logo.jpg " width="379" /></td>
+</tr>
+<tr >
+<td bgcolor="#000000" height="3" />
+</tr>
+
+<tr >
+<td bgcolor="#f0f0f0" height="17" ><table ID="Table7" align="center" border="0" cellpadding="0" cellspacing="0" width="362" >
+<tr >
+<td valign="bottom" >&nbsp;</td>
+<td valign="top" >&nbsp;</td>
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" valign="top" >&nbsp;</td>
+</tr>
+
+
+
+<tr >
+<td align="left" color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="12px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #000000;" >Welcome to our weekly Menu Plan
+newsletter with lots of great recipe ideas for every day of the
+week.</td>
+</tr>
+
+
+<tr >
+<td valign="bottom" >&nbsp;</td>
+<td valign="top" >&nbsp;</td>
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" valign="top" >&nbsp;</td>
+</tr>
+<tr >
+<td valign="bottom" width="360" ><img alt="MiNDFOOD MONDAY RECIPE" height="200" src="http://www.mindfood.com/newsletter/ftp/recipes/121210-lead.jpg" width="360" /></td>
+<td valign="top" width="7" >&nbsp;</td>
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" valign="top" width="207" >
+
+
+
+
+
+<p >                                                                      </p>                                                                    </td>
+</tr>
+<tr >
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" valign="top" />
+</tr>
+<tr >
+<td valign="top" ><a color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/at-recipe-craisin-pistachio-nougat.seo" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" track="on">MONDAY</a></td>
+<td valign="top" >&nbsp;</td>
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" valign="top" />
+</tr>
+<tr >
+<td valign="top" ><span color="#070707" face="Verdana, Arial, Helvetica, sans-serif" size="14px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;color: #070707;line-height: 18px;" >Craisin and Pistachio Nougat
+
+
+
+
+
+</span></td>
+<td valign="top" >&nbsp;</td>
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" valign="top" />
+</tr>
+<tr >
+<td valign="top" ><span color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" >For a personal touch this Christmas, why not bake your own confectionary? Wrap these beautiful craisin and pistachio nougat in cellophane and festive ribbon, and share with your loved ones.
+
+
+
+
+ </span></td>
+<td valign="top" >&nbsp;</td>
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" valign="top" />
+
+
+<td height="23" /></tr>
+<tr >
+  <td valign="top" >&nbsp;</td>
+  <td valign="top" >&nbsp;</td>
+  <td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" valign="top" />
+</tr>
+<tr >
+<td valign="top" ><a href="http://r20.rs6.net/tn.jsp?e=001p1SFxj4sDQGO8KgsIn6HiGlMeJrb4XI-XiEAeveLoLXVwVpIE5FrEaC-MST1FCVw2OFx727Q2zc0FLQZPKQ0mHakLGbBbCS09f5p2NvlniFSNtmtknjWgnafQXIZ1vaocmVH7vu504mVggZ31qg7WTSXJWsjd4u6gNW7L3wUcRU="><img border="0" src="http://www.mindfood.com/newsletter/ftp/ArticleLinkmain.gif"/></a></td>
+<td valign="top" >&nbsp;</td>
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" valign="top" >                                                                    </td>
+</tr>
+</table>                                                        </td>
+</tr>
+
+<tr >
+<td bgcolor="#f0f0f0" />
+</tr>
+
+<tr >
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" >&nbsp;</td>
+</tr>
+
+<tr >
+<td height="12" />
+</tr>
+<tr valign="top" >
+<td valign="top" ><table ID="Table8" border="0" cellpadding="0" cellspacing="0" width="379" >
+<tr >
+<td valign="top" width="179" ><table ID="Table9" border="0" cellpadding="0" cellspacing="0" width="179" >
+
+<tr >
+
+<td ><table border="0" cellpadding="0" cellspacing="0" id="NewsSnippet" width="100%" >
+
+<tr >
+
+<td ><img alt="TUESDAY" height="123" src="http://www.mindfood.com/newsletter/ftp/recipes/121010-beans.jpg" width="179" /></td>
+</tr>
+
+<tr >
+
+<td bgcolor="#f6f6f6" height="8" />
+</tr>
+
+<tr >
+
+<td bgcolor="#f6f6f6" height="170" valign="top" ><table ID="Table10" align="center" border="0" cellpadding="0" cellspacing="0" width="168" >
+
+<tr >
+
+<td color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" height="23" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" ><a color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/at-in-season-food-bean-crispy-tofu-stir-fry-recipe.seo" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" track="on">TUESDAY</a></td>
+</tr>
+
+<tr >
+
+<td color="#070707" face="Verdana, Arial, Helvetica, sans-serif" size="14px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;color: #070707;line-height: 18px;" >Bean & Crispy Tofu Stir-fry  
+ </td>
+</tr>
+ 
+<tr >
+
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" >This spicy dish uses unusual yet delicious wing beans for a tasty Thai-inspired stir-fry, perfect for your meat-free weeknight dinner.
+
+</td>
+</tr>
+
+<tr >
+
+<td height="23" >
+
+<a href="http://r20.rs6.net/tn.jsp?e=001p1SFxj4sDQGDnEDNEr7Dn6rH_doPFomHBPF7OTt6sjwVbGSNH1AMGNQKcu6_XdZrZ9NycQzoK6_PB-la3dtQymyNZxw4sffIBZe4IM2ql5-fPNjIMoJFKhFw8X1-Rfe4EnkLUaAh8_iUIOcu56sHW0q2bEF3jpAhm2MVvEbBDh5wTtryAutUSTG-Un5XoyBH"><img border="0" src="http://www.mindfood.com/newsletter/ftp/ArticleLink.gif"/></a></td>
+</tr>
+
+</table></td>
+</tr>
+
+<tr >
+
+<td bgcolor="#999999" height="1" />
+</tr>
+
+</table></td>
+</tr>
+
+<tr >
+
+<td height="12" />
+</tr>
+
+<tr >
+
+<td ><table border="0" cellpadding="0" cellspacing="0" id="Table11" width="100%" >
+
+<tr >
+
+<td ><img alt="THURSDAY" height="123" src="http://www.mindfood.com/newsletter/ftp/recipes/121210-greek.jpg" width="179" /></td>
+</tr>
+
+<tr >
+
+<td bgcolor="#f6f6f6" height="8" />
+</tr>
+
+<tr >
+
+<td bgcolor="#f6f6f6" height="170" valign="top" ><table ID="Table12" align="center" border="0" cellpadding="0" cellspacing="0" width="168" >
+
+<tr >
+
+<td color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" height="23" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" ><a color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/at-christmas-food-greek-bubble-and-squeak-recipe.seo" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" track="on">THURSDAY</a></td>
+</tr>
+
+<tr >
+
+<td color="#070707" face="Verdana, Arial, Helvetica, sans-serif" size="14px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;color: #070707;line-height: 18px;" >Greek Bubble and Squeak 
+</td>
+</tr>
+
+<tr >
+
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" valign="top" >Mid-week meals need to be simple, like this wonderful recipe. Use up any leftover cooked potatoes in this delicious Greek-inspired dish, which makes a quick and easy lunch.
+
+
+
+
+
+
+
+ </td>
+</tr>
+
+<tr >
+
+<td height="23" >
+
+<a href="http://r20.rs6.net/tn.jsp?e=001p1SFxj4sDQGX1ubT5h8qK5rSLRXxoD3n_irgsJp3cYey5rYo_8avqGFtud-bgubo60JRHVse4CBWsj9bDOVxe59krfwxpY_ZZUFocGe0VmtuGsRvvvUMZXpGva6eNl957aIMPklI508MnlTc35Nt8uVoYtdBqqbgmmi5GDjefHYbEIfM7KPHPw=="><img border="0" src="http://www.mindfood.com/newsletter/ftp/ArticleLink.gif"/></a></td>
+</tr>
+
+</table></td>
+</tr>
+
+<tr >
+
+<td bgcolor="#999999" height="1" />
+</tr>
+
+</table></td>
+</tr>
+
+<tr >
+
+<td height="12" />
+</tr>
+
+<tr >
+
+<td ><table border="0" cellpadding="0" cellspacing="0" id="Table13" width="100%" >
+
+<tr >
+
+<td ><img alt="SATURDAY" height="123" src="http://www.mindfood.com/newsletter/ftp/recipes/121210-mini.jpg" width="179" /></td>
+</tr>
+
+<tr >
+
+<td height="8" />
+</tr>
+
+<tr >
+
+<td bgcolor="#f6f6f6" height="170" valign="top" ><table ID="Table14" align="center" border="0" cellpadding="0" cellspacing="0" width="167" >
+
+<tr >
+
+<td color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" height="23" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" ><a color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/at-food-in-season-xmas-mini-christmas-puddings-recipe.seo" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" track="on">SATURDAY</a></td>
+</tr>
+
+<tr >
+
+<td color="#070707" face="Verdana, Arial, Helvetica, sans-serif" size="14px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;color: #070707;line-height: 18px;" ><p >Mini Christmas Puddings
+
+
+
+
+
+
+</p></td>
+</tr>
+
+<tr >
+
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" />Delightful mini puddings are excellent as edible Christmas gifts. They're so easy to make, even the kids can help you put these festive creations together.
+
+
+
+
+
+
+
+</tr>
+
+<tr >
+
+<td height="23" >
+
+<a href="http://r20.rs6.net/tn.jsp?e=001p1SFxj4sDQE75zyW-7FZ1fyXi2DnRbpe82fr7IYNBsjine01NZF5dXp9z1DK7TWKlAFYBDaeuh-3durQrfN09yYwk3Zfqk23qPbcZ3Scy_jcGSQAHovZA9qBBNsWTSW-mq6pqGuVn2I8tRkLFJAsyuA1Ty8dJF1xPni_QAnYGaxcHsXAPMqb-KyZEnf0cTbh"><img border="0" src="http://www.mindfood.com/newsletter/ftp/ArticleLink.gif"/></a></td>
+</tr>
+
+</table></td>
+</tr>
+
+<tr >
+
+<td bgcolor="#999999" height="1" />
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+</table></td>
+</tr>
+
+</table>                                                                    </td>
+<td valign="top" width="21" >&nbsp;</td>
+<td valign="top" width="179" ><table ID="Table15" border="0" cellpadding="0" cellspacing="0" width="179" >
+
+<tr >
+
+<td ><table border="0" cellpadding="0" cellspacing="0" id="Table16" width="100%" >
+
+<tr >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td ><img alt="WEDNESDAY" height="123" src="http://www.mindfood.com/newsletter/ftp/recipes/121210-fish.jpg" width="179" /></td>
+</tr>
+
+<tr >
+
+
+
+<td bgcolor="#f6f6f6" height="8" />
+</tr>
+
+<tr >
+
+<td bgcolor="#f6f6f6" height="170" valign="top" ><table ID="Table17" align="center" border="0" cellpadding="0" cellspacing="0" width="168" >
+
+<tr >
+
+<td color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" height="23" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" ><a color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/at-christmas-food-asian-flavoured-whole-snapper.seo" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" track="on">WEDNESDAY</a></td>
+</tr>
+
+<tr >
+
+<td color="#070707" face="Verdana, Arial, Helvetica, sans-serif" size="14px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;color: #070707;line-height: 18px;" >Asian-flavoured Whole Snapper
+
+
+
+</td>
+</tr>
+
+<tr >
+
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" >So easy to prepare and impressive once served, try your hand at a whole baked Asian snapper this summer.
+
+
+</td>
+</tr>
+
+<tr >
+
+<td height="23" >
+
+<a href="http://r20.rs6.net/tn.jsp?e=001p1SFxj4sDQEaLVMGxoxKYW3fnQdKr_Piny2AhnRgjThalA9PlpLdL4fsVEHPLSoXNrI8AYFbH-KUV-CLxqzL-xMc4jGNadReMc7S80uSmjmlVpJZfNVR7QHH0yzXWikMhygI1_Skx0auGpvFw_tKV9F-6eCkfHfMOtyZvVsghj2-9i04JW0mTg=="><img border="0" src="http://www.mindfood.com/newsletter/ftp/ArticleLink.gif"/></a></td>
+</tr>
+
+</table></td>
+</tr>
+
+<tr >
+
+<td bgcolor="#999999" height="1" />
+</tr>
+
+</table></td>
+</tr>
+
+<tr >
+
+<td height="12" />
+</tr>
+
+<tr >
+
+<td ><table border="0" cellpadding="0" cellspacing="0" id="Table18" width="100%" >
+
+<tr >
+
+<td ><img alt="FRIDAY" height="123" src="http://www.mindfood.com/newsletter/ftp/recipes/121210-donut.jpg" width="179" /></td>
+</tr>
+
+<tr >
+
+<td bgcolor="#f6f6f6" height="8" />
+</tr>
+
+<tr >
+
+<td bgcolor="#f6f6f6" height="170" valign="top" ><table ID="Table19" align="center" border="0" cellpadding="0" cellspacing="0" width="168" >
+
+<tr >
+
+<td color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" height="23" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" ><a color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/at-cinnamon-doughnuts-chocolate-olive-oil-sauce-berries.seo" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" track="on">FRIDAY</a></td>
+</tr>
+
+<tr >
+
+<td color="#070707" face="Verdana, Arial, Helvetica, sans-serif" size="14px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;color: #070707;line-height: 18px;" >Cinnamon Doughnuts with Chocolate Olive Oil Sauce
+
+
+
+</td>
+</tr>
+
+<tr >
+
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" >These tasty cinnamon doughnuts are made even more decadent with a luxurious chocolate olive oil sauce and lots of fresh berries. 
+
+
+
+
+
+
+</td>
+</tr>
+
+<tr >
+
+<td height="23" >
+
+<a href="http://r20.rs6.net/tn.jsp?e=001p1SFxj4sDQHpig0-Ds-DIfjLteBRaBcCvKTuQmjcQ3KgTs801fcx0hB3344v3n5SBRGOVMvvMfIyMflZIBRSxFgEUp3czqJQh0QwRgA_u8tdO1b2xIo7PZBQpp85AfLmxYG6VIZRNZeePIRFvI1XydFE9f3anBKX5lyrHhsG7ZgIP3-jrysWRpoDE182Fs3I"><img border="0" src="http://www.mindfood.com/newsletter/ftp/ArticleLink.gif"/></a></td>
+</tr>
+
+</table></td>
+</tr>
+
+<tr >
+
+<td bgcolor="#999999" height="1" />
+</tr>
+
+</table></td>
+</tr>
+
+<tr >
+
+<td height="12" />
+</tr>
+
+<tr >
+
+<td ><table border="0" cellpadding="0" cellspacing="0" id="NewsSnippet2" width="100%" >
+
+<tr >
+
+<td ><img alt="SUNDAY" height="123" src="http://www.mindfood.com/newsletter/ftp/recipes/121210-ribs.jpg" width="179" /></td>
+</tr>
+
+<tr >
+
+<td height="8" />
+</tr>
+
+<tr >
+
+<td bgcolor="#f6f6f6" height="170" valign="top" ><table ID="Table20" align="center" border="0" cellpadding="0" cellspacing="0" width="168" >
+
+<tr >
+
+<td color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" height="23" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" ><a color="#7c6a3a" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/at-recipe-food-summer-moroccan-flavoured-lamb-ribs.seo" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6a3a;text-decoration: none;" track="on">SUNDAY</a></td>
+</tr>
+
+<tr >
+
+<td color="#070707" face="Verdana, Arial, Helvetica, sans-serif" size="14px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;color: #070707;line-height: 18px;" >Moroccan-Flavoured Lamb Ribs
+
+</td>
+</tr>
+
+<tr >
+
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" /> These sticky, fragrant lamb ribs are finger-licking good. Great for when you need to feed a hungry mob in a hurry. Serve with a fresh couscous salad.
+
+
+
+
+</tr>
+
+<tr >
+
+<td height="23" >
+
+<a href="http://r20.rs6.net/tn.jsp?e=001p1SFxj4sDQEuxVdfmDH-awZg7lbmXB03q14J2mqGpGDSv-dMeJiiwK74wr1t3O8QocqlqXmIQ192CvgANUpPBtgTQNhVFYQtn53is3a6-qe25hMmxaWR6VaRnQFjhfh0P055Upr9FFLIBpn3hGt8XRzp4s3-EnDTW2anZxcsSogs_KMNMkqNJuargA4mME4p"><img border="0" src="http://www.mindfood.com/newsletter/ftp/ArticleLink.gif"/></a></td>
+</tr>
+
+</table></td>
+</tr>
+
+<tr >
+
+<td bgcolor="#999999" height="1" />
+</tr>
+
+</table></td>
+</tr>
+
+</table>                                                                    </td>
+</tr>
+</table>                                                        </td>
+
+</tr>
+
+
+
+
+
+
+<tr >
+<td >&nbsp;</td>
+</tr>
+<tr >
+<td bgcolor="#000000" color="#FFFFFF" face="Arial, Helvetica, sans-serif" height="23" size="12px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FFFFFF;" >&nbsp;&nbsp;&nbsp;<strong >ALSO
+ON MiNDFOOD
+RIGHT NOW</strong></td>
+</tr>
+<tr >
+<td bgcolor="#f0f0f0" height="12" />
+</tr>
+<tr >
+<td bgcolor="#f0f0f0" valign="top" ><table ID="Table21" border="0" cellpadding="0" cellspacing="0" width="379" >
+<tr >
+<td align="right" color="#7c6939" face="Verdana, Arial, Helvetica, sans-serif" height="38" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6939;" valign="top" width="129" >Mind
+
+Games<br />
+<br />                                                                    </td>
+<td align="center" height="38" style="padding-top:3px;" valign="top" width="21" ><img alt="" height="7" src="http://w3svc611.production.dtchosting.com.au/newsletter/images/AlsoArrow.gif" width="4" /><br />
+<br />                                                                    </td>
+<td align="left" height="38" valign="top" width="229" ><a color="#000000" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/pg-online-puzzles-brain-teasers.seo" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" track="on">HONE
+
+YOUR INTELLECTUAL SKILLS WITH SUDOKU, CODE CRACKER AND MORE.</a></td>
+</tr>
+<tr >
+<td align="right" color="#7c6939" face="Verdana, Arial, Helvetica, sans-serif" height="38" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6939;" valign="top" >IN SEASON<br />
+<br />                                                                    </td>
+<td align="center" height="38" style="padding-top:3px;" valign="top" ><img alt="" height="7" src="http://w3svc611.production.dtchosting.com.au/newsletter/images/AlsoArrow.gif" width="4" /><br />
+<br />                                                                    </td>
+<td align="left" height="38" valign="top" ><a color="#000000" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/at-spring-lamb-racks-with-warm-pea-salad.seo" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" track="on">Spring Lamb Racks with Warm Pea Salad
+
+
+</a></td>
+</tr>
+<tr >
+<td align="right" color="#7c6939" face="Verdana, Arial, Helvetica, sans-serif" height="38" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-transform: uppercase;color: #7c6939;" valign="top" >SUBSCRIBE NOW</td>
+<td align="center" height="38" style="padding-top:3px;" valign="top" ><img alt="" height="7" src="http://w3svc611.production.dtchosting.com.au/newsletter/images/AlsoArrow.gif" width="4" /></td>
+<td align="left" height="38" valign="top" ><a color="#000000" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/pg-subscribe-mindfood-magazine.seo" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" target="_blank" track="on">DECEMBER ISSUE WITH JENNIFER GARNER ON SALE NOW </a></td>
+</tr>
+</table>                                                        </td>
+</tr>
+<tr >
+<td bgcolor="#f0f0f0" height="12" />
+</tr>
+<tr >
+<td bgcolor="#999999" height="1" />
+</tr>
+</table>                                          </td>
+<td valign="top" width="11" >&nbsp;</td>
+<td bgcolor="#ac9b6f" valign="top" width="187" ><table ID="Table22" border="0" cellpadding="0" cellspacing="0" width="187" >
+
+
+
+
+												
+
+
+
+
+
+<tr >
+<td align="center" bgcolor="#ac9b6f" >                                                                </td>
+</tr><tr >
+<td align="center" bgcolor="#ac9b6f" ><img alt="COMPETITON" height="24" src="http://www.mindfood.com/newsletter/ftp/artwork/competition.gif" width="187" /></td>
+</tr>
+<tr >
+<td align="center" bgcolor="#ac9b6f" ><table ID="Table26" border="0" cellpadding="0" cellspacing="0" width="160" >
+<tr >
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" >&nbsp;</td>
+</tr>
+<tr >
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" ><span color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" ><a href="http://www.mindfood.com/cp-win-spiral-food-hampers-competition.seo"><img alt="" border="0" height="123" src="http://www.mindfood.com/newsletter/ftp/recipes/121210-comp.jpg" width="160"/></a></span></td>
+</tr>
+<tr >
+<td align="left" color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" ><br />Win one of four hampers from Spiral Foods, valued at $50. Each hamper contains Organic Shoyu, Organic Brown Rice Vinegar, Instant Red Miso, Organic Green Tea, Quinoa Crackers with Black Sesame Seeds & more. Comp closes Dec 14.
+
+
+</td>
+</tr>
+<tr >
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" >
+<br />
+<a href="http://r20.rs6.net/tn.jsp?e=001p1SFxj4sDQEdhROaj70RaUB7QZbIvUB-1XeSr4KvHg4QnOV1BDJN64NoP-rwRCfH6HPuBDqeRE5gbxGcF-oyLlcJDmjr08DF_2VrMs0gdxq-QQt_6GKVMs3viE0UNY6xzL3IComkZ52Zg0Xro4PNqfH39DzLBGeaWP04WuEbAVw="><img border="0" src="http://www.mindfood.com/newsletter/ftp/artwork/enter.jpg"/></a>                                                                    </td>
+</tr>
+</table></td>
+</tr>
+
+<tr >
+<td align="center" bgcolor="#ac9b6f" >&nbsp;</td>
+</tr>
+<tr >
+<td align="center" bgcolor="#ac9b6f" ><img alt="ADVERTISEMENT" height="24" src="http://www.mindfood.com/newsletter/ftp/artwork/advertisement.gif" width="187" /></td>
+</tr>
+
+<tr >
+<td align="center" bgcolor="#ac9b6f" ><table ID="Table26" border="0" cellpadding="0" cellspacing="0" width="160" >
+<tr >
+<td align="center" color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" >&nbsp;</td>
+</tr>
+<tr >
+<td align="center" color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" ><span color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" ><a href="http://r20.rs6.net/tn.jsp?e=001QzgsvxIEix249rw5C-yY92ok0BailLa2K3_RmyCheCB4pYKSzvVhXKeD575wVpIHouKJwmX3JfmWMtBeqCo8VtfdwY6PtyztmAmrhqxt6s__XdfLSGHTxNffYtj8qhTnnTojakK1aIjigYhBV5kQB_ZuWGqYYVEuTzx0f9G58A-P-vCIgPJIww=="><img align="center" alt="" border="0" height="309" src="http://www.mindfood.com/newsletter/ftp/recipes/ipad-widget-dec.gif" width="162"/></a></span></td>
+</tr>
+
+</table></td>
+</tr>
+
+
+<tr >
+<td align="center" bgcolor="#ac9b6f" >&nbsp;</td>
+</tr>
+
+<tr >
+<td align="center" bgcolor="#ac9b6f" ><img alt="EDITOR'S CHOICE" height="24" src="http://www.mindfood.com/newsletter/ftp/artwork/editorchoice.gif" width="187" /></td>
+</tr>
+<tr >
+<td align="center" bgcolor="#ac9b6f" ><table ID="Table26" border="0" cellpadding="0" cellspacing="0" width="160" >
+<tr >
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" >&nbsp;</td>
+</tr>
+<tr >
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" ><span color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" ><a href="http://www.mindfood.com/pg-competition-index-page-win-giveaway-enter.seo"><img alt="" border="0" height="600" src="http://www.mindfood.com/newsletter/ftp/recipes/30days-Christmas-ss.jpg" width="160"/></a></span></td>
+</tr>
+
+
+</table></td>
+</tr>
+<tr >
+<td align="center" bgcolor="#ac9b6f" >&nbsp;</td>
+</tr>
+
+<tr >
+<td align="center" bgcolor="#ac9b6f" ><img alt="FOLLOW US" height="24" src="http://www.mindfood.com/newsletter/ftp/artwork/follow.jpg" width="187" /></td>
+</tr>
+<tr >
+<td align="center" bgcolor="#ac9b6f" ><table ID="Table26" border="0" cellpadding="0" cellspacing="0" width="160" >
+<tr >
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" >&nbsp;</td>
+</tr>
+<tr >
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" ><span color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" ><a href="http://twitter.com/mindfood_mag"><img alt="" border="0" height="67" src="http://www.mindfood.com/newsletter/ftp/100419-twitter.jpg" width="160"/></a></span></td>
+</tr>
+<tr >
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" >&nbsp;</td>
+</tr>
+<tr >
+<td color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;" ><span color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;text-transform: uppercase;text-decoration: none;" ><a href="http://www.facebook.com/mindfoodmag?ref=ts"><img alt="" border="0" height="67" src="http://www.mindfood.com/newsletter/ftp/100419-facebook.jpg" width="160"/></a></span></td>
+</tr>
+</table></td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+</table>                                          </td>
+</tr>
+</table>                                </td>
+</tr>
+<tr >
+
+<td align="center" height="33" ><a color="#666666" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #666666;text-decoration: none;" target="_blank" track="on">WEBSITE 
+HOME</a> | <a color="#666666" face="Verdana, Arial, Helvetica, sans-serif" href="http://www.mindfood.com/pg-about-mindfood.seo" linktype="undefined" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #666666;text-decoration: none;" target="_blank" track="on">
+ABOUT MiNDFOOD</a></td>
+</tr>
+<tr >
+
+
+<td bgcolor="#000000" height="3" />
+</tr>
+<tr >
+<td align="center" height="29" ><span color="#7c6939" face="Verdana, Arial, Helvetica, sans-serif" size="10px" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #7c6939;text-decoration: none;" >&copy; COPYRIGHT 2008 MiNDFOOD</span></td>
+</tr>
+</table>                    </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr >
+<td bgcolor="#dfdfdf" >&nbsp;</td>
+</tr>
+<br />
+<table bgcolor="#ffffff" padding="0" width="100%" ><tr align="center" ><td ><table bgcolor="#ffffff" width="595" ><tr ><td colspan="2" ><font face="tahoma,sans-serif" size="1" ><b ><a href="http://ui.constantcontact.com/sa/fwtf.jsp?llr=q9bcxkcab&m=1102018840400&ea=steelframekits%40activ8.net.au&a=1111810156230" style="color: #0000ff;" target="_blank">Forward email</a></b></font><br />
+<br />
+</td></tr>
+<tr ><td ><FooterContent ><a href="http://visitor.constantcontact.com/do?p=un&mse=0010opz9yIv185uNw5dsqa6fjtXPDyZ6m3t&t=001WgzOemK57r0_hZGH-oqmEQ%3D%3D&l=001FCSs65SMrsI%3D&r=001IqezpQbqEsU%3D&llr=q9bcxkcab" target="_blank"><img border="0" src="http://img.constantcontact.com/letters/images/SafeUnsubscribe_Footer_Logo_New.png"/></a></FooterContent></td><td align="right" ><font face="tahoma,sans-serif" size="1" ><FooterLogo ><a href="http://www.constantcontact.com/index.jsp?cc=custom01"><img border="0" src="http://img.constantcontact.com/letters/images/CC_Footer_Logo_New.png"/></a></FooterLogo></font>
+</td>
+</tr><tr ><td colspan="2" ><font face="tahoma,sans-serif" size="1" ><FooterContent ><div >This email was sent to steelframekits@activ8.net.au by <a href="mailto:newsletter@mindfood.com" style="color:#0000ff;">newsletter@mindfood.com</a> <span style="color: #bababa;" > | </span> &nbsp; </div>
+<div ><a href="http://visitor.constantcontact.com/do?p=oo&mse=0010opz9yIv185uNw5dsqa6fjtXPDyZ6m3t&t=001WgzOemK57r0_hZGH-oqmEQ%3D%3D&l=001FCSs65SMrsI%3D&r=001IqezpQbqEsU%3D&llr=q9bcxkcab" style="color:#0000ff;" target="_blank">Update Profile/Email Address</a> <span style="color: #bababa;" >|</span> Instant removal with <a href="http://visitor.constantcontact.com/do?p=un&mse=0010opz9yIv185uNw5dsqa6fjtXPDyZ6m3t&t=001WgzOemK57r0_hZGH-oqmEQ%3D%3D&l=001FCSs65SMrsI%3D&r=001IqezpQbqEsU%3D&llr=q9bcxkcab" style="color:#0000ff;" target="_blank">SafeUnsubscribe</a>&trade;  <span style="color: #bababa;" >|</span>  <a href="http://ui.constantcontact.com/roving/CCPrivacyPolicy.jsp" style="color:#0000ff;" target="_blank">Privacy Policy</a>.</div></FooterContent></font>
+</td>
+</tr>
+<tr ><td colspan="2" ><font face="tahoma,sans-serif" size="1" ><br />MiNDFOOD | PO Box 588 | NSW 2024 | Waverley | Australia</font>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br />
+
+------=_Part_10403680_572637845.1355074329045--
+
+

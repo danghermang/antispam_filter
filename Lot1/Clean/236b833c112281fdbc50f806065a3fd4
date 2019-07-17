@@ -1,0 +1,74 @@
+Subject:Re: Installation sur partition GPT
+On Thu, 4 Oct 2012 21:24:09 +0200
+"Eddy F." <edfnet-deb@yahoo.fr> wrote:
+
+>=20
+> Le portable est partitionn=C3=A9 en GPT et la partion syst=C3=A8me UEFI
+> contient bien un booloader uefi pour windows. Si j'ai bien
+> compris, le MBR au d=C3=A9but du disque est factice.=20
+> Comment dans ces conditions pourrais-je repasser le portable en =C2=AB
+> mode bios mbr =C2=BB (sans effacer la table de partition et en cr=C3=A9er
+> une msdos) ? Passer l'option UEFI Boot =C3=A0 disable dans le bios ne
+> changera quand m=C3=AAme rien au fait qu'il n'y a pas de MBR sur le
+> disque et qu'il faut passer par la partition syst=C3=A8me UEFI.
+>=20
+> Est-ce correct ou pas ?
+
+D'apr=C3=A8s cette doc:
+https://wiki.archlinux.org/index.php/Unified_Extensible_Firmware_Interface
+les firmwares uefi sont cens=C3=A9s supporter GPT & MBR, mais reste =C3=A0
+voir comment synchroniser exactement les 2...
+
+Normalement, un w$7 devrait pouvoir aussi d=C3=A9marrer en mode BIOS (ce
+qui n'est plus le cas pour w$8:(; reste l=C3=A0 aussi =C3=A0 voir si la
+version pr=C3=A9-install=C3=A9e n'a pas =C3=A9t=C3=A9 modifi=C3=A9 pour un =
+boot s/s uefi only.
+
+Bien que l'OP souhaite faire le contraire, ceci peut pt=C3=AAt aider:
+http://askubuntu.com/questions/84501/how-can-i-change-convert-a-ubuntu-mbr-=
+drive-to-a-gpt-and-make-ubuntu-boot-from
+
+> Parce que, puisque je ne peux effacer la table de partition GPT
+> (pour cause de fabriquant cr=C3=A9tin ne fournissant pas de disque
+> d'installation mais une partition recovery),
+
+Ce sont 2 choses diff=C3=A9rentes: d'une part une table de partition,
+d'autre part un fabricant qui =C3=A9conomise le co=C3=BBt du pressage d'un
+(ou +sieurs) DVD - Th=C3=A9oriquement, la plupart des syst=C3=A8mes de
+restauration par partition proposent la possibilit=C3=A9 de claquer
+un/des DVD avec leur contenu pour justement pouvoir supprimer la
+partoche de restauration, mais tout =C3=A9volue et souvent pas dans
+le bon sens.
+
+> je suis oblig=C3=A9 de me
+> d=C3=A9brouiller pour installer un linux =C3=A0 d=C3=A9marrer en uefi. No=
+n ?
+
+Le PB, c'est que pour faire =C3=A7a il te faudra vraisemblablement une cl=
+=C3=A9
+correspondant au firmware:
+http://www.zdnet.com/blog/open-source/linus-torvalds-on-windows-8-uefi-and-=
+fedora/11187
+dixit Torvald, qui prend IMHO un peu beaucoup trop de libert=C3=A9 avec ce
+PB...
+
+Cette daube est en fait une mani=C3=A8re facile et chiante pour ces cons
+de gros fabricants de placer un DRM d=C3=A8s le boot, et comme malheu-
+reusement c'est le choix de Seattle pour le futur, =C3=A7a a de grosses
+chances de devenir rapidement la norme.
+
+--=20
+Diez': de toute mani=C3=A8re, dans ma classe, la moiti=C3=A9 c'est des conn=
+ards et
+       des gays, l'autre c'est des grosses cochonnes
+Gin: et tu te situerais plut=C3=B4t dans quelle cat=C3=A9gorie?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121004215818.0ef88a3a@anubis.defcon1
+

@@ -1,0 +1,49 @@
+Subject:Re: Miniatures de fichiers Libre/OpenOffice sous Nautilus de Squeeze
+Le  4 d=C3=A9cembre 2012, Fr=C3=A9d=C3=A9ric Massot a =C3=A9crit :
+
+> Le 03/12/2012 14:57, Alain Rpnpif a =C3=A9crit :
+
+> > Sous Nautilus, je n'arrive pas =C3=A0 obtenir de miniatures de mes fich=
+iers
+> > OpenDocument (ODT, etc. textes, dessins ou autres) mais dans certains
+> > r=C3=A9pertoires seulement. Pourtant, cela marche dans la plupart des a=
+utres.
+> > Je suis sous Debian Squeeze agr=C3=A9ment=C3=A9 de squeeze-backports. L=
+es autres
+> > fichiers (PDF, etc.) ne pr=C3=A9sentent pas ce probl=C3=A8me.
+> > J'ai tent=C3=A9 d'effacer tout sous $HOME/.thumbnails/ de fa=C3=A7on =
+=C3=A0 r=C3=A9g=C3=A9n=C3=A9rer
+> > l'ensemble des diapos/miniatures, mais rien y fait.
+> > J'ai v=C3=A9rifi=C3=A9 le contenu des fichiers ODT en cause : la miniat=
+ure existe
+> > bien (thumbnail.png). Je ne comprends pas.
+>=20
+> Les miniatures des fichiers ODT sont cr=C3=A9=C3=A9es par le paquet ooo-t=
+humbnailer.
+>=20
+> ooo-thumbnailer ne fonctionne plus avec Gnome 3 :=20
+> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D659321
+
+ooo-thumbnailer est bien install=C3=A9 et je rappelle que les miniatures
+sont bien g=C3=A9n=C3=A9r=C3=A9es sous *certains* r=C3=A9pertoires et que S=
+queeze est sous
+Gnome 2 et je n'ai pas l'intention de passer =C3=A0 Gnome3 avant... peut-=
+=C3=AAtre
+jamais (peut-=C3=AAtre =C3=A0 Mate ou XFCE).
+
+Une autre id=C3=A9e ?
+
+Cordialement.
+
+--=20
+Alain Rpnpif
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121208112550.5232B100192@chro.home
+

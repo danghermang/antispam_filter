@@ -1,0 +1,47 @@
+Subject:Re: Agrandar espacio a Debian
+Hola
+
+Aunque no tengas LVM puedes hacerlo si redimensionas la particion con el
+espacio libre de las otras particiones y el sistema de ficheros que uses
+es capaz de redimensionarse.
+
+Por ejemplo, con ext4 puedes usar el comando resize2fs para aumentar
+espacio.
+
+Con LVM simplemente añadirías las particiones al grupo de volumen y
+redimensionarias el volumen y, ademas, harias la redimension del sistema
+de ficheros al nuevo espacio pero te ahorras los trabajos de redimension
+de particiones, eliminacion y demás.
+
+Siempre haz copia de seguridad cuando redimensiones particiones... por si.
+
+Saludos
+
+-----------------------------------------------------------------
+Francisco J. Bejarano
+Responsable de Sistemas
+Dpt. Sistemas e Infraestructuras
+Open Knowledge Network S.L.
+francisco.bejarano@openknowledgenetwork.com
+Tel. (+34) 902 534 004
+Fax. (+34) 917 266 476
+-----------------------------------------------------------------
+
+El 30/10/12 14:40, Darío escribió:
+> Hola lista, estoy pensando en agrandar el espacio (no libre) que
+> tengo, el problema es que en ese espacio hay dos particiones, en una
+> de las cuales tengo instalado Scientific Linux junto a su respectivo
+> /home en otra partición. Mi duda es si puedo eliminar dichas
+> particiones (pensaba hacerlo con gparted) y añadirlas al resto de las
+> particiones en partes iguales. El problema es que al crear esas
+> particiones no lo hice con LVM, no sé si tiene que ver eso.
+> 
+> Saludos y gracias!
+> 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/508FE637.6080104@openknowledgenetwork.com
+

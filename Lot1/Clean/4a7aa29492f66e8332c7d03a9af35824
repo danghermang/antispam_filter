@@ -1,0 +1,28 @@
+Subject:Request for update of linux-image-3.2.0-0.bpo.3-amd64 to 3.2.33
+Would be nice if this was updated to 3.2.33, especially since lower version=
+s make it almost impossible to properly run a production nfs4 server.
+
+commit f42ce0ca9eaf8a71f95dd0909c3ade7ab9cd824d
+Author: J. Bruce Fields <bfields@redhat.com>
+Date: Wed Aug 29 15:21:58 2012 -0700
+
+    nfsd4: fix nfs4 stateid leak
+
+    commit cf9182e90b2af04245ac4fae497fe73fc71285b4 upstream.
+
+    Processes that open and close multiple files may end up setting this
+    oo_last_closed_stid without freeing what was previously pointed to.
+    This can result in a major leak, visible for example by watching the
+    nfsd4_stateids line of /proc/slabinfo.
+
+
+Regards,
+
+Taylan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/FF1DF58D04F11D4291D09795D1A4EF161858D9F9E7@SRV-MAIL
+

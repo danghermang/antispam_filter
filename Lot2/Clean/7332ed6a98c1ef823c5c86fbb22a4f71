@@ -1,0 +1,32 @@
+Subject:Re: [Jukebox-list] WurliTzer 2900 keyswitch panel
+Shankar:=0A=0AThere are=A0two usual causes to a trouble symptom like this--=
+=0A=0AOne is a weak or low voltage -28 volt DC control-voltage power supply=
+.=A0 This =0Asupply is located on the amplifier chassis. Measure with voltm=
+eter to verify.=A0 =0AI'm aware that you've done a substantial amount of re=
+build work on this W2900 to =0Aget it running again.=A0 I'm assuming that y=
+ou've rebuilt all the electronics.=A0=A0 =0AIf DC voltage checks low,read t=
+he AC voltage on the secondary winding of the =0Apower transformer. If that=
+ reads OK,=A0one or both of the=A0heat-sunk diodes are =0Ausually the probl=
+em.=A0=A0 =A0=0A=0AThe second thing is that you have a marginally dirty/mec=
+hanically sticking relay =0Aor solenoid.=A0=A0 Check for dirty open leaf sw=
+itch contacts located on latching =0Asolenoids located at rear of keyboard.=
+=A0 Check the appropriate white-cover plug =0Ain relays on the control chas=
+sis.=A0=A0 Substituting one relay for another will =0Ausually show up the f=
+aulty one.=0A=0A=0AJim Alexander=A0=A0 =0A=0A=0A=0A=0A_____________________=
+___________=0AFrom: Shankar Singh <shankarsingh1@gmail.com>=0ATo: Jukebox m=
+ailing list <jukebox-list@lists.netlojix.com>=0ASent: Sun, November 4, 2012=
+ 9:24:51 PM=0ASubject: [Jukebox-list] WurliTzer 2900 keyswitch panel=0A=0AC=
+oin is inserted and Select lamp is ON.=0A=0ANormally, when making a selecti=
+on the select lamp goes off and comes back on =0Awhen the letter and number=
+ keys are released after each selection.=0A=0AWhat recently developed:=0Ath=
+e select lamp blanks out for seconds longer and then the 2 keys are release=
+d.=0A=0AAny ideas what might be causing this?=0A=0AThank you=0A=0AShankar S=
+ingh=0A_______________________________________________=0AJukebox-list maili=
+ng list=0AJukebox-list@lists.netlojix.com=0Ahttp://lists.netlojix.com/mailm=
+an/listinfo/jukebox-list=0ASearchable Archives: http://jukebox.markmail.org=
+/=0A
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

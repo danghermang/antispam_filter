@@ -1,0 +1,21 @@
+Subject:[Flexradio] PowerSDR with WSJT-X JT9-1 Operation?
+I am decoding JT9-1 signals just fine, but no one has been able to 
+decode my signals including myself while running full duplex into a 
+dummy load. This new experimental program has separate selections for 
+the different VAC drivers available. I am using the WDM-KS in both 
+PowerSDR and WSJT-X.
+
+Has anyone had a successful JT9 QSO with a Flex-5000 using VAC and WSJT-X?
+
+WSJT-X is an experimental release, so may be a bug or my setup.
+
+73,
+Bill
+NJ1H
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

@@ -1,0 +1,33 @@
+Subject:[Hsqldb-user] Temporary tables: Creating and selecting in single
+	query
+I am having trouble trying to both create temporary table and run a
+select over it in a single query. My query looks something like this:
+
+DROP TABLE IF EXISTS foo
+DECLARE LOCAL TEMPORARY TABLE foo AS (
+    select * from ...
+) WITH DATA
+
+SELECT * FROM foo
+
+This returns the error: "user lacks privilege or object not found: FOO"
+
+If I include semicolons after each part of the query it runs fine.
+However, I am trying to get this query to run on a very old version of
+Elixir Reports which seems to ignore the use of semicolons.
+Can anyone recommend another approach to this situation?
+
+It's worth noting that I have many of these queries to refactor and
+they are much more complex than the simplified one above, and I don't
+want to have to rewrite them too much if possible.
+
+------------------------------------------------------------------------------
+Live Security Virtual Conference
+Exclusive live event will cover all the ways today's security and 
+threat landscape has changed and how IT managers can respond. Discussions 
+will include endpoint security, mobile security and the latest in malware 
+threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

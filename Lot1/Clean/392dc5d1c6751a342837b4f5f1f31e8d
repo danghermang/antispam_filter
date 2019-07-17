@@ -1,0 +1,12 @@
+Subject:Re: [rlug] php - xml_parse_into_struct fail
+> Problema este ca in php5.3.3 (debian lenny), functia xml_parse_into_struct esueaza cu return code 0, fara a da nici o eroare, si evident fara a-si face treaba.
+
+In caz ca am fost prea laconic inainte, de la al doilea link aflam:
+
+"Also, I tested before and after xml_parser_free() -- as expected, the
+error is indeed cleared with the free() so check your error before
+calling xml_parser_free()"
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

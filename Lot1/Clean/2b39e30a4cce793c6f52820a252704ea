@@ -1,0 +1,52 @@
+Subject:Re: [LUG] Time to upgrade
+On 26/10/12 09:18, Neil Winchurst wrote:
+
+> Not quite sure what you mean about getting a SSD drive. Will research it.
+>
+> Thanks
+>
+> Neil
+>
+
+An SSD drive is a solid state disk, i.e. Flash memory as a drive.  It's 
+in a way similar to a USB drive but a whole lot quicker.  IIRC speeds 
+are something like 400 or 500 Megabytes a second read speed and around 
+175 Megabytes a second write speeds (although it does depend on the SATA 
+controller, in my case my laptop has a slower SATA2 interface so I'd be 
+limited to 300MB/sec).
+
+Looking at a Seagate 1TB 3.5" SATA3 desktop drive it looks like the data 
+transfer rates are around 175MB/sec.
+
+I was looking at this Crucial drive:
+
+http://www.crucial.com/uk/store/mpartspecs.aspx?mtbpoid=91747533A5CA7304
+
+So that would give you 128GB of very fast storage.  The idea is you 
+install the OS (so the root partition, and maybe swap too, not sure if 
+this is generally a good idea or not?) and then have a separate hard 
+drive for your /home directory.
+
+Of course you can put everything on the SSD drive (root, home and swap) 
+but then you're more limited to space, although SSD drives are getting 
+cheaper.
+
+I'm considering an SSD upgrade to speed up my laptop a little bit.  I 
+currently have a 320GB hard drive in the machine but the drive is nearly 
+full.  I dare say I could probably clear out some of the stuff on the 
+drive and even put some of it on an external USB drive (a lot of it I 
+don't access) and benefit from the speed upgrade.
+
+Other options to consider if you want a compromise between speed and 
+storage capacity is a hybrid drive.  These are hard drives with some 
+flash memory built in to store some of the more commonly used data on 
+the drive, such as the operating system.  I gather they are faster when 
+reading cached data from the flash.
+
+Rob
+
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

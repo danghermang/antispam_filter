@@ -1,0 +1,28 @@
+Subject:fini les video flash bleues =?UTF-8?B?Z3LDomNlIMOgIG52ZHBhdSBzaWQ=?=
+	=?UTF-8?B?ICBpbnN0YWxsw6kgc3VyIHdoZWV6eQ==?=
+Bonjour
+
+libvdpau1-0.4.1-7 sid (système 64 bits) installé sur ma Wheezy semble 
+régler le problème des "fameuses peaux bleues" rencontrées sur youtube 
+avec le plugin flashplayer.
+Ouf....
+Le problème semblait concerner seulement le couple flashplayer + nvidia 
+et non nvidia puisque les mêmes video téléchargées puis ouvertes avec 
+avidemux, vlc, etc, étaient normales.
+
+Linux-x86_64
+nvidia driver 304.43
+
+Cordialement
+-- 
+Maderios
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5041DC0C.1000603@gmail.com
+

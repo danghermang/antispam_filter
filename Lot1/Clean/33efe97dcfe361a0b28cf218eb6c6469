@@ -1,0 +1,18 @@
+Subject:Re: Iceweasel + Pdf
+El 25/11/12 00:53, Jo Sé escribió:
+> No he podido hacer que el iceweasel lo abra para leerlo sin
+> descargarlo...
+
+No sé si es una forma de decir, pero... supongo que sabes que para abrir
+el pdf lo tiene que descargarlo, ¿no?
+
+Desconozco si hay algo similar al streaming con pdf (si alguien sabe
+algo que lo diga, por favor), pero lo más común es que el plugin
+descargue el pdf y lo abra utilizando el navegador web como interfaz.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B234D4.4070600@gmail.com
+

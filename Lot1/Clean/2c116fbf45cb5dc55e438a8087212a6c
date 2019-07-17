@@ -1,0 +1,36 @@
+Subject:[Koha] Global Bug Squashing Weekend starts Friday!
+It was decided at the IRC general meeting yesterday that this weekend
+would be a Global Bug Squashing weekend, starting Friday November 9th
+and running through Monday November 12 in whatever time zone you
+choose.
+
+Not sure how you can help? Jump on the IRC channel (
+http://koha-community.org/get-involved/irc/ ) and we will help you get
+ started! And with the sandboxes provided by BibLibre all you need in
+ order to join the fun is a web browser!
+
+http://wiki.koha-community.org/wiki/2012-11-09_Global_bug_squashing_day
+
+To those submitting patches, I ask again that every patch come with a
+test plan outlining:
+
+1. What the problem is.
+ 2. How to reproduce the problem.
+ 3. What the patch does to solve the problem.
+ 4. What (if any) configuration steps need to be taken after the patch
+ is applied.
+ 5. What steps to take to test that the patch is working correctly.
+
+And finally, even if you can't submit a patch or test a patch you can
+simply TEST! Kick Koha's tires and see if you can break something!
+
+  -- Owen
+
+-- 
+Web Developer
+Athens County Public Libraries
+http://www.myacpl.org
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

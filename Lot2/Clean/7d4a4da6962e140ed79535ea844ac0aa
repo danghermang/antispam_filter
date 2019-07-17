@@ -1,0 +1,51 @@
+Subject:Re: Sobre telnet
+On Thursday 18 October 2012 14:23:52 Federico Alberto Sayd wrote:
+> On 17/10/12 13:44, cosme@esid.gecgr.co.cu wrote:
+> > Hola
+> >=20
+> > Como es posible que si aplico la regla de iptables
+> >=20
+> > /sbin/iptables -A INPUT -p tcp --dport 23 -j DROP
+> >=20
+> > o sea aqui todo lo que viene con destino a ese puerto lo cierra
+> >=20
+> > Al parecer telnet es usado como servicio lo que tambi=E9n prob'e en los
+> > hosts.allow  de varias formas
+> >=20
+> > in.telnetd: 192.168.71.5
+> >=20
+> >=20
+> > hosts.deny
+> > in.telnetd: ALL
+> >=20
+> >=20
+> > Tampoco surte ningun efecto
+> >=20
+> > si hago telnet 192.168.71.5 21
+> > accedo
+> >=20
+> > si hago telnet 192.168.71.5 25
+> > accedo
+> >=20
+> > Que me falta???
+> >=20
+> > Uso debian squeeze
+> >=20
+> > Salu2
+>=20
+> Est=E1s bloqueando el puerto 23 y luego quieres conectarte al puerto 21,
+> si no bloqueas el 21 seguro que podr=E1s conectarte si hay alg=FAn proceso
+> escuchando en ese puerto.
+
++1
+
+> Saludos
+
+=2D-=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210182216.38955.marc.olive@blauadvisors.com
+

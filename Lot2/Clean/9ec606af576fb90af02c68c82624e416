@@ -1,0 +1,53 @@
+Subject:Re: problemas leyendo NTFS
+El Mon, 26 Nov 2012 12:41:48 -0300, Ricardo Delgado escribió:
+
+> a y b ya lo habia revisado
+> 
+> en a hice el scandisk y chequeo con chkdsk /f sin problemas encontrados
+
+Pare ejecutar a) correctamente debes hacerlo de la siguiente forma:
+
+- Seleccionar la opción de "reparar automáticamente errores..."
+- Seleccionar "examinar e intentar recuperar sectores defectuosos"
+
+Es decir, tienes que activar las dos opciones.
+ 
+> en b hice chequeo sin problemas
+
+Para ejecutar b) correctamente debes hacerlo con la herramienta que 
+facilita el fabricante del disco duro, y que para las unidades externas 
+(USB) sólo suele estar disponible para windows.
+
+> como ya comente en windows anda sin problemas, levanta la unidad bien.
+
+Eso puede descartar b) pero no a) ya que Windows usa un driver para NTFS 
+que obviamente es nativo mientras que en Linux se ha desarrollado con 
+ingeniería inversa por lo que la interpretación de cada cual sobre el 
+estado del sistema de archivos variará.
+
+Prueba a conectar el disco duro en windows y extraerlo de manera segura 
+para que no deje ningún rastro que pueda estar molestando al driver de 
+linux.
+
+Por cierto ¿qué driver usas, ntfs o ntfs-3g?
+
+> ninguna de las sugerencias google me sirvieron hasta ahora
+
+(...)
+
+Prueba con la documentación oficial:
+
+What does the “I/O error” mean?
+http://www.tuxera.com/community/ntfs-3g-faq/#ioerror
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9048f$vpg$5@ger.gmane.org
+

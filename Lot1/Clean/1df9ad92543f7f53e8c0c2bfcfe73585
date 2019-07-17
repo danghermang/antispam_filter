@@ -1,0 +1,50 @@
+Subject:Re: SD Karte wird nicht erkannt
+Hi Nils,
+> Frank wrote:
+> > auf meinem Laptop werden pl=F6tzlich keine SD-Karten mehr erkannt.
+> > SD Karten sind alle offen, kein Lock.
+> =
+
+> Wurden die SD-Karten fr=FCher auf diesem Laptop erkannt? Bei alten SD-
+> Controllern k=F6nnen keine SDHC Karten (>1GB?) gelesen werden.
+Ja bis gestern noch
+> =
+
+> Funktionieren die Karten mit einem anderen Rechner?
+
+ja einwandfrei
+> =
+
+> Wird etwas ins Syslog geschrieben, wenn eine SD-Karte eingest=F6pselt =
+
+> wird? Das kannst Du folgenderma=DFen feststellen: Terminal =F6ffnen und =
+
+> diesen Befehl eingeben:
+> =
+
+> tail -f /var/log/syslog
+
+Oct 26 15:29:08 franky-MM061 kernel: [ 2933.892775] mmc0: Got command inter=
+rupt 0x00030000 even though no command operation was in progress.
+
+
+
+-- =
+
+            Sch=F6ne Gr=FC=DFe Cooldriver Frank  =
+
+              =
+
+         UBUNTU LINUX Precise Pangolin 12.04 (LTS)
+                   XFCE und Claws Mail
+                    Dell Inspiron 6400
+
+           M=F6gen h=E4tte ich schon wollen,
+      aber d=FCrfen habe ich mich nicht getraut.
+                  Karl Valentin
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

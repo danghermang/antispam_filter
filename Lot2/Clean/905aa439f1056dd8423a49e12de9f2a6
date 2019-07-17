@@ -1,0 +1,31 @@
+Subject:Re: mdadm: Cannot open /dev/sdb1: Device or resource busy
+El Fri, 23 Nov 2012 18:19:32 +0100, Mariano Cediel escribió:
+
+> un raid degradado
+> pongo un disco nuevo y copio la tabla de particiones sfdisk -d /dev/sda
+> | sfdisk -f /dev/sdb
+> 
+> ejecutando ...
+>  mdadm --manage /dev/md0 --add /dev/sdb1
+> 
+> obtengo ...
+> mdadm: Cannot open /dev/sdb1: Device or resource busy
+
+(...)
+
+Por si te sirve de algo, es el primer "error conocido" que ponen en 
+Wikipedia:
+
+http://en.wikipedia.org/wiki/Mdadm#Known_problems
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8obsd$e13$8@ger.gmane.org
+

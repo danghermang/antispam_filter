@@ -1,0 +1,21 @@
+Subject:Re: [LUG] Linux - and security
+  On 05/11/2012 11:22, Neil Stone wrote:
+>
+> Most network devices will support dhcp or manual configuration. Bear 
+> in mind that DHCP can be used to assign a given IP to a given MAC upon 
+> request and thus is generally the easiest option.
+>
+Yes the latter was option 3 of my suggestions to Neil W and the one I 
+use in the home.  I don't assign static IPs to WiFi devices for the 
+simple reason they may clash with other devices if I go to, for example, 
+a friend's house who also has a Virginmedia Superhub on the same default 
+IP range - or any Netgear as the VM is a rebadged Netgear CG3101D or 
+VMDG480.. I suspect the latter is heavily modified hence the VM prefix, 
+or that could be a coincidence as it is a Netgear model number.
+
+Julian
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

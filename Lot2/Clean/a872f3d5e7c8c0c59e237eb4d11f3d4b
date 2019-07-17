@@ -1,0 +1,56 @@
+Subject:Re: Pasar equipo con LAMP a VM con OpenVZ
+El d=EDa 25 de octubre de 2012 14:58, jors <worbynet@gmail.com> escribi=F3:
+> On 25/10/12 14:30, ciracusa wrote:
+>>
+>> Hola Lista.
+>>
+>> Les consulto, tengo una PC en funcionamiento con un LAMP con 2 sitios
+>> web (peque=F1os) en funcionamiento.
+>>
+>> Ahora, por otro lado dispongo de una PC con OPENVZ con la idea de ir
+>> virtualizando equipos.
+>>
+>> Les consulto, alguien conoce si existe una manera de hacer este pasaje
+>> de la manera mas autom=E1tica posible?
+>
+>
+> Ignorando si hay otro modo m=E1s elegante de proceder, te dir=EDa de part=
+ir de
+> un template base de la distro que tengas en el host f=EDsico y cuando el
+> container est=E9 iniciado, hacer un rsync.
+>
+>
+>> Muchas Gracias.
+>>
+>> Saludos.
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/50897DB5.20901@gmail.com
+>
+Google lo save todo
+
+http://wiki.openvz.org/Physical_to_container
+
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54bTbxZg7BL43==k0+ZQiwdK7TT0ZnK030W4=rpbjzQa+g@mail.gmail.com
+

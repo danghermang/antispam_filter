@@ -1,0 +1,53 @@
+Subject:Re: [EVDL] Calb battery issue
+Ben Jarrett-2 wrote
+> ...
+> Here's one thing I find interesting.  If you check out EVnetics controller
+> pdf:
+> http://www.evnetics.com/downloads/Soliton_Manual_1v4_rev2.pdf
+> 
+> On page 13, there are 2 fields:
+> 1. minimum voltage at no curret
+> 2. minimum voltage at full current
+> 
+> For #1, they have 150V
+> For #2, they have 100V.
+> 
+> Now I realize this may just be an example, but if the cells were CALB
+> cells,
+> you would have 150 / 2.6 = ~58 cells.
+> 100 / 58 cells = 1.72V.
+> 
+> 1.72 would be pretty low.  If 2.6V per cell is the minimum for no load for
+> CALBs,
+> I wonder what a good full load voltage is.
+> ...
+
+If CALB says their cells will decline to 2.6V when they are dead then I
+would suggest setting the "minimum battery voltage at no current parameter"
+a little higher than that to, say, 2.80V to 2.90V per cell, particularly if
+your pack is top-balanced (or not balanced at all!?!).
+
+The voltage the cells will sag down to under load has to be determined
+empirically, unfortunately, since few (non?) of the cell manufacturers
+provide discharge data above 1C. I would maybe start with 2.5V per cell and
+go no lower than 2.0V per cell (unless you are a drag racer, in which case
+the theoretical maximum power point for LFP cells occurs at a current draw
+that results in the cell sagging down to 1.65V).
+
+
+
+
+
+--
+View this message in context: http://electric-vehicle-discussion-list.413529.n4.nabble.com/Calb-battery-issue-tp4659218p4659242.html
+Sent from the Electric Vehicle Discussion List mailing list archive at Nabble.com.
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

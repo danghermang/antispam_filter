@@ -1,0 +1,37 @@
+Subject:Re: Socket unix
+
+Un simple netstat -ap te donnera la liste des sockets et le Pid du process a=
+ssoci=C3=A9
+
+
+Le 7 sept. 2012 =C3=A0 14:33, Gerald <gerald.radix@gmail.com> a =C3=A9crit :=
+
+
+>=20
+>> Avec lsof, fuser ou netstat, oui.
+>>=20
+>>  =20
+>=20
+> Sauf que j'utilise d=C3=A9j=C3=A0 lsof et je voudrais savoir quand celui-c=
+i me r=C3=A9pond socket unix si je peux savoir qui communique sur ce socket u=
+nix...
+>=20
+> --=20
+> Lisez la FAQ de la liste avant de poser une question :
+> http://wiki.debian.org/fr/FrenchLists
+>=20
+> Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+> vers debian-user-french-REQUEST@lists.debian.org
+> En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+> Archive: http://lists.debian.org/5049E9A2.4080202@gmail.com
+>=20
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CC4B5531-F65D-4676-9D20-AA15710E5369@gnali.org
+

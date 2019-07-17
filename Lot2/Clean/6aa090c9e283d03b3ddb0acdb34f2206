@@ -1,0 +1,28 @@
+Subject:Re: su -c ne passe pas
+On 03/11/2012 15:41, Bernard Schoenacker wrote:
+> bonjour,
+>
+> 	j'essaye d'employer : su -c dpkg -i DraftSight.deb et ça ne
+> 	passe pas ...
+>
+> 	qu'est ce que j'ai mal fait ?
+>
+> 	slt
+> 	bernard
+>
+
+Peut-être
+
+su -c "dpkg -i DraftSight.deb"
+
+?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50953539.3060000@googlemail.com
+

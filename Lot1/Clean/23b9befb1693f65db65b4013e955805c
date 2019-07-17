@@ -1,0 +1,47 @@
+Subject:Re: update gimp 2.6
+
+El 11/11/2012, a las 08:53, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=B3=
+:
+
+> El Sat, 10 Nov 2012 13:08:36 -0600, Francisco Eduardo Ascencio Dominguez
+> escribi=C3=B3:
+>=20
+>> Buenas amigos.
+>> tengo una duda lo que pasa es que tengo gimp 2.6 y quisiera actualizarlo
+>> a 2.8 como ago esto desde la terminal ?
+>=20
+> Squeeze s=C3=B3lo tiene la versi=C3=B3n 2.6.10 (no hay una versi=C3=B3n su=
+perior=20
+> disponible en los backports) por lo que si quieres actualizar ese paquete=20=
+
+> tendr=C3=A1s que o bien usar la versi=C3=B3n de wheeze (2.8.2) o bien desc=
+argarlo e=20
+> instalarlo manualmente desde la p=C3=A1gina de The Gimp.
+>=20
+> Pero salvo que te manejes bien con las dependencias/conflictos que te=20
+> pueda generar usar un paquete como The GIMP desde los repos de Wheezy no=20=
+
+> te recomendar=C3=ADa actualizarlo.
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/k7oe5b$7di$3@ger.gmane.org
+>=20
+>=20
+
+ok. y por que no me recomiendas actualizarlo ? que es mejor 2.6 ? saludos=20=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU0-SMTP1615518CDAF5653247A2095C56E0@phx.gbl
+

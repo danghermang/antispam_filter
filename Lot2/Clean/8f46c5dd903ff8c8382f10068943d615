@@ -1,0 +1,316 @@
+Subject:Re: [Antenna-discussion] Capture Area
+Kirk
+
+OK, but the next point is that it's essential to know the captured
+power from the antenna in the design of a receive system, because the
+receiver must produce the necessary ratio of signal (power) to noise
+(power) at its output.  If that is not done, either there will be
+excessive noise coming from the receiver instead of the required
+signal, or on the other hand the receiving antenna is unnecessarily
+big and expensive.  A proper design avoids both those errors.  So
+knowing the captured power is very important.
+
+It's a little complicated because there are two important levels of
+noise to deal with, loosely known as internal and external noise.
+Internal noise is the thermal noise, while external noise is also
+known as atmospheric noise.
+
+Communications systems work with signals that are sometimes weak, and
+the receiver has to detect signals as weak as the external noise
+level.  Usually there is one transmitter working to one receiver.
+
+Broadcasting is quite different, with one transmitter and thousands of
+receivers, so economics says that the receivers are made cheaper and
+there is more investment in the transmitter.  Therefore the signals
+are very much higher than atmospheric noise, which can be neglected.
+In this case a small and cheap antenna inside a similarly cheap
+receiver is required.  But the signal power from the antenna still has
+to be higher than the noise power by the right margin.
+
+Fortunately AM uses signals that are so intense that antenna losses of
+60-80 dB can be tolerated, and into that niche falls our old friend,
+the ferrite rod antenna.
+
+Ferrite rods are also used at low frequencies for communication
+systems, because the external noise rises quickly as the frequency is
+reduced.  Thus a comms system on 10 kHz only needs a noise figure
+around 150 dB, and ferrite rods fit the bill very well, but that is a
+specialised area we have not reached yet.
+
+In all these cases the point to remember is that the antenna loss acts
+as an attenuator between the antenna and the first amplifer.  But the
+thermal noise level at the input to the first amplifier is still at
+the kTB power level.  Therefore extra gain in the amplifier is NOT an
+option if the antenna produces too little signal power :).
+
+Alan G3NOQ
+
+
+
+
+
+
+
+
+
+On 29 October 2012 20:34, Kirk T McDonald <kirkmcd@princeton.edu> wrote:
+> Folks,
+>
+> I'm interested in understanding more about antennas than captured power,
+> particularly when this is not particularly important to system performanc=
+e.
+>
+> Alan B's  comments on this issue have been more distracting than helpful =
+to
+> me in this regard, but I have managed to learn something technical anyway,
+> thanks to other participants in the discussion.
+>
+> I never claim to be a "know it all".  I just say it like I see it at the
+> time.  I find this forum interesting because I learn a lot from it about
+> technical issues that I have little direct experience with, and little pr=
+ior
+> knowledge.
+>
+> One thing I have learned is not to take too seriously the literal
+> explanations given by many in this forum, but to take seriously that there
+> is something worth explaining.
+>
+>
+> --Kirk
+>
+>
+> -----Original Message----- From: boswell alan
+> Sent: Monday, October 29, 2012 3:46 PM
+>
+> To: Discussions of Antennas and Related Topics
+> Subject: Re: [Antenna-discussion] Capture Area
+>
+> Kirk
+> If you are agreeing that adding the ferrite produces more signal
+> power, it's as much as we can expect :)  With the standard ferrite
+> rods in normal use, the losses are about right to produce the right
+> bandwidth without added losses.
+> Alan G3NOQ
+>
+>
+>
+>
+>
+>
+> On 29 October 2012 18:56, Kirk T McDonald <kirkmcd@princeton.edu> wrote:
+>>
+>> Alan B,
+>>
+>> One can indeed make comparisons whereby adding a ferrite to a loop anten=
+na
+>> increases the power captured =96 compared to some state of the system wi=
+thout
+>> the antenna.
+>>
+>> It has been a struggle to identify what is that state to be used in such=
+ a
+>> comparison.
+>>
+>> I continue to find your comments about =93losses=94 and about Japanese
+>> engineers distracting when trying to understand what should be compared =
+with
+>> what to make the comparison look favorable for ferrites.
+>>
+>> Rather, Alan P=92s remarks seemed to be more to the point.
+>>
+>> A key is that a requirement for an AM radio is not only a sufficient
+>> signal level, but a sufficient bandwidth to transmit an audio signal
+>> modulated onto the rf carrier.
+>>
+>> This requires lowering the Q of the system =96 to a rather low value
+>> compared to that which applies when the maximum power is captured.
+>>
+>> The Q is lowered by adding =93losses=94.    That is, =93losses=94 are no=
+t to be
+>> avoided, but embraced as necessary for the function of the antenna as an=
+ AM
+>> receiver.  [This is the Chu theorem in action.]
+>>
+>> These REQUIRED losses could be in the form of a load resistor, but ferri=
+te
+>> losses are a contribution to the losses.    But, even in the absence of
+>> ferrite losses, and in the absence of intrinsic resistance of the coil, a
+>> load resistor is needed to bring the system resistance up and the Q down,
+>> until the system bandwidth is as broad as required.
+>>
+>> For a particular coil, with and without the ferrite, the required system
+>> resistance to deliver a given bandwidth is actually the same with the
+>> ferrite or without.   So, in a sense, the needed =93losses=94 are the sa=
+me with
+>> and without the ferrite.
+>>
+>> However, adding the ferrite increases the open-circuit voltage, as you
+>> like to say, so the extracted power,
+>> ~ Voc^2 / Rload
+>> goes up when the ferrite is added.
+>>
+>> [Voc^2 / Rrad stays the same with and without the ferrite, so the maximum
+>> power that could be extracted stays the same.]
+>>
+>> -----------------
+>> A different question is whether the effect of the ferrite in increasing
+>> the actual extracted power compared to the case of no ferrite =93matters=
+=94.
+>>
+>> I think the answer to this is NO, in that what matters is the voltage
+>> input to the voltage amplifier of the AM radio.   Adding the ferrite
+>> increase this voltage, which is what matters the most (and what the Japa=
+nese
+>> engineers were worried about, rather than about captured power, in my vi=
+ew).
+>>
+>> In the case of crystal radios, with no amplifier, captured power is more
+>> important, but ferrite loop antennas seem rare in this application.   Th=
+at
+>> is, the story here has its separate complications.....
+>>
+>> ----------------
+>> -----------------
+>> ------------------
+>> What I have been discussing was quantified in my update (new sec. 4) to
+>> http://puhep1.princeton.edu/~mcdonald/examples/power.pdf
+>>
+>> I consider a loop of 100 turns or radius r ~ 1 cm, and length l ~ 1 cm,
+>> with and without a ferrite whose effective relative permeability is 100.
+>>
+>> A. Without the ferrite, Rrad ~ 1.5e-8 Ohms.
+>> If the wire resistance could be this low, so that this antenna were fully
+>> "matched", the Qmax would be ~ 3e13, and the maximum power would be
+>> extracted from the wave.
+>>
+>> However, for use with an AM radio, we want the Q to be about 30. To get
+>> this, the load resistance would have to be increased by a factor of Qmax=
+/30
+>> ~ 1e12 to 1.5e4 Ohms, which reduces the extracted power by a factor of 1=
+e-12
+>> compared to the maximum possible in principle.
+>>
+>> B. With the ferrite, Rrad ~ 1.5e-4 Ohms, and Qmax ~ 3e9.
+>> To operate with the desired Q ~ 30, the load resistance needs to be
+>> Rrad Qmax / 30 ~ 1.5e-4 x 1e8 =3D 1.5e4 Ohms =3D 15 kOhms (=3D same as i=
+n case
+>> A).
+>> In this case, the extracted power is 1e-8 of the maximum possible.
+>>
+>> Comparing cases A and B, the extracted power is 1e4 times larger with the
+>> ferrite (although only 1e-8 of the maximum possible) than without.
+>>
+>> So, we are agreed that adding the ferrite to a given loop antenna that is
+>> loaded to have a fixed Q (of 30) with or without the load INCREASES the
+>> power captured from the incident wave.  In both cases the captured power=
+ is
+>> a tiny fraction of the maximum possible power that could be captured, wh=
+ich
+>> is the same in both cases.
+>>
+>> --Kirk
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> -----Original Message-----
+>> From: boswell alan
+>> Sent: Monday, October 29, 2012 7:31 AM
+>> To: Discussions of Antennas and Related Topics
+>> Subject: Re: [Antenna-discussion] Capture Area
+>>
+>> Kirk
+>>
+>> What I have been trying to say is that we add ferrite in order to
+>> increase the actual capture area of the antenna. If we did not add
+>> the ferrite, the capture area would be less. That is because these
+>> antennas are lossy, and the ferrite makes them less lossy by raising
+>> the radiation resistance and the signal voltage and the signal power.
+>> I'll keep saying this until the penny drops :)
+>>
+>> You have got confused by that formula for capture area of a lossless
+>> antenna, which doesn't apply to a lossy antenna. You are quoting
+>> formulas you have read without understanding how to use them properly.
+>> A typical capture area for a ferrite rod antenna on 1 MHz is one
+>> square centimetre, and without the ferrite it's about a hundredth of
+>> that.
+>>
+>> You don't have to believe me, ask the Chinese and Japanese who turn
+>> out transistor radios in millions. You might assume they are ignorant
+>> but I assure you that is a completely false, not to say ignorant
+>> assumption. If they could reduce the unit cost by doing away with
+>> ferrite, they would.
+>>
+>> Alan G3NOQ
+>>
+>>
+>>
+>> _______________________________________________
+>> This message was sent to: alan.boswell@blueyonder.co.uk
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address th=
+is
+>> message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>
+>
+> _______________________________________________
+> This message was sent to: kirkmcd@princeton.edu
+>
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots=
+.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

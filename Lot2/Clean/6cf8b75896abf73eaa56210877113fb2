@@ -1,0 +1,63 @@
+Subject:Re: [LUG] Linux - and security
+On 03/11/12 16:49, Martijn Grooten wrote:
+> On Sat, Nov 3, 2012 at 4:29 PM, Tony Sumner wrote:
+>> > I use ftp to send stuff to my website. If I should stop what else is there?
+> There's sftp, which uses ssh, but I don't think many hosts offer that
+> these days.
+>
+> Some CMS's offer web-based file uploads, but this generally means
+> directories have to be writeable by the web server, which isn't ideal.
+>
+> In most cases, ftp is your only option really. The most important
+> thing is never to use it:
+> - over unsecured wifi;
+> - on someone else's computer.
+>
+> And, ideally, you shouldn't make your computer remember your password.
+>
+> That should reduce the chances of someone being able to get hold of
+> your credentials significantly.
+>
+> No to zero though, so if there's a way for you to see when someone has
+> uploaded files (using server logs or something), it's a good idea to
+> regularly check, and contact your host (and change your password) if
+> you find someone else has had access.
+>
+> Martijn.
+>
+> PS if you are able to use sftp, all of the above still applies (except
+> for the unsecured wifi): the most likely attack scenarios are through
+> keyloggers recording you entering your password and through the
+> password being stored in a predictable place on the computer. Sftp
+> helps against neither of these.
+
+Yeah, exactly what Martijn said with the following extra provisos:
+
+If your host doesn't use SFTP, they're idiots and you should try and
+bend their arm into not being useless and lazy. FTP should have died a
+long time ago but sadly lives on.
+
+Martijn's threat assessment also glossed over one element, the unsecured
+wifi bit - FTP passwords are cleartext, so if someone is on the same
+network segment as you any basic traffic sniffing tool can pull your
+password/user data straight out of the air, or off the wire. He's still
+completely correct, but I'd go further - on ANY network you don't
+completely trust or own yourself, you absolutely 100% must initiate a
+secure connection over SSH or VPN to a known good system first, and
+subsequently use that connection for all further traffic. Even a WPA2
+secured wifi network in a reputable coffee shop or restaurant can't be
+trusted. I've had a lot of fun with my tatty old laptop in coffee shops
+and the like (purely research I should add, for mischief not evil!) and
+you'd be horrified if you could see what 4 wifi interfaces with modded
+injection-capable drivers are capable of in even vaguely skilled
+hands... Let's not forget that quite recently, a simple Firefox plugin
+(FireSheep) turned everyone briefly into a Starbucks hacker.
+
+Treat all networks as hostile, you'll be a lot safer.
+
+Cheers
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

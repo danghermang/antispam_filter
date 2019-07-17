@@ -1,0 +1,34 @@
+Subject:Re: xrandr [et rtfm ?]
+Bonjour, Bonsoir,=20
+
+Le Wed, 19 Sep 2012 15:50:49 +0400, fremoin, vous avez =E9crit :
+
+> Bonjour,
+
+
+Bonjour,=20
+
+> ~$ xrandr --output LVDS1 --panning 1440x900 --output VGA1 --pos 1440x0
+> me permet presque de le faire, mais affiche la barre sup=E9rieure
+> =E9tir=E9e sur les 2 =E9crans, alors que je voudrais qu'elle reste limit=
+=E9e
+> =E0 celui du portable... et non projet=E9e.
+
+Je n'utilise pas gnome, mais lxde, je tente un parall=E8le :
+- clic droit sur la/les barres=20
+- Param=E8tre tableau de bord
+- Taille : 1440px (ou 50% si les 2 =E9crans ont la m=EAme taille)
+
+--
+Cordialement=20
+Gr=E9gory BULOT
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120919203743.1bb2473a@roland.bulot-fr.com
+

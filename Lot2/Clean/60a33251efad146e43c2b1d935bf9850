@@ -1,0 +1,41 @@
+Subject:Re: Iceweasel et Thunderbird avec deux dictionnaires
+On 09/28/2012 12:07 PM, Bzzz wrote:
+> On Fri, 28 Sep 2012 11:35:52 +0200
+> maderios<maderios@gmail.com>  wrote:
+>
+>
+>> Nuance concernant ma dernière appréciation concernant claws-mail:
+>> il est très bien pour utiliser deux dictionnaires en même temps,
+>> par contre, pour l'imap, ce n'est pas le top. Très lent et j'ai un
+>> freeze qui dure depuis 5 mn...
+>
+> Hmm, jamais eu ça s/s sid (avec dovecot), tu es sûr que tu n'oublies
+> pas qu'au 1er accès d'un dossier il télécharge tous ses en-têtes?
+
+Je suis en Imap avec Icedove, et ça marche bien,  avec un délai normal 
+pour récupérer les en-tête, quelques secondes, même avec des milliers de 
+messages.
+J'ai peut-être trouvé une des causes de la lenteur de claws-mail_imap: 
+en désactivant edit account -> user -> allow filtering using plug-ins on 
+receiving, le chargement est plus rapide. Malgré cela, Icedove est plus 
+rapide.
+
+
+> et que tu ne synchronises pas pour le mode hors connexion?
+>
+Non
+-- 
+Maderios
+
+"Art is meant to disturb. Science reassures."
+"L'art est fait pour troubler. La science rassure" (Georges Braque)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50658CED.1050903@gmail.com
+

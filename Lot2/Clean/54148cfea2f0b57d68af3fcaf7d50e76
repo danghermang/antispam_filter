@@ -1,0 +1,38 @@
+Subject:Re: Nautilus-open-terminal
+Bonjour,
+
+Même problème ici. Bizarre avec xterm ça marche :
+gsettings set org.gnome.desktop.default-applications.terminal exec xterm
+
+Guy
+
+On 03/12/2012 17:55, Danilo Uccelli wrote:
+> Bonjour la liste,
+>
+> Décidément c'est ma bête noire...
+>
+> Depuis quelques jours, suite à une mise à jour de unstable, nautilus
+> open terminal ne lance plus rien, pourtant le terminal fonctionne si
+> on clique sur l'icône.
+>
+> Installation: Debian unstable à jour avec gnome shell.
+>
+> Il y quelque temps, il se lançait mais pas dans le bon répertoire,
+> puis, grâce à votre aide et la commande
+> "gsettings set org.gnome.desktop.default-applications.terminal exec
+> gnome-terminal", tout allait bien.
+>
+> Quelqu'un a une idée, ou au moins témoigne qu'il a le même problème ?
+>
+> Danilo Uccelli
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BCEB10.4050609@teledetection.fr
+

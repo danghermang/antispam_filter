@@ -1,0 +1,70 @@
+Subject:Re: [Flexradio] Problem with high DPC count after upgrading to
+	W8	Pro
+I ran the pre-release on a laptop I had and the DPC count was consistent at
+1000.  The promise was that this would reduce on the release version.  I
+guess I am fortunate that Win 8 won't install on the computer that I use for
+the flex ( I wasted the weekend trying). 
+
+I will count my blessings and install this thing on my kids laptop
+instead!!! ;-)
+
+73
+Ron
+WM9Q
+
+-----Original Message-----
+From: FlexRadio [mailto:flexradio-bounces@flex-radio.biz] On Behalf Of Mike
+Heitmann
+Sent: Monday, October 29, 2012 7:00 AM
+Cc: flexedge@flex-radio.biz; flexradio@flex-radio.biz
+Subject: Re: [Flexradio] Problem with high DPC count after upgrading to W8
+Pro
+
+Hi Les,
+
+High DPC latency is one of  the things reported about Win8 in pre-release:
+http://social.technet.microsoft.com/Forums/en/W8ITProPreRel/thread/aa16c25a-
+9c72-4579-ba02-cea920296271
+
+That info is pretty old (March?). I know some have reported using
+Win8/PowerSDR with success.
+
+Before going back to Win7 I would recommend trying to determine what is
+causing the high DPC count  (Video driver? WiFi driver? Malware scanner?).
+That way you could watch for updates to the offending object in case you
+want to try Win8 again.
+
+Mike, N0SO
+
+On Oct 29, 2012, at 3:01 AM, "Les Keppie" <leskep@skymesh.com.au> wrote:
+
+> Hi All
+> Have just upgraded from Windows 7 Ultimate to Windows 8 Pro Computer 
+> is Asus m/b M4A78-VM - processor is 3.1g  AMD Phenom(tm) II X2 550 
+> Processor Socket AM3 (938) with 4g ram - radio is Flex 3000
+> 
+> This system has been running well on W7 ultimate with dpc count of 
+> less than 100us normally around the 75us Now with the upgrade to W8 
+> Pro dpc is around 1000us LatencyMon reports Current measured kernel 
+> timer latency around 12 to 16us with Highest measured kernel timer 
+> latency as 1000 to 1009us Transmitting using EasyPal gives regular 
+> breaks in tx audio with receiving station reporting no lock on signal
+> 
+> Anyone got any ideas on how to reduce the dpc spikes or will it be a trip
+down the W7 reinstallation path???
+> 
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage:
+http://www.flexradio.com/
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

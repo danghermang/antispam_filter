@@ -1,0 +1,32 @@
+Subject:Re: Upgrade auf 12.10, erste Erfahrungen
+Hallo,
+
+>> Hast du sichergestellt, dass die Kernelmodule kvm und kvm_intel bzw.
+>> kvm_amd nicht geladen sind?
+
+>ich wei=DF nicht recht, wie ich das pr=FCfen kann.
+
+Mit "lsmod | grep kvm".
+
+Wenn die Module geladen sind, k=F6nnen sie z.B. "rmmod kvm_intel; rmmod kvm"
+(oder analog f=FCr amd) entladen werden.
+
+>Der Player zickt =F6fter mal rum.
+>Sollte ich mich vielleicht lieber mit Virtualbox anfreunden?
+
+Das ist sicher keine schlechte Idee.
+
+>Es w=E4re aber sch=F6n, wenn ich die vorhandenen System =FCbernehmen k=F6n=
+nte.
+
+VirtualBox unterst=FCtzt das Disk-Format von VMware. Die VM Einstellungen m=
+uss
+man neu anlegen, aber das sollte kein gr=F6=DFeres Problem sein.
+
+Gru=DF, Harald
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

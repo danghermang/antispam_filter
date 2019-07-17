@@ -1,0 +1,18 @@
+Subject:Re: Iceweasel + Pdf
+¿Qué versión de Iceweasel utilizas?
+Porque el lector de pdf creo que se integró ya en la versión 14 (o por 
+lo menos yo lo utilizo desde aquella).
+Se trata de un lector de javascript que está disponible desde su página web:
+https://github.com/mozilla/pdf.js
+y la página de complementos de Mozilla:
+https://addons.mozilla.org/es/firefox/addon/pdfjs/
+Pero como he dicho ya se ha integrado en Firefox desde hace unas versiones.
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B22F1B.3050808@gmail.com
+

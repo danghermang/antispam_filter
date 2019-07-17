@@ -1,0 +1,52 @@
+Subject:Re: =?ISO-8859-1?Q?D=E9ploiment_de_package?=
+Le 10/12/2012 14:08, Guilhem Bonnefille a =E9crit :
+> Le 10 d=E9cembre 2012 13:51,<list-debian@gwilhom.fr>  a =E9crit :
+>> Le 10/12/2012 07:01, Nicolas Pechon a =E9crit :
+>>
+>>> Bonjour,
+>>> J'ai mont=E9 un petit r=E9seau(tous sous debian). Y a t'il une possib=
+ilit=E9 de
+>>> g=E9rer les packages de toutes les machines?
+>>> De demander l'installation d'un package particulier et que tous les
+>>> ordinateurs ex=E9cute le m=EAme ordre?
+>>>
+>>> D'avance merci de me mettre sur la voie...
+>>>
+>>   Bonjour,
+>>
+>> Il y a puppet qui permet de faire cela en plus de g=E9rer la configura=
+tion.
+>>
+> Puppet r=E9ponds au besoin mais peut =EAtre un peu hardu =E0 prendre en
+> main. Mais TA solution va surtout d=E9pendre du contexte dans lequel tu
+> es. Si c'est de la prod avec plusieurs dizaine voire centaine de
+> machines, y'a pas =E0 dire apprendre un outil comme puppet est un bon
+> investissement. Si tu as juste 5 machines plus ou moins perso et pour
+> lesquelles ton unique pr=E9occupation est qu'elles aient toutes la m=EA=
+me
+> base logicielle, une solution moins automatique peut fonctionner.
+> Par exemple, tu met au point une machine, pile poil comme tu veux.
+> Ensuite, "dpkg --get-selection" sur cette machine va te retourner une
+> liste de paquets. Tu va pouvoir utiliser cette liste sur les autres
+> machines avec "dpkg --set-selection" suivi d'un "apt-get -u
+> dselect-upgrade".
+>
+> Cf. 6.4.9 http://qref.sourceforge.net/Debian/reference/ch-package.en.ht=
+ml
+>
+
+C'est vrai que Puppet n'est pas si facile que =E7a, il faut aimer coder :=
+)
+
+--=20
+Guillaume
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C5E182.5090501@gwilhom.fr
+

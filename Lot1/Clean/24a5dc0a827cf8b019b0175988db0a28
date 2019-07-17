@@ -1,0 +1,23 @@
+Subject:OT: Como incluir una PC con squeeze en el AD de un Win2003
+El asunto lo dice todo. Como podría incluir una PC con debian squeeze en un 
+active directory de windows 2003?.
+
+Quiero que cuando yo mapee el active directorio me aparezca la PC. No 
+navegar por el dominio. Porque ya esto lo hago. Pero cuando busca las PC en 
+el active directorio no me aparecen la que tienen debian. Y necesito esto 
+último.
+
+Se que es off topic. Pero talves alguno de vosotros me pueda dar un 
+empujoncito.
+=========
+|| ISMAEL ||
+=========
+PD: Me tapo los oidos ante los regaños jajaja 
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/07A7CDB5DAD345A9AC3652EAC1E08944@eicc.citricos.cu
+

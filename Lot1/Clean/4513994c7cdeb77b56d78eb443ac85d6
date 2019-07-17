@@ -1,0 +1,25 @@
+Subject:Re: Miniatures de fichiers Libre/OpenOffice sous Nautilus de Squeeze
+le 03/12/2012 14:57, Alain Rpnpif a écrit:
+[...]
+> OpenDocument (ODT, etc. textes, dessins ou autres) mais dans certains
+> répertoires seulement. Pourtant, cela marche dans la plupart des autres.
+[...]
+
+Bonjour,
+
+Un truc bête : tes répertoires ont-ils tous les mêmes droits ?
+
+"Les autres fichiers (PDF, etc) [qui] ne présentent pas ce problème", 
+sont-ils dans les mêmes répertoires que les ODT à problème ?
+
+Samy
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C5ACDE.3090207@wanadoo.fr
+

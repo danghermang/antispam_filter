@@ -1,0 +1,39 @@
+Subject:Re: [LUG] Python Question
+On 23/10/12 12:43, Adam Latham wrote:
+> Wow.
+>
+> Didn't realise that Open source software and questions about it were that offensive.
+>
+> As a predominantly Linux user, I figured my colleagues in the open source community might like to contribute to the shared knowledge for the benefit of the next generation of computer users.
+>
+> I'm now told they'll be running the 3.3 from the official Python repo, does that make it less offensive?
+>
+> Thanks at least to the previous poster (Robin) for confirming what my paranoia was leading me to.
+>
+> And we wonder why cultural imperialism prevents the mass uptake of open source software...
+>
+> I'll take my questions elsewhere, I think.
+>
+> M
+
+I have no problem with this,  in fact any answer could be useful.  I am
+however due to running this programming group aware of the lock down and
+constraints attached to what should be a simple process.   Hence I am
+running python on a mix of windows and Linux netbooks, we then use the
+macs to display PDF manuals or websites when we want to fix problems.
+
+The macs are locked down,  we have scratch installed and can save work
+to a media sharepoint on the server,  so I guess your users need to save
+their programs in their own user space,  I assume if python is in the
+path then it should just run.
+
+But yeah,  there is always the danger someone could run a dodgy script, 
+however surely you can work out which user was logged in at the time and
+take action accordingly, 
+
+Paul
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

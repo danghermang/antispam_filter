@@ -1,0 +1,138 @@
+Subject:Re: actualizar debian 6
+El d=EDa 27 de septiembre de 2012 10:14, marcos negrini
+<marcosnegrini@yahoo.com.ar> escribi=F3:
+>> > Buenos dias
+>> >
+>> > normalmente hago apt-get update para actualizar pero en
+>> la ezq superior
+>> > derecha me dice que tiene que actualizar 106 paquetes
+>> con el Update manager
+>> >
+>> > Puedo hacer esto en consola con comandos ??? y no
+>> hacerlo por el gestor
+>> > de actualizaciones ???
+>
+> apt-get upgrade
+
+Este comando entra=F1a sus peligros. Como todav=EDa no va a salir la nueva
+versi=F3n (comando clave: Wheezey), no har=E1 un "reajuste" de todo lo que
+tenga instalado. Por fortuna, mientras escribo esto, estoy en Debian,
+as=ED que veamos qu=E9 me dice a m=ED:
+miguel@miguel-LT:~$ su
+Contrase=F1a:
+root@miguel-LT:/home/miguel# apt-get update
+Ign cdrom://[Debian GNU/Linux 6.0.3 _Squeeze_ - Official i386 CD
+Binary-1 20111008-13:01] squeeze Release.gpg
+Ign cdrom://[Debian GNU/Linux 6.0.3 _Squeeze_ - Official i386 CD
+Binary-1 20111008-13:01]/ squeeze/main Translation-en
+Ign cdrom://[Debian GNU/Linux 6.0.3 _Squeeze_ - Official i386 CD
+Binary-1 20111008-13:01]/ squeeze/main Translation-es
+Ign cdrom://[Debian GNU/Linux 6.0.3 _Squeeze_ - Official i386 CD
+Binary-1 20111008-13:01] squeeze Release
+Ign cdrom://[Debian GNU/Linux 6.0.3 _Squeeze_ - Official i386 CD
+Binary-1 20111008-13:01] squeeze/main i386 Packages/DiffIndex
+Obj http://ftp.us.debian.org squeeze Release.gpg
+Des:1 http://dl.google.com stable Release.gpg [198 B]
+Ign http://dl.google.com/linux/chrome/deb/ stable/main Translation-en
+Des:2 http://security.debian.org squeeze/updates Release.gpg [836 B]
+Ign http://security.debian.org/ squeeze/updates/main Translation-en
+Ign http://security.debian.org/ squeeze/updates/main Translation-es
+Ign http://dl.google.com/linux/chrome/deb/ stable/main Translation-es
+Des:3 http://www.deb-multimedia.org stable Release.gpg [198 B]
+Ign http://www.deb-multimedia.org/ stable/main Translation-en
+Ign http://www.deb-multimedia.org/ stable/main Translation-es
+Ign http://www.deb-multimedia.org/ stable/non-free Translation-en
+Ign http://www.deb-multimedia.org/ stable/non-free Translation-es
+Des:4 http://security.debian.org squeeze/updates Release [86,9 kB]
+Des:5 http://dl.google.com stable Release [1347 B]
+Des:6 http://www.deb-multimedia.org stable Release [24,1 kB]
+Ign http://ftp.us.debian.org/debian/ squeeze/main Translation-en
+Obj http://ftp.us.debian.org/debian/ squeeze/main Translation-es
+Des:7 http://dl.google.com stable/main i386 Packages [1218 B]
+Obj http://www.deb-multimedia.org stable/main i386 Packages/DiffIndex
+Des:8 http://ftp.us.debian.org squeeze-updates Release.gpg [836 B]
+Ign http://ftp.us.debian.org/debian/ squeeze-updates/main Translation-en
+Ign http://ftp.us.debian.org/debian/ squeeze-updates/main Translation-es
+Obj http://www.deb-multimedia.org stable/non-free i386 Packages/DiffIndex
+Des:9 http://download.tuxfamily.org stable Release.gpg [198 B]
+Obj http://ftp.us.debian.org squeeze Release
+Des:10 http://ppa.launchpad.net precise Release.gpg [316 B]
+Ign http://ppa.launchpad.net/webupd8team/java/ubuntu/ precise/main
+Translation-en
+Ign http://ppa.launchpad.net/webupd8team/java/ubuntu/ precise/main
+Translation-es
+Ign http://download.tuxfamily.org/glxdock/repository/debian/
+stable/cairo-dock Translation-en
+Ign http://download.tuxfamily.org/glxdock/repository/debian/
+stable/cairo-dock Translation-es
+Des:11 http://security.debian.org squeeze/updates/main Sources [87,4 kB]
+Des:12 http://ppa.launchpad.net precise Release [11,9 kB]
+Des:13 http://download.tuxfamily.org stable Release [2466 B]
+Des:14 http://ftp.us.debian.org squeeze-updates Release [113 kB]
+Ign http://download.tuxfamily.org stable/cairo-dock i386 Packages
+Des:15 http://backports.debian.org squeeze-backports Release.gpg [836 B]
+Des:16 http://ppa.launchpad.net precise/main Sources [793 B]
+Des:17 http://download.tuxfamily.org stable/cairo-dock i386 Packages [4517 =
+B]
+Ign http://backports.debian.org/debian-backports/
+squeeze-backports/main Translation-en
+Ign http://backports.debian.org/debian-backports/
+squeeze-backports/main Translation-es
+Des:18 http://ppa.launchpad.net precise/main i386 Packages [1983 B]
+Des:19 http://backports.debian.org squeeze-backports Release [77,6 kB]
+Obj http://ftp.us.debian.org squeeze/main Sources
+Obj http://ftp.us.debian.org squeeze/main i386 Packages
+Des:20 http://backports.debian.org squeeze-backports/main i386
+Packages/DiffIndex [6991 B]
+Des:21 http://security.debian.org squeeze/updates/main i386 Packages [264 k=
+B]
+Obj http://ftp.us.debian.org squeeze-updates/main Sources/DiffIndex
+Des:22 http://backports.debian.org squeeze-backports/main i386
+2012-09-22-0436.09.pdiff [254 B]
+Des:23 http://backports.debian.org squeeze-backports/main i386
+2012-09-22-0436.09.pdiff [254 B]
+Des:24 http://backports.debian.org squeeze-backports/main i386
+2012-09-22-0436.09.pdiff [254 B]
+Obj http://ftp.us.debian.org squeeze-updates/main i386 Packages/DiffIndex
+Des:25 http://backports.debian.org squeeze-backports/main i386
+2012-09-23-1536.19.pdiff [627 B]
+Des:26 http://backports.debian.org squeeze-backports/main i386
+2012-09-23-1536.19.pdiff [627 B]
+Des:27 http://backports.debian.org squeeze-backports/main i386
+2012-09-23-1536.19.pdiff [627 B]
+Des:28 http://backports.debian.org squeeze-backports/main i386
+2012-09-24-1136.31.pdiff [1207 B]
+Des:29 http://backports.debian.org squeeze-backports/main i386
+2012-09-24-1136.31.pdiff [1207 B]
+Des:30 http://backports.debian.org squeeze-backports/main i386
+2012-09-24-1136.31.pdiff [1207 B]
+Des:31 http://ftp.us.debian.org squeeze-updates/main i386 Packages [14,9 kB=
+]
+Des:32 http://backports.debian.org squeeze-backports/main i386
+2012-09-25-1736.23.pdiff [225 B]
+Des:33 http://backports.debian.org squeeze-backports/main i386
+2012-09-25-1736.23.pdiff [225 B]
+Des:34 http://backports.debian.org squeeze-backports/main i386
+2012-09-25-1736.23.pdiff [225 B]
+Des:35 http://backports.debian.org squeeze-backports/main i386
+2012-09-27-1536.58.pdiff [846 B]
+Des:36 http://backports.debian.org squeeze-backports/main i386
+2012-09-27-1536.58.pdiff [846 B]
+Des:37 http://backports.debian.org squeeze-backports/main i386
+2012-09-27-1536.58.pdiff [846 B]
+Descargados 706 kB en 36seg. (19,2 kB/s)
+Leyendo lista de paquetes... Hecho
+root@miguel-LT:/home/miguel#
+
+A luis: =BFQu=E9 parte no sale id=E9ntica con respecto a esto?
+--=20
+Buen uso de las listas (como se ven en Debian):
+http://wiki.debian.org/es/NormasLista
+Ayuda para hacer preguntas inteligentes: http://is.gd/NJIwRz
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALEvJmR4wsLjhGVwHEKi8tszj=guXN9HZJpiOcckujGmqNsuCA@mail.gmail.com
+

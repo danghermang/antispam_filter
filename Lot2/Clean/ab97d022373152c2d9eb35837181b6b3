@@ -1,0 +1,49 @@
+Subject:Re: Proxy squid automatico [ RESUELTO ]
+
+
+El 29/11/2012, a las 08:45, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=B3=
+:
+
+> El Wed, 28 Nov 2012 14:24:37 -0600, Francisco Eduardo Ascencio Dominguez
+> escribi=C3=B3:
+>=20
+>> monte un servidor proxy con squid pero lo que pasa es que  a cada
+>> computadora le tengo que configurar el proxy y ponerle la ip del server
+>> proxi. mi pregunta es como puedo hacer para que esto se aga
+>> autom=C3=A1ticamente. ley que era con ip tables e intente hacerlo pero no=
+ me
+>> funciono. el servidor esta montado en debian squeeze 6. alguien puede
+>> ayudar u orientarme ?
+>=20
+> Pues si te he entendido bien, podr=C3=ADas hacerlo de dos formas:
+>=20
+> 1/ En el lado del servidor, configurar un proxy transparente=C2=B9
+>=20
+> 2/ En el lado del cliente (navegador), configurarlo para que detecte=20
+> autom=C3=A1ticamente la configuraci=C3=B3n del proxy=C2=B2
+>=20
+> =C2=B9http://es.wikipedia.org/wiki/Proxy#Proxies_transparentes
+> =C2=B2http://en.wikipedia.org/wiki/Web_Proxy_Autodiscovery_Protocol
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/k97se4$4np$3@ger.gmane.org
+>=20
+>=20
+
+excelente !!! ya esta en marcha !!! gracias saludos buena info.=20=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU0-SMTP286F76B71EC110DFCE9669FC55C0@phx.gbl
+

@@ -1,0 +1,75 @@
+Subject:Re: [Jukebox-list] 2810 Selector Issues- Update
+Thomas, there are only two reasons for a cap to 'fry':
+
+1) Over voltage -this includes spikes.
+
+2) Polarity in the case of electrolytic caps. Using a polarized cap in a ci=
+rcuit that has a major component of AC or connecting it incorrectly.
+
+These are simple electro-mechanical circuits so using a meter to check for =
+voltage and polarity at the cap should solve it. The only potential complic=
+ation is the presence of spikes due to the kickback from coils in the circu=
+it.=A0 In cases where a cap is connected across a coil I generally use on a=
+ lot higher than the average voltage.=A0 If the circuit is 25VDc I'll try t=
+o use a cap of 50-100 volts rating.
+
+There is an upper limit in that caps too much higher in voltage rating migh=
+t not have enough charge to "form" properly and behave as if they have less=
+ capacity.
+
+----------------------------------------------------------
+
+Frankly, many of the caps made in the last 14 years are crap. If you work o=
+n as much electronic equipment as I do you've easily seen dozens of devices=
+ hobbled and ruined by capacitors.
+
+I've repaired over 60 flat panel computer monitors, all of which had bad ca=
+ps as the underlying cause of failure.=A0 There are another 17 awaiting par=
+ts and attention. They join the 14 flat panel TV's and a dozen or so DVD pl=
+ayers and 6-7 computer logic boards all with the same capacitor failures. T=
+here were a lot more logic boards but I finally advised throwing out all bu=
+t the most recent and powerful ones.
+
+Meanwhile, In my local travels, I still find receivers and other items made=
+ in the 60's through mid-nineties that still perform properly and have good=
+ capacitors.
+
+Clearly something has changed. Initially, the problem was chalked up to a c=
+ase of corporate espionage in Taiwan vs. mainland China.=A0 But that was ba=
+ck in the late 90's.
+
+Now it looks more like a cynical businessman's scheme to force consumers to=
+ replace their electronics more often.
+
+Rob/NYC
+
+
+
+
+=A0Do you still have the original cap?
+
+
+--- On Fri, 11/2/12, Thomas Saxton <saxtgrn@yahoo.com> wrote:
+
+From: Thomas Saxton <saxtgrn@yahoo.com>
+Subject: [Jukebox-list] 2810 Selector Issues- Update
+To: jukebox-list@lists.netlojix.com
+Date: Friday, November 2, 2012, 4:45 PM
+
+We installed a new cap in the junction box for the selector motor and the u=
+nit started to cycle, -but stopped and fried the newly installed cap. Tried=
+ another cap and same results. Not sure where to go next. Looked for any ob=
+vious signs that would indicate what caused this but no luck. Any suggestio=
+ns and help would be greatly appreciated.
+=A0
+Thanks, Tom
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

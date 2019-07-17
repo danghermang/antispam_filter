@@ -1,0 +1,38 @@
+Subject:Re: Pas de son ou non =?UTF-8?B?csOpZ2xhYmxl?= suivant la carte
+On Thu, 30 Aug 2012 17:02:06 +0200
+maderios <maderios@gmail.com> wrote:
+
+> > A ma connaissance, le seul mixer graphique qui "voit" bien =C3=A7a est
+> > kmix.
+
+> D'autres te diront alsamixer, gkrellm, etc...
+
+Non, par exemple alsamixer n'a jamais vu l'entr=C3=A9e micro #2 du
+chipset de mon vieux barebone asus, kmix si - et j'ai perdu un
+un temps fou jusqu'=C3=A0 me rappeler qu'il peut y avoir plusieurs
+entr=C3=A9es MIC et m'apercevoir qu'alsamixer ne voyait pas grand chose.
+
+> > Par ailleurs, les emu10k1 n=C3=A9cessitent un fichier de firmware pour
+> > fonctionner correctement.
+
+> J'ai une carte SB live driver emu10k1, pas besoin de firmware. Le
+> module kernel suffit.
+
+C'est possible, ma derni=C3=A8re utilisation d'une Live date de 2001.
+
+--=20
+yorik: Hey Irona! La vie d'une fille se r=C3=A9sume =C3=A0 un conte de f=C3=
+=A9e?!
+yorik: F=C3=A9e la vaisselle, f=C3=A9e le m=C3=A9nage, f=C3=A9e =C3=A0 mang=
+er, f=C3=A9e lation! \o/
+Ir0na: Fais pas chier !
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120830171420.07f1a683@anubis.defcon1
+

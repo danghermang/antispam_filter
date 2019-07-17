@@ -1,0 +1,70 @@
+Subject:Re: Instalar Iceeasel 15.0 en Debian squeeze
+El 01/10/12 20:07, Angel Claudio Alvarez escribió:
+> El Mon, 01 Oct 2012 17:41:22 -0400
+> luis@ida.cu escribió:
+>
+>> Hola a todos miren esto
+>>
+>> Desinstale Iceweasel 3.5 porque quiero instalar la 15.o es decir la
+>> última pero me da este error
+>>
+>> apt-get install iceweasel
+>> Leyendo lista de paquetes... Hecho
+>> Creando árbol de dependencias
+>> Leyendo la información de estado... Hecho
+>> No se pudieron instalar algunos paquetes. Esto puede significar que
+>> usted pidió una situación imposible o, si está usando la distribución
+>> inestable, que algunos paquetes necesarios no han sido creados o han
+>> sido movidos fuera de Incoming.
+>> La siguiente información puede ayudar a resolver la situación:
+>>
+>> Los siguientes paquetes tienen dependencias incumplidas:
+>>    iceweasel : Depende: xulrunner-15.0 (>= 15.0.1-1~bpo60+1) pero no va a
+>> instalarse
+>>                Depende: libsqlite3-0 (>= 3.7.12-1~) pero 3.7.3-1 va a ser
+>> instalado
+>>
+>> Ya tengo el sources list ok quizas me falte algo por instalar primero
+>>
+>> traté de hacer esto apt-get install iceweasel-l10n-es-es pero ahí es
+>> dode me da este error y el iceweasel lo tengo ya desisntalado es decir
+>> el que trae el, pues no se si se podia actualizar de la 3.5 a la 15.0
+>> ....
+>>
+>> Alguna idea
+>> Agradezo toda ayuda ...
+>>
+> Si, bajate los tar.gz de la pagina oficial, los desempaquetas y listo
+
+Esa es la mejor opción. Es más, ni hace falta desinstalar Iceweasel para 
+usar los archivos de configuración en el /home. Lo probé hace poco y 
+funciona muy bien. Si por alguna causa queremos volver a Iceweasel con 
+quitar Firefox del /opt es suficiente, el sistema utilizará el navegador 
+por defecto. Digo como para no andar metiendo repositorios que a la 
+larga pueden generar problemas de dependencias. Me ha pasado allá por 
+Etch si mal no recuerdo.
+
+>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/07151fcbf5775e3a7f3501040813a049@ida.cu
+>>
+>
+>
+
+
+-- 
+Sergio Bessopeanetto
+Buenos Aires, Argentina
+Skype: sergio.bess
+msn: sergiebess@hotmail.com
+Jabber: sergio.bess@jabber.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506A3835.6000405@myopera.com
+

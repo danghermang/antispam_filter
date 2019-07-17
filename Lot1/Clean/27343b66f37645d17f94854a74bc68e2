@@ -1,0 +1,43 @@
+Subject:[Ubuntu-be] ubuntu-be ISO Dutch and French Edition
+Hello,
+
+Now there 2 editions of our ISO, 1 dutch and a french edition.
+
+Here is a link to the latest dutch ubuntu-be ISO.
+http://ubuntuone.com/1TGR0Xq3OVxHttANzAgEWx
+
+Here is the link to the latest french ISO edition.
+http://ubuntuone.com/4fE6jAR6iy6bLmgBe1ejKX
+
+Update packages up to 19oct2012
+
+Installed apps :
+- restricted : codecs,java,flash,..........
+- vlc
+- gimp
+- inkscape
+- official be-eid reader software
+- tuxpaint
+- myunity
+- dutch or French language installed by default depending on the used ISO.
+- configured for Azerty keyboard
+- custom wallpaper in live-session and  when installed
+- Dutch and English manuals of ubuntu 12.04LTS in a folder on the 
+desktop in live and installed session
+- favorites "ubuntu-be" and "ubuntu" in firefox
+- standard search engine "google" in firefox
+
+If someone is working on a french edition of the ubuntu manual then they 
+can send it to me so that i can add it.
+
+The next thing is to update the wiki pages and upload the ISO's.
+
+Claudio
+
+
+
+-- 
+ubuntu-be mailing list / mailto:ubuntu-be@lists.ubuntu.com
+
+Modify settings or unsubscribe at:
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-be

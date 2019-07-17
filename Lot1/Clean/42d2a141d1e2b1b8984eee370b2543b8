@@ -1,0 +1,59 @@
+Subject:Re: clavier azerty en tty
+Le Wed, 10 Oct 2012 17:23:57 +0200,
+"D. Barbier" <bouzim@gmail.com> a écrit :
+
+> Le 10 octobre 2012 16:43, Bernard Schoenacker a écrit :
+> > Le Wed, 10 Oct 2012 11:36:01 +0200,
+> > François <francois.le.gad@free.fr> a écrit :
+> >
+> >> Le 09/10/2012 17:05, Bernard Schoenacker a écrit :
+> >> > bonjour,
+> >> >
+> >> >     j'emploie kbd et je n'arrive pas à trouver ceci "!" en TTY
+> >> >     j'ai cela à la place =
+> >> >
+> >>
+> >> dpkg-reconfigure console-data
+> >>
+> >> Peut-être aussi :
+> >> dpkg-reconfigure keyboard-configuration
+> >
+> >
+> > bonjour,
+> >
+> >         toujours pas de résultat probant
+> 
+> Bonjour,
+> 
+> Tu as quoi dans /etc/default/keyboard ?
+> Est-ce que le paquet console-setup est installé ?
+> 
+> Denis
+> 
+bonjour,
+
+	le paquet console-setup est installé
+	voici ce que donne /etc/default/keyboard:
+
+# KEYBOARD CONFIGURATION FILE
+
+# Consult the keyboard(5) manual page.
+
+XKBMODEL="pc105"
+XKBLAYOUT="fr"
+XKBVARIANT="oss_latin9"
+XKBOPTIONS=""
+
+BACKSPACE="guess"
+
+Bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121010194247.55285195.bernard.schoenacker@free.fr
+

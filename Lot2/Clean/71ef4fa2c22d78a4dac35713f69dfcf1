@@ -1,0 +1,27 @@
+Subject:Re: Debian (ou Linuxmint) sous W530
+Le 15 septembre 2012 03:20, jerome moliere <jerome.moliere@gmail.com> a =C3=
+=A9crit :
+> En effet peter la partoche pour reformater c'est pas top puisque je
+> veux garder le windows 7 de lenovo pour les MAj que l'on ne pourra
+> surement pas faire sous Linux (et jouer peut etre?)
+> Quelqu'un a t'il r=C3=A9solu ce probl=C3=A8me avec les nouvelles machines=
+ ? Si
+> oui comment?
+> pointeurs et autres bienvenus
+
+J'ai r=C3=A9solu ce probl=C3=A8me en r=C3=A9duisant la partition Windows so=
+us windows
+(il y a un outil dans les utilitaires de disques je crois), ensuite,
+l'installation de debian sur l'espace nouvellement vide c'est du
+g=C3=A2teau (Je crois qu'il y a une option "Utiliser tout l'espace
+disponible pour faire un partitionnement par d=C3=A9faut).
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAGCzTpNDVBaTtxAUiH3kUxvC8sGU66iUL-=1yDwZaHXmU6MW+A@mail.gmail.com
+

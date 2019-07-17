@@ -1,0 +1,48 @@
+Subject:[OT] Esconder params de un POST request
+Hola amigos quer=EDa preguntarles a lo mejor alguno de ustedes tiene =20
+alguna forma de hacerlo, estoy haciendo un sistema que hace peticiones =20
+de de autorizaci=F3n http a una direcci=F3n pero cuando miro con el =20
+firebug puedo ver los par=E1metros de las variables username y password =20
+y eso seria una fuga cualquiera que tenga firebug podr=E1 ver estos =20
+datos, esta es la rutina que uso es esta:
+
+function codificar_entrada(user, pass) {
+=09var tok =3D user + ':' + pass;
+=09var hash =3D Base64.encode(tok);
+return "Basic " + hash;
+}
+
+
+//-------------------------------------------------------------|
+OpenLayers.Request.issue({
+         async: false,
+=09=09url: "/geoserver/j_spring_security_check",
+=09=09scriptTag: true,
+=09=09headers : { Authorization : codificar_entrada('admin','12') },
+         method: "POST",
+         params: {
+=09=09=09=09username: "admin",
+                 password: "12"
+         }
+});
+
+Ac=E1 ven que lo que pongo en el header lo codifico pero lo que esta en =20
+los params simplemente se ve en la peticiones http con el firebug y es =20
+lo que quiero arreglar.  gracias de antemano
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121022131400.13338kqo78hs35k0@webmail.sld.cu
+

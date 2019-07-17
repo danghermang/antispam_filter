@@ -1,0 +1,13 @@
+Subject:Re: [arin-ppml] Utilization policy is not aggregate
+What about taking a /24 out to use for something like BGP anycasting?
+The whole thing is immediately "used" for that purpose, and the last
+time I asked, policy doesn't account for that.
+
+~Seth
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

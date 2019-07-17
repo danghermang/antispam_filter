@@ -1,0 +1,33 @@
+Subject:OpenVZ - Pasaje de venet a veth
+Lista, buenos días.
+
+En un contenedor OpenVZ he pasado de venet a veth.
+
+Desde dentro del contenedor al hacer un ifconfig -a veo la ip correcta, 
+la cual he configurado en /etc/network/interfaces (deshabilitando con # 
+todo lo referido a venet).
+
+Ahora bien, desde "afuera" del contenedor no puedo llegar a dicha IP, 
+osea si hago un ping a la ip del contenedor (192.168.1.100) es como si 
+no estuviera.
+
+Si desde el host anfitrión hago:
+
+# vzlist -a
+
+Me devuelve la lista de IPs de todos los contenedores pero el campo 
+perteneciente al contenedor configurado en modo VETH aparece en blanco.
+
+Será que falta montar un "bride" entre el VETH del contenedor y la IP 
+del host anfitrión?
+
+Muchas Gracias.
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BDF941.9080800@gmail.com
+

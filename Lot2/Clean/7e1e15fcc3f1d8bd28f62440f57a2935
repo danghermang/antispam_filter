@@ -1,0 +1,126 @@
+Subject:Re: [EVDL] Experience with EV100 (EVT15) GE controller blowingdiode
+	and IGBT
+I am using a 403CNQ400
+so 400V, 400A
+I do not expect the voltage to be the problem
+as these are the freewheel diodes - they see
+the voltage across the motor, never more than 130V.
+
+Cor van de Water
+Chief Scientist
+Proxim Wireless Corporation http://www.proxim.com
+Email: CWater@proxim.com Private: http://www.cvandewater.info
+Skype: cor_van_de_water Tel: +1 408 383 7626
+
+
+-----Original Message-----
+From: ev-bounces@lists.sjsu.edu [mailto:ev-bounces@lists.sjsu.edu] On
+Behalf Of Rod Hower
+Sent: Thursday, November 08, 2012 6:38 AM
+To: Electric Vehicle Discussion List
+Subject: Re: [EVDL] Experience with EV100 (EVT15) GE controller
+blowingdiode and IGBT
+
+EVT15 is a transistor based control,
+https://plus.google.com/photos/102124681118672255625/albums/530709706227
+3482529?banner=pwa
+
+Hopefully that link will bring up the schematic and elementary diagram
+of the 
+control.
+What voltage are the Schottky diodes?
+The layout of that control was poor allowing high parasitic inductance.
+While 
+switching high
+current the voltage overshoot is quite high, I would expect almost
+double the 
+pack voltage.
+That control was designed for a 9" GE motor wound for 96V.  What is the 
+nameplate voltage
+of the 11" motor?  Current limit on that control is software regulated,
+not 
+hardware, so it's possible
+peak currents during acceleration are quite high.
+Rod
+P.S. GE also made an EVT100, which is a transistor based EV100 (SCR
+based).
+These were special IGBT's made for GE by IR back in the early 90's and
+are rated 
+at 250V
+
+
+
+
+----- Original Message ----
+From: Jeffrey Jenkins <tesseract@tampabay.rr.com>
+To: ev@lists.sjsu.edu
+Sent: Thu, November 8, 2012 6:32:53 AM
+Subject: Re: [EVDL] Experience with EV100 (EVT15) GE controller blowing
+diode 
+and IGBT
+
+Cor van de Water wrote
+> I hope someone can share their experience with the
+> 
+> (mostly used for Forklift at 36V) EV100 controller from GE,
+> 
+> A.K.A. EVT15.
+> 
+> This is a DC controller with nice features, protection against
+> 
+> starting if a condition exists that would cause the motor to
+> 
+> run too fast, such as a short-circuited IGBT....
+
+Now I might be mistaken here, but I thought the GE EV100 used an *SCR*
+as
+the switch, not an IGBT... 
+
+Here is a link to a manual I found when I searched for "GE EV100
+controlller":
+
+http://www.fsip.biz/Documents/EV100ZX%20%20TECH.pdf
+
+Is that it? 
+
+
+
+
+--
+View this message in context: 
+http://electric-vehicle-discussion-list.413529.n4.nabble.com/Experience-
+with-EV100-EVT15-GE-controller-blowing-diode-and-IGBT-tp4659276p4659278.
+html
+
+Sent from the Electric Vehicle Discussion List mailing list archive at 
+Nabble.com.
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

@@ -1,0 +1,31 @@
+Subject:Re: debian et onduleur
+Le Fri, 21 Sep 2012 10:59:21 +0200 (CEST)
+Etienne Vogt <Etienne.Vogt@obspm.fr> a =E9crit:
+
+> On Thu, 20 Sep 2012, Ga=EBtan PERRIER wrote:
+>=20
+> > Que pensez-vous de ces deux mod=E8les ? Le Black UPS Pro est-il bien g=
+=E9r=E9
+> > sous debian (sur le site de nut il est marqu=E9 comme dev par reverse
+> > engineering) ?
+>=20
+> Les onduleurs APC ont leur propre logiciel de gestion appel=E9 apcupsd.
+> Et oui, il est dans Debian.
+> Nous utilisons des Back UPS et des Smart UPS sans probl=E8me sous Debian=
+=20
+> aussi bien en liaison s=E9rie qu'en liaison USB.
+>=20
+
+Merci de l'info. Je l'avais loup=E9 celui-l=E0.
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120925010110.0b3db47561f44f54b3192bc9@neuf.fr
+

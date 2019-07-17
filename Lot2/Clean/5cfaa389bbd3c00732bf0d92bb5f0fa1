@@ -1,0 +1,54 @@
+Subject:Re: missing firmware e100/d101m_ucode.bin
+Hola Javier...
+
+El 02/10/12 10:28, Javier Santiesteban escribió:
+> Listeros, recientemente me decidi a instalar en un server el debian
+> squeeze y me topo con el siguente warning
+> missing firmware e100/d101m_ucode.bin
+>
+> alguien puede darme alguna idea de como arreglar esto
+
+Aquí va un texto que encontré en inglés, espero te sirva:
+
+
+How do I find and install the missing firmware?
+
+Now that you have the name of the firmware file that you want, it’s 
+relatively easy to identify the package that provides the required file. 
+You can use “apt-cache search <filename>” because the firmware packages 
+embed the list of firmware files in their description. You can also use 
+“apt-file” (provided by the package of the same name) or the web 
+interface at packages.debian.org.
+
+$ apt-cache search d101m_ucode.bin
+firmware-linux-nonfree - Binary firmware for various drivers in the 
+Linux kernel
+$ apt-file search d101m_ucode.bin
+firmware-linux-nonfree: /lib/firmware/e100/d101m_ucode.bin
+
+If the above commands return nothing, you probably need to enable the 
+“non-free” repository in your /etc/apt/sources.list (you can also enable 
+it within synaptic). And you also want to run “sudo apt-file update” to 
+have the latest information.
+
+Now you can install the right package, in the example above it was 
+firmware-linux-nonfree
+
+
+Resumiendo: agregas los repositorios non-free a tu /etc/apt/sources.list 
+e instalas el paquete firmware-linux-nonfree
+
+Por las dudas te envío el firmware-linux-nonfree_0.28+squeeze1_all.deb a 
+tu privado por si no tienes acceso a Internet.
+
+Saludos,
+Walter
+
+http://swcomputacion.com/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506AF92A.3070703@gmail.com
+

@@ -1,0 +1,57 @@
+Subject:Problemas para ejecutar archivos precompilados en C
+Saludos a tod@s, aprovecho para resolver un asunto que me invade la
+conciencia. Estoy practicando la fina ciencia de la programaci=F3n en la
+fina arte de la computaci=F3n, blablabla, rodando-ando cavando-ando, y
+quiero que todo me salga bien en mi Debian 6. Pero tengo este
+problema:
+miguel@miguel-LT:~$ cd /media/DATOS/Misdocs/Programacion
+miguel@miguel-LT:/media/DATOS/Misdocs/Programacion$ ls -l
+total 26
+-rw------- 1 miguel miguel     0 oct  3 14:24 archivoprueba.txt
+drwx------ 1 miguel miguel     0 jun 25 11:25 eclipselinux
+-rw------- 1 miguel miguel  4508 oct  3 14:01 ejemplo2.1
+-rw------- 1 miguel miguel    99 oct  3 13:54 ejemplo2.1.c
+-rw------- 1 miguel miguel 15663 oct  3 14:05 ejemplo2.1.exe
+drwx------ 1 miguel miguel  4096 jun 25 11:26 practicasjava
+miguel@miguel-LT:/media/DATOS/Misdocs/Programacion$ gedit ejemplo2.1
+miguel@miguel-LT:/media/DATOS/Misdocs/Programacion$ gedit ejemplo2.1.c
+miguel@miguel-LT:/media/DATOS/Misdocs/Programacion$ gcc ejemplo2.1.c
+miguel@miguel-LT:/media/DATOS/Misdocs/Programacion$ ./a.out
+bash: ./a.out: Permiso denegado
+miguel@miguel-LT:/media/DATOS/Misdocs/Programacion$ gcc ejemplo2.1.c -o hol=
+a
+miguel@miguel-LT:/media/DATOS/Misdocs/Programacion$ hola
+bash: hola: no se encontr=F3 la orden
+miguel@miguel-LT:/media/DATOS/Misdocs/Programacion$ ./hola
+bash: ./hola: Permiso denegado
+miguel@miguel-LT:/media/DATOS/Misdocs/Programacion$
+
+Tengo instalado el gcc 4.4, adem=E1s de esto:
+gcc-4.4-base gcc-4.4-locales gcc-4.4-source gcc-4.4-multilib libgcc1 gccxml
+
+El gcc-4.4-source me rebotaba porque dec=EDa que no pod=EDa instalar algo
+llamado "automake" (de la fuente: Error 404 Not Found). Fui a la
+direcci=F3n que otorgaba el archivo:
+http://ftp.debian.org/debian/pool/main/a/automake1.9/
+
+Y vi que tienen el paquete que me rebotaba:
+automake1.9_1.9.6+nogfdl-4_all.deb, pero prefer=ED bajar otro m=E1s
+utilizable en mi compu (uno i386). Ya instalado, el gcc-4.4-sources
+pas=F3 a instalarse. Sin embargo, no puedo ejecutar los compilados de C,
+a=FAn siguiendo los pasos de algunas p=E1ginas web que visit=E9[1] =BFCreen
+que est=E9 haciendo algo mal o no estoy visitando los enlaces correctos?
+Llevo casi nadita en Debian, a pesar de tener tiempo en la lista, y
+quiz=E1s con esto pueda avanzar mucho mucho muuuuuuuuuuuuuuucho m=E1s
+
+[1]www.chuidiang.com/clinux/herramientas/basico/hola_mundo.php
+--=20
+Buen uso de las listas (como se ven en Debian):
+http://wiki.debian.org/es/NormasLista
+Ayuda para hacer preguntas inteligentes: http://is.gd/NJIwRz
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALEvJmQ6+4kersZB_EHR3Tagc1Uf8uX6v85FBVZX2uLz3nhzLA@mail.gmail.com
+

@@ -1,0 +1,67 @@
+Subject:Re: cifrar trafico de red Local?????
+2012/9/13 JulHer <julher@escomposlinux.org>:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> El 13/09/12 17:38, PedroTron escribi=C3=B3:
+>> Lo que quiero hacer es convertir esos canales dedicados en canales
+>> seguros.  Si es posible hacerlo tambien en la red local seria
+>> excelente, pero al menos deseo poder asegurar los canales
+>> dedicados.
+>
+> Esos canales dedicados... indica que son. Quiero decir que no se si
+> tienes varios router con l=C3=ADneas dedicadas entre ellos y unidos por p=
+pp
+> o alg=C3=BAn otro protocolo, o simplemente hay un bridge entre dos
+> segmentos de red...
+>
+> De todos modos, lo m=C3=A1s pr=C3=A1ctico en mi opini=C3=B3n para comunic=
+ar dos
+> equipos independientes es IPsec, pero no me queda claro si hay que
+> proteger un enlace de datos por el que van las comunicaciones de
+> muchos equipos o los datos que intercambian dos equipos concretos.
+>
+> Un saludo
+>
+
+Si quiere utilizar IPSec a nivel de red interna, solo puede hacerlo
+entre dos hosts. Esto quiere decir que precisar=C3=A1 configurar tantos
+t=C3=BAneles como comunicaciones precise. Ejemplo: si quiere que un host se
+comunique con otros 10 hosts, necesitar=C3=A1 configurar 10 t=C3=BAneles IP=
+Sec
+en ese host (y uno en cada uno de los otros 10).
+
+Con IPsec no existe la posibilidad de establecer un =C3=BAnico t=C3=BAnel q=
+ue lo
+abarque todo, a menos que tenga un iniciador/finalizador de t=C3=BAneles
+IPSec entre ese host y los otros 10 (un fw o un vpn concentrator).
+
+Desconcozco si por ejemplo con OpenVPN se puede hacer esto, pero cabe
+recordar que TODOS (lo digo para remarcar, no gritando) los
+fabricantes y productos opensource que asumen funciones SSL-VPN son
+vulnerables a uno de los ataques m=C3=A1s antiguos que existen: MITM.
+
+Para las personas que preguntan que para qu=C3=A9 se puede tener necesidad
+de hacer algo as=C3=AD, os pongo de ejemplo mi caso en mi empresa. Tenemos
+configurados t=C3=BAneles IPSec hacia un servidor DNS y un servidor de
+archivos (ambos en la misma red que las estaciones de trabajo). El
+servidor DNS replica datos de ciertos clientes nuestros y solo
+precisan ser vistos por ciertos usuarios. En el caso del servidor de
+archivos, ya os lo pod=C3=A9is imaginar: almacena docs confidenciales de la
+empresa as=C3=AD como de clientes. Y esto se suele hacer as=C3=AD por dos
+motivos:
+
+a) Poner acls a nivel de IP no resuelven el problema (y en nuestra
+empresa menos ya que los usuarios pueden cambiar la IP de sus
+port=C3=A1tiles)
+b) Hay que garantizar la integridad y confidencialidad de los datos en tr=
+=C3=A1nsito.
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAEjQA5+o=GensfP8gfbfArQYm506R6ThEX+EtbqPQLw0u89oUA@mail.gmail.com
+

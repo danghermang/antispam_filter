@@ -1,0 +1,147 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Alan,
+
+Remember that this thread started with discussion of Alan P's paper about 
+LOSSLESS ferrite antennas.
+
+You have consistently said that ferrites have losses, and no one has 
+disagreed with you on this -- which issue is beside the point for the rest 
+of us in this thread -- which point is to understand ferrite antennas in the 
+approximation that they are lossless.    This is a good enough approximation 
+at "low" frequencies that there seemed to be interest in discussing this 
+ideal case.
+
+You have been trying to redirect the discussion into the realm of very lossy 
+ferrites.   This is of little interest to me -- and also to other members of 
+the List, so far as I can tell.
+
+So, I am happy to drop the matter of lossy ferrites.   Feel free to keep 
+discussing them yourself.
+
+--Kirk
+
+
+
+-----Original Message----- 
+From: boswell alan
+Sent: Thursday, October 25, 2012 2:50 PM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] Ferrite Antennas
+
+Kirk
+
+Losses reduce the capture area.  We agree about that at last.  It's
+the first sensible thing you have written, though a gross
+understatement in the context of the present discussion.
+
+I liked that bit that said: 'apart from losses, the capture area is
+the same as a dipole'.  An equivalent statement would be: 'apart from
+the Pacific Ocean, it's perfectly possible to walk from Chile to
+Japan' :).
+
+If all your sources have been talking about lossless ferrite antennas,
+you can build a pile of them and put a match to it.  No wonder you
+have been misled.  Such a thing does not exist and has never existed,
+and I am sure all the readers on here know that.
+
+Maybe that's why they have stayed so quiet.  If anyone is interested
+in a real-world discussion, maybe we can start one now :)
+
+The first thing to understand is that the signal power losses in
+ferrite rod antennas are high, maybe as high as 70 dB.  That is the
+gap in knowledge that you have to cross.  I thought everyone knew it,
+which explains why I was on the point of wondering which one of us
+needs medication :).   But you will need to consider the detail and
+forget the broad-brush approach with those dubious amateur sources :).
+
+Alan G3NOQ
+
+
+
+
+
+On 25 October 2012 19:24, Kirk T McDonald <kirkmcd@princeton.edu> wrote:
+> Alan,
+>
+> The discussion by everyone but you has been about LOSSLESS ferrites.
+>
+> No one has ever disputed that losses reduce the "capture area".
+>
+> The claim that has been made since the first email of this thread is that 
+> in
+> the absence of losses the capture area is the same with and without a
+> ferrite.
+>
+> And, your numbers of your example of a lossless ferrite confirmed this.
+>
+> -------------------
+> A technical footnote is that in the presence of losses the power extracted
+> from the wave is actually the same as without losses, but the "useful" 
+> power
+> at the terminals (to use the IEEE language) is reduced by the losses. 
+> The
+> "missing" power goes into heat in the ferrite, or Ohmic resistance of the
+> system.
+>
+>
+> --Kirk
+>
+> -----Original Message----- From: boswell alan
+> Sent: Thursday, October 25, 2012 2:04 PM
+>
+> To: Discussions of Antennas and Related Topics
+> Subject: Re: [Antenna-discussion] Ferrite Antennas
+>
+> Hi
+>
+> Just to make some progress, with a ferrite rod antenna we have a
+> voltage source, a radiation resistance Rr, a loss resistance Rl, and a
+> reactance, all in series between the two terminals of the antenna, and
+> the problem is to extract as much signal power as possible.
+>
+> The usual method is to tune the antenna, which removes the reactance,
+> and the radiation efficiency is then Rl/Rr.  If it's considered a
+> typical loss resistance is roughly 10^7 times the radiation resistance
+> for a typical ferrite rod antenna, the radiation efficiency is then
+> about -70 dB.  This is also the power lost when the antenna is used
+> for receiving, so we have in effect a 70 dB attenuator in front of the
+> first amplifier in the receiver.
+>
+> The receive system in this case has a noise figure of 70 dB provided a
+> noiseless amplifier can be used.  A practical amplifier would have a
+> noise figure of 5-10 dB that adds to the 70 dB.  That system would be
+> all right for AM on the medium wave, but not very satisfactory for a
+> communication system.
+>
+> Alan G3NOQ
+>
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this 
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm 
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

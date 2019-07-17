@@ -1,0 +1,285 @@
+Subject:Re: [MG] Requirements in regard to split opinion formation
+Hi George,
+
+Sounds good - I'll have a look on it asap.
+
+And of course we are also looking for something reasonable around. We don't 
+want to reinvent the wheel - that's for sure ;o)
+But we are also just at the beginning to look at other concepts, projects 
+and ideas!
+
+And yes, we are interested in more details...
+
+Cheers
+marc
+
+-----Original Message----- 
+From: George Anadiotis
+Sent: Sunday, October 21, 2012 1:09 PM
+To: start@metagovernment.org
+Subject: Re: [MG] Requirements in regard to split opinion formation
+
+Dear Marc and Michael, all
+
+i hope i am not "interrupting" your discussion, but it seems to me there is 
+something here which i may be able to contribute - even though unfortunately 
+i have not been active on the list, i still do some work on the topic.
+
+So, i am glad to see that the discussion is getting active and entering what 
+appears to me like a standardization / integration stage. Typically, there 
+are 2 ways to deal with interoperability - on the functionality and on the 
+data level. So in your example, that would translate to having T1 being able 
+to call some API on T2 in order to perform functions on it on behalf of a T1 
+user, and vice versa, and having T1 and T2 exchange some data in order to 
+process them.
+
+Some common denominator can be agreed on on both levels, however i would 
+like to emphasize more on the data side of things here. It seems to me that 
+what you are doing is trying to come up with a schema to describe basic 
+domain entities, their properties and relations - in other words, come up 
+with a domain ontology. I do not want to lecture anyone here or to go on 
+extensively about this, but i would just like to point out to a body of 
+scientific work on the subject that you may be interested in - there's no 
+point in reinventing the wheel after all.
+
+So, a couple of simple domain models for argumentative discussions and 
+consensus already exist:
+1. A consensus ontology, based on IBIS, problem marketplaces and idea 
+management: http://www.imc.com.gr/ontologies/eDialogos/consensus/
+2. An argumentative discussion ontology, based on IBIS and SIOC: 
+http://ceur-ws.org/Vol-405/paper4.pdf
+3. A survey of existing work in the domain: 
+http://www.semantic-web-journal.net/sites/default/files/swj138_2.pdf
+
+The 1st and 2nd approach can be harmonized, and this is set as future work. 
+There is also a body of work on the aspect of consensus on the ontology 
+development process itself which could be interesting here. Hope this helps, 
+let me know if you are interested in more details.
+
+best regards
+George Anadiotis
+
+
+On Sat, Oct 20, 2012 at 6:00 PM, <start-request@metagovernment.org> wrote:
+Send Start mailing list submissions to
+        start@metagovernment.org
+
+To subscribe or unsubscribe via the World Wide Web, visit
+        http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+or, via email, send a message with subject or body 'help' to
+        start-request@metagovernment.org
+
+You can reach the person managing the list at
+        start-owner@metagovernment.org
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of Start digest..."
+
+
+Today's Topics:
+
+   1. Requirements in regard to split opinion formation (Michael Allan)
+   2. Re: Requirements in regard to split opinion formation (marc)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Fri, 19 Oct 2012 23:13:40 -0400
+From: Michael Allan <mike@zelea.com>
+To: Start/Metagov <start@metagovernment.org>, AG Meinungsfindungstool
+        <ag-meinungsfindungstool@lists.piratenpartei.de>
+Subject: [MG] Requirements in regard to split opinion formation
+Message-ID: <1350702247.bD1Ad0.11977@out.zelea.com>
+Content-Type: text/plain; charset=us-ascii
+
+Hi Marc,
+
+Although I'm not a member of the Meinungsfindungstool working group, I
+have a personal concern with what you're working on.  Specifically it
+involves the problem of "split consensus" as Thomas von der Elbe has
+called it, or "split opinion formation" in your own terms.
+
+But first I have some questions.  Do you have time to answer?
+
+Marc said, October 10:
+> One possible answer our working groups comes out with is, that we need to
+> define kind of standardization. Like the W3C standardizes the internet and
+> Business Entity Model...
+
+And in reply to Pietro, October 16:
+> The idea is to have a common base (framework of workflows and
+> entities) for all tools to enable the interaction and extensibility
+> of the overal process of decision-making. Therefore we need a common
+> understanding of how workflows and entities interacts in the
+> process.
+
+I try to picture what you describe (pardon my ASCII):
+
+             ....
+          ..........  M
+        ..............   ....
+       .......................
+       ......................
+        .............   ....
+          ..........
+             ...
+
+
+            +-----+  +-----+
+            |     |  |     |
+            | T1  |  | T2  |
+            |     |  |     |
+            +-|-|-+  +-|-|-+
+    +---------|-|------|-|---+
+    |         | |      | |   |
+    |                        |
+    |    S                   |
+    |                        |
+    +------------------------+
+
+
+     M  Opinion in formation
+     T  Competing tools
+     S  Common standards, practices,
+        databases, and so forth
+
+
+Here T1 and T2 are competing tools for the purpose of opinion forming.
+A user may choose T1 or T2.  But regardless of the choice (say it is
+T2), the user will remain part of the same overall opinion forming
+process (M).  So he/she may continue to work with other users who make
+different choices (T1).  This technical freedom of choice is made
+possible by the common standards, practices and/or databases (S) that
+are shared between the competing tools.  Is this picture correct?
+
+--
+Michael Allan
+
+Toronto, +1 416-699-9528
+http://zelea.com/
+
+
+
+------------------------------
+
+Message: 2
+Date: Sat, 20 Oct 2012 17:07:13 +0200
+From: "marc" <marc@merkstduwas.de>
+To: "Michael Allan" <mike@zelea.com>,   "Start/Metagov"
+        <start@metagovernment.org>, "AG Meinungsfindungstool"
+        <ag-meinungsfindungstool@lists.piratenpartei.de>
+Subject: Re: [MG] Requirements in regard to split opinion formation
+Message-ID: <7A4E34022063494EA62FABBD6850F1FE@ZyCon>
+Content-Type: text/plain; format=flowed; charset="iso-8859-1";
+        reply-type=original
+
+Hi Michael,
+
+There is always time, when people doing the right things together ;o)
+
+So you wrote
+>Although I'm not a member of the Meinungsfindungstool working group, I
+>have a personal concern with what you're working on.  Specifically it
+>involves the problem of "split consensus" as Thomas von der Elbe has
+>called it, or "split opinion formation" in your own terms.
+
+To be honest you don't need to be a member of our working group - even not
+of Pirate Party - when you want to cooperate with us. It's all about coming
+together and working on the right things.
+
+>But first I have some questions.  Do you have time to answer?
+
+Sure, you are welcome.
+
+>Marc said, October 10:
+>> One possible answer our working groups comes out with is, that we need to
+>> define kind of standardization. Like the W3C standardizes the internet
+>> and
+>> Business Entity Model...
+
+>And in reply to Pietro, October 16:
+>> The idea is to have a common base (framework of workflows and
+>> entities) for all tools to enable the interaction and extensibility
+>> of the overal process of decision-making. Therefore we need a common
+>> understanding of how workflows and entities interacts in the
+>> process.
+
+>I try to picture what you describe (pardon my ASCII):
+
+Sorry, I can't cite your ascii ;o)
+
+>Here T1 and T2 are competing tools for the purpose of opinion forming.
+>A user may choose T1 or T2.  But regardless of the choice (say it is
+>T2), the user will remain part of the same overall opinion forming
+>process (M).  So he/she may continue to work with other users who make
+>different choices (T1).  This technical freedom of choice is made
+>possible by the common standards, practices and/or databases (S) that
+>are shared between the competing tools.  Is this picture correct?
+
+Yes, that's what our working group tries to establish.
+
+And even more, if the user starts with T1 and then recognizes that T2 fits
+better to his needs, than he can just switch over to T2, if T2 provides a
+migration path to the Common Business Entity Model (CBEM) ;o)
+
+Here is a first draft of our idea of a Common Business Entity Model (where
+'Business' means it's not a 'Data' Entity Relationship Model assignable to a
+database schema, it's just objects found in the real world - the database
+schema might look totally different):
+http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg
+
+Unfortunately it's not fully translated yet, but I hope you understand our
+intention. The blue rectangles are objects that are part of the base
+framework standard. The red ones are specific to plug-ins, using the blue
+ones to inherit from, or just defining new ones.
+
+At the end the blue ones are those who all tools should be able to convert
+their own Model into. That's the way the different tools can interchange
+their data.
+
+Does this make sense?
+
+Cheers
+Marc
+
+
+
+
+------------------------------
+
+Subject: Digest Footer
+
+_______________________________________________
+Start mailing list of the Metagovernment project
+http://www.metagovernment.org
+Post to the list: Start@metagovernment.org
+Manage subscription: 
+http://metagovernment.org/mailman/listinfo/start_metagovernment.org
+
+
+------------------------------
+
+End of Start Digest, Vol 55, Issue 21
+*************************************
+
+
+
+
+
+
+
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: 
+http://metagovernment.org/mailman/listinfo/start_metagovernment.org 
+
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

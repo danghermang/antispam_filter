@@ -1,0 +1,24 @@
+Subject:Debian et =?ISO-8859-1?Q?d=E9bit?= USB3
+Salut,
+
+J'aimerai avoir des retours sur les d=E9bits de disque dur en USB3.
+Parce que je suis en train de faire une sauvegarde avec rsync sur un tel di=
+sque
+(WD My Book Essential 1To) et je ne constate pas de diff=E9rence avec un di=
+sque
+USB2 ...
+Pourtant dans l'utilitaire de disque il affiche bien disque connect=E9 en U=
+SB =E0
+705 Mo/s.
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031002744.93abaa8188cd29c990acd999@neuf.fr
+

@@ -1,0 +1,34 @@
+Subject:Re: Instalar FirebirdCS-2.5.2.26536-0.RC1.i686.tar.gz en squeeze
+El Mon, 17 Sep 2012 11:07:40 -0400, Ismael L. Donis Garcia escribió:
+
+> Hasta el día de hoy tuve la versión 2.5.1 corriendo perfectamente
+> (.tar.gz).
+> 
+> Hoy estoy tratando de instalar al versión
+> FirebirdCS-2.5.2.26536-0.RC1.i686.tar.gz. Descargado desde el sitio
+> oficial de Firebird. No trabajo con los de Debian ya que siempre van muy
+> por detrás..... Así que no acepto esa recomendación.
+> 
+> Instala perfectamente, pero no inicia el servidor y no veo por ningún
+> lado el porque no inicia.
+
+¿Lo has ejecutado? ¿Has leído el manual, por un casual?
+
+> Como no se prácticamente nada de Linux no se como tratar de iniciar el
+> servidor desde una línea de comando. Alguien me podría dar una pequeñita
+> explicación de como realizar esto.
+
+Se me hace harto extraño que digas eso siendo que has estado iniciando la 
+versión anterior sin problemas.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k37gtd$cqa$10@ger.gmane.org
+

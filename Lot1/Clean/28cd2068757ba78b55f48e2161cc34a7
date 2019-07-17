@@ -1,0 +1,21 @@
+Subject:Re: [rlug] Intrebare file mirroring
+2012/11/14 Vali Dragnuta <vali.dragnuta@inode.ro>:
+> De ce sute ? Ar trebui sa faci deploy manual pe o singura masina si sa
+> ai acolo un master script care face rsync pe toate masinile "slave".
+> Desigur, sint niste conditii care ar trebui indeplinite in prealabil dar
+> altfel... nu cred ca e asa complicat :)
+>
+Eh, ar fi prea frumos sa fie asa :)
+Din pacate situatia e mai complicata, se face deploy si upload pe
+toate serverele.
+Si bine inteles nu pot sa schimb lucrul acesta asa ca ramane varianta
+gluster/nfs.
+
+Numai bine.
+
+-- 
+Gyula KERESZTELY-KRALL
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

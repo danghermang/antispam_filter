@@ -1,0 +1,43 @@
+Subject:Re: Mutt et locales
+Le samedi 10 novembre 2012 23:14:12, Sylvain L. Sauvage a =C3=A9crit :
+> Le samedi 10 novembre 2012 =C3=A0 21:56:35, Fr=EF=BF=BDd=EF=BF=BDric ZULI=
+AN a =C3=A9crit :
+> >[=E2=80=A6]
+> >
+> > Non, cela le fait lorsque je r\351dige un mail. Voila \340
+> > quel moment l'information apparait :
+> >=20
+> > Mutt --> m --> redaction du message --> :wq ---> affichage du
+> > mail et du
+> > fichier avec l'information :  [text/plain, 7bit, us-ascii,
+> > 0,1K]
+> >=20
+> > --
+> >=20
+> > Fr\351d\351ric F1sxo
+>=20
+>   Et ton message est tr=C3=A8s tr=C3=A8s moche : l=E2=80=99en-t=C3=AAte d=
+it =C2=AB utf-8 =C2=BB
+> mais c=E2=80=99est du latin-1=E2=80=A6
+>=20
+>   Ah la la, Mutt, c=E2=80=99est vraiment trop compliqu=C3=A9=E2=80=A6
+
+Ben  d'ou est-ce qu'il sort  latin-1=E2=80=A6 parce que mutt je l'ai config=
+ur=C3=A9 en utf8.
+La config de vim peut-=C3=AAtre ??
+
+
+Mon .muttrc  :
+
+set locale=3Dfr_FR.UTF-8
+set allow_8bit=3Dyes
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211102348.33478.zulian@free.fr
+

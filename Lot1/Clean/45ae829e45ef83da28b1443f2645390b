@@ -1,0 +1,23 @@
+Subject:Re: [LUG] temperature sensors for Raspberry Pi brewery controller
+On 9 November 2012 15:09, tom <tompotts@madtom1999.bbmax.co.uk> wrote:
+
+> I am puzzled by this - many plastic wrapped kitchen probes offer 0.1%
+> accuracy but are not suitable for automating but no-one seems to produce a
+> suitable probe at anywhere near the price...
+
+I'm calling out on the accuracy figure I think its total lies. 0.1% of
+what as well, full scale deflection or reading? A class A RTD is not
+even 0.1% at 100 degrees,and that's with a full four wire sense and i
+expect the RTD costs more than the kitchen probe retail price.
+
+> I think a hammer may be required.....
+> I want 0.1c resolution for OCD reasons as much as anything - though I will
+> conduct beer mashing at that kind of accuracy out of interest...
+
+I believe the 0.1 resolution, resolution is easy. Accuracy, linearity
+and repeatability much harder.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

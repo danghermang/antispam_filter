@@ -1,0 +1,39 @@
+Subject:Re: [Flexradio] Need Help Reducing Splatter
+
+Jim,You need to balance all the components in your audio chain, so that one is not u nderpowered and another is making up for it by being over-powered.  You're describing a classic audio overdrive problem in PSDR that is easily fixable with this software. In essence, you start with a mic gain at about 35 and everything else in the audio chain off.  Then speaking in a normally strong voice, you set each level (EQ, Leveler, DX, etc etc) so that the ALC level never exceeds -1dB.   Takes about 5 minutes per TX profile. The best source for this info is Rob W1AEX :  http://www.w1aex.com/psdrgain/psdrgain.html    Jim KJ2P
+ > Date: Sat, 20 Oct 2012 07:36:06 -0700
+> From: k9gvf@yahoo.com
+> To: flexradio@flex-radio.biz
+> Subject: [Flexradio] Need Help Reducing Splatter
+> 
+> Setup:
+> Flex-3000
+> Heil GM-5 dual element, or Heil HM-Pro
+> selectively/as-needed feeding Ameritron ALS-500M to LDG AT-1000 to either G5RV or TA-36
+> all gear home-run bonded to common hard ground (not looped through other gear)
+> (the TA-36 is fed with 1/2" hardline, decoupling coil at the boom, tower and feedlines are grounded at the entrance before 20 foot run into the rigs)
+> 
+> Thank goodness I now have a rig with a scope so I can see what's happening. I've just not found the settings to eliminate it... a little venting as I think through this as bait some observations/tips.
+> 
+> Watching the panadapter display on transmit I've got good tight signal within the TX filter settings, and if I don't talk too loud it stays that way, but I get requests to speak up... when I do there is a lot of energy to the sides, energy 80-90 db down at the filter edge sloping 100-110db down out to 4-5 KHz either side.
+> 
+> When this occurs there is a small amount of garbled energy getting into in-shack audio system, and thanks to how wonky USB gear is, causes devices on one cheap hub to disconnect (guess that hub goes in the trash.) Otherwise - no other 'TVI' locally or complaints from the neighbors.
+> 
+> I've tried various drive, mic, CPDR, DEXP levels settings, etc. but am inclined to think it's simply equalization - I have a somewhat bass-y voice and perhaps I'm simply over-driving on low-frequency energy.  
+> 
+> Begs for a bit more air time into the dummy load for tweaking, so looking for hints.
+> 
+> Thanks.
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/
+ 		 	   		  
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

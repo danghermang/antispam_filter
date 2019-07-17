@@ -1,0 +1,42 @@
+Subject:Re: [Jukebox-list] Bench  testing SHP-1 Amp.
+Bob,
+The SHP series is a solid-state amp--no tubes -- self contained power suppl=
+y. Ron Rich
+
+--- On Thu, 10/18/12, Bob Ellingson <bobe@halted.com> wrote:
+
+From: Bob Ellingson <bobe@halted.com>
+Subject: Re: [Jukebox-list] Bench  testing SHP-1 Amp.
+To: jukebox-list@lists.netlojix.com
+Date: Thursday, October 18, 2012, 3:14 PM
+
+On 10/18/2012 2:21 PM, Ed Owens wrote:
+> Howdy,
+>=A0 =A0 I not talking from experience with that amp but I would think the =
+general flow of work to be.=A0 IF it's a mechanical relay for the mute just=
+ physically move it or hold it on with a piece of foam.=A0 Your other optio=
+n would be to figure out what the voltage is and feed it with a power sourc=
+e.
+>=A0 =A0 As for the remote volume, you would need a single or double audio =
+curve voltage pot.=A0 If it's a mono you just need one.=A0 A non-audio curv=
+e will work just have a small sweet spot that it will work. And look at the=
+ wiring diagram and figure out that ohm rating and how to exactly connect i=
+t.=A0 So your questions should really be, what is the ohm rating of that po=
+tentiometer and how does it connect to the amp.
+
+Aren't you also going to have to supply 6.3 Volts to the Jones plug on the =
+side of the chassis?=A0 The filament voltage comes from the transformer on =
+the TSU.
+
+--Bob
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

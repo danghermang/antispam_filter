@@ -1,0 +1,34 @@
+Subject:[Koha] Error Import
+List,
+
+Hi I have the following error message when uploading a file marc, I send an
+example that may be causing the error
+
+pic error :  http://automatizacion.sbp.cl/trabajos/error.png
+
+=3DLDR  00733aam a2200205uu 5200
+=3D001  000000007742
+=3D005  20091201155350.f
+=3D008  011209s2008----mx-a######---#000-0#spa-d
+=3D020  \\$a970261225X
+=3D020  \\$a9789702612254
+=3D100  1\$aGiancoli, Douglas C.
+=3D245  10$aF=EDsica para ciencias e ingenier=EDa$cDouglas C. Giancoli ;
+traducci=F3n Ma. de Lourdes Amador Araujo
+=3D250  \\$a4a. ed.
+=3D260  \\$aM=E9xico$bPearson Educaci=F3n$c2008
+=3D300  \\$a1 v. (xxiii, 558 p.)$bil
+=3D534  \\$pTraducci=F3n de :$tPhysics for scientists and engineers
+=3D650  \7$aF=EDsica
+=3D700  1\$aAmador Araujo, Ma. de Lourdes$etr
+=3D852  \\$bCiencias Naturales y Matem=E1ticas
+
+Gracias
+
+-- =
+
+-Carlos
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

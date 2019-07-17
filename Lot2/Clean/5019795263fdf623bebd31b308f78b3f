@@ -1,0 +1,21 @@
+Subject:Re: MKV se oye pero no se ve
+El 03/09/12 06:40, Marc Marí escribió:
+> Ya lo he solucionado!!! Abrí un nuevo hilo para ajustar el brillo de 
+> pantalla con el kernel 2.6.32, y Evgeny me dijo que actualizase los 
+> drivers de intel desde los backports, y luego el kernel. Así, ahora me 
+> funciona el ajuste de brillo y se ven los vídeos en VLC. No consigo 
+> entender porqué se veían en Totem y en los otros no, ni porqué tampoco 
+> se veían con optirun cuando tenía bumblebee configurado, pero me 
+> conformo con que funcione al menos con la gráfica intel Gracias por todo! 
+Es posible que cada aplicación use un "motor de video" diferente. No sé 
+en las que estás nombrando, pero recuerdo que Kaffeine te permitía 
+elegirlo en su configuración.
+
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5044AB7E.9090301@gmail.com
+

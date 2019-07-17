@@ -1,0 +1,242 @@
+Subject:W3C Public Newsletter, 2012-11-19
+Dear W3C Public Newsletter Subscriber,
+
+The 2012-11-19 version of the W3C Public Newsletter is online:
+  http://www.w3.org/News/Public/pnews-20121119
+
+A simplified plain text version is available below.
+
+Ian Jacobs, W3C Communications Team
+
+-----------------------------------
+W3C Invites Implementations of Content Security Policy 1.0
+
+   15 November 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9633
+
+   The Web Application Security Working Group invites
+   implementation of the Candidate Recommendation of "Content
+   Security Policy 1.0." This document defines a policy language
+   used to declare a set of content restrictions for a web
+   resource, and a mechanism for transmitting the policy from a
+   server to a client where the policy is enforced. Learn more
+   about the Security Activity.
+
+   http://www.w3.org/2011/webappsec/
+   http://www.w3.org/TR/2012/CR-CSP-20121115/
+   http://www.w3.org/Security/
+
+CSS Writing Modes Module Level 3, CSS Masking Drafts Published
+
+   15 November 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9632
+
+   The Cascading Style Sheets (CSS) Working Group has published a
+   Working Draft of "CSS Writing Modes Module Level 3." CSS
+   Writing Modes Level 3 defines CSS support for various
+   international writing modes, such as left-to-right (e.g. Latin
+   or Indic), right-to-left (e.g. Hebrew or Arabic), bidirectional
+   (e.g. mixed Latin and Arabic) and vertical (e.g. Asian
+   scripts).
+
+   http://www.w3.org/Style/CSS/members
+   http://www.w3.org/TR/2012/WD-css3-writing-modes-20121115/
+
+   The Cascading Style Sheets (CSS) Working Group and the SVG
+   Working Group have published the First Public Working Draft of
+   "CSS Masking." CSS Masking provides two means for partially or
+   fully hiding portions of visual elements: masking and clipping.
+   Masking describes how to use another graphical element or image
+   as a luminance or alpha mask. Typically, rendering an element
+   via CSS or SVG can conceptually described as if the element,
+   including its children, are drawn into a buffer and then that
+   buffer is composited into the element's parent. Luminance and
+   alpha masks influence the transparency of this buffer before
+   the compositing stage. Clipping describes the visible region of
+   visual elements. The region can be described by using certain
+   SVG graphics elements or basic shapes. Anything outside of this
+   region is not rendered.
+
+   http://www.w3.org/Style/CSS/members
+   http://www.w3.org/Graphics/SVG/
+   http://www.w3.org/TR/2012/WD-css-masking-20121115/
+
+   Learn more about the Style Activity, and the Graphics Activity.
+
+   http://www.w3.org/Style/
+   http://www.w3.org/Graphics/
+
+CSS Text Module Level 3, CSS Text Decoration Module Level 3 Drafts
+Published
+
+   13 November 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9631
+
+   The Cascading Style Sheets (CSS) Working Group has published
+   two Working Drafts today.
+
+   http://www.w3.org/Style/CSS/members
+     * CSS Text Module Level 3. This CSS3 module defines
+       properties for text manipulation and specifies their
+       processing model. It covers line breaking, justification
+       and alignment, white space handling, and text
+       transformation.
+     * CSS Text Decoration Module Level 3. This module contains
+       the features of CSS relating to text decoration, such as
+       underlines, text shadows, and emphasis marks. CSS is a
+       language for describing the rendering of structured
+       documents (such as HTML and XML) on screen, on paper, in
+       speech, etc.
+
+   Learn more about the Style Activity.
+
+   http://www.w3.org/Style/
+
+XML Encryption 1.1 and XML Signature 1.1 Interop Test Reports
+Published
+
+   13 November 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9630
+
+   The XML Security Working Group has published two Group Notes
+   today.
+
+   http://www.w3.org/2008/xmlsec/
+     * XML Encryption 1.1 Interop Test Report. This document is
+       the interop report for new features introduced in XML
+       Encryption 1.1. It does not replicate interop testing
+       performed for features retained from XML Encryption 1.0.
+     * XML Signature 1.1 Interop Test Report. This document is the
+       interop report for new features introduced in XML Signature
+       1.1. It includes the test cases and test results for these
+       new features. It does not replicate interop testing
+       performed for features retained from XML Signature 1.0.
+
+   Learn more about the Security Activity.
+
+   http://www.w3.org/Security/
+
+   More news: http://www.w3.org/News/archive
+
+Workshops
+
+     * 2012-11-26 (26 NOV) – 2012-11-27 (27 NOV)
+       Do Not Track and Beyond
+       http://www.w3.org/2012/dnt-ws/
+       Berkeley, California
+       Hosted by UC Berkeley and TRUST Science and Technology
+       Center
+       This workshop serves as a forum for the W3C membership and
+       the public to discuss the Consortium's next steps in the
+       area of tracking protection and Web privacy. What have we
+       learned from Do Not Track standardization and real-world
+       implementations? Furthermore, undoubtedly support for
+       privacy on the Web platform cannot end with Do Not Track:
+       what should we look at next and beyond DNT?
+     * 2013-02-11 (11 FEB) – 2013-02-12 (12 FEB)
+       Electronic Books and the Open Web Platform
+       http://www.w3.org/2012/08/electronic-books/
+       New York (USA)
+       Hosted by O'Reilly Media
+       Today’s eBook market is dynamic, fast-changing and strong.
+       eBooks compete with printed versions, and there is a wide
+       choice of hardware and software available for eBook
+       readers. Nevertheless, publishers face major business and
+       technical challenges in this market, some of which could be
+       reduced or removed by standardization.
+     * 2013-03-12 (12 MAR) – 2013-03-13 (13 MAR)
+       Making the Multilingual Web Work
+       http://www.multilingualweb.eu/en/documents/rome-workshop/ro
+       me-cfp
+       Rome, Italy
+       Hosted by the Food and Agriculture Organization of the
+       United Nations (FAO).
+       The MultilingualWeb community develops and promotes best
+       practices and standards related to all aspects of creating,
+       localizing, and deploying the Web across boundaries of
+       language. It aims to raise the visibility of existing best
+       practices and standards for dealing with language on the
+       Internet and on identifying and resolving gaps that keep
+       the Internet from living up to its global potential.
+
+W3C Blog
+
+     * None. Read the W3C Blog Archives
+       http://www.w3.org/QA/
+
+Upcoming Talks
+
+     * 2012-11-20 (20 NOV)
+       Why HTML5?
+       http://www.w3.org/2012/Talks/1120-owp-plh/
+       by Philippe Le Hégaret
+       HTML5FEST 2012
+       http://www.w3c.org.il/HTML5fest/2012/
+       Kfar maccabiah, Ramat Gan, Israel
+     * 2012-11-20 (20 NOV)
+       Web Accessibilty Demystified
+       http://zohararad.github.com/presentations/accessibility-dem
+       ystified/presentation/#/step-1
+       by Zohar Arad
+       HTML5FEST 2012 - The Israeli Web Community conference
+       http://www.w3c.org.il/HTML5fest/2012/
+       Ramat Gan, Israel
+     * 2012-11-20 (20 NOV)
+       Transforming the Web Together
+       by Bernard Gidon
+       HTML5FEST 2012
+       http://www.w3c.org.il/HTML5fest/2012/
+       Tel Aviv, Israel
+     * 2012-11-23 (23 NOV)
+       Web Accessibility: A Catalyst to Greatness
+       keynote by Shawn Henry
+       a11yMTL
+       http://a11ymtl.org/en/
+       Montreal, Canada
+     * 2012-11-24 (24 NOV)
+       HTML5 and CSS
+       by Bert Bos
+       Web Standards Days
+       http://webstandardsdays.ru/
+       Moscow, Russia
+
+W3C Membership
+
+   Lear more about the benefits of W3C Membership. If you or your
+   organization cannot join W3C, we invite you to support W3C
+   through a contribution.
+
+   http://www.w3.org/Consortium/membership-benefits
+   http://www.w3.org/Consortium/join
+   http://www.w3.org/Consortium/sup
+
+About W3C
+
+   The World Wide Web Consortium (W3C) is an international
+   consortium where Member organizations, a full-time staff, and
+   the public work together to develop "Web standards." Read
+   about W3C.
+
+   http://www.w3.org/TR/
+   http://www.w3.org/Consortium/
+
+Receiving the Newsletter
+
+   Bookmark this edition or the latest Public Newsletter and see
+   past issues and press releases. Subscribe to receive the Public
+   Newsletter by email. If you no longer wish to receive the
+   Newsletter, send us an unsubscribe email. Comments? Write the
+   W3C Communications Team (w3t-comm@w3.org).
+
+   http://www.w3.org/News/Public/pnews-20121119
+   http://www.w3.org/News/Public/
+   http://lists.w3.org/Archives/Public/w3c-announce/latest
+   http://www.w3.org/Press/
+   mailto:w3c-announce-request@w3.org?subject=Subscribe
+   mailto:w3c-announce-request@w3.org?subject=Unsubscribe
+   mailto:w3t-comm@w3.org
+

@@ -1,0 +1,24 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint?= qui consomme
+Le Thu, 20 Sep 2012 10:28:01 +0200
+Francois Boisson <francois@boisson.homeip.net> a écrit:
+
+[...]
+
+Bon, j'ai lancé un message sur la liste linux-kernel qui n'intéresse pas grand
+monde. Quelqu'un connaitrait-il la séquence dans le noyau effectuant
+l'extinction d'une machine et surtout les fonctions éteignant les
+périphériques, un grep power_off sur arch et sur kernel me donne qd même
+beaucoup de candidats et j'aimerais éviter de me farcir des centaines de
+lignes inutilement...
+
+François Boisson
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120921170844.6f7b767b9b773e3f8c702bc9@maison.homelinux.net
+

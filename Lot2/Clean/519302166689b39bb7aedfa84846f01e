@@ -1,0 +1,323 @@
+Subject:W3C Public Newsletter, 2012-10-01
+Dear W3C Public Newsletter Subscriber,
+
+The 2012-10-01 version of the W3C Public Newsletter is online:
+  http://www.w3.org/News/Public/pnews-20121001
+
+A simplified plain text version is available below.
+
+Ian Jacobs, W3C Communications Team
+
+-----------------------------------
+W3C Workshop: Web Performance
+
+   28 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9578
+
+   W3C announced today a Workshop on Web Performance, 8 November,
+   hosted by Google at their Mountain View, California campus. As
+   the Open Web Platform expands, the need for high performance
+   implementation has grown, particularly on mobile devices.
+   Participants will examine a broad range of performance issues
+   and how they might be addressed. There is no fee to participate
+   in this Workshop and W3C Membership is not required. All
+   participants are required to submit a statement of interest by
+   29 October. Learn more about W3C's Web Performance Working
+   Group, which also invites people to share performance issues
+   via their survey on Open Web Platform Performance Priorities.
+
+   http://www.w3.org/2012/11/performance-workshop/
+   http://www.w3.org/2010/webperf/
+   http://www.w3.org/2002/09/wbs/1/webperf2012/
+
+Media Fragments URI 1.0 (basic) is a W3C Recommendation
+
+   27 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9577
+
+   The Media Fragments Working Group has published a W3C
+   Recommendation of "Media Fragments URI 1.0 (basic)." This
+   document describes the Media Fragments 1.0 (basic)
+   specification. It specifies the syntax for constructing media
+   fragment URIs and explains how to handle them when used over
+   the HTTP protocol. The syntax is based on the specification of
+   particular name-value pairs that can be used in URI fragment
+   and URI query requests to restrict a media resource to a
+   certain fragment. Learn more about the Video in the Web
+   Activity.
+
+   http://www.w3.org/2008/WebVideo/Fragments/
+   http://www.w3.org/TR/2012/REC-media-frags-20120925/
+   http://www.w3.org/2008/WebVideo/
+
+RDB to RDF Mapping Language (R2RML) and A Direct Mapping of
+Relational Data to RDF are W3C Recommendations
+
+   27 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9576
+
+   The RDB2RDF Working Group has published two W3C Recommendations
+   today:
+
+   http://www.w3.org/2001/sw/rdb2rdf/
+     * R2RML: RDB to RDF Mapping Language. This document describes
+       R2RML, a language for expressing customized mappings from
+       relational databases to RDF datasets. Such mappings provide
+       the ability to view existing relational data in the RDF
+       data model, expressed in a structure and target vocabulary
+       of the mapping author's choice. R2RML mappings are
+       themselves RDF graphs and written down in Turtle syntax.
+       R2RML enables different types of mapping implementations.
+       Processors could, for example, offer a virtual SPARQL
+       endpoint over the mapped relational data, or generate RDF
+       dumps, or offer a Linked Data interface.
+     * A Direct Mapping of Relational Data to RDF. This document
+       defines a direct mapping from relational data to RDF.
+
+   Learn more about the Semantic Web Activity.
+
+   http://www.w3.org/2001/sw/
+
+Call for Review: Packaged Web Apps (Widgets) - Packaging and XML
+Configuration (Second Edition) Proposed Edited Recommendation
+Published
+
+   27 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9575
+
+   The Web Applications Working Group has published a Proposed
+   Edited Recommendation of "Packaged Web Apps (Widgets) -
+   Packaging and XML Configuration (Second Edition)." This
+   specification updates the Widget Packaging and XML
+   Configuration, and addresses some errata found in the original
+   recommendation. It also updates the name of the specification,
+   to be more in vogue with industry trends towards the naming of
+   this class of application. This specification standardizes a
+   packaging format and metadata for a class of software known
+   commonly as packaged apps or widgets. Unlike traditional user
+   interface widgets (e.g., buttons, input boxes, toolbars, etc.),
+   widgets as specified in this document are full-fledged
+   client-side applications that are authored using technologies
+   such as HTML and then packaged for distribution. Comments are
+   welcome through 25 October. Learn more about the Rich Web
+   Client Activity.
+
+   http://www.w3.org/2008/webapps/
+   http://www.w3.org/TR/2012/PER-widgets-20120925/
+   http://www.w3.org/2006/rwc/
+
+CSS Intrinsic & Extrinsic Sizing Module Level 3 Draft Published
+
+   27 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9574
+
+   The Cascading Style Sheets (CSS) Working Group has published
+   the First Public Working Draft of "CSS Intrinsic & Extrinsic
+   Sizing Module Level 3." This module extends the CSS sizing
+   properties with keywords that represent content-based
+   "intrinsic" sizes and context-based "extrinsic" sizes, allowing
+   CSS to more easily describe boxes that fit their content or fit
+   into a particular layout context. CSS is a language for
+   describing the rendering of structured documents (such as HTML
+   and XML) on screen, on paper, in speech, etc. Learn more about
+   the Style Activity.
+
+   http://www.w3.org/Style/CSS/members
+   http://www.w3.org/TR/2012/WD-css3-sizing-20120927/
+   http://www.w3.org/Style/
+
+W3C Renews Audio Working Group
+
+   26 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9573
+
+   W3C announced today the renewal of the Audio Working Group,
+   whose mission is to add advanced sound and music capabilities
+   to the Open Web Platform. The new charter adds a new
+   deliverable, the Web MIDI API, which will provide a bridge
+   between the browser and MIDI capable devices, such as musical
+   instruments and controllers, and has great interest from the
+   MIDI Manufacturers Association. The charter also clarifies the
+   Web Audio API deliverable and timeline. See the Audio Working
+   Group Charter for more information, and read more about the
+   Interaction Domain.
+
+   http://www.w3.org/2011/audio/
+   http://www.w3.org/2011/Audio/charter/
+   http://www.w3.org/Interaction/
+
+   More news: http://www.w3.org/News/archive
+
+Workshops
+
+     * 2012-11-08 ( 8 NOV)
+       W3C Workshop on Web Performance
+       http://www.w3.org/2012/11/performance-workshop/
+       Mountain View, California
+       Google
+       There is a an industry-wide momentum towards adopting HTML5
+       and its series of companion specifications to deploy
+       applications based on the Open Web Platform. Some of those
+       applications are facing however challenges with regards to
+       their performances. While Web browsers are improving their
+       implementations on an ongoing basis, not all of those
+       performance issues are due to the speed of the
+       implementations. Participants will look at a broad range of
+       performance issues and how to address them.
+     * 2012-11-14 (14 NOV) – 2012-11-15 (15 NOV)
+       Shift into High Gear on the Web: W3C Workshop on Web and
+       Automotive
+       http://www.w3.org/2012/08/web-and-automotive/
+       Rome, Italy
+       Hosted by Intel and Sponsored by Webinos
+       W3C’s Open Web Platform (OWP) is driving this and other
+       industry transformations. The promise of the early
+       information superhighway is being fulfilled. Whether
+       tethering a driver’s smartphone or tablet to work with a
+       car--or embedding technology into the car itself--there’s
+       no need to reinvent the wheel. The Web can take you there.
+       Participants in this workshop will have the opportunity to
+       share their own perspectives, requirements, and ideas to
+       ensure that emerging global technology standards meet the
+       needs of the Web and Automotive industries.
+     * 2012-11-26 (26 NOV) – 2012-11-27 (27 NOV)
+       Do Not Track and Beyond
+       http://www.w3.org/2012/dnt-ws/
+       Berkeley, California
+       Hosted by UC Berkeley and TRUST Science and Technology
+       Center
+       This workshop serves as a forum for the W3C membership and
+       the public to discuss the Consortium's next steps in the
+       area of tracking protection and Web privacy. What have we
+       learned from Do Not Track standardization and real-world
+       implementations? Furthermore, undoubtedly support for
+       privacy on the Web platform cannot end with Do Not Track:
+       what should we look at next and beyond DNT?
+
+W3C Blog
+
+     * Test The Web Forward
+       http://www.w3.org/QA/2012/10/test_the_web_forward
+       1 October 2012 by Robin Berjon
+       http://berjon.com/
+
+Upcoming Talks
+
+     * 2012-10-01 (1 OCT)
+       Yandex and W3C
+       http://events.yandex.ru/talks/331/
+       by Charles McCathieNevile
+       ЯК
+       http://events.yandex.ru/events/yac/2012/
+       Moscow, Russia
+     * 2012-10-03 (3 OCT)
+       Linked Data for Science and Industry
+       keynote by Michael Hausenblas
+       TUT W3C Web Technology Day: Linked Data for Science and
+       Industry
+       http://www.w3c.tut.fi/events/2012/1003-techday/
+       Tampere, Finland
+     * 2012-10-03 (3 OCT)
+       Is HTML5 the future?
+       panel features Philipp Hoschka
+       appsworld
+       http://www.apps-world.net/europe/index.php
+       London, United Kingdom
+     * 2012-10-04 (4 OCT)
+       More CSS secrets: Another 10 things you may not know about
+       CSS
+       by Lea Verou
+       Fronteers
+       http://fronteers.nl/congres/2012
+       Amsterdam, The Netherlands
+     * 2012-10-09 (9 OCT)
+       Les technologies Web de demain au service du multi-device
+       by Philipp Hoschka
+       Interfaces 2012
+       http://www.ccmbenchmark.com/conference/671-interfaces-2012
+       Paris, France
+     * 2012-10-17 (17 OCT)
+       Introduction to Internationalization and Unicode
+       http://inter-locale.com/demos/LW2012-seattle
+       by Addison Phillips
+       Localization World
+       https://www.localizationworld.com/
+       Seattle, USA
+     * 2012-10-19 (19 OCT)
+       More CSS secrets: Another 10 things you may not know about
+       CSS
+       by Lea Verou
+       Web Directions South
+       http://south12.webdirections.org/
+       Sydney, Australia
+     * 2012-10-22 (22 OCT)
+       Internationalizing the Kindle Paperwhite
+       http://inter-locale.com/demos/iuc36
+       by Addison Phillips
+       36th Internationalization and Unicode Conference
+       http://unicodeconference.org
+       Santa Clara, CA, USA
+     * 2012-10-22 (22 OCT)
+       Internationalization: An Introduction
+       http://inter-locale.com/demos/iuc36
+       by Addison Phillips
+       36th Internationalization and Unicode Conference
+       http://unicodeconference.org
+       Santa Clara, CA, USA
+     * 2012-11-20 (20 NOV)
+       Why HTML5?
+       http://www.w3.org/2012/Talks/1120-owp-plh/
+       by Philippe Le Hégaret
+       HTML5FEST 2012
+       http://www.w3c.org.il/HTML5fest/2012/
+       Kfar maccabiah, Ramat Gan, Israel
+
+W3C Membership
+
+   Lear more about the benefits of W3C Membership. If you or your
+   organization cannot join W3C, we invite you to support W3C
+   through a contribution.
+
+   http://www.w3.org/Consortium/membership-benefits
+   http://www.w3.org/Consortium/join
+   http://www.w3.org/Consortium/sup
+
+New Members
+
+     * 4A's
+     * 4D
+     * Kozea
+     * Shout Digital Limited
+
+About W3C
+
+   The World Wide Web Consortium (W3C) is an international
+   consortium where Member organizations, a full-time staff, and
+   the public work together to develop "Web standards." Read
+   about W3C.
+
+   http://www.w3.org/TR/
+   http://www.w3.org/Consortium/
+
+Receiving the Newsletter
+
+   Bookmark this edition or the latest Public Newsletter and see
+   past issues and press releases. Subscribe to receive the Public
+   Newsletter by email. If you no longer wish to receive the
+   Newsletter, send us an unsubscribe email. Comments? Write the
+   W3C Communications Team (w3t-comm@w3.org).
+
+   http://www.w3.org/News/Public/pnews-20121001
+   http://www.w3.org/News/Public/
+   http://lists.w3.org/Archives/Public/w3c-announce/latest
+   http://www.w3.org/Press/
+   mailto:w3c-announce-request@w3.org?subject=Subscribe
+   mailto:w3c-announce-request@w3.org?subject=Unsubscribe
+   mailto:w3t-comm@w3.org
+

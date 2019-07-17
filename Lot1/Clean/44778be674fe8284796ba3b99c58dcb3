@@ -1,0 +1,100 @@
+Subject:Re: Postfix : correspondance utilisateur@domaine utilisateur@machine
+	?
+Le 07/10/2012 20:05, Adrien Caillot a écrit :
+> Bonjour,
+>
+> J'ai installé postfix sur mon serveur (Debian squeeze).
+>
+> Dans /etc/aliases j'ai :
+>
+> root:   adrien
+> adrien:         adrien.caillot@free.fr
+>
+
+/etc/aliases
+root:   adrien
+adrien:   adrien@domain.tld
+
+/etc/postfix/sender_fai
+adrien@domain.tld  adrien@free.fr
+
+sudo postmap /etc/postfix/sender_fai
+sudo postconf -e 'sender_canonical_maps=hash:/etc/postfix/sender_fai'
+
+> Et si j'écris, depuis la machine, un e-mail à root ou à adrien, je le
+> reçois bien sur mon adresse Free.
+> Idem si j'écris depuis l'extérieur un e-mail à
+> root@monserveur.mondomaine ou adrien@monserveur.mondomaine.
+>
+> Par contre, si j'écris un e-mail à root@mondomaine ou adrien@mondomaine,
+> je reçois un mail d'erreur.
+>
+
+mailto:root@monserveur.domain.tld au lieu de mailto:root@domain.tld
+
+si domain.tld est le domaine de messagerie, cela implique :
+
+l'enregistrement mx sert à associer un domaine de messagerie à une 
+machine. Le serveur smtp (postfix, exim) est installé sur cette machine.
+
+host -t mx domain.tld  renvoit le smp.domain.tld, où la machine est 
+garante du domaine de messagerie.
+
+/etc/mailname
+domain.tld
+
+hostname = smtp.domain.tld
+domain = domain.tld
+myorigin = $mydomain
+
+les tables virtuals ne font que substitués les paramètres par défaut, 
+qui doivent être corrects. (voir pflogsumm)
+
+#mydestination =
+à commenter pour du virtuel
+sinon tu auras une erreur du genre
+"do not declare domain.tld BOTH in mydestination and virtual.."
+
+
+> <adrien@mondomaine>: host mail.domaine[92.X.X.X] said: 550
+>      5.1.1 <adrien@mondomaine>: Recipient address rejected: User unknown in
+>      virtual alias table (in reply to RCPT TO command)
+>
+
+l'identifiant & mailbox & recipient adrien@mondomaine doivent exister. 
+cela dépend principalement du serveur imap que tu utilises. La création 
+peut-être manuelle ou automatique.
+
+> Mes questions : est-ce que ce comportement est normal par défaut ?
+> Est-ce que je peux le modifier pour avoir une correspondance directe
+> entre une adresse machin@mondomaine et l'utilisateur machin sur le
+> serveur ?
+>
+> Cela me pose problème car j'ai installé mailman et les mailing-lists ne
+> fonctionnent que si j'écris à liste@monserveur.mondomaine alors que je
+> voudrais écrire directement à liste@mondomaine.
+>
+
+transport_maps
+
+> (J'ai bien trouvé une solution en mettant un alias dans
+> /etc/postfix/virtual de liste@mondomaine vers
+> liste@monserveur.mondomaine mais c'est très lourd à gérer si je dois
+> faire ça pour toutes les listes ainsi que toutes les adresses utilisées
+> par mailman pour gérer les listes (-request, etc.).)
+>
+> Je sèche sur ce problème, que je n'avais pourtant pas eu sur mon ancien
+> serveur (Debian Lenny) avec une configuration comparable.
+>
+> Merci.
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5072872B.3070509@m.titou.info
+

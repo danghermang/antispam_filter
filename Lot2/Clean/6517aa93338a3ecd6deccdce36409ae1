@@ -1,0 +1,19 @@
+Subject:Re: =?windows-1252?Q?Instalaci=F3n_de_thunderbird_y_mozi?=
+	=?windows-1252?Q?lla_nuevos_paquetes?=
+El 01/10/12 23:26, residentresureccion@gmail.com escribió:
+> Buenas noches.
+>
+> Les cuento que gracias a sus recomendaciones puedo ejecutar el mozilla firefox y el thunderbird perfectamente estuve buscando y extraje los paquetes comprimidos luego moví estas carpetas a mi cuenta de usuario predeteminada y ejecutó a través un icono de acceso directo en mi area de trabajo firefox.bin y thunderbird.bin. Les cambio el icono por sus aplicaciones como tal  y las dos aplicaciones me  funcionan muy bien. Mi pregunta es que si la manera correcta de hacerlo o si hay alguna otra manera de hacerlo, si es así por favor haganmelo saber. Ya que me interesa mucho trabajar estas aplicaciones en debían. Por cierto la versión que uso es debían 6.0.5 . Tal pregunta la hago con la finalidad de que mas adelante me puede provocar fallos que haciendo de este modo que acabo de explicar.
+>
+> Enviado desde mi BlackBerry de Movistar
+Hola, yo también tengo instalado Thunderbird y Firefox en Debian pero lo 
+hice de diferente manera y me funcionan muy bien, descargue el tar.gz lo 
+descomprimi y luego como root los copie a /opt y luego hice mis accesos 
+directos, la verdad me funciono muy bien.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506B91C1.6060400@riseup.net
+

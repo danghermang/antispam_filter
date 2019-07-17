@@ -1,0 +1,41 @@
+Subject:Re: update gimp 2.6
+El Sun, 11 Nov 2012 11:20:17 -0600, Francisco Eduardo Ascencio Dominguez
+escribió:
+
+> El 11/11/2012, a las 10:21, Camaleón <noelamac@gmail.com> escribió:
+
+(...)
+
+>>> ok. y por que no me recomiendas actualizarlo ? que es mejor 2.6 ?
+>>> saludos
+>> 
+>> Salvo que necesites urgentemente alguna funcionalidad que tenga la
+>> nueva versión, actualizar The GIMP no es fácil ya que es un paquete que
+>> contiene (y que depende) de versiones concretas de paquetes de
+>> bibliotecas que al actualizar te va a generar, casi seguro, conflictos
+>> con las que ya tienes instaladas.
+>> 
+> ok. y crees que mas adelante estará 2.8 para debian squeeze ? desde la
+> repo ?
+
+No, para Squeeze no va a salir ninguna versión nueva salvo que la gente 
+de los backports se animen a hacerlo (si estás interesado puedes escribir 
+a la lista de debian-backports¹ para sugerirlo).
+
+En este hilo² ("GIMP 2.8 on Debian Squeeze") hablan del tema, mira a ver 
+qué se comenta.
+
+¹http://lists.debian.org/debian-backports/
+²http://forums.debian.net/viewtopic.php?f=6&t=81324
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7ooni$7di$9@ger.gmane.org
+

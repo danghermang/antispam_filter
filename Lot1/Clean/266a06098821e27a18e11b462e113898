@@ -1,0 +1,51 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Kirk
+
+OK.  It's right that the open-circuit voltage means that nothing is
+connected to the antenna (there is a formula linking the open-circuit
+voltage to the radiation resistance for all small antennas).
+
+ It important to consider the power efficiency for receiving antennas
+and it is not really correct to say that only voltage matters.  What
+matters is the signal power compared with the noise power, which takes
+us into the new world of noise analysis.  We can look at this from a
+radio-system point of view.
+
+So if we look at the use of that ferrite antenna for receiving at 1
+MHz, a typical edge-of-coverage field strength for an AM broadcast is
+1 mV/m, which gives a power-density of -56 dBm/msq.  A lossless
+antenna has a capture area of 3.lambda^2/8pi, as we have already seen,
+which is 10728 m^2, or +40.3 dBmsq.  Thus a notional lossless antenna
+would capture a power of -16 dBm at the edge of coverage, while our
+ferrite rod antenna with its radiation efficiency of -90 dB will
+capture 90 dB less than that, i.e. -106 dBm.
+
+Now, turning to the thermal noise floor, the number to remember from
+the well known kTB formula is -204 dBW for each Hz of bandwidth (there
+is a temperature close to 290 deg. Kelvin that makes that figure
+exact).  For a 10 kHz bandwidth the noise floor is 40 dB higher, -164
+dBW, which is -134 dBm.  Thus we can see that this ferrite rod antenna
+gives us a signal-to-noise ratio of 134-106 dB, or 28 dB.  A cheap
+front-end for a transistor radio can be made with a noise figure of 8
+dB, therefore we have a reasonable 20 dB signal-to-noise ratio for our
+transistor radio at the edge of the coverage area of its local AM
+broadcast station.  This rough calculation shows why ferrite rod
+antennas are acceptably good for transistor radios, and why without
+the ferrite the radiation efficiency and power-capture of a
+similarly-sized coil would be inadequate.
+
+Alan G3NOQ
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

@@ -1,0 +1,30 @@
+Subject:Re: como se hace para el inicio de sesion automatico.
+El Sun, 16 Sep 2012 15:21:34 +0000, Victor Hugo Cespedes Zuleta escribió:
+
+(ese html...)
+
+> Uso el entorno Gnome. en debian wheezy 6 (estable)
+> 
+> quisiera que ya no me pregunte mi contraseña al iniciar la sesion de mi
+> unico usuario que tengo registrado.
+
+Si usas GDM3, prueba lo siguiente (es para wheezy pero debería servir 
+también en squeeze)
+
+En el archivo "/etc/gdm3/daemon.conf":
+
+[daemon]
+AutomaticLoginEnabled = true
+AutomaticLogin = tu_usuario
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k34r9c$vkm$9@ger.gmane.org
+

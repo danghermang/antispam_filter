@@ -1,0 +1,58 @@
+Subject:Re: Compilar kernel para optimizacion
+
+> hola buenos dias. veo que tienes tu correo con tu dominio mi pregunrta es
+> como hiciste eso. ya que veo que no-ip
+>
+> www.lypef-warez.com
+>
+> Enviado desde mi iphone
+>
+>
+>
+> El 16/11/2012, a las 05:02, maykel@maykel.sytes.net escribió:
+>
+>> Hola muy buenas, tengo un debian y he compilado el kernel 3.6.6 stable.
+>> Arranca bien y demás, pero me gustaría saber cómo podría hacer para
+>> compilar el kernel de tal forma que vaya lo más optimizado posible, es
+>> decir, en el make menuconfig qué opciones adicionales añadir o quitar
+>> para
+>> que vaya más rápido.
+>>
+>> La idea es utilizar un antiguo portatil con debian para escritorio.
+>>
+>> Saludos y gracias de antemano.
+>>
+>>
+>> --
+>> ADMIN: Maykel Franco Hdez
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive:
+>> http://lists.debian.org/975138a03d03566b722af600c25878de.squirrel@maykel.sytes.net
+>>
+>>
+>
+
+
+Primero empezar�a con esto:
+
+http://www.forat.info/2008/03/05/como-montar-un-servidor-web-con-linux-debian/
+
+Y luego me meter�a al servidor de correo.
+
+Saludos.
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/70cb8a0573b642b32fbe0d1757d20e5c.squirrel@maykel.sytes.net
+

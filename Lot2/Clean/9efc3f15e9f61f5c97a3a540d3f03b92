@@ -1,0 +1,55 @@
+Subject:Re: Proxy offline
+El Mon, 10 Dec 2012 10:47:29 -0600, Francisco Eduardo Ascencio Dominguez
+escribió:
+
+> El 10/12/2012, a las 10:21, Camaleón <noelamac@gmail.com> escribió:
+
+(...)
+
+>>> que debo hacer o como debo cargar las reglas ?
+>> 
+>> (...)
+>> 
+>> Pues debes hacer lo que pone en las instrucciones que es cargar las
+>> reglas al iniciar el sistema ya que eso no se hace automáticamente. Más
+>> concretamente, dice:
+>> 
+>> "(...) ACTUALIZACIÓN: Si deseamos hacer que las reglas iptables se
+>> carguen automáticamente cada vez que reiniciemos el sistema, pueden ver
+>> el siguiente tutorial: Restaurar las iptables en Ubuntu
+>> automáticamente."
+>> 
+>> Pero antes de eso, asegúrate de que con las reglas cargadas y activadas
+>> el modo transparente funciona correctamente. Si es así, sigue los pasos
+>> indicados para hacer que se carguen al inicio.
+
+> pero puedo poner la reglas temporal ? 
+
+Sí, pero:
+
+a) Tendrás que cargarlas cada vez que inicies el equipo o no podrás 
+navegar.
+
+b) Comprueba que efectivamente están cargadas porque tu lista de reglas 
+está vacía.
+
+En la wiki tienes más info sobre cómo funciona iptables y cómo cargar las 
+reglas:
+
+http://wiki.debian.org/iptables
+
+> asi es que lo estoy haciendo. o qw puedo usar aparte de iptables ?
+
+No conozco ningún sistema de filtrado distinto de iptables para linux :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ka56au$hck$5@ger.gmane.org
+

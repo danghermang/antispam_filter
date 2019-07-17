@@ -1,0 +1,47 @@
+Subject:Re: [LUG] Qubes
+On 06/11/12 21:18, Simon Waters wrote:
+> Security seems to be a big topic.
+>
+> Noted this month that Qubes is on a couple of magazines covers.
+>
+> It look interesting, anyone had a play?
+>
+> The idea seems simple enough, but I guess the question is how well it is
+> executed.
+>
+> Only PC I have meeting minimum spec is busy being my work desktop, so
+> taking time out to experiment with novel desktop distros is not going to
+> win any favours with my boss.
+>
+>  Simon
+>
+
+I've had a brief play as I've been following everything
+Rutskowska/Invisible Things Labs have been doing for years, ever since
+the incredible black/blue pill virtualization rootkits debuted.
+
+Qubes is effectively a heavily messed with Fedora spin, leveraging
+automatically sandboxed Xen instances. It's actually not anywhere near
+as interesting as I thought it would be and totally unusable by any
+'normal' person so far. When I get more time I definitely plan to give
+it a more thorough test. He/she (Rutskowska has an interesting history)
+is a virtualization genuis and very worth watching closely.
+
+Just out of interest, did you know that it's possible (with many
+provisos) to nest hypervisors now? It sounds as if you're limited to a
+bare metal install on your single machine because it's of course using
+the VT-x instructions and we all know what happens when you nest
+hypervisors... I've currently got a windows 2012 server with hyper-V 
+guest fully functioning under a VMWare 9 workstation install on a linux
+guest. It wasn't pretty, but it does mean I can now mostly test
+virtualizing systems in my virtualized environment which is obviously a
+life saver. Even I got rid of my 30+ individual computer collection a
+while back, I used to have to run 1 OS per system or at best, 1 OS per
+disk for testing, it was a nightmare!
+
+Regards
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

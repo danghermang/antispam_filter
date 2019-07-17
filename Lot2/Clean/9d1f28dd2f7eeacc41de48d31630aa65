@@ -1,0 +1,20 @@
+Subject:Re: backports kernel: support for t430s laptop in backports?
+On 12/05/12 14:21, Ben Armstrong wrote:
+> 
+> So look elsewhere to solve the external display problem. Maybe you need
+> an Xorg backport too?
+> 
+
+Thats exactly the step I was hoping to avoid. But I will
+try.
+
+
+Many thanx
+Harri
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BF549A.1020709@aixigo.de
+

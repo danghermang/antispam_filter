@@ -1,0 +1,135 @@
+Subject:Re: Libreoffice en Ubuntu
+Ya hice todo eso que reclama la salida de la consola e igual sigue =20
+reclamando. Tambien desinstle y reinstale todo y reclama lo mismo. Yo =20
+creo que con las actualizaciones quedo un paquete/libreria mas nuevo =20
+que no le gusta a la version de libre office Si hago upgrade de =20
+version de ubuntu a lo mejor se repara y puedo volver a reinstalarlo =20
+para esa version de ubuntu. Me parece que hay que  cambiar donde =20
+apuntan los repositorios a la version respectiva, y luego hacer el =20
+apt-get respectivo. Me pueden ayudar con un ejemplo, o donde encuentro =20
+un howto que me ayude con esto?
+
+
+Gracias a todos,
+Mario Ramirez
+
+
+Quoting Claudio Torres <dtulf.08@gmail.com>:
+
+> El d=EDa 21 de octubre de 2012 22:39,  <mramirez@iciuchile.cl> escribi=F3:
+>> Estimados:
+>> Tengo Ubuntu:
+>>
+>> # cat /etc/issue
+>> Ubuntu 10.04.4 LTS \n \l
+>>
+>> En el cual tenia instalado Libreoffice totalmente funcional.
+>>
+>> Regularmente hago actualizacion de paquetes mediante apt-get update y
+>> upgrade o mediante
+>>
+>> # aptitude update -y && sudo aptitude dist-upgrade && aptitude clean
+>>
+>> No se que paso, pero ya no tengo Libreoffice en mi ubuntu. Lo desinstale
+>> totalmente y lo reinstale, sin embargo, me sale lo sgte. Me pueden ayudar
+>> para poder dejar Libreoffice totalmente funcional? Una vez desintalado co=
+n
+>> apt-get remove y purge hice lo sgte:
+>>
+>> # add-apt-repository ppa:libreoffice/ppa
+>>
+>> # apt-get update
+>>
+>> #apt-get install libreoffice
+>>
+>> #apt-get install libreoffice
+>> Leyendo lista de paquetes... Hecho
+>> Creando =E1rbol de dependencias
+>> Leyendo la informaci=F3n de estado... Hecho
+>> No se pudieron instalar algunos paquetes. Esto puede significar que
+>> usted pidi=F3 una situaci=F3n imposible o, si est=E1 usando la distribuci=
+=F3n
+>> inestable, que algunos paquetes necesarios no han sido creados o han
+>> sido movidos fuera de Incoming.
+>> La siguiente informaci=F3n puede ayudar a resolver la situaci=F3n:
+>>
+>> Los siguientes paquetes tienen dependencias incumplidas:
+>>   libreoffice: Depende: libreoffice-core (=3D 1:3.5.4-0ubuntu1~lucid1) pe=
+ro no
+>> va a instalarse
+>>                Depende: libreoffice-writer pero no va a instalarse
+>>                Depende: libreoffice-calc pero no va a instalarse
+>>                Depende: libreoffice-impress pero no va a instalarse
+>>                Depende: libreoffice-draw pero no va a instalarse
+>>                Depende: libreoffice-math pero no va a instalarse
+>>                Depende: libreoffice-base pero no va a instalarse
+>>                Depende: libreoffice-filter-mobiledev pero no va a instala=
+rse
+>>                Depende: libreoffice-java-common (>=3D 1:3.5.4~) pero no v=
+a a
+>> instalarse
+>>                Recomienda: libreoffice-gnome pero no va a instalarse o
+>>                            libreoffice-kde pero no va a instalarse
+>> E: Paquetes rotos
+>>
+>> # apt-get install libreoffice-gnome
+>> Leyendo lista de paquetes... Hecho
+>> Creando =E1rbol de dependencias
+>> Leyendo la informaci=F3n de estado... Hecho
+>> No se pudieron instalar algunos paquetes. Esto puede significar que
+>> usted pidi=F3 una situaci=F3n imposible o, si est=E1 usando la distribuci=
+=F3n
+>> inestable, que algunos paquetes necesarios no han sido creados o han
+>> sido movidos fuera de Incoming.
+>> La siguiente informaci=F3n puede ayudar a resolver la situaci=F3n:
+>>
+>> Los siguientes paquetes tienen dependencias incumplidas:
+>>   libreoffice-gnome: Depende: libreoffice-core (=3D 1:3.5.4-0ubuntu1~luci=
+d1)
+>> pero no va a instalarse
+>>                      Depende: libreoffice-gtk pero no va a instalarse
+>> E: Paquetes rotos
+>>
+>> #apt-get install libreoffice-l10n-es
+>>
+>> Me pueden ayudar?
+>>
+>> Gracias,
+>> Mario Ramirez
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive:
+>> http://lists.debian.org/20121021223903.9ro6b7sdgo4cs0kc@correo.dii.uchile=
+.cl
+>>
+> Es una lista de Debian...
+> Buenas che. Te est=E1 diciendo clarito que te faltan dependencias y
+> adem=E1s te dice cu=E1les son. Vamos, cuesti=F3n de leer un poquito m=E1s =
+qu=E9
+> te arroja y te ahorrabas la cosa.
+> Ten=E9s que instalar  libreoffice-core, libreoffice-gtk,
+> libreoffice-writer, libreoffice-calc, libreoffice-impress,
+> libreoffice-draw, libreoffice-math, libreoffice-base,
+> libreoffice-filter-mobiledev, libreoffice-java-common
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive:  =20
+> http://lists.debian.org/CAK407D4rHzVLBREZcvWyYGv18dpeNoA9xneZWQ5kYEyqhTTFi=
+Q@mail.gmail.com
+>
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121022093229.4bg5uoctck0s4w0k@correo.dii.uchile.cl
+

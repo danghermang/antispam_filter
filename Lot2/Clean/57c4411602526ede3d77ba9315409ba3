@@ -1,0 +1,98 @@
+Subject:Re: [EVDL] public charging station incentives?
+Hi Mark, 
+
+this is not the first time you inquired about charging in Davenport:
+http://electric-vehicle-discussion-list.413529.n4.nabble.com/public-charging-stations-tp4212688p4212886.html
+
+I am glad your host is more warm to the idea of using the EVSE
+incentives.
+While you are interested in Davenport, I however am all to aware of the
+huge gap in public EVSE along Hwy 1 between Santa Cruz and Daly City. 
+
+I would like to see public EVSE installed in Half Moon Bay: I found a
+quieter portion of a major shopping center parking lot near both Hwy 1
+and Hwy 92
+http://goo.gl/maps/Sb2WT
+
+But that is San Mateo county, and Davenport is in Santa Cruz county
+http://en.wikipedia.org/wiki/Davenport,_California
+
+Getting back to your post's inquiry of what are the public EVSE
+incentives, I can give two two things: 
+I suggest you determine how much EVSE to install (meaning, how much the
+host is willing to spend both for the initial install and for the
+monthly EVSE networking fees), and I can give some contacts to begin
+with. 
+
+Of all the incentives I have read about, after the incentives were paid
+out, the host still had some up front costs, and the host had to pay the
+monthly EVSE networking fees. So, there is no free-lunch here.
+
+If the Davenport EVSE was only used by you, and set to charge a
+$0.20pkWhr fee, no matter if you charged at level-1 or level2 it would
+cover their electricity cost, plus a little extra for the host. But if
+the EVSE is not used much it might be a losing deal because of the
+monthly EVSE networking costs (the EVSE company charges a fee for
+allowing monitoring of the EVSE, and any use transaction fees, via their
+wireless network.).
+
+If the host decided to install a non-networked EVSE (i.e. ClipperCreek),
+the only costs would be the initial install (no networking fees
+thereafter). ClipperCreek does have an add on logging and networking
+package, but most of the retrofit installs (old Avcon EVSE yanked and
+replaced with their j1772) were simple and easy to use non-networked
+j1772 EVSE. For those that do not know, the ClipperCreek case is almost
+the same as the old evii Avcon enclosure, it is really, really strong,
+weather-proof (even in salt spray areas), and pretty-much vandal-proof
+(the cable and coupler are not)
+http://www.clippercreek.com/products.html
+
+Note: if after you make contact with the source I'll mention next, your
+host decides it wants to bypass a j1772 and go even cheaper, a much
+lower cost EVSE solution is to install a 6-20 outlet in a weather tight
+enclosure out in the parking lot located where ice do not like to park:
+http://www.ebay.com/itm/251133487276?hlp=false&var=
+http://www.platt.com/platt-electric-supply/Metallic-Boxes-Covers-1-Gang-Metallic/Hubbell-Raco/5146-0/product.aspx?zpid=393430
+http://brucedp11.150m.com/evse11/ev-charging-level1-outdoor-ca-pa-creekside-inn-20110422-004-m.jpg
+The first link is for a 6-20 straight blade duplex receptacle (each
+outlet would be connected to its own 20A 240VAC breaker). I do not
+recommend an outside 5-20 outlet as so many of these are used by RV
+squatters/urchins.
+
+
+If your host is interested in knowing the ins and outs of a j1772
+installation, then I suggest you make contact with Will Beckett of 
+http://eaacc.org/ (use the webmaster link at the bottom) and ask him for
+the direct contact for who you should work with for Santa Cruz county.
+He will likely be able to hook you up with the http://www.ambag.org/
+person Will sees at AMBAG meetings.
+That person would know the Santa County contact for just such a public
+EVSE install.
+
+
+{brucedp.150m.com}
+
+
+
+-
+On Thu, Nov 8, 2012, at 11:34 AM, Mark F wrote:
+> Does anyone know what charging station incentives are out there
+> currently,
+> for a public charging stations? I was talking to the owners of the Whale
+> City restaurant in Davenport CA and they may interested in installing a
+> station. This would be a good start to filling in the lack of stations on
+> highway 1 between Santa Cruz and San Francisco. 
+-
+
+-- 
+http://www.fastmail.fm - The professional email service
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

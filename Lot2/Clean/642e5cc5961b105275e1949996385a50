@@ -1,0 +1,20 @@
+Subject:=?windows-1252?Q?Enter_run_level=85=2E?=
+Hola.
+
+Ok la verdad no se que hice pero cuando estaba en mi ordenador de =
+repente se alent=F3 demasiado y decid=ED reiniciar (tipo windows XD ) =
+fue entonces que en la pantalla me aprese enter run level. Ya entre en =
+modo recuperaci=F3n y corr=ED un e2fsck y me repara varios sectores pero =
+sigue apareciendo lo mismo de ENTER RUN LEVEL . ingreso el numero por =
+ejemplo y me parece NO MORE PROCESSES LEFT IN THIS RUNLEVEL. mi s.o es =
+debian squeeze 6. que puedo hacer=20
+
+
+Enviado desde mi macbook.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU0-SMTP1057227188DE5F3B7CDA52FC5410@phx.gbl
+

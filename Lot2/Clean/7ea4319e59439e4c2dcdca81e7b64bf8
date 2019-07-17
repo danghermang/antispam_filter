@@ -1,0 +1,64 @@
+Subject:Re: Insmod al arrancar
+El d=EDa 5 de septiembre de 2012 17:36, Camale=F3n <noelamac@gmail.com> esc=
+ribi=F3:
+> El Wed, 05 Sep 2012 17:10:27 +0200, Marc Mar=ED escribi=F3:
+>
+>> Ahora que ya tengo todo configurado bien en mi port=E1til, ya paso a los
+>> detalles. En el port=E1til tengo una tarjeta Broadcom, para la cual tuve
+>> que compilar el driver, ya que ni el wl ni el b43 funcionaban.
+>
+> =BFQu=E9 chipset monta? Lo comento porque hay uno libre, el "brcmsmac/
+> brcmfmac" pero s=F3lo est=E1 disponible para unos cuantos modelos.
+>
+>> Para activar el driver, tengo que hacer "insmod wl.ko", y eso lo tengo
+>> que hacer cada vez que enciendo el ordenador.
+>
+> Con "modprobe" te bastar=EDa (el insmod se usa cuando el driver no est=E1
+> integrado en la ruta habitual del kernel).
+>
+>> =BFC=F3mo puedo automatizar esta acci=F3n? Preferiblemente, me gustar=ED=
+a
+>> ponerlo con los otros m=F3dulos y que se cargue poni=E9ndolo en
+>> /etc/modules, pero si ah=ED pongo "wl", se carga el m=F3dulo que no func=
+iona
+>> (el wl que viene con el kernel).
+>
+> Ah, amigo... es decir, que tienes dos drivers con el mismo nombre en
+> distintas rutas =BFno? (ahora tiene m=E1s sentido lo del insmod...). Ento=
+nces
+> lo que tendr=EDas que hacer es poner en la lista negra el driver "wl" (qu=
+e
+> se incluye en el kernel) y despu=E9s cargar el otro por medio del
+> "rc.local", poniendo algo como:
+>
+> insmod /ruta/al/nuevo/wl.ko
+>
+> Espera, espera... en el readme indican los pasos:
+>
+> 3: Setup to always load at boot time.
+> http://www.broadcom.com/docs/linux_sta/README.txt
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k27ri9$gbk$7@ger.gmane.org
+>
+
+Me he le=EDdo el readme para compilar, pero soy tan corto que no lo he
+acabado de leer.... :(
+
+Gracias por todo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8Q5RYXg7cY5C0E28ScJSBFFyrtd=h1DxiHF6vmHKTyn3Q@mail.gmail.com
+

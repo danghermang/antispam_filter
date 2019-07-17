@@ -1,0 +1,64 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_Ordenar_archivos_por_el_n=FAmero_de_caracteres_de?=
+	=?ISO-8859-1?Q?_su_nombre?=
+El d=EDa 6 de diciembre de 2012 11:46, "Mat=EDas A. Bellone"
+<matiasbellone@gmail.com> escribi=F3:
+> On 12/06/2012 02:41 PM, Marcos Delgado wrote:
+>>
+>> El d=EDa 6 de diciembre de 2012 11:23, "Mat=EDas A. Bellone"
+>> <matiasbellone@gmail.com>  escribi=F3:
+>>>
+>>> On 12/06/2012 02:07 PM, Marcos Delgado wrote:
+>>>>
+>>>>
+>>>> Pues bien, necesito realizar esa labor, hasta el momento lo que m=E1s =
+he
+>>>> podido hacer revisando opciones en internet es la siguiente orden:
+>>>>
+>>>> for i in *; do echo $i ;  echo -e $i | tr -d '\n' | wc -c ; done
+>>>>
+>>>> pero no me sirve ya que aparecen en l=EDneas separadas el n=FAmero de
+>>>> caracteres y el nombre del archivo.
+>>>>
+>>>> Se agradece cualquier ayuda.
+>>>>
+>>>> Gracias.
+>>>> Marcos Delgado.
+>>>>
+>>>>
+>>>
+>>> for FILE in *; do echo `echo ${FILE} | wc -m` ${FILE}; done | sort -n |
+>>> cut
+>>> -d\  -f2
+>>>
+>>> Lo que hac=E9s es:
+>>>          1- imprimir (2) y el nombre del archivo
+>>>          2- darle de comer cada nombre de archivo a "wc -m"
+>>>          3- a toda la salida pasarla por sort -n
+>>>          4- s=F3lo obtener el nombre del archivo con cut
+>>>
+>>> Saludos,
+>>> Toote
+>>
+>>
+>> Muy bien! el =FAnico problema es con los archivos con espacios, estoy
+>> viendo si con poner comillas se soluciona, gracias.
+>>
+>> Saludos.
+>>
+>>
+>
+>
+> cambi=E1 el 2 al final por "2-" para que te muestre todo menos el 1er cam=
+po.
+>
+> Saludos,
+> Toote
+
+Sigue igual, gracias.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAB_R4cXJSkKn+RLorDZX4WYqNMJ=vLvwQRd5-r3YZ-+9TUbRUQ@mail.gmail.com
+

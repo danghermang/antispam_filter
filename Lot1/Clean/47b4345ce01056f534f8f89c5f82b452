@@ -1,0 +1,33 @@
+Subject:Re: Ayuda Urgente: Iptables e ip rule no funcionan correctamente en
+	debian 6?
+On 05/09/12 16:13, Francisco J. Bejarano wrote:
+> Sep  5 15:24:55 firewall kernel: [1883719.204551] fwmark 1: IN=eth1 OUT=
+> MAC=00:18:8b:f9:f3:34:00:24:8c:de:c8:fb:08:00 SRC=10.0.1.153
+> DST=10.0.1.1 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=1436 DF PROTO=TCP
+> SPT=57856 DPT=22 WINDOW=16323 RES=0x00 ACK FIN URGP=0 MARK=0x1
+> Sep  5 15:24:55 firewall kernel: [1883719.205085] fwmark 1: IN=eth1 OUT=
+> MAC=00:18:8b:f9:f3:34:00:24:8c:de:c8:fb:08:00 SRC=10.0.1.153
+> DST=10.0.1.1 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=1437 DF PROTO=TCP
+> SPT=57856 DPT=22 WINDOW=16323 RES=0x00 ACK URGP=0 MARK=0x1
+> Sep  5 15:25:20 firewall kernel: [1883744.276724] fwmark 2: IN=eth2 OUT=
+> MAC=00:0d:88:c5:ba:53:20:cf:33:d3:a6:d5:08:00 SRC=10.0.2.226
+> DST=10.0.2.1 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=8254 DF PROTO=TCP
+> SPT=52845 DPT=22 WINDOW=2641 RES=0x00 ACK URGP=0 MARK=0x2
+> Sep  5 15:25:20 firewall kernel: [1883744.280404] fwmark 2: IN=eth2 OUT=
+> MAC=00:0d:88:c5:ba:53:20:cf:33:d3:a6:d5:08:00 SRC=10.0.2.226
+> DST=10.0.2.1 LEN=100 TOS=0x00 PREC=0x00 TTL=64 ID=8255 DF PROTO=TCP
+> SPT=52845 DPT=22 WINDOW=2641 RES=0x00 ACK PSH URGP=0 MARK=0x2
+mmm, a propósito, las direcciones 10.0.2.1 y 10.0.1.1 ¿son las que tiene 
+configuradas la pasarela? fíjate que no se especifica ningún interfaz 
+en  OUT = y de hecho ese tráfico no tiene que llegar a ninguna tabla 
+porque es local ¿tienes tráfico en el log marcado que no sea para el 
+propio router? ¿por dónde sale el tráfico que no sale por donde debería?
+
+Un saludo.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50467050.4020902@limbo.deathwing.net
+

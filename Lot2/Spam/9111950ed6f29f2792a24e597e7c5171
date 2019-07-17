@@ -1,0 +1,221 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<lowermiuntains@iprimus.com.au>:
+User and password not set, continuing without authentication.
+184.105.182.205 does not like recipient.
+Remote host said: 550-REJECTED - Bad Recipient F=warren@mcphersons.id.au
+550 T=lowermiuntains@iprimus.com.au - 550 #5.1.0 address rejected.
+Giving up on 184.105.182.205.
+
+--- Below this line is a copy of the message.
+
+Return-Path: <warren@mcphersons.id.au>
+Received: (qmail 21502 invoked by uid 89); 9 Dec 2012 20:58:35 -0000
+Received: from unknown (HELO WazmacPC) (203.213.227.30)
+  by SYDSY2-MX02 with SMTP; 9 Dec 2012 20:58:33 -0000
+Message-ID: <7D890D78B2B445CC8B86C6D4A8A18934@WazmacPC>
+From: "Warren Mcpherson" <warren@mcphersons.id.au>
+To: <lowermiuntains@iprimus.com.au>
+Cc: "Alex" <alex@energywiseliving.com.au>
+Subject: Fw: Possible help and advice
+Date: Mon, 10 Dec 2012 07:56:44 +1100
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0011_01CDD6AB.E5A8F7A0"
+X-Priority: 3
+X-MSMail-Priority: Normal
+Importance: Normal
+X-Mailer: Microsoft Windows Live Mail 15.4.3555.308
+X-MimeOLE: Produced By Microsoft MimeOLE V15.4.3555.308
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0011_01CDD6AB.E5A8F7A0
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Glenn
+
+Spoke to Chris (the Endeavour II) this morning and he confirms that the =
+tug boats are too high to be considered the POS so it is an aerial =
+service main that is to be moved.
+Are you able to help out with this?
+Proposing that Alex and I get the new POA facia bracket set up, run the =
+CMain and new underground sub main extensions in preparation, then shift =
+the MSB when you arrive. Friday 14th or Monday/Tuesday 17/18th are =
+windows for me =E2=80=93 how are you placed, should only take an hour or =
+so of your time (plus the paperwork)?
+
+Regards
+
+Warren
+
+From: Warren Mcpherson=20
+Sent: Friday, December 07, 2012 10:26 AM
+To: lowermountains@iprimus.com.au=20
+Cc: Alex=20
+Subject: Possible help and advice
+
+Hi Glenn
+
+Alex Bergmann gave me your email regarding a job we have on in Little =
+Hartley next week.
+Customer has a condemned private pole which is fed from a 11kV/400V pole =
+transformer which is also on his rural property.
+
+The tranny pole has an HV arm at the top an LV arm with tug-boat HRC =
+fuses below this and then the Tranny below both.
+The aerial going between the LV arm and the private pole is 4 core 25 mm =
+ABC.
+I=E2=80=99m looking to move this about 30 degrees horizontally and =
+attaching it to a nearby shed thus decommissioning the private pole. My =
+understanding is that this aerial would be treated as consumers main and =
+the POS would be the tug-boats. However I only have level 2 cat 1&4 =
+certification so I can=E2=80=99t move this if it is considered to be an =
+aerial service main. I also can=E2=80=99t work above the tranny and =
+touch the tug-boats, so I=E2=80=99d have to work live from the other end =
+=E2=80=93 it has standard house connects so this isn=E2=80=99t an issue =
+provided the ABC insulation looks OK.
+I=E2=80=99ve been unsuccessful in getting through to Chris McGraw to see =
+what he says but will try him again next week. Just flagging that I may =
+require assistance for an hour or so next Friday if it is deemed to be =
+out of my AUP authorisation. Not sure of your willingness or =
+availability.
+
+I=E2=80=99ve also left you a note in the MSB for the Mt Victoria job =
+that I am supervising Alex to do. I=E2=80=99ve installed the meter but =
+will need to come back to test =E2=80=93 the service fuses have had the =
+HRC=E2=80=99s removed so it=E2=80=99s safe to energise the consumers =
+main after polarity checking. I gather you will be on-site on Monday and =
+if so could you give me a call (0415594664) and I=E2=80=99ll come up to =
+meet you and do the final testing. I=E2=80=99m about 20 minutes drive =
+from the site.
+
+Regards
+
+Warren
+_________________________________
+
+Warren McPherson
+Wazmac's Electrical Contractors
+ABN: 85 008 254 263
+
+------=_NextPart_000_0011_01CDD6AB.E5A8F7A0
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD></HEAD>
+<BODY dir=3Dltr>
+<DIV dir=3Dltr>
+<DIV style=3D"FONT-FAMILY: 'Calibri'; COLOR: #000000; FONT-SIZE: 12pt">
+<DIV>Hi Glenn</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Spoke to Chris (the Endeavour II) this morning and he confirms that =
+the tug=20
+boats are too high to be considered the POS so it is an aerial service =
+main that=20
+is to be moved.</DIV>
+<DIV>Are you able to help out with this?</DIV>
+<DIV>Proposing that Alex and I get the new POA facia bracket set up, run =
+the=20
+CMain and new underground sub main extensions in preparation, then shift =
+the MSB=20
+when you arrive. Friday 14th or Monday/Tuesday 17/18th are windows for =
+me =E2=80=93 how=20
+are you placed, should only take an hour or so of your time (plus the=20
+paperwork)?</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Regards</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Warren</DIV>
+<DIV=20
+style=3D"FONT-STYLE: normal; DISPLAY: inline; FONT-FAMILY: 'Calibri'; =
+COLOR: #000000; FONT-SIZE: small; FONT-WEIGHT: normal; TEXT-DECORATION: =
+none">
+<DIV style=3D"FONT: 10pt tahoma">
+<DIV><FONT size=3D3 face=3DCalibri></FONT>&nbsp;</DIV>
+<DIV style=3D"BACKGROUND: #f5f5f5">
+<DIV style=3D"font-color: black"><B>From:</B> <A =
+title=3Dwarren@mcphersons.id.au=20
+href=3D"mailto:warren@mcphersons.id.au">Warren Mcpherson</A> </DIV>
+<DIV><B>Sent:</B> Friday, December 07, 2012 10:26 AM</DIV>
+<DIV><B>To:</B> <A title=3Dlowermountains@iprimus.com.au=20
+href=3D"mailto:lowermountains@iprimus.com.au">lowermountains@iprimus.com.=
+au</A>=20
+</DIV>
+<DIV><B>Cc:</B> <A title=3Dalex@energywiseliving.com.au=20
+href=3D"mailto:alex@energywiseliving.com.au">Alex</A> </DIV>
+<DIV><B>Subject:</B> Possible help and advice</DIV></DIV></DIV>
+<DIV>&nbsp;</DIV></DIV>
+<DIV=20
+style=3D"FONT-STYLE: normal; DISPLAY: inline; FONT-FAMILY: 'Calibri'; =
+COLOR: #000000; FONT-SIZE: small; FONT-WEIGHT: normal; TEXT-DECORATION: =
+none">
+<DIV dir=3Dltr>
+<DIV style=3D"FONT-FAMILY: 'Calibri'; COLOR: #000000; FONT-SIZE: 12pt">
+<DIV>Hi Glenn</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Alex Bergmann gave me your email regarding a job we have on in =
+Little=20
+Hartley next week.</DIV>
+<DIV>Customer has a condemned private pole which is fed from a 11kV/400V =
+pole=20
+transformer which is also on his rural property.</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>The tranny pole has an HV arm at the top an LV arm with tug-boat =
+HRC fuses=20
+below this and then the Tranny below both.</DIV>
+<DIV>The aerial going between the LV arm and the private pole is 4 core =
+25 mm=20
+ABC.</DIV>
+<DIV>I=E2=80=99m looking to move this about 30 degrees horizontally and =
+attaching it to=20
+a nearby shed thus decommissioning the private pole. My understanding is =
+that=20
+this aerial would be treated as consumers main and the POS would be the=20
+tug-boats. However I only have level 2 cat 1&amp;4 certification so I =
+can=E2=80=99t move=20
+this if it is considered to be an aerial service main. I also =
+can=E2=80=99t work above=20
+the tranny and touch the tug-boats, so I=E2=80=99d have to work live =
+from the other end=20
+=E2=80=93 it has standard house connects so this isn=E2=80=99t an issue =
+provided the ABC=20
+insulation looks OK.</DIV>
+<DIV>I=E2=80=99ve been unsuccessful in getting through to Chris McGraw =
+to see what he=20
+says but will try him again next week. Just flagging that I may require=20
+assistance for an hour or so next Friday if it is deemed to be out of my =
+AUP=20
+authorisation. Not sure of your willingness or availability.</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>I=E2=80=99ve also left you a note in the MSB for the Mt Victoria =
+job that I am=20
+supervising Alex to do. I=E2=80=99ve installed the meter but will need =
+to come back to=20
+test =E2=80=93 the service fuses have had the HRC=E2=80=99s removed so =
+it=E2=80=99s safe to energise the=20
+consumers main after polarity checking. I gather you will be on-site on =
+Monday=20
+and if so could you give me a call (0415594664) and I=E2=80=99ll come up =
+to meet you and=20
+do the final testing. I=E2=80=99m about 20 minutes drive from the =
+site.</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Regards</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Warren</DIV>
+<DIV=20
+style=3D"FONT-FAMILY: 'Calibri'; COLOR: #000000; FONT-SIZE: =
+12pt">_________________________________<BR><BR>Warren=20
+McPherson<BR>Wazmac's Electrical Contractors<BR>ABN: 85 008 254=20
+263<BR></DIV></DIV></DIV></DIV></DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_0011_01CDD6AB.E5A8F7A0--
+
+

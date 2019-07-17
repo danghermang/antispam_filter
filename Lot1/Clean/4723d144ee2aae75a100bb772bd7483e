@@ -1,0 +1,32 @@
+Subject:Re: debian et onduleur
+On 09/19/2012 11:10 PM, Gaëtan PERRIER wrote:
+> Bonjour,
+>
+> J'aimerai avoir vos retours d'expériences sur les onduleurs et leur support par
+> debian pour une machine personnelle.
+>
+
+Un programme peut éteindre ton pc alimenté par un onduleur.
+Ce programme ne débranchera jamais ton onduleur de la prise secteur.
+Ton onduleur consomme donc exactement de la même manière, qu'il alimente 
+un PC, écran, etc ou qu'il n'alimente rien du tout.
+Ce n'est pas négligeable pour un onduleur qui consomme entre 600 et 1000 Wh.
+
+Cordialement
+
+
+-- 
+Maderios
+
+"Art is meant to disturb. Science reassures."
+"L'art est fait pour troubler. La science rassure" (Georges Braque)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/505AE39A.2090006@gmail.com
+

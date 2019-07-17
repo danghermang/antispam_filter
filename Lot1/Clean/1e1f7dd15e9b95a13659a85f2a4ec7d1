@@ -1,0 +1,32 @@
+Subject:Re: [Hsqldb-user] Why using coalesce on a foreign key,
+ results in a non executable statement ?
+
+Hi Fred,
+
+Sorry for the posting on the wrong forum, I saw your previous post on this
+and looked for the help forum and thought this HSQLDB USER was the one.
+
+I now understand it is not.
+
+May I ask you where this help forum is ?
+
+Also, when you say: "development questions", do you mean questions about
+development of HSQLDB, that is, the rdbms itself ? 
+
+Kind Regards,
+
+-- 
+View this message in context: http://old.nabble.com/Why-using-coalesce-on-a-foreign-key%2C-results-in-a-non-executable-statement---tp34777430p34781674.html
+Sent from the HSQLDB - User mailing list archive at Nabble.com.
+
+
+------------------------------------------------------------------------------
+LogMeIn Rescue: Anywhere, Anytime Remote support for IT. Free Trial
+Remotely access PCs and mobile devices and provide instant support
+Improve your efficiency, and focus on delivering more value-add services
+Discover what IT Professionals Know. Rescue delivers
+http://p.sf.net/sfu/logmein_12329d2d
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

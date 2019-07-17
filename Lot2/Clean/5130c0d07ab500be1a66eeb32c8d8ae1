@@ -1,0 +1,69 @@
+Subject:Re: [Hsqldb-user] Odd lines in script file
+Each CACHED table has one of these lines, which links the table to the
+data in the .data file.
+
+If the database does not start and reports an error on one of these
+lines, the .data or .backup file may have been deleted or damaged. In
+that case, you need to use a backup file set of the database.
+
+Fred
+
+On Sun, Nov 11, 2012, at 20:27, Dean Oemcke wrote:
+
+Hi All,
+
+Every now and then I've noticed some strange lines in my script file
+that will then seem to break the database load on next startup.
+
+
+
+SET TABLE PUBLIC.CUSTOMER INDEX '18572 18122 18165 18558 17938 0 0 0 0
+0 19'
+
+SET TABLE PUBLIC.ADDRESS INDEX '122 122 0 0 17'
+
+...
+
+
+
+I'm using v2.2.9.
+Any idea what causes this and how to avoid this happening in future?
+
+
+Cheers,
+Dean
+
+-----------------------------------------------------------------------
+-------
+
+Everyone hates slow websites. So do we.
+
+Make your web apps faster with AppDynamics
+
+Download AppDynamics Lite for free today:
+
+[1]http://p.sf.net/sfu/appdyn_d2d_nov
+
+_______________________________________________
+
+Hsqldb-user mailing list
+
+[2]Hsqldb-user@lists.sourceforge.net
+
+[3]https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+References
+
+1. http://p.sf.net/sfu/appdyn_d2d_nov
+2. mailto:Hsqldb-user@lists.sourceforge.net
+3. https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://p.sf.net/sfu/appdyn_d2d_nov
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

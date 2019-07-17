@@ -1,0 +1,61 @@
+Subject:Re: [Fedora-users-br] Problemas com drivers no Fedora
+On Friday, October 26 2012, juliano duarte wrote:
+
+>    Hoje a tarde resolvi trocar o SO do meu note - um vaio VPCSB-25FB - de
+> Windows 7 para Fedora 17.
+>    Fiz a instala=E7=E3o, e ap=F3s reiniciar o notebook o cooler da cpu e =
+o video
+> ATI ficaram ligados.
+>    Bem, esta versao de notebook, tem um bot=E3o (STAMINA/SPEED) que liga e
+> desliga a plca de video ATI Radeon. Com isto, a dura=E7=E3o da bateria ca=
+i de 6
+> hrs para 2 hrs.
+>    Algu=E9m j=E1 teve este problema???
+
+Ol=E1 Juliano,
+
+Seu notebook possui duas placas de v=EDdeo, ou somente essa da ATI?
+Infelizmente, os drivers para a placa ATI s=E3o bin=E1rios, i.e., n=E3o s=
+=E3o
+livres.  At=E9 existem drivers abertos, mas eles ainda n=E3o est=E3o muito
+bons...
+
+Eu possuo um notebook que tem uma placa ATI e outra da Intel, e eu optei
+por desabilitar a placa ATI no GNU/Linux.  Pra isso, eu usei
+`vgaswitcheroo'.  Pra ver as placas gr=E1ficas do seu sistema:
+
+    $ cat /sys/kernel/debug/vgaswitcheroo/switch
+
+Se o seu notebook tiver 2 placas, voc=EA deve ver uma entrada come=E7ando
+com "DIS", e outra come=E7ando com "IGD".  A "DIS" =E9 a placa dedicada (no
+meu caso, a ATI), e "IGD" =E9 a placa integrada (no meu caso, Intel).  A
+ordem em que elas aparecem importa: a primeira entrada =E9 a placa sendo
+utilizada atualmente (a menos que ela esteja desligada; veja abaixo).
+
+Bem, no meu caso, o output =E9 mais ou menos esse:
+
+    $ cat /sys/kernel/debug/vgaswitcheroo/switch
+    0:DIS: :Off:0000:01:00.00
+    1:IGD:+:Pwr:0000:00:02.00
+
+Ou seja, minha placa dedicada (ATI) est=E1 desligada.  Eu fa=E7o isso com o
+seguinte comando (colocado no meu /etc/rc.d/rc.local, e ativado pelo
+systemd pra ser executado a cada boot):
+
+    $ echo OFF > /sys/kernel/debug/vgaswitcheroo/switch
+
+Ufa!  Bem, acho que =E9 isso :-).  Infelizmente, esse neg=F3cio de placas
+gr=E1ficas no GNU/Linux n=E3o =E9 muito legal, bastante por culpa dos
+fabricantes...
+
+Espero que ajude.
+
+Abra=E7os,
+
+-- =
+
+Sergio
+--
+br-users mailing list
+br-users@lists.fedoraproject.org
+https://admin.fedoraproject.org/mailman/listinfo/br-users

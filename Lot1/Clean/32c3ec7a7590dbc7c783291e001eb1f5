@@ -1,0 +1,70 @@
+Subject:Re: Debian Wheezy tarda mucho en cargar el sistema.
+El d=EDa 6 de septiembre de 2012 20:58, Jose Maldonado
+<josemald89@gmail.com> escribi=F3:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> El 06/09/12 18:26, Evgeny M. Zubok escribi=F3:
+>> Jos=E9 Maldonado <josemald89@gmail.com> writes:
+>>
+>>> Tengo Debian Wheezy instalado sobre un Dual Core 2.0Ghz, 2GB de
+>>> Ram DDR2 800 Mhz, una tarjeta madre Biostar P4M890-M7, un disco
+>>> duro de 80 GB (/boot, /, /home) y otro de 160 GB (/Datos), el
+>>> problema es que desde hace una semana que realice una
+>>> actualizaci=F3n que inclu=EDa nuevo kernel, lightdm y un nuevo kmod,
+>>> he visto que mi sistema se ha ralentizado y ha llegado al punto
+>>> que a veces simplemente no funciona, teniendo que reiniciar para
+>>> que cargue el sistema completamente.
+>>
+>> . Revisa los registros /var/log/syslog, /var/log/dmesg,
+>> /var/log/Xorg.0.log luego de la ralentizaci=F3n si hay algo raro
+>> ah=ED.
+>
+> Ya revise los logs pero no aparece nada, lo =FAnico que he podido creer
+> que afecte el inicio es una configuraci=F3n personalizada del xorg que
+> tengo para que me aparezcan correctamente las resoluciones en el
+> monitor que tengo, acabo de hacer algunas modificaciones y pienso
+> probar si es eso, pero no encontr=E9 nada de advertencias o errores en
+> los logs mencionados.
+>
+>>
+>> . Prueba a instalar otro n=FAcleo. Se puede instalarlo, p. ej.,
+>> desde snapshot.debian.org.
+>>
+>
+> =BFCual es el punto de tener que hacer un downgrade sin conseguir la
+> falla? La falla en realidad no es algo muy molesto, solo se da al
+> inicio o booteo del sistema, del resto el sistema funciona bien a
+> menos que uso JAVA que come memoria como loco. Adem=E1s conseguir el
+> error o lo que sea que cause la falla puede ayudar a mejorar Debian
+> Wheezy para su lanzamiento final.
+>
+>> . =BFTodo est=E1 bien con enfriamiento del procesador?
+>>
+>>
+>
+> Si unos frescos 33 grados cent=EDgrados.
+>
+>>
+>>
+>>
+>>
+>
+> Ya revisare si hay algo en los bugs, pero cualquier otra ayuda seria
+> buena hasta dar con el culpable de esto.
+>
+>
+
+Seria bueno, que nos definas que entiendes por "lento"
+Primero mira lo basico... uso de memoria, uso cpu, uso de IO, load de
+cpu Y luz de HD. compara estos valores cuando anda bien y cuando se
+pone lenta..
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADqxbRS4S2-A1vJtFA6bRHK3HqYMyPmZW5FQAcag1oQJdKnYYQ@mail.gmail.com
+

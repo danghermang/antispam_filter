@@ -1,0 +1,347 @@
+Subject:Re: [Antenna-discussion] crystal radios and the capture area paradox
+WBob,
+
+Have you ever hear of "pulsed power"?
+
+You imply that this doesn't/can't exist.
+
+http://en.wikipedia.org/wiki/Pulsed_power
+
+-------------------------
+Not all the world operates at a single fixed frequency.
+
+The notion of power is not tied to the use of a single frequency.
+
+Power is the rate of energy per second.
+
+That is, it is the energy averaged for a very short time, and then divided =
+
+by that time interval.
+
+Power does NOT have an implication of averaging over a long time.
+
+-------------------
+In contrast, average power involves averaging over a finite time, perhaps =
+
+very long, and then dividing by that time interval.
+
+------------------------
+In the special case of a pure frequency, where E and H vary as
+cos wt,
+power varies as
+cos^2 wt.
+
+Average power is 1/2 of peak power in this special case.
+
+--------------
+For a square wave of power, average power is also 1/2 of peak power,.  But =
+
+for the power in, say, a digital pulse train, the average power is the peak =
+
+power time the duty factor of the pulse train, which need not be 1/2.
+
+--Kirk
+
+
+-----Original Message----- =
+
+From: wolfbob
+Sent: Sunday, October 28, 2012 1:55 PM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] crystal radios and the capture area =
+
+paradox
+
+Here is how my mind works...
+
+Any power that is indeed POWER contains a averaging over infinite time. That
+said, nothing is truly POWER. So everything is compromised for some purpose.
+In a very simple radar system a pulse of RF (say, 10 microseconds long) and
+repeated every (say, every 10 milliseconds). Now the peak power is defined
+as the power during the pulse and is most essential in the determination of
+the radar performance and design of the receiver. The average power is the
+peak power multiplied by the duty cycle (ratio of the pulse width to the
+pulse to pulse time) and is used to determine the internal heating and power
+requirements for the radar system.
+
+Here is nice to separate these two essential powers by using adjectives, but
+it is also clear that the term "average power" is redundant. All "proper"
+power is averaged. The other powers are convenient "misnomers" of some
+practical use.
+
+I think Vrms came from the voltage across a resistor that satisfies
+V=3DSQR(PR) and when used in P=3DV^2/R makes Prms
+
+I think Vave (half the value of half the voltage waveform) has no practical
+use being used for power in P=3DV^2/R.
+
+WBob
+
+----- Original Message ----- =
+
+From: "Clemens Paul" <cpaul@gmx.net>
+To: "'Discussions of Antennas and Related Topics'"
+<antenna-discussion@antennex.com>
+Sent: Saturday, October 27, 2012 6:18 AM
+Subject: Re: [Antenna-discussion] crystal radios and the capture area
+paradox
+
+
+> Dave, Kirk
+>
+>>Ok, you mean average power. There's no such thing as RMS power.
+>
+>>That is Prms exists in the mathematical sense, but nobody uses it.
+>
+> ?????????
+> As soon you have to deal with measurement of noise,SNR,or unlinear
+> signals, RMS power is essential as is RMS voltage.
+> There were application notes from HP how to calculate RMS power
+> from the PEP measurments of their old spectrum analyzers like the HP141
+> system.
+> Today that is all done in software.
+> The S-meter of my Perseus SDR can be toggled between reading in RMS of =
+
+> peak
+> power.
+>
+> 73
+> Clemens
+> DL4RAJ
+>
+>
+>
+>>-----Original Message-----
+>>From: antenna-discussion-bounces@antennex.com
+>>[mailto:antenna-discussion-bounces@antennex.com] On Behalf Of
+>>telegrapher9@gmail.com
+>>Sent: Friday, October 26, 2012 9:49 PM
+>>To: Discussions of Antennas and Related Topics; Antennex
+>>Subject: Re: [Antenna-discussion] crystal radios and the
+>>capture area paradox
+>>
+>>Ok, you mean average power. There's no such thing as RMS power.
+>>
+>>Dave
+>>
+>>Sent from my Verizon Wireless 4GLTE smartphone
+>>
+>>----- Reply message -----
+>>From: "Kirk T McDonald" <kirkmcd@Princeton.EDU>
+>>To: "Antennex" <antenna-discussion@antennex.com>
+>>Subject: [Antenna-discussion] crystal radios and the capture
+>>area paradox
+>>Date: Fri, Oct 26, 2012 13:23
+>>
+>>
+>>Dave,
+>>
+>>Actually, the formula I gave differs from by a factor of 2
+>>from the one I usually use, because I use rms power rather
+>>than peak power.
+>>
+>>So, I'm happy to use the version 3 lambda^2 / 8 pi, which
+>>appears, for example, in eq. 18 of my note
+>>http://puhep1.princeton.edu/~mcdonald/examples/power.pdf
+>>
+>>You are correct that besides power absorbed by the matched
+>>load (neglecting losses), power is scattered out of the
+>>incident wave (into the radiation
+>>pattern of the antenna).   Typically, the scattered power equals the
+>>absorbed power, as you noted.
+>>
+>>--Kirk
+>>
+>>-----Original Message-----
+>>From: telegrapher9@gmail.com
+>>Sent: Friday, October 26, 2012 2:36 PM
+>>To: Discussions of Antennas and Related Topics ; Antennex
+>>Subject: Re: [Antenna-discussion] crystal radios and the
+>>capture area paradox
+>>
+>>Kirk, the formula you give for capture error differs from mine
+>>by a factor of two. Does yours take into account the antenna
+>>re-radiating one half the post?
+>>
+>>Dave C
+>>
+>>Sent from my Verizon Wireless 4GLTE smartphone
+>>
+>>----- Reply message -----
+>>From: "Kirk T McDonald" <kirkmcd@Princeton.EDU>
+>>To: "Antennex" <antenna-discussion@antennex.com>
+>>Subject: [Antenna-discussion] crystal radios and the capture
+>>area paradox
+>>Date: Fri, Oct 26, 2012 11:20
+>>
+>>
+>>Folks,
+>>
+>>The role of "received power" by a radio antenna is obscured by
+>>the use of an amplifier, which can in principle deliver any
+>>output power whatsoever, independent of the power intercepted
+>>from the incident wave by the antenna.
+>>
+>>So, it may be interesting to return to considerations of early crystal
+>>radios that involved no battery and no amplifier.   In these
+>>devices the
+>>signal power that one hears (in headphones) was derived from
+>>the power in the incident wave.
+>>
+>>So, it is desirable that the crystal radio sets capture as
+>>much power from the incident wave as possible.
+>>
+>>The capture area theorem is that ANY small antenna that is
+>>MATCHED (TUNED) and LOSSLESS captures the same amount of power
+>>from the incident wave, namely the power in an area 3 lambda^2
+>>/ 4 pi of the incident wavefront.
+>>
+>>So, do we need to struggle to provide some special antenna
+>>configuration for crystal radios?
+>>
+>>And, why bother adding a ferrite to a loop antenna when the
+>>ferrite is "lossy"?
+>>
+>>---------------------------------------------------------------
+>>----------
+>>Looking at ham web sites about crystal radios, there seem to
+>>be 2 classes of answers.
+>>
+>>Some sites say that one must use a big linear antenna, a
+>>lambda/4 monopole
+>>preferably.     Short of that, bigger is better (they say).
+>>
+>>Other sites say that you will do just fine with a small loop
+>>antenna.   You
+>>can add a ferrite if you want, but it is not necessary.
+>>
+>>---------------
+>>I have my opinions as to the answers, but it would be
+>>interesting to hear from the List on this.
+>>
+>>--Kirk
+>>
+>>_______________________________________________
+>>This message was sent to: telegrapher9@gmail.com
+>>Antenna-discussion mailing list
+>>Antenna-discussion@antennex.com
+>>http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>For Upload of Attachments:
+>>http://download.antennex.com/listarch/psupload.html
+>>Searchable Archives:
+>>http://www.antennex.com/listlogin/
+>>To unsubscribe:
+>>Go to the web page link below and unsubscribe the above email
+>>address this message was sent to.
+>>
+>>Go to this web page - no passwd needed:
+>>http://antennex.com/help/subscribe.htm
+>>_______________________________________________
+>>This message was sent to: kirkmcd@princeton.edu
+>>Antenna-discussion mailing list
+>>Antenna-discussion@antennex.com
+>>http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>For Upload of Attachments:
+>>http://download.antennex.com/listarch/psupload.html
+>>Searchable Archives:
+>>http://www.antennex.com/listlogin/
+>>To unsubscribe:
+>>Go to the web page link below and unsubscribe the above email
+>>address this message was sent to.
+>>
+>>Go to this web page - no passwd needed:
+>>http://antennex.com/help/subscribe.htm
+>>
+>>_______________________________________________
+>>This message was sent to: telegrapher9@gmail.com
+>>Antenna-discussion mailing list
+>>Antenna-discussion@antennex.com
+>>http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>For Upload of Attachments:
+>>http://download.antennex.com/listarch/psupload.html
+>>Searchable Archives:
+>>http://www.antennex.com/listlogin/
+>>To unsubscribe:
+>>Go to the web page link below and unsubscribe the above email
+>>address this message was sent to.
+>>
+>>Go to this web page - no passwd needed:
+>>http://antennex.com/help/subscribe.htm
+>>_______________________________________________
+>>This message was sent to: cpaul@gmx.net
+>>Antenna-discussion mailing list
+>>Antenna-discussion@antennex.com
+>>http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>For Upload of Attachments:
+>>http://download.antennex.com/listarch/psupload.html
+>>Searchable Archives:
+>>http://www.antennex.com/listlogin/
+>>To unsubscribe:
+>>Go to the web page link below and unsubscribe the above email
+>>address this message was sent to.
+>>
+>>Go to this web page - no passwd needed:
+>>http://antennex.com/help/subscribe.htm
+>>
+>>-----
+>>E-Mail ist virenfrei.
+>>Von AVG =FCberpr=FCft - www.avg.de
+>>Version: 2012.0.2221 / Virendatenbank: 2441/5355 -
+>>Ausgabedatum: 26.10.2012
+>>
+>
+>
+> _______________________________________________
+> This message was sent to: wolfbob@csnsys.com
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address thi=
+s =
+
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+>
+>
+
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm =
+
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots=
+.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

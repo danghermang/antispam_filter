@@ -1,0 +1,23 @@
+Subject:	=?UTF-8?Q?Re=3A_OT=3A_Acceso_remoto_por_t=C3=BAnel_SSH_a_trav=C3=A9s_de_pr?=
+	=?UTF-8?Q?oxy_=5BSOLUCIONADO=5D?=
+Para variar, el problema no era problema, si no que se trat=C3=B3 de un
+error garrafal que yo comet=C3=AD.
+Mi error, fue que al editar en forma remota con mi celular al servidor
+ssh del anfitri=C3=B3n, modifiqu=C3=A9 el puerto 22 por el 443 en el archiv=
+o
+/etc/ssh/ssh_config, en vez del /etc/ssh/sshd_config.
+El primero es la configuraci=C3=B3n cliente.
+El segundo es la configuraci=C3=B3n servidor.
+Arreglado el problema, el t=C3=BAnel ssh se arma sin inconvenientes sobre
+el puerto 443 en escucha en el anfitri=C3=B3n remoto.
+
+Muchas gracias a todos.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAG0od5ebkqFW9KJEDbH0VUEEgR8j+Zr0=Gb1A+mAoyGWYDUP8w@mail.gmail.com
+

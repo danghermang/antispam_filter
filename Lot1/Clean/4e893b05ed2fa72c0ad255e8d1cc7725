@@ -1,0 +1,32 @@
+Subject:Re: como restringir acceso a conectar memorias usb flash drives
+El 05/09/12 09:55, Maddiel Rojas escribió:
+> Hola amigos, me gustaría saber si existe alguna herramienta u alguna
+> forma en Linux que me permita restringir el acceso por parte de los
+> usuarios a conectar memorias USB flash en los ordenadores de mi empresa,
+> para microsoft existe un programa que las controla mediante una base de
+> datos en red y la verificación del serial number del dispositivo,
+>
+> gracias por anticipado, buenos días a todos,
+>
+> Maddiel Rojas Basulto
+>
+
+http://www.tuxradar.com/answers/706
+
+http://www.cyberciti.biz/faq/linux-disable-modprobe-loading-of-usb-storage-driver/
+
+http://www.howopensource.com/2011/08/how-to-disable-and-enable-usb-device-in-linux/
+
+http://www.linuxquestions.org/questions/linux-newbie-8/how-to-disable-usb-mass-storage-device-usb-drive-in-linux-651262/
+
+http://serverfault.com/questions/152434/how-to-disable-cd-rom-and-usb-for-normal-users-in-linux
+
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50476669.4080508@gmail.com
+

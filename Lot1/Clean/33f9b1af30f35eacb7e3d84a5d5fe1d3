@@ -1,0 +1,27 @@
+Subject:Re: problemas con =?ISO-8859-1?Q?se=F1al_wifi_canal_14_e?=
+	=?ISO-8859-1?Q?n_debian_6?=
+Comprueba si estás utilidando el módulo cfg80211:
+
+
+lsmod | grep cfg80211
+
+
+Si es así, del modinfo de dicho módulo podemos extraer:
+
+parm:   ieee80211_regdom:IEEE 802.11 regulatory domain code (charp)
+
+
+Prueba a recargar el módulo cfg80211 con el parámetro ieee80211_regdom y 
+el código del país donde vivas (si es España "ES")
+
+Si funciona puedes hacer permanente el cambio ejecutando:
+
+echo "options cfg80211 ieee80211_regdom=CÓDIGO" > 
+/etc/modprobe.d/fix_wifi_channel.conf
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509592FF.5060907@gmail.com
+

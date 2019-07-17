@@ -1,0 +1,41 @@
+Subject:Re: [address-policy-wg] 2012-02 New Draft Document Published
+ (Policy forInter-RIR Transfers of IPv4 Address Space) (Tore Anderson)
+=0A=0A3. Re: 2012-02 New Draft Document Published (Policy for=0AInter-RIR T=
+ransfers of IPv4 Address Space) (Tore Anderson)=0A-------------------------=
+-----=0A=0AMessage: 3=0ADate: Sat, 01 Dec 2012 12:57:07 +0100=0AFrom: Tore =
+Anderson <tore.anderson@redpill-linpro.com>=0ASubject: Re: [address-policy-=
+wg] 2012-02 New Draft Document Published=0A(Policy for Inter-RIR Transfers =
+of IPv4 Address Space)=0ATo: address-policy-wg@ripe.net=0AMessage-ID: <50B9=
+F093.9040700@redpill-linpro.com>=0AContent-Type: text/plain; charset=3DISO-=
+8859-1=0A=0A>From the Impact Analysis:=0A=0A> This policy proposal requires=
+ the RIPE NCC LIRs to be in compliance=0A> with the RIPE NCC's policies. Th=
+e RIPE NCC will conduct an audit to=0A> ensure that this is the case prior =
+to completing a transfer.=0A=0AI think that this is an excessively strict i=
+nterpretation of the policy,=0Aone which I suspect isn't the intention of t=
+he proposer. In my opinion,=0Aan LIR should be assumed to be in compliance =
+with the RIPE NCC's [sic]=0Apolicies; the mere act of participating in an i=
+nter-RIR transfer should=0Anot cause an automatic LIR Audit.=0A=0AMandatory=
+ LIR Audits would only serve to increase the amount of hassle=0Aand bureauc=
+racy involved in completing such transfers, and might well=0Adiscourage LIR=
+s from participating in them at all.=0A=0AGiven that this is the NCC's inte=
+rpretation of 2012-02, I don't support=0Athe proposal as it is currently wo=
+rded, and hope it could be modified so=0Athat it will not cause mandatory o=
+r automatic LIR Audits.=0A=0A-- =0ATore Anderson=0ARedpill Linpro AS - http=
+://www.redpill-linpro.com/=0A=0A=0ACan someone explain more about what is i=
+nvolved in the audit? I was=0Apicturing more=0Aof a needs justification pro=
+cess where the applicant would illustrate=0Athat current IP's were 80%=0Aut=
+ilized.  Is that the same as an audit?=0A=0AAlso, Tore's last point on 2012=
+-03 should be applied to the passing of=0A2012-02.  In the event that =0A20=
+12-03 is agreed to, and needs justification is extended from 3 months=0Ato =
+24 months, then 5.5 will have=0Anew wording to accommodate the change.  Fur=
+ther, if 2012-02 is passed to=0Aallow for inter-RIR transfers =0Ato-from RI=
+R's with like-policies, then Chapter 5.5 =E2=80=9CTransfers of=0AAllocation=
+s=E2=80=9D of =E2=80=9CIPv4 Address Allocation=0A and Assignment Policies f=
+or the RIPE NCC Service Region=E2=80=9D; will=0Arequire an additional wordi=
+ng change.  =0A=0ASpecifically, the second paragraph of 5.5 says: "...addre=
+ss space may=0Aonly be re-allocated to another LIR that is also a=0A member=
+ of the RIPE NCC. " and if Inter-RIR transfers are approved this=0Awill cha=
+nge to LIR's of another RIR.=0A=0A=0A=0ASandra Brown=0APresident=0AIPv4 Mar=
+ket Group=0Asandrabrown@ipv4marketgroup.com=0A716-348-6768=0Awww.ipv4market=
+group.com
+

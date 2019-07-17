@@ -1,0 +1,46 @@
+Subject:Re: Hold&delete del spam y reenvio del correo
+	=?iso-8859-1?q?l=EDcito?=
+El Sun, 18 Nov 2012 21:26:49 +0100, jors escribió:
+
+> Con postfix + spamassassin estoy intentando hacer (en un proxy de salida
+> de correo) que aquellos correos que spamassassin catalogue y marque como
+> spam (en sus cabeceras), postfix los ponga en la cola de deferred para
+> posteriormente revisarlos (y si son lícitos, marcarlos como ham y
+> reencolarlos para su envío; y viceversa, marcándolos como spam y
+> descartándolos).
+
+(...)
+
+> Spamassassin funciona y el header_check también, porque los correos con
+> el X-Spam-Flag a YES son puestos en hold/deferred. Pero si luego trato
+> de volver a poner estos correos en hold/deferred en la cola de envios,
+> vuelve a entrar en el filtro del header_checks y de nuevo a ponerlo en
+> hold (y así en un bucle infinito), con lo que el correo núnca llega a
+> salir.
+> 
+> ¿Alguna idea de cómo hacer lo que pretendo?
+
+Se me ocurre que podrías añadir un "jugador" más (amavisd-new) que me 
+parece que te podría servir de "enlace" para lo que pretendes (revisa 
+esta doc¹) aunque personalmente prefiero que sean los propios usuarios 
+los que se encarguen de "catalogar/marcar" los mensajes que les llegan 
+para lo cual cada usuario dispone de una carpeta imap del tipo "/spam", "/
+ham" y "/virus" a donde van a para los mensajes según hayan sido 
+clasificados. Los mensajes de spam se eliminan automáticamente cada 15 o 
+30 días (según configuraciones) y el usuario puede ir pasando los falsos 
+positivos a la carpeta de "/ham" para que la rutina del filtro bayesiano 
+del SA pueda aprender patrones válidos de estos mensajes (--sa-learn).
+
+¹http://www.ijs.si/software/amavisd/#features-users
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8dfga$k79$1@ger.gmane.org
+

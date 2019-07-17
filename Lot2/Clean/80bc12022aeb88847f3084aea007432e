@@ -1,0 +1,93 @@
+Subject:Re: [Jukebox-list] Rowe JBM Tropicana Carousel Jumping Selection
+Nigel Pugh wrote:
+> I've got something that is niggling me like mad. 
+>
+> The issue I have is that now and again my JBM Tropicana will be about to
+> play the selected record, and just as the gripper is about to pick it up,
+> the carousel will jump one slot and pick up the next record.
+>
+>   
+
+Hi Nigel,
+
+Have you checked if the carousel gear motor armature is disengaging 
+quickly enough?  I've seen this happen with many machines, the armature 
+is slightly sticky on its' shaft and doesn't always release snappily 
+enough to 'freeze' the gear box drive...
+
+Watch the carousel motor when this happens - if it actually jumps then 
+it is either the armature sticking slightly during its spindown or some 
+switch not releasing enough to ensure power is cut to it.
+
+John :-#)#
+> Now I've given advice on this a million times, and repaired 100s of Rowes
+> that exhibit this issue (which is usually one of quite a few things, but
+> easy to sort) - however, I cannot stop my own damn machine from doing it!
+>
+> I have removed the mechanism and set up a wiring rig, so I can operate it on
+> the bench, and observe the microswitches. 
+> I have narrowed down the issue to cam switch number 3. When the switch is
+> operating, for the smallest fraction of a second when the contacts are
+> switching, there is an open circuit. Now normally the time this occurs is so
+> small it has no effect, but now and then, it causes the R1 relay to
+> momentarily drop. This causes the magazine motor to momentarily operate,
+> causing the carousel to jump. By the time it has jumped, the switch has now
+> caught the 'other' circuit, and everything works ok - other than the wrong
+> selection played! 
+>
+> My issue is this:- My JAL/JEL and JBM manuals are all incorrect!! (Forget
+> JAO onwards, they do it differently). They say "C1 opens and disconnects the
+> common end of the magazine motor".
+> But it doesn't... If C1 did open, then whatever occurred between the
+> switching of C3 would be immaterial, as the magazine motor would not move
+> anyway.  If the jukebox worked like the manual said, it would all be fine.
+> C1 cam lobe means it will NOT disconnect until a long time later in the
+> rotation of the cam. 
+>
+> First thought was, I have a cam off a later 1100 mech. So I checked my other
+> 3 mechs, and all cams/wiring is identical.
+>
+> Now I know this must have been an issue, as in the JBM mechanism
+> troubleshooting, it describes this as a failure of switch 3 - replace. Well,
+> I have tried 10 or so cherry originals, and new ones too, and it occurs on
+> all of them. Amazingly the earlier JEL/JAL manual does NOT have this in the
+> troubleshooting so clearly it did become an issue. And the JAO onwards did
+> it differently!
+>
+> So I think there is a design fault here.
+>
+> Has anyone had this and come up with a clever work around ? I am thinking of
+> a circuit mod, or C/R time delay, or modifying the cam maybe ?
+>
+> Like I mentioned, this is definitely where the fault lies, the rest of the
+> circuit is ok. I have substituted all components (scan switch, stopping
+> switch wipers etcc)  - the problem IS definitely the dead time when the
+> microswitch is between contacts.
+>
+> Any ideas ?
+>
+> Thanks
+>
+> Nigel
+>
+>
+> _______________________________________________
+> Jukebox-list mailing list
+> Jukebox-list@lists.netlojix.com
+> http://lists.netlojix.com/mailman/listinfo/jukebox-list
+> Searchable Archives: http://jukebox.markmail.org/
+>
+>   
+
+
+-- 
+John's Jukes Ltd. 2343 Main St., Vancouver, BC, Canada V5T 3C9 
+Call (604)872-5757 or Fax 872-2010 (Pinballs, Jukes, VideoGames)
+                 www.flippers.com 
+"Old pinballers never die, they just flip out"
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

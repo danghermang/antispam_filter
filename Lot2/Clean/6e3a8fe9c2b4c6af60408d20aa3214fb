@@ -1,0 +1,75 @@
+Subject:Re: =?utf-8?q?D=C3=A9pannage_sur_PC?= distant
+On Sunday 28 October 2012 10:39:38 Pascal Obry wrote:
+> Le 28/10/2012 07:33, Bzzz a =C3=A9crit :
+> > On Sun, 28 Oct 2012 07:06:07 +0100
+> > Pascal Obry <pascal@obry.net> wrote:
+> TEAMVIEWER : That's not a GNU Software and moreover it looks
+> like you need to register for the service and nothing is said=20
+> about the traffic which > could be going through a specific server.=20
+> This is the kind of service that's looks cool but I would avoid it=20
+> like the pest!=20
+> >> Vive la libert=C3=A9!
+
+> > Faut pas non-plus tomber dans l'int=C3=A9grisme, d'autant qu'il n'existe
+> > pas tant que cela de solutions pour faire ce que tu veux dans les 2
+> > mondes...
+
+> Je ne vois pas ou est l'int=C3=A9grisme l=C3=A0 dedans! Dans ce cas on pe=
+ut dire
+> aussi que Debian est int=C3=A9griste en ne proposant que des solutions 10=
+0%
+> libres, de l=C3=A0 =C3=A0 m=C3=AAme changer le nom de Firefox/Thunderbird=
+ en
+> Iceweasel/Icedove par exemple.
+> Ne pas =C3=AAtre d=C3=A9pendant d'une solution tiers c'est toujours b=C3=
+=A9n=C3=A9fique sur
+> le long terme... De plus plusieurs personnes ont propos=C3=A9s ssh (c'est
+> parfait pour de la configuration =C3=A0 distance) pour Windows une base de
+> VNC =C3=A7a marche bien aussi. Pourquoi donc se rendre d=C3=A9pendant? Ju=
+ste par
+> flemme de mettre en place une solution qui demande 10 minutes?
+> Et oui j'administre des machines de diff=C3=A9rentes personnes dans ma
+> famille =C3=A0 base de VNC, =C3=A7a marche et je sais de quoi je parle :)
+> Maintenant chacun fait comme il veut, mais il faut arr=C3=AAter avec des
+> arguments comme int=C3=A9griste ou pas. Cela n'a rien =C3=A0 voir.
+> Bon week-end =C3=A0 tous.
+>   Pascal Obry /  Magny Les Hameaux (78)
+____________________________________________
+
+Tu tentes de d=C3=A9montrer un peu l'ind=C3=A9montrable :
+
+Tu as bien indiqu=C3=A9 que "teamviewer"=20
+(par un copier/coller d'un avis en anglais), n'est pas "GNU et Logiciel Lib=
+re"=20
+(sous entendu, ne l'utilisez pas)
+et concluant "qu'il faut l'=C3=A9viter comme la peste".
+
+C'est bien une r=C3=A9action "int=C3=A9griste", dogmatique d'un ultra libri=
+ste.
+
+Il faut d=C3=A9j=C3=A0 se f=C3=A9liciter qu'il existe une version Linux,
+mieux, pour plusieurs distributions, du logiciel "teamviewer"
+et non d'un logiciel que pour Windows ...
+La soci=C3=A9t=C3=A9 =C3=A9ditrice a fait un effort sympathique,
+et c'est pas souvent le cas ...
+En plus, ce logiciel fonctionne parfaitement et rend bien service
+pour d=C3=A9panner des personnes peu dou=C3=A9es en informatique
+et =C3=A0 distance.
+
+Maintenant, dommage qu'il n'existe pas un =C3=A9quivalent "Libre".
+que j'utiliserai volontiers et en attendant je suis bien content
+de cet outil qui m'a permis d'aider des utilisateurs en panne.
+
+Bon dimanche.
+
+Andr=C3=A9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210281227.31537.andre_debian@numericable.fr
+

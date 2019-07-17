@@ -1,0 +1,41 @@
+Subject:Re: xrandr [et rtfm ?]
+Bonsoir, bonsoir,
+
+Le 19/09/2012 22:37, Grégory Bulot a écrit :
+> Bonjour, Bonsoir,
+>
+> Le Wed, 19 Sep 2012 15:50:49 +0400, fremoin, vous avez écrit :
+>
+>> Bonjour,
+>
+>
+> Bonjour,
+>
+>> ~$ xrandr --output LVDS1 --panning 1440x900 --output VGA1 --pos 1440x0
+>> me permet presque de le faire, mais affiche la barre supérieure
+>> étirée sur les 2 écrans, alors que je voudrais qu'elle reste limitée
+>> à celui du portable... et non projetée.
+>
+> Je n'utilise pas gnome, mais lxde, je tente un parallèle :
+> - clic droit sur la/les barres
+> - Paramètre tableau de bord
+> - Taille : 1440px (ou 50% si les 2 écrans ont la même taille)
+
+Ben ça alors, j'imaginais pas ça aussi simple. Délicieuse sensation de 
+se sentir totalement idiot.
+
+Merci !
+
+-- 
+Cordialement,
+FM
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3d612$c9h$2@ger.gmane.org
+

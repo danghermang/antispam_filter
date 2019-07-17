@@ -1,0 +1,72 @@
+Subject:Re: debian et onduleur
+Le Tue, 25 Sep 2012 01:25:30 +0200
+Bzzz <lazyvirus@gmx.com> a =E9crit:
+
+> On Tue, 25 Sep 2012 01:14:17 +0200
+> Ga=EBtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+>=20
+> >=20
+> > > =C0 noter: ils ont tous 4 prises mini, mais sont aussi quasiment
+> > > tous livr=E9s avec seulement 2 rallonges :(
+> >=20
+> > Et alors ? De toute fa=E7on tu as d=E9j=E0 les cordons d'alim de ce que
+> > tu branches dessus. Pourquoi veux-tu qu'ils en fournissent ?
+>=20
+> Hmm, tu dois parler des UPS bas de gamme qui ont directement des
+> prises 3 p=F4les standard (d=B0 celle de la maison) en sortie; je parlais
+> de la plupart des autres qui eux ont leurs sorties en prises
+> trap=E9zo=EFdales 3 p=F4les (d=B0 alim PC) mais femelles.
+
+Oui ceux pour machines de bureaux. Je n'ai pas de data center chez moi. ;)=
+=20
+
+> > minoritaire. D'ailleurs il n'y a pas trace de support linux
+> > officiel chez APC pour les mod=E8les "bureautique" alors qu'il est
+> > pr=E9sent pour les mod=E8les serveurs ...
+> =20
+> Il me semble qu'ils sont quand m=EAme fournis avec un CD incluant un
+> daemon binaire -  =E0 v=E9rifier.
+
+Enfin de toute fa=E7on ils semblent g=E9r=E9s par apcupsd.
+
+>=20
+> > > Que ce sont _aussi_ les dimensions des batteries qui importent,
+> > > parce que certains utilisent les m=EAmes capacit=E9s de batteries
+> > > mais avec des dimensions diff=E9rentes - la diffusion de certaines
+> > > dimensions =E9tant tr=E8s limit=E9e, le prix peut varier du simple au
+> > > presque double lors du renouvellement.
+> >=20
+> > Les Eaton semblent utiliser des batteries courantes
+>=20
+> V=E9rifie bien, surtout si ce sont des 10AH.
+
+Les eaton (que je vise) utilisent des 7 (<=3D1200VA) ou 9 Ah (1500VA). Les =
+7Ah
+sont tr=E8s tr=E8s courantes et pas tr=E8s ch=E8res.
+
+Pour les APC =E7a semble =EAtre proprio ?
+
+>=20
+> > > Et que tout ce qui importe c'est que les 3 niveaux de charge
+> > > soient correctement M=E0J en temps r=E9el;
+> >=20
+> > C'est =E0 dire ?
+>=20
+> Batt. HI, Batt. LO & Batt. Alarm (d=E8s fois Batt. MAN & Batt. LAVA).
+> De fa=E7on =E0 ce que le daemon r=E9agisse dans le temps voulu pour arr=
+=EAter
+> le PC avant =E9puisement des batteries.
+
+Ah oui ok.
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120925014355.13132d74c2e305d0467fd841@neuf.fr
+

@@ -1,0 +1,167 @@
+Subject:Re: [LUG] Linux - and security
+On 05/11/12 20:30, bad apple wrote:
+> On 05/11/12 19:14, Simon Robert -Cottage wrote:
+>> yes and this applies to everyone on the street also; all are potential
+>> muggers.... I think the main thing to think about is, is my traffic
+>> valuable? Would anyone actually want the information? Do I really
+>> care? I don't mind (that much) if someone on the bus overhears me
+>> saying soppy stuff to my girl friend and I don't really care if some
+>> hackerette in McD's wiresharks the e-mail equivilent, much good it'll
+>> do them.
+>>
+>> Do you shred every letter, each piece of junk mail, before it goes it
+>> the recycling? Am I about to put a password on my home PC in case
+>> someone breaks in and posts nasty stuff to my facebook account?
+>>
+>> Of course it is not a great idea to check your bank account in
+>> Starbucks or upload that *.pdf about the gzillion pound deal you're
+>> about to broker in Dubai, no more than to chuck your bank statements
+>> into the paper recycling box. And of course it is not great to leave
+>> yourself permanently logged in to google mail on that PC in the
+>> internet cafe you visited on holiday.
+>>
+>> The care taken should be in proportion to the value of the data your
+>> dealing with. Presumably if your updating a website using ftp then the
+>> stuff that is uploaded will be content for the site. So it will be
+>> visable anyhow. Does it matter if someone gets to feel they are hacker
+>> of the month by attempting to read it as it flys past them in
+>> wireshark (or whatever), well good luck, get a life...
+>>
+>> And at least with linux you can download as many dodgy e-mail
+>> attachments with hidden .exe files as you want, happy in the knowledge
+>> that nothing will happen.
+>>
+>> The internet is really like talking on the bus. If someone is that
+>> interested they can probably hear you. If they're that interested they
+>> train a directional mic on you, and if the conversation is that
+>> important probably you should have it somewhere else, or the
+>> equivalent of a sound proof room with no windows (lip reading). And
+>> shouting out your PIN number etc is not a very inspired idea.
+>>
+>> I suppose someone could read my fireftp uploads, get the password and
+>> turn it into a site selling viagra (if only I got so much traffic..)
+>>
+>> proportionality, proportionality, proportionality....
+>>
+> Wow, just... wow. Luckily, I'm feeling pretty chipper and benevolent
+> today because this triggers just about all of my red flags. Firstly,
+> fair enough, I respect your opinion: well, no, actually I don't. In this
+> case I'm bound to respect your right to *have* an opinion, but as you
+> obviously have no clue whatsoever regarding even the fundamental basics
+> of security that I would expect a novice computer user to understand
+> (and in many cases, I am contractually bound to ensure that a new
+> employee must understand and legally sign off on before I let them
+> anywhere near a company computer) I certainly can't muster anything but
+> profound contempt for everything you have blathered away on above.
+>
+> Just for a start:
+>
+> Am I about to put a password on my home PC in case someone breaks in and
+> posts nasty stuff to my facebook account?
+>
+> Wait, what? You don't have a login password on your home computer? You
+> are automatically disqualified from ever mentioning the two words
+> "computer" and "security" in the same sentence again. I look forward to
+> more idiots coming forward promptly explaining that they have nothing to
+> hide and also have no passwords on their computers.
+>
+> Do you shred every letter, each piece of junk mail, before it goes it
+> the recycling?
+>
+> Yes, I have a shredder. It's not there for show you know. Ok, ok, I
+> don't shred all the junk mail and the envelopes, only the bits with the
+> address on. You got me there.
+>
+> Presumably if your updating a website using ftp then the stuff that is
+> uploaded will be content for the site. So it will be visable anyhow.
+>
+> Oh jesus wept. Well, if you were planning on posting your FTP admin user
+> account and password as "visable" content for the site, then sure, go
+> right on head. I don't think the issue here is that some script kiddie
+> wiresharks your content during a site update, I think it's more that
+> they are sniffing your admin credentials off the wire. Just for a start,
+> why don't you go and have a read of your FTP provider's TOS? Look for
+> the clause about irresponsibly failing to reasonably protect your login
+> details and liability resulting there from (pro tip: what you are doing
+> is effectively sticking a post-it with your PIN on to your credit card -
+> how do you think your bank will react to that?). You might suddenly find
+> this a lot more interesting when the authorities want to have a word
+> with you regarding the considerably less-savoury-than-viagra-ads your
+> compromised FTP host has been spewing because you can't be bothered
+> using a secure login. And do you have no imagination? Do you have no
+> clue just what kind of horrific damage can be inflicted by the even most
+> casually malicious Anonymous wannabe who compromises any of your details?
+>
+> Look, I know this is making me sound very mean and paranoid, and I
+> honestly don't mean to personally attack you, but please, for god's sake
+> get your shit in order. At the very least, accept you have no business
+> whatsoever discussing security and stop disseminating your hopelessly
+> outdated, hand waving and frankly naive ideas about the internet at
+> large. There's a real danger that someone else might read it and think,
+> "oh great, he seems like a reasonably sensible man and he also doesn't
+> bother with elementary security either, so screw it!"
+>
+> The biggest problem is that your lackadaisical, quaint approach to
+> computer security isn't just your business, it's going to be everyone
+> else's when you inevitably screw up. When your password-less home PC, or
+> your 'brilliant' plaintext-password-on-a-public-internet approach adds
+> one more spam and filth spewing zombie relay to the millions already out
+> there we will all get a little more shit from the internet that day. And
+> then someone like me, who told you you were wrong in the first place,
+> will have to come along and fix it.
+>
+> One more thing about the no password on home PC issue. Do you just mean
+> you've set a password and make your PC autologin, or do you mean that
+> you really have no password? Because if it's the latter, and you're
+> presumably running linux AND if you have sudo access on your account
+> then I really hate you. If you can't figure out why, I humbly suggest
+> you get the hell off the internet and put us all out of your misery.
+>
+> Regards (no really, apologies for undoubtedly harsh comments above)
+>
+>
+>
+I is chastized :-). Yes my home PC is auto login, no password is not 
+possible and I'm not very worried about tech savy burglars, I doubt most 
+could even find the KDE menu. There is nothing remotely compromising, 
+really, on my PC. And even if sudo was passwordless who, relative or 
+burglar, is going to set up a linux botnet/stuxnet exploit on my PC? 
+They are welcome to my award winning essay on the semiotics of LOL cats...
+
+Yup facebook, google and amazon are logged in always, so I suppose our 
+burglar could order stuff from amazon (needs a delivery address) and yes 
+most sites that need a password have an easy one, if you speak Serbian, 
+but then there's nothing you can do on them except post comments. But 
+online banking is shttp, demands three sets of verification and a 
+password generator with a debit card for transfers.
+
+If someone parks in the drive, sniffs my FTP credentials and somehow 
+manages to set up a botnet with the hosting company, well it's the 
+hosting companies problem not mine. I don't do FTP updates in cafes, 
+only reservation dates (www.oldhouse-cottage.co.uk - shameless plug) via 
+google calendar.
+
+Your concerns about internet security are valid and true, but my data is 
+worthless (I don't mind google serving me adverts), but it is also true 
+that most attacks are via compromised websites. I still think talking on 
+the bus is a valid metaphor for net usage, someone will probably be able 
+to hear what you say, but as most of what you say is trivial who cares?!
+
+And yes if I was doing security for a company I would make people sign 
+something saying they would not visit fake torrents sites, in fact give 
+them a limited number of URLs possible.
+
+OK, enouf. I'm just off to complete a really great deal with the 
+daughter of a Nigerian millionaire....
+
+Si
+
+I humbly suggest
+you get the hell off the internet and put us all out of your misery
+
+:-)
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,40 @@
+Subject:Sistema de archivos en RAM (era: (unknown))
+El Thu, 08 Nov 2012 12:16:18 +0100, Ric Fer escribió:
+
+(ese asunto...)
+
+> Buenas. Mirar tengo una duda, he contratado un servidor could dinámico y
+> tengo instalada una debian lenny. El tema es que veo que todo el sistema
+> está montado en rootfs y si no me equivoco, eso significa que está en
+> memoria y no en disco.
+
+Másomenos.
+
+> Me imagino que lo tengo que hacer es crear las particiones en sda y
+> borrar todo lo que hay en rootfs... ¿hay que dejar algo en roofs para
+> que todo siga funcionando bien?
+> 
+> Os paso la salida de df y fdisk
+
+(...)
+
+Hum... a ver ¿qué es lo que quieres cambiar exactamente y por qué? 
+
+Si está configurado así será por algo ¿no? :-? y dado que se trata de un 
+hospedaje contratado en la borrascosa nube ¿no sería mejor que 
+preguntaras antes a los responsables "de los hierros" si es posible hacer 
+lo que quieres y en caso afirmativo qué tipo de repercusiones tendría? Te 
+lo comento porque quizá te penalicen por usar un mayor uso de recursos 
+(disco, cpu...).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7gksr$7kj$8@ger.gmane.org
+

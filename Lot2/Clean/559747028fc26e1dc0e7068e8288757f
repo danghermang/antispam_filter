@@ -1,0 +1,64 @@
+Subject:Re: [Off-Topic] servidor debian y aplicacion de facebook [Off-Topic]
+2012/10/18 El Ale... <alexissaucedo@gmail.com>:
+> Buenas noches amigos pido mil disculpas por el off topic, me canse de bus=
+car
+> en google y no doy con la informacion acertada me gustaria saber si algui=
+en
+> puedo hacer una aplicacion para facebook desde un debian.
+> Tengo un debian squeeze montado con un apache, voy a modulo desarrollador=
+ de
+> facebook  y me dice que si o si tengo que poner una direccion segura, ssl
+> https, entonces pongo a informarme sobre como hago la redireccion doy con
+> este enlace:
+>
+> http://itfreekzone.blogspot.com.ar/2010/07/activar-https-en-apache-forzar=
+-ssl.html
+>
+> barvaro, tengo un vmware asi que hago un snapshot y pruebo pero jamas me
+> toma la redireccion, siempre llego al ultimo paso, reinicio apache y:
+>
+> Restarting web server: apache2 ... waiting (98)Address already in use:
+> make_sock: could not bind to address [::]:443
+>
+> por otra lado una vez recuerdo haber echo que localhost me tome el ssl, p=
+ero
+> cuando ingresaba a la aplicacion recuerdo que mayormente te pide que
+> reconozcas la conexion si es segura, apretas el boton estoy de acuerdo y
+> sale andando pero jamas pude hacer que ese boton aparezca solo me apareci=
+a
+> el la conexion es segura sin la opcion de poner estoy seguro obviamente n=
+o
+> me dejaba acceder a mi servidor.
+> =BFalguien que tenga una experiencia con este tipo de cuestiones que pued=
+a
+> darme una luz?, en mi trabajo me estan pidiendo que haga un apply para fa=
+ce
+> pero dios! me complico mas la vida que oracle.
+>
+> Millones de gracias.
+
+
+Buenos d=EDas,
+
+Por lo que veo en el mensaje de error de Apache parece que hay otro
+proceso escuchando en el puerto TCP/443.
+
+Ejecuta el comando (como root, para poder ver el nombre del proceso):
+# netstat -ntlp | grep 443
+para ver qu=E9 proceso est=E1 escuchando en el puerto TCP/443, y luego
+decidir si te interesa pararlo o reconfigurarlo para que escuche en
+otro puerto, etc.
+
+Saludos,
+
+Daniel Vidal
+
+--
+http://about.me/vidimensional
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAFvwJQEc0ND1mZqd5t0moCfinzyizfeyh2K618sXz9RiE5uLOQ@mail.gmail.com
+

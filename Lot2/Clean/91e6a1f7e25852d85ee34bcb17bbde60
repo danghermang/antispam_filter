@@ -1,0 +1,22 @@
+Subject:SOFTWARE - SAI -apagar servidor  
+existe algun software en debian para recivir info de la UPS mediante
+puerto serie y segun valores de  carga mandar a apagar el servidor de
+forma segura?
+tengo una UPS TippLite .. el software es Power Alert ,pero solo dan
+soporte para suse y fedora ..
+alguna ayuda o idea ?
+
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4184.192.168.40.133.1349185936.squirrel@192.168.40.200
+

@@ -1,0 +1,40 @@
+Subject:Sobre alias postfix
+Hola
+
+Tengo 2 preguntas,
+
+1ra
+
+para crear alias a algunos usuarios en postfix como seria
+
+virtual_alias_maps ????
+
+algun ejemplo???
+
+
+
+2da
+
+Yo quiero crear mis usuarios de correo en /home/mail
+
+y no en la raiz del home
+
+Como seria ???
+algun ejemplo???
+
+
+Salu2
+
+
+
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/3c646bc09f5461dd9d43d463706a5030.squirrel@192.168.13.16
+

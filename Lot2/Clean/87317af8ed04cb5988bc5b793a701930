@@ -1,0 +1,49 @@
+Subject:Re: [Hsqldb-user] Re g: Header line in the csv file needed while
+ laoding csv file.
+Try the ignore_first=true (or false) in the text table source string.
+
+If the property is true, the first line is treated as list of columns
+and is not loaded into the table. If it is false, the first line is
+treated as data, just like the rest of the lines.
+
+See the Guide:
+
+http://www.hsqldb.org/doc/2.0/guide/texttables-chapt.html#ttc_configuration
+
+
+Fred
+
+On Fri, Oct 19, 2012, at 05:33, Sandeep Samudrala wrote:
+>
+> Hi, I was able to load a csv file into database. But it was expecting
+> the list of columns in the first line with the delimiter specified.
+>
+> Is there any way this can be avoided ? I wanted the csv file to be
+> loaded without the header line as the list of columns.
+>
+> thanks, -sandeep samudrala
+>
+> --
+> View this message in context:
+> http://old.nabble.com/Reg%3A-Header-line-in-the-csv-file-needed-while-laoding-csv-file.-tp34575666p34575666.html
+> Sent from the HSQLDB - User mailing list archive at Nabble.com.
+>
+>
+> ----------------------------------------------------------------------
+> --------
+> Everyone hates slow websites. So do we. Make your web apps faster with
+> AppDynamics Download AppDynamics Lite for free today:
+> http://p.sf.net/sfu/appdyn_sfd2d_oct
+> _______________________________________________
+> Hsqldb-user mailing list Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://p.sf.net/sfu/appdyn_sfd2d_oct
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

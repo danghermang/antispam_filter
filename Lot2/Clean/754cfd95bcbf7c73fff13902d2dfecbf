@@ -1,0 +1,76 @@
+Subject:Re: [EVDL] how do I drive my EV?
+If you get an inductive proximity sensor (I just looked and they are $3 on
+Ebay) make sure to get one with a little led light on it.  This makes it
+really easy to see that it is working correctly.  Here is the one I used
+that has a 4mm sensing distance (more than most) and has worked flawlessly.
+http://www.ebay.com/itm/LJ12A3-4-Z-BY-Inductive-Proximity-Sensor-Detection-Switch-PNP-DC6-36V-/130740448442?pt=LH_DefaultDomain_0&hash=item1e70bcecba
+
+Your efficiency gains might possibly be attributable to other things (you
+mention some battery bugs).  You can find out by using 2nd.  If your
+efficiency goes back down, then it is likely better to start in first.  It
+may be situation dependent with the equation being efficiency vs.
+convenience.  How hard is it to shift from 1st-2nd?
+
+On Tue, Nov 6, 2012 at 8:57 AM, Joel Sell <justthesells@yahoo.com> wrote:
+
+> Thanks for all the responses, both on the list and to my email.
+> I don't have a tach in the bus, so I have to add my own. I've been looking
+> at this on ebay for about $50 total:
+>
+> http://www.ebay.com/itm/inductive-tachometer-rpm-digital-STIHL-CHAIN-SAW-with-highest-rpm-recall-/251018458145?pt=Motors_Car_Truck_Parts_Accessories&hash=item3a71ddb421&vxp=mtr
+>
+>
+> But Marcus gave me a good idea about a DIY tach I'm going to pursue.
+>
+> I'll check into the "sweet spot" for my ADC FB 4001 and try to stick there
+> (anyone know what it is off the top of their heads?)
+>  I recognize that the tiny ICE motor in the bus needs a LOW first gear to
+> get the bus moving, but with the torque of the FB 4001 it's probably not
+> necessary. I don't have reduction boxes down next to the rear wheels, those
+> are in the REALLY old buses (67 or so and older).
+> What I cant figure out is why my range seemed to improve when I started
+> using 1st and 2nd, instead of sticking in 2nd all the time...
+> I made my own tranny/motor mount and modified my tranny shaft, so adding
+> the clutch back in isn't a possibility without replacing the tranny.
+> If I can keep the bus in 2nd most of the time, that would be great, but
+> I've got to keep my range and DOD acceptable.
+> Feel free to continue to respond with questions, comments and even
+> criticisms. All are helpful.
+> Thanks!
+> Joel in Philly
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL:
+> http://lists.sjsu.edu/mailman/private/ev/attachments/20121106/c6d69e50/attachment.html
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+
+
+
+-- 
+Marcus Reddish
+
+*North Valley Systems LLC*
+Stevensville, Montana
+406-360-8628
+northvalleyev.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121106/dfa32965/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

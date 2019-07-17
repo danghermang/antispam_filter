@@ -1,0 +1,27 @@
+Subject:OFF-TOPIC Openvz en powerpc64 bits
+Hola muy buenas, tengo por aquí una máquina G5 powerpc, a la cual le he
+instalado debian ppc64 bits y todo ok. Quería meterle algún entorno de
+virtualización como proxmox pero eso no es posible puesto que los paquetes
+disponibles de proxmox son para la arquitectura x86_64.
+
+Quería por lo menos usarla para containers, tipo openvz. Podría ser
+posible instalar openvz en debian powerpc64 bits??
+
+Podría parchear el kernel para crear un kernel de openvz parcheado o algo
+así??
+
+Si pongo esta consulta es porque estoy buscado info y no encuentro nada
+referente a esto.
+
+Saludos y gracias de antemano.
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2ffe9badb8a2ff6de5537bb44a3d3ccb.squirrel@maykel.sytes.net
+

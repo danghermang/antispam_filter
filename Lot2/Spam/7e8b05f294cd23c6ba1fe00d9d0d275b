@@ -1,0 +1,69 @@
+Subject:Mail delivery failed: returning message to sender
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  sasha@r7-chicago.webserversystems.com
+    (generated from d272a1f8@mundoanillos.com)
+    mailbox is full: retry timeout exceeded
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <05784718@dougpaul.com>
+Received: from [190.233.244.10] (port=12443)
+	by r7-chicago.webserversystems.com with esmtp (Exim 4.80)
+	(envelope-from <05784718@dougpaul.com>)
+	id 1ThwDS-0007Lc-7I
+	for d272a1f8@mundoanillos.com; Sun, 09 Dec 2012 23:47:46 -0600
+From: "Message" <05784718@dougpaul.com>
+Subject: Alert
+To: <d272a1f8@mundoanillos.com>
+List-Unsubscribe: <mailto:3857B29AF656AEA7@ekovoz.ru>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; chars="iso-8859-1"
+Date: Mon, 10 Dec 2012 00:47:42 -0500
+Message-ID: <20121210004742.7DD988E29E7498B674A1E.8007A30@USER-PC>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+<title>new message for you</title>
+</head>
+
+<body>
+
+<table align="center" cellpadding="0" cellspacing="0" style="width: 777px; border-style: solid; border-width: 1px">
+	<tr>
+		<td style="font-size: large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: #FFFFFF; background-color: #006699">
+		<p style="margin-left: 40px"><br />
+		New messasge<br /><br />
+		</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p style="margin-left: 40px"></p>
+		<p style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px"><br /><br />
+		<strong>Julia sent new message for you:</strong></p>
+		<p style="color: #535611; font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px">
+		<em>&quot;I am on-line now, let`s chat?&quot;</em></p>
+		<p style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px">
+		Total unread messages - <span style="color: #006699"><strong>17</strong></span>.</p>
+		<p style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px">
+		<a href="http://klbrides.ru/">Read now..</a></p>
+		<p style="margin-left: 40px">&nbsp;</p>
+		</td>
+	</tr>
+	<tr>
+		<td style="background-color: #006699">&nbsp;</td>
+	</tr>
+</table>
+
+</body>
+
+</html>
+

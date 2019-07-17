@@ -1,0 +1,41 @@
+Subject:Re: Mutt et locales
+On 2012-11-10 23:14:12 +0100, Sylvain L. Sauvage wrote:
+>   Et ton message est très très moche : l’en-tête dit « utf-8 » 
+> mais c’est du latin-1…
+
+En fait, le message de Frédéric a un mélange de UTF-8 (texte quoté)
+et de latin1 (nouveau texte, ligne d'attribution et champ "From:").
+
+Si vim tente de faire de la reconnaissance de charset, il va être
+trompé par la ligne d'attribution. J'ai eu ce problème dans le passé
+avec Emacs (suite à une erreur de config concernant l'encodage de ma
+ligne d'attribution ou de ma signature).
+
+Je conseillerais à Frédéric de s'assurer que son .muttrc est bien
+encodé en UTF-8; c'est encore un truc très sale de Mutt, qui ne
+permet de spécifier l'encodage du .muttrc de manière interne (comme
+en XML) et qui se base sur les locales (donc un truc qui peut changer
+sans que l'encodage du .muttrc soit adapté).
+
+Ensuite, au moment d'éditer une réponse dans vim, regarder si les
+caractères accentués de la ligne d'attribution et du texte quoté
+apparaissent bien comme il faut.
+
+Si Mutt est configuré avec l'édition des en-têtes ($edit_headers),
+vérifier aussi si les caractères accentués dans l'en-tête "From:"
+dans vim apparaissent bien.
+
+-- 
+Vincent Lefèvre <vincent@vinc17.net> - Web: <http://www.vinc17.net/>
+100% accessible validated (X)HTML - Blog: <http://www.vinc17.net/blog/>
+Work: CR INRIA - computer arithmetic / AriC project (LIP, ENS-Lyon)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121111015608.GM5116@xvii.vinc17.org
+

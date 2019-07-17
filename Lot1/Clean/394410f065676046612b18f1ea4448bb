@@ -1,0 +1,65 @@
+Subject:Re: [Flexradio] 10 MHz input to FLEX-1500
+Ron,
+I can't help you with transverters, but I do have a Flex-1500 and have never
+had a problem running from TBolts or a DEMI 10-4.  Here are my 10 MHz
+amplitude readings, measured by a HP 53131A Counter set to 50 ohm input.
+These amplitudes are zero-to-peak Volts. 
+
+TBolt-A	1.09		
+TBolt-B	1.19
+TBolt-C	1.39
+
+DEMI 10-4 (with 50 ohm loads on all output ports)
+Port A	1.30
+Port B	1.32
+Port C	1.32
+Port D	1.32
+
+These amplitudes range from +11 dBm to + 13 dBm
+
+
+John Stuart, KM6QX
+
+
+
+-----Original Message-----
+From: FlexRadio [mailto:flexradio-bounces@flex-radio.biz] On Behalf Of
+Ronald G. Parsons
+Sent: Sunday, November 04, 2012 11:11 AM
+To: FlexRadio Reflector
+Subject: [Flexradio] 10 MHz input to FLEX-1500
+
+I hooked up a 10 MHz source to my FLEX-1500 and my two 
+DEMI transverters (L144-28HP and L432-28HP). I heard satellite
+stations on both FO-29 and VO-52. But when I tried 
+transmitting, I got no drive from the FLEX. After a lot of fiddling around. 
+I noticed that if I used an 18" BNC jumper connected with a barrel to a 36" 
+BNC jumper, the FLEX produced output, but with either jumper alone, I got 
+nothing. Why?
+
+I have the 10 MHz source (Trimble Thunderbolt) connected to a DEMI 10-4
+amplifier/filter/4-way splitter. Without the DEMI splitter, I get drive from
+
+the FLEX. But with the splitter, I needed the two cables in series. Do you
+suppose I 
+am getting too much 10 MHz signal from the splitter for the FLEX-1500? 
+And the extra cable length gave me some attenuation?
+
+Is the drive level of the 10 MHz signal to the FLEX-1500 critical? 
+
+Ron
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage:
+http://www.flexradio.com/
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

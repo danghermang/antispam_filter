@@ -1,0 +1,34 @@
+Subject:Re: Apache2 ereurs
+Le 09-11-2012 14:48, Jean-marc Dufour a écrit :
+> Bonjour Seb,
+>
+> # netstat -peanut | grep 80
+> tcp        0      0 192.168.1.39:37898      80.91.229.13:119
+> TIME_WAIT   0          0           -
+> tcp      128      0 192.168.1.39:40801      192.168.1.1:139
+> ESTABLISHED 1000       14761       4700/gvfsd-smb-brow
+> tcp        0      0 192.168.1.39:37900      80.91.229.13:119
+> ESTABLISHED 1000       1609477     7596/icedove-bin
+>
+> si çà peut aider, ...
+> merci,
+> jm
+
+Bonjour,
+ou peut etre un netstat -lataupen | grep LISTEN pour savoir qui écoute 
+sur cette machine.
+
+-- 
+Nicolas PHAM
+Propulsé par GNU/Linux
+Membre de April.org - Promouvoir et défendre le logiciel libre
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/ca570ae0d0ca16a24a0c2a668c3783a8@phamily.fr
+

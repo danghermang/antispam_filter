@@ -1,0 +1,31 @@
+Subject:Re: =?iso-8859-1?q?Organizaci=F3n_y_distribuci=F3n?= de
+	imagenes por red
+El Thu, 20 Sep 2012 09:01:27 +0200, Trujillo Carmona, Antonio escribió:
+
+> ¿Alguien sabe de algún sistema para organizar y distribuir imágenes de
+> equipos por red?.
+> Ni que decir tiene que lo quiero con Debian (o como mínimo para Linux).
+> La idea seria de poder meter los equipos estropeados en una vlan (eso ya
+> lo tengo) y lo mas automático posible volver a pegarle la imagen del
+> disco.
+> Para el arranque y el pegado de imágenes creo que lo podre organizar con
+> PXE y parted, lo que mas me interesa es saber si hay algo que lo integre
+> todo y sobre todo que lo organice (base de datos etc)
+
+Mi voto para Clonezilla, funciona muy bien, al menos en su versión LiveCD 
+que es la que he probado.
+
+También podrías echar un vistazo a Mondo Rescue, tengo entendido que es 
+un clásico para estas cosas.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3f6fc$ocp$2@ger.gmane.org
+

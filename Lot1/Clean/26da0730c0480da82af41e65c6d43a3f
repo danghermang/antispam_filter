@@ -1,0 +1,88 @@
+Subject:Re: [MG] [Ag Meinungsfindungstool] Requirements in regard to split
+	opinion formation
+Michael Allan wrote
+> Marc and Slash,
+> Thanks for replying.  I didn't phrase my question properly, so please
+> let me try again.
+
+> Marc said:
+>> Hmm, I'm not sure if we missed the point here. Voting in the sense
+>> of 'to make a decision' is not part of the [Discussion] System we
+>> are talking about.  It's part of the Decision System.
+
+> Yes, I agree.  The problem was my phrase "voting tool".  I shouldn't
+> be using that expression.  Voting is just an implementation detail (a
+> means, a mechanism) and not a choice category for tools (T).  So here
+> I re-phrase my question:
+
+> Suppose T1 and T2 are opinion expression tools.  An opinion expression
+> tool is one that takes the individual opinions of users and publishes
+> a composite result that reveals the overall shape of opinion (M) as it
+> forms, including the pattern of consensus and dissensus, and related
+> details.  So when a user wants to express his (or her) opinion in a
+> wider social context, he picks up his favourite opinion expression
+> tool (say T2) and tells it his opinion.  The tool does the rest, and
+> out emerges the wider picture.  For example:
+
+> This particular opinion expression tool (T2) shows each user's opinion
+> as a single dot in some kind of 2-dimensional opinion space.  I don't
+> know if this a great visualization, but there it is.  Other tools may
+> improve on it; maybe T1 is better.  The user may choose whichever he
+> prefers because T1 and T2 are compliant plug-ins of S.
+
+> How do you guys feel about opinion expression, as I describe it?
+> (Myself, again, I feel it's very important to reveal the shape of
+> opinion as it develops.  And I think active, continuous expression is
+> the best approach.  Whether or not this is done with voting mechanisms
+> of some stripe is not directly relevant.  I shouldn't speak of that.)
+
+Opinion formation - as you described it - is a process over one's mind, 
+right?
+What about groups? Do they have a collective opinion formation process also?
+
+IMHO the most relevant part is to compare different opinions with eachother. 
+The discussion should evolve from a infinite amount of opinions into just 
+some variations. Therfore group building processes might be fundamental to 
+reach consensus. Or in other words like Slash said:
+
+> Slash said:
+>> 1. The use of the discussion system is not only to form oneself's
+>> opinion, but also and especially to form the group's opinion and
+>> making this totally visible.
+
+> OK, that sounds like what I'm calling "opinion expression".
+
+>> 2. Rating will definitifely play a central role within most of the
+>> opinion forming tool plug-ins.  Every argument or key aspect
+>> statement could need a rating...
+
+> I agree that such evaluations are also important.  But you see my
+> mistake I hope, and understand I'm speaking of something else.
+
+> Again, I'm interested in the views of anyone in the group.  What do
+> you think of this notion of opinion expression?  Is it good, bad or
+> just plain ugly?  ;^)
+
+IMHO it is one part of the puzzle and the basics needs to be reflected 
+somehow in the domain model standardization. But the details are to be 
+handled by the plug-ins or individual implementations. So I think that can 
+be addressed by
+
+participant has opinion
+group consits of participants
+group has position
+
+And of course, the process to get to a groups position is far more complex 
+;o)
+
+What do you think?
+
+Cheers
+Marc 
+
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

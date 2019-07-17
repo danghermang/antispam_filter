@@ -1,0 +1,55 @@
+Subject:Re: [EVDL] DC motors
+Willie,
+
+The switch will not last on DC because it will be made to handle AC
+which is easier to break because of the alternating nature of the
+current.
+
+Most likely you have a universal motor in the chainsaw that will run on
+AC or DC. An electromagnetic field coil is used that has its polarity
+reversed along with the armature coil when the AC source reverses,
+keeping the attraction between the two coils in the same direction.
+
+These motors are not intended to run on DC, but they do.
+
+You will need to change out the switch to something that will break your
+DC voltage and last.
+
+Alan
+
+-----Original Message-----
+From: ev-bounces@lists.sjsu.edu [mailto:ev-bounces@lists.sjsu.edu] On
+Behalf Of Willie McKemie
+Sent: Wednesday, November 07, 2012 4:17 PM
+To: Electric Vehicle Discussion List
+Subject: [EVDL] DC motors
+
+I just bought an electric chainsaw and it occurred to me that I might be
+able to run it off my 120-156vdc packs.  Is that likely?
+
+Label on the chainsaw says "120v 60hz 14.5 amp".
+
+--
+Willie, ONWARD!  Through the fog!
+http://counter.li.org Linux registered user #228836 since 1995
+Debian3.1/GNU/Linux system uptime  113 days  8 hours 38 minutes
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

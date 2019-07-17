@@ -1,0 +1,59 @@
+Subject:Re: HS - ADSL Internet seul sur ligne en =?ISO-8859-1?Q?d=E9-gro?=
+	=?ISO-8859-1?Q?upage_total?=
+Le 22/10/2012 14:24, Olivier a écrit :
+>
+>
+> Le 22 octobre 2012 12:13, daniel huhardeaux <no-spam@tootai.net 
+> <mailto:no-spam@tootai.net>> a écrit :
+>
+>     Le 22/10/2012 10:53, Olivier a écrit :
+>
+>         Bonjour,
+>
+>         Au risque de pulvériser le record de la question la plus Hors
+>         Sujet de cette liste, je me permet de vous demander si à votre
+>         connaissance, il existe un opérateur qui propose des accès
+>         ADSL Internet seul (pas de téléphone et possibilité d'utiliser
+>          son propre modem-routeur) sur ligne en dé-groupage total (pas
+>         d'abonnement auprès de FT) ?
+>
+>         Slts
+>
+>
+>     Bonjour,
+>
+>     tout opérateur alternatif permet de faire cela (nous le faisons
+>     pour notre clientèle). Mais je suppose l'argument sous jacent "à
+>     un tarif inférieur à celui des abonnements des box actuelles"
+>     inclue dans la question,
+>
+>
+> Non, pas forcément.
+>
+> Ma recherche concerne des TPE. Elles ont besoin d'émettre et recevoir 
+> plusieurs appels téléphoniques simultanés et d'aller sur Internet.
+> Pour satisfaire correctement leur premier besoin, elles vont avoir 
+> besoin d'accès Numeris ou de trunks SIP, et façon résiduelle, de 
+> lignes analogiques (pour émettre des télécopies).
+>
+> Une offre "ADSL seule avec dégroupage total possible" me semble 
+> parfaitement répondre au 2ème besoin sans polluer le premier 
+> ("Pourquoi, je ne peux pas appeler gratuitement avec ma SDA, alors que 
+> je peux le faire de chez moi ?" ...).
+> [...]
+
+Pour les trunks SIP, je déconseille fortement l'ADSL, la VOIP étant 
+symétrique.
+
+-- 
+Daniel
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/508540C1.4030005@tootai.net
+

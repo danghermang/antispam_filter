@@ -1,0 +1,31 @@
+Subject:Re: Systemd
+El Sat, 03 Nov 2012 22:44:46 +0100, Cosme Domínguez Díaz escribió:
+
+> El 03/11/12 19:57, Camaleón escribió:
+>> No sé por qué pero me parece que Wheezy ya lleva systemd de serie (o yo
+>> lo seleccioné en alguna actualización, no lo recuerdo...) y al menos en
+>> el netbook no me ha dado problemas.
+>>
+> 
+> No sé como instalas Wheezy.
+
+Pues lo instalé apenas salió Squeeze, es decir, hace año y pico.
+
+> Al menos en mi caso: una instalación básica ("Utilidades estándar del
+> sistema" de tasksel) vía una imagen netinstall no trae systemd.
+
+Pues tienes razón, no tengo el paquete "systemd" instalado sólo las 
+bibliotecas. Hum... no sé qué me llevó a pensar lo contrario (ya me 
+parecía raro que todo funcionara sin problemas :-)).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k75bbh$87n$2@ger.gmane.org
+

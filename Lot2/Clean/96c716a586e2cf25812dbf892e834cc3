@@ -1,0 +1,38 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+
+Owen DeLong <owen@delong.com> writes:
+
+> For those that have /32s only because /36s weren't an option in
+> policy when they obtained their space, the option does exist to
+> consolidate into a /36 of your /32 and return the remainder to ARIN
+> in order to become an X-Small IPv6 if the proposed fee structure is
+> implemented.
+
+Considering this in $BRO_COLO's case.  It's annoying though
+particularly for those of us who have been doing sparse allocation
+internally in order to aggregate nicely.
+
+> Personally, I would rather see the fee structure modified so that
+> /32s issued to X-small IPv4 providers prior to the policy change
+> that allowed for /36s were grandfathered as X-Small in the IPv6
+> category,
+
+Agreed.
+
+> but, I wouldn't want to create a blanket exemption for all
+> /32 holders or even all X-small IPv4 holders.
+
+Why not?  I should think that the ability to turn into a smaller ISP
+by handing back or otherwise divesting oneself of (legacy, IPv4)
+address space is something that you, of all people, would heartily
+support.
+
+-r
+
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

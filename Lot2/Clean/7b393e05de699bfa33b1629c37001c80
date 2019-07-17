@@ -1,0 +1,48 @@
+Subject:Re: [EVDL] Neutral Timing Is Best for Commuter Vehicles with Tranny
+On a somewhat different scale, when I had a Citicar I experimented with brush advance. On the 6.7" motor I drilled and tapped new holes about 9/16" from the original set. This was about ten degrees of advance. The motor ran hotter, used more power (increased wh/mi) but had a slightly higher top speed. 
+I drilled another set between the original and new holes for about five degrees advance. At this setting the motor ran much better - quicker acceleration, better top speed, and better wh/mi than the original timing. 
+It is possible that you simply went past the brush advance position required for your particular vehicle, making it run worse just like I did during my initial experiment. 
+
+Tom Keenan
+
+
+On Nov 11, 2012, at 5:24 AM, Mark Hanson <marke.hanson@hotmail.com> wrote:
+
+> 
+> 
+> 
+> 
+> 
+> Hi Folk's,
+> 
+> On my www.evalbum.com/4346 74' Ghia 120V 2300lbs with an Impulse 9" motor I set the timing to the CCW 1" location to advance the timing from neutral.  The motor goes CW when looking at the rear tach so I advanced the brush end CCW into the direction of rotation (bolts on the CCW mark).
+> 
+> In the advanced position it draws *more* motor amps starting off at 10mph, 100A battery, 500A motor  (was about 300) .  When I went up the 5% grade section on the freeway at 60mph, 3000rpm's, the battery amps read 300A as before but the motor amps is 500A (was 400A at neutral setting).  About1/2 way up the 30 second hill, the 1231C controller started current limiting and the car slowed to 45mph at the crest of the hill  (previously maintained 60mph in neutral)  .  I then got off at the next ramp and tried again going back and again the speed sagged to 45mph as the controller current limited the motor after 500A on the motor for about 15 seconds (300A battery).  I watched the battery amps sag to 100A as the car slowed with the accelerator peddle mashed.    I set the timing back to neutral (so I can drive without getting runover by 18 wheelers).  It looks to me a 1" change in the rotation of a 9" diameter motor would be less than 12 degrees but I guess that's electrical, not!
+  m!
+> echanical degrees.
+> 
+> I had a  laser thermal imager that showed 165F when pointed at the comm but it smelled hotter and I think the imager was averaging the screen in front of the comm, probably should have removed the protective screen.
+> 
+> 
+> BTW, do you know any old VW-bug/Ghia gurus?  My www.evalbum.com/4346 still has front squealy discs after replacing discs & calipers.  I also have a rear clunk everytime I hit a bump & replaced the diagonal arm bushings & coil-over shocks.
+> 
+> 
+> Have a Renewable Energy Day,
+> 
+> Mark
+> 
+> Mark E. Hanson
+> 184 Vista Lane
+> Fincastle, VA 24090
+> 540-473-1248
+> www.REEVA.info community service RE & EV's 
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

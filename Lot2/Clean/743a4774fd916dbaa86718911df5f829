@@ -1,0 +1,32 @@
+Subject:Re: Postfix + mysql + restricciones
+El Sat, 08 Dec 2012 08:26:03 -0500, Jorge Pérez escribió:
+
+> Salu2s lista
+
+(ese html...)
+
+> tengo montado un servidor con postfix+postfixadmin+dovecot+mysql+cuotas,
+> ahora cuando trato de poner las restricciones de (nacional e
+> internacional) de la forma "tradicional"
+
+(...)
+
+¿Por qué no dices mejor qué es lo que quieres hacer? Es decir, explica 
+por qué el sistema de restricciones actual no te sirve y qué es lo que 
+quieres cambiar. 
+
+La configuración que tienes actualmente y la que pretendes pueden ser 
+útiles pero antes de meterse en faena sería mejor saber cuál es tu 
+objetivo porque puede haber varias formas de hacer lo mismo.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9vps8$lft$3@ger.gmane.org
+

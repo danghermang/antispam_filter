@@ -1,0 +1,21 @@
+Subject:Reboot
+Bonjour,
+
+Le redémarrage d'une debian squeeze ne se fait pas correctement : la 
+machine bloque.
+
+Or je n'ai accès à cette machine que par ssh.
+
+Y-a-t-il un moyen de forcer a tout pris le redemerrage en utilisant une 
+fonction autre que reboot
+ou y-a-t-il moyen de voir le problème à la manière d'un dmesg ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50572575.8000804@gmail.com
+

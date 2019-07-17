@@ -1,0 +1,54 @@
+Subject:Postfix : correspondance utilisateur@domaine utilisateur@machine
+ ?
+Bonjour,
+
+J'ai installé postfix sur mon serveur (Debian squeeze).
+
+Dans /etc/aliases j'ai :
+
+root:   adrien
+adrien:         adrien.caillot@free.fr
+
+Et si j'écris, depuis la machine, un e-mail à root ou à adrien, je le 
+reçois bien sur mon adresse Free.
+Idem si j'écris depuis l'extérieur un e-mail à 
+root@monserveur.mondomaine ou adrien@monserveur.mondomaine.
+
+Par contre, si j'écris un e-mail à root@mondomaine ou adrien@mondomaine, 
+je reçois un mail d'erreur.
+
+<adrien@mondomaine>: host mail.domaine[92.X.X.X] said: 550
+     5.1.1 <adrien@mondomaine>: Recipient address rejected: User unknown in
+     virtual alias table (in reply to RCPT TO command)
+
+Mes questions : est-ce que ce comportement est normal par défaut ?
+Est-ce que je peux le modifier pour avoir une correspondance directe 
+entre une adresse machin@mondomaine et l'utilisateur machin sur le serveur ?
+
+Cela me pose problème car j'ai installé mailman et les mailing-lists ne 
+fonctionnent que si j'écris à liste@monserveur.mondomaine alors que je 
+voudrais écrire directement à liste@mondomaine.
+
+(J'ai bien trouvé une solution en mettant un alias dans 
+/etc/postfix/virtual de liste@mondomaine vers 
+liste@monserveur.mondomaine mais c'est très lourd à gérer si je dois 
+faire ça pour toutes les listes ainsi que toutes les adresses utilisées 
+par mailman pour gérer les listes (-request, etc.).)
+
+Je sèche sur ce problème, que je n'avais pourtant pas eu sur mon ancien 
+serveur (Debian Lenny) avec une configuration comparable.
+
+Merci.
+
+-- 
+Adrien
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5071C44E.80701@free.fr
+

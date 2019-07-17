@@ -1,0 +1,37 @@
+Subject:Re: systemd et wheezy
+On 09/06/2012 03:26 PM, Frédéric Massot wrote:
+> Le 06/09/2012 15:00, maderios a écrit :
+>> Bonjour
+>> Sur wheezy, j'hésite à remplacer sysvinit par systemd. Lors de l'install
+>> de systemd-sysv Debian me dit que je vais supprimer un paquet essentiel
+>> (sysvinit)
+>> "this may render your system unusuable !"
+>> Presque rien sur le net concernant ce sujet
+>> Quelqu'un a-t-il franchi cette ligne ?
+>
+> Oui et la réponse est ici :
+>
+> http://wiki.debian.org/systemd#Issue_.231:_sysvinit_vs._systemd-sysv
+>
+OK merci pour ce lien qui aurait du me crever les yeux...
+Vu que ça n'a pas l'air simple, pas le temps pour le moment. Wait and 
+see. D'autres distrib l'ont adopté par défaut, on peut se poser des 
+questions...
+A ce sujet
+https://linuxfr.org/recherche?utf8=%E2%9C%93&q=systemd
+https://linuxfr.org/news/%C3%A9volutions-techniques-de-systemd
+https://linuxfr.org/users/mcmic/journaux/yet-another-journal-about-systemd
+Cordialement
+
+-- 
+Maderios
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5048C251.9060404@gmail.com
+

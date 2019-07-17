@@ -1,0 +1,58 @@
+Subject:Re: gnome terminal et =?iso-8859-1?Q?encod?=
+	=?iso-8859-1?Q?oage_par_d=E9faut?=
+On 2012-10-05 15:58:51 +0200, steve wrote:
+> Pas de .profile, ni de .Xdefaults ni de .Xresources. J'ai essayé de mettre
+> 
+> export LANG=fr_CH.utf8 (ou .UTF-8, les deux semblent exister...)
+> 
+> dans .bashrc, redémarré la session, mais toujours le même problème.
+
+Ce n'est pas forcément LANG qui importe.
+
+> et avec
+> 
+> gsettings list-recursively | grep -i utf
+> org.gnome.evolution.bogofilter utf8-for-spam-filter true
+> org.gnome.system.locale region 'fr_CH.utf8'
+> org.gnome.totem subtitle-encoding 'UTF-8'
+> org.gnome.Epiphany.web default-encoding 'UTF-8'
+> org.gnome.Epiphany keyword-search-url 'http://www.google.com/search ? q=%s&ie=UTF-8&oe=UTF-8'
+> org.gnome.gedit.preferences.encodings auto-detected ['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']
+> 
+> Tout le système semble donc bien être en utf8.
+
+Non, ça ne dit rien de bien particulier.
+
+> $locale -a
+> C
+> C.UTF-8
+> fr_CH.utf8
+> POSIX
+
+Que donnent les commandes suivantes?
+$ locale
+$ locale charmap
+$ perl -e ''
+
+(S'il y a des locales qui ne fonctionnent pas, perl va se plaindre.)
+
+Est-ce que UTF-8 fonctionne dans les autres terminaux?
+
+Il y a aussi toujours la possibilité de voir ce que donne strace
+avec gnome-terminal, notamment voir les fichiers qui sont lus.
+On a parfois des surprises!
+
+-- 
+Vincent Lefèvre <vincent@vinc17.net> - Web: <http://www.vinc17.net/>
+100% accessible validated (X)HTML - Blog: <http://www.vinc17.net/blog/>
+Work: CR INRIA - computer arithmetic / AriC project (LIP, ENS-Lyon)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121005144723.GA18318@xvii.vinc17.org
+

@@ -1,0 +1,34 @@
+Subject:Re: Ayuda CrossOver-pro para Debian 6
+El 03/10/12 16:14, academia@pinarte.cult.cu escribió:
+> Hola listeros, necesito la última versión de crossover-pro. Desde mi país
+> no se puede acceder a la página oficial de crossover-pro. ¿Alguien que lo
+> tenga desde un ftp u otra, me pudiera mandar el link de descarga?
+>
+> Necesito este soft para una estación de trabajo con Debian 6 que debe
+> gestionar una base de datos en Access. No me regañen, conozco las reglas
+> de la lista, pero tiene que ser en Access por razones directivas, no tengo
+> otra opción ... y no quiero volver a instalar windows. He intentado con
+> wine y los resultados no son nada alentadores. Sin embargo, con el
+> crossover-pro 6 he obtenido algunos resultados positivos al instalar el
+> office 2003, pero me funciona perfectamente nada más que en Word, NO así
+> con Excel y Access. Es por eso que busco la versión más actualizada.
+>
+> Por favor, a los que han tenido experiencia con crossover-pro, necesito
+> urgentemente AYUDA
+>
+
+Pues miré recién la página. La versión trial vale por 14 días. Y quieren 
+nombre y email para descargarla.
+¿No te conviene más una máquina virtual con Win en ella?
+Porque tal como decís, con wine no creo que llegues a buen puerto. Son 
+programas muy complejos para él. Pero uso diariamente CorelDRAW en un XP 
+instalado en VirtualBox. Eso sí funciona.
+
+Sugerencia nomás...
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506D0853.8090107@gmail.com
+

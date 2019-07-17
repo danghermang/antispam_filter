@@ -1,0 +1,77 @@
+Subject:[un poil HS]   PB de script php
+Salut liste,
+
+j'utilisais depuis un moment un script PHP achetement pratique puisqu'il
+permet d'appeler d'autres scripts en n'importe quel langage sans passer
+par les lourdeurs de fcgi.
+
+Le PB, c'est que depuis le dist upgrade en wheezy, ben =C3=A7a m=C3=B4rchep=
+=C3=BB
+(erreur 404) au lieu de la page Pale d'awstats:(
+
+Je subodore un PB PHP mais c'est pas mon truc =C3=A7a.
+Il-y-a t'il une bonne =C3=A2me qui pourrait me dire d'o=C3=B9 =C3=A7a pourr=
+ait venir?
+
+
+
+<?php
+
+// Piqu=C3=A9 sur:   http://forum.slicehost.com/index.php?p=3D/discussion/2=
+561/setup-awstats-on-my-nginx-server/p1
+
+$descriptorspec =3D array(
+    0 =3D> array("pipe", "r"),  // stdin is a pipe that the child will read=
+ from
+    1 =3D> array("pipe", "w"),  // stdout is a pipe that the child will wri=
+te to
+    2 =3D> array("pipe", "w")   // stderr is a file to write to
+);
+
+$newenv =3D $_ENV;
+$newenv["SCRIPT_FILENAME"] =3D $_ENV["X_SCRIPT_FILENAME"];
+$newenv["SCRIPT_NAME"] =3D $_ENV["X_SCRIPT_NAME"];
+
+if (is_executable($_ENV["X_SCRIPT_FILENAME"])) {
+    $process =3D proc_open($_ENV["X_SCRIPT_FILENAME"], $descriptorspec, $pi=
+pes, NULL, $newenv);
+    if (is_resource($process)) {
+        fclose($pipes[0]);
+        $head =3D fgets($pipes[1]);
+        while (strcmp($head, "\n")) {
+            header($head);
+            $head =3D fgets($pipes[1]);
+        }
+        fpassthru($pipes[1]);
+        fclose($pipes[1]);
+        fclose($pipes[2]);
+        $return_value =3D proc_close($process);
+    }
+    else {
+        header("Status: 500 Internal Server Error");
+        echo("Internal Server Error (500) - SCRIPT /usr/lb/cgi-bin/cgi-bin.=
+php THAT ALLOWS LANGUAGE-X SCRIPTS CALLS");
+    }
+}
+else {
+    header("Status: 404 Page Not Found");
+    echo("Page Not Found (404) - SCRIPT /usr/lb/cgi-bin/cgi-bin.php THAT AL=
+LOWS LANGUAGE-X SCRIPTS CALLS");
+}
+?>
+
+
+--=20
+<trax> tu pr=C3=A9pares quoi comme bac ?
+<rajae> LETRE
+<trax> ah...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121120231943.204215a2@anubis.defcon1
+

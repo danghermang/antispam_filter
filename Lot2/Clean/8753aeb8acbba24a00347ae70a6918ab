@@ -1,0 +1,43 @@
+Subject:Re: cambiar idioma en Iceweasel 15.0
+Un tanto cruel la respuesta de Gonzalo Rivero pero ciertamente
+efectiva je! Con el respeto de qui=E9n pregunt=F3, no es tan complejo el
+ingl=E9s en el navegador, pero cada quien se maneja como quiere.
+
+Suscribo a # apt-get install -t squeeze-backports iceweasel iceweasel-l10n-=
+es-es
+
+
+Claudio
+--
+
+El d=EDa 27 de septiembre de 2012 10:50, Gonzalo Rivero
+<fishfromsalta@gmail.com> escribi=F3:
+> El jue, 27-09-2012 a las 09:35 -0400, luis@ida.cu escribi=F3:
+>> Buenos d=EDas
+>>
+>> Como poner el Iceweasel 15.0 en espa=F1ol ??
+>>
+>> Agrdezco toda ayuda
+>>
+>>
+> es medio largo: http://tinyurl.com/973lr4u
+>
+>
+> --
+> (-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/1348753842.2486.12.camel@EeePC.ucasal.ar
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAK407D4vV54v+GbNpKSVaWSU0vBrjwvBSwoUgrpQzjLirfzYZg@mail.gmail.com
+

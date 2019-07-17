@@ -1,0 +1,25 @@
+Subject:Re: RFS: xpra/0.3.10+dfsg-1~bpo60+1
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On 09/29/2012 11:19 PM, Dmitry Smirnov wrote:
+> Is it mainly because we don't want to allow version higher than
+> testing in backports?
+
+It's because there is no upgrade path from squeeze+backports to wheezy
+if backports contains a greater version than wheezy.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iEYEARECAAYFAlBn9B4ACgkQJKAUGKwVtQzxPgCfSR0nOxt1ZoBii7GdUQMRxiJb
+0zsAoI4N83p6QPr2FwlOGE5sJical/up
+=xR1s
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5067F423.7040203@debian.org
+

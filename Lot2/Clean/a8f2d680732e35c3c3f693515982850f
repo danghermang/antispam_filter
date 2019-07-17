@@ -1,0 +1,28 @@
+Subject:Re: =?UTF-8?B?RMOpbWFycmFnZQ==?= impossible: ADDRCONF (NETDEV_UP):
+	eth0: link is not ready
+On Sun, 2 Sep 2012 11:26:15 +0200
+Nicolas H=C3=A9mard <nicolas@hemard.eu> wrote:
+
+>=20
+> *- je n'arrive pas =C3=A0
+> virer /etc/udev/rules.d/70-persistent-net.rules avec rm : "No such
+> file or directory"
+
+De 2 choses l'1: soit udev n'est pas install=C3=A9 (douteux, mais poss.),
+soit c'est justement l'absence de cette r=C3=A8gle qui bloque.
+
+--=20
+<gus> les gars j'ai un probl=C3=A8me
+<gus> je viens de voir une de mes amies sur un site de boules
+<gus> je fais quoi ?
+<Plonk> pour commencer tu nous files l'adresse
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120902143618.7bf7f930@anubis.defcon1
+

@@ -1,0 +1,28 @@
+Subject:Re: Ext4 Inodos acabados y dudas
+2012/10/23 Francisco J. Bejarano <francisco.bejarano@openknowledgenetwork.c=
+om>:
+>
+> OK, mas o menos lo que yo pensaba. He hecho una reestructuraci=C3=B3n de
+> copias de seguridad para que no gaste tantos inodos y listo.
+>
+> En los nuevos servidores procurar=C3=A9 reformatear la partici=C3=B3n amp=
+liando
+> los inodos.
+>
+> Saludos
+
+Si necesitas manejar muchos ficheros min=C3=BAsculos lo mejor es usar JFS.
+yo lo hago as=C3=AD, en donde trabajo manejamos millones de ficheros (xml)
+de 1 a 20 KB aprox.
+
+--=20
+Carlos Albornoz C.
+Linux User #360502
+Fono: +56997864420
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJzi=f_12SYiZ0xNTTQ9Lyw3wFX1B+1vwvVa3yngEaKzv77W3A@mail.gmail.com
+

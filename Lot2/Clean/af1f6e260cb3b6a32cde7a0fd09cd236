@@ -1,0 +1,35 @@
+Subject:Re: [HS] clavier et souris sans fil Unifying Logitech
+Le Tue, 11 Dec 2012 00:44:58 +0100
+Bzzz <lazyvirus@gmx.com> a =E9crit:
+
+> On Tue, 11 Dec 2012 00:14:24 +0100
+> Ga=EBtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+>=20
+> > Est-ce que les claviers, souris ou ensembles clavier/souris sans fil
+> > Unifying de Logitech fonctionnent compl=E8tement sous Debian ou bien es=
+t-ce
+> > que =E7a utilise un pilote Windows ?
+>=20
+> Ces ensembles n'utilisent la HF que pour la transmission, le bo=EEtier de
+> Rx =E9tant directement branch=E9 sur les prises PS/2 comme pour les devic=
+es
+> filaires.
+
+Oui mais il doit y avoir un processus d'appairage pour pouvoir connecter sur
+un m=EAme r=E9cepteur plusieurs p=E9riph=E9riques. Et =E7a semble n=E9cessi=
+ter un logiciel.
+Mais j'ai trouv=E9 =E7a qui semble correspondre:
+https://groups.google.com/forum/?fromgroups=3D#!msg/linux.kernel/zYS6yddI8y=
+U/9cMvg3k9xTYJ
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121211005122.796ff6f3c2055914c5ba7171@neuf.fr
+

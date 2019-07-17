@@ -1,0 +1,24 @@
+Subject:Message Delivery Delay
+
+MailEnable: Message delivery has been delayed.
+
+Message is waiting at eb-spain.com for delivery to 82.165.153.83.
+
+The message will be retried for another 12 hours.
+
+Reason: Mail Server for eb-spain.com could not be contacted at this time. MailEnable will keep trying to deliver this message and will notify you of any progress.
+
+
+Message headers follow:
+	
+Received: from ([31.52.107.197]) by eb-spain.com with MailEnable ESMTP; Sun, 9 Dec 2012 11:33:03 +0100
+From: "Notification" <xxx@xxxxxxx.xxx>
+Subject: New message
+To: <thunderxyde@eb-spain.com>
+List-Unsubscribe: <mailto:A89D595C0AE9D03D80@townofhaymarket.org>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; chars="iso-8859-1"
+Date: Sun, 09 Dec 2012 10:32:54 +0100
+Message-ID: <20121209103254.03DE7C2C26A9D34F625D.87562@HCSL-29>
+
+

@@ -1,0 +1,54 @@
+Subject:Re: Instalar FirebirdCS-2.5.2.26536-0.RC1.i686.tar.gz en squeeze
+El Mon, 17 Sep 2012 12:39:51 -0400, Ismael L. Donis Garcia escribió:
+
+> El Mon, 17 Sep 2012 11:07:40 -0400, Ismael L. Donis Garcia escribió:
+> 
+>>> Hasta el día de hoy tuve la versión 2.5.1 corriendo perfectamente
+>>> (.tar.gz).
+>>>
+>>> Hoy estoy tratando de instalar al versión
+>>> FirebirdCS-2.5.2.26536-0.RC1.i686.tar.gz. Descargado desde el sitio
+>>> oficial de Firebird. No trabajo con los de Debian ya que siempre van
+>>> muy por detrás..... Así que no acepto esa recomendación.
+>>>
+>>> Instala perfectamente, pero no inicia el servidor y no veo por ningún
+>>> lado el porque no inicia.
+> 
+>>¿Lo has ejecutado? ¿Has leído el manual, por un casual?
+> 
+> No trae manual alguno. En si no trae nada, solo el install.sh Cuando lo
+> instalas si copia scripts en la carpeta donde se instala, lo cuales he
+> estado analizando a ver si por ahí encuentro el problema.
+
+El manual suele venir aparte y generalmente está disponible para 
+consultar online. No sé si lo habrás leído o no.
+
+Y repito ¿has probado a ejecutarlo? Los servicios necesitan ser 
+ejecutados para que se inicien.
+ 
+>>> Como no se prácticamente nada de Linux no se como tratar de iniciar el
+>>> servidor desde una línea de comando. Alguien me podría dar una
+>>> pequeñita explicación de como realizar esto.
+> 
+>>Se me hace harto extraño que digas eso siendo que has estado iniciando
+>>la versión anterior sin problemas.
+> 
+> Pues que no te extrañe porque hasta ahora la versión nterior me ha
+> trabajado sin problema alguno. Ahora no inicia la 2.5.2 RC1 al
+> desintalar la 2.5.1 e instalar esta nueva.
+
+No dices si has hecho algo para ejecutar el servicio. No me gusta 
+insistir en estas cosas pero te lo comento porque según las leyes del 
+mundo físico, si no hay acción no hay reacción.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k37ks3$cqa$12@ger.gmane.org
+

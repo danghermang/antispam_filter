@@ -1,0 +1,42 @@
+Subject:Re: Grub no detecta ArchLinux
+El Fri, 30 Nov 2012 13:23:32 +0100, tahawk tahawk escribió:
+
+> Hola lista,
+
+Holas, pero deja el html en casa, graciaaasss :-)
+ 
+> Ayer instalé la distro ArchLinux para hacer pruebas en un sistema donde
+> convive con Debian Wheezy y Win XP. Como no quería hacer una partición
+> para /boot cada sistema tiene su /boot en su partición. 
+
+Buena decisión.
+
+> El problema es que si ejecuto grub-install y update-grub desde Debian
+> me detecta Windows pero no Arch. Y si ejecuto grub-install y update
+>-grub desde Arch me detecta Windows pero no Debian.
+
+¿Para qué ejecutas "grub-install"? :-?
+
+> ¿Qué debo hacer para que desde Debian me detecte el /boot de la
+> partición de Arch y me aparezca en el menú de Grub?
+
+Bueno, lo que tiene que hacer GRUB2 no es detectar la partición "/boot" 
+donde tienes el otro GRUB2 sino detectar que tienes "otros" sistemas 
+operativos instalados y encadenar ambos GRUB2 ("chainload").
+
+Asegúrate de que tienes instalado el paquete "os-prober", al menos en 
+Debian y date una vuelta por los bugs que hay para ese paquete:
+
+http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=os-prober;dist=unstable
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9also$2aj$3@ger.gmane.org
+

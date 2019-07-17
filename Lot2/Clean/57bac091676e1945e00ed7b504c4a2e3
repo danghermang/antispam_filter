@@ -1,0 +1,39 @@
+Subject:Re: MKV se oye pero no se ve
+El d=EDa 2 de septiembre de 2012 10:50, Evgeny M. Zubok
+<evgeny.zubok@tochka.ru> escribi=F3:
+> Marc Mar=ED <5.markmb.5@gmail.com> writes:
+>
+>> =BFOverlay, a que opci=F3n corresponder=EDa en castellano? Es que estoy
+>> dudando entre varias, y no se cual es
+>
+> Prueba sin overlay (=BFsuperposici=F3n de v=EDdeo en castellano?) desde
+> terminal con 'mplayer -vo x11 <tu_archivo.mkv>'.
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/87txvg24gk.fsf@tochka.ru
+>
+
+Ya lo he solucionado!!!
+
+Abr=ED un nuevo hilo para ajustar el brillo de pantalla con el kernel
+2.6.32, y Evgeny me dijo que actualizase los drivers de intel desde
+los backports, y luego el kernel. As=ED, ahora me funciona el ajuste de
+brillo y se ven los v=EDdeos en VLC.
+
+No consigo entender porqu=E9 se ve=EDan en Totem y en los otros no, ni
+porqu=E9 tampoco se ve=EDan con optirun cuando ten=EDa bumblebee
+configurado, pero me conformo con que funcione al menos con la gr=E1fica
+intel
+
+Gracias por todo!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8TXNdQJ=ALer1ftrVPi5h7EcEbsEov5hCY2AgUrbzDREA@mail.gmail.com
+

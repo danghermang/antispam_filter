@@ -1,0 +1,38 @@
+Subject:Instalar debian en un volumen iscsi
+Hola amigos de la lista lanzo esta pregunta por que tengo el siguiente
+problema, quisiera saber como instalar debian en un volumen iscsi, he
+tratado de hacerlo con una guía que encontré en la web pero la guía es
+del año pasado con debian lenny, y el kernel que usa el netinstall que
+tengo es el 2.6.32-5-486. La web que encontré explica que primeramente hay
+que entrar en modo experto y seguir la configuración hasta terminar la
+configuración de red, de allí instalar algunos módulos necesarios para
+el kernel, copiar el fichero InitiatorName.iscsi hacia /etc/iscsi y
+después correr el binario iscsid hasta ahi todo bien, cuando intento
+descrubrir el target de esta forma:
+
+iscsiadm -m discovery -t sendtargets -p 192.168.0.65:3260
+me dice que no encuentra esta ruta /var/lock/iscsi:
+creo la ruta y vuelvo a ejecutar el mismo comando y no sale nada.
+
+he revisado el dmesg buscando algún indicio de algo pero no encuentro
+ningún error.
+
+bueno no se si en esta versión de debian esto funcione pido ayuda a los
+que tienen más experiencia en estos temas y si conocen otra forma de
+hacerlo bueno que me digan les estaré eternamente agradecido saludos y
+muchas gracias de antemano.
+
+
+
+Lic. Ruben Cervantes Rodríguez
+Instructor y administrador de red
+JCCE Vtes1
+Camagüey Cuba
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/52069.192.168.9.106.1348064801.squirrel@correo.cmg.jovenclub.cu
+

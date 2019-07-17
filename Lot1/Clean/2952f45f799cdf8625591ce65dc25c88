@@ -1,0 +1,22 @@
+Subject:Re: RFS: xpra/0.3.11+dfsg-1~bpo60+1
+Dmitry Smirnov <onlyjob@member.fsf.org> writes:
+
+> Hi David,
+>
+> On Sat, 29 Sep 2012 21:47:48 David Bremner wrote:
+>> I prefer to wait for feedback from the release team at this point.
+>
+> Thanks to release team, xpra 0.3.11-1 is in "testing" so perhaps it's a good 
+> time to refresh xpra in backports.
+> I prepared an updated package:
+>
+> http://mentors.debian.net/debian/pool/main/x/xpra/xpra_0.3.11+dfsg-1~bpo60+1.dsc
+
+Nevermind, I found the git repo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/874njyuli9.fsf@zancas.localnet
+

@@ -1,0 +1,29 @@
+Subject:Re: Compilar kernel para optimizacion
+El Fri, 16 Nov 2012 12:02:42 +0100, maykel escribió:
+
+> Hola muy buenas, tengo un debian y he compilado el kernel 3.6.6 stable.
+> Arranca bien y demás, pero me gustaría saber cómo podría hacer para
+> compilar el kernel de tal forma que vaya lo más optimizado posible, es
+> decir, en el make menuconfig qué opciones adicionales añadir o quitar
+> para que vaya más rápido.
+> 
+> La idea es utilizar un antiguo portatil con debian para escritorio.
+
+Lo más sencillo es que pases al make el parámetro "localmodconfig" para 
+que te use el ".config" del kernel actual de Debian que si bien no estará 
+totalmente optimizado para tu portátil al menos no te dejarás ningún 
+módulo en el tintero.
+
+Revisa el archivo de la lista ya que este tema sale a menudo.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k85l34$8pk$6@ger.gmane.org
+

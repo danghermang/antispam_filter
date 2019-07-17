@@ -1,0 +1,37 @@
+Subject:Re: [Flexradio] PowerSDR on a Mac?
+Ken,
+
+I don't know about Fusion 5 but I know Parallels does not support firewire. I imagine Fusion does not either.
+
+I would suggest running Boot Camp and load Windows 7 on that partition.
+
+Bill
+AD5EW
+
+
+I was running My MacBook Pro with XP and 
+On Nov 11, 2012, at 2:41 PM, Ken Alexander <k.alexander@rogers.com> wrote:
+
+> I'm planning on upgrading my computer and getting a Mac Mini (2.5 GHz quad core i7, 16 gig RAM).  Does anyone have any experience running PowerSDR with Parallels or Fusion 5 on a Mac?
+> 
+> While we're on the subject; is anyone running PowerSDR under Windows 8?  Any gotchas there too?
+> 
+> Many thanks!
+> 
+> Ken Alexander
+> VE3HLS
+> 
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

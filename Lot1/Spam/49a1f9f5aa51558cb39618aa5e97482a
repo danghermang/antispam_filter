@@ -1,0 +1,75 @@
+Subject:Delivery failure
+Message from yahoo.cn.
+Unable to deliver message to the following address(es).
+
+<mayxinxiang@yahoo.cn>:
+This user doesn't have a yahoo.cn account (mayxinxiang@yahoo.cn) [-5]
+
+--- Original message follows.
+
+Return-Path: <Cymantha@titeb.com>
+Received-SPF: none (domain of titeb.com does not designate permitted sender hosts)
+X-YMailISG: 2Dz_CbUWLDv7p1qd6_g4UZmdQrBm.o4SK0__yQqfBGfmwopj
+ fPkjaKiEQrVvBaBJUbhhXojZamoXvYsJPvXX.VBpBIYcA06Xvo7SV9lE4U2C
+ 8opCDbVvMwSB0iyQtwDYtEumTntwD0EhoWoOe1CJALXqUMcYpyhNq5rII1n7
+ clgXkiVUGa.xn_I4vLcyZgYsvyzYkxCnFHeN3GxJILbTNi.jOEk4HSC9CNSc
+ hgOlyK5dgh7z.En5IcA_1PoU51GDGy9BYCikH99w5gHdr.7Rlkjp5jxCFfMe
+ YhZN.EH.pSEI1FfEViOkWNzZPOc2ochnYcKJj1kLJqv1K8D2UDWUUskOklqu
+ JCOosMIE2ZrdtuGhoSr4CSRJIgUG3BLlgOINK1utzt8W4g77RT88qYjfNrEo
+ MD4kU8gn4Om3Zk2QPk9qYF4-
+X-Originating-IP: [125.168.126.3]
+Authentication-Results: mta1007.mail.cnh.yahoo.com  from=titeb.com; domainkeys=neutral (no sig);  from=titeb.com; dkim=neutral (no sig)
+Received: from 127.0.0.1  (EHLO sydms02.wcg.net.au) (125.168.126.3)
+  by mta1007.mail.cnh.yahoo.com with SMTP; Mon, 10 Dec 2012 04:46:47 -0800
+Received: from titeb.com (125-168-110-44.wbroadband.net.au [125.168.110.44]) by sydms02.wcg.net.au
+  (Vircom SMTPRS 5.12.1225.15344) with ESMTP id <B0142812363@sydms02.wcg.net.au>;
+  Mon, 10 Dec 2012 23:46:38 +1100
+Received-SPF: none (sydms02.wcg.net.au: domain of Cymantha@titeb.com does not
+ designate any permitted senders)
+X-Modus-BlackList: Cymantha@titeb.com=OK
+X-Modus-Audit: FALSE;0;0;0
+Received: from intyd ([121.206.85.66]) by titeb.com with Microsoft SMTPSVC(6.0.3790.4675);
+	 Mon, 10 Dec 2012 22:21:08 +0930
+From: =?GB2312?B?1dTD97vU?= <cymantha@titeb.com>
+To: "mayxinxiang" <mayxinxiang@yahoo.cn>
+Subject: =?GB2312?B?yKuH+MrXsGyhtljGv8O3obffW3yR8g==?=
+Date: Mon, 10 Dec 2012 20:46:28 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: base64
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2869
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2869
+Return-Path: cymantha@titeb.com
+Message-ID: <SERVERpFVjCRGryWtII0000001d@titeb.com>
+X-OriginalArrivalTime: 10 Dec 2012 12:51:09.0734 (UTC) FILETIME=[06FE9C60:01CDD6D5]
+
+PEhUTUw+DQo8Qk9EWT48Rk9OVCBjb2xvcj1ibGFjayBzaXplPTQ+PEZPTlQgY29sb3I9I2ZmZmZm
+ZiBzaXplPTE+16qwojwvRk9OVD48RU0+xfPT0cPHusM8L0VNPjxGT05UIGNvbG9yPSNmZmZmZmYg
+c2l6ZT0xPjJUZ1RmUjFSMVAxUDBQMFdqVmlWPEJSPjwvRk9OVD48L0ZPTlQ+PEZPTlQgY29sb3I9
+YmxhY2sgc2l6ZT00PjxGT05UIGNvbG9yPXB1cnBsZT48Rk9OVCBjb2xvcj1kYXJrcmVkPjxGT05U
+IGNvbG9yPSNmZmZmZmYgc2l6ZT0xPsbiPC9GT05UPjxGT05UIGNvbG9yPXB1cnBsZT48Rk9OVCBj
+b2xvcj1kYXJrcmVkPjxGT05UIGNvbG9yPWdyZWVuPjxGT05UIGNvbG9yPW9saXZlPjxGT05UIGNv
+bG9yPWRhcmtjeWFuPjxFTT7O9zwvRU0+PEZPTlQgY29sb3I9I2ZmZmZmZiBzaXplPTE+t708L0ZP
+TlQ+PEVNPsPFPC9FTT48Rk9OVCBjb2xvcj0jZmZmZmZmIHNpemU9MT7CtzwvRk9OVD48RU0+tPO5
+2cjLutzDpiYjNjUyOTI7tKk8L0VNPjxGT05UIGNvbG9yPSNmZmZmZmYgc2l6ZT0xPrrNPC9GT05U
+PjxFTT7Uvcqxv9XIpbDvPC9FTT48Rk9OVCBjb2xvcj0jZmZmZmZmIHNpemU9MT607zwvRk9OVD48
+RU0+w6ahozwvRU0+PC9GT05UPjwvRk9OVD48L0ZPTlQ+PC9GT05UPjwvRk9OVD48Rk9OVCBjb2xv
+cj1kYXJrcmVkPjxFTT7Iq7n6ytc8L0VNPjxGT05UIGNvbG9yPSNmZmZmZmYgc2l6ZT0xPta+PC9G
+T05UPjxFTT63oqG2WDwvRU0+PEZPTlQgY29sb3I9I2ZmZmZmZiBzaXplPTE+yKE8L0ZPTlQ+PEVN
+Psa/PC9FTT48Rk9OVCBjb2xvcj0jZmZmZmZmIHNpemU9MT694jwvRk9OVD48RU0+w7eht7jEPC9F
+TT48Rk9OVCBjb2xvcj0jZmZmZmZmIHNpemU9MT7QzTwvRk9OVD48RU0+seC1xN9bfDwvRU0+PEZP
+TlQgY29sb3I9I2ZmZmZmZiBzaXplPTE+yfo8L0ZPTlQ+PEVNPpHyoaM8L0VNPjwvRk9OVD48Rk9O
+VCBjb2xvcj0jZmZmZmZmIHNpemU9MT7U2mpXaVZSMVEwTzBtOW05a1dqVmhUZ1IxUW05azxCUj48
+QlI+bbTLPC9GT05UPjxBIGhyZWY9Imh0dHA6Ly95a2VxLmluZm8vZml1ZWVyaS9naWlvdWkuaHRt
+bCI+PEZPTlQgc2l6ZT01PjxTVFJPTkc+tPO52cjLv+yB7cW2PC9TVFJPTkc+PC9GT05UPjwvQT48
+L0ZPTlQ+PC9GT05UPjxGT05UIGNvbG9yPSNmZmZmZmYgc2l6ZT0xPmpWaVVoPC9GT05UPjwvRk9O
+VD48L0JPRFk+PC9IVE1MPg==
+
+*** MESSAGE TRUNCATED ***
+
+
+.
+

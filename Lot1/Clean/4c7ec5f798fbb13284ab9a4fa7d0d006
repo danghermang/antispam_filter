@@ -1,0 +1,82 @@
+Subject:Re: Duda particiones gpt en debian
+
+> El Tue, 04 Dec 2012 12:59:43 +0100, maykel escribió:
+>
+>> Hola muy buenas, he estado mirando las diferencias entre msdos y gpt y
+>> las nuevas características de gpt y ventajas.
+>>
+>> Mi pregunta es la siguiente, si quiero hacer un backup de la tabla de
+>> particiones, mbr y una partición, cómo puedo hacerlo?
+>
+> Con dd, tienes los instructivos en Google, por ejemplo:
+>
+> http://www.cyberciti.biz/tips/linux-how-to-backup-hard-disk-partition-table-mbr.html
+>
+> Para hacer un backup de la partición pues también lo puedes hacer con
+> dd,
+> con un simple cp, rsync o si quieres afinar más con Clonezilla o alguna
+> herramienta dedicada.
+>
+>> fdisk no lo soporta, hay que utilizar parted o sgdisk o derivados.
+>
+> Bueno, esas son herramientas para manipular la tabla de particiones, no
+> para hacer copias de los datos que contienen las particiones. Y mejor que
+> fdisk es cfdisk. Parted es más completo.
+>
+>> Se puede pasar de una tabla msdos a gpt sin perder datos y viceversa?
+>
+> Suponiendo que todos los elementos que entran en juego lo soporten,
+> parece ser que sí:
+>
+> http://www.rodsbooks.com/gdisk/mbr2gpt.html
+>
+> Ahora bien, la copia de los datos que tengas en la partición la vas a
+> tener que hacer igual >:-)
+>
+>> Por último, una duda tonta, quien le dice al SO que la tabla de
+>> particiones es GPT, el disco, la bios...
+>
+> Grosso modo, la BIOS al disco y el disco al SO.
+>
+>> Se puede utilizar por tanto, tanto gpt como msdos en cualquier disco?
+>
+> Pues debería... te remito a la web anterior que lo explican bastante
+> bien:
+>
+> http://www.rodsbooks.com/gdisk/bios.html
+>
+> Personalmente prefiero no usar "híbridos" en este aspecto, es decir,
+> placa base con soporte nativo para BIOS → MBR, placa base con soporte
+> nativo EFI → GPT. Punto.
+>
+> Saludos,
+>
+> --
+> Camaleón
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/k9l5th$37l$3@ger.gmane.org
+>
+>
+
+
+Como siempre gracias por contestar Camale�n, un s�lo apunte, clonezilla no
+es capaz de hacer backups en tablas de particiones GPT, te dice que con
+sgdisk -z /dev/sdx lo conviertas...Pero luego no me arranca el SO.
+
+Saludos.
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/8a71df434b8e9f310efbb433b5116d7b.squirrel@maykel.sytes.net
+

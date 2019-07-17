@@ -1,0 +1,80 @@
+Subject:Re: Iceweasel 17.0 problem and solution
+Hi Mikko,
+
+Mikko Lehtinen wrote:
+> "For Firefox, you could try creating an integer called
+> 
+> toolkit.storage.synchronous
+>
+> in about:config, and setting it to 0.
+
+Ah, there's a setting for that in Firefox? Didn't know that. Thanks
+for that pointer!
+
+> IIRC most of Firefox's problems on Linux are due to repeated fsync()
+> calls, which on Linux mean "Sync everything to the disk RIGHT NOW!"
+
+Yeah. Many applications do that on purpose. Especially those with
+databases in the back, like Firefox. (Firefox uses SQLite databases
+for bookmarks, history, password, etc.)
+
+And I wouldn't be surprised if it's actually not the Firefox code but
+the used SQLite libraries which contain the fsync calls.
+
+> The upshot of setting toolkit.storage.synchronous to 0 is that Firefox
+> should be less of a wallowing pig, but if it crashes you *might* lose some
+> history entries, or bookmarks added during the session that crashed."
+
+You might even loose *all* of your history entries, bookmarks,
+cookies, extensions states, form history, and as far as I can seen
+even stored passwords (signons.sqlite) if the according databases are
+corrupt because of that after a powerloss. And I expect that this is
+more riskier than most people want:
+
+http://kb.mozillazine.org/About:config_entries#Toolkit.
+
+BTW, more or less the same effect can be achieved by using the tool
+"eatmydata" from the package of the same name, e.g. calling "eatmydata
+firefox", which is what I proposed to people asking about this issue
+so far. (And that program is called "eatmydata" on purpose.)
+
+The difference between toolkit.storage.synchronous and eatmydata is
+likely that toolkit.storage.synchronous just affects the SQLite
+databases while eatmydata affects the whole program, i.e. also the
+cache. But I don't know if the cache code contains a lot of fsyncs.
+
+> Could this be fixed somehow?
+
+I wouldn't consider this a bug as it's obviously done on purpose and
+most people do care about their bookmarks and especially stored
+passwords.
+
+> Is it already fixed on Wheezy?
+
+The current backports package (10.0.11esr-1~bpo60+1) is based on the
+Wheezy package (10.0.11esr-1), so if you experience this in
+Squeeze-Backports, you will experience this in Wheezy, too, unless the
+changelog of the backports package says something different.
+
+> For the backports version, it might be enough to just let the user
+> aware of the problem and the solution.
+
+That looks more like a general "solution", i.e. one that would not let
+users run into unexpected data loss. (I think the package should be
+quite conservative when it comes to data loss.) Since this is not
+backports-specific, I'm cc'ing the Mozilla Packaging Team's mailing
+list and I think further discussion should be done there.
+
+		Regards, Axel
+-- 
+ ,''`.  |  Axel Beckert <abe@debian.org>, http://people.debian.org/~abe/
+: :' :  |  Debian Developer, ftp.ch.debian.org Admin
+`. `'   |  1024D: F067 EA27 26B9 C3FC 1486  202E C09E 1D89 9593 0EDE
+  `-    |  4096R: 2517 B724 C5F6 CA99 5329  6E61 2FF9 CD59 6126 16B5
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121128111732.GQ19066@phys.ethz.ch
+

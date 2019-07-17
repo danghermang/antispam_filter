@@ -1,0 +1,21 @@
+Subject:Re: [ubuntu-in] Airtel 4G LTE USB Modem/Stick
+	http://www.airtel.in/4g/
+On Mon, Nov 5, 2012 at 2:11 PM, Onkar Shinde <onkarshinde@gmail.com> wrote:
+> I looked into the usb-modeswitch-data package inside file
+> /lib/udev/rules.d/40-usb_modeswitch.rules and the vendor/product id
+> displayed by your modem seems to be listed (but with different name).
+> # ZTE MF820 4G LTE
+> ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0166", RUN+="usb_modeswitch '%b/%k'"
+
+My mistake. I looked into the package from quantal (12.10) release.
+This line is not present in oneiric (11.10). So I guess one option you
+have is installing usb-modeswitch-data package from precise (12.04) or
+quantal (12.10).
+
+Cheers,
+Onkar
+
+-- 
+ubuntu-in mailing list
+ubuntu-in@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-in

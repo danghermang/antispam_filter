@@ -1,0 +1,26 @@
+Subject:Re: Driver Samsung ML-1450 y lx300+ para Debian 6
+luis@ida.cu writes:
+
+> Tampoco con la imp Epson lx300+
+>
+> Me recomendaron este sitio pero ahi no hay driver paa ella cual pudo
+> usar como compatible ?? alguien sabe ???
+>
+> http://www.openprinting.org/drivers
+
+El driver para Epson LX-300+ ya viene con Ghostscript (el driver se
+llama "ibmpro"; también se puede utilizar "epson") y debe funcionar sin
+problemas. ¿Qué has hecho para configurar la impresora y para imprimir
+los documentos?
+
+Aquí puedes descargar el PPD archivo y añadirlo a tu base de datos de
+impresoras:
+
+http://www.openprinting.org/printer/Epson/Epson-LX-300plus
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87bogui2nr.fsf@tochka.ru
+

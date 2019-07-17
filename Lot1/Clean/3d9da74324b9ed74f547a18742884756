@@ -1,0 +1,41 @@
+Subject:Re: [arin-ppml] Utilization policy is not aggregate
+On 11/15/12, Scott Leibrand <scottleibrand@gmail.com> wrote:
+> Not necessarily opposed, but one reason for the existing language is: if you
+> are at 90% of a /16, and your 3 month need is only for a /20, then you would
+> still be at >80% immediately after getting your /20, without using a bit of
+
+exactly....  and It would not be favorable to have a measure of
+utilization that allowed an organization to fail to efficiently
+utilize  each of the allocations they obtain, before requesting
+another.
+
+It's essentially like saying  "You used your previous allocation _SO_
+efficiently, that we will give you a bonus,  and  let you not use the
+next allocation so efficiently, and still obtain more resources."
+
+Instead it should just be  "lesson learned"  for the applicant;  if
+you ever actually exceed 80% utilization, stop allocating from that
+block, start allocating from the new one, and there is no need to
+change policy.
+
+(Except to increase the utilization requirement to a higher value);
+E.g.  80%  utilization on the preceding allocation,  and 99%
+utilization on  allocations that preceded it..
+
+
+The applicant who got the larger allocation and achieved the same
+overall percentage of utilization,  had to meet a larger need
+requirement to obtain that allocation.    And they also had to
+allocate more number resources after actually obtaining the
+allocation, to be allocated the next one.
+
+> Scott
+--
+-JH
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

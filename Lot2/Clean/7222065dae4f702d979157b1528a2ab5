@@ -1,0 +1,125 @@
+Subject:Re: Apache2 ereurs
+Le 09/11/2012 14:57, Sébastien NOBILI a écrit :
+> Le vendredi 09 novembre 2012 à 14:48, Jean-marc Dufour a écrit :
+>> # netstat -peanut | grep 80
+>> tcp        0      0 192.168.1.39:37898      80.91.229.13:119
+>> TIME_WAIT   0          0           -
+>> tcp      128      0 192.168.1.39:40801      192.168.1.1:139
+>> ESTABLISHED 1000       14761       4700/gvfsd-smb-brow
+>> tcp        0      0 192.168.1.39:37900      80.91.229.13:119
+>> ESTABLISHED 1000       1609477     7596/icedove-bin
+>>
+>> si çà peut aider, ...
+>
+> Tu n'as donc aucun autre processus qui écoute sur le port 80.
+>
+> Qu'est-ce que donne la commande :
+>      /etc/init.d/apache2 start
+>
+> Tu auras noté que c'est un « start » et pas un « restart ».
+>
+> Quelles erreurs dans les logs Apache suite au lancement de cette commande ?
+>
+> Seb
+>
+
+Pour les erreurs j'ai çà:
+
+# cat /var/log/apache2/error.log
+[Sun Nov 04 23:08:48 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Mon Nov 05 01:11:38 2012] [notice] caught SIGTERM, shutting down
+[Mon Nov 05 10:41:38 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Tue Nov 06 02:39:35 2012] [notice] caught SIGTERM, shutting down
+[Tue Nov 06 09:47:24 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Tue Nov 06 10:05:19 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Tue Nov 06 22:43:57 2012] [notice] caught SIGTERM, shutting down
+[Tue Nov 06 22:45:25 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Wed Nov 07 00:02:21 2012] [notice] caught SIGTERM, shutting down
+[Wed Nov 07 00:03:34 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Wed Nov 07 01:38:22 2012] [notice] caught SIGTERM, shutting down
+[Wed Nov 07 09:04:31 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Wed Nov 07 09:19:37 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Wed Nov 07 14:32:50 2012] [notice] caught SIGTERM, shutting down
+[Wed Nov 07 14:34:12 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Thu Nov 08 01:24:50 2012] [notice] caught SIGTERM, shutting down
+[Thu Nov 08 09:40:01 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Fri Nov 09 01:52:50 2012] [notice] caught SIGTERM, shutting down
+[Fri Nov 09 08:02:36 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Fri Nov 09 08:42:12 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 08:42:12 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 08:43:52 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/00sudhotel/()
+[Fri Nov 09 08:43:52 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/00sudhotel/()
+[Fri Nov 09 09:23:03 2012] [notice] caught SIGTERM, shutting down
+[Fri Nov 09 09:23:04 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Fri Nov 09 09:23:19 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:19 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:23 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:23 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:27 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:27 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:29 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:29 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:30 2012] [error] [client 127.0.0.1] script 
+'/mnt/dreamer/travail/00sites-jmarc/www/spip.php' not found or unable to 
+stat
+[Fri Nov 09 09:23:30 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:30 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:35 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:35 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:43 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:43 2012] [error] [client 127.0.0.1] File does not 
+exist: /mnt/dreamer/travail/00sites-jmarc/www/favicon.ico
+[Fri Nov 09 09:23:55 2012] [error] [client 127.0.0.1] script 
+'/mnt/dreamer/travail/00sites-jmarc/www/spip.php' not found or unable to 
+stat
+[Fri Nov 09 09:24:30 2012] [notice] caught SIGTERM, shutting down
+[Fri Nov 09 09:24:31 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Fri Nov 09 09:27:11 2012] [notice] caught SIGTERM, shutting down
+[Fri Nov 09 09:27:12 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Fri Nov 09 09:28:53 2012] [notice] caught SIGTERM, shutting down
+[Fri Nov 09 09:28:54 2012] [notice] Apache/2.2.22 (Debian) PHP/5.4.4-7 
+configured -- resuming normal operations
+[Fri Nov 09 09:32:59 2012] [notice] caught SIGTERM, shutting down
+
+jm
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/509D0F20.7090209@free.fr
+

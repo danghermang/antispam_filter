@@ -1,0 +1,22 @@
+Subject:Re: [address-policy-wg] 2012-03 New Draft Document Published
+ (Intra-RIR Transfer Policy Proposal)
+> it would appear that the phrase =ABWithin the RIPE NCC service region,=BB
+> is to be added at the beginning of the second paragraph in section
+> 5.5.
+
+I'm curious, why is this phrase being added? It does not seem to be
+discussed in the proposal summary or rationale. It also seems redundant,
+given that section 1.1 Scope in ripe-553 already says =ABthis document
+describes the policies for the responsible management of globally unique
+IPv4 Internet address space in the RIPE NCC service region=BB.
+
+It appears to me that the new paragraph being added (=ABother than for an
+additional allocation, for the purpose of determining need, a period of
+24 months is used in evaluating a transferred allocation=BB), is on it's
+own sufficient to accomplish 2012-03's stated goal of increasing the
+transfer-need-period to 24 month.
+
+--=20
+Tore Anderson
+Redpill Linpro AS - http://www.redpill-linpro.com/
+

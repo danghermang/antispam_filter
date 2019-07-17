@@ -1,0 +1,18 @@
+Subject:Issue 178 in svnbook: document ephemeral txnprops (new in 1.8) and
+ how hook scripts might use them.
+Status: New
+Owner: cmpil...@gmail.com
+Labels: Type-Enhancement Priority-Medium Milestone-en-1.8
+
+New issue 178 by cmpil...@gmail.com: document ephemeral txnprops (new in  
+1.8) and how hook scripts might use them.
+http://code.google.com/p/svnbook/issues/detail?id=178
+
+See http://subversion.tigris.org/issues/show_bug.cgi?id=4124 and  
+http://subversion.apache.org/docs/release-notes/1.8.html#ephemeral-txnprops
+
+
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

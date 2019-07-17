@@ -1,0 +1,30 @@
+Subject:Re: Porting Iceweasel 10.0.8 ESR to the Stable Backports.
+daniel curtis schrieb am Tuesday, den 16. October 2012:
+
+> Hi, sorry for a doubling messages, but I would like to ask one more
+> question. I know, that the packages backported to the stable-backports,
+> can not have a different version from that available in Wheezy and
+> that is okay. If Wheezy provides version 10.0.7esr-2, Squeeze also
+> will have such versions in stable-backports, right?
+> 
+> On October 13, again a security issues were identified and fixed. [1]
+> Now an updated version is 10.0.9 (available e.g. in Sid). What about
+> the updates for Wheezy and stable-backports? (both still have 10.0.7).
+> I know, that the package update has to wait, due to the '*testing migration*
+> '.
+> But, because of safety/security etc., updates should not be done faster?
+Let me cite ourself from the contribution website:
+ To guarantee an upgrade path from stable+backports to the next stable, the
+ package should be in testing.. Of course there are some exceptions: Security
+ updates. If your package had a security update you can upload a new backport
+ even if its not yet in testing. There are also some other exception for
+ packages like the kernel, xorg or oo.org.
+
+Alex
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121015222656.GB28644@lisa.snow-crash.org
+

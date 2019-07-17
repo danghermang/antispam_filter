@@ -1,0 +1,47 @@
+Subject:Re: Enter run =?windows-1251?q?level=85=2E?=
+El Sun, 02 Dec 2012 12:01:47 -0600, Francisco Eduardo Ascencio Dominguez
+escribió:
+
+> Ok la verdad no se que hice pero cuando estaba en mi ordenador de
+> repente se alentó demasiado 
+
+¿Se adelantó la hora? :-?
+
+> y decidí reiniciar (tipo windows XD ) 
+
+Hay que empezar a librarse de los malos hábitos adquiridos :-)
+
+> fue entonces que en la pantalla me aprese enter run level. 
+
+Algo más debe de aparecer en la pantalla ¿no?
+
+> Ya entre en odo recuperación y corrí un e2fsck 
+
+¿Por algún motivo especial?
+
+> y me repara varios sectores pero sigue apareciendo lo mismo de ENTER
+> RUN LEVEL . ingreso el numero por ejemplo 
+
+¿Qué número?
+
+> y me parece NO MORE PROCESSES LEFT IN THIS RUNLEVEL. mi s.o es debian
+> squeeze 6. que puedo hacer
+
+Inicia en modo single-user (init 1) e intenta saltar desde ahí al entorno 
+gráfico (init 3).
+
+> Enviado desde mi macbook.
+                   ^^^^^^^
+¡Ajá! Ahí está el problema >;-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9ik69$u32$1@ger.gmane.org
+

@@ -1,0 +1,45 @@
+Subject:Re: nautilus-terminal
+Salut,
+
+Le 16/11/2012 13:25, Danilo Uccelli a écrit :
+> Bonjour,
+>
+> Sur mon installation Debian unstable toute neuve, je constate une 
+> anomalie.
+>
+> Quand je fais click droit, "Ouvrir dans un terminal" ça ouvre bien un 
+> terminal mais toujours dans /home/<moi> et non pas là où je me trouve 
+> avec Nautilus.
+>
+> Config:
+> gnome shell
+> nautilus 3.4.2
+>
+> Questions:
+> Tous le monde constate le même problème ? ou j'ai quelque chose qui 
+> foire dans la config ?
+> Dans le 2ème cas, où devrais-je regarder ?
+>
+> Danilo Uccelli
+>
+Regarde le rapport de bug :
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=692518
+
+Ça doit correspondre à ton soucis.
+
+Si tu utilises gnome-terminal, tu devrais règler ça avec la commande
+gsettings set org.gnome.desktop.default-applications.terminal exec 
+gnome-terminal
+
+A+
+Jean-Jacques
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A64844.10202@doti.fr
+

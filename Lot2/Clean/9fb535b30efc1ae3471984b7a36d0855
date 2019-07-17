@@ -1,0 +1,42 @@
+Subject:Re: problemas con vnc
+El Tue, 27 Nov 2012 13:05:54 +0100, Trujillo Carmona, Antonio escribió:
+
+> Desde hace poco tiempo me es imposible conectarme a equipos de mi
+> empresa por vnc.
+
+¿Ha cambiado algo en el servidor?
+
+> los equipos de mi empresa tienen windows con Ultr@vnc validando contra
+> AD 2008.
+> Yo, obviamente, uso debian (testing) y hasta hace poco eso no era
+> problema, ahora no puedo, las pruebas son:
+
+(...)
+
+> ****krdc :
+> no dice nada pero no funciona
+> 
+> $ xtightvncviewer 10.104.9.42
+> Connected to RFB server, using protocol version 3.3 Unknown security
+> type from RFB server: -6
+
+(...)
+
+Estos dos errores conducen a este bug:
+
+krdc should support username/password authentication (like newer ultravnc)
+https://bugs.kde.org/show_bug.cgi?id=189186
+
+Mira a ver si te dice algo...
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k92llk$2d1$5@ger.gmane.org
+

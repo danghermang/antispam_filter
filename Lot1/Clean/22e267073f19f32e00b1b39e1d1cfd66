@@ -1,0 +1,43 @@
+Subject:Re: Supuesto problema =?iso-8859-1?q?m=FAltiples?= dominios https
+El Sat, 10 Nov 2012 08:54:40 +0100, Jorge escribió:
+
+> Buenos días.
+> Esta es una duda muy simple, creo.
+> 
+> Tengo Debian Squeeze con apache2 y virtual hosting, en el que trato de
+> poner certificados a dos dominios diferentes. He leído que sólo puedes
+> utilizar un certificado para todos los virtualhosts.
+
+(...)
+
+Sí, pero con "matices".
+
+> Bien, pues yo he querido comprobarlo y he creado un par de certificados
+> autofirmados, para cada uno de los dominios. No ha habido ningún
+> problema. Cada certificado reconoce su propio dominio (y están ambos en
+> el puerto 443).
+> 
+> Y la duda es ... ¿es que este bug de apache se ha resuelto ya en mi
+> versión 2.2.16?, porque tampoco he encontrado información que así lo
+> diga.
+
+El problema está explicado aquí:
+
+Why is it not possible to use Name-Based Virtual Hosting to identify 
+different SSL virtual hosts?
+http://httpd.apache.org/docs/2.2/en/ssl/ssl_faq.html#vhosts2
+
+Mira a ver si alguna de las situaciones de las que se mencionan aplica en 
+tu caso.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7lpap$he7$3@ger.gmane.org
+

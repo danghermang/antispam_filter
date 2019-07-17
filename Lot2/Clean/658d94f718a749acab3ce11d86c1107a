@@ -1,0 +1,36 @@
+Subject:Re: renommer les extensions
+Le samedi 13 octobre 2012 à 11:36 +0200, Thierry Despeyroux a écrit :
+> utiliser la commande rename qui utilise du sed
+> 
+> rename 's/txt.html/html/g' *txt.html
+> 
+> Thierry 
+
+Sans le g, il n'y a qu'une occurrence à remplacer dans le nom. On
+pourrait préciser que c'est à la fin, mais à priori il y a peu de chance
+d'avoir un fichier nommé txt.html.txt.html donc c'est suffisant
+
+rename 's/txt.html/html/' *txt.html
+
+Bref, pour les noms de fichier, rename simplifie les choses, et pour les
+trucs complexes dans les dossiers en bazar, il y a un gui très sympa
+nommé pyrenamer (dans les paquets).
+
+Description : outil écrit en PyGTK pour renommer des fichiers en masse
+Vous pouvez renommer des fichiers en utilisant des motifs, rechercher et
+remplacer, réaliser des substitutions, des insertions ou des
+suppressions de texte et même renommer les fichiers
+ manuellement. Vous pouvez également renommer les images en utilisant
+leurs balises EXIF et les musiques en utilisant leurs balises internes.
+Site : http://www.infinicode.org/code/pyrenamer/
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1350129143.8909.8.camel@jisui.aranha
+

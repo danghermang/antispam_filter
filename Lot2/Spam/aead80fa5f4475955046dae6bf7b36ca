@@ -1,0 +1,1305 @@
+Subject:Mail delivery failed: returning message to sender
+ BWN{2}WN{2}W{9}N{2}W{15}NW{10}N{2}WNW{10}NW{3}NW{8}NW{2}NW{2}NW{10}NW{3}NW{2}NW{10}N{2}W{13}N{2}W{2}NW{4}NW{6}NW{2}NW{2}NW{8}NW{12}NW{2}NW{5}NWNW{2}NW{5}NWNW{2}NW{12}NW{6}NW{9}NW{12}NW{4}NW{2}NWNWNWNWNWNW{6}NW{2}NW{9}NW{7}NW{2}NW{2}NWUNW{2}NW{2}NW{2}NWN{2}WNW{2}NWN{2}WNW{2}NW{2}N{2}W{8}NW{6}NW{6}NWN{2}WNW{2}NW{2}N{2}WN{2}WNW{4}NWNW{2}NWNWN{2}W{5}NW{2}N{2}W{9}NW{2}NW{8}NW{4}NW{7}NW{3}NW{9}NW{3}NW{9}NWN{2}W{9}NW{2}NW{8}NW{2}NW{9}NW{3}NWNWNWNW{5}NW{2}N{2}W{2}NWNW{2}NWNW{2}NW{2}NWNWN{2}W{6}NW{4}NW{2}NWN{5}W{2}N{2}W{5}NW{4}NWNW{5}NWNW{4}NW{3}NWNW{4}NW{2}NW{2}NWNW{3}NW{3}NWNWNWNW{5}NW{8}NW{2}NWNW{5}NW{4}NWNWNW{8}NW{2}NW{6}NW{3}NW{3}NWN{2}WNWNWNW{5}NW{4}NWNWNW{8}NW{2}NW{5}NW{3}NW{3}NWNWNWNWNWNW{5}NW{8}NW{2}NW{3}NWNW{3}N{2}WN{2}W{3}NW{5}NWNWNW{4}NW{9}NWNW{6}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{8}NWNW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{6}NW{2}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NWNW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{2}NW{2}NWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{10}NW{2}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{10}NW{3}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{9}NW{3}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWNWNWNW{2}NW{3}NW{3}N{2}W{6}NW{2}NWN{2}WNW{5}NWNW{4}NW{2}NWNW{3}NW{3}NWNW{2}NW{4}NW{6}NWNWNWNW{2}NW{4}NWNW{4}NW{3}NWNWN{2}WNWN{2}WNW{5}NWNW{4}NW{2}NWNW{3}NW{3}NWNW{2}NW{4}NW{6}NWNWNWNW{2}NW{4}NWNW{4}NW{3}NWNWN{2}WNWN{2}WNW{5}NWNW{4}NW{2}NWNW{3}NW{3}NWNW{2}NW{4}NW{6}NWNWNWNW{2}NW{4}NWNW{4}NW{3}NWNWN{2}WNWN{2}WNWNWNWNW{3}NW{3}NW{2}NW{8}NW{2}NWNWN{2}WNWNW{3}N{2}WN{2}W{3}NW{5}NWNWNW{4}NW{9}NWNW{6}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{10}NW{5}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{11}NW{3}NW{6}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{10}NW{2}NW{7}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{7}NW{4}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NWNW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{2}NW{2}NWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWNW{3}NWNWN{3}W{3}NW{5}N{2}WNWN{2}WNWNW{5}NWNWNW{9}NW{2}NWNWNWNWNWNWNWNWNW{3}NW{3}NWNW{2}NW{5}NW{5}NWNWNW{2}NW{4}N{2}W{2}NWNWNWNWNW{2}NW{4}NW{6}NW{2}NW{2}NW{4}NWNW{3}NW{7}NW{8}NW{7}NW{2}NW{2}NW{4}N{2}W{5}NW{4}NW{5}NWNW{10}NW{4}NWNW{4}NW{2}NWNW{14}NWNW{2}NW{4}NW{8}NW{7}NW{9}NW{7}NW{7}NWNWNWNWNWNWNW{2}NW{2}NW{3}NW{3}NWNWNWNWN{3}WNWNWNW{5}NW{4}NWNW{4}NW{6}NW{12}NW{4}NW{2}NW{2}NWNWNWNWNWN{2}WNWNWNW{3}UNW{3}NW{4}UNW{5}NW{2}UNW{2}NWN{2}WN{2}WN{3}E
+X-ASSL-HUSANU-B15-Spam: No - 0
+X-ASSL-HUSANU-B15-Stamp: Build: [Engines: 2.13.4.15550, Stamp: 3],
+ Multi: [Disabled], BW: [Disabled], RBL DNSBL: [Disabled], APM:
+ [Disabled, Score: 500], SGN: [Disabled], URL: [Disabled], URI DNSBL:
+ [Disabled], SQMD: [Enabled, Hits: Timeout, MD5:
+ 5bb8dad2fb53428aa23175bd9e56d458.fuzzy.fzrbl.org], RTDA: [Disabled,
+ Hit: No], total: 0(775)
+
+ BWN{2}W{9}N{2}W{15}NW{10}N{2}WNW{10}NW{3}NW{8}NW{2}NW{2}NW{10}NW{3}NW{2}NW{10}N{2}W{13}N{2}W{2}NW{4}NW{6}NW{2}NW{2}NW{8}NW{12}NW{2}NW{5}NWNW{2}NW{5}NWNW{2}NW{12}NW{6}NW{9}NW{12}NW{4}NW{2}NWNWNWNWNWNW{6}NW{2}NW{9}NW{7}NW{2}NW{2}NWUNW{2}NW{2}NW{2}NWN{2}WNW{2}NWN{2}WNW{2}NW{2}N{2}W{8}NW{6}NW{6}NWN{2}WNW{2}NW{2}N{2}WN{2}WNW{4}NWNW{2}NWNWN{2}W{5}NW{2}N{2}W{9}NW{2}NW{8}NW{4}NW{7}NW{3}NW{9}NW{3}NW{9}NWN{2}W{9}NW{2}NW{8}NW{2}NW{9}NW{3}NWNWNWNW{5}NW{2}N{2}W{2}NWNW{2}NWNW{2}NW{2}NWNWN{2}W{6}NW{4}NW{2}NWN{5}W{2}N{2}W{5}NW{4}NWNW{5}NWNW{4}NW{3}NWNW{4}NW{2}NW{2}NWNW{3}NW{3}NWNWNWNW{5}NW{8}NW{2}NWNW{5}NW{4}NWNWNW{8}NW{2}NW{6}NW{3}NW{3}NWN{2}WNWNWNW{5}NW{4}NWNWNW{8}NW{2}NW{5}NW{3}NW{3}NWNWNWNWNWNW{5}NW{8}NW{2}NW{3}NWNW{3}N{2}WN{2}W{3}NW{5}NWNWNW{4}NW{9}NWNW{6}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{8}NWNW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{6}NW{2}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NWNW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{2}NW{2}NWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{10}NW{2}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{10}NW{3}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{9}NW{3}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWNWNWNW{2}NW{3}NW{3}N{2}W{6}NW{2}NWN{2}WNW{5}NWNW{4}NW{2}NWNW{3}NW{3}NWNW{2}NW{4}NW{6}NWNWNWNW{2}NW{4}NWNW{4}NW{3}NWNWN{2}WNWN{2}WNW{5}NWNW{4}NW{2}NWNW{3}NW{3}NWNW{2}NW{4}NW{6}NWNWNWNW{2}NW{4}NWNW{4}NW{3}NWNWN{2}WNWN{2}WNW{5}NWNW{4}NW{2}NWNW{3}NW{3}NWNW{2}NW{4}NW{6}NWNWNWNW{2}NW{4}NWNW{4}NW{3}NWNWN{2}WNWN{2}WNWNWNWNW{3}NW{3}NW{2}NW{8}NW{2}NWNWN{2}WNWNW{3}N{2}WN{2}W{3}NW{5}NWNWNW{4}NW{9}NWNW{6}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{10}NW{5}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{11}NW{3}NW{6}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{10}NW{2}NW{7}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{7}NW{4}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NWNW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{2}NW{2}NWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWNW{3}NWNWN{3}W{3}NW{5}N{2}WNWN{2}WNWNW{5}NWNWNW{9}NW{2}NWNWNWNWNWNWNWNWNW{3}NW{3}NWNW{2}NW{5}NW{5}NWNWNW{2}NW{4}N{2}W{2}NWNWNWNWNW{2}NW{4}NW{6}NW{2}NW{2}NW{4}NWNW{3}NW{7}NW{8}NW{7}NW{2}NW{2}NW{4}N{2}W{5}NW{4}NW{5}NWNW{10}NW{4}NWNW{4}NW{2}NWNW{14}NWNW{2}NW{4}NW{8}NW{7}NW{9}NW{7}NW{7}NWNWNWNWNWNWNW{2}NW{2}NW{3}NW{3}NWNWNWNWN{3}WNWNWNW{5}NW{4}NWNW{4}NW{6}NW{12}NW{4}NW{2}NW{2}NWNWNWNWNWN{2}WNWNWNW{3}UNW{3}NW{4}UNW{5}NW{2}UNW{2}NWN{2}WN{2}WN{3}E
+
+ BW{9}N{2}W{15}NW{10}N{2}WNW{10}NW{3}NW{8}NW{2}NW{2}NW{10}NW{3}NW{2}NW{10}N{2}W{13}N{2}W{2}NW{4}NW{6}NW{2}NW{2}NW{8}NW{12}NW{2}NW{5}NWNW{2}NW{5}NWNW{2}NW{12}NW{6}NW{9}NW{12}NW{4}NW{2}NWNWNWNWNWNW{6}NW{2}NW{9}NW{7}NW{2}NW{2}NWUNW{2}NW{2}NW{2}NWN{2}WNW{2}NWN{2}WNW{2}NW{2}N{2}W{8}NW{6}NW{6}NWN{2}WNW{2}NW{2}N{2}WN{2}WNW{4}NWNW{2}NWNWN{2}W{5}NW{2}N{2}W{9}NW{2}NW{8}NW{4}NW{7}NW{3}NW{9}NW{3}NW{9}NWN{2}W{9}NW{2}NW{8}NW{2}NW{9}NW{3}NWNWNWNW{5}NW{2}N{2}W{2}NWNW{2}NWNW{2}NW{2}NWNWN{2}W{6}NW{4}NW{2}NWN{5}W{2}N{2}W{5}NW{4}NWNW{5}NWNW{4}NW{3}NWNW{4}NW{2}NW{2}NWNW{3}NW{3}NWNWNWNW{5}NW{8}NW{2}NWNW{5}NW{4}NWNWNW{8}NW{2}NW{6}NW{3}NW{3}NWN{2}WNWNWNW{5}NW{4}NWNWNW{8}NW{2}NW{5}NW{3}NW{3}NWNWNWNWNWNW{5}NW{8}NW{2}NW{3}NWNW{3}N{2}WN{2}W{3}NW{5}NWNWNW{4}NW{9}NWNW{6}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{8}NWNW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{6}NW{2}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NWNW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{2}NW{2}NWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{10}NW{2}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{10}NW{3}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{9}NW{3}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWNWNWNW{2}NW{3}NW{3}N{2}W{6}NW{2}NWN{2}WNW{5}NWNW{4}NW{2}NWNW{3}NW{3}NWNW{2}NW{4}NW{6}NWNWNWNW{2}NW{4}NWNW{4}NW{3}NWNWN{2}WNWN{2}WNW{5}NWNW{4}NW{2}NWNW{3}NW{3}NWNW{2}NW{4}NW{6}NWNWNWNW{2}NW{4}NWNW{4}NW{3}NWNWN{2}WNWN{2}WNW{5}NWNW{4}NW{2}NWNW{3}NW{3}NWNW{2}NW{4}NW{6}NWNWNWNW{2}NW{4}NWNW{4}NW{3}NWNWN{2}WNWN{2}WNWNWNWNW{3}NW{3}NW{2}NW{8}NW{2}NWNWN{2}WNWNW{3}N{2}WN{2}W{3}NW{5}NWNWNW{4}NW{9}NWNW{6}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{10}NW{5}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{11}NW{3}NW{6}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{10}NW{2}NW{7}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNW{3}NW{5}NWNWNW{4}NW{7}NW{4}NWNWNWNW{4}NWNW{3}NW{2}NW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWN{2}WN{2}W{3}NW{5}NWNWNW{4}NW{6}NW{5}NWNWNWNW{4}NWNW{3}NW{2}NWNW{2}NW{3}NW{2}NWNWNW{4}NWNW{4}NW{3}NWNW{2}NW{2}NWNW{3}NWNWNW{2}NW{2}NWNWNW{7}N{2}WNWNWN{2}W{2}NW{2}NW{2}NW{2}NW{6}NUNW{2}NWNWNWNWNW{3}NWNWN{3}W{3}NW{5}N{2}WNWN{2}WNWNW{5}NWNWNW{9}NW{2}NWNWNWNWNWNWNWNWNW{3}NW{3}NWNW{2}NW{5}NW{5}NWNWNW{2}NW{4}N{2}W{2}NWNWNWNWNW{2}NW{4}NW{6}NW{2}NW{2}NW{4}NWNW{3}NW{7}NW{8}NW{7}NW{2}NW{2}NW{4}N{2}W{5}NW{4}NW{5}NWNW{10}NW{4}NWNW{4}NW{2}NWNW{14}NWNW{2}NW{4}NW{8}NW{7}NW{9}NW{7}NW{7}NWNWNWNWNWNWNW{2}NW{2}NW{3}NW{3}NWNWNWNWN{3}WNWNWNW{5}NW{4}NWNW{4}NW{6}NW{12}NW{4}NW{2}NW{2}NWNWNWNWNWN{2}WNWNWNW{3}UNW{3}NW{4}UNW{5}NW{2}UNW{2}NWN{2}WN{2}WN{3}E
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  catsims19@hotmail.com
+    SMTP error from remote mail server after end of data:
+    host outscan.junkemailfilter.com [184.105.182.200]:
+    550-REJECTED - SpamAssassin rejected - Score=30 (21) X=outscan
+    550-H=smtpvault.secure-cluster.com [216.38.13.106]
+    550-HELO=[smtpvault.secure-cluster.com] F=[bounces@promotioncorner.com]
+    550-T=[catsims19@hotmail.com] S=[We have a new tablet winner...is it you?] -
+    550-X=outscan H=smtpvault.secure-cluster.com [216.38.13.106]
+    550-HELO=[smtpvault.secure-cluster.com] F=[bounces@promotioncorner.com]
+    550 T=[catsims19@hotmail.com] S=[We have a new tablet winner...is it you?]
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <bounces@promotioncorner.com>
+Received: from [208.100.9.137] (helo=control.expansioncloud.com)
+	by smtpvault.secure-cluster.com with esmtp (Exim 4.72)
+	(envelope-from <bounces@promotioncorner.com>)
+	id 1Ti6m2-0001Af-Vt
+	for catsims19@hotmail.com; Mon, 10 Dec 2012 11:04:11 -0600
+Received: (qmail 10033 invoked by uid 108); 10 Dec 2012 11:04:10 -0600
+Delivered-To: cathy@darden.net
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on
+	control.expansioncloud.com
+X-Spam-Level: *
+X-Spam-Status: No, score=1.5 required=4.5 tests=AWL,HTML_MESSAGE,
+	MIME_HTML_MOSTLY,RCVD_IN_DNSWL_NONE,RDNS_NONE,T_DKIM_INVALID
+	autolearn=disabled version=3.3.1
+Received: (qmail 9964 invoked by uid 108); 10 Dec 2012 11:04:10 -0600
+Received: from unknown (HELO mail.promotioncorner.com) (209.162.178.92)
+  by control.expansioncloud.com with SMTP; 10 Dec 2012 11:04:08 -0600
+Received-SPF: pass (control.expansioncloud.com: SPF record at promotioncorner.com designates 209.162.178.92 as permitted sender)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=promotioncorner.com; s=promotioncornermail2010;
+        h=content-type:mime-version:message-id:date:subject:to:from;
+        bh=q9EV+LAKuLh3vdiBmbY0vxx6MKSUlgtPXhBfCSSZS38=;
+        b=SZKRCLuELelGZ3AnMqqN3maC0lHQDiHuFpTk/LVatpWgFrEf4bX0Lth3zYRl95AaM
+          AWeLi89g8BbYVDhWWA8xKyQTCKCvhtpNk3pMxiO1mzvurpbv7gibho37MYpFlSkfd
+          UT4yiPYvTBICiG0aBi6H8mwuihG//xtNthwC0lorI=
+From: "PromoCorner.com -  UPIC/CORNER  PPAI/110698" <promoflash@promotioncorner.com>
+To: cathy@darden.net
+Subject: We have a new tablet winner...is it you?
+Date: Mon, 10 Dec 2012 11:45:35 -0500
+Message-ID: <20121210-11453532-150c-0@mail.promotioncorner.com>
+X-CampaignID: PF23834
+List-Unsubscribe: http://www.promocorner.com/account/?action=suboptions&vEUserID=BC8C6434267A1908/#Unsubscribe
+X-Abuse: abuse@promotioncorner.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--=00F219DA5F7543D7AC04_D9D6_D03A_FB5C"
+
+----=00F219DA5F7543D7AC04_D9D6_D03A_FB5C
+Content-Type: multipart/alternative;
+	boundary="--=908E5895B5DE4EF89E91_7B75_809D_F1EF"
+
+----=908E5895B5DE4EF89E91_7B75_809D_F1EF
+Content-Type: text/plain;charset="iso-8859-1"
+Content-Transfer-Encoding: Quoted-Printable
+
+PromoCorner.com Exclusive Promoflash Alert from PromoCorner.com -  UPIC=
+/CORNER  PPAI/110698<br><br>Flyer Alert Category: Specials<br><br>To vi=
+ew this exclusive offer, please visit:<br>http://www.promocorner.com/vi=
+ewpf.asp?id=3D23834
+
+----=908E5895B5DE4EF89E91_7B75_809D_F1EF
+Content-Type: text/html;charset="iso-8859-1"
+Content-Transfer-Encoding: Quoted-Printable
+
+<html>
+
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dwindo=
+ws-1252">
+<title>PromoCorner.com Newsletter</title>
+<style>
+<!--
+
+.flyerH {border: 3px double #336699}
+.flyerR {#336699}
+
+.subject {font-size: 14pt; font-family: Times New Roman,Times; color: #=
+ffffff; }
+.from {font-size: 10pt; font-family: Verdana,Arial; color: #99CCFF; tex=
+t-decoration: none; font-weight: }
+.socialDesc {font-size: 8pt; font-family: verdana,arial; color: #99CCFF=
+; font-weight: }
+.links {font-size: 14pt; font-family: Times New Roman,Times; color: #ff=
+ffff; font-weight: }
+.thumbTable {border-left: 1px solid #000000; border-right: 1px solid #0=
+00000}
+
+.subjectW {font-size: 10pt; font-family: Times New Roman,Times; color: =
+#ffffff; }
+.fromW {font-size: 8pt; font-family: Verdana,Arial; color: #99CCFF; fon=
+t-weight: }
+.linksW {font-size: 10pt; font-family: Times New Roman,Times; color: #f=
+fffff; font-weight: }
+-->
+</style>
+</head>
+<body topmargin=3D"0px" leftmargin=3D"0px" rightmargin=3D"0px" bottomma=
+rgin=3D"0px" bgcolor=3D"#99CCFF">
+
+<div align=3D"center">
+=09
+		<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A190=
+8">
+		<img src=3D"http://www.promocorner.com/leads/pc/pc-101012-tabletgivea=
+way-winners.png" border=3D"0"></a>=09
+=09
+</div>
+
+<div align=3D"center" style=3D"height: 6px; overflow-y: hidden">
+	<img width=3D"1" height=3D"1" src=3D"http://www.promocorner.com/stats/=
+trackopens.asp?PromoflashID=3D912102012&noi=3Dno.gif" alt=3D"">
+</div>
+
+
+
+
+<div align=3D"center">
+
+	<table cellpadding=3D"0" cellspacing=3D"0" width=3D"840" style=3D"bord=
+er: 3px double #FFFFFF">
+			<tr>
+				<td align=3D"center" width=3D"145" bgcolor=3D"#006699" >
+				&nbsp;</td>
+				<td align=3D"center" width=3D"550" bgcolor=3D"#006699">
+				<img border=3D"0" src=3D"http://promocorner.com/clipart/pcdaily_log=
+o.jpg"></td>
+				<td align=3D"center" width=3D"145" bgcolor=3D"#006699">
+				<p align=3D"right">
+				<a href=3D"mailto:joelmoore@promocorner.com?Subject=3DAdvertising%2=
+0Inquiry">
+				<img border=3D"0" src=3D"http://promocorner.com/clipart/pc-daily_to=
+pad.png" width=3D"99" height=3D"93"></a></td>
+			</tr>
+	</table>
+=09
+	<table width=3D"815" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#F=
+FFFFF" style=3D"border-left: 1px solid #808080; border-right: 1px solid=
+ #808080; ">
+			<tr>
+				<td style=3D"padding-top: 4px; padding-bottom: 4px">
+				<div align=3D"center"><a target=3D"_blank" href=3D"http://www.promo=
+corner.com/stats/banner-clicks.asp?id=3D1102&Link=3Dwww.allbookcovers.c=
+om">
+<img border=3D"0" alt=3D"Promotional Gifts - Specials, Closeouts, Coupo=
+ns" src=3D"http://promocorner.com/leads/allbookcovers/allbookcovers-050=
+911-bondedleather.jpg" width=3D"800" style=3D"border: 0px solid #FFFFFF=
+"></a><br><img border=3D"0" src=3D"http://promocorner.com/stats/banner-=
+opens-static.asp?vBannerID=3D1102&noi=3Dno.gif" width=3D"1" height=3D"1=
+"></div>
+
+				</td>
+			</tr>
+			<tr>
+				<td style=3D"padding-top: 4px; padding-bottom: 4px">
+				<div align=3D"center"><a target=3D"_blank" href=3D"http://www.promo=
+corner.com/stats/banner-clicks.asp?id=3D1157&Link=3Dwww.promocorner.com=
+/mycatalog">
+<img border=3D"0" alt=3D"Promotional Gifts - Specials, Closeouts, Coupo=
+ns" src=3D"http://www.promocorner.com/leads/pc/pc-102012-pageflips.png"=
+ width=3D"800"  style=3D"border: 0px solid #FFFFFF"></a>
+<br><img border=3D"0" src=3D"http://promocorner.com/stats/banner-opens-=
+static.asp?vBannerID=3D1157&noi=3Dno.gif" width=3D"1" height=3D"1"></di=
+v>
+				</td>
+			</tr>
+			</table>
+=09
+	<table cellpadding=3D"0" cellspacing=3D"0" width=3D"815" bgcolor=3D"#F=
+FFFFF" style=3D"border-left: 1px solid #808080; border-right: 1px solid=
+ #808080; ">
+								<td valign=3D"top" width=3D"100%">
+								=09
+	<table cellpadding=3D"0" width=3D"100%">
+
+			<tr>
+
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">In-stock USB Flash Drives with super low pr=
+ices</font><br>
+			<font class=3D"fromW">SuperX Flash Drive - asi/90244</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+24512&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24512">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/superx-=
+121012-drives.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D24512&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2624">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D24512&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24512">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D24512&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D24512">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2451=
+2&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF24512">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D24512&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D24512&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">The Original Paper Web Key</font><br>
+			<font class=3D"fromW">Direct Connections - asi/49807</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+25054&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25054">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/directc=
+onn-121012-paper.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D25054&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2434">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D25054&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25054">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D25054&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D25054">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2505=
+4&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF25054">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D25054&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D25054&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">FREE RUSH AND EQP ON MOST PRODUCTS!</font><=
+br>
+			<font class=3D"fromW">Zenith Promotions - asi/98980</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+25075&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25075">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/zenith-=
+113012-toys.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D25075&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D3022">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D25075&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25075">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D25075&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D25075">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2507=
+5&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF25075">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D25075&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D25075&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+			</tr>
+
+			<tr>
+
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">Discover the Digi-Camo Collection exclusive=
+ to Waldor</font><br>
+			<font class=3D"fromW">Waldor Products - asi/94770</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+24965&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24965">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/waldor-=
+090512-digicamo.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D24965&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2905">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D24965&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24965">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D24965&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D24965">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2496=
+5&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF24965">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D24965&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D24965&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">Sign on the dotted line</font><br>
+			<font class=3D"fromW">Bay State - asi/38980</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+24824&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24824">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/baystat=
+e-060512-pens.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D24824&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2424">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D24824&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24824">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D24824&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D24824">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2482=
+4&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF24824">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D24824&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D24824&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">Product Spotlight -  Kids Stuff</font><br>
+			<font class=3D"fromW">The Industry Show </font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+14064&Link=3Dhttp://www.promocorner.com/videos/?nb=3Dvideos%26sec=3Dis"=
+>		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/pc-tis-=
+new.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D14064&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2595">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D14064&Link=3Dhttp://www.promocorner.com/videos/?nb=3Dvideos%26sec=3D=
+is">View</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.pr=
+omocorner.com/stats/pfclickstats.asp?Number=3D14064&Link=3Dhttp://www.p=
+romocorner.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%=
+26s=3D1%26PromoFlashID=3D14064">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D14064&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?=
+Step=3DStep1%26aBasket=3DPF14064">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D14064&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D14064&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+			</tr>
+
+			<tr>
+
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">Best Price on Micro Plush Blanket - Free Re=
+tailing Packaging!</font><br>
+			<font class=3D"fromW">KC Caps - asi/58760</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+24795&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24795">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/kccaps-=
+091812-blanket.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D24795&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2310">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D24795&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24795">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D24795&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D24795">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2479=
+5&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF24795">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D24795&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D24795&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">2013 Catalogs are here!  </font><br>
+			<font class=3D"fromW">Tranter Graphics - asi/91880</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+25073&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25073">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/tranter=
+-121012-dc.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D25073&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2409">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D25073&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25073">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D25073&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26PromoFla=
+shID=3D25073">Forward</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D25073&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D25073&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">See What's New - Showtime Shows Coming to Y=
+our Area Soon!</font><br>
+			<font class=3D"fromW">Showtime Southern Shows </font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+25058&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25058">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/showtim=
+e-121012-shows.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D25058&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2876">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D25058&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25058">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D25058&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26PromoFla=
+shID=3D25058">Forward</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D25058&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D25058&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+			</tr>
+
+			<tr>
+
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">USB DRIVES - RUSH SERVICE/REGULAR PRICE - f=
+rom KTS, INC</font><br>
+			<font class=3D"fromW">KTS Inc - asi/63774</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+24941&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24941">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/kts-121=
+012-usb.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D24941&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2687">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D24941&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24941">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D24941&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D24941">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2494=
+1&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF24941">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D24941&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D24941&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+</table>
+									<br>
+								=09
+<div align=3D"center">
+	<img border=3D"0" src=3D"http://www.promocorner.com/clipart/id_homepag=
+e_banner.jpg" width=3D"690" height=3D"51">
+
+<table border=3D"0" width=3D"700" id=3D"table1" bgcolor=3D"#FFFFFF" cel=
+lpadding=3D"2" cellspacing=3D"0">
+				<tr>
+
+				=09
+						<td width=3D"33%" valign=3D"Top" align=3D"center" align=3D"center=
+">
+						<table class=3D"listbox_images_id" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a target=3D"_blank" href=3D"http://www.promocorner.com/id/?I=3Dhttp:=
+//www.nxtbook.com/nxtbooks/identity/identitymarketing_201211/index.php"=
+>		=09
+		<img target=3D"_blank" border=3D"0" src=3D"http://www.promocorner.com=
+/thumbs-id/20121101.jpg" width=3D"220" style=3D"border: 1px solid #0000=
+00"></a></td>
+	</tr>
+	<tr>
+		<td align=3D"center"><br>
+		<a target=3D"_blank" class=3D"sName_id" href=3D"http://www.promocorne=
+r.com/id/?I=3Dhttp://www.nxtbook.com/nxtbooks/identity/identitymarketin=
+g_201211/index.php" title=3D"November Issue 2012">
+		November Issue 2012</a><br></td>
+	</tr>
+</table>
+
+						</td>
+									=09
+
+				=09
+						<td width=3D"33%" valign=3D"Top" align=3D"center" align=3D"center=
+">
+						<table class=3D"listbox_images_id" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a target=3D"_blank" href=3D"http://www.promocorner.com/id/?I=3Dhttp:=
+//www.nxtbook.com/nxtbooks/identity/identitymarketing_201210/index.php"=
+>		=09
+		<img target=3D"_blank" border=3D"0" src=3D"http://www.promocorner.com=
+/thumbs-id/20121001.jpg" width=3D"220" style=3D"border: 1px solid #0000=
+00"></a></td>
+	</tr>
+	<tr>
+		<td align=3D"center"><br>
+		<a target=3D"_blank" class=3D"sName_id" href=3D"http://www.promocorne=
+r.com/id/?I=3Dhttp://www.nxtbook.com/nxtbooks/identity/identitymarketin=
+g_201210/index.php" title=3D"October Issue 2012">
+		October Issue 2012</a><br></td>
+	</tr>
+</table>
+
+						</td>
+									=09
+
+				=09
+						<td width=3D"33%" valign=3D"Top" align=3D"center" align=3D"center=
+">
+						<table class=3D"listbox_images_id" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a target=3D"_blank" href=3D"http://www.promocorner.com/id/?I=3Dhttp:=
+//www.nxtbook.com/nxtbooks/identity/identitymarketing_201209/index.php"=
+>		=09
+		<img target=3D"_blank" border=3D"0" src=3D"http://www.promocorner.com=
+/thumbs-id/20120901.jpg" width=3D"220" style=3D"border: 1px solid #0000=
+00"></a></td>
+	</tr>
+	<tr>
+		<td align=3D"center"><br>
+		<a target=3D"_blank" class=3D"sName_id" href=3D"http://www.promocorne=
+r.com/id/?I=3Dhttp://www.nxtbook.com/nxtbooks/identity/identitymarketin=
+g_201209/index.php" title=3D"September Issue 2012">
+		September Issue 2012</a><br></td>
+	</tr>
+</table>
+
+						</td>
+									=09
+
+			=09
+			=09
+				</tr>
+				<tr>
+					<td colspan=3D"3" align=3D"center"><br>
+					<a class=3D"sName_id" href=3D"http://www.promocorner.com/about/?sh=
+ow=3Drates" title=3D"Advertise!">
+					Click Here To Advertise in Identity Marketing Magazine</a></td>
+				</tr>			=09
+</table>
+</div>
+
+									<br>
+								=09
+	<table cellpadding=3D"0" width=3D"100%">
+
+			<tr>
+
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">Free Cards Included With Each Gift! Order N=
+ow!</font><br>
+			<font class=3D"fromW">Gift Services, Inc. - asi/56814</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+24936&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24936">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/giftser=
+vices-120712-foodgifts.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D24936&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D3029">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D24936&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24936">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D24936&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D24936">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2493=
+6&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF24936">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D24936&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D24936&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">Gift Tower Blowout! Get a FREE setup plus F=
+REE 48 hour rush service!</font><br>
+			<font class=3D"fromW">Midnite Snax - asi/71685</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+25079&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25079">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/midnite=
+snax-120712-foodgifts.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D25079&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2330">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D25079&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25079">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D25079&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D25079">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2507=
+9&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF25079">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D25079&vSub=
+=3DBC8C6434267A1908&n=3D12102012114501AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D25079&promoflas=
+hdate=3D12102012114501AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">Don't leave home without it!</font><br>
+			<font class=3D"fromW">Bay State - asi/38980</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+24823&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24823">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/baystat=
+e-071911-onthego.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D24823&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2424">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D24823&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24823">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D24823&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D24823">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2482=
+3&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF24823">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D24823&vSub=
+=3DBC8C6434267A1908&n=3D12102012114502AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D24823&promoflas=
+hdate=3D12102012114502AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+			</tr>
+
+			<tr>
+
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">Get Your Aloe Up Holiday Lip Balm in the Ni=
+ck of Time!</font><br>
+			<font class=3D"fromW">Aloe Up Suncare - upic/ALOEUP1</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+24038&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24038">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/aloeup-=
+120712-lotion.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D24038&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2169">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D24038&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24038">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D24038&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D24038">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2403=
+8&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF24038">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D24038&vSub=
+=3DBC8C6434267A1908&n=3D12102012114502AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D24038&promoflas=
+hdate=3D12102012114502AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">Save Up To 25% on Full Color Custom Greetin=
+g Cards</font><br>
+			<font class=3D"fromW">The Quick Print Line - asi/80211</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+24983&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24983">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/quickpr=
+int-120712-full.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D24983&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2454">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D24983&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D24983">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D24983&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26s=3D1%26=
+PromoFlashID=3D24983">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" =
+href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D2498=
+3&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?Step=3DSt=
+ep1%26aBasket=3DPF24983">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D24983&vSub=
+=3DBC8C6434267A1908&n=3D12102012114502AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D24983&promoflas=
+hdate=3D12102012114502AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">2500 pens shipped out in 24hrs!</font><br>
+			<font class=3D"fromW">Goldstar - asi/73295</font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+25074&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25074">		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/goldsta=
+r-120712-pen.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D25074&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2271">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D25074&Link=3Dhttp://www.promocorner.com/vpf.asp?id=3D25074">View</=
+a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.promocorner.=
+com/stats/pfclickstats.asp?Number=3D25074&Link=3Dhttp://www.promocorner=
+.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%26PromoFla=
+shID=3D25074">Forward</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D25074&vSub=
+=3DBC8C6434267A1908&n=3D12102012114502AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D25074&promoflas=
+hdate=3D12102012114502AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+			</tr>
+
+			<tr>
+
+					<td valign=3D"Top" align=3D"center">
+					<table class=3D"flyerH" width=3D"240" cellspacing=3D"0" cellpaddin=
+g=3D"3">
+	<tr>
+		<td align=3D"center" height=3D"55" bgcolor=3D"#336699">
+			<font class=3D"subjectW">Product Spotlight -  Kids Stuff</font><br>
+			<font class=3D"fromW">The Industry Show </font>
+		</td>
+	</tr>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"thumbTable">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+		<a href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Number=3D=
+14064&Link=3Dhttp://www.promocorner.com/videos/?nb=3Dvideos%26sec=3Dis"=
+>		=09
+		<img border=3D"0" src=3D"http://www.promocorner.com/thumbs-pf/pc-tis-=
+new.jpg" width=3D"230"></a></td>
+	</tr>
+</table>
+<table width=3D"240" cellspacing=3D"0" cellpadding=3D"5">=09
+	<tr>
+		<td align=3D"center" bgcolor=3D"#336699" >
+			<a class=3D"linksW" href=3D"http://www.promocorner.com/stats/pfclick=
+stats.asp?Number=3D14064&Link=3Dhttp://www.promocorner.com/sample/conta=
+ctrequest.asp?CustomerID=3D2595">Contact</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D14064&Link=3Dhttp://www.promocorner.com/videos/?nb=3Dvideos%26sec=3D=
+is">View</a>&nbsp;&nbsp;&nbsp;<a class=3D"linksW" href=3D"http://www.pr=
+omocorner.com/stats/pfclickstats.asp?Number=3D14064&Link=3Dhttp://www.p=
+romocorner.com/promoflashemails/?nb=3Dpromoflash%26Thumb=3Dyes%26f=3D1%=
+26s=3D1%26PromoFlashID=3D14064">Forward</a>&nbsp;&nbsp;&nbsp;<a class=3D=
+"linksW" href=3D"http://www.promocorner.com/stats/pfclickstats.asp?Numb=
+er=3D14064&Link=3Dhttp://www.promocorner.com/powerflash/powerflash.asp?=
+Step=3DStep1%26aBasket=3DPF14064">PowerFlash</a><br>
+			<font class=3D"socialDesc">For Social Media Links Click View</font>
+
+		</td>
+	</tr>
+</table>
+
+<a href=3D"http://www.promocorner.com/contest/?vSub=3DBC8C6434267A1908"=
+><img src=3D"http://www.promocorner.com/q.asp?PromoflashID=3D14064&vSub=
+=3DBC8C6434267A1908&n=3D12102012114502AM&noi=3Dno.gif" alt=3D"PromoCorn=
+er.com" border=3D"0"></a>
+<div style=3D"height: 1px"><img width=3D"1" height=3D"1" src=3D"http://=
+www.promocorner.com/stats/trackopens.asp?PromoflashID=3D14064&promoflas=
+hdate=3D12102012114502AM&noi=3Dno.gif" alt=3D""></div>
+<br>
+					</td>
+			=09
+</table>
+									<div align=3D"center" width=3D"100%">
+									<br>
+								=09
+
+
+<div align=3D"center" width=3D"100%">
+	<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"table1">=
+
+		<tbody>
+			<tr>
+
+				<td>
+			=09
+				<a width=3D"410" height=3D"390" target=3D"_blank" href=3D"http://ww=
+w.promocorner.com/stats/banner-clicks.asp?id=3D1166&Link=3Dwww.maplerid=
+ge.com/products/quickship.cfm">
+				<img id=3D'bannerleft' border=3D"0" alt=3D"Need Food Gifts In A Hur=
+ry?" src=3D"http://www.promocorner.com/leads/mapleridge/mapleridge-1105=
+12-hurry.jpg">
+				</a>
+			=09
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<img border=3D"0" src=3D"http://promocorner.com/stats/banner-opens-stat=
+ic.asp?vBannerID=3D1166&noi=3Dno.gif" width=3D"1" height=3D"1">
+									<br>
+									<div align=3D"center">
+	<table border=3D"0" cellpadding=3D"12" cellspacing=3D"0" width=3D"700"=
+ id=3D"table1" style=3D"border: 1px solid #336699">
+		<tbody>
+			<tr>
+				<td bgcolor=3D"#336699">
+				<p align=3D"center"><i><b><font size=3D"5" color=3D"#FFFFFF">And=20=
+
+				November's winner=20
+									is...</font></b></i></td>
+			</tr>
+			<tr>
+				<td>
+									<p align=3D"center"><b>
+									<font size=3D"4" face=3D"Verdana" color=3D"#336699">
+									Geri Fratello of Marketing Instincts, Inc.,=20
+									Temecula, CA</font></b></p>
+									<p align=3D"center">
+									<font color=3D"#336699" face=3D"Verdana" size=3D"2">Congratula=
+tions=20
+									Geri!&nbsp; Please contact=20
+									our main office at 774-213-5549 to claim=20
+									your choice of either an&nbsp; Apple iPad&nbsp; or=20
+									Samsumg Galaxy Tab.&nbsp; Geri won by viewing
+									<a href=3D"http://www.promocorner.com/vpf.asp?id=3D24918">
+									Aquasheen's PromoFlash</a>.</font></p>
+				<p align=3D"center"><font color=3D"#336699" face=3D"Verdana"><b>To=20=
+
+				help make your choice Geri</b></font></p>
+				<p align=3D"center"><font face=3D"Verdana" size=3D"2">
+				<a href=3D"http://www.apple.com/ipad/">Apple iPad (3rd generation)<=
+/a>=20
+				- 16 GB - Wi-Fi enabled - 9.5&quot; x 7.3&quot;</font></p>
+				<p align=3D"center"><i><font face=3D"Verdana" size=3D"2">OR</font><=
+/i></p>
+				<p align=3D"center"><font face=3D"Verdana" size=3D"2">
+				<a href=3D"http://www.samsung.com/us/mobile/galaxy-tab/GT-P5113TSYX=
+AR-specs">
+				Samsung Galaxy Tab 2 </a>- 16 GB - Wi-Fi enabled - 10.1&quot; x 6.9=
+&quot;</font></p>
+									<p align=3D"center">
+									<font face=3D"Verdana" size=3D"2" color=3D"#336699">
+									Didn't win? No worries, we're doing it all=20
+									over again for December.&nbsp; Simply open our=20
+									emails and look for the entry confirmation and you=20
+									too could be our next winner.&nbsp; Thanks=20
+									everyone for participating and good luck in=20
+									November!</font></p>
+									</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+									<p align=3D"center">
+									<a href=3D"../mydistcatalog/">
+									<img border=3D"0" src=3D"http://promocorner.com/pf/pc-daily/pc=
+daily-080112-mycatalog.jpg" width=3D"700" height=3D"373"></a></p>
+								=09
+									<br>
+									</div>
+								</td>
+
+
+			</tr>
+	</table>
+=09
+	<table cellpadding=3D"4" cellspacing=3D"0" width=3D"840" style=3D"bord=
+er: 3px double #FFFFFF">
+			<tr>
+				<td align=3D"center" height=3D"7" bgcolor=3D"#006699">
+				<i><font face=3D"Times New Roman" size=3D"2" color=3D"#FFFFFF">
+				PromoCorner.com | PO Box 505 | Middleboro, MA 02346 | Call Toll=20
+				Free: 800-930-6952 | Email:
+				<a href=3D"mailto:joelmoore@promocorner.com">
+				<font color=3D"#FFFFFF">joelmoore@promocorner.com</font></a>
+				</font></i></td>
+			</tr>
+	</table>
+<BR>
+<BR>=09
+
+=09
+=09
+</div>
+<div align=3D'center'><a href=3D'http://www.promocorner.com/account/?ac=
+tion=3Dsuboptions&vEUserID=3DBC8C6434267A1908/#Edit'>Edit Email Prefere=
+nces</a> | <a href=3D'http://www.promocorner.com/account/?action=3Dsubo=
+ptions&vEUserID=3DBC8C6434267A1908/#Update'>Change Email Address</a> | =
+<a href=3D'http://www.promocorner.com/account/?action=3Dsuboptions&vEUs=
+erID=3DBC8C6434267A1908/#Unsubscribe'> Unsubscribe</a></div></body></ht=
+ml>
+
+----=908E5895B5DE4EF89E91_7B75_809D_F1EF--
+
+----=00F219DA5F7543D7AC04_D9D6_D03A_FB5C--
+
+

@@ -1,0 +1,39 @@
+Subject:Re: Backport of schroot
+On Wed, Oct 31, 2012 at 11:03:37AM +0100, Reinhard Tartler wrote:
+> On Tue, Oct 30, 2012 at 10:34 PM, Roger Leigh <rleigh@codelibre.net> wrote:
+> 
+> > While I would ultimately like to put 1.6.4-3~bpo60+1 into
+> > backports, this is not currently advisable: the 1.6.x
+> > releases have not yet had extensive testing with the
+> > stable/stable-backports toolchain and library versions,
+> > while the 1.4.x releases have.  Additionally, there are
+> > some changes to the configuration file options (some
+> > additional and some deprecated and obsoleted options).
+> 
+> Can you elaborate on the problems with schroot 1.6.x in squeeze,
+> preferably by copying bug #688637, which I specifically requested for
+> that? I would be willing to test preview packages.
+
+There are no known problems.  It's just untested and unproven.
+
+I'll be happy to build 1.6.4 backported packages if you would
+like to test them.  Or if you want to build them yourself,
+it's just a matter to rebuilding the 1.6.4-3 package from
+unstable; no source changes should be necessary AFAIK.
+
+
+Thanks,
+Roger
+
+-- 
+  .''`.  Roger Leigh
+ : :' :  Debian GNU/Linux    http://people.debian.org/~rleigh/
+ `. `'   schroot and sbuild  http://alioth.debian.org/projects/buildd-tools
+   `-    GPG Public Key      F33D 281D 470A B443 6756 147C 07B3 C8BC 4083 E800
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031161453.GL21312@codelibre.net
+

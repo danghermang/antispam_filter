@@ -1,0 +1,62 @@
+Subject:Re: requiero ayuda de como utilizar emacs
+2012/9/16 Victor Hugo Cespedes Zuleta <cespedes.zuleta.victor@gmail.com>:
+> emacs es el editor de texto mas poderoso del mundo.
+>
+>
+> conozco de los comandos basicos para desplazarme y editar texto de cualqu=
+ier
+> archivo.
+>
+>
+> ahora bien. yo creo audiolibros. y para eso dado un archivo de 200 pagina=
+s
+> debo de dividirlo en 20 archivos de 10 paginas (lo anterior es solo un
+> ejemplo).
+>
+> porque en realidad debo de dividir el archivo por peso.
+>
+> con la precaucion de que no se corte un parrafo. frase u oracion entre un
+> archivo y el siguiente.
+>
+> Yo usaba el gedit para dividirlo en dos, luego en cuatro, luego en ocho. =
+de
+> la mitad en mitad, pero ahy limitaciones en que debe ser obligadamente
+> potencia de 2.
+>
+> ademas de que es una labor muy copiosa.
+>
+> se que con emacs uno puede hacer iteracciones de un comando repetidas vec=
+es
+> con solo poner los argumentos adecuados al comando.
+>
+> =C2=BFalguien que pueda ayudarme en cuanto a la division de un archivos e=
+n partes
+> iguales?
+
+Creo que depende de que utilizas para delimitar las partes.
+
+Una manera simple es usar las l=C3=ADneas, si cada l=C3=ADnea es un p=C3=A1=
+rrafo,
+puedes contarlas con `wc -l archivo.txt`, y tomar una parte de las
+lineas con head y tail, digamos que quieres las tres primeras l=C3=ADneas:
+
+    head -n 3 archivo.txt > parrafos1-3.txt
+
+Y si quieres de la 7 a la 10:
+
+    head -n 10 archivo.txt | tail -n 4 > parrafos7-10.txt
+
+Si no tienes alguna estructura regular que delimite p=C3=A1rrafos, creo que
+solo queda hacerlo manualmente.
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjMfgTxdzgZtOA7GbMim82Y1qWAxgskwL3RG6jT_DL3Tcw@mail.gmail.com
+

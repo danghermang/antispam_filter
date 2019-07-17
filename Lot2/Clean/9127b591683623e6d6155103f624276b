@@ -1,0 +1,86 @@
+Subject:Re: Firefox en Deian 6
+El 27/09/12 08:46, luis@ida.cu escribió:
+> On Wed, 26 Sep 2012 20:12:10 -0300, Debian GMail wrote:
+>> El 26/09/12 19:39, luis@ida.cu escribió:
+>>
+>>>
+>>> Javier esto me dió problemas
+>>>
+>>> Me da esto:
+>>> test@lsp:/home/luis# apt-get install iceweasel iceweasel-l10n-es-es
+>>> icedove icedove-l10n-es-es iceowl iceowl-extension iceowl-l10n-es-es
+>>> Leyendo lista de paquetes... Hecho
+>>> apt-get: symbol lookup error: /usr/lib/libapt-pkg.so.4.10: undefined
+>>> symbol: _Z11ReadPinFileR9pkgPmlicySs
+>>>
+>>> Ahh el Iceweacel yo lo tengo desinstalado probé instalar con el comando
+>>> pero no lo hizo
+>>>
+>>> Saludos
+>>>
+>>>
+>>>
+>>
+>> Eso es problema de apt.
+>> Probá con esto a ver si se soluciona
+>> # apt-get install libc6 --reinstall
+>>
+>>
+>> Respecto a los programas a instalar, andá de a uno:
+>>
+>> # apt-get install iceweasel
+>> # apt-get install icedove
+>> # apt-get install iceowl
+>>
+>> Después fijate en los paquetes de lenguajes, si instalaron los
+>> correctos, o tenés que agregar alguno a mano a través de aptitude
+>> (consola) o synaptic (GUI).
+>> No sé que rama usarás, pero en "testing" alguna vez tuve el problema
+>> que se había actualizado el paquete principal de icedove, pero no el
+>> de lenguaje, quedándome todo en inglés. Pero testing... es testing; es
+>> parte del gustito que tiene. Eso no debería pasar en "stable".
+>>
+>> iceowl-extension es un paquete que te permite unir dentro de icedove
+>> el calendario iceowl y verlo en una barra anexa. Una de las cosas
+>> buenas de ese calendario, es que se sincroniza con Google Calendar, y
+>> aparece incrustado dentro de icedove, con lo cual no debes abrir otro
+>> programa para verlo.
+>>
+>>
+>> JAP
+>
+> Buenos dias Javier y a todos los listeros
+>
+> Oyeme perfecto tooooooodo bienn, muchas gracias, solo algo, no me
+> instala la [ultima versión del Ieweasel me instala la 3.5 y creo que
+> handa más lejos por la 10.0 o más
+>
+> Alguna idea para instalar la última versión del Iceweasel??
+>
+> Saludos y agradecido a todos
+>
+>
+>
+
+De iceweasel:
+Debian "testing" y "sid" tiene actualmente la versión 10.0.7esr-2.
+Debian "stable" tiene actualmente la versión 3.5.16-18
+
+Es porque estás usando la rama estable de Debian.
+
+Puedes llegar a hacer una NO RECOMENDADA PARA NOVATOS mezcla de 
+repositorios (pero que no es difícil de hacer si uno va con cuidado) 
+para instalar esta versión.
+
+Si te animás, te digo paso a paso cómo hacerlo.
+
+JAP
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50643F2E.6080703@gmail.com
+

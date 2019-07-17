@@ -1,0 +1,77 @@
+Subject:Re: [EVDL] Low battery capacity on convertion lawntractor
+Your range has declined.  You say you've already tried changing the battery. 
+I assume you replaced with the same type and brand that worked well for you 
+before.  (Yes?  No?)
+
+You also say that charging time is now less.  That would suggest a lower 
+capacity battery, a charger that's not doing its job, or (if you have such a 
+critter) a controller that's shutting down before the battery is fully flat.
+
+You say your battery "charges back to float at 39.6 [volts]" which seems on 
+the low side to me.  In cyclic use, I would want to see a gel battery reach 
+around 42.9v (14.3v per module) while on charge.  If your charger goes to 
+float mode after a full charge and this is what you're measuring, perhaps 
+this concern doesn't apply.
+
+Your modules (Alphacell 220GLX) are rated 109ah and 221 minutes at 25 amps.  
+By Uve's battery calculator (http://evdl.org/uve/battery.html) we get a 
+Peukert's exponent of 1.11.  You say that they used to run the EV for an 
+hour before, so you must have been using them at their one-hour rate, or (by 
+the above calculator) 80 amps.
+
+I'd suggest measuring the current your vehicle is now using in normal 
+operation.  If it's significantly more than 80 amps, look for something 
+causing extra friction or loss.  This could be a bad bearing, tires with low 
+air pressure, heavy lubricant in a transmission or differential combined 
+with cold weather, or a high resistance connection in the traction wiring.
+
+Also measure the battery voltage at operating load for clues. This will be  
+easier (and safer!) to do if you apply a dummy load to the battery rather 
+than trying to measure while under way.   As long as you're sure the module 
+interconnections are good, you can check each module individually.  
+
+That doesn't mean "test with a battery tester."  I don't know what you mean 
+by "The batteries read OK with a 1k load," but if you mean a commercial 
+battery tester of the kind used for starting batteries, that's of little use 
+here.  You'll need a real capacity test.  Checking the modules individually 
+will again reveal any stinkers that are limiting your range.
+
+Charge each module fully, preferably with a known-reliable 12v charger.  
+Apply a known load, preferably close to your vehicle's current (75-80a), and 
+time how long the battery takes to discharge to flat, that is, 1.75 volts 
+per cell (measured under load) or 10.5v for the module.
+
+There are fancy rigs for this, but my current test jig for 12v batteries is 
+pretty simple and accurate enough for most purposes.  I use a 12v:120v 
+inverter powering a 250w heat lamp.  This gives a ~20a load on the battery - 
+actually a bit more because of the inverter's [in]efficiency (you really 
+still need a battery ammeter).  I set an AC powered clock for 12:00 and plug 
+it into the other receptacle on the inverter and let 'er rip.  When the 
+battery drops to 10.5v, the inverter shuts down and the clock stops.  From 
+the minutes and hours logged, I can calculate amp hours at that load.  
+
+An improvement to this setup would be to use a logging DVM to log the actual 
+battery current against time.  It probably goes up as the battery voltage 
+falls to maintain constant power.  However, this system gives "good enough" 
+answers most of the time.
+
+Four lamps like mine would give you your ~80a load, and warm up your 
+workbench area nicely. ;-)  A 1500w space heater (if it really draws that 
+much current - careful!) would draw ~125a from the battery.  
+
+Hope this helps!
+
+David Roden
+EVDL Administrator
+http://www.evdl.org/
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

@@ -1,0 +1,17 @@
+Subject:Re: backports kernel: support for t430s laptop in backports?
+On 12/05/2012 08:35 AM, Harald Dunkel wrote:
+> Actually both kernels should be the same, so how comes that
+> the Squeeze backports kernel doesn't recognize the hardware?
+> Is this an udev issue?
+
+I think it's more likely a pci.ids issue. Try running update-pciids as
+root and redo your lspci.
+
+Ben
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BF4914.1000305@sanctuary.nslug.ns.ca
+

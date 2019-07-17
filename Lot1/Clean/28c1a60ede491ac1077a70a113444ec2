@@ -1,0 +1,31 @@
+Subject:Re: DVD abspielen funktioniert nicht =?UTF-8?B?Z2Vsw7ZzdA==?=
+nachdem ich =
+
+sudo apt-get install libdvdread4 =
+
+und danach
+
+sudo sh /usr/share/doc/libdvdread4/install-css.sh
+gemacht habe funktioniert das DVD abspielen jetzt mit Kaffeine
+und Totem.
+
+
+-- =
+
+            Sch=F6ne Gr=FC=DFe Cooldriver Frank  =
+
+              =
+
+         UBUNTU LINUX Precise Pangolin 12.04 (LTS)
+                   XFCE und Claws Mail
+                    Dell Inspiron 6400
+
+           M=F6gen h=E4tte ich schon wollen,
+      aber d=FCrfen habe ich mich nicht getraut.
+                  Karl Valentin
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

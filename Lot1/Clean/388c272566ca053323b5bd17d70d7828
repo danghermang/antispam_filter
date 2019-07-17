@@ -1,0 +1,50 @@
+Subject:Matlab Debian Wheezy
+Buenas, amigos tengo inconvenientes al momento de instalar Matlab en mi
+Wheezy. Sigo los pasos publicados en una web <Los acoto al final> y no
+tengo como resultado la instalación de la aplicación. Alguna sugerencia
+de como poder instalar dicha utilidad?
+
+        Por si alguien tiene problemas para la instalación de Matlab en linux, aqui dejo los pasos a seguir para la instalación de Matlab 7 R14 para linux (3 cds) a partir de una imagen.
+        
+        1º) Crear una carpeta (en caso de que no tengamos una) que usaremos como unidad virtual para montar las imagenes.
+        mkdir carpeta_unidad_virtual
+        
+        2º) Montar la imagen de los cd’s
+        sudo mount -t iso9660 -o loop nombre_imagen_CDx.iso /carpeta_donde_montar_imagen
+        NOTA1:Tb se puede descomprimir el contenido de la imagen en un carpeta
+        NOTA2: sudo es para obtener privilegios de superusuario o root
+        
+        3º)Una vez montada la imagen crear la carpeta donde vamos a instalar Matlab y entramos a él
+        mkdir /directorio_Matlab
+        cd /directorio_Matlab
+        
+        4º)Copiamos el archivo de licencia en el directorio donde vamos a instalar Matlab, esto es IMPORTANTE, ya que si está en la unidad virtual dará un fallo cuando pida la licencia
+        
+        5º)Desde el directorio donde queremos instalar Matlab ejecutamos el instalador que se encuentra en la unidad virtual. Si lo hacemos desde la carpeta de la unidad virtual, no nos dejará instalar, asi pues, sería:
+        sh /carpeta_unidad_virtual/install
+        
+        6º)Empezará el instalador gráfico, iremos montando y desmontando los cd’s conforme los vaya pidiendo.
+        
+        7º)Una vez que haya terminado la instalacion correctamente, hay que hacer una nueva instalación. Desde la carpeta donde hemos instalado Matlab:
+        sudo sh install_matlab
+        NOTA:Tiene que ser como superusuario o root
+        
+        8º)Saldrá un instalador de consola, iremos eligiendo las opciones que nos pida.
+        
+        9º)Ejecutar matlab simplemente escribiendo “matlab” desde cualquier directorio, ya que este ultimo instalador a creado los enlaces necesarios
+        
+        Espero que sirva a alguien y que no se me haya olvidado ninguna paso, la unica dificultad que se me presentó fueron la de ejecutar el instalador desde el directorio donde iba a instalar matlab y la de colocar la licencia en ese mismo directorio. Matlab funciona perfectamente en linux.
+        
+        
+
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1350666597.3757.7.camel@debian
+

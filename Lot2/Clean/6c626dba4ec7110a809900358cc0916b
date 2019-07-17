@@ -1,0 +1,45 @@
+Subject:Re: Consulta /etc/apt/sources.list
+El d=C3=ADa 21 de noviembre de 2012 12:46, Camale=C3=B3n <noelamac@gmail.co=
+m> escribi=C3=B3:
+> El Wed, 21 Nov 2012 12:20:54 -0300, Juan Martin escribi=C3=B3:
+>
+>> Buenas, tengo una peque=C3=B1a duda.
+>> Mi /etc/apt/sources.list apunta a los repositorios stable Hoy la estable
+>> es squeeze, pero en algun tiempo va a ser wheezy Mi sistema cambiara de
+>> squeeze a wheezy o debo modificar algo?, tendre algun problema?
+>
+> Tendr=C3=A1s problemas si -y s=C3=B3lo si- cuando salga wheezy quieres ma=
+ntener
+> squeeze. En ese caso cambia "stable" por "squeeze", ejecuta "apt-get
+> update" y listo.
+>
+> En el caso de que quieras seguir la l=C3=ADnea "estable", te recomendar=
+=C3=ADa que
+> antes de dejar a la rutina de actualizaci=C3=B3n hacer su trabajo
+> autom=C3=A1ticamente (que puede fallar) leyeras las "Notas de la versi=C3=
+=B3n" de
+> wheezy para ver qu=C3=A9 pasos recomiendan seguir para actualizar de sque=
+eze a
+> wheezy y despu=C3=A9s hacer los cambios que sugieran y que t=C3=BA estime=
+s
+> conveniente.
+>
+> Los automatismos est=C3=A1n bien pero s=C3=B3lo hasta cierto punto y para=
+ ciertas
+> cosas :-)
+
+Nada que no se solucione en 3 o 4 horas de reinstalar el sistema por
+no haber le=C3=ADdo las notas de actualizaci=C3=B3n.
+
+> Saludos,
+>
+> --
+> Camale=C3=B3n
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAG0od5eGd5k8DVXANqGdhwNdaSCEkFA3fmYyUMZjycQZ8kumTA@mail.gmail.com
+

@@ -1,0 +1,40 @@
+Subject:Re: personalizar el envio de mensajes por cuentas
+El Tue, 06 Nov 2012 09:35:50 -0500, linux escribió:
+
+> El 06/11/12 09:24, Camaleón escribió:
+
+(...)
+
+>>> tambien poder limitar la cantidad de envio de mensajes, por cuenta,
+>>> por ejemplo tengo usuario de correo que a veces usan el correo para
+>>> estar enviando a parte de las cosas de trabajo y una mensajeria
+>>> normal, boberias, y a veces los correos salen en candena, quisiera
+>>> limitarte la cantidad de correos que pueda enviar, como una especie de
+>>> cuota de envio, alguien a implementado alguna de estas dos cuestiones,
+>>> que puediera ayudarme al respecto.
+
+>> También se puede hacer... busca por "policyd".
+>>
+>>
+> alguien tiene algun manual de policyd implementado mas o menos sobre lo
+> que planteo aqui, que pueda enviarme para yo guiarme, ya he revisado la
+> estructura de la configuracion del policyd y me es dificil entenderla,
+
+La documentación se incluye en el propio paquete:
+
+/usr/share/doc/postfix-policyd/README.gz
+
+Puedes descargar manualmente el archivo ".deb" desde los repositorios de 
+Debian y leer el manual antes de lanzarte a instalar el programa.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7ba3b$ji$9@ger.gmane.org
+

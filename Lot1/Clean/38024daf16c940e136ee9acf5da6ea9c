@@ -1,0 +1,24 @@
+Subject:Re: [LUG] Slitaz, quite impressed.
+On 23/10/12 19:32, Simon Avery wrote:
+> Autologin
+
+sed s/feature/vulnerability/g
+
+Slitaz is actually a pretty neat distro though, agreed. If you want a
+really super-minimalistic distro that will run in the tiniest of
+footprints, may I suggest tinycore?
+
+http://distro.ibiblio.org/tinycorelinux/
+
+This will even run on a 486 and there has been some work backporting it
+to even the 286.
+
+I like your style though - never chuck away old computers. Someone can
+always find something to do with them...
+
+Regards
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,23 @@
+Subject:Re: iceweasel tor wheezy (SOLUCIONADO)
+al final encontre la solucion.=0A=0Ael paquete VIDALIA lo habia instalado p=
+ero no tuve necesidad de utilizarlo, con este cambio es necesario activar V=
+IDALIA antes de abrir el navegador, una vez corriendo el servicio puedo uti=
+lizar ICEWEASEL (con el complemento habilitado) y navegar sin problemas.=0A=
+=0Asaludos y gracias por los aportes=0A=0A---------------------------------=
+--=0A=0A           \|||||||/=0A             @   @ )=0A---------oOOo-( )---o=
+OOo----------=0A|     Ricardo Delgado             |=0A|                    =
+             |=0A|http://nuestrocanto.blogsite.org/|=0A|                   =
+              | =0A|                                 |=0A|                 =
+                |=0A|                                 |=0A ----------------=
+----0ooo----------=0A     ooo0            (   )=0A     (  )             ) /=
+=0A      \ (            (_/=0A       \_)=0A=0APor Favor, no hagas Top Posti=
+ng=0Ahttp://es.wikipedia.org/wiki/Top-posting=0A=0APor Favor, sin formato h=
+tml=0Ahttp://es.wikipedia.org/wiki/Netiquette=0A=0ASin formatos propietario=
+s.=0A
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1351168918.32988.YahooMailClassic@web121003.mail.ne1.yahoo.com
+

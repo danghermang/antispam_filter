@@ -1,0 +1,57 @@
+Subject:Re: =?iso-8859-1?q?Instalaci=F3n?= LibreCAD (Solucionado)
+El Fri, 31 Aug 2012 16:39:39 +0200, Alfonso escribió:
+
+> Yo tampoco tengo que ver con la arquitectura, soy ingeniero mecánico y
+> al trabajar por cuenta ajena puedo permitirme (y a la vez estoy casi
+> obligado) utilizar SolidWorks y AutoCAD, pero claro si fuesen
+> necesarias, en el sentido técnico de la palabra, las licencias de estos
+> softwares creo que muchas empresas se plantearían el tema, o dicho de
+> otro modo: no sé si realmente el porcentaje de empresas que utilizan
+> software CAD privativo de forma legal es muy alto.
+
+Cierto. Y más aún en España donde el 90% de las empresas son PYMES con 
+menos de 5 empleados. Además, este tipo de software es muy caro y 
+teniendo en cuenta ni siquiera pagan por las licencias de Windows (~200€) 
+tener que desembolsar 5.000€ (+ renovaciones) por el AutoCAD como que se 
+les atraganta. 
+
+Y son precisamente estos quienes deberían considerar las opciones libres 
+(más que nada por el ahorro de costes) pero claro, cuando vienen los 
+problemas de incompatibilidades con los formatos y les mandan 
+archivos .dwg que no visualizan bien o les faltan datos entonces no hay 
+FLOSS que valga, la pela es la pela y el tiempo es oro: pirateo al canto 
+y santas pascuas, lo cual es un tremendo error porque les lleva a una 
+espiral de la que es más difícil salir.
+
+Para las empresas grandes es coste de las licencias de este tipo de 
+software para CAD/CAM/CAE y cálculo de estructuras es "pecata minuta" :-)
+
+> Yo, aunque es irnos un poco del tema de hilo, veo genial una de las
+> propuestas que hace Richard Stallman en el libro "Software libre para
+> una sociedad libre", por la que vendiendo ordenadores sin licencia de SO
+> privativos sería posible la creación de un impuesto sobre el valor del
+> ordenador que el/la usuarix puede decidir a qué proyecto/s de software
+> destinarlo.
+
+De hecho no tiene por qué estar vinculado a la compra de un ordenador. Yo 
+prefiero que las donaciones fueran completamente libres y que el usuario 
+decida la cantidad y a qué y cuándo destinarlo.
+
+Y de hecho, uno de los apartados que la FSF¹ consideraba que necesitaba 
+ayuda urgente era este: aplicaciones y formatos de intercambio de 
+archivos para CAD/CAM/CAE libres porque la oferta actual era bastante 
+deficiente.
+
+¹http://www.fsf.org/campaigns/priority-projects/
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k1qk9e$hd2$8@ger.gmane.org
+

@@ -1,0 +1,48 @@
+Subject:Re: Squid3 y https
+El d=C3=ADa 17 de octubre de 2012 01:54,  <cosme@esid.gecgr.co.cu> escribi=
+=C3=B3:
+> Hola
+>
+> Tengo problemas al acceder a los sitios seguros con el squid3
+>
+> He buscado sobre el tema y squid3 no trae soporte papa SSL hay que compil=
+arlo
+>
+>
+> yo simplemente instal=C3=A9 apt-install squid3
+>
+> Cuando intento acceder a algun sitio mediante https no puedo
+>
+> Veo en fichero de conf esto
+>
+> --enable-ssl
+>
+> Como puedo resolver el problema??
+>
+> uso debian squeeze
+>
+> Salu2
+>
+>
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/b264d2ab43523186899814c901310b44.squirre=
+l@192.168.13.16
+>
+
+Reporta tu fichero de configuraci=C3=B3n y la linea del log al intentar
+acceder a un https.
+
+Con los datos que aportas es muy dificil saber que te puede ocurrir.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+FbNVh_cf-M2FqNzc1U=4PcQ2FkXMmddUCkp+nT-rXrB5x7og@mail.gmail.com
+

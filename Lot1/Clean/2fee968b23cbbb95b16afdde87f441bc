@@ -1,0 +1,19 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint?= qui consomme
+> Ce bug présumé est du ressort des gens qui codent le noyau.
+> https://bugzilla.kernel.org/
+> https://www.kernel.org/pub/linux/docs/lkml/reporting-bugs.html
+> 
+Le rapport de bug est fait, mais ça n'empêche pas d'essayer de comprendre.
+Peut être que des gens sur cette liste ont des idées à soumettre.
+
+F.B
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120922221035.cdccdf2ad0bf0ed475a1c0e5@maison.homelinux.net
+

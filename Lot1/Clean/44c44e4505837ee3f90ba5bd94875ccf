@@ -1,0 +1,61 @@
+Subject:Re: 
+	=?iso-8859-1?q?D=E9marrage_via_cl=E9_usb_pour_l=27installation?=
+	=?iso-8859-1?q?_probl=E9matique?=
+Le samedi 1 septembre 2012 13:05:30, Scurz a =E9crit :
+> Bonjour,
+>=20
+> Je tente d'installer debian 6.0.5 via cl=E9 usb sur un pc portable packar=
+d=20
+> bell easy note TS. Durant le d=E9marrage, le pc arrive jusqu'au menu (o=
+=F9=20
+> l'on choisit installation, installation graphique, etc.) et il est=20
+> impossible de faire quoi que ce soit, et donc de s=E9lectionner quelque c=
+hose.
+>=20
+> La m=EAme cl=E9 usb d=E9marre bien sur un toshiba (je peux installer debi=
+an=20
+> sans soucis)... Par contre, j'ai le m=EAme probl=E8me sur netbook acer.
+>=20
+> J'ai recommenc=E9 la cl=E9 usb (reformat=E9, remis l'iso et le boot.img.g=
+z)=20
+> mais =E7a ne change rien.
+>=20
+> Auriez-vous des id=E9es ?
+>=20
+> Merci par avance.
+>=20
+>=20
+
+
+Salut,
+
+sur MSI U270, j'ai aussi un probl=E8me pour booter sur cl=E9 usb. J'ai supp=
+rim=E9=20
+
+/lib/modules/%your kernel version%/kernel/drivers/staging/rts5139/
+
+comme indiqu=E9 =E0
+
+https://bugs.launchpad.net/ubuntu/+source/linux/+bug/992023
+
+et =E7a a r=E9solu le probl=E8me.
+
+M=EAme chose pour la derni=E8re version de Knoppix. C'est donc une histoire=
+ de noyau et de matos, on le rencontre seulement sur certains pc ou portabl=
+es.
+
+Mais je ne sais pas si tu peux d=E9sactiver ce module sur ta cl=E9.
+
+hope it helps
+
+Klaus
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209011432.14094.colonius@free.fr
+

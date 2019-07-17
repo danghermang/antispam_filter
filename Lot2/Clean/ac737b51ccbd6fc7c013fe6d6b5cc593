@@ -1,0 +1,112 @@
+Subject:Re: apt-get remove kwrite
+Dans le message je comprends que toute une s=C3=A9rie de paquets ne seront p=
+lus n=C3=A9cessaires, non qu'il va les supprimer. Non ?
+
+Envoy=C3=A9 de mon iPhone
+
+Le 10 nov. 2012 =C3=A0 01:50, Alain Vaugham <alain@vaugham.com> a =C3=A9crit=
+ :
+
+> Bonsoir la liste.
+>=20
+> Je souhaitait supprimer le kwrite d'une Squeeze/KDE mais la quantit=C3=A9 d=
+e paquets=20
+> affect=C3=A9s me semble d=C3=A9mesur=C3=A9 par rapport =C3=A0 la simple su=
+ppression de kwrite.
+>=20
+>=20
+> Apt signale que :
+> - pleins de paquets ne sont plus n=C3=A9cessaires (alors que j'utilise ent=
+re autres okular)
+> - il va installer un plasma-netbook (alors qu'il s'agit d'un PC)
+> - il va enlever le kde standard pour me mettre... je ne sais quoi!
+>=20
+> J'ai l'impression que si j'accepte il va arriver une catastrophe =C3=A0 mo=
+n KDE.
+> Qu'en pensez-vous?
+>=20
+>=20
+>=20
+>=20
+> # apt-get remove kwrite
+> Lecture des listes de paquets... Fait
+> Construction de l'arbre des d=C3=A9pendances      =20
+> Lecture des informations d'=C3=A9tat... Fait
+> Les paquets suivants ont =C3=A9t=C3=A9 install=C3=A9s automatiquement et n=
+e sont plus n=C3=A9cessaires :
+>  plasma-dataengines-workspace kscreensaver-xsavers konq-plugins-l10n plasm=
+a-netbook libsmokeqtsql4-3 kdebase-workspace polkit-kde-1 libqt4-assistant l=
+ibtaskmanager4a plasma-scriptengines kscreensaver libsmokekparts3 libkscreen=
+saver5
+>  libqzion0a libqtruby4shared2 libplasma-ruby1.8 freespacenotifier libsrtp0=
+ libjpeg8 plasma-widget-lancelot ksnapshot libkipi7 libsmokeqtwebkit4-3 xscr=
+eensaver-gl libotr2 libspectre1 libmarblewidget4 libqt4-test oxygencursors
+>  libkde4-ruby1.8 plasma-scriptengine-ruby libqt4-ruby1.8 plasma-desktopthe=
+mes-artwork plasma-widgets-workspace libsmokeqtsvg4-3 gwenview google-gadget=
+s-common libggadget-qt-1.0-0b libsmokekdeui4-3 kcalc libsmokekio3
+>  plasma-dataengines-addons libgps19 klipper update-notifier-common kdeplas=
+ma-addons libsmokeqtxml4-3 libsmokephonon3 libsmokenepomuk3 google-gadgets-g=
+st libsmokesolid3 plasma-scriptengine-webkit libsmokesoprano3 ksysguard libk=
+exiv2-8
+>  libplasma-geolocation-interface4 libggadget-1.0-0b libsmokeplasma3 libntr=
+ack-qt4-1 libcln6 libscim8c2a libgadu3 libprocesscore4a libeina-svn-06 libee=
+t1 libsmokekdecore4-3 htdig xscreensaver-screensaver-bsod libprocessui4a
+>  libkdewebkit5 plasma-runners-addons libtidy-0.99-0 libqt4-help libksgrd4 p=
+ython-qt4 ark sweeper libplasmaclock4a libjasper-runtime libqalculate5 kdeba=
+se-workspace-bin plasma-scriptengine-googlegadgets python-sip google-gadgets=
+-xul
+>  libsmokeqtscript4-3 libsmokeqttest4-3 libweather-ion4a libplasmagenericsh=
+ell4 systemsettings libgle3 libsmokekfile3 kdegraphics-libs-data libsmokekut=
+ils3 juk plasma-wallpapers-addons libntrack0 libtunepimp5 libkopete4
+>  plasma-scriptengine-qedje libplasma-ruby libpoppler-qt4-3 plasma-widgets-=
+addons kinfocenter kdebase-workspace-data google-gadgets-qt plasma-scripteng=
+ine-superkaramba ksysguardd xscreensaver-gl-extra konq-plugins zip khelpcent=
+er4
+>  plasma-desktop libxklavier16 libmediastreamer0 libmeanwhile1 libksignalpl=
+otter4 libqca2-plugin-ossl kopete plasma-widget-folderview libsmokeknewstuff=
+2-3 update-notifier-kde libokularcore1 kappfinder libsmokeknewstuff3-3
+>  libkunitconversion4 libsmokekhtml3 kate marble-data libsmokeqtuitools4-3 l=
+ibqt4-scripttools libjpeg-progs libqedje0a plasma-scriptengine-python marble=
+-plugins dragonplayer xscreensaver-data okular libortp8 libmsn0.3
+>  xscreensaver-data-extra libsmokektexteditor3 libspeexdsp1 python-kde4 kde=
+passwd kmix libsmokeqtopengl4-3
+> Veuillez utiliser =C2=AB apt-get autoremove =C2=BB pour les supprimer.
+> Les paquets suppl=C3=A9mentaires suivants seront install=C3=A9s :=20
+>  plasma-netbook
+> Les paquets suivants seront ENLEV=C3=89S :
+>  kde-plasma-desktop kde-standard kdebase-apps kwrite
+> Les NOUVEAUX paquets suivants seront install=C3=A9s :
+>  plasma-netbook
+> 0 mis =C3=A0 jour, 1 nouvellement install=C3=A9s, 4 =C3=A0 enlever et 0 no=
+n mis =C3=A0 jour.
+> Il est n=C3=A9cessaire de prendre 309 ko dans les archives.
+> Apr=C3=A8s cette op=C3=A9ration, 541 ko d'espace disque suppl=C3=A9mentair=
+es seront utilis=C3=A9s.
+> Souhaitez-vous continuer [O/n] ?=20
+>=20
+>=20
+>=20
+> --=20
+> Alain Vaugham
+> Clef GPG : 0xD26D18BC
+>=20
+> --=20
+> Lisez la FAQ de la liste avant de poser une question :
+> http://wiki.debian.org/fr/FrenchLists
+>=20
+> Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+> vers debian-user-french-REQUEST@lists.debian.org
+> En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+> Archive: http://lists.debian.org/20121110015023.300256e6@mach07.localdomai=
+n
+>=20
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5D718E74-A82E-47C7-80AF-3FB1255ABA59@gmail.com
+

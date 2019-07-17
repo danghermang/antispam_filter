@@ -1,0 +1,50 @@
+Subject:Re: Fallo al instalar libreoffice[SOLUCIONADO]
+El Thu, 15 Nov 2012 10:29:40 -0430, Miguel Matos escribió:
+
+> El día 14 de noviembre de 2012 10:36, Camaleón <noelamac@gmail.com>
+> escribió:
+>> El Tue, 13 Nov 2012 20:40:57 -0430, Miguel Matos escribió:
+>>
+>>> Saludos de nuevo. Luego del sobresalto[1] inicial, he decidido "matar"
+>>> la anterior petición de ayuda, y dejar el tema como [NO SOLUCIONADO].
+>>
+>> ¿A qué te refieres, exactamente? Has hecho varias peticiones de ayuda.
+>>
+> Ya he perdido la cuenta de cuántas solicitudes he realizado. La última,
+> creo yo, fue
+> la de sources.lists, pero ya lo superé, he decidido reinstalarlo todo.
+
+Ah, ya la localizo... habías eliminado el archivo "/etc/apt/sources.list" 
+al reinstalar todo y no sabías qué poner exactamente.
+
+¿Y has vuelto a reinstalar de nuevo por eso? Caray... >:-O
+
+(...)
+
+>> Si te lías con la terminal usa mejor Synaptic.
+>>
+>> (...)
+> Y Synaptic presentó el mismo problema, así que estoy atorado en una
+> calle ciega.
+
+Claro, porque no has solucionado el problema de fondo que es el que te 
+explicaba más abajo ↓↓↓↓↓
+
+>> Tienes un problema con la prioridad de los repositorios: básicamente -y
+>> si no he interpretado mal lo que te dice administrador de paquetes-
+>> quieres instalar un metapaquete (libreoffice) desde los backports (bpo)
+>> pero el resto de paquetes que se marcan para instalar son del
+>> repositorio "main". Tienes que decirle al instalador que quieres todos
+>> los paquetes del repositorio de backports.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8326l$vma$4@ger.gmane.org
+

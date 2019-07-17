@@ -1,0 +1,75 @@
+Subject:Re: Sobre dispositivo USB inalambrico
+El d=EDa 17 de septiembre de 2012 13:29,  <cosme@esid.gecgr.co.cu> escribi=
+=F3:
+> Hola
+>
+> Tengo un dispositivo USB inal=E1mbrico marca STEREN
+>
+> Tengo Debian squeeze con kernel 3.4.4
+>
+> al hacer lsusb me devuelve lo siguiente
+>
+>
+> Bus 002 Device 002: ID 066f:4200 SigmaTel, Inc. STIr4200 IrDA Bridge
+
+HAce esto tomas el ID del USB
+
+066f:4200
+
+y pones en google.com  linux 066f:4200
+
+
+y los documentos son muchos como para poder encontrar exactamente lo que bu=
+scas
+
+
+
+
+>
+>
+> ahora quisiera saber que paquetes puedo usar para configurar mi pc con
+> este dispositivo y como es posible conectarse a una red de este tipo,
+> claro eso es suponiendo que ya hay un equipo receptor al que me pudiera
+> conectar.
+>
+> se configurar en /etc/network/interfaces   tambi=E9n ????
+>
+> con este dispositivo es suficiente dentro de un local???
+>
+> Se necesita de otro dispositivo, digase antena o algo por el estilo??
+>
+> Estoy incursionando en esto por lo tanto estoy en cero al respecto
+>
+> Salu2
+> Cosme
+>
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/a279294137262900127849582188ccdf.squirre=
+l@192.168.13.16
+>
+
+
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54b6qQ44UtL3wepNjPThexyhj-443jfZM_BWY-zGNySPMA@mail.gmail.com
+

@@ -1,0 +1,40 @@
+Subject:Re: problema con openvpn
+El 19/09/12 09:39, Juan Antonio escribió:
+> ese iroute también sobra, y el client-to-client igual. A no ser que 
+> estes tratando de alcanzar las redes de los clientes y estas entre 
+> ellas. el problema parece ser que tu cliente no coge el push route, 
+> creo que tuve un problema parecido hace tiempo con clientes windows y 
+> que estaba documentado. Revisa el log de tu cliente de openvpn y verás 
+> que aparece un error al tratar de escribir la ruta, de hecho en la 
+> tabla que has pegado no aparece. Un saludo. 
+Efectivamente, me esta dando un warning, mi problema es que ahora me 
+esta asignando el servidor la ip 10.8.0.6, y el route add me esta 
+intentando añadir la ip de salida la 10.8.0.5
+
+De todas maneras añadiendo a mano las rutas en el windows no me hace 
+nada tampoco. :-(
+
+Mil gracias
+
+-- 
+NOTA: Los signos de puntuacion y e~es han sido omitidos deliberadamente
+con el fin de soportar el maximo numero de clientes de correo
+---------------------------
+La informacion incluida en el presente correo electronico es CONFIDENCIAL,
+siendo para el uso exclusivo del destinatario arriba mencionado. Si usted
+lee este mensaje y no es el destinatario se~alado, el empleado o el agente
+responsable de entregar el mensaje al destinatario, o ha recibido esta
+comunicacisn por error, le informamos que esta totalmente prohibida cualquier
+  divulgacion, distribucion o reproduccion de esta comunicacion, y le rogamos
+  que nos lo notifique, nos devuelva el mensaje original a la direccion arriba
+  mencionada y borre el mensaje.
+
+POR FAVOR, ANTES DE IMPRIMIR ESTE CORREO ELECTRONICO CONSIDERE SU APORTACION
+A LA CONSERVACION DEL MEDIO AMBIENTE POR LA REDUCCION DE CONSUMO DE PAPEL.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50596F12.2050000@sorianatural.es
+

@@ -1,0 +1,268 @@
+Subject:Re: [EVDL] Pack Cooling
+
+OnTopic!
+-About the cooling problem, and not the *cold* problem  :-)
+
+
+
+-----
+
+Peltier.  =
+
+We can find them in all very cheapest of cheap crap car-cooler-boxes. =
+
+With assembly, fans and everything, but you need to have very good insulati=
+on as the "box" is so big.
+
+But they are also not good for a large temp diff and can not have high cool=
+ing power AND a high diff.. So, it is very bad I would say.
+I have seen larger units at very cheap prices, but it is still a crap-solut=
+ion, in my opinion.
+
+
+----
+
+
+Compressor:
+People might want to look in to for example the Danfoss BD-seris, =
+
+small low voltage "DC" compressors with decent eff. runs on 12/24Vdc(or 48V=
+) =
+
+and also it can,depending on what drive unit you chose, also be able to run=
+ on =
+
+the normal 230Vac,(110 and 240volt in the US?) The drive is an AC-motor inv=
+erter =
+
+speed controller inside its electronic module! So maybe it is nice to have =
+one that runs on AC when you charge, or just use the dcdc in the car. =
+
+
+..is high cell temp a problem also when charging NiMh?
+
+NiCd actually get a lot colder if we charge them hard, =
+
+and I dont know anything about large NiMH, but I beleve they are opposite a=
+nd will get hot, =
+
+I have never seen a EV-NiMh cell, as they have never been sold here in any =
+numbers, due to the GM/chevron/Texaco/cobasys-OIL-"trouble", I suppose.. =
+
+
+
+
+Buy a Compressor?
+the cheapest way here is to buy a consumer product, with them already insid=
+e..... =
+
+Even with *producer* account, most of the time I can not get them at =
+
+the same price as the ready made food-cooler-boxes here, in high price mari=
+ne shops.. (!!)
+
+About 400-500 dollares I guess it will be at your place, for a complete sma=
+ll 10-25 liter unit, =
+
+with cap tube already sized, eavaporator and condenser, and the inverter dr=
+ive unit.. and the condenser fan..
+
+Probably it is a R134 unit, =
+
+I dont remember but i think that R600 Isobutan might have a bit lower disch=
+arge temp at the high condensing/ambient air.(maybe saves your oil from ove=
+rheat problem)  and in your case also may be overloaded with all energy fro=
+m the higher than normal boiling-temp. (they dont say anything above -5=B4C=
+ boil  in the spec I beleve, so probably it is the running maximum. So mayb=
+e check with engineering for R600, I guess is BD35KT instead of "F", and ma=
+ybe you need a more heavy oil in your hot application, but now I am just gu=
+essing here!  The 250GH at R134 would be my choice  :-)  if it exist in 12V=
+. If you need even more power use the 350GH)
+
+
+
+Pictures of some rack-units, that you also can use, if you can pay  _a lot_=
+  Very high prices but see the pictures here:
+http://isotherm-parts.com/parts-department-compressors-c-15_25.html?zenid=
+=3D4b752a3b923d2f46f702b88317be5dd0
+
+
+
+The AC-drives are for example:
+" Danfoss 101N0500 Multivoltage Electronic Controller for BD35 BD50 Compres=
+sor
+			Danfoss 101N0500 AC/DC Electronic controller for BD35 and BD 50 compress=
+ors.
+This electronic controller replaces the standard controller on the =
+
+Danfoss DC compressor allowing you to run your 12v/24v fridge or freezer
+ from a 110v or 230v AC supply.
+The controller has automatic priority switching to AC operation. The =
+
+AC Voltage range is from 85 Volt AC up to 265 Volt AC 50 /60 Hz. The DC =
+
+Voltage range is from 9.6 to 31.5 V DC.http://www.penguinfrigo.co.uk/shop/p=
+opup/product/318/
+"If BD50 compressor is used, then I think you might be on the limit, guess =
+you need a drive inverter for tropical temps. (high start torque)
+...Also, the BD35,50,80 is mainly for food cooler and freezers =3D low evap=
+ temperatures.
+So even if they say low, mid and"high use" you need to have your =
+
+constant running evaporator temp lower than I would prefer  and should =
+
+have choosen in a desertbox that aims for +25=B4C degrees.. =
+
+I am no expert in cooling! But I am almost sure it is not the optimal desig=
+n.  =
+
+..and I have never been cooling anything in a dessert.. Actually I have nev=
+er seen a desert at all.  :-)
+
+Here in the Example datasheet, it tell you the performances at different sp=
+eeds and temperatures:
+http://www.ra.danfoss.com/TechnicalInfo/Literature/Manuals/06/Danfoss_bd35f=
+_r134a_12-24vdc_09-2011_dehc100d802.pdf
+It tell a lot of interesting things. =
+
+
+
+
+
+More models (and application notes) you should find here:
+http://www.danfoss.com/Products/Categories/Literature/RA/Compressors/Direct=
+-Current-Compressors/b44e7573-473b-4dba-90c2-431ffccf0b9c.html
+
+-If money is not an issue, i would look at the bigger BD350GH
+It will give you 800W cooling +10=B4C boil  @ 360W consumtion in a 12V syst=
+em, =
+
+(choose 24 or 48V for better effi. if you also have this voltages)
+
+----  ONE WILD guess... The AC-input module may be able to run at your syst=
+em pack voltage... ! -----
+
+Maybe use the smaller BD250GH, but i dont know if there is a 12V model.
+250GH will give about 400W cooling from 200W power(+fans) @ 10=B4C evap. =
+
+Both 250 and 350 should be ok to run at +15=B4C boil. But i think that is a=
+bout maximum, and you need to keep condensing temp down..
+(all in ASHRAE : Condensing temperature : 54.4=B0C /  Ambient temperature :=
+ 32=B0C (in a dessert I guess you need to take extra steps for a ready made=
+ rack unit to keep condesing temp down, so the pressure and oil temp keep b=
+elow danger temp. As a rule of thumb..high temp in discharge gas will break=
+ down your oil, and then break down your kompressor.. Higher condenser temp=
+s will also make it eat more Amps =3D hot windings in motor..)    / Suction=
+ gas temperature : 32=B0C / Liquid temperature : 32=B0C )
+
+Yes I found some boxes now at pages in your language:
+http://www.adventurerv.net/dometic-coolfreeze-portable-refrigerator-freezer=
+-cf25-cf025dc-p-1227.html  =
+
+409 usd  , a BD50 kompressor or maybe BD35  I guess. =
+
+
+http://www.progressivemed.com/estylez_item.aspx?item=3D11600
+315 usd,  I guess BD35F compressor and R134A gas. =
+
+
+
+
+
+-----
+
+
+
+But what if.....? =
+
+..if any of you live where you have really hot, but also DRY air? =3D a ver=
+y low RH?
+Then I would suggest to look at and build something that runs on small sola=
+r power for the car.
+Evap cooler is the id=E9a!  (well,..if you have water.)
+When moving you dont even need a fan  and when standing still parked, it ca=
+n be self-powered with less energy needed than a compressor unit.
+
+If you like to, you can make it with an exchanger-design so you dont need t=
+o feed new air whith higher RH in to the batterybox, as it probably can be =
+condensing problem.
+(same problem must be possible if you use the hot high RH cabin air, and it=
+ goes down and condensate at a cold battery)
+
+
+If you have very dry air it can have a pretty good cooling effect without a=
+ compressor A/C,  =
+
+You probably need a small pump, but it can even be made without pump. =
+
+CPU-fan may be enough airspeed over the moist surface?  =
+
+But if you have between 81-100 % RH as we have here in Sweden now..dont exp=
+ect it to work.  :-)
+
+A Home built, simple to understand cooler, but without heat exchanger, look=
+ at this movie:
+http://www.youtube.com/watch?NR=3D1&v=3D9C4FRl9S-j4
+
+Maybe this calculator can help some to calculate the temperatures possible:
+http://www.4wx.com/wxcalc/rh.php
+
+
+evap coolers here, for people who might never have seen one:
+http://www.homedepot.com/Appliances-Heating-Cooling-Air-Quality-Portable-Ev=
+aporative-Coolers/h_d1/N-bv4eZ5yc1v/h_d2/Navigation?langId=3D-1&storeId=3D1=
+0051&catalogId=3D10053&searchNav=3Dtrue
+http://www.air-n-water.com/evaporative-cooler.htm
+
+
+-----
+
+If you are prepared to go for high end "space"-age-things =
+
+and need a very high detlaT..  =
+
+-Try the USA-style of beer cooler!  :-) =
+
+
+About 10 years ago, i found a source for engines/cooler when we needed ultr=
+a low evap temp
+ at -60 degrees C or lower and the condensing side was at tropical temperat=
+ures, not even our 2 stage compressor did the job well..
+Then I finally found small units at decent price, =
+
+in beer coolers..! hehe.  but I never used one. =
+
+
+Stirling-Beer !
+http://www.amazon.com/Coleman-Stirling-Cooler-Adaptor-Included/dp/B000A1FCI=
+E/ref=3Dcm_cr_pr_pb_t
+:-)
+
+
+Wow..long mail, sorry,  hehe, =
+
+I hope it will help someone to get new mad(?) ideas.  :-)
+
+/John
+
+
+
+
+
+
+ 		 	   		  =
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121112/311c9b90=
+/attachment.html =
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

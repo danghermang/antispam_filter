@@ -1,0 +1,43 @@
+Subject:Re: =?UTF-8?B?RMOpcGFubmFnZQ==?= sur PC distant
+Le Sat, 27 Oct 2012 22:36:37 +0200,
+Alex Padoly <alex.padoly@laposte.net> a écrit :
+
+> Bonsoir à tous,
+> 
+> Comment dépanner efficacement un PC à distance avec un logiciel GNU,
+> le serveur ou la station sera sous Debian, les postes distant
+> pourront etre sous LINUX ou WINDOWS.
+> Merci pour vos réponses.
+> 
+> Alex
+
+bonjour,
+
+	la solution la plus simple consiste à employer :
+
+	-a) xrdp ( serveur linux)
+	-b) rdesktop ( client )
+
+	reste encore à employer le tunnel ssh
+
+	rtfm :
+
+	rechercher rdesktop over ssh
+
+	http://www.doctort.org/adam/nerd-notes/tunneling-rdesktop-via-ssh.html
+	http://superuser.com/questions/131084/rdesktop-over-ssh
+	http://www.softwaresecretweapons.com/jspwiki/windowsremotedesktopoverssh
+	http://blog.spencerkellis.net/2010/06/tunneling-remote-desktop-over-ssh-in-windows-7/
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121028082300.115aa9be.bernard.schoenacker@free.fr
+

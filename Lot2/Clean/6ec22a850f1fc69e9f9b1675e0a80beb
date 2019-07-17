@@ -1,0 +1,21 @@
+Subject:SARG o SRG?
+Estoy probando tunear un poco una configuracion de SRG en debian squeeze, y 
+me he encontrado con varios manuales para SARG.. de hecho se que son la 
+misma cosa. con nombres distintos, pero muchas de las opciones que encontré 
+para SARG  en esos manuales no me funcionan en el .config del SRG, 
+especificamente con el backgroundcolor, lenguage y demas
+
+Alguien que sepa del tema, y me de algunas indicaciones.
+
+saludos
+
+Josué
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1B22B8E6B6DA448087F4708136EA1BC7@dbsrv
+

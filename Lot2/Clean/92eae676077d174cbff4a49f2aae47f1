@@ -1,0 +1,44 @@
+Subject:Re: [un peu HS...] RAID1 sata et ssd
+On Fri, 16 Nov 2012 09:03:48 +0100
+Olivier Lange <olange81@gmail.com> wrote:
+
+>=20
+> Personnellement, je ne jure que par de l'intel. Ils ont fait depuis le
+> d=C3=A9but de tr=C3=A8s bon disques, avec un rapport qualit=C3=A9 prix co=
+rrecte. Y a
+> peut =C3=AAtre plus haut de gamme, mais en tout cas, jamais =C3=A9t=C3=A9=
+ d=C3=A9=C3=A7u pour
+> les SSD, et on les utilises en embarqu=C3=A9 comme en d=C3=A9di=C3=A9s.
+=20
+Wai, =C3=A7a semble avoir =C3=A9t=C3=A9 le premier fondeur =C3=A0 booster l=
+es IOPS; et puis
+dans sa position, difficile de commercialiser des daubes (quoique...:)
+
+>=20
+> Ah bon? Et pourquoi donc? J'ai quasi tout mes serveurs d=C3=A9di=C3=A9s q=
+ui sont
+> en full SSD, et pas le moindre probl=C3=A8me. Les chances pour que les 2
+> disques tombent en m=C3=AAme temps sont quand m=C3=AAme relativement faib=
+le, et
+> si l'un tombe, y a toujours le second qui est la,
+
+Except=C3=A9 que tous les fabricants ne brassent pas les S/N (diff=C3=A9ren=
+ts
+S/N & lots dans le m=C3=AAme carton de N disks), et les vendeurs encore
+moins, par cons=C3=A9quent le risque de se retrouver avec 2 SSDz contigus
+reste assez =C3=A9lev=C3=A9, d'o=C3=B9 un risque non-n=C3=A9gligeable de pa=
+nne simultan=C3=A9e.
+
+--=20
+guigui : tain j'ai une gastro qui me lache pas depuis 3 jour
+hime : une fid=C3=A8le gastro.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121116101821.55899015@anubis.defcon1
+

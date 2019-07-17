@@ -1,0 +1,30 @@
+Subject:Re: PC =?UTF-8?B?w6l0ZWludA==?= qui consomme
+On Sat, 3 Nov 2012 10:14:10 +0100
+Francois Boisson <user.antispam@maison.homelinux.net> wrote:
+
+> Groumf, il n'y a pas d'aufs dans leur foutu noyau...
+=20
+Pas grave, tu ne feras pas d'emaulette:)
+
+Reste donc maintenant =C3=A0 trouver pourquoi il suspend en RAM au lieu de =
+sur
+DISK.  Id=C3=A9e: configure-le pour qu'il suspend2RAM et on verra bien ce q=
+ue
+=C3=A7a donne...
+
+--=20
+< ptp> huhu, ancien nom du lirmm : Centre de Recherches en Informatique
+       de Montpellier
+< ptp> =3D CRIM :p
+< ptp> pas etonnant qu'il y ai que des escrocs pourris ici
+<@Antigone> ca le faisait moyen pour la cgt, le syndicat du CRIM
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121103121933.58fcdad9@anubis.defcon1
+

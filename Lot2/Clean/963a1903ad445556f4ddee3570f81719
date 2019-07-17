@@ -1,0 +1,30 @@
+Subject:Re: [LUG] temperature sensors for Raspberry Pi brewery controller
+On Sat, 10 Nov 2012, tom wrote:
+
+> Currently it looks the cheapest option to buy 3 kitchen 0.1c accurate LED 
+> thermometers (for the price of 1 thermocouple resistor WTF!) and modify them.
+
+Do you really believe they're that accurate?
+
+I can connect an analogue LM35 sensor up to an Arduino - this has a 0-100C 
+range over 0-5V and then I can get: 100 / 1024 = 0.098C resolution.
+
+Does this mean it's really that accurate? No way. But I can display those 
+numbers and it looks "good". Same as the kitchen ones are doing. It looks 
+good, but it's no-where near accurate.
+
+> I will get one and see if whats in there - a pic and a small cct board I 
+> guess - if I can get the pic out without damaging it I can dump the code and 
+> see how it works and may be able to extract the temperature info one way or 
+> another.
+> Calibration is a strange one - what does one calibrate against freezing and 
+> boiling are rarely where you think they should be!
+
+Standard temperature and pressure... Good job finding that economically...
+
+Gordon
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

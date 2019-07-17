@@ -1,0 +1,32 @@
+Subject:wheezy, mise =?ISO-8859-1?Q?=E0_jour_=3D=3E_perte_des_?=
+	=?ISO-8859-1?Q?partitions_lvm?=
+Bonsoir,
+
+Suite à une mise à jour, il est devenu impossible de booter sur un root 
+fs qui est en lvm (/dev/vg0/root).
+
+Le système m'envoie dans un shell busybox et le lvscan me montre bien 
+les partitions mais elles sont toutes inactives à l'exception du swap.
+
+J'ai pensé que cela était lié au module lvm de grub j'ai donc placé dans 
+le fichier grub.cfg un insmod lvm mais échec il ne connaît pas ce module 
+même si lvm.mod est présent sur le disque...
+
+Je ne sais pas vraiment comment faire pour redémarrer cette station...
+
+Ah oui /boot n'est pas sous lvm..
+
+Merci du coup de main...
+
+--
+Yann.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50675448.2060200@ianco.org
+

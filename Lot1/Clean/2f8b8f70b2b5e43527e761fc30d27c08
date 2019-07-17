@@ -1,0 +1,22 @@
+Subject:Cuotas+Usuarios Virtuales
+Hola lista, he implementado un servidor de correo con  
+postfix+postfixadmin+mysql+dovecot(imap y pop) y de webmail uso  
+squirrelmail y roundcube pero no he logrado implementar las cuotas  
+para los usuarios y que en los webmail se muestre su consumo. Alguna  
+forma de hacerlo ?? en el dovecot.con ya he descomentado donde dice  
+"plugins" para declararle la cuota y no funciona
+
+PD: estoy usando maildir
+
+Gracias de antemano
+
+---------------------------------------------------------------------
+Este mensaje fue enviado utilizando el servicio de webmail del INDER.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121126113757.besuy6rlwg0kk4oc@webmail.inder.cu
+

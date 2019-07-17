@@ -1,0 +1,28 @@
+Subject:Re: [Translators-l] Chinese translational question
+For things like centralNotices and fundraising banners, the software doesn't support automatic fallback or variant conversion (yet). So we usually translate a simplified version and a traditional version, then copy&paste then into all the variants. Otherwise users with their interface set to things like zh-cn or zh-tw will get their messages in English.
+
+IIRC Liangent was looking into variant fallback (or conversion, can't remember) for CentralNotice, but said to me once that the relevant code was deep inside and there was no easy way to implement them.
+
+
+Regards,
+
+Benjamin Chen / [[User:Bencmq]]
+
+On 17 Nov, 2012, at 7:17 PM, Quark Zhang <wulaquark@gmail.com> wrote:
+
+> Hi everyone,
+> I can not quite understand why should Chinese divided into 9 parts in translation. they are zh, zh-cn, zh-hans, zh-hant, zh-hk, zh-mo, zh-my, zh-sg, zh-tw. when I translate an information to Chinses, I seem to must edit all this 9 versions. I want to say that is the waste energy of translator. Because this 9 versions are consistent in essence. The differences between them just are individual words. It just like metro and subway in english. Editing 9 times for one information not only reduce efficiency in 9 times, but also increase the chance of errors in 9 tims. I may not know some simplified operation behind this, but I think the problem may indeed exist. It is just word conversion between simple and tradition Chinese in the Chinese Wikipedia, instead of editing many versions of one entry. 
+> 
+> My suggestion is translating zh-hans, zh-hant at frist. And finished or published, default zh-hans=zh-cn, zh-my, zh-sg; zh-hant=zh-hk, zh-mo, zh-tw. At the same time, zh-cn, zh-my, zh-sg, zh-hk, zh-mo, zh-tw's status is need to proofreading, in order to amend the wording of them. At last, I really do not know where should be zh version used. 
+> 
+> wulaquark
+> _______________________________________________
+> Translators-l mailing list
+> Translators-l@lists.wikimedia.org
+> https://lists.wikimedia.org/mailman/listinfo/translators-l
+
+
+_______________________________________________
+Translators-l mailing list
+Translators-l@lists.wikimedia.org
+https://lists.wikimedia.org/mailman/listinfo/translators-l

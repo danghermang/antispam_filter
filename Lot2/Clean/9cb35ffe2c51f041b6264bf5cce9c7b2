@@ -1,0 +1,23 @@
+Subject:Re: =?ISO-8859-1?Q?D=E9marrage_impossible=3A_ADDRCONF_=28N?=
+	=?ISO-8859-1?Q?ETDEV=5FUP=29=3A_eth0=3A_link_is_not_ready?=
+> pour redémrrer network-manager, j'ai essayé les 3 solutions
+> (http://doc.ubuntu-fr.org/network-manager), mais impossible...
+> sudo service network-manager stop
+> sudo /etc/init.d/NetworkManager stop
+> sudo /etc/dbus-1/event.d/26NetworkManagerDispatcher stop
+> sudo /etc/dbus-1/event.d/25NetworkManager stop
+> 
+> Comment ça se fait ?
+> 
+M'est avis que pour *démarrer* vaut mieux mettre start que stop ...
+Guy
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50430ED5.9030908@teledetection.fr
+

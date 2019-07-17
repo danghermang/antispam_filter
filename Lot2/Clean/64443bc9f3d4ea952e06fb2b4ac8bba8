@@ -1,0 +1,25 @@
+Subject:Postfixadmin
+
+Revisa el user y el passwd que esta en postfixadmin en el 
+config.inc.php
+
+y asegurate de tener esto asi
+
+$CONF['database_type'] = 'mysqli';
+---------------------------------------------------
+Ya estamos en Congreso PEDAGOGIA 2013
+"Encuentro por la unidad de los educadores". 
+Palacio de Convenciones de La Habana, del 4 al 8 de febrero.
+Favor de consultar detalles en:
+www.pedagogiacuba.com
+Esto es un mensaje de la Red Informatica del  Ministerio de Educacion de la
+Republica de Cuba
+---------------------------------------------------
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211061037.09218.maikel.manuel@ipicmw.rimed.cu
+

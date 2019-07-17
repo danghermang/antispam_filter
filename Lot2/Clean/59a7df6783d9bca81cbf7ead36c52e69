@@ -1,0 +1,32 @@
+Subject:Re: Affichage =?ISO-8859-1?Q?broull=E9?=
+Le samedi 13 octobre 2012 à 11:45 +0200, Zuthos a écrit :
+
+> Suspectant le framebuffer, j'ai tenté de modifier ce dernier en vain.
+> 
+> Quelqu'un aurais une idée? Une piste à suivre?
+> 
+> Comment être sur que le problemme viennent bien du framebuffer et pas d'autre chose?
+
+dans les options de kernel au démarrage de Grub :
+
+vga=normal nomodeset
+
+ou encore nofb
+
+Ça peut être un soucis avec la carte graphique buguée avec framebuffer,
+ou une mauvaise détection de l'écran avec des valeurs inadaptée de
+dimension/rafraîchissement. Effectivement l'installation/maj du bon
+pilote a de bonne chances de le résoudre sans plus de complication.
+
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1350129781.8909.15.camel@jisui.aranha
+

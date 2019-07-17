@@ -1,0 +1,39 @@
+Subject:Re: cifrar trafico de red Local?????
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+El 13/09/12 17:38, PedroTron escribió:
+> Lo que quiero hacer es convertir esos canales dedicados en canales 
+> seguros.  Si es posible hacerlo tambien en la red local seria 
+> excelente, pero al menos deseo poder asegurar los canales
+> dedicados.
+
+Esos canales dedicados... indica que son. Quiero decir que no se si
+tienes varios router con líneas dedicadas entre ellos y unidos por ppp
+o algún otro protocolo, o simplemente hay un bridge entre dos
+segmentos de red...
+
+De todos modos, lo más práctico en mi opinión para comunicar dos
+equipos independientes es IPsec, pero no me queda claro si hay que
+proteger un enlace de datos por el que van las comunicaciones de
+muchos equipos o los datos que intercambian dos equipos concretos.
+
+Un saludo
+
+JulHer
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.16 (Darwin)
+Comment: Using GnuPG with Mozilla - http://www.enigmail.net/
+
+iEYEARECAAYFAlBSDHIACgkQN4Xu4S1+RIvjfgCfWbZGHV3jsVz7YGrjD++rmdqK
+VakAoKF4MQfroEMq1lXZw1YHa39Dfc/1
+=RFNY
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50520C72.2090405@escomposlinux.org
+

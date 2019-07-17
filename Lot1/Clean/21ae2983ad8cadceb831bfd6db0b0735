@@ -1,0 +1,34 @@
+Subject:Re : systemd et wheezy
+Le 06/09/2012 18:45:52, Fr=E9d=E9ric Massot a =E9crit=A0:
+
+> Ensuite, ajouter "init=3D/bin/systemd" =E0 la ligne=20
+> GRUB_CMDLINE_LINUX_DEFAULT dans le fichier "/etc/default/grub", faire
+> un update-grub et rebooter.
+
+> Tu peux passer d'un boot avec sysvinit =E0 systemd ou l'inverse en=20
+> modifiant la ligne GRUB_CMDLINE_LINUX_DEFAULT.
+
+> S'il y a un probl=E8me de boot avec systemd, il suffit choisir le mode=20
+> d=E9pannage dans le menu de Grub (mode single), de modifier la ligne=20
+> GRUB_CMDLINE_LINUX_DEFAULT, faire un update-grub et rebooter.
+
+Et si on utilise Lilo ?
+
+nicolas patrois : pts noir asocial
+--=20
+R=C9ALISME
+
+M : Qu'est-ce qu'il nous faudrait pour qu'on nous consid=E8re comme des=20
+humains ? Un cerveau plus gros ?
+P : Non... Une carte bleue suffirait...
+=
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1346950729.23211.53@new-host-2.home
+

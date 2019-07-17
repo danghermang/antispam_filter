@@ -1,0 +1,66 @@
+Subject:Re: Nom de domaine et FQDN
+Le 16/11/2012 10:15, Fabien LUCE a écrit :
+>   
+> 
+> Bonjour à tous, 
+> 
+> puis-je (et est-ce correct) adresser à une des
+> machines de mon reseau (un serveur en l'occurence) un nom d'hote
+> identique au nom de mon domaine? 
+> 
+
+en principe oui, mais c'est pas "très logique" du coup, il est possible
+que certains logiciels ne se comportent pas comme tu le voudrais (à part
+des warninges, je ne connais pas de problème que cela poserait, mais on
+n'est jamais zalabri).
+
+faut pas se battre contre "le système" ;-p
+
+> A la maison mon serveur perso se
+> nomme lutix.org car c'est lui qui répond à toutes les demandes de
+> l'exterieur (mails, web etc).
+
+il n'y a pas de car qui tienne !
+la machine peut très bien s'appeler tagadagada.lutix.org et répondre à
+toute cela et bien plus:
+
+- pour le mel entrant, suffit d'ajouter un MX pour lutix.org qui pointe
+vers tagadagada.lutix.org (et là: évite un CNAME).
+
+- pour le web, tu peux ajouter des entrées dns pour lutix.org et
+www.lutix.org et rasftafiore.lutix.org etc etc dans le dns, pour que
+l'ip obtenue en les résolvant soit celle de ton serveur. Tu peux aussi
+contrôler quels "hotes virtuels" Apache doit servir et comment.
+
+
+> Sauf qu'apache par exemple me lance des
+> warning car la machine n'est pas "fully qualified", ce que je peux
+> comprendre. 
+> 
+
+en réalité lutix.org est FQDN, puisqu'il arrive jusqu'à un "tld" (top
+level domain). [bon, les dns-iens mettent un point à la fin, de la même
+façon que les fielsystemistes mettent un / au début d'un chemin absolu).
+
+> De la même façon difficile de faire comprendre à exim4 que
+> le hostname du serveur est aussi le domaine concerné. 
+
+en principe, tu devrais pouvoir lui dire ça.
+
+Je ne connais pas exim, mais sous postfix, par défaut, le domaine est
+obtenu en virant le premier "label" du nom d'hote. cela dit, on peut
+forcer le nom d'hote (et éviter donc le "calcul" par défaut). je suppose
+que Exim a un truc du même genre.
+
+>[snip]
+> 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A7A6D9.1020508@ml.netoyen.net
+

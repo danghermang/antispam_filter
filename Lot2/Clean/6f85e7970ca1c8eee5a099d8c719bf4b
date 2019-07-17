@@ -1,0 +1,38 @@
+Subject:Re: ubuntu-de Nachrichtensammlung, Band 98, Eintrag 9
+Versuch es doch mal mit dem File
+  " /home/user/.config/monitors.xml "
+Bei mir hat es geholfen, nachdem ich immer wieder =FCber nvidia-settings =
+
+die Aufl=F6sung zwar einstellen konnte, aber nicht fixieren konnte. Nach =
+
+jedem Neustart kam ubuntu wieder mit der alten Aufl=F6sung hoch.
+
+monitors.xml:
+
+<monitors version=3D"1">
+   <configuration>
+       <clone>no</clone>
+       <output name=3D"default">
+           <vendor>???</vendor>
+           <product>0x0000</product>
+           <serial>0x00000000</serial>
+           <width>1920</width>
+           <height>1080</height>
+           <rate>60</rate>
+           <x>0</x>
+           <y>0</y>
+           <rotation>normal</rotation>
+           <reflect_x>no</reflect_x>
+           <reflect_y>no</reflect_y>
+           <primary>yes</primary>
+       </output>
+   </configuration>
+</monitors>
+
+
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

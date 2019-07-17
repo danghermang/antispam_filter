@@ -1,0 +1,20 @@
+Subject:Re: Installation sur partition GPT
+Le mercredi 03 octobre 2012 à 23:19 +0200, Sylvain L. Sauvage a écrit :
+>   Ensuite, l’installateur Debian ne gère pas encore l’UEFI (pas 
+> au mois de juillet en tout cas, il y a des travaux dessus mais 
+> je n’ai pas vu d’annonce spécifique à ce propos).
+
+Des images existent pour installer en uefi :
+http://blog.einval.com/debian/CDs . Pour les avoir testées avec un
+ordinateur dell, elles fonctionnent très bien. Ce sont des images
+hybrides, donc possibilités de les copier sur une clé avec un dd.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349327906.1367.2.camel@jen.toniob.net
+

@@ -1,0 +1,37 @@
+Subject:Re: Rolling release
+Le samedi 10 novembre 2012 à 14:55 +0100, Bzzz a écrit :
+> Wai, le seul PB de testing c'est que dès fois elle est plus cassée que
+> sid,
+> sans compter les packages qui disparaissent du jour au lendemain. 
+
+Il y a une grossière erreur dans l'esprit de pas mal de gens, c'est
+celle de croire que entre experimental et stable, ce n'est qu'une
+question de finition, de degré de stabilité. Pas du tout !
+
+Chaque branche a un rôle précis, c'est pourquoi testing n'est pas "plus
+recommandable" pour un usage quotidien que Sid, au contraire. Le rôle de
+testing est de construire la stable et n'a pas vocation à faire de la
+production. S'il y a un problème qui ne peut être résolu rapidement, on
+prendra le temps qu'il faut pour le faire proprement, Testing n'est
+jamais prioritaire en particulier pour la sécurité. 
+
+Actuellement Testing est très utilisable car en période de freeze, mais
+le seul moyen de l'utiliser constamment sans risquer de se retrouver
+potentiellement bloqué durant plusieurs semaines est de faire du pinning
+vers Unstable ou Stable ou les deux.
+
+Je vous laisse lire le reste à la source :
+
+http://www.debian.org/doc/manuals/debian-faq/ch-choosing.fr.html#s3.1
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1352564969.7842.44.camel@azuki.jisui
+

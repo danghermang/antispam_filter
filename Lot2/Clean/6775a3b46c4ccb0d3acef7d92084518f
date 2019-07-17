@@ -1,0 +1,50 @@
+Subject:Re: Problema wifi.
+El 6 de noviembre de 2012 02:04, Jos=E9 Miguel <elorri54@gmail.com> escribi=
+=F3:
+>
+> Buenas
+>
+> Hace poco instal=E9 Debian Squeeze (6.0.6) y desde el principio me ha ido=
+ lenta la navegaci=F3n web a trav=E9s de wifi.
+> Qu=E9 s=E9/ he probado:
+> 1.- Que s=F3lo yo tengo acceso a mi red wifi.
+> 2.- Que da igual el navegador que use, sigue siendo lento.
+> 3.- Que mi tarjeta es Atheros AR928X.
+> 4.- Que tengo el kernel 2.6.32-5-amd64
+> 5.- Que tengo instalado el driver ath9k.
+> 6.- Tambi=E9n he probado compat-wireless.
+> 7.- He le=EDdo documentaci=F3n y buscado en blogs pero no he encontrado s=
+oluci=F3n.
+> 8.- Mis conocimientos de linux son muy limitados. No espero una soluci=F3=
+n, pero agradecer=EDa que alguien me orientara.
+>
+> Siento ser tan extenso, pero prefer=ED aportar esta informaci=F3n para ah=
+orrar en correos.
+>
+
+
+Lanza una serie de 100 o 200 pings al mismo AP (por IP, no por nombre)
+y mira si hay paquetes perdidos. A que distancia est=E1 el port=E1til? Hay
+paredes en medio?
+
+Si he entendido bien en el mismo equipo tienes un Windows 7 y funciona bien=
+?
+
+Suponiendo que se trate de un port=E1til, est=E1 enchufado a la corriente
+o est=E1s trabajando con la bater=EDa?  Si trabajas con la bater=EDa prueba
+con:
+
+iwconfig wlan0 power off
+
+Saludos.
+
+
+--=20
+Francesc Guitart
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAOUhjL5xsb=se4wiv1qt8MM4NXmC8GFtfEbnLGEZ5wXC=p2Tkw@mail.gmail.com
+

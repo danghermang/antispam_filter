@@ -1,0 +1,285 @@
+Subject:W3C Public Newsletter, 2012-09-24
+Dear W3C Public Newsletter Subscriber,
+
+The 2012-09-24 version of the W3C Public Newsletter is online:
+  http://www.w3.org/News/Public/pnews-20120924
+
+A simplified plain text version is available below.
+
+Ian Jacobs, W3C Communications Team
+
+-----------------------------------
+W3C Workshop: Do Not Track and Beyond
+
+   20 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9571
+
+   W3C announced today a Workshop on Do Not Track and Beyond,
+   26-27 November in Berkeley, California. W3C is currently
+   creating standards that define mechanisms for expressing user
+   preferences around Web tracking. The Working Group has produced
+   drafts of Do Not Track specifications, concurrent with various
+   implementations in browsers and Web sites and heightened press
+   and policymaker attention. At the same time, public awareness
+   of online privacy issues has increased.
+
+   http://www.w3.org/2012/dnt-ws/
+
+   Workshop participants will discuss the Consortium's next steps
+   in the area of tracking protection and Web privacy. What have
+   we learned from Do Not Track standardization and real-world
+   implementations? What should we look at next and beyond DNT?
+
+   There is no fee to participate in this Workshop and W3C
+   Membership is not required. All participants are required to
+   submit a position paper by 19 October and space is limited. W3C
+   thanks UC Berkeley and TRUST Science and Technology Center for
+   hosting the meeting, and Yahoo! for sponsoring the event. Learn
+   more about the W3C Privacy Activity.
+
+   http://www.w3.org/Privacy/
+
+For Review: Website Accessibility Conformance Evaluation Methodology
+(WCAG-EM)
+
+   20 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9570
+
+   An updated Working Draft of "Website Accessibility Conformance
+   Evaluation Methodology (WCAG-EM)" was published today by the
+   Web Content Accessibility Guidelines Working Group (WCAG WG)
+   and Evaluation and Repair Tools Working Group (ERT WG), through
+   the joint WCAG 2.0 Evaluation Methodology Task Force ( Eval TF
+   ). WCAG-EM describes an approach for evaluating how websites --
+   including web applications and websites for mobile devices --
+   conform to WCAG 2.0. Learn more from the call for review e-mail
+   and about the Web Accessibility Initiative (WAI).
+
+   http://www.w3.org/TR/2012/WD-WCAG-EM-20120920/
+   http://www.w3.org/WAI/GL/
+   http://www.w3.org/WAI/ER/
+   http://www.w3.org/WAI/ER/2011/eval/eval-tf
+   http://www.w3.org/WAI/intro/wcag
+   http://lists.w3.org/Archives/Public/w3c-wai-ig/2012JulSep/0411
+   http://www.w3.org/WAI/
+
+W3C Invites Implementations of The WebSocket API
+
+   20 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9569
+
+   The Web Applications Working Group invites implementation of
+   the Candidate Recommendation of "The WebSocket API." This
+   specification defines an API that enables Web pages to use the
+   WebSocket protocol (defined by the IETF) for two-way
+   communication with a remote host. Learn more about the Rich Web
+   Client Activity.
+
+   http://www.w3.org/2008/webapps/
+   http://www.w3.org/TR/2012/CR-websockets-20120920/
+   http://www.w3.org/2006/rwc/
+
+DOM Parsing and Serialization Draft Published
+
+   20 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9567
+
+   The Web Applications Working Group has published the First
+   Public Working Draft of "DOM Parsing and Serialization." This
+   specification defines various APIs for programmatic access to
+   HTML and generic XML parsers by web applications for use in
+   parsing and serializing DOM nodes. Learn more about the Rich
+   Web Client Activity.
+
+   http://www.w3.org/2008/webapps/
+   http://www.w3.org/TR/2012/WD-DOM-Parsing-20120920/
+   http://www.w3.org/2006/rwc/
+
+W3C Invites Implementations of CSS Flexible Box Layout Module
+
+   20 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9568
+
+   The Cascading Style Sheets (CSS) Working Group invites
+   implementation of the Candidate Recommendation of "CSS Flexible
+   Box Layout Module." The specification describes a CSS box
+   model optimized for user interface design. In the flex layout
+   model, the children of a flex container can be laid out in any
+   direction, and can "flex" their sizes, either growing to fill
+   unused space or shrinking to avoid overflowing the parent. Both
+   horizontal and vertical alignment of the children can be easily
+   manipulated. Nesting of these boxes (horizontal inside
+   vertical, or vertical inside horizontal) can be used to build
+   layouts in two dimensions. Learn more about the Style Activity.
+
+   http://www.w3.org/Style/CSS/members
+   http://www.w3.org/TR/2012/CR-css3-flexbox-20120918/
+   http://www.w3.org/Style/
+
+Publishing and Linking on the Web Draft Published
+
+   18 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9565
+
+   The Technical Architecture Group has published the First Public
+   Working Draft of "Publishing and Linking on the Web." This
+   document is intended to inform future social and legal
+   discussions of the Web by clarifying the ways in which the
+   Web's technical facilities operate to store, publish and
+   retrieve information, and by providing definitions for
+   terminology as used within the Web's technical community. This
+   document also describes the technical and operational impact
+   that does or could result from legal constraints on publishing,
+   linking and transformation on the Web. Comments should be sent
+   before end of september 2012, for consideration during the
+   upcoming TAG meeting. This is not a deadline, comments can be
+   sent anytime. Learn more about the Technical Architecture
+   Group.
+
+   http://www.w3.org/2001/tag/
+   http://www.w3.org/TR/2012/WD-publishing-linking-20120918/
+   http://www.w3.org/2001/tag/
+
+   More news: http://www.w3.org/News/archive
+
+Workshops
+
+     * 2012-11-14 (14 NOV) – 2012-11-15 (15 NOV)
+       Shift into High Gear on the Web: W3C Workshop on Web and
+       Automotive
+       http://www.w3.org/2012/08/web-and-automotive/
+       Rome, Italy
+       Hosted by Intel and Sponsored by Webinos
+       W3C’s Open Web Platform (OWP) is driving this and other
+       industry transformations. The promise of the early
+       information superhighway is being fulfilled. Whether
+       tethering a driver’s smartphone or tablet to work with a
+       car--or embedding technology into the car itself--there’s
+       no need to reinvent the wheel. The Web can take you there.
+       Participants in this workshop will have the opportunity to
+       share their own perspectives, requirements, and ideas to
+       ensure that emerging global technology standards meet the
+       needs of the Web and Automotive industries.
+     * 2012-11-26 (26 NOV) – 2012-11-27 (27 NOV)
+       Do Not Track and Beyond
+       http://www.w3.org/2012/dnt-ws/
+       Berkeley, California
+       Hosted by UC Berkeley and TRUST Science and Technology
+       Center
+       This workshop serves as a forum for the W3C membership and
+       the public to discuss the Consortium's next steps in the
+       area of tracking protection and Web privacy. What have we
+       learned from Do Not Track standardization and real-world
+       implementations? Furthermore, undoubtedly support for
+       privacy on the Web platform cannot end with Do Not Track:
+       what should we look at next and beyond DNT?
+
+W3C Blog
+
+     * Do Not Track in the Short, Medium and Long Term
+       http://www.w3.org/QA/2012/09/do_not_track_in_the_short_medi
+       21 September 2012 by Nick Doty
+       http://npdoty.name
+     * Getting HTML5 to Recommendation in 2014
+       http://www.w3.org/QA/2012/09/getting_html5_to_recommendatio
+       20 September 2012 by Philippe Le Hégaret
+       http://www.w3.org/People/LeHegaret/
+
+Upcoming Talks
+
+     * 2012-09-28 (28 SEP)
+       Accessible Design with HTML5
+       by Rajesh Lal
+       2012 HOW Interactive Design
+       http://howinteractiveconference.com/ehome/index.php?eventid
+       =34675
+       Washington D.C., USA
+     * 2012-10-01 (1 OCT)
+       Yandex and W3C
+       http://events.yandex.ru/talks/331/
+       by Charles McCathieNevile
+       ЯК
+       http://events.yandex.ru/events/yac/2012/
+       Moscow, Russia
+     * 2012-10-03 (3 OCT)
+       Is HTML5 the future?
+       panel features Philipp Hoschka
+       appsworld
+       http://www.apps-world.net/europe/index.php
+       London, United Kingdom
+     * 2012-10-03 (3 OCT)
+       Linked Data for Science and Industry
+       keynote by Michael Hausenblas
+       TUT W3C Web Technology Day: Linked Data for Science and
+       Industry
+       http://www.w3c.tut.fi/events/2012/1003-techday/
+       Tampere, Finland
+     * 2012-10-04 (4 OCT)
+       More CSS secrets: Another 10 things you may not know about
+       CSS
+       by Lea Verou
+       Fronteers
+       http://fronteers.nl/congres/2012
+       Amsterdam, The Netherlands
+     * 2012-10-09 (9 OCT)
+       Les technologies Web de demain au service du multi-device
+       by Philipp Hoschka
+       Interfaces 2012
+       http://www.ccmbenchmark.com/conference/671-interfaces-2012
+       Paris, France
+     * 2012-11-20 (20 NOV)
+       Why HTML5?
+       http://www.w3.org/2012/Talks/1120-owp-plh/
+       by Philippe Le Hégaret
+       HTML5FEST 2012
+       http://www.w3c.org.il/HTML5fest/2012/
+       Kfar maccabiah, Ramat Gan, Israel
+
+W3C Membership
+
+   Lear more about the benefits of W3C Membership. If you or your
+   organization cannot join W3C, we invite you to support W3C
+   through a contribution.
+
+   http://www.w3.org/Consortium/membership-benefits
+   http://www.w3.org/Consortium/join
+   http://www.w3.org/Consortium/sup
+
+New Members
+
+     * 4A's
+     * Association of National Advertisers
+     * Digital Advertising Alliance
+
+About W3C
+
+   The World Wide Web Consortium (W3C) is an international
+   consortium where Member organizations, a full-time staff, and
+   the public work together to develop "Web standards." Read
+   about W3C.
+
+   http://www.w3.org/TR/
+   http://www.w3.org/Consortium/
+
+Receiving the Newsletter
+
+   Bookmark this edition or the latest Public Newsletter and see
+   past issues and press releases. Subscribe to receive the Public
+   Newsletter by email. If you no longer wish to receive the
+   Newsletter, send us an unsubscribe email. Comments? Write the
+   W3C Communications Team (w3t-comm@w3.org).
+
+   http://www.w3.org/News/Public/pnews-20120924
+   http://www.w3.org/News/Public/
+   http://lists.w3.org/Archives/Public/w3c-announce/latest
+   http://www.w3.org/Press/
+   mailto:w3c-announce-request@w3.org?subject=Subscribe
+   mailto:w3c-announce-request@w3.org?subject=Unsubscribe
+   mailto:w3t-comm@w3.org
+

@@ -1,0 +1,52 @@
+Subject:Re: Compilar kernel para optimizacion
+El Tue, 20 Nov 2012 16:57:09 +0100, maykel escribió:
+
+>> El Mon, 19 Nov 2012 18:04:19 +0100, maykel escribiÃ³:
+
+(...)
+
+>>> Finalmente:
+>>>
+>>> make modules_install install
+>>
+>> Prueba con esto (documentado aquÃ­Â¹):
+>>
+>> fakeroot make-kpkg --initrd --revision=3.6kolivas kernel_image
+>>
+>> Â¹http://www.debian.org/releases/stable/i386/ch08s06.html.en
+>>
+
+> Hice lo que me comentastes del fakeroot y se queda la pantalla en negro
+> cuando arranca...Es decir, hace lo mismo. En el kernel 3.6.6 de
+> kernel.org no me hizo falta ejecutar el fakeroot, con el make
+> modules...me hizo todo y arrancó sin problemas... No sé como puede
+> colgar ése parche de bfs en su web si es que ni funciona...manda
+> cojones...en fin. 
+
+Porque ese parche lo ha probado con su sistema en su equipo, no con el 
+tuyo; si carga es pura suerte. La idea de optimizar un kernel no pasa 
+precisamente por utilizar _los parches de otro_ sino de aplicar las 
+opciones que ofrece el kernel _para incrementar el rendimiento y 
+aprovechar el hardware de tu equipo_.
+
+> Sigo diciendo que no arranca por el parche, porque al compilar el
+> kernel 3.6.6 sin problemas e inclusive compile el último que está en
+> release candidate y si problemas...
+
+Pues tendrás que "leer" el parche a ver qué cambios ha aplicado que no le 
+gustan a tu Debian (hint: la pantalla en negro suele indicar un problema 
+con los drivers de la gráfica, intenta pasar al kernel parcheado alguna 
+opción para que use un driver gráfico "genérico" o simplemente inicia en 
+"init 1").
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8gbhu$27v$12@ger.gmane.org
+

@@ -1,0 +1,50 @@
+Subject:Re: Mauvaise habitude
+On 07/09/2012 15:48, Yannick VOYEAUD wrote:
+> Savez-vous qu'il existe une solution de réponse qui convient bien aux
+> listes?
+> 'Répondre à la liste'
+> Lorsque vous faites répondre seul l'expéditeur du message voit votre
+> réponse
+> Lorsque vous faites répondre à tous le message arrive bien sur la liste
+> mais en COPIE
+Bonjour,
+j'utilise aussi Icedove, pour le filtrage,
+je me sert maintenant du paramètre "List-Id", qui est présent sur toutes
+les listes Debian et bien d'autres (pratiquement partout).
+
+> En utilisant répondre à la liste la liste reçoit votre réponse. Si vous
+> voulez vraiment que l'expéditeur ait votre réponse rajoutez le en copie
+> et non l'inverse qui est une galère pour moi avec Thunderbird avec des
+> règles de tri du courrier. Trier sur COPIE ne devrait être
+> qu'exceptionnel et non une obligation.
+
+Ce paramètre est pratique, mais dans le cas, ou une personne, fait
+répondre ou répondre à tous, effectivement il reste un reliquat, qui lui
+n'aura pas de list-id, pour ces cas la je pense qu'un filtre basé sur le
+champ "Cc" ou "Bcc" peut permettre de le ranger au bon endroit.
+
+Je constate les mêmes caractéristiques, avec les rapports de bug,
+en effet, lors des mises à jours des rapports, les réponses, nous
+parviennent en direct ou copie, suivant l'origine du mainteneur ou du BTS,
+ainsi on retrouve, le mail du bug en question souvent en copie, ou
+"Reply-to".
+
+
+Cordialement,
+Guillaume.
+--
+"Non seulement Dieu joue aux dés
+mais il les jette parfois là où on ne peut les voir."
+Stephen Hawking
+--
+FAQ : http://wiki.debian.org/fr/FrenchLists
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504A0480.6000404@gmail.com
+

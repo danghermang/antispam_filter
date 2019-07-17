@@ -1,0 +1,110 @@
+Subject:Re: duda sobre vulnerabilidad con telnet y port 25
+Lo unico que tienes que hacer es habilitar la seguridad por SMTP, que los 
+usuarios tengan que logearse con un usuario valido antes de enviar o recibir 
+correo.
+
+Incluye esta linea en tu main.cf
+
+smtpd_recipient_restrictions= permit_sasl_authenticated, 
+reject_unauth_destination
+
+
+----- Original Message ----- 
+From: "joel" <joel@ecoimpex.com.cu>
+To: <debian-user-spanish@lists.debian.org>
+Sent: Friday, September 07, 2012 3:38 PM
+Subject: Re: duda sobre vulnerabilidad con telnet y port 25
+
+
+El 07/09/2012 02:06 a.m., Ramses escribió:
+> Buenos días,
+>
+> El 07/09/2012, a las 00:00, cosme@esid.gecgr.co.cu escribió:
+>
+>> Tengo una duda sobre acceso al servidor de correo
+>>
+>> hace algún tiempo la gente de la OSRI estuvo aquí y salió una
+>> vulnerabilidad con el tema del acceso al puerto 25 mediante telnet en las
+>> pc de mi red LAN
+>>
+>> La caracteristicas de mi red LAN
+>>
+>> el iptables esta una pc con ip 192.168.1.1
+>> el servidor de correo esta en una pc 192.168.1.2
+>>
+>> la red LAN 192.168.1.0/24
+>>
+>> Establecí mediante regla en el iptables denegar el acceso de puerto 23 al
+>> servidor de correo pero esto no tiene efecto ya que los usuarios hacen la
+>> peticion que aunque la puerta de enlace sea la ip 192.168.1.1 los 
+>> clientes
+>> hacen smtp directo al server de correo.
+>>
+>> Me dijeron que en ese caso el server de correo debe tener una ip distinta
+>> a la de la red por ejemplo 192.168.2.1 para que las pc esten obligadas a
+>> pasar por el iptables.
+>>
+>> Que opinan al respecto_???
+>>
+>> Necesito denegar el acceso al puerto 25 mediante telnet
+> Que configures iptables en el servidor de correo para denegar el puerto de 
+> Telnet a quien quieras, a parte de intentar solucionar la 
+> vulnerabilidad...
+>
+>
+> Saludos,
+>
+> Ramses
+>
+
+Colega,
+
+No será que la OSRI te encontró la vulnerabilidad de Correo llamada
+Suplantación de Usuarios, donde por telnet colocando la ip_del
+Server_correo y puerto 25 o 110 y usando los comandos para enviar
+correos puedes enviarlo sin mas problemas diciendole incluso que eres el
+usuario pepito.perez que no esta en tu servidor definido pues si es eso,
+no se resuelve cerrando el puerto 23 ni 25 eso se resuelve en la
+configuración de correo, obligando a que siempre para enviar debe
+autentificarse. No creo que la OSRI vea como vulnerable que el servidor
+de correo diga que escucha por puerto 25 o 110, pues es eso lo que hace.
+
+
+-- 
+Saludos
+
+--
+                       0ooo
+       ooo0            (   )
+       (   )            ) /
+        \ (            (_/
+         \_)
+ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø
+               Joel  Ventura Castillo
+             Téc. Ciencias Informáticas
+       Empresa Importadora - Exportadora MINIL
+  Dir.: O' Relly No. 152 e/ San Ignacio y Mercaderes,
+        Habana Vieja, Cuba.
+        E-Mail: joel@ecoimpex.com.cu
+        Teléf.: 8625081 al 84, Ext. 156
+ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø
+
+
+
+Este mensaje ha sido escaneado por Security Plus para MDaemon
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact 
+listmaster@lists.debian.org
+Archive: http://lists.debian.org/504A4D32.1070507@ecoimpex.com.cu
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/A1C151F2F2A9436CA836CD3157F5AE84@dbsrv
+

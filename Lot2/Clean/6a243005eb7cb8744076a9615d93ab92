@@ -1,0 +1,56 @@
+Subject:Re: [arin-ppml] REVISED: Draft Policy ARIN-2012-8: Aligning 8.2 and
+	8.3 Transfer Policy
+
+On Nov 19, 2012, at 11:48 AM, Chris Grundemann <cgrundemann@gmail.com> wrot=
+e:
+
+> Thanks for the feedback Owen.
+> =
+
+> On Mon, Nov 19, 2012 at 12:26 PM, Owen DeLong <owen@delong.com> wrote:
+>> 1. first bullet, s/used/use/ in that the acquired assets should still be=
+ using the resources in order to justify an M&A transfer.
+> =
+
+> That would constitute a change from the existing text, which several
+> folks spoke against at the PPM. I'd like to get more feedback before
+> changing it back again. Comments from others in the community would be
+> very much appreciated.
+> =
+
+>> 2. Third bullet should read "current and future ARIN policies".
+> =
+
+> Good catch, thanks.
+> =
+
+>> 3. Suggest updating the minimum transfer size specification to reflect "=
+Current ARIN minimum allocation or assignment policy as defined in section =
+4 or section 6 or the original assignment size, whichever is smaller." sinc=
+e over time we have seen changes in these minimums and I would prefer that =
+the transfer policy automatically track other policy changes.
+> =
+
+> I believe that would effectively allow everyone to transfer v4/28s
+> today based on 4.10 - is this something the community wants to allow?
+> More feedback in this area would also be helpful.
+> =
+
+
+It would only allow them to transfer /28s if their target use was a valid q=
+ualified use under 4.10. As such, I think I'm OK with that.
+
+If people object to that, then I would suggest the following:
+
+"Notwithstanding section 4.10, Current ARIN minimum allocation or assignmen=
+t policy as defined in section 4 or section 6=85"
+
+Owen
+
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

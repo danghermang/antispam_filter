@@ -1,0 +1,119 @@
+Subject:Re: [Flexradio] [FlexEdge] Computer requirements for 6000 series
+Good update Tim
+
+I like your comment on wireless.   99% of the wireless Lans are only able
+to accommodate about 5 connections moving data at the same time.  This
+includes anything made by Cisco, Linksys, Apple, etc.  Certainly, anything
+you buy in a big box store.
+
+Meru, which most of you have never heard of, is the only brand that will
+work, but it requires the use of their controller and their access points.
+ I worked for a company that did commercial Wifi and we spent months in our
+Lab showing that once you get past about 6 Wife connections on a single
+access point, clients start to drop their connection.   I have bought Meru
+APs and Controllers on eBay pretty cheaply, but setting them up is not a
+simple process.
+
+I am sure that most of you with kids are seeing that now with what seems
+like bandwidth issues.  Don't blame your ISP.  It is your wifi.
+
+I have another question.  I am thinking of using a 6500 at my remote base,
+and I am curious if that is even possible?  My max upload is about 700kbs
+and the latency is about 40ms round trip.
+
+What would be your thoughts?
+
+Mike va3mw
+
+
+On Fri, Oct 19, 2012 at 8:20 AM, Tim Ellison <t.m.ellison.jr@gmail.com>wrote:
+
+> Michael is correct. SmartSDR-Win will put more stress on your graphics
+> subsystem than PowerSDR, but don't don't go out and buy high-end 3D
+> graphics card.  Most recent GPUs will have enough horsepower.
+>
+> We are putting together the Quick Start Guide for the networking
+> requirements. I recommend that you connect the FLEX-6x00 to a switched 100
+> Mb/s Ethernet port for best performance, your PC should also be connected
+> that way as well.  Most Internet routers, including thewireless ones, have
+> switched Ethernet ports on them.  Do be careful of very low-cost
+> 10/100/1000 consumer Ethernet switches as they may radiate RFI when an
+> Ethernet cable is connected to them, in which case you may need some mix 43
+> ferrite beads on the Ethernet cables to cut down on RF emissions from the
+> switch itself.
+>
+> Speaking of Ethernet cables, CAT 5e or better is recommended.  Do not use
+> shielded twisted pair (STP) cables as this will create ground loops unless
+> you cut off one end of the STP cable to break the shield, replace it with a
+> plastic RJ45 connector and connected the shielded end to a well grounded
+> FLEX-6000.
+>
+> How much client to radio (server) network bandwidth you will need will be
+> dependent on the number of panadapters / active slices and the nature of
+> the streamed audio for said slices. GigE will not be a requirementand you
+> might be able to use 10BaseT with an 8-slice display, but you will be
+> getting close to maxing out that bandwidth.  One caution with wireless
+> client connections; the bandwidth quoted for your wireless connection is
+> the theoretical maximum and you will never achieve those throughput speeds
+> in real world applications. Also the bandwidth quoted accounts for both the
+> RX and TX paths, so you will need to divide your theoretical maximum
+> bandwidth in half to get an idea of the actual bandwidth you are working
+> with.
+>
+> Tim Ellison
+> On 10/18/2012 3:59 PM, Michael Hasenfratz wrote:
+>
+>> That is my understanding. Although, good Ethernet and graphics card
+>> should be in order.
+>>
+>> Michael Hasenfratz
+>> ========================
+>> Light travels faster than sound.
+>> This is why some people appear bright until you hear them speak.
+>>
+>> On Oct 18, 2012, at 9:27 AM, George Allen <george.allen@townsoft.com>
+>> wrote:
+>>
+>>  I presume that since the signal processing is done in the box of the
+>>> 6000 series, that there are no special computer requirements for the 6000
+>>> series.
+>>>
+>>> Does anyone know if this is correct?
+>>>
+>>> George
+>>> K2CM
+>>>
+>>>
+>>>
+>>>
+>>> ______________________________**_________________
+>>> Flexedge mailing list
+>>> Flexedge@flex-radio.biz
+>>> http://mail.flex-radio.biz/**mailman/listinfo/flexedge_**flex-radio.biz<http://mail.flex-radio.biz/mailman/listinfo/flexedge_flex-radio.biz>
+>>> This is the FlexRadio Systems e-mail Reflector called FlexEdge.  It is
+>>> used for posting topics related to SDR software innovation and other
+>>> technical SDR topics.
+>>>
+>>>  ______________________________**_________________
+>> Flexedge mailing list
+>> Flexedge@flex-radio.biz
+>> http://mail.flex-radio.biz/**mailman/listinfo/flexedge_**flex-radio.biz<http://mail.flex-radio.biz/mailman/listinfo/flexedge_flex-radio.biz>
+>> This is the FlexRadio Systems e-mail Reflector called FlexEdge.  It is
+>> used for posting topics related to SDR software innovation and other
+>> technical SDR topics.
+>>
+>
+> ______________________________**_________________
+> Flexedge mailing list
+> Flexedge@flex-radio.biz
+> http://mail.flex-radio.biz/**mailman/listinfo/flexedge_**flex-radio.biz<http://mail.flex-radio.biz/mailman/listinfo/flexedge_flex-radio.biz>
+> This is the FlexRadio Systems e-mail Reflector called FlexEdge.  It is
+> used for posting topics related to SDR software innovation and other
+> technical SDR topics.
+>
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

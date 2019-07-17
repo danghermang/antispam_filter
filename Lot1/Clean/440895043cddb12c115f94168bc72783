@@ -1,0 +1,14 @@
+Subject:Re: Hacer mirror
+El 28/11/2012 14:51, Yaisel Curz Zuñiga escribió:
+> Hola lista:
+>   Existes alguna aplicación tanto o mejor que el debmirror para hacer  
+> un espejo a los repos de debian y ubuntu ???
+>
+Hola existe tambien apt-mirror, esta en los repositorios en todas las ramas
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B61DA6.20905@gmail.com
+

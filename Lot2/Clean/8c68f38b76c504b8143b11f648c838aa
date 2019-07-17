@@ -1,0 +1,36 @@
+Subject:Re: =?iso-8859-1?Q?D=E9pannag?= =?iso-8859-1?Q?e?= sur PC distant
+
+Re,
+
+On Tue, Oct 30, 2012 at 08:02:26AM +0100, luc schimpf wrote:
+
+[...]
+
+> Pile poil, j'aurais pas pu le formuler mieux, peut-être un dernier détail:
+> la commande pour le viewer vnc chez moi:
+> 
+> vncviewer localhost:1
+
+Et tu passes tout ça sur des lignes {A,V}DSL ? Ça reste fluide (au
+sens de VNC, qui ne l'est pas parfaitement, mais on se comprend) et
+utilisable ?
+
+Cette crainte ne m'a jamais incité à creuser cette voie jusqu'ici,
+mais tu pourrais bien me faire changer une idée préconçue, ce qui
+n'est jamais une mauvaise chose ;)
+
+A+
+
+-- 
+
+JFS.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121030110821.GA7067@jones.jfs.dt
+

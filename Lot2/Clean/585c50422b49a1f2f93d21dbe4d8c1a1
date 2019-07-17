@@ -1,0 +1,13 @@
+Subject:[rescue] 256MB PC100 ECC Reg. DIMMs needed
+I recently got a IBM B50 (rack mount version of the 43p/150), but the only
+memory I had in the parts bin that worked was a
+single 128MB DIMM.
+
+Anyone here have some 168-pin SDRAM ECC Registered DIMMS to sell? According to
+the docs PC100
+up to 256MB works, but I don' t know about PC133 or larger sizes - this is
+IBM, so it might work, or it might '888'.
+
+I'm in western Washington.
+_______________________________________________
+rescue list - http://www.sunhelp.org/mailman/listinfo/rescue

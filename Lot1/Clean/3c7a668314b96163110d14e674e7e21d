@@ -1,0 +1,50 @@
+Subject:Re: =?iso-8859-1?q?Instalaci=F3n?= del modulo iscsi_tcp.ko
+El Sun, 16 Sep 2012 15:30:51 -0400, Ruben Cervantes Rodríguez escribió:
+
+> Hola colegas de la lista estoy trabado en un paso y de allí no salgo
+> necesito de su ayuda. La cuestión es que estoy intentando instalar
+> debian en un iscsi target, encontré una guía que explica como es el
+> procedimiento para instalar el debian 6 desde un netinstall y lo hago
+> todo como dicen ellos pero a la hora de instalar el módulo con el
+> comando insmod iscsi_tcp.ko me tira este error:
+> 
+> error 'inserting iscsi_tcp.ko': -1 Unknown symbol in module
+
+Ese error suele indicar una discrepancia entre la versión del kernel 
+cargada actualmente con la versión del kernel con la se ha generado ese 
+módulo.
+
+> he revisado el dmesg y veo unos errores iguales a este Unknown symbol in
+> module, bueno en realidad son varios parece que me falta activar algo
+> mas que no se que es.
+
+Verifica que las versiones de ambos kernels coincidan.
+
+> ya logre cargar todos estos:
+> insmod /tmp/libiscsi.ko
+> insmod /tmp/scsi_transport_iscsi.ko
+> insmod /tmp/libcrc32c.ko
+> insmod /tmp/crc32c.ko
+
+Puedes ver los módulos de los que depende mediante:
+
+modinfo /tmp/iscsi_tcp.ko | grep -i depends
+
+> pero ese dichoso modulo no quiere cargar pudieran los mas guru en estas
+> cuestiones darme una mano, me estoy guiando por este link:
+> http://www.david-web.co.uk/blog/?p=188
+
+Ojo, que ese enlace es del 2008, quizá esté pensando para una versión 
+distinta de Debian (Lenny).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k377nm$cqa$1@ger.gmane.org
+

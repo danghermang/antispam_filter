@@ -1,0 +1,82 @@
+Subject:Re: Proxy offline
+
+
+
+El 10/12/2012, a las 10:21, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=B3=
+:
+
+> El Sun, 09 Dec 2012 11:27:13 -0600, Francisco Eduardo Ascencio Dominguez
+> escribi=C3=B3:
+>=20
+> (ese html...)
+>=20
+>> El 09/12/2012, a las 09:31, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=
+=B3:
+>=20
+> (...)
+>=20
+>>> Pues yo empezar=C3=ADa por lo b=C3=A1sico: mira a ver si tienes cargadas=
+ las
+>>> reglas de iptables ("iptables -L") y revisa el archivo de configuraci=C3=
+=B3n
+>>> de squid.
+>=20
+>> Ok seg=C3=BAn yo cargo las reglas pero verifico que reglas tengo en iptab=
+les
+>> (iptables -L) y me arroga esto ..
+>>=20
+>>=20
+>> Chain INPUT (policy ACCEPT)
+>> target     prot opt source               destination
+>>=20
+>> Chain FORWARD (policy ACCEPT)
+>> target     prot opt source               destination
+>>=20
+>> Chain OUTPUT (policy ACCEPT)
+>> target     prot opt source               destination
+>>=20
+>> que debo hacer o como debo cargar las reglas ?
+>=20
+> (...)
+>=20
+> Pues debes hacer lo que pone en las instrucciones que es cargar las=20
+> reglas al iniciar el sistema ya que eso no se hace autom=C3=A1ticamente. M=
+=C3=A1s=20
+> concretamente, dice:=20
+>=20
+> "(...) ACTUALIZACI=C3=93N: Si deseamos hacer que las reglas iptables se=20=
+
+> carguen autom=C3=A1ticamente cada vez que reiniciemos el sistema, pueden v=
+er=20
+> el siguiente tutorial: Restaurar las iptables en Ubuntu autom=C3=A1ticamen=
+te."
+>=20
+> Pero antes de eso, aseg=C3=BArate de que con las reglas cargadas y activad=
+as=20
+> el modo transparente funciona correctamente. Si es as=C3=AD, sigue los pas=
+os=20
+> indicados para hacer que se carguen al inicio.
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/ka526q$hck$1@ger.gmane.org
+>=20
+>=20
+
+pero puedo poner la reglas temporal ? asi es que lo estoy haciendo. o qw pue=
+do usar aparte de iptables ?=20=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU0-SMTP58579CA36AEC2BFC9538BDC5490@phx.gbl
+

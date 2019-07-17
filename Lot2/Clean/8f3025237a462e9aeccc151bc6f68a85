@@ -1,0 +1,41 @@
+Subject:Re: Configuration =?UTF-8?B?csOpc2VhdQ==?= dans un VLAN
+Le Sat, 08 Dec 2012 20:40:18 +0100,
+Pascal Hambourg <pascal@plouf.fr.eu.org> a =C3=A9crit :
+>David BERCOT a =C3=A9crit :
+>> Le Sat, 08 Dec 2012 18:18:18 +0100,
+>>>>
+>>>> Or, une fois cette configuration mise en place (et apparemment
+>>>> bonne), impossible de joindre les ESXi...
+>
+>Au fait, comment se caract=C3=A9rise *d'un point de vue r=C3=A9seau IP/eth=
+ernet*
+>"joindre les ESXi" et "impossible de..." pr=C3=A9cis=C3=A9ment ?
+
+OK, je d=C3=A9veloppe un peu... Donc, =C3=A0 partir d'un ESXi, un ping vers=
+ un
+autre ESXi r=C3=A9pond...
+
+>>> Le port du switch connect=C3=A9 =C3=A0 la station Debian est-il configu=
+r=C3=A9
+>>> pour le trafic tagg=C3=A9 de ce VLAN ?
+>>=20
+>> En effet, il l'est... D'ailleurs, les ESXi se "voient" entre eux...
+>
+>Les ESXi sont connect=C3=A9s sur d'autres ports du switch, dont je ne vois
+>pas en quoi c'est pertinent. Ou alors je n'ai pas tout compris.
+
+J'ai configur=C3=A9 tous les ports du switch de la m=C3=AAme mani=C3=A8re e=
+t, m=C3=AAme en
+changeant de port, le r=C3=A9sultat est identique...
+
+David.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121208220727.181ed55b@debian-david
+

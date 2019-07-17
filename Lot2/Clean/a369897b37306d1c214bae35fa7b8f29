@@ -1,0 +1,48 @@
+Subject:Re: Las redes no se inician correctamente al arranque. [SOLUCIONADO]
+2012/10/28 Debian GMail <javier.debian.bb.ar@gmail.com>:
+> Un =C3=A1rea de la Administraci=C3=B3n P=C3=BAblica Nacional de Argentina=
+, con
+> reparticiones en todo el pa=C3=ADs.
+> Lo cual, considerando la fauna imperante, de la que soy parte, tratar de
+> "animal" a un empleado p=C3=BAblico... a veces es insultar a las nobles b=
+estias.
+Es la que me va a dar dolores de cabeza cuando me jubile o la que no
+me deja comprar dolares....?
+
+
+> El "post-up route add -net 10.0.0.0..." debo agregarlo s=C3=AD o s=C3=AD,=
+ porque si no
+> no puedo resolver la direcci=C3=B3n del PDC/BDC de la red. Me asigna la I=
+P
+> 10.6.1.181, pero el PDC est=C3=A1 en 10.1.0.231 y un BDC en 10.1.12.201, =
+y son
+> los que deben resolver usuario/password. Al parecer, los clientes Windows=
+ no
+> tienen este "inconveniente".
+Haz un "route print" en un Windows y compara con un ip route show de un Lin=
+ux.
+
+>
+> Ahora, cuando arranca el sistema, deja el enrutamiento como corresponde.
+>
+> # route
+> Kernel IP routing table
+> Destination Gateway         Genmask       Flags Metric Ref Use Iface
+> default     routereb8e88.lo 0.0.0.0       UG    0      0   0   eth1
+> 10.0.0.0    10.6.1.254      255.0.0.0     UG    0      0   0   eth0
+> 10.6.1.0    *               255.255.255.0 U     0      0   0   eth0
+Eso es porque en realidad est=C3=A1n haciendo subnetting y tu red local es =
+/24
+
+
+Saludos
+--=20
+"La Voluntad es el =C3=BAnico motor de nuestros logros"
+http://ngen.com.ar/blog
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CACJp8-rSeNSs_bG8NJzd+FoMHVBo=RnWjq8a-cmBwCqawXemLg@mail.gmail.com
+

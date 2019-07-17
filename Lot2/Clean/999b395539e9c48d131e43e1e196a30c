@@ -1,0 +1,51 @@
+Subject:Re: Pas de son ou non =?UTF-8?B?csOpZ2xhYmxlIHN1aXZhbnQgbGEgY2Fy?=
+	=?UTF-8?B?dGU=?=
+On 08/30/2012 04:20 PM, Bzzz wrote:
+> On Thu, 30 Aug 2012 13:24:56 +0200
+> andre_debian@numericable.fr wrote:
+>>
+>> "Creative Labs SB Live!"
+>>
+>> Elle est bien détectée par Debian-Squeeze.
+>> Mais impossible d'avoir le moindre son.
+>
+>>
+>> 07:00.0 Multimedia audio controller: Creative Labs SB Live!
+>> EMU10k1 (rev 0a) -----------------------------------
+>>
+>> Si je choisis l'autre carte audio (intégrée à la carte mère),
+>> j'ai le son mais impossible de le régler
+>> sauf par le bouton volume du haut-parleur.
+>
+> C'est souvent dû à ce qu'il-y-a 2 contrôleurs sur la CS, si le
+> bon n'est pas sélectionné il est impossible de régler quoique
+> ce soit (comme pour les micros).
+> A ma connaissance, le seul mixer graphique qui "voit" bien ça est
+> kmix.
+D'autres te diront alsamixer, gkrellm, etc...
+>
+> Par ailleurs, les emu10k1 nécessitent un fichier de firmware pour
+> fonctionner correctement.
+>
+J'ai une carte SB live driver emu10k1, pas besoin de firmware. Le module 
+kernel suffit.
+
+C  peut-être un pb de carte prioritaire
+tester
+cat /proc/asound/cards
+et
+aplay -L
+
+
+-- 
+Maderios
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/503F806E.602@gmail.com
+

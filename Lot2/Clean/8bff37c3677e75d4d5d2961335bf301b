@@ -1,0 +1,24 @@
+Subject:Re: Iceweasel 17.0 problem and solution
+Hello, 
+
+
+
+> You might even loose *all* of your history entries, bookmarks,
+> cookies, extensions states, form history, and as far as I can seen
+> even stored passwords (signons.sqlite) if the according databases are
+> corrupt because of that after a powerloss. And I expect that this is
+> more riskier than most people want:
+> 
+> http://kb.mozillazine.org/About:config_entries#Toolkit.
+
+It's a bit off-topic but would a configured sync help against this corrupted files or would the corrupted sql files probably get synced on restart?
+
+best regards
+Rai
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/16273922.12378.1354109241254.JavaMail.javamailuser@localhost
+

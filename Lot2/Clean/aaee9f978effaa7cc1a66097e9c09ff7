@@ -1,0 +1,86 @@
+Subject:Re: Nvidia et xorg.conf
+Bonjour,
+
+Personnellement, je n'ai que ça dans mon xorg.conf :
+Section "Device"
+     Identifier "Graphic Card"
+     Driver         "nvidia"
+EndSection
+
+Et cela semble suffire ! mais je n'ai pas ce modèle là...
+
+J'ai trouvé cela si ça peut t'aider : http://linuxhcl.com/browse/product?id=7779
+
+Sinon, en experimental, les derniers pilotes Nvidia sont dispo...
+
+++
+
+Mourad
+
+Le 25/11/2012 18:19, Franck Delage a écrit :
+> Salut à tous,
+>
+> Comme assez régulièrement, je reviens vers vous avec un problème de driver de carte vidéo.
+>
+> J'ai un tout nouveau laptop, Asus N76VM.
+> Carte graphique : lspci me donne :
+> 01:00.0 VGA compatible controller: NVIDIA Corporation GeForce GT 630M (rev a1)
+>
+> J'ai donc suivi la méthode très simple que m'avait donné ici même Mourad : installer 
+> nvidia-kernel-dkms, nvidia-glx, nvidia-xconfig et nvidia-settings.
+>
+> Tout se passe correctement lors de l'installation de dkms.
+>
+> Je crée un xorg.conf dans /etc/X11. J'ai essayé avec nvidia-xconfig ou "à la main", 
+> minimaliste avec juste une section "device".
+>
+> Quel que soit le xorg.conf, lorsque que je redémarre, X ne démarre pas, je me retrouve 
+> avec un écran noir avec un petit curseur. Obligé de redémarrer en recovery, supprimer le 
+> xorg.conf et redémarrer.
+>
+> X démarre ensuite correctement, mais le driver nvidia n'est pas chargé.
+>
+> Le résultat de quelques commandes :
+>
+> # grep -B4 "Module class: X.Org Video Driver" /var/log/Xorg.0.log
+> [    21.947] (II) LoadModule: "intel"
+> [    21.948] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+> [    21.952] (II) Module intel: vendor="X.Org Foundation"
+> [    21.952]    compiled for 1.12.3.902, module version = 2.19.0
+> [    21.952]    Module class: X.Org Video Driver
+> --
+> [    21.952] (II) LoadModule: "vesa"
+> [    21.952] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+> [    21.953] (II) Module vesa: vendor="X.Org Foundation"
+> [    21.953]    compiled for 1.12.1, module version = 2.3.1
+> [    21.953]    Module class: X.Org Video Driver
+>
+> # lsmod | grep nvidia
+> nvidia              11197277  0
+> i2c_core               23876  7 
+> i2c_algo_bit,i2c_i801,videodev,drm,drm_kms_helper,i915,nvidia
+>
+> Ce qui est étonnant, c'est que le module nvidia semble être chargé, mais inactif, sans 
+> doute par le fait qu'il n'y a plus de xorg.conf qui l'appelle.
+>
+> Bon, mon KDE fonctionne, mais aucun effet 3D n'est disponible, dommage parce que ma 
+> carte vidéo est bonne, je crois.
+>
+> Merci de vos lumières et bonne fin de dimanche (ou début de lundi).
+>
+> Franck.
+>
+> -- 
+> Franck Delage
+> Développement et hébergement web
+> www.web82.net <http://www.web82.net>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B29B39.7030005@nativobject.net
+

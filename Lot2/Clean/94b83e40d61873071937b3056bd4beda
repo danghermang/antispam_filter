@@ -1,0 +1,30 @@
+Subject:Re: Configuration du serveur tftpd-hpa
+On Tue, 20 Nov 2012 15:17:53 +0100
+Christophe Maquaire <christophe.maquaire@free.fr> wrote:
+
+J'ai aussi oubli=E9:
+
+root@albert:/home/christophe/testftp# iptables -L
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination        =20
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination        =20
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination    =20
+
+Comme =E7a, c'est clair...
+--=20
+Christophe Maquaire <christophe.maquaire@free.fr>
+Happy Debian User
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121120155320.fb5f40525737a3769f10c40c@free.fr
+

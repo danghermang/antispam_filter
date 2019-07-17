@@ -1,0 +1,100 @@
+Subject:Re: PC =?UTF-8?B?w6l0ZWludA==?= qui consomme
+On Fri, 2 Nov 2012 15:00:26 +0100
+Fran=C3=A7ois Boisson <user.anti-spam@maison.homelinux.net> wrote:
+
+>=20
+> Si tu me donnes un moyen de v=C3=A9rifier =C3=A7a je suis preneur,  j'ai =
+essay=C3=A9 de
+> recompiler le noyau pour tracer l'arr=C3=AAt =C3=A0 coup de printk bien p=
+lac=C3=A9s et en
+> filamant l'=C3=A9cran (puisqu'il s'=C3=A9teint =C3=A0 la fin) et extrayan=
+t les images mais
+> c'est un flop, la s=C3=A9quence d'arr=C3=AAt est finalement tr=C3=A8s cou=
+rte et tout semble
+> dans la pr=C3=A9paration.
+
+C'est d=C3=A9j=C3=A0 =C3=A7a.
+Ne se mettrait-il pas en suspend2RAM au lieu de suspend2DISK?
+=20
+>=20
+>  J'ai essay=C3=A9 des noyaux 3.0, 3.1, 3.2, 3.3, 3.5.2 et 3.5.4. De ce co=
+t=C3=A9 l=C3=A0 =C3=A7a
+> n'a rien donn=C3=A9.  Le probl=C3=A8me a lieu sur des gentoo, des debian =
+sur diff=C3=A9rents
+> portables mais pas sur une lenny avec un 2.6.37 32 bits (clefagreg) et do=
+nc
+> sur une Ubuntu precise avec un noyau 3.3. J'ai d=C3=A9pos=C3=A9 un messag=
+e sur
+> linux-acpi mais qui n'a pas suscit=C3=A9 un int=C3=A9r=C3=AAt =C3=A9norme=
+.=20
+
+Hmm, as-tu 'gad=C3=A9 sur le web si tu trouvais une liste exhaustive de tou=
+s les
+pkgs concern=C3=A9s par l'hibernation?
+=20
+>=20
+> Ben oui, et tu chercherais o=C3=B9? J'ai =C3=A9pluch=C3=A9 la configurati=
+on acpi, j'ai
+> multipli=C3=A9 les changements de configuration =C3=A0 l'arr=C3=AAt,
+
+Je ne pense pas que =C3=A7a soit ACPI.
+
+> une seule chose marche:
+> si je red=C3=A9marre la machine et l'arr=C3=A8te au menu de grub, le ph=
+=C3=A9nom=C3=A8ne n'a pas
+> lieu. J'ai =C3=A9galement blacklist=C3=A9 les modules WIFI (pour le Wakeo=
+nWLAN), etc.
+
+Wai, mais si mes souvenirs sont bons, le menu grub c'est quand la machine
+n'a pas charg=C3=A9e son kernel ni OS; mais c'est d=C3=A9j=C3=A0 une =C3=A9=
+limination :)
+=20
+>=20
+> Sur un port=C3=A9g=C3=A9 (ultrabook), la th=C3=A9orie est bonne mais la p=
+ratique? Comment
+> ferais tu pour voir si le SSD est aliment=C3=A9 par exemple? Tu exploses =
+la nappe?
+
+=C3=87a n'est pas avec ce que bouffe un SSD que =C3=A7a te videra aussi vit=
+e la batterie.
+
+Pt=C3=AAt un truc: un watch/une loop toutes les secondes du hard (genre hwi=
+nfo, ou
+autre parce que celui-ci est lent) qui balance le r=C3=A9sultat dans un fic=
+hier;
+=C3=A7a peut pt=C3=AAt t'aider =C3=A0 trouver ce qui n'est pas arr=C3=AAt=
+=C3=A9.
+
+Par ailleurs, c'est _aussi_ un PB rencontr=C3=A9 par certains utilisateurs =
+de w$7.
+
+Sinon, certains forums parlent d'une d=C3=A9sactivation du WOL; v=C3=A9rifi=
+e aussi si
+le timer de r=C3=A9veil et le r=C3=A9veil par une touche ou une combinaison=
+ de touches
+ne serait pas positionn=C3=A9 dans le BIOS.
+
+V=C3=A9rifie aussi ce qui se passe avec les drivers: sont-ils d=C3=A9charg=
+=C3=A9s et recharg=C3=A9s
+au d=C3=A9marrage ou non; et 'gade si certaines options (pas sp=C3=A9cialem=
+ent desdits
+drivers) ne seraient pas positionn=C3=A9es (/etc/modprobe.d/*) diff=C3=A9re=
+mment suivant
+la distro.
+
+--=20
+* Clara has joined #XCHat
+<Clara> bonjour tout le monde
+<jojo> bonjour :)
+<christophe> euh Clara...Morgane ? ^^
+<Clara> nan arretez sa devient lourd , je ne suis pas chanteuse
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121102153313.66456247@anubis.defcon1
+

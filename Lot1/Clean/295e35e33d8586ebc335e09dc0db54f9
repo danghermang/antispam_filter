@@ -1,0 +1,73 @@
+Subject:Re: opensource admin camaras ip
+El d=EDa 1 de diciembre de 2012 12:37, Camale=F3n <noelamac@gmail.com> escr=
+ibi=F3:
+> El Sat, 01 Dec 2012 09:45:28 -0500, Mauricio Erazo Mejia escribi=F3:
+>
+>> Cordial saludo,
+>
+> Ser=EDan m=E1s cordiales si enviaras el mensaje en formato texto ;-)
+>
+>> Estoy buscando un software open source que administre C=E1maras IP PTZ d=
+e
+>> diversas marcas, la idea es poder integrar en un mismo software la
+>> administraci=F3n, visualizaci=F3n y grabaci=F3n de c=E1maras de varios
+>> fabricantes y no estar solo con el software del fabricante de cada una
+>> de ellas.
+>
+> Pues hace poco se habl=F3 del tema. Pero b=E1sicamente depender=E1 del so=
+porte
+> que tengan los componentes de cctv que uses con las aplicaciones elegidas
+> ("zoneminder" es de las m=E1s completas).
+>
+>> De antemano ofrezco excusas porque estoy seguro que en esta lista ya se
+>> ha tratado este tema, pero la verdad no encuentro el hilo, alguna vez vi
+>> que exist=EDa  lo que estoy buscando, pero en ese momento no lo necesita=
+ba
+>> y no le preste mayor atenci=F3n.
+>
+> Puedes usar el buscador:
+>
+> http://lists.debian.org/cgi-bin/search?P=3Dcamara+ip&DEFAULTOP=3Dor&sort=
+=3Drevdate&HITSPERPAGE=3D100
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k9d86u$ccj$3@ger.gmane.org
+>
+
+Definitivamente zoneminder
+mas completo, por el principio de funcionamiento. cualquier camara ip
+deve funcionar
+por ftp, http, etc
+soporta webcam.
+placas de captura
+streaming
+
+o sea casi cualquier opcion
+
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54ZUZcvAMEiGVH5i4pejKGbR-kJEXBeMHNwCBpZZS9jL2Q@mail.gmail.com
+

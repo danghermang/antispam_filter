@@ -1,0 +1,34 @@
+Subject:Re: Consulta sobre paquetes
+El Mon, 12 Nov 2012 12:20:05 -0300, Marcos Russo escribió:
+
+(ese html...)
+
+> Buenos días  tengo una lista de paquetes y quiero de alguna forma que me
+> los baje y también sus dependencias para luego armar el pool de
+> paquetes.
+> 
+> Alguno tiene una idea que puedo usar o que hay ?
+
+Hum... las dependencias de paquetes las gestionan los administradores de 
+paquetes (apt/aptitude/synaptic) por lo que me parece que manualmente 
+poco podrás hacer salvo resolver las dependencias directas, es decir:
+
+Paquete A depende de paquete B → descargas paquete B [ok]
+Paquete B depende de paquete C → aquí te quedas [err]
+
+Te puede interesar este hilo:
+
+Downloading a deb package and its dependencies in one go
+http://forums.debian.net/viewtopic.php?p=327107
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7r588$l1q$6@ger.gmane.org
+

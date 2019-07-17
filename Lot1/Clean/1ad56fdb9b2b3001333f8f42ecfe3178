@@ -1,0 +1,42 @@
+Subject:Re: Sin entorno =?ISO-8859-1?Q?gr=E1fico_tras_actualizar_e?=
+	=?ISO-8859-1?Q?l_kernel_en_Debian_Wheezy?=
+El 07/11/12 15:57, "José Manuel (EB8CXW)" escribió:
+> Hola
+>
+> Tengo Debian testing, actualice el sistema y entre las actualizaciones 
+> estaba el nuevo kernel linux 3.2.0-4-686-pae, reinicie el sistema y mi 
+> sorpresa es que no aparece el entorno gráfico.
+> He buscado en Google, pero no encuentro nada o no hago una búsqueda 
+> correcta por lo que he tenido que volver al anterior kernel
+> linux 3.2.0-3-686-pae
+> Me podíais indicar cuál es el error y como solucionarlo para utilizar 
+> el nuevo kernel. Gracias de antemano.
+>
+  Hola colega José Manuel. En mi caso fue peor pues directamente no 
+arrancó nada.
+Por suerte la actualización no borra el kernel anterior así que sólo 
+tuve que correr
+el administrador de arranque para ordenarle al GRUB que inicie en la 
+opción del
+3.2.0-3-686-pae, ese funciona bien.
+Quizás recuerdes que en la actualización se leía un mensaje que 
+expresaba la puesta
+a prueba de ese kernel y el favor de reportar cualquier problema. En la 
+rama Testing
+es posible esas cosas.
+
+Saludos.
+
+-- 
+Sergio Bessopeanetto
+Buenos Aires, Argentina
+Skype: sergio.bess
+msn: sergiebess@hotmail.com
+Jabber: sergio.bess@jabber.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509C331A.8000808@myopera.com
+

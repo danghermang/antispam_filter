@@ -1,0 +1,277 @@
+Subject:W3C Public Newsletter, 2012-09-17
+Dear W3C Public Newsletter Subscriber,
+
+The 2012-09-17 version of the W3C Public Newsletter is online:
+  http://www.w3.org/News/Public/pnews-20120917
+
+A simplified plain text version is available below.
+
+Ian Jacobs, W3C Communications Team
+
+-----------------------------------
+Web Cryptography API Draft Published
+
+   13 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9564
+
+   The Web Cryptography Working Group has published the First
+   Public Working Draft of "Web Cryptography API." This
+   specification describes a JavaScript API for performing basic
+   cryptographic operations in web applications, such as hashing,
+   signature generation and verification, and encryption and
+   decryption. Additionally, it describes an API for applications
+   to generate and/or manage the keying material necessary to
+   perform these operations. Key storage is provided for both
+   temporary and permanent keys. Access to keying material is
+   contingent on the same origin policy. Uses for this API range
+   from user or service authentication, document or code signing,
+   and the confidentiality and integrity of communications. Learn
+   more about the Security Activity.
+
+   http://www.w3.org/2012/webcrypto/
+   http://www.w3.org/TR/2012/WD-WebCryptoAPI-20120913/
+   http://www.w3.org/Security/
+
+Simple Delivery Profile for Closed Captions (US) Draft Published
+
+   13 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9563
+
+   The Timed Text Working Group has published the First Public
+   Working Draft of "Simple Delivery Profile for Closed Captions
+   (US)." This document defines the behavior expected of a
+   presentation processor using the player constraints for such an
+   online delivery profile. The Simple Online Delivery profile is
+   focused on streamlined delivery of closed captions on the
+   Internet. This interoperability profile supports core TTML
+   features to deliver content originating legacy formats such as
+   CEA-608 and -708 content, and is targeted primarily for
+   delivery in US markets. The Simple Delivery Profile for Closed
+   Captions focuses interoperability using TTML 1.0 to support
+   delivery of closed captions for video content. Other profiles
+   based on TTML 1.0 may target other types of subtitles such as
+   on-screen text or graphics. This interoperability profile is a
+   proper subset of TTML 1.0 plus features required to support US
+   Government closed captioning requirements for online
+   presentation. Learn more about the Video in the Web Activity.
+
+   http://www.w3.org/AudioVideo/TT/
+   http://www.w3.org/TR/2012/WD-ttml10-sdp-us-20120913/
+   http://www.w3.org/2008/WebVideo/
+
+Three drafts published by the CSS Working Group
+
+   11 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9562
+
+   The Cascading Style Sheets (CSS) Working Group has published
+   three Working Drafts today.
+
+   http://www.w3.org/Style/CSS/members
+     * CSS Conditional Rules Module Level 3. This module contains
+       the features of CSS for conditional processing of parts of
+       style sheets, conditioned on capabilities of the processor
+       or the document the style sheet is being applied to. It
+       includes and extends the functionality of CSS level 2,
+       which builds on CSS level 1. The main extensions compared
+       to level 2 are allowing nesting of certain at-rules inside
+       '@media', the addition of the '@supports' and '@document'
+       rules for conditional processing.
+     * CSS Image Values and Replaced Content Module Level 4. This
+       module contains the features of CSS level 4 relating to the
+       <image> type and replaced elements. It includes and extends
+       the functionality of CSS Image Values and Replaced Content
+       Module Level 3. The main extensions compared to level 3 are
+       several additions to the ‘<image>’ type, additions to the
+       ‘<gradient>’ type, extensions to the ‘image()’ function,
+       definitions for interpolating several ‘<image>’ types, and
+       several properties controlling the interaction of replaced
+       elements and CSS's layout models.
+     * CSS Transforms. CSS transforms allows elements styled with
+       CSS to be transformed in two-dimensional or
+       three-dimensional space. This specification is the
+       convergence of the CSS 2D transforms, CSS 3D transforms and
+       SVG transforms specifications.
+
+   Learn more about the Style Activity.
+
+   http://www.w3.org/Style/
+
+HTML+RDFa 1.1 Draft Published
+
+   11 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9561
+
+   The RDFa Working Group has published a Working Draft of
+   "HTML+RDFa 1.1."This specification defines rules and
+   guidelines for adapting the RDFa Core 1.1 and RDFa Lite 1.1
+   specifications for use in HTML5 and XHTML5. The rules defined
+   in this specification not only apply to HTML5 documents in
+   non-XML and XML mode, but also to HTML4 and XHTML documents
+   interpreted through the HTML5 parsing rules. Learn more about
+   the Semantic Web Activity.
+
+   http://www.w3.org/2010/02/rdfa/
+   http://www.w3.org/TR/2012/WD-rdfa-in-html-20120911/
+   http://www.w3.org/2001/sw/
+
+Last Call: Constraints of the Provenance Data Model
+
+   11 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9560
+
+   The Provenance Working Group has published a Last Call Working
+   Draft of "Constraints of the Provenance Data Model." This
+   document defines a subset of PROV instances called valid PROV
+   instances. The intent of validation is ensure that a PROV
+   instance represents a history of objects and their interactions
+   which is consistent, and thus safe to use for the purpose of
+   logical reasoning and other kinds of analysis. Valid PROV
+   instances satisfy certain definitions, inferences, and
+   constraints. These definitions, inferences, and constraints
+   provide a measure of consistency checking for provenance and
+   reasoning over provenance. They can also be used to normalize
+   PROV instances to forms that can easily be compared in order to
+   determine whether two PROV instances are equivalent. Validity
+   and equivalence are also defined for PROV bundles and
+   documents. Comments are welcome through 10 October. Learn more
+   about the Semantic Web Activity.
+
+   http://www.w3.org/2011/prov/
+   http://www.w3.org/TR/2012/WD-prov-constraints-20120911/
+   http://www.w3.org/2001/sw/
+
+Mobile Accessibility Resources Updated
+
+   10 September 2012 | Archive
+
+   http://www.w3.org/News/2012#entry-9559
+
+   The Education and Outreach Working Group (EOWG) published
+   updated resources related to mobile accessibility. They cover
+   how mobile accessibility is addressed in existing W3C
+   standards/guidelines, and how the overlap between mobile web
+   design/development and accessibility strengthens the business
+   case. Learn more from the Mobile Accessibility Resources e-mail
+   and read about the Web Accessibility Initiative (WAI).
+
+   http://www.w3.org/WAI/EO/
+   http://lists.w3.org/Archives/Public/w3c-wai-ig/2012JulSep/0351
+   http://www.w3.org/WAI/
+
+   More news: http://www.w3.org/News/archive
+
+Workshops
+
+     * 2012-11-14 (14 NOV) – 2012-11-15 (15 NOV)
+       Shift into High Gear on the Web: W3C Workshop on Web and
+       Automotive
+       http://www.w3.org/2012/08/web-and-automotive/
+       Rome, Italy
+       Hosted by Intel and Sponsored by Webinos
+       W3C’s Open Web Platform (OWP) is driving this and other
+       industry transformations. The promise of the early
+       information superhighway is being fulfilled. Whether
+       tethering a driver’s smartphone or tablet to work with a
+       car--or embedding technology into the car itself--there’s
+       no need to reinvent the wheel. The Web can take you there.
+       Participants in this workshop will have the opportunity to
+       share their own perspectives, requirements, and ideas to
+       ensure that emerging global technology standards meet the
+       needs of the Web and Automotive industries.
+
+W3C Blog
+
+     * None. Read the W3C Blog Archives
+       http://www.w3.org/QA/
+
+Upcoming Talks
+
+     * 2012-09-21 (21 SEP)
+       Web Accessibility in the Mobile Context
+       by Shadi Abou-Zahra
+       MobileHCI Workshop on Mobile Accessibility
+       http://mobile-accessibility.di.fc.ul.pt/index
+       San Fransisco, USA
+     * 2012-09-28 (28 SEP)
+       Accessible Design with HTML5
+       by Rajesh Lal
+       2012 HOW Interactive Design
+       http://howinteractiveconference.com/ehome/index.php?eventid
+       =34675
+       Washington D.C., USA
+     * 2012-10-03 (3 OCT)
+       Is HTML5 the future?
+       panel features Philipp Hoschka
+       appsworld
+       http://www.apps-world.net/europe/index.php
+       London, United Kingdom
+     * 2012-10-03 (3 OCT)
+       Linked Data for Science and Industry
+       keynote by Michael Hausenblas
+       TUT W3C Web Technology Day: Linked Data for Science and
+       Industry
+       http://www.w3c.tut.fi/events/2012/1003-techday/
+       Tampere, Finland
+     * 2012-10-04 (4 OCT)
+       More CSS secrets: Another 10 things you may not know about
+       CSS
+       by Lea Verou
+       Fronteers
+       http://fronteers.nl/congres/2012
+       Amsterdam, The Netherlands
+     * 2012-10-09 (9 OCT)
+       Les technologies Web de demain au service du multi-device
+       by Philipp Hoschka
+       Interfaces 2012
+       http://www.ccmbenchmark.com/conference/671-interfaces-2012
+       Paris, France
+
+W3C Membership
+
+   Lear more about the benefits of W3C Membership. If you or your
+   organization cannot join W3C, we invite you to support W3C
+   through a contribution.
+
+   http://www.w3.org/Consortium/membership-benefits
+   http://www.w3.org/Consortium/join
+   http://www.w3.org/Consortium/sup
+
+New Members
+
+     * Inweb - National Institute of Science and Technology for
+       the Web
+     * Programa de Pos-Graduacao em Informatica, Universidade
+       Federal do Espirito Santo
+
+About W3C
+
+   The World Wide Web Consortium (W3C) is an international
+   consortium where Member organizations, a full-time staff, and
+   the public work together to develop "Web standards." Read
+   about W3C.
+
+   http://www.w3.org/TR/
+   http://www.w3.org/Consortium/
+
+Receiving the Newsletter
+
+   Bookmark this edition or the latest Public Newsletter and see
+   past issues and press releases. Subscribe to receive the Public
+   Newsletter by email. If you no longer wish to receive the
+   Newsletter, send us an unsubscribe email. Comments? Write the
+   W3C Communications Team (w3t-comm@w3.org).
+
+   http://www.w3.org/News/Public/pnews-20120917
+   http://www.w3.org/News/Public/
+   http://lists.w3.org/Archives/Public/w3c-announce/latest
+   http://www.w3.org/Press/
+   mailto:w3c-announce-request@w3.org?subject=Subscribe
+   mailto:w3c-announce-request@w3.org?subject=Unsubscribe
+   mailto:w3t-comm@w3.org
+

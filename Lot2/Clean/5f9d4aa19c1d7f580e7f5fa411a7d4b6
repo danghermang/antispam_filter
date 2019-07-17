@@ -1,0 +1,22 @@
+Subject:Re: youtube-dl needs updating to be useful
+On Mon, 1 Oct 2012 09:58:08 +0100
+Nick <debian-backports@njw.me.uk> wrote:
+
+> The version of youtube-dl in backports (2012.01.05) no longer works 
+> with the youtube site, hence it is not useful. Debian bug #688997 
+> updates the package for sid, hopefully it would be possible and easy 
+> to bring it into backports too.
+> 
+
+
+I'm not willing to update this until it is fixed in testing.  It looks
+like the newer version introduces an RC bug (#689493) which needs to be
+taken care of before even considering letting the new upstream version
+have a freeze exception.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121030235305.59306c56@dev.queued.net
+

@@ -1,0 +1,38 @@
+Subject:[svnbook] r4299 committed - * en/book/ch03-advanced-topics.xml...
+Revision: 4299
+Author:   cmpilato@gmail.com
+Date:     Thu Sep  6 07:49:45 2012
+Log:      * en/book/ch03-advanced-topics.xml
+   Warn about the dangers of keyword substitution in binary file
+   formats, and remove a parenthetical expression which could imply the
+   reverse.
+http://code.google.com/p/svnbook/source/detail?r=4299
+
+Modified:
+  /trunk/en/book/ch03-advanced-topics.xml
+
+=======================================
+--- /trunk/en/book/ch03-advanced-topics.xml	Thu Sep  6 07:34:45 2012
++++ /trunk/en/book/ch03-advanced-topics.xml	Thu Sep  6 07:49:45 2012
+@@ -2382,8 +2382,14 @@
+        performing substitutions into complex file formats that
+        themselves use fixed-length fields for data, or for which the
+        stored size of a given data field is overbearingly difficult to
+-      modify from outside the format's native application (as is true
+-      for the older Microsoft Office document formats).</para>
++      modify from outside the format's native application.  Of course,
++      where binary file formats are concerned, you must always take great
++      care that any keyword substitution you introduce&mdash;fixed-length
++      or otherwise&mdash;does not violate the integrity of that format.
++      While it might sound easy enough, this can be an astonishingly
++      difficult task for most of the popular binary file formats in use
++      today, and <emphasis>not</emphasis> something to be undertaken by
++      the faint of heart!</para>
+
+      <warning>
+        <para>Be aware that because the width of a keyword field is
+
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

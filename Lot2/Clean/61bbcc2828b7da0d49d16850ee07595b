@@ -1,0 +1,55 @@
+Subject:Re: Squid con 2 tarjetas de red y 2 internet's
+El default gw es la ruta por donde van a salir todas las conexiones
+que no sean de la misma lan, por eso todo intenta salir por esa ip, ya
+que es ser la segunda tarjeta de red en cargar, en ese caso ser=EDa
+mejor utilizar iptables para que las conexiones de la ip 1, salgan por
+la otra ip.
+
+El d=EDa 7 de octubre de 2012 17:08, Memo Robles <kinr_cs89@hotmail.com> es=
+cribi=F3:
+> Hola, buenas tardes.
+>
+> -Bueno les platico, tengo 2 salidas a internet (192.168.1.253 y
+> 192.168.1.254).
+> -Instale debian + squid stable en un servidor.
+>
+> -Configuro el servidor con dos tarjetas de red
+>
+>          *eth0
+>                address  192.168.1
+>                gateway 192.168.1.254
+>
+>           *eth1
+>                address 192.168.1.2
+>               gateway 192.168.1.253
+>
+>
+> -Ya funciona las 2 salidas, ya funciona squid con las 2 ips del server (.=
+1 y
+> .2).
+>
+> -Tengo pc's clientes, a la mitad le configuro para que utilize proxy
+> 192.168.1.1:3128; para que salgan por el internet .254
+> -Pero a la otra mitad les configuro para que utilize proxy 192.168.1.2:31=
+28
+> para que salgan por el internet .253
+>
+> "Aqui esta lo que no entiendo: TODO SALE POR EL INTERNET .254" osea por e=
+l
+> eth0
+>
+> Alguien sabe por que? tendre que utilizar iptables?
+> por favor f1 jeje
+>
+> De antemano gracias
+>
+>
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJUzirEYNG61OSfu7WjQkeroDSBaXaJZPwpiqK-_gF5dYJoODA@mail.gmail.com
+

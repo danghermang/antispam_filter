@@ -1,0 +1,15 @@
+Subject:Re: [rlug] Output expect
+012/10/30  <theloger@gmail.com>:
+> Sub send "exit\r" mai pune un exit.
+>
+> Sent via mobile phone.
+>
+
+Nu merge cu exit; logul ramane cu linia cu spawn ssh.
+De asemenea, nici cu interact nu functioneaza cum ar trebui, pentru ca
+scriptul de expect il apelez cu &, iar interactul tot asteapta un
+input.
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

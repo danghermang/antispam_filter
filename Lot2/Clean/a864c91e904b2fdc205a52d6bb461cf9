@@ -1,0 +1,67 @@
+Subject:Re: [Hsqldb-user] Enhancements in New Snapshot Jar
+You are right. ADD_MONTHS has not been implemented. Should be working in
+the next snapshot.
+
+It generally works like A_DATE + N MONTH but if A_DATE is the last day
+of a short month, it returns the last day of the target month. ( date
+'2013-02-28' + 1 month compared to add_months(date '2013-02-28', 1) will
+show different results)
+
+There are some other new Oracle style functions such as TO_DSINTERVAL,
+TO_YMINTERVAL, SYS_EXTRACT_UTC, SESSIONTIMEZONE, NUMTODSINTERVAL,
+NUMTOYMINTERVAL, NEW_TIME, DBTIMEZONE etc. that are working. Most of
+these functions simply fill the gaps left by the lack of proper SQL
+Standard INTERVAL support in Oracle syntax. I will update the Guide by
+the next snapshot to cover the recent improvements.
+
+Fred
+
+
+On Thu, Nov 1, 2012, at 20:16, Sliderule wrote:
+> Fred:
+> 
+> Downloaded and using snapshot version 24 as:
+> 
+>    hsqldb-20121101.183908-24.jar
+> 
+> Just to report back, not getting results from function ADD_MONTHS as
+> expected.
+> 
+> The following SQL:
+> 
+> Select CURRENT_DATE as "Cur Date", CURRENT_TIMESTAMP as "Cur Timestamp", 
+> ADD_MONTHS(CURRENT_DATE, 5) as "Cur Date + 5 Mo",
+> ADD_MONTHS(CURRENT_TIMESTAMP, 
+> 5) as "Cur Timestamp + 5", COALESCE(ADD_MONTHS(CURRENT_TIMESTAMP, 5), 
+> CURRENT_TIMESTAMP) as "Coalesce Cur Timestamp + 5" From 
+> INFORMATION_SCHEMA.SYSTEM_TABLES Where TABLE_NAME = 'TABLES';
+> 
+> returns one row, with current_date and current_timestamp, but, the two
+> functions 
+> ADD_MONTHS, while it does return one row, as it should, the values
+> returned are 
+> NULL ( it should not be ). I proved this by using the COALESCE function.
+> 
+> Sliderule 
+> 
+> 
+> 
+> ------------------------------------------------------------------------------
+> Everyone hates slow websites. So do we.
+> Make your web apps faster with AppDynamics
+> Download AppDynamics Lite for free today:
+> http://p.sf.net/sfu/appdyn_sfd2d_oct
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists">Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://p.sf.net/sfu/appdyn_sfd2d_oct
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

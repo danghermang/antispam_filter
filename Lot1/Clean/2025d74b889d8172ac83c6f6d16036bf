@@ -1,0 +1,24 @@
+Subject:Re: manejo ventanas wheezy
+El mar, 09-10-2012 a las 06:40 -0700, Ricardo Delgado escribió:
+> Buenas lista, estoy utilizando LXDE y tengo algunos problemas en ventanas emergentes, por dar ejemplo LIBREOFFICE, cuando quiero guardar un archivo, la ventana es mayor que el tamaño de la pantalla, entonces tengo que achicar un poco para poder ver todas las opciones
+> 
+> Como puedo hacer para que las mismas se ajusten al tamaño de la pantalla?
+> 
+> el equipo es una netbook de 10" de pantalla.
+> 
+
+¿Has probado con esto?
+
+http://forum.lxde.org/viewtopic.php?f=8&t=31680#p38896
+
+
+-- 
+Francesc Guitart
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349890298.2430.0.camel@negret
+

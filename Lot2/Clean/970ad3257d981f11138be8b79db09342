@@ -1,0 +1,59 @@
+Subject:Re: Usuario para RAS
+El 11/09/12 14:01, luis@ida.cu escribió:
+> On Tue, 11 Sep 2012 15:22:55 +0000 (UTC), Camaleón wrote:
+>> El Tue, 11 Sep 2012 10:21:39 -0400, luis escribió:
+>>
+>>> On Tue, 11 Sep 2012 13:59:59 +0000 (UTC), Camaleón wrote:
+>>
+>> (...)
+>>
+>>>>> El usuario que tengo en ese fichero debe ser el mismo o es el mismo
+>>>>> que
+>>>>> agrego con adduser nombreusuario???
+>>>>
+>>>> Bueno, suponiendo que te refieras al archivo "/etc/ppp/pap-secrets",
+>>>> debe
+>>>> contener los usuarios del sistema (o virtuales) a los que permites
+>>>> conectarse pero no sé a qué te refieres cuando dices "debe ser el
+>>>> mismo" :-?
+>>>
+>>> Hola Camaleon me refiero al fichero inittab que esta en /etc/inittab y
+>>> al final le colocamos
+>>> S0:234:respawn:/sbin/mgetty /dev/ttyS0   que no se si esta bien asi yo
+>>> copie y pegue de la pag, no se si esta bien asi
+>>
+>> (...)
+>>
+>> No hay usuarios en el archivo inittab :-)
+>>
+>> Lo único que tendrás que ajustar en ese archivo es la ruta al 
+>> dispositivo
+>> del modem que tal y como lo tienes puesto apunta a "/dev/ttyS0" y eso es
+>> para un módem externo conectado al puerto serie.
+>>
+>> Saludos,
+>>
+>> -- 
+>> Camaleón
+>
+>
+> Perfecto si para los modem serie es "/dev/ttyS0" como seria en mi caso 
+> que elmodem es USB ?
+>
+>
+
+Hace poco instalé el modem usb que estoy usando.
+Ejecutá en consola el comando lsusb
+Debería aparecer el modem en la listita que te devuelve. Ahí te fijás el 
+Nº de bus que está usando, el primer número del renglón.
+El dispositivo será entonces /dev/ttyUSBx, donde x es el número de bus 
+sin los ceros de la izquierda.
+
+Contanos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/504F716D.3050007@gmail.com
+

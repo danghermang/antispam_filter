@@ -1,0 +1,26 @@
+Subject:Re: qt3 in wheezy options to install it
+Thorsten Glaser wrote:
+
+> On Mon, 5 Nov 2012, Karol Szkudlarek wrote:
+> 
+>> In near future I would like install on my machines wheezy and I know
+>> that old qt3 libraries are removed (as obsolete)
+>> But in my commercial work we still use qt-3 so  I would like to know
+> 
+> While this has absolutely nothing to do with backports…
+> just install the packages from squeeze on wheezy. Or use
+> a chroot.
+
+The suggestion from Wheezy's lsb-desktop is to use the latest Qt3 from 
+snapshots:
+
+        http://snapshot.debian.org/package/qt-x11-free/
+
+Cheers,  OdyX
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k850it$8jn$1@ger.gmane.org
+

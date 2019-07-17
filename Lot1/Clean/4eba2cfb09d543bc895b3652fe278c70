@@ -1,0 +1,75 @@
+Subject:Re: Ordenar archivos por el =?ISO-8859-1?Q?n=FAmero_de_carac?=
+	=?ISO-8859-1?Q?teres_de_su_nombre?=
+On 12/06/2012 02:52 PM, Marcos Delgado wrote:
+> El día 6 de diciembre de 2012 11:46, "Matías A. Bellone"
+> <matiasbellone@gmail.com>  escribió:
+>> On 12/06/2012 02:41 PM, Marcos Delgado wrote:
+>>>
+>>> El día 6 de diciembre de 2012 11:23, "Matías A. Bellone"
+>>> <matiasbellone@gmail.com>   escribió:
+>>>>
+>>>> On 12/06/2012 02:07 PM, Marcos Delgado wrote:
+>>>>>
+>>>>>
+>>>>> Pues bien, necesito realizar esa labor, hasta el momento lo que más he
+>>>>> podido hacer revisando opciones en internet es la siguiente orden:
+>>>>>
+>>>>> for i in *; do echo $i ;  echo -e $i | tr -d '\n' | wc -c ; done
+>>>>>
+>>>>> pero no me sirve ya que aparecen en líneas separadas el número de
+>>>>> caracteres y el nombre del archivo.
+>>>>>
+>>>>> Se agradece cualquier ayuda.
+>>>>>
+>>>>> Gracias.
+>>>>> Marcos Delgado.
+>>>>>
+>>>>>
+>>>>
+>>>> for FILE in *; do echo `echo ${FILE} | wc -m` ${FILE}; done | sort -n |
+>>>> cut
+>>>> -d\  -f2
+>>>>
+>>>> Lo que hacés es:
+>>>>           1- imprimir (2) y el nombre del archivo
+>>>>           2- darle de comer cada nombre de archivo a "wc -m"
+>>>>           3- a toda la salida pasarla por sort -n
+>>>>           4- sólo obtener el nombre del archivo con cut
+>>>>
+>>>> Saludos,
+>>>> Toote
+>>>
+>>>
+>>> Muy bien! el único problema es con los archivos con espacios, estoy
+>>> viendo si con poner comillas se soluciona, gracias.
+>>>
+>>
+>>
+>> cambiá el 2 al final por "2-" para que te muestre todo menos el 1er campo.
+>>
+>
+> Sigue igual, gracias.
+>
+>
+
+Entonces no lo estás haciendo bien:
+
+$ ls
+apruebas 1.txt  prueba 1.txt  prueba 2.txt  pruebas 1.txt
+$ for FILE in *; do echo `echo ${FILE} | wc -m` ${FILE}; done | sort -n 
+| cut -d\  -f2-
+prueba 1.txt
+prueba 2.txt
+pruebas 1.txt
+apruebas 1.txt
+$
+
+Saludos,
+Toote
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C0DE56.8010605@gmail.com
+

@@ -1,0 +1,54 @@
+Subject:Re: pausar arranque en debian6
+El d=EDa 1 de octubre de 2012 16:49, linux
+<liuberperez.mtz@infomed.sld.cu> escribi=F3:
+> El 01/10/12 10:48, fernando sainz escribi=F3:
+>
+>> El d=EDa 1 de octubre de 2012 16:40, linux
+>> <liuberperez.mtz@infomed.sld.cu> escribi=F3:
+>>>
+>>> Saludos lista alguien sabe como pauso el arranque para ver algun detall=
+e
+>>> en
+>>> debian 6 saludos
+>>>
+>>> Liuber
+>>>
+>>> --
+>>>
+>>> Este mensaje le ha llegado mediante el servicio de correo electronico q=
+ue
+>>> ofrece Infomed para respaldar el cumplimiento de las misiones del Siste=
+ma
+>>> Nacional de Salud. La persona que envia este correo asume el compromiso
+>>> de
+>>> usar el servicio a tales fines y cumplir con las regulaciones
+>>> establecidas
+>>>
+>>> Infomed: http://www.sld.cu/
+>>>
+>>>
+>> Pararlo no s=E9, pero puedes instalar el paquete bootlogd.
+>> Eso hace que se genere un log con los mensajes del inicio.
+>>
+>> S2
+>>
+>>
+> donde esta bootlogd porque en los repos no esta saludos
+>
+>
+
+Vale lo siento, estoy en testing.
+
+Antes tambi=E9n exist=EDa, pero no se que que paquete estaba.
+A lo mejor hasta estaba por defecto.
+Mira en /etc/default a ver si hay un fichero bootXXX  en el que hay
+que activarlo.
+
+S2
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAGw=rHi7H8GoQzTne0qDvjhTpUuus4_kb0E8jiDfoh2LOt4cog@mail.gmail.com
+

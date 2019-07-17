@@ -1,0 +1,31 @@
+Subject:Firefox en Deian 6
+Hola a todos, una gran duda
+
+Para instalar por ej firefox desde internet y se actualice después de 
+instalado y se puedan añadir los plugins cómo es la cosa???
+
+Hay que modificar el sources.list para firefox ??? hace tiempo tengo 
+esa duda  y sobre todo porque cuando estoy en el no puedo añadir plugins
+
+yo normalmente lo que hago es descargarlo, lo descompacto en una 
+carpeta por ej en /opt y listo. pero lo justo es que uno haga
+
+# apt-get install firefox    algo así y despues el solo se actualice o 
+uno mismo le de update y lo haga.
+
+
+Por ej después d eresolver esto una cosa fundamental agregar un pligin 
+de acelerador de descargas para descargar las cosas.
+
+
+Alguna idea ??
+
+Agradezco las aclaraciones a todos listeros es que quiero aprender paa 
+implementar y hacer bien las cosas
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/cba5afe689759893c0588896d9e965bc@ida.cu
+

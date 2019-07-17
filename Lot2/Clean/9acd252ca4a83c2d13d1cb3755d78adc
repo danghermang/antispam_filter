@@ -1,0 +1,28 @@
+Subject:[Resolu] Re: Comment ralentir la bande passante.
+trickle a fait l'affaire, merci.
+
+On 25/09/2012 19:00, Simon P wrote:
+> Avec les cgroups on peut (avec un kernel assez recent)
+>
+> Le 19/09/2012 09:34, Sébastien NOBILI a écrit :
+>> Le mardi 18 septembre 2012 à 18:02, Gerald a écrit :
+>>> Tout est dans le titre...
+>>
+>> J'ai récemment découvert iprelay qui a le mérite d'être simple à 
+>> configurer. Il
+>> fait proxy vers un port d'une machine et ralentit le débit.
+>>
+>> Seb
+>>
+>
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5061F237.6070907@gmail.com
+

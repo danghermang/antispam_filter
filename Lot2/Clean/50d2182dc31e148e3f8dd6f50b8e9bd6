@@ -1,0 +1,30 @@
+Subject:Re: ActivePerl on OS X: ppm not working, no DBD::mysql PPM available
+Hi Brian,
+
+On Thu, Oct 4, 2012 at 1:38 PM, Brian Raven <BRaven@nyx.com> wrote:
+
+> A quick look at the failed build logs found there suggest that mysql may not have been installed on the build box.
+>
+>     Can't exec "mysql_config": No such file or directory at Makefile.PL line 83.
+>
+> Perhaps somebody at Activestate could check that.
+>
+> Alternatively, if you have mysql installed you could try downloading the module from CPAN and building it yourself. The CPAN Testers Matrix (http://matrix.cpantesters.org/?dist=DBD-mysql+4.022) shows successful builds for OS X (Darwin).
+
+I understand there is no DBD-mysql package because there simply is no
+MySQL install on the package builder. But the benefit for me of using
+a binary distribution such as ActivePerl is the fact that I do not
+need to bother about compiling these modules myself. I had some issues
+when I wanted to compile DBD::mysql on the system perl which is why I
+wanted to use ActivePerl in the first place.
+
+And yes, it would be very helpful for other ActivePerl users if
+someone at ActiveState would make sure there is a DBD-mysql package
+available on OS X.
+
+--
+Mike
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

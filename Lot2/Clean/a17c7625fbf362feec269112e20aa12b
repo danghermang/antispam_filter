@@ -1,0 +1,46 @@
+Subject:[Maps-l] License change of OpenStreetMap to ODbL
+Hello everyone,
+
+as you probably all know OpenStreetMap has been in the process of
+changing its license for a while. Well, as of two days ago the process
+was finally completed and the source data from OpenStreetMap.org is
+now licensed under the OBbL 1.0 [1].
+
+For the moment the data in the osm_mapnik database on the toolserver
+is still CC-BY-SA as the replication was suspend at the time of the
+license change. However, in order to enable updates again, we have to
+transition over to ODbL as well.
+
+For legal reasons, the recommended (by the OSMF) transition strategy
+is to drop any existing databases and re-import them fresh from the
+newly release planet file now licensed under ODbL.  To be able to
+enable updates again, I would like to do that fairly soon.
+
+Apart from that, the attribution string needs to be slightly changed
+for all projects that are using the OpenStreetMap data, once the
+re-import has completed.
+
+With respect to tile licensing, I suggest we follow the example of
+osm's tileserver. While the underlying data is licensed ODbL, the
+rendered tiles would be licensed under CC BY-SA 2.0
+
+Could everyone who uses the OSM database on toolserver therefore
+please check if there are any issues with transitioning to ODbL and
+prepare for the change of attribution?
+
+Given that the OpenStreetMap is used in Wikipedia through the
+OSM-gadget, WMA and WIWOSM, does the wikimedia legal team have any
+suggestions or objections to the change?
+
+
+I'll keep you posted.
+
+Kai
+
+
+[1] http://opendatacommons.org/licenses/odbl/1.0/
+
+_______________________________________________
+Maps-l mailing list
+Maps-l@lists.wikimedia.org
+https://lists.wikimedia.org/mailman/listinfo/maps-l

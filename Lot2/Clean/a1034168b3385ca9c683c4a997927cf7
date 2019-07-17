@@ -1,0 +1,30 @@
+Subject:Re: [Fedora-it] R: Re: Skype non si avvia
+Il 31/10/2012 09:37, Gianluca Sforna ha scritto:
+> 2012/10/31 Gianmarco Massarotto <gianmarco.massarotto@gmail.com>:
+>> Se passi a Ubuntu ti sconsiglio l'ultima versione 12.10, =E8 piena di bu=
+g.
+>> Io ho istallato i driver proprietari e non mi carica pi=F9 il desktop, un
+>> vero pasticcio.
+> Veramente aveva scritto che stava facendo il percorso inverso, DA
+> Ubuntu A Fedora
+>
+Ahaha no tranquilli non ho nessuna intenzione di tornare su Ubuntu.
+La comunit=E0 =E8 ottima, ma secondo me, la distro ha perso la strada
+maestra della filosofia originale di Linux.
+
+Comunque visto che il package rpm continuava a darmi problemi, ho
+scaricato il pachetto "dynamic", l'ho scompattato nella /opt/ e in
+/usr/bin ho settato lo script per farlo avviare.
+Ora non mi da problemi :)
+
+
+Saluti
+
+-- =
+
+Danielik86
+
+_______________________________________________
+it-users mailing list
+it-users@lists.fedoraproject.org
+https://admin.fedoraproject.org/mailman/listinfo/it-users

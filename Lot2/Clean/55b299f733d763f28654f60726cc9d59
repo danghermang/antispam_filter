@@ -1,0 +1,61 @@
+Subject:	=?ISO-8859-1?Q?=5Bsemi=2DOT=5D_Instalaci=F3n_de_servidor_web_truncada?=
+Saludos a la lista y a sus miembros. He decidido por fin montar mi
+propio servidor casero, como se muestra en [1]. Ya he completado los
+pasos, incluso buscando las versiones m=E1s actuales (porque ya php4 y
+myqsl4 no est=E1n disponibles). Ahora, el proceso se me ha truncado por
+esto. En [2] dice:
+"Ahora instalaremos el software cliente No-IP para que mande los pings
+a nuestro dominio.sytes.net =85
+
+
+apt-get install no-ip
+
+Una vez instalado vamos a configurarlo ejecutando =85
+
+no-ip -C"
+
+Pero al ejecutar el comando me responde as=ED:
+~# apt-get install no-ip
+Leyendo lista de paquetes... Hecho
+Creando =E1rbol de dependencias
+Leyendo la informaci=F3n de estado... Hecho
+E: No se ha podido localizar el paquete no-ip
+root (...)
+
+Leyendo un poco, existe algo llamado "apt-cache" que, seg=FAn su manual dic=
+e:
+
+apt-cache - Herramienta para la gesti=F3n de paquetes APT -- manipulador
+de la cach=E9
+
+Y me muestra:
+~# apt-cache search no-ip
+arno-iptables-firewall - single- and multi-homed firewall script with
+DSL/ADSL support
+inadyn - client to alleviate the requirements for an Internet name
+root (...)
+
+Ahora mi duda es esta: si no puedo usar no-ip en mi servidor Debian,
+=BFqu=E9 otras alternativas proponen? En otro portal web me proponen usar
+DynDNS, pero ahora se debe pagar por ello, y no poseo presupuesto para
+ello. Y en el portal de no-ip creo que dice para bajarse una
+aplicaci=F3n para usar en otra PC, pero eso creo que no me sirve.
+Entonces creo yo, estoy trabado... A menos que la use como servidor
+casero.
+
+[1]http://www.forat.info/2008/03/05/como-montar-un-servidor-web-con-linux-d=
+ebian/
+[2]http://www.forat.info/2008/02/29/servidor-web-en-linux-debian-11-redirec=
+cionamiento-dns-de-no-ip/
+
+--=20
+Buen uso de las listas (como se ven en Debian):
+http://wiki.debian.org/es/NormasLista
+Ayuda para hacer preguntas inteligentes: http://is.gd/NJIwRz
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALEvJmQ+Ro-ffseOH1woDiRfoL++5UjMtC9tci7BOEZU8U_WOA@mail.gmail.com
+

@@ -1,0 +1,35 @@
+Subject:Re: sobre el uso correcto de youtube-dl
+El 03/10/12 12:30, Victor Hugo Cespedes Zuleta escribió:
+> el programa youtube downloader conocido por youtube-dl se usa para 
+> descargar vídeos de youtube.
+>
+> El asunto es que despues de typear en consola de root:
+>
+> youtube-dl -l http://www.youtube.com/watch?v=6bKu3OmeXp8
+>
+> por citar un ejemplo
+>
+>  me sale error 404.
+>
+> eso equivaldria a que no existe la URL.
+>
+> cosa que no es así porque yo copio exactamente la URL del vídeo que 
+> quiero descargar.
+
+Pues a mí me dice esto:
+"Este vídeo ya no está disponible porque se ha cancelado la cuenta de 
+YouTube asociada a él."
+¿Es casualidad nomás?
+Pero con ese método tenés varios descargadores para probar. Me refiero a 
+copiando la url y pegándola en el descargador.
+No suelo usarlos para videos. Encuentro más práctico y cómodo el 
+DownloadHelper de Firefox.
+
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506C5E4B.4040404@gmail.com
+

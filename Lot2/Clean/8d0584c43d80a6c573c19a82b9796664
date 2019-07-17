@@ -1,0 +1,38 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint_qui_consomme=5Bidentifi=E9=5D?=
+
+Le 18/11/2012 16:07, François Boisson a écrit :
+> Le Sun, 18 Nov 2012 14:32:44 +0100
+> "C. Mourad Jaber" <ml@nativobject.net> a écrit:
+>
+>> Le 18/11/2012 11:23, François Boisson a écrit :
+>>> Si je regarde le noyau (arch/x86/kernel/rtc.c), il semble que la mise à
+>>> jour de l'horloge se fait exactement 500ms après la demande ce qui est
+>>> long.  Je vais voir si il ne suffit pas de rajouter 1s de délai lors de
+>>> l'extinction de la machine...
+>>>
+>>> François Boisson
+>> Ce serait effectivement plus logique !
+>> Pour mettre quand même à jour l'horloge matériel...
+> Bon, ça n'est pas ça. C'est donc un pbm plus compliqué du noyau.
+> Je vais faire un message nouveau rapport de bug.
+>
+> François Boisson
+>
+Je confirme testé sur mon vaio (noyau 3.5 trunk) cette nuit, hier 16h, 35% de batterie, ce 
+matin 9h, 15%...
+
+Aucun changement de mon coté avec cette option !
+
+++
+
+Mourad
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50AA6188.7070900@nativobject.net
+

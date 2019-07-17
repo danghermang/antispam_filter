@@ -1,0 +1,109 @@
+Subject:Re: Problemas con dovecot-core y dovecot-mysql en Debian squeeze
+El d=EDa 29 de octubre de 2012 10:49, Ricardo <web@guzman.com.ar> escribi=
+=F3:
+> Hola lista
+>
+>  Esta es la primera vez  que escribo a una lista si hago error exc=FAseme
+>
+> quiero implementar servidor de correo con Base de datos MySQL, Postfix
+> y Postfixadmin,
+> dovecot-core, dovecot-mysql dovecot-imapd dovecot-pop3d para m=FAltiples
+> dominios.
+>
+> tengo problemas al instalar el daemon dovecot-core, dovecot-mysql
+> dovecot-imapd dovecot-pop3d
+> en Debian squeeze, estoy usando los repositorios:
+>
+> deb http://ftp.ccc.uba.ar/pub/linux/debian/debian/ squeeze main
+> deb-src http://ftp.ccc.uba.ar/pub/linux/debian/debian/ squeeze main
+>
+> deb http://security.debian.org/ squeeze/updates main
+> deb-src http://security.debian.org/ squeeze/updates main
+>
+> # squeeze-updates, previously known as 'volatile'
+> deb http://ftp.ccc.uba.ar/pub/linux/debian/debian/ squeeze-updates main
+> deb-src http://ftp.ccc.uba.ar/pub/linux/debian/debian/ squeeze-updates ma=
+in
+>
+>
+> deb http://packages.dotdeb.org squeeze all
+> deb-src http://packages.dotdeb.org squeeze all
+> deb http://backports.debian.org/debian-backports squeeze-backports main
+>
+>
+> al instalar dovecot-core, dovecot-mysql, lo instala sin problemas la
+> version es (2.1.7-2~bpo60+1) de ambos paquetes,
+> ahora al querer instalar dovecot-imapd dovecot-pop3d (version
+> 1.2.15-7) lo rompe a  dovecot-core, dovecot-mysql,
+> al parecer tiene que ser la misma versi=F3n todos los paquetes.
+>
+> en Debian Wheezy, se instala sin problemas pero lo instala la version
+> (dovecot-core_2.1.7-2~ppa12.
+> 04+1_i386.deb)
+> todo los paquetes son la misma version.
+>
+> =BF cuales es la version correcta para Debian squeeze?
+>
+>
+> Busque por San Google pero no eh tenido exito.
+>
+> =BFAlguien puede ayudarme?
+>
+> Ricardo
+Hola
+
+
+Tengo la sensaci=F3n que ya te hab=EDa posteado una respuesta sobre =E9ste
+tema...=BFo me qued=E9 en el intento?
+
+Tambi=E9n en stable. Pero si hago aptitude search dovecot, no veo a
+dovecot-core ni dovecot-mysql
+
+tengo instalado:
+dovecot-common  1:1.2.15-7
+dovecot-imapd      1:1.2.15-7
+dovecot-pop3d      1:1.2.15-7
+
+
+
+Repositorios:
+squeeze.- main, contrib, non-free
+Security.- main, contrib
+squeeze-udates: main, contrib
+
+
+
+en otros sitios (1) no veo referencia a dovecot-core o dovecot-mysql
+en la lista de paquetes, ambos aparecen en backports (2)
+
+
+
+=BFAlguna razon en espec=EDfico para querer instalar dovecot desde backport=
+s?
+A mi me funciona bien desde main, incluida la autenticaci=F3n a mysql.
+Pero, en mi caso solo tengo 2 usuarios de monitoreo para =E9ste
+servicio.
+
+(1) http://library.linode.com/email/postfix/dovecot-mysql-debian-6-squeeze
+(2) http://packages.debian.org/search?lang=3Des&searchon=3Dnames&keywords=
+=3Ddovecot
+
+
+
+Saludos
+
+--=20
+Hector
+--
+El Pic no pudo Iniciar correctamente.
+Inserte el disco de arranque y presione cualquier pin para continuar...
+
+Linux Registered User #467500
+https://linuxcounter.net/user/467500.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CACzWLTJNo0WagHHRu7YBC=U9AN4WMCELxkAbHQX+TpB2Rspnyg@mail.gmail.com
+

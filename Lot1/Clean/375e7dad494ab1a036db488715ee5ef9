@@ -1,0 +1,33 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+On Nov 20, 2012, at 8:36 AM, Mike A. Salim <msalim@localweb.com> wrote:
+
+> Hello,
+> 
+> Yes, I am happy to pay for what I use.  I am happy with the great job ARIN is doing, and fully understand and support the need for fees.
+> 
+> My issue is this:  If I am classified as a Small vs. X-Small because of my IPv4 usage that I had requested, that is fine.  But I am being classified as a Small not because of what I requested or use, but because of what I was allocated as an early adopter of IPv6.  Had the smaller X-Small IPv6 been available at the time, that is what I would have requested.  I did not really need a /32 IPv6.
+> 
+> So, IMHO, an exception should be made for those ISPs who are allocated and using a X-Small IPv4, but were allocated a Small /32 IPv6 as early adopters because there was no X-Small IPv6 at the time, resulting in them being classified as Small vs X-Small.  Also, this should be done without forcing these early adopter ISPs to give up and renumber their /32 IPv6 space - we are now actively using our IPv6 space.  Renumbering would be problematic for us.
+
+Mike - 
+ 
+  Thanks for clear feedback on the proposed fee changes;
+  we've had a few folks now make note of this concern and 
+  it will be explicitly considered in any path forward.
+
+Thanks again,
+/John
+
+John Curran
+President and CEO
+ARIN
+
+
+
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

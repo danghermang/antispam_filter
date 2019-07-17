@@ -1,0 +1,34 @@
+Subject:Re: [LUG] Linux - and security
+On Sat, Nov 3, 2012 at 11:18 PM, Neil Winchurst wrote:
+> I do not have a static set up for the router. I have checked my ISP's
+> website  and they will provide it but it will cost 'extra'. I have not
+> yet checked the cost, will ring them tomorrow.
+
+I think what bad apple meant was for your machines to have a static
+_internal_ IP address. (One that usually, but not always, starts with
+192.168.) I agree it can be useful for all machines to have a fixed
+local IP address, but for an average user it's not essential.
+
+Most routers can give the same IP address to the same machine every
+time, which in practise gives you static addresses. I think that's
+good enough.
+
+What your ISP can offer you is a static _public_ IP address. I don't
+think you need that.
+
+> I will look into SSH but I have a feeling I have to arrange for it to be
+> set up. Or perhaps I am not understanding it properly. Anyway I will
+> study the relevant replies carefully and see how I get on.
+
+SSH is a secure way to connect to a remote machine. For instance your
+own machine if you're on the road.
+
+Given how I understand you use your computers, I don't think you need
+to worry about SSH.
+
+Martijn.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

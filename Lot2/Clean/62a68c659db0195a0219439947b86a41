@@ -1,0 +1,78 @@
+Subject:Re: [OT] Re: Error 500 en apache2 que solo se ve del lado del
+	cliente
+El d=EDa 31 de agosto de 2012 17:34, Marc Mar=ED <5.markmb.5@gmail.com> esc=
+ribi=F3:
+> Yo programo en PHP, y errores 500 me han aparecido cuando hay errores
+> de programaci=F3n, y PHP no est=E1 configurado para mostrar errores, y
+> cuando hay errores de redireccionamiento en .htaccess. Camale=F3n: AJAX
+> trabaja en los dos lados, es un puente de uni=F3n entre cliente y
+> servidor sin tener que cargar la p=E1gina, as=ED que puede ser que sea un
+> error de programaci=F3n.
+>
+> Si en los logs no hay nada, ser=E1 que php no est=E1 configurado para
+> enviar informaci=F3n a los logs. Si se tiene acceso a php.ini, se puede
+> activar mostrar errores por pantalla (display_errors =3D On,
+> error_reporting =3D E_ALL). PedroTron, si sabes c=F3mo, te recomiendo que
+> de momento quites ajax y haga una llamada de formulario normal, para
+> que sea m=E1s sencillo reportar los errores, si no, ahora mismo no
+> recuerdo c=F3mo hacer que PHP saque mensajes a trav=E9s de Ajax.
+>
+> Un saludo
+>
+> El d=EDa 31 de agosto de 2012 17:19, Camale=F3n <noelamac@gmail.com> escr=
+ibi=F3:
+>> El Fri, 31 Aug 2012 08:38:32 -0500, PedroTron escribi=F3:
+>>
+>>> Tengo un formulario de contacto (creo que esta en ajax) con el cual
+>>> supuestamente se diligencian los campos, se presiona el boton enviar y
+>>> debe salir un mensaje para el administrador del sitio.  Pero no sucede
+>>> nada:  en los logs del servidor tampoco aparece que se procese nada. Lo
+>>> primero que intente descargar es que fuera problema del formulario,
+>>> entonces lo ejecutamos usando firebug, y aparece un error 500, pero sol=
+o
+>>> en firebug; del lao del servidor no aparece nada relacionado con ese
+>>> error.  Ya aumente el nivel de log a debug y sigue sin aparecer nada.
+>>>
+>>> Segun me indica el desarrollador del sitio, ese error es del servidor,
+>>> pero no encuentro como rastrearlo en el mismo.
+>>>
+>>> de casualidad han tenido alguna experiencia similar?
+>>
+>> Lo cierto es que un error 500 apunta a un error del servidor pero
+>> trat=E1ndose de Ajax dif=EDcil lo veo porque la programaci=F3n se ejecut=
+a en el
+>> cliente. Si m=E1s datos concretos sobre la mesa, complicado... date una
+>> vuelta por Google:
+>>
+>> http://bit.ly/T2taLl
+>>
+>> Saludos,
+>>
+>> --
+>> Camale=F3n
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debia=
+n.org
+>> Archive: http://lists.debian.org/k1qkl6$hd2$9@ger.gmane.org
+>>
+
+Siento haberlo escrito arriba antes, es que estoy acostumbrado as=ED :D
+
+Ante tu =FAltimo correo, PedroTron, quiz=E1s el problema es con alguna
+funci=F3n que en tu servidor no est=E1 activada, o con un archivo
+.htaccess que se comporta mal, o con algo que deber=EDas configurar para
+tus servidor como los datos de conexi=F3n a la base de datos.
+
+Una funci=F3n que se suele deshabilitar mucho es "mail", rev=EDsalo
+
+Un saludo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8SR9K8wPSodC=yLPiPJZOsb8YJ4zS0dF7nyajA63458og@mail.gmail.com
+

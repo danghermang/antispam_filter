@@ -1,0 +1,43 @@
+Subject:Re: PC =?UTF-8?B?w6l0ZWludA==?= qui consomme
+On Fri, 2 Nov 2012 13:46:50 +0100
+Fran=C3=A7ois Boisson <user.anti-spam@maison.homelinux.net> wrote:
+
+>=20
+> Ben il arr=C3=AAte tout comme ceux de debian en th=C3=A9orie. Au bilan:
+
+"en th=C3=A9orie", c'est pt=C3=AAt l=C3=A0 qu'est l'os!?
+
+> Sur la m=C3=AAme machine (toshiba portege):
+> * Debian wheezy -> Pbm de consommation machine =C3=A9teinte
+> * Debian lenny i386 -> pas de tels probl=C3=A8mes
+> * Ubuntu precise -> pas de pbm
+
+Est-ce que le kernel est tjrs de la m=C3=AAme version?
+Et si oui, est-ce que les options de compil sont les m=C3=AAmes?
+Si non, est-ce qu'un chgt de kernel change aussi les choses?
+
+Ensuite, pareil pour chaque pkg et surtout fichiers de conf; un peu
+comme une vente: tu commences par ratisser large et tu r=C3=A9tr=C3=A9ci le
+champs d'action au fur et =C3=A0 mesure sans rien oublier.
+
+En dernier lieu, reste l'ouverture et la mesure pour voir qui est
+aliment=C3=A9 ou non suivant l'OS.
+
+--=20
+<jade> et tu apr=C3=A9cis le chanteur ?
+<jade> apr=C3=A9cie*
+<jade> app=C3=A9cie*
+<jade> mais je vais y ariiver !
+<jade> apprecies*
+<duguite> de quoi ?
+<jade> le chantuer
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121102140130.2d01b42f@anubis.defcon1
+

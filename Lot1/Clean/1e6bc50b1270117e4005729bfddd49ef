@@ -1,0 +1,178 @@
+Subject:Re: [LUG] Linux - and security
+On 02/11/12 17:49, Martijn Grooten wrote: 
+> Well, you did give some of these references.
+>
+> CRIME and BEAST are not something that an average Internet user should
+> worry about. Diginotar was really bad but didn't cause serious harm
+> beyond some Iranian opposition activists. Stuxnet targeted a nuclear
+> plant in Iran, not home users in the UK. Flame's target were large
+> corporations and governments in the Middle East.
+>
+> It's all about money. If you have the US government against you,
+> you're basically stuffed as they can outspend your security budget.
+> Running Windows 8? No problem, they buy that zero-day from VUPEN.
+> Running something else? No problem, they've got ways to find out what
+> you're running and they can find (or buy) zero-days in that too. So in
+> that case you shouldn't use the Internet for anything that they are
+> after.
+>
+> If you've got a fairly large business then you also have serious
+> problems, because the Chinese government, your competitors and highly
+> skilled criminals are after your intellectual property, your database
+> and your systems. In that case, apart from running security tools and
+> software, you should make sure that important documents aren't stored
+> in an Internet-connected computer, that security guidelines are
+> followed, etc.
+>
+> And in both of these cases it is still likely that someone will find a
+> hole somewhere. RSA lost 66 million dollars because of a
+> spear-phishing email opened by one of its employees. The Diginotar
+> hack may have caused the death of Iranian opposition members.
+>
+> Most people neither have a government against them, nor do they run
+> big businesses. They use the computer for web browsing, sending
+> emails, playing games. Probably they do online banking too.
+>
+> The going price for access through a computer in the UK is a few dozen
+> pence. (Access is usually sold per 100 or 1000 machines.) Perhaps your
+> computer belongs to a specific category that makes access to your
+> machine worth several times that. It's still a small amount of money.
+>
+> Following good security practise means attackers are likely to find an
+> easier target somewhere else. And perhaps they don't. Perhaps you made
+> a mistake, perhaps there is a vulnerability somewhere that gives
+> someone access to your machine. Therefore, you should make sure that
+> not too much harm can be done with such access: your computer doesn't
+> contain top secret files (or if they do, they are encrypted).
+> Passwords are not stored on the machine itself.
+>
+> It's the same with people gaining unauthorized access to your
+> property: it is important to follow good practise and to make sure
+> people can't easily gain access. But it's equally important to be
+> aware that there may be a chance that people do come in, so don't
+> leave valuables lying around.
+>
+> I'm not saying that things like Stuxnet, or governments buying
+> zero-days, shouldn't concern us. They should. But for most users they
+> won't affect our day-to-day usage of computers. We shouldn't pretend
+> they do.
+>
+> Martijn.
+>
+
+Salient points as ever, but I can't help but feel you're missing the
+woods for the trees here. Disclaimer: I will fully admit that I spend my
+working days at the coalface as it were - large corporations, government
+institutions and other interests all with boatloads of patient records,
+financial and personal information databases, commercial IP and so on to
+protect. As such, I deal with this stuff constantly at a level
+admittedly not faced by any home user, and that might colour my opinions
+somewhat. However, it is exactly my unusual familiarity with this world
+that makes me more than usually qualified to comment on security issues.
+So, with that in mind:
+
+CRIME and BEAST are not something that an average Internet user should
+worry about. Diginotar was really bad but didn't cause serious harm
+beyond some Iranian opposition activists. Stuxnet targeted a nuclear
+plant in Iran, not home users in the UK. Flame's target were large
+corporations and governments in the Middle East.
+
+Well, if you mean that CRIME and BEAST are not something that an average
+user can *do* anything about, you're right I guess. But worry? Do you
+really think we shouldn't worry about the fact that the primary security
+transport layer for 99% of our online activities is hopelessly flawed?
+Hackers prefer to target the servers above individual users, that way
+you can compromise everyone talking to them. CRIME/BEAST is a spectre
+looming over all of us. The same for the DigiNotar hack - sure, just bad
+luck for some Iranian dissidents right? Um, no. It's a warning: if the
+hopelessly incompetent Iranian government can manage it, it would be
+wise to assume that all organised western governments can and have been
+doing it as well (protip: they have). It should be telling you that the
+'secure' infrastructure out there we all rely on for the most trivial of
+online operations is hopelessly flawed, at the most basic level. See
+also DNSSEC. If you can't trust DNS, you've got nothing. The same with
+Stuxnet, etc: the take-home message is the level of skill and dedication
+being utilised by our own government agencies to compromise critical
+infrastructure. I assure you, if they can do it to middle eastern
+targets, they can do it here too. The lesson is that SCADA, as we on the
+inside have always known, is riddled with hardcoded backdoors,
+elementary coding flaws and well known holes. Presumably you don't
+operate a nuclear centrifuge so none of this concerns you right? Wrong.
+Your water supply, electricity, the traffic lights and every element of
+your surrounding environment is controlled by SCADA systems, barely any
+of which are secured.
+
+The going price for access through a computer in the UK is a few dozen
+pence. (Access is usually sold per 100 or 1000 machines.) Perhaps your
+computer belongs to a specific category that makes access to your
+machine worth several times that.
+
+Exactly. I frequent the sort of lists and forums where these services
+are advertised and very eye-opening they are too. You see, this is a
+large part of the problem: I hear more than anything else from users
+"I've got nothing to hide and I'm just a regular computer user, why
+would anyone target me?" Everyone on this list has a computer worth more
+than the standard rate: you're running linux. Compromised linux boxes
+are worth a lot more than compromised windows zombies, even the regular
+home user machines, let alone a 64 core server on a fat pipe in a
+datacenter with a PHP shell backdoor installed. Hackers don't give a
+shit if there's anything on your box or not - it's just another hop on
+their anonymous proxy chain, or hosting their warez, child pr0n stash
+IRC bot or DOS zombie. But don't get me wrong, whilst they're at it they
+might as well use their automated SSH bruteforce+root script to SSLSTRIP
+your paypal, ebay, facebook, email and bank logins. I mean, why not?
+
+Also, let us not forget that in this modern world of BYOD and working
+from home, even the most innocent and boring looking android phone,
+windows 7 laptop or home linux box may well have the keys to the kingdom
+on it. Once you're in and the keylogger is running, those openvpn, cisco
+or terminal server session passwords are yours for the taking (or
+losing). Bad news if the unfortunate victim is a senior manager, IT
+staffer or finance officer. Bad news full stop, because now they'll use
+your compromised home system as an ingress point to your otherwise
+(hopefully) much more secured work network. Repeat after me: THERE IS NO
+SUCH THING AS A ZERO VALUE TARGET! Automated attacks via compromised
+web, DNS, mail and other servers are the primary attack vector and
+firefox on linux is just as likely to get you busted as IE10 on your
+patched windows box. Automated attacks cost virtually nothing, cast a
+very wide net and don't discriminate against victims - the whole "I
+don't need to outrun the bear, I just need to outrun you" approach to
+security espoused by the technically literate and otherwise perfectly
+reasonable crowd (such as your good self) is complete and total bullshit
+I'm afraid. You don't need to be some mythical high-level target to
+warrant specific personal attacks by ultra-hackers. Almost by
+definition, the 0-days they are constantly rolling out are usable
+against almost everyone, including me, in vast automated country wide
+attacks. It failed, but see the recent linux kernel server compromise
+for a hint of how us "fast runners" can still get caught by the bear.
+The seminal hack we should all remember is the infamous Ken Thompson
+self-compiling C hack. In computer security, there is no such thing as
+"good enough"!
+
+To be fair, pretty much all of your other advice is sensible as always.
+Encrypting files is a must. Good security practice will make you a
+harder target than Mum's unpatched XP laptop.
+
+I'm not saying that things like Stuxnet, or governments buying
+zero-days, shouldn't concern us. They should. But for most users they
+won't affect our day-to-day usage of computers. We shouldn't pretend
+they do.
+
+Here is where we disagree fundamentally - being at the sharp end, I deal
+with this stuff all day every day. And for ALL users of the internet,
+pretending that they don't effect us is insanely stupid. It's
+trickledown my friend: the cutting edge, targetted 0-day guru-level
+hacks against state entities and the biggest businesses is what gets
+adopted, customised and rolled into the everyday Zeus crimeware tools,
+rotating google ad banners and compromised botnets that attack us all
+tomorrow. Yesterday's government sponsored hijack of SSL certs is
+today's trivial SSL Paypal attack (and oh look, right on time:
+http://it.slashdot.org/story/12/11/02/1444250/paypal-security-holes-expose-customer-card-data-personal-details).
+
+
+Regards
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,50 @@
+Subject:Re: Upgrade auf 12.10, erste Erfahrungen
+Am 29.10.2012 14:10, schrieb Harald Weidner:
+> Hallo,
+>
+> Frank:
+>> .. VMware-Player 4.0.4 gleich aktualisiert auf 5.0.
+>> Wenn eine VM gestartet wird, st=FCrzt der Player komplett ab ..
+>
+> Hast du sichergestellt, dass die Kernelmodule kvm und kvm_intel bzw.
+> kvm_amd nicht geladen sind?
+>
+> Gru=DF, Harald
+
+Hallo,
+ich wei=DF nicht recht, wie ich das pr=FCfen kann.
+
+Das Paket kvm ist nicht installiert, aber 2 andere mit "kvm" im Namen:
+
+~$ sudo aptitude search kvm
+p   ikvm
+p   kvm
+p   kvm:i386
+v   kvm-api-4
+v   kvm-api-4:i386
+i A kvm-ipxe
+p   libikvm-native
+p   libikvm-native:i386
+p   nova-compute-kvm
+i   qemu-kvm
+p   qemu-kvm:i386
+p   qemu-kvm-extras
+p   qemu-kvm-extras-static
+p   qemu-kvm-spice
+
+
+Der Player zickt =F6fter mal rum.
+Sollte ich mich vielleicht lieber mit Virtualbox anfreunden?
+Es w=E4re aber sch=F6n, wenn ich die vorhandenen System =FCbernehmen k=F6nn=
+te.
+
+-- =
+
+
+Frank
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

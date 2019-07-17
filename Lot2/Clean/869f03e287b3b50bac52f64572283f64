@@ -1,0 +1,14 @@
+Subject:Re: [address-policy-wg] [Ticket#2012102901001081] 2012-05 New Draft
+ and Impact Analysis Documents Published (Transparency in Addre [...]
+On 07/11/2012 17:13, LeaderTelecom Ltd. wrote:
+> How did you find it? If networks has status "ALLOCATED PA", but doesn't
+> have "org" - then it is ERX? Or you see any other attribute?
+
+It isn't in alloclist.txt:
+
+ftp://ftp.ripe.net/pub/stats/ripencc/membership/alloclist.txt
+
+Also, all the 192.0.0.0/8 is InterNIC assigned space.
+
+Nick
+

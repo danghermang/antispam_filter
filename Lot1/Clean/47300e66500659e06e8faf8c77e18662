@@ -1,0 +1,56 @@
+Subject:Re: Installation sur partition GPT
+Le samedi 6 octobre 2012 =C3=A0 21:08:03, Eddy F. a =C3=A9crit :
+> Bon,
+
+=E2=80=99jour,
+
+> Apr=C3=A8s toute l'aide que j'ai re=C3=A7ue ici, il est normal que
+> j'apporte un petit retour.
+
+  Merci.
+
+> J'ai finalement t=C3=A9l=C3=A9charg=C3=A9 l'iso
+> debian-wheezy-amd64-efi-test4.iso sur le site fourni par
+> Anthony :
+>[=E2=80=A6]
+> Petit doute, dans les caract=C3=A9ristiques de cette partiton, il
+> n'est pas indiqu=C3=A9 qu'elle doit =C3=AAtre mont=C3=A9e dans /boot/efi.
+> Dois-je l'indiquer manuellement ? Bon je m'abstiens et fais
+> confiance =C3=A0 l'installateur. Il semble que j'ai eu raison.
+
+  Oui, il indiqu=C3=A9 un peu partout qu=E2=80=99elle doit =C3=AAtre mont=
+=C3=A9e=20
+quelque part mais, pour leur installation et mises =C3=A0 jour, les=20
+chargeurs semblent pr=C3=A9f=C3=A8rer qu=E2=80=99elle ne le soit pas.
+  En tout cas, l=E2=80=99avoir dans la fstab en noauto permet d=E2=80=99all=
+er y=20
+voir rapidement en cas de p=C3=A9pin.
+
+>[=E2=80=A6]
+> Et voil=C3=A0. Non seulement grub est capable de d=C3=A9marrer le
+> windows 7 mais en plus j'ai pu constater que update-grub
+> fonctionne bien aussi en uefi et n'aurai donc pas trop de
+> probl=C3=A8me lors des maj du noyau.
+
+  Imp=C3=A9ccable.
+
+> Un grand merci =C3=A0 tout le monde.
+
+  De rien.
+
+  Oh, en ce qui concerne le bogue sur le module os-prober, est-
+ce que tu pourrais le compl=C3=A9ter en expliquant ton=20
+contournement ?
+
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210071535.02584.Sylvain.L.Sauvage@free.fr
+

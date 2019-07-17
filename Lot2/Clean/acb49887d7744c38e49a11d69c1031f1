@@ -1,0 +1,30 @@
+Subject:Re: Cups - HP1606dn - Marche en USB mais pas en Ethernet
+> > Avec une imprimante p. ex. Brother (port Ethernet)
+> > y a t-il des difficult=C3=A9s pour la faire fonctionner via
+> > le port Ethernet sous Linux (Debian-Squeeze) ?
+> > Je poss=C3=A8de un modem-routeur ADSL Netgear,
+> > (Numericable), IP fournis en mode DHCP.
+> > Je me renseigne avant de l'acheter incessament ...
+
+> Brother fourni des drivers pour certaines de ses imprimantes, soit cups,
+> soit lpr.
+> http://welcome.solutions.brother.com/bsc/Public/CountryTop.aspx?reg=3Deu&=
+c=3Dfr
+>&lang=3Dfr
+> J'ai test=C3=A9 avec une MFC 540, =C3=A7a marche.
+
+Merci,  je ne parlais pas du pilote,=20
+mais de la configuration de la connexion de l'imprimante=20
+sur le r=C3=A9seau via son port Ethernet sur un modem-routeur=20
+en mode DHCP :
+la configuraton est-elle ais=C3=A9e sous Linux (squeeze) ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201212051634.33210.andre_debian@numericable.fr
+

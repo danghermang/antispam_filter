@@ -1,0 +1,48 @@
+Subject:Re: debian et onduleur
+On Tue, 25 Sep 2012 23:57:12 +0200
+Ga=C3=ABtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+
+>=20
+> D=C3=A9trompe toi je connais plein de gens qui le font syst=C3=A9matiquem=
+ent
+> depuis des ann=C3=A9es et sans dommage pour le bouton de l'=C3=A9cran.
+
+Je parlais des switches des LCDz, pas des inters m=C3=A9caniques.
+=20
+>=20
+> Arr=C3=AAter proprement la machine je n'en doute pas. Par contre est-on
+> =C3=A0 100% certain que toutes les appli auront correctement
+> sauvegard=C3=A9s leurs donn=C3=A9es ? D'ailleurs que fait le daemon ? Il
+> d=C3=A9clenche un halt (qui =C3=A9teindre la machine mais de fa=C3=A7on u=
+n peu
+> violente)
+
+Non, en fait il d=C3=A9clenche un shutdown; et =C3=A9tant donn=C3=A9 que sh=
+utdown
+se signale d'abord par SIGTERM, les applis correctement con=C3=A7ues
+sauvegardent et cl=C3=B4turent dans la foul=C3=A9e.
+
+> ou bien il sait interagir correctement avec un session
+> Gnome par exemple pour la fermer correctement avant de faire le
+> halt ?
+
+V. ci-dessus; par ailleurs, la plupart des daemons de contr=C3=B4le d'UPS
+bien faits permettent la substitution d'un script maison =C3=A0 l'ordre de
+coupure original (et si =C3=A7a n'est pas le cas, il est facile de
+renommer shutdown et de faire pointer ce nom vers un script qui=20
+appellera en final ce shutdown original).
+
+--=20
+<Boghs> t'as vu le dernier =C3=A9pisode de ncis?
+<Chris> lequel?
+<Boghs> celui ou ils retrouvent un mort
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120926000400.5ff61ab8@anubis.defcon1
+

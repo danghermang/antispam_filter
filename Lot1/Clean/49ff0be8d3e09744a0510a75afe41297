@@ -1,0 +1,35 @@
+Subject:Re: Ftp con anonymous y usuarios
+El Tue, 18 Sep 2012 12:14:28 -0400, Josué Marrero Bermúdez escribió:
+
+> Llevo varios dias tratando de configurar proFTPd con un usuario anoymous
+> para que acceda a una carpeta FTP determinada, definida en /ftp/ , pero
+> a la vez quiero activar determinados usuarios para que hagan upload en
+> carpetas definidas para cada uno de ellos.
+
+(...)
+
+Yo volvería a mirar la FAQ:
+
+http://www.proftpd.org/docs/faq/linked/faq-ch5.html
+
+Concretamente los apartados:
+
+12. How can I limit users to a particular directory tree?
+13. How do I create individual anonymous FTP sites for my users?
+
+Primero configurando una cosa (usuarios enjaulados en directorios 
+predefinidos) y después la otra (añadir un usuario anónimo) revisando 
+siempre los registros del servidor y ejecutando el servicio con los 
+parámetros de depuración activados para que te dé una salida verbosa.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3a8u7$thl$16@ger.gmane.org
+

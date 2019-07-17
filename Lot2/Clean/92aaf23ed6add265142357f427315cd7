@@ -1,0 +1,35 @@
+Subject:Re: [LUG] Xubuntu install problems
+On 12/11/12 18:39, Neil Winchurst wrote:
+> On 12/11/12 13:05, tom wrote:
+>> I'm trying to install xubuntu from cd onto an old pc. The install fails
+>> and sends me to a desktop to 'investigate further' without actually
+>> telling me what the fatal error it was that stopped the install.
+>> I cant find any log files - any clues on how to ferret the problem out?
+>> Tom te tom te tom
+>>
+> As you may know, I have been considering Xubuntu as distro when I
+> upgrade my desktop soon (this is as a fresh install). My current distro
+> is no longer supported. I am busy preparing for it.
+>
+> However, after a lot of researching and testing via VBox I have decided
+> to go with Mint Maya Xfce. I prefer it to Xubuntu plus it is a LTS
+> version until 2017.
+>
+> Just a thought for you. If you are having problems with Xubuntu, how
+> about looking at Maya?
+>
+> See you Saturday,
+>
+> Neil
+>
+It turns out the install problem is down to the slide show the stupid 
+install disk tries to run
+If you delete the app for the slide show and then do an install  the 
+install runs smoothly  and it takes about 20 minutes to get the machine 
+up and running! And now to see how it performs with some real work...
+Tom te tom te tom
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

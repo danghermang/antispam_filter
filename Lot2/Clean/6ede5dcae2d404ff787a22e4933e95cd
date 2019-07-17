@@ -1,0 +1,57 @@
+Subject:Re:  Date data handlin {was: no subject] 
+>From your pasted snippet, the biggest problem was spaces - between the "$"
+and the RE var name and a space after the RE string - this works:
+ my $dateST = qr{\d{4} \d{2} \d{2}};
+my $dateEND = qr{\d{2} \d{2} \d{4}};
+my $line;
+
+  while (<DATA>)
+  {
+    s#[-/]# #g;
+    print "D: $_";
+    my $line = $_;
+    if($line =~ /^$dateST/) {
+              my ($year,$month,$day,$hour,$min,$sec,@rain) = split;
+      $_ = sprintf "%5.1f", $_ foreach @rain;
+
+      print " $year $month $day $hour $min $sec\t", join(" ", @rain), "\n";
+      # print $outfd " $year $month $day $hour $min $sec\t", join(" ",
+@rain), "\n";
+               print "START: $year $month $day $hour $min $sec\t", join("
+", @rain), "\n";
+     }
+            elsif($line =~ /^$dateEND/)
+     {
+              my ($month,$day,$year,$hour,$min,$sec,@rain) = split;
+      $_ = sprintf "%5.1f", $_ foreach @rain;
+
+      print "End: $year $month $day $hour $min $sec\t", join(" ", @rain),
+"\n";
+      # print $outfd " $year $month $day $hour $min $sec\t", join(" ",
+@rain), "\n";
+       print " $year $month $day $hour $min $sec\t", join(" ", @rain),
+"\n";
+     }
+  }
+__DATA__
+2012-07-04T15:00:00      29.44    30.70    32.14    0.85      100.00  25.52
+25.81    26.11    0.16      100.00  853.87  853.92            853.94  0.00
+100.00
+04/07/2012 15.10.00       28.33    29.41    31.47    0.99      100.00
+25.80    26.01    26.27    0.14      100.00  853.88  853.91
+853.95  0.00      100.00
+
+----------------------
+Andy Bach
+Systems Mangler
+Internet: andy_bach@wiwb.uscourts.gov
+Voice: (608) 261-5738, Cell: (608) 658-1890
+
+"The first principle is that you must not fool yourself,
+and you are the easiest person to fool."
+Richard Feynman
+
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

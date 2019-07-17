@@ -1,0 +1,33 @@
+Subject:Re: Montar unidades remotas manualmente
+2012/12/4 Juan <jawifi01@gmail.com>:
+> Buenas noches, les quiero hacer una consulta, tengo un pseudo servidor co=
+n
+> Debian, que tiene un directorio donde tengo almacenada informacion de
+> distinto tipo (multimedia, fotos, documentos, etc) y al que accedo desde
+> otros equipos con Ubuntu y Debian.
+>
+> Esto lo monto con nfs en el fstab y funciona sin problemas. El tema egro =
+que
+> tengo una notebook que uso en mi casa y en otros lugares y necesito que e=
+sos
+> directorios nfs se monten de manera manual.
+>
+> La pregunta es =C2=BFhay alguna posibilidad de hacer un script para esto?=
+ estuve
+> buscando pero no veo claro la forma de hacerlo.
+
+=C2=BF? Lo que sea que haces en la consola para montarlos manualmente,
+copialo a un archivo con `#!/bin/sh` como primer l=C3=ADnea y dale permisos
+de ejecuci=C3=B3n.
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjPNJopaWqFwSNUE1fJC9nXq8cnJbWHgRwTyVkz=GbS3hQ@mail.gmail.com
+

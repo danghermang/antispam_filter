@@ -1,0 +1,51 @@
+Subject:Re: Hardware de virtualbox
+
+El Sab, 15 de Septiembre de 2012, 11:47 am, Camale�n escribi�:
+> El Sat, 15 Sep 2012 10:39:05 -0400, Ruben Cervantes Rodríguez escribió:
+>
+>
+>> Hola mis saludos listeros soy nuevo en la lista
+>>
+>
+> Bienvenido :-)
+>
+>
+>> y quisiera lanzar mi primera pregunta, aqui vá ¿Cómo es posible
+>> cambiar el Hardware de la maquina virtual en Virtualbox?.
+>
+> Esto vas a tener que explicarlo un poco más... ¿qué es lo que quieres
+> hacer exactamente?
+>
+>> El virtualbox usa su propio hardware o el de la maquina local, necesito
+>>  saber si es posible que vitualbox use el hardware de la maquina local
+>> saludos.
+>
+> VirtualBox usa el hardware del equipo local pero lo "simula", es decir,
+> usa sus propia capa de abstracción y sus drivers.
+>
+> Esto no es "negociable" ya que es intrínseco a este tipo de sistema de
+> virtualización, lo único que te permite hacer es usar el disco duro en
+> bruto ("raw") en lugar de tener que crear una imagen de disco "virtual"
+> (.vdi, .vmdk, etc...).
+>
+>
+> Saludos,
+>
+>
+> --
+gracias por la respuesta ahora entiendo por que no lo ve�a igual.
+
+
+
+Lic. Ruben Cervantes Rodr�guez
+Instructor y administrador de red
+JCCE Vtes1
+Camag�ey Cuba
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/40974.192.168.9.106.1347724502.squirrel@correo.cmg.jovenclub.cu
+

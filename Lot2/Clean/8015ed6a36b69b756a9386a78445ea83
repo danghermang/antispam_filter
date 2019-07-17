@@ -1,0 +1,21 @@
+Subject:antivirus proxy
+
+Estoy probando el funcionamiento del proxy squid3 con el antivirus.
+Va bien pero veo que solo analiza los ficheros que se descargan, a mi =
+me
+gustar=C3=ADa que cortara las conexiones a direcciones sabidas =
+maliciosas,
+esto es hay virus que realizan conexiones a direcciones concretas para
+enviar datos, pues se tratar=C3=ADa de cortar esas direcciones.
+No estoy hablando del control parenteral, aunque se parezca mucho,
+quiero que sea el antivirus (que es el que se supone que sabe lo que
+hacen los virus) el que se comunique con el squid3 y corte el acceso.
+--=20
+trujo <antonio.trujillo.sspa@juntadeandalucia.es>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1348472727.5390.12.camel@trujo.hvn.sas.junta-andalucia.es
+

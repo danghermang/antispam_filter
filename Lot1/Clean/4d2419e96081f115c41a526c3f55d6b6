@@ -1,0 +1,27 @@
+Subject:Re: [Koha] koha
+John Paul <johnz_008@yahoo.com>
+> good day every one, im a newbie in koha program and rfid, can someone help me how to implement the rfid reader to replace the barcode?
+> pls... i really need it.. pls someone..
+
+It would need more detail and maybe lots more time to say more, but
+here's the overview of one way to do it:
+
+1. figure out which rfid device you have;
+
+2. if it's not a SIP-based device, figure out which rfid tag layout
+you have and write or find a driver for the device/layout combination;
+
+3. if it is a SIP-based device, configure it;
+
+4. figure out how to write tags and set security in a suitable way.
+
+Hope that helps,
+-- 
+MJ Ray (slef), member of www.software.coop, a for-more-than-profit co-op.
+http://koha-community.org supporter, web and library systems developer.
+In My Opinion Only: see http://mjr.towers.org.uk/email.html
+Available for hire (including development) at http://www.software.coop/
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

@@ -1,0 +1,44 @@
+Subject:Re: =?ISO-8859-1?Q?instalaci=F3n_de_thunderbird_y_mozill?=
+	=?ISO-8859-1?Q?a_firefox?=
+El 01/10/12 17:12, Walter O. Dari escribió:
+> El 01/10/12 16:47, residentresureccion@gmail.com escribió:
+>> Buenas tardes.
+>>
+>> Saludos a todos los usuarios.
+>>
+>> Quisiera tener instalado el mozilla firefox y thunderbird en sus
+>> últimas versiones en mi debían 6.0.5 pero no he podido hacerlo no
+>> tengo mucha experiencia de linux se lo básico lo que he podido
+>> conseguir son paquetes de los programas pero en otras extensiones me
+>> gustaría tenerlos debíanizados y por su puesto en español.
+>> Enviado desde mi BlackBerry de Movistar
+>
+> y por qué no Iceweasel e Icedove ? Más debianizado imposible...
+>
+>
+> Saludos,
+> Walter
+>
+> http://swcomputacion.com/
+>
+>
+
+Porque el chico tiene instalado "stable", y esa rama no tienen "el 
+último" iceweasel o icedove.
+
+Para tener "lo último" de firefox debianizado, o se pasa a "testing", o 
+instala desde los backports.
+
+Si se juega a lo último, debe leer
+
+http://linuxgnublog.org/instalar-la-ultima-version-de-iceweasel-en-debian-squeeze/
+
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5069FB93.9010403@gmail.com
+

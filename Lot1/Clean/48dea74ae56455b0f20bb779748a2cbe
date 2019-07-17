@@ -1,0 +1,93 @@
+Subject:Aide et avis pour nouvel =?iso-8859-1?Q?in?=
+	=?iso-8859-1?Q?stalleur_=2F_nouvelle_distribution_=28=3F=29_=2F_nouveau_d?=
+	=?iso-8859-1?B?6XD0dCAoPykgLSBvcmllbnTp?= audio
+Salut à toutes et à tous,
+
+J'ai un projet de nouvel installeur ou distribution et/ou dépôt orienté
+audio, et j'aurais besoin de vos avis sur la question.
+Pour celles et ceux qui veulent m'aider juste techniquement, vous pouvez 
+passer la partie *Contexte*, et direct sauter à mes *Questions*. Pour 
+celles et ceux qui souhaitent me dire si je fais fausse route compte
+tenu du cahier des charges, etc., le *Contexte* est pour vous.
+
+
+*Contexte*
+J'utilise Debian depuis des années, mais pour mon activité de formateur
+aux techniques du spectacle sous GNU/Linux, j'ai une tendance à lui
+préférer une distribution orientée audio clef en main que je puisse
+recommander aux stagiaires, et pour ne pas les déstabiliser, c'est celle
+que j'installe sur les machines des stages.
+Soyons bien clair, Debian me convient à tout point de vue, et est
+pertinente que TangoStudio sur bien des points en ce qui me concerne (et
+moins sur quelques uns), mais je ne peux pas proposer à des stagiaires
+qui débutent sous GNU/Linux d'installer une Debian, et d'aller installer
+un par un les paquets orientés audio.
+Cette distribution s'appelle TangoStudio. Elle était basée sur Ubuntu
+Stuio, et est francophone, comme la communauté qui la soutient.
+Jof, le développeur de la distrib arrête de s'en occuper, car plus de
+temps, et comme il en était question depuis longtemps, la structure dans
+laquelle je bosse devrait récupérer sa gestion, à travers moi,
+principalement.
+Je ne veux pas partir sur du Ubuntu pour plein de raisons, et voilà là
+l'occasion rêvée de contribuer en créant un installeur/une distrib
+Debian orientée audio (pas multimedia, production).
+
+*Questions*
+Sachant que :
+- j'aurais besoin de modifier l'installeur (graphique autant que
+  possible) pour lui intégrer de nouvelles questions (par exemple, install minimale,
+  install full, choix du gestionnaire graphique (LXDE, XFCE, OpenBox, rien)...) ;
+- j'aurais besoin de paramétrer des choses dans le détail du système,
+  des choses du côté des priorités temps réel, accès à la mémoire,
+  nombre de fichiers ouverts (pour ne citer que /etc/security/limits*) ;
+- j'aurais besoin d'utiliser des versions compilées (paquets Debian)
+  depuis les sources de certains logiciels afin d'avoir des versions
+  plus récentes, ou encore des options de compilation particulières,
+  etc., etc., voire des logiciels qui ne sont pas dans la distribution
+  Debian actuelle (ce à quoi je pourrais remédier, finalement) ;
+- j'aurais besoin d'outils type jockey (ubuntu) et ce genre de choses pour
+  faciliter la gestion de pilotes propriétaires (qui ne seront pas
+  installés par défaut, bien sûr),
+- je souhaiterais garder à la fois la notion de free, non-free, contrib
+  et les 3 distribs parallèles Stable, Testing, Unstable de Debian qui
+  me paraissent vraiment une réussite.
+Sachant tout ça, donc, quel est le chemin le plus judicieux à suivre :
+- agir essentiellement sur l'installeur (via live-helper ou live-build
+  ?) ?
+- écrire des scripts de post-install ?
+- forker Debian vers une nouvelle distribution (auquel cas, je suis
+  preneur de documentation, j'ai rien trop trouvé, à part LFS, qui ne me
+  paraît pas du tout pertinent) ?
+
+Pour continuer, à cette distrib/nouvel installeur, je pense qu'il faudra
+que j'associe un dépôt spécifique pour un certain nombre de paquets,
+afin de livrer les paquets qui ne sont pas dans l'archive officielle, ou
+qui sont compilés avec des options différentes, etc.
+Est-ce qu'il y a des contraintes à ce niveau ? A quoi faut-il que je
+fasse attention ?
+Autant que possible, j'aimerais faire un truc qui ne posent pas le genre
+de pb qu'à debian-multimedia qui fait que quand on met un pied dedans,
+ça devient compliqué de revenir en arrière.
+
+
+Dernière question, un peu hors-topic, peut-on envisager, pour les
+personnes équipées de TangoStudio 1.2 (basée sur ubuntu), une migration
+vers une Debian par un simple dist-upgrade ? Si non, peut-on l'envisager
+tout simplement ?
+
+
+Merci d'avance de votre temps et de vos réponses.
+
+
+-- 
+Aurélien
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121110083716.GA10804@sebkhachott.net
+

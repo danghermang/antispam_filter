@@ -1,0 +1,141 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_Ordenar_archivos_por_el_n=FAmero_de_caracteres_de?=
+	=?ISO-8859-1?Q?_su_nombre?=
+El d=EDa 6 de diciembre de 2012 14:44, "Mat=EDas A. Bellone"
+<matiasbellone@gmail.com> escribi=F3:
+> On 12/06/2012 03:43 PM, Marcos Delgado wrote:
+>>
+>> El d=EDa 6 de diciembre de 2012 12:05, "Mat=EDas A. Bellone"
+>> <matiasbellone@gmail.com>  escribi=F3:
+>>>
+>>> On 12/06/2012 02:52 PM, Marcos Delgado wrote:
+>>>>
+>>>>
+>>>> El d=EDa 6 de diciembre de 2012 11:46, "Mat=EDas A. Bellone"
+>>>> <matiasbellone@gmail.com>   escribi=F3:
+>>>>>
+>>>>>
+>>>>> On 12/06/2012 02:41 PM, Marcos Delgado wrote:
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>> El d=EDa 6 de diciembre de 2012 11:23, "Mat=EDas A. Bellone"
+>>>>>> <matiasbellone@gmail.com>    escribi=F3:
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>> On 12/06/2012 02:07 PM, Marcos Delgado wrote:
+>>>>>>>>
+>>>>>>>>
+>>>>>>>>
+>>>>>>>>
+>>>>>>>> Pues bien, necesito realizar esa labor, hasta el momento lo que m=
+=E1s
+>>>>>>>> he
+>>>>>>>> podido hacer revisando opciones en internet es la siguiente orden:
+>>>>>>>>
+>>>>>>>> for i in *; do echo $i ;  echo -e $i | tr -d '\n' | wc -c ; done
+>>>>>>>>
+>>>>>>>> pero no me sirve ya que aparecen en l=EDneas separadas el n=FAmero=
+ de
+>>>>>>>> caracteres y el nombre del archivo.
+>>>>>>>>
+>>>>>>>> Se agradece cualquier ayuda.
+>>>>>>>>
+>>>>>>>> Gracias.
+>>>>>>>> Marcos Delgado.
+>>>>>>>>
+>>>>>>>>
+>>>>>>>
+>>>>>>> for FILE in *; do echo `echo ${FILE} | wc -m` ${FILE}; done | sort =
+-n
+>>>>>>> |
+>>>>>>> cut
+>>>>>>> -d\  -f2
+>>>>>>>
+>>>>>>> Lo que hac=E9s es:
+>>>>>>>            1- imprimir (2) y el nombre del archivo
+>>>>>>>            2- darle de comer cada nombre de archivo a "wc -m"
+>>>>>>>            3- a toda la salida pasarla por sort -n
+>>>>>>>            4- s=F3lo obtener el nombre del archivo con cut
+>>>>>>>
+>>>>>>> Saludos,
+>>>>>>> Toote
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>> Muy bien! el =FAnico problema es con los archivos con espacios, esto=
+y
+>>>>>> viendo si con poner comillas se soluciona, gracias.
+>>>>>>
+>>>>>
+>>>>>
+>>>>> cambi=E1 el 2 al final por "2-" para que te muestre todo menos el 1er
+>>>>> campo.
+>>>>>
+>>>>
+>>>> Sigue igual, gracias.
+>>>>
+>>>>
+>>>
+>>> Entonces no lo est=E1s haciendo bien:
+>>>
+>>> $ ls
+>>> apruebas 1.txt  prueba 1.txt  prueba 2.txt  pruebas 1.txt
+>>> $ for FILE in *; do echo `echo ${FILE} | wc -m` ${FILE}; done | sort -n=
+ |
+>>> cut -d\  -f2-
+>>> prueba 1.txt
+>>> prueba 2.txt
+>>> pruebas 1.txt
+>>> apruebas 1.txt
+>>> $
+>>>
+>>> Saludos,
+>>> Toote
+>>
+>>
+>> La cuesti=F3n es que si hay archivos cuyo nombre empieza con un n=FAmero
+>> los lista al final.
+>>
+>
+> A m=ED no me pasa eso:
+>
+> $ ls
+> 1 ast.txt       apruebas 1.txt  prueba 2.txt
+> 2 asdsddst.txt  prueba 1.txt    pruebas 1.txt
+>
+> $ for FILE in *; do echo `echo ${FILE} | wc -m` ${FILE}; done | sort -n |
+> cut -d\  -f2-
+> 1 ast.txt
+>
+> prueba 1.txt
+> prueba 2.txt
+> pruebas 1.txt
+> 2 asdsddst.txt
+> apruebas 1.txt
+>
+> Saludos,
+> Toote
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/50C103C5.4030908@gmail.com
+>
+
+Revisando awk con este comando el resultado sale m=E1s r=E1pido:
+
+ls | awk 'length($0) {print length " " $0| "sort -g"}'
+
+Gracias.
+Marcos Delgado.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAB_R4cXqLhBD7EgC0YDMK0EB_U=7pvyPQkFZdH6geUqSyB9yLQ@mail.gmail.com
+

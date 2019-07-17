@@ -1,0 +1,26 @@
+Subject:Re: Modem 3g + debian squezze
+On Fri, Oct 05, 2012 at 12:48:56PM +0000, alexissaucedo@gmail.com wrote:
+> Si agus tengo instalado el modemswitch, es mas tengo un modem que siempre use que me anda barvaro, el problema es este que conecto.
+
+Se me ocurre que si la versión de usb-modeswitch que tienes instalada es la
+de squeeze y tu modem es reciente es posible que no lo soporte.
+
+Te sugiero que lo intentes con la versión de squeeze-backports, mira en 
+http://backports-master.debian.org/ para ver como instalar paquetes de
+beckports.
+
+La versión que hay en backports es más reciente que la de squeeze,
+http://packages.debian.org/search?keywords=usb-modeswitch&searchon=names&section=all&suite=squeeze-backports
+y a lo mejor hay suerte y ya lo soporta. 
+
+Saludos,
+
+-- 
+Agustin
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121005131842.GA4931@agmartin.aq.upm.es
+

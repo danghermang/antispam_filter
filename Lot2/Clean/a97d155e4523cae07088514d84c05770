@@ -1,0 +1,115 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Ward,
+
+Everything you said sounds good to me.
+
+--Kirk
+
+-----Original Message----- =
+
+From: ward
+Sent: Monday, October 22, 2012 7:58 PM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] Ferrite Antennas
+
+Kirk:
+   I recognize that there is some risk in getting scorched here=85..
+
+   I'm sure I'm not alone in my attempt to follow this thread.  I
+guess I'm rather lackadaisical on this topic and really only interested
+in the most significant bits.
+   I'm beginning to piece together a basic understanding but it is
+difficult when different people use similar words to convey the
+seemingly different concepts.  Allow me to try to reword things
+a bit.
+   I'm thinking mostly about the ferrite antenna discussion but
+trying to make sure it applies to other small antennas as well.
+
+   It appears the there is a theoretical limit on the amount of
+power a small antenna can intercept.  That power being:
+
+3/8 * lambda^2/pi
+
+I think of this as the "Available Power"=85 power which
+could conceivably be delivered to a load.  This equation
+says nothing about how the energy will be captured=85 we
+could use elves and demons if they cooperated.
+
+If we now consider building a small antenna system in various ways
+we enter the realm of what I consider engineering rather than
+physics.  We now deal with the practical problems of lossy
+materials, electronic circuits, and physical construction.
+
+We first need to invoke the "maximum power" theory.  Since
+our antenna has an internal impedance we will need to match
+our load to that internal impedance in order to maximize
+power delivered.  Of course, to effect this match, we may
+well design our antenna with a convenient internal impedance;
+one easily matched to our load.  That trade-off is what engineering
+is all about.
+
+If I understand things correctly, the ferrite has the effect of
+increasing the voltage I can deliver from the coil of wire.
+The value of increasing voltage is that, for a given power,
+the current is reduced.  I want to reduce currents because
+losses grow like I^2.
+
+But, just to be clear, the ferrite has not affected the "available power",
+it has only made it easier to deliver that power within the
+constraints of lossy materials and electronic circuits.
+
+Earlier in the discussion, someone mentioned that one view
+was that the ferrite acted as an 'Impedance Transform' between
+free space and the volume inside the coil.  The ferrite changes
+the permeability of that region.  That change in permeability
+changes the relative magnitudes of the E and B fields.  That sounds
+like a classical transformer to me.
+
+From a different perspective, Ampere's law says that increasing
+the permeability will reduce the current in the coil.  Given
+constant power, reduced current means increased voltage=85..
+
+It isn't surprising that various shapes of ferrite would have
+differing effects on the 'effective permeability' within the
+coil.  Understanding how the ferrite can best affect that
+permeability seems the be the engineering problem at hand.
+
+Am I way off base here?
+
+ward
+
+
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm =
+
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots=
+.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

@@ -1,0 +1,38 @@
+Subject:Re: =?ISO-8859-1?Q?D=E9pannage_sur_PC_distant?=
+On 27/10/2012 22:36, Alex Padoly wrote:
+> Bonsoir à tous,
+>
+> Comment dépanner efficacement un PC à distance avec un logiciel GNU, le serveur ou la 
+> station sera sous Debian, les postes distant pourront etre sous LINUX ou WINDOWS.
+> Merci pour vos réponses.
+>
+> Alex
+Pour alimenter les réponses et non le troll (on est pas vendredi !).
+
+Je viens de découvrir un outils : Chrome Remote Desktop.
+
+C'est un plugin de chrome pour prendre la main à distance sur un ordinateur via un compte 
+google (sic !) Ms Windows, Linux ou MacOs.
+
+Le plugin est lui-même en licence BSD et il fonctionne sur chromium de debian.
+
+Je pense que les infos transitent par les serveurs de google (je n'ai pas cherché), mais 
+l'utilisateur n'a pas besoin de configurer son réseau ou son ordinateur...
+
+Il n'a qu'à donner à son correspondant le code généré par le plugin et ça roule !
+
+Je n'ai pas testé sur de la 3g mais sur une ligne ADSL "standard", c'est super fluide !
+
+++
+
+Mourad
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5090237C.9010008@nativobject.net
+

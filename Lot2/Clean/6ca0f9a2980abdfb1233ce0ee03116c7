@@ -1,0 +1,130 @@
+Subject:Re: [Antenna-discussion] ferrite rod antenna for a crystal radio
+	A 75 foot inverted L works just dandy.  But a good ground is also essentia=
+l.
+
+On Oct 30, 2012, at 3:24 PM, boswell alan <alan.boswell@blueyonder.co.uk> w=
+rote:
+
+> Kirk
+> =
+
+> Alas, that suggested ferrite rod also has a very large reactance which
+> produces a large tuning/matching problem that needs addressing, so I
+> suspect the capture area might be below what you have predicted.
+> =
+
+> But that raises an interesting possibility of very long ferrite rods
+> of the sort sometimes used to receive ELF signals, that is signals in
+> the range 10-100 Hz, plus or minus.  One of them in the literature had
+> 300,000 turns on the coil.  A practical problem is that ferrite is
+> likely to be more brittle than most materials used to support it.
+> That kind of antenna is tuned and the bandwidth is extremely small :)
+> =
+
+> Crystal set users do not ALL use 75-metre masts, quite a lot of them
+> use much more modest antennas, and anything over 20-30 ft should work
+> reasonably well, and inverted-L antennas work all right in this
+> application.
+> =
+
+> Alan G3NOQ
+> =
+
+> =
+
+> =
+
+> =
+
+> =
+
+> On 30 October 2012 17:31, Kirk T McDonald <kirkmcd@princeton.edu> wrote:
+>> Folks,
+>> =
+
+>> [No power at home now due to Sandy, so I=92m emailing from work, where t=
+he university has its own small power generating station.]
+>> =
+
+>> I found an interesting web site by National Magnetics
+>> http://www.magneticsgroup.com/pdf/erods.pdf
+>> which suggests that we can now obtain a ferrite that could maintain an e=
+ffective permeability of 10,000 if its length is 100 times its radius.
+>> =
+
+>> If I=92ve done the numbers correctly in the updated sec. 4 of my note
+>> http://puhep1.princeton.edu/~mcdonald/examples/power.pdf
+>> a rod of radius r =3D 1 cm, l =3D 1 m, with 1200 turns would have a Q of=
+ 30 at 1 MHz, a radiation resistance of 100 Ohms, and would capture the max=
+imum possible power (rather than 1e-8 of maximum as in typical AM radios).
+>> =
+
+>> If the effective loss resistance at 1 MHz of this high-tech ferrite is l=
+ess than 100 Ohms, this could be a good antenna for a crystal radio set.  I=
+ don=92t have information on this =96 which might prove to be the sticking =
+point.
+>> =
+
+>> This kind of ferrite would not have been available in the early 1900=92s.
+>> =
+
+>> Has anyone built a loopstick antenna like this in recent years?
+>> =
+
+>> Typically, lambda/4 linear monopoles are used instead for crystal radios=
+, where the maximum possible power should be extracted from the wave.
+>> =
+
+>> --Kirk
+>> _______________________________________________
+>> This message was sent to: alan.boswell@blueyonder.co.uk
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address th=
+is message was sent to.
+>> =
+
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+> =
+
+> _______________________________________________
+> This message was sent to: j.bordelon@comcast.net
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address thi=
+s message was sent to.
+> =
+
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots=
+.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this =
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

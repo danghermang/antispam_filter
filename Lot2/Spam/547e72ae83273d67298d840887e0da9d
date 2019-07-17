@@ -1,0 +1,524 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<rozane@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <bounce-30_HTML-5096421-20225-7001782-332@bounce.bbcshop.bbc.com>
+Received: (qmail 17183 invoked by uid 89); 10 Dec 2012 10:36:25 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 10 Dec 2012 10:36:25 -0000
+Delivery-date: Mon, 10 Dec 2012 02:34:46 -0800
+Received: from mta.bbcshop.bbc.com ([68.232.203.237]) helo=mta.bbcshop.bbc.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1Ti0h7-0007wI-KH on interface=184.105.182.43
+	for rozane@activ8.net.au; Mon, 10 Dec 2012 02:34:44 -0800
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=bbcshop.bbc.com;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:Message-ID:Content-Type; i=BBCShop@bbcshop.bbc.com;
+ bh=XfiYCQKVe0ibDN2V0M5DsCPWssc=;
+ b=qiTjkBsv/liqobtDM7yYzzUowzu7tktqpYBU+PVvLfBkl0LtmFsz3jqB1YdiN74t2qPbu6vDD0o0
+   ctoQMji5bWR8Y9n399u6cvwX7K4hTt7nwz3b0f0PtvV4mYlvJF6RubfgbX2Yi5EnDeuCdl8aKq0v
+   OjtVxCmlplIRE50+5uQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=bbcshop.bbc.com;
+ b=DY6yJVfU48RGpNx4nQySwst5GbFZU7VBqvQOKlmFZZ73gYlfhoikpOE+WhLH0iRkGchSUwh67UVo
+   yRgUMXl1ynPD64fV8ACT9HnxG1VIC4Ic3K7t2tpf8CSJRN/G8bGL0KChhPwrNpk5dGRng9D1jgDE
+   io5GjFXb8979+Y+51Cs=;
+Received: by mta.bbcshop.bbc.com id homtc2163hs5 for <rozane@activ8.net.au>; Mon, 10 Dec 2012 04:34:37 -0600 (envelope-from <bounce-30_HTML-5096421-20225-7001782-332@bounce.bbcshop.bbc.com>)
+From: "BBC Shop" <BBCShop@bbcshop.bbc.com>
+To: <rozane@activ8.net.au>
+Subject: DEALS OF THE WEEK! Plus 100 gift ideas & Top Gear Competition. Free UK delivery
+Date: Mon, 10 Dec 2012 04:34:28 -0600
+List-Unsubscribe: <mailto:leave-fd8817701a3c402029-fe9411707c62007f74-ff041670776601-fe9613707565037577-ff67177377@leave.bbcshop.bbc.com>
+MIME-Version: 1.0
+Reply-To: "BBC Shop" <reply-ff041670776601-30_HTML-5096421-7001782-332@bbcshop.bbc.com>
+x-job: 7001782_20225
+Message-ID: <bc24cee0-0ce8-47ec-b92e-4dd42cec0d76@xtinp2mta139.xt.local>
+Content-Type: multipart/alternative;
+	boundary="s5lkZOFDqPsf=_?:"
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: bounce-30_HTML-5096421-20225-7001782-332@bounce.bbcshop.bbc.com
+X-Relay-Countries: us
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd2.ctyme.com
+ Spam Tests:
+ * -0.0 RP_MATCHES_RCVD Envelope sender domain matches handover relay domain
+ *  2.0 CT_SPECIAL_OFFER BODY: Special Offer
+ *  2.5 CT_ACT_NOW BODY: Do it Now
+ *  1.0 CALL_FREE BODY: Contains a tollfree number
+ * -0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/, no
+ *      trust
+ *      [68.232.203.237 listed in list.dnswl.org]
+ *  0.4 HTML_IMAGE_RATIO_02 BODY: HTML has a low ratio of text to image area
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ *  1.0 MAILTO_LINK RAW: Includes a URL link to send an email
+ * -0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from author's
+ *       domain
+ * -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+ *  0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily
+ *      valid
+ *  4.0 CT_ACT_NOW_OFFER Act Now and Offer
+X-Spam-Class: SPAM-LOW
+X-Sender-Host-Address: 68.232.203.237
+X-Sender-Host-Name: mta.bbcshop.bbc.com
+X-Spam-Flag: yes
+
+This is a multi-part message in MIME format.
+
+--s5lkZOFDqPsf=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+Don't miss out!
+
+DEALS OF THE WEEK! Plus 100 gift ideas & Top Gear Competition. Free UK delivery
+http://click.bbcshop.bbc.com/?qs=9b5ad9a11104cc9b89504a6625ba9a6679c1fcdff729b78c49aaa0963b53dd2b3ba94a1bd7014c77
+
+Browser Version    
+http://click.bbcshop.bbc.com/?qs=9b5ad9a11104cc9bd9949eee078078abe4bc6a4efd61d94071f309129d4a9875656637a8abf007a5 
+
+........................................
+ 
+DVD
+http://click.bbcshop.bbc.com/?qs=9b5ad9a11104cc9ba6d8241f070b691c20f2458eaddedcec02e03bc47dd96d816ef9b7e14e19c04e 
+
+Audiobooks
+http://click.bbcshop.bbc.com/?qs=9b5ad9a11104cc9bc84af6e9d39e6491a547953c958ca8f9f16c03b5a0ad77d3bf57ae64b7c0078a 
+
+Books
+http://click.bbcshop.bbc.com/?qs=9b5ad9a11104cc9b7af1c2820da7e08a243eb982f45eced53c3b8c3d35debcfca01804f89dcd8426 
+
+Children's
+http://click.bbcshop.bbc.com/?qs=9b5ad9a11104cc9b1a90866dae3dae0de21a78398262393d9ac7e0d41d0c099e223d41602c0b8768 
+
+Doctor Who
+http://click.bbcshop.bbc.com/?qs=9b5ad9a11104cc9b656956938e0e996a74bd64a933c77dd2c78fd9bbb2854f784cec974d3f4ea5b8 
+
+Top Gear
+http://click.bbcshop.bbc.com/?qs=9b5ad9a11104cc9bd7b15a35294fcca6357c446421ecbd572c4d006b21141d6e7f67b3c07bb2773f 
+
+Blu-ray
+http://click.bbcshop.bbc.com/?qs=d5a1ccc91617dfb9f47ac0789b6635ff55465da1eac3628fb39f1f5fdd8fd22b133466dd89bacad4 
+
+Become a Facebook Fan
+http://click.bbcshop.bbc.com/?qs=d5a1ccc91617dfb9d4e33458f8b40edd8d958fd8d295544a3f5da724f09ea4fb052a92c8da6df7ec 
+
+Follow Us On Twitter
+http://click.bbcshop.bbc.com/?qs=d5a1ccc91617dfb9e1c815a006c16822c505f35f822833902ecbafc3a4cd05e26e06320f70b386c0 
+
+Free UK Delivery On Everything
+http://click.bbcshop.bbc.com/?qs=d5a1ccc91617dfb93d629b0029795d66a12df588c7da3d501aceec4fcfe9a33f025e4dee9f991b43 
+
+........................................
+
+Deals of the week
+Great Savings on bestselling DVDs and Box Sets
+Ends 17 December
+http://click.bbcshop.bbc.com/?qs=9b5ad9a11104cc9b89504a6625ba9a6679c1fcdff729b78c49aaa0963b53dd2b3ba94a1bd7014c77
+
+........................................
+
+Visit our Christmas Store and shop for great brands
+http://click.bbcshop.bbc.com/?qs=d5a1ccc91617dfb9e010e2cd521d38090d0ea9cbadd51c1db59f64c096545ae9d0dfcee0057763bb
+
+
+View Our Top 100 Christmas Gifts
+http://click.bbcshop.bbc.com/?qs=d5a1ccc91617dfb95aac529824e650b4dd070bdc16e9d59897a9909314a331228960979144a68181
+
+
+Top Gifts For Him, Shop Now
+http://click.bbcshop.bbc.com/?qs=d5a1ccc91617dfb9239eb1f2ef29ad1aa86b4ccc9fb83a66f1baa25eabe15344f5d1429f88ed8a66
+
+
+Top Gifts For Her, Shop Now
+http://click.bbcshop.bbc.com/?qs=d5a1ccc91617dfb9008e94a8668aeae58a0d9d044c17cbf59cb7525010dcb37ef3918b0c0eccc016
+
+
+Top Gifts For Kids, Shop Now
+http://click.bbcshop.bbc.com/?qs=d5a1ccc91617dfb9bedb1ceb366e78608ee7bed4be6d17f30e3d40a9062bd6138f12c16e36055c0f
+
+
+Toys, Shop Now
+http://click.bbcshop.bbc.com/?qs=d5a1ccc91617dfb9747f75e2d676583ba459cc5d26407c00828528ab1fb9b936ffb98f0e08e85684
+
+
+DVDs Under £5, Shop Now
+http://click.bbcshop.bbc.com/?qs=8b2fd4d62f7e78498575c3f4aec6157afee1959698b36ca490b81e905e002b108ee52f13992a939f
+
+
+Books Under £5, Shop Now
+http://click.bbcshop.bbc.com/?qs=8b2fd4d62f7e7849542f8e26e4370677b80b08d6e636544bd0a3b38dde38a7ca15654856654d84b9
+
+
+Calendars, Shop Now
+http://click.bbcshop.bbc.com/?qs=8b2fd4d62f7e78492016a3af05d7de1d3c06a27fe8a7cc525cdcb17baaf0f7c992ce2ec02d33fb17
+
+
+........................................
+
+Find perfect Gifts this Christmas with the BBC Shop.com Gift Finder. Shop Now
+http://click.bbcshop.bbc.com/?qs=8b2fd4d62f7e7849785a97dfc4e8eeb0530436c1e10c6cbc0826a3cc5ca90c458c4d754eef5a874f
+
+........................................
+
+
+Top Gear Gift Grid, top prizes to be won every day, Shop Now
+http://click.bbcshop.bbc.com/?qs=8b2fd4d62f7e7849b843bdf888ea17f5a0b52abd3e37847a249bcc14ba6b426d926b20393344439a
+
+........................................
+
+
+Last Delivery Dates for Christmas:
+
+UK - 20 December 2012
+Europe - 17 December 2012
+International - 10 December 2012
+
+
+........................................
+
+
+Our email address is changing. To make sure you receive all our emails please add Newsletter@bbcshop.bbc.com to your address book or safe sender list.
+
+
+You are being emailed by us because you have previously opted-in to receive the BBC Shop Newsletter.
+
+Tip: If you add bbcshop@bbc.com to your email address book, your email system will always recognise messages from us, ensuring our newsletters and special offers won't be classed as spam and you won't miss out.
+
+
+Customer Services
+mailto:bbcshop@bbc.co.uk 
+
+Privacy Policy  
+http://click.bbcshop.bbc.com/?qs=8b2fd4d62f7e7849d84dc75fb73b46d74021a3f1f37f5a5272b7b9537cdabf13eae1a925753f0159 
+
+Unsubscribe 
+http://click.bbcshop.bbc.com/?qs=8b2fd4d62f7e7849cf9900100d0e319495622e82700a30ec6ec0f721debd5aaeb0d9fadcc66339ad 
+
+
+Please note that if you reply to this email the inbox is not monitored. If you wish to opt out of receiving these emails, please click on the Unsubscribe link above. If you have any queries concerning our privacy policy please contact us at dataprotection@bbc.com 
+
+
+For queries relating to BBC Shop email us at bbcshop@bbc.co.uk or call on 0844 848 9799
+
+Offers: Prices and information are correct at time of sending and subject to change without notice. Prices exclude postage and packaging. Discounts and savings refer to savings against Recommended Retail Price (RRP). Free delivery applies to the UK only and will be applied automatically to your order. Products are subject to availability while stock last. BBC Shop reserves the right to change or cancel offers at any time.
+
+
+BBC Worldwide Ltd, Media Centre, 201 Wood Lane, London, W12 7TQ.
+
+Company registered in England and Wales under company number: 1420028
+
+--s5lkZOFDqPsf=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<html><body>
+
+<table cellspacing="0" cellpadding="0" border="0" bordercolor="#000000" width="100%" align="center">
+	<tr>
+		<td><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><table width="100%" bgcolor="#ffffff" background="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_26_11_12_bgd.jpg" style="background-repeat: no-repeat; background-position: center top;">
+	<tbody>
+		<tr>
+			<td>
+			<table width="580" align="center" cellspacing="0" cellpadding="0" border="0" valign="top" style="font-family: Verdana; font-size: 7pt;">
+				<tbody>
+					<tr>
+						<td style="color: rgb(96, 111, 92);">
+						<div align="center">
+						<br />
+						<a href="http://click.bbcshop.bbc.com/?qs=27b87abaa3f601201a3f6a69afb74dfea39d412ff4d40952617fe5ab3c6149f33a91b115d8872cb0" style="line-height: 12pt; color: rgb(96, 111, 92); font-size: 7pt; text-decoration: underline;">Great savings on best selling DVDs & Box Sets. Plus 100 top gift ideas & Top Gear competition. Free & fast UK delivery</a><br />
+						<a   href="http://click.bbcshop.bbc.com/?qs=27b87abaa3f6012018b74ef8cf833ae301c04ece542119c9c4c181f20f8d62f68be359e09cd177cb" title="" style="color: rgb(96, 111, 92); text-decoration: underline;">Browser Version</a>&nbsp;&nbsp;&nbsp;&nbsp;<a   href="http://pages.bbcshop.bbc.com/page.aspx?qs=330c754b5e92df74971b3ee5478c9bc95c00dffbf02524420971503583aa0175907da819a321d687105d03f168b1c6452efdf360a8c16ad31e02b323c0891a9627e12c5623b65832bc1e97643d6bd7457fa73eeceaeb1d6f11977fefc3ff7f77312d69838c59b81c2aeade473fc765e2d2feb6ef41cba4ec446c58fb1356afc513288c22e30ca4d569db49dcdac639d1bb829699a8b826f5c09519e5817199354bbd4373bb95ed948166b1c39d545ebbb443b1331c499255eee1dff2b74f4737110cf95ee98caf0897fe8508f866cfcfa7d4bf21713cf419b45d4551f5fcbf5ade454103fc39f04fbbb283417e5df2b525157a4e47c74e33" title="View Mobile Version" style="color: rgb(96, 111, 92); text-decoration: underline;">Mobile Version</a><br />
+						Our email address is changing. To make sure you receive all our emails please add <a href="mailto:Newsletter@bbcshop.bbc.com" style="line-height: 14pt; color: rgb(96, 111, 92); font-size: 7pt; text-decoration: underline;">Newsletter@bbcshop.bbc.com</a> <br />
+						to your address book or safe sender list. 
+						</div>
+						</td>
+					</tr>
+					<tr>
+						<td height="11">&nbsp;</td>
+					</tr>
+					<!--Logo-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" align="left"><a title="Visit BBC Shop.com Today" href="http://click.bbcshop.bbc.com/?qs=27b87abaa3f601209e81ce69fbe2615debc2b005bf90f025277b4809cf6737209f7bfd3095f1232f"   style="text-decoration: none;"><img width="296" height="53" border="0" mdid="31febed8-6f77-4b96-bd39-ca81a3a7fedf" alt="Visit BBC Shop.com Today" title="Visit BBC Shop.com Today" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/bbcshop_logo.png" style="display: block; width: 296px; height: 53px; border-color: rgb(0, 0, 0); margin: 0px;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="8">&nbsp;</td>
+					</tr>
+					<!--Top Menu Tabs-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" align="left"><a style="text-decoration: none;"   href="http://click.bbcshop.bbc.com/?qs=27b87abaa3f60120ad3edc357c2445811928d50911ac1e0cfd78b57914b522c21841d07e302f0aa7" title="DVD Link"><img width="50" height="36" border="0" mdid="d9e15f69-ba58-43a0-90b7-6dd1d1d412ee" alt="DVD Link" title="DVD Link" style="display: block; width: 50px; height: 36px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/dvd_link.png" /></a></td>
+									<td valign="top" align="left"><a style="text-decoration: none;"   href="http://click.bbcshop.bbc.com/?qs=27b87abaa3f60120edc0026e931378619003eb2391c635dcd250fa249afec4b159d6cba3cdf85508" title="Audio Link"><img width="62" height="36" border="0" mdid="34a26f2f-72a1-41db-b021-3c52ae9f27bb" alt="Audio Link" title="Audio Link" style="display: block; width: 62px; height: 36px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/audio_link.png" /></a></td>
+									<td valign="top" align="left"><a style="text-decoration: none;"   href="http://click.bbcshop.bbc.com/?qs=d0969995aeb210bba6ed65c9e25f7d2bdb5d2a603b927f49a25db313db7d76ec1ce681afca66ca52" title="Books Link"><img width="62" height="36" border="0" mdid="2483b210-2136-4a0b-a38c-8e5fe0e959e6" alt="Books Link" title="Books Link" style="display: block; width: 62px; height: 36px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/books_link.png" /></a></td>
+									<td valign="top" align="left"><a style="text-decoration: none;"   href="http://click.bbcshop.bbc.com/?qs=d0969995aeb210bb4f17310719a082762c259e66663e171545edd91f6aae584332387a3ab897d896" title="Childrens Link"><img width="84" height="36" border="0" mdid="1b4fb214-0e44-4093-b2b9-bea523bb63f0" alt="Childrens Link" title="Childrens Link" style="display: block; width: 84px; height: 36px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/childrens_link.png" /></a></td>
+									<td valign="top" align="left"><a style="text-decoration: none;"   href="http://click.bbcshop.bbc.com/?qs=d0969995aeb210bb057a4ef066afe4bf82797299a8144f95f96300c017d9c5e17e06091225a0196a" title="Doctor Who Link"><img width="97" height="36" border="0" mdid="0243668a-8ce5-4816-bf0d-84b5aa4e4710" alt="Doctor Who Link" title="Doctor Who Link" style="display: block; width: 97px; height: 36px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/doctorwho_link.png" /></a></td>
+									<td valign="top" align="left"><a style="text-decoration: none;"   href="http://click.bbcshop.bbc.com/?qs=d0969995aeb210bb0d12bf151c27d152b8979c5ceec11d51ff71509143c494cc36feb3db6d058c3d" title="Top Gear Link"><img width="79" height="36" border="0" mdid="7e722b71-6def-4165-b29d-7e7a4ad651c9" alt="Top Gear Link" title="Top Gear Link" style="display: block; width: 79px; height: 36px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/topgear_link.png" /></a></td>
+									<td valign="top" align="left"><a style="text-decoration: none;"   href="http://click.bbcshop.bbc.com/?qs=d0969995aeb210bb005891186e5d9edfd6afb15b303677b0c747e70493579e9a11f8c9ae0ab2d3fd" title="Blu-ray Link"><img width="75" height="36" border="0" mdid="350217f2-4ce2-4dc8-9442-a8407966179e" alt="Blu-ray Link" title="Blu-ray Link" style="display: block; width: 75px; height: 36px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/bluray_link.png" /></a></td>
+									<td valign="top" align="left"><a style="text-decoration: none;"   href="http://click.bbcshop.bbc.com/?qs=d0969995aeb210bbb93de52718f6c3ab60d042a8db7edeed0f246b36646dcee981bd5d2bc72f8ee0" title="Facebook Link"><img width="38" height="36" border="0" mdid="50249f10-35a1-4359-9c8b-200d098140e0" alt="Facebook Link" title="Facebook Link" style="display: block; width: 38px; height: 36px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/facebook_link.png" /></a></td>
+									<td valign="top" align="left"><a style="text-decoration: none;"   href="http://click.bbcshop.bbc.com/?qs=d0969995aeb210bbfc238dedd5f3c19ef61ec0caa6f840d3004465d73979fd020d4bb3e6858bb188" title="Twitter Link"><img width="33" height="36" border="0" mdid="292e7e6c-1509-42c3-8a90-e01a72228192" alt="Twitter Link" title="Twitter Link" style="display: block; width: 33px; height: 36px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/twitter_link.png" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!--Free Delivery Banner-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a style="text-decoration: none;"   href="http://click.bbcshop.bbc.com/?qs=d0969995aeb210bbe4d73cc571cb2eb44643a5e3268077d8c82c15af26ca570f82c6bb77b6eb405a" title="Free UK Delivery On Everything"><img width="580" height="66" border="0" mdid="dca10ec6-cf40-4382-8c2c-f83125202b7b" alt="Free UK Delivery On Everything" title="Free UK Delivery On Everything" style="display: block; width: 580px; height: 66px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/free_delivery.jpg" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!--Main Hero-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Deals Of The Week Ends 17 December" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=d0969995aeb210bbab333288e07139aeac18e43648db734e8f0224e76f3bd823eff3eb865cf494dd"><img width="580" height="142" border="0" alt="Deals Of The Week Ends 17 December" title="Deals Of The Week Ends 17 December" style="display: block; width: 580px; height: 142px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_10_12_12_hero.jpg" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!--Deals Top 3 Buttons-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Vikings DVD" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=d0969995aeb210bbc4891b8c62c8e9b1b9a6eebbe20a176eb38d63d04d7f955c1837985449366f18"><img width="204" height="174" border="0" alt="Vikings DVD" title="Vikings DVD" style="display: block; width: 204px; height: 174px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_vikings_btn.jpg" /></a></td>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Oceans DVD" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=76d2bc18b8132a6f0fddd1efd3608e5ea6c2c6aa3bb883358b87e37ce9b2a21cd918c51a6878e4d6"><img width="172" height="174" border="0" alt="Oceans DVD" title="Oceans DVD" style="display: block; width: 172px; height: 174px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_oceans_btn.jpg" /></a></td>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Charles Dickens Box Set" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=76d2bc18b8132a6f498a66a7a8595a6bd4b02cb47724b972617d5d82913e327c71c921c57131f234"><img width="204" height="174" border="0" alt="Charles Dickens Box Set" title="Charles Dickens Box Set" style="display: block; width: 204px; height: 174px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_dickens_dvd_btn.jpg" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!--Deals Middle 3 Buttons-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Shakespeare Collection" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=76d2bc18b8132a6f1578f03d2df10c9864dd81e3dc4def3803c03650d26292aa70443b69c4f987ed"><img width="204" height="180" border="0" alt="Shakespeare Collection" title="Shakespeare Collection" style="display: block; width: 204px; height: 180px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_shakespeare_dvd_btn.jpg" /></a></td>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="History Of The World DVD" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=76d2bc18b8132a6f75de0c554a877139517478ab790abb51bf826099b75adcdaedb95390c2d1099e"><img width="172" height="180" border="0" alt="History Of The World DVD" title="History Of The World DVD" style="display: block; width: 172px; height: 180px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_history_world_dvd_btn.jpg" /></a></td>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Human Body DVD" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=76d2bc18b8132a6f98b16492575a8c43f4a2210489887b6e206920a18a15e8b865c10089605112e0"><img width="204" height="180" border="0" alt="Human Body DVD" title="Human Body DVD" style="display: block; width: 204px; height: 180px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_human_body_dvd_btn.jpg" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!--Deals Bottom 3 Buttons-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Human Planet DVD" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=76d2bc18b8132a6fdf735cac5e4bffa3f16b493b91736af8961be92cdce2cfad4cd91372ca04f694"><img width="204" height="189" border="0" alt="Human Planet DVD" title="Human Planet DVD" style="display: block; width: 204px; height: 189px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_human_planet_dvd_btn.jpg" /></a></td>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Only Fools & Horses Box Set" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=76d2bc18b8132a6f01dcd67307f8f910ecf32ee427f5aefc878bd5f5c4f3803ed01e206044072e24"><img width="172" height="189" border="0" alt="Only Fools & Horses Box Set" title="Only Fools & Horses Box Set" style="display: block; width: 172px; height: 189px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_ofah_dvd_btn.jpg" /></a></td>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Shakespeare In Itlay DVD" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=76d2bc18b8132a6fd161761114922d4d6164abea7ba1b527e1dda3d6191bf63baa9addff0ed3af81"><img width="204" height="189" border="0" alt="Shakespeare In Itlay DVD" title="Shakespeare In Itlay DVD" style="display: block; width: 204px; height: 189px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_shakespeare_italy_dvd_btn.jpg" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!--Deals Store Button-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a title="Shop all our Deals of the Day" href="http://click.bbcshop.bbc.com/?qs=76d2bc18b8132a6fa7dee0407aed928aa8f70631cad8d13a33d97c0de19aaac73d312761aeeb90ee" style="text-decoration: none;"  ><img width="580" height="57" border="0" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/deals_shop_all_btn.jpg" style="display: block; width: 580px; height: 57px; border-color: rgb(0, 0, 0); margin: 0px;" title="Shop all our Deals of the Day" alt="Shop all our Deals of the Day" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="16">&nbsp;</td>
+					</tr>
+					<!--Christmas Store Banner-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=76d2bc18b8132a6fe2169d8da029bb090e5feff2fe876cbc8302bd20ddb7e2012a46516bffc95099" title="Visit Our Christmas Store Today"><img width="580" height="97" border="0" alt="Visit Our Christmas Store Today" title="Visit Our Christmas Store Today" style="display: block; width: 580px; height: 97px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/olympic_xmas12store_hdr.jpg" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!--100 GIfts Banner-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=0bb9ce4014dc1fc8187a430b34792b026ad13129919c2ccba0db7b5266aa2523f882163652d96c2f" title="View Our Top 100 Christmas Gifts"><img width="580" height="77" border="0" alt="View Our Top 100 Christmas Gifts" title="View Our Top 100 Christmas Gifts" style="display: block; width: 580px; height: 77px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/olympic_x12_100_gifts_btn.jpg" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!--Row top 3 buttons-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Top Gifts For Him" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=0bb9ce4014dc1fc847c45ca84734e94dec615659c1030f481271547b15e68a345478521738b01ee7"><img width="199" height="93" border="0" alt="Top Gifts For Him" title="Top Gifts For Him" style="display: block; width: 199px; height: 93px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/ox12_top_gifts_him_btn.jpg" /></a></td>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Top Gifts For Her" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=0bb9ce4014dc1fc81a8e3a0d8919d001157c9bf4c3dde7b99e69f3b2b7f5d328d948f669c9fc0f96"><img width="180" height="93" border="0" alt="Top Gifts For Her" title="Top Gifts For Her" style="display: block; width: 180px; height: 93px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/ox12_top_gifts_her_btn.jpg" /></a></td>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Top Gifts For Kids" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=0bb9ce4014dc1fc8f850a875d25a04f7c67a9e9538543d9001c21a07ba088abce25310702056b72f"><img width="201" height="93" border="0" alt="Top Gifts For Kids" title="Top Gifts For Kids" style="display: block; width: 201px; height: 93px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/ox12_top_gifts_kids_btn.jpg" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!--Row Bottom 4 buttons-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Toys" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=0bb9ce4014dc1fc89d4a101b1eb43fb1d1f2ce7305b3edac0e677cfc996a6b7baa49032025274326"><img width="155" height="91" border="0" alt="Toys" title="Toys" style="display: block; width: 155px; height: 91px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/ox12_toys_btn.jpg" /></a></td>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="DVDs Under 5 Pounds" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=0bb9ce4014dc1fc8d3d2ad8fcdac64adab27d4d568515f8ddd3115ae46fa51dc853bd131ea841089"><img width="133" height="91" border="0" alt="DVDs Under 5 Pounds" title="DVDs Under 5 Pounds" style="display: block; width: 133px; height: 91px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/ox12_dvds_under5_btn.jpg" /></a></td>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Books Under 5 Pounds" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=0bb9ce4014dc1fc82e75ab330bae2505ad47c03479b2433eb4162eef90006f58029e594525472e56"><img width="135" height="91" border="0" alt="Books Under 5 Pounds" title="Books Under 5 Pounds" style="display: block; width: 135px; height: 91px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/ox12_books_under5_btn.jpg" /></a></td>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   title="Calendars" style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=0bb9ce4014dc1fc89674a78f02218724c5951485e9bab4a5cb80cdbbb099f163ffa9b938e1c73622"><img width="157" height="91" border="0" alt="Calendars" title="Calendars" style="display: block; width: 157px; height: 91px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/ox12_calendars_btn.jpg" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!--Row Bottom Christmas Store-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><img width="580" height="28" border="0" style="display: block;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/ox12_xstore_btm.jpg" /></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="16">&nbsp;</td>
+					</tr>
+					<!--Gift Finder Banner-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=0bb9ce4014dc1fc8feba7f6190f0e3c9ba1724a90a5ceb769aa2a0cb40e6240d4a7643b21e91ea00" title="BBC Shop.com Gift Finder. Shop Now"><img width="580" height="112" border="0" alt="BBC Shop.com Gift Finder. Shop Now" title="BBC Shop.com Gift Finder. Shop Now" style="display: block; width: 580px; height: 112px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/gift_finder_550_112_btn.jpg" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="16">&nbsp;</td>
+					</tr>
+					<!--Top Gear Banner-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=0bb9ce4014dc1fc843bae1009021422c517b18fcb54b5749a745d925acb0202b80f470484659d405" title="Top Gear Gift Grid. Top Prizes to be won everyday"><img width="580" height="72" border="0" alt="Top Gear Gift Grid. Top Prizes to be won everyday" title="Top Gear Gift Grid. Top Prizes to be won everyday" style="display: block; width: 580px; height: 72px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/tg_top_prizes_gift_ban.jpg" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="16">&nbsp;</td>
+					</tr>
+					<!--Last Delivery Dates Banner-->
+					<tr>
+						<td valign="top" align="left">
+						<table width="580" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="left"><a   style="text-decoration: none;" href="http://click.bbcshop.bbc.com/?qs=9b5ad9a11104cc9bf9059f90d2c3ff8c68066d37552f9018c1f18b19375df66eb52304a14b31df9b" title="Last Delivery Dates for Christmas, UK 20 December 2012"><img width="580" height="64" border="0" alt="Last Delivery Dates for Christmas, UK 20 December 2012" title="Last Delivery Dates for Christmas, UK 20 December 2012" style="display: block; width: 580px; height: 64px; border-color: rgb(0, 0, 0); margin: 0px;" src="http://image.bbcshop.bbc.com/lib/fe9613707565037577/m/1/x12_last_delivery_dates_ban.gif" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<!--end rows-->
+					<tr>
+						<td height="40">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--footer-->
+			<table width="580" align="center" cellspacing="0" cellpadding="0" border="0" style="font-family: Verdana; font-size: 7pt;">
+				<tbody>
+					<tr>
+						<td style="color: rgb(96, 111, 92);">
+						<div align="center">
+						<span style="padding: 0px 20px; color: rgb(96, 111, 92);"><font color="#555555">Our email address is changing. To make sure you receive all our emails please add<br />
+						<a href="mailto:Newsletter@bbcshop.bbc.com" style="line-height: 16pt; color: rgb(96, 111, 92); font-size: 7pt; text-decoration: underline;">Newsletter@bbcshop.bbc.com</a> to your address book or safe sender list.<br />
+						<br />
+						You are being emailed by us because you have previously opted-in to receive the BBC Shop Newsletter.<br />
+						<br />
+						<b><a alias="Customer Services" conversion="undefined" href="mailto:bbcshop@bbc.co.uk" title="" style="color: rgb(96, 111, 92); text-decoration: none;">Customer Services</a>&nbsp;&nbsp; |&nbsp;&nbsp; <a   href="http://click.bbcshop.bbc.com/?qs=9b5ad9a11104cc9bd195f567d064944f23ef048e927e431b4f4e6fe9936768615fb4d60c9102ef0c" title="Unsubscribe" style="color: rgb(96, 111, 92); text-decoration: none;">Unsubscribe</a></b><br />
+						<br />
+						Please note that if you reply to this email the inbox is not monitored. If you wish to opt out of receiving these emails, please click on the Unsubscribe link above. If you have any queries concerning our privacy policy please contact us at <b><a href="mailto:dataprotection@bbc.com" style="color: rgb(96, 111, 92); text-decoration: none;">dataprotection@bbc.com</a></b><br />
+						<br />
+						For queries relating to BBC Shop email us at <b><a href="mailto:bbcshop@bbc.co.uk" style="color: rgb(96, 111, 92); text-decoration: none;">bbcshop@bbc.co.uk</a></b> or call on <b>0844 848 9799</b><br />
+						<br />
+						<font color="#707070"><b>Offers:</b></font> Prices and information are correct at time of sending and subject to change without notice. Prices exclude postage and packaging. Discounts and savings refer to savings against Recommended Retail Price (RRP). Free delivery applies to the UK only and will be applied automatically to your order. Products are subject to availability while stock last. BBC Shop reserves the right to change or cancel offers at any time.<br />
+						<br />
+						BBC Worldwide Ltd, Media Centre, 201 Wood Lane, London, W12 7TQ.<br />
+						Company registered in England and Wales under company number: 1420028</font></span> 
+						</div>
+						</td>
+					</tr>
+					<tr>
+						<td height="40"></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table></td></tr></table></td></tr></table></td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+</table>
+<img src="http://click.bbcshop.bbc.com/open.aspx?ffcb10-ff041670776601-fe5c1575756300787c10-fe9613707565037577-ff9c1770-fe9411707c62007f74-ff67177377" width="1" height="1">
+
+</body></html>
+
+--s5lkZOFDqPsf=_?:--
+
+

@@ -1,0 +1,51 @@
+Subject:=?utf-8?Q?Re:_Configuration_r=C3=A9seau_dans_un_VLAN?=
+Bonjour,
+
+Ton probl=C3=A8me n'a que peu de chose =C3=A0 voir avec la distribution Linu=
+x Debian mais c'est un probl=C3=A8me de configuration de ton switch au nivea=
+u Vlan.=20
+
+Envoy=C3=A9 de mon iPhone
+
+Le 8 d=C3=A9c. 2012 =C3=A0 20:40, Pascal Hambourg <pascal@plouf.fr.eu.org> a=
+ =C3=A9crit :
+
+> David BERCOT a =C3=A9crit :
+>> Le Sat, 08 Dec 2012 18:18:18 +0100,
+>>>>=20
+>>>> Or, une fois cette configuration mise en place (et apparemment
+>>>> bonne), impossible de joindre les ESXi...
+>=20
+> Au fait, comment se caract=C3=A9rise *d'un point de vue r=C3=A9seau IP/eth=
+ernet*
+> "joindre les ESXi" et "impossible de..." pr=C3=A9cis=C3=A9ment ?
+>=20
+>>> Le port du switch connect=C3=A9 =C3=A0 la station Debian est-il configur=
+=C3=A9 pour le
+>>> trafic tagg=C3=A9 de ce VLAN ?
+>>=20
+>> En effet, il l'est... D'ailleurs, les ESXi se "voient" entre eux...
+>=20
+> Les ESXi sont connect=C3=A9s sur d'autres ports du switch, dont je ne vois=
+
+> pas en quoi c'est pertinent. Ou alors je n'ai pas tout compris.
+>=20
+> --=20
+> Lisez la FAQ de la liste avant de poser une question :
+> http://wiki.debian.org/fr/FrenchLists
+>=20
+> Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+> vers debian-user-french-REQUEST@lists.debian.org
+> En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+> Archive: http://lists.debian.org/50C397A2.2030904@plouf.fr.eu.org
+>=20
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/688803D2-EE05-4A29-96FA-D020FC084443@gmail.com
+

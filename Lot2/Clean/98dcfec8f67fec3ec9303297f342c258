@@ -1,0 +1,43 @@
+Subject:[svnbook] r4305 committed - * en/book/ch01-fundamental-concepts.xml...
+Revision: 4305
+Author:   cmpilato@gmail.com
+Date:     Fri Sep 14 06:59:15 2012
+Log:      * en/book/ch01-fundamental-concepts.xml
+   (svn.basic.in-action.revs): Tweak wording in sidebar about global  
+revisions
+     to make it clear that the 'tree' we're talking about is the repository
+     tree.
+
+Suggested by: John Maher <JohnM{__AT__}rotair.com>
+http://code.google.com/p/svnbook/source/detail?r=4305
+
+Modified:
+  /trunk/en/book/ch01-fundamental-concepts.xml
+
+=======================================
+--- /trunk/en/book/ch01-fundamental-concepts.xml	Mon Jan  2 20:52:47 2012
++++ /trunk/en/book/ch01-fundamental-concepts.xml	Fri Sep 14 06:59:15 2012
+@@ -454,12 +454,12 @@
+          </indexterm>
+
+          <para>Unlike most version control systems, Subversion's
+-          revision numbers apply to <emphasis>entire trees</emphasis>,
+-          not individual files.  Each revision number selects an
+-          entire tree, a particular state of the repository after some
+-          committed change.  Another way to think about it is that
+-          revision N represents the state of the repository filesystem
+-          after the Nth commit.  When Subversion users talk
++          revision numbers apply to <emphasis>the entire repository
++          tree</emphasis>, not individual files.  Each revision number
++          selects an entire tree, a particular state of the repository
++          after some committed change.  Another way to think about it
++          is that revision N represents the state of the repository
++          filesystem after the Nth commit.  When Subversion users talk
+            about <quote>revision 5 of
+            <filename>foo.c</filename>,</quote> they really mean
+            <quote><filename>foo.c</filename> as it appears in revision
+
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

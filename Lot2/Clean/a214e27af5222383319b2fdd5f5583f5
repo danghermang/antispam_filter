@@ -1,0 +1,19 @@
+Subject:Re: [rlug] chroot jail
+On Fri, Nov 2, 2012 at 8:02 PM, Alex 'CAVE' Cernat <cave@cernat.ro> wrote:
+> deci chroot ar cam fi cea mai buna solutie in cazul asta, chiar n-am
+> chef sa bag o masina virtuala pentru asa ceva
+
+Daca mergi pe template-uri, care de obicei nu-ti ocupa comprimate mai
+mult de vreo 160-170MB, nu cred ca ai mai mult de munca la o masina
+virtuala prin comparatie cu mentinerea de chroot-uri. Ambele variante
+sunt la fel de scriptabile si nu vad rostul de a mentine chroot-uri
+daca pot instala o masina virtuala in cateva minute (cat dureaza sa
+decomprim template-ul intr-un lv) si sterge in cateva secunde. Dar tu
+stii mai bine ce-ti trebuie in situatia ta.
+
+-- 
+Adi Pircalabu
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

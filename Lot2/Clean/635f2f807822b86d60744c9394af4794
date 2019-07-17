@@ -1,0 +1,129 @@
+Subject:Re: Dudas con un segundo MX en DNS
+Definitivamente....considero que la solucion sea implementar multihomed, 
+nada que ver con DNS ni registros MX.
+
+Puedes buscar en la red, existen tutoriales de como implementar eso que 
+quieres.
+
+
+----- Original Message ----- 
+From: "Cristian Mitchell" <mitchell69uk@gmail.com>
+To: <debian-user-spanish@lists.debian.org>
+Sent: Thursday, November 15, 2012 3:33 PM
+Subject: Re: Dudas con un segundo MX en DNS
+
+
+El día 15 de noviembre de 2012 16:50, Josué Marrero Bermúdez
+<inf@zetihl.azcuba.cu> escribió:
+> A lo mejor lo que necesitas es implementar multihomed
+>
+> Varios servidores..con usuarios distintos..que respondan a un mismo 
+> dominio.
+> ----- Original Message ----- From: "troxlinux" <xserverlinux@gmail.com>
+> To: <debian-user-spanish@lists.debian.org>
+> Sent: Thursday, November 15, 2012 2:46 PM
+> Subject: Fwd: Dudas con un segundo MX en DNS
+>
+>
+>
+> El día 15 de noviembre de 2012 13:37, Cristian Mitchell
+> <mitchell69uk@gmail.com> escribió:
+>
+>>> Bueno, los registros MX sirven para dar "prioridad" a los servidores de
+>>> correo, si el primero no responde se intenta con el segundo, el
+>>> tercero... por lo que si haces eso lo que sucederá es que el primer
+>>> servidor de correo que se contacte sea "mail.superdominio.com" y si está
+>>> operativo y funcionando se encargará de enrutar el correo.
+>>>
+>>
+>> Amplio el conceptoel registro MX le indica a los servidoresque le
+>> quieren enviar un mail a cierto dominio
+>> cual este o sea que detras de ve haver un MTA simplemnte (mail transpor
+>> agent)
+>> esto queire desir que resivo los mail para el dominio que hosteo y
+>> deposito en el area de usuario
+>> eso es todo, luego existen los protocolos de comunicacion con cliente 
+>> (pop
+>> imap)
+>>
+>> entonces deveria armar un MTA que deposite en los diferentes
+>> servidores segun sea donde se encuentre la cuenta
+>>
+> uhmm , bueno no es exactamente lo que busco , no quiero tener un
+> servidor de respaldo , tampoco quiero que el exchange le envie correo
+> a otro servidor , lo que deseo es como tener un balanceador de carga
+> en mis MX que ambos servidores manejen diferentes usuarios pero con el
+> mismo dominio .
+>
+> ejemplifico :
+>
+>
+> usuario: pipo@misuperdominio.com servidor A (exchange)
+> usuario: pepa@misuperdominio.com Servidor B (linux)
+>
+> no se si la manera de poner en el dns seria esa la forma (ver primer
+> correo de este hilo).
+>
+> sldss
+>
+>
+>
+>
+>
+> --
+> rickygm
+>
+> http://gnuforever.homelinux.com
+>
+>
+> --
+> rickygm
+>
+> http://gnuforever.homelinux.com
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/CAL_GE3ReCaa-tPqm-Ar9ghTbTJbVQ8xuzx51xtWh9iVsc=rA@mail.gmail.com
+>
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/7CA8A3F331EB470E8ED1E3D466560971@dbsrv
+>
+
+entonces no queres un MX
+
+-- 
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sueñan los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los inútiles crónicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact 
+listmaster@lists.debian.org
+Archive: 
+http://lists.debian.org/CALvB54a_+U+0kOo50NHs2zLz3rGuhGsmm6JThP4oQvdS+7BqWQ@mail.gmail.com
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/18CC094A849B4FB5824F18B76A5420ED@dbsrv
+

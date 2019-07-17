@@ -1,0 +1,30 @@
+Subject:Mail delivery failed: returning message to sender
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  surprisermoni@aol.com
+    (ultimately generated from d023fa26@surpriser.de)
+    SMTP error from remote mail server after end of data:
+    host mailin-04.mx.aol.com [205.188.103.2]: 521 5.2.1 :
+     (HVU:B2) http://postmaster.info.aol.com/errors/554hvub2.html
+
+------ This is a copy of the message's headers. ------
+
+Return-path: <E4AE3B18@metor.ru>
+Received: from [212.156.90.206] (helo=)
+	by mx13.ispgateway.de with esmtp (Exim 4.68)
+	(envelope-from <E4AE3B18@metor.ru>)
+	id 1TiQH0-0008D6-U5
+	for d023fa26@surpriser.de; Tue, 11 Dec 2012 14:53:27 +0100
+From: "Order Clialas" <E4AE3B18@metor.ru>
+Subject: Top sale
+To: <d023fa26@surpriser.de>
+List-Unsubscribe: <mailto:BE2981351B3BFA9EFEC@hailchant.com>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; chars="iso-8859-1"
+Date: Tue, 11 Dec 2012 15:53:25 +0300
+Message-ID: <20121211155325.03DF6464EED8296B6292F.C728578@SELAHATTÝN>
+
+

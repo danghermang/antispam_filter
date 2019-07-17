@@ -1,0 +1,19 @@
+Subject:Re: service TAG Dell PowerEdge R300
+Bonjour,
+
+Le 13/sept. - 15:07, Philippe Gayot a écrit :
+> Sous Squeeze, en ligne de commande, est-il possible de connaître le service
+> TAG d'un Dell PowerEdge R300 ?
+
+dmidecode (avec les droits root) te donnera la réponse
+Chez moi : System Information -> Serial Number
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120913132141.GH21165@lpecai.univ-lemans.fr
+

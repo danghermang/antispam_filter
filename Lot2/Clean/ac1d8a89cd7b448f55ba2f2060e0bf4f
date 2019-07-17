@@ -1,0 +1,33 @@
+Subject:Re: [Koha] Purchase request vanishes into thin air?
+Elaine,
+
+On Wed, Nov 7, 2012 at 2:38 PM, Elaine Bradtke <eb@efdss.org> wrote:
+> > Just tried changing Anonymous from and adult patron to a member of staff,
+> > and then submitting a purchase suggestion  Still didn't work. There is no
+> > password set for this imaginary person, correct?
+>
+> We do have a username and password for our dear, imaginary Anonymous
+> patron, but that "person" never logs in.  Our purchase suggestions all
+> show up as anonymous whether they're submitted by someone logged in,
+> or submitted without anyone having logged in--they all show up as
+> suggested by, "Patron, Anonymous."
+>
+
+I don't believe you need a user name or password, but you *do* need a real
+user for your anonymous patron. Patron 0 is the database user and not an
+actual patron, so any data associated with that patron is likely to go
+spectacularly awry.
+
+Regards,
+Jared
+
+-- 
+Jared Camins-Esakov
+Bibliographer, C & P Bibliography Services, LLC
+(phone) +1 (917) 727-3445
+(e-mail) jcamins@cpbibliography.com
+(web) http://www.cpbibliography.com/
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

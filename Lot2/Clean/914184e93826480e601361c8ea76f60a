@@ -1,0 +1,31 @@
+Subject:Re: Sin red al actualizar
+El dom, 30-09-2012 a las 20:38 -0300, Fabián Bonetti escribió: 
+> On Mon, 01 Oct 2012 03:08:35 +0400
+> "Evgeny M. Zubok" <evgeny.zubok@tochka.ru> wrote:
+> 
+> mama@zeuza:~$ lsmod | grep 8139
+> 8139too                14949  0 
+> 8139cp                 13421  0 
+> mii                     2714  2 8139too,8139cp
+> 
+> 
+> Ahora parece que no hay problema, repito.
+> 
+si dejó de funcionar y volvió a funcionar automágicamente, probablemente
+el networkmanager del demonio esté inchando las **** y la rec**** de su
+*******
+mi recomendación siempre es purgar ese(os) paquete(s) 
+> Pero igual es raro.
+> 
+
+
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349092517.2871.1.camel@EeePC.ucasal.ar
+

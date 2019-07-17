@@ -1,0 +1,37 @@
+Subject:Re: chrony backport for kernel 3.2.x-bpo
+On Thu, Dec 06, 2012 at 08:02:43PM +0100, Juergen Descher wrote:
+> I forgot the changelog...
+> 
+> chrony (1.24-3.1+deb7u1) wheezy; urgency=medium
+> 
+>   * Non-maintainer upload.
+> 
+>   * Fix: Remove obsolete check for supported kernel versions (rtc_linux.c)
+>       to run also for kernel versions 3.0 and higher. Since kernel 2.2 all
+>       kernels have RTC support. Backport of upstream patch for version 1.26.
+>       Solves: #642209 for version 1.24. Closes: #691340
+> 
+>   * Fix: Enable full support for kernel versions 3.0 and higher (sys_linux.c)
+>       and ignore nonexistent patch level of kernel version (which come with
+>       some kernel versions). Backport of upstream patch for version 1.26.
+>       Solves: #628919 for version 1.24. Closes: #689012
+> 
+>  -- Joachim Wiedorn <ad_debian@joonet.de>  Fri, 16 Nov 2012 10:01:01 +0100
+[...]
+
+Judging by the changelog (I didn't look at the diff), the above
+changes seem to be suitable for a stable update, to ease upgrades.
+
+Ben.
+
+-- 
+Ben Hutchings
+We get into the habit of living before acquiring the habit of thinking.
+                                                              - Albert Camus
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121206193251.GE13292@decadent.org.uk
+

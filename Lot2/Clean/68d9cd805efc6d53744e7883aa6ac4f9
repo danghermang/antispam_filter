@@ -1,0 +1,97 @@
+Subject:Re: Compilar kernel para optimizacion
+
+>
+>>
+>>> Mini-guia rápida... :P
+>>>
+>>> * -0x
+>>> * -march=native
+>>> * -pipe : ahorra tiempo a la hora de compilar el kernel a costa de
+>>> utilizar más RAM en vez de acceso al disco duro.
+>>> * Desactiva todo rastro de información de depuración (debug) que
+>>> encuentres. Aunque es muy recomendable leerse la información de cada
+>>> sección antes de tocar nada.
+>>> * Todo lo que no estés seguro de usar como módulo (m)
+>>> * Todo lo que estás totalmente seguro que vas a usar incluyelo en la
+>>> imagen (y)
+>>>
+>>> Es preferible compilar una característica como módulo, aunque tarde más
+>>> el proceso de generación de la imagen, que no hacerlo.
+>>>
+>>> ... y a estas horas no recuerdo mucho más, aunque seguro que se me
+>>> escapa algo.
+>>>
+>>>
+>>> --
+>>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>>> with a subject of "unsubscribe". Trouble? Contact
+>>> listmaster@lists.debian.org
+>>> Archive: http://lists.debian.org/50A6D46A.2070900@gmail.com
+>>>
+>>>
+>>
+>>
+>> Mil gracias a todos.
+>>
+>> Saludos.
+>>
+>> --
+>> ADMIN: Maykel Franco Hdez
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive:
+>> http://lists.debian.org/2dad5898929110b1feeae37a7221a9f8.squirrel@maykel.sytes.net
+>>
+>>
+>
+> Muy bueno, voy a ello...
+>
+> http://users.on.net/~ckolivas/kernel/
+>
+> Gracias, esto es lo que quería, algo que ya esté optimizado y que se
+> aplique.
+>
+> Saludos.
+>
+> --
+> ADMIN: Maykel Franco Hdez
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/de1513965f7f6a32b51b342a29aef934.squirrel@maykel.sytes.net
+>
+>
+
+Probado con kernel estale 3.6.7 y aplicado el parche .bz2 que aparece en
+la web. En teoría, es válido el patch para 3.6.* pero yo aplicado el
+parche al kernel 3.6.7 y luego compilado y todo OK, ningún problema.
+
+Pero cuando va arrancar se queda en "Loading ramdisk..." y no tira..le
+pasado el comando debug al kernel pero sigue sin tirar y no muestra
+información..
+
+No sé si no será válido ése kernel o algo así...Pruebo con el 3.6 mainline??
+
+Por cierto, tengo varios kernels y me arrancan todos menos el que acabo de
+compilar...es raro si se ha hecho todo OK.
+
+Saludos y gracias.
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/e906645d9593bd0a4a1cd4d5f70f0d7f.squirrel@maykel.sytes.net
+

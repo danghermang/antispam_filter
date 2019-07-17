@@ -1,0 +1,35 @@
+Subject:[OT] Re: Error 500 en apache2 que solo se ve del lado del cliente
+El Fri, 31 Aug 2012 08:38:32 -0500, PedroTron escribió:
+
+> Tengo un formulario de contacto (creo que esta en ajax) con el cual
+> supuestamente se diligencian los campos, se presiona el boton enviar y
+> debe salir un mensaje para el administrador del sitio.  Pero no sucede
+> nada:  en los logs del servidor tampoco aparece que se procese nada. Lo
+> primero que intente descargar es que fuera problema del formulario,
+> entonces lo ejecutamos usando firebug, y aparece un error 500, pero solo
+> en firebug; del lao del servidor no aparece nada relacionado con ese
+> error.  Ya aumente el nivel de log a debug y sigue sin aparecer nada.
+> 
+> Segun me indica el desarrollador del sitio, ese error es del servidor,
+> pero no encuentro como rastrearlo en el mismo.
+> 
+> de casualidad han tenido alguna experiencia similar?
+
+Lo cierto es que un error 500 apunta a un error del servidor pero 
+tratándose de Ajax difícil lo veo porque la programación se ejecuta en el 
+cliente. Si más datos concretos sobre la mesa, complicado... date una 
+vuelta por Google:
+
+http://bit.ly/T2taLl
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k1qkl6$hd2$9@ger.gmane.org
+

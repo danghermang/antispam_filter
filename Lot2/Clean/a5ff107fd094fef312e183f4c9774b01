@@ -1,0 +1,12 @@
+Subject:[edmug] Creating your own Fusion Drive
+Apple's official line is that Fusion Drive ( =
+http://www.apple.com/uk/imac/features/#storage ) is only available on =
+new iMacs and Macs mini, but interestingly with a bit of command line =
+wizardry you can in fact set up your own:
+
+=
+http://arstechnica.com/apple/2012/10/more-on-fusion-drive-how-it-works-and=
+-how-to-roll-your-own/
+
+I'm assuming this only works on Mountain Lion, and obviously you need a =
+Mac that can hold both a regular hard drive and an SSD.=

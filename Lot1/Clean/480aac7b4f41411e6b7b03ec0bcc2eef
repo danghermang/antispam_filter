@@ -1,0 +1,48 @@
+Subject:Re: [rlug] parsare si manipulare continut mbox
+Salut,
+
+Eu am folosit Vmime (http://www.vmime.org/) si un parser pentru Mailbox
+inaintea lui. C++ pentru ambele. Si in Perl ai citeva module pe care le
+poti folosi - nu le stiu insa numele pe dinafara. In functie de ce
+variabile iti trebuie si ce vrei sa faci mai departe, alegi ciocanul
+potrivit. :)
+
+2012/10/29 Adrian Sevcenco <Adrian.Sevcenco@cern.ch>
+
+> Salut! Am nevoie de un sfat/hint/directie pentru a implementa un
+> algoritm de genul :
+>
+> parseaza fisier mbox
+> pentru fiecare email
+>         daca conditie_1
+>                 printeaza var1,var2,var3
+>                 sterge email din mbox
+>
+> am gasit ceva : http://pear.php.net/package/Mail_Mbox
+> dar la cit de vechi si unmantained e nu imi inspira incredere..
+> mime_parser.php http://www.phpclasses.org/browse/file/14670.html imi
+> cere o inregistrare(??!!)
+> Ce alte tooluri as putea gasi?
+> (Nu prea conteaza limbajul .. doar sa nu fie in fortran (ce il urasc din
+> toata inima) si asm (ce mi-ar minca din timp))
+>
+> Multumesc!
+> Adrian
+>
+>
+> _______________________________________________
+> RLUG mailing list
+> RLUG@lists.lug.ro
+> http://lists.lug.ro/mailman/listinfo/rlug
+>
+>
+
+
+Iulian
+
+--
+He who sings scares away his woes.
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

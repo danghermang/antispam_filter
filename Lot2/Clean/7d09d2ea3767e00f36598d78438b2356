@@ -1,0 +1,32 @@
+Subject:Re: problemas con =?iso-8859-1?b?c2XxYWw=?= wifi canal 14 en debian
+	6
+El Mon, 01 Oct 2012 09:30:17 -0500, Constantino Vargas escribió:
+
+> buenas amigos, he tenido problemas de saturacion de señal wifi en mi
+> localidad, tenia montado una ap con antena panel para conectarme ha
+> internet wifi, una posible solución que encontré es de que un proveedor
+> wifi de mi localidad  esta en canal 14 y con la tarjeta de red
+> TL-WN751ND (ath9k) puedo captar su señal desde la distribución xubuntu
+> 12.04 que lo tengo instalado en mi pc.
+
+(...)
+
+Como te comenta Gonzalo, los canales del 12 al 14 están desactivados/
+restringidos en algunos drivers de tarjetas de manera predeterminada,
+por lo que te puede interesar leer la documentación para la tuya para 
+ver si puedes saltarte esa restricción de alguna forma:
+
+http://wireless.kernel.org/en/users/Drivers/ath#Regulatory
+http://wireless.kernel.org/en/developers/Regulatory/CRDA#Changing_regulatory_domains
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k73lmg$7h2$8@ger.gmane.org
+

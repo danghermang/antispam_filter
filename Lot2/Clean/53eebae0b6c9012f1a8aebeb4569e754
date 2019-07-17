@@ -1,0 +1,23 @@
+Subject:Re: su -c ne passe pas
+Le Sat, 03 Nov 2012 16:16:09 +0100,
+"tv.debian@googlemail.com" <tv.debian@googlemail.com> a écrit :
+
+> su -c "dpkg -i DraftSight.deb"
+
+bonjour,
+
+	merci pour les doubles quotes, malheureusement le soft ne
+	fonctionne pas encore correctement
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121103165240.23e5ff82.bernard.schoenacker@free.fr
+

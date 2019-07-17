@@ -1,0 +1,30 @@
+Subject:Re: =?UTF-8?B?RMOpbWFycmFnZQ==?= impossible: ADDRCONF (NETDEV_UP):
+	eth0: link is not ready
+On Sun, 2 Sep 2012 18:37:16 +0200
+Nicolas H=C3=A9mard <nicolas@hemard.eu> wrote:
+
+> udev est bien install=C3=A9.
+> Que veut dire ceci ?  "*soit c'est justement l'absence de cette
+> r=C3=A8gle qui bloque."*
+
+> > *- je n'arrive pas =C3=A0
+> > virer /etc/udev/rules.d/70-persistent-net.rules avec rm : "No such
+> > file or directory"=20
+
+Si tu ne peux pas le virer c'est qu'il n'est pas l=C3=A0, comme dirait M.
+de La Palice :)
+
+--=20
+Zugus : J'ai un pixel qui reste blanc sur mon pc
+Zugus : Mais =C3=A0 chaque d=C3=A9marrage, il se d=C3=A9place
+Zugus : C'est un pixel mort-vivant \o/
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120902190402.76c7dd3a@anubis.defcon1
+

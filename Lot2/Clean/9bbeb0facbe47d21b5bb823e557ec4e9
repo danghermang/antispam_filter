@@ -1,0 +1,87 @@
+Subject:Re: Performance mdadm
+El d=C3=ADa 2 de octubre de 2012 22:48, Cristian Mitchell
+<mitchell69uk@gmail.com> escribi=C3=B3:
+> El d=C3=ADa 2 de octubre de 2012 05:19, Esteban Torres Rodr=C3=ADguez
+> <mortenol.torres@gmail.com> escribi=C3=B3:
+>> Buenas a todos.
+>>
+>> He montado un proxy en un servidor con 2 discos. La instalaci=C3=B3n la
+>> tengo hecha con los discos montados en espejo con mdadm. En contra
+>> tengo el actual servidor proxy que est=C3=A1 dando servicio montado en
+>> Centos con el mismo hardware que el anterior pero con los discos
+>> montados en espejo con el raid por hardware (Debian no me reconocia en
+>> la instalaci=C3=B3n la controladora y adem=C3=A1s el drivers solo estaba=
+ para
+>> redhat y suse).
+>> Quiero migrar de la centos a debian, pero he realizado un test en los
+>> discos y la diferencia tanto de lectura como de escritua es el doble
+>> de la Centos a la Debian.
+>> Como podr=C3=ADa hacer tunning de esos discos montados con mdadm?
+>> Decir que ambos sistemas est=C3=A1n montados con el mismo sistema de arc=
+hivos.
+>>
+>> He pensado pasarme a testing por si all=C3=AD la nueva versi=C3=B3n de m=
+dadm da
+>> mejor rendimiento.
+>>
+>> Que me recomendais?
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debia=
+n.org
+>> Archive: http://lists.debian.org/CA+FbNVjj6XSsxe-BkoPxP9N1ZeXb79dOS_H2sa=
+OvUW3detEm4A@mail.gmail.com
+>>
+>
+> para llegar a una conclusion tendrias que pasar mas datos como el
+> harware configuracion del equipo etc
+
+Hardware es el mismo tanto en Centos como en Debian. La controladora
+en cuesti=C3=B3n es:
+
+RAID bus controller: Promise Technology, Inc. PDC20319 (FastTrak S150 TX4)
+
+>
+> pero desde ya te digo que el raid por harware es mas rapido que el por so=
+ftware
+>
+> la ventaja de soft es que corre en cualquier equipo y configuracion
+> y es portable de equipo a equipo
+>
+> y segundo hay un tema que no me suena si no tenes los modulos de la
+> placa scsi como estas instalando debian?
+
+Puedo instalarlo sin problemas ya que los discos me lo detecta sin
+problemas. La historia es que no me detecta la controladora RAID y en
+la instalaci=C3=B3n me aparecen los discos por separado, cuando yo tengo
+por hardware esos discos espejados.
+
+>
+> --
+> MrIX
+> Linux user number 412793.
+> http://counter.li.org/
+>
+> las grandes obras,
+> las sue=C3=B1an los santos locos,
+> las realizan los luchadores natos,
+> las aprovechan los felices cuerdo,
+> y las critican los in=C3=BAtiles cr=C3=B3nicos,
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/CALvB54ZDPznVzoV1P6rv31_umCEB2CeHMqYDCYq=
+Gjin4YUfdcA@mail.gmail.com
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+FbNVj=N1vwKAd-H3jLia2Yh_mV+DMG15J+GjgawVZVMo0Urw@mail.gmail.com
+

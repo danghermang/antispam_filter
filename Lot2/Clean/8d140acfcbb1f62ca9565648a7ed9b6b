@@ -1,0 +1,26 @@
+Subject:Re: como averiguo el tiempo transcurrido desde que se encendio el PC
+El d=C3=ADa 3 de octubre de 2012 20:35, Eduardo D=C3=ADaz
+<guachos2003@gmail.com> escribi=C3=B3:
+> top
+>
+> El 3 de octubre de 2012 18:28, Victor Hugo Cespedes Zuleta
+> <cespedes.zuleta.victor@gmail.com> escribi=C3=B3:
+>
+>> =C2=BFc=C3=B3mo averiguo el tiempo transcurrido desde que se encendio el=
+ PC?
+>
+
+con 'uptime' (solo muestra el uptime del equipo, y la carga del equipo):
+
+host:~# uptime
+ 21:23:42 up 89 days, 13:18,  1 user,  load average: 1.06, 0.74, 0.55
+
+--=20
+Diego - Yo no soy paranoico! (pero que me siguen, me siguen)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ8aDpApLqDoWRquuF3WmTmAH3EB6orwZ4KAA5YgUKKALD9u5w@mail.gmail.com
+

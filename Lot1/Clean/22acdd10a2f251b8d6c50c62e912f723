@@ -1,0 +1,26 @@
+Subject:Re: foutje met update
+  sintsixtus@gmail.com  sendis:
+
+> On 13-11-12 17:39, ro-esp wrote:
+>> net de laatste update (versie 45?) proberen te downloaden, maar het ging
+>> niet helemaal goed ("geen ruimte op het apparaat"?). Opstarten met de
+>> nieuwste versie van ubuntu lukt nu niet, de 1 versie oudere variant doet
+>> het gelukkig nog wel.
+>
+> Je kunt alvast /var/cache/apt/archives/
+> eens leegmaken, maar ook wat plaats vrijmaken op je hd.
+>
+> dpkg --reconfigure -a
+
+Sorry, ik versta nog steeds geen computerees.... Kan iemand het in  =
+
+basaal leken-nederlands ondertitelen?  Echt klik voor klik dus?
+
+                        groetjes, Ronaldo
+
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

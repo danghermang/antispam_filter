@@ -1,0 +1,73 @@
+Subject:Re: Duda para eliminar KDE
+2012/11/9 Dar=C3=ADo <darioslc@gmail.com>:
+>> El Fri, 09 Nov 2012 12:14:48 -0300, Dar=C3=ADo escribi=C3=B3:
+>>
+>> (...)
+>>
+>> >> > por lo que se ve no hay nada relativo a KDE, mi duda es por qu=C3=
+=A9
+>> >> > quiere eliminar todo lo dem=C3=A1s que no tiene que ver con KDE
+>> >>
+>> >> Hombre, algunos s=C3=AD est=C3=A1n relacionados con KDE, como por eje=
+mplo todas
+>> >> las bibliotecas que comienzan por "libk..." o las de "nepomuk" pero e=
+s
+>> >> que has ejecutado un comando muy amplio para eliminar KDE :-/
+>> >>
+>> >>
+>> > y respecto al resto que no est=C3=A1 relacionado con KDE, como ser
+>> > gnome-desktop-environment?
+>>
+>> As=C3=AD a vuela pluma, se debe de estar eliminando por dependencias
+>> secundarias/terciarias, es decir, que se haya seleccionado para eliminar
+>> alg=C3=BAn paquete que dependa de alguna biblioteca de kde (kdelibs*) y =
+este a
+>> su vez dependa de otro paquete que depende de "gnome" que depende de
+>> "gnome-desktop-environment", etc...
+>>
+>> Sigo pensando que el comando que has ejecutado es demasiado radical :-(
+>>
+>> >> > y por qu=C3=A9 las actualizaciones incluyen cosas de KDE como ser k=
+de
+>> >> >-runtime (sin estar instalado como se muestra arriba de todo) kde
+>> >> >-runtime-data kdelibs-bin, etc.
+>> >>
+>> >> No veo que se vaya a "actualizar" ning=C3=BAn paquete :-?
+>> >>
+>> >>
+>> > Es verdad no se ve, pero en el comando aptitude upgrade (que me olvid=
+=C3=A9
+>> > de incluir) incluye una actualizaci=C3=B3n de kde-runtime
+>>
+>> Yo no andar=C3=ADa mezclando las cosas... es decir, si quieres eliminar =
+KDE
+>> del sistema vale, pero vete despacito y con buena letra (puedes buscar e=
+n
+>> Google por "debian remove kde" para ver qu=C3=A9 pasos han seguido otros=
+)
+>> porque este proceso no es balad=C3=AD, puedes romper el sistema completo=
+.
+>>
+>
+> Justamente es lo que hice, porque ya me hab=C3=ADa pasado antes, y el com=
+ando
+> amplio que us=C3=A9 lo encontr=C3=A9 buscando en Internet. Me voy a deten=
+er un poco
+> m=C3=A1s a analizarlo bien.
+>
+
+Cuando los cambios afectan tanto a otros paquetes, prefiero lanzar
+synaptic, seleccionar manualmente que quitar y chequear los que va a
+quitar autom=C3=A1ticamente para marcarlos como instalados manualmente.
+
+Saludos
+--
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjPT3EPGLHDuFXqTPVhWK742eworZM3ZH+ZaZ6AWpRGwRw@mail.gmail.com
+

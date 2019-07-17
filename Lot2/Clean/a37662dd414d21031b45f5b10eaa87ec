@@ -1,0 +1,73 @@
+Subject:Re: [ARIN-consult] LRSA Information
+Interesting perspective. Thanks David
+
+- Brian J.
+
+
+> -----Original Message-----
+> From: arin-consult-bounces@arin.net [mailto:arin-consult-
+> bounces@arin.net] On Behalf Of David Farmer
+> Sent: Wednesday, November 14, 2012 11:11 AM
+> To: arin-consult@arin.net
+> Subject: Re: [ARIN-consult] LRSA Information
+> 
+> On 11/14/12 07:06 , John Curran wrote:
+> > On Nov 13, 2012, at 10:48 PM, John Curran <jcurran@corp.arin.net> wrote:
+> >>
+> >> ARIN has consistently provided basic registry services for all resource
+> >> holders in the region, including legacy address block holders without
+> >> charge, and the proposed revision to the fee schedule would not not alter
+> >> this practice.
+> >
+> > I was asked privately by two folks, so figured it was best to respond to the
+> > list regarding "why would someone enter an LRSA if it means paying
+> ARIN"...
+> 
+> I will provide an answer to this question, at least from the perspective
+> of a large legacy entity.  The University of Minnesota has 5 /16 (class
+> Bs) and other miscellaneous number resources, that are critical to the
+> day to day operations of the University, which is a $3 billion entity.
+>  From a risk management point of view it is very much benefits the
+> University to bring its Internet number resources under a modern
+> contract regime with clear rights and responsibilities for both parties.
+>   The lack of a clear contract rights and responsibilities are
+> problematic and tenuous for both sides not just ARIN.
+> 
+> Furthermore, as the registry services that we rely on are modernized
+> with technologies like RPKI and DNSSEC it is critically important to
+> have an explicit contract as a basis for the trust relationship
+> necessary to make these technologies work.
+> 
+> For at least a decade now network and Internet access have been equally
+> business critical for the University as electricity, water, heating and
+> cooling.  Especially with IPv4 run-out, it seems ill-advised for any
+> significant entity to have resources for a critical infrastructure such
+> as Internet Access to be dependent on little more than a hand-sake.
+> 
+> I hope that answers "why would someone enter an LRSA if it means paying
+> ARIN", because it is necessary and provides value to the resource user.
+> 
+> --
+> ================================================
+> David Farmer               Email: farmer@umn.edu
+> Office of Information Technology
+> University of Minnesota
+> 2218 University Ave SE     Phone: 1-612-626-0815
+> Minneapolis, MN 55414-3029  Cell: 1-612-812-9952
+> ================================================
+> _______________________________________________
+> ARIN-Consult
+> You are receiving this message because you are subscribed to the ARIN
+> Consult Mailing
+> List (ARIN-consult@arin.net).
+> Unsubscribe or manage your mailing list subscription at:
+> http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN
+> Member Services
+> Help Desk at info@arin.net if you experience any issues.
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

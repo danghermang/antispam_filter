@@ -1,0 +1,31 @@
+Subject:Re: For P::PT -> ExtUtils::XBuilder
+On 19.11.12 19:43, Leon Timmermans wrote:
+> On Sun, Nov 18, 2012 at 8:41 PM, Jens Rehsack <rehsack@gmail.com> wrote:
+>> long time ago I wanted a ExtUtils::CBuilder successor.
+>> Leon started such a one, but it hasn't the features I needed for
+>> e.g. Proc::ProcessTable or Net::Radio::Location::SUPL::Test - so
+>> I started an own one - see http://repo.or.cz/w/ExtUtils-XBuilder.git
+>
+> I'm still working on that. I actually was planning to post an
+> announcement one of these days. I think your goals are a lot more
+> high-level than mine, to me it makes more sense to build your library
+> on top of mine.
+
+Well, I need control over the invoked executables and flags for
+specific languages - especially for integrating it into Config::AutoConf
+and do other multi-compile stages (as Net::Radio::Location::SUPL::Test
+requires first ASN.1 -> C compile stage, then C -> object, then link
+into *.so).
+
+I looked into EU::B and I didn't see that I get full control for
+those requirements, but I might be pebcak and not a limitation of
+EU::B ;)
+
+>> Now it's time to integrate
+>> that solution into P::PT - but I need a better CBuilder for it.
+>
+> I can imagine that. EU::CB is a 💩
+
+What? Was the word took out by the dis filter ;)
+-- 
+Jens Rehsack

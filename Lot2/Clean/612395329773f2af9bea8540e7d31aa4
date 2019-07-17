@@ -1,0 +1,115 @@
+Subject:Re: OT: Migrar la mente de un "anciano" que usaba Clipper 5.3
+----- Original Message -----=20
+From: "Debian GMail" <javier.debian.bb.ar@gmail.com>
+To: <debian-user-spanish@lists.debian.org>
+Sent: Tuesday, September 18, 2012 3:51 PM
+Subject: Re: OT: Migrar la mente de un "anciano" que usaba Clipper 5.3
+
+
+El 18/09/12 15:58, lmonterof04@gmail.com escribi=F3:
+>> Estimado JAP:
+>> Quiz=E1s ya decidiste por alguna propuesta de los colegas foreros, y e=
+stoy=20
+>> present=E1ndome al =FAltimo y a lo mejor te sirva:
+>> Seg=FAn mi experiencia, antes ten=EDa una aplicaci=F3n en Clipper 5.2d=
+ a 16=20
+>> bits pero con esto de las actualizaciones de Windows a 32 y 64 bits, c=
+omo=20
+>> que mi aplicaci=F3n quedaba obsoleta y gracias a DIOS pude hacer la=20
+>> migraci=F3n a xHarbour Modo Consola para Windows =F3 Linux en forma na=
+tiva y=20
+>> todo esto sin casi modificar nada de c=F3digo pues el compilador se tr=
+ag=F3=20
+>> el 99.99% del c=F3digo Clipper y solo modifiqu=E9 el programa principa=
+l al=20
+>> inicio colocar la linea:
+>>
+>> REQUEST DBFNTX
+>> REQUEST DBFDBT
+>>
+>> #ifdef __PLATFORM__Windows
+>>    ANNOUNCE HB_GTSYS
+>>    REQUEST HB_GT_WIN_DEFAULT
+>> #endif
+>> *
+>> FUNCTION main()
+>> .... continua tu c=F3digo ...
+>>
+>> y asunto solucionado ... y lo mas lindo de todo es que puedo compilar=20
+>> para Windows =F3 Linux manteniendo una sola versi=F3n de los fuentes .=
+PRG
+>> Otra cosa tambi=E9n existe Harbour que permite hacer lo mismo pero yo=20
+>> decid=ED por xHarbour+MinGw y lo bueno de todo es que puedes construir=
+ el=20
+>> compilador a 32 o 64 bits y as=ED tus aplicaciones pueden correr en lo=
+ que=20
+>> quieras.
+>> Otra cosa si tu aplicaci=F3n es Monousuario lo que tienes que hacer es=
+ muy=20
+>> facil, abrir las tablas DBF en modo compartido SHARED y al momento de=20
+>> grabar el registro hacer un :
+>> (archivoDbf)->(RECLOCK(0))
+>>
+>> /******************************************/
+>> *  RecLock(<nWaitSeconds>  ) -->  lSuccess
+>> *  Attempt to RLOCK() with optional retry
+>> /******************************************/
+>> FUNCTION RecLock( nSeconds )
+>>       LOCAL lForever
+>>       IF RLOCK()
+>>         RETURN (.T.)        // Locked
+>>       ENDIF
+>>       lForever =3D (nSeconds =3D 0)
+>>       WHILE (lForever .OR. nSeconds>  0)
+>>         IF RLOCK()
+>>           RETURN (.T.)     // Locked
+>>         ENDIF
+>>         ALERT(ERR_027,,,1)     // Registro bloqueado por otro usuario
+>>         nSeconds =3D nSeconds - .5
+>>       ENDDO
+>>       RETURN (.F.)         // Not locked
+>> *
+>>
+>> Y listo ... ya tienes tu sistema funcionando en Red Multiusuario.
+>> Te paso el link para que bajes el xHarbour para el sabor que quieras=20
+>> Windows o Linux.
+>>
+>> http://www.xharbour.org/index.asp?page=3Dsupport/index
+>>
+>> Cualquier cosa estamos para ayudarnos:
+>> Email: lmonterof04@yahoo.es
+>> Messenger: lmonterof04@hotmail.com
+>>
+>> Saludos.
+>> Atte.
+>> Lucho Montero.
+
+>Lo guardo como oro.
+
+>Lo primero, estoy haciendo una r=E1pida migraci=F3n de un sistema en Cli=
+pper=20
+>Summer 87; esto que me mandas, me viene de perillas.
+
+>Lo segundo, me he volcado, y estoy estudiando Python.
+
+>Much=EDsimas gracias
+
+>JAP
+
+Ya con tiempo. Mira la combinaci=F3n Python + Firebird como motor de dato=
+s.
+
+Ambos enteramente libres y multiplataformas. Y sistemas con buen soporte.
+
+Saludos
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+|| ISMAEL ||
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=20
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/35BEFC171D8545F08679BE77620A3340@eicc.citricos.cu
+

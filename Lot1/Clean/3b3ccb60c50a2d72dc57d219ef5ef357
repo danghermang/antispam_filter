@@ -1,0 +1,83 @@
+Subject:Re: NTP server timeout
+Hola, buenas tardes:
+
+En primer lugar agradecer vuestra participaci=F3n. Me quedo con dos ideas:
+
+1) Probar la propuesta de Carlos y revisar la configuraci=F3n de NTPd
+2) =BFSiendo una VM tengo que preocuparte por sincronizar la hora cuando
+el HOST ser=E1 quien lo haga?
+
+Muy probablemente opte por la opci=F3n 2, pero intentar=E9 saciar mi
+curiosidad probando (1) por si alg=FAn d=EDa me sucede con una m=E1quina
+f=EDsica.
+
+Un saludo, gracias!
+
+El d=EDa 24 de octubre de 2012 15:45, Debian GMail
+<javier.debian.bb.ar@gmail.com> escribi=F3:
+> El 24/10/12 09:42, Manuel Jes=FAs Recena Soto escribi=F3:
+>
+>> Hola, buenas:
+>>
+>> Estamos trabajando en una m=E1quina virtual con Debian 6 y hemos
+>> configurado NTP server en el arranque.
+>> Cuando la VM tiene acceso a internet el S.O. arranca con normalidad,
+>> sin embargo, cuando no tiene conexi=F3n a internet el servicio NTPd se
+>> queda "esperando" muchos minutos.
+>>
+>> =BFEs posible configurar alg=FAn timeout o similar? Lo esperado ser=EDa =
+que
+>> si pasado "un tiempo" no se puede conectar con los servidores de hora
+>> externos, que contin=FAe con el arranque de otros servicios.
+>>
+>> Un saludo, gracias!
+>>
+>
+>
+> La m=E1quina virtual con el servidor no necesita conectarse a internet pa=
+ra
+> sincronizar su reloj virtual. Lo conveniente es que se sincronice con el
+> reloj de tiempo real del equipo anfitri=F3n, y dejar a la m=E1quina virtu=
+al
+> sincronizada con =E9ste.
+> Por lo que mi opini=F3n es que asegures que el reloj de tiempo real sea e=
+l que
+> se sincronice apropiadamente, y de =E9ste se tome la hora.
+>
+> Lo que no me cierra es que un "servidor" tenga que arrancar en forma
+> continuada. Si es un servidor, lo l=F3gico es que s=F3lo requiere un rein=
+icio
+> del equipo cuando hay una actualizaci=F3n de n=FAcleo; o sea, funciona la=
+s 24
+> horas del d=EDa (y de la noche tambi=E9n ;)
+>
+> O el anfitri=F3n en un MS-Windows, que ante la m=E1s m=EDnima pavada, req=
+uiere un
+> reinicio.
+>
+> JAP
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/5087F0DF.8090200@gmail.com
+>
+
+
+
+--=20
+Manuel J. Recena Soto
+* www.manuelrecena.com[/blog]
+* www.linkedin.com/in/recena
+* recena@gmail.com
+* +34 609710280 (ES)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CABa-UodDiTU6iW8S6tQrxbPwwQZ=X-UdSXwQ8+5+0tiv9Zwgdw@mail.gmail.com
+

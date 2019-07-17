@@ -1,0 +1,32 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+On 11/14/12, Owen DeLong <owen@delong.com> wrote:
+> On Nov 14, 2012, at 07:52 , Brian Johnson <bjohnson@drtel.com> wrote:
+[snip]
+> 1.	Discontinue services to legacy holders that don't start paying.
+
+There is another possibility...   don't discontinue anything to
+non-LRSA signees, but retain the usage "tracking" data necessary to
+calculate a fee assessment amount for legacy holders who have not
+paid, according to the ordinary fee schedule,  all past unpaid fees
+since a certain date,  plus compound interest at prime rate plus 5%
+over that period.    Require payment of the tracked amount, and signed
+RSA, before any resources can be transferred in or out,  or new
+resources can be  requested.
+
+In this manner,  legacy holders  are still assessed the fees.
+If they fail or refuse to pay, they are not denied   "legacy services".
+
+There are no consequences until they need to transfer resources in or out,
+or obtain new resources from ARIN  (e.g. IPv6 resources or additional AS number)
+
+
+> 2.	Treat LRSA Signatories as a group that isn't subjected to the new fees.
+--
+-JH
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

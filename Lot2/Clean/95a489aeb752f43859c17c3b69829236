@@ -1,0 +1,35 @@
+Subject:Re: Matlab Debian Wheezy
+El 23 de octubre de 2012 05:06, Dar=EDo <darioslc@gmail.com> escribi=F3:
+>
+> > Si te refieres a Octave si, con synaptic busca octave, veras que
+> > hay muchos a=F1adidos para el mismo aparte de el progrma base.
+>
+> S=ED o desde consola aptitude search octave, tambi=E9n est=E1 el paquete
+> qoctave para que tengas entorno gr=E1fico. Los comandos son b=E1sicamente
+> los mismos que MatLab.
+> Tambi=E9n ten=E9s SciLab y Maxima, entre otros.
+>
+>
+Dejaron este mensaje sin los anteriores, ahora no se entiende.
+
+Sin embargo dir=E9 dos cosas.
+Matlab se puede correr en linux sin problemas corriendo este
+script MATLAB/R2011a/bin/matlab
+
+octave se ha jactado de tener los mismos comandos de matlab
+pero lastimosamente gnuplot no es tan vers=E1til como matlab plot.
+igual, octave tiene simb=F3licas que es una de las cosas mas
+preciadas de matlab. Con respecto a Simulink de Matlab, te quedar=EDa
+usar XCos de SciLab si no quisieras instalar Matlab en Debian.
+
+--
+
+"LARGA VIDA Y PODEROSA."
+              Blog de Haldrik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADYDv-Cqec_Br18yb5bkuVSpTxFETNRtxZJgxc5uz81z9i1nsA@mail.gmail.com
+

@@ -1,0 +1,32 @@
+Subject:Re: install debian et captures =?UTF-8?B?ZCfDqWNyYW4=?=
+Le Fri, 30 Nov 2012 16:27:00 +0000 (UTC),
+Tanguy Ortolo <tanguy+debian@ortolo.eu> a écrit :
+
+> Bernard Schoenacker, 2012-11-30 17:06+0100:
+> > bonjour,
+> > 
+> >        je recherche un lien contenant des captures d'écran lors de
+> >        l'install, j'ai perdu le lien ....
+> 
+> <http://formation-debian.via.ecp.fr/> ?
+> 
+bonjour,
+
+	merci pour le tuto qui pourra servir à un novice, les disques durs 
+	sont passés d'ide au pseudo scsi et ce qui donne pour un disque
+	dur ide /dev/sda-n
+
+	est il possible de corriger cette annotation ?
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121130174905.2f7010ec.bernard.schoenacker@free.fr
+

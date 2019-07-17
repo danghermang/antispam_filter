@@ -1,0 +1,45 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+ IPv4 from last /8
+On Wed, Nov 7, 2012 at 2:45 PM, Gert Doering <gert@space.net> wrote:
+
+> Unlike the landrush in the US we *do* have an alternative, and do not need
+> to find ways to make IPv4 last forever.
+
+If anything, allowing IPv4 PI at this stage will speed up IPv4
+exhaustion, not slow it down. I don't see this as trying to make it
+last longer; the reverse is true.
+
+There are valid business cases to be made today that include getting
+IPv4 as long as it's available. Yes, unless they include IPv6 in their
+business plans they are going to get hurt Real Soon Now (tm), but
+that's outside of the scope of this argument.
+
+The _only_ thing we should be discussing in this particular context is
+"should we still hand out IPv4 PI as long as IPv4 is still available
+or should we hand out IPv4 PA, only?"
+
+Possible answers include:
+
+* Stop handing out IPv4 PI once we reach the last /8
+* Stop handing out IPv4 PI once we reach the last /x (12? 16?)
+* Hand out IPv4 PI from a designated /x in the last /8, stop once that's empty
+* Hand out IPv4 PI from returned space, only. Don't hand out PI from the last /8
+
+And I am sure there are others.
+
+
+It's painfully obvious that the argument that IPv6 is the way of the
+future is correct.
+
+It's also obvious, to me, that this fact is detached from the question
+of how the remaining bits and pieces of IPv4 should be used up.
+
+
+
+To put it differently: Why does anyone who considers IPv4 legacy care
+about how it's used up?
+
+
+-- 
+Richard
+

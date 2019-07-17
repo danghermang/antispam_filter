@@ -1,0 +1,70 @@
+Subject:Re: problema con openvpn
+El 18/09/12 15:24, Antonio Moreno escribió:
+> Tengo un openvpn instalado y configurado de la siguiente forma:
+>
+>
+> Server con dos tarjetas de red
+>
+> eth0 192.168.1.2 -> me conecto a internet
+> eth1 192.1.16.153 -> Ip de la lan
+>
+> server,conf
+>
+> port 1194
+> proto udp
+> dev tap
+> ca /etc/openvpn/easy-rsa-V2.0/keys/ca.crt
+> cert /etc/openvpn/easy-rsa-V2.0/keys/servidor.crt
+> key /etc/openvpn/easy-rsa-V2.0/keys/servidor.key  # This file should
+> be kept secret
+> dh /etc/openvpn/easy-rsa-V2.0/keys/dh1024.pem
+> server 10.8.0.0 255.255.255.0
+> ifconfig-pool-persist ipp.txt
+> push "route 192.1.16.0 255.255.255.0"
+> client-config-dir /etc/openvpn/ccd
+> route 192.1.16.0 255.255.255.0 192.1.16.153
+> client-to-client
+> keepalive 10 120
+> tls-auth /etc/openvpn/easy-rsa-V2.0/ta.key 0 # This file is secret
+> comp-lzo
+> persist-key
+> persist-tun
+> status openvpn-status.log
+> verb 3
+>
+> route
+>
+> Kernel IP routing table
+> Destination     Gateway         Genmask         Flags Metric Ref Use
+> Iface
+> 192.1.16.0      Openvpn         255.255.255.0   UG    0 0        0 eth1
+> 10.8.0.0        *               255.255.255.0   U     0 0        0 tap0
+> 192.168.1.0     *               255.255.255.0   U     0 0        0 eth0
+> 192.1.0.0       *               255.255.0.0     U     0 0        0 eth1
+> link-local      *               255.255.0.0     U     0 0        0 eth0
+> loopback        *               255.0.0.0       U     0 0        0 lo
+> default         192.168.1.1     0.0.0.0         UG    0 0        0 eth0
+>
+>
+> El cliente me conecta perfectamente, hace ping al servidor tanto a la
+> ip 10.8.0.1 como a la 192.1.16.153, pero a las ips de la red no me
+> hace a ninguna de ellas. ¿Que me puede ocurrir?
+>
+> Muchas gracias y un saludo
+>
+>
+
+Hola,
+
+lo de dev tap es un error o realmente lo tienes asi en tu configuración?
+Si es asi, cámbialo por dev tun dado que el resto de tu configuración
+esta orientada a servir openvpn en modo routed.
+
+Un saludo.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5058AA21.40304@limbo.deathwing.net
+

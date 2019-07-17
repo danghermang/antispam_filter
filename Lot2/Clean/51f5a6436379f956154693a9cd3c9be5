@@ -1,0 +1,48 @@
+Subject:Re: Modem 3g + debian squezze
+El 03/10/12 16:17, El Ale... escribió:
+> Buenas tardes amigos, tengo un problema bastante grande adquirí un 
+> modem huawei modem huawei e303c tengo instalado el modem switch que 
+> convierte a ttyUSB* probe con el sakis 3g pero tampoco, voy a windows 
+> y anda bien pero en linux nada, cuando hago el lsusb aparece qu eesta 
+> conectado, cuando voy a dmesg tambien pero no lo convierte ni conecta:
+>
+> dmesg:
+>
+> [ 2755.764568] usb-storage: device scan complete
+> [ 2755.765874] scsi 9:0:0:0: Direct-Access     HUAWEI SD Storage       
+> 2.31 PQ: 0 ANSI: 2
+> [ 2755.765946] scsi 8:0:0:0: CD-ROM            HUAWEI Mass Storage     
+> 2.31 PQ: 0 ANSI: 2
+> [ 2755.772314] sr0: scsi-1 drive
+> [ 2755.775166] sr 8:0:0:0: Attached scsi CD-ROM sr0
+> [ 2755.775922] sr 8:0:0:0: Attached scsi generic sg1 type 5
+> [ 2755.782948] sd 9:0:0:0: Attached scsi generic sg2 type 0
+> [ 2755.792524] sd 9:0:0:0: [sdb] Attached SCSI removable disk
+> [ 2756.174669] ISO 9660 Extensions: Microsoft Joliet Level 1
+> [ 2756.207324] ISOFS: changing to secondary root
+>
+>
+> lsusb
+>
+> Bus 001 Device 004: ID 12d1:14fe Huawei Technologies Co., Ltd.
+>
+> Alguien con algún problema similar?.
+>
+> saludos!
+
+Sí. El aparatito aparece como conectado. Pero te falta discar el número 
+de tu proveedor (¿Personal, Movistar, Claro?), y pasarle el nombre de 
+usuario y contraseña. Recién ahí podrás usar Internet.
+Si estás en Argentina podés ver este hilo:
+http://lists.debian.org/debian-user-spanish/2012/09/msg00207.html
+... que es de cuando estuve peludeando con un modem de esos, con el cual 
+estoy conectado ahora.
+
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506C9835.4020908@gmail.com
+

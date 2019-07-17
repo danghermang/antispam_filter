@@ -1,0 +1,52 @@
+Subject:Re: Installation postgresql
+Bonjour Bernard, Bzzz,
+merci pour vos mails, il faut que je décortique, en testant rapidement 
+l'installation de postgresql avec pgapt.debian.net, ça fonctionne par 
+contre l'installation qui suit (libreplan) foire car il dit ne pas 
+trouver postgresql... alors que celui ci est bien lancé.
+
+Et maintenant avec le jeu des purge et réinstallation, dpkg ne 
+fonctionne plus... je crois que j'ai un peu cassé le bouzin.
+
+Je sens que je vais réinstaller (serveur en cours d'installation, rien 
+de critique) pour reprendre sur une base propre, mais j'aimerai bien 
+comprendre tout de même pourquoi deux serveurs identiques avec deux 
+sources.list identiques ne réagissent pas de la même manière.
+Car je veux bien réinstaller en utilisant les sources les plus adaptés 
+mais POURQUOI ça a marché avec un autre serveur ! (Rhaa !)
+
+Greg
+
+Le 12/11/2012 19:58, Bernard Schoenacker a écrit :
+> bonjour,
+>
+>
+> 	je reprend le tout à zéro ...
+>
+> 	-a) vérifier le niveau des dépots ( sources.list )
+> 	-b) installer la libpq5 sur les 2 machines
+> 	-c) installer postgresql9.1
+> 	-d) mettre à jour vers PgSQL 9.2
+> 	-e) modifier le fichier de conf pg_hba.conf
+> 	-f) créer son premier user avec les droits
+>
+> 	tout ceci fonctionne à condition d'avoir un fichier sources.list
+> 	solide et complet ....
+>
+> 	fichier pgsql.list à renseigner d'après ce lien :
+>
+> 	http://pgapt.debian.net/
+>
+> 	slt
+> 	bernard
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A16C54.1080908@gmail.com
+

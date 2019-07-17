@@ -1,0 +1,60 @@
+Subject:Re: [HS] comportement curieux de malloc
+Vincent Danjean a écrit :
+> Le 02/10/2012 09:41, BERTRAND Joël a écrit :
+>>      Et comment t'assures-tu que le prochain mmap() va pouvoir
+>> se faire exactement là où tu veux (juste après le mmap()
+>> précédent) ? Le seul truc que je vois de viable, c'est la liste
+>> chaînée ou l'arbre si l'on peut vouloir accéder à un objet
+>> précis en fonction d'un champ connu.
+>
+> Tu peux choisir l'adresse où tu fais ton mmap (au lieu de passer
+> NULL en premier paramètre).
+
+	Certes.
+
+>    C'est fait assez classiquement quand on veut réserver la même
+> plage d'adresses dans des processus différents (éventuellement sur
+> des machines similaires mais distinctes) pour, par exemple, faire
+> une DSM ou de la migration transparente de structures de données.
+
+	Oui ? Et comment fais-tu pour t'assurer à chaque fois que tu va pouvoir 
+rallonger ta zone mémoire sans écraser autre chose ? Soit tu fais tout à 
+l'aide de mmap() quitte à réécrire un allocateur, soit tu réserves à 
+l'avance la zone mémoire (et dans ce cas, je ne vois pas l'intérêt de 
+mmap(), autant utiliser un tableau tout ce qu'il y a de plus statique). 
+Bref, je ne vois pas en quoi utiliser mmap() te garantit de pouvoir 
+augmenter la taille de ta zone à ta guise parce que rien ne te garantit 
+d'avoir la place suffisante. Tu vas me dire que tu peux aussi mapper 
+quelque chose en dehors du tas, mais ça risque fort d'un peu dépendre du 
+système d'exploitation.
+
+	Le seul truc que je vois portable, comme c'est une pile, c'est de coder 
+ça sous forme de liste chaînée, mais ça suppose un travail de réécriture.
+
+>    Maintenant qu'il y a de la randomisation par défaut pour l'espace
+> d'adressage, il doit probablement falloir regarder un peu
+> /proc/self/maps pour choisir le lieu où faire le mmap.
+
+	Même beaucoup :-P
+
+>    Sur mes ordis, je désactive toujours cette randomisation : je
+> programme et c'est impossible de débogguer avec gdb si les adresses
+> changent d'une exécution à l'autre.
+>
+>    Cordialement,
+>      Vincent
+
+	Cordialement,
+
+	JKB
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/506D657F.4060008@systella.fr
+

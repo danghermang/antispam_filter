@@ -1,0 +1,40 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint?= qui consomme
+Le Tue, 18 Sep 2012 22:56:45 +0200
+François Boisson <user.anti-spam@maison.homelinux.net> a écrit:
+> J'ai remarqué que la consommation correspondait approximativement à celle
+> d'une mise en veille de l'ordinateur. Pourrait-on envisager un souci dans
+> l'extinction même de l'ordinateur par le noyau, seul une extinction manuelle
+> après le reboute permettant d'éteindre réellement la machine. Cela
+> signifierait qu'il faudrait regarder dans l'extinction de la machine par le
+> noyau. Celle ci se fait elle au niveau de l'ACPI? Toshiba est assez pénible
+> de ce coté là, utilisant soit un ACPI personnel (toshiba_acpi) soit un
+> firmware Phoenix (module omnibook) soit un bazar non supporté à ce jour
+> (Toshiba L775).
+
+Hum, je pense que je tiens un truc, dans les sources du noyau, dans
+arch/x86/kernel/apic/apic.c, on trouve
+/*
+ * If Linux enabled the LAPIC against the BIOS default disable it down before
+ * re-entering the BIOS on shutdown.  Otherwise the BIOS may get confused and
+ * not power-off.  Additionally clear all LVT entries before disable_local_APIC
+ * for the case where Linux didn't enable the LAPIC.
+ */
+
+pour la fonction lapic_shutdown.
+Cela ferait pile poil les symptomes que j'ai: Extinction apparente mais 
+consommation comme si la machine était en veille.
+Dans ce cas, il va falloir éplucher cet aspect.
+
+Si certais ont de l'expérience sur ce point...
+
+François Boisson
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120920102801.bd57524d0003b4ae458ca8e0@boisson.homeip.net
+

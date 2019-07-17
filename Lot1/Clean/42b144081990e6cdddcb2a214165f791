@@ -1,0 +1,22 @@
+Subject:del RAS como saber  num de modem y su ttyS0
+
+Como saber que es esto lo que tengo que escribir en la linea que edito 
+en el inittab
+
+  S0:234:respawn:/sbin/mgetty -n2 -s 57600 -D /dev/ttyS0
+
+como yo se si el modem mio usb es ttyS0 y si s0:234 es lo que le toca 
+eso lo saqué de la pág
+
+http://gutl.jovenclub.cu/wiki/tutoriales/ras_debian_lenny
+
+No se como ver los valores que recibe mi modem usb
+
+A vver si me dan una ayudita
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/0c3af93d3e786a62ce89085660142695@ida.cu
+

@@ -1,0 +1,34 @@
+Subject:=?UTF-8?B?UmU6IFt1biBwZXUgSFMgP10gSWNld2Vhc2VsIG4nYWZmaWNoZSBwYXM=?=
+	=?UTF-8?B?IGxhIGNhcnRvZ3JhcGhpZSBkdSBWZW5kw6llIEdsb2Jl?=
+Le 18/11/2012 20:02, Giraud Jean Louis a écrit :
+> Bonjour,
+> Je suis sous Squeeze avec Xfce comme environnement de bureau et
+> Iceweasel 3.5.12 comme navigateur internet et je suis désolé car
+> lorsque je clique sur l'onglet "cartographie" sur le site du Vendée
+> Globe j'obtiens une page blanche avec juste le bandeau du haut où
+> figure le chronomètre.
+> Si quelqu'un a une idée pour résoudre ce problème il aura droit à toute
+> ma reconnaissance.
+>
+J'ai bien peur que la version 3.5 soit une pièce de musée !
+
+Très peu de site internet sont testés sur cette version, donc il est tout à fait possible 
+que tu te retrouve avec de plus en plus d'incompatibilités...
+
+Il est peut-être temps de penser aux backports pour passer en iceweasel 10...
+
+Chez moi en iceweasel 16 le site fonctionne très bien, avec une bonne réactivité.
+
+++
+
+Mourad
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A95DA5.8040001@nativobject.net
+

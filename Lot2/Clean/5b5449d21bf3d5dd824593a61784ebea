@@ -1,0 +1,77 @@
+Subject:Re: sid sur un portable
+ok merci
+
+On Sat, 01 Dec 2012 10:55:43 +0100
+hugeanes <hugeanes@gmail.com> wrote:
+
+> Bonjour,
+> juste pour dire que sur mon PC LDLC aurore je m'=E9tais fait pi=E9ger par=
+ le
+> bluetooth :=20
+> j'avais malencontreusement d=E9sactiv=E9 par Fn+F12 et du coup composant
+> coup=E9 (pas seulement transmissions), et j'ai cherch=E9 un moment pourqu=
+oi
+> le noyau ne trouvait rien.
+>=20
+> En tout cas pour ma part je n'ai pas eu de pb =E0 installer MON portable
+> Aurore (vieux 1 an) en Testing,
+> je pense que le hardware est assez "classique" pour ne pas poser de
+> soucis.
+> Et quant au chip graphique Intel : parce que y'en a marre des autres !
+>=20
+> CS
+>=20
+> Le vendredi 30 novembre 2012 =E0 07:39 +0100, Pascal Ognibene a =E9crit :
+>=20
+> > On 29/11/2012 20:39, Cyrille wrote:
+> > > Bonsoir,
+> > > Ai concr=E9tis=E9 l'achat d'un portable sans OS. Je vais y mettre une=
+ SID.
+> > > J'ai actuellement un DELL avec une SID mais c'est du "vieux" mat=E9ri=
+el et =E7a fait quelques temps que je n'ai pas trifouill=E9 ou suivi le d=
+=E9veloppement Linux.
+> > > Avec les derni=E8res SID, y a t il des subtilit=E9s =E0 connaitre dan=
+s l'installation pour un laptop ou l'installation par d=E9faut est elle suf=
+fisante ?
+> > >
+> > > C'est ce portable http://www.ldlc.com/fiche/PB00137372.html
+> > >
+> > > D'avance merci
+> > >
+> > > Cyrille
+> > >
+> > Bonjour,
+> >=20
+> > Ce portable est du 'tout intel' y compris la carte graphique et le=20
+> > chipset wifi. Tout devrait fonctionner tel quel avec une sid. A=20
+> > l'exception peut-=EAtre du bluetooth si on en croit les commentaires su=
+r=20
+> > le site ldlc... Lors de l'installation il faut juste =EAtre s=FBr=20
+> > d'installer l'ensemble de paquets 'laptop' mais normalement=20
+> > l'installateur te le coche par d=E9faut.
+> >=20
+> > Pascal
+> >=20
+>=20
+>=20
+
+
+----
+
+[ cyrille@cbiot.fr | http://cbiot.fr ]
+
+
+"Ils ne me comprennent point,
+je ne suis pas la bouche qui convient =E0=A0ces oreilles"
+ - - - Ainsi parlait Zarathoustra - - -
+ - - - - - - - - - - -  NIETZSCHE - - -
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121201115216.da83d7fb491e8bf874759721@cbiot.fr
+

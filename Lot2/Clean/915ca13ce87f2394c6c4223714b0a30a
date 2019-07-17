@@ -1,0 +1,34 @@
+Subject:[EVDL] DC motors/chain saw
+>From: Chris Tromley <ctromley@gmail.com>
+ If it binds, you muscle it to stall and hold it until it fries
+(do these things typically have a breaker or fuse?) or hope you can
+separate the plug with your foot.  Or it goes flying.  Is there some other
+scenario I'm missing?
+Chris
+
+I did have some thoughts about doing this better , one was to use the
+ground wire to control a contactor back at the plug/battery pack . the
+saw switch would feed power to the ground wire which would switch on
+contact or and make both other wire's hot . You'd need a 150v coil on
+contactor and re wiring of saw. A fuse just big enough to blow if the
+saw binds . and last which would have worked out nicely for me as I
+had a controller on the mower , some kind of 0 to 5k throttle so as to
+use the mower controller for all my tools that I powered with the
+mower .
+
+--
+Steve & Audrey
+Your Green Shed Team
+772-971-0533
+Tomorrows Ride TODAY !
+Visit our shop web page at: www.Greenshedconversions.com
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

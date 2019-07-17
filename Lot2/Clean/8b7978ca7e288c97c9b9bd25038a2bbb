@@ -1,0 +1,45 @@
+Subject:Re: [Flexradio] Problem with high DPC count after upgrading to W8
+ Pro
+I have installed Windows 8 on a second internal had drive so that I can 
+easily boot either WIn 7 or Win 8. I did a clean install on a 
+reformatted hard drive and did not bring any files or applications 
+forward from Win 7. I have now installed the full DXLab suite, PSDR 
+2.4.4, CW Skimmer, DDUtil and PstRotatorAZ on Win 8 and nothing else so 
+far. DPCs are about the same as they were on Win 7 with a maximum DPC of 
+419 Us in the past hour. PSDR and my Flex-3000 are performing well. I am 
+wondering if the folks who are having problems followed the upgrade path 
+and brought everything forward from Win 7. That may be the difference.
+
+73, Rich - W3ZJ
+
+Les Keppie wrote:
+> Hi All
+> Have just upgraded from Windows 7 Ultimate to Windows 8 Pro
+> Computer is Asus m/b M4A78-VM - processor is 3.1g  AMD Phenom(tm) II 
+> X2 550 Processor Socket AM3 (938)
+> with 4g ram - radio is Flex 3000
+>
+> This system has been running well on W7 ultimate with dpc count of 
+> less than 100us normally around the 75us
+> Now with the upgrade to W8 Pro dpc is around 1000us
+> LatencyMon reports Current measured kernel timer latency around 12 to 
+> 16us with Highest measured kernel timer latency as 1000 to 1009us
+> Transmitting using EasyPal gives regular breaks in tx audio with 
+> receiving station reporting no lock on signal
+>
+> Anyone got any ideas on how to reduce the dpc spikes or will it be a 
+> trip down the W7 reinstallation path???
+> So far have not been able to work out if it is possible to uninstall 
+> W8 back to W7
+>
+> I have an image of the system from september 9 but W8 doesnt want to 
+> know about it
+>
+> Regards
+> Les VK2DSG
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

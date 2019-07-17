@@ -1,0 +1,28 @@
+Subject:del modem USB para RAS
+Ahora bien me dices Alberto que haga esto lsusb y gracias Camalion y 
+dame tu opinion a ver que crees
+
+esto es lo que me retorna con lsusb
+Bus 002 Device 004: ID 0ace:1602 ZyDAS ZyXEL Omni FaxModem 56
+
+Me dices:
+El dispositivo será entonces /dev/ttyUSBx, donde x es el número de bus 
+sin los ceros de la izquierda.
+
+Lo modifiqué quedando asi:
+S0:234:respawn:/sbin/mgetty /dev/ttyUSB2
+
+Mi pregunta es: de donde sale el 234 ??? es asi por default ??
+o con los cambios que hices ya están correctos todos?
+
+Encontré esto también /dev/ttyACM0
+
+Lo siento por las dudas pero todo esto es primera vez que lo veo.
+Gracias por ayudarme a todos ok
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2a37f4c97b41504e9f5161aa6a9ddd8c@ida.cu
+

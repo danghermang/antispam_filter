@@ -1,0 +1,28 @@
+Subject:grep 2.10 et 2.12
+Bonjour à tous
+
+/tmp/fichier contient un seul caractère nul.
+
+Avec grep 2.10:
+
+$ if (cat /tmp/fichier | grep -q -E "^[0-9 ]*$") ; then echo Yop  ; fi
+$ 
+
+Avec grep 2.12:
+$ if (cat /tmp/fichier | grep -q -E "^[0-9 ]*$") ; then echo Yop  ; fi
+Yop
+$ 
+
+Est ce voulu ou bien est un bug et il faut faire un rapport?
+
+François Boisson
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120907102336.3f79da29c26c2e758a4ef6f1@maison.homelinux.net
+

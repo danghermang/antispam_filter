@@ -1,0 +1,53 @@
+Subject:Re: apache2 et permissions sur /var/log =?UTF-8?B?bW9udMOp?= entmpfs
+On Fri, 26 Oct 2012 11:47:24 +0200
+Yves Rutschle <debian.anti-spam@rutschle.net> wrote:
+
+>=20
+> =C3=87a me surprend un peu, en 2003 on avait calcul=C3=A9 une dur=C3=A9e =
+de
+> vie de 20 ans sur des flash de l'=C3=A9poque sur un syst=C3=A8me
+> embarqu=C3=A9 -- les SSD sont devenus nuls, ou bien vous =C3=A9crivez
+> 50GB par jour, ou bien vous prenez des d=C3=A9cisions en vous
+> basant sur des donn=C3=A9es techniques d'il y a 18 ans (ou pire,
+> sur des rumeurs)?
+
+Y'a des chances... =C3=A9tant donn=C3=A9 que pour de l'=C3=A9criture r=C3=
+=A9p=C3=A9titive style logs
+et en usage intensif, la dur=C3=A9e de vie est estim=C3=A9 statistiquement =
+=C3=A0 5 ann=C3=A9es
+minimum (et l=C3=A0 on parle de R/W _sans_ randomization auto des zones =C3=
+=A9crites).
+
+Mais le PB n'est m=C3=AAme pas l=C3=A0: il-y-a qq semaines, S. Sauvage a fa=
+it une
+r=C3=A9flexion qui laisse =C3=A0 bien r=C3=A9fl=C3=A9chir sur l'opportunit=
+=C3=A9 et l'int=C3=A9r=C3=AAt r=C3=A9el
+d'utiliser du SSD; il a dit qu'il rencontrait des tas de PBs sur de l'embar=
+qu=C3=A9
+et que m=C3=AAme pour un portable il n'=C3=A9tait pas s=C3=BBr de vouloir r=
+emplacer un HD
+par un SSD - comme il semble bien qu'il s'exprimait professionnellement,
+=C3=A7a serait bien qu'il en remette une couche ici.
+ =20
+>=20
+> Garder les locks =C3=A0 travers un reboot, =C3=A7a parait
+> effectivement pas tr=C3=A8s utile :)
+
+Dans ce cas, comment fais-tu pour savoir qu'=C3=A0 l'extinction il s'est pa=
+ss=C3=A9
+un gros PB sur tel ou tel daemon?
+
+--=20
+(kclaf): bon, ma copine d=C3=A9barque mercredi, la probl=C3=A9matique se
+         pose de la mani=C3=A8re suivante :
+(kclaf): "comment transformer le mordor en disneyland en 3 jours ?"
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121026133644.19d7be02@anubis.defcon1
+

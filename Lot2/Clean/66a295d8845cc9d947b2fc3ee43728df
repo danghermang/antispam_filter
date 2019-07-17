@@ -1,0 +1,37 @@
+Subject:Re: =?iso-8859-1?q?instalaci=F3n?= KDE en Wheezy
+El Sun, 04 Nov 2012 14:04:13 +0100, Miguel Ángel Ordóñez escribió:
+
+(...)
+
+> Me bajé el primer dvd de http://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-dvd/debian-testing-amd64-DVD-1.iso
+> (me sorprendió gratamente el instalador gráfico). Tras hacer el
+> particionado del disco, (250Gb para mis datos en formato ext4, lo siento
+> MS.., 
+
+Espero que hayas hecho antes una copia-clon (también conocida como "imagen 
+de restauración") de la partición de windows :-P
+
+50 Gb para Kubuntu, 50 Gb para Debian, y 4Gb de swap, el resto
+> está libre por si pruebo otras distribuciones derivadas de Debian),
+> instalé el sistema, pero no llegué a ver si había alguna opción para
+> elegir entre Gnome o Kde, así que se instaló Gnome, que no me llegó a
+> disgustar, pero como ya estoy acostumbrado a Kde, me decidí a
+> instalarlo.
+
+(...)
+
+Sólo un apunte a esto. Si mal no recuerdo, cuando bajas el primer DVD 
+tienes la opción de instalar "otros entornos gráficos" desde una opción 
+del menú de instalación, y ahí debería estar KDE, XFCE, etc...
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k75vkj$7if$2@ger.gmane.org
+

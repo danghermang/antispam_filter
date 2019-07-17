@@ -1,0 +1,222 @@
+Subject:Re: problema con openvpn
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <div class="moz-cite-prefix">El 18/09/12 19:14, Lic. Domingo Varela
+      Yahuitl escribió:<br>
+    </div>
+    <blockquote cite="mid:BLU0-SMTP1284E7ACE3CF758A8D2F03BAA940@phx.gbl"
+      type="cite">
+      <div>
+        <p>y has verificado en tu fw que si tienes la ruta de tu tunnel
+          de tu vpn para hacer ping entre el tunel y tu lan?<br>
+        </p>
+        <p><font color="#888888"><font color="#888888">Sent from my
+              android device.</font><br>
+            <font color="#888888">One step ahead.</font></font></p>
+      </div>
+    </blockquote>
+    <br>
+    Y que tendria que poner en el firewall para poder hacer el ping?,<br>
+    <br>
+    Gracias y saludos<br>
+    <br>
+    <blockquote cite="mid:BLU0-SMTP1284E7ACE3CF758A8D2F03BAA940@phx.gbl"
+      type="cite">
+      <div><br>
+        -----Original Message-----<br>
+        From: Juan Antonio <a class="moz-txt-link-rfc2396E" href="mailto:pushakk@limbo.deathwing.net">&lt;pushakk@limbo.deathwing.net&gt;</a><br>
+        To: <a class="moz-txt-link-abbreviated" href="mailto:debian-user-spanish@lists.debian.org">debian-user-spanish@lists.debian.org</a><br>
+        Sent: Tue, 18 Sep 2012 12:06<br>
+        Subject: Re: problema con openvpn<br>
+        <br>
+      </div>
+      <p>El 18/09/12 15:24, Antonio Moreno escribió:
+<br>
+        &gt; Tengo un openvpn instalado y configurado de la siguiente
+        forma:
+<br>
+        &gt;
+<br>
+        &gt;
+<br>
+        &gt; Server con dos tarjetas de red
+<br>
+        &gt;
+<br>
+        &gt; eth<a moz-do-not-send="true" href="tel:019216812">0
+          192.168.1.2</a> -&gt; me conecto a internet
+<br>
+        &gt; eth<a moz-do-not-send="true" href="tel:1192116153">1
+          192.1.16.153</a> -&gt; Ip de la lan
+<br>
+        &gt;
+<br>
+        &gt; server,conf
+<br>
+        &gt;
+<br>
+        &gt; port 1194
+<br>
+        &gt; proto udp
+<br>
+        &gt; dev tap
+<br>
+        &gt; ca /etc/openvpn/easy-rsa-V2.0/keys/ca.crt
+<br>
+        &gt; cert /etc/openvpn/easy-rsa-V2.0/keys/servidor.crt
+<br>
+        &gt; key /etc/openvpn/easy-rsa-V2.0/keys/servidor.key  # This
+        file should
+<br>
+        &gt; be kept secret
+<br>
+        &gt; dh /etc/openvpn/easy-rsa-V2.0/keys/dh1024.pem
+<br>
+        &gt; server <a moz-do-not-send="true"
+          href="tel:108002552552550">10.8.0.0 255.255.255.0</a>
+<br>
+        &gt; ifconfig-pool-persist ipp.txt
+<br>
+        &gt; push "route <a moz-do-not-send="true"
+          href="tel:19211602552552550">192.1.16.0 255.255.255.0</a>"
+<br>
+        &gt; client-config-dir /etc/openvpn/ccd
+<br>
+        &gt; route <a moz-do-not-send="true"
+          href="tel:19211602552552550192116153">192.1.16.0 255.255.255.0
+          192.1.16.153</a>
+<br>
+        &gt; client-to-client
+<br>
+        &gt; keepalive <a moz-do-not-send="true" href="tel:10120">10
+          120</a>
+<br>
+        &gt; tls-auth /etc/openvpn/easy-rsa-V2.0/ta.key 0 # This file is
+        secret
+<br>
+        &gt; comp-lzo
+<br>
+        &gt; persist-key
+<br>
+        &gt; persist-tun
+<br>
+        &gt; status openvpn-status.log
+<br>
+        &gt; verb 3
+<br>
+        &gt;
+<br>
+        &gt; route
+<br>
+        &gt;
+<br>
+        &gt; Kernel IP routing table
+<br>
+        &gt; Destination     Gateway         Genmask         Flags
+        Metric Ref Use
+<br>
+        &gt; Iface
+<br>
+        &gt; <a moz-do-not-send="true" href="http://192.1.16.0">192.1.16.0</a>     
+        Openvpn         <a moz-do-not-send="true"
+          href="http://255.255.255.0">255.255.255.0</a>   UG    0
+        0        0 eth1
+<br>
+        &gt; <a moz-do-not-send="true" href="http://10.8.0.0">10.8.0.0</a>       
+        *               <a moz-do-not-send="true"
+          href="http://255.255.255.0">255.255.255.0</a>   U     0
+        0        0 tap0
+<br>
+        &gt; <a moz-do-not-send="true" href="http://192.168.1.0">192.168.1.0</a>    
+        *               <a moz-do-not-send="true"
+          href="http://255.255.255.0">255.255.255.0</a>   U     0
+        0        0 eth0
+<br>
+        &gt; <a moz-do-not-send="true" href="http://192.1.0.0">192.1.0.0</a>      
+        *               <a moz-do-not-send="true"
+          href="http://255.255.0.0">255.255.0.0</a>     U     0 0       
+        0 eth1
+<br>
+        &gt; link-local      *               <a moz-do-not-send="true"
+          href="http://255.255.0.0">255.255.0.0</a>     U     0 0       
+        0 eth0
+<br>
+        &gt; loopback        *               <a moz-do-not-send="true"
+          href="http://255.0.0.0">255.0.0.0</a>       U     0 0        0
+        lo
+<br>
+        &gt; default         <a moz-do-not-send="true"
+          href="tel:192168110000">192.168.1.1     0.0.0.0</a>        
+        UG    0 0        0 eth0
+<br>
+        &gt;
+<br>
+        &gt;
+<br>
+        &gt; El cliente me conecta perfectamente, hace ping al servidor
+        tanto a la
+<br>
+        &gt; ip <a moz-do-not-send="true" href="http://10.8.0.1">10.8.0.1</a>
+        como a la <a moz-do-not-send="true" href="http://192.1.16.153">192.1.16.153</a>,
+        pero a las ips de la red no me
+<br>
+        &gt; hace a ninguna de ellas. ¿Que me puede ocurrir?
+<br>
+        &gt;
+<br>
+        &gt; Muchas gracias y un saludo
+<br>
+        &gt;
+<br>
+        &gt;
+<br>
+        
+<br>
+        Hola,
+<br>
+        
+<br>
+        lo de dev tap es un error o realmente lo tienes asi en tu
+        configuración?
+<br>
+        Si es asi, cámbialo por dev tun dado que el resto de tu
+        configuración
+<br>
+        esta orientada a servir openvpn en modo routed.
+<br>
+        
+<br>
+        Un saludo.
+<br>
+        
+<br>
+        
+<br>
+        -- 
+<br>
+        To UNSUBSCRIBE, email to <a moz-do-not-send="true"
+          href="mailto:debian-user-spanish-REQUEST@lists.debian.org">debian-user-spanish-REQUEST@lists.debian.org</a>
+<br>
+        with a subject of "unsubscribe". Trouble? Contact <a
+          moz-do-not-send="true"
+          href="mailto:listmaster@lists.debian.org">listmaster@lists.debian.org</a>
+<br>
+        Archive: <a moz-do-not-send="true"
+          href="http://lists.debian.org/5058AA21.40304@limbo.deathwing.net">http://lists.debian.org/5058AA21.40304@limbo.deathwing.net</a>
+<br>
+        
+</p>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505954C4.5020003@sorianatural.es
+

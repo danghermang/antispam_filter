@@ -1,0 +1,53 @@
+Subject:Re: Rolling release
+On Sat, 10 Nov 2012 10:50:10 +0100
+Goldy <goldy@goldenfish.info> wrote:
+
+> Il y a quelques limitations qui me g=C3=AAne avec aptosid, le fait que
+> l'utilisation de gnome ne soit pas recommand=C3=A9 par exemple,
+
+Ca serait plut=C3=B4t une b=C3=A9n=C3=A9diction...
+
+> ou que les
+> mises =C3=A0 jours doivent se faire sans =C3=AAtre sur x.
+
+Tout le monde n'a pas besoin de X, loin s'en faut.
+
+> D'ailleurs, je vois aussi des t=C3=A9moignages de personnes utilisant sid
+> directement et qui disent que tout va pour le mieux dans le meilleurs
+> des mondes (ce dont je me m=C3=A9fie personnellement).
+
+Le meilleur des mondes est un peu outrancier, mais sans r=C3=A9els probl=C3=
+=A8mes
+majeurs une fois apt-listbug install=C3=A9, oui; en tout cas avec bcp moins
+de PB qu'avec testing.
+
+> L'id=C3=A9al serait en r=C3=A9alit=C3=A9 de faire un d=C3=A9p=C3=B4t hybr=
+ide reprenant les r=C3=A8gles
+> de testing, mais sans le freeze, je me demande d'ailleurs si =C3=A7a sera=
+it
+> bien compliqu=C3=A9 de le faire soit m=C3=AAme.
+
+Wai, le seul PB de testing c'est que d=C3=A8s fois elle est plus cass=C3=A9=
+e que sid,
+sans compter les packages qui disparaissent du jour au lendemain.
+
+Thread marrant, mais dans lequel certains feraient bien de se documenter,
+notamment sur la qualit=C3=A9 du staff Debian, avant de vouloir refaire son=
+ monde...
+
+--=20
+* Clara has joined #XCHat
+<Clara> bonjour tout le monde
+<jojo> bonjour :)
+<christophe> euh Clara...Morgane ? ^^
+<Clara> nan arretez sa devient lourd , je ne suis pas chanteuse
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121110145528.4a633886@anubis.defcon1
+

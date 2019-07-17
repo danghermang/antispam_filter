@@ -1,0 +1,84 @@
+Subject:Re: Squid3 y https
+El d=EDa 16 de octubre de 2012 18:54,  <cosme@esid.gecgr.co.cu> escribi=F3:
+> Hola
+>
+> Tengo problemas al acceder a los sitios seguros con el squid3
+>
+> He buscado sobre el tema y squid3 no trae soporte papa SSL hay que compil=
+arlo
+>
+>
+> yo simplemente instal=E9 apt-install squid3
+>
+> Cuando intento acceder a algun sitio mediante https no puedo
+>
+> Veo en fichero de conf esto
+>
+> --enable-ssl
+>
+> Como puedo resolver el problema??
+>
+> uso debian squeeze
+>
+> Salu2
+>
+>
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/b264d2ab43523186899814c901310b44.squirre=
+l@192.168.13.16
+>
+
+Hola. En Agosto tuve la misma necesidad.
+http://lists.debian.org/debian-user-spanish/2012/08/msg00712.html
+
+Decid=ED, como me recomendaron, olvidarme del proxy transparente y
+apuntar los navegadores directo al proxy. No olvido establecer las
+reglas necesarias para evitar que se lo brinquen.
+
+Basicamente:
+por iptables, todo lo que venga al puerto 80, y al puerto 443, lo
+redirecciono al puerto de escucha del squid (3128)
+alli mismo aplico regla de MASQUERADE a la NAT
+
+en squid.conf, tengo, entre otras cosas:
+
+acl blocked_ssl_domains url_regex -i "\ruta\lista_de_dominios_ssl_bloqueado=
+s"
+acl SSL_ports 443
+acl CONNECT method CONNECT
+
+http_access deny CONNECT !SSL_ports
+http_access deny blocked_ssl_domains CONNECT
+
+http_port direccion_ip_proxy:3128
+
+# No hay https_port
+
+As=ED, squid permite administrar las peticiones CONNECT hechas por https.
+
+Espero esta info te sea de ayuda
+
+Saludos
+
+
+--=20
+Hector
+--
+El Pic no pudo Iniciar correctamente.
+Inserte el disco de arranque y presione cualquier pin para continuar...
+
+Linux Registered User #467500
+https://linuxcounter.net/user/467500.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CACzWLT+02DkJLv4S+fp6+c0pmSkrrVM8J2vDUaJAUv26_Y_Psg@mail.gmail.com
+

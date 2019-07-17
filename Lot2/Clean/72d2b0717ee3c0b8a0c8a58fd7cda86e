@@ -1,0 +1,41 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+El Sat, 22 Sep 2012 19:26:22 +0200, Juan Antonio escribió:
+
+> El 22/09/12 18:18, Camaleón escribió:
+
+(...)
+
+>> Sigue sin cuadrarme porque el cambio que has hecho requiere la
+>> recompilación del kernel algo que anteriormente no se había hecho y no
+>> era necesario. Las posteriores actualizaciones que hayas podido hacer
+>> no han alterado el contenido del resto de elementos ("intrd") que hayan
+>> sido compilados/generados por ti, luego o se me escapa algo o sigo sin
+>> verlo :-)
+>> 
+>> 
+>> 
+> 
+> al parecer el nuevo paquete de initramfs no incluye "soporte" para unix
+> socket como módulo, cuando actualizó este paquete y generaba nuevas
+> imágenes initrd para sus "custom kernel" estos dejaban de funcionar
+> porque el había compilado el soporte de unix socket como módulo en esos
+> kernels.
+> Esta es la conclusión que yo he sacado al menos.
+
+Eso es lo que me escama porque no existe ningún paquete "initramfs" como 
+tal sino el de las herramientas (initramfs-tools) que se encarga de 
+generar el intrd del kernel de Debian, pero entiendo que no altera/
+modifica/toca los que han sido compilados manualmente (los archivos 
+initrd son independientes para cada kernel que exista en el sistema) :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3ktfh$mv$21@ger.gmane.org
+

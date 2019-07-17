@@ -1,0 +1,52 @@
+Subject:Re: Sauvegarde du =?UTF-8?B?c3lzdMOobWU=?= pour =?UTF-8?B?Y3I=?=
+	=?UTF-8?B?w6llcg==?= un ISO
+On Sat, 6 Oct 2012 00:08:15 +0200
+Cyrille germain <cyrillegermain@gmail.com> wrote:
+
+>=20
+> dd if=3D/dev/sda1 of=3D/media/Back_Sys/dev_sda1.ddimg
+> dd if=3D/dev/sda5 of=3D/media/Back_Sys/dev_sda5.ddimg
+=20
+Voil=C3=A0, =C3=A9videmment =C3=A0 refaire (tjrs dans ce sens-l=C3=A0) si t=
+u modifies
+des confs - et _surtout_ si jamais tu en venais =C3=A0 modifier la taille
+de ces partitions (puisque dd en effectue un "binary carbon copy").
+=20
+> J'ai une partition sda3 mais je ne sais pas ce que c'est... :(
+
+En dehors du fait que LVM+RAID sert plut=C3=B4t =C3=A0 planter un micro et
+perdre les donn=C3=A9es, c'est l'autre raison pour ne pas l'utiliser:
+il faut garder un papelard pour savoir o=C3=B9 est quoi (et vice-versa).
+
+Mais si tu penses que c'est important, fais aussi un backup.
+
+> Je n'ai pas compris la partie ou *Con et *Pro: je n'ai rien trouv=C3=A9
+> dans la doc dd.
+
+Erf, rien =C3=A0 voir:
+
+Contre
+> > Con:    * l'image g=C3=A9n=C3=A9r=C3=A9e fait la taille de la partoche
+> >           sauvegard=C3=A9e (mais se compresse facilement)
+> >         * c'est long
+
+Pour
+> > Pro:    * comme c'est une image binaire on se fout de ce
+> >           qu'il-y-a dedans et toutes les subtilit=C3=A9s du FS sont
+> >           restaur=C3=A9es sans souci0s
+> >         * tr=C3=A8s facile =C3=A0 manipuler
+
+--=20
+<petsek> Nous on a un prof au lyc=C3=A9e c'est un nain !
+<wamm> Ah ouais ? Un vrai avec une hache et tout ?
+<petsek> Faut vraiment que t'arr=C3=AAte wow toi...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121006002323.64e53b06@anubis.defcon1
+

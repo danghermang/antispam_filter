@@ -1,0 +1,108 @@
+Subject:Re: skype - no funciona microfono interno
+El jue, 25-10-2012 a las 15:17 -0300, Manuel Ramos escribió:
+> On Jue 25 Oct 2012 14:59:05 Juanluis Lozano escribió:
+> > El jue, 25-10-2012 a las 14:37 -0300, Sergio Bessopeanetto escribió:
+> > > Manuel Ramos escribió:
+> > > > Buenas gente...
+> > > > 
+> > > > recurro a uds porque no logro hacer funcionar el micrófono interno de
+> > > > mi laptop (LG R200) con debian Wheezy + KDE para usarlo con skype...
+> > > > 
+> > > > en las configuraciones de skype tengo como servidor de sonido a
+> > > > pulseaudio, es el único que me permite seleccionar. El leído opiniones
+> > > > divididas en cuanto a la solución de este problema, algunos
+> > > > recomiendan desinstalar pulseaudio e instalar alsa otros lo contrario.
+> > > > El tema es que quiero hacerlo funcionar con el servidor por defecto
+> > > > "pulseaudio".
+> > > > 
+> > > > Estas son los datos de mi sonido:
+> > > > 
+> > > > ~$ cat /proc/asound/devices
+> > > > 
+> > > >    1:        : sequencer
+> > > >    2: [ 0- 2]: digital audio capture
+> > > >    3: [ 0- 1]: digital audio playback
+> > > >    4: [ 0- 0]: digital audio playback
+> > > >    5: [ 0- 0]: digital audio capture
+> > > >    6: [ 0- 1]: hardware dependent
+> > > >    7: [ 0- 0]: hardware dependent
+> > > >    8: [ 0]   : control
+> > > >   
+> > > >   33:        : timer
+> > > > 
+> > > > ---------------------------------------------------
+> > > > ~$ cat /proc/asound/modules
+> > > > 
+> > > >   0 snd_hda_intel
+> > > > 
+> > > > ~$ cat /proc/asound/cards
+> > > > 
+> > > >   0 [Intel          ]: HDA-Intel - HDA Intel
+> > > >   
+> > > >                        HDA Intel at 0x80000000 irq 46
+> > > > 
+> > > > ---------------------------------------------------
+> > > > ~$ cat /etc/asound.conf
+> > > > pcm.pulse {
+> > > > 
+> > > >      type pulse
+> > > > 
+> > > > }
+> > > > 
+> > > > ctl.pulse {
+> > > > 
+> > > >      type pulse
+> > > > 
+> > > > }
+> > > > 
+> > > > pcm.!default {
+> > > > 
+> > > >      type pulse
+> > > > 
+> > > > }
+> > > > 
+> > > > ctl.!default {
+> > > > 
+> > > >      type pulse
+> > > > 
+> > > > }
+> > > > ---------------------------------------------------
+> > > > 
+> > > > Alguien me puede echar un poco de luz?
+> > > > 
+> > > > Bytes!
+> > > 
+> > > Tengo por costumbre desinstalar Pulseaudio e instalar ALSA.
+> > > Me ha pasado igual y no solo eso sino que el mixer por defecto
+> > > que trae pulseaudio no lo entiendo.
+> > > Así que no temas en hacer lo que la mayoría te recomienda.
+> > 
+> > Intenta con lo más sencillo al comienzo, me sucedió lo mismo y lo que
+> > pasaba era que el micrófono estaba mudo, es decir:
+> > 
+> > En el terminal tipea alsamixer como root
+> > 
+> > te aparecen los controles de sonido en una interfaz gráfica old school,
+> > pues allí el micrófono aparece con el sonido en 00...
+> 
+> Si eso lo verifique tambien y esta con el sonido del mic bien configurado....
+> 
+> probe con diferentes combinaciones de configuración pero sigue igual....
+> 
+> Estoy viendo que no me va a quedar otra que desinstalar pulse e instalar alsa.
+> 
+> -- 
+> Manuel Ramos
+> TW: @0xManu
+> 
+> 
+
+A mi el Pulse me dió bastantes inconvenientes... con el alsa me ha ido
+muy bien !!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1351189442.11530.3.camel@debian
+

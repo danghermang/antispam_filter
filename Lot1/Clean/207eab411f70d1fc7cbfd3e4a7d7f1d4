@@ -1,0 +1,34 @@
+Subject:Re: [LUG] Linux - and security
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On 02/11/12 12:03, Julian Hall wrote:
+
+> Also I have recently discovered that the Virginmedia so-called
+> Superhub (more like Stuporhub) latest firmware update forced on
+> customers is broken.  In essence it won't let you carry out some
+> basic functions unless the Firewall security is set to Low, and it
+> doesn't even tell you anywhere the difference between Low, Medium
+> and High.  For example, to FTP I have to set the Firewall to Low,
+> upload or download my files, and then reset the Firewall to Medium.
+> You may think an easy remedy would be to set a Port Forwarding rule
+> on port 21 to my desktop PC. Unfortunately the forums are full of
+> people complaining that Port Forwarding on the Superhub doesn't
+> work, and in my experience they're right.
+
+Virgin's (not so) Superhub appears to have been dogged by all sorts of
+problems ever since it was introduced.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://www.enigmail.net/
+
+iEYEARECAAYFAlCU5H4ACgkQsoRLMhsZpFfQOACfWAWYfArOCusE8Y8LOG8zayRG
+PT8AnR3+Qpi4pfUpDdRO8g1v6EYDgqjq
+=tSRv
+-----END PGP SIGNATURE-----
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

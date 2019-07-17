@@ -1,0 +1,115 @@
+Subject:=?utf-8?Q?Re:_KVM_r=C3=A9seaux_Host-only?=
+Merci beaucoup pour votre aide.
+Tout a l'air de fonctionner comme je le souhaite.
+
+Bonne semaine,
+
+N.B
+
+----- Mail original -----
+De: "daniel huhardeaux" <no-spam@tootai.net>
+=C3=80: debian-user-french@lists.debian.org
+Envoy=C3=A9: Dimanche 2 D=C3=A9cembre 2012 18:12:31
+Objet: Re: KVM r=C3=A9seaux Host-only
+
+Le 02/12/2012 16:05, nicolas bouige a =C3=A9crit :
+> Merci beaucoup pour ces quelques pr=C3=A9cisions.
+> Est ce que je suis oblig=C3=A9 de pass=C3=A9 par une requ=C3=AAte DHCP ? =
+je prefere=20
+> configurer mes VM en statique
+
+dhcp n'est pas obligatoire, mais comme il sait attribuer des adresses IP=20
+immuables via la mac address, je trouve cela beaucoup plus souple: un=20
+seul fichier pour configurer les IP du r=C3=A9seau. =C3=80 chacun son feeli=
+ng ;-)
+
+>
+> L'interface br0 doit remplacer la eth0 ? ou tout du moins =C3=AAtre sur u=
+n=20
+> r=C3=A9seau diff=C3=A9rent ?
+
+Euh, j'avoue ne pas trop comprendre la question.
+
+L'interface br0 sur le *host* est le bridge sur l'interface ethx de ce=20
+m=C3=AAme host (celle qui g=C3=A8re le r=C3=A9seau intranet). Il s'agit eff=
+ectivement=20
+de la eth0 s'il n'y a qu'une seule interface. Dans la MV c'est=20
+l'interface eth0 qui est =C3=A0 configurer.
+
+>
+>
+> Le 02/12/2012 15:31, daniel huhardeaux a =C3=A9crit :
+>> Le 02/12/2012 14:47, nicolas bouige a =C3=A9crit :
+>>> Bonjour tout le monde,
+>>
+>> Bonjour
+>>
+>>>
+>>> Je suis en train de me cr=C3=A9er plusieurs machine virtuelle avec KVM.
+>>> J'aimerais que cette machine communique avec l'h=C3=B4te physique mais=
+=20
+>>> j'y arrive pas...je veux qu'elle soit sur le m=C3=AAme r=C3=A9seaux, j'=
+ai=20
+>>> essay=C3=A9 de bridger mais cela ne marche pas non-plus.
+>>
+>> Ton interface du host doit =C3=AAtre en mode bridgr (Ex: br0). Ensuite=
+=20
+>> dans la d=C3=A9finition de la MV
+>>
+>> <interface type=3D'bridge'>
+>> <mac address=3D'52:54:00:c4:f8:10'/>
+>> <source bridge=3D'br0'/>
+>> <model type=3D'virtio'/>
+>> <address type=3D'pci' domain=3D'0x0000' bus=3D'0x00' slot=3D'0x03'=20
+>> function=3D'0x0'/>
+>> </interface>
+>>
+>> Une requ=C3=AAte dhcp suivante dans la MV attribuera une adresse IP du=
+=20
+>> r=C3=A9seau de la machine physique.
+>>
+>>>
+>>> Je peux l'utiliser en NAT mais le ping ne fonctionne pas non-plus=20
+>>> entre les machines...
+>>
+>> Si un firewall est install=C3=A9, v=C3=A9rifier que le trafic est autori=
+s=C3=A9
+>>
+>>> il y'a bien une interface vnet0 de cr=C3=A9er (qui doit correspondre a=
+=20
+>>> vnet0)
+>>
+>> Il s'agit d'une interface de communication pour la MV. Si un r=C3=A9seau=
+=20
+>> bridge pour les MV est cr=C3=A9=C3=A9, l'interface sera nomm=C3=A9e virb=
+r0 par ex.
+>>
+>>> mais je ne sais pas comment l'utiliser avec KVM. J'ai install=C3=A9=20
+>>> l'interface graphiquevirt-manager.
+>>
+>> Pas n=C3=A9sessaire, virsh + la manipulation manuelle des fichiers dans=
+=20
+>> /etc/libvirt/qemu fonctionne =C3=A9galement
+>>>
+>> [...]
+>>
+>
+
+--=20
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BB8BFF.3080904@tootai.net
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/460114701.322110960.1354539606183.JavaMail.root@zimbra51-e8.priv.proxad.net
+

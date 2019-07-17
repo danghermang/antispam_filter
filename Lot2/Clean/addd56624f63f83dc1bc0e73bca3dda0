@@ -1,0 +1,109 @@
+Subject:configuration serveur mail IMAP (dovecot)
+Bonsoir,
+
+J'ai un petit réseau domestique sous Debian/Sid (et Ubuntu/)
+
+Une machine dans un placard, en interne hector.lesours, 
+est connectée à l'Internet en tant que ours.starynkevitch.net
+(via un modem ADSL convenablement configuré)
+et c'est aussi un serveur SMTP exim4 (et IMAP dovecot). Elle reçoit bien le traffic SMTP. 
+J'ai du réinstaller Debian il y a 6 ou 9 mois suite à un crash disque.
+
+Mon PC desktop est sur le réseau interne glinka.lesours
+
+Il a quelques comptes mail (demi-douzaine) sur hector.
+
+Je n'arrive plus à accéder par IMAP4 à hector depuis glinka. Par exemple 
+sous sylpheed la fenetre Tool->Log Window (Protocol log) donne:
+
+** Could not establish IMAP connection.
+* creating IMAP4 connection to hector.lesours:993 ...
+* SSL certificate of hector.lesours previously accepted
+[17:32:32] IMAP4< * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE AUTH=PLAIN] Dovecot ready.
+[17:32:32] IMAP4> 1 CAPABILITY
+[17:32:32] IMAP4< * CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE AUTH=PLAIN
+[17:32:32] IMAP4< 1 OK Pre-login capabilities listed, post-login capabilities have more.
+[17:32:32] IMAP4> 2 AUTHENTICATE PLAIN
+[17:32:32] IMAP4< + 
+[17:32:32] IMAP4> ****************
+[17:32:32] IMAP4< * BYE Internal error occurred. Refer to server log for more information.
+** LibSylph-WARNING: [17:32:32] IMAP4 authentication failed.
+
+** IMAP4 authentication failed.
+[17:32:32] IMAP4> 3 LOGOUT
+** LibSylph-WARNING: [17:32:32] Could not establish IMAP connection.
+
+** Could not establish IMAP connection.
+
+
+Sur le serveur hector, j'utilise dovecot comme serveur IMAP
+(mais je suis disposé à changer, s'il y a plus simple)
+
+En pratique, je suis réduit depuis des mois à lire mon mél par ssh hector mutt,
+ce qui à la longue est parfois inconfortable.
+
+Le fichier /var/log/mail.log contient notamment
+Dec  8 17:32:32 hector dovecot: imap(basile): Error: Invalid user settings. Refer to server log for more information.
+Dec  8 17:32:32 hector dovecot: imap-login: Login: user=<basile>, method=PLAIN, rip=192.168.0.1, lip=192.168.0.5, mpid=18514, TLS, session=<mTv+4FnQQwDAqAAB>
+Dec  8 17:32:32 hector dovecot: imap(basile): Error: user basile: Initialization failed: Namespace '': mbox: mbox root directory can't be a file: /var/mail/basile (http://wiki2.dovecot.org/MailLocation/Mbox)
+
+
+le fichier /var/mail/basile existe et il est non-vide.
+
+la commande dovecot -n donne
+# 2.1.7: /etc/dovecot/dovecot.conf
+# OS: Linux 3.2.0-3-amd64 x86_64 Debian wheezy/sid 
+mail_location = mbox:~/mail:INBOX=/var/mail/%u
+namespace inbox {
+  inbox = yes
+  location = mbox:/var/mail/%u
+  mailbox Drafts {
+    special_use = \Drafts
+  }
+  mailbox Junk {
+    special_use = \Junk
+  }
+  mailbox Sent {
+    special_use = \Sent
+  }
+  mailbox "Sent Messages" {
+    special_use = \Sent
+  }
+  mailbox Trash {
+    special_use = \Trash
+  }
+  prefix = 
+}
+passdb {
+  driver = pam
+}
+plugin {
+  sieve = ~/.dovecot.sieve
+  sieve_dir = ~/sieve
+}
+protocols = " imap"
+ssl_cert = </etc/ssl/certs/dovecot.pem
+ssl_key = </etc/ssl/private/dovecot.pem
+userdb {
+  driver = passwd
+}
+
+
+Avez vous des idées???
+
+Cordialement
+-- 
+Basile STARYNKEVITCH         http://starynkevitch.net/Basile/
+email: basile<at>starynkevitch<dot>net mobile: +33 6 8501 2359
+8, rue de la Faiencerie, 92340 Bourg La Reine, France
+*** opinions {are only mines, sont seulement les miennes} ***
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121208164054.GA18442@ours.starynkevitch.net
+

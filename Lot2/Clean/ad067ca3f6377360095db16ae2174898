@@ -1,0 +1,25 @@
+Subject:=?iso-8859-1?q?d=E9marrage?= automatique de totem
+bonjour,
+à la suite de je ne sais quelle manip, quand j'insère un CD audio j'ai 
+totem qui démarre tout seul.
+Cherché un totem (rgrep ...) dans $HOME/.config, /etc. 
+rien trouvé de concluant.
+rien vu dans gnome-control-center.
+
+une petite idée ?
+
+Ma config : crunchbang (debian squeeze avec openbox en WM) sans 
+subtilités.
+
+Merci d'avance 
+C Hiebel
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50444cc1$0$6138$426a74cc@news.free.fr
+

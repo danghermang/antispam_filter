@@ -1,0 +1,27 @@
+Subject:Re: AWStats avec Apache2
+On Sat, 13 Oct 2012 12:26:59 +0200
+Dominique Asselineau <asseline@telecom-paristech.fr> wrote:
+
+J'utilise awstats avec nginx et ai introduit 2 modifs dans
+son logrotate avant rotation: M=C3=A0J des stats + changement de
+droits r=C3=A9cursif (www-data:www-data) du dir des logs
+(/var/lib/awstats).
+
+Les fichiers de stats sont en 644, ce qui n'a aucune importance,
+vu la port=C3=A9e des infos qu'il contiennent.
+
+--=20
+<Yazoo> besoin urgent de quelqu'un qui fasse du C !!
+<Gwendoline> moi : 95C (je suis rouge comme une pivoine!)
+<Yazoo> je parle du LANGAGE C !
+<Yazoo> mais bon, rien ne presse ... t'habites o=C3=B9 ? ^^
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121013150922.227634e9@anubis.defcon1
+

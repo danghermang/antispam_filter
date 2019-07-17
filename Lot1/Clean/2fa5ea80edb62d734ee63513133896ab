@@ -1,0 +1,31 @@
+Subject:Re: Plus de boot graphique auto au =?UTF-8?B?ZMOpbWFycmFnZQ==?=
+On 08/31/2012 09:59 AM, Tanguy Ortolo wrote:
+> maderios, 2012-08-30 17:00+0200:
+>> Appuyer sur la touche entrée dans MC pour lancer la compil du driver et
+>> attendre la fin, ce n'est pas "configurer"
+>> Le xorg.conf n'est pas obligatoire, X fonctionne sans lui et si on en a
+>> vraiment besoin, le driver en fabrique un à la fin de la compil.
+>
+> C'est ce que je dis, ça se configure, contrairement aux carte Intel pour
+> lesquelles on n'a rien à faire. Et quand je dis rien, c'est rien, ça
+> fonctionne directement.
+>
+Les cartes Nvidia fonctionnent "directement" si on ne passe pas par la 
+case driver téléchargé chez nvdia. Suffit d'installer les paquets 
+Debian... Par contre, j'ai eu bien des soucis avec une carte Intel et 
+son KMS.
+
+Cordialement
+
+-- 
+Maderios
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5040EAF9.5070402@gmail.com
+

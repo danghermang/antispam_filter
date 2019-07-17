@@ -1,0 +1,31 @@
+Subject:Mail delivery failed: returning message to sender
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  adgal1@host.anatoliaweb.net
+    (generated from uucp@adanaotogalericiler.com)
+    mailbox is full: retry timeout exceeded
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <7E0A523DF@naiconsulting.com>
+Received: from [217.23.126.170] (port=25479)
+	by host.anatoliaweb.net with esmtp (Exim 4.80)
+	(envelope-from <7E0A523DF@naiconsulting.com>)
+	id 1ThyW3-00060z-QH
+	for uucp@adanaotogalericiler.com; Mon, 10 Dec 2012 10:15:07 +0200
+From: "Support" <7E0A523DF@naiconsulting.com>
+To: <uucp@adanaotogalericiler.com>
+Subject: Order confirmation.
+Date: Mon, 10 Dec 2012 10:15:09 +0200
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 8bit
+List-Unsubscribe: <mailto:663E6E510DEA0E490@jasminemarketingllc.com>
+Message-ID: <20121210101509.3DF2C2F4783B202C15FAC@ELENA-K>
+
+If you can't read this message please click this <a href="http://www.leitcomm.org/welcome.php?s002">link</a><br>
+

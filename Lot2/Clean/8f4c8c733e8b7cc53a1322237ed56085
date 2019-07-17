@@ -1,0 +1,27 @@
+Subject:Re: Installation sur portable sans CG
+Bonjour,
+
+Il y a la possibilit=E9 de d=E9monter le disque dur (tournevistiquement par=
+lant)=20
+et de faire l'installation depuis une autre machine. A un moment dans=20
+l'installation il y a une option, je ne sais plus la formulation exacte, qu=
+i=20
+permet d'installer une image contenant tous les pilotes.
+Ensuite il n'y a plus qu'=E0 remettre le disque dur dans la machine d'origi=
+ne.
+Mais =E7a ne fera pas un truc tr=E8s optimis=E9.
+J'ai test=E9 avec un portable autiste (lecteur cd mort, carte r=E9seau mort=
+e, pas=20
+de boot sur usb), =E7a fonctionne.
+
+Si =E7a peut aider...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211091052.46830.papefigue@numericable.fr
+

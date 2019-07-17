@@ -1,0 +1,57 @@
+Subject:Re: Libreoffice en Ubuntu
+mramirez@iciuchile.cl writes:
+
+> No se que paso, pero ya no tengo Libreoffice en mi ubuntu. Lo
+> desinstale totalmente y lo reinstale, sin embargo, me sale lo sgte. Me
+> pueden ayudar para poder dejar Libreoffice totalmente funcional? Una
+> vez desintalado con apt-get remove y purge hice lo sgte:
+>
+> # add-apt-repository ppa:libreoffice/ppa
+>
+> # apt-get update
+>
+> #apt-get install libreoffice
+>
+> #apt-get install libreoffice
+> Leyendo lista de paquetes... Hecho
+> Creando árbol de dependencias
+> Leyendo la información de estado... Hecho
+> No se pudieron instalar algunos paquetes. Esto puede significar que
+> usted pidió una situación imposible o, si está usando la distribución
+> inestable, que algunos paquetes necesarios no han sido creados o han
+> sido movidos fuera de Incoming.
+> La siguiente información puede ayudar a resolver la situación:
+>
+> Los siguientes paquetes tienen dependencias incumplidas:
+>   libreoffice: Depende: libreoffice-core (= 1:3.5.4-0ubuntu1~lucid1)
+> pero no va a instalarse
+>                Depende: libreoffice-writer pero no va a instalarse
+>                Depende: libreoffice-calc pero no va a instalarse
+>                Depende: libreoffice-impress pero no va a instalarse
+>                Depende: libreoffice-draw pero no va a instalarse
+>                Depende: libreoffice-math pero no va a instalarse
+>                Depende: libreoffice-base pero no va a instalarse
+>                Depende: libreoffice-filter-mobiledev pero no va a instalarse
+>                Depende: libreoffice-java-common (>= 1:3.5.4~) pero no
+> va a instalarse
+>                Recomienda: libreoffice-gnome pero no va a instalarse o
+>                            libreoffice-kde pero no va a instalarse
+> E: Paquetes rotos
+
+Creo que el ppa/libreoffice tiene algún problema con compilación de
+libreoffice. Encuentra el libreoffice - 1:3.5.6-0ubuntu1~lucid1 (la
+última versión) en este ppa
+https://launchpad.net/~libreoffice/+archive/ppa/+packages y mira el
+último campo. Lo muestra que libreoffice no se ha compilado para las
+arquitecturas amd64 y i386.
+
+Lo único que te puedo recomendar es que elimines ese ppa de la lista de
+repositorios, hagas 'apt-get update' y instales libreoffice desde el
+repositorio oficial.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87mwzebpcl.fsf@tochka.ru
+

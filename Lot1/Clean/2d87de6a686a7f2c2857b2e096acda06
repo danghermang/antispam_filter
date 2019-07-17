@@ -1,0 +1,40 @@
+Subject:Re: Posible problema al actualizar initrd
+El Mon, 17 Sep 2012 19:50:17 +0200, Angel Vicente escribió:
+
+> Llevo varios dias buscando como solucionar un problema que tengo al
+> arrancar algunos de los nucleos que tengo instalados: tengo acualmente
+> seis nucleos diferentes en /boot, algunos los he compilado yo y otros
+> son instalados directamente desde los repositorios. Desde hace una
+> semana o dos tengo el problema de que los nucleos a los que
+> recientemente se ha actualizado el initrd que le corresponde, no son
+> arrancables: siempre me sale el siguiente error
+> 
+> ALERT! /dev/disk/by-uuid/<lista del uuid> does not exist.
+
+(...)
+
+¿Cómo has compilado el kernel?
+
+Quizá generaste la imagen mal... Mira a ver si lo que te dice es cierto o 
+no, es decir, si el identificador de la partición apunta al lugar 
+correcto.
+
+Otro de los motivos habituales por los que aparece este mensaje es que te 
+falte algún módulo de gestión del disco duro (sata, ahci... o alguno 
+específico para tu controladora), o que no lo hayas compilado integrado 
+sino como módulo, y no lo pueda cargar.
+
+Puedes comparar los dos ".config" de los kernels (de uno que funcione y 
+otro que no) para ver las diferencias :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k39sdp$thl$2@ger.gmane.org
+

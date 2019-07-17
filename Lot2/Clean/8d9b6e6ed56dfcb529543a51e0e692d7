@@ -1,0 +1,31 @@
+Subject:SSD
+
+Bonjour,
+
+Je tente une installation d'une stable sur un PC avec un
+DD en SSD.
+
+L'installateur se lance, bla, bla, partitionnement ok,
+installation des applications de base + grub ok.
+
+Le seul pb c'est que le système ne redémarre pas.
+
+Je suis bloqué à « Loading opérating system ».
+
+
+Une idée ?
+
+--
+
+Frédéric 
+F1sxo
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121018212154.GA12157@zulian.be
+

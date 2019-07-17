@@ -1,0 +1,67 @@
+Subject:failure notice
+Hi. This is the qmail-send program at luke.widhost.net.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<1838ee19@assipoint.it>:
+85.235.130.225 does not like recipient.
+Remote host said: 550 sorry, no mailbox here by that name. (#5.7.17)
+Giving up on 85.235.130.225.
+
+--- Below this line is a copy of the message.
+
+Return-Path: <8DC42395C@olive3translations.com>
+Received: (qmail 89041 invoked by uid 0); 10 Dec 2012 09:08:41 +0100
+Received: from unknown (HELO ) (84.13.161.166)
+  by luke.widhost.net with SMTP; 10 Dec 2012 09:08:41 +0100
+From: "Inbox" <8DC42395C@olive3translations.com>
+Subject: New message
+To: <1838ee19@assipoint.it>
+List-Unsubscribe: <mailto:1AB2C235EFBDEE5FE@gentedelsurhostel.com>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; chars="iso-8859-1"
+Date: Mon, 10 Dec 2012 08:05:33 +0100
+Message-ID: <20121210080533.51C226679556731DC64F6.BE8018@MATT-PC>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+<title>new message for you</title>
+</head>
+
+<body>
+
+<table align="center" cellpadding="0" cellspacing="0" style="width: 777px; border-style: solid; border-width: 1px">
+	<tr>
+		<td style="font-size: large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: #FFFFFF; background-color: #006699">
+		<p style="margin-left: 40px"><br />
+		New messasge<br /><br />
+		</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p style="margin-left: 40px"></p>
+		<p style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px"><br /><br />
+		<strong>Olga sent new message for you:</strong></p>
+		<p style="color: #535611; font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px">
+		<em>&quot;I am on-line now, let`s chat?&quot;</em></p>
+		<p style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px">
+		Total unread messages - <span style="color: #006699"><strong>16</strong></span>.</p>
+		<p style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 40px">
+		<a href="http://bridesxq.ru/">Read now..</a></p>
+		<p style="margin-left: 40px">&nbsp;</p>
+		</td>
+	</tr>
+	<tr>
+		<td style="background-color: #006699">&nbsp;</td>
+	</tr>
+</table>
+
+</body>
+
+</html>
+

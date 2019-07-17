@@ -1,0 +1,33 @@
+Subject:Re: =?iso-8859-1?q?Recomendaci=F3n?= mediacenter
+El Sun, 25 Nov 2012 20:44:33 +0100, -_- J.B -_- escribió:
+
+> Estoy pensando en montarme un mediacenter que tenga la opción de grabar
+> de la televisión , de momento solo he visto MYTHBUNTU , busco mas
+> alternativas y consejo sobre hardware a instalar , que tipo de placa
+> base , tarjeta de vídeo etc etc
+
+Bueno, los dos proyectos gordos (o al menos los más conocidos) son MythTV 
+y XBMC. Además, tienes una tabla comparativa de soluciones de software 
+para este propósito en Wikipedia:
+
+http://en.wikipedia.org/wiki/Comparison_of_PVR_software_packages
+
+Y otro artículo donde analizan otras tantas soluciones integradas:
+
+http://www.makeuseof.com/tag/5-great-linux-media-cente-distributions-transform-tv/
+
+En cuanto al hardware, yo me decantaría por componentes que estén en la 
+base de datos de la aplicación que vayas a utilizar, así no tendrás 
+problemas de compatibilidad.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8u0rl$u1q$5@ger.gmane.org
+

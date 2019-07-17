@@ -1,0 +1,27 @@
+Subject:Re: =?ISO-8859-1?Q?Re-dimensi=F3n_de_disco_duro=2E?=
+El 11/11/12 00:38, Alejandro Liv Barrera Nuncio escribió:
+> ¿necesitaré cambiar algo de la
+> configuración para que mi Debian funcione normalmente?.
+
+/etc/fstab
+
+Si bien el UUID o bien el nombre de la partición swap cambia.
+
+Para obtener los UUID actuales de todas las particiones:
+
+# blkid
+
+Y de paso te recomiendo que le eches un vistazo al LVM, quizás te 
+interese aplicarlo a tu sistema:
+
+http://www.glatelier.org/2010/01/lvm-en-gnulinux-parte-i-que-es-y-a-quien-le-sirve/
+http://www.glatelier.org/2010/07/lvm-en-gnulinux-parte-ii/
+
+http://www.esdebian.org/wiki/uso-lvm-debian
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509EE969.70303@gmail.com
+

@@ -1,0 +1,78 @@
+Subject:=?ISO-8859-1?Q?Re=3A_impossible_ouvrir_mon_compte_invit=E9?=
+Le 17 septembre 2012 15:03, Nicolas H=E9mard <nicolas@hemard.eu> a =E9crit =
+:
+> J'ai r=E9install=E9 mon ordi.
+> J'ai r=E9cup=E9r=E9 les donn=E9es de mon compte principal depuis le DD ex=
+terne.
+> Aucun probl=E8me.
+> En root, j'ai transf=E9r=E9 les dossiers de mon compte invit=E9 depuis le=
+ dd
+> externe. Quand je veux me connecter =E0 ce compte invit=E9, il m'en emp=
+=EAche.
+>
+> Il accepte mon mot de passe mais me redirige sur la page d'accueil me
+> demandant identifiant et mdp.
+>
+> Est-ce que j'ai copi=E9 quelque chose qu'il ne fallait pas depuis ma
+> sauvegarde? Genre, un dossier de configuration cach=E9? Voici la liste de=
+ ce
+> que j'ai copi=E9:
+>
+> .bash_history
+> .bash_logout
+> .bashrc
+> Bureau
+> .config
+> .dbus
+> .dmrc
+> Documents
+> .fontconfig
+> .gconf
+> .gnome2
+> .gnome2_private
+> .gstreamer-0.10
+> .gtk-bookmarks
+> .gvfs
+> .ICEauthority
+> .icedove
+> Images
+> .local
+> Mod=E8les
+> multipageproject
+> Musique
+> .ooolight
+> .profile
+> Public
+> .pulse
+> .pulse-cookie
+> .quodlibet
+> .recently-used
+> sane-backends
+> T=E9l=E9chargements
+> .unison
+> unison.log
+> Vid=E9os
+> .wicd
+> .Xauthority
+> .xsession-errors
+> .xsession-errors.old
+>
+
+Salut,
+tu as bien configur=E9 les droits sur le dossier /home/$user ?
+chown $user:$group -R /home/$user
+chmod si n=E9cessaire...
+
+--=20
+Antoine Morvan
+koubi.zooka@gmail.com
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAKudmUcRDSppzuLV-Qm6gbHhxy6cOGGvOHZP=WG+iKHcs94NfA@mail.gmail.com
+

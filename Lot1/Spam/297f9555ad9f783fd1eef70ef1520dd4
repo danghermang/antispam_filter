@@ -1,0 +1,577 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<andyl@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <bo-b7kt5mha11u1uwauv3yy5qd2xx0b47@b.e.vistaprint.com>
+Received: (qmail 25594 invoked by uid 89); 9 Dec 2012 22:18:01 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 9 Dec 2012 22:18:01 -0000
+Delivery-date: Sun, 09 Dec 2012 14:16:22 -0800
+Received: from mta823.e.vistaprint.com ([63.236.76.130]) helo=mta823.e.vistaprint.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1ThpAa-0000HN-LV on interface=184.105.182.43
+	for andyl@activ8.net.au; Sun, 09 Dec 2012 14:16:20 -0800
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=e.vistaprint.com;
+	s=20111007; t=1355091379; x=1370816179;
+	bh=xveKa3c1lFwqYWEVGyYn0asbxBwMouSAJSDg8kBa8Rs=; h=From:Reply-To;
+	b=JiCppLeWcS/r4USUhEEP16X3BtfmpXgKMjIohFVfwjMA5NAdB4v5FPRzFadBR5hJf
+	 K5SjiPMLkms1mhoqYHKpXcubcdJwoWVb6O0X+TTaxlLjedTlsfm6GDMsnpVR8v46BE
+	 9oNWbc0PNwPUFyLQC1IPzQ6OZ4Vdua3fQS2c7wUE=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=200505; d=e.vistaprint.com;
+  b=ifplD25xlb21H2f9NngyYtffv1SKXcmDXPk29Iqrxdq9rgQ5WlSQTM9CQLNBe5cDyehSo3klEAZPic3A2D006i0JTrW+SYGDzGsSf5ZMoS6DnD3W/Ax5xhWhwbI/ZqHNk72Fyqgz/sVtRoTdC6eIo54VZjn3cQaBENHQ8F5QH4I=;
+ h=Date:Message-ID:List-Unsubscribe:From:To:Subject:MIME-Version:Reply-To:Content-type;
+Date: Sun, 9 Dec 2012 22:16:19 -0000
+Message-ID: <b7kt5mha11u1uwauv3yy5qd2xx0b47.14754271262.4211@mta823.e.vistaprint.com>
+List-Unsubscribe: <mailto:rm-0b7kt5mha11u1uwauv3yy5qd2xx0b47@e.vistaprint.com>
+From: "Vistaprint" <vistaprint@e.vistaprint.com>
+To: andyl@activ8.net.au
+Subject: =?UTF-8?B?RlJFRSA3IERheSBEZWxpdmVyeSBvbiBvcmRlcnMgb3ZlciAkNTA=?=
+ =?UTF-8?B?IC0gT3JkZXIgTk9XIGluIHRpbWUgZm9yIENocmlzdG1hcyE=?=
+MIME-Version: 1.0
+Reply-To: "Vistaprint" <support-b7kt5mha11u1uwauv3yy5qd2xx0b47@e.vistaprint.com>
+Content-type: multipart/alternative; boundary="=b7kt5mha11u1uwauv3yy5qd2xx0b47"
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: bo-b7kt5mha11u1uwauv3yy5qd2xx0b47@b.e.vistaprint.com
+X-Sender-Host-Address: 63.236.76.130
+X-Sender-Host-Name: mta823.e.vistaprint.com
+
+
+--=b7kt5mha11u1uwauv3yy5qd2xx0b47
+Content-Type: text/plain; charset="utf-8"
+Content-transfer-encoding: 8bit
+
+﻿To ensure our exclusive email offers are delivered to your inbox please add mailto:vistaprint@e.vistaprint.com">vistaprint@e.vistaprint.com to your email address book or safe senders list. 
+If you no longer wish to receive promotional emails from Vistaprint, click here to Unsubscribe: http://e.vistaprint.com/a/tBQxPvTAZ5PETB8vmV5NvbFAels/dyn1?email=andyl@activ8.net.au  
+Is your email displaying incorrectly? Click on the link below to view these amazing deals in your web browser:  
+http://e.vistaprint.com/a/tBQxPvTAZ5PETB8vmV5NvbFAels/vph1?email=andyl@activ8.net.au    
+
+If, for any reason, you do not want to receive emails concerning Vistaprint products, please click here: http://e.vistaprint.com/a/tBQxPvTAZ5PETB8vmV5NvbFAels/dyn1?email=andyl@activ8.net.au. Please DO NOT click reply to this message, as it is coming from an unmonitored email address.  
+Offers expire Friday, 14 December 2012. Additional charges will apply for postage and delivery, product upgrades and photo/logo uploads unless otherwise specified. Discounts valid only on lowest quantity of each product. 
+Discounts not valid on previous purchases or in combination with any other offers. See website for details. 3 Day Express Delivery on selected products only. 
+*The applicable delivery cost varies depending on the particular products and the volume of products you purchase. 
+Delivery starts from $5.74. Upload costs start at $8.99 but may vary depending on the product you purchase.
+Only invited customers are eligible for coupon offers. Only 1 coupon per customer. Dollar off coupons can only be used once. The full amount of the coupon must be used in a single order. The coupon is only valid for use on Vistaprint products. Coupons are not transferable or redeemable for cash. 
+General Vistaprint promotion terms and conditions apply.  Free offers are not valid on any more than 10 different items per order. Free offers do not apply to products with Nickelodeon content. Nickelodeon content is available on Banners, Invitations & Announcements, Notecards, Custom Envelopes, Wall Calendars, Small Circle Stickers, Return Address Labels and Totebags . 
+Please note that Vistaprint reserves the right to rescind, revoke or terminate this offer at any time, with or without cause. This includes, without limitation, if the terms of the offer do not accurately describe our intent due to errors or omissions.  The products and services in this email are provided by Vistaprint. 
+10 million people per year trust Vistaprint for affordable online and print solutions. Customers may contact us through our AU subsidiary: Vistaprint Australia Pty Ltd, 66 Paramount Bvd, Derrimut, VIC 3030.  
+To view our privacy and security policy, click here: http://e.vistaprint.com/a/tBQxPvTAZ5PETB8vmV5NvbFAels/vph2  	Secured Payment  	00861 	PC-1268069
+
+--=b7kt5mha11u1uwauv3yy5qd2xx0b47
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head><meta http-equiv=3D"Content-Type" content=3D"text/htm=
+l; charset=3Dutf-8" />
+
+<title>Untitled Document</title><style type=3D"text/css">
+<!--
+.style1 {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style5 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #DA2429;
+}
+.style8 {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font=
+-size: 16px; color: #FFFFFF; }
+.style10 {font-size: 10px}
+.style11 {font-size: 14px}
+-->
+</style></head><body onload=3D'' bgcolor=3D"#d9d9d9">
+<!-- Subject: FREE 7 Day Delivery on orders over $50 - Order NOW in time fo=
+r Christmas!-->
+
+
+
+=EF=BB=BF
+
+<table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" bgcolor=3D"#d9d9d9"><tr><td><table width=3D"636" border=3D"0" a=
+lign=3D"center" cellpadding=3D"0" cellspacing=3D"0"><tr valign=3D"middle" >=
+<td width=3D"600" height=3D"35" align=3D"center"><a href=3D"http://e.vistap=
+rint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/dyn1?email=3Dandyl@activ8.net.au"><i=
+mg src=3D"http://marketing.vistaprint.com/au/imgs/email/template-imgs/heade=
+r_01.png" width=3D"600" height=3D"36" border=3D"0" /></a></td></tr><tr><td =
+height=3D"25" align=3D"center" valign=3D"middle" style=3D"font-family:Arial=
+, Helvetica, sans-serif; font-size:11px; color:#9d9d9d;"><a href=3D"http://=
+e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph1?email=3Dandyl@activ8.ne=
+t.au" target=3D"_blank" style=3D"line-height:25px; color:#4d4d4f;">View in =
+web browser</a> | <a href=3D"mailto:vistaprint@e.vistaprint.com" target=3D"=
+_blank" style=3D"line-height:25px; color:#4d4d4f;">Add to address book</a> =
+| <a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph3?RAF=
+_TRACK=3D&email=3Dandyl@activ8.net.au" target=3D"_blank" style=3D"line-heig=
+ht:25px; color:#4d4d4f;">Email this offer to a friend</a> | <a href=3D"http=
+://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph4" target=3D"_blank" s=
+tyle=3D"line-height:25px; color:#4d4d4f;">Contact Us - 1800 021 631</a> &nb=
+sp;</td></tr></table><table width=3D"600" border=3D"0" align=3D"center" cel=
+lpadding=3D"0" cellspacing=3D"0"><tr><td bgcolor=3D"#FFFFFF"><table width=
+=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0">=
+<tr><td height=3D"30" align=3D"center" valign=3D"middle" bgcolor=3D"#FFFFFF=
+"><p><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph5"=
+ target=3D"_blank" style=3D"font-family:Arial, Helvetica, sans-serif; font-=
+size:12px; color:#d1005d; line-height:16px; font-weight:bold; text-decorati=
+on:underline;"> Get Cracking on your Christmas List! Order NOW! <br />
+5 Wall Calendars for $29.95 including FREE Photo Uploads! See below for det=
+ails!</a></p></td></tr><tr><td bgcolor=3D"#FFFFFF"><table width=3D"600" bor=
+der=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"><tr><td widt=
+h=3D"600" height=3D"58" align=3D"center" valign=3D"middle"><table width=3D"=
+100%" border=3D"0"><tr><td width=3D"64%" rowspan=3D"2"><a href=3D"http://e.=
+vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph5" target=3D"_blank"><img s=
+rc=3D"http://marketing.vistaprint.com/us/imgs/VP-HF-2011/600-Header-New_01.=
+png" width=3D"183" height=3D"58" border=3D"0" align=3D"left" style=3D"font-=
+family:Arial, Helvetica, sans-serif; font-size:14px; color:#00539f; font-we=
+ight:bold; display:block;" /></a></td><td width=3D"29%" align=3D"right"><sp=
+an style=3D"font-family:Arial, Helvetica, sans-serif; font-size:12px; font-=
+weight:bold; color:#3d3c39;">Find us on: </span></td><td width=3D"7%" align=
+=3D"center"><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAel=
+s/vph6" target=3D"_blank"><img src=3D"http://marketing.vistaprint.com/us/im=
+gs/raf/RebrandedHeaderFooter/footer-FacebookIcon.png" width=3D"22" height=
+=3D"22" border=3D"0" /></a></td></tr><tr><td colspan=3D"2" align=3D"right" =
+style=3D"font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#4=
+d4d4f;">5873-0226-3519 &nbsp;&nbsp;</td></tr></table></td></tr><tr><td widt=
+h=3D"600" height=3D"28" align=3D"left" valign=3D"middle" bgcolor=3D"#666666=
+"><table width=3D"100%" border=3D"0" align=3D"right"><tr><td><a href=3D"htt=
+p://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph7" target=3D"_blank" =
+style=3D"font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#F=
+FF; line-height:16px; font-weight:bold; text-decoration:none;">&nbsp;Busine=
+ss </a><span style=3D"color:#FFFFFF;">|</span><a href=3D"http://e.vistaprin=
+t.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph8" target=3D"_blank" style=3D"font-f=
+amily:Arial, Helvetica, sans-serif; font-size:11px; color:#FFF; line-height=
+:16px; font-weight:bold; text-decoration:none;"> Home and Family</a></td><t=
+d align=3D"right"><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5N=
+vbFAels/vph9" target=3D"_blank" style=3D"font-family:Arial, Helvetica, sans=
+-serif; font-size:11px; color:#FFF; line-height:16px; font-weight:bold; tex=
+t-decoration:none;">My Account</a>&nbsp;&nbsp;</td></tr></table></td></tr><=
+/table></td></tr><tr><td height=3D"8" align=3D"center" valign=3D"middle"><i=
+mg src=3D"http://marketing.vistaprint.com/us/imgs/raf/RebrandedHeaderFooter=
+/header-NavBottom.png" width=3D"600" height=3D"8" /></td></tr></table></td>=
+</tr></table></td></tr></table>
+<table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" bgcolor=3D"#FFFFFF">
+=20=20
+  <tr>
+    <td><table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0=
+" cellspacing=3D"0">
+  <tr>
+    <td width=3D"279" rowspan=3D"2" align=3D"left" valign=3D"middle" bgcolo=
+r=3D"#0B1F36" style=3D"font-family:Arial, Helvetica, sans-serif; font-size:=
+16px; color:#ffffff;"><img src=3D"http://marketing.vistaprint.net/au/imgs/b=
+annerads/20639-images/20639_Freeshipping_xmas_01.png" alt=3D"Bonus! Free De=
+livery" width=3D"279" height=3D"100"  style=3D"display:block;"/></td>
+    <td height=3D"95" align=3D"center" valign=3D"middle" bgcolor=3D"#0a1b31=
+" style=3D"font-family:Arial, Helvetica, sans-serif; font-size:17px; color:=
+#ffffff;"><span style=3D"color:#7dcbb8;"><strong>3-Day</strong></span><span=
+ class=3D"style11"><sup>=C2=A7 </sup></span></span>Orders over $60<br />
+      <span style=3D"color:#7dcbb8;"><strong>7-Day</strong></span><span cla=
+ss=3D"style11"><sup>=C2=A7</sup></span></span> Orders over $50<strong><br />
+    <span style=3D"color:#7dcbb8;">14-Day </span></strong>Orders over $40<s=
+trong><br />
+    <span style=3D"color:#7dcbb8;">21-Day </span></strong>Orders over $30 <=
+/td>
+    <td width=3D"90" rowspan=3D"2" align=3D"right" valign=3D"top" bgcolor=
+=3D"#0B1F36"><img src=3D"http://marketing.vistaprint.net/au/imgs/bannerads/=
+20639-images/20639_Freeshipping_xmas_03.png" width=3D"90" height=3D"100"  s=
+tyle=3D"display:block;"/></td>
+  </tr>
+  <tr>
+    <td width=3D"231" height=3D"5" align=3D"left" valign=3D"middle" bgcolor=
+=3D"#DA2429" ></td>
+  </tr>
+</table><table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0=
+" cellspacing=3D"0">
+  <tr>
+    <td align=3D"left" valign=3D"top" bgcolor=3D"#0A1A31"><a href=3D"http:/=
+/e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph10" target=3D"_blank"><i=
+mg src=3D"http://marketing.vistaprint.com/au/imgs/emv/20604_XmasCat_Headers=
+/20604_header_magic_begins2.jpg" alt=3D"Christmas Cards & Calendars" width=
+=3D"600" height=3D"259" border=3D"0" style=3D"font-family:Arial, Helvetica,=
+ sans-serif; font-size:28px; color:#000000; display:block;" /></a></td>
+  </tr>
+</table>
+=20=20=20=20
+  <table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0" cell=
+spacing=3D"0">
+  <tr>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h11" target=3D"_blank"><img src=3D"http://marketing.vistaprint.net/au/imgs/=
+bannerads/21158-images/21158-img.png" alt=3D"Wall Calendars! Bonus: FREE UP=
+LOADS! 50% off all delivery speeds when you order 5+ wall calendars!" width=
+=3D"600" height=3D"180" border=3D"0" /></a></td>
+  </tr>
+</table>  <table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" bgcolor=3D"#FFFFFF">
+=20=20
+=20=20=20=20
+  <tr><td width=3D"150"><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB=
+8vmV5NvbFAels/vph12"><img src=3D"http://marketing.vistaprint.net/au/imgs/em=
+ail/ret_modules_2012/heroes/h4_none/2012_H4_pbc0.png" width=3D"150" height=
+=3D"120" border=3D"0"/></a></td>
+    <td width=3D"150"><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8v=
+mV5NvbFAels/vph13"><img src=3D"http://marketing.vistaprint.net/au/imgs/emai=
+l/ret_modules_2012/heroes/h4_none/2012_H4_postcards1.png" width=3D"150" hei=
+ght=3D"120" border=3D"0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h14"><img src=3D"http://marketing.vistaprint.net/au/imgs/email/ret_modules_=
+2012/heroes/h4_none/2012_H4_smlmagnets.png" width=3D"150" height=3D"120" bo=
+rder=3D"0"/></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h15"><img src=3D"http://marketing.vistaprint.net/au/imgs/emv/21975-imgs/H4_=
+xMasBanner_00.png" width=3D"150" height=3D"120" border=3D"0" /></a></td>
+  </tr>
+  <tr>
+    <td align=3D"center" valign=3D"top" class=3D"style1"><strong>Premium Bu=
+siness Cards</span></strong><br/>
+    250 from <span class=3D"style5">FREE*</span></td>
+    <td align=3D"center" class=3D"style1"><strong>Standard Postcards</span>=
+</strong><br/>
+    50 from <span class=3D"style5">$6.24</span></td>
+    <td align=3D"center" class=3D"style1"><strong>Small Magnets</span></str=
+ong><br/>
+    25 from <span class=3D"style5">FREE*</span></td><td align=3D"center" cl=
+ass=3D"style1"><strong>Small Banners</span></strong><br/>
+    1 from <span class=3D"style5">FREE*</span></td>
+=20=20=20=20
+  </tr>
+  <tr><td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/=
+vph12"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_or=
+dernow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=
+=3D"0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h13"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h14"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h15"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+  </tr><tr><td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbF=
+Aels/vph16"><img src=3D"http://marketing.vistaprint.net/nz/imgs/emv/iphone_=
+cases/iPhone_H4_0_NZ.png" alt=3D"iPhone Cases" width=3D"150" height=3D"120"=
+ border=3D"0" style=3D"display:block;"/></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h17"><img src=3D"http://Marketing.Vistaprint.net/au/imgs/email/21782-images=
+/21782_h4_none_mugs2.png" width=3D"150" height=3D"120" border=3D"0"/></a></=
+td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h18"><img src=3D"http://marketing.vistaprint.net/au/imgs/email/ret_modules_=
+2012/heroes/h4_none/2012_H4_wklyplanner.png" width=3D"150" height=3D"120" b=
+order=3D"0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h19"><img src=3D"http://marketing.vistaprint.net/nz/imgs/email/20918-images=
+/20918_xMasCards_h4_00.png" width=3D"150" height=3D"120" border=3D"0"/></a>=
+</td>
+ </tr><tr>
+    <td align=3D"center" class=3D"style1"><span class=3D"style5"><strong>NE=
+W!</strong></span><strong>  Custom <br />iPhone Cases<span class=3D"style10=
+"></span></span></strong><span class=3D"style10"><sup>=C2=A7</sup></span><b=
+r/>
+    1 from <span class=3D"style5">$19.99</span></td>
+    <td align=3D"center" class=3D"style1"><strong>Custom Mugs</span></stron=
+g><img src=3D"http://marketing.vistaprint.com/uk/imgs/emv/HolidayMegaSale/i=
+co_houx01.gif" alt=3D"Christmas Product!" border=3D"0" /><br/>1 from <span =
+class=3D"style5">$9.49</span></td>
+    <td align=3D"center" class=3D"style1"><strong>Customised Weekly Planner=
+s</span></strong><img src=3D"http://marketing.vistaprint.com/uk/imgs/emv/Ho=
+lidayMegaSale/ico_houx01.gif" alt=3D"Christmas Product!" border=3D"0" /><br=
+/>
+      1 from <span class=3D"style5">$13.99</span><br/>
+    <td align=3D"center" class=3D"style1"><strong>Christmas Cards</span></s=
+trong><img src=3D"http://marketing.vistaprint.com/uk/imgs/emv/HolidayMegaSa=
+le/ico_houx01.gif" alt=3D"Christmas Product!" border=3D"0" /><br/>
+    10 from <span class=3D"style5">FREE*</span><br/>
+    </tr><tr><td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5Nv=
+bFAels/vph16"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/b=
+tn12_ordernow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" b=
+order=3D"0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h17"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h18"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h19"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+    </tr><tr>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h20"><img src=3D"http://marketing.vistaprint.net/au/imgs/email/15547-images=
+/15547_totebags.png" width=3D"150" height=3D"120" border=3D"0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h21"><img src=3D"http://marketing.vistaprint.net/au/imgs/email/NewStampModu=
+le/h4_newstamp.png" width=3D"150" height=3D"120" border=3D"0"/></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h22"><img src=3D"http://marketing.vistaprint.net/au/imgs/email/ret_modules_=
+2012/heroes/h4_none/2012_H4_flipbooks1.png" width=3D"150" height=3D"120" bo=
+rder=3D"0" style=3D"display:block;"/></a></td>
+  <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph2=
+3"><img src=3D"http://marketing.vistaprint.net/au/imgs/email/ret_modules_20=
+12/heroes/h4_none/2012_H4_invannounce.png" width=3D"150" height=3D"120" bor=
+der=3D"0"/></a></td>
+    </tr><tr><td align=3D"center" class=3D"style1"><strong>Tote Bags</span>=
+</strong><img src=3D"http://marketing.vistaprint.com/uk/imgs/emv/HolidayMeg=
+aSale/ico_houx01.gif" alt=3D"Christmas Product!" border=3D"0" /><br/>
+  1 from <span class=3D"style5">$12.49</span></td>
+    <td align=3D"center" class=3D"style1"><strong>Rubber Stamps</span></str=
+ong><br/>
+      1 from <span class=3D"style5">FREE*</span></td>
+    <td align=3D"center" class=3D"style1"><strong>Small Photo Flipbooks</sp=
+an></strong><img src=3D"http://marketing.vistaprint.com/uk/imgs/emv/Holiday=
+MegaSale/ico_houx01.gif" alt=3D"Christmas Product!" border=3D"0" /><br/>
+      1 from <span class=3D"style5">$9.49</span><br/><br />
+    <td align=3D"center" class=3D"style1"><strong>Custom Invitations</span>=
+</strong><img src=3D"http://marketing.vistaprint.com/uk/imgs/emv/HolidayMeg=
+aSale/ico_houx01.gif" alt=3D"Christmas Product!" border=3D"0" /><br/>
+      10 from <span class=3D"style5">$2.74</span><br/>
+  </tr><tr><td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbF=
+Aels/vph20"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn=
+12_ordernow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" bor=
+der=3D"0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h21"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h22"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+  <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph2=
+3"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_ordern=
+ow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"0"=
+ /></a></td>
+  </tr><tr><td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbF=
+Aels/vph24"><img src=3D"http://marketing.Vistaprint.net/au/imgs/email/15390=
+-images/15390_Tshirts.jpg" width=3D"150" height=3D"120" border=3D"0" /></a>=
+</td>
+=20=20=20=20
+    <td width=3D"150"><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8v=
+mV5NvbFAels/vph25"><img src=3D"http://Marketing.Vistaprint.net/nz/imgs/emai=
+l/20918-images/20918_rals_h4_00.png" width=3D"150" height=3D"120" border=3D=
+"0"/></a></td>
+  <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph2=
+6"><img src=3D"http://marketing.vistaprint.net/au/imgs/email/ret_modules_20=
+12/heroes/h4_none/2012_H4_stickers.png" width=3D"150" height=3D"120" border=
+=3D"0" /></a></td><td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8v=
+mV5NvbFAels/vph27"><img src=3D"http://marketing.vistaprint.net/au/imgs/emai=
+l/ret_modules_2012/heroes/h4_none/2012_H4_carmagnets.png" width=3D"150" hei=
+ght=3D"120" border=3D"0" /></a></td></tr><tr>
+    <td align=3D"center" class=3D"style1"><strong>Premium T-Shirts</span></=
+strong><br/>
+    1 from <span class=3D"style5">$8.00</span></td>
+=20=20=20=20
+    <td align=3D"center" class=3D"style1"><strong>Return Address Labels<img=
+ src=3D"http://marketing.vistaprint.com/uk/imgs/emv/HolidayMegaSale/ico_hou=
+x01.gif" alt=3D"Christmas Product!" border=3D"0" /></span></strong><br/>
+  140 from <span class=3D"style5">FREE*</span></td>
+    <td align=3D"center" class=3D"style1"><strong>Stickers and Labels</span=
+></strong><br/>
+      1 sheet from <span class=3D"style5">FREE*</span></td><td align=3D"cen=
+ter" class=3D"style1"><strong>Small Car Door Magnets</span></strong><br/>
+    1 from <span class=3D"style5">$3.74</span></td>
+  </tr><tr><td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbF=
+Aels/vph24"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn=
+12_ordernow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" bor=
+der=3D"0" /></a></td>
+=20=20=20=20
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h25"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h26"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h27"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+  </tr><tr><td width=3D"150"><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ=
+5PETB8vmV5NvbFAels/vph28"><img src=3D"http://marketing.Vistaprint.net/au/im=
+gs/email/ret_modules_2012/heroes/h4_none/2012_H4_brochures2.png" width=3D"1=
+50" height=3D"120" border=3D"0"/></a></td>
+=20=20=20=20
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h29"><img src=3D"http://marketing.vistaprint.net/au/imgs/email/ret_modules_=
+2012/heroes/h4_none/2012_H4_lawnsigns.png" width=3D"150" height=3D"120" bor=
+der=3D"0"/></a></td>
+  <td width=3D"150"><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV=
+5NvbFAels/vph30"><img src=3D"http://marketing.vistaprint.net/au/imgs/email/=
+ret_modules_2012/heroes/h4_none/2012_H4_caps.png" width=3D"150" height=3D"1=
+20" border=3D"0" style=3D"display:block;"/></a></td>
+  <td height=3D"120"><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vm=
+V5NvbFAels/vph31"><img src=3D"http://marketing.vistaprint.net/au/imgs/email=
+/ret_modules_2012/heroes/h4_none/2012_H4_rackcards.png" width=3D"150" heigh=
+t=3D"120" border=3D"0" style=3D"display:block;"/></a></td></tr><tr><td alig=
+n=3D"center" class=3D"style1"><strong>Brochures</span></strong><br/>
+      <span class=3D"style6">25 from</span> <span class=3D"style5">$36.99</=
+span></td>
+=20=20=20=20
+    <td align=3D"center" class=3D"style1"><strong>Small Lawn Signs</span></=
+strong><br/>
+      <span class=3D"style6">1 from</span> <span class=3D"style5">$10.99</s=
+pan></td>
+    <td align=3D"center" class=3D"style1"><strong>Custom Hats</span></stron=
+g><br/>
+      <span class=3D"style6">1 from</span> <span class=3D"style5">$13.75 <i=
+mg src=3D"http://marketing.vistaprint.com/au/imgs/emv/20597_xmasIcons/gift.=
+gif" width=3D"20" height=3D"20" align=3D"absmiddle"></span></td>
+    <td align=3D"center" class=3D"style1"><strong>Rack Cards</span></strong=
+><br/>
+    <span class=3D"style6">50 from</span><span class=3D"style5"> $13.99</sp=
+an></td>
+  </tr><tr><td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbF=
+Aels/vph28"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn=
+12_ordernow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" bor=
+der=3D"0" /></a></td>
+=20=20=20=20
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h29"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h32"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h31"><img src=3D"http://marketing.vistaprint.net/au/imgs/buttons/btn12_orde=
+rnow_r_150x25.png" alt=3D"Order Now" width=3D"150" height=3D"25" border=3D"=
+0" /></a></td>
+  </tr>
+  <tr><td colspan=3D"4"><table width=3D"600" border=3D"0" align=3D"center" =
+cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#FFFFFF">
+=20=20=09
+<tr><td height=3D"5" bgcolor=3D""></td></tr><tr><td><a href=3D"http://e.vis=
+taprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph10" target=3D"_blank"><img src=
+=3D"http://marketing.vistaprint.net/au/imgs/bannerads/20596-images/20596_Sa=
+ntas_Choice_02.png" width=3D"600" height=3D"150" border=3D"0" style=3D"disp=
+lay:block;"/></a></td></tr><tr>
+      <td width=3D"600" height=3D"150" align=3D"center" valign=3D"middle" b=
+gcolor=3D"#FFFFFF"><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5=
+NvbFAels/vph16" target=3D"_blank"><img src=3D"http://marketing.vistaprint.n=
+et/au/imgs/emv/iphone_cases/iPhone_xmas_1999.jpg" alt=3D"Make all your call=
+s personal. Upload your image to design a case that=E2=80=99s uniquely you.=
+ NEW Custom iPhone Cases. Now $9.99" width=3D"600" height=3D"150" border=3D=
+"0" style=3D"font-family:Arial, Helvetica, sans-serif; font-size:12px; font=
+-weight:normal; color:#4d4d4f; display:block;" /></a></td>
+    </tr><tr>
+    <td><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vp=
+h33"><img src=3D"http://marketing.vistaprint.net/au/imgs/bannerads/20758-im=
+ages/20758_Mugs_Printed_in_AU_Banner_V2.png" alt=3D"Printed in Oz! Custom M=
+ugs" width=3D"600" height=3D"151" border=3D"0" /></a></td>
+  </tr>
+=09
+=20=20=20=20
+=20=09=09
+</table><table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0=
+" cellspacing=3D"0">
+ <tr><td height=3D"5"></td></tr> <tr>
+    <td height=3D"35" colspan=3D"4" align=3D"center" bgcolor=3D"#CF2127"><s=
+pan class=3D"style8"> Offers  expire Friday, 14 December 2012! </span></td>
+  </tr>
+</table><table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0=
+" cellspacing=3D"0">
+  <tr><td height=3D"5"></td></tr><tr>
+    <td><a href=3D"Replace"><img src=3D"http://marketing.vistaprint.net/au/=
+imgs/emv/22047-imgs/22047_xMasDelivery_Guide_blue2_AU.png" alt=3D"Get it in=
+ time for Christmas" width=3D"600" height=3D"171" border=3D"0" style=3D"dis=
+play:block;"/></a></td>
+  </tr>
+</table></td>
+  </tr>
+</table> </td></tr>
+</table><table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0=
+" cellspacing=3D"0"><tr><td><table width=3D"600" border=3D"0" align=3D"cent=
+er" cellpadding=3D"0" cellspacing=3D"0"><tr><td height=3D"3" align=3D"cente=
+r"><img src=3D"http://marketing.vistaprint.com/us/imgs/raf/RebrandedHeaderF=
+ooter/footer-TopDiv.png" width=3D"600" height=3D"3" /></td></tr><tr><td bgc=
+olor=3D"#FFFFFF"><table width=3D"600" border=3D"0" align=3D"center" cellpad=
+ding=3D"0" cellspacing=3D"0"><tr><td width=3D"142" height=3D"87" align=3D"c=
+enter" valign=3D"middle"><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PET=
+B8vmV5NvbFAels/vph34" target=3D"_blank"><img src=3D"http://marketing.vistap=
+rint.com/us/imgs/VP-HF-2011/600-Footer-Images-New_01.png" width=3D"142" hei=
+ght=3D"87" border=3D"0" style=3D"font-family:Arial, Helvetica, sans-serif; =
+font-size:14px; font-weight:bold; color:#4d4d4f; display:block;" /></a></td=
+><td width=3D"148" height=3D"87" align=3D"center" valign=3D"middle"><a href=
+=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph35" target=3D"=
+_blank"><img src=3D"http://marketing.vistaprint.com/us/imgs/VP-HF-2011/600-=
+Footer-Images-New_02.png" width=3D"148" height=3D"87" border=3D"0" style=3D=
+"font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold=
+; color:#4d4d4f; display:block;" /></a></td><td width=3D"171" height=3D"87"=
+ align=3D"center" valign=3D"middle"><a href=3D"http://e.vistaprint.com/a/hB=
+QxPvTAZ5PETB8vmV5NvbFAels/vph36" target=3D"_blank"><img src=3D"http://marke=
+ting.vistaprint.com/us/imgs/VP-HF-2011/600-Footer-Images-New_03-3.png" widt=
+h=3D"171" height=3D"87" border=3D"0" style=3D"font-family:Arial, Helvetica,=
+ sans-serif; font-size:14px; font-weight:bold; color:#4d4d4f; display:block=
+;" /></a></td><td width=3D"139" height=3D"87" align=3D"center" valign=3D"mi=
+ddle"><a href=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph3=
+7" target=3D"_blank"><img src=3D"http://marketing.vistaprint.com/us/imgs/VP=
+-HF-2011/600-Footer-Images-New_04-4.png" width=3D"139" height=3D"87" border=
+=3D"0" style=3D"font-family:Arial, Helvetica, sans-serif; font-size:14px; f=
+ont-weight:bold; color:#4d4d4f; display:block;" /></a></td></tr></table></t=
+d></tr><tr><td height=3D"1" align=3D"center"><img src=3D"http://marketing.v=
+istaprint.com/us/imgs/raf/RebrandedHeaderFooter/footer-BottomDiv.png" width=
+=3D"600" height=3D"1" /></td></tr><tr><td align=3D"center"></td></tr><tr></=
+tr></table><table width=3D"590" border=3D"0" align=3D"center" cellpadding=
+=3D"0" cellspacing=3D"0"><tr>
+    </tr><tr><td width=3D"600" align=3D"center" valign=3D"top" bgcolor=3D"#=
+d9d9d9"><table width=3D"100%" border=3D"0"><tr><td><a href=3D"http://e.vist=
+aprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/dyn1?email=3Dandyl@activ8.net.au" =
+target=3D"_blank"><img src=3D"http://marketing.vistaprint.com/au/imgs/email=
+/template-imgs/footer_01.png" width=3D"600" height=3D"28" border=3D"0" /></=
+a><br /></td></tr><tr><td style=3D"font-family:Arial, Helvetica, sans-serif=
+; font-size:11px; line-height:12px; color:#4d4d4f; font-weight:normal; text=
+-decoration:none;"><div align=3D"center">
+ *The applicable delivery cost varies depending on your  location, speed of=
+ delivery, the particular products and the volume of products you purchase.=
+ 21 Day
+ Delivery starts from $5.74. <br />
+ Upload costs start at  $8.99 but may vary depending on the product you pur=
+chase.
+  <br />
+  Offer Expiry Date - Friday, 14 December 2012<br /><a href=3D"http://e.vis=
+taprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph38" target=3D"_blank"><img src=
+=3D"http://marketing.vistaprint.com/au/imgs/email/template-imgs/footer_02.p=
+ng" width=3D"600" height=3D"60" border=3D"0" /></a></div></td></tr><tr><td>=
+<img src=3D"http://marketing.vistaprint.com/au/imgs/email/template-imgs/foo=
+ter_03.png" width=3D"600" height=3D"146" /></td></tr><tr><td><a href=3D"htt=
+p://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/vph2" target=3D"_blank">=
+<img src=3D"http://marketing.vistaprint.com/au/imgs/email/template-imgs/foo=
+ter_04.png" width=3D"600" height=3D"56" border=3D"0" /></a></td></tr></tabl=
+e></td></tr><tr><td width=3D"590" height=3D"30" align=3D"center" valign=3D"=
+middle" bgcolor=3D"#d9d9d9"><table width=3D"590" border=3D"0" align=3D"cent=
+er" cellpadding=3D"0" cellspacing=3D"0"><tr><td width=3D"190" height=3D"30"=
+ align=3D"center" valign=3D"middle">&nbsp;</td><td width=3D"110" height=3D"=
+30" align=3D"center" valign=3D"middle" style=3D"font-family:Arial, Helvetic=
+a, sans-serif; font-size:10px; color:#4d4d4f;">&nbsp;</td><td width=3D"290"=
+ height=3D"30" align=3D"left" valign=3D"middle" style=3D"font-family:Arial,=
+ Helvetica, sans-serif; font-size:10px; color:#4d4d4f;">PC-1268069</td></tr=
+></table></td></tr></table></td></tr></table></td></tr>
+</table>
+
+
+<img src=3D"http://e.vistaprint.com/a/hBQxPvTAZ5PETB8vmV5NvbFAels/spacer.gi=
+f">
+</body></html>=
+
+
+--=b7kt5mha11u1uwauv3yy5qd2xx0b47--
+
+

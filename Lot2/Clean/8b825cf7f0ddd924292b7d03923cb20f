@@ -1,0 +1,39 @@
+Subject:Re: OT numero de ficheros en squid3 en debian estable
+El Thu, 06 Sep 2012 13:52:39 +0000, Camaleón escribió:
+
+> El Thu, 06 Sep 2012 12:17:20 +0200, Trujillo Carmona, Antonio escribió:
+> 
+>> Tengo un problema con el numero de ficheros:
+> 
+> (...)
+> 
+>> he incrementado el numero de ficheros con:
+>> 
+>> # cat /etc/default/squid3
+>> KRB5_KTNAME=/etc/squid3/PROXY.keytab
+>> export KRB5_KTNAME
+>> SQUID_MAXFD=4096
+>> 
+>> tras lo que con squidclient veo:
+> 
+> (...)
+> 
+>> ¿Alguien sabe porque sale 65535 y no 4096 como yo esperaba?
+> 
+> ¿Has reiniciado el servicio?
+
+Y revísate también este comentario:
+
+http://paulgoscicki.com/archives/2007/01/squid-warning-your-cache-is-running-out-of-filedescriptors/comment-page-1/#comment-52573
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2aa8u$vdj$4@ger.gmane.org
+

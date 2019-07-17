@@ -1,0 +1,20 @@
+Subject:Re: Duda para eliminar KDE
+"Evgeny M. Zubok" <evgeny.zubok@tochka.ru> writes:
+
+> Eso porque tienes unos cuantos programas instalados que dependen de las
+> bibliotecas de KDE. Por ejemplo, kaffeine reqiere kde-runtime:
+>
+> [1] http://packages.debian.org/wheezy/kaffeine
+>
+> Elimina todas las aplicaciones que dependen de las bibliotecas de KDE.
+
+Puedes encontrar esos paquetes con
+
+aptitude search '?depends(kde-runtime)~i!~M'
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87pq3nd86t.fsf@tochka.ru
+

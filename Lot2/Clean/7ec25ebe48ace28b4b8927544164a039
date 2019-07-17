@@ -1,0 +1,27 @@
+Subject:Re: Nom de domaine et FQDN
+On Fri, 16 Nov 2012 10:50:47 +0100
+Fabien LUCE <ftg@lutix.org> wrote:
+
+> En fait dans mes fichiers de zone je ne peux pas pointer vers
+> lutix.org car j'ai une ip dynamique, c'est un souci malheureusement
+> connu.=20
+
+Il ne s'agit pas de pointer vers lutix.org mais de substituer la machine
+svr =C3=A0 lutix.org (dans le LAN only, =C5=93uf corse).
+=20
+--=20
+<Flint> Tu te rappelles l'autre jour quand tu t'es coinc=C3=A9 les doigts
+        dans la porte ?
+<Flint> Ils =C3=A9taient tout enfl=C3=A9s apr=C3=A8s. C'=C3=A9tait marrant =
+=3DD
+<Xenu> tra gfueukle
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121116105719.04c07ad5@anubis.defcon1
+

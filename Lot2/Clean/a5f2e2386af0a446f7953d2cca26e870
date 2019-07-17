@@ -1,0 +1,179 @@
+Subject:Re: The Apache Software Foundation Announces Program for ApacheCon Europe
+Apologies for the extra space in the URL below; the correct link is http://=
+s.apache.org/9uw=0A=0A=0A--no trailing space.=0A=0AThanks,=0ASally=0A=0A=0A=
+----- Original Message -----=0A> From: Sally Khudairi <sk@apache.org>=0A> T=
+o: "announce@apachecon.com" <announce@apachecon.com>=0A> Cc: =0A> Sent: Fri=
+day, 21 September 2012, 8:01=0A> Subject: The Apache Software Foundation An=
+nounces Program for ApacheCon Europe=0A> =0A> [this announcement is also av=
+ailable online at http://s.apache.org/9uw=C2=A0 ]=0A> =0A> Developer-focuse=
+d=0A> Community Edition explores key Open Source applications and issues, =
+=0A> from Big Data and Smart Search to Cloud and Infrastructure. =0A> =0A> =
+Forest=0A> Hill, MD =E2=80=9321 September 2012=E2=80=93 The Apache Software=
+ Foundation (ASF), the =0A> all-volunteer developers, stewards, and incubat=
+ors of nearly 150 Open =0A> Source projects and initiatives, today announce=
+d the program for =0A> ApacheCon, its official conference.=0A> =0A> Apache =
+products power =0A> half the Internet, petabytes of data, teraflops of oper=
+ations, billions =0A> of objects, and enhance the lives of countless users =
+and developers. =0A> ApacheCon brings developers and users together to expl=
+ore key issues in =0A> building Open Source solutions "The Apache Way".=0A>=
+ =0A> ApacheCon =0A> returns to Europe 5-8 November 2012 at the Rhein-Necka=
+r-Arena in =0A> Sinsheim, Germany, attracting Open Source users, developers=
+, =0A> gurus, students, novices, and enthusiasts to the newly-introduced =
+=0A> "Community Edition" of ApacheCon --a smaller, less formal event aimed =
+=0A> at=0A> a more technically-oriented audience, and featuring an array of=
+ =0A> sessions focused on Apache projects and initiatives, plus MeetUps, =
+=0A> FastFeather and Community Tracks, Hackathon, and BarCamp. This is an =
+=0A> ideal opportunity for technologists currently developing Apache-based =
+=0A> solutions, as well as those interested in committing code to an Apache=
+ =0A> project, contributing to the Apache Incubator, or enhancing their Ope=
+n =0A> Source products and community practices.=0A> =0A> ApacheCon Europe =
+=0A> Community Edition is organized and run by the Apache community with =
+=0A> assistance from The Open Bastion, producers of ApacheCon North America=
+ =0A> 2013. In keeping with the community-driven culture of the ASF, all =
+=0A> content for ApacheCon has been selected by Apache Project Management =
+=0A> Committees. Sessions and speakers across 13 tracks include:=0A> =0A> A=
+pache=0A> Daily =E2=80=93-the tools, frameworks, and components used on a d=
+aily basis, =0A> such as Apache Logging, Apache Maven, Apache Ant, Apache B=
+uildr, Apache =0A> Commons, and more.=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 World=
+ of Logging - Christian Grobmeier=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Unit- and=
+ Integration Testing with Maven - Karl-Heinz Marbaise=0A> =E2=80=A2=C2=A0=
+=C2=A0=C2=A0 Faster builds with Apache Buildr - Tammo van Lessen=0A> =0A> A=
+pacheEE=0A> =E2=80=93-all about Java Enterprise projects at the ASF, includ=
+ing Apache =0A> OpenWebBeans, Apache OpenEJB, Apache TomEE, Apache Tomcat, =
+Apache =0A> MyFaces, Apache DeltaSpike, Apache BVal, and Apache OpenJPA.=0A=
+> =E2=80=A2=C2=A0=C2=A0=C2=A0 Apache TomEE, Java EE 6 Web Profile on Tomcat=
+ - David Blevins=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Tomcat 8 preview - Mark Th=
+omas=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Modern Web Application Development Wit=
+h Apache Struts 2 - Rene Gielen=0A> =0A> Big=0A> Data [sponsored by Hortonw=
+orks] =E2=80=93-the ASF projects at the forefront of =0A> high-volume perfo=
+rmance, innovation, and analytics, such as Apache =0A> Cassandra, Apache Ha=
+doop, Apache HBase, Apache Hive, Apache Kafka, =0A> Apache Mahout, Apache P=
+ig, Apache Whirr, Apache ZooKeeper and friends.=0A> =E2=80=A2=C2=A0=C2=A0=
+=C2=A0 Choosing the right tool for your data analysis task - Apache Mahout =
+in =0A> context - Isabel Drost-Fromm=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 From I=
+ncubation to Continuous Ingestion - The Story of Apache Gora - Lewis =0A> J=
+ohn McGibbney=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Taking the guesswork out of y=
+our Hadoop Infrastructure - Steve Watt=0A> =0A> Camel in Action =E2=80=93-c=
+ommon problems, solutions, and best practices with Apache =0A> Camel.=0A> =
+=E2=80=A2=C2=A0=C2=A0=C2=A0 Apollo and future of ActiveMQ - Dejan Bosanac=
+=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Apache Camel - Advanced Techniques - Hadri=
+an Zbarcea=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Next Generation Systems Integrat=
+ion in the Cloud Era with Apache Camel - =0A> Kai W=C3=A4hner=0A> =0A> Clou=
+d=0A> [sponsored by Citrix and HP] =E2=80=93-many Apache initiatives play a=
+ key role =0A> in powering today's Cloud, from Apache Libcloud and Deltaclo=
+ud, to =0A> Apache Whirr, Accumulo, and Cloudstack, to Apache Hadoop + frie=
+nds.=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Integrating Social Apps with Content D=
+riven Sites using Apache Rave and =0A> Spring HMVC - Ate Douma=0A> =E2=80=
+=A2=C2=A0=C2=A0=C2=A0 Apache CloudStack Scalability - Kevin Kluge=0A> =E2=
+=80=A2=C2=A0=C2=A0=C2=A0 Building a scalable multi-tenant Application Serve=
+r on the Cloud using =0A> Tomcat, Axis2 & Synapse - Senaka Fernando=0A> =0A=
+> Community=0A> =E2=80=93-if you've ever wanted to know how to become invol=
+ved with the ASF =0A> --from becoming a Committer to bringing a project to =
+the Apache =0A> Incubator to learning how the ASF works-- or are seeking in=
+formation on =0A> how Open Source can benefit your organization or ways to =
+improve your =0A> Open Source community experience, this is the place to ro=
+ll up sleeves =0A> and get started.=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Open So=
+urce Masterclass - Life in the Apache Incubator - Jukka Zitting=0A> =E2=80=
+=A2=C2=A0=C2=A0=C2=A0 Bringing Open Source to Space: Challenges and Success=
+ - Luc Maisonobe=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Can I depend on Software b=
+uilt By Volunteers? - Ross Gardler=0A> =0A> Linked=0A> Data =E2=80=93-adopt=
+ing, linking, and interoperating the Web of Data using the =0A> latest in a=
+nnotating, processing, extracting, reasoning, and semantics =0A> with Apach=
+e Jena, Apache Any23 (Incubating), Apache Clerezza =0A> (Incubating), and A=
+pache Stanbol (Incubating).=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Solr-based sear=
+ch & tagging services at ZEIT Online GmbH - where =0A> metadata come from -=
+ Christoph Goller=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Publishing Linked Data - =
+Lessons Learned in Government - Nandana =0A> Mihindukulasooriya=0A> =E2=80=
+=A2=C2=A0=C2=A0=C2=A0 Writing a Semantic Web with Scala on Clerezza - Reto =
+Bachmann-Gm=C3=BCr =0A> =0A> Lucene/Solr=0A> and Friends [co-located with L=
+ucene Eurocon; sponsored by LucidWorks] =0A> =E2=80=93-the latest in search=
+ and analytics with Apache Lucene/Solr, Apache =0A> Tika, Apache ManifoldCF=
+ and more.=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Personalized Search on the Large=
+st Flash Sale Site in America - Adrian =0A> Trenaman=0A> =E2=80=A2=C2=A0=C2=
+=A0=C2=A0 ElasticSearch in Production: lessons learned - Anne Veling=0A> =
+=E2=80=A2=C2=A0=C2=A0=C2=A0 Stump The Chump: On The Spot Solutions To Your =
+Real Life Solr/Lucene =0A> Challenges - Chris Hostetter=0A> =0A> Modular=0A=
+> Java =E2=80=93-developing and deploying applications in public and privat=
+e =0A> Cloud environments using Apache Felix, Apache ACE, Apache Karaf, Apa=
+che =0A> Aries, Apache Sling.=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 OSGi for mere=
+ mortals - Bertrand Delacretaz=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 OSGi best pr=
+actices shown on Apache Karaf - Christian Schneider=0A> =E2=80=A2=C2=A0=C2=
+=A0=C2=A0 OSGi in the Cloud, a case study - Marcel Offermans=0A> =0A> NoSQL=
+=0A> Database =E2=80=93-use cases and latest developments in dovetailing Bi=
+g Data =0A> with Apache Cassandra, Apache HBase, Apache CouchDB, Apache Acc=
+umulo, =0A> and more.=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 The CouchDB Ecosystem=
+ - Jan Lehnardt=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Mongo, its all the Rave - M=
+att Franklin=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Cassandra 2012: What's New and=
+ Upcoming - Sam Tunnicliffe=0A> =0A> OFBiz=0A> =E2=80=93-the ins and outs o=
+f Apache OFBiz (Open For Business), the Open Source=0A> Enterprise Resource=
+ Planning suite of applications that integrate and =0A> automate many busin=
+ess processes, including catalogue management, =0A> eCommerce, CRM, warehou=
+sing, manufacturing, project management, HR =0A> functionality, FiCo, and m=
+ore.=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Training Center Management with OFBiz =
+- Olivier Heintz=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 OFBiz CRM, presentation, f=
+unctionalities - Olivier Heintz=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 OFBiz - an =
+eCommerce Solution for mid- to large-sized companies - Paul =0A> Piper=0A> =
+=0A> OpenOffice=0A> [sponsored by Oracle] =E2=80=93-the Apache OpenOffice e=
+cosystem, with dedicated=0A> hackathons, MeetUps, and evening sessions, as =
+well as use cases, and =0A> technical sessions on Writer, Calc, Impress, Ma=
+th, Base, and Draw.=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Beyond Apache OpenOffic=
+e - Don Harbison=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Cloud Apache OpenOffice.or=
+g Based on HTML 5 - Jian Hong Cheng=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Globali=
+zation of OpenOffice - reach out to the world - Juergen Schmidt=0A> =0A> We=
+b Infrastructure =E2=80=93-the backbone of the Web, including Apache HTTP S=
+erver, =0A> Apache Tomcat, Apache Traffic Server, and more.=0A> =E2=80=A2=
+=C2=A0=C2=A0=C2=A0 Performance: Scaling the Web with Apache - Igor Gali=C4=
+=87=0A> =E2=80=A2=C2=A0=C2=A0=C2=A0 Building WebSockets Applications using =
+Tomcat, Wicket and the Atmosphere =0A> Framework - Jean-Francois Arcand=0A>=
+ =E2=80=A2=C2=A0=C2=A0=C2=A0 What's new in Apache HTTP Server 2.4 - Rich Bo=
+wen=0A> =0A> The full presentation list is available at =0A> http://www.apa=
+checon.eu/schedule/list/=0A> =0A> Registration and Special Savings=0A> Regi=
+ster=0A> by 1 October 2012 to take advantage of Early Bird rates with savin=
+gs up=0A> to =E2=82=AC150. Students benefit with a super-discounted registr=
+ation rate of =0A> =E2=82=AC75, made possible by a special subsidy from Goo=
+gle. Sign up today at =0A> http://www.apachecon.eu/tickets/=0A> =0A> Apache=
+Con=0A> Europe is underwritten through a generous donation by Platinum Spon=
+sor =0A> SAP. Joining them are Citrix, Google, Hortonworks, and LucidWorks =
+at the=0A> Gold level; HP and Oracle at the Silver level; and evening event=
+s =0A> sponsor The Open Bastion. For sponsorship information, contact Melis=
+sa =0A> Warnkin at ea@apache.org or on +1 908 343 3214.=0A> =0A> For media/=
+analyst registration and briefings, contact Sally Khudairi on +1 617 =0A> 9=
+21 8656 or sk@apache.org.=0A> =0A> About The Apache Software Foundation (AS=
+F)=0A> Established=0A> in 1999, the all-volunteer Foundation oversees nearl=
+y one hundred fifty=0A> leading Open Source projects, including Apache HTTP=
+ Server =E2=80=94 the =0A> world's most popular Web server software. Throug=
+h the ASF's meritocratic=0A> process known as "The Apache Way", more than 4=
+00 individual Members =0A> and=0A> 3,500 Committers successfully collaborat=
+e to develop freely available =0A> enterprise-grade software, benefiting mi=
+llions of users worldwide: =0A> thousands of software solutions are distrib=
+uted under the Apache =0A> License; and the community actively participates=
+ in ASF mailing lists, =0A> mentoring initiatives, and ApacheCon, the Found=
+ation's official user =0A> conference, trainings, and expo. The ASF is a US=
+ 501(3)=C2=A9 not-for-profit =0A> charity, funded by individual donations a=
+nd corporate sponsors including=0A> AMD, Basis Technology, Citrix, Cloudera=
+, Facebook, Go Daddy, Google, =0A> HP, Hortonworks, Huawei, IBM, InMotion H=
+osting, Matt Mullenweg, =0A> Microsoft, PSW Group, SpringSource/VMware,=0A>=
+ WANdisco, and Yahoo!. For more information, visit http://www.apache.org/ o=
+r =0A> follow @TheASF on Twitter.=0A> =0A> "Apache",=0A> "Apache Accumulo",=
+ "Apache ACE", "Apache =0A> ActiveMQ", "Apache Ant", =0A> "Apache Any23", "=
+Apache Aries", "Apache Axis2", =0A> "Apache Buildr", "Apache=0A> BVal", "Ap=
+ache Camel", "Apache Cassandra", "Apache =0A> Cloudstack", "Apache=0A> Cler=
+ezza", "Apache Commons", "Apache CouchDB", =0A> "Apache Deltacloud", =0A> "=
+Apache DeltaSpike", "Apache Felix", "Apache =0A> Gora", "Apache Hadoop", =
+=0A> "Apache HBase", "Apache Hive", "Apache HTTP =0A> Server", "Apache Incu=
+bator",=0A> "Apache Jena", "Apache Kafka", "Apache Karaf", =0A> "Apache Lib=
+cloud", =0A> "Apache Logging", "Apache Lucene", "Apache =0A> Mahout", "Apac=
+he ManifoldCF",=0A> "Apache Maven", "Apache MyFaces", "Apache OFBiz", =0A> =
+"Apache OpenOffice", =0A> "Apache OpenEJB", "Apache OpenJPA", "Apache =0A> =
+OpenWebBeans", "Apache Pig",=0A> "Apache Rave", "Apache Sling", "Apache Sol=
+r", =0A> "Apache Stanbol", "Apache=0A> Struts", "Apache Synapse", "Apache T=
+ika", "Apache =0A> Tomcat", "Apache =0A> TomEE", "Apache Traffic Server", "=
+Apache Whirr", =0A> "Apache Wicket", =0A> "Apache ZooKeeper", and "ApacheCo=
+n" are=0A> trademarks of The Apache Software Foundation. All other brands a=
+nd trademarks =0A> are the property of their respective owners.=0A> =0A> # =
+# #=0A> 
+
+---------------------------------------------------------------------
+To unsubscribe, e-mail: announce-unsubscribe@apachecon.com
+For additional commands, e-mail: announce-help@apachecon.com
+

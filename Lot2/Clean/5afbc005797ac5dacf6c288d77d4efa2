@@ -1,0 +1,75 @@
+Subject:Re: sobre hosts.deny
+Un ejemplo:
+
+hosts.deny
+sshd:     ALL
+webmin:   ALL
+mysqld:   ALL
+#ALL: ALL
+
+
+hosts.allow
+sshd: 10.9.234.13
+webmin: 10.9.234.13
+mysqld: 10.9.234.13, 10.9.234.65
+
+Suerte & Saludos.
+
+
+El d=EDa 16 de octubre de 2012 20:54, Gonzalo Rivero
+<fishfromsalta@gmail.com> escribi=F3:
+> El mar, 16-10-2012 a las 14:17 -0400, cosme@esid.gecgr.co.cu escribi=F3:
+>> Hola
+>>
+>> si quiero denegar el acceso mediante telnet de toda mi red a mi pc y sol=
+o
+>> permitir la mia y otra:
+>>
+>> o sea mi pc es 192.168.71.5 y la otra pc es la 192.168.71.6 y denegar to=
+do
+>> lo otro no ser=EDa de esta forma:
+>>
+>> en /etc/hosts.allow  poner
+>>
+>> in.telnetd: 192.168.71.5, 192.168.71.6
+>>
+>>
+>>
+>> en /etc/hosts.deny  poner
+>>
+>> in.telnetd: ALL
+>>
+>> telnet 192.168.71.5 21
+>> telnet 192.168.71.5 25
+>>
+>> No funciona, ya prob=E9 y todos pueden hacer telnet
+>>
+>> Que puede faltar???
+>>
+>> Uso Debian Squeeze
+>>
+>> Saludos
+>>
+>
+> te recomiendo cambiar telnet por ssh, y que no tengan acceso con
+> usuario/contrase=F1a, sino que gener=E1s una clave para cada computadora =
+a
+> la que le vas a dar permiso
+> --
+> (-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/1350413642.13709.3.camel@EeePC.ucasal.ar
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+YLrTDKw17wNvu2Hh599Bna5ixxo2Gzs1rnFiO6b5s_YLZP0Q@mail.gmail.com
+

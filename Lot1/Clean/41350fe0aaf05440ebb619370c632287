@@ -1,0 +1,116 @@
+Subject:Re: [Jukebox-list] manually turn record changer
+Sure---RTFM--
+The motor can not be "at odds" with anything--it has no brain. It can only do what it's told to do, by the switching or relays---Ron Rich 
+
+--- On Sun, 10/21/12, BSAKing <BSAKing@hotmail.com> wrote:
+
+From: BSAKing <BSAKing@hotmail.com>
+Subject: Re: [Jukebox-list] manually turn record changer
+To: "Jukebox mailing list" <jukebox-list@lists.netlojix.com>
+Date: Sunday, October 21, 2012, 11:26 AM
+
+Greetngs.
+
+I was wondering if you could tell me if the same basic approach could be
+applied to a Wurly 1700 HF that I have here? I got the mechanism badly
+messed up and out of synch trying to fix an issue. I think the motor is at
+odds with the mechanism direction somehow.
+
+thanks...
+ 
+
+ 
+ 
+Bruce.... 
+-------Original Message------- 
+ 
+From: James Alexander 
+Date: 10/21/2012 2:14:53 PM 
+To: Jukebox mailing list 
+Subject: Re: [Jukebox-list] manually turn record changer 
+ 
+Steve: 
+ 
+Yes you can step through an entire change cycle by turning the knurled nut
+at 
+the rear of the changer motor. When the crank arm is stopped by a raised 
+selector pin, the motor reverses direction which begins the lift arm
+operation. 
+You need to read the full description of how the change cycle operates in
+your 
+service manual. At the time the crank arm is stopped by a selector pin,
+there 
+are both electrical and mechanical "switches" that take place to make that 
+happen. Too lengthy to describe here in detail. You can manually operate the
+
+full change cycle without actually applying power to the motor but you will
+need 
+to fully replicate the entire change cycle process. It is a positive first
+step 
+that you can clockwise-rotate the record basket this way. 
+ 
+ 
+Jim Alexander 
+ 
+ 
+ 
+________________________________ 
+From: Stephen Andrews <fenwaysteve@gmail.com> 
+To: Jukebox mailing list <jukebox-list@lists.netlojix.com> 
+Sent: Sun, October 21, 2012 1:28:10 PM 
+Subject: Re: [Jukebox-list] manually turn record changer 
+ 
+thanks for the reply , i did spin that nut on back of the pinion motor it 
+spun nice and smooth and rotated the record basket but that was all ? 
+ 
+On Sun, Oct 21, 2012 at 1:20 PM, Ron Rich <ronnnrich@yahoo.com> wrote: 
+ 
+> Yep--there is a "knurled nut" on the rear of the scan/load motor for just 
+> that-- 
+> Ron Rich 
+> 
+> --- On Sun, 10/21/12, Stephen Andrews <fenwaysteve@gmail.com> wrote: 
+> 
+> From: Stephen Andrews <fenwaysteve@gmail.com> 
+> Subject: [Jukebox-list] manually turn record changer 
+> To: jukebox-list@lists.netlojix.com 
+> Date: Sunday, October 21, 2012, 10:10 AM 
+> 
+> hi, is it possible to manually turn record changer to simulate it working 
+> or picking up a record were the arms come up and then retract or i guess 
+> make the record changer go through the motions ? its a w2304s juke . thank
+
+> you 
+> _______________________________________________ 
+> Jukebox-list mailing list 
+> Jukebox-list@lists.netlojix.com 
+> http://lists.netlojix.com/mailman/listinfo/jukebox-list 
+> Searchable Archives: http://jukebox.markmail.org/ 
+> _______________________________________________ 
+> Jukebox-list mailing list 
+> Jukebox-list@lists.netlojix.com 
+> http://lists.netlojix.com/mailman/listinfo/jukebox-list 
+> Searchable Archives: http://jukebox.markmail.org/ 
+> 
+_______________________________________________ 
+Jukebox-list mailing list 
+Jukebox-list@lists.netlojix.com 
+http://lists.netlojix.com/mailman/listinfo/jukebox-list 
+Searchable Archives: http://jukebox.markmail.org/ 
+ 
+_______________________________________________ 
+Jukebox-list mailing list 
+Jukebox-list@lists.netlojix.com 
+http://lists.netlojix.com/mailman/listinfo/jukebox-list 
+Searchable Archives: http://jukebox.markmail.org/ 
+ 
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

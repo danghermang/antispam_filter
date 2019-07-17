@@ -1,0 +1,24 @@
+Subject:Re: Update of the backported libssh package
+On So, Dez 02, 2012 at 14:08:00 (CET), Laurent Bigonville wrote:
+
+> Hello,
+>
+> Are you planning to update the libssh package in squeeze-backport? The
+> version that is now in testing is fixing several CVE.
+
+I have just uploaded the package and updated the branch on
+git.debian.org
+
+Cheers,
+Reinhard
+
+-- 
+Gruesse/greetings,
+Reinhard Tartler, KeyID 945348A4
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87ip8ksbq9.fsf@faui43f.informatik.uni-erlangen.de
+

@@ -1,0 +1,51 @@
+Subject:[Koha] need help in report using XML
+i need to make report including the main data of the books
+and i have data in 880 field i want to include this field in the report 
+the report 
+note(880 is vernacular field that i put the title and author and publisher
+and statement with Arabic )
+SELECT 
+  ExtractValue((
+    SELECT marcxml
+    FROM biblioitems
+    WHERE biblionumber
+    = '520'),
+      '//datafield[@tag="880"]/subfield[@code>="a"]') AS AR
+
+then i make the next report to premit to user to add the number of biblio
+number
+SELECT 
+  ExtractValue((
+    SELECT marcxml
+    FROM biblioitems
+    WHERE biblionumber
+    = <<>>),
+      '//datafield[@tag="880"]/subfield[@code>="a"]') AS AR
+
+i have tow problem now
+i want to run this report to display range from biblionumber to another one 
+i try to use between but it doesn't work
+this was the statement
+
+ WHERE biblionumber BETWEEN <<>> AND <<>>),
+ WHERE biblionumber BETWEEN 100 AND 150),
+
+and there is no result
+
+the second problem
+
+i need to make bibliographic report with the field 100 245  250  260 and 880
+fields
+how to insert 880 field in to the same record
+
+thanks
+
+
+
+--
+View this message in context: http://koha.1045719.n5.nabble.com/need-help-in-report-using-XML-tp5730388.html
+Sent from the Koha-general mailing list archive at Nabble.com.
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

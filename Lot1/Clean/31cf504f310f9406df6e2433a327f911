@@ -1,0 +1,21 @@
+Subject:Re: Fwd: subversion in 1.7.x in wheezy backports
+2012/11/6 Thorsten Glaser <t.glaser@tarent.de>:
+> On Mon, 5 Nov 2012, Karol Szkudlarek wrote:
+>
+>> In near future I would like install on my machines wheezy so I'm
+>> interested whether subversion in 1.7.x series will be available in
+>> backports for wheezy?!
+>
+> Really, stay away from svn 1.7 (I=92d point out Wouter=92s blogpost,
+> but it lacks a function to see older entries=85), it=92s a heap of
+> breakage.
+
+But in my environment I have a big repos tree and performance of 1.7.x
+seems a lot of better then 1.6.x.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+1EyU4NjNYWJixJ4vsm8S189E0ZhEhD0AwyU0FCYgpt6E6nFw@mail.gmail.com
+

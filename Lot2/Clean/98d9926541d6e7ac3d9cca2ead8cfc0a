@@ -1,0 +1,69 @@
+Subject:skype - no funciona microfono interno
+Buenas gente...
+
+recurro a uds porque no logro hacer funcionar el micr=F3fono interno de mi=
+=20
+laptop (LG R200) con debian Wheezy + KDE para usarlo con skype...
+
+en las configuraciones de skype tengo como servidor de sonido a pulseaudio,=
+ es=20
+el =FAnico que me permite seleccionar. El le=EDdo opiniones divididas en cu=
+anto a=20
+la soluci=F3n de este problema, algunos recomiendan desinstalar pulseaudio =
+e=20
+instalar alsa otros lo contrario.=20
+El tema es que quiero hacerlo funcionar con el servidor por defecto=20
+"pulseaudio".
+
+Estas son los datos de mi sonido:
+
+~$ cat /proc/asound/devices=20
+  1:        : sequencer
+  2: [ 0- 2]: digital audio capture
+  3: [ 0- 1]: digital audio playback
+  4: [ 0- 0]: digital audio playback
+  5: [ 0- 0]: digital audio capture
+  6: [ 0- 1]: hardware dependent
+  7: [ 0- 0]: hardware dependent
+  8: [ 0]   : control
+ 33:        : timer
+=2D--------------------------------------------------
+~$ cat /proc/asound/modules=20
+ 0 snd_hda_intel
+
+~$ cat /proc/asound/cards
+ 0 [Intel          ]: HDA-Intel - HDA Intel
+                      HDA Intel at 0x80000000 irq 46
+=2D--------------------------------------------------
+~$ cat /etc/asound.conf=20
+pcm.pulse {
+    type pulse
+}
+=20
+ctl.pulse {
+    type pulse
+}
+=20
+pcm.!default {
+    type pulse
+}
+=20
+ctl.!default {
+    type pulse
+}
+=2D--------------------------------------------------
+
+Alguien me puede echar un poco de luz?
+
+Bytes!
+
+=2D-=20
+Manuel Ramos
+TW: @0xManu
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210251400.17634.bymram@gmail.com
+

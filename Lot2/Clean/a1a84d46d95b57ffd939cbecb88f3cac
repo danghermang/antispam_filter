@@ -1,0 +1,66 @@
+Subject:Re: nut y Maxim MXE II...
+El Wed, 21 Nov 2012 11:14:33 -0300, Walter O. Dari escribió:
+
+> El 05/11/12 12:05, Camaleón escribió:
+
+(...)
+
+>> Yo tampoco lo vi, por eso conviene que preguntes directamente al
+>> fabricante o enviar un mensaje a la lista de NUT a ver si alguien estÃ¡
+>> interesado en que ese fabricante/modelo sea soportado.
+> 
+> Consultado el distribuidor/fabricante donde compré este equipo no me dio
+> ningún tipo de solución.
+
+(...)
+
+Para variar... en fin, había que intentarlo. 
+
+Es una pena que los fabricantes no estén interesados en colaborar con 
+proyectos como este de NUT que permiten para monitorizar sus equipos, más 
+que nada porque a ellos no les supone ningún perjuicio (seguramente el 
+software que tienen para linux es genérico, gratuito y no lo han diseñado 
+ellos) por lo que al final lo único que consiguen con esa actitud es 
+perder clientes :-(
+
+> En conclusión, ya no compraré más equipos de esta marca, al menos cuando
+> la administración de los datos que proveen sea una condición
+> importante... una pena.
+
+Nosotros tenemos SAI de APC y Riello pero en ambos casos utilizo el 
+programa de gestión de fabricante.
+
+> Tengo ganas de probar con los distintos controladores de nut, pero no se
+> ni por donde empezar, la conexión de este equipo es por puerto USB 2.0.
+> 
+> La salida de lsusb me dice...
+> 
+> Bus 003 Device 003: ID 06da:0201 Phoenixtec Power Co., Ltd
+> 
+> ... y Phoenixtec tampoco está en la lista de fabricantes de nut  :-(
+> 
+> 
+> Y encima ahora, mirando los logs, veo que tengo cada un segundo una
+> línea con...
+> 
+> reset low speed USB device using uhci_hcd and address 3
+> 
+> ... ufff, voy a ver de que se trata.
+
+(...)
+
+Tendrás más suerte si preguntas en la lista de NUT, seguro que te podrán 
+orientar mejor sobre las experiencias que hayan podido tener los usuarios 
+con equipos de ese fabricante.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8ir7d$fe8$3@ger.gmane.org
+

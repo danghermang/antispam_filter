@@ -1,0 +1,164 @@
+Subject:Re: [anti-abuse-wg] [db-wg] RIPE NCC's proposed implementation of
+ Abuse Contact Management in the RIPE Database
+Dear Florien
+
+Thank you for your comments. You have touched on several issues here. 
+Lets take them individually.
+
+Currently all data in the RIPE Database is publicly available, except 
+password hashes. So any individual object can be queried and the full 
+data returned. The RIPE Database does contain personal data and this 
+data is also publicly available by querying the database, but with 
+limits. To avoid data mining of this personal data, which is not 
+required for any of the purposes of the database, the RIPE NCC does not 
+allow bulk access to the personal data. The data examples you refer to 
+are from the daily dump of the database. These have been "dummified" to 
+remove personal data and references to personal data.
+
+The dummy PERSON and ORGANISATION objects you listed are place holders 
+in the data dumps to maintain a consistent data set. The real objects 
+and references are available if you query the RIPE Database within the 
+acceptable use limits. None of the data that the LIRs maintain is 
+hidden. But that part that is considered personal has some limits.
+
+The discussions around the abuse handling in the Anti Abuse Working 
+Group have made it clear that this will not be personal data. So these 
+ROLE objects will be available without the limits that personal data is 
+subject to. They will also be available in the bulk data dumps. This is 
+why we propose to allow an "abuse-c:" attribute to reference only a ROLE 
+object and not a PERSON object. As Kaveh said, the ROLE object was not 
+designed to, and should not, hold personal data. The tools the RIPE NCC 
+will provide to facilitate abuse contact data entry will make it very 
+clear that it will be available without limits and should not contain 
+any personal data. The RIPE Database query service will also provision 
+easy access to the abuse contact data related to individual resources 
+without the need for users to drill down through individual data objects 
+or hit any access limits. This should also help to avoid misuse of the 
+personal data held in the RIPE Database.
+
+Regards,
+Denis Walker
+Business Analyst
+RIPE NCC Database Group
+
+
+On 16/11/2012 07:06, Florian Weimer wrote:
+> * Kaveh Ranjbar:
+>
+>> One of the reasons that it is only tied to the "role" object and not
+>> the "person" object is to avoid those issues. A role object is not
+>> designed to hold personal information, it is a representation of a
+>> unit in an organisation. The "abuse-mailbox:" attribute is also
+>> supposed to represent the generic email address of the contact point
+>> for the abuse handling entity within an organisation, not a real
+>> person. We will place clarifying notifications about this when users
+>> enter the data.
+>>
+>> None of the objects in the chain, "inetnum/inet6num/aut-num",
+>> "organisation" and "role" are provisioned as, or designed to be
+>> private data holders.
+>
+> Are you sure?  After all, you anonymize these objects in the database
+> dumps, citing data protection concerns:
+>
+> aut-num:         AS3255
+> as-name:         UARNET-AS
+> descr:           State Enterprise Scientific and Telecommunication Centre "Ukrainian Academic and Research Network" of the Institute for Condensed Matter Physics of the National Academy of Sc
+> ience of Ukraine (UARNet)
+> descr:           EARN-Ukraine
+> [...]
+> admin-c:         DUMY-RIPE
+> tech-c:          DUMY-RIPE
+> [...]
+> changed:         [...]
+> source:          RIPE
+> remarks:         ****************************
+> remarks:         * THIS OBJECT IS MODIFIED
+> remarks:         * Please note that all data that is generally regarded as personal
+> remarks:         * data has been removed from this object.
+> remarks:         * To view the original object, please query the RIPE Database at:
+> remarks:         * http://www.ripe.net/whois
+> remarks:         ****************************
+>
+> inet6num:        2001:0658:021A::/48
+> netname:         DE-TRMD-HACKETHAL-1
+> descr:           IPv6 Markus Hackethal
+> descr:           Langenfeld
+> country:         DE
+> admin-c:         DUMY-RIPE
+> tech-c:          DUMY-RIPE
+> status:          ASSIGNED
+> mnt-by:          TRMD-MNT
+> changed:         [...]
+> source:          RIPE
+> remarks:         ****************************
+> remarks:         * THIS OBJECT IS MODIFIED
+> remarks:         * Please note that all data that is generally regarded as personal
+> remarks:         * data has been removed from this object.
+> remarks:         * To view the original object, please query the RIPE Database at:
+> remarks:         * http://www.ripe.net/whois
+> remarks:         ****************************
+>
+> inetnum:         80.16.151.184 - 80.16.151.191
+> netname:         NETECONOMY-MG41731
+> descr:           TELECOM ITALIA LAB SPA
+> country:         IT
+> admin-c:         DUMY-RIPE
+> tech-c:          DUMY-RIPE
+> status:          ASSIGNED PA
+> [...]
+> changed:         [...]
+> source:          RIPE
+> remarks:         ****************************
+> remarks:         * THIS OBJECT IS MODIFIED
+> remarks:         * Please note that all data that is generally regarded as personal
+> remarks:         * data has been removed from this object.
+> remarks:         * To view the original object, please query the RIPE Database at:
+> remarks:         * http://www.ripe.net/whois
+> remarks:         ****************************
+>
+> organisation:    ORG-NCC1-RIPE
+> org-name:        Dummy organisation name for ORG-NCC1-RIPE
+> org-type:        RIR
+> address:         Dummy address for ORG-NCC1-RIPE
+> e-mail:          unread@ripe.net
+> mnt-ref:         RIPE-NCC-RIS-MNT
+> mnt-ref:         RIPE-NCC-HM-MNT
+> mnt-by:          RIPE-NCC-HM-MNT
+> changed:         unread@ripe.net 20000101
+> source:          RIPE
+> remarks:         ****************************
+> remarks:         * THIS OBJECT IS MODIFIED
+> remarks:         * Please note that all data that is generally regarded as personal
+> remarks:         * data has been removed from this object.
+> remarks:         * To view the original object, please query the RIPE Database at:
+> remarks:         * http://www.ripe.net/whois
+> remarks:         ****************************
+>
+> person:         Placeholder Person Object
+> address:        RIPE Network Coordination Centre
+> address:        P.O. Box 10096
+> address:        1001 EB Amsterdam
+> address:        The Netherlands
+> phone:          +31 20 535 4444
+> nic-hdl:        DUMY-RIPE
+> mnt-by:         RIPE-DBM-MNT
+> remarks:        **********************************************************
+> remarks:        * This is a placeholder object to protect personal data.
+> remarks:        * To view the original object, please query the RIPE
+> remarks:        * Database at:
+> remarks:        * http://www.ripe.net/whois
+> remarks:        **********************************************************
+> changed:        ripe-dbm@ripe.net 20090724
+> source:         RIPE
+>
+> The latter is from the ripe.db.role.gz file.  (Curiously, the
+> "changed:" lines are left intact in the dump.)
+>
+> I worry that most LIRs put quite a bit of effort into updating the
+> contact information, and then RIPE NCC decides to hide it because it's
+> considered personal data, like all the other contact information
+> currently in the database.
+>
+>
+

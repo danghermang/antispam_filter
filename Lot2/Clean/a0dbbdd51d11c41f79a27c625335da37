@@ -1,0 +1,27 @@
+Subject:Re: Apache2 erreurs
+Le lundi 12 novembre 2012 à 19:56, andre_debian@numericable.fr a écrit :
+> > C'est plutôt l'inverse. Suivre les consignes doit être le mode opératoire
+> > par défaut, mais rien n'empêche de ne pas les suivre, reste à savoir si on
+> > est prêt à en assumer les conséquences.
+> > Seb
+> 
+> C'est ce qu'on appelle écrire pour ne rien dire :-)
+
+Pas tout à fait. Ce que j'ai écrit voulait dire que lorsqu'on administre une
+machine, on doit également penser à celui qui va passer dessus après. Si c'est
+une machine purement perso, on en fait ce qu'on veut, mais si c'est une machine
+qu'on peut être amené à confier à quelqu'un d'autre, respecter ce genre de
+consignes peut lui simplifier grandement la tâche et lui éviter de te maudire
+pendant quelques heures/jours/semaines/...
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121113090547.GB7567@sebian.nob900.homeip.net
+

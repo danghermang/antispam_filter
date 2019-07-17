@@ -1,0 +1,64 @@
+Subject:Re: The connection to the server was reset while the page was
+	loading
+>From my experiences with this over the past several years, the problem
+is usually site server overload or a problem with the ISP Internet
+connection. Often I have had to turn the modem off then back on to
+resolve this or simply keep trying to access a desired site until it
+finally loads.
+
+There have not been any indications from these incidents that there was
+a problem with Iceweasel of any version.
+
+Hope that helps.
+-- 
+  William Diehl
+
+On Tue, Oct 23, 2012, at 09:26 AM, Berni Elbourn wrote:
+> On 23/10/12 13:10, Berni Elbourn wrote:
+> > Occasionally - about 1 in 10 - opening https://twitter.com/ gives this page of text after a long delay:
+> >
+> > The connection was reset
+> > The connection to the server was reset while the page was loading.
+> >
+> > The site could be temporarily unavailable or too busy. Try again in a few
+> > moments.
+> > If you are unable to load any pages, check your computer's network
+> > connection.
+> > If your computer or network is protected by a firewall or proxy, make sure
+> > that Iceweasel is permitted to access the Web.
+> >
+> > Refreshing the page quickly displays my twitter feed.
+> >
+> > The reset happens in safe mode. And on windows 7 firefox 10.0.9 esr. There is no proxy here for https.
+> >
+> > I don't recall experiencing the problem in previous versions. Is it possible to downgrade?
+> >
+> > Berni
+> >
+> 
+> Huge thanks to Michael off-list. Using http://snapshot.debian.org/ I
+> pulled in 10.0.7 from 30 September. It has same 
+> problem. I am beginning to suspect it is just twitter. Difficult to pin
+> this one down. Is it just me?
+> 
+> -- 
+> "Confidence is what you have before you understand a problem" - Woody
+> Allen
+> 
+> 
+> -- 
+> To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/50869AF1.5060002@gmail.com
+> 
+
+-- 
+http://www.fastmail.fm - IMAP accessible web-mail
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1351000339.22150.140661144373117.38793916@webmail.messagingengine.com
+

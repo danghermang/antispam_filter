@@ -1,0 +1,174 @@
+Subject:Re: [Koha] Data Migration
+
+Hello
+conversion from mandarin M3 will be easy if your version is supporting Marc=
+ 21
+for holding you need to know what is the local field that the system uses t=
+o put the items information
+and edit the record by MARC edit to change the tag of the item field to (95=
+2) koha local field for item information
+
+
+
+Mohamed El ZalabanyIntegrated library systems consultant
+
+Zalabany Knowledge Systems Team=A9
+For Libraries and Information systems Development and support
+mh_zalabany@hotmail.com
+Mobile: 0111291444
+
+
+
+Date: Tue, 23 Oct 2012 17:08:09 +0300
+Subject: Re: [Koha] Data Migration
+From: cknjuguna@gmail.com
+To: mh_zalabany@hotmail.com
+CC: manny_tamayao@sil.org; koha@lists.katipo.co.nz
+
+Hello Mohamed what about data migration from mandarin M3 especially the hol=
+dings?
+
+On Tue, Oct 23, 2012 at 2:51 PM, Mohamed zalabany <mh_zalabany@hotmail.com>=
+ wrote:
+
+
+
+i have a big experience in data conversion but unfortunately i don't know M=
+AELISA library systemso could you tell us is the data is MARC format i what=
+ format and send me a sample of data
+
+
+
+
+
+
+
+Mohamed El ZalabanyIntegrated library systems consultant
+
+
+
+Zalabany Knowledge Systems Team=A9
+
+For Libraries and Information systems Development and support
+
+mh_zalabany@hotmail.com
+
+Mobile: 202-0111291444
+
+
+
+
+
+
+
+> From: manny_tamayao@sil.org
+
+> To: koha@lists.katipo.co.nz
+
+> Date: Tue, 23 Oct 2012 10:21:40 +0800
+
+> Subject: [Koha] Data Migration
+
+>
+
+> Good day to all,
+
+>
+
+>
+
+>
+
+> I'm Manny from Manila and in the process of data migration of the library
+
+> from "MAELISA" to KOHA.
+
+>
+
+> Is there anyone who had done this process or has a script that may help?
+
+>
+
+>
+
+>
+
+> Salamat
+
+>
+
+>
+
+>
+
+> Manny Tamayao
+
+>
+
+> Librarian/Archivist
+
+>
+
+> SIL Philippines
+
+>
+
+> skype: mannytamayao
+
+>
+
+> mobile: 09152822329
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+>
+
+> _______________________________________________
+
+> Koha mailing list  http://koha-community.org
+
+> Koha@lists.katipo.co.nz
+
+> http://lists.katipo.co.nz/mailman/listinfo/koha
+
+
+
+_______________________________________________
+
+Koha mailing list  http://koha-community.org
+
+Koha@lists.katipo.co.nz
+
+http://lists.katipo.co.nz/mailman/listinfo/koha
+
+
+
+-- =
+
+
+Dennis K. Njuguna
+
+ 		 	   		  =
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

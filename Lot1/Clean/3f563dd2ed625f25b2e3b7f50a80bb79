@@ -1,0 +1,28 @@
+Subject:Re: [LUG] 3d engineering
+On 22 October 2012 10:41, tom <tompotts@madtom1999.bbmax.co.uk> wrote:
+
+> What puzzles me is there seems to be nothing available for direct creation
+> of the models. I guess there=92s some not so cheap tool somewhere.
+> I cant find my 20 year old C++ 3D object model builder that would take ab=
+out
+> 2 hours to convert to write gmsh or elmer input. Neither of them are
+> difficult but some people cant get their heads round doing text files...
+>
+
+I think its probably a lack of opensource and or cheap tools that is
+the issue. gmsh and getdp are fantastical powerful but hard to use and
+i've seen very little else that is a complete tool.
+
+The tools i use all have there own system for drawing models or can
+accept standard autodesk files. The other tools tend to use solidworks
+and/or flavors of 3d autocad things all of which are extreme amounts
+of money. I think the full 3D version of magnetics fea that we were
+looking at was between =A310k and =A320k depending on what solvers we had.
+
+Robin
+
+-- =
+
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

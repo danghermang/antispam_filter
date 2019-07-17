@@ -1,0 +1,76 @@
+Subject:[Koha] Lists;
+	needed features, including location and staff level sharing
+We use 3.8 and are trying to enable our users to make more independent use
+of the catalog (instead of relying on the staff to look everything up, as
+they did  in our old system).
+
+On the public service side, I can see at least two important uses for lists:
+1) For staff to create mini-bibliographies for topics in high demand.
+2) For patrons to choose what material they would like to consult - a
+shopping list as it were (and quite often, this list will be passed on to
+the staff, because they will need to retrieve some items from other
+locations).
+
+But, once you create a list, the printout is not very useful.
+In the OPAC, the list gives title, author, publishing
+info, availability and call number. Theoretically one could print out the
+list and then wander around the stacks fetching the items.
+
+But there's a  serious flaw in the system.  The list in the OPAC version,
+does not show the shelving location.  Since only about a quarter of our
+collection is on open shelves (and some of it is located by size)  this
+means the reader is going to get  very frustrated. We have not included
+location information as part of the call number, as it can and does change,
+and would potentially complicate the browse the shelves feature.
+
+Imagine my surprise and disappointment when I discovered that the Staff
+interface view of the same lists gives substantially less (rather than
+more) information.
+
+If our staff needs to collect material from store rooms and locked cases,
+they have to print out individual records.  This is actually a step
+backwards from our old database, where we could print out a list with the
+retrieval information for each item.
+
+
+We've disabled the Cart function, so I don't know if that is any worse or
+better.  If it will show location, I will re-enable it.
+
+
+My second difficulty is the public / private  settings for lists.  It would
+be very useful to have a third choice: Staff only.
+Sometimes a list is a collaborative work, in progress, not ready (or
+intended) for public consumption, but more than one person needs access to
+it.
+Sometimes a list is useful for communicating with other staff members (we
+are rarely all in the same place at the same time)
+I designed some templates with default text for the staff to use for
+specific types of material, and I don't want these to be seen by the
+public, but if I make them private, then the staff can't see them either.
+
+
+Are solutions to the above problems in the pipeline for future versions of
+Koha? Or should I file a bug/enhancement?
+
+Thanks,
+
+
+-- 
+Elaine Bradtke
+Data Wrangler
+VWML
+English Folk Dance and Song Society | http://www.efdss.org
+Cecil Sharp House, 2 Regent's Park Road, London NW1 7AY
+Tel    +44 (0) 20 7485 2206 (This number is for the English Folk Dance and
+Song Society in London, England. If you wish to phone me personally, send
+an e-mail first. I work off site)
+--------------------------------------------------------------------------
+Registered Company No. 297142
+Charity Registered in England and Wales No. 305999
+---------------------------------------------------------------------------
+"Writing about music is like dancing about architecture"
+--Elvis Costello (Musician magazine No. 60 (October 1983), p. 52)
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

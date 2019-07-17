@@ -1,0 +1,42 @@
+Subject:Re: [Koha] How can I make a back up?
+* juan hernandez (jnherz@gmail.com) wrote:
+> 2012/11/7 juan hernandez <jnherz@gmail.com>
+> 
+> > yes, thank you but using:
+> >
+> > backup: # mysqldump -u root -p database_name > yourfilename.sql
+> > restore:# mysql -u root -p database_name < yourfilename.sql
+> > i can make this, usin command prompt.
+> >
+> > but I would like to know if there is a way to make the same (above)
+> > without command prompt, I mean inside Koha,
+> > example:
+> > all the bibliographic ---- export button --- import button
+> > all the circulation ---- export button -- import button
+> >
+> > but the movements? reservations? etc?
+> >
+> > thanks in advace
+> >
+> >
+> >
+No there isn't.
+
+But if you run Koha using the debian packages, it will be doing
+nightly backups for you, which in the newer versions of Koha you can
+download from the staff interface.
+
+You can also run koha-backup from the commandline if you are using
+packages.
+
+Chris
+
+-- 
+Chris Cormack
+Catalyst IT Ltd.
++64 4 803 2238
+PO Box 11-053, Manners St, Wellington 6142, New Zealand
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

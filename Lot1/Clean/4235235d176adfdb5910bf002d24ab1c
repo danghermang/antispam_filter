@@ -1,0 +1,30 @@
+Subject:Re: postfix y usuarios locales
+Javier Santiesteban wrote:
+
+> listeros quisiera instalar y configurar un servidor postfix y dovecot
+> pero con usuarios locales y realmente no tengo mucha experiencia en este
+> tema pues lo he logrado con mysql / ldap y postgre pero la verdad no me
+> ha ido muy bien con los usuario locales....
+> 
+> Agradecido cualquier ayuda de antemano
+
+Un muy bueno tutorial para postfix, MySQL y Dovecot es el de christoph
+Haas : 
+
+la versión para Debian Squeeze : 
+http://workaround.org/ispmail/squeeze
+
+Y existe una traducción al castellano de la precedente versión Debian Lenny
+que tal vez puede ayudarte : 
+http://www.esdebian.org/wiki/tutorial-ispmail-debian-50-lenny-0
+
+Es muy didáctico, detallando las etapas de manera muy clara.
+
+Si te puede servir. 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3rt42$aq6$3@ger.gmane.org
+

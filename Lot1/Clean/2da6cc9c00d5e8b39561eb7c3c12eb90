@@ -1,0 +1,34 @@
+Subject:Re: debian et onduleur
+On Wed, 19 Sep 2012 23:10:15 +0200
+Ga=C3=ABtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+
+> J'aimerai avoir vos retours d'exp=C3=A9riences sur les onduleurs et
+> leur support par debian pour une machine personnelle.
+
+Tu trouveras une liste non-exhaustive dans nut-doc, sachant qu'apr=C3=A8s
+certains constructeurs reprennent la m=C3=AAme disposition de signaux que
+les originaux, mais qu'il faut creuser pour trouver (ou pire et v=C3=A9cu:
+la m=C3=AAme disposition avec juste l'inversion d'un signal, et tu passes
+1H =C3=A0 trouver pourquoi le micro effectue un shutdown d=C3=A8s que le bo=
+ot
+est termin=C3=A9:(
+
+Maintenant, si nut n'a pas trop chang=C3=A9, une fois la famille d'UPS
+trouv=C3=A9e il est tr=C3=A8s facile d'agir sur un signal pour l'inverser ou
+l'invalider dans le fichier de conf.
+
+--=20
+<Tami> Salut ! ;)
+<Zobi> Tami t'habites o=C3=B9 ?
+<Zobi> Mouahaha
+<Tami> Hein ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120919232308.7b012b52@anubis.defcon1
+

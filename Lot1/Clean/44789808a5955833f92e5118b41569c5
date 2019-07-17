@@ -1,0 +1,60 @@
+Subject:Re: favicon.ico no se muestra en apache2
+On 14/11/2012 12:45, Gonzalo Rivero wrote:
+> El mar, 13-11-2012 a las 23:51 +0100, Jorge escribió:
+>> Mi servidor web es Apache2 sobre Debian Squeeze. Tengo tanto Certificado
+>> SSL (para https) como autenticación de usuario (AuthUser), pero si no
+>> deshabilito ambos no se muestra el icono 'favicon.ico' en la pestaña del
+>> IE o del FF. Por supuesto el fichero está en el raíz del VirtualHost en
+>> cuestión y cuenta con los permisos de acceso necesarios, de hecho se
+>> muestra cuando pongo como URL http://www.ejemplo.com/favicon.ico.
+>>
+>> Para solucionarlo (y a pesar de que no me gusta mucho esta solución) he
+>> intentado poner en la cabecera de las páginas web ...
+>>
+>> <head> <link rel="shortcut icon" href=http://www.ejemplo.com/favicon.ico
+>> type="image/x-icon" /> <title>Hola Mundo Icono</title> </head>
+>>
+>> ... con lo que mi 'falvicon.ico' ya se muestra, a pesar de tener la
+>> autenticación habilitada, cuando introduzco la URL
+>> http://www.ejemplo.com/, pero sigue sin mostrarse cuando introduzco la
+>> URL https://www.ejemplo.com/. Y si en el código anterior en lugar de a
+>> href=http ... apunto a href=https ... ni siquiera eso, no llega a verse
+>> en ninguno de los dos casos.
+>>
+>> ¿Cómo consigo que se muestre siempre?
+>> (Espero haberme explicado bien, si no es así consultadme, por favor)
+>> Gracias.
+>>
+>
+> ¿que te dice el log al respecto?, por ejemplo, yo tengo uno con varios
+> virtualhost y en algunos no está el favicon:
+> File does not exist: /usr/local/www/apache22/data/www/lalala/favicon.ico
+> o al menos no está donde apache lo busca. Mi ejemplo es de un freebsd,
+> pero a los fines prácticos debería ser lo mismo. Fijate con
+> grep favicon /var/log/apache/httpd-error.log
+> (o como se llame el log de error del apache, no tengo un debian a mano)
+>
+>
+
+Estas son las líneas repetidas constantemente en el log de error (y no 
+se escribe nada en nigún otro log):
+
+[Wed Nov 14 10:35:37 2012] [warn] Init: Name-based SSL virtual hosts 
+only work for clients with TLS server name indication support (RFC 4366)
+[Wed Nov 14 10:35:37 2012] [notice] Digest: generating secret for digest 
+authentication ...
+[Wed Nov 14 10:35:37 2012] [notice] Digest: done
+[Wed Nov 14 10:35:39 2012] [warn] Init: Name-based SSL virtual hosts 
+only work for clients with TLS server name indication support (RFC 4366)
+[Wed Nov 14 10:35:39 2012] [notice] Apache/2.2.16 (Debian) 
+PHP/5.3.3-7+squeeze14 with Suhosin-Patch mod_ssl/2.2.16 OpenSSL/0.9.8o 
+configured -- resuming normal operations
+
+No aparecen referencias a favicon.ico
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A386D3.4010801@gmail.com
+

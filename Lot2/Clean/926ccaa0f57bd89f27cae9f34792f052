@@ -1,0 +1,30 @@
+Subject:Re: alltray et cie
+Le mardi 6 novembre 2012 21:26:56, Bruno Richard a écrit :
+> non, je ne parle pas du dock, juste de la barre de tâches ou du
+> systray quand la commande est lancée via alltray.
+> Mon problème revient en fait à afficher une fenêtre X (en
+> l'occurrence Xload) sans qu'elle apparaisse dans la barre de
+> tâches...
+
+Ne serait-ce pas un problème qui relève du window manager ou de 
+l'environnement de bureau ?
+
+Je ne sais ce que tu utilises. Sur kde, il y a moyen de dire que les 
+fenêtres associées à une application précise ne doit pas apparaître 
+dans la barre des tâches (note que j'ai juste vu que cela existe, je 
+n'ai pas essayé). Peut-être dans l'environnement que tu utilises est-
+ce aussi possible ?
+
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211062223.07591.edfnet-deb@yahoo.fr
+

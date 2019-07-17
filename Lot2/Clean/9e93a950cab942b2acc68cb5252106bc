@@ -1,0 +1,47 @@
+Subject:3.2.0-0.bpo.3-686-pae [Firmware Warn]: GHES: Failed to read error
+	status block address for hardware error source:
+Hi,
+
+I just installed 3.2.0-0.bpo.3-686-pae on two machines (PRIMERGY RX300 S6) and I
+am seeing a lot of this in dmesg:
+
+[12486.191403] [Firmware Warn]: GHES: Failed to read error status block address
+for hardware error source: 45056.
+[12486.191411] [Firmware Warn]: GHES: Failed to read error status block address
+for hardware error source: 57344.
+[12486.191416] [Firmware Warn]: GHES: Failed to read error status block address
+for hardware error source: 4096.
+[12546.099123] [Firmware Warn]: GHES: Failed to read error status block address
+for hardware error source: 45056.
+[12546.099128] [Firmware Warn]: GHES: Failed to read error status block address
+for hardware error source: 57344.
+[12546.099132] [Firmware Warn]: GHES: Failed to read error status block address
+for hardware error source: 4096.
+
+Adding ghes.disable=1 do the kernel boot options seems to have fixed this.
+
+FWIW, I am seeing this
+
+[   25.784242] qla2xxx [0000:06:00.1]-8038:6: Cable is unplugged...
+[   25.784246] qla2xxx [0000:06:00.1]-803b:6: Firmware ready **** FAILED ****.
+
+wrt firmware and errors in dmesg. The card in question is a dualport QLogic
+Fibre Channed HBA, QLE2462 to be precise.
+
+It seems to be working ok, I can see all my LVM pvs, vgs and lvs. The
+second port is in fact unconnected.
+
+HTH,
+
+	Stefan
+-- 
+BOFH excuse #110:
+
+The rolling stones concert down the road caused a brown out
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120911133352.GN17149@bc-bd.org
+

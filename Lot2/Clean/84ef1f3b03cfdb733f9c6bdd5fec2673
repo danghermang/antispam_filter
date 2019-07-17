@@ -1,0 +1,82 @@
+Subject:Re: Kernel intel atom
+El d=C3=ADa 5 de septiembre de 2012 11:04, Camale=C3=B3n <noelamac@gmail.co=
+m> escribi=C3=B3:
+> El Wed, 05 Sep 2012 08:46:08 -0300, Ricardo Delgado escribi=C3=B3:
+>
+>> Hola, debianitas tengo una netbook LENOVO con proc Intel Atom utilizando
+>> WHEEZY,
+>> ahora bien al utilizar algunas aplicaciones, ej WINE+STARCRAFT
+>                                                   ^^^^^^^^^^^^^^
+>
+> Je, je, je...
+>
+>> noto que se pone "pesado"
+>
+> =C2=BFNo me digas? :-P
+>
+> Los requisitos de hardware que te pida el juego los multiplicas por dos (=
+por
+> el uso de wine y un plus extra de penalizaci=C3=B3n por el linux-) y as=
+=C3=AD podr=C3=A1s evaluar
+> si tu netbook se queda o no corto.
+>
+>> es decir el consumo de PROCESADOR se hace excesivo (100%) por lo que
+>> decidi buscar como optimizar el kernel, buscando por la web encontre est=
+os
+>> links,
+>>
+>> http://www.pumawifi.org/index.php?q=3Dnode/49
+>>
+>> http://lgallardo.com/2009/06/08/compilando-el-kernel-para-lenovo-s10eker=
+nel-compiling-on-lenovo-s10e/
+>
+> Afinar el kernel para tu micro te ayudar=C3=ADa en un entorno nativo y si=
+empre y
+> cuando las aplicaciones hagan uso de esas mejoras pero recuerda que est=
+=C3=A1s
+> usando WINE con lo cual las posibilidades de optimizaci=C3=B3n se reducen=
+ sobremanera
+> debido a la capa de compatibilidad que a=C3=B1ade este software.
+>
+>> asi que baje un Kernel y me propuse recompilarlo de hecho ahora estoy
+>> utilizando 3.5.3, teoricamente optimizado de acuerdo a los links arriba
+>> expuesto, sin embargo no noto diferencia, quizas deberia probar
+>> recompilar/compilar un kernel para 486? digo esto en virtud que el
+>> primer kernel que debian me instalo era un Linux_image4686 (3.2.0-2-486)
+>
+> (...)
+>
+> Quiz=C3=A1 el juego te pida m=C3=A1s RAM o una gr=C3=A1fica m=C3=A1s pote=
+nte (me inclino m=C3=A1s por
+> lo segundo). Lo de usar un kernel optimizado para 486 (los tienes ya comp=
+ilados
+> en los repos oficiales) no creo que sea buena idea, m=C3=A1s que nada por=
+que la
+> diferencia de rendimiento ser=C3=A1 m=C3=ADnima con el kernel para 686. P=
+ero vamos, que por
+> probarlo tampoco vas a perder nada :-)
+>
+> Saludos,
+>
+
+gracias a todos por las respuestas, tambien noto el uso de procesador
+excesivo en los navegadores (chrome, iceweasel) en VLC al ver videos.
+etc, cambie de W$ a Debian por conviccion, ahora con esa misma
+conviccion estoy tratando de lograr un mejor rendimiento con Debian
+(lo de WINE no me extra=C3=B1a que se ralentice) pero con el resto deberia
+ser mejor.
+
+Ahora instale un Linux 3.2.0-2-486 y estoy probando rendimiento.
+
+Saludos
+
+--=20
+"Windows? Reboot
+Debian?      beRoot "
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+0kpa025qZgvTydurByJv6OS3GfU3WEz=HcMbOuEykerxF=HA@mail.gmail.com
+

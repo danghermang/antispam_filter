@@ -1,0 +1,61 @@
+Subject:Re: Estoy abierto a opiniones sobre montar servidor debian
+El d=C3=ADa 21 de noviembre de 2012 16:48, Flako <subforos@gmail.com> escri=
+bi=C3=B3:
+> El d=C3=ADa 21 de noviembre de 2012 16:30, Ismael L. Donis Garcia
+> <ismael@citricos.co.cu> escribi=C3=B3:
+>> Otra pregunta que se me olvid=C3=B3 preguntarle.
+>>
+>> El servidor tiene un arreglo de 8 discos de 146 GB cada uno. Como creen
+>> ustedes que debo crear los arreglos de disco para garantizar velocidad y
+>> integridad de los datos a la vez?
+>>
+>> Quisiera hacer 2 arreglos 1 para el sistema y otro para los datos.
+>>
+>> Como deber=C3=ADa particionar el arreglo del sistema?
+>>
+>> Como dije antes tengo 8 discos con 146 GB cada uno.
+>>
+>
+>    Pues con todos esos discos, y si solo vas a meter un AD, yo usar=C3=AD=
+a
+> cualquier raid con mas de dos cifras, es decir 10,30,100 :), solo para
+> probar y jugar....
+>    Pero en fin la decisi=C3=B3n de raid depende q vas a meter adentro, pe=
+ro
+> como norma general, a falta de informaci=C3=B3n de mas informacion con ra=
+id
+> 5 o raid 10 son buenas opciones y no deberias errarle..  eso si no
+> uses los 8 discos, seria un desperdicio si solo vas a meter un solo
+> Linux.
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/CADqxbRSYUko5FZh27gBSR3NbwLonNc4o3hX0i6B=
+d0WXGWcL3Jw@mail.gmail.com
+>
+
+hola te sugeriria lo siguiente.
+
+toma 2 discos y hace un RAID 1 para el SO y los restantes RAID 5 para datos
+
+de esta forma si se te rompe por algun motivo el SO siempre tenes el 2
+disco (del RAID1) y en el peor de los casos reinstala el SO
+manteniendo los DATOS en otra ubicacion.
+
+siempre los arreglos, al menos en mi experiencia, los hago por HARDWARE.
+
+slds
+
+--=20
+"Windows? Reboot
+Debian?      beRoot "
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+0kpa25R7rMHPmocw7S3=_3ReGUGdbv1DOkLa=1iCXSKr97Fw@mail.gmail.com
+

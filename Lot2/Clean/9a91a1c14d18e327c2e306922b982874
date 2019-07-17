@@ -1,0 +1,35 @@
+Subject:Re: [EVDL] Low battery capacity on convertion lawntractor
+On 14 Nov 2012 at 17:48, Roger Stockton wrote:
+
+> This will only be an approximation because the voltage does not decrease
+> linearly over the test duration
+
+True.  But it's accurate enough for comparing 12v modules.  If one has a bum 
+cell, or is significantly depreciated, this test is likely to tell you.  
+
+For small loads, I use a "Watt's Up" meter for a much more accurate 
+measurement of capacity.  It measures amp-hours and watt-hours, but it's 
+pretty light duty and I wouldn't want to use it at much more than 10-15a of 
+continuous current.
+
+David Roden - Akron, Ohio, USA
+EVDL Administrator
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+EVDL Information: http://www.evdl.org/help/
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+Note: mail sent to "evpost" and "etpost" addresses will not 
+reach me.  To send a private message, please obtain my 
+email address from the webpage http://www.evdl.org/help/ .
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

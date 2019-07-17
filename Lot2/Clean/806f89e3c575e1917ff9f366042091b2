@@ -1,0 +1,75 @@
+Subject:Re: [Jukebox-list] 6973 to el84 info needed.
+I found some matched pairs of 6973eh online, but I read they had some quali=
+ty issues and the tubes just didn't work. =20
+  If I go with the 6973 s should I replace those resistors that are off.  B=
+oth the schematic and banding tell me 470k but they measure way off.  Maybe=
+ that is why the existing 6973 tests at 50%.  It was cooked.  I'm also goin=
+g to replace the 1 watt bias resistor and diode.  What diode would you use =
+a 1n4004?
+Thanks
+
+Ed Owens
+E O Johnson Co
+
+On Nov 11, 2012, at 5:14 AM, "NORMAN MACRAE" <nmacrae23@btinternet.com> wro=
+te:
+
+> Jay is correct, there is a fair bit of rewiring required; I think only th=
+e heater connections are the same.  Some Rock-Ola amps (eg 429) used EL84s =
+so if you are determined to go this route, then just re-wire like the Rock-=
+Ola.  The HT supply to the EL84s on the Rock-Ola is 310V so an adjustment f=
+or this would be required, as Jay also indicated.
+>=20
+>=20
+> I also happen to think that EL84s produce a nicer sound than 6973s - noth=
+ing like being controversial, eh?
+>=20
+> Norman.
+>=20
+>=20
+> ________________________________
+> From: Jay Hennigan <jay@west.net>
+> To: Jukebox mailing list <jukebox-list@lists.netlojix.com>=20
+> Sent: Sunday, 11 November 2012, 5:17
+> Subject: Re: [Jukebox-list] 6973 to el84 info needed.
+>=20
+> On 11/10/12 8:41 PM, Ed Owens wrote:
+>> Howdy, =20
+>>    I'm getting close to finishing my ami continental 2.  I have all the =
+tubes except the 6973s.  I have a pile of el84 tubes and have read I can us=
+e these as a sub.  I am ok with rewiring the sockets and I also understand =
+I need to change a resistor per socket.  According to the schematic this re=
+sistor is currently 470k and they are reading at 550k.
+>>    Is there any info out there on what needs to be done for this convers=
+ion.  Any one know what value resistor I need to change to.
+>=20
+> The EL84 has a maximum rated plate voltage of 300 volts.  Using these in
+> most 6973 applications means that the tube will be operating beyond its
+> specifications.
+>=20
+> There are some EL84 variants with higher voltage ratings that could
+> work, but 6973s are now being produced by Electro-Harmonix at reasonable
+> prices.
+>=20
+> I would get new EH 6973s rather than rewire, which is a relatively
+> daunting process as almost all of the pins will need to be rewired.
+>=20
+> --
+> Jay Hennigan - CCIE #7880 - Network Engineering - jay@impulse.net
+> Impulse Internet Service  -  http://www.impulse.net/
+> Your local telephone and internet company - 805 884-6323 - WB6RDV
+> _______________________________________________
+> Jukebox-list mailing list
+> Jukebox-list@lists.netlojix.com
+> http://lists.netlojix.com/mailman/listinfo/jukebox-list
+> Searchable Archives: http://jukebox.markmail.org/
+> _______________________________________________
+> Jukebox-list mailing list
+> Jukebox-list@lists.netlojix.com
+> http://lists.netlojix.com/mailman/listinfo/jukebox-list
+> Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

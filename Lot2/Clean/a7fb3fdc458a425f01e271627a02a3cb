@@ -1,0 +1,18 @@
+Subject:Ejecutar comando minutos despues
+Hola!
+Tengo un script que ejecuta un proceso para abrir un puerto, pero
+quiero que luego de la ejecuci=F3n de este, 30 minutos despu=E9s ejecute
+otro script, el detalle es que el script inicial se ejecuta
+manualmente por lo que no puedo ponerlo en el crontab.
+Es posible hacer esto sin tener que hacer un sleep en el script
+inicial para ejecutar el segundo script? He buscado con el comando
+cron, pero creo que no es para el objetivo que quiero, o la verdad no
+estoy seguro porque no lo he logrado.
+Saludos de antemano.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJUzirFdLhFD+YJpGUKHNM725y=vrhpAheuiVOWW9uC9fxE9rg@mail.gmail.com
+

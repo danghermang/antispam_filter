@@ -1,0 +1,25 @@
+Subject:Re: [arin-ppml] Utilization policy is not aggregate
+On Fri, Nov 16, 2012 at 12:53 AM, Scott Leibrand
+<scottleibrand@gmail.com> wrote:
+> Not necessarily opposed, but one reason for the existing
+> language is: if you are at 90% of a /16, and your 3 month
+> need is only for a /20, then you would still be at >80%
+> immediately after getting your /20, without using a bit of it.
+> If you have to use 80% (or even 50%) of all allocations,
+> that eliminates that loophole.
+
+Do you have to use 80% on all allocations? Or just the most recent one?
+
+-Bill
+
+-- 
+William D. Herrin ................ herrin@dirtside.com  bill@herrin.us
+3005 Crane Dr. ...................... Web: <http://bill.herrin.us/>
+Falls Church, VA 22042-3004
+_______________________________________________
+PPML
+You are receiving this message because you are subscribed to
+the ARIN Public Policy Mailing List (ARIN-PPML@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-ppml
+Please contact info@arin.net if you experience any issues.

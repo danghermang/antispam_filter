@@ -1,0 +1,27 @@
+Subject:Re: [squeeze] =?utf-8?Q?ex=C3=A9cuter_des_?=
+	=?utf-8?Q?commandes_avec_droits_root_=28hypoth=C3=A8se?= sudo)
+
+    Bonjour,
+
+
+Le vendredi 02 novembre 2012, Grégory Bulot a écrit...
+
+> MYADMINS ALL=(ALL) NOPASSWD: PKGMGMT, SHUTDOWN   
+
+PKGMGMT et SHUTDOWN semblent être ce que sudo appelle des Cmnd_Alias,
+mais ils ne sont pas définis :
+
+Cmnd_Alias SHUTDOWN = /sbin/shutdown
+
+-- 
+jm
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121103063709.GA8698@espinasse
+

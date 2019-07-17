@@ -1,0 +1,38 @@
+Subject:Re: Sobre cambio de =?ISO-8859-1?Q?contrase=F1as?= a usuarios.
+El Mon, 19 Nov 2012 16:02:37 -0500 (CST)
+academia@pinarte.cult.cu escribi=F3:
+
+> Hola lista. Tengo algunas estaciones de trabajo (Debian 6) que NO est=E1n
+> CONECTADAS al DOMINIO de mi red local. Quisiera saber c=F3mo lograr que p=
+ara
+> cada usuario en dichas PCs cada cierto tiempo, ej. cada 45 d=EDas, obligue
+> al usuario cambiar la contrase=F1a. Si existe alg=FAn GUI para implementa=
+rlo,
+> por favor se lo agradecer=EDa.
+>=20
+> Saludos
+>=20
+>=20
+
+man shadow
+
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/55849.192.168.1.95.1353358957.squirrel@w=
+ww.correo.pinarte.cult.cu
+>=20
+
+
+--=20
+Angel Claudio Alvarez <angel@angel-alvarez.com.ar>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121120172133.88816460212ce973898cca2e@angel-alvarez.com.ar
+

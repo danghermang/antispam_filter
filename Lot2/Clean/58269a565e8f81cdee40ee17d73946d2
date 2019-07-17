@@ -1,0 +1,83 @@
+Subject:Re: Wheezy : freezes totaux =?UTF-8?B?ZnLDqXF1ZW50cw==?= sur un
+	nouveau portable.
+On Mon, 24 Sep 2012 12:17:56 +0200
+Antoine <antoineflg@gmail.com> wrote:
+
+> Et en lan=C3=A7ant un "samrtctl -all /dev/sda", j'obtiens une valeur de
+> 69 pour le r=C3=A9sultat suivant : 5 Reallocated_Sector_Ct
+>=20
+> 3. Je ne vois pas trop comment comparer taille d=C3=A9clar=C3=A9e et tail=
+le=20
+> physique r=C3=A9elle ?
+
+Ben la taille lue dans Linux (en blocs ou secteurs ou mieux en
+bytes), et ce que fdisk retourne.
+=20
+Mais vu que =C3=A7a continue je recommencerai plut=C3=B4t =C3=A0 z=C3=A9ro,=
+ avec boot
+sur liveCD|cl=C3=A9 USB, cr=C3=A9ation d'une seule partoche prenant 100% du=
+ SSD
+et un mkfs.ext4 -c -c qui va d=C3=A9clencher un test read/write multiple
+lors du formatage au lieu d'un test read only.
+L'avantage, c'est que ce test utilise des patterns multiples et
+laisse rarement passer un secteur d=C3=A9fectueux; l'inconv=C3=A9nient c'est
+qu'il est Tlong (sur HD normal, sur SSD s=C3=A8p=C3=B4).
+Au moins avec =C3=A7a tu en auras le c=C5=93ur net sur la viabilit=C3=A9 du=
+ SSD.
+
+Voil=C3=A0 ce que =C3=A7a donne sur une petite cl=C3=A9 USB (en ext2) quand=
+ =C3=A7a se
+passe bien:
+
+# mke2fs -c -c -v -m0 /dev/sdg1
+mke2fs 1.42.5 (29-Jul-2012)
+fs_types for mke2fs.conf resolution: 'ext2', 'small'
+Filesystem label=3D
+OS type: Linux
+Block size=3D1024 (log=3D0)
+Fragment size=3D1024 (log=3D0)
+Stride=3D0 blocks, Stripe width=3D0 blocks
+63488 inodes, 253408 blocks
+0 blocks (0.00%) reserved for the super user
+First data block=3D1
+Maximum filesystem blocks=3D67371008
+31 block groups
+8192 blocks per group, 8192 fragments per group
+2048 inodes per group
+Superblock backups stored on blocks:=20
+	8193, 24577, 40961, 57345, 73729, 204801, 221185
+
+Running command: badblocks -b 1024 -X -s -w /dev/sdg1 253407
+Testing with pattern 0xaa: done                                            =
+    =20
+Reading and comparing: done                                                =
+=20
+Testing with pattern 0x55: done                                            =
+    =20
+Reading and comparing: done                                                =
+=20
+Testing with pattern 0xff: done                                            =
+    =20
+Reading and comparing: done                                                =
+=20
+Testing with pattern 0x00: done                                            =
+    =20
+Reading and comparing: done                                                =
+=20
+Allocating group tables: done                           =20
+Writing inode tables: done                           =20
+Writing superblocks and filesystem accounting information: done=20
+
+--=20
+Marie: Tu sais qu'il y a un truc bizarre entre toi et moi
+J=C3=A9r=C3=A9my: Un ordinateur?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120924123632.6d4d9195@anubis.defcon1
+

@@ -1,0 +1,31 @@
+Subject:Re: Conexiones SMTP activas
+El Thu, 08 Nov 2012 14:14:56 -0500, Josué Marrero Bermúdez escribió:
+
+> Tengo un servidor de correo con postfix y demas artilugios en plena
+> produccion en mi empresa, y me gustaria poder revisar el comportamiento
+> de las conexiones SMTP entrantes y salientes, ver de donde y hacia donde
+> se realizan..y en tiempo real por supuesto, no un resumen de esos de fin
+> de dia.
+> 
+> He revisado un poco En la red pero no he encontrado nada..solo unas
+> consultas con netstat, pero no me brindan mucha informacion en
+> realidad..o al menos no en el formato que quisiera.
+
+Recuerdo que Pflogsumm te sacaba estadísticas de las conexiones entrantes/
+salientes pero no en tiempo real sino a modo de registro para su 
+posterior análisis.
+
+Como herramientas de apoyo tienes las del tipo de sar (sysstat) y si 
+necesitas algo más más complejo munin, nagios o cacti.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7j5im$5pg$1@ger.gmane.org
+

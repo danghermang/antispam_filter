@@ -1,0 +1,35 @@
+Subject:	=?UTF-8?Q?Distribution_bas=C3=A9e_sur_Debian_pour_kiosk=2F=C3=A9cran_tac?=
+	=?UTF-8?Q?tile?=
+Hello,
+
+Je suis =C3=A0 la recherche d'une distribution Debian, ou =C3=A9ventuelleme=
+nt
+d'un repository d=C3=A9di=C3=A9, afin de mont=C3=A9 une machine de type kio=
+sk.
+
+Le besoin?
+- reconnaissance tactile uTouch
+- ouverture en pleine =C3=A9cran d'une page web
+- ouverture d'un clavier tactile lors de la s=C3=A9lection d'un inputbox
+sur ma page html
+
+Et c'est tout... Actuellement, y a un pseudo montage bas=C3=A9 sur une
+Ubuntu 12, mais ca marche tr=C3=A8s mal... Et j'en suis pas satisfait...
+Donc je voudrais revenir =C3=A0 mes vrai amour... Du Debian pur. Et refaire
+la configuration plus proprement.
+
+Est-.ce que l'un de vous a d=C3=A9ja une exp=C3=A9rience de ce cot=C3=A9 la=
+? Une
+distrib =C3=A0 conseiller? Ou un repository?
+Merci.
+Olivier
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CABGC0bvdSYc2tFTB2YrcLmrougHczjLZEgSaaQnb0_E2pYyPLA@mail.gmail.com
+

@@ -1,0 +1,32 @@
+Subject:Re: Outil de synchronisation de dossiers...
+
+>=20
+> J'ai =C3=A9galement essay=C3=A9 Unison mais il ne sais pas directement ut=
+iliser
+> smb et je n'aime pas la solution qui consiste =C3=A0 dire =C3=A0 mes util=
+isateur
+> =C2=AB Il suffit de faire un montage smb et d'utiliser autofs... =C2=BB) =
+L'acc=C3=A8s
+> aux deux dossiers se fait parfaitement dans Nautilus et m=C3=AAme =C3=A0 =
+partir
+> d'application comme LibreOffice... Comment justifier le fait de devoir
+> faire d'autre trucs du genre montage, etc. ?
+>=20
+
+Perso j'utilise unison depuis pas mal de temps avec un lien "ssh" et je
+trouve que =C3=A7a marche tr=C3=A8s bien, sans faire de montage. Bon, sous =
+windows
+j'avais du mettre je ne sais plus quel serveur ssh, mais =C3=A7a tournait
+nikel.
+
+Thierry
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120906163015.28c0d5b4@archimede4.rocq.inria.fr
+

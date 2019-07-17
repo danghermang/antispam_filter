@@ -1,0 +1,440 @@
+Subject:Mail delivery failed: returning message to sender
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  daegansmith@fusedesk.com
+    SMTP error from remote mail server after end of data:
+    host outscan.junkemailfilter.com [184.105.182.200]:
+    550-REJECTED - SpamAssassin rejected - Score=26 (21) X=outscan
+    550-H=smtpvault.secure-cluster.com [216.38.13.106]
+    550-HELO=[smtpvault.secure-cluster.com] F=[bill4cars@yahoo.com]
+    550-T=[daegansmith@fusedesk.com] S=[Re: How to use your blog to recruit ...] -
+    550-X=outscan H=smtpvault.secure-cluster.com [216.38.13.106]
+    550-HELO=[smtpvault.secure-cluster.com] F=[bill4cars@yahoo.com]
+    550 T=[daegansmith@fusedesk.com] S=[Re: How to use your blog to recruit ...]
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <bill4cars@yahoo.com>
+Received: from [208.100.9.137] (helo=control.expansioncloud.com)
+	by smtpvault.secure-cluster.com with esmtp (Exim 4.72)
+	(envelope-from <bill4cars@yahoo.com>)
+	id 1Ti6Ah-0000J9-Sz
+	for daegansmith@fusedesk.com; Mon, 10 Dec 2012 10:25:35 -0600
+Received: (qmail 17060 invoked by uid 108); 10 Dec 2012 10:25:35 -0600
+Delivered-To: info@daegansmith.com
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on
+	control.expansioncloud.com
+X-Spam-Level: *
+X-Spam-Status: No, score=1.3 required=4.5 tests=FREEMAIL_FROM,HTML_MESSAGE,
+	RCVD_IN_DNSWL_NONE,RDNS_NONE,T_DKIM_INVALID autolearn=disabled version=3.3.1
+Received: (qmail 17008 invoked by uid 108); 10 Dec 2012 10:25:34 -0600
+Received: from unknown (HELO nm24-vm0.bullet.mail.bf1.yahoo.com) (98.139.213.161)
+  by control.expansioncloud.com with ESMTPS; 10 Dec 2012 10:25:32 -0600
+Received-SPF: none (control.expansioncloud.com: domain at yahoo.com does not designate permitted sender hosts)
+Received: from [98.139.212.150] by nm24.bullet.mail.bf1.yahoo.com with NNFMP; 10 Dec 2012 16:25:30 -0000
+Received: from [98.139.212.237] by tm7.bullet.mail.bf1.yahoo.com with NNFMP; 10 Dec 2012 16:25:30 -0000
+Received: from [127.0.0.1] by omp1046.mail.bf1.yahoo.com with NNFMP; 10 Dec 2012 16:25:30 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 817051.33705.bm@omp1046.mail.bf1.yahoo.com
+Received: (qmail 65568 invoked by uid 60001); 10 Dec 2012 16:25:30 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1355156730; bh=+DBvMe7cff7qDo/ANn2meYFNhkqK7z0HS5xpc2iO+Ug=; h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type; b=cThIFyNN+SEMCrJ+ixZrToWnL6fnszZIjbomtdm3lfR1P6Jn3K4/8dxxXnFtPr8KtFxu3qd/prP6TuxhDnYUOsjM6wfGMPeeVsWbNLI9GplJ2KKyvpmxStfwopPGyIri+VnD898EQ6kWS9d9ky+AGXvcePU3gjlhJsuFz/Yctck=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com;
+  h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type;
+  b=vtZx2n69In+yxZwpM0wueWMrSWXH4OVJUCYuDDio/Nft1r4Gta8LCSA2dQPpFi3dd8TRfqv+wKFKVU5OXKgFqYLe3VwB+yuN7Q1AyTuPsYV7rNJ2Iy2Q07TPrJTqdyriOQdMMGzl6vVCdDgK/iW7WNTpCq8WAihHxvRvuZaM/h0=;
+X-YMail-OSG: oxIkPMIVM1ldwq3w63QLXWrX14P1r9JFB1tz15Oh3mELTcR
+ oIlteIydQtNU4Z6ZFiIteoQ4QHKgwuXeBRsSncxUo.3fxz4giNY0DVN4exDh
+ iJu1i2LH4dovQOXe8cOtOv.O9JKRgY19csRBOZbQcU3zhgOFAutP6XxTeyhV
+ wsnGQU.hnXpMrhwtVEgiipX.whhaq49E9uC58HY62fCxaOcKu6StHcSna7Jt
+ KSIdkZ6Szkk4xiqs7Qel9_dgDy7pnU2iGrl2dOkhtx3konqkHnOYdX1LDDyt
+ mNYm4TCfBhQIAcYsQvLYNwCk0XXGjWDs4IM5YVqH9dwCbjwebCInbMrBpquF
+ A4c.YD3XJVAAYvBg3AotIXSitX8Xg6MAJFo6Ua5L_X6UYX6y.z125N1WsWw.
+ lLlRrtO8GYtv3GLpShSByDku4BnULn6fJSieIcbroINlcjQvhpmdGq_BZcSh
+ rQJKSEp6Bl9IJ7etkSzIqYD1wpMpujvB_xJT8sjjHtgmo_pXcQf4O85eM9vY
+ rT3zA1eC0ASjvwOViiH7VATXYNb9zt8JZMJmm9AzYRBv978F7cnk30fsnviD
+ ql22gPSP9u9EN_PnOb12TLIsMbaa3U45J_nvZiVqrAm.82c6TCTzYhnNRxPV
+ A4WhJ.lW1_EcGf0E-
+Received: from [68.51.151.90] by web160206.mail.bf1.yahoo.com via HTTP; Mon, 10 Dec 2012 08:25:30 PST
+X-Rocket-MIMEInfo: 001.001,cGxlYXNlIGNhbGwgbWUuLi4uLi45MTItMzc2LTcwMDkuLi4uIHRoYW5rcwoKCsKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgIEVOSk9ZIFRIRSBEQVksIE1BS0UgSVQgQ09VTlQuLi4uLi4uLgrCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoCBCSUxMIEhBSU5FU1BsZWFzZSBjYWxsIG1lCiAKCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCiBGcm9tOiBEYWVnYW4gU21pdGggPGluZm9AZGFlZ2Fuc21pdGguY29tPgpUbzogSGV5IEJ1ZGQBMAEBAQE-
+X-Mailer: YahooMailWebService/0.8.128.478
+References: <1355123001.581380@comlev.com>
+Message-ID: <1355156730.57377.YahooMailNeo@web160206.mail.bf1.yahoo.com>
+Date: Mon, 10 Dec 2012 08:25:30 -0800 (PST)
+From: bill haines <bill4cars@yahoo.com>
+Reply-To: bill haines <bill4cars@yahoo.com>
+Subject: Re: How to use your blog to recruit ...
+To: "info@daegansmith.com" <info@daegansmith.com>
+In-Reply-To: <1355123001.581380@comlev.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="-554184862-277698272-1355156730=:57377"
+
+---554184862-277698272-1355156730=:57377
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+please call me......912-376-7009.... thanks=0A=0A=0A=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0 ENJOY THE DAY, MAKE IT COUNT........=0A=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0 BILL HAINESPlease call me=0A =0A=0A________________________________=0A =
+From: Daegan Smith <info@daegansmith.com>=0ATo: Hey Buddy! <bill4cars@yahoo=
+.com> =0ASent: Monday, December 10, 2012 2:03 AM=0ASubject: How to use your=
+ blog to recruit ...=0A  =0AWant to guarantee you make money in your =0Ahom=
+e business using just the Internet?=0AIt's all about leverage, watch this:=
+=0A=0Ahttp://comlev.com/click.html?x=3Da62a&lc=3DoI&mc=3Dl&s=3D34DY&y=3DH&=
+=0A=0ARE: How to use your blog to recruit ...=0A=0ANot all that long ago in=
+ our regularly=0Ascheduled "Inner Circle" no holds barred=0Aq and a session=
+ we discussed the proper=0Ause of blogging to recruit and enhance=0Ayour ho=
+me business. Make no mistake=0Ablogging is extremely powerful as a=0Abusine=
+ss building tool "if" used=0Aproperly, here's how to do it =0Aright . . .=
+=0A=0AOne of the biggest mistake I see people=0Amaking in their blogging ef=
+forts is=0A"why" they use them. Most people tend to=0Athink of blogging as =
+a primary traffic=0Ageneration strategy, and it can be, but=0Ait's not THE =
+best use of a blog in our=0Atype of business.=0A=0AYou should think of blog=
+ traffic more=0Alike icing on the cake. The primary and=0AMOST powerful use=
+ of starting and using=0Aa blog in your business is it's ability=0Ato creat=
+e a powerful testimonial for=0Ayou. Let me explain . . .=0A=0AWhen I starte=
+d my first successful=0Abusiness here's exactly what I did. On=0Aan almost =
+daily basis I blogged about=0Asomething relating to my business, at=0Athe t=
+op of that blog I would always note=0Athe number of people in our team, and=
+=0Athen carry on with the message.=0A=0ASometimes if I had new recruits I w=
+ould=0Acreate a formal blog welcome to my new=0Ateam mates by listing their=
+ names and=0Awelcoming them to the team.=0A=0AIf there was a co-op, adverti=
+sing=0Astrategy that was working well for me,=0Ayou better bet I put in on =
+that blog.=0A=0AWhy? Well, I haven't told you how I used=0Amy blog to recru=
+it yet (we'll get to=0Athat in a second), but along with using=0Aa blog to =
+recruit I also constantly=0Areferred my team members there for any=0Aand al=
+l updates on our business.=0A=0AIt was a central meeting point. As a=0Aresu=
+lt my team always checked the blog=0Ato see what was going on in our=0Abusi=
+ness. This was important for two=0Areasons:=0A=0AFirst, easy access to impo=
+rtant current=0Ainformation pertaining to our team, and=0Asecond as team wi=
+de social proof.=0A=0AThey came to the blog and saw the number=0Aof people =
+on the team growing and=0Awelcome messages to our new team members=0Aand su=
+bconsciously it helped raise their=0Abelief level about the business they=
+=0Awere in.=0A=0AIt's sometimes easy for a new recruit to=0Aget discouraged=
+ without encouragement=0Aand the blog helped give them that=0Aencouragement=
+ they needed. As a result=0Athey "believed" in the business, and=0Atook mor=
+e proactive action to go out and=0Ado what we were doing to grow which=0Atr=
+anslated into a higher rate of=0Aduplication in the business and longer=0Ar=
+etention.=0A=0ASo let's recap so far, we've got a blog=0Awhere we're bloggi=
+ng about our team,=0Awhat we're doing to advertise, we're=0A"training" our =
+team members to check the=0Ablog often for advice and encouragement=0Aand a=
+s a result their using that=0Amotivation to go out and build. This=0Acauses=
+ the team to grow faster,=0Astronger, and better.=0A=0AWhat do we have? Tha=
+t sounds like a=0Apretty darn powerful testimonial to me.=0AAnd that's the =
+primary use of the blog=0Aas far as recruiting is concerned as I=0Amentione=
+d earlier.=0A=0AThe mistake most people make is they=0Awant to blog for tra=
+ffic, which you can=0Ado, and I'll share a few tips to doing=0Athat better =
+in a few, but not it's best=0Ause for recruiting. Here's how to use=0Ayour =
+blog to recruit . . .=0A=0AI'd generate leads directly to my own=0Alead cap=
+ture page or my company's lead=0Acapture page. Once I saw my lead opt in=0A=
+I would send them a personal email to=0Atell them a little bit about myself=
+, our=0Ateam, and our business. In that email I=0Awould always include a li=
+nk to my blog=0Aso my prospects could get an inside look=0Aat who I and our=
+ team was doing.=0A=0AThis is powerful as heck for a couple=0Areasons where=
+ recruiting is concerned.=0A=0AFirst, people are inherently=0Avoyeuristic. =
+They wanna spy, so let=0Athem. By sending my prospects to my blog=0Athey no=
+w had the opportunity to get to=0Aknow me and my team without me even=0Abei=
+ng there. As a result, when we did=0Ahave an email correspondence or they=
+=0Acalled me they already knew me.=0A=0AI've always found this to be a MUCH=
+=0Abetter option than cold calling leads. I=0Alet them get to know me first=
+.=0A=0ASecond reason this is powerful is based=0Aon a principle called "The=
+ Power Of=0ADocumentation" which states we as humans=0Atend to take things =
+which we read as=0Amore truthful than things we just hear.=0A=0AIn other wo=
+rds, a prospect who goes to=0Ayour blog and reads about you and your=0Ateam=
+ is going to take what they read=0Athere at face value where if you're on=
+=0Athe phone telling them the same thing=0Athey're most likely saying "Yeah=
+ right"=0A=0AIf you've ever called leads and had that=0Aquestion come up of=
+ "Well why should I=0Ajoin you?" Having and sending your=0Aprospects to you=
+r blog first will=0Avirtually eliminate this objection and=0Aignite powerfu=
+l curiosity and intrigue=0Aabout you and what you do.=0A=0ASo, when it come=
+s to using a blog to=0Arecruit, it's best us is as a secondary=0Atraffic st=
+rategy. You get the lead, then=0Ayou send them to your blog for a=0Apowerfu=
+l testimonial.=0A=0ASo I can hear the question welling up=0A"What should I =
+put on my blog to start?"=0ASimple, talk about yourself, your=0Acompany's p=
+roducts and service, why you=0Alove your company, your team, AND here's=0Aa=
+ key . . .=0A=0AAsk your upline or downline to write you=0Aa quick note abo=
+ut why it's great to=0Awork with you and put it on your blog.=0A=0AYou do t=
+hat, and you've covered all your=0Abases. Not only are your prospects=0Alea=
+rning about you, why you like what=0Ayou do, your personality, your team, B=
+UT=0Athey're also SEEING other people saying=0Agreat things about you. Thir=
+d party=0Avalidation about you is a powerful=0Athing.=0A=0ASimply doing thi=
+s and nothing else, I=0Awas surprised to see that after about=0Asix months =
+of consistent blogging my=0Ablog received about 300 site views per=0Aday fr=
+om people finding online via=0Asearch engines. I did nothing but blog,=0Abu=
+t just because I had content on the=0Ablog I had tons of people finding it =
+for=0Afree, and as a result, calls out of the=0Ablue from people saying "ye=
+ah I found=0Ayour blog, what's up with your business"=0A(kinda cool)=0A=0AS=
+o let me share a few things you can do=0Ato improve you search engine ranki=
+ngs=0Afor you blog posts to enhance your free=0Atraffic.=0A=0AFirst, do a l=
+ittle keyword research=0Ausing the Google Keyword tool. Find a=0Afew keywor=
+ds related to business and use=0Athose keywords in your blog title, and a=
+=0Afew times, along with a few synonyms for=0Athat main keyword in your blo=
+g post.=0A=0AOne secret strategy that's really=0Aincreased my blog traffic =
+personally is=0Ausing images in my blog.=0A=0AOn blog posts where I insert =
+an image to=0Acorrespond to the blog post keyword I=0Atend to get about dou=
+ble the traffic. So=0Afind a few images related to your blog=0Apost keyword=
+.=0A=0AName those images as your main keyword,=0Afor instance if my blog po=
+st was based=0Aon the keyword "internet network=0Amarketing" then then I wo=
+uld find 3=0Aimages I could use for that keyword and=0AI would name the ima=
+ges:=0A=0Ainternet-network-marketing1.jpg,=0Ainternet-network-marketing2.jp=
+g,=0Ainternet-network-marketing3.jpg =0Aetc.=0A=0ASearch engines rank you b=
+ased on how=0Amany other websites link to your post=0Arelated to your keywo=
+rds, so when you=0Acreate a new blog post, write an article=0Awith the same=
+ keyword and submit it to=0Athe major article directories with a=0Alink goi=
+ng back to your main blog post.=0A=0AFind a few other blogs in the niche an=
+d=0Acomment on a few post and link back to=0Ayour blog post.=0A=0ACreate a =
+facebook, twitter, myspace,=0Asquidoo account and post some content=0Abased=
+ on the keyword and link those back=0Ato your blog post.=0A=0AYou do that f=
+or you blog and you're=0Aahead of 99% of marketers.=0A=0ASo now that we've =
+got traffic down,=0Alet's talk about $$$, how do you make=0Amoney with your=
+ blog? I think the=0Asimplest way to make money with blog=0Afrom the outset=
+ is to simply add Google=0AAdsense to each blog post, not so much=0Abecause=
+ you'll make a ton of cash from=0Ait, but when people do click on your=0AGo=
+ogle Adsense ads on your blog you'll=0Amake a few bucks which is powerful=
+=0Apositive reinforcement for your efforts=0Ain the early going.=0A=0AIt'll=
+ fuel you forward. You'll see money=0Acoming in and you'll get excited.=0A=
+=0AThe best long term way to make money=0Awith your blog though is . . .=0A=
+=0AIntegrating your blog with your email=0Amarketing efforts. I love using =
+the one=0Atwo punch of email marketing and=0Ablogging because it allows you=
+ to change=0Athe dynamic of your email messages to=0Ayour prospects from a =
+one way=0Aconversation to a two way conversation=0Aby giving your prospects=
+ the ability to=0Acomment back to you.=0A=0AGetting people involved and com=
+menting=0Aon your blog is a powerful way to build=0Atrust. Think of your bl=
+og as a=0Aconversation and you'll see the bond=0Abetween you and your prosp=
+ects growing=0Astronger daily and for it your income=0Awill increase.=0A=0A=
+There are two powerful benefits of=0Aturning your emails into a blog=0Aconv=
+ersation.=0A=0AThe first is simply when people get=0Ainvolved and proactive=
+ly comment they've=0Ataking a powerful step into your world.=0AThe second b=
+enefit is a little more=0Asneaky, but extremely powerful.=0A=0ASay you send=
+ a prospect to your blog to=0Ashare an important post today and 15=0Apeople=
+ comment on that post. Great!=0A=0AWell what if you take the email that you=
+=0Asent people to your blog and add it to=0Ayour auto responder?=0A=0ANow t=
+he leads that join your list 3=0Amonths from now will get that email=0Aauto=
+matically via your autoresponder=0Aemail sequence you set up and when they=
+=0Aget to the post not only are they going=0Ato get to participate in a con=
+versation=0Ayou set up on autopilot, but they'll=0Aalso see all the people =
+that commented=0Aprior and say . . .=0A=0A"Wow! I just got this email and 1=
+5=0Apeople already comment there must be a=0Alot of people listening in." a=
+nd hence=0Aconclude you're a good teacher and=0Asomeone a LOT of people lis=
+ten to.=0A=0ASo there's more I could go into on=0Ablogging, but I think tha=
+t's plenty for=0Anow. No matter what you do if=0Ayou haven't checked out th=
+is free=0Awebsite. Go here now:=0A=0Ahttp://comlev.com/click.html?x=3Da62a&=
+lc=3DoI&mc=3Dl&s=3D34DY&y=3DH&=0A=0ATo the top,=0A=0ADaegan =0A=0A=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =0AHow To Make Money By=0ASimply Sharing Thi=
+s Lesson=0A=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =0A=0AWould you like to =
+share this valuable=0Alesson and create a new residual income=0Astream for =
+free to boot? It's a simple=0Aas 1-2-3!=0A=0A1. Join our partner program he=
+re:=0A=0Ahttp://comlev.com/click.html?x=3Da62a&lc=3DQM&mc=3Dl&s=3D34DY&y=3D=
+n&=0A=0A2. Use your partner link you'll receive=0Aafter joining.=0A=0A3. Po=
+st this lesson to your blog with=0Ayour partner link, load it as an email=
+=0Ato your autoresponder series, and send=0Ait out as a broadcast article t=
+o your=0Asubscribers.=0A=0A=0A---=0A=0Ahttp://comlev.com/click.html?x=3Da62=
+a&lc=3Dbo&mc=3Dl&s=3D34DY&y=3DS&=0A=0AMaximum Leverage LLC=0A1924 15th St. =
+=0AWashington DC 20020=0AUnited States=0A=0A--=0ATo unsubscribe or to chang=
+e your contact details, visit:=0Ahttp://comlev.com/u?x=3Da62a&m=3D0&r=3DH&s=
+=3Dfump&t=3D3&y=3DS&
+---554184862-277698272-1355156730=:57377
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:ve=
+rdana, helvetica, sans-serif;font-size:18pt"><div><span>please call me.....=
+.912-376-7009.... thanks</span></div><div></div><div>&nbsp;</div><div><b><e=
+m><font color=3D"#00ffff" size=3D"5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ENJOY THE DAY, MAKE IT COUNT......=
+..</font></em></b></div><div style=3D"color: rgb(0, 255, 255); font-family:=
+ arial, helvetica, clean, sans-serif; font-size: 24px; font-style: italic; =
+font-weight: bold; background-color: transparent;">&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; <font face=3D"bookman old style, new york, times, serif">BILL =
+HAINESPlease call me</font></div><div><br></div>  <div style=3D"font-family=
+: verdana, helvetica, sans-serif; font-size: 18pt;"> <div style=3D"font-fam=
+ily:
+ times new roman, new york, times, serif; font-size: 12pt;"> <div dir=3D"lt=
+r"> <font size=3D"2" face=3D"Arial"> <div style=3D"margin: 5px 0px; padding=
+: 0px; border: 1px solid rgb(204, 204, 204); height: 0px; line-height: 0; f=
+ont-size: 0px;" class=3D"hr" contentEditable=3D"false" readonly=3D"true"></=
+div>  <b><span style=3D"font-weight: bold;">From:</span></b> Daegan Smith &=
+lt;info@daegansmith.com&gt;<br> <b><span style=3D"font-weight: bold;">To:</=
+span></b> Hey Buddy! &lt;bill4cars@yahoo.com&gt; <br> <b><span style=3D"fon=
+t-weight: bold;">Sent:</span></b> Monday, December 10, 2012 2:03 AM<br> <b>=
+<span style=3D"font-weight: bold;">Subject:</span></b> How to use your blog=
+ to recruit ...<br> </font> </div> <br>=0AWant to guarantee you make money =
+in your <br>home business using just the Internet?<br>It's all about levera=
+ge, watch this:<br><br><a href=3D"http://comlev.com/click.html?x=3Da62a&amp=
+;lc=3DoI&amp;mc=3Dl&amp;s=3D34DY&amp;y=3DH&amp;" target=3D"_blank">http://c=
+omlev.com/click.html?x=3Da62a&amp;lc=3DoI&amp;mc=3Dl&amp;s=3D34DY&amp;y=3DH=
+&amp;</a><br><br>RE: How to use your blog to recruit ...<br><br>Not all tha=
+t long ago in our regularly<br>scheduled "Inner Circle" no holds barred<br>=
+q and a session we discussed the proper<br>use of blogging to recruit and e=
+nhance<br>your home business. Make no mistake<br>blogging is extremely powe=
+rful as a<br>business building tool "if" used<br>properly, here's how to do=
+ it <br>right . . .<br><br>One of the biggest mistake I see people<br>makin=
+g in their blogging efforts is<br>"why" they use them. Most people tend to<=
+br>think of blogging as a primary traffic<br>generation strategy, and it ca=
+n be, but<br>it's not THE best use of a blog in our<br>type
+ of business.<br><br>You should think of blog traffic more<br>like icing on=
+ the cake. The primary and<br>MOST powerful use of starting and using<br>a =
+blog in your business is it's ability<br>to create a powerful testimonial f=
+or<br>you. Let me explain . . .<br><br>When I started my first successful<b=
+r>business here's exactly what I did. On<br>an almost daily basis I blogged=
+ about<br>something relating to my business, at<br>the top of that blog I w=
+ould always note<br>the number of people in our team, and<br>then carry on =
+with the message.<br><br>Sometimes if I had new recruits I would<br>create =
+a formal blog welcome to my new<br>team mates by listing their names and<br=
+>welcoming them to the team.<br><br>If there was a co-op, advertising<br>st=
+rategy that was working well for me,<br>you better bet I put in on that blo=
+g.<br><br>Why? Well, I haven't told you how I used<br>my blog to recruit ye=
+t (we'll get to<br>that in a second), but along with using<br>a blog
+ to recruit I also constantly<br>referred my team members there for any<br>=
+and all updates on our business.<br><br>It was a central meeting point. As =
+a<br>result my team always checked the blog<br>to see what was going on in =
+our<br>business. This was important for two<br>reasons:<br><br>First, easy =
+access to important current<br>information pertaining to our team, and<br>s=
+econd as team wide social proof.<br><br>They came to the blog and saw the n=
+umber<br>of people on the team growing and<br>welcome messages to our new t=
+eam members<br>and subconsciously it helped raise their<br>belief level abo=
+ut the business they<br>were in.<br><br>It's sometimes easy for a new recru=
+it to<br>get discouraged without encouragement<br>and the blog helped give =
+them that<br>encouragement they needed. As a result<br>they "believed" in t=
+he business, and<br>took more proactive action to go out and<br>do what we =
+were doing to grow which<br>translated into a higher rate
+ of<br>duplication in the business and longer<br>retention.<br><br>So let's=
+ recap so far, we've got a blog<br>where we're blogging about our team,<br>=
+what we're doing to advertise, we're<br>"training" our team members to chec=
+k the<br>blog often for advice and encouragement<br>and as a result their u=
+sing that<br>motivation to go out and build. This<br>causes the team to gro=
+w faster,<br>stronger, and better.<br><br>What do we have? That sounds like=
+ a<br>pretty darn powerful testimonial to me.<br>And that's the primary use=
+ of the blog<br>as far as recruiting is concerned as I<br>mentioned earlier=
+.<br><br>The mistake most people make is they<br>want to blog for traffic, =
+which you can<br>do, and I'll share a few tips to doing<br>that better in a=
+ few, but not it's best<br>use for recruiting. Here's how to use<br>your bl=
+og to recruit . . .<br><br>I'd generate leads directly to my own<br>lead ca=
+pture page or my company's lead<br>capture page. Once I saw my lead
+ opt in<br>I would send them a personal email to<br>tell them a little bit =
+about myself, our<br>team, and our business. In that email I<br>would alway=
+s include a link to my blog<br>so my prospects could get an inside look<br>=
+at who I and our team was doing.<br><br>This is powerful as heck for a coup=
+le<br>reasons where recruiting is concerned.<br><br>First, people are inher=
+ently<br>voyeuristic. They wanna spy, so let<br>them. By sending my prospec=
+ts to my blog<br>they now had the opportunity to get to<br>know me and my t=
+eam without me even<br>being there. As a result, when we did<br>have an ema=
+il correspondence or they<br>called me they already knew me.<br><br>I've al=
+ways found this to be a MUCH<br>better option than cold calling leads. I<br=
+>let them get to know me first.<br><br>Second reason this is powerful is ba=
+sed<br>on a principle called "The Power Of<br>Documentation" which states w=
+e as humans<br>tend to take things which we read as<br>more truthful
+ than things we just hear.<br><br>In other words, a prospect who goes to<br=
+>your blog and reads about you and your<br>team is going to take what they =
+read<br>there at face value where if you're on<br>the phone telling them th=
+e same thing<br>they're most likely saying "Yeah right"<br><br>If you've ev=
+er called leads and had that<br>question come up of "Well why should I<br>j=
+oin you?" Having and sending your<br>prospects to your blog first will<br>v=
+irtually eliminate this objection and<br>ignite powerful curiosity and intr=
+igue<br>about you and what you do.<br><br>So, when it comes to using a blog=
+ to<br>recruit, it's best us is as a secondary<br>traffic strategy. You get=
+ the lead, then<br>you send them to your blog for a<br>powerful testimonial=
+.<br><br>So I can hear the question welling up<br>"What should I put on my =
+blog to start?"<br>Simple, talk about yourself, your<br>company's products =
+and service, why you<br>love your company, your team, AND
+ here's<br>a key . . .<br><br>Ask your upline or downline to write you<br>a=
+ quick note about why it's great to<br>work with you and put it on your blo=
+g.<br><br>You do that, and you've covered all your<br>bases. Not only are y=
+our prospects<br>learning about you, why you like what<br>you do, your pers=
+onality, your team, BUT<br>they're also SEEING other people saying<br>great=
+ things about you. Third party<br>validation about you is a powerful<br>thi=
+ng.<br><br>Simply doing this and nothing else, I<br>was surprised to see th=
+at after about<br>six months of consistent blogging my<br>blog received abo=
+ut 300 site views per<br>day from people finding online via<br>search engin=
+es. I did nothing but blog,<br>but just because I had content on the<br>blo=
+g I had tons of people finding it for<br>free, and as a result, calls out o=
+f the<br>blue from people saying "yeah I found<br>your blog, what's up with=
+ your business"<br>(kinda cool)<br><br>So let me share a few things
+ you can do<br>to improve you search engine rankings<br>for you blog posts =
+to enhance your free<br>traffic.<br><br>First, do a little keyword research=
+<br>using the Google Keyword tool. Find a<br>few keywords related to busine=
+ss and use<br>those keywords in your blog title, and a<br>few times, along =
+with a few synonyms for<br>that main keyword in your blog post.<br><br>One =
+secret strategy that's really<br>increased my blog traffic personally is<br=
+>using images in my blog.<br><br>On blog posts where I insert an image to<b=
+r>correspond to the blog post keyword I<br>tend to get about double the tra=
+ffic. So<br>find a few images related to your blog<br>post keyword.<br><br>=
+Name those images as your main keyword,<br>for instance if my blog post was=
+ based<br>on the keyword "internet network<br>marketing" then then I would =
+find 3<br>images I could use for that keyword and<br>I would name the
+ images:<br><br>internet-network-marketing1.jpg,<br>internet-network-market=
+ing2.jpg,<br>internet-network-marketing3.jpg <br>etc.<br><br>Search engines=
+ rank you based on how<br>many other websites link to your post<br>related =
+to your keywords, so when you<br>create a new blog post, write an article<b=
+r>with the same keyword and submit it to<br>the major article directories w=
+ith a<br>link going back to your main blog post.<br><br>Find a few other bl=
+ogs in the niche and<br>comment on a few post and link back to<br>your blog=
+ post.<br><br>Create a facebook, twitter, myspace,<br>squidoo account and p=
+ost some content<br>based on the keyword and link those back<br>to your blo=
+g post.<br><br>You do that for you blog and you're<br>ahead of 99% of marke=
+ters.<br><br>So now that we've got traffic down,<br>let's talk about $$$, h=
+ow do you make<br>money with your blog? I think the<br>simplest way to make=
+ money with blog<br>from the outset is to simply add
+ Google<br>Adsense to each blog post, not so much<br>because you'll make a =
+ton of cash from<br>it, but when people do click on your<br>Google Adsense =
+ads on your blog you'll<br>make a few bucks which is powerful<br>positive r=
+einforcement for your efforts<br>in the early going.<br><br>It'll fuel you =
+forward. You'll see money<br>coming in and you'll get excited.<br><br>The b=
+est long term way to make money<br>with your blog though is . . .<br><br>In=
+tegrating your blog with your email<br>marketing efforts. I love using the =
+one<br>two punch of email marketing and<br>blogging because it allows you t=
+o change<br>the dynamic of your email messages to<br>your prospects from a =
+one way<br>conversation to a two way conversation<br>by giving your prospec=
+ts the ability to<br>comment back to you.<br><br>Getting people involved an=
+d commenting<br>on your blog is a powerful way to build<br>trust. Think of =
+your blog as a<br>conversation and you'll see the bond<br>between
+ you and your prospects growing<br>stronger daily and for it your income<br=
+>will increase.<br><br>There are two powerful benefits of<br>turning your e=
+mails into a blog<br>conversation.<br><br>The first is simply when people g=
+et<br>involved and proactively comment they've<br>taking a powerful step in=
+to your world.<br>The second benefit is a little more<br>sneaky, but extrem=
+ely powerful.<br><br>Say you send a prospect to your blog to<br>share an im=
+portant post today and 15<br>people comment on that post. Great!<br><br>Wel=
+l what if you take the email that you<br>sent people to your blog and add i=
+t to<br>your auto responder?<br><br>Now the leads that join your list 3<br>=
+months from now will get that email<br>automatically via your autoresponder=
+<br>email sequence you set up and when they<br>get to the post not only are=
+ they going<br>to get to participate in a conversation<br>you set up on aut=
+opilot, but they'll<br>also see all the people that
+ commented<br>prior and say . . .<br><br>"Wow! I just got this email and 15=
+<br>people already comment there must be a<br>lot of people listening in." =
+and hence<br>conclude you're a good teacher and<br>someone a LOT of people =
+listen to.<br><br>So there's more I could go into on<br>blogging, but I thi=
+nk that's plenty for<br>now. No matter what you do if<br>you haven't checke=
+d out this free<br>website. Go here now:<br><br><a href=3D"http://comlev.co=
+m/click.html?x=3Da62a&amp;lc=3DoI&amp;mc=3Dl&amp;s=3D34DY&amp;y=3DH&amp;" t=
+arget=3D"_blank">http://comlev.com/click.html?x=3Da62a&amp;lc=3DoI&amp;mc=
+=3Dl&amp;s=3D34DY&amp;y=3DH&amp;</a><br><br>To the top,<br><br>Daegan <br><=
+br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D <br>How To Make Money By<br>Simp=
+ly Sharing This Lesson<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D <br><br>W=
+ould you like to share this valuable<br>lesson and create a new residual in=
+come<br>stream for free to boot? It's a simple<br>as 1-2-3!<br><br>1. Join =
+our partner program here:<br><br><a
+ href=3D"http://comlev.com/click.html?x=3Da62a&amp;lc=3DQM&amp;mc=3Dl&amp;s=
+=3D34DY&amp;y=3Dn&amp;" target=3D"_blank">http://comlev.com/click.html?x=3D=
+a62a&amp;lc=3DQM&amp;mc=3Dl&amp;s=3D34DY&amp;y=3Dn&amp;</a><br><br>2. Use y=
+our partner link you'll receive<br>after joining.<br><br>3. Post this lesso=
+n to your blog with<br>your partner link, load it as an email<br>to your au=
+toresponder series, and send<br>it out as a broadcast article to your<br>su=
+bscribers.<br><br><br>---<br><br><a href=3D"http://comlev.com/click.html?x=
+=3Da62a&amp;lc=3Dbo&amp;mc=3Dl&amp;s=3D34DY&amp;y=3DS&amp;" target=3D"_blan=
+k">http://comlev.com/click.html?x=3Da62a&amp;lc=3Dbo&amp;mc=3Dl&amp;s=3D34D=
+Y&amp;y=3DS&amp;</a><br><br>Maximum Leverage LLC<br>1924 15th St. <br>Washi=
+ngton DC 20020<br>United States<br><br>--<br>To unsubscribe or to change yo=
+ur contact details, visit:<br><a href=3D"http://comlev.com/u?x=3Da62a&amp;m=
+=3D0&amp;r=3DH&amp;s=3Dfump&amp;t=3D3&amp;y=3DS&amp;"
+ target=3D"_blank">http://comlev.com/u?x=3Da62a&amp;m=3D0&amp;r=3DH&amp;s=
+=3Dfump&amp;t=3D3&amp;y=3DS&amp;</a><br><br><br> </div> </div>  </div></bod=
+y></html>
+---554184862-277698272-1355156730=:57377--
+

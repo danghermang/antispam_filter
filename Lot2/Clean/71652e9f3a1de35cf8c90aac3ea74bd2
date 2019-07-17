@@ -1,0 +1,39 @@
+Subject:Re: [ipv6-wg] [routing-wg] MERIT Darknet Experiment and RPKI alerts
+Daniel,
+
+On Tuesday, 2012-11-13 09:36:39 +0100, 
+Daniel Karrenberg <daniel.karrenberg@ripe.net> wrote:
+> 
+> On 09.11.2012, at 12:05 , Wilfried Woeber wrote:
+> 
+> > Overall, I think this is very dangerous approach, and the wrong way
+> > to start with.
+> > 
+> > There might be very good reasons, why a full block of (IPv6)
+> > addresses, or a subset of, ist not (yet) globally visible.
+> > Announcing/Hijacking those addresses may seriously interfere with
+> > local tests or pilot deployment.
+> > 
+> > IMHO this should be strictly opt-in, instead of opt-out!
+> > 
+> > Wilfried.
+> 
+> Wilfried, you are right. The agreement I thought we made with Merit
+> was to use unallocated address space. Apparently a misunderstanding
+> occurred somewhere along the way. We will talk to Merit and correct
+> this.
+
+Possibly such experiments should be announced in advance in the future,
+so that everyone can know what is going on. Ideally a pointer to a web
+page with full details about the experiment, but at least just a quick
+mail to the routing working group (and the IPv6 working group in
+cases where appropriate) seems reasonable.
+
+If this is something that requires a policy change I'd be happy to push
+it forward.
+
+Cheers,
+
+--
+Shane
+

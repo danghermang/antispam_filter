@@ -1,0 +1,50 @@
+Subject:Re: Sobre drupal7
+2012/11/17 Cosme Dom=EDnguez D=EDaz <cosme.ddiaz@gmail.com>:
+> El 17/11/12 03:29, cosme escribi=F3:
+>
+>> Notice: Undefined index: mediafront en mediafront_views_get_options()
+>> (l=EDnea 164
+>
+>
+> Es un error conocido del m=F3dulo MediaFront:
+>
+> http://drupal.org/node/1818150
+>
+> Al parecer est=E1 arreglado en la rama en desarrollo del m=F3dulo.
+>
+> Si no me equivoco, creo que este es el commit que solucionar el problema:
+>
+> Fixed an error in the module for getting views options.
+> http://drupalcode.org/project/mediafront.git/blobdiff/68f1c8bd017557f556a=
+c5a0977310edbdd616296..9be5ed4:/mediafront.module
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/50A7374F.2030709@gmail.com
+>
+
+y creo que esto corresponde a un OT, pero m=E0s aun no tiene relaci=F2n a
+esta lista y m=E0s bien podrias ver este tema en alguna de las listas de
+drupal.
+
+Regards
+--=20
+--------------------------------------------
+Roberto Qui=F1ones
+
+Owner - Service Manager and System
+ACShell.NET =96 Internet Services
+roberto@acshell.net - www.acshell.net
+San Martin #311 Santiago =96 CL (Chile)
++560981361713
+--------------------------------------------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAO7F6e-+87X7idRGuXxcKKA=y3DQ2byX36UDYs5B9di=rKH1gg@mail.gmail.com
+

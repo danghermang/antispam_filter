@@ -1,0 +1,22 @@
+Subject:Upgrade auf 12.10, weitere Erfahrungen
+N 'abend,
+  mein Daten-Sicherungs-Script musste ich umschreiben.
+Beim Einstecken der USB-Platte mounted die nicht mehr unter
+
+   /media/[plattenname]
+
+sondern unter
+
+   /media/[meinUsername]/[plattenname]
+
+
+-- =
+
+
+Frank J.
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

@@ -1,0 +1,87 @@
+Subject:Re: OpenVZ - Pasaje de venet a veth
+El d=EDa 4 de diciembre de 2012 20:24, ciracusa <ciracusa@gmail.com> escrib=
+i=F3:
+> Cristian Mitchell wrote:
+>>
+>> El d=EDa 4 de diciembre de 2012 12:53, Camale=F3n <noelamac@gmail.com>
+>> escribi=F3:
+>>
+>>>
+>>> El Tue, 04 Dec 2012 11:23:13 -0200, ciracusa escribi=F3:
+>>>
+>>> (...)
+>>>
+>>>
+>>>>
+>>>> Ser=E1 que falta montar un "bride" entre el VETH del contenedor y la I=
+P
+>>>> del host anfitri=F3n?
+>>>>
+>>>
+>>> Pues mira que no he usado nunca el OpenVZ ese pero de tanto leerlo por
+>>> aqu=ED ya me est=E1 picando la curiosidad :-)
+>>>
+>>> A ver, el VirtualBox tendr=EDas que definir la interfaz en modo puente,
+>>> efectivamente, y en OpenVZ... pues vamos a leer:
+>>>
+>>> http://wiki.openvz.org/Virtual_Ethernet_device
+>>>
+>>> "(...) When veth is bridged to a CT0 network interface (e.g., eth0), th=
+e
+>>> container can act as an independent host on the network. The container'=
+s
+>>> user can set up all of the networking himself, including IPs, gateways,
+>>> etc."
+>>>
+>>> Pues parece que s=ED.
+>>>
+>>> Saludos,
+>>>
+>>> --
+>>> Camale=F3n
+>>>
+>>>
+>>> --
+>>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>>> with a subject of "unsubscribe". Trouble? Contact
+>>> listmaster@lists.debian.org
+>>> Archive: http://lists.debian.org/k9l698$37l$4@ger.gmane.org
+>>>
+>>>
+>>
+>>
+>> es muy probable que sea lo que escribio camaleon
+>>
+>> peor para estar seguro postea tus archivos de configuracion
+>>
+>>
+>>
+>
+>
+> Cristian, necesitas /etc/network/interfaces o alg=FAn otro?
+>
+> Muchas Gracias.
+>
+> Saludos.
+>
+
+/etc/openvz/conf/$id.conf
+/etc/openvz/conf/$id.$extencion ->donde levanta y configura la veth
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54biGkd5_S6SzU_R0eLQ_29pqZ_NN-Ne-PO8oOE-JV4abA@mail.gmail.com
+

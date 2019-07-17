@@ -1,0 +1,46 @@
+Subject:linux-image-3.2.0-0.bpo.4-686-pae
+Hello.  I just upgraded to linux-image-3.2.0-0.bpo.4-686-pae on a system
+and running "uname -a" I no longer see the date of the kernel.  The only
+two packages that were updated are linux-image-2.6-686 and
+linux-image-686-pae.
+
+Before the upgrade:
+
+storesvr:~# uname -a
+Linux storesvr 3.2.0-0.bpo.3-686-pae #1 SMP Thu Aug 23 08:21:41 UTC 2012
+i686 GNU/Linux
+
+After the upgrade:
+
+storesvr:~# uname -a
+Linux storesvr 3.2.0-0.bpo.4-686-pae #1 SMP Debian 3.2.32-1~bpo60+1 i686
+GNU/Linux
+
+Is this a bug, or is this the way newer kernels are going?  I have some
+scripts that are failing now because they check for that date.  Thanks
+for any info!
+
+Jase
+
+-
+This message is intended only for the addressee and may contain =
+information that is company confidential or privileged.  Any technical =
+data in this message may be exported only in accordance with the U.S. =
+International Traffic in Arms Regulations (22 CFR Parts 120-130) or the =
+Export Administration Regulations (15 CFR Parts 730-774). Unauthorized =
+use is strictly prohibited and may be unlawful. If you are not the =
+intended recipient, or the person responsible for delivering to the =
+intended recipient, you should not read, copy, disclose or otherwise use =
+this message. If you have received this email in error, please delete =
+it, and advise the sender immediately.=20
+-                                                                        =
+                                                                         =
+                                                                         =
+                            =20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/B41BDED4114E044089F69B5B7FA2B809022D8597@corpatsmail4.corp.sensis.com
+

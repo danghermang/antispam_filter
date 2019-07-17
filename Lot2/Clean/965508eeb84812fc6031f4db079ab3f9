@@ -1,0 +1,54 @@
+Subject:Re: =?ISO-8859-1?Q?D=E9pannage?= sur PC distant
+Le dimanche 28 octobre 2012 à 15:46 +0100, Pascal Obry a écrit :
+> > tu devrais passer à FreeNX, comme ça tu verrais la différence entre
+> > très lent et hyper rapide + B.P. ridicule :)
+> 
+> Merci, je note. Je n'ai jamais dit que je connaissais tout,
+> visiblement
+> il y a mieux que VNC, tant mieux!
+> 
+> > C'est justement précisément le leit motiv des intégristes... :p
+> 
+> Un argument à 2 balles, bravo! Je pourrais ajouter un leit motiv
+> aussi,
+> on a fait des progrès dans la discussion? Non? alors ce genre
+> d'arguments...
+
+J'ajoute ma bille aux arguments trollesques et quelques peu fallacieux.
+
+Premièrement, faire de l'intégrisme libre pour se connecter sur du
+Windows™ me semble quelque peu schizophrène pour ne pas dire plus.
+
+Concernant le contrôle du bureau, Je tiens à signaler que "l'assistance
+à distance" est implémentée sur tous les Windows™,J'ai testé avec un
+win7 virtualisé, ça marche bien. Si on a la prétention de dépanner du
+Windows™ cela ne me parait pas la pire des solution ni la plus
+absurdes. 
+
+Ceci dit, le contrôle du bureau ne me parait pas très compatible avec la
+3G. 
+
+Comme de bien entendu les version non-pro de windows ne comportent pas
+terminal server, ce qui est un des grands arguments de Micro$oft pour
+vendre nettement plus cher ses versions pro. C'est aussi ce qui freine
+les solutions, Microsoft défendant son pré carré.
+
+Pour des "clients réguliers", tu peux aussi leur fournir une clé
+Live-USB avec tes outils dessus. Même si le système est planté et sauf
+panne matérielle bloquante, tu augmente fortement les chance de pouvoir
+te connecter à la machine pour une première phase de dépannage.
+
+Pour Linux, on a plein de possibilités, pas de restriction non technique
+et des shells performants, donc je ne m'attarde pas. 
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1351519002.7527.41.camel@azuki
+

@@ -1,0 +1,26 @@
+Subject:Re: Route statique avec 2 passerelles
+Le 15674i=C3=A8me jour apr=C3=A8s Epoch,
+David BERCOT =C3=A9crivait:
+
+> Re-bonjour,
+>
+> En fait, je pense que je n'ai pas =C3=A9t=C3=A9 clair...
+>
+> Ma route statique a pour but d'arriver sur une machine en passant par
+> une premi=C3=A8re passerelle et ensuite par une seconde passerelle...
+>
+> mon poste -> gw1 -> gw2 -> r=C3=A9seau de destination
+
+Dans ce cas, c'est =C3=A0 gw1 de savoir comment aller vers destination.
+
+Je ne pense pas que tu puisses faire autrement.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/87y5hj8ce6.fsf@tourde.org
+

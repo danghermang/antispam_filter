@@ -1,0 +1,99 @@
+Subject:Changement de mot de passe client linux sur controleur samba-ldap
+Bonjour,
+
+J'ai un petit problème sur des clients linux debian que j'essaie de 
+déployer à la place des windows.
+
+Environnement:
+Controleur de domaine sous redhat authentification samba/ldap/wins. Je 
+n'ai absolument pas la main sur cette machine ( c'est mal barré je sais :).
+
+clients:
+windows XP-SP3, quelques Seven (pas le choix)
+linux-debian-squeeze (paquets installés: smbfs, winbind, smbclient)
+
+
+Pour mes clients linux: après avoir modifié le /etc/nsswitch.conf puis 
+intégré la machine par net rpc join -U admin-du-domain, l'utilisateur 
+peut se connecter sous gnome avec le login:
+DOMAIN\utilisateur . Il n'est pas déclaré dans le /etc/passwd et n'a 
+donc même pas accès à un xterm (ce qui n'est pas plus mal de mon point 
+de vue)
+
+Cela fonctionne plutôt pas mal et tout irait pour le mieux si ce n'est 
+que de temps en temps il faut bien changer de mot de passe. Et c'est là 
+que ça se gâte: en effet lorsque l'utilisateur se loggue et que son pass 
+doit être changé, il se prend un petit message lui indiquant:
+  "Warning ! Your password must be changed now"   Ouais super mais.. 
+aucune possibilité d'effectuer cette manip: la session gnome se lance 
+tout de même et le seul truc pouvant lui rappeler qu'il y a un souci est 
+que les ressources reseaux que je lui ai configurées en signets ne sont 
+pas montées.
+
+Pour les clients windows c'est le comportement habituel: fenetre pop-up 
+indiquant que le pass doit être changé puis possibilité de saisir le 
+nouveau dans la mire d'accueil.
+Et c'est justement cette possibilité que je n'ai pas sous nunux.
+
+En espérant avoir été clair, merci de vos lumières.
+
+fichier smb.conf des clients
+[global]
+
+         workgroup = BLABLA
+         server string = WKS-Linux1
+         netbios name = BLABLA-H9Y1D2J
+         local master = No
+         name resolve order = hosts wins
+         enable privileges = No
+         username map = /etc/samba/smbusers
+         max log size = 50
+         socket options = TCP_NODELAY SO_RCVBUF=8192 SO_SNDBUF=8192
+         printcap name = /etc/printcap
+         dns proxy = No
+         wins server = 10.x.x.x, 10.x.x.y
+         idmap backend = hash
+         template homedir = /home/%U
+         winbind enum users = Yes
+         winbind enum groups = Yes
+         nt acl support = No
+         cups options = raw
+         map archive = No
+         lanman auth = No
+         client lanman auth = No
+         client plaintext auth = No
+         log file = /var/log/samba/log.%m
+         security = DOMAIN
+         encrypt passwords = yes
+         winbind use default domain = Yes
+         inherit acls = yes
+         inherit permissions = yes
+
+fichier nsswitch.conf des clients
+
+passwd:         files winbind
+group:          files winbind
+shadow:         files
+
+hosts:          files dns
+networks:       files
+
+protocols:      db files
+services:       db files
+ethers:         db files
+rpc:            db files
+
+netgroup:       nis
+
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k4ltqc$187$1@ger.gmane.org
+

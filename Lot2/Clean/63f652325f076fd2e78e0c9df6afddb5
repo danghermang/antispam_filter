@@ -1,0 +1,30 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+
+Brian Johnson <bjohnson@drtel.com> wrote:
+    >> > Under the new structure, the same situation would have the
+    >> XX-Small fee ($500). Is this correct?
+    >> 
+    >> If the IPv4 block was /22, then it would be XX-Small ($500).
+    >> Since it is /21, the right category is X-Small (i.e. "Larger than
+    >> /22, up to and including /20"), and the revised fee is
+    >> $1000/annual.
+
+    JC> Oops. I mistyped that and should have referenced a /22 and then
+    JC> I would have been correct.
+
+    JC> Even so, under a IPv4 /21 or /20 (and/or an IPv6 /44 up to /36),
+    JC> the rate would be less than today by $250. Correct?
+
+for v4/22 + v6/48, it would be $500+$500, so $250 less.
+but v4/21 + v6/48, it would be $1000+$500, I think.
+
+-- 
+Michael Richardson
+-on the road-
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

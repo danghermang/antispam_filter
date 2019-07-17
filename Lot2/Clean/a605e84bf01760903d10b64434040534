@@ -1,0 +1,48 @@
+Subject:[testing] webcam Philips SPC1300NC et micro
+Bonjour,
+
+J'essaie de faire fonctionner une webcma Philips SPC1300NC sous testing.
+La vid=E9o fonctionne bien mais pas le micro.
+
+Dans dmesg j'ai :
+
+[    3.444792] usb 4-1.5.3: New USB device found, idVendor=3D0471, idProduc=
+t=3D0331
+[    3.444798] usb 4-1.5.3: New USB device strings: Mfr=3D2, Product=3D1,
+SerialNumber=3D0 [    3.444800] usb 4-1.5.3: Product: Philips SPC 1300NC We=
+bcam
+[    3.444803] usb 4-1.5.3: Manufacturer: Philips CE
+[    3.452194] Linux media interface: v0.10
+[    3.454454] Linux video capture interface: v2.00
+[    3.456028] cannot find the slot for index 1 (range 0-1), error: -16
+[    3.456113] cannot create card instance 0
+[    3.456195] snd-usb-audio: probe of 4-1.5.3:1.2 failed with error -5
+[    3.456216] usbcore: registered new interface driver snd-usb-audio
+[    3.458045] uvcvideo: Found UVC 1.00 device Philips SPC 1300NC Webcam
+(0471:0331) [    3.465322] input: Philips SPC 1300NC Webcam
+as /devices/pci0000:00/0000:00:1d.0/usb4/4-1/4-1.5/4-1.5.3/4-1.5.3:1.0/inpu=
+t/input19
+[    3.465427] usbcore: registered new interface driver uvcvideo
+[    3.465429] USB Video Class driver (1.1.1)
+
+
+Il a l'air de bien voir qu'il y a un micro mais =E7a semble merder sur la l=
+igne :
+
+[    3.456195] snd-usb-audio: probe of 4-1.5.3:1.2 failed with error -5
+
+google ne m'a pas renseign=E9 sur l'erreur -5.
+
+Si quelqu'un a une id=E9e je suis preneur.
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121104003510.d42deaa78f46a0ac7bc608ca@neuf.fr
+

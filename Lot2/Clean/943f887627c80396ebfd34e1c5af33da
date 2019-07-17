@@ -1,0 +1,38 @@
+Subject:Re: su -c ne passe pas
+Le 03/11/2012 16:51, list-debian@gwilhom.fr a =C3=A9crit :
+> Le 03/11/2012 15:41, Bernard Schoenacker a =C3=A9crit :
+>> bonjour,
+>>
+>>     j'essaye d'employer : su -c dpkg -i DraftSight.deb et =C3=A7a ne
+>>     passe pas ...
+>>
+>>     qu'est ce que j'ai mal fait ?
+>>
+>>     slt
+>>     bernard
+>>
+>
+> Bonjours,
+>
+> il manque les quotes ->
+>
+> su -c 'dpkg -i DraftSight.deb'
+>
+
+Rho, il faut que j' apprenne =C3=A0 lire moi la r=C3=A9ponse a d=C3=A9j=C3=
+=A0 =C3=A9t=C3=A9 donn=C3=A9e :)
+
+Sinon quel sont la/les erreur(s) du soft ?
+
+--=20
+Guillaume
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50953EB1.5040902@gwilhom.fr
+

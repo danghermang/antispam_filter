@@ -1,0 +1,32 @@
+Subject:Re: Hummingbird SOCKS ==> tsocks / toxsocks
+El Sat, 17 Nov 2012 15:56:16 +0100, En-No escribió:
+
+> tengo un problemilla que me esta comiendo la moral (solo un poco), os
+> cuento.
+> 
+> Tengo una maquina Windows usando Hummingbird Connectivity V8.0 y
+> desearía "cepillarme" el Windows.
+> Ya que del Hummingbird uso la parte ... SOCKS Client Configuration ...
+> es decir el establecimiento de
+> conexión por SOCKS y no por TCP.
+> 
+> He visto que tenemos ... TSOCKS ... pero también me he topado con ...
+> TOXSOCKS (pero solo en RH parece ser) y la verdad es que estoy perdido
+> en cuanto ha este tema.
+
+(...)
+
+No conozco Hummingbird pero si buscas un redirector de socks para linux 
+además de los que comentas también tienes "redsocks".
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k889aj$m11$4@ger.gmane.org
+

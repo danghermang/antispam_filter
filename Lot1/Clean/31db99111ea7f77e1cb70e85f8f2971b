@@ -1,0 +1,63 @@
+Subject:Re: Estoy abierto a opiniones sobre montar servidor debian
+El Thu, 22 Nov 2012 10:54:56 -0500, Ismael L. Donis Garcia escribió:
+
+>>> Otra pregunta que se me olvidó preguntarle.
+>>>
+>>> El servidor tiene un arreglo de 8 discos de 146 GB cada uno. Como
+>>> creen ustedes que debo crear los arreglos de disco para garantizar
+>>> velocidad y integridad de los datos a la vez?
+>>
+>> (...)
+>>
+>> Pues depende del uso que quieras darle al servidor, es decir, si
+>> prefieres obtener la mayor cantidad de espacio posible (un volumen
+>> grande que te sirva de almacenamiento para copias de seguridad, por
+>> ejemplo) pues te puede convenir usar LVM con un RAID6 por debajo. Si
+>> por el contrario quieres que la partición que aloje el sistema
+>> operativo para rapidita, puedes optar por un RAID10 con un par de
+>> discos.
+>>
+>> Ten en cuenta que este tipo de "arreglos" pueden ser vistos como una
+>> arma de doble filo: son instalaciones complejas y requieren una
+>> administración y conocimientos específicos porque añaden una capa
+>> adicional de dificultad que vas a tener que saber gestionar como
+>> administrador del sistema y jugar con los datos nunca es buena cosa.
+>> Las pruebas mejor hacerlas sobre máquinas virtuales o equipos
+>> secundarios, nunca sobre servidores que contengan datos importantes.
+>>
+> 
+> Gracias por los consejos.
+> 
+> Pero el servidor ahora mismo no los estoy utilizando. Compramos 2
+> servidores nuevos idénticos.
+
+(...)
+
+Vale, lo que te quiero decir es que cuando esos servidores estén en 
+producción y contengan datos importantes no puedes estar jugando al "¿qué 
+raid le pongo?", todas esas pruebas tienes que hacerlas _antes_ para 
+saber cómo reaccionar y tener la experiencia suficiente para que en el 
+caso de catástrofe sepas los pasos a dar porque una vez que tengas todo 
+el sistema funcionando resulta más complicado redefinir la estructura 
+base de los discos y las particiones, el nivel de raid o replantearse el 
+uso de lvm (en caso de utilizar cualquiera de estas dos funcionalidades 
+para la gestión de los discos).
+
+Vamos, que una cosa es leer las cosas sobre papel (donde todo suena muy 
+bien y muy bonito) y otra muy distinta es enfrentarte en vivo y en 
+directo a un problema del tipo "8:00 a.m. Sistema en producción no inicia 
+debido a un problema con el gestor de volúmenes lógicos y uno de los 
+discos duros se ha marcado como «no disponible» debido a un falso 
+positivo...".
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8ljd8$19p$7@ger.gmane.org
+

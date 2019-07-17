@@ -1,0 +1,52 @@
+Subject:[Maps-l] OpenStreetMap database on toolserver is back up-to-date
+Hello everyone,
+
+after experiencing database stability issues with postgis since the end 
+of July, which made using the OpenStreetMap database more or less 
+impossible, we have finally managed to identify the issues and have 
+hopefully found a stable workaround.
+
+After a full re-import of the data, the OpenStreetMap database on 
+Ptolemy is now back up-to-date. In most cases replication delay to the 
+main OpenStreetMap database is 5 minutes, but during busy times 
+typically afternoon to evening European time, the replication delay can 
+be larger as the server can't always keep up with replication.
+
+With the Database, the services using it, should also be mostly 
+up-to-date again. This includes WIWOSM, client side rendering in 
+WikiMiniAtlas and the the tiles in various styles provided by the 
+toolserver used in e.g. the osm-gadget in a number of Wikipedias. (The 
+tile rendering is actually still catching up with the backlog of changes 
+for a while).
+
+Any other services using the database should also be up-to-date again, 
+and everyone who has a toolserver account should, as previous, be able 
+to read-access the database via "psql -h sql-mapnik -d osm_mapnik" from 
+any of the toolserver login servers if they want to experiment with the 
+OpenStreetMap data.
+
+
+The initial issue with the crashing database turned out to be a problem 
+with PostGIS. The function ST_Intersection crashes postgresql if it 
+operates on invalid polygons (e.g. self intersecting polygons). As the 
+OpenStreetMap data model is very flexible and lenient, nothing stops 
+people from entering invalid polygons and the import tools currently 
+don't filter these out. So the database contains quite a few invalid 
+polygons that can cause issues with PostGIS.
+
+In future we might fix the import tools to exclude invalid polygons to 
+begin with,  but for now everyone who uses the database will need to use 
+the following workaround: When ever you use a query on the 
+planet_polygon table, you should add a "where ST_IsValid(way)" condition 
+to the query to ensure it only processes valid geometries.
+
+If anyone still experiences any issues, please let me know.
+
+Kai
+
+
+
+_______________________________________________
+Maps-l mailing list
+Maps-l@lists.wikimedia.org
+https://lists.wikimedia.org/mailman/listinfo/maps-l

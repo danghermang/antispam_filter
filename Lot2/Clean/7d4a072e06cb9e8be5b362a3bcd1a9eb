@@ -1,0 +1,26 @@
+Subject:Re: Cups - HP1606dn - Marche en USB mais pas en Ethernet
+On 05 Dec 2012 09:11:10 GMT
+moi-meme <chiebel@free.fr> wrote:
+
+>=20
+> J'utilise le service ipp :
+> socket://192.168.10.103:9100
+
+Non, ipp c'est sur le port 631, 9100 c'est jetdirect
+http://en.wikipedia.org/wiki/JetDirect=20
+
+--=20
+<Adeline> Le livre religieux des chr=C3=A9tiens c'est la Bible.
+<Axel> Ouais, pour les musulmans c'est le Coran.
+<Adeline> Et pour les asiatiques ?
+<Axel> Les Pages Jaunes.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121205140223.4247eb02@anubis.defcon1
+

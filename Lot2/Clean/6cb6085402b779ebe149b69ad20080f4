@@ -1,0 +1,53 @@
+Subject:Re: =?iso-8859-1?q?instalaci=F3n?= de thunderbird y mozilla firefox
+El Sat, 03 Nov 2012 21:13:54 -0300, Sergio Bessopeanetto escribió:
+
+> El 03/11/12 14:57, Camaleón escribió:
+>> El Mon, 01 Oct 2012 19:47:48 +0000, residentresureccion escribió:
+>>
+>>> Quisiera tener instalado el mozilla firefox y thunderbird en sus
+>>> últimas versiones en mi debían 6.0.5 pero  no he podido hacerlo no
+>>> tengo mucha experiencia de linux se lo básico lo que he podido
+>>> conseguir son paquetes de los programas pero en otras extensiones me
+>>> gustaría tenerlos debíanizados y por su puesto en español.
+>>
+>> Lo más sencillo es que uses este repo aunque no sé si ya tendrán la
+>> última versión :-?
+>>
+>> http://mozilla.debian.net/
+>>
+>>
+>>
+> ¿Y qué opinas Camaleon de la solución que dan en algunos sitios en la
+> que instalan Firefox y Thunderbird oficiales en /opt y luego le hacen un
+> enlace simbólico a /usr/bin?.
+
+Que precisamente así es como lo tengo yo (los dos, tanto firefox como 
+thunderbird de 64 bits) aunque no bajo /opt, creo que lo puse en otro 
+directorio:
+
+sm01@stt008:~$ whereis firefox thunderbird
+firefox: /usr/bin/firefox /usr/lib/firefox /usr/lib64/firefox
+thunderbird: /usr/bin/thunderbird /usr/lib/thunderbird /usr/lib64/thunderbird
+
+Pero me pareció entender que el OP lo quería "debianizado", no sé si se
+refería a que quería instalar un ".deb" o estaba interesado en las versiones
+"marca blanca" de Debian :-)
+
+> Me está picando porque de esa manera actualizo con la versión oficial.
+
+Funciona muy bien la verdad y las actualizaciones son muy sencillas, 
+directamente desde el propio navegador aunque tengo que iniciar firefox como 
+usuario root para poder actualizarlo (entiendo que si lo hubiera descargado
+bajo la "/home" del usuario no sería necesario).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k75bsl$87n$3@ger.gmane.org
+

@@ -1,0 +1,38 @@
+Subject:Re: Sqitch Build Failures
+On Aug 29, 2012, at 5:41 PM, Jan Dubois wrote:
+
+> I've cleaned up the Windows boxes (they also had some other issues),
+> did forced rebuilds of all relevant modules, but App-Sqitch still
+> has test failures (probably expected).
+
+Thank you. Yes, the IO::Pager failures are expected until the new version ships:
+
+  http://ppm4.activestate.com/MSWin32-x86/5.14/1400/D/DW/DWHEELER/App-Sqitch-0.92.d/log-20120829T022418.txt
+
+Hopefully will see it this weekend.
+
+Looks like Moose sometimes still times out on Windows, though:
+
+  http://ppm4.activestate.com/MSWin32-x64/5.16/1600/D/DW/DWHEELER/App-Sqitch-0.92.d/log-20120829T032752.txt
+
+> I'll leave the Linux and Solaris builders for Gisle, but I wouldn't
+> worry about them too much; the 5.8 and 5.10 builders aren't even
+> supposed to run anymore. :)  For Windows there are no more updates
+> for 5.8 and 5.10 repos; they are now truly stable. :)
+
+Oh? Sqitch runs on 5.10.1 and up. I'm glad to see all the tests. I guess this one should not be running, then?
+
+  http://ppm4.activestate.com/i686-linux/5.10/1000/D/DW/DWHEELER/App-Sqitch-0.92.d/log-20120829T061630.txt
+
+New failure: What happened to Hash::Merge?
+
+  http://ppm4.activestate.com/i686-linux/5.12/1200/D/DW/DWHEELER/App-Sqitch-0.92.d/log-20120829T081558.txt
+
+Thank you,
+
+David
+
+_______________________________________________
+PPM mailing list
+PPM@listserv.ActiveState.com
+http://listserv.ActiveState.com/mailman/listinfo/ppm

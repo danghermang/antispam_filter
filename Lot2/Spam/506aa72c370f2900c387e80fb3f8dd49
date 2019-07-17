@@ -1,0 +1,11 @@
+Subject:Anacron job 'cron.daily' on typhon
+/etc/cron.daily/backup-manager:
+ln: création d'un lien symbolique « /mnt/samba/Cycy/backup-typhon/typhon-etc.20121208.master.tar.bz2 »: Opération non supportée
+ln: création d'un lien symbolique « /mnt/samba/Cycy/backup-typhon/typhon-home.20121208.master.tar.bz2 »: Opération non supportée
+Tar reported a file changed during archive creation.
+/etc/cron.daily/logrotate:
+error: error accessing /var/log/cups: Aucun fichier ou dossier de ce type
+error: cups:1 glob failed for /var/log/cups/*log
+error: found error in /var/log/cups/*log , skipping
+apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName
+

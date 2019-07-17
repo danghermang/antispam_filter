@@ -1,0 +1,22 @@
+Subject:cifrar trafico de red Local?????
+Holas.
+
+es posible cifrar el trafico en red local?  Lo que pasa es que
+necesito lograr que el trafico que existe entre unos enlaces dedicados
+y la oficina sea "seguro".   Lo primero que se me ocurrio fue
+implementar una VPN (uso openvpn para aquellos sitios que no tienen
+enlace dedicado), pero no comprendo muy bien como una vpn puede
+funcionar en una red donde ya puedes llegar al destino directamente.
+
+La idea es: como puedo proteger esas conexiones que se realizan por
+medio de los enlaces dedicados o la red local?   es posible tener una
+VPN dentro de la misma LAN??????
+
+Gracias y saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ=UQG67T4z7xNHJTK7a01HDoz1AZBFAHTxSKkHQfx63Q1ThXA@mail.gmail.com
+

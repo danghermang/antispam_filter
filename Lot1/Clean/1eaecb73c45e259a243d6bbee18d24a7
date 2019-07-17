@@ -1,0 +1,79 @@
+Subject:Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+I keep asking the same thing and everyone looks at me funny.  Seems like it
+would be pretty simple (for folks that design these things).  I think some
+racers have done it and keep it hush hush.
+
+I don't think a basic timing adjustment would help in my case because I
+have no top end (not enough voltage) AND no bottom end (too small of
+motor).  I think the timing comes into play once you get the voltage up.
+ Adjustable timing would help in my case since it would improve both the
+starting torque and the high rpm power.
+
+On Mon, Nov 5, 2012 at 5:19 PM, Jay Summet <jay@summet.com> wrote:
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+>
+>
+> On 11/05/2012 05:34 PM, Bill Dube wrote:
+>
+> > It is an overly-simplistic explanation, but it is useful think of
+> > the brush advance being needed because of the inductance of the
+> > armature windings. As the motor spins faster, and/or with larger
+> > current, you need to begin ramping up the armature winding current
+> > a bit sooner, and ramping it down a bit sooner too, to keep the
+> > armature field properly aligned with the field poles. Advancing
+> > the brush timing accomplishes this.
+> >
+> > Somewhat analogous to advancing the spark timing in a gasoline
+> > engine. You have to touch off the combustion earlier as the engine
+> > spins faster to make up for the delay in flame travel.
+>
+> Perhaps this question will show my complete ignorance...but has
+> anybody tried to rig up some mechanical system to dynamically change
+> the brush advance "on the fly"? Any real advantages to doing that?
+> (other than being able to reverse a motor without lots of sparks?)
+>
+> Jay
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.10 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://www.enigmail.net/
+>
+> iEYEARECAAYFAlCYV64ACgkQSWJjSgPNbM/lSwCbBfFIMRK4GYxUn4RzeQdOyZah
+> fuAAn2unKGTKSLItEByVVv32WlrSZZoi
+> =+2Xo
+> -----END PGP SIGNATURE-----
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+
+
+
+-- 
+Marcus Reddish
+
+*North Valley Systems LLC*
+Stevensville, Montana
+406-360-8628
+northvalleyev.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121105/74b49147/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

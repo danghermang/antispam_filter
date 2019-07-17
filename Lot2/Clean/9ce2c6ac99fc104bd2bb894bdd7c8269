@@ -1,0 +1,22 @@
+Subject:[Flexradio] How to generate CW sidetone when using N3FJP logging
+	software?
+
+Hi, all,
+
+I'd like to use the N3FJP Sweepstakes logging program for this year's CW SS.  I have gotten it set up to talk to PSDR v.2.4.4 and generate the necessary exchange, but the program will not produce a sidetone so I can verify that it's sending what I think it should.  Scott, the developer, says on his website that the program will not produce a sidetone, but I'm hoping that PSDR can do this when the rig is keyed.  The SS program displays text as it's sending but the either the first character is truncated in the display or my eyes are not quick enough to see it at 20+ wpm.  Anyway, it just makes me feel better to hear what I'm sending out.
+
+I can hear the sidetone just fine when using the CWX function in PSDR, just not with the other program.  This is with a Flex 5K, Win 7, etc.
+
+What am I missing?  (Besides the ability to send at 30 wpm while logging and drinking coffee at the same time.)
+
+Thanks,
+
+Bill  -- KA6T
+
+ 		 	   		  
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

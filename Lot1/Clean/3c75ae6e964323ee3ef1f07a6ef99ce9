@@ -1,0 +1,59 @@
+Subject:Re: [Flexradio] Weird BPSK31 Behavior
+I should have mentioned that I am running PowerSDR 2.3.5 and fldigi 3.21.49.
+
+Also, the shift between the two spikes seems to depend upon where in the
+passband my transmit frequency is.  In some cases the two spikes are nearly
+superimposed.
+
+Finally, I just realized that I used COM7 for SDR Memory last night, and
+that is one of the ports fldigi uses.  I have not had both programs running
+simultaneously.  I did just uninstall SDR memory but still have the same
+problems.
+
+Thanks once again.
+
+73, Tom
+K1FR
+
+
+-----Original Message-----
+From: FlexRadio [mailto:flexradio-bounces@flex-radio.biz] On Behalf Of TM
+Sent: Sunday, October 21, 2012 9:20 AM
+To: flexradio@flex-radio.biz
+Subject: [Flexradio] Weird BPSK31 Behavior
+
+I am suddenly experiencing a new problem with my Flex 3000 on PSK.
+Everything has been nominal until this morning.  Now, instead of a nice
+clean transmit signal on the screen, I have what appear to be two main
+spikes.  One is the intended frequency and normal strength.  The second is
+considerably lower in strength (40 or more db) and shifted about 1 KHz up in
+frequency.
+
+The only things that changed are:
+1.  An unexpected and unexplained Windows shutdown and restart (Win 7 64 pro
+on a late model i7 machine).  I know PSDR is not supposed to be shut down in
+that manner and wonder if something fouled up there?
+
+2. Last night I installed and used SDR Memory.  That seemed to work fine.
+
+Appreciate any help/inputs.
+
+73, Tom
+K1FR
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage:
+http://www.flexradio.com/
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

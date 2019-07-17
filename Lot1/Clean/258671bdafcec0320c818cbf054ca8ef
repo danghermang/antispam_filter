@@ -1,0 +1,32 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+ IPv4 from last /8
+On 07/11/2012 11:36, Jan Zorz @ go6.si wrote:
+> So, they are stuck (all of a sudden, what a surprise).
+> 
+> Another option is to start working on IPv6 solutions so the whole thing
+> becomes usable for them - whatever that might be and whatever efforts that
+> may include ;)
+> 
+> At some point this really needs to end.
+
+I agree but we haven't reached that point yet, and as long as these two graphs:
+
+https://www.inex.ie/noncms/img/inex-lan1-ipv6-20121107.png
+https://www.inex.ie/noncms/img/inex-lan1-ipv4-20121107.png
+
+... differ from each other by a factor of 1000, it's unrealistic to say that:
+
+- ipv6 is a viable alternative to IPv4 right now
+- ipv4 is deprecated / legacy / historic / whatever
+
+I know that you're not saying this, but other people on this mailing list
+are.  Don't get me wrong either: I'd love to see much more ipv6 penetration
+and wider deployment, but we are where we are and we need to deal with
+policies which are relevant to people today.
+
+Incidentally, if you strip out the top 10% of the v6 talkers from those
+graphs above, the ipv6 graph drops by two orders of magnitude. :-|
+
+Nick
+
+

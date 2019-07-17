@@ -1,0 +1,227 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<roary01@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <notification+zrdozlvpgdpz@facebookmail.com>
+Received: (qmail 6528 invoked by uid 89); 9 Dec 2012 17:26:46 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 9 Dec 2012 17:26:46 -0000
+Delivery-date: Sun, 09 Dec 2012 09:25:07 -0800
+Received: from outmail016.ash2.facebook.com ([66.220.155.150] helo=mx-out.facebook.com) helo=mx-out.facebook.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1Thkcg-0001nX-Bq on interface=184.105.182.43
+	for roary01@activ8.net.au; Sun, 09 Dec 2012 09:25:06 -0800
+DKIM-Signature: v=1; a=rsa-sha256; d=facebookmail.com; s=s1024-2011-q2; c=relaxed/simple;
+	q=dns/txt; i=@facebookmail.com; t=1355073900;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=02g5klQReRhiasxpld08ODQmwFoTe6IFJw1nGIYw76Y=;
+	b=f5hJ0sIpT6gbV/QV+HkL5z5KfTJHJD/0Qce+aGhKgjqV1ZaNbRgo/2gso7SW6h3q
+	S99vWIYYxuCLG7hg+yizeYnE66qYDK904WQsJo0ULv9EsFtmJDnlbI7d99mXMf4l
+	pzPrZ3Qm/Tkrykd9gpYrmFXJ1FHz5RoN7Hspswd82Ts=;
+Received: from [10.216.190.41] ([10.216.190.41:41045])
+	by smout040.ash4.facebook.com (envelope-from <notification+zrdozlvpgdpz@facebookmail.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ECSTREAM
+	id 3A/A9-27345-C69C4C05; Sun, 09 Dec 2012 09:25:00 -0800
+X-Facebook: from zuckmail ([MTI3LjAuMC4x]) 
+	by www.facebook.com with HTTP (ZuckMail);
+Date: Sun, 9 Dec 2012 09:25:00 -0800
+To: Vanessa Abrook <roary01@activ8.net.au>
+From: "Facebook" <notification+zrdozlvpgdpz@facebookmail.com>
+Reply-to: noreply <noreply@facebookmail.com>
+Subject: Eileen Federico updated her status: "Does anyone know anything about any adverse side effects associ...
+Message-ID: <580564da50cf2735a691e5194e5fbeb9@www.facebook.com>
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Errors-To: notification+zrdozlvpgdpz@facebookmail.com
+X-Facebook-Notify: close_friend_activity; mailid=72ec69aG5af340bfd3edG130193dG79
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_580564da50cf2735a691e5194e5fbeb9"
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: notification+zrdozlvpgdpz@facebookmail.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=facebook.com - X=apn H=outmail016.ash2.facebook.com [66.220.155.150] HELO=[mx-out.facebook.com] F=[notification+zrdozlvpgdpz@facebookmail.com] T=[roary01@activ8.net.au] S=[Eileen Federico updated her status: "Does anyone know anything about any adverse side effects associ...]
+X-Sender-Host-Address: 66.220.155.150
+X-Sender-Host-Name: outmail016.ash2.facebook.com
+
+
+--b1_580564da50cf2735a691e5194e5fbeb9
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Vanessa,
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+http://www.facebook.com/n/?eileen.grantfederico%2Fposts%2F4282127975149&mi=
+d=3D72ec69aG5af340bfd3edG130193dG79&bcode=3D1.1355073900.AbnZ4RuVCrnObvJO&=
+n_m=3Droary01%40activ8.net.au
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Eileen Federico updated her status: "Does anyone know anything about any =
+adverse side effects associated with the drug 'prednisolone' in children =
+under the age of 1? Savannah seemed to be doing better this morning up =
+until I gave her the morning dose. It occurred to me that she almost =
+immediately gets super cranky, appears lethargic and almost dizzy. I am =
+not giving her anymore, even though it says 2X a day for 5 days. This is =
+day 4. Sometimes the cure is worse than the cause. Ugh..."
+
+You are receiving this email because you've listed Eileen Federico as a =
+close friend.
+
+http://www.facebook.com/n/?eileen.grantfederico%2Fposts%2F4282127975149&mi=
+d=3D72ec69aG5af340bfd3edG130193dG79&bcode=3D1.1355073900.AbnZ4RuVCrnObvJO&=
+n_m=3Droary01%40activ8.net.au
+
+Thanks,
+The Facebook Team
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+This message was sent to roary01@activ8.net.au. If you don't want to =
+receive these emails from Facebook in the future, please follow the link =
+below to unsubscribe.
+http://www.facebook.com/eileen.grantfederico?from_email_notif=3D1
+Facebook, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA =
+94303
+
+
+--b1_580564da50cf2735a691e5194e5fbeb9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional =
+//EN"><html><head><title>Facebook</title><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3Dutf-8" /></head><body style=3D"margin: 0; =
+padding: 0;" dir=3D"ltr"><table cellspacing=3D"0" cellpadding=3D"0" =
+id=3D"email_table" style=3D"border-collapse:collapse;width:98%;" =
+border=3D"0"><tr><td id=3D"email_content" =
+style=3D"font-size:12px;font-family:&#039;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:620px;"><tr><td =
+style=3D"font-size:16px;font-family:&#039;lucida grande&#039;,tahoma,verda=
+na,arial,sans-serif;background:#3b5998;color:#FFFFFF;font-weight:bold;vert=
+ical-align:baseline;letter-spacing:-0.03em;text-align:left;padding:5px =
+20px;"><a style=3D"text-decoration: none;" href=3D"http://www.facebook.com=
+/n/?eileen.grantfederico%2Fposts%2F4282127975149&amp;mid=3D72ec69aG5af340b=
+fd3edG130193dG79&amp;bcode=3D1.1355073900.AbnZ4RuVCrnObvJO&amp;n_m=3Droary=
+01%40activ8.net.au&amp;lloc=3Dlogo"><span style=3D"background:#3b5998;colo=
+r:#FFFFFF;font-weight:bold;font-family:&#039;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;vertical-align:middle; =
+font-size:16px;letter-spacing:-0.03em;text-align:left;vertical-align:basel=
+ine;">facebook</span></a></td></tr></table><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:620px;" =
+border=3D"0" width=3D"620px"><tr><td style=3D"font-size:11px;font-family:L=
+ucidaGrande,tahoma,verdana,arial,sans-serif;padding:0px;background-color:#=
+f2f2f2;border-left:none;border-right:none;border-top:none;border-bottom:no=
+ne;"><table cellspacing=3D"0" cellpadding=3D"0" width=3D"620px" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size:11px;font-f=
+amily:LucidaGrande,tahoma,verdana,arial,sans-serif;padding:0px;width:620px=
+;"><table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:20px;background-color:#fff;border-left:none;border-right:no=
+ne;border-top:none;border-bottom:none;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+valign=3D"top" style=3D"font-size:11px;font-family:LucidaGrande,tahoma,ver=
+dana,arial,sans-serif;padding-right:15px;text-align:left;"><a =
+href=3D"http://www.facebook.com/eileen.grantfederico" =
+style=3D"color:#3b5998;text-decoration:none;"><img src=3D"http://profile.a=
+k.fbcdn.net/hprofile-ak-ash4/260994_1344814140_1075599147_q.jpg" =
+style=3D"border:0;" /></a></td><td valign=3D"top" style=3D"font-size:11px;=
+font-family:LucidaGrande,tahoma,verdana,arial,sans-serif;width:100%;text-a=
+lign:left;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-bottom:10px;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-bottom:2px;"><span =
+style=3D"color:#111111;font-size:14px;font-weight:bold;"><a =
+href=3D"http://www.facebook.com/eileen.grantfederico" =
+style=3D"color:#3b5998;text-decoration:none;">Eileen =
+Federico</a></span></td></tr><tr><td style=3D"font-size:11px;font-family:L=
+ucidaGrande,tahoma,verdana,arial,sans-serif;padding-top:2px;padding-bottom=
+:2px;"><span style=3D"color:#333333;"><a href=3D"http://www.facebook.com/n=
+/?eileen.grantfederico&amp;mid=3D72ec69aG5af340bfd3edG130193dG79&amp;bcode=
+=3D1.1355073900.AbnZ4RuVCrnObvJO&amp;n_m=3Droary01%40activ8.net.au">Eileen =
+Federico</a> updated her status: &quot;Does anyone know anything about any =
+adverse side effects associated with the drug &#039;prednisolone&#039; in =
+children under the age of 1? Savannah seemed to be doing better this =
+morning up until I gave her the morning dose. It occurred to me that she =
+almost immediately gets super cranky, appears lethargic and almost dizzy. =
+I am not giving her anymore, even though it says 2X a day for 5 days. This =
+is day 4. Sometimes the cure is worse than the cause. =
+Ugh...&quot;</span></td></tr><tr><td style=3D"font-size:11px;font-family:L=
+ucidaGrande,tahoma,verdana,arial,sans-serif;padding-top:2px;"><span =
+style=3D"color:#333333;"></span></td></tr></table></td></tr><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-top:10px;border-top:1px solid #e8e8e8;"><table =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;width:100%;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td valign=3D"top" =
+style=3D"padding-right:5px;font-size: 0px;"><img =
+src=3D"http://static.ak.fbcdn.net/rsrc.php/v2/yg/r/OeeXwRJAXVK.png" =
+style=3D"border:0;" /></td><td valign=3D"top" style=3D"width:100%;"><span =
+style=3D"color: #808080">You are receiving this email because you&#039;ve =
+listed Eileen Federico as a close friend. <a =
+href=3D"http://www.facebook.com/eileen.grantfederico?from_email_notif=3D1" =
+style=3D"color:#3b5998;text-decoration:none;">Change Close Friend =
+Notifications.</a></span></td></tr></table></td></tr></table></td></tr></t=
+able></td></tr></table></td></tr></table></td></tr><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:0px;width:620px;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;width:100%;" =
+border=3D"0"><tr><td style=3D"font-size:11px;font-family:LucidaGrande,taho=
+ma,verdana,arial,sans-serif;padding:7px 20px;background-color:#f2f2f2;bord=
+er-left:none;border-right:none;border-top:1px solid #ccc;border-bottom:1px =
+solid #ccc;"><table cellspacing=3D"0" cellpadding=3D"0" style=3D""><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-left:65px;"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"border-width: =
+1px;border-style: solid;border-color: #29447E #29447E =
+#1a356e;background-color: #5b74a8;"><table cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding:2px 6px 4px;border-top:1px solid #8a9cc2;"><a =
+href=3D"http://www.facebook.com/n/?eileen.grantfederico%2Fposts%2F42821279=
+75149&amp;mid=3D72ec69aG5af340bfd3edG130193dG79&amp;bcode=3D1.1355073900.A=
+bnZ4RuVCrnObvJO&amp;n_m=3Droary01%40activ8.net.au" =
+style=3D"color:#3b5998;text-decoration:none;"><span =
+style=3D"font-weight:bold;white-space:nowrap;color: #fff;font-size: =
+11px;">View Post</span></a></td></tr></table></td></tr></table></td></tr><=
+/table></td></tr></table></td></tr></table></td></tr></table><table =
+cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+style=3D"border-collapse:collapse;width:620px;"><tr><td =
+style=3D"font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, =
+verdana, arial, sans-serif;padding:30px 20px;background-color:#fff;border-=
+left:none;border-right:none;border-top:none;border-bottom:none;color:#9999=
+99;border:none;">This message was sent to <a =
+href=3D"mailto:roary01&#064;activ8.net.au" style=3D"color:#3b5998;text-dec=
+oration:none;">roary01&#064;activ8.net.au</a>. If you don&#039;t want to =
+receive these emails from Facebook in the future, please <a =
+href=3D"http://www.facebook.com/eileen.grantfederico?from_email_notif=3D1" =
+style=3D"color:#3b5998;text-decoration:none;">unsubscribe</a>.<br =
+/>Facebook, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA =
+94303</td></tr></table><span style=3D"width:620px;"><img =
+src=3D"http://www.facebook.com/email_open_log_pic.php?c=3D1157767985&amp;m=
+id=3D72ec69aG5af340bfd3edG130193dG79" =
+style=3D"border:0;width:1px;height:1px;" =
+/></span></td></tr></table></body></html>
+
+
+
+--b1_580564da50cf2735a691e5194e5fbeb9--
+
+

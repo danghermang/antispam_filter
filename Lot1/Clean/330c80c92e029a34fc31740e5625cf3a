@@ -1,0 +1,95 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+On Sun, Sep 23, 2012 at 05:21:28PM +0000, Camale=F3n wrote:
+> El Sun, 23 Sep 2012 17:30:05 +0200, Juan Antonio escribi=F3:
+>=20
+> > El 23/09/12 16:00, Camale=F3n escribi=F3:
+>=20
+> (...)
+>=20
+> >>> con mkinitramfs tu generas una imagen rd para cualquier kernel, tan=
+to
+> >>> de repo como compilado a mano, y configuras ciertos "ganchos" que
+> >>> soportan determinados sistemas y cargan ciertos m=F3dulos.
+> >>=20
+> >> No s=E9, no me termina de quedar claro.
+> >>=20
+> >> Los archivo "initrd" que se generan por cada kernel instalado en el
+> >> sistema se modifican s=F3lo si ha habido cambios en la imagen del ke=
+rnel
+> >> (que es lo que sucede con los paquetes "linux-image-*" que proporcio=
+na
+> >> Debian cuando existe una actualizaci=F3n, bien sea de seguridad -par=
+a la
+> >> versi=F3n estable- o en testing).
+> >>=20
+> >> Pero el resto de archivos intrd (los que han sido generados tras una
+> >> compilaci=F3n manual del kernel) no se modifican (o no se deber=EDan
+> >> alterar) salvo que se vuelva a ejecutar manualmente el comando (p ej=
+.,
+> >> tras volver a compilar el kernel con cambios en archivo de
+> >> configuraci=F3n).
+> >>
+> >>
+> > asi es, yo daba por hecho que =E9l generaba las im=E1genes de nuevo p=
+or
+> > alg=FAn motivo, quiza al compilar una nueva versi=F3n del kernel o po=
+r
+> > a=F1adir alguna opci=F3n nueva.
+>=20
+> (...)
+>=20
+> Vale, ya s=E9 lo que ha pasado (si es que no hay nada como leer :-P)
+>=20
+> No se trata del paquete initramfs-tools ni del initrd, el problema es d=
+el=20
+> paquete "udev" que desde la versi=F3n 175-4 (como indican en el bug que=
+=20
+> mencionaba =C1ngel) ha dejado de intentar cargar el m=F3dulo "unix.ko"=20
+> externamente para solucionar ese mensaje de error tan feo que aparec=ED=
+a=20
+> nada m=E1s iniciar el sistema.=20
+>=20
+> Este cambio lo indican en el changelog:
+>=20
+> udev (175-4) unstable; urgency=3Dlow
+>=20
+> * Stop trying to load the unix module in the initramfs hook.
+> (Closes: #654282)
+>=20
+> Moraleja: cuando se vaya a compilar un kernel "vanilla" manualmente y=20
+> para evitar problemas con los paquetes que se incluyen en Debian,=20
+> conviene usar la opci=F3n de "localmodconfig" que toma los valores del=20
+> archivo de configuraci=F3n del kernel de Debian y adem=E1s a=F1ade todo=
+s los=20
+> m=F3dulos que se encuentren cargados en el momento de la compilaci=F3n.
+
+Claro, por eso tengo varios, ahora tengo tres versiones compiladas por mi
+con experimentos con las opciones del compilador, retirando capacidades (=
+bus ISA)
+a=F1adiendo soporte bluetooth para mas experimentos, y tambien tengo inst=
+alados
+cuatro nucleos que llamo de "stock", instalados desde los repositorios. A=
+hora estoy
+seguro que los nucleos de "stock", al menos en su ultima version no estar=
+ian
+afectado por el tema del unix.ko
+
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=F3n
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debi=
+an.org
+> Archive: http://lists.debian.org/k3ngeo$lsj$10@ger.gmane.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120923193347.GB6444@angel.dominio.angel
+

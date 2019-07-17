@@ -1,0 +1,30 @@
+Subject:Re: KVM =?utf-8?Q?r=C3=A9seaux?= Host-only
+
+    Bonjour,
+
+
+Le dimanche 02 décembre 2012, nicolas bouige a écrit...
+
+
+> Enfin bref pour résumer j'aimerai avoir un réseaux host-only entre
+> mon hôte et les machines virtuelles...si quelqu'un a la marche a
+> suivre, merci d'avance.
+
+Si j'ai bien compris ta demande :
+
+http://libvirt.org/formatnetwork.html
+
+Voir la conf des "routed network", ou "private network"
+
+-- 
+jm
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121202163857.GA32013@espinasse
+

@@ -1,0 +1,55 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_problemas_con_se=F1al_wifi_canal_14_en_debian_6?=
+El d=EDa 1 de octubre de 2012 09:30, Constantino Vargas
+<consvargas@gmail.com> escribi=F3:
+> buenas amigos, he tenido problemas de saturacion de se=F1al wifi en mi
+> localidad, tenia montado una ap con antena panel para conectarme ha inter=
+net
+> wifi, una posible soluci=F3n que encontr=E9 es de que un proveedor wifi d=
+e mi
+> localidad  esta en canal 14 y con la tarjeta de red TL-WN751ND (ath9k) pu=
+edo
+> captar su se=F1al desde la distribuci=F3n xubuntu 12.04 que lo tengo inst=
+alado
+> en mi pc.
+>
+> Pero desde debian 6 con xfce como entorno gr=E1fico el que uso, no puedo =
+ver
+> la red wifi de mi proveedor en canal 14 desde mi administrador gr=E1fico =
+de
+> redes Wicd en xfce, he probado desde modo texto con:
+>
+> #iwlist scan
+>
+> pensando que sea tema de kernel he probado en la distribuci=F3n Qimo para
+> ni=F1os que esta con kernel 2.6 no tenido problemas, pienso que talvez pu=
+ede
+> ser problema de driver ath9k.
+>
+> bueno les agradecer=E9 me puedan apoyar con mi tema.
+>
+> gracias
+>
+> --
+> Constantino Vargas C.
+> Movil Movistar 953 957823 RPM *679588
+>
+>
+
+El uso de ese canal est=E1 permitido originalmente s=F3lo en Jap=F3n, por
+tanto tendr=E1s que especificarlo en tus opciones a la hora de cargar el
+m=F3dulo con el par=E1metro... ieee80211_regdom
+
+Saludos
+
+--=20
+Gonzalo L. Campos Medina
+http://www.ubuntu.com | http://www.ubuntu-es.org | http://www.ubuntu-pe.org
+L.R.U. #344192 | U.R.U. #161
+Freenode #ubuntu-es #edubuntu-es #ubuntu-pe
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAAOR6xMmfoHjhvnDqZrJbb+6vYuyBkn7_rzagTHeKWv9HCSLAg@mail.gmail.com
+

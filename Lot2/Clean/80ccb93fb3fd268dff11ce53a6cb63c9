@@ -1,0 +1,31 @@
+Subject:LDAP + quotas
+Saludos:
+
+En un servidor Debian hace poco he eliminado todos los usuarios de sistema =
+(excepto el mio) para pasarlos usuarios virtuales mediante autentificaci=C3=
+=B3n LDAP.
+
+Ahora bien, como no tengo esos usuarios integrados en el sistema (nsswitch)=
+ no puedo asignarles quotas de disco.
+
+De momento he aplicado las quotas de upload (para el servidor FTP) aunque e=
+s un parche temporal, ya que muchos de los ficheros que se suben a los espa=
+cios de los usuarios lo hacen a trav=C3=A9s de aplicaciones PHP.
+
+Alguien sabe si existe alguna manera de integrar quotas de disco a usuarios=
+ LDAP mediante algun tipo de libreria, m=C3=B3dulo, parche, etc que pueda a=
+=C3=B1adir alg=C3=BAn objectClass a la estructura LDAP de estos usuarios qu=
+e manejen las quotas de estos susarios?.
+
+Cualquier aportaci=C3=B3n ser=C3=A1 bien recibida.
+
+
+--=20
+Alfonso <alfonso@gnuino.net>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/515479105.24.1350465563972.JavaMail.root@nemesis
+

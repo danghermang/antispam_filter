@@ -1,0 +1,66 @@
+Subject:respuesta Calling-Station-Id
+Esto es lo que me responde el freeradius -X
+
+rad_recv: Accounting-Request packet from host 192.168.1.1:44174, id=135,
+length=134
+	Acct-Session-Id = "5044E40B3DCE00"
+	User-Name = "pepe"
+	Acct-Status-Type = Stop
+	Service-Type = Framed-User
+	Framed-Protocol = PPP
+	Acct-Authentic = RADIUS
+	Acct-Session-Time = 1098
+	Acct-Output-Octets = 2983729
+	Acct-Input-Octets = 867335
+	Acct-Output-Packets = 7451
+	Acct-Input-Packets = 7174
+	NAS-Port-Type = Async
+	Acct-Terminate-Cause = Lost-Carrier
+	Framed-IP-Address = 192.168.1.250
+	NAS-IP-Address = 192.168.1.1
+	NAS-Port = 0
+	Acct-Delay-Time = 0
+  Processing the preacct section of radiusd.conf
+modcall: entering group preacct for request 0
+  modcall[preacct]: module "preprocess" returns noop for request 0
+rlm_acct_unique: Hashing 'NAS-Port = 0,Client-IP-Address =
+192.168.1.1,NAS-IP-Address = 192.168.1.1,Acct-Session-Id =
+"5044E40B3DCE00",User-Name = "pepe"'
+rlm_acct_unique: Acct-Unique-Session-ID = "843ee11a1da88ed0".
+  modcall[preacct]: module "acct_unique" returns ok for request 0
+    rlm_realm: No '@' in User-Name = "pepe", looking up realm NULL
+    rlm_realm: No such realm "NULL"
+  modcall[preacct]: module "suffix" returns noop for request 0
+  modcall[preacct]: module "files" returns noop for request 0
+modcall: leaving group preacct (returns ok) for request 0
+  Processing the accounting section of radiusd.conf
+modcall: entering group accounting for request 0
+radius_xlat:  '/var/log/freeradius/radacct/192.168.1.1/detail-20120903'
+rlm_detail: /var/log/freeradius/radacct/%{Client-IP-Address}/detail-%Y%m%d
+expands to /var/log/freeradius/radacct/192.168.1.1/detail-20120903
+  modcall[accounting]: module "detail" returns ok for request 0
+  modcall[accounting]: module "unix" returns ok for request 0
+radius_xlat:  '/var/log/freeradius/radutmp'
+radius_xlat:  'pepe'
+  modcall[accounting]: module "radutmp" returns ok for request 0
+modcall: leaving group accounting (returns ok) for request 0
+Sending Accounting-Response of id 135 to 192.168.1.1 port 44174
+Finished request 0
+Going to the next request
+
+
+Al parecer no tiene activado el Calling-Station-Id
+
+Como puedo resolver este problema???
+
+Salu2
+Cosme
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/fccc745029e65aaefa6b7b6f4f24786b.squirrel@192.168.13.16
+

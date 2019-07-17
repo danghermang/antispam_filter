@@ -1,0 +1,17 @@
+Subject:Re: instalar repositorio en 1 TeraByte
+Gabriel Condori wrote:
+
+>>
+>> >Solo instala la distro de forma normal.
+>> >
+> 
+> y el particionado de disco?  como es de 1Tera tengo dudas
+
+Seria muy interesante utilizar LVM -> http://www.tldp.org/HOWTO/LVM-HOWTO/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3uarq$f8v$1@ger.gmane.org
+

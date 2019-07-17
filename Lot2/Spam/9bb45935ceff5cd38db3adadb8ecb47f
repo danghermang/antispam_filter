@@ -1,0 +1,496 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<mlk@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <ESC1111829374386_1101978655946_30810_r20@in.constantcontact.com>
+Received: (qmail 23334 invoked by uid 89); 11 Dec 2012 13:53:28 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 11 Dec 2012 13:53:28 -0000
+Delivery-date: Tue, 11 Dec 2012 05:51:49 -0800
+Received: from numenor.vingilot.org ([207.192.75.46]) helo=numenor.vingilot.org
+	by apn.junkemailfilter.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.80.1)
+	id 1TiQF7-0002wz-97 on interface=184.105.182.43
+	for mlk@activ8.net.au; Tue, 11 Dec 2012 05:51:47 -0800
+Received: from ccm135.constantcontact.com ([208.75.123.135])
+	by numenor.vingilot.org with esmtp (Exim 4.69)
+	(envelope-from <ESC1111829374386_1101978655946_30810_r20@in.constantcontact.com>)
+	id 1TiQAC-0000Uy-Qg
+	for australasia@tolkiensociety.org; Tue, 11 Dec 2012 08:46:34 -0500
+Received: from p2-jbsched08.ad.prodcc.net (p2-pen6.ad.prodcc.net [10.252.0.106])
+	by p2-mail188.ccm135.constantcontact.com (Postfix) with ESMTP id 330982C757D
+	for <australasia@tolkiensociety.org>; Tue, 11 Dec 2012 08:50:54 -0500 (EST)
+DKIM-Signature: v=1; q=dns/txt; a=rsa-sha256; c=relaxed/relaxed; s=227481; d=cup-columbia.ccsend.com; h=to:subject:mime-version:message-id:from:date:sender:list-unsubscribe:reply-to; bh=VV3pBXICO74tRCIiAJBUfmhsnkN2+hgZwy8xDjCTbGE=; b=jbEnQQLosFNvdodDa7RUoBpOuG2TP22jLSo9WSqXy4zNKkpQRavD7BoPLFtvTEbOcjW51GtKru4FXBW3KGzGABzfkEsc5YqZZWEW/8b24eKomdArWNtL5hs/V9vO03+6XPfFNCpW6sJWDgGFL/EIhFvMPmn5In1Z2WMXZ48YAcM=
+Message-ID: <1111829374386.1101978655946.30810.8.2408457A@scheduler.constantcontact.com>
+Date: Tue, 11 Dec 2012 08:50:54 -0500 (EST)
+From: Columbia University Press <pl2164@columbia.edu>
+Reply-To: pl2164@columbia.edu
+Sender: Columbia University Press <jb2579@cup-columbia.ccsend.com>
+To: australasia@tolkiensociety.org
+Subject: Birds, Poems, Meatballs and More Gift Ideas at 50% Off
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_27137713_111352990.1355233854198"
+X-Mailer: Roving Constant Contact 2009 (http://www.constantcontact.com)
+List-Unsubscribe: http://visitor.constantcontact.com/do?p=un&mse=001gefDXOImcDvGrcbtenqW52kd7N1qd3nIqHiVQ3c7kmE%3D&t=001Jr5gYKLVPdJFS-CBUexHEg%3D%3D&llr=kgxxqjcab
+X-Return-Path-Hint: ESC1111829374386_1101978655946_30810_r20@in.constantcontact.com
+X-Roving-ID: 1101978655946.30810
+X-Lumos-SenderID: 1101978655946
+X-Roving-CampaignId: 1111829374386
+X-Roving-StreamId: 0
+X-Spam_score: -4.0
+X-Spam_score_int: -39
+X-Spam_bar: ----
+X-Spam_report: Spam detection software, running on the system "li39-46", has
+	identified this incoming email as possible spam.  The original message
+	has been attached to this so you can view it (if it isn't spam) or label
+	similar future email.  If you have any questions, see
+	the administrator of that system for details.
+	Content preview:  You're receiving this email because you have expressed an
+	interest in Columbia University Press. You may unsubscribe http://visitor.constantcontact.com/do?p=un&mse=001gefDXOImcDvGrcbtenqW52kd7N1qd3nIqHiVQ3c7kmE%3D&t=001Jr5gYKLVPdJFS-CBUexHEg%3D%3D&llr=kgxxqjcab
+	if you no longer wish to receive our emails. [...] 
+	Content analysis details:   (-4.0 points, 5.0 required)
+	pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	-4.0 RCVD_IN_DNSWL_MED      RBL: Sender listed at http://www.dnswl.org/, medium
+	trust
+	[208.75.123.135 listed in list.dnswl.org]
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	0.0 HTML_MESSAGE           BODY: HTML included in message
+	-0.0 RCVD_IN_IADB_LISTED    RBL: Participates in the IADB system
+	[208.75.123.135 listed in iadb.isipp.com]
+	-0.0 RCVD_IN_IADB_SPF       RBL: IADB: Sender publishes SPF record
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: ESC1111829374386_1101978655946_30810_r20@in.constantcontact.com
+X-Relay-Countries: us
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd3.ctyme.com
+ Spam Tests:
+ *  1.0 CT_PERCENT BODY: Percent Off
+ *  1.0 PROMOTION BODY: Contains 'Special Promotion'
+ * -4.0 BAYES_00 BODY: Bayes spam probability is 0 to 1%
+ *      [score: 0.0000]
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ *  1.0 MAILTO_LINK RAW: Includes a URL link to send an email
+ * -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+ *  0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily
+ *      valid
+X-Spam-Class: HAM - SpamAssassin good - Score=0
+X-Sender-Host-Address: 207.192.75.46
+X-Sender-Host-Name: numenor.vingilot.org
+
+------=_Part_27137713_111352990.1355233854198
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+You're receiving this email because you have expressed an interest in Columbia University
+Press. You may unsubscribe
+http://visitor.constantcontact.com/do?p=un&mse=001gefDXOImcDvGrcbtenqW52kd7N1qd3nIqHiVQ3c7kmE%3D&t=001Jr5gYKLVPdJFS-CBUexHEg%3D%3D&llr=kgxxqjcab
+if you no longer wish to receive our emails.
+
+
+Columbia University Press [http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWuebhyhudiZSjJuMX5pyeRviSyJecqFfXQMyTBQX2I83Nazme7ZeJMm67U_O7uJC3fmiJSbeIUL9mOKy4mksCK9mLGxlMcVBdPuWMEo24Aniw==]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+From the history of peanut butter to the cutting edge of science, here are just 
+a few holiday gift suggestionsfor the various people in your life. Click here [http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWvI6QvpKlJbWaTMnLOBXW63XNjHGTGR2X_ApEe67XmbMotVneyya4RKqUZ6YPWKfwNDEDWG4tMaZ0fuEJWsi9kzdTGASwiORunEwseJxJsGy1zfs55tsNxs4ahO9M6fRxs=]
+for a full list of titles on sale:
+All these books are currently 50% off during ourHoliday Sale [http://www.cup.columbia.edu/sale/284].
+Please use the coupon code HOLIDAY. (Click here [http://www.cup.columbia.edu/sale/284]for
+more details):
+The Greatest Grid [http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWuWBHY2OC-jqCGGhjg0MX50HDDAPx25V6pCJwkR9zxYSFU2T0fYcZdRkGsWzUIr_iOxIgh3ZhktxeVIOhX1m7u1eI0z3bsjajTX-YMzfTE6LU7cTWI0L7-MT1HIp2RCQb6MF0981Ku0B-vK81SK4ohD2TU4FM1fTjo=]
+
+Be sure to enter the special promotion code HOLIDAY in the space provided in the
+ shopping cart order form. (Discounted amount will appear after you click "apply").
+
+All prices listed are after the discount.
+
+Below is some advice for those on your list:
+
+The Birdwatcher or the Poetry Reader: Bright Wings: An Illustrated Anthology of 
+Poems About Birds [http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWuWBHY2OC-jqCGGhjg0MX50HDDAPx25V6pCJwkR9zxYSFU2T0fYcZdRkGsWzUIr_iOxIgh3ZhktxeVIOhX1m7u1eI0z3bsjajTX-YMzfTE6LU7cTWI0L7-MT1HIp2RCQb6MF0981Ku0B-vK81SK4ohD2TU4FM1fTjo=],
+edited by Billy Collins ($8.48)
+For the Magazine Lover: The Art of Making Magazines: On Being an Editor and Other
+Views from the Industry [http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWuoa5qqXTF3xOSaEeyhvyNkR0vLPgdCPbhXY98eL7NsiEZ4fod2KM5PHBBJ687OHUlEuGREKhBQcFgH8AFFgT4NQ1BiOj4ar5DA5XO7xnoPwzhAkc68t_qX-85v6ce8CWGuQPX1ciLJ-7SBxVCdzUsCKPHTI25fwIaXqj9SZrd8GFvQC4WCPeG0],
+edited by Victor Navasky and Evan Cornog ($11.25)
+For the Budding Critic: The Critical Pulse: Thirty-Six Credos by Contemporary Critics
+[http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWt511OiE-zf14zI1JtqOtDDxdhQV-NmXT-HtIkVEgACGb9-2ugrFawEbUcDrNRTFCz4WWEikMCckkQl1sub4hvP2g3C-Q2AvLO0Amj8udMNga1LWEy6vCgm1WzEwUZYdARwr57KiQb7GS1N6U6duKZmy-SSW9yplFBtlaY_o70unQ==],
+Edited by Jeffrey Williams and Heather Steffen ($8.48)
+For the Businessman or the Critic of Business: The Best Business Writing 2012 [http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWteNwazDkHe2k3yoPXTAe0IMVJaCzbFRtFGTKAbXMu457-RY6YIWeEmMKinJWqNvBVqql3FydvWa1BTB4TCs-lIvvhKEV2WakxMPXI6XJkVpY2K86Ipa_lcbD5_R2Yke26bXX5tEZa0qabbkuvlMnNbFENJ_uS-w7gnA9KoGhTSuDv-UJXmiwMrRsvEDCKM2-8=],
+Edited by Dean Starkman, Martha M. Hamilton, Ryan Chittum, and Felix Salmon ($9.48)
+For New York City-phile: The Greatest Grid: The Master Plan of Manhattan, 1811-2011
+[http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWuz2g4hEVOn5EnEM3GymA2rEXk07NXcZAz0Ytr-0rNZcMoLw4RfuoOiIk6rCH7BBr-3YobQhp_EX0q8uXYU4mkqs9VJcpWobkpyeH2hmQ5yJsr9Dv1hDuVb54CdO0_Nk4Gru2mxUAGBgNDuVboe4sIEZ43J5XcdfcbatT6NxQgHbw==],
+edited by Hilary Ballon ($20.00)
+For the Reader Interested in the Future of Science: The Epigenetics Revolution: 
+How Modern Biology Is Rewriting Our Understanding of Genetics, Disease, and Inheritance
+[http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWt_aet-M09NLdFjx-S6sTXXhwhjJULbLPWRaH0fTVnwr2gbQP9fjaJdBiVOWVL75HeWSCp5cMfGoOmqrcNr-0Yd6qq3UONTawapZ8z_MP4qA1R3IaAsE_Dn0nsoUUWmV90A5nJPk0zdsOMieDqcmX3QekvXiyzdc3tQ0Yu_uhk6TuQPoXlFwSmw],
+by Nessa Carey ($13.48)
+For the Reader Interested in Spaghetti's Better Half: Let the Meatballs Rest: And
+Other Stories About Food and Culture [http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWthPyKQog3knnn17Msl3O2R2sE3eQTe183hmme8BnmJy-RA943VIAdKKh08-YzhqB3_e56GynoYADJsGLeW16StqZZvXNBhyupEoL4dFpyg4XFj920Kw6DjbBmrVbGEnAF2Uskw206Q-rCSacsdz933vq8ufpYfcGExAzH3I3B6oo8_KbvaphQO],
+Massimo Montanari ($13.25)
+For the Innovator: Creative Strategy: A Guide for Innovation [http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWusLJRFKBGHyCTItAsvX9QBFrSxjWMIupgvzQ83RD14vGzamICPG6SZG5lgxh3NJhzNlRRsii5_KMI2hh9VeZtwKYjop0DQCVV22zWYXKlJwgLCE-18ZKVzrCSprGmiIvYXikjYv8u-L0VW7Xc2xYJcHp6P8KGCQ1ak7SxH_yeKoA==],
+by William Duggan ($13.98)
+When Trading Places Is Not Enough: The Secret Financial Life of Food: From Commodities
+Markets to Supermarkets [http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWs3zLF_RhOPisGLqPi05OQ1mX5dUi4e2555b0jZi63R4-iGcZMfi6pJA7YC2L8aryhX_nsQqNCNucIOFPYp7iQE9V7SjJ1_DtBoKHw-wAIb-TTDFqEm8DGE2FJlfFhrgP3ZK9jTIJwG4g67L7QT59DljnUNjGbiy-0xa1jx2MZOAdLbuL0ZYSf8iknqw5uv5NY=],
+by Kara Newman ($13.48)
+
+Please feel free to pass this along to your friends, family, and colleagues.
+* To insure delivery by Christmas, please place your order before December 15. (Sale
+for U.S. and Canadian customers only.)
+
+Find us on Facebook [http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWu23tZod6TXCHSPMt2NmYUNx9vv2Zl0SepM_GdQviLXzBSlZ0_9h1Ufb0BrtLIhyrHc1khCKxQobNM8dxaXw-dNB02mPWa9kRUqvScOIkgsT2IERNXqBEfenbI-_1mVEl8BIubCLmCMXz_7TKCgsF-6JaISAVwMsdAjrjuXl1X0IQ==]
+       Follow us on Twitter [http://r20.rs6.net/tn.jsp?e=001oR_DzcIpRWt5juNFTyitwitnx7jAfJJL0GJMOPW7C1Q77zvHvwRkTbUWOpQUmVGlmiNY3IgXtnbD7AeEQFxuXqrNASh2Al1mZTqZQeRWy6wY6Rf5lHERZw7WMYrLzhdM]
+Forward this email to a Friend [http://ui.constantcontact.com/sa/fwtf.jsp?m=1101978655946&a=1111829374386&ea=australasia%40tolkiensociety.org]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Forward email
+http://ui.constantcontact.com/sa/fwtf.jsp?llr=kgxxqjcab&m=1101978655946&ea=australasia@tolkiensociety.org&a=1111829374386
+
+
+This email was sent to australasia@tolkiensociety.org by pl2164@columbia.edu.
+
+Update Profile/Email Address
+http://visitor.constantcontact.com/do?p=oo&mse=001gefDXOImcDvGrcbtenqW52kd7N1qd3nIqHiVQ3c7kmE%3D&t=001Jr5gYKLVPdJFS-CBUexHEg%3D%3D&llr=kgxxqjcab
+
+
+Instant removal with SafeUnsubscribe(TM)
+http://visitor.constantcontact.com/do?p=un&mse=001gefDXOImcDvGrcbtenqW52kd7N1qd3nIqHiVQ3c7kmE%3D&t=001Jr5gYKLVPdJFS-CBUexHEg%3D%3D&llr=kgxxqjcab
+
+
+Privacy Policy:
+http://ui.constantcontact.com/roving/CCPrivacyPolicy.jsp
+
+
+Online Marketing by
+Constant Contact(R)
+www.constantcontact.com
+
+
+Columbia University Press | 61 West 62nd Street | New York | NY | 10023
+------=_Part_27137713_111352990.1355233854198
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+<body topmargin=3D"0" leftmargin=3D"0" rightmargin=3D"0"><!--Copyright (c) =
+1996-2012 Constant Contact. All rights reserved.  Except as permitted under=
+ a separate
+written agreement with Constant Contact, neither the Constant Contact softw=
+are, nor any content that appears on any Constant Contact site,
+including but not limited to, web pages, newsletters, or templates may be r=
+eproduced, republished, repurposed, or distributed without the
+prior written permission of Constant Contact.  For inquiries regarding repr=
+oduction or distribution of any Constant Contact material, please
+contact legal@constantcontact.com.--><div id=3D"rootDiv"><div align=3D"cent=
+er" style=3D"background-color:#ffffff;padding-bottom:10px;"><div align=3D"l=
+eft" style=3D"font-family:verdana,arial;font-size:8pt;color:#000000;width:6=
+00px;"><font face=3D"verdana,arial" size=3D"1" color=3D"#000000" style=3D"f=
+ont-family:verdana,arial;font-size:8pt;color:#000000;">You're receiving thi=
+s email because you have expressed an interest in Columbia University Press=
+. <div>&nbsp;</div><div>You may <a style=3D"color:#0000ff;" shape=3D"rect" =
+href=3D"http://visitor.constantcontact.com/do?p=3Dun&mse=3D001gefDXOImcDvGr=
+cbtenqW52kd7N1qd3nIqHiVQ3c7kmE%3D&t=3D001Jr5gYKLVPdJFS-CBUexHEg%3D%3D&llr=
+=3Dkgxxqjcab" target=3D"_blank">unsubscribe</a> if you no longer wish to re=
+ceive our emails.</div></font></div></div><div><table width=3D"100%" cellpa=
+dding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td align=3D"center" valign=
+=3D"top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"6=
+00"><tr><td align=3D"left" valign=3D"top"><table cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"shr-btn-tbl"><tr><td><img src=3D"http://img.constantcont=
+act.com/ui/images1/shr_drw_left.png" /></td><td><a href=3D"http://s.rs6.net=
+/t?e=3DykNs4gPSomo&c=3D1&r=3D1" title=3D"Share with Facebook"><img src=3D"h=
+ttp://img.constantcontact.com/ui/images1/shr_drw_fb.png" style=3D"border:0;=
+" /></a></td><td><a href=3D"http://s.rs6.net/t?e=3DykNs4gPSomo&c=3D3&r=3D1"=
+ title=3D"Share with Twitter"><img src=3D"http://img.constantcontact.com/ui=
+/images1/shr_drw_twit.png" style=3D"border:0;" /></a></td><td><a href=3D"ht=
+tp://s.rs6.net/t?e=3DykNs4gPSomo&c=3D4&r=3D1" title=3D"Share with LinkedIn"=
+><img src=3D"http://img.constantcontact.com/ui/images1/shr_drw_linked.png" =
+style=3D"border:0;" /></a></td><td><img src=3D"http://img.constantcontact.c=
+om/ui/images1/shr_drw_divider.png" style=3D"border:0;" /></td><td><a href=
+=3D"http://s.rs6.net/t?e=3DykNs4gPSomo&c=3D5&r=3D1" title=3D"More Share Opt=
+ions"><img src=3D"http://img.constantcontact.com/ui/images1/shr_drw_more.pn=
+g" style=3D"border:0;" /></a></td><td><img src=3D"http://img.constantcontac=
+t.com/ui/images1/shr_drw_right.png" style=3D"border:0;" /></td><td class=3D=
+"like-this" style=3D"padding-left:5px;"><a href=3D"http://myemail.constantc=
+ontact.com/Birds--Poems--Meatballs-and-More-Gift-Ideas-at-50--Off-.html?soi=
+d=3D1101978655946&aid=3DykNs4gPSomo#fblike" title=3D"Like This"><img src=3D=
+"http://img.constantcontact.com/ui/images1/shr_btn_like_sm.png" style=3D"bo=
+rder:0;" /></a></td></tr></table></td></tr></table></td></tr></table></div>=
+<img src=3D"http://r20.rs6.net/on.jsp?t=3D1111829374386.0.1101978655946.308=
+10&ts=3DS0849&o=3Dhttp://ui.constantcontact.com/images/p1x1.gif" height=3D"=
+1" width=3D"1" />
+<div style=3D"background-color:#FFFFFF;margin:10px 10px 10px 10px;" bgcolor=
+=3D"#FFFFFF" align=3D"center">
+<table style=3D"width:600px;" border=3D"0" width=3D"100%" cellspacing=3D"0"=
+ cellpadding=3D"1">
+<tr>
+  <td valign=3D"top" width=3D"100%" rowspan=3D"1" colspan=3D"1" align=3D"le=
+ft">
+=09
+    </td>
+</tr>
+<tr>
+  <td style=3D"background-color:#00498E;padding:1px;" bgcolor=3D"#00498E" v=
+align=3D"top" rowspan=3D"1" colspan=3D"1" align=3D"left">
+  <table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">
+  <tr>
+    <td style=3D"background-color:#FFFFFF;padding:10px;" bgcolor=3D"#FFFFFF=
+" valign=3D"middle" width=3D"100%" rowspan=3D"1" colspan=3D"1" align=3D"lef=
+t">
+=09  <table class=3D"" style=3D"background-color: rgb(255, 255, 255);" heig=
+ht=3D"74" bgcolor=3D"#ffffff" border=3D"0" width=3D"100%" cellspacing=3D"0"=
+ cellpadding=3D"0" id=3D"content_LETTER.BLOCK2"><tr><td style=3D"color:#3E5=
+06D;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:10pt;" =
+rowspan=3D"1" align=3D"center" colspan=3D"1"><a track=3D"on" href=3D"http:/=
+/r20.rs6.net/tn.jsp?e=3D001oR_DzcIpRWuebhyhudiZSjJuMX5pyeRviSyJecqFfXQMyTBQ=
+X2I83Nazme7ZeJMm67U_O7uJC3fmiJSbeIUL9mOKy4mksCK9mLGxlMcVBdPuWMEo24Aniw=3D=
+=3D" shape=3D"rect" target=3D"_blank"><img height=3D"54" border=3D"0" width=
+=3D"584" alt=3D"Columbia University Press" src=3D"http://i301.photobucket.c=
+om/albums/nn63/eahlering/CUP__logo_crown_color.jpg" /></a>&nbsp;</td></tr><=
+/table>
+      </td>
+  </tr>
+  <tr>
+    <td style=3D"background-color:#FFFFFF;" height=3D"20" bgcolor=3D"#FFFFF=
+F" valign=3D"top" width=3D"100%" rowspan=3D"1" colspan=3D"1" align=3D"left"=
+>
+=09=09
+      </td>
+  </tr>
+  <tr>
+    <td style=3D"background-color:#FFFFFF;" bgcolor=3D"#FFFFFF" valign=3D"t=
+op" width=3D"100%" rowspan=3D"1" colspan=3D"1" align=3D"left">
+=09 =20
+      <table height=3D"19" border=3D"0" width=3D"100%" cellspacing=3D"0" ce=
+llpadding=3D"0" id=3D"content_LETTER.BLOCK5"><tr style=3D"font-family: Treb=
+uchet MS,Verdana,Helvetica,sans-serif; color: #000000;"><td style=3D"font-s=
+ize: 10pt; color: #000000; font-family: Trebuchet MS,Verdana,Helvetica,sans=
+-serif; text-align: left; margin-left: 30px;" rowspan=3D"1" colspan=3D"1" a=
+lign=3D"left"><span style=3D"font-size: 12pt;"><span style=3D"font-size: 11=
+pt;"><em><span>From the history of peanut butter to the cutting edge of sci=
+ence, <a shape=3D"rect">here are just a few holiday gift suggestions</a> </=
+span>for the various people in your life.&nbsp;<span style=3D"font-size: 11=
+pt;">Click <a style=3D"color: blue; text-decoration: underline;" href=3D"ht=
+tp://r20.rs6.net/tn.jsp?e=3D001oR_DzcIpRWvI6QvpKlJbWaTMnLOBXW63XNjHGTGR2X_A=
+pEe67XmbMotVneyya4RKqUZ6YPWKfwNDEDWG4tMaZ0fuEJWsi9kzdTGASwiORunEwseJxJsGy1z=
+fs55tsNxs4ahO9M6fRxs=3D" shape=3D"rect" target=3D"_blank">here</a> for a fu=
+ll list of titles on sale:</span><br /><br />&nbsp;All these books are curr=
+ently <strong>50%</strong> off during our</em> </span><a style=3D"color: bl=
+ue; text-decoration: underline;" track=3D"off" href=3D"http://www.cup.colum=
+bia.edu/sale/284" shape=3D"rect" linktype=3D"1" target=3D"_blank">Holiday S=
+ale</a><span style=3D"font-size: 11pt;">. <em>Please use the coupon code <s=
+trong>HOLIDAY</strong>. (Click </em></span><a style=3D"color: blue; text-de=
+coration: underline;" track=3D"off" href=3D"http://www.cup.columbia.edu/sal=
+e/284" shape=3D"rect" linktype=3D"1" target=3D"_blank">here</a><span style=
+=3D"font-size: 11pt;"> <em>for more details)</em>: </span><br /><br /><span=
+ style=3D"font-size: 11pt;"><em><strong> <a class=3D"imgCaptionAnchor" trac=
+k=3D"on" href=3D"http://r20.rs6.net/tn.jsp?e=3D001oR_DzcIpRWuWBHY2OC-jqCGGh=
+jg0MX50HDDAPx25V6pCJwkR9zxYSFU2T0fYcZdRkGsWzUIr_iOxIgh3ZhktxeVIOhX1m7u1eI0z=
+3bsjajTX-YMzfTE6LU7cTWI0L7-MT1HIp2RCQb6MF0981Ku0B-vK81SK4ohD2TU4FM1fTjo=3D"=
+ shape=3D"rect" target=3D"_blank"><img src=3D"http://i301.photobucket.com/a=
+lbums/nn63/eahlering/collins-bright.gif" style=3D"text-align: right;" width=
+=3D"183" vspace=3D"5" border=3D"0" alt=3D"The Greatest Grid" align=3D"right=
+" height=3D"241" hspace=3D"10" /></a> </strong></em></span><div><span style=
+=3D"font-size: 11pt;">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;">Be sure to enter the spec=
+ial promotion code <strong>HOLIDAY</strong> in the space provided in the sh=
+opping cart order form. (Discounted amount will appear after you click "app=
+ly").</p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;</p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;">All prices listed are aft=
+er the discount.</p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;</p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px; margin-left: 00px;">Below =
+is some advice for those on your list:</p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;</p>
+<strong><em>The Birdwatcher or the Poetry Reader</em></strong>: <a style=3D=
+"color: blue; text-decoration: underline;" track=3D"on" href=3D"http://r20.=
+rs6.net/tn.jsp?e=3D001oR_DzcIpRWuWBHY2OC-jqCGGhjg0MX50HDDAPx25V6pCJwkR9zxYS=
+FU2T0fYcZdRkGsWzUIr_iOxIgh3ZhktxeVIOhX1m7u1eI0z3bsjajTX-YMzfTE6LU7cTWI0L7-M=
+T1HIp2RCQb6MF0981Ku0B-vK81SK4ohD2TU4FM1fTjo=3D" shape=3D"rect" linktype=3D"=
+1" target=3D"_blank">Bright Wings: An Illustrated Anthology of Poems About =
+Birds</a>, edited by Billy Collins ($8.48)  <strong><em><br /><br />For the=
+ Magazine Lover</em></strong>: <a href=3D"http://r20.rs6.net/tn.jsp?e=3D001=
+oR_DzcIpRWuoa5qqXTF3xOSaEeyhvyNkR0vLPgdCPbhXY98eL7NsiEZ4fod2KM5PHBBJ687OHUl=
+EuGREKhBQcFgH8AFFgT4NQ1BiOj4ar5DA5XO7xnoPwzhAkc68t_qX-85v6ce8CWGuQPX1ciLJ-7=
+SBxVCdzUsCKPHTI25fwIaXqj9SZrd8GFvQC4WCPeG0" shape=3D"rect" target=3D"_blank=
+">The Art of Making Magazines: On Being an Editor and Other Views from the =
+Industry</a>, edited by Victor Navasky and Evan Cornog ($11.25)  <strong><e=
+m><br /><br />For the Budding Critic</em></strong>: <a style=3D"color: blue=
+; text-decoration: underline;" track=3D"on" href=3D"http://r20.rs6.net/tn.j=
+sp?e=3D001oR_DzcIpRWt511OiE-zf14zI1JtqOtDDxdhQV-NmXT-HtIkVEgACGb9-2ugrFawEb=
+UcDrNRTFCz4WWEikMCckkQl1sub4hvP2g3C-Q2AvLO0Amj8udMNga1LWEy6vCgm1WzEwUZYdARw=
+r57KiQb7GS1N6U6duKZmy-SSW9yplFBtlaY_o70unQ=3D=3D" shape=3D"rect" linktype=
+=3D"1" target=3D"_blank">The Critical Pulse: Thirty-Six Credos by Contempor=
+ary Critics</a>, Edited by Jeffrey Williams and Heather Steffen ($8.48) <br=
+ /><br /><strong><em>For the Businessman or the Critic of Business</em></st=
+rong>: <a href=3D"http://r20.rs6.net/tn.jsp?e=3D001oR_DzcIpRWteNwazDkHe2k3y=
+oPXTAe0IMVJaCzbFRtFGTKAbXMu457-RY6YIWeEmMKinJWqNvBVqql3FydvWa1BTB4TCs-lIvvh=
+KEV2WakxMPXI6XJkVpY2K86Ipa_lcbD5_R2Yke26bXX5tEZa0qabbkuvlMnNbFENJ_uS-w7gnA9=
+KoGhTSuDv-UJXmiwMrRsvEDCKM2-8=3D" shape=3D"rect" target=3D"_blank">The Best=
+ Business Writing 2012</a>, Edited by Dean Starkman, Martha M. Hamilton, Ry=
+an Chittum, and Felix Salmon ($9.48)  <strong><em><br /><br />For New York =
+City-phile</em></strong>: <a style=3D"color: blue; text-decoration: underli=
+ne;" track=3D"on" href=3D"http://r20.rs6.net/tn.jsp?e=3D001oR_DzcIpRWuz2g4h=
+EVOn5EnEM3GymA2rEXk07NXcZAz0Ytr-0rNZcMoLw4RfuoOiIk6rCH7BBr-3YobQhp_EX0q8uXY=
+U4mkqs9VJcpWobkpyeH2hmQ5yJsr9Dv1hDuVb54CdO0_Nk4Gru2mxUAGBgNDuVboe4sIEZ43J5X=
+cdfcbatT6NxQgHbw=3D=3D" shape=3D"rect" linktype=3D"1" target=3D"_blank">The=
+ Greatest Grid: The Master Plan of Manhattan, 1811-2011</a>, edited by Hila=
+ry Ballon ($20.00) <br /><br /><strong><em>For the Reader Interested in the=
+ Future of Science</em></strong>: <a href=3D"http://r20.rs6.net/tn.jsp?e=3D=
+001oR_DzcIpRWt_aet-M09NLdFjx-S6sTXXhwhjJULbLPWRaH0fTVnwr2gbQP9fjaJdBiVOWVL7=
+5HeWSCp5cMfGoOmqrcNr-0Yd6qq3UONTawapZ8z_MP4qA1R3IaAsE_Dn0nsoUUWmV90A5nJPk0z=
+dsOMieDqcmX3QekvXiyzdc3tQ0Yu_uhk6TuQPoXlFwSmw" shape=3D"rect" target=3D"_bl=
+ank">The Epigenetics Revolution: How Modern Biology Is Rewriting Our Unders=
+tanding of Genetics, Disease, and Inheritance</a>, by Nessa Carey ($13.48) =
+ <strong><em><br /><br />For the Reader Interested in Spaghetti's Better Ha=
+lf</em></strong>: <a style=3D"color: blue; text-decoration: underline;" tra=
+ck=3D"on" href=3D"http://r20.rs6.net/tn.jsp?e=3D001oR_DzcIpRWthPyKQog3knnn1=
+7Msl3O2R2sE3eQTe183hmme8BnmJy-RA943VIAdKKh08-YzhqB3_e56GynoYADJsGLeW16StqZZ=
+vXNBhyupEoL4dFpyg4XFj920Kw6DjbBmrVbGEnAF2Uskw206Q-rCSacsdz933vq8ufpYfcGExAz=
+H3I3B6oo8_KbvaphQO" shape=3D"rect" linktype=3D"1" target=3D"_blank">Let the=
+ Meatballs Rest: And Other Stories About Food and Culture</a>, Massimo Mont=
+anari ($13.25) <strong><em><br /><br />For the Innovator</em></strong>: <a =
+href=3D"http://r20.rs6.net/tn.jsp?e=3D001oR_DzcIpRWusLJRFKBGHyCTItAsvX9QBFr=
+SxjWMIupgvzQ83RD14vGzamICPG6SZG5lgxh3NJhzNlRRsii5_KMI2hh9VeZtwKYjop0DQCVV22=
+zWYXKlJwgLCE-18ZKVzrCSprGmiIvYXikjYv8u-L0VW7Xc2xYJcHp6P8KGCQ1ak7SxH_yeKoA=
+=3D=3D" shape=3D"rect" target=3D"_blank">Creative Strategy: A Guide for Inn=
+ovation</a>, by William Duggan ($13.98)  <strong><em><br /><br />When </em>=
+Trading Places <em>Is Not Enough</em></strong>: <a style=3D"color: blue; te=
+xt-decoration: underline;" track=3D"on" href=3D"http://r20.rs6.net/tn.jsp?e=
+=3D001oR_DzcIpRWs3zLF_RhOPisGLqPi05OQ1mX5dUi4e2555b0jZi63R4-iGcZMfi6pJA7YC2=
+L8aryhX_nsQqNCNucIOFPYp7iQE9V7SjJ1_DtBoKHw-wAIb-TTDFqEm8DGE2FJlfFhrgP3ZK9jT=
+IJwG4g67L7QT59DljnUNjGbiy-0xa1jx2MZOAdLbuL0ZYSf8iknqw5uv5NY=3D" shape=3D"re=
+ct" linktype=3D"1" target=3D"_blank">The Secret Financial Life of Food: Fro=
+m Commodities Markets to Supermarkets</a>, by Kara Newman ($13.48)&nbsp;<p =
+style=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;</p></span></div></spa=
+n><span style=3D"font-size: 10pt;">Please feel free to pass this along to y=
+our friends, family, and colleagues.</span><br /> <br /><span style=3D"font=
+-size: 10pt;"> &nbsp;* To insure delivery by Christmas, please place your o=
+rder before December 15. (Sale for U.S. and Canadian customers only.)</span=
+><span style=3D"font-size: 10pt; color: #000000; font-family: Trebuchet MS,=
+Verdana,Helvetica,sans-serif; text-align: left;" align=3D"left">&nbsp;</spa=
+n></td></tr><tr style=3D"font-family: Trebuchet MS,Verdana,Helvetica,sans-s=
+erif;"><td style=3D"color: #000000; font-size: 10pt; font-family: Trebuchet=
+ MS,Verdana,Helvetica,sans-serif; text-align: left;" rowspan=3D"1" colspan=
+=3D"1" align=3D"left"><br /><a track=3D"on" shape=3D"rect" href=3D"http://r=
+20.rs6.net/tn.jsp?e=3D001oR_DzcIpRWu23tZod6TXCHSPMt2NmYUNx9vv2Zl0SepM_GdQvi=
+LXzBSlZ0_9h1Ufb0BrtLIhyrHc1khCKxQobNM8dxaXw-dNB02mPWa9kRUqvScOIkgsT2IERNXqB=
+EfenbI-_1mVEl8BIubCLmCMXz_7TKCgsF-6JaISAVwMsdAjrjuXl1X0IQ=3D=3D" linktype=
+=3D"facebook" target=3D"_blank"><img border=3D"0" alt=3D"Find us on Faceboo=
+k" title=3D"Find us on Facebook" src=3D"https://imgssl.constantcontact.com/=
+ui/images1/ic_fbk_36.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp; <a track=3D"on" shape=3D"rect" href=3D"http://r20.rs6.net/tn.jsp?e=3D=
+001oR_DzcIpRWt5juNFTyitwitnx7jAfJJL0GJMOPW7C1Q77zvHvwRkTbUWOpQUmVGlmiNY3IgX=
+tnbD7AeEQFxuXqrNASh2Al1mZTqZQeRWy6wY6Rf5lHERZw7WMYrLzhdM" linktype=3D"twitt=
+er" target=3D"_blank"><img border=3D"0" alt=3D"Follow us on Twitter" title=
+=3D"Follow us on Twitter" src=3D"https://imgssl.constantcontact.com/ui/imag=
+es1/ic_twit_36.png" /></a><br /><br /><a href=3D"http://ui.constantcontact.=
+com/sa/fwtf.jsp?m=3D1101978655946&a=3D1111829374386&ea=3Daustralasia%40tolk=
+iensociety.org" shape=3D"rect" target=3D"_blank"><img border=3D"0" alt=3D"F=
+orward this email to a Friend" src=3D"https://imgssl.constantcontact.com/ui=
+/images1/ftf_btn_3b.gif" /></a><br /></td></tr></table>
+     =20
+     =20
+      </td>
+  </tr>
+  <tr>
+    <td style=3D"background-color:#FFFFFF;" bgcolor=3D"#FFFFFF" width=3D"10=
+0%" rowspan=3D"1" colspan=3D"1" align=3D"left">
+=09 =20
+      </td>
+  </tr>
+  <tr>
+    <td style=3D"background-color:#FFFFFF;" height=3D"30" bgcolor=3D"#FFFFF=
+F" width=3D"100%" rowspan=3D"1" colspan=3D"1" align=3D"left">
+=09 =20
+      </td>
+  </tr>
+  </table></td>
+</tr>
+<tr>
+=09<td height=3D"10" width=3D"100%" rowspan=3D"1" colspan=3D"1" align=3D"le=
+ft">
+=09
+=09</td>
+</tr>
+</table>
+</div>
+<div align=3D"center" style=3D"background-color:#ffffff;">
+<table style=3D"text-align:left;" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" id=3D"footerPanelWrap">
+<tr>
+<td rowspan=3D"1" colspan=3D"1" align=3D"center">
+
+<div><div style=3D"font-weight:bold;font-family:tahoma,sans-serif;font-size=
+:8pt;text-align:center;color:#000000;background-color:#ffffff;padding-botto=
+m:10px;"><font style=3D"font-family:tahoma,sans-serif;font-size:8pt;color:#=
+000000;" color=3D"#000000" size=3D"1" face=3D"tahoma,sans-serif"><a shape=
+=3D"rect" href=3D"http://ui.constantcontact.com/sa/fwtf.jsp?llr=3Dkgxxqjcab=
+&m=3D1101978655946&ea=3Daustralasia%40tolkiensociety.org&a=3D1111829374386"=
+ target=3D"_blank">Forward email</a></font></div>
+
+
+<table style=3D"font-family:tahoma,sans-serif;font-size:11px;color:#2f2f2f;=
+background-color:#ffffff;" border=3D"0" width=3D"619" cellspacing=3D"0" cel=
+lpadding=3D"0">
+<tr>
+<td rowspan=3D"1" colspan=3D"1"><font style=3D"font-family:tahoma,sans-seri=
+f;font-size:11px;color:#2f2f2f;" color=3D"#000000" size=3D"1" face=3D"tahom=
+a,sans-serif">
+<table border=3D"0" width=3D"100%">
+<tr>
+<td valign=3D"middle" width=3D"100" rowspan=3D"1" colspan=3D"1"><a shape=3D=
+"rect" href=3D"http://visitor.constantcontact.com/do?p=3Dun&mse=3D001gefDXO=
+ImcDvGrcbtenqW52kd7N1qd3nIqHiVQ3c7kmE%3D&t=3D001Jr5gYKLVPdJFS-CBUexHEg%3D%3=
+D&llr=3Dkgxxqjcab" target=3D"_blank"><img border=3D"0" src=3D"http://img.co=
+nstantcontact.com/letters/images/SafeUnsubscribe_Footer_Logo_New.png" /></a=
+>
+</td>
+<td width=3D"519" rowspan=3D"1" colspan=3D"1" align=3D"right"><a shape=3D"r=
+ect" href=3D"http://www.constantcontact.com/index.jsp?cc=3Dnews08" target=
+=3D"_blank"><img border=3D"0" src=3D"http://img.constantcontact.com/letters=
+/images/CC_Footer_Logo_New.png" /></a>
+</td>
+</tr>
+</table><div>This email was sent to australasia@tolkiensociety.org by <a st=
+yle=3D"color:#0000ff;" shape=3D"rect" href=3D"mailto:pl2164@columbia.edu" t=
+arget=3D"_blank">pl2164@columbia.edu</a> <span style=3D"color: #bababa;"> |=
+ </span> &nbsp; </div>
+<div><a style=3D"color:#0000ff;" shape=3D"rect" href=3D"http://visitor.cons=
+tantcontact.com/do?p=3Doo&mse=3D001gefDXOImcDvGrcbtenqW52kd7N1qd3nIqHiVQ3c7=
+kmE%3D&t=3D001Jr5gYKLVPdJFS-CBUexHEg%3D%3D&llr=3Dkgxxqjcab" target=3D"_blan=
+k">Update Profile/Email Address</a> <span style=3D"color: #bababa;">|</span=
+> Instant removal with <a style=3D"color:#0000ff;" shape=3D"rect" href=3D"h=
+ttp://visitor.constantcontact.com/do?p=3Dun&mse=3D001gefDXOImcDvGrcbtenqW52=
+kd7N1qd3nIqHiVQ3c7kmE%3D&t=3D001Jr5gYKLVPdJFS-CBUexHEg%3D%3D&llr=3Dkgxxqjca=
+b" target=3D"_blank">SafeUnsubscribe</a>&trade;  <span style=3D"color: #bab=
+aba;">|</span>  <a style=3D"color:#0000ff;" shape=3D"rect" href=3D"http://u=
+i.constantcontact.com/roving/CCPrivacyPolicy.jsp" target=3D"_blank">Privacy=
+ Policy</a>.</div>
+</font></td>
+</tr>
+</table><div style=3D"font-family:tahoma,sans-serif;font-size:12px;color:#0=
+00000;background-color:#ffffff;padding-top: 12px;" align=3D"left" id=3D"LET=
+TER.PHYSICALADDRESS"><font style=3D"font-family:tahoma,sans-serif;font-size=
+:12px;color:#000000;" color=3D"#000000" size=3D"1" face=3D"tahoma,sans-seri=
+f">Columbia University Press<span style=3D"color: #bababa;"> | </span>61 We=
+st 62nd Street<span style=3D"color: #bababa;"> | </span>New York<span style=
+=3D"color: #bababa;"> | </span>NY<span style=3D"color: #bababa;"> | </span>=
+10023</font></div></div>
+</td>
+</tr>
+</table>
+</div></div></body>
+
+------=_Part_27137713_111352990.1355233854198--
+
+

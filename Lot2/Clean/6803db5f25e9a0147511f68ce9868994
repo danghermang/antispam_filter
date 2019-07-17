@@ -1,0 +1,22 @@
+Subject:Re: script pour imagemagick
+Le Mon, 19 Nov 2012 20:40:02 +0100, moi-meme a écrit :
+
+
+> plus simple :
+> for i in $jpg $jpeg ; do ...
+
+que je suis c... (l'âge, le blanc, le chichon, etc)
+
+for i in *jpg *jpeg ; do ...
+
+bien entendu. 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50aa9472$0$1956$426a74cc@news.free.fr
+

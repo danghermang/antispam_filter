@@ -1,0 +1,65 @@
+Subject:Re: problema con openvpn
+El 19/09/12 08:24, Antonio Moreno escribió:
+> 
+>>
+>> de momento quita esta línea de la configuración
+>>
+>> route 192.1.16.0 255.255.255.0 192.1.16.153
+>>
+>> eso es para añadir rutas a tu servidor, no a los clientes, y tu servidor
+>> ya conoce el camino a su propia red.
+>>
+>> pruébalo y nos cuentas.
+>>
+>> Un saludo.
+>>
+> Nada de nada, estoy pensando que el problema puede venir por la rutas en
+> el cliente, aqui las adjunto
+> 
+> Destino de red        Máscara de red   Puerta de acceso   Interfaz Métrica
+>           0.0.0.0          0.0.0.0     192.168.43.1 192.168.43.114       25
+>          10.8.0.0    255.255.255.0         10.8.0.5 10.8.0.6       1
+>          10.8.0.4  255.255.255.252         10.8.0.6 10.8.0.6       30
+>          10.8.0.6  255.255.255.255        127.0.0.1 127.0.0.1       30
+>    10.255.255.255  255.255.255.255         10.8.0.6 10.8.0.6       30
+>         127.0.0.0        255.0.0.0        127.0.0.1 127.0.0.1       1
+>      192.168.43.0    255.255.255.0   192.168.43.114 192.168.43.114       25
+>    192.168.43.114  255.255.255.255        127.0.0.1 127.0.0.1       25
+>    192.168.43.255  255.255.255.255   192.168.43.114 192.168.43.114       25
+>         224.0.0.0        240.0.0.0         10.8.0.6 10.8.0.6       30
+>         224.0.0.0        240.0.0.0   192.168.43.114 192.168.43.114       25
+>   255.255.255.255  255.255.255.255         10.8.0.6 10.8.0.6       1
+>   255.255.255.255  255.255.255.255   192.168.43.114 192.168.43.114       1
+> Puerta de enlace predeterminada:      192.168.43.1
+> 
+> De todas formas mi pregunta es si en ccd/cliente tengo puesto
+> 
+> iroute 192.1.16.0 255.255.255.0 10.8.0.1
+> 
+> No se si esto estara bien o mal
+> 
+> Mil gracias por ayuda
+> 
+
+ese iroute también sobra, y el client-to-client igual. A no ser que
+estes tratando de alcanzar las redes de los clientes y estas entre ellas.
+
+el problema parece ser que tu cliente no coge el push route, creo que
+tuve un problema parecido hace tiempo con clientes windows y que estaba
+documentado. Revisa el log de tu cliente de openvpn y verás que aparece
+un error al tratar de escribir la ruta, de hecho en la tabla que has
+pegado no aparece.
+
+Un saludo.
+
+-- 
+"Tanto en los deportes como en todo lo demás, soy un experto. Pero para
+mantener viva mi inteligencia natural y fuera de serie, tengo que comer
+mucho"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505976B8.2020407@limbo.deathwing.net
+

@@ -1,0 +1,86 @@
+Subject:Re: [EVDL] How do I drive my EV?
+On Mon, Nov 5, 2012 at 1:48 PM, Joel Sell <justthesells@yahoo.com> wrote:
+
+> I've been a member of this listserve for a few years now, but mostly a
+> lurker.
+> Got my EV up and running this summer and have been working bugs out since
+> then (mostly battery issues).
+> Here are the specs:
+> 1979 VW Bus
+> ADC 4001 Motor
+> Open Revolt DIY 144v 500ah controller
+> No Clutch- direct drive into stock manual tranny
+> Stock tires (185 R14 -yes, that's correct) inflated to max PSI
+> 120v pack of 6vx20 Sam's Club ECG2s
+> voltmeters on every set (2) batteries, so I can watch closely voltage sag
+> and whatnot.
+>
+> So at first, I was driving it like I would normally hypermile an ICE-
+> slowly, keep the RMPs LOW stay mostly in 2nd gear, even when starting off.
+> But my pack would only safely last me about 20 or so miles before my DOD
+> would get too low.
+> I found a very informative PDF about driving an EV in the EVDL library,
+> which basically said to stay in 1st up to 25mph, and keep the RPMs HIGH for
+> efficiency. All of a sudden those torque drawings started making sense  (I
+> always thought they were written backwards or something).  So now I keep it
+> in 1st up to about 25-30 mph and my mileage has gone way up! But I started
+> wondering about the Redline or Over-rev of my motor. How high was too high?
+> I have a good *feel* for torque and motor response and throttle input, so I
+> can feel when it' time to shift UP to 2nd to get more torque to climb a
+> hill. But I can't find the actual "redline" for my motor in official
+> documents anywhere- I've *read online* it's anywhere from 5000-8000, but I
+> can't find anything really narrow it down.
+> 99% of my driving is in the city of Philadlephia, so the speed limit is
+> between 25-40mph. Shifting isn't easy, so I *like* to leave it in one gear,
+> but sometimes I wonder if I'm getting too high in 1st, or loosing too much
+> of my batteries if I start out in 2nd and stay there.
+> I did some calculations to figure out my RPMs from my MPH, but I was
+> getting about 6000rpms @25mph! That seemed really high, but, like I said,
+> the motor *felt* fine, not like I needed to upshift.
+> I'm sure this is covered often, but my "search" didn't come up with much
+> more than I already learned.
+> Can anyone help me out?
+> Thanks!
+> Joel in Philly
+
+
+Joel,
+
+I think you're flirting with danger.  I vaguely remember that an ADC 9"
+wants to stay under 5500 rpm.  You can take it higher, but only briefly and
+under low-heat conditions, or if you've prepped it for higher rpm.  The
+fact that a VW bus has a stump-puller first gear means it's very easy to
+spin your motor way too fast.  I'm also concerned that without a clutch
+your shifting is perhaps more herky-jerky than it might otherwise be.  You
+really don't want to be wound tight in first gear and have a
+neutral/throttle timing glitch that overspeeds your motor.  You won't like
+the price tag.  If your controller doesn't have some kind of overspeed
+limiting you need a tach.  At the very least, mark your speedo with top
+speeds in each gear.  I wouldn't trust published data for ratios.  It's not
+hard to measure overall ratios directly (distance traveled per motor rev,
+both measured precisely).
+
+I'm just outside Philadelphia, and I know there are a few pretty steep
+hills.  I can see you going up one in first, holding up traffic and blowing
+a shift to second that scatters your motor.  If it was mine I'd put the
+clutch back in - really easy to do in a bus.  I'd also stop using first
+gear.  I doubt you really need it, and the efficiency loss is likely to be
+very small.  If you want to fine tune things a bit, aren't there different
+ratios available for the wheel-side gear cases?  (Sorry, my bus knowledge
+is pretty rusty.)
+
+Chris
+LeSled is fore sale!
+http://www.evalbum.com/274
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121105/44b98147/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

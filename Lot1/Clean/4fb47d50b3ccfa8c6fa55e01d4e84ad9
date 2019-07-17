@@ -1,0 +1,39 @@
+Subject:Re: [Antenna-discussion] Another Crystal Radio Question
+> Here's a site that claims that the difference between one bar and two on a
+> cellphone is 6 dB.
+> http://www.tested.com/news/**news/510-cell-phone-reception-**
+> explained-what-the-bars-mean/<http://www.tested.com/news/news/510-cell-phone-reception-explained-what-the-bars-mean/>
+>
+> This is of the size of the possible effect of another cellphone in front
+> of you in reducing your reception.
+>
+
+It may be true that on some particular phone, a "bar" is 6dB.  I wouldn't
+count on that being any sort of standard.
+
+The near field effects of putting one phone near another are complicated.
+You would see a much more complicated picture if you looked at moving that
+phone to various positions in a cubical grid around the reference phone,
+against a signal from a reference antenna out many meters.  Another
+interesting experiment would be to create a low loss resonant circuit with
+simply a loop and tuning capacitor, load that, and repeat the gridding.
+The second phone, in the near field, is also acting as part of the antenna
+system of the reference phone.
+
+I don't think your lunar thought experiment scales very well, there are
+many orders of magnitude difference in the ratio of wavelength vs
+obstructor.
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

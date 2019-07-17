@@ -1,0 +1,72 @@
+Subject:Re: [MG] [Ag Meinungsfindungstool] Common business entity model
+Hi Michael,
+
+I like the way you break things down!
+
+Michael Allan wrote:
+>Marc said:
+>> That's true. But IMHO if a Group is composed of 2..* Participants,
+>> that doesn't mean a Participant can't be member of several
+>> Groups. So maybe we need a * multiplicity at the Groups side?
+
+>Or maybe an open diamond symbol (aggregate).  I think filled diamond
+>(composite) implies a single group.
+
+Ok. A Group could be seen as an aggregate of Participants. For me an 
+*aggregate* is a HAS relation while a *composite* is a CONSISTS OF relation. 
+So with an composite one could argue that the Participant is dispersed in 
+the Group.
+
+>George said:
+>> So, a couple of simple domain models for argumentative discussions
+>> and consensus already exist:
+>> 1. A consensus ontology, based on IBIS, problem marketplaces and
+>> idea management:
+>> http://www.imc.com.gr/ontologies/eDialogos/consensus/
+
+>http://www.imc.com.gr/ontologies/eDialogos/consensus/img/class_diagram_v0.1.png
+>I was looking at the core relations (eDialogos below).  I think I can
+>map them to the terminology we use (in Outcast) and also AG Meinungs-
+>findungstool (CBEM/AG):
+
+>                  has                has
+>  IdeaContest  <-------  Idea  ----------->  User          (eDialogos)
+>
+>         Poll  <-------  Position  ------->  Person        (Outcast)
+>
+>        Topic  <-------  Opinion  -------->  Participant   (CBEM/AG)
+
+>Maybe this can be our Rosetta stone for the rest of the world. :-)
+
+YES! And this mapping should grow. I saw already some more similarities 
+between eDialogos and CBEM. Unfortunately I don't know 'Outcast', but maybe 
+that's Votorolas data schema?
+
+Maybe we can try to reach the following target: Reaching consensus about a 
+'Common eDecision-Making Standard'
+
+This may consist of
+
+1) A Common Domain Model (NOT a database schema); this are entities to be 
+common to all tools / systems
+
+2) A Common  Use Case Model; this are processes / workflows / actions to be 
+common to all tools / systems
+This could look like the following - just a first draft and unfortunately in 
+german language again:
+http://wiki.piratenpartei.de/wiki/images/e/ed/QKonsens-Anwendungsf%C3%A4lle-v01.jpg
+
+
+So let's see how far can we push this approach!
+
+What do you think?
+
+Cheers
+marc 
+
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

@@ -1,0 +1,57 @@
+Subject:Re: [LUG] Linux - and security
+On Sat, Nov 3, 2012 at 8:57 PM, Simon Avery wrote:
+> Whilst checking, I also found this, shame it's a little tenuous;
+> http://anti-virus-rants.blogspot.co.uk/2011/02/ethical-conflict-in-anti-malware-domain.html
+
+Hmm. That's a very complicated case. I know people who have worked
+together with the US Government to fight malware and at the same time
+analysed (and thus effectively dismantled) malware written by that
+same government. HBGary is a government contractor, not the government
+itself, but it's an equally grey area. Perhaps even more so, because
+HBGary went after some bad guys -- hacktivists -- which could justify
+co-operating with an AV company, but they possibly did so by writing
+malware itself.
+
+I'm not saying McAfee did the right thing by working with HBGary, but
+accusing them of being "in bed with malware writers" goes a little too
+far.
+
+For a long time, the AV industry saw the "virus-world" as black and
+white: you either wrote viruses or you fought them. And if you were
+once part of the former group, you would never become part of the
+latter. I once had someone at an AV company proudly tell me how he'd
+turned down an otherwise ideal candidate after the latter had
+sheepishly admitted to once having written a virus when he was 15. (I
+think the main reason behind this attitude was a fear of the common
+accusation that AV companies wrote the viruses themselves becoming
+more widespread.)
+
+Most people have changed their attitudes now. (But not everyone, as
+that blog post shows.) Things like penetration testing and ethical
+hacking, while technically "bad things" are well-appreciated by most
+security experts.
+
+> I believe AV companies would have paid for an
+> advantage over over competitors in a saturated market that has existed for,
+> what, over 25 years?
+
+You'd be surprised at how much technical information is shared among
+AV researchers. If one finds a sample it is quickly shared with
+researchers working for competitors. It has been argued that this has
+made the AV industry saturated in practise, as without these
+connections, you won't be able to get hold of malware samples quick
+enough. Not sharing things, or even not sharing things fast enough, is
+seriously frowned upon, and has the potential of samples not being
+shared with you. Hence there is no incentive to pay malware writers.
+(Putting aside the question of how much of an advantage this would
+give you.)
+
+(Sorry, this must be pretty boring for those who don't care very much
+about computer security.)
+
+Martijn.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

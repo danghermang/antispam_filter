@@ -1,0 +1,37 @@
+Subject:Re: [EVDL] Precharge / Discharge
+On 10/26/2012 5:34 PM, m_radtke wrote:
+> The OpenRevolt controller is 12 volt powered and does not include any
+> internal bleed on the pack circuit.
+> The point is well taken about locating the +/- pack voltage on nearby
+> terminals, so perhaps the fixed bleeder is the best choice.  I like the idea
+> of a light bulb or other indicator.  However, it still isn't fail safe.  I
+> am puzzling whether to have an indicator which might be better than nothing,
+> or not to have an indicator since it's failure would impart a false sense of
+> security.  Perhaps I need dual discharge paths and dual indicators.
+
+I would use both a light, and a resistor. It's a redundant solution, and 
+both can be chosen to be extremely reliable. Plus, the parts won't even 
+cost you a dollar.
+
+An inexpensive neon indicator is a good choice for the light. They 
+basically don't wear out. Even if they do, their failure mode is an open 
+circuit.
+
+And, just pick a resistor rated for (say) 2x the voltage and wattage 
+that will ever flow in it.
+
+-- 
+If we knew what we were doing, it wouldn't be called research, would it?
+	-- Albert Einstein
+--
+Lee A. Hart http://www.sunrise-ev.com/LeesEVs leeahart@earthlink.net
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

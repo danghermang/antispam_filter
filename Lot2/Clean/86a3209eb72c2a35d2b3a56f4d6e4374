@@ -1,0 +1,25 @@
+Subject:Re: Issues w/ POSIX's strftime() ?
+On 9/18/12 3:38 PM, $Bill Luebkert wrote:
+> On 9/18/2012 12:28, Philip Prindeville wrote:
+>> Well, I remember that when I was at Microsoft (lowers his head), there was a lot of use of ActiveState perl in the build machinery for the Windows kernel.
+>>
+>> I wouldn't be surprised if Microsoft had a couple of full-time ActiveState folks on contract, in fact.
+>>
+>> Maybe if one is on the list, they can suggest that strftime() be amended to have '%z' return the timezone offset in hours/minus and sign.
+> Might be easier to just have AS make the changes by coding
+> around it (convert the %T to %H:%M:%S and grab the tz offset
+> from the registry
+> (HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation\ActiveTimeBias)
+> and format it to %z format (%+02d%02u, $atb / 60, $atb % 60 or whatever).
+>
+> Pretty simple change if someone has the time/access.
+>
+
+I'd rather call the DLL that does this for us than grovel around in the registry... My scripts need to work in some environments where the AV stuff is *really* buttoned down and doesn't like direct probes into the registry (but is fine with system libraries doing it for us... supposedly through a whitelist of permitted imports).
+
+-Philip
+
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

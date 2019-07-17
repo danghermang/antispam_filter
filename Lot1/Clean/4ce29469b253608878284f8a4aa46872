@@ -1,0 +1,57 @@
+Subject:Re: Openfire y servidores remotos
+
+
+
+ Tienes que registrar OBLIGADO 3 servicios en el DNS.
+
+ Quien te administra el DNS tiene que hacer esos cambios.
+
+
+> ----- Original Message ----- 
+> From: <luis@ida.cu>
+> To: "Debian user spanish" <debian-user-spanish@lists.debian.org>
+> Sent: Monday, October 08, 2012 12:24 PM
+> Subject: Re: Openfire y servidores remotos
+>
+>
+>> On Mon, 08 Oct 2012 11:57:47 -0500, Yuniesky Machado Rojas wrote:
+>>> Saludos listeros
+>>>
+>>>  Quisiera hacer una pregunta para ver como se puede hacer--
+>>>
+>>> Como puedo comunicar varios servidores openfire cada servidor con ip
+>>> real 190..... de Cuba sin usar dns?
+>>>
+>>> el problema que mi proveedor tiene mi dns y queremos unir tres
+>>> empresas en lugares diferentes de Varadero para comunicarnos entre si
+>>> mediante jabber, y deberia hacerse solamente con las ip reales
+>>> pues pedir a mi proveedor el master de los dns seria un verdadero
+>>> problema y demora en el proceso.
+>>>
+>>> En espera de alguna sugerencia
+>>
+>> Sencillo a ETECSA o al proveedor que tengas que te cree un registro para 
+>> el jabberd, claro esto contra una IP real, instalas un servidor jabberd 
+>> en tu empresa y ahí autenticarán todos, ahh como las demás filiales 
+>> tendrán acceso a este servidor, asi lo resuelves, el DNS oohh cuídado muy 
+>> importante , el hecho de que tú no lo administres no quiere decir que no 
+>> exista, pues tus ip reales y registros los tiene ETECSA o quien lo 
+>> administre, resolviendo así el problema. Ahh sin contar el trbajo que 
+>> debes de hacer en el firewall ok
+>>
+>>
+>> -- 
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact 
+>> listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/74189e3f66feaa5ff0cc5c9c34a68597@ida.cu
+>>
+> 
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4AEF79AF04C84E2EB05C3068A0886E5D@dbsrv
+

@@ -1,0 +1,214 @@
+Subject:Re: [Jukebox-list] Need help with Seeburg VL200 speaker issue
+There is no external 8 ohm terminal on these machines.=20
+
+It is easy to connect an 8 ohm spk to the amp by simply tracing the wire fr=
+om the speaker power switch that goes to the speaker plug. the other wire g=
+oes to chassis ground.
+
+Removing the speaker plug will kill the B+ unless pins 2&3 are jumped.
+
+The crossover box is there at the extreme right.
+
+Since the speakers have been replaced a check of phasing is needed.
+
+Take a battery of 1.5 to 6 volts, remove the speaker plug from the amp and =
+connect the battery terminals to pins 1&4. Both woofer cones should move in=
+ the same direction.
+
+All speakers are to be 16 ohm to load the amp at 8 ohm. using lower impedan=
+ce drivers will not have much effect on bass but will overload the amp and =
+change the crossover frequency.
+
+If you are using the original pickup with later styli, the rubbery damping =
+material around the stylus cantilever may have dried out and collapsed.
+
+If the machine has one of those (crappy) ceramic subs -that may be the caus=
+e.
+
+
+Check the action of the bass control. Seeburg uses a thin EQ on the preamp =
+(not as much bass boost as a normal RIAA curve) and them makes up for that =
+by using a huge amount of boost in the first 2/3 of the volume pot.=A0 If t=
+he taps are not connected and functioning properly the machine will sound t=
+hin.=20
+
+There are other possibilities such as a output tran with shorted turns, and=
+ of course, wiring mistakes. But try these and the other suggestions and yo=
+u'll narrow it down.=20
+
+This should be straight forward.
+
+Rob/NYC
+
+--- On Mon, 10/29/12, James Alexander <jalexandercc11@att.net> wrote:
+
+From: James Alexander <jalexandercc11@att.net>
+Subject: Re: [Jukebox-list] Need help with Seeburg VL200 speaker issue
+To: "Ernest Gabbard" <cushman5@bellsouth.net>, "Jukebox mailing list" <juke=
+box-list@lists.netlojix.com>
+Date: Monday, October 29, 2012, 4:12 PM
+
+Ernest:
+
+
+You need to run a few quick tests to determine what is causing your V200's =
+poor=20
+sound performance.=A0=A0 The problem (in general) can lie with either the p=
+hono=20
+cartridge, setup, the amplifier electronics, the speaker system or a combin=
+ation=20
+of these.
+
+Test 1
+
+Using=A0one channel of a stereo or home theatre audio receiver (along with =
+an MP3=20
+player, CD, or other sound source)=A0that is KNOWN to be working well:
+
+Disconnect the V200 cabinet speakers from the juke amp (should be on a 4 pi=
+n=20
+connector) and connect them to=A0the receiver channel.=A0=A0Make up a jumpe=
+r=20
+connection to the two speaker wires exiting the speaker plug. =A0Play a mus=
+ic=20
+signal at a moderate=A0volume level to the speakers.=A0=A0How is the sound =
+quality??=A0=20
+It should be a reasonably close match to the sound of a "test" bookshelf=20
+speaker---the juke speakers may play a little louder.=A0=A0 From your speak=
+er photo,=20
+there could be something wrong----more on that a little later.=A0 If the ca=
+binet=20
+speakers sound OK, the problem lies with your V200 amp or the phono cartrid=
+ge=20
+setup.=A0=A0 Test 3 will help you isolate that should you need to do that.
+
+Test 2=20
+A variation on that test involves the use of a test stereo bookshelf spkr t=
+hat=20
+is KNOWN to be in well-performing condition.=A0=A0 Connect the test speaker=
+ to the=20
+juke amp's ext speaker terminals.=A0 They=A0should be marked COM=A0 8 ohms =
+and 70=20
+volt.=A0 Connect your speaker test leads to com and 8 ohms.=A0 Either turn =
+the fader=20
+for the cabinet spkrs fully off or unplug them.=A0=A0 Try playing a record =
+at a=20
+moderatre volume level into the ext spkr.=A0 How's the sound quality?=A0 If=
+ it=20
+sounds normal with a balanced tone, this indicates that your phono cartridg=
+e and=20
+amp are working normally and the problem lies in the cabinet speakers.=A0 T=
+ake=20
+care not play the jukebox amp with no speaker (either one or the other)=20
+providing a load for the amplifier.=A0=A0 Parts of your tube-type amp can b=
+e damaged=20
+by playing an audio signal through it with no load at either of the speaker=
+=20
+terminals.=A0=A0=A0 Last but not least, the fader should be set to the 25 w=
+att tap=20
+when using only the cabinet speakers.
+
+Your VL200 has a speaker system consisting of 2=A0 12" woofers=A0 (from the=
+ pix, you=20
+have a mismatched pair, but they could still play reasonably well)=A0=A0 Th=
+ere are=20
+(or should be) 2=A0 8" speakers mounted within the black PVC enclosure.=A0 =
+These=20
+mid-range/high-freq speakers should be connected through a crossover networ=
+k=20
+chassis (a passive electronic device on the speaker line that divides and r=
+outes=20
+low freqs to the 12" woofers and mid-high freqs to the 8" enclosure.=A0=A0 =
+This=20
+crossover chassis is normally mounted on the cabinet floor of the juke.=A0=
+=A0 This=20
+part is either not in your picture or is missing.
+
+Test 3
+
+Does your stereo test receiver have a mag. phono cartridge input?=A0 If yes=
+,=20
+connect your "test " speaker cabinet to the channel of the receiver being u=
+sed=20
+for test.=A0 Unplug the phono catrtridge lead from the V200 amp (it's an RC=
+A plug,=20
+located=A0near the top of the chassis, the wire running to it might have a =
+green=20
+jacket.=A0=A0 Plug this into the mag phono input=A0of the receiver=A0 (at t=
+his time,=20
+receiver's volume control should be fully off)=A0 Make a selection and play=
+ a=20
+record on the juke. Bring up the volume to a moderate level.=A0 Hows' the s=
+ound=20
+quality?=A0=A0 If it sounds OK, this tells us that the phono cartridge/styl=
+us is=20
+working.=A0=A0=A0 If the sound quality seems weak or=A0poor,there's a probl=
+em with the=20
+phono cartridge.
+
+I suggest that you don't buy any other speaker drivers=A0(either new or use=
+d) for=20
+your juke until you've worked your way through these tests to determine whe=
+re=20
+your sound problem lies.=A0=A0A service tech would step through these tests=
+ in order=20
+to solve your question.
+
+Hope this helps,
+
+
+
+
+
+Jim Alexander=A0
+
+
+
+
+________________________________
+From: Ernest Gabbard <cushman5@bellsouth.net>
+To: "jukebox-list@lists.netlojix.com" <jukebox-list@lists.netlojix.com>
+Sent: Mon, October 29, 2012 4:43:08 PM
+Subject: [Jukebox-list] Need help with Seeburg VL200 speaker issue
+
+I have a Seeburg VL200.=A0 The jukebox scans and plays properly, but I have=
+ an=20
+issue with the sound quality.=A0 I have had the amplifier recapped, replace=
+d the=20
+stylus with the replacement=A0 I got from Vern Tisdale, and checked everyth=
+ing I=20
+know about without finding any components out of tolerance.=A0 The unit pla=
+ys, it=20
+just doesn't have the sound it should.=A0 My best description of it is that=
+ it=20
+sounds about like a small home radio instead of the rich sounds it should h=
+ave.=A0=20
+I am almost certain that the speakers have been replaced at some time.=A0 I=
+ am=20
+thinking I need to replace the two bass speakers.=A0 A photo of the speaker=
+s in=20
+the box are at
+http://i1274.photobucket.com/albums/y431/cushman6/seeburg009.jpg
+Could someone help me by telling me if these are the correct speakers and i=
+f not=20
+would anyone know where I can purchase a set that might work better.=A0 Any=
+ help=20
+would be greatly appreciated.
+=A0
+Ernest Gabbard
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

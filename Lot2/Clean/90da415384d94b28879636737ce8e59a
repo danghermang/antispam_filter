@@ -1,0 +1,104 @@
+Subject:Re: [Koha] Google SMTP for mailing service
+Dear sheikh,
+
+Yes, It is possible to use googlesmtp service for sending emails in koha.
+The step by step procedure for ubuntu system is as follows:-
+
+*1. Installation of postfix mail server package. *
+
+ Open a a terminal and apply following command,
+
+ apt-get install postfix
+
+Select no configuration in the post installation screen.
+
+*2. Copy the configuration file.*
+
+ cp /usr/share/postfix/main.cf.debian /etc/postfix/main.cf
+
+ *3. Install following packages too*
+
+ apt-get install libsasl2-2
+ apt-get install libsasl2-modules
+ apt-get install ca-certificates
+
+ *4. Open the following file and add some lines.*
+
+ gedit /etc/postfix/main.cf
+
+ Add the following lines at the bottom of the file.
+
+ relayhost = [smtp.gmail.com]:587
+ smtp_sasl_auth_enable = yes
+ smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+ smtp_sasl_security_options = noanonymous
+ smtp_tls_CAfile = /etc/postfix/cacert.pem
+ smtp_use_tls = yes
+
+ *5. Create a new file to save the gmail password.*
+
+ gedit /etc/postfix/sasl_passwd
+
+ Add the following line in the opened file.
+
+ [smtp.gmail.com]:587    urgmailid@gmail.com:yourpassword
+
+ Add your gmail user name and password.
+
+ *6. Change the permission of following file.*
+
+ chmod 400 /etc/postfix/sasl_passwd
+
+ *7.  Translate the /etc/postfix/sasl_passwd to Postfix lookup tables.*
+
+ postmap /etc/postfix/sasl_passwd
+
+ *8. Create the /etc/aliases.db*
+
+ postalias hash:/etc/aliases
+
+ *9. Create the /etc/postfix/cacert.pem.*
+
+ cat /etc/ssl/certs/Equifax_Secure_CA.pem >> /etc/postfix/cacert.pem
+
+ *10.  Restart Postfix.*
+
+ /etc/init.d/postfix restart
+
+
+Be Sure that you done the below step before to start email in Koha notices:-
+
+Administration > Patron categories > Overdue notice required > Yes
+
+Koha Administration > Patrons > Enhancedmessagingpreferences > Allow
+
+
+I think this is all you need. Enjoy!!!
+
+//BR
+
+Sunil
+
+
+------------------------------------------------
+
+On Mon, Oct 22, 2012 at 5:29 PM, sheikh303 <sheikh303@gmail.com> wrote:
+
+> Is it possible to use google smtp service for sending emails in koha?
+> thanks
+>
+>
+>
+> --
+> View this message in context:
+> http://koha.1045719.n5.nabble.com/Google-SMTP-for-mailing-service-tp5730442.html
+> Sent from the Koha-general mailing list archive at Nabble.com.
+> _______________________________________________
+> Koha mailing list  http://koha-community.org
+> Koha@lists.katipo.co.nz
+> http://lists.katipo.co.nz/mailman/listinfo/koha
+>
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

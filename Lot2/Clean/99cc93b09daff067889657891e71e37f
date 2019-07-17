@@ -1,0 +1,32 @@
+Subject:[Fedora-it] F17: LTSP: question
+Hi, on f17 with "yum install ltsp-*" it's possible install this piece of
+software.
+
+But when I run "ltsp-build-client" I get this error:
+
+> [root@localhost ~]# ltsp-build-client =
+
+> ERROR: fc17 is unsupported.
+
+The questions are:
+
+Why into F17's standard repository exist the ltsp-* package if F17 is
+not supported?
+
+There is some how-to which show me how to install it and configure in
+F17 (or Centos6)?
+
+(I do not want use ubuntu for build a LTSP.)
+
+Many thanks.
+	=
+
+-- =
+
+Dario Lesca - sip:dario@solinos.it
+(Inviato dal mio Linux Fedora 17 Gnome3)
+
+_______________________________________________
+it-users mailing list
+it-users@lists.fedoraproject.org
+https://admin.fedoraproject.org/mailman/listinfo/it-users

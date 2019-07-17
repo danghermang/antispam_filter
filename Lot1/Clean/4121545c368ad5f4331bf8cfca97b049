@@ -1,0 +1,37 @@
+Subject:Re: [Koha] changing from tarball installation to packages
+	installation.
+Greetings,
+
+> I installed with a tarball. I would like to use the packages. Is there a
+> simple way to change from tarball installation to packages installation?
+
+Yes, there is. :)
+I haven't done this before, but there is a wiki page:
+http://wiki.koha-community.org/wiki/Moving_an_installation_from_a_regular_install_to_the_Debian_packages
+
+What I did was:
+
+1) backup my DB (for example -- make sure to change the dbuser and dbname 
+parts):
+$ mysqldump -u <dbuser> -p <dbname> > mybackup.sql
+
+2) a fresh install of the OS and the packages install up to and including 
+the koha-create.
+
+3) put my old db in place (for example -- make sure to change the 
+instancename part):
+$ sudo koha-mysql <instancename> < mybackup.sql
+
+4) Then I continued the packages installation. The web install step did the 
+database scheme upgrades.
+
+Granted, this is much easier when going from 3.4 or higher to current stable 
+(3.8.x). Prior to 3.4.x, there would be a couple more commands to do.
+
+GPML,
+Mark Tompsett 
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

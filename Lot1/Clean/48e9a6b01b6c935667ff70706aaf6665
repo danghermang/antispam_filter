@@ -1,0 +1,78 @@
+Subject:Re: [Flexradio] RFI on 10 meter
+Ulf,
+
+I am not currently a Flex user. Was in the past but this is kind of a 
+general - non-flex issue.
+
+I am assuming from what you said that your shack is in the barn.
+
+If this is the case remember that the counterpoise - the metal roof on 
+the barn - is the other half of a 1/2 wave dipole.
+Being such it will be hot with RF while transmitting. So you are 
+essentially sitting right underneath an RF source.
+
+Not good.
+
+All I can suggest is better shielded mike cable and ferrite chokes on 
+the mike cable and probably all other cables as well.
+
+
+WA4CM
+
+Chris
+
+On 10/25/12 5:51 PM, Ulf Holt wrote:
+>
+> Some more info.
+>
+> Antenna is Butternut HF6V mounted on the barn using the metal roof as a counterpoise.
+> Mic is Heil HM-5
+> I have a ground strap from my FLEX to the PSU on my computer and also ground to a copper plate buried outside the barn. The grounding system in Norway is very bad.
+>
+> 73
+>
+> Ulf
+>
+> Den 25. okt. 2012 kl. 23:39 skrev "Michael Walker" <va3mw@portcredit.net<mailto:va3mw@portcredit.net>>:
+>
+> Ulf
+>
+> You will need to describe more of your setup.  Antennas, grounds, type of mics, etc.
+>
+> If you have a ground on the radio, try removing it and see if it clears up.
+>
+> RFI issues require a lot of trial and error testing.  It is not a fault of the radio unfortunately.
+>
+> Mike va3mw
+>
+>
+> On Thu, Oct 25, 2012 at 4:09 PM, Ulf Holt <ulf.holt@kragero-data.no<mailto:ulf.holt@kragero-data.no>> wrote:
+> I have had my FLEX-5000A for a couple of months now, and I love it. Get great reports on audio on all bands, (haven't tested 6 meter yet, since I don't have an antenna for this band), but on 10 meter they complain about really bad RF in the audio. What can be the cause, and what can I do about it?
+>
+> 73 de LA2SL
+>
+> Ulf
+>
+>
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz<mailto:FlexRadio@flex-radio.biz>
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/
+>
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/
+
+-- 
+/"Most people want not freedom but only fair masters."/
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

@@ -1,0 +1,41 @@
+Subject:Re: Consulta con librerias en software
+El 08/10/12 23:54, Jose Pablo Rojas escribió:
+> Hola gente, tengo un servidor al que solo tengo acceso como un usuario
+> normal y el mismo no tiene instalado el fetchmail, por lo que pasé el
+> archivo de fetchmail de mi máquina y al correrlo me pide la librería
+> libkrb5.so.3
+
+Cualquier aplicación que "instales" de esa manera va a requerir alguna
+librería y vas a encontrarte con ese problema múltiples veces.
+
+> Existe alguna forma de que en este caso yo pase el archivo de la
+> librería a la misma carpeta e intente leer esta librería desde una
+> ruta diferente a /usr/lib/libkrb5.so.3
+> Saludos y gracias de antemano.
+
+Que yo sepa no, pero para leer el correo tienes más opciones:
+
+1.- ¿Con cual cliente de correo ibas a leer el correo que te bajara
+fetchmail? pues configura ese cliente con tus cuentas para que se
+baje el correo.
+
+2.- Compilar fetchmail con librerías estáticas y pasar el binario al
+sistema donde lo necesites.
+
+3.- Pedirle al administrador que te instale fetchmail y si no se
+puede pues que te de una alternativa para que puedas ver tu correo.
+
+Un saludo
+
+JulHer
+
+
+> 
+> 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50742949.1020104@escomposlinux.org
+

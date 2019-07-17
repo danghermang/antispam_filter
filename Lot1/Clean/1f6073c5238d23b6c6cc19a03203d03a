@@ -1,0 +1,102 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Alan,
+
+This thread has deteriorated, because you are not being very perceptive.
+
+The ferrite in the loop antenna makes it a much better receiver -- because 
+the voltage  presented to the amplifier is increased -- not because the 
+received power is increased -- in that the received power is just the same 
+(or less, due to ferrite losses).
+
+When you say "extracted power" you mean power extracted from the amplifier, 
+not the power input to the amplifier.
+
+The power extracted from the amplifier is greatly increased by the 
+ferrite -- because the amplifier is a voltage amplifier.   Of course, the 
+power extracted from the amplifier is also increased by adding another 
+amplifier stage.
+
+The power extracted from the incident wave is unaffected by the presence of 
+the ferrite.
+
+These are the statements that "everybody" agrees with.
+
+http://newsgroups.derkeiler.com/Archive/Rec/rec.radio.amateur.antenna/2006-03/msg01577.html
+" So except for loss the capture area of a ferrite rod antenna is within 10% 
+of that of a dipole."
+This note points out that many people (including you) confuse effective area 
+and effective height.
+
+http://vk1od.net/antenna/concepts/Ae.htm
+(IEEE1993) defines effective area (of an antenna) (in a given direction). In 
+a given direction, the ratio of the available power AT THE TERMINALS of a 
+receiving antenna to the power flux density of a plane wave incident on the 
+antenna from that direction, the wave being polarization matched to the 
+antenna.
+
+http://www.w8ji.com/capture_area_ae_effective_aperture.htm
+
+http://www.tscm.com/antennas.pdf   eq 11
+
+-----------------------
+OK, not "everbybody".   Here is a book that confuses "captured" magnetic 
+flux with "captured" power:
+http://books.google.com/books?id=jqj2k9EXgioC&pg=PA119&lpg=PA119&dq=antenna+capture+area+ferrite&source=bl&ots=d8IrxQ9PX3&sig=suVr7jYRGRumKx9xNxzc1h71NxQ&hl=en&sa=X&ei=LnmJUN6pNKTI0AGF0YBg&ved=0CCYQ6AEwAA
+
+Recall that Collin distinguished between (power) "capture area" (which 
+doesn't depend on permeability) and "equivalent area" for "capture" of 
+magnetic flux.    The "equivalent area" is enhanced by the ferrite rod, but 
+the "capture area" is unchanged.
+
+--Kirk
+
+-----Original Message----- 
+From: boswell alan
+Sent: Thursday, October 25, 2012 7:01 AM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] Ferrite Antennas
+
+Kirk
+
+Thanks for your reply.  How come everyone agrees? I can tell you they
+don't - they have more sense than to entertain anything so crass.  My
+figures show that 20 dB less power is extracted when the ferrite is
+removed.  You seem to be slipping into the role of the mad hatter now
+(I'm not planning to waste much time on this).
+
+I know you have no experience with or knowledge of radio, but try
+taking a transistor radio, take the ferrite rod antenna out and
+replacing it with a coil of the same dimensions.  Everyone (bar one)
+knows what the result will be.
+
+Alan G3NOQ
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this 
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm 
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

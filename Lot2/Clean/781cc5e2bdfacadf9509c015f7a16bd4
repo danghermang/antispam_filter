@@ -1,0 +1,27 @@
+Subject:Re: Chgt machine :: clonage de ~/Maildir
+On Mon, 29 Oct 2012 19:14:07 +0100
+"mayer.debianfr@free.fr" <mayer.debianfr@free.fr> wrote:
+
+> Est-ce que scp -pr source destination des r=C3=A9pertoires=20
+> /home/<user>/Maildir/ sera correct pour respecter propri=C3=A9taires,=20
+> groupes, droits, etc ?
+
+Non, cette Cde ne conservera que les permissions,
+il faudra retoucher owner:group (d=C2=B0 sender) =C3=A0 l'arriv=C3=A9e.
+
+--=20
+Thomas: trouvons un sujet de conversation
+Thomas: je propose l'=C3=A9rosion des couches s=C3=A9dimentaires
+        du m=C3=A9soso=C3=AFque en afrique du sud
+Rom1: y a les nichons d'Anastasia sur la 1
+Thomas: va pour les nichons
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121029194145.3c02fb8f@anubis.defcon1
+

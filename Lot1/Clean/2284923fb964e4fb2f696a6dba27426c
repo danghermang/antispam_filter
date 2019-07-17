@@ -1,0 +1,125 @@
+Subject:Apache2 ereurs
+Bonjour à tous,
+
+(debian wheezy 3.2.0-4-686-pae)
+
+suite à une réinstalle de deb consécutive à un disque déffectueux j'ai 
+un souci avec apache:
+(j'essaie de remettre des sites sous un spip mutualisé)
+
+- localhost dans le navigateur ne donne rien à cette adresse
+les seuls fichiers que j'ai modifiés sont:
+
+/etc/apache2/sites-available et là j'ai 7 fichiers de sites differents 
+avec comme contenu:
+
+<VirtualHost *:80>
+         ServerAdmin   webmaster@localhost
+         ServerName    sitenumero01
+         DocumentRoot "/mnt/dreamer/travail/00sites-jmarc/www/spip"
+    <Directory "/mnt/dreamer/travail/00sites-jmarc/www/spip/">
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>
+--------------------------
+et le default qui lui a :
+
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+
+	DocumentRoot /var/www
+	<Directory />
+		Options FollowSymLinks
+		AllowOverride None
+	</Directory>
+	<Directory /var/www/>
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride All
+		Order allow,deny
+		allow from all
+	</Directory>
+
+	ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
+	<Directory "/usr/lib/cgi-bin">
+		AllowOverride None
+		Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+		Order allow,deny
+		Allow from all
+	</Directory>
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+-----------------
+le fichier /etc/hosts qui contient:
+
+127.0.0.1	localhost
+127.0.1.1	sitenumero01
+127.0.0.1       sitenumero02
+127.0.0.1       sitenumero03
+127.0.0.1       sitenumero04
+127.0.0.1       sitenumero05
+127.0.0.1       sitenumero06
+127.0.0.1       sitenumero07
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+--------------------------
+
+Et dans /etc/apache2/apache2.conf
+j'ai rajouté la ligne:
+
+ServerRoot /etc/apache2
+ServerName localhost
+
+-------------------
+
+lorsque je tape dans un terminal:
+
+# /etc/init.d/apache2 restart
+j'ai:
+
+[....] Restarting web server: apache2(98)Address already in use: 
+make_sock: could not bind to address [::]:80
+. ok
+et rien ne se passe coté navigateur...
+
+Et pour
+# /etc/init.d/apache2 reload
+j'ai:
+
+[ ok ] Reloading web server config: apache2 not running.
+
+
+Je ne sais pas par où commencer et j'aurais bien besoin d'un coup de 
+main pour savoir où j'ai "fauté".....
+
+merci d'avance,
+jmarc
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7iur9$gi7$1@ger.gmane.org
+

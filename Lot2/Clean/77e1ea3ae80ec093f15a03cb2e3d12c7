@@ -1,0 +1,25 @@
+Subject:Re: enlever wicd nouveau tasksel-xfce
+Le Mon, 3 Sep 2012 08:10:44 +0000
+ralf kaiser <rsvcakaiser@gmail.com> a écrit:
+
+> Salut tout le monde,
+> 
+> Surprise du matin: le tasksel-xfce met maintenant le
+> network-manager-gnome et rend wicd orphelin (le suggère en autoremove).
+> Quelqu'un sait pourquoi?
+> 
+
+En gros wicd jugé trop technique et ne mettant aucune interface wlan par défaut
+au démarrage.
+
+François Boisson
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120904165139.a37ec208afed5cdc99296516@maison.homelinux.net
+

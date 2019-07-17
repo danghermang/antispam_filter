@@ -1,0 +1,31 @@
+Subject:phpmyadmin et ssh
+Bonsoir =C3=A0 tous,
+
+Depuis peu "phpmyadmin" depuis un poste client distant,=20
+refuse de s'ouvrir : =C3=A7a mouline dans le navigateur.
+
+Je constate que parall=C3=A8lement, le poste client connect=C3=A9
+au serveur "ssh", se fige : je dois fermer la console.
+
+Je n'ai rien touch=C3=A9, ni aux configurations de phpmyadmin ni de ssh.
+
+J'ai tent=C3=A9 "dpkg-reconfigure phpmyadmin"
+"je me vois proposer de r=C3=A9installer la base de donn=C3=A9es qu'il util=
+ise".=20
+=C3=80 moins d'une autre m=C3=A9thode , si je r=C3=A9ponds "oui" mes bases =
+de donn=C3=A9es
+seront-elles effac=C3=A9es ?
+
+Merci.
+
+Andr=C3=A9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201212062028.54333.andre_debian@numericable.fr
+

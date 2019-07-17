@@ -1,0 +1,12 @@
+Subject:Crashes with some sites if JavaScript enabled
+Package: iceape
+Version: 2.7.7-1~bpo60+1
+
+Site http://geekz.co.uk/lovesraymond/archive/so-i-married-a-kernel-programmer
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121116070413.d30d8d29.andrewb@bgc.com.au
+

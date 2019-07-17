@@ -1,0 +1,52 @@
+Subject:Re: [Debian] Buscar razon de Cuelgue repentino
+El d=EDa 9 de diciembre de 2012 22:10, Edwin Dlca <edwinspire@gmail.com> es=
+cribi=F3:
+> Saludos cordiales a todos.
+> Busco su ayuda ante un problema, uso debian testing, el problema es que e=
+l
+> computador se cuelga repentinamente y no se a que se debe.
+> No es solo la parte grafica la que se cuelga sino todo porq intento ingre=
+sar
+> a alguna terminal (ALT+CTRL+F2, F3, F4) y no responde nada en el teclado.
+> La unica forma es resetear el pc.
+>
+> Busque algo fuera de lo normal en los log de syslog y en Xorg.0.log pero =
+no
+> veo algo fuera que diga fail, warning, panic o alguna pista.
+>
+> Alguien me puede ayudar indicandome donde buscar o en que log puedo ver l=
+o
+> errores.
+>
+> Tengo sospechas de que puede ser problemas de hardware, me da la impresio=
+n q
+> el procesador se esta sobrecalentando pero no estoy seguro.
+> Anterormente tenia un problema similar y era por un cd-rom que estaba da=
+=F1ado
+> y me producia esos cuelgues, lo reemplace y todo volvio a funcionar.
+>
+> Sinembargo esta vez he ido quitando hardware haste dejar unicamente lo
+> basico para que funcione y encontrar el problema y no se ya donde buscar.
+>
+
+revisa si es por algun problema en la bios, tengo un lenovo g475 que
+solo actualizando la bios (parche no oficial)  pude instalarle linux,
+pero la =FAnica distro que ha funcionado sin problemas es fedora 17
+
+Debian no hubo caso, linuxmint funciono un par de semanas, y de ah=ED no
+segu=ED probando.
+
+Suerte.
+
+--=20
+usuario linux  #274354
+normas de la lista:  http://wiki.debian.org/es/NormasLista
+como hacer preguntas inteligentes:
+http://www.sindominio.net/ayuda/preguntas-inteligentes.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAAiZAx59qgyrrO9t9RQ7y=zyuqARTsuhQkD6A5k6P4DNj1RXJQ@mail.gmail.com
+

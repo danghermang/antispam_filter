@@ -1,0 +1,29 @@
+Subject:Re: hacer funcionar el plugin flashplayer para firefox en debian 6
+On Fri, 21 Sep 2012 18:52:47 -0300, Fabián Bonetti wrote:
+> On Fri, 21 Sep 2012 17:38:35 -0400
+> luis@ida.cu wrote:
+>
+> Lo copias en esta ubicación
+>
+> /usr/lib/mozilla/plugins/libflashplayer.so
+>
+>
+> luego generas un enlace donde esta tu firefox
+>
+> ln -s /usr/lib/mozilla/plugins/libflashplayer.so 
+> /opt/firefox/plugins/
+>
+>
+> Saludos
+
+
+Hola Fabia muchas gracias perfecto, solucionado, gracias, buena 
+respuesta, brillante.
+Agradecido a ti y atodos los de la lista.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5c07b5ba90be3d8a6438249c23ed0c49@ida.cu
+

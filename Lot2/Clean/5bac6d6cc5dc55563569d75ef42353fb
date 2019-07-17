@@ -1,0 +1,157 @@
+Subject:Re: [Antenna-discussion] Take-off angle
+Oliver
+
+With the antenna several wavelengths high you can change the angle of
+the beam by tilting the antenna upwards or downwards.  Most people use
+horizontally polarised beams and I assume yours is horizontally
+polarised.
+
+But most people have their beam antenna nearer the ground, and then
+the takeoff angle is above zero even when the beam is pointed
+horizontally.
+
+In that case the takeoff angle is controlled by the height of the
+antenna, and a height of at least a quarter wavelength and preferably
+a half wavelength is best.
+
+A full wave loop has a beam that in free space goes along the axis of
+the loop in both directions, which is not the best option when the
+loop is horizontal (i.e. in the horizontal plane with the axis
+vertical) above ground.  In that case most of the radiation goes at
+high angles.  If a horizontal full wave loop is half a wavelength
+high, no radiation goes vertically, but the takeoff angle is still
+well above zero.
+
+A vertical fullwave loop (as in half a cubical-quad) works well and,
+but it is bi-directional, and if it's half a wavelength high it sends
+the radiation at a reasonably low angle.
+
+Alan G3NOQ
+
+
+
+
+
+
+
+On 10 November 2012 16:46, Oliver Steiner <steinerviolinist@gmail.com> wrote:
+> I'm assuming that "take off angle" is what is shown in more detail on
+> a graph usually named: "vertical plane radiation pattern". - Please
+> correct me if this is wrong.  I once asked a question regarding the
+> take-off angle of a beam antenna - Specifically: Can I vary the
+> take-off angle (or vertical plane radiation pattern) by tilting the
+> boom of a beam (so that the director is higher than the driven
+> element, for example.)  The answer I got was: "No."  On the other hand
+> I've read that the vertical plane radiation pattern of a full wave
+> loop, as one example, certainly changes when it is flipped from
+> perpendicular to the ground to parallel to the ground.  Surely it must
+> have a continuum of various vertical plane radiation patterns as it is
+> turned from perpendicular to parallel. (???)  What am I missing here?
+> Should I have used the term: "vertical plane radiation pattern",
+> rather than "take-off angle" in my original question??  Does a full
+> wave loop vary as described, but not a beam?  I'll be grateful for a
+> clarification.
+>
+> Ollie
+> W2QXR
+>
+> On 11/10/12, Rosie <listmgr@antennex.com> wrote:
+>> Yes, and there is a big yellow button there for more help!
+>>
+>> Guess you just didn't try.
+>>
+>> ----
+>> All the best intentions,
+>> Rosie, List Manager
+>>
+>> antenneX now in 217 countries
+>> -----Original Message-----
+>> From: Lou
+>> Sent: Friday, November 09, 2012 11:30 PM
+>> To: Discussions of Antennas and Related Topics
+>> Subject: Re: [Antenna-discussion] Take-off angle
+>>
+>>
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the email address this
+>> message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>>
+>>
+>>
+>>
+>>
+>> On 11/9/2012 11:25 PM, Mark Strait wrote:
+>>> To unsubscribe:
+>>> Go to the web page link below and unsubscribe the above email
+>>> address this message was sent to.
+>>>
+>>> Go to this web page - no passwd needed:
+>>> http://antennex.com/help/subscribe.htm
+>>
+>> _______________________________________________
+>> This message was sent to: cebik@cebik.com
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address
+>> this message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>>
+>> _______________________________________________
+>> This message was sent to: steinerviolinist@gmail.com
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address this
+>> message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>>
+>
+>
+> --
+> http://oliversteiner.com
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

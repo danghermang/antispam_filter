@@ -1,0 +1,48 @@
+Subject:Re: No-Ip en lugar en DynDns en Debian Squeeze
+2012/11/28 Juan Manuel Acu=C3=B1a <gps1mx@gmail.com>:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> El 28/11/12 09:23, Fabi=C3=A1n Bonetti escribi=C3=B3:
+>> On Wed, 28 Nov 2012 10:02:00 -0200 tq <tqlistas@gmail.com> wrote:
+>>
+>> El paquete se llama noip2 se encuentra en el repo sid
+>>
+>> http://packages.debian.org/sid/noip2
+>>
+>> O aqui yo uso este mirror
+>>
+>> http://mamalibre.no-ip.org/pub/puppylinux/pet_packages-5/noip_2_2.1.9_i6=
+86_lupq_511.pet
+>>
+>> o el cliente http://www.no-ip.com/downloads.php?page=3Dlinux
+>>
+>> Saludos
+
+> Yo uso desde hace tiempo:
+>
+> http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+>
+> y funciona estup=C3=A9ndamente, nunca he tenido ning=C3=BAn problema.
+>
+> Espero que te sirva.
+>
+> Saludos!
+
+Yo tengo instalado el paquete que se baja en esa direcci=C3=B3n, de la
+p=C3=A1gina oficial de no-ip.
+Tiene un solo inconveniente: no crea el script de actualizaci=C3=B3n.
+Para ello, leyendo su archivo "README", que para eso est=C3=A1, hice uno
+que colgu=C3=A9 en /etc/init.d, usando la estructura de
+/etc/init.d/skeleton y su respectiva activaci=C3=B3n con update-rc.d
+
+Funciona una maravilla.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAG0od5cYDmtfHTO=ch5hWDUQj1YoJa4YQnge-R6hj+XcQVdPmQ@mail.gmail.com
+

@@ -1,0 +1,64 @@
+Subject:Re: Duda en la config de interfaces
+El d=EDa 29 de octubre de 2012 20:26, Juan Martin <juanma.jmv@gmail.com> es=
+cribi=F3:
+>
+>
+> El 29 de octubre de 2012 16:12,  escribi=F3:
+>
+>> hola a todos
+>>
+>> Tengo una duda con la configuraci=F3n de mi interface
+>>
+>> Cuando voy al  fichero /etc/network/interfaces
+>>
+>> La duda es:
+>>
+>> De tener 2 DNS, uno primario y otro secundario, c=F3mo agrego otra IP al
+>> nameserver ???
+>>
+>> tengo que repetir nameserver con la otra IP del server en una nueva l=ED=
+nea,
+>> o puedo escribir la otra IP del 2do DNS dejando un espacio?
+>>
+>> ej: nameserver 192.168.100.50 192.168.100.51    ????
+>>
+>> Gracias dpor el tiempo que me han dedicado a mis dudas, muy agradecido.
+>>
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/3a374a1fe91fee905e7fd2a18bea794d@ida.cu
+>>
+>
+> Buenas
+> Los DNS los pones en  /etc/resolv.conf
+>
+> Por ejemplo:
+>
+> nameserver 200.42.4.203
+> nameserver 200.49.130.40
+>
+> Saludos
+>
+> --
+> Juan Martin
+
+
+
+A ver si se quieren asociar distintos nameserves a distintos
+interfaces configurados en /etc/network/interfaces hay que ponerlo en
+este fichero con dns-nameservers
+
+ver man resolvconf
+
+S2
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAGw=rHgHm_3siGD6wQxfhyN-H18KK7ZHsrCdySiiH6iKZb=J1w@mail.gmail.com
+

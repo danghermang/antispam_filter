@@ -1,0 +1,104 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_Aspectos_a_tener_en_cuenta_para_la_instalaci=F3n_?=
+	=?ISO-8859-1?Q?de_un_Brouter=2FFirewall=2FProxy_con_balance_de_carga_entre_vari?=
+	=?ISO-8859-1?Q?as_conexiones?=
+El d=EDa 5 de octubre de 2012 06:06, ciracusa <ciracusa@gmail.com> escribi=
+=F3:
+> Grupo, buenos d=EDas.
+>
+> Bueno, tengo disponible una PC con 6 s=F3calos PCI (para interfaces de re=
+d) +
+> 1 onboard.
+>
+> La idea es instalar dicha para realizar balance de carga entre 4 conexion=
+es
+> a internet que tenemos:
+>
+> - 1 Dedicado (2mbits SIR)
+> - 2 ADSL
+> - 1 Wireless
+>
+> Al respecto quiero manejar:
+>
+> - Balance de Carga
+> - Proxy (Squid/Dansguardian)
+> - Filtro de contenidos y descargar.
+>
+> Las consultas que quisiera dejar a modo de debate/sugerencias e intercamb=
+io
+> de ideas son las siguientes:
+>
+> 1) Es mejor ir por el lado de un balance de carga por software (debian) o
+> por un hardware (como Mikrotik).
+>
+> 2) En el caso de Mikrotik como funciona el tema del cacheo de p=E1ginas?
+>
+> 3) Que aspectos recomiendan para tener en cuenta (pros y contra) a la hor=
+a
+> de analizar la instalaci=F3n de un proxy con balance de carga.
+>
+> Ya estoy buscando informaci=F3n al respecto y tengo varios tutoriales en
+> carpeta, la idea del mensaje es generar un intercambio de ideas entre los
+> compa=F1eros/as de la lista.
+>
+> Muchas Gracias a todos.
+>
+> Saludos, y buen fin de semana para todos!
+>
+>
+Hola. opinion desde mi muuuuy particular punto de vista:
+
+1.- Mikrotik como firewall(interno y externo), balanceo de carga y, si
+se te antoja, failover.
+Del lado de proxy: Debian con proxy Squid y Dansguardian como asesor
+de contenido (aunque la licencia de =E9ste ultimo es un poco extra=F1a).
+
+La implementaci=F3n es compleja, y, si tienes pocos usuarios en la red,
+la parte de squid/dansguardian podr=EDa obviarse con un Mikrotik de
+buena capacidad. Aunque la capacidad de filtrado de contenido de
+dansguardian, merece mucho el ser tomado en cuenta.
+
+Una ventaja adicional: tienes separadas las entidades, enfocando tu
+proxy en cache y administracion de contenido, y tu Mikrotik en
+firewall y reglas de ruteo.
+
+
+2.- La mayor parte del contenido est=E1tico -o marcado con caducidad
+extendida-, es almacenado en la memoria del equipo. Si el Mikrotik
+realiza la funcion de proxy (/ip proxy), ser=E1 necesario considerar un
+equipo con capacidad para tarjeta microSD, para guardar ese contenido
+extra. Tambi=E9n es necesario dimensionar bien el routerboard (la marca
+de Hardware de Mikrotik) para llevar bien el consumo de recursos.
+
+3.-Haz un an=E1lisis profundo de los servicios que consume tu red, y
+establece un plan acorde. Mikrotik te da la oportunidad de balancear
+cargas por PCC, ECMP, NTH, etc. Existen aplicaciones que funcionar=EDan
+mejor o peor con uno u otro mecanismo. Prueba exhaustivamente e
+implementa la que mejor se adapte. Incluso, si te aventuras, puedes
+crear tu propio m=E9todo basado en scripts y reglas de firewall.
+
+Una ventaja adicional que te ofrece el Mikrotik, es el de poder
+establecer cuotas de uso de los recursos, con los que administras el
+ancho de banda usado por usuario, grupos de usuarios, protocolos, o
+como mejor implementes.
+
+
+
+
+Saludos
+
+
+--=20
+Hector
+--
+El Pic no pudo Iniciar correctamente.
+Inserte el disco de arranque y presione cualquier pin para continuar...
+
+Linux Registered User #467500
+https://linuxcounter.net/user/467500.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CACzWLT+3FNKjHuBMdpJCO++Oq4gOOx7V8jHesGNXKEDn3RxtEQ@mail.gmail.com
+

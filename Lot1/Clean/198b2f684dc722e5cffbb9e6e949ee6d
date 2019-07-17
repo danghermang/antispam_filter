@@ -1,0 +1,54 @@
+Subject:Re: favicon.ico no se muestra en apache2
+El Tue, 13 Nov 2012 23:51:25 +0100, Jorge escribió:
+
+> Mi servidor web es Apache2 sobre Debian Squeeze. Tengo tanto Certificado
+> SSL (para https) como autenticación de usuario (AuthUser), pero si no
+> deshabilito ambos no se muestra el icono 'favicon.ico' en la pestaña del
+> IE o del FF. Por supuesto el fichero está en el raíz del VirtualHost en
+> cuestión y cuenta con los permisos de acceso necesarios, de hecho se
+> muestra cuando pongo como URL http://www.ejemplo.com/favicon.ico.
+
+Vale, el archivo gráfico (favicon.ico) existe pero tendrás que 
+referenciarlo en las páginas html porque si no automáticamente no se 
+carga (a no ser que uses alguna característica del servidor web que lo 
+añada "virtualmente" a todas las páginas html).
+
+> Para solucionarlo (y a pesar de que no me gusta mucho esta solución) he
+> intentado poner en la cabecera de las páginas web ...
+> 
+> <head> <link rel="shortcut icon" href=http://www.ejemplo.com/favicon.ico
+> type="image/x-icon" /> <title>Hola Mundo Icono</title> </head>
+
+(conviene usar un dominio normalizado, p. ej., "www.example.com" cuando 
+quieras usar dominios a modo de ejemplo)
+
+Puedes usar un enlace relativo en lugar de absoluto:
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+> ... con lo que mi 'falvicon.ico' ya se muestra, a pesar de tener la
+> autenticación habilitada, cuando introduzco la URL
+> http://www.ejemplo.com/, pero sigue sin mostrarse cuando introduzco la
+> URL https://www.ejemplo.com/. Y si en el código anterior en lugar de a
+> href=http ... apunto a href=https ... ni siquiera eso, no llega a verse
+> en ninguno de los dos casos.
+> 
+> ¿Cómo consigo que se muestre siempre? (Espero haberme explicado bien, si
+> no es así consultadme, por favor) Gracias.
+
+Normalmente, las páginas bajo cifrado (https://) se ubican fuera 
+("separadas") de la raíz de las páginas que se sirven sin cifrar, por 
+seguridad. Si es este tu caso, tendrás que poner el archivo favicon.ico 
+en ambas rutas para que sea visible en ambos entornos.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k80bf3$lmm$3@ger.gmane.org
+

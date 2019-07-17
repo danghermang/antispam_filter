@@ -1,0 +1,26 @@
+Subject:postfix logs
+Salut liste,
+
+Je n'ai pas fait attention aux derniers changements dans postfix et
+je viens de m'apercevoir que les logs bougent maintenant tr=C3=A8s peu:
+par ex. j'ai juste trace du dernier restart, alors qu'il-y-a encore
+un mois j'avais aussi la trace d'envoi des e-mails.
+
+Qqun a-t'il un lien ou le nom de la VAR =C3=A0 ajouter/modifier pour retrou=
+ver
+ce comportement?
+
+--=20
+Sniper'z: Ca doit =C3=AAtre nul d'=C3=A9crire un roman d'=C3=A9pouvante
+Sniper'z: Au d=C3=A9but t'as peur de la page blanche
+Sniper'z: Apr=C3=A8s t'as peur de la page remplie
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121119182250.2fd55aa4@anubis.defcon1
+

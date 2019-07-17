@@ -1,0 +1,133 @@
+Subject:Re: Ayuda Urgente: Iptables e ip rule no funcionan correctamente en
+	debian 6?
+El 19/09/12 09:14, Francisco J. Bejarano escribió:
+> Saludos
+> 
+> Al final, despues de mucho pelearlo he conseguido actualizar el sistema
+> desde cero, formatearlo y reconfigurarlo. Ahora tengo el nucleo 3.2 y
+> las opciones de ip route get que permitian la opcion mark.
+> 
+> El problema es que sigo igual. No envia los paquetes por donde debe, sin
+> embargo, cuando uso ip route get si que parece que coge las rutas que
+> debe coger.
+> 
+> En las opciones de red solo tengo activado ip_forward. Sabeis si hay que
+> configurar alguna opcion mas para que funcione el marcado y envio de
+> forma correcta?
+> 
+> Tengo iptables --version
+> iptables v1.4.12
+> 
+> En muchos lugares he visto que hay que tener instalado el modulo
+> ipt_mark pero en mi caso no esta instalado aunque leí en otros lugares
+> que era antiguo y que no era necesario (no tengo claro si se necesita o
+> no). Os pongo la lista de módulos por si falta alguno
+> 
+> ipt_MASQUERADE         12759  2
+> ipt_REJECT             12576  3
+> xt_multiport           12597  40
+> xt_state               12578  43
+> xt_tcpudp              12603  43
+> xt_mark                12563  8
+> iptable_nat            13229  1
+> nf_nat                 25891  2 ipt_MASQUERADE,iptable_nat
+> nf_conntrack_ipv4      19716  46 iptable_nat,nf_nat
+> iptable_filter         12810  1
+> iptable_mangle         12734  1
+> ip_tables              27473  3 iptable_nat,iptable_filter,iptable_mangle
+> x_tables               29846  10
+> ipt_MASQUERADE,ipt_REJECT,xt_multiport,xt_state,xt_tcpudp,xt_mark,iptable_nat,iptable_filter,iptable_mangle,ip_tables
+> nf_conntrack           81926  6
+> ipt_MASQUERADE,xt_state,iptable_nat,nf_nat,nf_conntrack_ipv4,nf_conntrack_ftp
+> 
+> Saludos
+> 
+> -----------------------------------------------------------------
+> Francisco J. Bejarano
+> Responsable de Sistemas
+> Dpt. Sistemas e Infraestructuras
+> Open Knowledge Network S.L.
+> francisco.bejarano@openknowledgenetwork.com
+> Tel. (+34) 902 534 004
+> Fax. (+34) 917 266 476
+> -----------------------------------------------------------------
+> 
+> El 07/09/12 08:45, Francisco J. Bejarano escribió:
+>>
+>>
+>> El 06/09/12 18:26, Juan Antonio escribió:
+>>> El 06/09/12 17:39, Francisco J. Bejarano escribió:
+>>>> Trazo los puertos y se salta la regla 30012, en fin, no entiendo como
+>>>> funciona esto. Se supone que los numeros de prioridad son para algo...
+>>>> alguna sugerencia? a mi ya me duele la cabeza...
+>>> algunas pruebas que he hecho.
+>>>
+>>> [root@blackpearl ~]# ip ru ls
+>>> 0:    from all lookup local
+>>> 100:    from 192.168.12.35 fwmark 0x1 lookup t1
+>>> 101:    from 192.168.12.35 lookup t2
+>>> 32766:    from all lookup main
+>>> 32767:    from all lookup default
+>>>
+>>> [root@blackpearl ~]# iptables -t mangle -vnL PREROUTING
+>>> Chain PREROUTING (policy ACCEPT 185K packets, 116M bytes)
+>>>  pkts bytes target     prot opt in     out     source              
+>>> destination        
+>>>     0     0 MARK       tcp  --  *      *       192.168.12.35       
+>>> 0.0.0.0/0            tcp dpt:25 MARK set 0x1
+>>>
+>>> root@blackpearl ~]# ip ro get 157.55.43.16 from 192.168.12.35 iif eth0
+>>> 157.55.43.16 from 192.168.12.35 via 192.168.12.100 dev eth0  src
+>>> 192.168.12.91
+>>>     cache <src-direct,redirect>  iif eth0
+>>> [root@blackpearl ~]# ip ro get 157.55.43.16 from 192.168.12.35 iif eth0
+>>> mark 0x1
+>>> 157.55.43.16 from 192.168.12.35 via 172.16.0.1 dev tap1  src
+>>> 192.168.12.91  mark 1
+>>>     cache <src-direct>  iif eth0
+>>>
+>>> todo correcto hasta aqui. cambiamos la prioridad
+>>>
+>>> [root@blackpearl ~]# ip ru del from 192.168.12.35 lookup t2
+>>> [root@blackpearl ~]# ip ru add from 192.168.12.35 priority 99 table t2
+>>> [root@blackpearl ~]# ip ro get 157.55.43.16 from 192.168.12.35 iif eth0
+>>> mark 0x1
+>>> 157.55.43.16 from 192.168.12.35 via 192.168.12.100 dev eth0  src
+>>> 192.168.12.91  mark 1
+>>>     cache <src-direct,redirect>  iif eth0
+>>>
+>>>
+>>> y hasta aqui también.
+>>>
+>>> [root@blackpearl ~]# uname -r
+>>> 3.4.9-1-ARCH
+>>
+>> Uff, vamos que podría ser la version del nucleo y la implementacion de
+>> iproute2 junto con el...
+>> uname -r
+>> 2.6.32-5-686
+>>
+>>
+>>
+> 
+> 
+
+Si te faltase un módulo iptables daría un error al escribir la regla que
+hace uso de ese módulo.
+
+¿probaste a dejarlo todo limpio y hacer una prueba sencilla con 2 rules
+y una marca? si es asi ¿podrías pegar como lo hiciste y los resultados?
+
+Un saludo.
+
+-- 
+"Tanto en los deportes como en todo lo demás, soy un experto. Pero para
+mantener viva mi inteligencia natural y fuera de serie, tengo que comer
+mucho"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505971F2.2080007@limbo.deathwing.net
+

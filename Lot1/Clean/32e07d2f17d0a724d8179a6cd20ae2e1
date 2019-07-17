@@ -1,0 +1,28 @@
+Subject:Re: [LUG] Time to upgrade
+On 25/10/12 21:26, Rob Beard wrote:
+>
+> Nice... just got 4GB ram here.
+>
+> Rob
+>
+>
+
+Swappiness is still a touchy subject but 4Gb of RAM in a typical PC is
+quite enough - if your swap partition isn't on a SSD or other high IOPS
+device try:
+
+sudo sysctl -w vm.swappiness=0
+
+People say you shouldn't really manually mess around with this on modern
+kernels but it can make a difference (your system is wasting time
+pre-emptively swapping out to a slow I/O magnetic disk). You can always
+use sar/collectl to monitor actual memory and swap usage for a
+quantitative analysis to determine if it actually speeds up your system.
+To make any permanent changes edit /etc/sysctl.conf.
+
+Cheers
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,32 @@
+Subject:Kmail 4.8.5 Spam Filter
+Hallo,
+
+wenn ich bei Kmail 4.8.5 unter Kubuntu 12.04 per Filterassistent einen =
+
+Spamfilter konfiguriere, fehlt allen durch diesen Filter bearbeiteten =
+
+Mails der Body. Es macht dabei keinen Unterschied, ob die entsprechende =
+
+Mail als Ham oder Spam bewertet wurde. =
+
+
+Einzeln getestet mit Spamassassin, Bogofilter und Spambayes.
+
+Hat jemand einen Tipp f=FCr mich, wie ich das Problem gel=F6st bekomme?
+
+Ciao
+
+Gerd
+-- =
+
+Der Dumme lernt aus seinen Fehlern, der Kluge aus den Fehlern der =
+
+anderen.
+- chinesisches Sprichwort -
+
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

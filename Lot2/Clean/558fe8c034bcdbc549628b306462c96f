@@ -1,0 +1,108 @@
+Subject:Re: Posible problema al actualizar initrd
+On Thu, Sep 20, 2012 at 03:59:57PM +0000, Camale=F3n wrote:
+> El Thu, 20 Sep 2012 17:47:12 +0200, Angel Vicente escribi=F3:
+>=20
+> > On Tue, Sep 18, 2012 at 01:19:53PM +0000, Camale=F3n wrote:
+>=20
+> >> =BFC=F3mo has compilado el kernel?
+> >=20
+> > Lo compilo con make-kpkg,=20
+>=20
+> Es decir:
+>=20
+> fakeroot make-kpkg --initrd --revision=3Dversion kernel_imag
+>=20
+> =BFno?=20
+
+Si
+
+>=20
+> > previamente preparo el .config con make menuconfig.
+>=20
+> Entonces generas un nuevo men=FA con cada compilaci=F3n.
+
+Reviso el .config del kernel anterior, generalmente no hay grandes cambio=
+s
+
+>=20
+> >> Quiz=E1 generaste la imagen mal... Mira a ver si lo que te dice es c=
+ierto
+> >> o no, es decir, si el identificador de la partici=F3n apunta al luga=
+r
+> >> correcto.
+> >>=20
+> >> Otro de los motivos habituales por los que aparece este mensaje es q=
+ue
+> >> te falte alg=FAn m=F3dulo de gesti=F3n del disco duro (sata, ahci...=
+ o alguno
+> >> espec=EDfico para tu controladora), o que no lo hayas compilado inte=
+grado
+> >> sino como m=F3dulo, y no lo pueda cargar.
+> >=20
+> > Con lo que he observado puedo deducir que no seria el caso: el primer
+> > kernel que empez=F3 a fallar fue uno que tenia funcional desde el mes=
+ de
+> > junio,=20
+>=20
+> =BFY dej=F3 de funcionar sin m=E1s?
+
+No estoy seguro, pero creo que fue despues de actualizar algun paquete qu=
+e
+desencadeno el update-initramfs.
+
+>=20
+> > el siguiente ha fallado desde el primer momento y est=E1 compilado
+> > en fechas posteriores a la de la observacion del fallo, es decir, en
+> > este ultimo si cabe la posibilidad que indicas, pero en el otro no.
+>=20
+> Igualmente convendr=EDa que descartaras lo que te dice el mensaje de er=
+ror=20
+> (es decir, que el cargador de arranque apunta al disco/partici=F3n=20
+> correcto), cosas m=E1s tontunas he visto.
+>=20
+> >> Puedes comparar los dos ".config" de los kernels (de uno que funcion=
+e y
+> >> otro que no) para ver las diferencias :-?
+> >=20
+> > Normalmente "reciclo" los .config: copio de un kernel para la siguien=
+te
+> > compilacion, y despues ajusto con make menuconfig,=20
+>=20
+> Una vez que ejecutas "menuconfig" y guardas los cambios sobreescribes=20
+> (bueno, no, creo que lo renombra a ".config.old") cualquier ".config" q=
+ue=20
+> tengas en la ra=EDz donde est=E1n las fuentes, es decir, que te cargas =
+todos=20
+> los cambios que estuvieran en el .config original reutilziado.
+>=20
+
+He arrancado con un CD de rescate y chequeado las particiones, como indic=
+aba
+el compa=F1ero Daniel, no se han hallado errores y los arranques siguen h=
+aciendo=20
+lo mismo.
+
+Transcribo los errores de udev como sugeria el compa=F1ero Juan Antonio (=
+mis
+disculpas por no habe leido antes su mensaje)
+
+udevd[357]: error getting socket: Address family not supported by protoco=
+l
+error initializing udev control socket (este mensaje sale dos veces segui=
+das)
+udevd[357]: error getting socket: Address family no supported by protocol
+udevadm[364]: error getting socket: Address family not suported by protoc=
+ol
+
+=BFEs posible que el error este relacionado con udev?, el udev lo actuali=
+ce,
+pero fue en agosto, no creo que tenga que ver.
+
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120920162835.GA3773@angel.dominio.angel
+

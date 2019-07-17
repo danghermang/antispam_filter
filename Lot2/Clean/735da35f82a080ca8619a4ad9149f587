@@ -1,0 +1,71 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint?= qui consomme
+
+> Recompiler un noyau  3 à ta sauce permettrait de t'affranchir des noyaux 
+> Debian. J'ai rencontré des problèmes avec les noyaux Debian patchés, 
+> problèmes qui disparaissaient avec mes noyaux compilés maison.
+> D'ailleurs, je n'utilise jamais de noyau Debian et je n'en vois pas 
+> l'utilité. Mais ceci est une autre trollitude...
+> Bon courage.
+> 
+> -- 
+
+Le noyau 3.5.4 que j'utilise est un noyau à ma sauce ainsi que tous les autres,
+ 3.2.0-2, 3.2.0-3 et 3.3.0  utilisés: Voilà la liste complète des paquets que
+j'ai utilisé (en plus des noyaux wheezy 3.2.0-2 et 3.2.0-3). Un seul vient des
+dépots debian.
+
+francois@portos:~/Noyaux$ uname -r
+3.5.4-fb-aufs
+francois@portos:~/Noyaux$ ls linux-image*deb
+linux-image-3.0.41-fb_3.0.41-fb_amd64.deb
+linux-image-3.2.28-fb_3.2.28-fb_amd64.deb
+linux-image-3.3.0-rc6-amd64_3.3~rc6-1~experimental.1_amd64.deb
+linux-image-3.5.2_3.5.2-FB_amd64.deb
+linux-image-3.5.2--fb-aufs_3.5.2--fb-aufs_amd64.deb
+linux-image-3.5.4-fb-aufs_3.5.4-fb-aufs_amd64.deb
+francois@portos:~/Noyaux$ 
+(il manque le3.1)
+
+Sinon 2 choses:
+1) Leproblme existe aussi sur un TOSHIBA Satellite A500/KSKAA, BIOS V1.30
+09/04/2009è. Ce n'est donc passeulement sur un portege. La perte a été de 6%
+de la batterie en une nuit. Je n'ai pas souvenir d'un tel problème avec une
+lenny sur ce même portable (il n'avait aucun souci à tenir un mois sans être
+utilisé, batterie dans le portable).
+
+2) Si je fait un shutdown -h -H now
+puis que j'éteints la machine (appui long sur le marche/arrêt), ma machine ne
+consomme plus. C'est donc réellement un problème spécifique au power_off des
+noyaux 3.x...
+
+*C'est* un problème du noyau linux. Je n'en suis plus à une recompilation du
+noyau près, donc à mettre des printk partout. Visiblement c'est au niveau de
+arch/x86/kernel/reboot.c et arch/x86/kernel/apm_32.c, mais je n'arrive pas à
+voir comment dialoguer avec le bios. Cela se fait via apm_bios_call_mais 
+
+rancois@portos:~/linux-3.5.4$ grep -r apm_bios_call Documentation/*
+francois@portos:~/linux-3.5.4$
+
+Nulle part je n'ai vu des descriptions sur les fonctions du BIOS, on a une
+vague liste dans include/linux/apm_bios.h mais j'ai vraiment l'impression de
+réinventer la roue à faire ce travail d'analyse de code sur le noyau linux. Il
+y a eu 1200 messages sur la liste linux-kernel depuis le mien et aucune
+réponse. Qu'on me donne juste une doc à lire sur ce foutu BIOS et je me
+débrouillerai mais là, au rythme où j'avance le problème sera résolu dans 2
+ans et 1/2 (encore qu'en rédigeant ce message, j'ai trouvé le fichier
+include/linux/apm_bios.h (je suis étonné que ça ne dépende pas de
+l'architecture mais bon...)).
+
+À suivre donc mais bonnes volontés acceptées...
+
+François Boisson
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120922103957.60a69f8ebf2f9c6e1209e32e@maison.homelinux.net
+

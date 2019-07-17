@@ -1,0 +1,27 @@
+Subject:Re: Backport of schroot
+On Tue, Oct 30, 2012 at 10:34 PM, Roger Leigh <rleigh@codelibre.net> wrote:
+
+> While I would ultimately like to put 1.6.4-3~bpo60+1 into
+> backports, this is not currently advisable: the 1.6.x
+> releases have not yet had extensive testing with the
+> stable/stable-backports toolchain and library versions,
+> while the 1.4.x releases have.  Additionally, there are
+> some changes to the configuration file options (some
+> additional and some deprecated and obsoleted options).
+
+Can you elaborate on the problems with schroot 1.6.x in squeeze,
+preferably by copying bug #688637, which I specifically requested for
+that? I would be willing to test preview packages.
+
+Thanks.
+
+-- 
+regards,
+    Reinhard
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ0cceYMWXasEHO_Uj8581HbYSPYoRsS3K49Gy=JR+afuLthLA@mail.gmail.com
+

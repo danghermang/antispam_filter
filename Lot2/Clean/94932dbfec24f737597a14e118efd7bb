@@ -1,0 +1,51 @@
+Subject:Re: Debian 6 regular cantidad de hilos de descargas en Squid
+El 26/11/12 19:28, luis@ida.cu escribió:
+> On Mon, 26 Nov 2012 18:38:11 +0000 (UTC), Camaleón wrote:
+>> El Mon, 26 Nov 2012 11:44:10 -0500, luis escribió:
+>>
+>>> Buenos días  a todos
+>>
+>> Buenas tardes.
+>>
+>>> Cómo hacer en el SQUID para que un acelerador de descarga no use más de
+>>> 3 hilos para descargar ? alguna idea ?  normalmente usan de 10 a 15 en
+>>> dependencia de los sitios, pero necesito regularlo a 3 hilos solamente.
+>>>
+>>> Gracias a todos por la ayuda y la atención
+>>
+>> Aquí tienes una página que te puede servir:
+>>
+>> Squid Proxy Server Limit the number of simultaneous Web connections from
+>> a client with maxconn ACL
+>>
+>> http://www.cyberciti.biz/tips/howto-limit-squid-proxy-number-web-connections.html 
+>>
+>>
+>> Saludos,
+>>
+>> -- 
+>> Camaleón
+>
+> Hola Camalion, no lo logro
+>
+>
+> creo mi acl limitar maxconn 3
+>         acl minet 192.168.100.0/24
+> http_access minet limitar
+>
+> Hice esto pero la descarga se me va de las manos lo tengo regulado con 
+> delay_pool y eso hace que se rompa y no cumpla comprendes, probé en 
+> varios lugares antes del acceso a usuarios después etc y nada es peor 
+> la cosa jajaj alguna idea y gracias por la ayuda
+
+Creo que no has dicho el programa descargador.
+¿No tiene en su configuración la forma de limitar el Nº de descargas?
+
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B3F39F.3070306@gmail.com
+

@@ -1,0 +1,24 @@
+Subject:Re: [rlug] kernel panic :: pareri despre motiv
+On Thursday, October 25, 2012 11:18:18 AM Adrian Sevcenco wrote:
+> Salut! Stie cineva sa interpreteze o bucata de kernel panic si sa deduca
+> un motiv? snapshot
+> http://sev.spacescience.ro/adrian/alien-0-39.jpg
+> 
+> Sunt 2 servere amd care la load mare crapa .. nu pot sa ma gindesc decit
+> la memorie .. dar inainte sa schimb 48 gb de ram as vrea sa aud pareri
+> de la oameni cu mai multa experienta decit mine ..
+> 
+> Multumesc!
+> Adrian
+Presupun ca incearca sa serveasca o NMI (intrerupere nemascabila adica)
+Bineinteles ca o eroare de memorie poate duce la orice, dar ar mai fi de vazut 
+daca e ceva hard ( nu ai monitorizare pe server, poate e supraincalzire? ) .
+Cea mai tare depanare ar fi sa pui o imprimanta din aia cu hartie tractor si sa 
+redirectezi mesajele la ea :)
+Dar bineinteles ca ai putea sa le redirectezi prin seriala si catre alta 
+masina, care nu se blocheaza, ca sa ai log-urile intregi, aici probabil 
+lipseste partea interesanta ( locul in care crapa) .
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

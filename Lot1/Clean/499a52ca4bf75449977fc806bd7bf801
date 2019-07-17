@@ -1,0 +1,39 @@
+Subject:Re: Pasar de =?iso-8859-1?q?versi=F3n?= 6 a 7
+El Mon, 26 Nov 2012 15:57:18 +0100, Antonio escribió:
+
+> El 26/11/2012 15:14, Camaleón escribió:
+>> El Mon, 26 Nov 2012 10:55:01 +0100, Antonio escribió:
+>>
+>>> Tengo mi pc de escritorio en casa con versión 6 y ahora que la 7 esta
+>>> congelada me estoy planteando subir de versión.
+>> ¿Por qué no esperas a qué salga oficialmente? Debería estar disponible
+>> en apenas un par de meses :-?
+
+> Bueno por experiencia propia eso de un par, puede ser Abril del 2013 :-)
+
+Pero los ciclos de las versiones ahora son fijos, de dos años ¿no?
+
+> , por supuesto decir que es para un pc que uso como pc de escritorio,
+> nada serio.
+
+Nunca es serio hasta que te encuentras con el desastre >:-)
+
+Si decides seguir adelante, haz la pertinente copia de seguridad, sigue 
+los pasos generales recomendados para pasar de una versión estable a la 
+de pruebas, cruza los dedos y a por el toro:
+
+3.1.11 I am currently tracking stable. Can I change to testing or 
+unstable? If so, How?
+http://www.debian.org/doc/manuals/debian-faq/ch-choosing.en.html
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k900sb$vpg$4@ger.gmane.org
+

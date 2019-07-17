@@ -1,0 +1,70 @@
+Subject:Re: phpmyadmin et ssh
+On Friday 07 December 2012 00:40:17 Mourad Jaber wrote:
+> Le 06/12/2012 20:28, andre_debian@numericable.fr a =C3=A9crit :
+> > Depuis peu "phpmyadmin" depuis un poste client distant,
+> > refuse de s'ouvrir : =C3=A7a mouline dans le navigateur.
+> > Je constate que parall=C3=A8lement, le poste client connect=C3=A9
+> > au serveur "ssh", se fige : je dois fermer la console.
+> > Je n'ai rien touch=C3=A9, ni aux configurations de phpmyadmin ni de ssh.
+> > J'ai tent=C3=A9 "dpkg-reconfigure phpmyadmin"
+> > "je me vois proposer de r=C3=A9installer la base de donn=C3=A9es qu'il =
+utilise".
+> > =C3=80 moins d'une autre m=C3=A9thode , si je r=C3=A9ponds "oui" mes ba=
+ses de donn=C3=A9es
+> > seront-elles effac=C3=A9es ?
+
+> Tout d'abord, il n'y a pas de lien entre SSH et phpmyadmin, sauf si tu
+> utilise ssh comme tunnel pour acc=C3=A9der au serveur ce qui n'est pas le=
+ cas
+> que tu d=C3=A9cris... :
+C'est vrai il n'y a pas de lien entre SSH et phpmyadmin.
+"ssh" se fige peu apr=C3=A8s que je passe en root apr=C3=A8s m'=C3=AAtre lo=
+ggu=C3=A9 en mode user.
+
+> La reconfiguration de phpmyadmin ne va probablement rien changer =C3=A0 la
+> choucroute !
+> Quand tu ferme la console fig=C3=A9e, y'a-t-il un d=C3=A9blocage de ton n=
+avigateur
+> internet (aucun lien entre les 2, mais au cas o=C3=B9 !)... :
+Non pas de d=C3=A9blocage de phpmyadmin.
+Sa fen=C3=AAtre graphique s'ouvre normalement,  il mouline apr=C3=A8s que
+j'ai tap=C3=A9 le login =3D root et le mot de passe.
+
+> As-tu d'autre sites internet sur le serveur http qui h=C3=A9berge phpmyad=
+min ? :
+Il n'y a qu'un seul site Web sur le serveur.
+
+> Si oui, quand tu tente d'y acc=C3=A9der, est-ce que cela provoque le m=C3=
+=AAme
+> comportement sur ton client ? :
+J'ai plusieurs bases de donn=C3=A9es g=C3=A9r=C3=A9es par le m=C3=AAme phpm=
+yadmin.
+
+> Sur ton serveur, as-tu possibilit=C3=A9 de v=C3=A9rifier les logs ssh, ap=
+ache et
+> syst=C3=A8me ? :
+Oui, v=C3=A9rifi=C3=A9s, pas d'indication de panne : apache2, mysql, auth.l=
+og ...
+
+# /var/log/dbconfig-common# cat dbc.log
+"granting access to database phpmyadmin for phpmyadmin@localhost: success.
+verifying access for phpmyadmin@localhost: success.
+creating database phpmyadmin: success.
+verifying database phpmyadmin exists: success.
+populating database via sql...  done."
+
+> Peux-tu reproduire ce comportement avec un autre poste client ?
+> Mourad
+Oui, quelquesoit le client =3D pareil m=C3=AAme sympt=C3=B4mes.
+
+Andr=C3=A9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201212071524.08680.andre_debian@numericable.fr
+

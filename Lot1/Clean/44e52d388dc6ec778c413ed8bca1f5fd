@@ -1,0 +1,55 @@
+Subject:Re: [LUG] Linux - and security
+On Tue, Nov 6, 2012 at 12:49 PM, Simon Robert -Cottage wrote:
+> Yup facebook, google and amazon are logged in always, so I suppose our
+> burglar could order stuff from amazon (needs a delivery address)
+
+...which they can find easily using money mules.
+
+> If someone parks in the drive, sniffs my FTP credentials and somehow manages
+> to set up a botnet with the hosting company, well it's the hosting companies
+> problem not mine.
+
+While this may be true in the legal sense (actually, I'm not sure
+about this at all), if someone uses your site to serve bad stuff, your
+site could be blocked by security software, including anti-phishing
+tools built inside browsers these days. Your host could also decide to
+take down your site altogether, at least temporarily. In effect this
+could mean that few resp. no people could visit your website.
+
+If the stuff they upload is _really_ bad, the police may want to have
+a word with you, and they may want to have that word at their place
+rather than yours.
+
+> Your concerns about internet security are valid and true, but my data is
+> worthless
+
+Security is not just about protecting your data against theft: at
+least 99% of the files on my PC are completely worthless to others and
+the chances of someone abusing it are small. (Not zero though: if
+someone had access to your PC, they'd probably find a lot of personal
+information there. This could be used in identity theft.) Security is
+also also about making sure your computers aren't being used to do
+harm to the wider Internet.
+
+> it is also true that
+> most attacks are via compromised websites.
+
+This is a good point of course, but it makes:
+
+> And yes if I was doing security for a company I would make people sign
+> something saying they would not visit fake torrents sites, in fact give them
+> a limited number of URLs possible.
+
+a bit pointless as a piece of advice. :-)
+
+> OK, enouf. I'm just off to complete a really great deal with the daughter of
+> a Nigerian millionaire....
+
+:-)
+
+Martijn.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

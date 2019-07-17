@@ -1,0 +1,40 @@
+Subject:Re: Configurar proxy en modo transparente (era: swich ?)
+El Fri, 07 Dec 2012 12:45:26 -0600, Francisco Eduardo Ascencio Dominguez
+escribió:
+
+> El 07/12/2012, a las 12:40, Camaleón <noelamac@gmail.com> escribió:
+
+>>> hola list. ok seguinos dando lasa aqui. aver ya tengo servidor proxy
+>>> funcionando pero ahora lo quiero hacer transparente
+>> 
+>> (...)
+>> 
+>> Pues déjate de switches y módems (supongo que lo que habrás leído es
+>> que necesitas _dos tarjetas_ de red...) y léete mejor el manual de la
+>> aplicación que uses como servidor de proxy (que no dices cuál es) para
+>> saber cómo tienes que configurarlo en modo transparente ;-)
+>> 
+>> En Google encuentras tutoriales y FAQs para aburrir, por ejemplo:
+>> 
+>> http://m.whostas.com/2012/linux-setup-a-transparent-proxy-with-squid-
+>> in-three-easy-steps.html
+>> 
+> es squid3 y si se que son dos tarjeta en la eth0 esta el modem y en eth1
+> esta el swich. mi pregunta es. como lo configuro ahora en modo
+> transparente (ya puse la linea proxy_transparent )
+
+Pues entonces puedes seguir el tutorial que te mandé o cualquier otro de 
+los que puedes encontrar buscando en Google y donde se detallan los pasos 
+a seguir.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9vp21$lft$1@ger.gmane.org
+

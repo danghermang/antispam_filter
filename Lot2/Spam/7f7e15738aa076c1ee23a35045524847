@@ -1,0 +1,25 @@
+Subject:Undeliverable: [SPAM] 
+Your message did not reach some or all of the intended recipients.
+
+   Sent: Mon, 10 Dec 2012 17:18:58 +0300
+   Subject: [SPAM]=20
+
+The following recipient(s) could not be reached:
+
+hoteev@almetal.ru
+   Error Type: SMTP
+   Remote server (217.195.65.5) issued an error.
+   hMailServer sent: .
+   Remote server replied: 554 5.7.1 Command rejected
+
+info@almetal.ru
+   Error Type: SMTP
+   Remote server (217.195.65.5) issued an error.
+   hMailServer sent: .
+   Remote server replied: 554 5.7.1 Command rejected
+
+
+
+hMailServer
+
+

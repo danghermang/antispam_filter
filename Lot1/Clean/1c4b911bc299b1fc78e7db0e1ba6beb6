@@ -1,0 +1,42 @@
+Subject:Bloqueo selectivo de Internet (era: Me gusta de Facebook)
+El Tue, 06 Nov 2012 17:41:40 -0300, Reinaldo escribió:
+
+> Hola listeros, soy nuevo en la lista. 
+
+Pues bienvenido :-)
+
+> Me llamo Reinaldo soy de Buenos Aires, y para empezar con un problema
+> que tengo es la siguiente:
+> 
+> Tengo armado una pagina web de presentación que luego direcciona a una
+> aplicación web (Limesurvey), para encuestas, y tengo que agregar el
+> botón "Me gusta" de facebook en la index. La encuesta se aplica a través
+> de una intranet, el botón de Me gusta ya lo agregue pero el tema es que
+> los que se conectan a la red para completar la encuesta no tengan acceso
+> a internet. Lo que hice fue instalar y configurar un cortafuegos
+> Firestarter, me permite bloquear todos los accesos a internet, y también
+> la opción de solo habilitar sitios que solo estén en la lista de
+> permitir acceder, pero yo solo quiero que el script de Me gusta se
+> conecte al servidor y registre en el servidor de facebook, y que solo
+> haga eso, osea que la persona que este completando la encuesta no pueda
+> acceder a Facebook o en otro sitio.
+
+No me ha quedado muy claro el problema porque si no no lo he entendido 
+mal, los equipos de los clientes no tienen acceso a Internet y acceden a 
+una web alojada en la intranet, con lo cual hasta aquí todo se ejecuta en 
+local. En este caso sólo tendrías que restringir el equipo servidor donde 
+tienes alojada la página web y darle salida a Internet para poder 
+conectarse a los servidores de Facebook y poder ejecutar su API del "Me 
+gusta".
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7drl9$bcr$3@ger.gmane.org
+

@@ -1,0 +1,43 @@
+Subject:Re: Systemd
+On Viernes, 12 de octubre de 2012 10:32:42 Juan Antonio escribi=F3:
+> El 11/10/12 20:21, Javier San Rom=E1n escribi=F3:
+> >  Por enredar un poco, ando mirando la posibilidad de poner un h=EDbrido
+> >System V/Systemd con miras de, seg=FAn como vaya, volver a System V o pa=
+sar=20
+> >a Systemd completo. Y antes de hacer nada me gustar=EDa saber vuestras
+> >opiniones al respecto, sobre el Systemd en concreto. Gracias.
+> >=20
+> > --
+> > Usuario Linux: #156817
+> > Debian Wheezy/Sid - Kernel 3.2.0
+>=20
+> yo migr=E9 a systemd en mi portatil hace dos o tres semanas, pero es arch
+> linux y han facilitado mucho el proceso por lo que me result=F3 harto
+> sencillo, no se en debian como ser=E1 el proceso.
+>=20
+> En cuanto a systemd como tal, a mi particularmente me gusta, siendo poco
+> riguroso  es como daemontools de bernstein con esteroides. El inicio y
+> apagado del sistema es inmediato, se integra con cgroups y la gesti=F3n es
+> muy sencilla.
+>=20
+> Te paso este enlace que aunque esta escrito desde la perspectiva de
+> archlinux da una idea global sobre systemd muy buena.
+>=20
+> http://archlinux.me/brain0/2012/09/10/yet-another-systemd-comment/
+
+Agradezco la informaci=F3n. Es que comentarios sobre systemd he le=EDdo bas=
+tantes=20
+y de diferente =EDndole por lo que estaba especialmente interesado en vuest=
+ras=20
+opiniones e impresiones como usuarios de Debian, sobre todo de los que ya l=
+o=20
+hab=E9is probado. Voy a meterlo en la m=E1quina de ensayos a ver que pasa.
+
+Un saludo.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210121655.39978.debian@caolin.net
+

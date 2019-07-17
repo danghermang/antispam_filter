@@ -1,0 +1,63 @@
+Subject:Re: Unetbootin no inicia
+El 24/10/2012 13:32, Sergio Bessopeanetto escribió:
+> El 23/10/12 23:35, Roger Orellana escribió:
+>> 2012/10/23 Sergio Bessopeanetto<sbess63@myopera.com>:
+>>> Estimados/as:
+>>>
+>>> Instalé Unetbootin en Debian Wheezy KDE y no inicia a pesar de ingresar
+>>> la contraseña de root. Cuando doy Enter devuelve el diálogo diciendo 
+>>> que
+>>> la contraseña es incorrecta.
+>>>
+>>> Si intento por consola me arroja este mensaje:
+>>>
+>>> root@debian:/home/sergio# /usr/bin/unetbootin
+>>> No protocol specified
+>>> unetbootin: cannot connect to X server :0
+>>>
+>>> ¿Qué podrá estar pasando? La instalación no arrojó ningún error.
+>>> Desde ya muchas gracias.
+>>>
+>>> Saludos
+>>>
+>>> -- 
+>>> Sergio Bessopeanetto
+>>> Buenos Aires, Argentina
+>>> Skype: sergio.bess
+>>> msn: sergiebess@hotmail.com
+>>> Jabber: sergio.bess@jabber.org
+>>>
+>>>
+>>> -- 
+>>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>>> with a subject of "unsubscribe". Trouble? Contact
+>>> listmaster@lists.debian.org
+>>> Archive: http://lists.debian.org/5087517C.7070206@myopera.com
+>>>
+>>
+>>
+>>
+>> Agrega tu usuario en /etc/sudoers
+>>
+>> y en una terminal con tu usuario escribes
+>>
+>> $ sudo unetbootin
+>>
+>> Luego buscas el archivo iso que deseas cargar.
+>>
+>>
+> No funcionó. Sigue el mismo mensaje por consola. Gracias por el aporte.
+> ¿alguna otra sugerencia para buscar? En Google no aparece este error y
+> sólo hay páginas para instalar Unetbootin.
+>
+> Saludos.
+>
+Has probado usando con un usuario que no sea root,  puede ser que por 
+ser root no te deje usar dicho usuario para levantar la sesion X
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5087D795.5010700@gmail.com
+

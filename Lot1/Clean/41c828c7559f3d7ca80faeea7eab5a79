@@ -1,0 +1,25 @@
+Subject:=?ISO-8859-1?Q?OpenVZ_-_Default_Gateway_distintos_en_?=
+	=?ISO-8859-1?Q?cada_m=E1quina_virtual?=
+Grupo, buenos días.
+
+Les consulto algo relacionado a un mensaje anterior.
+
+En un Host anfitrión con Debian y OpenVZ quisiera tener varios Host 
+invitados (osea VMs).
+
+Ahora, es posible tener por ejemplo la VM1 y VM2 saliendo a internet por 
+un ADSL y la VM3 por otro ADSL?
+
+Osea, es posible asignarle a cada VM una interface física distinta o se 
+puede manejar de otra manera?
+
+Muchas Gracias.
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/508FC831.8000001@gmail.com
+

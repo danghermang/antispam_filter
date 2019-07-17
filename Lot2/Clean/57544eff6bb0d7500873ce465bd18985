@@ -1,0 +1,30 @@
+Subject:Re: problema con openvpn
+2012/9/18 Antonio Moreno <antonio@sorianatural.es>:
+> Tengo un openvpn instalado y configurado de la siguiente forma:
+>
+>
+>
+> El cliente me conecta perfectamente, hace ping al servidor tanto a la ip
+> 10.8.0.1 como a la 192.1.16.153, pero a las ips de la red no me hace a
+> ninguna de ellas. =BFQue me puede ocurrir?
+>
+> Muchas gracias y un saludo
+>
+
+El ip_forward est=E1 ACTIVADO =BF?
+
+
+--=20
+
+        [o - -  -   -    -      -
+   (\   |                  u d t
+   (  \_('>              c c s
+   (__(=3D_)             s o ?
+      -"=3D
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAB-01r7AEMwZRu6DgObU6LpMosJ4OUHqT0t3qZvvQJHjSaF29A@mail.gmail.com
+

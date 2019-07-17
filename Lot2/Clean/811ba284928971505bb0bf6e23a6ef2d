@@ -1,0 +1,36 @@
+Subject:Re: ondemand governor failed
+Le Thu, 04 Oct 2012 00:27:34 +0200
+jacques <jacques@lavignotte.org> a =E9crit:
+
+> Bonjour
+>=20
+> OSSEC me remonte =E7=E0 :
+>=20
+> Oct  2 23:03:54 desdemone kernel: [  131.604145] ondemand governor=20
+> failed, too long transition latency of HW, fallback to performance govern=
+or
+>=20
+> Ca veut dire quoi ?
+>=20
+> Merci,  J.
+> --=20
+
+A ce que je comprends du message =E7a semble vouloir que ton mat=E9riel en =
+mode
+ondemand a de trop fortes latences lors des transitions entre les diff=E9re=
+nts
+=E9tats et que donc il se remet en mode performance.
+
+C'est quoi comme matos ?
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121004003337.bd624537a9aab8c304bb169b@neuf.fr
+

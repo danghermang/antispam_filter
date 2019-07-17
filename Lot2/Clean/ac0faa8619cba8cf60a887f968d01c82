@@ -1,0 +1,21 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+ IPv4 from last /8
+On 07/11/2012 13:53, LeaderTelecom Ltd. wrote:
+> We allow to use our PA space with any transit provider. So customers will
+> be provider independent.
+
+So what happens when your customer leaves or gets into a dispute with you?
+ Is the PA assignment your IP address or theirs?
+
+If it's yours when they leave you, then it's not provider independent. This
+is the way that most LIRs operate: PA assignments are valid as long as the
+end user is a customer of the provider.  Once they move to another provider
+and stop taking services from you, then the address assignment is no longer
+theirs.
+
+This is what provider independent means.  Anyone can multihome a /24 from
+an allocated block, but it will still remain part of a PA allocation.
+
+Nick
+
+

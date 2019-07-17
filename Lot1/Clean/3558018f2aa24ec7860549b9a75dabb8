@@ -1,0 +1,92 @@
+Subject:Re: OFF-TOPIC Openvz en powerpc64 bits
+
+> El 2012-11-07 15:53, Camaleón escribió:
+>> El Wed, 07 Nov 2012 15:41:09 +0100, Maykel Franco Hernández escribió:
+>>
+>>> El 2012-11-07 15:24, Camaleón escribió:
+>>
+>> (...)
+>>
+>>>>> La verdad es que no sé que más hacer...Creo que está todo bien
+>>>>> compilado. Agregado al yaboot(gestor de arranque de debian en mac)
+>>>>> y
+>>>>> finalmente un ybin para que se apliquen los cambios(igual que el
+>>>>> update-grub). Lo que si me he fijado es que al hacer un
+>>>>> update-initramfs
+>>>>> -u no me añade las nuevas imágenes de initrd y vmlinux creadas del
+>>>>> kernel nuevo compilado...No sé si será porque no utiliza grub y
+>>>>> utiliza
+>>>>> yaboot o porque no está bien del todo formado el nuevo kernel, en
+>>>>> cualquier caso he seguido al pié de la letra todo e incluso he
+>>>>> repetido
+>>>>> y trasteado bastante...
+>>>>
+>>>> Pregunta en la lista de debian para esa arquitectura, seguro que te
+>>>> podrán dar alguna pista de dónde mirar:
+>>>>
+>>>> http://lists.debian.org/debian-powerpc/
+>>>>
+>>>
+>>> Gracias Camaleón, es lo que he hecho...pero no me contesta
+>>> nadie...Ya no
+>>> sé que hacer...La verdad es que me hubiera gustado ver rular un
+>>> openvz
+>>> en powerpc64 bits pero veo que al final no va a poder ser.
+>>
+>> (...)
+>>
+>> Ah, ya te "leo":
+>>
+>> http://lists.debian.org/debian-powerpc/2012/11/threads.html
+>>
+>> Ten un poco de paciencia... no es una lista que tenga mucho tráfico,
+>> has
+>> enviado el mensaje hoy mismo (hace apenas una horas) y en USA -desde
+>> donde suele escribir la mayoría de los listeros- aún es pronto y
+>> estarán
+>> de resaca por las elecciones presidenciales.
+>>
+>> Saludos,
+>>
+>> --
+>> Camaleón
+>
+>
+>
+> jejeje ya veo...
+>
+> Creo que puede ser un bug del kernel, aquí en este post lo han
+> solucionado pero era a la hora de instalar, no sé yo si agregando esos
+> parámetros a /etc/yaboot.conf en el kernel adecuado funcionará...
+>
+>
+> http://web.archiveorange.com/archive/v/QZp9k9zuyOjdIB4idupv
+>
+> El error en cuestión creo que es el mismo...
+>
+> Gracias por todo Camaleón.
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/abfc2989fa1f806fafc311cbf8c632af@maykel.sytes.net
+>
+>
+
+Buenas, no deber�a de aparecerme el error al arrancar el kernel en alg�n
+log? Es que no veo nada diferente de cuando arranco desde un kernel a
+otro...
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/95b3c1d27ad4eba705bb0c90e5638091.squirrel@maykel.sytes.net
+

@@ -1,0 +1,47 @@
+Subject:Re: =?iso-8859-1?q?=BFLinux=2C_para_dise=F1o_web_y_dise=F1o?=
+	grafico?
+El Sat, 08 Sep 2012 10:21:12 -0500, Carlos Zuniga escribió:
+
+> 2012/9/7 Camaleón <noelamac@gmail.com>:
+>> El Fri, 07 Sep 2012 18:23:09 +0200, Altair Linux escribió:
+>>> ¿Como lo veis?
+>>
+>> Te faltará algún buen editor de html del que para linux no conozco
+>> sustituto comparable al Dreamweaver aunque como te comentaba antes, hoy
+>> en día ya no hay "artesanos" del html (nos hemos extinguido cual
+>> dinosaurios :-P), se hace todo con frameworks online.
+>>
+>>
+> Yo diría que hay más que hacen webs a mano, que los que usan dreamweaver
+> como en el pasado.
+
+Veo un poco complicado hacer una web completamente a mano (escribiendo el 
+código sin ningún tipo de asistente visual) como la que quiere el OP, no 
+por nada sino porque requiere de mucho tiempo y generalmente no lo hay.
+
+Una de las ventajas del Dreamweaver es precisamente que te permite 
+combinar la escritura manual del código con una ayuda visual muy buena 
+(genera un html bastante bueno -limpio- y ajustado al estándar por lo que 
+los retoques suelen ser mínimos).
+
+> Claro, hemos evolucionado y ahora usamos herramientas como less [0] y
+> bootstrap [1].
+
+A eso me refiero. Ese tipo de frameworks facilitan mucho la creación de 
+páginas y su mantenimiento (actualizaciones, etc...) pero se reconocen 
+enseguida porque usan el mismo tipo de plantillas prediseñadas, siguen la 
+misma estructura de contenidos, los mismos espacios para la publicidad, o 
+quizá sea cosa mía que he desarrollado un sentido especial para 
+detectarlas.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2fsd7$j4c$11@ger.gmane.org
+

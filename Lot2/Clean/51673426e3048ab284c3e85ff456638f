@@ -1,0 +1,22 @@
+Subject:[testing] partage de fichier bluetooth
+Bonjour,
+
+J'essaie de partager des fichiers via bluetooth entre un T420 sous
+Debian testing et un HTC Desire en CyanogenMod7.
+
+J'arrive bien =E0 envoyer des fichiers depuis la debian vers le HTC mais
+pas l'inverse ...
+
+Comment faire ?
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121110185029.3d75f8ffd1f4d2fc4dcc314e@neuf.fr
+

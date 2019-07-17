@@ -1,0 +1,24 @@
+Subject:Re: [rlug] kernel panic :: pareri despre motiv
+
+On Oct 25, 2012, at 11:36 AM, Adrian Sevcenco <Adrian.Sevcenco@cern.ch> wrote:
+
+> On 10/25/2012 11:28 AM, Mircea MITU wrote:
+>> On Oct 25, 2012, at 11:18 AM, Adrian Sevcenco
+>> <Adrian.Sevcenco@cern.ch> wrote:
+>> 
+>>> Salut! Stie cineva sa interpreteze o bucata de kernel panic si sa
+>>> deduca un motiv? snapshot 
+>>> http://sev.spacescience.ro/adrian/alien-0-39.jpg
+>> 
+>> cum incep erorile? de obicei primele 2 linii iti zic ce module crapa
+>> si poti deduce de acolo care sunt cauzele, mai putin cand e vorba de
+>> memorie sau sursa
+> asta nu am cum sa stiu.. nu sunt logate nicaieri ..
+
+shift page-up nu merge ca sa vezi mai sus?
+
+
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

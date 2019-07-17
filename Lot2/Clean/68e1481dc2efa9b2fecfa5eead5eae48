@@ -1,0 +1,47 @@
+Subject:Re: Zwart scherm tijdens opstarten van externe schijf, X-org ?
+On 27-10-12 01:37, Hein van Helsdingen wrote:
+
+> Maar nu krijg ik een zwart scherm op computer A die voor mij de
+> belangrijkste computer is.
+> Inloggen kan ik dus niet. (Alles zwart!)
+> Voor het geval het volgende  er mee te maken heeft:
+> .  De installatie op computer A moest toendertijd met een "noapic
+> installatie", hetgeen ook in /boot/grub/menu.lst staat, voor computer B.
+> was geen "noapic" instalatie nodig en daarvoor heb ik
+> in /boot/grub/menu.lst  een gewone installatielijn staan zodat Ubuntu op
+> compter A. kan opstarten.
+> .  In computer B. zit een grafische kaart. (In computer A. niet.)
+> . Op computer A. draait Ubuntu gewoon. (Met veranderde X-org.)
+>
+> Hoe krijg ik weer, via X-org?, mijn inloggen terug op computer B. ?
+>
+
+
+Je moet in de terminal raken met ctrl alt f1 of f2 (tot f7 is bij mij de =
+
+xserver -grafische laag)
+
+als root doe je dan:
+
+dpkg-reconfigure xserver-xorg
+
+Soms kun je een schijf verplaatsen, en is er geen probleem met grafische =
+
+kaart, soms niet.
+
+Vesa is de universele setting in xorg.conf ...
+
+Marc
+-- =
+
+The "Penguin" has arrived - and he's not going away - ever.
+What's on Shortwave guide: choose an hour, go!
+http://shortwave dot tk
+700+ Radio Stations on SW http://swstations dot tk
+300+ languages on SW http://radiolanguages dot tk
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

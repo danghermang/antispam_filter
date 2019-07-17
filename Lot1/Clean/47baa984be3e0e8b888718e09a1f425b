@@ -1,0 +1,27 @@
+Subject:New Sqitch Failures
+Hi ActiveStaters,
+
+I put out a big new release of Sqitch this week, so naturally I'm seeing new test PPM failures. Would you mind looking into some of these?
+
+* http://ppm4.activestate.com/sun4-solaris/5.10/1000/D/DW/DWHEELER/App-Sqitch-0.940.d/log-20121204T101639.txt
+* http://ppm4.activestate.com/sun4-solaris-64/5.10/1000/D/DW/DWHEELER/App-Sqitch-0.940.d/log-20121204T121827.txt
+  Something wrong with the Moose build?
+
+* http://ppm4.activestate.com/MSWin32-x64/5.12/1200/D/DW/DWHEELER/App-Sqitch-0.940.d/log-20121204T220414.txt
+  Something wrong with B::Hooks::EndOfScope?
+
+* http://ppm4.activestate.com/sun4-solaris/5.8/818/D/DW/DWHEELER/App-Sqitch-0.940.d/log-20121204T080701.txt
+* http://ppm4.activestate.com/i686-linux/5.8/818/D/DW/DWHEELER/App-Sqitch-0.940.d/log-20121204T040139.txt
+  Moose too old.
+
+* http://ppm4.activestate.com/MSWin32-x86/5.16/1600/D/DW/DWHEELER/App-Sqitch-0.940.d/log-20121204T030606.txt
+  Uses CPAN install of Math::BigInt (still not fixed: https://rt.cpan.org/Ticket/Display.html?id=80182)
+
+Thanks!
+
+David
+
+_______________________________________________
+PPM mailing list
+PPM@listserv.ActiveState.com
+http://listserv.ActiveState.com/mailman/listinfo/ppm

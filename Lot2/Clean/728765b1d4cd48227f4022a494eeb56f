@@ -1,0 +1,107 @@
+Subject:Re: [Koha] Improving the advanced search form
+Hello
+We too want to turn off or limit languages to ones that are actually =
+
+available in our catalog.
+It's not easy but possible : you need to modify 3 tables in the MySQL =
+
+database :
+- language_descriptions
+- language_rfc4646_to_iso639
+- language_subtag_registry
+
+We are going to do this in my library (not done yet...).
+
+Regards
+Mathieu Saby
+Rennes 2 University
+
+
+
+Gay Richards a =E9crit :
+> Agree advanced search could and should be improved, but don't like exampl=
+e suggested.
+>
+> I generallly like the "look: of the Koha advanced search page. The proble=
+m (apart from any accessibility issues) is that some functions don't work a=
+s one might expect - as outlined below. Also:
+>
+> We would like to turn off or limit languages to onees that are actually a=
+vailable in our catalog.
+>
+> The Search for additional content types is really misleading as it relies=
+ on codes from marc field 008 which may or may not have been used.
+> I'm sure I have other issues with this screen and I would be keen to disc=
+uss any improvements further. We support anything that makes it more access=
+ible too.  Gay
+>
+> -----Original Message-----
+> From: koha-bounces@lists.katipo.co.nz [mailto:koha-bounces@lists.katipo.c=
+o.nz] On Behalf Of Chris Cormack
+> Sent: Thursday, 25 October 2012 3:03 p.m.
+> To: Srikanth Dhondi
+> Cc: koha@lists.katipo.co.nz
+> Subject: Re: [Koha] Improving the advanced search form
+>
+> On 25 October 2012 14:55, Srikanth Dhondi <srikanth@catalyst.net.nz> wrot=
+e:
+>   =
+
+>> Hi there,
+>>
+>> I am currently working on improving accessibility of koha opac site =
+
+>> with our accessibility expert.
+>> One of the things we noticed is that the advanced search option is not =
+
+>> only confusing for blind users but also even for normal users.
+>>
+>> I have noticed the following issues with it:
+>>
+>> 1) By default the Fewer Options option is selected, which is not =
+
+>> obvious to the normal users until they click on More Options.
+>>
+>> 2) The layout could be a lot better, in particular the Fewer Options =
+
+>> search form is quite abstract in what it does.
+>>
+>> For example, the default boolean operator is AND which is not obvious =
+
+>> to even normal user.
+>>
+>> In my opinion, layout similar to the one =
+
+>> http://kea.massey.ac.nz/search/X, is better.
+>>
+>>     =
+
+> I'm going to disagree and say that site is horrid :)
+>
+> Maybe others will have different opinions though.
+>
+> Chris
+> _______________________________________________
+> Koha mailing list  http://koha-community.org Koha@lists.katipo.co.nz http=
+://lists.katipo.co.nz/mailman/listinfo/koha
+> _______________________________________________
+> Koha mailing list  http://koha-community.org
+> Koha@lists.katipo.co.nz
+> http://lists.katipo.co.nz/mailman/listinfo/koha
+>   =
+
+
+
+-- =
+
+Mathieu Saby
+Service d'Informatique Documentaire
+Service Commun de Documentation
+Universit=E9 Rennes 2
+T=E9l=E9phone : 02 99 14 12 65
+Courriel : mathieu.saby@univ-rennes2.fr
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

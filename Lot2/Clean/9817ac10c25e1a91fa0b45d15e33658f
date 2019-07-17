@@ -1,0 +1,123 @@
+Subject:Re: [Antenna-discussion] Photon orbital momentum free
+	spacecommunication.
+Levente,
+
+Bo Thide did not invent the notion of quantized orbital angular momentum, 
+and the infinite range of possibilities thereof.
+
+This was done in 1913 by Niels Bohr.
+
+Your are correct that this notion is worthy of a Nobel prize -- which was 
+awarded to Bohr in 1922.
+
+-------------
+Thide is a latecomer to this game, who makes dramatic claims that well-known 
+physics could revolutionize the communications industry.
+
+But, as you note, it is technically awkward to use the high orbital angular 
+momentum states of light.
+
+People are working hard on this, and no doubt some measure of success will 
+be achieved in implementing this 100-year-old idea.
+
+My personal take is that a "revolution" is unlikely.
+
+It is generally much easier just to increase the frequency of the lowest 
+angular-momentum mode used in, say, fiberoptics, to increase the number of 
+bits/sec that can be transmitted.   Next, it's easy to bundle multiple 
+fibers into a cable to increase further the bit-transmission rate per cable.
+
+Nonetheless, we technogeeks are optimistic that some niche can be found for 
+the use of higher orbital angular momentum modes.   So far, we are still 
+waiting....
+
+--Kirk
+
+
+
+-----Original Message----- 
+From: Levente Letso
+Sent: Thursday, November 08, 2012 7:22 PM
+To: antenna-discussion@antennex.com ; Levente
+Subject: [Antenna-discussion] Photon orbital momentum free 
+spacecommunication.
+
+
+  Hallo.
+
+  This is an update, and a pickup on a debate in Antennex on the
+matter, that stalled in a draw, as I recall, a year ago.
+
+  About a year ago there was a proposition and crude demonstration
+by Bo Thide of the Swedish Institute of Space Physics in Venice Italy,
+claiming that selecting different orbital momentums for photons, an
+infinity of communication channels can be opened up on the same
+single frequency channel.
+  That would be earthshaking, worthy of a quick Nobel Prize, if true.
+
+  A year ago I took a close look at the Venice experimental setup,
+and was underwhelmed. It was a reflector antenna, reflector slit
+and twisted into a corkscrew, the split separated axially by one
+wavelength(?).
+  To me - at least - that was a geometric arrangement, that distorted
+the aiming point of the antenna into a cone, where every part of the
+cone carried the same info + a fixed phase shift of the carrier.
+No orbital momentum visible to this engineer.
+  Prof Bo Thide had a different assessment, obviously.
+
+  Now the matter is revived, and still contested:
+
+http://www.bbc.co.uk/news/science-environment-20217938
+
+There are plenty of links for details, arguments, conterarguments.
+
+I like the Laszlo B. Kish / Robert D Nevels paper
+
+http://vixra.org/pdf/1209.0107v7.pdf
+
+for its brevity, arguing, that many orbital modes in free space
+would violate fundamental rules of particle physics and the
+Second Law of Thermodynamics.
+
+  It would be nice, if somebody commenting, would remember
+the name of the old thread from a year ago.
+
+best regards
+Levente
+AC2EK
+
+
+
+
+
+
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this 
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm 
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

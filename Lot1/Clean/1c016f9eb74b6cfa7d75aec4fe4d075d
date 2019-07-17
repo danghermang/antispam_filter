@@ -1,0 +1,40 @@
+Subject:Re: [Flexradio] COM0COM
+
+Com0Com does not provide a signed driver for Windows 7 64 bit, so I agree w=
+ith Dave. The other option would be to disable checking of 64 bit drivers i=
+n Windows 7, but you would not want to do that?
+
+73 de LA2SL
+
+Ulf
+
+
+
+Den 6. nov. 2012 kl. 04:10 skrev "berkshire.tr@gmail.com" <berkshire.tr@gma=
+il.com>:
+
+> I have a Flex 3000 running it with a Dell 620 Windows 7 64 bit. I would l=
+ike to run PSK31. I am trying to run FLdigi. I have setup VAC. However I am=
+ having trouble setting up COM0COM. I have read everything I can find on CO=
+M0COM in the knowledge center. Here is my problem:
+> I have setup my pair as COM7 and COM17. But when I hit apply I get no loa=
+ding of drivers. And when I go to PSDR, then setup and CAT control, I see n=
+o COM ports for PTT or Control. I guess I=92m doing something wrong. I am r=
+eally lost when it comes to this. So someone please help me.
+> Thanks for your time!
+> Terry K9PBR
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.=
+com/
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.co=
+m/

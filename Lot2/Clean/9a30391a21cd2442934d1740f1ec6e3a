@@ -1,0 +1,25 @@
+Subject:Re: Como hacer backups "sencillos" programados ?
+Suelo revisar la casilla una vez cada dos dias, disculpenme.
+
+Muchas gracias a los muchachos que se han "copado" y dan orientacion. 
+Veo como es slbackup ya sea desde sid o si es que esta en backports.
+  Tambien hoy estaba pensando en cron (aunque jamas yo lo use, supongo 
+que si el sistema) y escribir algun comandito. Vere que es rsync 
+(sincroniza supongo) y su uso.
+
+  Repregunto una cosa mas que pregunto "Ramses" que ayer me vino tambien 
+a mi cabeza:
+ya sea con rsync, slbackup o los comandos 'copy', 'tar', etc., ¿se 
+reescribe por completo un archivo o solo su parte modificada?
+¿Depende esto del formato del archivo?
+(los que utilizo son los de imagenes, .odf, .pdf, .html, .css, .cbr; y 
+simples o sin formato. Nada en audio o video).
+
+  Nos estamos copiando, alunado.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509E16E2.2040306@gmail.com
+

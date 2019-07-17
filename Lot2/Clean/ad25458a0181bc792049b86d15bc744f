@@ -1,0 +1,30 @@
+Subject:Re: Problemas con rad1 en debian squeeze
+El Tue, 13 Nov 2012 13:45:18 -0300, Ricardo escribió:
+
+> hola lista, tengo problemillas con mi RAID1, aqui el detalle tengo 2
+> disco de 1TB en raid1 (espejo) resulta que quedo sin espacio, lo que 
+> hice fue desde la red lo borre como 20GB de archivos y pensaba que se
+> iba liberar un poco como para modificar un archivo. pero nada.. cuando
+> hago df -h me muestra esto:
+> 
+> root@server:~# df -h
+> S.ficheros            Tam.  Usado Disp. % Uso Montado en 
+> /dev/md0              895G  870G     0 100% / 
+
+(...)
+
+Ahí tienes el problema. ¿Has borrado archivos que se encontraban en la 
+raíz ("/dev/md0") o del backup ("/dev/sdc1")? Cuando eliminas datos del 
+disco duro el espacio debe estar disponible inmediatamente.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7tv5k$me$5@ger.gmane.org
+

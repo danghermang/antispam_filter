@@ -1,0 +1,28 @@
+Subject:Re: /dev =?ISO-8859-1?Q?effac=E9_-_Comment_r=E9parer_=3F?=
+On 09/07/2012 01:19 PM, Pierre wrote:
+> Bonjour à tous,
+>
+> Sur une Debian 5, notre /dev a été effacé. Que faire pour réparer cela
+> le plus simplement possible ?
+> Merci d'avance pour vos conseils .
+>
+
+L'exécutable MAKEDEV est utilisé pour créer les fichiers de 
+périphérique, souvent dans /dev.
+Ce paquet n'est pas nécessaire sur la plupart des systèmes linux 
+modernes, où le sous-système udev fournit un mécanisme plus dynamique 
+pour la gestion des fichiers de périphériques.
+
+http://packages.debian.org/squeeze/makedev
+-- 
+Maderios
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5049EB7D.1060003@gmail.com
+

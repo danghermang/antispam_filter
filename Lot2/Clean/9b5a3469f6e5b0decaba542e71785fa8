@@ -1,0 +1,38 @@
+Subject:Re: Software, herramienta para encriptar y desencriptar un md5
+-10!
+
+1.- Un MD5 no se puede descifrar
+2.- Existe la orden "md5" (y sha) para generar los hashes. Pa que co=F1o
+enredas la marrana con scripts OpenSSL Howtos?
+
+
+2012/11/30 Camale=F3n <noelamac@gmail.com>:
+> El Thu, 29 Nov 2012 14:52:27 -0500, academia escribi=F3:
+>
+>> Hola lista. Necesito alg=FAn software, herramienta (o c=F3mo desde una
+>> terminal) poder encriptar y desencriptar un md5.
+>
+> Con "openssl" te deber=EDa bastar.
+>
+> OpenSSL Command-Line HOWTO
+> http://www.madboa.com/geek/openssl/
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k9al75$2aj$1@ger.gmane.org
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAL2uDdGig3hwiNJS5ki27v2M07TRRQ=FzRpDsBM2kjnTj0F4FA@mail.gmail.com
+

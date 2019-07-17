@@ -1,0 +1,39 @@
+Subject:Re: Route statique avec 2 passerelles
+Le 15675i=C3=A8me jour apr=C3=A8s Epoch,
+Pascal Hambourg =C3=A9crivait:
+
+> Fran=C3=A7ois TOURDE a =C3=A9crit :
+>> Pascal Hambourg =C3=A9crivait:
+>>=20
+>>> Dans le temps on pouvait utiliser l'option "source routing" dans
+>>> l'en-t=C3=AAte des paquets IP, mais elle est ignor=C3=A9e voire bloqu=
+=C3=A9e par la
+>>> plupart des routeurs =C3=A0 cause des probl=C3=A8mes de s=C3=A9curit=C3=
+=A9 qu'elle pose.
+>>=20
+>> Mais ce n'=C3=A9tait valable qu'avec plusieurs interfaces sur la machine=
+, il
+>> me semble. Tu routais les paquets selon l'interface par laquelle ils
+>> =C3=A9taient arriv=C3=A9s.
+>
+> Je pense que tu confonds avec le routage avanc=C3=A9 bas=C3=A9 sur l'adre=
+sse
+> source ("source-based routing") ou l'interface d'entr=C3=A9e.
+
+Effectivement, j'ai confondu ces deux notions. Merci pour m'avoir point=C3=
+=A9
+=C3=A7a du doigt, et pour le lien. ;)
+
+--=20
+World's reboot: D - 18
+Please insert new media before rebooting World.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/87a9tvzhzs.fsf@tourde.org
+

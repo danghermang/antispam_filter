@@ -1,0 +1,42 @@
+Subject:Re: Como hacer backups "sencillos" programados ?
+El 08/11/12 06:13, silodepam escribió:
+> Hola gente, mi pc (junto al soft libre y utilizando debian) se esta 
+> transformando en un instrumento de preponderante valia para mi vida.
+> La estoy utilizando para escribir ideas que aun no tienen valor alguno 
+> y  de aqui que surge la necesidad de hacer backups de algunas notas o 
+> datos que se encuentran en diferentes subdirectorios. Manualmente 
+> podria hacerlo pero puede resultar hasta ineficiente ya que solo 
+> existiria la seguridad mi pobre voluntad acompañada de mi distraido 
+> recuerdo.
+>  Manejo archivos de texto, llanos, algun html y quizas imagenes en una 
+> particion ext4 de un querido rigido de 120gb que ya tubo su cuelgue 
+> (aunque sigue funcionando).
+>  Acabo de hacer el primero y mas facil: la carpeta contenedora 
+> copiarla integramente al nuevo destino, y desde este punto escribo el 
+> mail pidiendo consejo u orientacion.
+> Muchas gracias gente. -alunado.
+>
+>
+¿No te gustaría porbar con Dropbox? Te ayuda a organizarte mejor las 
+carpetas. Todo lo que escribas.
+lo guardás en la o las carpetas que tengas sincronizadas con Dropbox y 
+además las podrás ver desde
+otros equipos o via la web de tu cuenta personal de Dropbox.
+
+NOTA: Eso me acaba de salvar la vida porque accidentalmente formatee el 
+disco donde tengo mis
+archivos de trabajo.
+
+-- 
+Sergio Bessopeanetto
+Buenos Aires, Argentina
+Skype: sergio.bess
+msn: sergiebess@hotmail.com
+Jabber: sergio.bess@jabber.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509BCE99.1060403@myopera.com
+

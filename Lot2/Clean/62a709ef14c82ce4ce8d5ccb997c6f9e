@@ -1,0 +1,27 @@
+Subject:Re: [LUG] Raspberry Pi now 100% Open Source on the ARM side -
+	clusters
+On 25/10/12 11:20, paul sutton wrote:
+> clearly at the end we would need to find some sort of app that would run
+> to prove its using multiple processors.
+
+Factoring primes. Hash cracking. Pre-computing rainbow tables. Etc.
+Let's face it, outside of academia, that's what we want massive
+parallelism for.
+
+Except a Super Micro chassis with a bunch of PCIe v3 GPGPUs is the way
+forward.
+
+Even purely for fun, I'm not sure I see the point of bothering to
+cluster Pis together. Weak CPU, slow interconnect, glacial performance,
+buggy distributions... If you want to play with SMP stuff, surely your
+main PC or even laptop has more than one core these days?
+
+PS: Gordon's old job sounds really, really cool. Did you actually get to
+work with Transputers? So envious.
+
+Regards
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,34 @@
+Subject:Re: Conexion 3G con network-manager [error: No agents were available
+	for	this request]
+El Sat, 15 Sep 2012 11:11:09 -0300, Manuel Ramos escribió:
+
+(...)
+
+> Detecta el modem, lo configura, pero cuando me quiero conectar me sale
+> un pop-up con el error: "No agents were available for this request" .
+> Consulte con Dios, perdón quise decir google, hay un par de bugs, pero
+> me llama la atención que cuando hice la instalación completa funcionaba
+> de maravilla (iniciaba KWalletManager me pedia configurar una
+> contraseña, luego recien me permitia conectarme mediante el
+> modem)..ahora nada de eso.
+> 
+> Alguien me puede iluminar?
+
+Compara ambas versiones de network-manager para ver si son las mismas en 
+los dos equipos. 
+
+De todas formas, por el tipo de error podría ser cosa del KWallet que es 
+quien se encarga de gestionar las contraseñas de las aplicaciones, mira a 
+ver si lo tienes instalado e iniciado.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k327hv$200$8@ger.gmane.org
+

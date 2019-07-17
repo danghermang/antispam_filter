@@ -1,0 +1,82 @@
+Subject:Re: pasar directamente de etch a squeeze
+BasaBuru wrote:
+
+> On Viernes, 21 de septiembre de 2012 12:21:56 Alarc'h escribió:
+>> Hola,
+>> 
+>> Heredo de un servidor que aun esta bajo Debian Etch...
+>> 
+>> su "uptime" es el siguiente :
+>>  13:18:18 up 1342 days, 22:21,  1 user,  load average: 0.00, 0.00, 0.00
+>>
+> esto es una debian menudo uptime
+> 
+>> 
+>> Pues quería saber si es posible hacer directamente la actualización de
+>> Etch hasta Squeeze sin pasar por la etapa a Lenny (lo que vuelve a saber
+>> si se puede actualizar a Debian saltando 1 o x versiones).
+> 
+> Por poder se puede
+> 
+>> 
+>> Preciso que la computadora esta en un data center, que no puedo acceder a
+>> esta computadora físicamente y que todo deberá utilizar la línea de
+>> commandos vía una conexión ssh a través de Internet.
+> 
+> No te dan un acceso KVM??? aunque solo sea para la migración. Desde ahí
+> controlas la maquina desde que arranca.
+> 
+>> ¿ Sabe alguien si modificar el fichero /etc/apt/sources.list reemplazando
+>> etch por squeeze es suficiente para lanzar dist-upgrade ?
+> 
+> Si pero te falta un paso apt-get update despues de cambiar versión.
+
+Si claro
+
+> De todas maneras que sepas que puedes liarla, sin acceso físico. Hombre si
+> tienes backups.......lo mas que te puede pasar es que te tengan que
+> instalar una squeeze y te cobraran. Mas curro de configuraciones, etc,
+> etc.
+
+Si tal vez se va acabar asi, pero me gustaria lograrlo sin tener que pedir
+ayuda a la asistencia tecnica.
+ 
+> Si tienes mucho soft y tienes que reinstalar la máquina por que se ha
+> petado en la migración.....
+
+No hay mucho soft, solo Apache y Php, MySQL, Postfix, vsftpd, unos sitios
+internet en Php, piwik y programas como rsync, ntp, hddtemp que se pueden
+reinstalar sin problemas y un servidor ssh utilizado con keychain. Para mi
+lo mas importante es que arranque y que sea posible conectarse con ssh.
+Despues siempre lograre hacerla funcionar. 
+ 
+> Mete antes la lista de paquetes en un fichero... algo asi:
+> 
+> dpkg --get-selections > seleciones_software_maquina_tal
+> 
+> despues cuando hayas instalado la maquina pelada....
+> 
+> dpkg --set-selections < seleciones_software_maquina_tal
+> 
+> y entonces
+> 
+> dselect
+> 
+> y ya.
+ 
+Estoy empezando los backups y ya tengo la liste de dpkg como lo dicen en la
+doc debian. 
+
+> Pero esto es muy agorero. La verdad es que yo no he tenido nunca ningun
+> problema..... eso si temblando por si pasa algo :=}
+> 
+
+exactamente, intentare eso durante la semana.  
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3q4qa$roc$1@ger.gmane.org
+

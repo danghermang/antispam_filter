@@ -1,0 +1,92 @@
+Subject:Delivery failure
+Message from yahoo.co.kr.
+Unable to deliver message to the following address(es).
+
+<36power@yahoo.co.kr>:
+This user doesn't have a yahoo.co.kr account (36power@yahoo.co.kr) [0]
+
+<68425v@yahoo.co.kr>:
+This user doesn't have a yahoo.co.kr account (68425v@yahoo.co.kr) [0]
+
+<bob0ju@yahoo.co.kr>:
+This user doesn't have a yahoo.co.kr account (bob0ju@yahoo.co.kr) [-5]
+
+<enue3@yahoo.co.kr>:
+This user doesn't have a yahoo.co.kr account (enue3@yahoo.co.kr) [0]
+
+<eun-seong80@yahoo.co.kr>:
+This user doesn't have a yahoo.co.kr account (eun-seong80@yahoo.co.kr) [-15]
+
+<hcmwy@yahoo.co.kr>:
+This user doesn't have a yahoo.co.kr account (hcmwy@yahoo.co.kr) [0]
+
+<jamija@yahoo.co.kr>:
+This user doesn't have a yahoo.co.kr account (jamija@yahoo.co.kr) [-5]
+
+<ksc108@yahoo.co.kr>:
+This user doesn't have a yahoo.co.kr account (ksc108@yahoo.co.kr) [-5]
+
+<luster43@yahoo.co.kr>:
+This user doesn't have a yahoo.co.kr account (luster43@yahoo.co.kr) [0]
+
+<ysy9677@yahoo.co.kr>:
+This user doesn't have a yahoo.co.kr account (ysy9677@yahoo.co.kr) [0]
+
+--- Original message follows.
+
+Return-Path: <info@mduphoffboergoats.com>
+X-YahooFilteredBulk: 69.50.231.143
+Received-SPF: none (domain of mduphoffboergoats.com does not designate permitted sender hosts)
+X-YMailISG: wZMaO.4WLDv7JDH45JGO_6BDSFpFsES6gTren6lDhf6sSitr
+ OgKJtpI763Dk5lgVn1ECjmR9jc821_QInXcxlts9tOSTelImZroHV7hAxpmJ
+ lqLbIeJFsxzBvewZVM_J7PA5wh54UI_VdjOZTr.FAHp9v8gmWy7qxFwk00Ul
+ P1TJmjo3Vo_BteQKvuk3XaAeOcRk2AUbL.Tys82JkuaI8KHjpeM2rtL09zUu
+ NSWGpmpzIYJ.hWL2k5vhtxv_Sr4GC8W2dgylbsUwpaAnPNVnZfeSoKPP.Otz
+ lURNCnTpgrQpLzzAmtT2OQbbgHHvgLlv3AqKfENobSY9igt2WcTRdkfAYv.M
+ Ef8qU8ZOwYvtzV1cc8f_H64I915iaF9XcTaH3XQPzcF2.Nf5Ei7Q5vHTJcRR
+ RXBWCVlFiMhMs2igzXCrvoYV7ZtmmkwvWQ82WWVkpykFdrN3XGyNJQvyapkZ
+ IybCjkcFrXzqsOj7exUhifdqOMKrNeq1qh4afKavVaghr90EzJMbJla3Nlm.
+ rYjvI8wluL2HAKfnQJVcS.3VJBf4Zfm5qsaVwm.ObrkvQkqEUD7aoRW2bdOy
+ RIo3Csy2VE9FIBNxGv7JzxIzT1BKlnYfgKknSeRRv_inwp1.XadIv49zPnBy
+ Gl8TzjSTS6MIDrOLH1H4NFGm2LONaBrffjd.xCnXe0A98RSicCN9tUaKzz9Y
+ td9FqlI1T4b1K2x.OsEQgwjk7QgyC45G_axgjFbHk.2clAqfMTlT4tD1Tm.u
+ sgfP1lw8SBRsyn1mOqxiQHHmQ42IEyTuqSpqcLQUZmar0QxU1fL7chkVDVOh
+ NwP5oG3nWICTJIVn.psPffvChqgWyb8AnS09Mu0TxMgj_25C.WkVGf1yAtif
+ ZXXs65mNyj6zgkTI5uLlywZU8KKnYynHqPBTL6CD10B7zhupeWsICzl5l_9V
+ LCD9QZic_oqrqqpvvdmKx_ceSBBi83Gw5153o_xZ4LtTbRqk1UHNgNWjt4mj
+ hrjTlgTUwgt2XsWev.Ella162T7Qo6uqItGOsEXoUgM34gtK_lcZWC5Ljqux
+ d6xW0Xuc02eaMdFn4vKcPPtTviJx0CyBUl1L0ge7gadPisiGgfvRSAsXlV.n
+ _QYf4zgszMc0WHr0RlHrFlY5l0ZSCPyq_A--
+X-Originating-IP: [69.50.231.143]
+Authentication-Results: mta1281.mail.sg3.yahoo.com  from=mduphoffboergoats.com; domainkeys=neutral (no sig);  from=mduphoffboergoats.com; dkim=neutral (no sig)
+Received: from 127.0.0.1  (EHLO retry.junkemailfilter.com) (69.50.231.143)
+  by mta1281.mail.sg3.yahoo.com with SMTP; Mon, 10 Dec 2012 08:34:14 +0000
+Delivery-date: Mon, 10 Dec 2012 00:34:14 -0800
+Received: from pascal.junkemailfilter.com ([184.105.182.187]) helo=pascal.junkemailfilter.com
+	by retry.junkemailfilter.com with esmtps (TLSv1:DHE-RSA-AES256-SHA:256)
+	(Exim 4.80.1)
+	id 1ThWD3-00037F-Cq on interface=69.50.231.139; Sat, 08 Dec 2012 18:01:37 -0800
+Received: from [58.122.118.168] (helo=zrav.com) helo=zrav.com
+	by pascal.junkemailfilter.com with smtp (Exim 4.80.1)
+	id 1ThWD1-0000Fz-Mr on interface=184.105.182.181; Sat, 08 Dec 2012 18:01:36 -0800
+From: =?euc-kr?B?MDEyNTAxMA===?= <info@mduphoffboergoats.com>
+To: <ysy9677@yahoo.co.kr>
+Subject: =?euc-kr?B?ICA4eWEz=?=
+Date: Sun, 09 Dec 2012 02:00:59 GMT
+X-Mailer: Ms-Outlook 7.0
+Disposition-Notification-To: MDEyNTAxMA== <info@mduphoffboergoats.com>
+X-Priority: 3
+MIME-Version: 1.0
+Content-Type: text/plain;
+ charset=ks_c_5601
+Content-Transfer-Encoding:base64
+X-Spamfilter-host: pascal.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: info@mduphoffboergoats.com
+
+ICA4eWEz
+
+*** MESSAGE TRUNCATED ***
+
+
+.
+

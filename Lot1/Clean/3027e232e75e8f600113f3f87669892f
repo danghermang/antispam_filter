@@ -1,0 +1,75 @@
+Subject:Re: [Jukebox-list] 2810 Issues
+Hello Thomas:=0A=0A=0AI can give you some=A0answers that should help you:=
+=0A=0A=0AHaving the # 544 amp in place of the #545 amp intended for the W28=
+10 should work =0Aquite well.=A0 The two amps are plug-in compatible with o=
+ne another.=A0 One of the =0Abiggest differences between the 544 and 545 am=
+ps is in the bass/treble tone =0Acontrol circuitry design.=A0 Both are simi=
+lar tube type stereo amplifiers.=0A=0AThe way you're describing the mech, t=
+he unit is stuck in the "record-play" mode=A0 =0A(one lift arm up to the tu=
+rntable,lift arm on the other side pushed up to one of =0Athe record carrie=
+r's separators)=A0=A0 This is a normal condition in play =0Amode.=A0=A0It's=
+ normal for the TT motor to turn. =A0I'm not exactly sure which =0Amicroswi=
+tch you're describing,but it sounds like the safety switch that is =0Aopera=
+ted by the record changer plexi "fan" located in front of the vertical-play=
+ =0ATT.=0AIf a record loads incorrectly onto the TT, the hinged "fan" is pu=
+shed to open =0Athe microswitch, which shuts down power to the record chang=
+er.=0A=0AThe robotics motor operating the changer function is a high torque=
+ 24 volt AC =0Amotor, driven directly from a 24volt AC winding on a power t=
+ransformer. This =0Atransformer is located on the amp chassis.=A0=A0=A0 Thi=
+ngs that I'd check for are:=0A=0AIs the motor having a mechanical bind, cau=
+sing it to stall out?=A0=A0 You mentioned =0Athat by turning the motor shaf=
+t extension by hand, you can move the action of =0Athe lift arms and rotate=
+ the record carrier.=A0 Does this turn freely or do you =0Ahave to force it=
+?=A0=A0 If the motor's "load" is binding you'll need to determine =0Awhy.=
+=0A=0AIf the motor shaft turns freely there's a loss of voltage or current =
+getting to =0Athe motor. (voltmeter check)=A0 The transfer switch (one of t=
+wo open-leaf type =0Aswitches at the center rear of the changer baseplate,m=
+ounted below deck) =0Aoperates a relay (one of the red-capped plug in relay=
+s) which actually performs =0Athe switching function. Check for dirty-inter=
+mittent contacts.=A0Try swapping =0Arelays with another red-capped one--see=
+ if motor operation improves---red cover =0Arelays have 24 volt AC coils--w=
+hite or clear color relays have 24 volt DC =0Acoils.=A0 =A0 Check the fuseh=
+olders on both the amp chassis and the pinbank chassis =0Ato make sure the =
+correct value fuses are installed.=A0=A0 Replace any "over size" =0Afuse va=
+lues with the values stamped on the chassis.=0AThe 24 volt AC changer motor=
+ uses a motor-start capacitor that is located inside =0Aof the pinbank chas=
+sis.=A0=A0 If it's deteriorated, this cap can cause the slow-RPM =0Asymptom=
+ that you're experiencing.=0A=0ATo learn more about your W2810,I reccomend =
+that you obtain a copy of the W2800 =0Amodel family=A0service manual.=A0 Yo=
+u'll find copies of all the machine schematics =0Athere.=A0 You'll find goo=
+d quality re-issue manuals at both www.alwaysjukin.com =0Aand the www.victo=
+ryglass.com websites.=A0=A0 Beware of buying jukebox manuals from =0Aseller=
+s on EBay in either print or electronic format.=A0=A0 Many of these are poo=
+rly =0Amade photocopies or scans that will be missing the hard-to-reproduce=
+ map-sized =0Aschematic and drawing pages. =A0=A0=0A=0A=0AHope this helps,=
+=0A=0A=0AJim Alexander=0A=0A=0A=0A________________________________=0AFrom: =
+Thomas Saxton <saxtgrn@yahoo.com>=0ATo: jukebox-list@lists.netlojix.com=0AS=
+ent: Sat, October 20, 2012 5:50:56 PM=0ASubject: [Jukebox-list] 2810 Issues=
+=0A=0AI bought an as-is 2810 jukwbox recently and need help sorting out som=
+e issues.=0A=A0=0A=0AFirst of all, The unit has a 544 amp instead of the 54=
+5 unit that book shows it =0Ashould have. It is my understanding that it sh=
+ould wor though. Correct?=0A=A0=0A=0ASecond. When I turn the main power on,=
+ the lights work amd when the micro switch =0Ato the left of the mute/play =
+switches is depressed, the turntable motor runs. =0ARelease it by hand and =
+the turntable motor stops. Nothing else, however, seems =0Ato cycle. =0A=0A=
+=A0=0A=0AThird. Facing the back of machine, the right hand lift arm is in f=
+ully up =0Aposition as if it is playing a record. The left hand lift arm is=
+ partially up. =0AThe cam lobe on the mech is facing to back of machine. Ca=
+nnot find a way to =0Aretarct the arms. If I turn the knob on bottom of mec=
+h motor, the record rack =0Awants to turn...so I stopped turning until I ge=
+t advice on how to retract arm. =0A=0A=A0=0A=0AFourth. The mech motor has p=
+ower (you can feel it vibrate) as verified with =0Atester. It does not, how=
+ever, seem to have enough power to turn/cycle the =0Amechanism=0A=A0=0A=0AL=
+ast. There a one red wire dangling near the mute/play & micro switches> Can=
+'t =0Afind anywhere obvious that it shouild be terminated.=0A=A0=0A=0AAny a=
+nd all advice I can get would be greatly appreciated. The unit overall is =
+=0Ain very good condition. Cleaned up nicely=0A=A0=0A=0ABest Regards=0ATom =
+Saxton=0A_______________________________________________=0AJukebox-list mai=
+ling list=0AJukebox-list@lists.netlojix.com=0Ahttp://lists.netlojix.com/mai=
+lman/listinfo/jukebox-list=0ASearchable Archives: http://jukebox.markmail.o=
+rg/=0A
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

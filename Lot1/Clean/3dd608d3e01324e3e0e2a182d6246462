@@ -1,0 +1,112 @@
+Subject:Re: MKV se oye pero no se ve
+El d=EDa 31 de agosto de 2012 15:44, Camale=F3n <noelamac@gmail.com> escrib=
+i=F3:
+> El Thu, 30 Aug 2012 19:48:15 +0200, Marc Mar=ED escribi=F3:
+>
+>> Lo de mi mensaje anterior, no le hag=E1is caso, soy yo que hago las cosa=
+s
+>> a lo cutre, intentando ejecutar vlc como usuario "prueba" desde la
+>> sesi=F3n m=EDa. Ahora me he logueado como "prueba" directamente, y sale =
+m=E1s
+>> normal.
+>
+> Bueno, no hace falta iniciar sesi=F3n, con ejecutar "su -x prueba" ser=ED=
+a
+> suficiente :-)
+>
+>> Esto es lo que sale en "mensajes" como usuario "prueba" despu=E9s de 10
+>> segundos de ejecuci=F3n: http://pastebin.com/anZUYGpH , lo que ya
+>> hab=EDamos visto. As=ED que nada nuevo
+>
+> Hombre, hay m=E1s datos registrados pero no veo ning=FAn error :-?
+>
+> =BFY la salida de mplayer?
+>
+>> Adem=E1s, he desinstalado bumblebee y todas sus dependencias (m=F3dulo d=
+e
+>> Nvidia incluido), para asegurarme que no sea eso. As=ED que,
+>> recapitulando, ahora tengo que:
+>>
+>> -Estoy usando unicamente la gr=E1fica Intel
+>
+> Con el driver de intel, supongo. Intenta cargar el kernel 3.2 con el
+> fbdev.
+>
+>> -Estoy usando kernel 3.2.0
+>
+> Y con el kernel anterior funciona. Eso es lo que m=E1s me descoloca porqu=
+e
+> no veo ninguna a relaci=F3n entre un kernel y que no puedas reproducir la
+> capa de v=EDdeo en determinados reproductores.
+>
+>> -Archivos mkv, avi y mp4 solamente se oyen, no se ven ni la imagen ni
+>> los subtitulos ni los efectos del player en mplayer y vlc
+>> -Totem funciona perfectamente con los tres tipos de archivo solamente
+>> si hago lo que ha dicho Denis (pero me jode que no funcionen los otros
+>> players, pero si no se puede arreglar, ya me conformo)
+>
+> S=ED, es muy extra=F1o. Y m=E1s extra=F1o es que tanto vlc y mplayer func=
+ionen
+> sin problemas con otro kernel... yo descartar=EDa pues problema de c=F3de=
+cs y
+> de las versiones de los programas porque estas dos son constantes, no han
+> cambiado y a=FAn as=ED en un determinado escenario funcionan pero en otro=
+ no.
+>
+>> -Los logs no muestran fallos aparentes
+>
+> No muestra nada, cierto. Para los reproductores es como si no hubiera
+> ning=FAn problema.
+>
+>> -Desactivar la aceleraci=F3n de v=EDdeo (overlay), tampoco funciona
+>>
+>> As=ED pues, no tenemos nada, porque si en vlc es lo mismo en mi usuario
+>> que en el usuario "prueba", pasar=E1 igual con totem y con mplayer
+>
+> Aunque creas que va a ser lo mismo, compru=E9balo, no te quedes con la du=
+da.
+>
+>> Un saludo y muchas gracias Camale=F3n
+>
+> De nada, a ver si sacamos algo en claro.
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k1qf3l$hd2$2@ger.gmane.org
+>
+
+Hola
+
+Ya hac=EDa tiempo que quer=EDa probar Arch Linux, y estos problemillas me
+han forzado un poco a ello, pero al final me quedo en Debian. Me he
+pasado todo el d=EDa de hoy instalando y probando Arch, pero prefiero
+Debian.
+
+Ahora, con una nueva instalaci=F3n, acabo de poner el kernel 3.2 (lo
+pongo para que me funcione el control de brillo del port=E1til,
+principalmente), y sigue sin funcionar. Se oye pero no se ve, ni en
+totem ni en vlc (mplayer a=FAn no lo he instalado). He intentado
+instalar una versi=F3n nueva de vlc desde los backports, pero me dice:
+"Se han retenido los siguientes paquetes: vlc" y no me deja.
+
+Viendo el panorama, y que de momento Debian es la distro que m=E1s me ha
+gustado, cambiar=E9 la aproximaci=F3n al problema e intentar=E9 solventar e=
+l
+brillo en el 2.6.32.
+
+Un saludo y gracias
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8RA08fxrA7PvpfmTyn6dW02jx08ysJq_VGdR+1HLGyhxA@mail.gmail.com
+

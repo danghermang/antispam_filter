@@ -1,0 +1,56 @@
+Subject:Re: LMDE & Lenovo W530
+On Tue, 20 Nov 2012 12:03:02 +0100
+jerome moliere <jerome.moliere@gmail.com> wrote:
+
+> -  lsmod montre le bon model snd_hda-intel
+> - lspci et pshw montrent le chipset C288 je crois
+
+Le soucis de ce module c'est qu'il accepte un Tgrand nombre d'options
+diverses, servant souvent =C3=A0 diff=C3=A9rencier les CS.
+L=C3=A0, pas vraiment de piste, au mieux google sera ton ami, et au pire
+=C3=A7a sera le listing des options possibles.
+
+> - evidemment jai verifie les settings  du mixer..rien n est en mute 5si le
+> micro mais bon)
+
+C=C3=A9dj=C3=A0=C3=A7a.
+=20
+> autre souci plus chiant :
+> j ai installe les drivers Nvidia nouveau ou proprio et les 2 font la meme
+> chose, cela fonctionne apres l installation mais au boot suivant cela
+> bloque ...
+> donc en gros je compile ou j installe les drivers je fais le nvidia-xconf=
+ig
+> puis restart de mdm c 'est ok et magnifique
+
+Je suppose que c'est mdm le display manager, pas les utilitaires de parallel
+scripting (?) - et =C3=A9tant donn=C3=A9 qu'il est inexistant dans wheezy &=
+ sid, =C3=A7a=20
+n'est pt=C3=AAt pas le meilleur choix du moment.
+
+Avec quel environnement graphique est-il utilis=C3=A9?
+
+> j arrete la machine et je redemarre et la boom ecran noir et pas acces aux
+> consoles pour bidouiller...
+
+M=C3=AAme pas par ssh?
+
+> a priori les logs disent qu il n arrive pas a inserer le module ..mais il=
+ y
+> arrive bien la premiere fois?
+
+Si on voyait ces logs, =C3=A7a aiderait pt=C3=AAt un poil...
+
+--=20
+<Nems> Tu as pr=C3=A9vu de prendre quelle r=C3=A9solution pour 2006 ?
+<Analyzer> 1280*1024 et toi ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121120121817.3e2ded5a@anubis.defcon1
+

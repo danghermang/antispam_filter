@@ -1,0 +1,75 @@
+Subject:Re: [EVDL] Old and new in pack
+Can I use my high current charger until about 80 percent charged and then
+switch to individual chargers for the last 20 percent and avoid
+overcharging and undercharging?
+
+Kiff
+ On Oct 16, 2012 1:25 PM, "Lee Hart" <leeahart@earthlink.net> wrote:
+
+> On 10/16/2012 11:30 AM, Kiff Wilson wrote:
+> > I have been surprised to see my oldest batteries are gassing/bubbling and
+> > not my new ones.  I had previously thought that the newest batteries get
+> > overcharged but apparently not with my marine batteries.  I am using an
+> > elcon pfc-2500 charging the batteries as a pack and not individually.  I
+> > used a stethoscope to listen to the batteries.
+>
+> Most flooded batteries use lead alloyed with trace amounts of antimony.
+> The antimony strengthens the lead, but also increases gassing.
+>
+> As the battery ages, the constant plating and deplating of the lead
+> allows the antimony to migrate to the surface. The higher antimony
+> concentration makes the cell gas more, and start gassing at a lower
+> voltage. If you charge a new and an old battery in series, the old one
+> will start gassing sooner, will gas more, and consequently use more water.
+>
+> The gassing reaction takes current away from the charging reaction.
+> Suppose your battery needs 2 amps of finishing current to reach "full"
+> when new. When it gets old, the same 2 amps just makes it keep gassing
+> forever, and it never does reach "full". So you have to charge it at a
+> higher finishing current, like 3 amps. 1 amp is used up by the gassing,
+> and the other 2 amps actually finishes charging it.
+>
+> The old battery never will come up to quite as high a voltage as the new
+> battery, even when fully charged. 2 amps would get a new battery up to
+> 15v; but 3 or even 4 amps might only get the old one up to 14.6v.
+>
+> Now you can see the problem with charging new and old batteries in
+> series. The charger only knows the total voltage, and doesn't change its
+> finishing current to allow for old batteries. So, it will tend to supply
+> too little finishing current, and charge too long in an attempt to get
+> the total voltage up to 15v per 12v battery (like 14.5v on the old one,
+> and 15.5v on the new one). This undercharges the old battery (not enough
+> current) and overcharges the new battery (too much voltage for too long).
+>
+> To make it work, you need to a) increase the finishing current so the
+> old battery is happy, and b) bypass some of the charging current around
+> the new battery to slow or stop its charging rate so it won't get
+> overcharged.
+> --
+> Results! Why man, I have gotten a lot of results. I know several
+> thousand things that won't work. -- Thomas A. Edison
+> --
+> Lee A. Hart http://www.sunrise-ev.com/LeesEVs leeahart@earthlink.net
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121023/0d7d2f6d/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

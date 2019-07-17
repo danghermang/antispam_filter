@@ -1,0 +1,33 @@
+Subject:Re: Iceweasel et Thunderbird avec deux dictionnaires
+On Fri, 28 Sep 2012 11:35:52 +0200
+maderios <maderios@gmail.com> wrote:
+
+
+> Nuance concernant ma derni=C3=A8re appr=C3=A9ciation concernant claws-mai=
+l:
+> il est tr=C3=A8s bien pour utiliser deux dictionnaires en m=C3=AAme temps,
+> par contre, pour l'imap, ce n'est pas le top. Tr=C3=A8s lent et j'ai un
+> freeze qui dure depuis 5 mn...
+
+Hmm, jamais eu =C3=A7a s/s sid (avec dovecot), tu es s=C3=BBr que tu n'oubl=
+ies
+pas qu'au 1er acc=C3=A8s d'un dossier il t=C3=A9l=C3=A9charge tous ses en-t=
+=C3=AAtes?
+et que tu ne synchronises pas pour le mode hors connexion?
+
+--=20
+<boOly> les 3 phrases les + importantes pour survivre dans le monde du trav=
+ail
+<boOly> 'couvre moi'
+<boOly> 'bonne id=C3=A9e patron'
+<boOly> 'c'=C3=A9tait comme =C3=A7a quand je suis arriv=C3=A9'
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120928120733.39df4d23@anubis.defcon1
+

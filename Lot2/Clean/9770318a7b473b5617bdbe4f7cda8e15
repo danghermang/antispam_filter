@@ -1,0 +1,56 @@
+Subject:Re: faire un diff sur un split avec vim
+Le Mon, 22 Oct 2012 18:42:41 +0200,
+Bernard Schoenacker <bernard.schoenacker@free.fr> a écrit :
+
+> Le Mon, 22 Oct 2012 17:51:46 +0200,
+> Sébastien NOBILI <sebnewsletter@free.fr> a écrit :
+> 
+> > Bonjour,
+> > 
+> > Le lundi 22 octobre 2012 à 17:33, Bernard Schoenacker a écrit :
+> > > 	je rehcherche à l'aide de vim après avoir scindé la
+> > > fenêtre à coupler comme pour un diff ...
+> > 
+> > Si c'est pour faire du diff, VIM le gère tout seul (voir « help
+> > diff »), sinon, le couplage de fenêtres se fait avec l'option
+> > « scrollbind ».
+> > 
+> > Seb
+> > 
+> bonjour,
+> 
+> 	voici comment je fait :
+> 
+> 	-a) j'ouvre le 1° fichier toto.txt
+> 	-b) :vsplit toto-1.txt
+> 	-c) j'essaye de faire un diff par couplage
+> 
+> 		j'ai pris l'option [C (jump to diff )
+> 		j'ai pris l'option :set scrollbind
+> 
+> 	total: ça marche "pô"
+> 
+> 	je joint le vimrc
+> 
+> 	slt
+> 	bernard
+
+ bonjour,
+
+	en forçant :se scb! j'ai le couplage ...
+
+	cqfd
+
+	slt
+	bernard
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121022185014.58997f41.bernard.schoenacker@free.fr
+

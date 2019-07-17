@@ -1,0 +1,51 @@
+Subject:Re: Fwd: Porting Iceweasel 10.0.8 ESR to the Stable Backports.
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Le 16/10/2012 20:30, daniel curtis a écrit :
+> Hi, okay, I get it Alex. You wrote "(...) the package should be in 
+> thesting", but You also have added "(...) some exceptions: Security
+> updates." Updates for Firefox (Iceweasel) which I wrote about, were
+> a security update! So, these updates should not be available as
+> soon as possible in Wheezy or stable-backports?
+> 
+> Why it takes so long? Other distributions update their packages on
+> the same day. I think it is a good practice. Okay, I know, that
+> there is Sid and Experimental, but Squeeze or/and Wheezy also
+> should have patched versions of packages. Especially when it comes
+> to security updates. In this case it is Iceweasel.
+> 
+> Best regards!
+
+Hi,
+
+you get security updates ASAP for official packages in the stable release.
+
+Backports are *not* official packages.
+
+Cheers, Thibaut.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iQIcBAEBCAAGBQJQfbzpAAoJEJOUU0jg3ChAl14P/RB8l6mWzk/+3QKZxphQ9BXf
+RAJmEzI7Qwhf+3VX6Mw81w4EGRDejsPqUAipOXwO29vyimjoHvRQNbwDWBfzBs8D
+sGSbNNL+XoX5jQEeWGn3Kvve2pYxioorEetwpE1/nsLwDoLbgFV3CQJ5VKBGxSIT
+40VC83Vkd5xZ4DhIm2JN9C72U8FSXt8uEXICwUdlzkf2OCx9wjdn3m+G4QKpr1OG
+CJKemB+DQZMXSxJM1gWmKAkIw8iAEmxCn14HEeCjmzatJHR9zsfcECADTs9DuHRj
+xr6+tf6apRzK+Jyj5tzxujHBjyI6++lY2dh6/wiZz/Eu6athto22Zt/G/i1mojiW
++Wntbwf7TPear3gMsMt9VLvTeLQmaesIVewXAqC5p1NAJl8nbGnQOpOP6d3GiE0L
+y/t0KSw4cdJikTJ/ISJ2eht/JKBoInAthOOo684j8PrXZwSEOV5S1hnRfsEaHXvR
+PVgc6IJD6k+13aWAWANefwyj0QDFxb600U2P7dyOsPswlY+8DQVEMyFBNlNGnxJE
+2/x7QqmfRAfKdyQcDcFTNduUXJQV/8B41i6oivvR2uWDxY3qb8R6BjOHIVLMerSL
+DrlEQ6Vvlm+ip8/zje8ql8KvEX3P+17uXGsbGbo+YkIatkyNgDLOr0XZMbzEppYP
+VwKRo4e5CkUrWA/iGZ9b
+=GQl5
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/507DBCF6.6030103@debian.org
+

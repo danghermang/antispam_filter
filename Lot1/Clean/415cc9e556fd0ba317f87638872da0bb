@@ -1,0 +1,74 @@
+Subject:SOLUCIONADO Re: OT numero de ficheros en squid3 en debian estable
+
+El vie, 07-09-2012 a las 13:48 +0000, Camale=C3=B3n escribi=C3=B3:
+> El Fri, 07 Sep 2012 09:23:04 +0200, Trujillo Carmona, Antonio =
+escribi=C3=B3:
+>=20
+> > El jue, 06-09-2012 a las 13:59 +0000, Camale=C3=B3n escribi=C3=B3:
+> >> El Thu, 06 Sep 2012 13:52:39 +0000, Camale=C3=B3n escribi=C3=B3:
+>=20
+> (...)
+>=20
+> >> >> =C2=BFAlguien sabe porque sale 65535 y no 4096 como yo =
+esperaba?
+> >> >=20
+> >> > =C2=BFHas reiniciado el servicio?
+> >>=20
+> >> Y rev=C3=ADsate tambi=C3=A9n este comentario:
+> >>=20
+> >> =
+http://paulgoscicki.com/archives/2007/01/squid-warning-your-cache-is-run=
+ning-out-of-filedescriptors/comment-page-1/#comment-52573
+> >>=20
+>=20
+> >>=20
+> > Ese en concreto no, pero otros an=C3=A1logos si, por eso hice los =
+cambios, lo
+> > que a mi me extra=C3=B1a es que si pongo 4096 (que es lo que ponen =
+en todos
+> > los ejemplos que he visto en internet, por lo que imagino que es un
+> > valor aceptable) en lugar de 4096 sale 65535 cuando en el SO el =
+limite
+> > es 4096 ( ulimit -n da 4096).
+>=20
+> Seg=C3=BAn ese comentario, tienes que modificar el valor de =
+"max_filedescriptors"
+> en el archivo "/etc/squid3/squid.conf" porque lo otro no funciona.
+>=20
+> > Creo (y me da miedo) que es alg=C3=BAn tipo de desbordamiento, de =
+hay la
+> > cifra 65535, lo que puede ser fatal, pues =C2=BFque pasara cuando =
+el squid
+> > quiera manejar mas ficheros de los que el SO pueda?
+>=20
+> A ver... el script de inicio de squid3 establece el valor de ulimit a =
+65535,
+> lo cual no tiene mucho sentido porque entonces =C2=BFde qu=C3=A9 =
+sirve definirlo=20
+> manualmente a trav=C3=A9s de las variables "max_filedescriptors" o =
+"SQUID_MAXFD"?
+>=20
+> No s=C3=A9, algo no me cuadra... revisa la documentaci=C3=B3n del =
+paquete de squid3=20
+> a ver si comentan algo de esto :-?
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+Tenias raz=C3=B3n, no ley bien el articulo y no puse el =
+"max_filedescriptors"
+si no el otro que no funciona.
+Muchas gracias a todos.
+
+--=20
+trujo <antonio.trujillo.sspa@juntadeandalucia.es>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1347360775.5994.5.camel@trujo.hvn.sas.junta-andalucia.es
+

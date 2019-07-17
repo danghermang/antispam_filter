@@ -1,0 +1,191 @@
+Subject:Re: [EVDL] EVLN: Shalvi's Leaf powered frig,
+	good for 3day power outages
+the reporter took 2-2.5hrs video finished about 5pm and got the 2 min segme=
+nt finished for the 7pm local news.
+salient points
+you can use an off the shelf true sine wave Xantrex 2kW tap off the Pos of =
+12v battery and if the 23Kwh pack is full he could run a fridge (and occasi=
+onal coffee maker) for about 3.5 days, the disconnect, charge up at any of =
+the 139 functioning L2 chargers and get 3.5 more days. =
+
+Doron did lose power and he did use a very simple setup to keep the fridge =
+going.
+right now NPR Morning edition is doing a piece on gasoline scarcity and the=
+ figure $25/gallon was used or whatever it costs to get even a tiny amount.
+you can get one of those inverters from truck stops BTW
+Another of the members of EVADC has a converted Prius with 76 100amp Li bat=
+teries
+(appx 24kWh capacity) and another simple setup that uses a 1.5kW inverter t=
+apping off the 12v battery that is back in the rear right side and was used=
+ in an earlier blackout this year
+=A0
+Scott Wilson will give a live demonstration at our next EVA/DC meeting on 1=
+1/21, 7 pm, at the Silver Spring Library, brewing a pot of coffee with his =
+Leaf
+I hope the graphic comes thru
+=A0
+=A0
+
+--- On Fri, 11/2/12, Bruce EVangel Parmenter <brucedp5@operamail.com> wrote:
+
+
+From: Bruce EVangel Parmenter <brucedp5@operamail.com>
+Subject: Re: [EVDL] EVLN: Shalvi's Leaf powered frig, good for 3day power o=
+utages
+To: ev@lists.sjsu.edu
+Date: Friday, November 2, 2012, 2:17 AM
+
+
+[ref
+http://electric-vehicle-discussion-list.413529.n4.nabble.com/EVLN-Shalvi-s-=
+Leaf-powered-frig-good-for-3day-power-outages-tp4659062.html
+]
+
+
+The piece's video mentioned not to try it with an ice mainly because of
+the exhaust fumes in an enclosed garage.
+
+But even if the ice was outside & the cord was run into the home, with
+the ice at a fast idle, is the ice alternator designed to put out enough
+current to maintain the starter battery?
+
+Or would the starter battery be quickly drained down to where there was
+too much 12V current load on the ice alternator which would result in
+burning out either the alternator or any circuitry controlling the
+output current?
+
+Ignoring inefficiencies, a 7A load at 120VAC would be a 70A load at 12V.
+Am I wrong in assuming most ice do not put out 70A at 12V continuously?
+
+In the video it showed his power meter reading 1.2 . If that was the Amp
+load, that seemed way too low to power a household frig. I would think
+the man's frig might have a start up current of 7A and a continuous
+compressor running load of 5A at 120VAC. If that is more realistic, then
+that 5A would translate to 50A at 12A, and perhaps when generalizing on
+the inefficiencies, more like 70A at 12V being demanded from the ice
+alternator to run that frig continuously.
+
+Looking at the video and the size and type of frig, anyone have some
+more accurate/better numbers than mine?
+
+...
+I posted about doing something similar to this in the past, but it can
+not be found in the archives (so much of my previous work since the
+1990's is gone). So, off the top of my head:
+
+When I was an hp CE and maintained the computer equipment for all three
+buildings at the Sunnyvale hp site with my coworker CE, we had some
+interesting situations that regularly occurred.
+
+The site was leased so hp did not rip out and correct the site's
+problems like they would if they owned it. The site electricians told me
+the reason the power would randomly go out on any one or all of the
+buildings at anytime was because the site owner went cheap and used
+aluminum power cabling. These changed with time and temperature, so the
+electricians had to regularly re-seat those power lines coming from the
+three phase high voltage transformers. It wasn't a utility issue, it was
+at the power junction in the building going out to all the buildings' AC
+loads.
+
+Bottom line: the power could go out just when you did not want it to,
+which not only caused a lot of grief (loss of your work), but it made my
+fellow CE and I scramble to shutdown the mainframes properly and turn
+off all equipment on all floors of each affected building so ringing
+power spikes did not kill the equipment when the power did come back on.
+
+The other issue was the network. This was a time when there were
+whispers of an Internet, but companies had their own networks that one
+had to navigate, gateway-ing from one to another to get connected to
+your "Intranet". This was also about the time when Ethernet (RJ45) was
+being whispered to take over for the ThinLAN (10base2) that we were
+using way back then.
+
+Bottom line: sometimes you could not connect to the computer you wanted
+if one computer along the chain you gateway'd through was
+blocked/off/disabled. This usually happened when there was a power
+outage (it took time to get all the computers back up and sometimes the
+IT-people took the opportunity to do some other 'work' that kept it down
+longer.). Interestingly, the site's telephones never went down during
+these times.
+
+So, to complete ye-ol' paperwork of all my daily repair calls, it could
+be tough. That is why I rigged a modem so I could dial up straight to
+the main computer where the dumb-terminal work was entered on (those
+were pre-PC days). We got the hand me down/left-over equipment, so I was
+quite happy when I got to upgrade to a 9600 baud modem (oooh so much
+faster than 2400).
+
+
+OK, so one afternoon all heck broke loose. My fellow CE and I had done
+our bit, and now we could do nothing until the power was back on and
+then wait again until all the needed computers were back up. He had
+already called the boss and his wife telling them that we (he and I)
+would be working late again to enter in all the onscreen paperwork when
+all was back up. He, as usual when this happened, then took off to
+wander around chatting away to kill time.
+
+I however was prepared. With my S-10 Blazer conversion EV just outside
+the shop's door, with my DC2DC on, I hooked up a 12VDC to 120VAC
+inverter on my 12V Aux battery and plugged in a couple of my long 12-3
+extension cords running them under the closed exit door and to my bench.
+I powered up the dumb-terminal and the modem, then dialed in. Voil=E0! My
+main pack kept my 12V Aux battery charged, which fed the inverter, which
+powered the 120VAC load.
+
+When my fellow CE came back, he saw what I had done (looking at the 12-3
+cord running from my area to the door) and was a bit ticked that I had
+completed my hour's worth of daily onscreen entry paperwork, and that I
+was going to leave on-time (5pm). This just put another notch on his "I
+do not like Bruce's EV" stick, because I was more imaginative and
+proactive than he was (his ego got bruised, ... again).
+
+
+{brucedp.150m.com}
+...
+http://en.wikipedia.org/wiki/Customer_engineer
+...
+http://en.wikipedia.org/wiki/Intranet
+...
+http://en.wikipedia.org/wiki/10BASE2
+
+http://en.wikipedia.org/wiki/Ethernet_over_twisted_pair
+
+
+
+
+-
+On Thu, Nov 1, 2012, at 07:34 PM, Al wrote:
+> Unfortunately one could do the same thing with an ICE since all he did is =
+
+> run an inverter off his 12v house battery.
+> The ICE would be left idling which would be very "dirty".
+-
+
+-- =
+
+http://www.fastmail.fm - Does exactly what it says on the tin
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.=A0 Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121102/2816c475=
+/attachment.html =
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

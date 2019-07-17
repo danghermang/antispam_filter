@@ -1,0 +1,43 @@
+Subject:Re: Squid 2.7 o Squid3 con SSL
+On 17/10/12 20:50, cosme@esid.gecgr.co.cu wrote:
+> Como es posible compilar SSL con squid o squid3
+>
+> ya prob=E9 con los 2
+>
+> apt-get install squid  o   apt-get install squid3
+>
+> y necesito que los https puedan ser accedidos
+>
+> Hay que generar unos certificados y otras cosas pero como lo hago???
+>
+> uso debian squeeze
+>
+> Salu2
+>
+>
+>
+>
+>
+>
+>
+Hola, ya te respondimos en un hilo anterior, evita abrir un hilo  nuevo=20
+para el mismo tema, va en contra de las reglas de la lista. Como ya se=20
+te dijo tienes dos opciones, o configura el proxy a mano en los=20
+navegadores y as=ED todas las conexiones (ssl o no) podr=E1n salir por=20
+Squid. La otra opci=F3n es usar Squid en modo proxy transparente para no=20
+tener que configurar a mano los navegadores, en ese caso se recomienda=20
+natear el puerto 443 a una ip p=FAblica ya que Squid por defecto no=20
+soporta las conexiones SSL en modo transparente, s=ED hay una forma de=20
+hacerlo pero no es recomendable, roza en lo ilegal y puede hacer que tu=20
+servidor act=FAe como una especie de atacante para la conexi=F3n del=20
+usuario, no te lo aconsejo, pero si lo quieres hacer de todas formas=20
+tienes el link en el hilo anterior.
+
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/507FF3F3.2040701@uncu.edu.ar
+

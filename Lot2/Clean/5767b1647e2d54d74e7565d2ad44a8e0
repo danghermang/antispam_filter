@@ -1,0 +1,24 @@
+Subject:Re: clavier azerty en tty
+Le 09/10/2012 17:05, Bernard Schoenacker a écrit :
+> bonjour,
+>
+> 	j'emploie kbd et je n'arrive pas à trouver ceci "!" en TTY
+> 	j'ai cela à la place =
+>
+
+dpkg-reconfigure console-data
+
+Peut-être aussi :
+dpkg-reconfigure keyboard-configuration
+-- 
+François
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k53fi0$9fe$1@ger.gmane.org
+

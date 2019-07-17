@@ -1,0 +1,517 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<highfield1@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <sally@friendsreunited.co.uk>
+Received: (qmail 24112 invoked by uid 89); 10 Dec 2012 11:50:08 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 10 Dec 2012 11:50:08 -0000
+Delivery-date: Mon, 10 Dec 2012 03:48:29 -0800
+Received: from mail6.friendsreunited.co.uk ([194.247.74.26]) helo=mail6.friendsreunited.co.uk
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1Ti1qN-0000G9-E6 on interface=184.105.182.43
+	for highfield1@activ8.net.au; Mon, 10 Dec 2012 03:48:27 -0800
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+  s=s1024;d=friendsreunited.co.uk;
+  h=from:to:subject:date:mime-version:content-type:message-id;
+  bh=qWT1NAaDflQXD5nfD0X07OedUxI=;
+  b=abvxcbzg8NOZ3Chedfof+dURgrhIXePIZ75RvJvL+RGyYoLvFVueGaqM8Htjn1gjpeUG5CDY
+    /mGeOrqVn0wHtOFo10W6HaUl+lxvapuuDCLdfAG8de9nf/55VsGy2joWJ1VdtsZKJ1vAuudY
+    CAer5gp3HZCZogJ3vsYTS+mWojk=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=s1024;d=friendsreunited.co.uk;
+  h=from:to:subject:date:mime-version:content-type:message-id;
+  b=U1WLew7JVNCmUJ1CVhvMQx/b4gtkIDE6Nd2Ntk33bDiGhN4RIrsKePojWe1stZi8Adynzscu
+    fD/GXA01KTnlE+yGzl5pGJTI+VcpBxVdTHSQbPkCs+y86MI3r1ZocGVvyBczttpyMbGl6J4h
+    9b6aZ2pr2BY1atYicrjdo4rmaes=
+Received: from mail pickup service by mail6.friendsreunited.co.uk with Microsoft SMTPSVC;
+	 Mon, 10 Dec 2012 11:48:10 +0000
+From:  Friends Reunited <sally@friendsreunited.co.uk>
+To: "Jane MacRoss" <highfield1@activ8.net.au>
+Subject: This Month: Amazing Christmas nostalgia, a royal baby special and Del Boy at the bar!
+Date: Mon, 10 Dec 2012 11:48:09 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_39577635"
+Message-ID: <FRG-DUN-MAIL6gEktFO00242404@mail6.friendsreunited.co.uk>
+X-OriginalArrivalTime: 10 Dec 2012 11:48:10.0600 (UTC) FILETIME=[3A748680:01CDD6CC]
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: sally@friendsreunited.co.uk
+X-Relay-Countries: gb
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd3.ctyme.com
+ Spam Tests:
+ * -0.7 RCVD_IN_DNSWL_LOW RBL: Sender listed at http://www.dnswl.org/, low
+ *      trust
+ *      [194.247.74.26 listed in list.dnswl.org]
+ *  -15 USER_IN_DEF_WHITELIST From: address is in the default white-list
+ * -0.0 RP_MATCHES_RCVD Envelope sender domain matches handover relay domain
+ * -3.0 RCVD_IN_RP_CERTIFIED RBL: Sender in ReturnPath Certified - Contact
+ *      cert-sa@returnpath.net
+ *      [Return Path SenderScore Certified {formerly]
+ [Bonded Sender} - <http://www.senderscorecertified.com>]
+ * -2.0 RCVD_IN_RP_SAFE RBL: Sender in ReturnPath Safe - Contact
+ *      safe-sa@returnpath.net
+ *      [Return Path SenderScore Safe List (formerly]
+ [Habeas Safelist) - <http://www.senderscorecertified.com>]
+ *  2.0 CT_WIN BODY: Who really wins?
+ * -4.0 BAYES_00 BODY: Bayes spam probability is 0 to 1%
+ *      [score: 0.0000]
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ *  0.0 MISSING_MIME_HB_SEP BODY: Missing blank line between MIME header and
+ *       body
+ * -0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from author's
+ *       domain
+ * -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+ *  0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily
+ *      valid
+X-Sender-host-domain: friendsreunited.co.uk
+X-Spam-Class: HAM-VERY
+X-Sender-Host-Address: 194.247.74.26
+X-Sender-Host-Name: mail6.friendsreunited.co.uk
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_39577635
+Content-Type: text/plain;
+charset = "iso-8859-1"
+ 	
+"We have become a grandmother." Who said that? 	
+
+It's Toy Heaven!
+Which of these did you get for Christmas?
+View http://www.friendsreunited.co.uk/a-century-of-christmas-toys/b/a60743d8-cda1-4c45-8a91-9ff100ea06b4
+	  	
+Only Fools & Horses
+Relive their crime–fighting Christmas Day special!
+Watch http://www.friendsreunited.co.uk/only-fools-horses/Memory/12c72d2a-1988-4a11-a862-a11f00b5f56e
+	  	
+It's Tracey Island!
+Remember this one that Blue Peter made earlier?
+Watch http://www.friendsreunited.co.uk/blue-peter-s-tracey-island/Memory/8ea9ee4f-e748-41ce-a02f-a0fc00b7f23e
+
+Hi,
+
+What an action-packed run-up to Christmas it's been. There's been the Leveson Enquiry, the Chancellor's autumn statement and... oh, who are we kidding?! There's been snow on the ground, festive shopping trips a–plenty and news of a royal baby on the way – and we're not even midway through December yet!
+
+How will you be spending the festive period this year? What are your favourite memories of the season to be jolly? We think you'll find a few reminders of what made your Christmases great right here, and we'd love you to add some of your own to the ones already there.
+And now... on with the show!
+
+Features this week...
+
+Christmas Is Coming!
+Ho ho ho! The big day is almost here, and we've got Christmas all wrapped up with more festive treats than you can deck the halls with, from the craziest winter woollies we once wore to the tree–mendous seasonal sing-a-longs of yesteryear. And what used to be more fun than a jolly good knees up at the office Christmas party? Nothing.. that's what!
+
+But let's not forget that 'tis also the season to spend time with loved ones, eagerly awaiting Santa's arrival and putting on our glitziest gladrags to celebrate in style! 		
+http://www.friendsreunited.co.uk/it-s-all-about-christmas/b/be54c573-a881-4b43-a804-a119010c4bee
+
+Royal Baby Special
+We're royally excited for Kate and William after the announcement that they're expecting their first baby and so, in celebration, we've put together our very own bundle of joy for you to go gaga over! From famous celebrity babies to 10–stone tots from the 1930s! Plus a reminder of how Prince William looked as a child (including a box of teenage Princess Diana pics too!).
+
+Finally – why not add your own family favourites to this box? We'd love to see all your cute baby pictures too!
+http://www.friendsreunited.co.uk/it-s-all-about-babies/b/9ddc297a-d639-4651-8925-a11d00c79b56
+
+	
+Rolling Stones competition
+http://www.friendsreunited.co.uk/rolling-stones-competition-win-tickets-to-festival-number-6-photo-pit-passes/b/a28813c5-6911-4858-bf9f-a10200f21ff0
+We are celebrating the Rolling Stones' 50th Anniversary by offering one lucky person the chance to win two exclusive 'Photographer Pit Passes' to Festival Number 6 in 2013.
+
+To enter our competition, simply add your own photos of the Rolling Stones, along with your Rolling Stones stories to our dedicated memory box. Full competition details can be found on our blog. 	
+
+From the archives
+
+• Macauley Culkin films amazing behind the scenes footage of 1990’s hit Chrismassy film, Home Alone!
+
+• He's behind you! It's Frank Bruno, driving Sooty's car. Wait... What?!
+
+• Johnny Cash knew what you wanted for Christmas in 1975...
+
+• Christmas is a time for family. Why not connect with them, past and present, on Genes Reunited. Click here to start creating your family tree!
+
+• Was your snowman as good as Pat Dennison's brilliant Mr Frosty? Then why not add your pictures to the box?
+
+• And finally... a video.. of an office Christmas party in 1974!
+
+That's almost it for this newsletter. But, before we go, we're going to leave you on a very merry note with these two Christmas conundrums:
+
+Firstly: it may have been Christmas but, seriously, what was he thinking when he put this jumper on? add your caption to the picture!
+
+And secondly: can you spot what's wrong with this 1972 clip of The Flintstones celebrating Christmas? leave your answer as a comment on the video!
+
+Merry Christmas everyone, have fun looking back!
+
+From a 1992 Christmas Cracker:
+Q: What is Santa's favourite pizza? A: One that's deep pan, crisp and even...
+
+The Team at Friends Reunited 	Follow our blog
+
+Renee & Renato
+Could this be the worst Christmas Number 1, ever?
+Watch http://www.friendsreunited.co.uk/save-your-love-by-renee-and-renato/Memory/cf7c1f05-9c53-40de-b81d-a11c00edb800
+	  	
+Holidays Are Coming!
+Coca Cola's 1957 Christmas ad is the business
+Watch http://www.friendsreunited.co.uk/coca-cola-1957/Memory/1a21b493-3d43-4564-b444-a11e00c4ea7f
+	  	
+Little Donkey...
+Your hilarious school nativity pictures!
+View http://www.friendsreunited.co.uk/a-real-donkey/Memory/88e89c61-e69e-4e2b-9791-a10a01158f29
+	 
+ 
+
+To ensure our emails get to your inbox, please add us to your email address book or safe list.
+To unsubscribe from this nostalgia newsletter, click on the direct link below or visit your Account to manage all of your email preferences.  
+
+
+_________________________________________________
+This email has been sent by brightsolid online publishing limited. Registered in England, company no: 4369607. Registered office: The Glebe, 6 Chapel Place, Rivington Street, London, EC2A 3DQ.
+
+
+FBL-MessageId:2.105301.710483531
+
+------=_NextPart_39577635
+Content-Type: text/html;
+	Charset="iso-8859-1"
+
+<html><body><table width="100%" cellspacing="0" cellpadding="0" bgcolor="#ececec" style="font-family: Arial, Helvetica, sans-serif; color:#464646; font-size:15px; text-align:left; line-height:18px;">
+    <tr>
+		<td width="640">
+			<center>
+				<table width="640" style="font-family: Arial, Helvetica, sans-serif; color:#464646; background:#ececec; font-size:15px; text-align:left; border-collapse:collapse;  margin:0 auto; line-height:18px;">
+					<tr><td bgcolor="#ececec" colspan="4" height="5" style="line-height:5px;">&nbsp;</td></tr>
+					<tr>
+						<td width="20">&nbsp;</td>
+						<td width="600" valign="top">
+							<table width="600" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica, sans-serif; color:#333333; font-size:13px; text-align:left;">
+                                <tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr>	
+									<td width="10"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="10" height="1" align="absmiddle" border="0"/></td>
+									<td colspan="2" bgcolor="#ffffff">
+										<table width="600" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica; color:#333333; font-size:13px; text-align:left; line-height:25px;">
+                                        	<tr>	
+                                            	<td width="420" valign="middle"><span style="font-size:17px;">&quot;We have become a grandmother.&quot;</span><br/><a href='http://www.friendsreunited.co.uk/queen-of-the-royal-we-margaret-thatcher/Memory/ab41d029-4f32-43d1-91d3-a05f00fec83e?rf=22369.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >Who said that?!</a>   
+                                                </td>
+                                                <td width="180" align="right" valign="top"><a href='http://www.friendsreunited.co.uk/Newsfeed?rf=22371.105301&cmk=710483531'  ><img src='http://www.friendsreunited.co.uk/Account/blank?rd=http://www.friendsreunited.co.uk/email/images/newsfeed/logoOnWhite2.jpg&rf=22370.105301&cmk=710483531'  alt='Friends Reunited' style='outline:0;' width='179' height='62' align='absmiddle' border='0' /></a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+									<td width="10"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="10" height="1" align="absmiddle" border="0"/></td>
+								</tr>
+                                <tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>                           
+                                <tr><td bgcolor="#ececec" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr> 
+								
+                                <tr>	
+									<td width="10">&nbsp;</td>
+									<td colspan="2" bgcolor="#ffffff">
+										<table width="600" bgcolor="#ffb033" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica; color:#ffffff; font-size:18px; text-align:left; line-height:25px;">
+                                        	<tr>
+                                            	<td width="10"></td>
+                                            	<td>Best of the week:</td>
+                                            </tr>
+                                        </table>
+                                        
+                                         <table width="600" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica, sans-serif; color:#464646; background:#ffffff; font-size:13px; text-align:left; border-collapse:collapse;  margin:0 auto; line-height:18px;">
+											<tr><td colspan="5" height="5"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="5" height="1" align="absmiddle" border="0"/></td></tr>
+											<tr>
+                                                 <td align="center" valign="middle" width="185" height="175"><a href='http://www.friendsreunited.co.uk/a-century-of-christmas-toys/b/a60743d8-cda1-4c45-8a91-9ff100ea06b4?cs=40&rf=22372.105301&cmk=710483531'  ><img src="http://www.friendsreunited.co.uk/email/images/105300/christmasPresents.jpg" width="180" height="162" align="absmiddle" border="0" alt="Toy Heaven"/></a></td>
+												<td width="20">&nbsp;</td>
+                                                <td align="center" valign="middle" width="185" height="175"><a href='http://www.friendsreunited.co.uk/only-fools-horses/Memory/12c72d2a-1988-4a11-a862-a11f00b5f56e?rf=22373.105301&cmk=710483531'  ><img src="http://www.friendsreunited.co.uk/email/images/105300/onlyFools.jpg" width="180" height="162" align="absmiddle" border="0" alt="Only Fools and Horses"/></a></td>
+                                                <td width="20">&nbsp;</td>
+												<td align="center" valign="middle" width="185" height="175"><a href='http://www.friendsreunited.co.uk/blue-peter-s-tracey-island/Memory/8ea9ee4f-e748-41ce-a02f-a0fc00b7f23e?rf=22374.105301&cmk=710483531'  ><img src="http://www.friendsreunited.co.uk/email/images/105300/tracyIsland.jpg" width="180" height="162" align="absmiddle" border="0" alt="Tracey Island"/></a></td>
+											</tr>
+											<tr>
+												<td align="left" width="170" valign="top"><a href='http://www.friendsreunited.co.uk/a-century-of-christmas-toys/b/a60743d8-cda1-4c45-8a91-9ff100ea06b4?cs=40&rf=22375.105301&cmk=710483531'  style='color:#08afda; text-decoration:none; font-size:14px;' >It's Toy Heaven!</a><br/>Which of these did you get for Christmas?<br/>
+                                    <table cellpadding="5" cellspacing="0" bgcolor="#08afda" style="font-family: Arial, Helvetica, sans-serif; color:#464646; font-size:15px; text-align:left; border-collapse:collapse; border-radius:15px; line-height:14px; margin-top:5px;"><tr><td bgcolor="#08afda" style="border-radius:15px; padding-right:10px; padding-left:10px"><a href='http://www.friendsreunited.co.uk/a-century-of-christmas-toys/b/a60743d8-cda1-4c45-8a91-9ff100ea06b4?cs=40&rf=22376.105301&cmk=710483531'  style='color:#ffffff; text-decoration:none; margin-top: 3px;' >View</a></td></tr></table></td>
+												<td width="30">&nbsp;</td>
+                                                <td align="left" width="170" valign="top"><a href='http://www.friendsreunited.co.uk/only-fools-horses/Memory/12c72d2a-1988-4a11-a862-a11f00b5f56e?rf=22377.105301&cmk=710483531'  style='color:#08afda; text-decoration:none; font-size:14px;' >Only Fools &amp; Horses</a><br/>Remember the bar scene from New Year 1989?<br/>
+                                    <table cellpadding="5" cellspacing="0" bgcolor="#08afda" style="font-family: Arial, Helvetica, sans-serif; color:#464646; font-size:15px; text-align:left; border-collapse:collapse; border-radius:15px; line-height:14px; margin-top:5px;"><tr><td bgcolor="#08afda" style="border-radius:15px; padding-right:10px; padding-left:10px"><a href='http://www.friendsreunited.co.uk/only-fools-horses/Memory/12c72d2a-1988-4a11-a862-a11f00b5f56e?rf=22378.105301&cmk=710483531'  style='color:#ffffff; text-decoration:none; margin-top: 3px;' >Watch</a></td></tr></table></td>
+                                                        <td width="30">&nbsp;</td>
+												<td align="left" width="170" valign="top"><a href='http://www.friendsreunited.co.uk/blue-peter-s-tracey-island/Memory/8ea9ee4f-e748-41ce-a02f-a0fc00b7f23e?rf=22379.105301&cmk=710483531'  style='color:#08afda; text-decoration:none; font-size:14px;' >It's Tracey Island!</a><br/>
+                                    Remember this one that Blue Peter made earlier?<br/><table cellpadding="5" cellspacing="0" bgcolor="#08afda" style="font-family: Arial, Helvetica, sans-serif; color:#464646; font-size:15px; text-align:left; border-collapse:collapse; border-radius:15px; line-height:14px; margin-top:5px;"><tr><td bgcolor="#08afda" style="border-radius:15px; padding-right:10px; padding-left:10px"><a href='http://www.friendsreunited.co.uk/blue-peter-s-tracey-island/Memory/8ea9ee4f-e748-41ce-a02f-a0fc00b7f23e?rf=22380.105301&cmk=710483531'  style='color:#ffffff; text-decoration:none; margin-top: 3px;' >Watch</a></td></tr></table></td>
+											</tr>
+										</table>	   
+									</td>
+									<td width="10">&nbsp;</td>
+								</tr>   
+                               
+                                <tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+								<tr><td bgcolor="#ececec" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr>	
+									<td width="10">&nbsp;</td>
+									<td colspan="2" bgcolor="#ffffff">
+                                        <table width="600" style="font-family: Arial, Helvetica, sans-serif; color:#464646; background:#ffffff; font-size:13px; text-align:left; border-collapse:collapse;  margin:0 auto; line-height:18px;">
+                                            <tr>
+                                                <td valign="top"> 
+                                                <td><span style="font-size:15px; font-weight:bold;">Hi Jane</span>, <br/><br/>
+                                                What an action-packed run-up to Christmas it's been. There's been <a href='http://www.friendsreunited.co.uk/snow-days-and-sledging/b/00e1bf11-e937-449e-8ed4-a00a00d82e2d?rf=22381.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >snow on the ground</a>, <a href='http://www.friendsreunited.co.uk/london-markets-petticoat-lane-1954/Memory/1c11d305-655a-42f9-9a29-a00c009265e3?rf=22382.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >festive shopping trips</a> a&ndash;plenty and news of <a href='http://www.friendsreunited.co.uk/diana-charles-baby-wills/Memory/85ed333e-61fa-4533-8047-a07700df8648?rf=22383.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >a royal baby</a> on the way &ndash; and we're not even midway through December yet!
+                                                <br/><br/>
+                                                How will you be spending the festive period this year? What are your favourite memories of the season to be jolly? We think you'll find a few reminders of what made your Christmases great <a href='http://www.friendsreunited.co.uk/it-s-all-about-christmas/b/be54c573-a881-4b43-a804-a119010c4bee?cs=40&rf=22384.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >right here</a>, and we'd love you to add some of your own to the ones already there.
+                                                <br/><br/>
+                                                <strong>And now... on with the show!</strong>
+                                                <br/>
+            
+                                              </td>
+                                            </tr>
+                                        </table>
+									</td>
+									<td width="10">&nbsp;</td>
+								</tr>
+								<tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr><td bgcolor="#ececec" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                               
+                                <tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr>	
+									<td width="10">&nbsp;</td>
+									<td colspan="2" bgcolor="#ffffff">
+                                        <table width="600" style="font-family: Arial, Helvetica, sans-serif; color:#464646; background:#ffffff; font-size:13px; text-align:left; border-collapse:collapse;  margin:0 auto; line-height:18px;">
+                                            <tr>
+                                                <td width="280" align="left"><a href='http://www.friendsreunited.co.uk/it-s-all-about-christmas/b/be54c573-a881-4b43-a804-a119010c4bee?cs=40&rf=22385.105301&cmk=710483531'  ><img src="http://www.friendsreunited.co.uk/email/images/105300/christmasFeatureLarge.jpg" width="267" height="292" align="absmiddle" border="0" alt="Merry Christmas"/></a></td>
+                                                <td width="320" valign="top">
+                                                    <table width="300" bgcolor="#ffb033" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica; color:#ffffff; font-size:18px; text-align:left; line-height:25px;">
+                                                        <tr>
+                                                            <td width="10">&nbsp;</td>
+                                                            <td width="300">Feature:</td>
+                                                        </tr>
+                                                        <tr><td colspan="2" bgcolor="#ffffff" style="line-height:5px;" height="5"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="300" height="10" align="absmiddle" border="0"/></td></tr>
+                                                    </table><a href='http://www.friendsreunited.co.uk/it-s-all-about-christmas/b/be54c573-a881-4b43-a804-a119010c4bee?cs=40&rf=22386.105301&cmk=710483531'  style='color:#08afda; text-decoration:none; font-size:16px;' >Christmas Is Coming!</a><br/><br/>
+                                                    
+                                                            Ho ho ho! The big day is almost here, and we've got Christmas all wrapped up with more festive treats than you can deck the halls with, from the <a href='http://www.friendsreunited.co.uk/pooping-reindeer-sweater/Memory/b401c3aa-0afb-48c7-88b8-a11900f888ec?rf=22387.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >craziest winter woollies</a> we once wore to the <a href='http://www.friendsreunited.co.uk/christmas-trees/b/8f81508d-4684-45a0-90da-a10700c5c0ee?rf=22388.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >tree&ndash;mendous</a><a href='http://www.friendsreunited.co.uk/all-i-want-for-christmas-is-my-two-front-teeth-by-spike-jones/Memory/715fdddc-1b87-4dc6-be4c-a1170106e0a7?rf=22389.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >seasonal sing-a-longs of yesteryear</a>. And what used to be more fun than a jolly good knees up at <a href='http://www.frie
+ ndsreunited.co.uk/lambeth-office-brixton/Memory/e063f73a-e7d3-4e87-99a8-a11900bfd322?rf=22390.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >the office Christmas party</a>? Nothing.. that's what!
+<br/><br/>
+But let's not forget that 'tis also the season to spend time with loved ones, <a href='http://www.friendsreunited.co.uk/scary-santa/Memory/5db3edae-f5cc-46e7-aea8-a119010a0de9?rf=22391.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >eagerly awaiting Santa's arrival</a> and putting on our <a href='http://www.friendsreunited.co.uk/love-that-tie/Memory/df821ee4-031d-4a09-bcac-a11900f2a36b?rf=22392.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >glitziest gladrags</a> to celebrate in style!
+                                              </td>
+                                            </tr>
+                                        </table>
+									</td>
+									<td width="10">&nbsp;</td>
+								</tr>
+								<tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                               
+                                 <tr><td bgcolor="#ececec" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr>	
+									<td width="10">&nbsp;</td>
+									<td colspan="2" bgcolor="#ffffff">
+                                        <table width="600" style="font-family: Arial, Helvetica, sans-serif; color:#464646; background:#ffffff; font-size:13px; text-align:left; border-collapse:collapse;  margin:0 auto; line-height:18px;" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td valign="top">
+                                                <table width="285" style="font-family: Arial, Helvetica, sans-serif; color:#464646; background:#ffffff; font-size:13px; text-align:left; border-collapse:collapse;  margin:0 auto; line-height:18px;" cellpadding="0" cellspacing="0">
+                                                    <tr><td height="10" bgcolor="#ffffff"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="10" height="1" align="absmiddle" border="0"/></td></tr>
+                                                    <tr>
+                                                        <td width="275" align="left" valign="top">
+                                                        	
+                                                            <table width="275" bgcolor="#ffb033" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica; color:#ffffff; font-size:18px; text-align:left; line-height:25px;">
+                                                                <tr>
+                                                                    <td width="10">&nbsp;</td>
+                                                                    <td width="265">From The Archives</td>
+                                                                </tr>
+                                                                <tr><td colspan="2" bgcolor="#ffffff" style="line-height:5px;" width="275" height="5"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="275" height="10" align="absmiddle" border="0"/></td></tr>
+                                                            </table>
+                                                            
+                                                        	Look what we've unearthed this month!<br/><br/>
+
+                                                            
+                                 	&bull; <a href='http://www.friendsreunited.co.uk/behind-the-scenes-on-home-alone/Memory/c6df57d3-683f-46f1-81c3-a11f00f017ce?rf=22427.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >Macaulay Culkin films amazing behind the scenes footage</a> of 1990's hit Chrismassy film, Home Alone!   
+                                                         <br/><br/>    
+                                    &bull; He's behind you! It's <a href='http://www.friendsreunited.co.uk/aladdin-pantomime-at-the-dominion-theatre/Memory/abdaa422-5daf-4f8e-8a39-a00a004d53d3?rf=22394.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >Frank Bruno, driving Sooty's car</a>. Wait... What?!
+                                   <br/><br/>
+                                    &bull; <a href='http://www.friendsreunited.co.uk/johnny-cash-lionel-trains-advert/Memory/00579655-9696-4ae9-a90f-a11e00d946f0?rf=22395.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >Johnny Cash</a> knew what you wanted for Christmas in 1975...
+                                  <br/><br/>
+                                    &bull; Christmas is a time for family. Why not connect with them, past and present, on Genes Reunited. <a href='http://www.friendsreunited.co.uk/Account/blank?rd=http://www.genesreunited.co.uk/&rf=22396.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >Click here to start creating your family tree! </a>
+                                     <br/><br/>                                  
+                                    &bull; Was your snowman as good as <a href='http://www.friendsreunited.co.uk/sutton-cofe-snowman/Memory/df235e71-2065-4707-9078-a11800a44eb2?rf=22397.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >Pat Dennison's brilliant Mr Frosty</a>? Then why not add your pictures to the box?
+                                      <br/><br/>                  
+                                    &bull; And finally... a video.. of an office <a href='http://www.friendsreunited.co.uk/office-christmas-party-1974/Memory/ecb87c4c-dad0-46f5-b883-a11c0105d985?rf=22398.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >Christmas party in 1974!</a>
+                                                
+                                                        </td>
+                                                        <td width="10"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="10" height="1" align="absmiddle" border="0"/></td>
+                                                    </tr>
+                                                    <tr><td height="10" bgcolor="#ffffff"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="10" height="1" align="absmiddle" border="0"/></td></tr>
+                                        		</table></td>
+                                                <td width="10" bgcolor="#ececec"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="10" height="1" align="absmiddle" border="0"/></td>
+                                                <td valign="top"><table width="285" style="font-family: Arial, Helvetica, sans-serif; color:#464646; background:#ffffff; font-size:13px; text-align:left; border-collapse:collapse;  margin:0 auto; line-height:18px;" cellpadding="0" cellspacing="0">
+                                                    <tr><td height="10" bgcolor="#ffffff"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="10" height="1" align="absmiddle" border="0"/></td></tr>
+                                                    <tr>
+                                                    	<td width="10"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="10" height="1" align="absmiddle" border="0"/></td>
+                                                        <td width="275" align="left" valign="top">
+                                                        	<table width="275" bgcolor="#ffb033" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica; color:#ffffff; font-size:18px; text-align:left; line-height:25px;">
+                                                                <tr>
+                                                                    <td width="10">&nbsp;</td>
+                                                                    <td width="265">Rolling Stones competition</td>
+                                                                </tr>
+                                                                <tr><td colspan="2" bgcolor="#ffffff" style="line-height:5px;" width="275" height="5"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="275" height="10" align="absmiddle" border="0"/></td></tr>
+                                                            </table>
+                                                        	<center><a href='http://www.friendsreunited.co.uk/rolling-stones-competition-win-tickets-to-festival-number-6-photo-pit-passes/b/a28813c5-6911-4858-bf9f-a10200f21ff0?rf=22399.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' ><img src="http://www.friendsreunited.co.uk/email/images/105300/rollingStones.jpg" width="275" height="205" align="absmiddle" border="0" alt="Rolling Stones"/></a></center><br/>
+                                      
+We are celebrating the Rolling Stones' 50th Anniversary by offering one lucky person the chance to win two exclusive 'Photographer Pit Passes' to Festival Number 6 in 2013. 
+<br/>
+<br/>
+To <a href='http://www.friendsreunited.co.uk/rolling-stones-competition-win-tickets-to-festival-number-6-photo-pit-passes/b/a28813c5-6911-4858-bf9f-a10200f21ff0?rf=22400.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >enter our competition</a>, simply add your own photos of the Rolling Stones, along with your Rolling Stones stories to our dedicated memory box. Full competition details can be found on our <a href='http://www.friendsreunited.co.uk/Account/blank?rd=http://blog.friendsreunited.co.uk/post/36318365854/rolling-stones-competition-win-a-pair-of-festival&rf=22401.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >blog</a>.
+
+
+                                                         
+                                                      </td>
+                                                    </tr>
+                                                    <tr><td height="10" bgcolor="#ffffff"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="10" height="1" align="absmiddle" border="0"/></td></tr>
+                                        		</table></td>
+                                            </tr>
+                                        </table>
+									</td>
+									<td width="10">&nbsp;</td>
+								</tr>
+								
+                                
+                               
+                                <tr><td bgcolor="#ececec" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                 
+                                
+                                <tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr>	
+									<td width="10">&nbsp;</td>
+									<td colspan="2" bgcolor="#ffffff">
+                                        <table width="600" style="font-family: Arial, Helvetica, sans-serif; color:#464646; background:#ffffff; font-size:13px; text-align:left; border-collapse:collapse;  margin:0 auto; line-height:18px;">
+                                            <tr>
+                                                <td width="290" align="left" valign="middle"><a href='http://www.friendsreunited.co.uk/it-s-all-about-babies/b/9ddc297a-d639-4651-8925-a11d00c79b56?cs=40&rf=22402.105301&cmk=710483531'  ><img src="http://www.friendsreunited.co.uk/email/images/105300/babyFeatureLarge.jpg" width="267" height="299" align="absmiddle" border="0" alt="Fitness Video"/></a></td>
+                                                <td width="310">
+                                                	<table width="310" bgcolor="#ffb033" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica; color:#ffffff; font-size:18px; text-align:left; line-height:25px;">
+                                                        <tr>
+                                                            <td width="10">&nbsp;</td>
+                                                            <td width="300">Feature:</td>
+                                                        </tr>
+                                                        <tr><td colspan="2" bgcolor="#ffffff" style="line-height:5px;" height="5"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="300" height="10" align="absmiddle" border="0"/></td></tr>
+                                                    </table>
+                                                    <a href='http://www.friendsreunited.co.uk/it-s-all-about-babies/b/9ddc297a-d639-4651-8925-a11d00c79b56?cs=40&rf=22403.105301&cmk=710483531'  style='color:#08afda; text-decoration:none; font-size:16px; ' >Royal Baby Special</a><br/><br/>
+                                    We're royally excited for Kate and William after the announcement that they're expecting their first baby and so, in celebration, we've put together our very own bundle of joy for you to go gaga over! From <a href='http://www.friendsreunited.co.uk/paul-mccartney-with-linda-and-stella/Memory/665e4915-a523-4dcd-9489-a11e010532bd?rf=22404.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >famous celebrity babies</a> to <a href='http://www.friendsreunited.co.uk/the-10-stone-baby/Memory/0de07fff-9515-40ce-a8c7-a11e00c5ee63?rf=22405.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >10&ndash;stone tots from the 1930s</a>! Plus a reminder of how <a href='http://www.friendsreunited.co.uk/prince-william-30-years-in-30-pictures/b/294449b6-f3db-4719-ad21-a07700aacacc?cs=40&rf=22406.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >Prince William</a> looked as a child (including a box of <a href='h
+ ttp://www.friendsreunited.co.uk/princess-diana-as-a-teenager/b/3087c27a-4010-4c0c-865d-a0bb00fceca3?cs=40&rf=22407.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >teenage Princess Diana pics</a> too!). <br/><br/>
+Finally &ndash;  why not <a href='http://www.friendsreunited.co.uk/cutest-babies/b/2527b919-a3b5-4f4d-b2e7-a11f00caaf5b?rf=22408.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >add your own family favourites</a> to this box? We'd love to see all your cute baby pictures too!
+                                            </tr>
+                                        </table>
+								  </td>
+									<td width="10">&nbsp;</td>
+								</tr>
+								<tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr><td bgcolor="#ececec" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+								<tr>	
+									<td width="10">&nbsp;</td>
+									<td colspan="2" bgcolor="#ffffff" style="vertical-align:bottom;">
+That's almost it for this newsletter. But, before we go, we're going to leave you on a very merry note with these two Christmas conundrums: 
+<br/><br/>
+Firstly: it may have been Christmas but, seriously, what was he thinking when he put this jumper on? <a href='http://www.friendsreunited.co.uk/erm-just-no/Memory/1ab66f2d-3160-4fea-a6ad-a11900f36a34?rf=22409.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >Add your caption to the picture!</a>
+<br/><br/>
+And secondly: can you spot what's wrong with this 1972 clip of The Flintstones celebrating Christmas? <a href='http://www.friendsreunited.co.uk/a-flinstone-christmas/Memory/ce7f15a2-9b20-480f-9c38-a11d0102f33b?rf=22410.105301&cmk=710483531'  style='color:#08afda; text-decoration:none;' >Leave your answer as a comment on the video!</a>
+<br/><br/>
+                             
+       								   <table width="600" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica, sans-serif; color:#333333; font-size:13px; text-align:left; line-height:18px">
+											<tr>
+												<td>
+                                                
+Merry Christmas everyone, have fun looking back!,<br/><br/>
+                                                <strong>The Team at Friends Reunited</strong></td>
+												<td align="right" style="vertical-align:bottom;">
+													<table width="140" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="font-family: Arial, Helvetica, sans-serif; color:#464646; font-size:15px; text-align:left; vertical-align:bottom;">
+														 <tr>
+                                                            <td width="35" height="24" align="right"><a href='http://www.friendsreunited.co.uk/Account/blank?rd=http://www.twitter.com/FriendsReunited&rf=22411.105301&cmk=710483531'  title='Twitter' ><img src="http://www.friendsreunited.co.uk/email/images/template/twitterBird.gif" width="25" height="24" border="0" align="absmiddle"/></a></td>
+                                                            <td width="35" height="24" align="right"><a href='http://www.friendsreunited.co.uk/Account/blank?rd=http://www.facebook.com/friendsreunited&rf=22412.105301&cmk=710483531'  title='Facebook' ><img src="http://www.friendsreunited.co.uk/email/images/template/FB.gif" width="25" height="24" border="0" align="absmiddle"/></a></td>       
+                                                            <td width="35" height="24" align="right"><a href='http://www.friendsreunited.co.uk/Account/blank?rd=http://friendsreunited.tumblr.com/&rf=22413.105301&cmk=710483531'  title='Tumblr' ><img src="http://www.friendsreunited.co.uk/email/images/template/tumblr.gif" width="25" height="24" border="0" align="absmiddle"/></a></td>
+                                                            <td width="35" height="24" align="right"><a href='http://www.friendsreunited.co.uk/Account/blank?rd=http://www.youtube.com/friendsreunited1&rf=22414.105301&cmk=710483531'  title='YouTube' ><img src="http://www.friendsreunited.co.uk/email/images/template/youTube.gif" width="25" height="24" border="0" align="absmiddle"/></a></td>
+                                                        </tr>
+													</table>
+												</td>
+											</tr>
+									   </table> 
+                                       <br/>
+                                        <span style="font-size:18px;">Old Jokes Archive:</span> (From a 1992 Christmas Cracker)<br/>
+										
+										<span style="color:#ea8928;">Q: What is Santa's favourite pizza?</span> <span style="color:#808080;"><i>A: One that's deep pan, crisp and even...</i></span><br/><br/>   
+									</td>
+									<td width="10">&nbsp;</td>
+								</tr>
+								<tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+								<tr><td bgcolor="#ececec" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                 <tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr>	
+									<td width="10">&nbsp;</td>
+									<td colspan="2" bgcolor="#ffffff" valign="top">
+										
+										<table width="600" bgcolor="#ffb033" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica; color:#ffffff; font-size:18px; text-align:left; line-height:25px;">
+                                        	<tr>
+                                            	<td width="10"></td>
+                                            	<td>And finally...</td>
+                                            </tr>
+                                        </table>
+                                        
+                                        <table width="600" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica, sans-serif; color:#464646; background:#ffffff; font-size:13px; text-align:left; border-collapse:collapse;  margin:0 auto; line-height:18px;">
+											<tr><td colspan="5" height="10"><img src="http://www.friendsreunited.co.uk/email/images/30/spacer.gif" width="10" height="1" align="absmiddle" border="0"/></td></tr>
+											<tr>
+                                            	<td align="center" valign="top" width="185" height="155"><a href='http://www.friendsreunited.co.uk/save-your-love-by-renee-and-renato/Memory/cf7c1f05-9c53-40de-b81d-a11c00edb800?rf=22415.105301&cmk=710483531'  ><img src="http://www.friendsreunited.co.uk/email/images/105300/reneeRenato.jpg" width="180" height="145" align="absmiddle" border="0" alt="Renee and Renato"/></a></td>
+												<td width="20">&nbsp;</td>
+                                                <td align="center" valign="top" width="185" height="155"><a href='http://www.friendsreunited.co.uk/coca-cola-1957/Memory/1a21b493-3d43-4564-b444-a11e00c4ea7f?rf=22416.105301&cmk=710483531'  ><img src="http://www.friendsreunited.co.uk/email/images/105300/cokeAdvert.jpg" width="180" height="145" align="absmiddle" border="0" alt="Coke Advert"/></a></td>
+												<td width="20">&nbsp;</td>
+												<td align="center" valign="top" width="185" height="155"><a href='http://www.friendsreunited.co.uk/a-real-donkey/Memory/88e89c61-e69e-4e2b-9791-a10a01158f29?rf=22417.105301&cmk=710483531'  ><img src="http://www.friendsreunited.co.uk/email/images/105300/nativityPlay.jpg" width="180" height="145" align="absmiddle" border="0" alt="Little Donkey"/></a></td>
+											</tr>
+											<tr>
+												<td align="left" width="170" valign="top"><a href='http://www.friendsreunited.co.uk/save-your-love-by-renee-and-renato/Memory/cf7c1f05-9c53-40de-b81d-a11c00edb800?rf=22418.105301&cmk=710483531'  style='color:#08afda; text-decoration:none; font-size:14px;' >Renee &amp; Renato</a><br/>Could this be the worst Christmas Number 1, ever?<br/>                                    
+                                    <table cellpadding="5" cellspacing="0" bgcolor="#08afda" style="font-family: Arial, Helvetica, sans-serif; color:#464646; font-size:15px; text-align:left; border-collapse:collapse; border-radius:15px; line-height:14px; margin-top:5px;"><tr><td bgcolor="#08afda" style="border-radius:15px; padding-right:10px; padding-left:10px"><a href='http://www.friendsreunited.co.uk/save-your-love-by-renee-and-renato/Memory/cf7c1f05-9c53-40de-b81d-a11c00edb800?rf=22419.105301&cmk=710483531'  style='color:#ffffff; text-decoration:none; margin-top: 3px;' >Watch</a></td></tr></table>
+														</td>
+												<td width="30">&nbsp;</td>
+                                                <td align="left" width="170" valign="top"><a href='http://www.friendsreunited.co.uk/coca-cola-1957/Memory/1a21b493-3d43-4564-b444-a11e00c4ea7f?rf=22420.105301&cmk=710483531'  style='color:#08afda; text-decoration:none; font-size:14px;' >Holidays Are Coming!</a><br/>Coca Cola's 1957 Christmas ad is the business<br/>
+                                    <table cellpadding="5" cellspacing="0" bgcolor="#08afda" style="font-family: Arial, Helvetica, sans-serif; color:#464646; font-size:15px; text-align:left; border-collapse:collapse; border-radius:15px; line-height:14px; margin-top:5px;"><tr><td bgcolor="#08afda" style="border-radius:15px; padding-right:10px; padding-left:10px"><a href='http://www.friendsreunited.co.uk/coca-cola-1957/Memory/1a21b493-3d43-4564-b444-a11e00c4ea7f?rf=22421.105301&cmk=710483531'  style='color:#ffffff; text-decoration:none; margin-top: 3px;' >Watch</a></td></tr></table>
+														</td>
+                                                        <td width="30">&nbsp;</td>
+												<td align="left" width="170" valign="top"><a href='http://www.friendsreunited.co.uk/a-real-donkey/Memory/88e89c61-e69e-4e2b-9791-a10a01158f29?rf=22422.105301&cmk=710483531'  style='color:#08afda; text-decoration:none; font-size:14px;' >Little Donkey...</a><br/>Your hilarious school nativity pictures!<br/>
+                                    <table cellpadding="5" cellspacing="0" bgcolor="#08afda" style="font-family: Arial, Helvetica, sans-serif; color:#464646; font-size:15px; text-align:left; border-collapse:collapse; border-radius:15px; line-height:14px; margin-top:5px;"><tr><td bgcolor="#08afda" style="border-radius:15px; padding-right:10px; padding-left:10px"><a href='http://www.friendsreunited.co.uk/a-real-donkey/Memory/88e89c61-e69e-4e2b-9791-a10a01158f29?rf=22423.105301&cmk=710483531'  style='color:#ffffff; text-decoration:none; margin-top: 3px;' >View</a></td></tr></table></td>
+												
+												
+											</tr>
+										</table>	   
+									</td>
+									<td width="10">&nbsp;</td>
+								</tr>   
+                                
+                                <tr><td bgcolor="#ffffff" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+								<tr><td bgcolor="#ececec" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+                                <tr>	
+									<td width="10" bgcolor="#bcbcbc">&nbsp;</td>
+									<td colspan="2" bgcolor="#bcbcbc" style="color:#ffffff; font-size:12px;" align="center">
+									   To ensure our emails get to your inbox, please add us to your email address book or safe list
+									</td>
+									<td width="10" bgcolor="#bcbcbc">&nbsp;</td>
+								</tr>
+								<tr><td bgcolor="#ececec" colspan="4" height="10" style="line-height:10px;">&nbsp;</td></tr>
+								 <tr>	
+									<td width="10" bgcolor="#ececec">&nbsp;</td>
+									<td colspan="2" bgcolor="#ececec" style="color:#b4b4b4; font-size:11px; line-height:18px">                          
+                                        To unsubscribe from this nostalgia newsletter, click on the direct link below or visit your <a href='http://www.friendsreunited.co.uk/Account?rf=22424.105301&cmk=710483531'  style='color:#acacac;' >Account</a> to manage all of your email preferences.
+                                        <br/><br/><br/><br/>
+									</td>
+									<td width="10" bgcolor="#ececec">&nbsp;</td>
+								</tr>
+							</table>
+						</td>
+						<td width="20">&nbsp;</td>
+					</tr>
+				</table>
+			</center>
+		</td>
+    </tr>
+</table>
+<p align=center style='text-align:center'><span style="font-size:7.5pt;color:#666666">If you no longer wish to receive this type of email please unsubscribe <a href="http://optout.friendsreunited.co.uk/default.asp?edb=2&ck=105301&me=highfield1@activ8.net.au&mk=710483531&enc=373937353736373C3742373F374337433743"><span style="color:#666666">here</span></a></span></p>
+<p align=center style='color:silver; font-size:xx-small; margin:0;padding:0'>This email has been sent by bright<b>solid</b> online publishing limited. Registered in England, company no: 4369607. Registered office: The Glebe, 6 Chapel Place, Rivington Street, London, EC2A 3DQ.</p>
+<p style="color:lightgrey; font-size:xx-small">FBL-MessageId:2.105301.710483531</p>
+
+</body>
+
+</html>
+
+------=_NextPart_39577635--
+
+
+

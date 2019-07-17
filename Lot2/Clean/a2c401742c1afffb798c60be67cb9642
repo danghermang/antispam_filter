@@ -1,0 +1,44 @@
+Subject:Re: [OT]Usar =?ISO-8859-1?Q?partici=F3n_Windows_en_virtual?=
+	=?ISO-8859-1?Q?izador_bajo_Linux?=
+El 25/09/12 22:23, Miguel Matos escribió:
+> Saludos a la lista. Esta pregunta es algo rebuscada, y capaz me
+> insulten bien feo, pero aquí va: Quiero deshacerme del sistema
+> operativo Windows que poseo, pero no quiero perder lo que tengo
+> grabado; así que digo: ¿existirá alguna forma de pasar mi partición de
+> Windows a un formato que reconozca el Virtualbox en mis OS Debian y
+> Ubuntu? ¿Y habrá alguna forma de mantener el GRUB si hago esta
+> operación? Tengo instalado WIN7, y usa el objeto ese que usa 100 MB
+> para montar el cargador de arranque, no sé si el GRUB lo use.
+>
+
+Como te dice Francisco, se puede, pero es largo y no exento de riesgos.
+Lo que vas a tener que hacer es:
+
+1) Clonar tu partición Win como imagen a un soporte externo NTFS (otro 
+disco).Para esto, puedes usar esto
+
+http://www.bloginformatico.com/disk2vhd-clonar-disco-duro-y-utilizarlo-en-una-maquina-virtual.php
+
+2) Eliminar la partición Win y cambair el tamaño del disco tomando lo 
+que antes te usaba dicha aprtición físicamente. Esto es arriesgado; un 
+corte de luz o una pavada pueden mandar el sistema al traste.
+
+3) Convertir tu imagen Win de vhd del disco externo NTFS a vdi en un 
+disco ext3/4. Es porque vhd es de MS-VirtualPC, y vdi va mejor con 
+VirtualBox, y además, un VirtualBox sobre GNU/Linux no puede leer los 
+discos virtuales sobre NTFS.
+
+http://megasi.org/computarizada/?p=106
+
+4) Importar el disco vdi a tu servidor VirtualBox.
+
+Como verás, lleva tiempo, mucho tiempo.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5062EDA4.4020705@gmail.com
+

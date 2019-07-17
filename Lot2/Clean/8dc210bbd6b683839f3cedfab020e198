@@ -1,0 +1,75 @@
+Subject:Re: Sin entorno =?ISO-8859-1?Q?gr=E1fico_tras_actualizar_e?=
+	=?ISO-8859-1?Q?l_kernel_en_Debian_Wheezy?=
+
+
+El 08/11/12 23:41, Sergio Bessopeanetto escribió:
+> El 08/11/12 19:52, "José Manuel (EB8CXW)" escribió:
+>>
+>>
+>> El 08/11/12 22:32, Sergio Bessopeanetto escribió:
+>>> El 07/11/12 15:57, "José Manuel (EB8CXW)" escribió:
+>>>> Hola
+>>>>
+>>>> Tengo Debian testing, actualice el sistema y entre las 
+>>>> actualizaciones estaba el nuevo kernel linux 3.2.0-4-686-pae, 
+>>>> reinicie el sistema y mi sorpresa es que no aparece el entorno 
+>>>> gráfico.
+>>>> He buscado en Google, pero no encuentro nada o no hago una búsqueda 
+>>>> correcta por lo que he tenido que volver al anterior kernel
+>>>> linux 3.2.0-3-686-pae
+>>>> Me podíais indicar cuál es el error y como solucionarlo para 
+>>>> utilizar el nuevo kernel. Gracias de antemano.
+>>>>
+>>>  Hola colega José Manuel. En mi caso fue peor pues directamente no 
+>>> arrancó nada.
+>>> Por suerte la actualización no borra el kernel anterior así que sólo 
+>>> tuve que correr
+>>> el administrador de arranque para ordenarle al GRUB que inicie en la 
+>>> opción del
+>>> 3.2.0-3-686-pae, ese funciona bien.
+>>> Quizás recuerdes que en la actualización se leía un mensaje que 
+>>> expresaba la puesta
+>>> a prueba de ese kernel y el favor de reportar cualquier problema. En 
+>>> la rama Testing
+>>> es posible esas cosas.
+>>>
+>>> Saludos.
+>>>
+>>
+>> Hola
+>>
+>> Gracias por contestar,
+>>
+>> Sino he entendido mal, en tu comentario, mejor es seguir con el 
+>> antiguo kernel y olvidarme del nuevo hasta que este más maduro.
+>>
+> Es lo que yo hice. Creo que el tema de los kernel pasa por si te 
+> funciona bien o no las cosas.
+> En mi caso todo funciona bien y se lo nota muy estable al equipo con 
+> el kernel viejo.
+> Estoy usando Debien Wheezy con KDE y con el kernel viejo está 
+> indestructible, con el nuevo
+> ni arrancó.
+>
+
+Hola Sergio,
+
+Pues mientras no aparezca una solución viable para el nuevo kernel, 
+seguiré, como tu bien dices, con el antiguo,
+
+Gracias.
+
+-- 
+Un saludo,
+José Manuel
+Gran Canaria/España
+
+Si vas a escribir.. piensa en esto:
+no digas nada que no sea mas precioso que el silencio!!!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509D574B.7030508@infonegocio.com
+

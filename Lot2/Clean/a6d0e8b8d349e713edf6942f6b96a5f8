@@ -1,0 +1,45 @@
+Subject:Re: =?iso-8859-1?q?Implementaci=F3n?= OpenVPN sobre OpenVZ
+El Wed, 28 Nov 2012 12:40:25 -0200, ciracusa escribió:
+
+(...)
+
+> Las preguntas que quisiera hacer son:
+> 
+> 1) Este cambio es "exclusivo" de cada contenedor? Osea, puedo tener
+> contenedores trabajando en modo venet (de hecho ya los tengo) y otros en
+> modo veth?
+> 
+> Esto lo consulto porque no quisiera realizar un cambio que me afecte los
+> contenedores que ya tengo en funcionamiento!
+
+A ver si esto te sirve:
+
+[Network] Both venet and veth in same CT(Any drawbacks?)
+http://forum.openvz.org/index.php?t=msg&goto=45167&
+
+Si en un mismo contenedor puedes mezclar ambos modos, en contenedores 
+separados no deberías tener problemas :-?
+ 
+> 2) Por otro lado, veo que en cuestión de seguridad se menciona como mas
+> segura la modalidad venet, alguien tiene bien en claro los alcances de
+> esto?
+
+Así a vuela pluma, leyendo los datos de la tabla yo diría que una veth 
+resulta más "permisiva/flexible" que una "venet" (más restringida y que 
+permite menos florituras) y por eso esta última es más segura, además de 
+que la controla el host no el contenedor.
+
+Se podría decir que una "veth" es más similar al modo bridge de 
+VirtualBox y una "venet" sería más parecida al modo NAT.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k95e4k$5ig$5@ger.gmane.org
+

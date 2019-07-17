@@ -1,0 +1,32 @@
+Subject:Re: [rlug] Migrare bind,mysql, wordpress
+Salut,
+
+Eu am un wordpress in AWS si nu am avut nicio problema pana acum...
+Atata timp cat masina are resursele necesare nu o sa ai probleme.
+
+Ionut
+
+2012/11/5 Gyula Keresztely-Krall <xenexis@gmail.com>:
+> Salut,
+>
+> Incerc sa migrez bind, Mysql, wordpress de pe un server dedicat
+> intr-un server in cloud.
+> In principiu n-ar trebui sa fie vreo problema, dar totusi intreb:
+>
+> A mai facut cineva asa ceva? Daca da s-a lovit cineva de vreo problema ?
+> Exista vreo chestie la care sa fiu mai atent ?
+>
+> Numai bine,
+>
+> Multumesc.
+>
+> --
+> Gyula KERESZTELY-KRALL
+> _______________________________________________
+> RLUG mailing list
+> RLUG@lists.lug.ro
+> http://lists.lug.ro/mailman/listinfo/rlug
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

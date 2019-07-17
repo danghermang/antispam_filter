@@ -1,0 +1,25 @@
+Subject:Re: systemd : =?iso-8859-15?Q?probl=E8me_d?=
+	=?iso-8859-15?Q?=E9marrage?= services au boot
+On Sun, Sep 09, 2012 at 01:40:57PM +0200, Bzzz wrote:
+> > apt-listbugs ne signale pas que systemd est bugué... J'ai
+> > l'impression que chez debian, peu de gens s'intéressent à systemd.
+> > Conservatisme ?
+>  
+> Si tu vas sur le site, il détaille tout un tas d'avantages à utiliser
+> systemd, cependant QUI a réellement besoin de cela?....
+
+Ouais, bouter plus vite, c'est bon pour les gens qui
+boutent... Sous Debian, on ne boute qu'une fois (jusqu'à la
+prochaine panne matérielle. :) ).
+
+Y.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120909115715.GE18586@naryves.com
+

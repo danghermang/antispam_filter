@@ -1,0 +1,27 @@
+Subject:Sin entorno =?ISO-8859-1?Q?gr=E1fico_tras_actualizar_el_?=
+	=?ISO-8859-1?Q?kernel_en_Debian_Wheezy?=
+Hola
+
+Tengo Debian testing, actualice el sistema y entre las actualizaciones 
+estaba el nuevo kernel linux 3.2.0-4-686-pae, reinicie el sistema y mi 
+sorpresa es que no aparece el entorno gráfico.
+He buscado en Google, pero no encuentro nada o no hago una búsqueda 
+correcta por lo que he tenido que volver al anterior kernel
+linux 3.2.0-3-686-pae
+Me podíais indicar cuál es el error y como solucionarlo para utilizar el 
+nuevo kernel. Gracias de antemano.
+
+-- 
+Un saludo,
+José Manuel
+Gran Canaria/España
+
+Si vas a escribir.. piensa en esto:
+no digas nada que no sea mas precioso que el silencio!!!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509AAF1B.7050801@infonegocio.com
+

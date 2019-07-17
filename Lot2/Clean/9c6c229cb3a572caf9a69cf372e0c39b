@@ -1,0 +1,59 @@
+Subject:Re: Kernel intel atom
+El Wed, 5 Sep 2012 08:46:08 -0300
+Ricardo Delgado <ricardodelgadoar@gmail.com> escribi=F3:
+
+> Hola, debianitas tengo una netbook LENOVO con proc Intel Atom
+> utilizando WHEEZY,
+> ahora bien al utilizar algunas aplicaciones, ej WINE+STARCRAFT noto
+> que se pone "pesado"
+> es decir el consumo de PROCESADOR se hace excesivo (100%) por lo que
+> decidi buscar como
+> optimizar el kernel, buscando por la web encontre estos links,
+>=20
+> http://www.pumawifi.org/index.php?q=3Dnode/49
+>=20
+> http://lgallardo.com/2009/06/08/compilando-el-kernel-para-lenovo-s10ekern=
+el-compiling-on-lenovo-s10e/
+>=20
+> asi que baje un Kernel y me propuse recompilarlo de hecho ahora estoy
+> utilizando 3.5.3, teoricamente optimizado de acuerdo a los links
+> arriba expuesto, sin embargo no noto diferencia, quizas deberia probar
+> recompilar/compilar un kernel para 486? digo esto en virtud que el
+> primer kernel que debian me instalo era un Linux_image4686
+> (3.2.0-2-486)
+>=20
+> doy detalles de mi equipo
+>=20
+> PROC: INTEL ATOM
+> RAM: 1GB
+> SO: DEBIAN WHEEZY+SLIM+LXDE
+>=20
+
+con este hw no se puede hacer magia
+Por mas que compiles y recompiles no vas a notar diferencia
+> Saludos
+>=20
+>=20
+> --=20
+> "Windows? Reboot
+> Debian?      beRoot "
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/CA+0kpa2XQEt-ahV-Bkr4d7MJm6yQHA6KpoyRFgK=
+mv=3D__c9tHOg@mail.gmail.com
+>=20
+
+
+--=20
+Angel Claudio Alvarez <angel@angel-alvarez.com.ar>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120905184741.4100bce35cacc99f19f1352b@angel-alvarez.com.ar
+

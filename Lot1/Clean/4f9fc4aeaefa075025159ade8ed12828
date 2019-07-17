@@ -1,0 +1,34 @@
+Subject:Re: schroot. comment
+	=?UTF-8?B?ZXjDqWN1dGVyIGxlcyBzY3JpcHRzIGRlIA==?=
+	=?UTF-8?B?Y29uZmlndXJhdGlvbiA/?=
+> Par ailleurs, l'élément le plus intéressant dans le man par rapport
+> à ton problème est le suivant :
+> 
+> type=type
+> 
+> […] Note that 'plain' chroots do not run setup scripts and mount 
+> filesystems; 'directory' is recommended for normal use (see "Plain
+> and directory chroots", below)
+> 
+> Or ton schroot est configurer en plain (par défault). Il faut donc
+> que tu ajoute "type=directory" en dessous de [maverick].
+
+Merci beaucoup Vincent. C'était effectivement le problème principal.
+J'ai ajouté cette ligne et ça marche parfaitement.
+Le script-config est vraiment abandonné, il faut mettre (dans mon cas)
+profile=desktop   (ou autre) si on ne veut pas utiliser le
+profil "default"
+
+Maintenant tout roule ;-)
+
+Guy
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504D860A.9050603@teledetection.fr
+

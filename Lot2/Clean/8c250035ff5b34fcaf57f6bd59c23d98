@@ -1,0 +1,21 @@
+Subject:[Flexradio] VoiceKeyer v5.0.3 Released
+VoiceKeyer v5.0.3 has been released & is available for download from my
+website.
+
+I think I finally got rid of the pesky bug where the program would get into
+an endless loop if the hardware is not fully set up when you close the
+Hardware Setup window.  Also found & fixed a bug where the program would not
+start up in its saved position on the screen.
+
+73, Ray, K9DUR
+http://k9dur.info
+
+
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

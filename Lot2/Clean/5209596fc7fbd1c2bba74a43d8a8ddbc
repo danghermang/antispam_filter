@@ -1,0 +1,45 @@
+Subject:Re: [EVDL] Pack Cooling
+""Bogus" ?
+-Probably not.  But maybe a creative marketing department?
+Does it say at what C-rate they have done the lab test ?  
+I never trust it when marketing department produces the lab-charts."
+
+I don't think it is bogus, nor created by a marketing department, and likely
+used larger sample sizes than a 1 cell in the freezer test.  
+
+Of course you can get all the charge out if you discharge slow, that's the
+whole point.  The voltage sag at large discharge currents prevents you from
+getting all the charge out before hitting the low voltage cutoff.  So as
+Hoegberg says, such behavior makes the cells useless for EVs in very cold
+temperatures.
+
+The paper discusses two types of resistance, not just Ohmic.  I would guess
+that the largest source of resistance at low temperatures is concentration
+polarization due to difficulty in ions moving in/out of films at the cathode
+and anode.  The ions introduce strain in the films when they move through,
+as they are too large to easily fit.  Lattice vibrations likely facilitate
+movement through the films, limiting movement at lower temperatures. 
+
+Seems to me a Peltier effect device for cooling cells may cause problems due
+to uneven cooling of the pack leading to some unbalancing of cells over
+time.  I also doubt that cooling of the plastic case of large format cells
+is very effective in controlling the temperature of the foils/films inside
+at large discharge currents (>1C) due to the thermal gradient through the
+cell.  I think any cool air flow should be directly on the terminals, and
+uniform over all cells.
+
+
+
+--
+View this message in context: http://electric-vehicle-discussion-list.413529.n4.nabble.com/Pack-Cooling-tp4659335p4659383.html
+Sent from the Electric Vehicle Discussion List mailing list archive at Nabble.com.
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

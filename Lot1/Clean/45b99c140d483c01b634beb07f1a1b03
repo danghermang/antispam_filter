@@ -1,0 +1,48 @@
+Subject:Re: [ipv6-wg] [routing-wg] MERIT Darknet Experiment and RPKI alerts
+
+On 23.11.2012, at 9:28 , Shane Kerr wrote:
+
+> 1. This link was not posted *in advance*. The reason I proposed in
+>   advance is partially so that we could get review and feedback such =
+as
+>   Wilfried's, and prevent future issues.
+
+That is true and an oversight on my part for which I take =
+responsibility. There are many reasons why this particular experiment =
+got started too quickly and why it included address space that was not =
+"dark". We can discuss them over a beverage or at the next working group =
+meeting if anyone wishes to make a point of this particular oversight. I =
+will not waste mailing list bandwidth unless there is a strong call to =
+discus these reasons here.
+
+> 2. It was not sent to any of the RIPE mailing lists until after
+>   problems were reported. RIPE Labs is cool, but AFAIK the RIPE
+>   community still lives & breathes in the RIPE working group mailing
+>   lists.
+
+That was also an oversight and not intentional. Usually we indeed =
+announce these articles on the relevant working group mailing lists. It =
+has not happened this time, but it is certainly an exception.
+
+>=20
+> 3. There is apparently neither a procedure nor a policy concerning  =
+notification of experiments.
+
+Does there need to be a *policy* on everything?=20
+
+Look: we made a mistake with this one. It did not have any real =
+consequences. Yet we corrected it very very quickly and without =
+hesitation once the mistake was apparent. Don't you trust the RIPE NCC =
+anymore to do the right thing without a policy? Do we need to invoke the =
+policy cannon for everything until our community does nothing else but =
+make policies and the RIPE NCC does nothing else but make sure to make =
+no mistakes running afoul of all these policies?
+
+I think we should be very conscious about when we invoke the policy =
+process. In areas like address space distribution and registration =
+formal policies are vital. However, invoking the policy process whenever =
+anyone has an issue with what the NCC does or did is not the right thing =
+to do.=20
+
+Daniel=
+

@@ -1,0 +1,28 @@
+Subject:[rlug] Output expect
+Salutare,
+
+Incerc sa obtin niste chestii de la niste switchuri, prin ssh, cu expect.
+Am folosit urmatorul script:
+
+#!/usr/bin/expect
+log_file output
+spawn ssh user@switch
+sleep 5
+send "parola\r"
+sleep 2
+send "terminal len 0\r"
+sleep 2
+send "show mac address-table\r"
+sleep 2
+send "exit\r"
+
+Daca-l rulez exact asa cum e aici, in output obtin atat: spawn ssh user@switch
+Daca in schimb pun un interact dupa exit, se executa, iese la
+prompt-ul de bash imi da tot ce-mi trebuie in output.
+Ar putea cineva sa-mi explice daca asta e "intended behaviour"?
+
+Merci.
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

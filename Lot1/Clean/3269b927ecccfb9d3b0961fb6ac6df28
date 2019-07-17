@@ -1,0 +1,33 @@
+Subject:[EVDL] Precharge / Discharge
+Hello,
+
+I recently built an OpenRevolt controller to replace my EV1 controller 
+on my Jet ElectraVan.  I have no experience with precharge since the EV1 
+has no input capacitors.  I have been doing a lot of reading on the 
+archives of this list and elsewhere.  I have a good understanding of the 
+precharge issue, but I haven't found any reference to the hazards of the 
+controller retaining a charge on its capacitors after the vehicle is 
+turned off.  It seems to me that there is a safety issue.
+
+I did find a commercially available precharge device that addresses the 
+issue.  However, it uses a different resistance for the precharge and 
+discharge paths.  Why?
+
+My thought is to use a relay to connect the precharge resistor when the 
+ignition switch is on.  The OpenRevolt controller supplies a signal to 
+enable the main contactor at a preset delay.   I was considering using a 
+SPDP relay and the same resistor to both precharge and discharge the 
+controller capacitors.  Am I mis-thinking?
+
+Thanks,
+Mike  --  Phoenix
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

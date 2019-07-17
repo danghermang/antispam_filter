@@ -1,0 +1,106 @@
+Subject:Re: afdrukken pdf in 12.04
+Hoi Y P,
+Hartelijk dank voor je hulp. Ik heb de instructies gevolgd op =
+
+openprinting.org en de hplip driver ge=EFnstalleerd. Nu drukt de Hp laserje=
+t =
+
+1010 goed af. De Stichting waar deze printer dienst doet is weer gelukkig.
+Milton
+----- Original Message ----- =
+
+From: "Y P" <yellowpenguin@edpnet.be>
+To: "Ubuntu-NL MList" <ubuntu-nl@lists.ubuntu.com>
+Sent: Sunday, October 28, 2012 8:12 PM
+Subject: Re: afdrukken pdf in 12.04
+
+
+Hoi Milton,
+
+er is geen reden waarom de ene printer WEL en de andere NIET een document of
+deel ervan zou afprinten, behalve een m=E9ga bug in de driver, raar want die
+HP model van je is al sinds de eeuwen der eeuwen supported door CUPS,
+en in principe gebruik je de hplip of hpijs packs daarvoor, die worden
+verondersteld geinstalleerd te zijn,
+cf.: dpkg -l |grep hp
+En dat zou een lijste van packs moeten tonen, zoals:
+hplip hplip-data hpijs hp-ppd foomatic-db-hpijs
+
+Zit er ook de juiste ppd in /etc/cups/ppd/ ?
+
+Om zeker te zijn over wat te gebruiken met je HP, kun je altijd
+http://openprinting.org/ bezoeken en zoeken op jouw model, de 1010 is er
+heel zeker bij.
+
+Y P
+
+
+On Sat, Oct 27, 2012 at 11:07:26PM +0200, Milton wrote:
+> Sorry voor een eerdere reply op een onbedoelde mail.
+> Hartelijk dank voor de suggesties. Ik heb een andere
+> printer aangesloten,
+> Canon IP 5000 en die print zonder problemen alle
+> pagina's. De HP laserjet
+> 1010 stopte na de eerste pagina en een kijkje in de
+> afdrukwachtrij zei bezig
+> met verwerken. Na een half uurtje wachten heb ik de
+> afdrukopdracht
+> geannuleerd. Ook via de suggestie naar bestand printen
+> en via de terminal
+> gaf geen resultaat. Jammer want die HP leek me nog in
+> goede staat.
+> Milton
+>
+> ----- Original Message ----- From: "YP" <yellowpenguin@edpnet.be>
+> To: "Ubuntu-NL MList" <ubuntu-nl@lists.ubuntu.com>
+> Sent: Saturday, October 27, 2012 3:16 PM
+> Subject: Re: afdrukken pdf in 12.04
+>
+>
+> On Sat, Oct 27, 2012 at 11:41:07AM +0200, Milton wrote:
+>> Graag uw hulp:
+>> In 12.04 heb ik een HP laserjet 1010 aangesloten en de testpagina ziet er
+>> prima uit. Als ik een pdf bestand die 6 pagina's telt wil afdrukken wordt
+>> alleen het eerste blad afgedrukt. Bij afdrukinstellingen staat de optie
+>> Alle pagina's actief. Zie ik iets over het hoofd?
+>> Milton
+>
+> Probeer te testen of het werkelijk een instellingsprobleem is of iets met =
+
+> de
+> pddf:
+> terminal openen en met: lpr bestand.pdf laten afprinten.
+>
+> Y P
+>
+> -- =
+
+> Ubuntu-NL mailing list
+> Ubuntu-NL@lists.ubuntu.com
+> Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl
+>
+>
+> -- =
+
+> Ubuntu-NL mailing list
+> Ubuntu-NL@lists.ubuntu.com
+> Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl
+
+-- =
+
+  |  Verstuurd vanaf mijn GNU/Linux  |  Envoy=E9 de mon GNU/Linux  |
+  |  -----------------  Sent from GNU/Linux  ------------------  |
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl =
+
+
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

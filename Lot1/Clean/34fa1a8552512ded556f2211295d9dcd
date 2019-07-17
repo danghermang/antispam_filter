@@ -1,0 +1,53 @@
+Subject:Re: Problemas con lector de tarjetas wheezy
+El Sun, 04 Nov 2012 11:14:17 -0500, Odair Augusto Trujillo Orozco
+escribió:
+
+> Finalmente me decidí a buscar una solución para ese molesto mensaje en
+> la consola virtual cuando estás tratando de hacer alguna tarea
+> administrativa, el problema en cuestión son estos mensajes que incluso
+> interrumpen el comando que estás escribiendo o lo que estás leyendo:
+> 
+> [11690.011238] sd 6:0:0:0: [sdb] Asking for cache data failed
+> [11690.011248] sd 6:0:0:0: [sdb] Assuming drive cache: write through
+> [11741.720851] sd 6:0:0:0: [sdb] Test WP failed, assume Write Enabled
+
+(...)
+
+> Ya con esto me voy y remuevo el driver: rmmod ums_realtek, y paff deja
+> de salir el mensaje, entonces veo que opciones me da el driver para ver
+> de que me puedo pegar y ahí es donde veo esta
+> 
+> :~$ modinfo ums_realtek
+> parm:           ss_en:enable selective suspend (int)
+> 
+> mmmm, claro, parece que se puede suspender a voluntad según quién sabe
+> que criterios, bueno entonces a desactivarlo para probar. Agrego un
+> archivo a /etc/modprobe.d/realtek-reader.conf con el siguiente
+> contenido:
+> 
+> options ums_realtek ss_en=0
+
+(...)
+
+Eso es lo que comentan por aquí:
+
+http://askubuntu.com/questions/132100/errors-in-dmesg-test-wp-failed-assume-write-enabled
+
+Y apuntan a varios informes de fallo tanto en Ubuntu como en Archlinux, 
+luego debe ser un error del kernel conocido, concretamente este:
+
+Bug 43191 - Syslog fills with messages about assuming drive cache when SD 
+card not present 
+https://bugzilla.kernel.org/show_bug.cgi?id=43191
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k766st$7if$3@ger.gmane.org
+

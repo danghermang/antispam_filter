@@ -1,0 +1,33 @@
+Subject:Postfix para Mdaemon
+Hola
+
+resulta que al instalar un Postfix tengo la siguiente situacion el debe
+entregarle a mi ISP que usa un Mdaemon 9 pero este pide usuario y passwd
+
+He probado con relay_transport, transport_maps y relayhost con
+
+smtp_sasl_password_maps = hash:/etc/postfix/sasl/sasl_passwd
+y dentro de este con las siguientes lineas
+
+192.168.1.1      usuario:passwd
+
+192.168.1.1      usuario@mail.com:passwd
+
+A mi entender no se entiende con MDaemon entodos los casos en los logs me
+dice MDaemon autenticación requerida.
+
+Tengo entendido que con fetchmail es para recoger los correos
+
+pero para entregarle a mi ISP????
+
+Salu2
+Cosme
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/601464882c263513f81f03209d5f867e.squirrel@192.168.13.16
+

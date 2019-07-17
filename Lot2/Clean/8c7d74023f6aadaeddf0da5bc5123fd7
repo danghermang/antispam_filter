@@ -1,0 +1,38 @@
+Subject:Re: no me funciona el teclado ni mouse en X
+El Fri, 21 Sep 2012 19:45:09 -0300, Gonzalo Rivero escribió:
+
+> pues... eso. Ayer o anteayer actualicé mi debian (tengo testing, para
+> amd64 y actualizo cada 15 dias a un mes mas o menos)  y al volver a
+> encender la computadora desde entonces me doy con que no funcionaba el
+> teclado ni el mouse, inicialmente pensé que era algo raro del gdm/gnome,
+> así que entré por ssh y apagué gdm, probé startx y nada, teclado ni
+> mouse responden (pero se que no se clavó el sistema porque veo cosas
+> como el clima actualizándose) 
+
+¿Te funciona en una consola, por ejemplo, iniciando en "init 1"?
+
+> Entonces fui un paso mas atrás, xinit, para no cargar ningún entorno...
+> y tampoco. Como pueden ver en el log ( http://pastebin.com/9FFx8DGc )
+> lo único raro son unos warning en la línea 40 que me desactiva teclado
+> y mouse por no se que de hotplug, probé arrancando entonces SIN archivo
+> de configuración y lo único que cambió es resolución bien fea porque
+> levantó con vesa y no el driver de nvidia... y el mouse y teclado
+> siguen sin funcionar. ¿donde se como desactivar ese hotplug?, 
+
+Recuerdo algo de eso pero no sé si te servirá para este caso. Había que 
+añadir los siguiente en el "/etc/X11/xorg.conf", dentro de la sección 
+"ServerFlags":
+
+Option "AutoAddDevices" "false"
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3k6cb$mv$2@ger.gmane.org
+

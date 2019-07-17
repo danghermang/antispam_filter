@@ -1,0 +1,28 @@
+Subject:Re: For P::PT -> ExtUtils::XBuilder
+On Wed, Nov 21, 2012 at 12:20 PM, Jens Rehsack <rehsack@gmail.com> wrote:
+> Well, I need control over the invoked executables and flags for
+> specific languages - especially for integrating it into Config::AutoConf
+
+That is possible (though there may still be some edge cases in the
+autodetect logic when overriding stuff).
+
+> and do other multi-compile stages (as Net::Radio::Location::SUPL::Test
+> requires first ASN.1 -> C compile stage, then C -> object, then link
+> into *.so).
+
+The latter two steps are covered, the first should be fairly easy as
+an extension.
+
+> I looked into EU::B and I didn't see that I get full control for
+> those requirements, but I might be pebcak and not a limitation of
+> EU::B ;)
+
+It's probably more the complete lack of documentation.
+
+>> I can imagine that. EU::CB is a =F0=9F=92=A9
+>
+> What? Was the word took out by the dis filter ;)
+
+It was a Unicode pile of poo ;-)
+
+Leon

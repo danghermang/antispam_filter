@@ -1,0 +1,85 @@
+Subject:Re: MKV se oye pero no se ve
+El d=EDa 30 de agosto de 2012 17:05, Camale=F3n <noelamac@gmail.com> escrib=
+i=F3:
+> El Thu, 30 Aug 2012 16:54:40 +0200, Marc Mar=ED escribi=F3:
+>
+>> El d=EDa 30 de agosto de 2012 16:46, Camale=F3n <noelamac@gmail.com>
+>> escribi=F3:
+>
+> (...)
+>
+>>> (ese top-posting...)
+>
+> (...)
+>
+>>>> Pero nada de esto parece fatal para el video, adem=E1s, en mplayer, me
+>>>> dice claramente que:
+>>>> Opening video decoder: [ffmpeg] FFmpeg's libavcodec codec family INFO:
+>>>> libavcodec init OK!
+>>>> Selected video codec: [ffh264] vfm: ffmpeg (FFmpeg H.264)
+>>>>
+>>>> El codec de v=EDdeo fue cargado bien
+>>>
+>>> Quiz=E1 necesites alg=FAn c=F3dec extra o los que se encuentran en el r=
+epo
+>>> multimedia. Lo raro es que te haya dejado de funcionar de un d=EDa para
+>>> otro cambiando s=F3lo la versi=F3n del kernel :-?
+>
+>> OT: =BFTop posting? =BFTe refieres a escribir por arriba y no por abajo?
+>
+> Sasto.
+>
+>> OT: Ser=E1 esa mezcla que tengo entre castellano, catal=E1n e ingl=E9s..=
+.. :D
+>
+> Ser=E1 :-)
+>
+>> Ya debes haber visto el =FAltimo correo con el error de kernel:
+>> [drm:intel_dsm_platform_mux_info] *ERROR* MUX INFO call failed
+>
+> La verdad es que ese error no me dice nada... nada que tenga relaci=F3n c=
+on
+> la reproducci=F3n de v=EDdeos, vaya :-?
+>
+> Adem=E1s, est=E1s usando el driver de nvidia no el de intel =BFno?
+>
+> Por cierto, =BFhas probado a cargar otro driver, a ver qu=E9 pasa? (si
+> desactivas el KMS se cargar=E1 el fbdev)
+>
+>> Pero quer=EDa decir que en mplayer y vlc tiene el mismo efecto sea mkv o
+>> mp4, pero en totem, mkv no se repruece y mp4 s=ED que se reproduce
+>
+> Eso a=F1ade m=E1s misterio a=FAn.
+>
+> =BFQu=E9 sucede con los mpeg o avi normalitos? =BFSe ven, no se ven?
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k1nvg0$pns$7@ger.gmane.org
+>
+
+En avi pasa lo mismo que en mp4, no se ve en vlc ni en mplayer pero si
+en totem, y mpeg no tengo a mano.
+
+No me funciona ni con la Intel ni con la Nvidia (ni vlc archivo, ni
+optirun vlc archivo)
+
+Voy a intentar iniciar con el kernel 2.6, que aun tengo opcion desde
+el grub, a ver que pasa
+
+Un saludo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8RW8Jm1TXiRHts2pekZX2sfRvggP-W_qJL7K5ryn7fMbQ@mail.gmail.com
+

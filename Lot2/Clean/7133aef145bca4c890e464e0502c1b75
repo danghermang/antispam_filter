@@ -1,0 +1,30 @@
+Subject:[Antenna-discussion] Ferrite Antennas
+Alan G3NOQ wrote:
+
+> Alan P. quoted a typical radiation resistance of 1 microhm, and if the 
+> loss resistance is 1 ohm there is immediately a 60 dB loss there.
+
+Just to note that in ANTENNAS, 3rd edition, p. 219, John Kraus shows that an 
+antenna consisting of 10 turns of 1 mm OD enameled copper wire wound on a 
+ferrite rod 1 cm OD x 10 cm length having an effective relative permeability 
+of 50 has a radiation resistance of 191 microhms at 1 MHz.
+
+He also calculates its aperture efficiency as 0.06%, Q = 162, and HPBW = 
+6.17 kHz.
+
+RF 
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

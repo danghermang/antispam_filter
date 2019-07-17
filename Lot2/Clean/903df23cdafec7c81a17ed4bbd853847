@@ -1,0 +1,40 @@
+Subject:Re: Consulta =?iso-8859-1?q?librer=EDas?= y enlaces
+El Mon, 08 Oct 2012 20:24:49 -0500, Esteban Monge escribió:
+
+> Estoy desarrollando un Dashboard para Nagios, es muy sencillo, pero la
+> finalidad del mismo es dos cosas:
+> -Ver que está mal en la infraestructura 
+> -Ver que está mal en la infraestructura pero que ya se está gestionando
+> 
+> Aún no he hablado con la empresa para gestionar como liberarla, si es
+> que llego a pedir permiso, pero me surge una duda con respecto al
+> licenciamiento, estoy usando Livestatus Slave (1) para hacer la consulta
+> de los equipos que se van a desplegar en el Dash, lo cual me ahorra
+> mucho trabajo y sobre todo hace la solución muy PHP. El problema que veo
+> es que Slave es licenciado bajo GPLv2... y yo quisiera lanzar mi
+> proyecto bajo una licencia BSD, como hago uso vital del Slave... creo
+> que por cuestiones de licenciamiento, debo utilizar GPL también para mi
+> proyecto.
+> 
+> ¿Que les parece?
+> 
+> (1) http://nagios.larsmichelsen.com/livestatusslave/
+
+No creo que tengas problemas en mantener una licencia modular, es decir, 
+que la parte que desarrolles tú sea enteramente BSD (bsd-new) y que esa 
+biblioteca mantenga su licencia original (GPL v2).
+
+Pero para estar seguro, contacta con la FSF o con alguna asociación de 
+software libre que tengas cerca y explícales el caso.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k75hcj$87n$7@ger.gmane.org
+

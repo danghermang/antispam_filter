@@ -1,0 +1,25 @@
+Subject:gnome terminal et encodoage =?utf-8?Q?par_?= =?utf-8?Q?d=C3=A9faut?=
+
+Re,
+
+
+Toutes mes recherches actuelles me disent que ce n'est pas possible de mettre
+un utf-8 par défaut dans gnome terminal 3.4.1.1. Par défaut (et même en
+configurant en utf-8 en cours de session), l'encodage est ANSIX3.4-1969 (sic).
+Si je change cet encodage en utf-8 (reconnu par gnome terminal...) et que
+j'ouvre une nouvelle fenêtre de gnome terminal, je retombe sur cet encodage
+blabla-1969. C'est très ennuyant sur un système qui se veut 100% utf-8.
+
+Une idée brillante ? 
+
+steve
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121002203125.GA17840@localhost
+

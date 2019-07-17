@@ -1,0 +1,23 @@
+Subject:iputils-arping ou arping
+Bonjour à tous,
+
+Je constate que la commande arping est fournis par deux paquets
+(incompatibles évidement) sous Debian : arping et iputils-arping.
+De plus, on dirait elles ne sont pas tout à fait équivalente (l'option
+-U qui permet de faire du gratuitous arp sous forme de ARP REQUEST
+n'existe que dans la version de iputils-arping, par exemple).
+
+Quelqu'un connaît-il la raison de ce heu... melting pot ? ;)
+
+Merci !
+Colin
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1346841915.11409.28.camel@Cocopad
+

@@ -1,0 +1,50 @@
+Subject:Re: Configurar proxy en modo transparente (era: swich ?)
+
+
+El 07/12/2012, a las 12:40, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=B3=
+:
+
+> El Fri, 07 Dec 2012 11:57:35 -0600, Francisco Ascencio Dominguez escribi=C3=
+=B3:
+>=20
+>> hola list. ok seguinos dando lasa aqui. aver ya tengo servidor proxy
+>> funcionando pero ahora lo quiero hacer transparente
+>=20
+> (...)
+>=20
+> Pues d=C3=A9jate de switches y m=C3=B3dems (supongo que lo que habr=C3=A1s=
+ le=C3=ADdo es que=20
+> necesitas _dos tarjetas_ de red...) y l=C3=A9ete mejor el manual de la=20
+> aplicaci=C3=B3n que uses como servidor de proxy (que no dices cu=C3=A1l es=
+) para=20
+> saber c=C3=B3mo tienes que configurarlo en modo transparente ;-)
+>=20
+> En Google encuentras tutoriales y FAQs para aburrir, por ejemplo:
+>=20
+> http://m.whostas.com/2012/linux-setup-a-transparent-proxy-with-squid-in-th=
+ree-easy-steps.html
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/k9td6r$brf$8@ger.gmane.org
+>=20
+>=20
+
+es squid3 y si se que son dos tarjeta en la eth0 esta el modem y en eth1 est=
+a el swich. mi pregunta es. como lo configuro ahora en modo transparente (ya=
+ puse la linea proxy_transparent )=20=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU0-SMTP1399EBEEEA6ADE6DAA48607C5440@phx.gbl
+

@@ -1,0 +1,41 @@
+Subject:Re: =?utf-8?q?Requ=C3=AAte_MySQLtoujour_accept=C3=A9_maintenant?=
+	=?utf-8?q?_refus=C3=A9?=
+On Friday 16 November 2012 16:17:12 Bzzz wrote:
+> On Fri, 16 Nov 2012 16:00:47 +0100
+> andre_debian@numericable.fr wrote:
+> > Une table qui a toujours fonctionn=C3=A9 avec ce script MySQL :
+> > ALTER IGNORE table connex ADD UNIQUE INDEX (reference,email);
+> > m'affiche maintenant un message d'erreur de cette requ=C3=AAte,
+> > en la refusant sans explications.
+
+> Ben, dans les vrais RDBMS on ne peut pas cr=C3=A9er un index sans le nomm=
+er,
+> ce qui donne qq chose comme:
+> ALTER IGNORE table connex ADD UNIQUE INDEX monindex_ix (reference,email);
+> et il me semble que machinSQL n=C3=A9cessite des quotes un peu partout.
+> Par ailleurs, la Cde =C3=A9chouera si la combinaison de colonnes =C3=A9ch=
+oue =C3=A0
+> satisfaire la condition (UNIQUE).
+
+Merci.
+
+En effa=C3=A7ant le champ auto-incr=C3=A9ment "reference" et en le recr=C3=
+=A9ant
+"reference_id" comme "index unique" la requ=C3=AAte MySQL remarche.
+
+Aussi, la table avait 2 index : reference et email.
+J'ai retir=C3=A9 "email" comme index.
+
+Bonne fin de soir=C3=A9e.
+
+Andr=C3=A9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211162231.08544.andre_debian@numericable.fr
+

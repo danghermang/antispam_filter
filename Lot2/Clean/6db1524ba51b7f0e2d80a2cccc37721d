@@ -1,0 +1,41 @@
+Subject:Re: No funcionan su, sudo, ni otros..
+El Fri, 16 Nov 2012 07:15:33 -0800, Aristobulo Pinzon escribió:
+
+(ese html...)
+
+> Ejecuta los siguientes comandos y pon el resultado:
+> 
+> su -
+> gksudo gedit
+> 
+> Gracias camaleon OK! estos son lo resultados:
+> 
+> todos@wolf:~$ su
+> Contraseña:
+> setgid: Operación no permitida
+> todos@wolf:~$ gksudo gedit
+> ^C
+> todos@wolf:~$ gksudo gedit
+> 
+> 
+> 
+> Se han concedido permisos sin pedir una contraseña
+
+(...)
+
+Comprueba los permisos de los binarios, ejecuta lo siguiente y manda el 
+resultado:
+
+ls -la /bin | grep su; ls -la /usr/bin | grep sudo
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k85m4k$8pk$8@ger.gmane.org
+

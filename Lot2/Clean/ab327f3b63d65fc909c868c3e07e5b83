@@ -1,0 +1,26 @@
+Subject:[Hsqldb-user] Is it possible to load data from hadoop cluster
+ directly to HSQLDB?
+
+Hi,
+I was trying to load a csv from hadoop cluster directly into hsql db. 
+is there a way to do this.
+
+PS: I don't wanna do a cat or get the file to local and then load it. I
+wanna load it directly from hadoop cluster to HSQLDB
+
+Thanks in advance,
+-sandeep samudrala
+-- 
+View this message in context: http://old.nabble.com/Is-it-possible-to-load-data-from-hadoop-cluster-directly-to-HSQLDB--tp34667957p34667957.html
+Sent from the HSQLDB - User mailing list archive at Nabble.com.
+
+
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://p.sf.net/sfu/appdyn_d2d_nov
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

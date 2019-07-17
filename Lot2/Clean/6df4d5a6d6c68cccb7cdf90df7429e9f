@@ -1,0 +1,105 @@
+Subject:Re: Firefox en Deian 6
+On Wed, 26 Sep 2012 19:02:21 -0300, Debian GMail wrote:
+> El 26/09/12 17:56, luis@ida.cu escribió:
+>> On Wed, 26 Sep 2012 15:19:28 -0300, Debian GMail wrote:
+>>> El 26/09/12 14:52, Carlos Zuniga escribió:
+>>>> 2012/9/26<luis@ida.cu>:
+>>>>> Hola a todos, una gran duda
+>>>>>
+>>>>> Para instalar por ej firefox desde internet y se actualice 
+>>>>> después de
+>>>>> instalado y se puedan añadir los plugins cómo es la cosa???
+>>>>>
+>>>>> Hay que modificar el sources.list para firefox ??? hace tiempo 
+>>>>> tengo
+>>>>> esa
+>>>>> duda y sobre todo porque cuando estoy en el no puedo añadir 
+>>>>> plugins
+>>>>>
+>>>>> yo normalmente lo que hago es descargarlo, lo descompacto en una
+>>>>> carpeta por
+>>>>> ej en /opt y listo. pero lo justo es que uno haga
+>>>>>
+>>>>> # apt-get install firefox algo así y despues el solo se actualice 
+>>>>> o uno
+>>>>> mismo le de update y lo haga.
+>>>>
+>>>> En Debian Firefox se encuentra renombrado a Iceweasel por 
+>>>> problemas de
+>>>> trademarks. Así que instala ese paquete y listo.
+>>>>
+>>>>>
+>>>>> Por ej después d eresolver esto una cosa fundamental agregar un
+>>>>> pligin de
+>>>>> acelerador de descargas para descargar las cosas.
+>>>>>
+>>>>> Alguna idea ??
+>>>>
+>>>> `apt-cache search download accelerator` bota un par de resultados,
+>>>> sino siempre tienes wget
+>>>>
+>>>> Saludos
+>>>
+>>>
+>>> O sea: NO instales Firefox, Thunderbird o Sunbird/Lightning.
+>>>
+>>> Los mismos, en Debian, poseen otros nombres, por problemas de que 
+>>> el
+>>> nombre Firefox no es GPL y otras yerbas.
+>>> Para instalar lo mismo, y olvidarse del tema de actualizaciones y
+>>> demás, haz
+>>>
+>>> # apt-get install iceweasel iceweasel-l10n-es-es icedove
+>>> icedove-l10n-es-es iceowl iceowl-extension iceowl-l10n-es-es
+>>>
+>>> Es exactamente lo mismo de Mozilla, pero mantenido por al gente de
+>>> Debian.
+>>> Casi todos los complementos de Mozilla funcionan sobre ellos.
+>>>
+>>> JAP
+>>
+>> ok Javier lo probaré gracias, déjame preguntarte algo, no tengo que
+>> hacer nada en los sources.list para instalar iceweasel y sus plugins 
+>> ???
+>> es mi duda ya el comando para instalar lo haré pero antes necesito 
+>> saber
+>> si tengo que modificar el sources.list para algo específico del 
+>> iceweasel
+>>
+>> Gracias a ti y a todos los que me han escrito, muy agradecido y nada
+>> aprendiendo y tomando buenos consejos de los que saben, pues voy 
+>> poquito
+>> a poco y le he tomado el gusto a Linux
+>>
+>>
+>
+> No, icewease, icedove y iceowl están en los repositorios estándar de 
+> Debian.
+> Cuando quieras agregar un complemento ("plugin"), lo haces desde el
+> menú "Herramientas" del mismo programa, y te enlaza a los 
+> repositorios
+> de complementos de Mozilla.
+>
+> JAP
+
+Javier esto me dió problemas
+
+Me da esto:
+test@lsp:/home/luis# apt-get install iceweasel iceweasel-l10n-es-es 
+icedove icedove-l10n-es-es iceowl iceowl-extension iceowl-l10n-es-es
+Leyendo lista de paquetes... Hecho
+apt-get: symbol lookup error: /usr/lib/libapt-pkg.so.4.10: undefined 
+symbol: _Z11ReadPinFileR9pkgPmlicySs
+
+Ahh el Iceweacel yo lo tengo desinstalado probé instalar con el comando 
+pero no lo hizo
+
+Saludos
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/7b3ecb5a042180f6c8e931756fad6dc4@ida.cu
+

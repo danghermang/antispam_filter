@@ -1,0 +1,37 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+El Sun, 23 Sep 2012 21:33:47 +0200, Angel Vicente escribió:
+
+> On Sun, Sep 23, 2012 at 05:21:28PM +0000, Camaleón wrote:
+
+(...)
+ 
+>> Moraleja: cuando se vaya a compilar un kernel "vanilla" manualmente y
+>> para evitar problemas con los paquetes que se incluyen en Debian,
+>> conviene usar la opción de "localmodconfig" que toma los valores del
+>> archivo de configuración del kernel de Debian y además añade todos los
+>> módulos que se encuentren cargados en el momento de la compilación.
+> 
+> Claro, por eso tengo varios, ahora tengo tres versiones compiladas por
+> mi con experimentos con las opciones del compilador, retirando
+> capacidades (bus ISA) añadiendo soporte bluetooth para mas experimentos,
+> y tambien tengo instalados cuatro nucleos que llamo de "stock",
+> instalados desde los repositorios. Ahora estoy seguro que los nucleos de
+> "stock", al menos en su ultima version no estarian afectado por el tema
+> del unix.ko
+
+Sí, yo también tengo dos kernels adicionales compilados "amanuense": uno 
+descargado desde las fuentes de Debian y otro desde kernel.org, pero en 
+ambos utilicé la opción del "localmodconfig" para compilarlos, así que 
+efectivamente no he tenido ese problema.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3pn2n$e50$2@ger.gmane.org
+

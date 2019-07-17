@@ -1,0 +1,46 @@
+Subject:Re: [Hsqldb-user] Re g: Text field in postgres to varchar in hsqldb
+No memory or disk space is wasted. The size is simply the limit.
+
+Fred
+
+On Sun, Sep 16, 2012, at 15:53, Sandeep Samudrala wrote:
+> 
+> Hi,
+> I have a table in Postgres which I am moving to hsqldb. I have a text
+> field
+> in that table. I changed its type to varchar in hsqldb.
+> But that particular field can range from 0 to 3 to 30 to even 50,000. 
+> I put the field as varchar (50000) but a lot of memory is wasted because
+> of
+> this. 
+> Is there a way to get through this with less memory wastage?
+> 
+> thanks in advance,
+> -sandeep.
+> -- 
+> View this message in context:
+> http://old.nabble.com/Reg%3A-Text-field--in-postgres-to-varchar-in-hsqldb-tp34439208p34439208.html
+> Sent from the HSQLDB - User mailing list archive at Nabble.com.
+> 
+> 
+> ------------------------------------------------------------------------------
+> Everyone hates slow websites. So do we.
+> Make your web apps faster with AppDynamics
+> Download AppDynamics Lite for free today:
+> http://ad.doubleclick.net/clk;258768047;13503038;j?
+> http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://ad.doubleclick.net/clk;258768047;13503038;j?
+http://info.appdynamics.com/FreeJavaPerformanceDownload.html
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

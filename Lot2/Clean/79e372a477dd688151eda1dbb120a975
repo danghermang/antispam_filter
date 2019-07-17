@@ -1,0 +1,88 @@
+Subject:Re: [Jukebox-list] manually turn record changer
+The W1700 mech operates=A0basically the same as the W2304 that's being =0Ad=
+iscussed.=A0=A0=A0 If the mech is in the "at rest" position, manually spinn=
+ing the =0Amech motor shaft should clockwise-turn the record basket.=A0 Abo=
+ve the pinbank =0Aunit, at the base of the record changer, you'll see a cra=
+nk arm that rotates =0Aabove the 104 selector pins.=A0 When a selected pin =
+interrupts rotation of the =0Acrank arm,=A0the "stop" tension on the crank =
+arm shifts the cam action, trips the =0Astop microswitch(es) and trips the =
+transfer switch.=A0 Tripping the transfer =0Aswitch reverses the 24volts DC=
+ to the mech motor causing it to reverse it's =0Arotation.=A0=A0 Reverse ro=
+tation of the motor/main cam activates the record lift arm =0Afor the selec=
+ted pin. Later model carousel jukes (W2700 going forward) use 24 =0Avolt AC=
+ motors to run the record changer. Electrical power to the changer motor =
+=0Aand switching differs on these later models,compared to the earlier ones=
+.=0A=0AIf the mech is stopped in the record play position (one lift arm sho=
+uld be up to =0Athe TT--the other lift arm should be pushed up against a se=
+parator in the record =0Abasket)=A0 the mech motor begins in it's reverse r=
+otation to lower the lift arms. =0AMotor direction reverses (transfer switc=
+h is flipped) to the forward rotation =0A--record basket will then spin,sea=
+rching for the next selection.=0A=0AThis is a very simplified description o=
+f how the Wurlitzer carousel record =0Achanger cycles.=A0Clear as mud,right=
+? =A0Any of the Wurlitzer service manuals =0Adescribes the operation sequen=
+ce, with photos, in detail.=A0=A0 Juke models 1700 =0Athrough 3300 used the=
+ carousel changer.=A0=A0 You'll probably=A0obtain the most =0Adetailed of c=
+hanger descriptions in the 1700 manual, as this was a =0Abrand-new=A0player=
+ design for that model year.=A0=A0In my opinion,writers of the =0AWurlitzer=
+ repair manuals tended to explain things in greater detail when a new =0Apr=
+oduct technology, mechanicals, etc were first being rolled out in a jukebox=
+ =0Amodel.=A0=A0 In later editions the manual writers were searching for an=
+ "economy of =0Awords" to describe detailed processes that got covered in e=
+arlier books.=0A=0AHope this helps,=0A=0AJim Alexander=A0=A0=A0=A0=A0=A0=A0=
+=A0=0A=0A=0A=0A=0A________________________________=0AFrom: BSAKing <BSAKing=
+@hotmail.com>=0ATo: Jukebox mailing list <jukebox-list@lists.netlojix.com>=
+=0ASent: Sun, October 21, 2012 2:33:48 PM=0ASubject: Re: [Jukebox-list] man=
+ually turn record changer=0A=0AGreetngs.=0A=0AI was wondering if you could =
+tell me if the same basic approach could be=0Aapplied to a Wurly 1700 HF th=
+at I have here? I got the mechanism badly=0Amessed up and out of synch tryi=
+ng to fix an issue. I think the motor is at=0Aodds with the mechanism direc=
+tion somehow.=0A=0Athanks...=0A=0A=0A=0A=0ABruce.... =0A-------Original Mes=
+sage------- =0A=0AFrom: James Alexander =0ADate: 10/21/2012 2:14:53 PM =0AT=
+o: Jukebox mailing list =0ASubject: Re: [Jukebox-list] manually turn record=
+ changer =0A=0ASteve: =0A=0AYes you can step through an entire change cycle=
+ by turning the knurled nut=0Aat =0Athe rear of the changer motor. When the=
+ crank arm is stopped by a raised =0Aselector pin, the motor reverses direc=
+tion which begins the lift arm=0Aoperation. =0AYou need to read the full de=
+scription of how the change cycle operates in=0Ayour =0Aservice manual. At =
+the time the crank arm is stopped by a selector pin,=0Athere =0Aare both el=
+ectrical and mechanical "switches" that take place to make that =0Ahappen. =
+Too lengthy to describe here in detail. You can manually operate the=0A=0Af=
+ull change cycle without actually applying power to the motor but you will=
+=0Aneed =0Ato fully replicate the entire change cycle process. It is a posi=
+tive first=0Astep =0Athat you can clockwise-rotate the record basket this w=
+ay. =0A=0A=0AJim Alexander =0A=0A=0A=0A________________________________ =0A=
+From: Stephen Andrews <fenwaysteve@gmail.com> =0ATo: Jukebox mailing list <=
+jukebox-list@lists.netlojix.com> =0ASent: Sun, October 21, 2012 1:28:10 PM =
+=0ASubject: Re: [Jukebox-list] manually turn record changer =0A=0Athanks fo=
+r the reply , i did spin that nut on back of the pinion motor it =0Aspun ni=
+ce and smooth and rotated the record basket but that was all ? =0A=0AOn Sun=
+, Oct 21, 2012 at 1:20 PM, Ron Rich <ronnnrich@yahoo.com> wrote: =0A=0A> Ye=
+p--there is a "knurled nut" on the rear of the scan/load motor for just =0A=
+> that-- =0A> Ron Rich =0A> =0A> --- On Sun, 10/21/12, Stephen Andrews <fen=
+waysteve@gmail.com> wrote: =0A> =0A> From: Stephen Andrews <fenwaysteve@gma=
+il.com> =0A> Subject: [Jukebox-list] manually turn record changer =0A> To: =
+jukebox-list@lists.netlojix.com =0A> Date: Sunday, October 21, 2012, 10:10 =
+AM =0A> =0A> hi, is it possible to manually turn record changer to simulate=
+ it working =0A> or picking up a record were the arms come up and then retr=
+act or i guess =0A> make the record changer go through the motions ? its a =
+w2304s juke . thank=0A=0A> you =0A> _______________________________________=
+________ =0A> Jukebox-list mailing list =0A> Jukebox-list@lists.netlojix.co=
+m =0A> http://lists.netlojix.com/mailman/listinfo/jukebox-list =0A> Searcha=
+ble Archives: http://jukebox.markmail.org/ =0A> ___________________________=
+____________________ =0A> Jukebox-list mailing list =0A> Jukebox-list@lists=
+.netlojix.com =0A> http://lists.netlojix.com/mailman/listinfo/jukebox-list =
+=0A> Searchable Archives: http://jukebox.markmail.org/ =0A> =0A____________=
+___________________________________ =0AJukebox-list mailing list =0AJukebox=
+-list@lists.netlojix.com =0Ahttp://lists.netlojix.com/mailman/listinfo/juke=
+box-list =0ASearchable Archives: http://jukebox.markmail.org/ =0A=0A_______=
+________________________________________ =0AJukebox-list mailing list =0AJu=
+kebox-list@lists.netlojix.com =0Ahttp://lists.netlojix.com/mailman/listinfo=
+/jukebox-list =0ASearchable Archives: http://jukebox.markmail.org/ =0A=0A__=
+_____________________________________________=0AJukebox-list mailing list=
+=0AJukebox-list@lists.netlojix.com=0Ahttp://lists.netlojix.com/mailman/list=
+info/jukebox-list=0ASearchable Archives: http://jukebox.markmail.org/=0A
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

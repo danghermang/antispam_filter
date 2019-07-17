@@ -1,0 +1,81 @@
+Subject:Re: Compartir disco entre Linux y Windows
+El 29/09/12 14:51, Cristian Prado escribió:
+> Hola A todos
+> En una compu puse linux y windows
+> en un primer disco rigido.
+> Cuando arranca la maquina desde el grub
+> elijo si entrar en Linux o Windows.
+>
+> Ahora bien agregue otro disco rigido de
+> baja capacidad para compartir archivos
+> entre los dos sistemas operativos.
+>
+> He leido y visto muchos tutoriales de
+> samba pero este siempre se refiere a 2
+> maquinas prendidas (win y lin) que
+> comparten una carpeta determinada.
+>
+> No es mi problema este, sino que cada
+> sistema operativo que este activo en
+> un determinado momento, vea el disco
+> con los archivos compartidos.
+>
+> Algun tutorial que explique mi problema ?
+> Gracias de antemano
+> Cristian
+
+¿Para qué complicarse tanto la vida con otro disco, que puede ser más 
+útil como disco de resguardo automatizado?
+
+1) Desde GNU/Linux:
+
+1.1 Instala ntfs-3g
+# apg-get install ntfs-3g
+
+1.2 Edita /etc/fstab y añade esto (es todo una sola línea)
+
+UUID=44ECAA27ECAA136A /media/ntfs ntfs-3g 
+force,rw,users,auto,utf8,umask=0 0 0
+
+El número que va luego de UUID lo obtienes con blkid, que te indica cuál 
+es la partición NTFS.
+
+# blkid
+/dev/sdb1: LABEL="WINXP" UUID="44ECAA27ECAA136A" TYPE="ntfs"
+/dev/sdb2: UUID="692a05f6-5846-4a1e-9e7c-f6667e94c1ec" TYPE="ext4"
+/dev/sda1: UUID="11fe635f-63c0-4010-9d3c-61c608475c41" TYPE="ext4"
+/dev/sda2: UUID="3e4a1d01-9c56-4f8e-a109-881efa51da91" TYPE="ext4"
+/dev/sda3: UUID="f5633481-7a92-4074-8662-d2c29e641a26" TYPE="swap"
+
+Esto te permitirá acceder desde GNU/Linux a tu disco NTFS.
+
+
+2) Desde Windows
+
+Instala ext2fsd:
+
+http://www.ext2fsd.com/
+
+Esto te permitirá acceder desde Windows a las particiones ext3/4.
+
+JAP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506742A8.6050104@gmail.com
+

@@ -1,0 +1,33 @@
+Subject:AWStats avec Apache2
+Bonjour,
+
+Je suis en train d'installer AWStats pour avoir les stats de
+connexions d'un serveur Apache et j'ai une petite difficulté pour
+l'accès aux logs par awstats.
+
+le fichier README.Debian indique bien d'éditer
+/etc/logrotate.d/apache2 pour que www-data:www-data ait accès en
+lecture aux logs actuellement en permission 640 et propriété root:adm.
+Une bonne solution serait d'ajouter des ACL mais je ne sais pas trop
+si c'est possible dans ce fichier de conf.  Sinon les solutions
+seraient de mettre les permissions 644 ou d'affecter ces logs au
+groupe www-data sans trop connaître les conséquences.
+
+Pour les férus de sécurité, quelle est la solution la meilleure ou à
+défaut, la moins permissive ?  Sachant qu'il s'agit d'un VPS a priori
+sans utilisateur « irresponsable ».
+ 
+Merci de vos lumières.
+
+dom
+-- 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121013102659.GA2218@telecom-paristech.fr
+

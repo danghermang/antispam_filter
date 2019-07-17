@@ -1,0 +1,63 @@
+Subject:Re: PC =?utf-8?q?=C3=A9teint_qui?= consomme
+Le vendredi 2 novembre 2012 =C3=A0 17:27:28, Fran=C3=A7ois Boisson a =C3=A9=
+crit=20
+:
+>[=E2=80=A6]
+> > Pt=C3=AAt un truc: un watch/une loop toutes les secondes du hard
+> > (genre hwinfo, ou autre parce que celui-ci est lent) qui
+> > balance le r=C3=A9sultat dans un fichier; =C3=A7a peut pt=C3=AAt t'aider
+> > =C3=A0 trouver ce qui n'est pas arr=C3=AAt=C3=A9.
+>=20
+> Mais la machine ne tourne pas, que veux tu voir dans ce
+> fichier?? C'est un =C2=ABshutdown=C2=BB pas une hibernation.
+
+  Et quand bien m=C3=AAme, dans une veille, tout est arr=C3=AAt=C3=A9 sauf=
+=20
+l=E2=80=99alimentation de la RAM. =C3=87a veut dire que le CPU n=E2=80=99ef=
+fectue=20
+plus aucune instruction. Il ne se passe rien.
+  Voir=20
+http://fr.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface=20
+pour la liste des =C3=A9tats _ACPI_ globaux (G1/S3), ceux d=E2=80=99un CPU=
+=20
+(C1 & C2) et ceux des p=C3=A9riph=C3=A9riques (D1 =C3=A0 D3).
+
+  Il se peut que ce soient certains p=C3=A9riph=C3=A9riques qui ne passent=
+=20
+pas en D3 (=C3=A9teint) mais restent en D[0-2]. Sauf que, comme tu=20
+l=E2=80=99as dit, c=E2=80=99est difficile de v=C3=A9rifier qui bouffe du co=
+urant sans=20
+avoir un mat=C3=A9riel sp=C3=A9cial et une bonne connaissance des flux=20
+dans le bouzin.
+
+  J=E2=80=99aurais aussi tendance =C3=A0 dire que c=E2=80=99est le noyau (n=
+otamment=20
+si, comme je crois me souvenir que tu l=E2=80=99as dit, la consommation=20
+d=E2=80=99=C3=A9negie correspond =C3=A0 celle d=E2=80=99une veille suspend2=
+ram : c=E2=80=99est =20
+alors le CPU qui n=E2=80=99est pas pass=C3=A9 en C3). Et j=E2=80=99ai donc =
+un peu de=20
+mal =C3=A0 voir comment =C3=A7a peut ne pas =C3=AAtre seulement un probl=C3=
+=A8me=20
+dans le noyau=E2=80=A6 mais tes tests semblent prouver le contraire=C2=B9=
+=E2=80=A6
+
+ =C2=B9 : euh, tu as bien essay=C3=A9 le noyau de =C2=AB la Ubuntu qui marc=
+he =C2=BB=20
+(et seulement lui) dans =C2=AB la Debian qui marche pas =C2=BB, hein ?
+(Je demande parce que, =C3=A0 force de faire des tests, parfois, on=20
+en loupe un et, Murphy aidant, c=E2=80=99est souvent le =C2=AB bon =C2=BB=
+=E2=80=A6)
+
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211021826.35020.Sylvain.L.Sauvage@free.fr
+

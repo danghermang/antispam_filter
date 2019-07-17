@@ -1,0 +1,30 @@
+Subject:Re: [squeeze] =?utf-8?Q?ex=C3=A9cuter_des_?=
+	=?utf-8?Q?commandes_avec_droits_root_=28hypoth=C3=A8se?= sudo)
+
+    Bonjour,
+
+
+Le samedi 03 novembre 2012, Grégory Bulot a écrit...
+
+
+> Sissi(c) ils le sont conformément à ce qui est décrit dans la procédure
+> citée dans mon post initial 
+
+Désolé, je n'ai pas lu le document. Quels sont les droits du fichier qui
+est dans sudoers.d/ ? Si il n'est pas en 440, mets le en 440 et
+ré-essaie. J'ai eu le cas dernièrement avec un collègue root sur une
+de nos machines ayant édité un fichier identique avec les mauvais
+droits.
+
+-- 
+jm
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121103100239.GD8698@espinasse
+

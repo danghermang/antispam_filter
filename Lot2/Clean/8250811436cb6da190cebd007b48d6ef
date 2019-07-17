@@ -1,0 +1,54 @@
+Subject:Re: Acceder a mi Linux desde windows
+El mié, 10-10-2012 a las 18:04 +0200, Cristian Prado escribió: 
+> Hola Gonzalo
+> Soy medio novato en esto.
+> Algun tutorial que explique como implementar esto ?
+> Gracias !!!
+> 
+acordarte de responder a la lista, y no hacer top-posting.
+
+Hace como un millón de años que no lo uso, pero era tan sencillo como
+instalar xming con siguiente-siguiente-siguiente
+Eso te deja un servidor X en win que tenés que ejecutar para que los
+clientes (p.e. xterm, iceweasel o lo que sea que necesites ejecutar) de
+tu linux tengan donde dibujar sus ventanas.
+El putty es solo un ejecutable, así que no hay ni que instalar, y antes
+de entrar hay que asegurarse que la opción Enable X11 forwarding (en
+Connection -> ssh -> X11) esté tildada. Entonces es como hacer ssh -X en
+cualquier *nix
+
+Seguramente en el sitio encontrás documentación, pero otra vez, en su
+momento me alcanzó con la prueba y error
+---
+
+> El 10 de octubre de 2012 17:49, Gonzalo Rivero
+> <fishfromsalta@gmail.com> escribió:
+>         El mié, 10-10-2012 a las 17:36 +0200, Cristian Prado
+>         escribió: 
+>         > Hola a todos
+>         > Tengo que acceder (Remote Desk) al linux de casa con la
+>         compu
+>         > del trabajo (windows 7) que programa me recomiendan ?
+>         > Lei que se puede hacer con VNC pero tengo entendido
+>         > que no es muy seguro.
+>         > Gracias por las respuestas
+>         
+>         
+>         xming + putty
+>         --
+>         (-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+>         
+>         
+
+
+
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349885922.2492.34.camel@EeePC.ucasal.ar
+

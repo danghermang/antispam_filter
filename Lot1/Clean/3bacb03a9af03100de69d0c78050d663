@@ -1,0 +1,85 @@
+Subject:Re: error al actualizar de inteernet el debian 6 multimedia
+2012/9/25  <luis@ida.cu>:
+> Hola a todos me sucede esto cuando doy apt-get update para actualizar mi
+> debian y en la multimedia me da este error:
+>
+>
+> Err http://www.debian-multimedia.org squeeze/main Sources
+>   404  Not Found
+> Err http://www.debian-multimedia.org squeeze/non-free Sources
+>   404  Not Found
+> Err http://www.debian-multimedia.org squeeze/main i386 Packages
+>   404  Not Found
+> Err http://www.debian-multimedia.org squeeze/non-free i386 Packages
+>   404  Not Found
+> Obj http://ftp.us.debian.org/debian/ squeeze-proposed-updates/contrib
+> Translation-en
+> Ign http://ftp.us.debian.org/debian/ squeeze-proposed-updates/contrib
+> Translation-es
+> Obj http://ftp.us.debian.org/debian/ squeeze-proposed-updates/main
+> Translation-en
+> Ign http://ftp.us.debian.org/debian/ squeeze-proposed-updates/main
+> Translation-es
+> Obj http://ftp.us.debian.org/debian/ squeeze-proposed-updates/non-free
+> Translation-en
+> Ign http://ftp.us.debian.org/debian/ squeeze-proposed-updates/non-free
+> Translation-es
+> Obj http://ftp.us.debian.org squeeze Release
+> 99% [Conectando a ftp.us.debian.org (35.9.37.225)]
+> Obj http://ftp.us.debian.org squeeze-proposed-updates/non-free
+> Sources/DiffIndex
+> Obj http://ftp.us.debian.org squeeze-proposed-updates/main i386
+> Packages/DiffIndex
+> Obj http://ftp.us.debian.org squeeze-proposed-updates/contrib i386
+> Packages/DiffIndex
+> Obj http://ftp.us.debian.org squeeze-proposed-updates/non-free i386
+> Packages/DiffIndex
+> Descargados 199 B en 1min. 5seg. (3 B/s)
+> W: Error de GPG: http://www.debian-multimedia.org sid Release: Las firmas
+> siguientes no se pudieron verificar porque su llave p=FAblica no est=E1
+> disponible: NO_PUBKEY 07DC563D1F41B907
+> W: Imposible obtener
+> http://www.debian-multimedia.org/dists/squeeze/main/source/Sources.gz  40=
+4
+> Not Found
+>
+> W: Imposible obtener
+> http://www.debian-multimedia.org/dists/squeeze/non-free/source/Sources.gz
+> 404  Not Found
+>
+> W: Imposible obtener
+> http://www.debian-multimedia.org/dists/squeeze/main/binary-i386/Packages.=
+gz
+> 404  Not Found
+>
+> W: Imposible obtener
+> http://www.debian-multimedia.org/dists/squeeze/non-free/binary-i386/Packa=
+ges.gz
+> 404  Not Found
+>
+>
+> Alguna idea ??? agradezco cualquier ayuda, pues quizas este mal mi
+> sources.list
+>
+> Lo tengo asi:
+>
+> #MULTIMEDIA
+> deb http://www.debian-multimedia.org squeeze main non-free
+> deb-src http://www.debian-multimedia.org squeeze main non-free
+> deb http://www.debian-multimedia.org sid main non-free
+> ## apt-get install debian-multimedia-keyring
+>
+
+Ya cambio de nombre, ahora se llama as=ED:
+http://deb-multimedia.org/
+
+Actualiza e instala el paquete deb-multimedia-keyring
+Saludos.
+Marcos Delgado.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAB_R4cU90hx+NV_bXn+Xfp+VCnA8dOsRBCb8-s9GGF+eMiu_Tw@mail.gmail.com
+

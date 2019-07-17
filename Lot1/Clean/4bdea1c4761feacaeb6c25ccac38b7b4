@@ -1,0 +1,25 @@
+Subject:Re: [Flexradio] Power SDR on a Mac
+On Tue, Nov 13, 2012 at 9:46 AM, Carsten Esch <carsten.esch@appello.de>wrote:
+
+> ... the Mac mini has FireWire 800 ...
+>
+
+So you need to get a 1394b (800) to 1394a (400) cable. I have used the Mac
+Mini with the Flex radios without any problems. In fact, they are a good
+match. You can set the Mini right on top of the 5000 or 3000 and get a
+really short bonding cable between them to greatly reduce the possibility
+of RFI problems.
+
+-- 
+Brian Lloyd, WB6RQN/J79BPL
+3191 Western Dr.
+Cameron Park, CA 95682
+brian@lloyd.com
++1.767.617.1365 (Dominica)
++1.916.877.5067 (USA)
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

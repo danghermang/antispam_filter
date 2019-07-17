@@ -1,0 +1,39 @@
+Subject:Non delivery report: 5.9.7 (Blocked message)
+Your message
+
+ From:	Today Ciliaas <xxx@xxxxxxx.xxx>
+
+ To:	yhuunog9310@560benefitfunds.com
+
+ Subj:	Christmas sales
+ Sent:	2012-12-10 08:57
+
+has encountered a delivery problem.
+
+
+Reason: Blocked message
+One of the words in the message is blocked.
+For security reasons the message was not delivered to the recipient.
+
+Additional info:
+The blocked string is: "Cialis"
+The line is: Levitra - 1.51$ -- Cialis - 1.77$ -- Viagr
+
+
+
+
+
+
+
+---
+Delivery status:
+Date: Mon, 10 Dec 2012 09:56:31 -0500
+Reporting-MTA: dns; mail.560benefitfunds.com
+Received-From-MTA: dns; 190.115.186.225
+Arrival-Date: Mon, 10 Dec 2012 09:56:31 -0500
+
+Final-Recipient: rfc822; yhuunog9310@560benefitfunds.com
+Action: failed
+Status: 5.9.7
+Diagnostic-Code: X-XWall; 5.9.7 Blocked message
+

@@ -1,0 +1,92 @@
+Subject:Re: favicon.ico no se muestra en apache2
+El Thu, 15 Nov 2012 12:26:51 +0100, Jorge escribió:
+
+> On 14/11/2012 15:56, Camaleón wrote:
+
+(...)
+
+>> Vale, el archivo gráfico (favicon.ico) existe pero tendrás que
+>> referenciarlo en las páginas html porque si no automáticamente no se
+>> carga (a no ser que uses alguna característica del servidor web que lo
+>> añada "virtualmente" a todas las páginas html).
+> 
+> Pero si quito la autenticación (AutUser ...) y entro a la web sin
+> certificado (http://...) si que me sale el favicon.ico (tanto en IE como
+> FF) sin necesidad de introducir nada en las páginas html. Según tengo
+> entendido si colocas favicon.ico en el raíz y con ese nombre, el
+> servidor apache automáticamente lo reconoce y lo aplica, ... y en mi
+> caso sí que es así, pero como digo sólo para http sin autenticación de
+> directorio.
+
+Pues no sé... Tenía entendido que eran los clientes (navegador web) los 
+que solicitan el archivo pero no sabía que aún lo siguieran haciendo 
+porque no tiene mucho sentido estar solicitando un archivo que a) puede 
+que no exista y b) puede estar ubicado en cualquier otra ruta :-?
+
+>> Puedes usar un enlace relativo en lugar de absoluto:
+>>
+>> <link rel="shortcut icon" href="favicon.ico" />
+>>
+>>
+> Mismo resultado con ruta relativa.
+
+Era sólo un "tip" para que no tuvieras que editar las páginas que se 
+encuentran bajo https:// y las que no lo están (al usar una ruta relativa 
+te ahorras tener que editar el «href="https://example.com/favicon.ico"» y 
+el «href="http://example.com/favicon.ico"»)
+
+>>> ¿Cómo consigo que se muestre siempre? (Espero haberme explicado bien,
+>>> si no es así consultadme, por favor) Gracias.
+>>
+>> Normalmente, las páginas bajo cifrado (https://) se ubican fuera
+>> ("separadas") de la raíz de las páginas que se sirven sin cifrar, por
+>> seguridad. Si es este tu caso, tendrás que poner el archivo favicon.ico
+>> en ambas rutas para que sea visible en ambos entornos.
+>>
+>>
+> Pongo el favicon.ico en /var/www/www.example.com/htdocs/ (este es un
+> dominio de pruebas común tanto para http como para https) Junto
+> favicon.ico hay un index.html que no tiene nada más que un 'hola mundo'
+
+O sea, que compartes ambos directorios ¿no?
+
+> Este es el fichero de configuración del virtual host, por si es el
+> problema está ahí:
+
+(...)
+
+A simple vista no veo nada raro pero puedes probar lo siguiente: 
+
+1/ Prueba A. Crea dos páginas html, una sin referencia alguna al 
+favicon.ico en su código y la otra forzando la carga del favicon mediante 
+html y carga las dos a través del https://.
+
+2/ Prueba B. Fuerza la carga del favicon.ico accediendo directamente a su 
+ruta "https://www.example.com/favicon.ico".
+
+Se me ocurre que quizá los navegadores no soliciten "automáticamente" el 
+favicon.ico en las páginas que usen cifrado para no (mal)gastar ancho de 
+banda, pero es sólo una teoría ya que el hecho de que no aparezca 
+registrado en el log del servidor web me hace pensar que es el cliente el 
+que no lo solicita porque:
+
+1/ Si lo pide y el archivo no existe (o está en una ruta incorrecta o 
+inaccesible para el apache) quedaría registrado el error.
+
+2/ Si lo pide y el archivo existe quedaría registrado igualmente.
+
+Pero si no hay rastro del "favicon.ico" en los logs es que algo pasa... 
+haz un "grep -i favicon /var/www/www.example.com/logs/error*" a ver si 
+salta algo.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k831rr$vma$3@ger.gmane.org
+

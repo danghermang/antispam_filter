@@ -1,0 +1,63 @@
+Subject:Re: Como hacer backups "sencillos" programados ?
+Hola...
+
+El 08/11/12 23:24, Gonzalo Rivero escribi�:
+> El jue, 08-11-2012 a las 23:55 +0100, Ramses escribió:
+>> El 08/11/2012, a las 17:42, Gonzalo Rivero<fishfromsalta@gmail.com>  escribió:
+>>
+>>>> (...)
+>>>>
+>>>
+>>> yo los hago con rsync en un cron
+>>
+>> Una duda:
+>>
+>> Si estamos sincronizando, por ejemplo, "/var/lib/mysql/", donde las bases de datos están continuamente cambiando, ¿cada vez que se hace un cambio en la base de datos se copia esta entera o la parte del fichero que ha cambiado concretamente?.
+>>
+>>
+> la tabla entera (juraría que se guarda cada tabla en archivos
+> diferentes). Si vas a hacer copia de los binarios de las bases te
+> conviene bajar mysql antes, para que no cambie nada
+
+15 minutos antes del rsync en el cron, corro un script que me respalda 
+las bases de datos de mysql.
+
+Algo as�:
+
+---------------------------------------------------------------------
+#! /bin/bash
+#
+# hace un backup de todas las bases de datos de mysql de svrsw
+#
+
+DATE=`date +%G%m%d%H%M%S`
+via=/home/wodari/backupsMysql/
+file=${HOSTNAME}_${DATE}_
+
+for basename in cliente1 cliente2 cliente3 cliente4 cliente5 cliente6 
+cliente7 cliente8 cliente9 cliente10 clienten
+do
+     echo .
+     echo ..
+     echo ...
+     echo Copiando $basename...
+     mysqldump -v --add-drop-table --lock-tables --databases 
+--user=******** --password=************ $basename > $via$file$basename.sql
+     echo ... terminado $basename
+     echo ..
+     echo .
+     echo
+done
+---------------------------------------------------------------------
+
+Saludos,
+Walter
+
+http://swcomputacion.com/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509C7424.3070508@gmail.com
+

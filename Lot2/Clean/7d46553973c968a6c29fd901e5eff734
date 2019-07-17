@@ -1,0 +1,67 @@
+Subject:Re: Partition racine choisie par os-prober
+Bon, comme j'ai trouvé la solution, je la poste ici.
+
+Le mercredi 14 novembre 2012 22:19:17, Eddy F. a écrit :
+[...]
+> Bon il restera au moins un problème : le grub de la wheezy copiée.
+> Je comptais le régler après avoir démarré sur la copie en y
+> supprimant simplement le paquet grup-pc-bin et en laissant le grub
+> de la wheezy originale tout gérer via os-prober.
+> 
+> Donc premier objectif : démarrer la copie.
+> 
+> Dans l'original, je lance un update-grub. Il détecte bien une
+> entrée pour wheezy sur sda7. Mais, quand je lance cette entrée,
+> c'est bien la wheezy originale qui est lancée (en tout cas, la
+> racine est bien sur sda1 et sda8 n'est pas montée).
+> 
+> Un regard dans /boot/grub/grub.cfg montre ceci :
+> 
+>  menuentry "Debian GNU/Linux, avec Linux 3.2.0-3-amd64 (on
+> /dev/sda7)" --class gnu-linux --class gnu --class os {
+>         insmod part_msdos
+>         insmod ext2
+>         set root='(hd0,msdos7)'
+>         search --no-floppy --fs-uuid --set=root d7fa1308-a028-4a30-
+> b29e-4597c6bf10c9
+>         linux /boot/vmlinuz-3.2.0-3-amd64
+> root=UUID=30bee6e2-5e2f-44e5-9eff-6e74baf117ca ro quiet
+>         initrd /boot/initrd.img-3.2.0-3-amd64
+> 
+> où la ligne root=UUID=30bee... correspond en effet à sda1 au lieu
+> de sda7.
+> 
+> D'ailleurs, si au démarrage de grub j'édite la ligne sda7 et y
+> remplace 30bee... par d7fa... alors je parviens bien à démarrer la
+> wheezy copiée.
+[...]
+
+J'ai démarré la copie sur sda7 en éditant l'entrée à l'invite de grub.
+
+Dans cette copie, j'ai réalisé un update-grub (sais pas trop pourquoi) 
+puis j'ai désinstallé grub :
+apt-get purge grub-pc-bin grub-pc grub-common grub2-common
+
+Je ne sais ce qui a résolu le problème (l'update ou la suppression qui 
+a suivi) mais quand je suis retourné dans l'original j'ai réalisé un 
+update-grub et cette fois la copie trouvée est associée à la bonne 
+partition.
+
+Évidemment, je ne comprends pas trop pourquoi. Peut-être qu'en 
+examinant en détail os-prober, on pourrait comprendre mais je ne 
+trouve pas de doc sur os-prober et je ne suis pas sûr d'avoir la 
+compétence d'en examiner les sources.
+
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211151229.20095.edfnet-deb@yahoo.fr
+

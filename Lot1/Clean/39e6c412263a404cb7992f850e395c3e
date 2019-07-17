@@ -1,0 +1,30 @@
+Subject:Re: temps de =?UTF-8?B?csOpcG9uc2U=?= Wifi
+On 24 Nov 2012 21:23:54 GMT
+moi-meme <chiebel@free.fr> wrote:
+
+> Mon PC est reli=C3=A9 par ethernet
+>=20
+> J'ai un Raspberry connect=C3=A9 au m=C3=AAme r=C3=A9seau par Wifi.
+>=20
+> Entre les deux une Freebox V6.
+>=20
+> Les temps de r=C3=A9ponse au ping sont dissym=C3=A9triques :
+
+PB de MTU.
+
+--=20
+<neonoe> =C3=A7a veut dire quoi "lp0 on fire" ?
+<Naha>   que ton imprimante br=C3=BBle
+<neonoe> ah ok
+<neonoe> effectivement
+<neonoe> merde...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121124225600.5d1a8a7c@anubis.defcon1
+

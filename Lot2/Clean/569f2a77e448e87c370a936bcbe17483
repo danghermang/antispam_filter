@@ -1,0 +1,45 @@
+Subject:Apt-mirror et "Le fichier =?ISO-8859-1?B?qw==?= Release
+	=?ISO-8859-1?B?uw==?= a =?ISO-8859-1?B?ZXhwaXLpIg==?=
+Bonjour,
+
+J'utilise apt-mirror en interne pour mettre =E0 jour mes serveurs.
+
+Si jamais je ne mets pas =E0 jour le repository, j'obtiens, depuis un
+serveur qui veut se mettre =E0 jour, l'erreur suivante : Le fichier =AB
+Release =BB a expir=E9. Les mises =E0 jour depuis ce d=E9p=F4t ne s'effectu=
+eront
+pas.
+
+Je sais que je peux passer outre en mettant l'option
+"Acquire::Check-Valid-Until=3Dfalse" mais je pr=E9f=E9rerais que le
+repository n'indique pas cette erreur, sous-entendu que sa date
+d'expiration soit modifi=E9e. Savez-vous s'il est possible de faire =E7a ?
+
+Tant que j'y suis, j'ai aussi des erreurs du type :
+Err http://10.44.209.50 wheezy/main Translation-ca
+  404  Not Found
+Err http://10.44.209.50 wheezy/non-free Translation-en
+  404  Not Found
+W: Impossible de r=E9cup=E9rer
+http://10.44.209.50/debian/dists/wheezy/contrib/i18n/Translation-en
+404  Not Found
+W: Impossible de r=E9cup=E9rer
+http://10.44.209.50/debian/dists/wheezy/main/i18n/Translation-fr  404
+Not Found
+[...]
+
+Savez-vous comment je peux corriger cela ?
+
+Merci d'avance.
+
+David.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120917153915.73c4fd31@debian-david
+

@@ -1,0 +1,42 @@
+Subject:Mutt et locales
+Bonjour,
+
+Je n'arrive plus =E0 avoir des locales correctes apr=E9s un upgrade avec Mu=
+tt.
+
+Les =E9 =E0 et =E8 donnent : M-iM-iM-iM-iM-iM-iM-iM-`M-`M-`M-hM-hM-hM-hM-hM=
+=2Dh
+
+
+Voici un extrait de mon .muttrc (il est configur=E9 afin de pouvoir lire le=
+=20
+cyrillique comme le fran=E7ais).
+
+
+set send_charset=3D"us-
+ascii:iso-8859-1:iso-8859-15:windows-1252:iso-8859-5:koi8-r:koi8=20
+u:windows-1251:utf-8"
+
+set locale=3Dfr_FR.UTF-8
+
+set allow_8bit=3Dyes
+
+set charset=3Dfr_FR.UTF-8
+
+
+Une id=E9e ?
+
+
+=2D-
+
+=46r=E9d=E9ric F1sxo
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211090054.31074.zulian@free.fr
+

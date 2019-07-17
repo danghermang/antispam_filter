@@ -1,0 +1,19 @@
+Subject:Re: =?UTF-8?B?aW5zdGFsYWNpw7NuIGRlIHRodW5kZXJiaXJkIHkgbW96aWxsYSA=?=
+	=?UTF-8?B?ZmlyZWZveA==?=
+El 04/11/12 10:18, Camaleón escribió:
+> aunque tengo que iniciar firefox como
+> usuario root para poder actualizarlo (entiendo que si lo hubiera descargado
+> bajo la "/home" del usuario no sería necesario).
+
+chown -R tuusuario:tuusuario 
+/opt/{directorio_firefox,directorio_thunderbird}
+
+Aunque haciendo lo anterior sería lo mismo que descargar y ejecutar 
+ambos programas en tu /home.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50964F8A.9090206@gmail.com
+

@@ -1,0 +1,30 @@
+Subject:[HS] supprimer espaces interlignes fichier texte
+Bonjour,
+
+Comment supprimer des espaces interlignes trop importants=20
+d'un fichier texte (.txt) :
+
+bobo
+
+bubu
+
+bibi
+__________________
+Pour avoir :
+bobo
+bubu
+bibi
+
+Merci
+
+Andr=E9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211281509.43716.andre_debian@numericable.fr
+

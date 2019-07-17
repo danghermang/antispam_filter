@@ -1,0 +1,32 @@
+Subject:Re: debian et onduleur
+On Thu, 20 Sep 2012 11:36:26 +0200
+maderios <maderios@gmail.com> wrote:
+
+>  Ton onduleur consomme donc exactement de la m=C3=AAme mani=C3=A8re,
+> qu'il alimente un PC, =C3=A9cran, etc ou qu'il n'alimente rien du tout.
+> Ce n'est pas n=C3=A9gligeable pour un onduleur qui consomme entre 600
+> et 1000 Wh.
+
+NON, un onduleur offline ne consommera que ce qu'il lui faut pour
+maintenir la batterie =C3=A0 100% de charge (ou la recharger si besoin
+est).
+Un onduleur online, qui est dot=C3=A9 d'une technologie faisant qu'en
+sus de la consommation ci-dessus, ne consomme que lorsqu'il est
+sollicit=C3=A9 (et qq =C2=B5A sinon).
+Le tout s'ajoutant, bien s=C3=BBr =C3=A0 la consommation de veille du PC qd
+son alim n'est pas coup=C3=A9e manuellement.
+
+--=20
+* Coy a =C3=A9t=C3=A9 =C3=A9lev=C3=A9 sur les valeurs de "y faut pas faire
+  du mal gratuitement aux gens"
+< DarkSoul[Away]> Coy: non, faut les faire payer
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120920114841.037181d9@anubis.defcon1
+

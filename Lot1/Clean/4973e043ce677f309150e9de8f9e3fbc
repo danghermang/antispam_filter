@@ -1,0 +1,48 @@
+Subject:Re: [Koha] A question for users of Koha, about searching
+Hi--
+
+Owen wrote:
+> When was the last time you used the advanced search form, and why did
+> you choose it over the default search?
+
+The very last time I used it was to see if we owned a periodical with a
+generic title: Short stories
+
+Our advanced search (
+http://keys.bywatersolutions.com/cgi-bin/koha/opac-search.pl ) let me
+select title phrase: Short stories
+And all of our periodical item types.
+(Turns out we didn't own it--yet!  I'm cataloging the issues we've received
+with sea stories in them today.)
+
+I hear from our reference staff that they use the advanced search this way
+quite often, since often requested periodicals have titles with extremely
+common words (in our catalog) such as:
+Sea
+Rudder
+
+I use it in the staff client to search by barcode quite often as well, or
+for items with rather generic terms as access points that I know are
+shelved in distinctive locations (e.g., rare).  I also use the advanced
+search (in the staff or public client) for author with a  word (e.g., the
+author's name is something common like "Jones" and the title words are
+common ones like "Sea adventure" so the combo really narrows the results
+nicely).
+
+Hope this is helpful!  Cheerio,
+heather
+```````````````````````````````````````````````````````````````````````
+Heather Hernandez
+Technical Services Librarian
+Cultural Resources and Museum Management Division
+San Francisco Maritime National Historical Park
+heather_hernandez@nps.gov
+415-561-7032 (voice)       415-556-3540 (fax)
+http://www.nps.gov/safr/historyculture/library-collections.htm
+
+"The sailor does not pray for wind, he learns to sail."--Gustaf Lindborg
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

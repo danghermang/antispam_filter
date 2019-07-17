@@ -1,0 +1,36 @@
+Subject:[Hsqldb-user] re g: load only required columns
+
+Hi,
+
+I had 4 columns in a csv file.
+I created a table with 3 columns and want to load only 3 columns from the
+csv file?
+Please help through this.
+
+example file: test.csv
+
+id|name|gender
+1|sandeep|m
+
+create table test(id integer,name varchar(30));
+\m test.csv
+SEVERE  Cause: SQLSyntaxErrorException: user lacks privilege or object not
+found: GENDER
+
+This is the error i get.
+
+thanks in advance..
+-- 
+View this message in context: http://old.nabble.com/reg%3A-load-only-required-columns-tp34585602p34585602.html
+Sent from the HSQLDB - User mailing list archive at Nabble.com.
+
+
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://p.sf.net/sfu/appdyn_sfd2d_oct
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

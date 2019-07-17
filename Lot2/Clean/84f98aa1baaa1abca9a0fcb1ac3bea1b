@@ -1,0 +1,43 @@
+Subject:Re: [EVDL] Ceramic Heater elements
+>These ceramic elements self adjust over about a +/20% range. I.e. you can =
+use a 120v element at 140v, but that's about the most you dare try. Higher =
+than this, and it will have a short life and could have a bad failure mode.
+>
+>Note that the advertised "1500w" is the *peak* power they can handle. They=
+ actually run at more like 900-1000w continuous duty. Your 17a at 158v is o=
+ver 2600 watts, which is well beyond their ratings. I would expect a short =
+life and impressive failure at this level.
+
+OK, thanks! =A0I guess the good news is I rarely use the heater, and never =
+for more than 5 minutes at a time... =A0playing with fire I guess though. =
+=A0It would be even worse at 185v right?
+
+>Almost all of these heater physically consist of 4 separate elements, whic=
+h can be connected all in parallel (for 120v) or in series pairs (for 240v)=
+. I would suggest wiring them for 240v in your case. Then use *two* of them=
+ to get the desired amount of heat. This will greatly reduce the stress on =
+them, for a longer life and safer operation.
+
+
+Right now there are two elements already in the dash wired in parallel. =A0=
+I've never used the second one, it would be too much heat (and power use). =
+=A0So if I go into the dash and rewire the elements into series pairs, and =
+leave the two elements in parallel, I could use both elements at 185v safel=
+y? =A0It would be underpowered, but with two elements maybe it would match =
+what I have right now with one element running overloaded? =A0Bummer to hav=
+e to pull the dash out to get to the wiring, but at least the two elements =
+are already in there.
+
+Thanks,
+David.
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

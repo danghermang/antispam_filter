@@ -1,0 +1,62 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+
+Owen DeLong <owen@delong.com> writes:
+
+> On Nov 20, 2012, at 7:30 AM, Charles Gucker <cgucker@onesc.net> wrote:
+>
+>> On Tue, Nov 20, 2012 at 10:21 AM, Owen DeLong <owen@delong.com> wrote:
+>>> On Nov 20, 2012, at 6:39 AM, Robert E. Seastrom <rs@seastrom.com> wrote:
+>>> 
+>>>> Why not?  I should think that the ability to turn into a smaller ISP
+>>>> by handing back or otherwise divesting oneself of (legacy, IPv4)
+>>>> address space is something that you, of all people, would heartily
+>>>> support.
+>>>> 
+>>> 
+>>> Because there are a lot of ISPs that have /32s and are too large to be
+>>> considered X-Small. The difference between a /36 and a /32 is quite
+>>> significant and I'd hate to see all the truly X-Small providers suffering
+>>> a fee increase to subsidize the /32 holdings of a significant number of
+>>> small organizations that really shouldn't be X-Small.
+>> 
+>> This would only be true if the ISP in question returns all (almost all
+>> of) their IPv4 space.    Their "size" is not measured based on their
+>> IPv6 space allotments, but rather IPv4 whereby the X-Small provider is
+>> having their "size" based on IPv6 and not IPv4, although practical
+>> usage is quite different.    I'm personally a lot more of a fan of
+>> making a /32 X-Small in IPv6 and let the IPv4 allotments make up the
+>> rate scale difference.
+>> 
+>
+> I believe that is a much more temporary solution than many people think.
+>
+> I believe that the financial disincentives for maintaining IPv4 (of which
+> this would become yet another one) will drive rapid deprecation of IPv4 by
+> ISPs once IPv6 reaches critical mass and you will see what little IPv4
+> support they continue to provide to their customers come at a premium price
+> using a small number of heavily NATted addresses.
+>
+> I suspect this is probably around 5-7 years from now, possibly sooner.
+
+5-7 years from now sounds like right about the time that the fee
+schedule will be up for revisiting anyway...
+
+Since we like the idea of subnetting and delegating on nybble
+boundaries in IPv6 anyway, why not just deprecate small and medium as
+categories and say "/32 ix X-small, /31 to /28 is Large, /27 to /23 is
+X-Large, and /22 and larger is XXL.  That's pretty close to our
+existing fee schedule which has served us well.  Or use the dividing
+lines suggested in the proposed 2013 rate card...  so long as merely
+having the smallest ISP allocation of IPv6 in and of itself does not
+turn one into small rather than x-small I'm good with it.
+
+-r
+
+
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

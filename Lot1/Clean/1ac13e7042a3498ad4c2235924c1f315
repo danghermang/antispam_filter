@@ -1,0 +1,46 @@
+Subject:Re: Batch para =?iso-8859-1?q?creaci=F3n?= de usuarios en zimbra
+El Thu, 29 Nov 2012 09:02:07 -0500, Agustín Dixan Díaz Corrales escribió:
+
+> Hola lista, tengo implementado zimbra 7.2.1 sobre Debian 6, manejo
+> varios dominios de correo y estoy implementando el zimbra para gestionar
+> dichos servicios.
+> 
+> La configuración actual de mis servicios no me sirve para hacer la
+> migración desde postfix-mysql (servicio actual) ya que ni los dominios
+> ni los nombres de usuarios corresponden con la nueva configuración. La
+> idea es: ¿Cómo creo los usuarios a partir de xml por ejemplo para no
+> tener que dar tantos clicks en la administración web del zimbra?...son
+> cerca de 300 usuarios distribuidos en varios dominios.
+
+Mira a ver si algo de esto te sirve:
+
+http://wiki.zimbra.com/wiki/User_Migration
+http://www.zimbra.com/docs/os/8.0.0/administration_guide/wwhelp/wwhimpl/js/html/wwhelp.htm#href=OS_admin_guide_8.Examples_of_XML_Files.html
+
+> La otra pregunta es ¿Cómo puedo delegar permisos a un usuario
+> determinado a solo un dominio en específico?. Ya hemos creado varios
+> usuarios para que administren cada uno un dominio pero acceden a los
+> restantes dominios, incluso a la configuración del servidor. No conozco
+> cómo "enjaularlos" para que solo puedan crear o modificar los usuarios
+> de su dominio.
+
+Hum... no sé si el sentido de "usuario administrador" que le das tú es el 
+mismo que el que le da Zimbra:
+
+http://www.zimbra.com/docs/os/8.0.0/administration_guide/wwhelp/wwhimpl/js/html/wwhelp.htm#href=OS_admin_guide_8.Administrator_Accounts.html
+
+Yo entiendo que los "usuarios administradores" son usuarios con poder de 
+gestión de todos los aspectos de Zimbra, no sólo de las cuentas de 
+correo, además de que todos comparten los mismos privilegios.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k97t82$4np$4@ger.gmane.org
+

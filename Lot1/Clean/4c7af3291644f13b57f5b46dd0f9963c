@@ -1,0 +1,174 @@
+Subject:Re: [MG] Common business entity model
+Marc and George,
+
+Thanks Marc, I have a rough understanding of the model now.  If any
+other English speakers have questions about it, then I'll try to
+answer them.  Sometimes explaining is the best way to learn.  ;^)
+
+Marc said:
+> That's true. But IMHO if a Group is composed of 2..* Participants,
+> that doesn't mean a Participant can't be member of several
+> Groups. So maybe we need a * multiplicity at the Groups side?
+
+Or maybe an open diamond symbol (aggregate).  I think filled diamond
+(composite) implies a single group.
+
+
+George said:
+> So, a couple of simple domain models for argumentative discussions
+> and consensus already exist:
+> 1. A consensus ontology, based on IBIS, problem marketplaces and
+> idea management:
+> http://www.imc.com.gr/ontologies/eDialogos/consensus/
+
+Welcome George,
+
+http://www.imc.com.gr/ontologies/eDialogos/consensus/img/class_diagram_v0.1.png
+I was looking at the core relations (eDialogos below).  I think I can
+map them to the terminology we use (in Outcast) and also AG Meinungs-
+findungstool (CBEM/AG):
+
+
+                  has                has
+  IdeaContest  <-------  Idea  ----------->  User          (eDialogos)
+
+         Poll  <-------  Position  ------->  Person        (Outcast)
+
+        Topic  <-------  Opinion  -------->  Participant   (CBEM/AG)
+
+
+Maybe this can be our Rosetta stone for the rest of the world. :-)
+
+Michael
+
+
+marc said:
+> Michael Allan wrote:
+> >Marc said:
+> >> Here is a first draft of our idea of a Common Business Entity Model
+> >> (where 'Business' means it's not a 'Data' Entity Relationship Model
+> >> assignable to a database schema, it's just objects found in the real
+> >> world - the database schema might look totally different):
+> >> http://wiki.piratenpartei.de/wiki/images/4/45/DSFS-BusinessEntityModel.jpg
+> 
+> >I have some questions about the model.  To keep them separate from my
+> >other questions, I opened this thread.
+> 
+> >(a) Why is discussion itself not modeled?  It's crucial of course, but
+> >I don't see it anywhere.
+> 
+> This model is currently meant to be the base solely for the discussion 
+> system!
+> Therefore the discussion itself is a 'Process' or 'Workflow' not an 
+> 'Entity'.
+> 
+> >(b) Why is a vote included as an actual (real world) entity?  Myself,
+> >I think of voting as a formality of the system, something new we
+> >introduce.  It does have *correlates* in the real world, but people
+> >don't actually go about casting votes in order to form their opinions,
+> >not yet.
+> 
+> Ok. Sorry. This is definitely a problem in translation. Please read 'RATING' 
+> instead of 'VOTE' here!
+> 
+> >(In fact, most of the right side seems to be modeling a
+> >artificial system yet to be deployed, not the real world.  I probably
+> >mistook your meaning for "business entity".)
+> 
+> Yeah, that's me too ;o) Business Entity is not a good term at all. What it 
+> wants to express is, that it is not a DATA ENTITY, that can be mapped 
+> directly to a database schema. Even if sometimes it would ;o)
+> 
+> In fact we are modeling the entities of an artificial system here. But maybe 
+> we can use the term 'Domain Entity' as George Anadiotis suggested. That's 
+> more close to what I think the entities are all about.
+> 
+> >Looking at the left side, I see a few possible errors:
+> 
+> >(c) An opinion is not really (in itself) a document.  A document can
+> >be involved in the formalization and expression of an opinion, but the
+> >opinion is not bound to that form.
+> 
+> Yes you are right. So it is not realy about real world entities but more 
+> about the domain entities that are reflected by the system. So sorry for 
+> misleading you!
+> 
+> In our working group we decided, that the Discussion System is only able to 
+> deal with textual input. No video or audio processing capabilities. That's 
+> why at the end everything boils down to some combination of characters.
+> 
+> >(d) Likewise, a point of view is not an opinion (at least not in
+> >English).  It is one's outlook from a personal situation.  It may
+> >influence opinion in peculiar ways, but is not an opinion in itself.
+> 
+> Ok. That's unfortunately also lost in translation I believe. Please read 
+> POSITION instead of POINT OF VIEW. The groups position is a consensus of all 
+> individual opinions of the group members.
+> 
+> >(e) Group membership is not a closed composite relation, but rather an
+> >open aggregate.  One can be a member of many groups.
+> 
+> That's true. But IMHO if a Group is composed of 2..* Participants, that 
+> doesn't mean a Participant can't be member of several Groups. So maybe we 
+> need a * multiplicity at the Groups side?
+> 
+> >Although I don't have a full understanding yet, I suspect it will be
+> >difficult to find the right model to code by.  It may take a while.
+> >Later (in the other thread), I'll try to suggest a way of buying time
+> >and (possibly) evolving some of the models by discovery.
+> 
+> Ok. Thank you!
+> 
+> Cheers
+> Marc 
+
+
+George Anadiotis said:
+> Dear Marc and Michael, all
+> 
+> i hope i am not "interrupting" your discussion, but it seems to me there is
+> something here which i may be able to contribute - even though
+> unfortunately i have not been active on the list, i still do some work on
+> the topic.
+> 
+> So, i am glad to see that the discussion is getting active and entering
+> what appears to me like a standardization / integration stage. Typically,
+> there are 2 ways to deal with interoperability - on the functionality and
+> on the data level. So in your example, that would translate to having T1
+> being able to call some API on T2 in order to perform functions on it on
+> behalf of a T1 user, and vice versa, and having T1 and T2 exchange some
+> data in order to process them.
+> 
+> Some common denominator can be agreed on on both levels, however i would
+> like to emphasize more on the data side of things here. It seems to me that
+> what you are doing is trying to come up with a schema to describe basic
+> domain entities, their properties and relations - in other words, come up
+> with a domain ontology. I do not want to lecture anyone here or to go on
+> extensively about this, but i would just like to point out to a body of
+> scientific work on the subject that you may be interested in - there's no
+> point in reinventing the wheel after all.
+> 
+> So, a couple of simple domain models for argumentative discussions and
+> consensus already exist:
+> 1. A consensus ontology, based on IBIS, problem marketplaces and idea
+> management: http://www.imc.com.gr/ontologies/eDialogos/consensus/
+> 2. An argumentative discussion ontology, based on
+> IBIS<http://en.wikipedia.org/wiki/Issue-Based_Information_System>and
+> SIOC <http://ceur-ws.org/Vol-494/coinpaper8.pdf>: http://
+> ceur-ws.org/Vol-405/paper4.pdf
+> 3. A survey of existing work in the domain:
+> http://www.semantic-web-journal.net/sites/default/files/swj138_2.pdf
+> 
+> The 1st and 2nd approach can be harmonized, and this is set as future work.
+> There is also a body of work on the aspect of consensus on the ontology
+> development process itself which could be interesting here. Hope this
+> helps, let me know if you are interested in more details.
+> 
+> best regards
+> George Anadiotis
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

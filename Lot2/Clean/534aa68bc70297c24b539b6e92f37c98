@@ -1,0 +1,223 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Wolfbob
+I believe we were discussing ferrite-rod antennas, or loopsticks, as
+used around 1 MHz and below, which is what Alan Payne's papers are
+about (the ones I have seen), and microwave components with ferrites
+are a different subject altogether.
+Alan G3NOQ
+
+
+
+
+On 26 October 2012 03:01, wolfbob <wolfbob@csnsys.com> wrote:
+> I also noticed that ferrite stick antennas usually have the winding only
+> cover 20-30% of the ferrite and the coil may not be centered. Hard forme to
+> believe that all that ferrite 10 diameters away is effecting the coil
+> impedance.
+>
+> Also the microwave ferrite Kirk mentioned are completely different animals
+> than the 1 MHz antenna ferrites. The microwave ferrites often use magnetic
+> spin to perform antics such a isolators, circulators and even amplifiers up
+> into the 10s of GHz, The use of ferrite in microwave transformer cores is
+> news to me, but I have been disconnected for around 25 years.
+>
+>
+> WBob
+>
+>
+> ----- Original Message ----- From: "boswell alan"
+> <alan.boswell@blueyonder.co.uk>
+> To: "Discussions of Antennas and Related Topics"
+> <antenna-discussion@antennex.com>
+> Sent: Thursday, October 25, 2012 6:50 PM
+>
+> Subject: Re: [Antenna-discussion] Ferrite Antennas
+>
+>
+>> WBob
+>> On that subject I used to have a ferrite rod antenna for 500 kHz on a
+>> 6" long piece of ferrite with a 1" square cross section.  As far as I
+>> could tell it detected signals down to the atmospheric noise level,
+>> but my location is perhaps a bit noisy, it isn't the quietest.  But I
+>> used to receive cw signals on 500 from the Adriatic Sea and Canary
+>> Islands to Greenland and Nova Scotia in the old days of marine radio
+>> :)
+>> Alan G3NOQ
+>>
+>>
+>>
+>> On 26 October 2012 02:36, boswell alan <alan.boswell@blueyonder.co.uk>
+>> wrote:
+>>>
+>>> Hi WBob
+>>>
+>>> Good point and the answer is - no!  but in an AM radio system the
+>>> receiver is not sensitive enough to detect atmospheric noise, it's a
+>>> 'cheap and nasty' systems where thermal noise from the antenna and the
+>>> receiver are predominant.
+>>>
+>>> Atmospheric noise is about +50dB rel. to kTB at 1 MHz, I think, so if
+>>> we were designing a communications system, obviously it would need a
+>>> better antenna.  With the same 5 dB receiver noise figure, the antenna
+>>> would need only about a 45 dB loss, which is beyond the capability of
+>>> an ordinary ferrite rod antenna.  Maybe a 3 ft whip antenna would be
+>>> ideal for that, or a larger air-cored loop antenna.
+>>>
+>>> Alan G3NOQ
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> On 26 October 2012 02:14, wolfbob <wolfbob@csnsys.com> wrote:
+>>>>
+>>>> Are you sure that there is a place on this globe where the signal to
+>>>> noise
+>>>> ratio at 1  MHz  is set by thermal noise?
+>>>>
+>>>> WBob
+>>>> ----- Original Message ----- From: "boswell alan"
+>>>> <alan.boswell@blueyonder.co.uk>
+>>>> To: "Discussions of Antennas and Related Topics"
+>>>> <antenna-discussion@antennex.com>
+>>>> Sent: Thursday, October 25, 2012 6:06 PM
+>>>>
+>>>> Subject: Re: [Antenna-discussion] Ferrite Antennas
+>>>>
+>>>>
+>>>>> Kirk
+>>>>>
+>>>>> Minicircuits make good transformers and I have bought many small
+>>>>> circuits including transformers over the years from them, but
+>>>>> transformers are not antennas.  We have got the message that you are
+>>>>> not interested in details, which makes you a bad source of information
+>>>>> on subjects you don't understand :)
+>>>>>
+>>>>> By far the most widespread use of ferrite rod antennas is in
+>>>>> medium-wave (and in Europe long-wave) portable radios.  Let's have a
+>>>>> look at the simple RF system calculation for a portable radio,
+>>>>> assuming a 1 MHz carrier and a bandwidth of 10 kHz for the AM audio
+>>>>> transmission.
+>>>>>
+>>>>> The thermal noise floor kTB for a 10 kHz bandwidth, as we have already
+>>>>> seen, is -134 dBm.  Assuming a noise figure of 5 dB for the receiver,
+>>>>> and a 30-dB signal to noise ratio, we arrive at the signal power
+>>>>> required from the antenna, and it is -134 + 30 + 5 dBm, in other words
+>>>>> -99 dBm.
+>>>>>
+>>>>> A minimum field-strength of 1 mV/m can be assumed for an AM
+>>>>> transmission, which means a power density of 2.654 nW per square
+>>>>> metre, or -56 dBm per square metre.  We also know that the capture
+>>>>> area for a lossless small antenna at 1 MHz, from the much-quoted
+>>>>> formula, is 10729 square metres, or +40 dBsm.  Therefore the power
+>>>>> delivered by a lossless antenna is -56+40 dBm, in other words -16 dBm.
+>>>>>
+>>>>> So we have -16 dBm delivered by a lossless antenna, but for our radio
+>>>>> we only need -99 dBm to meet the system requirement.  That is a margin
+>>>>> of 83 dB and it explains why ferrite antennas enjoys such popularity
+>>>>> in portable radios, because 83 dB is a typical radiation efficiency
+>>>>> (in other words signal power loss) for this type of antenna.
+>>>>>
+>>>>> It also explains why ferrite rod antennas are the size they are, in
+>>>>> other words why they are not made one tenth the size, for example,
+>>>>> even though that would make the unit manufacturing costs much less.
+>>>>> You can be sure that the Japanese and Chinese manufacturers of
+>>>>> portable radios are familiar with these numbers, even though they
+>>>>> might not have reached New Jersey yet . . :).
+>>>>>
+>>>>> If anyone can see anything wrong with these figures, please say so,
+>>>>> they need checking  :)
+>>>>>
+>>>>> Why is the radiation efficiency so low for these antennas? it's
+>>>>> because of the minuscule radiation resistance compared to the loss
+>>>>> resistance, which Alan P. and I seem to agree about in an approximate
+>>>>> kind of way.  But you need to get into the details to appreciate this
+>>>>> side of the discussion.
+>>>>>
+>>>>> It also explains why Kirk is shy about details :)
+>>>>>
+>>>>> Alan G3NOQ
+>>>>> _______________________________________________
+>>>>> This message was sent to: wolfbob@csnsys.com
+>>>>>
+>>>>> Antenna-discussion mailing list
+>>>>> Antenna-discussion@antennex.com
+>>>>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>>>> For Upload of Attachments:
+>>>>> http://download.antennex.com/listarch/psupload.html
+>>>>> Searchable Archives:
+>>>>> http://www.antennex.com/listlogin/
+>>>>> To unsubscribe:
+>>>>> Go to the web page link below and unsubscribe the above email address
+>>>>> this
+>>>>> message was sent to.
+>>>>>
+>>>>> Go to this web page - no passwd needed:
+>>>>> http://antennex.com/help/subscribe.htm
+>>>>>
+>>>>>
+>>>>
+>>>> _______________________________________________
+>>>> This message was sent to: alan.boswell@blueyonder.co.uk
+>>>> Antenna-discussion mailing list
+>>>> Antenna-discussion@antennex.com
+>>>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>>>> For Upload of Attachments:
+>>>> http://download.antennex.com/listarch/psupload.html
+>>>> Searchable Archives:
+>>>> http://www.antennex.com/listlogin/
+>>>> To unsubscribe:
+>>>> Go to the web page link below and unsubscribe the above email address
+>>>> this
+>>>> message was sent to.
+>>>>
+>>>> Go to this web page - no passwd needed:
+>>>> http://antennex.com/help/subscribe.htm
+>>
+>> _______________________________________________
+>> This message was sent to: wolfbob@csnsys.com
+>> Antenna-discussion mailing list
+>> Antenna-discussion@antennex.com
+>> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>> For Upload of Attachments:
+>> http://download.antennex.com/listarch/psupload.html
+>> Searchable Archives:
+>> http://www.antennex.com/listlogin/
+>> To unsubscribe:
+>> Go to the web page link below and unsubscribe the above email address this
+>> message was sent to.
+>>
+>> Go to this web page - no passwd needed:
+>> http://antennex.com/help/subscribe.htm
+>>
+>>
+>
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

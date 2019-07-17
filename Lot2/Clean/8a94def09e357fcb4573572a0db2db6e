@@ -1,0 +1,59 @@
+Subject:Re: wheezy, mise
+	=?UTF-8?B?w6Agam91ciA9PiBwZXJ0ZSBkZXMgcGFydGl0aQ==?=
+	=?UTF-8?B?b25zIGx2bQ==?=
+Le 29/09/2012 22:43, Bzzz a écrit :
+> On Sat, 29 Sep 2012 22:29:53 +0200
+> Yann Cohen<yann@ianco.org>  wrote:
+>
+>> J'aurais tendance à dire : je ne sais pas. La génération de
+>> initramfs est automatique et transparente.
+>>
+>> J'ai réussi à démarrer la machine en appliquant les commandes
+>> suivantes au prompt initramfs :
+>> lvm vgscan --mknodes
+>> lvm lvchange -aly vg0/root
+>> puis un exit
+>> et la machine à booté.
+>>
+>> Donc maintenant que j'ai un système opérationnel, comment faire en
+>> sorte que cela ne recommence pas au prochain boot ?
+>
+> Hmm, si tu n'utilises pas un kernel Debian, vérifier que tous les
+> modules nécessaires sont bien en dur dans le kernel ou dans l'initrd
+> (ET paramétrés); sinon il-y-a des chances que ça vienne de blurb,
+> mais là je ne connais pas du tout.
+>
+> Ces docs datent mais il doit bien en rester kékchoz à extraire:
+> http://pigeonsnest.co.uk/stuff/lvm-root/lvm-root.html
+> http://www.debianadmin.com/lvm_vs_udev.html#more-268
+> https://we.riseup.net/debian/lvm2#the-system-is-not-recognizing-my-boot-lvm-partitio
+>
+Ok, je vais potasser cela.
+
+Je confirme que c'est une installation aussi standard que possible, pas 
+de recompilation de noyau.
+
+Ce qui est étrange c'est :
+- ce phénomène existe que sur la machine de ma fille (lvm), alors que 
+sur la mienne pas de problème (RAID5 + lvm),
+- avant la chute complète, c'est les UUID qui étaient pas reconnu, mais 
+là un coup de vi dans le grub.cfg pour remplacer les UUID par les 
+partition et roule ma poule...
+
+Bon, le Pb est moins critique car on peut démarrer la machine (avec un 
+peu de patience et un second clavier car le clavier sans fil n'est pas 
+reconnu au début du boot...).
+
+--
+Yann.
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50675FC3.6090505@ianco.org
+

@@ -1,0 +1,13 @@
+Subject:Re: [Maps-l] License change of OpenStreetMap to ODbL
+On Sat, Sep 15, 2012 at 7:36 AM, Kai Krueger <kakrueger@gmail.com> wrote:
+> With respect to tile licensing, I suggest we follow the example of
+> osm's tileserver. While the underlying data is licensed ODbL, the
+> rendered tiles would be licensed under CC BY-SA 2.0
+
+Any reason why we can't license the tiles under CC-BY-SA 3.0, same as
+with most of the rest of Wikimedia?
+
+_______________________________________________
+Maps-l mailing list
+Maps-l@lists.wikimedia.org
+https://lists.wikimedia.org/mailman/listinfo/maps-l

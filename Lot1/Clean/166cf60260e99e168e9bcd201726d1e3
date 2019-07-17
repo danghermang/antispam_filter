@@ -1,0 +1,124 @@
+Subject:[MG] The problem of divorced consensus practices
+Hi folks, (cc Metagov, AG Meinungsfindungstool)
+
+I joined the ODDI working group because I suspect I have a personal
+concern with what you're working on.  Specifically my concern involves
+the problem of "split consensus", as my friend Thomas von der Elbe has
+called it, or "divorced consensus practices" as I refer to it here.
+But I'm not quite sure I've got you pegged correctly, so please help
+me; I have a few questions.
+
+(i). Will your proposal for a common "network infrastructure", as John
+Spady has called it, accomodate (among other facilities) a facility of
+formal opinion expression?  To explain what I mean by "formal opinion
+expression", imagine a potential participant approaches the working
+group and asks about the proposed infrastructure.  She (or he) asks,
+
+   * Where do I express my own opinion on this infrastructure?
+
+   * Where can I see the individual opinions of others?
+
+   * Where can I see the overall shape of collective opinion that
+     we're forming together?
+
+   * Where can I see how my own efforts are helping to shape it?
+
+She is asking for a facility of formal opinion expression, as I call
+it; one that reveals a "picture" having these basic elements:
+
+
+   (1)                 my opinion (one dot)
+             ....         |
+          ..........      V
+        ..............   ....  -+
+       .......................  |  dissensus, or
+       ......................   |  budding counter
+        .............   ....    |  consensus here
+          ..........           -+
+             ...
+      |               |
+      +---------------+
+       rough consensus
+          over here
+
+
+    http://zelea.com/var/tmp-public/oddi/div-consensus-1.txt
+    (if the diagram is distorted and your mail client lacks a
+    fixed-width font, please visit the temporary link above)
+
+
+Here we see individual opinion (one dot), collective opinion (whole
+picture) and some sense of how they interrelate.  This is a very crude
+illustration - no tool is likely to provide a visualization quite like
+this, and a good one would reveal much more information - but these
+are the *essential kinds* of information that are revealed.  Will this
+type of facility be accomodated in the infrastructure you propose?
+
+
+(ii). Are groups and practitioners to have a free choice of formal
+opinion expression tools (along with other important tools), such that
+each may choose the tool that best suits their (or his, or her)
+particular needs?
+
+
+(iii). Despite the resulting diversity of practices (from ii), will
+you attempt to formally interlink the local "islands" of opinion
+expression (again, I focus just on that aspect) into some kind of
+larger whole?  I try to illustrate what I mean:
+
+
+   (2)       ....
+          ..........  O
+        ..............   ....
+       .......................
+       ......................
+        .............   ....
+          ..........
+             ...
+
+
+            +-----+  +-----+
+            |     |  |     |
+            | T1  |  | T2  |
+            |     |  |     |
+            +-|-|-+  +-|-|-+
+    +---------|-|------|-|---+
+    |         | |      | |   |
+    |                        |
+    |    N                   |
+    |                        |
+    +------------------------+
+
+
+     O  Opinion in formation
+     T  Competing tools
+     N  Network infrastructure,
+        common standards, and such
+
+    http://zelea.com/var/tmp-public/oddi/div-consensus-2.txt
+
+
+T1 and T2 are alternative tools for the purpose of opinion expression
+(just to focus on that formal category).  A group may choose T1 or T2
+for this purpose, but regardless of the choice (say T2), the group may
+nevertheless remain part of a single, larger opinion forming process
+(O above).  So the group might work together (in some sense) with
+other groups who make different technical choices here (say T1).  This
+freedom of choice is made possible by the common network
+infrastructure (N) into which the tools are "plugged".  Does the ODDI
+hope to support such broad, formal interaction of opinion forming
+practices (among other important D & D practices)?
+
+Best to all,
+
+-- 
+Michael Allan
+
+Toronto, +1 416-699-9528
+http://zelea.com/
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

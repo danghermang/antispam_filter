@@ -1,0 +1,80 @@
+Subject:Re: squid y contenido multimedia
+El d=EDa 2 de octubre de 2012 12:09, Javier Santiesteban
+<javiers@gms.minbas.cu> escribi=F3:
+> aclaro que hasta ahora lo unico que tengo referenciado en mi squid con
+> respecto al cont multimedia es esto
+> si alguien conoce al otros que no esten en dicha lista... bienvenido sea
+>
+> acl mime req_mime_type -i audio/mpeg
+> acl mime req_mime_type -i audio/mpeg$
+> acl mime req_mime_type -i audio/mpeg3
+> acl mime req_mime_type -i audio/mpeg3$
+> acl mime req_mime_type -i video/mpeg
+> acl mime req_mime_type -i video/mpeg$
+> acl mime req_mime_type -i video/msvideo
+> acl mime req_mime_type -i video/msvideo$
+> acl mime req_mime_type -i application/x-mplayer2
+> acl mime req_mime_type -i ^application/x-mplayer2$
+> acl mime req_mime_type -i application/x-javascript
+> acl mime req_mime_type -i application/x-javascript$
+> acl mime req_mime_type -i application/octet-stream
+> acl mime req_mime_type -i ^application/octet-stream$
+> acl mime req_mime_type -i ^application/x-shockwave-flash
+> acl mime req_mime_type -i ^application/x-shockwave-flash$
+>
+>
+>
+audio/x-pn-realaudio
+audio/x-wav
+video/x-mpeg2
+video/acorn-replay
+video/quicktime
+video/msvideo
+video/x-msvideo
+
+
+por otra parte, has probado los redirectors?
+
+Son programas que ejecuta squid, que realizan modificaciones, o
+redirecciones al contenido web que pasa por el servidor proxy.
+
+En el caso de imagenes, podria recomendarte replaceimages.pl (1) ,
+cambiando las susodichas, por algo neutro, por ejemplo: una imagen de
+1px.
+
+
+En el squid.conf  estableces un parametro url_rewrite_program
+apuntando al script de perl.
+
+podrias modificar el codigo para que te acepte otros  tipos de contenidos.
+
+(2) el post original del autor, (3) pagina del proyecto
+
+(4) se pueden obtener todos los scripts por svn
+
+
+
+(1) http://code.google.com/p/g0tmi1k/source/browse/trunk/squidScripts/repla=
+ceImages.pl?r=3D33
+(2) http://g0tmi1k.blogspot.mx/2011/04/video-playing-with-traffic-squid.htm=
+l
+(3) http://code.google.com/p/g0tmi1k/source/browse/trunk#trunk%2FsquidScrip=
+ts
+(4) svn checkout http://g0tmi1k.googlecode.com/svn/trunk/ g0tmi1k-read-only
+
+Saludos
+--=20
+Hector
+--
+El Pic no pudo Iniciar correctamente.
+Inserte el disco de arranque y presione cualquier pin para continuar...
+
+Linux Registered User #467500
+https://linuxcounter.net/user/467500.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CACzWLTJPV+PEEn=RRk-sFoZ4je8gZpQT6e3askeWpGJfEK4WNg@mail.gmail.com
+

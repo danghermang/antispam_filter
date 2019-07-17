@@ -1,0 +1,206 @@
+Subject:Re: [Antenna-discussion] 1/2-wave vertical really needs
+	agroundplane?
+Kirk
+
+That saying: "Kirchhoff's circuit laws apply only to static circuits"
+can be extended to antennas with the proviso that the law must be
+applied within a region in which electrostatics applies, that is,
+provided the wire junction and the region in which the currents are
+measured are small compared to the wavelength.
+
+Therefore we can say Kirchhoff's law applies at junction of wires of
+lambda/100 in diameter, but not necessarily when the wires are
+lambda/10 in diameter.
+
+So at 14 MHz for example Kirchhoff's laws will be all right for wires
+of one inch diameter or less, and maybe more.  The assumption is that
+the current behaves as though it flows in a filament along the axis of
+the wire, which it might not when the wire is thick and there is
+possibility of currents flowing laterally.
+
+I never found that imagining displacement currents flowing through the
+air to 'complete the circuit' was any use in antenna analysis, though
+I first saw the argument 30-40 years ago :).  How come it's useful? I
+think we need to be aware all the time that electric current and
+displacement current are physically not the same thing at all and any
+attempt to conflate them is liable only to confuse (Kirchhoff of
+course says nothing about displacement currents).
+
+Alan G3NOQ
+
+
+
+
+
+On 8 November 2012 21:50, Kirk T McDonald <kirkmcd@princeton.edu> wrote:
+> Ward,
+>
+> Various comments:
+>
+> 1.   All too many textbooks retreat, when pressed, to statements like
+> "Kirchhoff's circuit laws
+>
+> apply only to static circuits".
+>
+> It is true that these laws were originally stated for DC circuits.
+>
+> But the entire field of electrical engineering depends on being able to use
+> Kirchhoff's "laws" in AC circuits with "good enough" results.
+>
+> So, it is a shame that textbooks don't try to explain why these "laws" are
+> "good enough" for engineers, even if they are not strictly "exact" except
+> for DC circuits.
+>
+> I recently wrote a tech note
+> http://puhep1.princeton.edu/~mcdonald/examples/volt.pdf
+> in which I give my story as to where and why Kirchhoff's laws work as well
+> as they do.
+>
+> When I sent this note to 2 prominent educators at MIT who deal with
+> undergraduate electricity and magnetism courses, they said this subject was
+> too complicated for them, and they tell the students that AC circuit
+> analysis is a kind of swindle.     I was appalled by this attitude.
+>
+> However, antenna systems are cases where one has to be careful about using
+> Kirchhoff's laws, as they don't always hold very well here.
+>
+> 2.  Something that is implicit in Kirchhoff's "laws" for AC circuits is that
+> the currents considered in these "laws" can be "displacement currents" as
+> well as ordinary conduction currents.
+>
+> Otherwise, one couldn't speak of the current IN a capacitor (in contrast to
+> the current into and out of a capacitor).
+>
+> Similarly, in thinking about antennas, it is useful to consider that
+> "displacement current" can flow from one arm of a dipole to another, thereby
+> "completing the circuit".
+>
+> 3.  In an end-fed linear antenna, one can likewise consider that
+> "displacement current" flows between the lone arm of the antenna and the
+> "other" antenna lead.
+>
+> This vision makes it easy to appreciate that the "displacement current" does
+> not all flow onto the tip/terminal of the "other" lead, but can flow onto it
+> over some distance (~ lambda) from that tip.
+>
+> In particular, if the leads are in the form of a coaxial cable, and the
+> "other" lead is the outer conductor, we understand that in general some of
+> the "return displacement current" flows onto the outside of the outer
+> conductor.    In this case the outer conductor of the coax is "really" part
+> of the antenna, and we get into the topic of "feedline antennas"......
+>
+> I have often pointed people to a nice article about tricks one can play with
+> coaxial cables to make then into good antennas, in which the center
+> conductor is extended to be an "end-fed monopole".   No ground planes are
+> needed if you are content to use part of the outer conductor of the coax as
+> part of the "antenna".
+> http://puhep1.princeton.edu/~mcdonald/examples/EM/drozd_mj_47_160_04.pdf
+>
+> --Kirk
+>
+>
+> -----Original Message----- From: ward
+> Sent: Thursday, November 08, 2012 11:14 AM
+> To: Discussions of Antennas and Related Topics
+> Subject: Re: [Antenna-discussion] 1/2-wave vertical really needs
+> agroundplane?
+>
+>
+> Folks:
+>   While I personally subscribe to the view conveyed by w8ji there
+> are detractors.  The argument starts like this, "Kirchhoff's law doesn't
+> always
+> apply".  Then hands are waved and measurements presented.
+>   I happen to think Kirchhoff's law does apply but the arguments can
+> be compelling.  I know I can build an antenna which has radiating
+> elements which have NO direct electrical connection to the feed line.
+> Somehow, currents are induced and therefore Kirchhoff's circuit
+> law doesn't apply.
+>   I expect the physicists to say something like "Kirchhoff's circuit laws
+> apply only to static circuits".  Anyone?
+>
+>   Just a flare to engage the brain cells.
+>
+> ward
+>
+>
+> On Nov 8, 2012, at 2:58 AM, Richard Fry wrote:
+>
+> WBob wrote:
+>>
+>> am still waiting for a explanation of the J antenna (commonly misscalled
+>> the JPole) where a 1/2 wave wire is end fed with a 1/4 wave transmission
+>> line shorted on the other end. The transmission line does not radiate (very
+>> much) so it is not a counter poise and does not interact with a "ground" so
+>> it is not radials. (etc)
+>
+>
+> The link below has an interesting discussion of this subject, including a
+> section titled "Can we end-feed a halfwave antenna, or end-feed any antenna,
+> without a ground or counterpoise?"
+>
+> http://www.w8ji.com/end-fed_vertical_j-pole_and_horizontal_zepp.htm
+>
+>
+> _______________________________________________
+> This message was sent to: ward2@ussu.us
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+>
+>
+> _______________________________________________
+> This message was sent to: kirkmcd@princeton.edu
+>
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

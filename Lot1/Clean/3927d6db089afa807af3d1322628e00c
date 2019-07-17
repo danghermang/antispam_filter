@@ -1,0 +1,24 @@
+Subject:[Koha] RSS and SMS overdues cronjob
+Hello.
+
+As they currently stand, the cron jobs at misc/cronjobs/smsoverdues.pl and
+misc/cronjobs/rss/rss.pl will not work on an out-of-the-box Koha
+installation, as they require an obsolete templating system. I am wondering
+if anyone still uses these cron jobs, or whether they are obsolete legacy
+scripts that should just be removed at this point.
+
+So, are you using either of these scripts? Do you know anyone else who does?
+
+Regards,
+Jared
+
+-- 
+Jared Camins-Esakov
+Bibliographer, C & P Bibliography Services, LLC
+(phone) +1 (917) 727-3445
+(e-mail) jcamins@cpbibliography.com
+(web) http://www.cpbibliography.com/
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

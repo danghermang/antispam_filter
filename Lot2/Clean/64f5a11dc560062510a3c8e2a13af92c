@@ -1,0 +1,24 @@
+Subject:Conexiones SMTP activas
+Saludos
+
+Tengo un servidor de correo con postfix y demas artilugios en plena 
+produccion en mi empresa, y me gustaria poder revisar el comportamiento de 
+las conexiones SMTP entrantes y salientes, ver de donde y hacia donde se 
+realizan..y en tiempo real por supuesto, no un resumen de esos de fin de 
+dia.
+
+He revisado un poco En la red pero no he encontrado nada..solo unas 
+consultas con netstat, pero no me brindan mucha informacion en realidad..o 
+al menos no en el formato que quisiera.
+
+Alguien que me ayude con el tema
+
+Josue
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/E45E87FAA6F84AAE8C10E7DE4BCCC473@dbsrv
+

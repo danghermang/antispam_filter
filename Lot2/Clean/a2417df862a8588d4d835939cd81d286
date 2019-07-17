@@ -1,0 +1,46 @@
+Subject:=?ISO-8859-1?Q?Re=3A_Bonnes_pratiques_d=27administration_?=
+	=?ISO-8859-1?Q?de_Debian_c=F4t=E9_s=E9curit=E9?=
+Bonjour,
+
+On 9/28/12 11:21 AM, David BERCOT wrote:
+> Bonjour,
+>
+> Comme je ne suis certainement pas le premier à me pencher sur ce sujet,
+> je me permets de faire appel à vos lumières (et surtout à votre
+> expérience ;-))...
+>
+> Donc, au sein de vos entreprises, vous avez sûrement des serveurs
+> Debian géographiquement éloignés. Comment vous y connectez-vous ?
+SSH
+
+> Directement en root ? Via un compte "de service" (générique et
+> utilisé par plusieurs personnes) ? Avec un identifiant personnalisé ?
+Jamais en root, login nominatif
+
+> Dans ces 2 derniers cas, quand vous devez passer root, vous fournissez
+> un mot de passe. Comment ceux-ci sont-ils gérés ?
+Industrialisation avec Puppet
+
+> Et quand une personne change de service (ou quitte l'entreprise),
+> avez-vous des mesures spécifiques quant aux mots de passe connus ? Aux
+> clés SSH en sa possession ?
+Idem, puppet fait le ménage qui s'impose
+
+>
+> Merci d'avance pour vos bons conseils...
+>
+> David.
+>
+
+Cordialement,
+JB
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50657DA2.1060605@jbfavre.org
+

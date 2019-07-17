@@ -1,0 +1,31 @@
+Subject:Re: NTP server timeout
+El Wed, 24 Oct 2012 14:42:18 +0200, Manuel Jesús Recena Soto escribió:
+
+> Estamos trabajando en una máquina virtual con Debian 6 y hemos
+> configurado NTP server en el arranque. Cuando la VM tiene acceso a
+> internet el S.O. arranca con normalidad, sin embargo, cuando no tiene
+> conexión a internet el servicio NTPd se queda "esperando" muchos
+> minutos.
+
+Sí, es una lata :-(
+
+> ¿Es posible configurar algún timeout o similar? Lo esperado sería que si
+> pasado "un tiempo" no se puede conectar con los servidores de hora
+> externos, que continúe con el arranque de otros servicios.
+
+Prueba con lo que comentan por aquí:
+
+Linux Boot Delayed by NTP
+http://www.surrealinfo.com/linux/linux-boot-delayed-by-ntp
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k74480$7h2$23@ger.gmane.org
+

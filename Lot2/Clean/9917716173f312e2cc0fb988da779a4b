@@ -1,0 +1,81 @@
+Subject:Re: [EVDL] pre-charge resistor?
+< all gear has a MTBF.  If it's powered up all the time,>
+< even through a resistor or PTC, won't that wind <
+<down those life hours that much sooner?>
+
+Not exactly, the "Mean Time Between Fails," is a (Sort of) average
+compilation over many units, not a particular units guaranteed failure
+time. With most electronics the first hour of operation will be death for
+80% of items destined to fail the first year, and the first ten hours will
+bring the death of another 80% of those who didn't fail the first hour but
+will the first year, that leaves about 96% to continue to work, and those
+parts which don't fail in the first year are likely to continue to work for
+ten more years, if you don't drop a screwdriver or wrench into the circuit
+with power applied and "Murder" a component.
+Regards,
+*     Dennis *(EVprofessor)* Miles*
+  *(863)944-9913* (phone noon to midnight E.S.T.)
+*    reply to EVprofessor@EVprofessor.com*
+*++++++++++++++++++++++++++++++++++++++
+*
+On Thu, Oct 11, 2012 at 12:18 PM, EVDL Administrator <evpost@drmm.net>wrote:
+
+> On 10 Oct 2012 at 23:05, megavoltgeek@yahoo.com wrote:
+>
+> > Any time the battery is
+> > connected it precharges the capacitors in the motor controller.
+>
+> If it's always connected, then what's the point of using a PTC?  Why not
+> just use a resistor, as Curtis recommends?
+>
+> I'm leery of that too, actually.  I had a DCC-96 controller on my C-car
+> many
+> years ago, when I was even more ignorant than I am today.  Rather than
+> precharge it, I just left the battery connected to it all the time! (I had
+> a
+> manual breaker on the battery side as an emergency shutdown.)   I put the
+> main contactor on the motor side instead.  After a couple years of being
+> powered 24/7, the controller just up and quit one day.
+>
+> It might have been coincidence of course, but all gear has a MTBF.  If it's
+> powered up all the time, even through a resistor or PTC, won't that wind
+> down those life hours that much sooner?
+>
+> David Roden - Akron, Ohio, USA
+> EVDL Administrator
+>
+> = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+> EVDL Information: http://www.evdl.org/help/
+> = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+> Note: mail sent to "evpost" and "etpost" addresses will not
+> reach me.  To send a private message, please obtain my
+> email address from the webpage http://www.evdl.org/help/ .
+> = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+>
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+
+
+
+--
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121019/473d62e9/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

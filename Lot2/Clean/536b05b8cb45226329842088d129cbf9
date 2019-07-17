@@ -1,0 +1,42 @@
+Subject:Re: para formatear memorias
+* luis@ida.cu <luis@ida.cu> [2012-10-02 10:24:36 -0400]:
+
+> Buenos d=C3=ADas a todos
+>=20
+> Tengo una duda, necesito formatear una memoria flash o pendrive como
+> tambien se le conoce pero el Nautilus no le veo queme de esa
+> posibilidad alguna idea ??
+>=20
+> Qui=C3=A1s tengo que isntalarle algo mas al Nautilus o tambi=C3=A9n insta=
+lar
+> otro utilitario ???
+
+Hola Luis,
+
+Cuando el sistema monta la memoria flash, no te aparece un icono en el
+escritorio? Si es as=C3=AD, con el men=C3=BA que te sale al pinchar el icon=
+o con
+el bot=C3=B3n derecho, quiz=C3=A1 tengas una opci=C3=B3n para formatearlo. =
+Claro, esto
+depender=C3=A1 del entorno de escritorio que uses.
+
+Y si no como te han dicho otros compa=C3=B1eros de la lista, a trav=C3=A9s =
+de la
+consola puedes hacerlo con utilidades com fdisk, para crear particiones,
+y mkfs (paquete util-linux y dosfstools para crear MS-DOS filesystems)
+para crear los sistemas de archivosr.
+
+--=20
+Saludos,
+Ferran Donadie.
+
+El optimista es una parte de la respuesta. El pesimista es siempre una
+parte del problema.
+		-- An=C3=B3nimo.=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121004092620.GA1995@cateto
+

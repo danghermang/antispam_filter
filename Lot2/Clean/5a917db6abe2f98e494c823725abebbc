@@ -1,0 +1,127 @@
+Subject:Re: Installation sur partition GPT
+On Thu, 4 Oct 2012 23:42:26 +0200
+"Eddy F." <edfnet-deb@yahoo.fr> wrote:
+
+>=20
+> Oui mais le choix est global : on choisit MBR et tous les OS dessus
+> doivent d=C3=A9marrer via MBR. Si on choisit UEFI, tous OS dessus
+> doivent pouvoir d=C3=A9marrer en UEFI. Il n'y a quand m=C3=AAme pas moyen=
+ de
+> mixer les deux, si ? Par l=C3=A0 je veux dire avoir sur la partition un
+> Windows 7 qui d=C3=A9marrerait en UEFI et un linux d=C3=A9marrant via un =
+MBR.
+
+Ben j'ai survol=C3=A9 les specs =C3=A0 mach 3, mais je n'ai rien vu qui ail=
+le
+contre avoir les 2 poss. dispos.
+
+>=20
+> Sur le portable, il y a actuellement une table de partition GPT.
+> Actuellement, le syst=C3=A8me est en EUFI : au d=C3=A9marrage, ce n'est p=
+as
+> le MBR qui est utilis=C3=A9 (il n'est d'ailleurs que fictif si j'ai bien
+> compris). Le firmware va chercher un bootloader dans la partition
+> EFI qui lance Windows.
+>=20
+> On me dit que Windows 7 accepte d'=C3=AAtre lanc=C3=A9 par un MBR plut=C3=
+=B4t que
+> par un bootloader EFI. Je veux bien mais il va le trouver o=C3=B9 ce
+> MBR (sur le portable tel qu'il est install=C3=A9 maintenant) ?
+
+Le MBR =C3=A9tant le 1er secteur du HD, il existe forc=C3=A9ment; et
+"normalement" devrait =C3=AAtre acc=C3=A9d=C3=A9 en boot mode =3D BIOS.
+=20
+> Et en imaginant que je puisse en installer un, ne devrait-il pas
+> =C3=AAtre plac=C3=A9 sur une table de partition MBR ?
+
+Ledit MBR _contient_ cette table.
+
+> Parce que si je vais
+> =C3=A9crire (pas moi directement bien s=C3=BBr) dans les premiers secteurs
+> de la table de partition GPT, je vais la bousiller non ?
+
+C=C3=A9pkom=C3=A7ak=C3=A7amarch, le MBR contient la table et une routine d'=
+appel
+au bootloader.
+donc: BIOS boot > Lecture MBR > Ex=C3=A9cution de la routine d'appel >
+Ex=C3=A9cution du bootloader > Chargement du kernel, etc.
+
+> En fait je crois avoir compris que=20
+> 	boot de type UEFI <=3D> table GPT
+> 	boot de type MBR  <=3D> table dos
+>=20
+> Est-ce correct ? Oui ou non ?
+
+Ca le semble.
+
+>=20
+> Sauf que ces 2 choses diff=C3=A9rentes sont compl=C3=A8tement li=C3=A9es,=
+ en
+> m'imposant une partition de r=C3=A9cup=C3=A9ration =C3=A0 conserver, le
+> constructeur m'impose de fait son type de table de partition alors
+> que - justement
+> - Windows 7 devrait me permettre d'en utiliser une autre.
+
+Wai, il-y-a de fortes chances que la restauration recr=C3=A9e une table
+GPT.
+
+> J'avoue que maintenant que tu le dis, je n'ai pas encore v=C3=A9rifi=C3=
+=A9.
+> Le manuel du portable n'=C3=A9voque pas la possibilit=C3=A9 de graver le
+> contenu de cette partition de r=C3=A9cup=C3=A9ration. J'irai essayer.
+
+D=C3=A8s fois, c'est quand on lance la restauration que le choix en
+question appara=C3=AEt.
+
+> Mais
+> je ne suis pas s=C3=BBr que cela me serait utile. Si j'avais un disque
+> d'installation normal, j'effacerais tout, cr=C3=A9erais une table de
+> partition classique et y installerais Win 7 puis Debian sans tous
+> ces probl=C3=A8mes. Mais rien ne garantit que le dvd cr=C3=A9=C3=A9 par la
+> partition de recovery n'exigerait pas de retrouver une gpt pour
+> installer.
+
+=C3=80 la limite tu peux faire =C3=A7a puisque tu dois avoir le n=C2=B0 de =
+license
+sur un sticker; donc que le w$7 soit natif ou ta propre install =C3=A0
+partir d'un CD|DVD de n'importe quelle provenance, il-y-aura de toute
+fa=C3=A7on un w$7 fonctionnel sur le bousin.
+Le seul b=C3=A9mol risque de se trouver au niveau des drivers sp=C3=A9cifiq=
+ues
+=C3=A0 la machine, mais ils sont souvent dispos sur le site du
+constructeur.
+M'=C3=A9tonnerait que ton admin cherche la ptite b=C3=AAte en insistant
+absolument pour que =C3=A7a reste en uefi.
+
+>=20
+> D'accord avec toi sur la conclusion mais je pense quand m=C3=AAme que
+> c'est encore un autre sujet: UEFI n'implique pas le secure boot
+> qui peut encore =C3=AAtre d=C3=A9sactiv=C3=A9 je crois. En tout cas je pa=
+rie
+> qu'il n'y a pas cette notion de secure boot et de signature dans
+> le firmware du portable que l'on m'a confi=C3=A9.
+
+=C3=89tant donn=C3=A9 que pour l'instant c'est de l'annonce (sauf pour les
+archis ARM apparemment), je pense qu'on peut croire Seb et dire que
+=C3=A7a n'est pas le cas.
+=20
+> (Enfin j'esp=C3=A8re, je doute, je m=C3=A9lange tout et je d=C3=A9sep=C3=
+=A8re).
+
+Amoureux? ;p
+
+--=20
+<Ayame> je comprends pas
+<Ayame> =C3=A0 minuit
+<Ayame> mon pc devient fou
+<wullon> c'est donc =C3=A7a le fameux daemon de minuit
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121005001622.2cae2a14@anubis.defcon1
+

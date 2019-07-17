@@ -1,0 +1,40 @@
+Subject:Re: Installation sur partition GPT
+Le jeudi 4 octobre 2012 =C3=A0 07:18:26, Anthony Bourguignon a =C3=A9crit=20
+:
+> Le mercredi 03 octobre 2012 =C3=A0 23:19 +0200, Sylvain L. Sauvage=20
+a =C3=A9crit :
+> >   Ensuite, l=E2=80=99installateur Debian ne g=C3=A8re pas encore l=E2=
+=80=99UEFI
+> >   (pas
+> >=20
+> > au mois de juillet en tout cas, il y a des travaux dessus
+> > mais je n=E2=80=99ai pas vu d=E2=80=99annonce sp=C3=A9cifique =C3=A0 ce=
+ propos).
+>=20
+> Des images existent pour installer en uefi :
+> http://blog.einval.com/debian/CDs .
+
+  Yep, =C2=AB my progress =C2=BB et officieuses (pas encore dans le d-i=20
+pour Wheezy / unstable)=E2=80=A6
+
+> Pour les avoir test=C3=A9es
+> avec un ordinateur dell, elles fonctionnent tr=C3=A8s bien. Ce
+> sont des images hybrides, donc possibilit=C3=A9s de les copier
+> sur une cl=C3=A9 avec un dd.
+
+  =E2=80=A6 mais je suis content d=E2=80=99apprendre qu=E2=80=99elles fonct=
+ionnent !
+
+  M=E2=80=99aurait =C3=A9vit=C3=A9 de perdre du temps en juillet ;o)
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210042310.06747.Sylvain.L.Sauvage@free.fr
+

@@ -1,0 +1,24 @@
+Subject:Re: error al acutalizar multimedia yude los repo debian 6
+luis@ida.cu writes:
+
+> Buenos días
+>
+> primero doy apt-get update
+>
+> luego
+> apt-get install debian-multimedia-keyring y me retorna lo siguiente
+>
+> # apt-get install debian-multimedia-keyring
+> Leyendo lista de paquetes... Hecho
+> Creando árbol de dependencias
+> Leyendo la información de estado... Hecho
+> E: No se ha podido localizar el paquete debian-multimedia-keyring
+
+apt-get install deb-multimedia-keyring
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/873925neyw.fsf@tochka.ru
+

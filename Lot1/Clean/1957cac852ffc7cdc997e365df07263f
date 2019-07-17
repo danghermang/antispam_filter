@@ -1,0 +1,40 @@
+Subject:Re: [rlug] kernel panic :: pareri despre motiv
+2012/10/25 Adrian Sevcenco <Adrian.Sevcenco@cern.ch>:
+> On 10/25/2012 11:38 AM, Mircea MITU wrote:
+>>
+>> On Oct 25, 2012, at 11:36 AM, Adrian Sevcenco <Adrian.Sevcenco@cern.ch> wrote:
+>>
+>>> On 10/25/2012 11:28 AM, Mircea MITU wrote:
+>>>> On Oct 25, 2012, at 11:18 AM, Adrian Sevcenco
+>>>> <Adrian.Sevcenco@cern.ch> wrote:
+>>>>
+>>>>> Salut! Stie cineva sa interpreteze o bucata de kernel panic si sa
+>>>>> deduca un motiv? snapshot
+>>>>> http://sev.spacescience.ro/adrian/alien-0-39.jpg
+>>>>
+>>>> cum incep erorile? de obicei primele 2 linii iti zic ce module crapa
+>>>> si poti deduce de acolo care sunt cauzele, mai putin cand e vorba de
+>>>> memorie sau sursa
+>>> asta nu am cum sa stiu.. nu sunt logate nicaieri ..
+>>
+>> shift page-up nu merge ca sa vezi mai sus?
+> nu, e inghetat complet.. nici ctrl-alt-del nu ia...
+>
+>
+>
+> _______________________________________________
+> RLUG mailing list
+> RLUG@lists.lug.ro
+> http://lists.lug.ro/mailman/listinfo/rlug
+>
+
+Ultima data cand am avut probleme de genul am folosit netconsole
+http://fedoraproject.org/wiki/Netconsole
+
+Care ne-a trimis panic-urile pe alta masina, unde am putut sa le
+studiem in liniste si sa rezolvam problema.
+Highly recommended!
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

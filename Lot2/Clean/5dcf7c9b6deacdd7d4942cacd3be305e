@@ -1,0 +1,99 @@
+Subject:Partition racine choisie par os-prober
+Bonjour,
+
+Désolé pour le sujet sans doute cryptique. Je me dois de détailler un 
+peu pour expliquer ma question.
+
+J'ai une debian wheezy installée comme suit : 
+/ sur sda1
+/home sur sda2
+(et une partion sda3 montée sur /media/archives pour... des archives)
+
+(Il y a d'autres partitions, virtuelles, sur ce disque : sda5, sda6, 
+sda7 formatées en ext4 et sda8 comme swap.)
+
+Je veux copier cette wheezy de sda1 sur sda7 (sans copier le /home) 
+afin de faire évoluer cette copie vers une sid (la wheezy sur sda1 
+restera stable quand wheezy le deviendra).
+
+Voici ce que j'ai fait :
+
+su
+mount /dev/sda7 /mnt/montage
+cp -ax / /mnt/montage/
+mkdir /mnt/montage/home/eddy (vérifier le propriétaire et les droits 
+700)
+rm -rf /mnt/montage/dev/*
+rm -rf /mnt/montage/proc/*
+rm -rf /mnt/montage/sys/*
+rm -rf /mnt/montage/mnt/archives
+rm -rf /mnt/montage/media/archives
+rm /mnt/montage/etc/init.d/perso
+rm /mnt/montage/etc/rc0.d/K01perso
+rm /mnt/montage/etc/rc2.d/S21perso
+
+J'ai ensuite modifié le fichier /mnt/montage/etc/fstab pour qu'il ne 
+contienne que :
+/dev/sda7 /               ext4    errors=remount-ro 0       1
+/dev/sda8 none            swap    sw              0       0
+/dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
+
+Bon il restera au moins un problème : le grub de la wheezy copiée. Je 
+comptais le régler après avoir démarré sur la copie en y supprimant 
+simplement le paquet grup-pc-bin et en laissant le grub de la wheezy 
+originale tout gérer via os-prober.
+
+Donc premier objectif : démarrer la copie.
+
+Dans l'original, je lance un update-grub. Il détecte bien une entrée 
+pour wheezy sur sda7. Mais, quand je lance cette entrée, c'est bien la 
+wheezy originale qui est lancée (en tout cas, la racine est bien sur 
+sda1 et sda8 n'est pas montée).
+
+Un regard dans /boot/grub/grub.cfg montre ceci : 
+
+ menuentry "Debian GNU/Linux, avec Linux 3.2.0-3-amd64 (on /dev/sda7)" 
+--class gnu-linux --class gnu --class os {
+        insmod part_msdos
+        insmod ext2
+        set root='(hd0,msdos7)'
+        search --no-floppy --fs-uuid --set=root d7fa1308-a028-4a30-
+b29e-4597c6bf10c9
+        linux /boot/vmlinuz-3.2.0-3-amd64 
+root=UUID=30bee6e2-5e2f-44e5-9eff-6e74baf117ca ro quiet
+        initrd /boot/initrd.img-3.2.0-3-amd64
+
+où la ligne root=UUID=30bee... correspond en effet à sda1 au lieu de 
+sda7.
+
+D'ailleurs, si au démarrage de grub j'édite la ligne sda7 et y 
+remplace 30bee... par d7fa... alors je parviens bien à démarrer la 
+wheezy copiée.
+
+Tout cela étant dit, voici les questions ?
+
+Qu'ai-je oublié ? Pourquoi update-grub qui trouve la copie veut la 
+démarrer sur sda1 ? (Alors qu'il trouve par exemple très bien une 
+ubuntu installée - sans grub - sur sda5 et la démarre convenablement).
+
+Que dois-je corriger pour pouvoir démarrer cette wheezy copiée via le 
+grub de l'original (sans devoir chaque fois passer par une ligne de 
+commande) ?
+
+PS
+Il est bien entendu que modifier à la main le /boot/grub/grub.cfg sur 
+sda1 n'est pas acceptable : d'abord parce que c'est déconseillé, 
+ensuite parce que cette modification sautera à chaque update-grub.
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211142219.17101.edfnet-deb@yahoo.fr
+

@@ -1,0 +1,65 @@
+Subject:Re: Wheezy freeze and squeeze-backports-sloppy
+* Julien Cristau <jcristau@debian.org> [2012-09-11 20:20:40 CEST]:
+> On Tue, Sep 11, 2012 at 14:17:27 +0200, Gerfried Fuchs wrote:
+>
+> >     Hi again.
+> >
+> > * Gerfried Fuchs <rhonda@deb.at> [2012-07-30 09:05:09 CEST]:
+> > > * Philipp Kern <pkern@debian.org> [2012-07-12 17:57:46 CEST]:
+> > > > I wasn't very happy back then either. It was sort of rushed through in
+> > > > some private IRC pings about me setting it up on the wanna-build side.
+> > > > All I'm saying is if it would be possible to review the arguments,
+> > > > having had the experience for one cycle.
+> > >
+> > >  The arguments why it is wanted (and to some degree needed) didn't
+> > > change since then.  There are still the two groups of people who expect
+> > > backports to be upgradeable to the next release _without_ backports, and
+> > > those who still want to have newer versions in _after_ the release.
+> > > Both are valid concerns, and both have their userbase.
+> > >
+> > > > It's sad that we do not currently scale on the buildd side, but that's
+> > > > how it is.[1]
+> > > >
+> > > > (And it's likely to take a month until all buildds have implemented it,
+> > > > given the current speed of any buildd updates needing to take place.)
+> > >
+> > >  Is there anything we can help with that?  (and, ouch :( )
+> >
+> >  I'd like to re-ask this question, it might went unseen.  Is there
+> > anything we can help with?  postgres-9.2 was one of the things that was
+> > asked about already, and I suspect that there are people wanting to
+> > provide other stuff too.
+> >
+> There's a lot you can do to help get wheezy out.  After which you can
+> put new stuff in backports again.  Everybody wins.
+
+ That wasn't the question - but be rest assured that I do my fair share
+to get wheezy out; I am quite sure you are aware of that fact.
+
+ Do I understand you correctly that you like to imply that there seems
+to be a certain overlap within the release team and the buildd team that
+hinders the buildd team to set up the chroots currently?  While we don't
+seem to be able to address this on short term, it might be an issue in
+the longer run, if some core teams only consist of the same people and
+thus are blocking each other at such times.
+
+ The real question still holds:  Is there anything one can do to help
+the buildd team to reduce the pain involved with the "do not currently
+scale on the buildd side" issue?  From what I have been told it seems to
+have existed at the squeeze release time already (and probably before)
+and is still biting.
+
+ Thanks,
+Rhonda
+-- 
+Fühlst du dich mutlos, fass endlich Mut, los      |
+Fühlst du dich hilflos, geh raus und hilf, los    | Wir sind Helden
+Fühlst du dich machtlos, geh raus und mach, los   | 23.55: Alles auf Anfang
+Fühlst du dich haltlos, such Halt und lass los    |
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120913135117.GA13377@anguilla.debian.or.at
+

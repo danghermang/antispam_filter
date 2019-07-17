@@ -1,0 +1,89 @@
+Subject:Re: Crash de X avec google-chrome
+Re bonjour,
+
+Merci pour les infos.
+Alors, il n'y a aucune trace d'erreur dans les fichiers 
+~/.xsession-errors et /var/log/messages
+par contre sous /var/log/Xorg.0.log :
+
+[  8243.294]
+[  8243.294] Backtrace:
+[  8243.294] 0: /usr/bin/X (xorg_backtrace+0x36) [0x7fdcb3572c66]
+[  8243.295] 1: /usr/bin/X (0x7fdcb33f4000+0x1827b9) [0x7fdcb35767b9]
+[  8243.295] 2: /lib/x86_64-linux-gnu/libpthread.so.0 
+(0x7fdcb271c000+0xf030) [0x7fdcb272b030]
+[  8243.295]
+[  8243.295] Segmentation fault at address (nil)
+[  8243.295]
+Fatal server error:
+[  8243.295] Caught signal 11 (Segmentation fault). Server aborting
+[  8243.295]
+[  8243.295]
+Please consult the The X.Org Foundation support
+      at http://wiki.x.org
+  for help.
+[  8243.295] Please also check the log file at "/var/log/Xorg.0.log" for 
+additional information.
+[  8243.295]
+[  8243.316] (II) evdev: Power Button: Close
+[  8243.316] (II) UnloadModule: "evdev"
+[  8243.336] (II) evdev: Video Bus: Close
+[  8243.336] (II) UnloadModule: "evdev"
+[  8243.356] (II) evdev: Sleep Button: Close
+[  8243.356] (II) UnloadModule: "evdev"
+[  8243.384] (II) evdev: Integrated Camera: Close
+[  8243.384] (II) UnloadModule: "evdev"
+[  8243.412] (II) evdev: AT Translated Set 2 keyboard: Close
+[  8243.412] (II) UnloadModule: "evdev"
+[  8243.474] (II) UnloadModule: "synaptics"
+[  8243.481] (II) evdev: TPPS/2 IBM TrackPoint: Close
+[  8243.481] (II) UnloadModule: "evdev"
+[  8243.482] (II) evdev: ThinkPad Extra Buttons: Close
+[  8243.482] (II) UnloadModule: "evdev"
+[  8243.486] (II) evdev: ACPI Virtual Keyboard Device: Close
+[  8243.487] (II) UnloadModule: "evdev"
+[  8245.206] Server terminated with error (1). Closing log file.
+
+
+Et la je ne suis pas plus avancé...
+
+
+
+
+
+Le 12. 11. 12 19:46, Sébastien NOBILI a écrit :
+> Bonjour,
+>
+> Le lundi 12 novembre 2012 à 18:16, Olivier a écrit :
+>> Bonjour,
+>> J'ai un petit soucis avec google-chrome-stable (et chromium).
+>> En effet, lors du lance ment d'une de ces application, mons serveur X crash.
+>> En cherchant sur le net, j'ai trouvé deux trois piste non résolue du
+>> coté des drivers invidia, mais ce n'est pas très concluant.
+>> Est ce que quelqu'un à déjà eu ce problème?
+>>
+>> Config:
+>> debian wheezy.
+>> xorg 1:7.7+1
+>> nvidia 304.48
+>> WM Fluxbox
+>>
+>> Je ne sais pas trop où chercher pour résoudre ce problème...
+> Commence par regarder dans ~/.xsession-errors, /var/log/Xorg.0.log et
+> /var/log/messages.
+>
+>> Merci d'avance pour votre aide!
+> Pas de quoi.
+>
+> Seb
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A147D5.7060603@art-phi.com
+

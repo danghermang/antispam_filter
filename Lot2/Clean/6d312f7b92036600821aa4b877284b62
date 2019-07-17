@@ -1,0 +1,33 @@
+Subject:Re: chvt y permisos a usuario
+El d=EDa 23 de noviembre de 2012 11:31, Walter <iqsistemas@gmail.com> escri=
+bi=F3:
+
+> s=ED .. as=ED funciona... gksu chvt 2
+> me pide la clave... la guardo en deposito.. y listo....
+> esto lo habia probado...y es una solucion muy buena....
+> pero... no hay otra opcion??
+> digo... porque asi... y con la clave en deposito.... ya todo queda a un
+> click del mouse...
+> y aunque dije que entiendo los temas de seguridad.... no queria llegar ta=
+n
+> lejos...
+> una cosa , es desde el terminal. sin saber que escribir y otra es con
+> click's  , me explico??
+>
+
+Lo mejor es que uses la opci=F3n 'NOPASSWD'  de sudo, hace que el
+comando que vos decidas se ejecute con privilegios de root, pero sin
+pedir password.
+
+ej:
+
+    %users ALL=3D(root) NOPASSWD:/bin/chvt 2
+
+luego con un '$ sudo /bin/chvt 2'  desde un script solucionas tu problema.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADqxbRRAvQ6sJJ2g8sAJ7n5rC3E=A8UPv=vzV5gRTqyJnhKOVw@mail.gmail.com
+

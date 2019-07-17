@@ -1,0 +1,26 @@
+Subject:r8168b woes
+I was running the "linux-image-3.2.0-0.bpo.3-amd64" and came across
+the r8169 driver to r8168b bug. However downloading the r8168 driver,
+compiling it and installing it didn't work.
+
+The symptoms were the classic, under high network load "mediatomb
+videos to our play station 3 box" the network would stall until I
+disabled/reenabled networking. I tried both drivers the original r8169
+from the image and compiling the r8168 from source. It seemed like the
+behavior was exactly the same. I did verify that the driver r8168 was
+being loaded via the lsmod | grep 'r816' command.
+
+After returning to the stock kernel 2.6.32. The network is very stable
+and very good with the stock r8169 driver.
+
+The network is integrated on the ASUS M5A97 board.
+
+Thanks
+Jeffrey
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ9wesgQTuNdkxQYPrmr1E+wzPG-+grvRnMw7NrE=pSEW4srGg@mail.gmail.com
+

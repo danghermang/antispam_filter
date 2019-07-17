@@ -1,0 +1,74 @@
+Subject:Re: Connexion ssh : timed out
+Le Wed, 31 Oct 2012 14:04:50 +0100
+"Eddy F." <edfnet-deb@yahoo.fr> a =C3=A9crit :
+
+> Le mercredi 31 octobre 2012 13:32:58, S=C3=A9bastien NOBILI a =C3=A9crit :
+> > Bonjour,
+> >=20
+> > Le mercredi 31 octobre 2012 =C3=A0 13:17, Eddy F. a =C3=A9crit :
+> > > Avez-vous un avis sur ma configuration ? Merci
+> >=20
+> > Elle me para=C3=AEt pas mal=E2=80=A6
+> >=20
+> > As-tu configur=C3=A9 le NAT sur ton modem ?
+> >=20
+> > As-tu des r=C3=A8gles de filtrage iptables sur ta machine ?
+> >=20
+> > Seb
+>=20
+> Merci.
+>=20
+> En ce qui concerne le modem, il me semble que j'ai tout essay=C3=A9.=20
+> J'ai effectivement configur=C3=A9 le nat pour rediriger le port 22 TCP ve=
+rs=20
+> la machine locale (qui re=C3=A7oit une adresse IP locale statique du=20
+> serveur DHCP).
+>=20
+> J'ai aussi essay=C3=A9 de diminuer les r=C3=A8gles de pare-feu du modem p=
+our=20
+> laisser tout passer et j'ai m=C3=AAme =C3=A9t=C3=A9 mettre ma machine loc=
+ale=20
+> (momentan=C3=A9ment) dans la DMZ. Rien !
+>=20
+> Je n'ai pas configur=C3=A9 iptables sur ma debian :=20
+> 	iptables -L
+> donne
+>=20
+> Chain INPUT (policy ACCEPT)
+> target     prot opt source               destination        =20
+>=20
+> Chain FORWARD (policy ACCEPT)
+> target     prot opt source               destination        =20
+>=20
+> Chain OUTPUT (policy ACCEPT)
+> target     prot opt source               destination =20
+>=20
+> Enfin, si j'utilise un site tel que https://grc.com/x/ne.dll?bh0bkyd2,=20
+> il me confirme que mon port 22 est ouvert.=20
+>=20
+> Le modem est la BBox 2 de Belgacom (un Sagem F@st3464 adapt=C3=A9 =C3=A0 =
+la=20
+> sauce Belgacom, je pense).
+>=20
+> Bon, ok, si la configuration de mon serveur ssh n'a rien d'anormal, je=20
+> vais continuer =C3=A0 chercher dans ce foutu modem. Si quelqu'un le conna=
+=C3=AEt=20
+> et peut m'aider, qu'il ne se prive pas m=C3=AAme si cela sera hors sujet=
+=20
+> par rapport =C3=A0 la liste.
+>=20
+
+Comme vu avec toi en PV, j'ai test=C3=A9 de chez moi et cela fonctionne par=
+faitement, la connexion SSH passe bien et le
+password m'est demand=C3=A9. Je suppose donc que le probl=C3=A8me est au ni=
+veau de ton client.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031165712.6cb8b907@onetoserve.net
+

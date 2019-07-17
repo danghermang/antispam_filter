@@ -1,0 +1,27 @@
+Subject:[Hsqldb-user] Shutdown Compact with low xmx
+Hi All,
+
+I have been doing some experimentation with different xmx settings and
+cache sizes to try and find a good balance between memory usage and
+performance.
+I have it so that a reasonably large database will run with a fairly
+low memory footprint, however, when I try to run a SHUTDOWN COMPACT it
+will cause the memory usage to rise considerably and often exceeds xmx
+resulting in out of memory exceptions.
+As far as my understanding goes, a shutdown compact will result in a
+smaller file on disk than the standard shutdown command which makes
+offsite backups for us much easier.
+Is there a way to perform a shutdown compact without the excessive memory usage?
+
+Cheers,
+Dean
+
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://p.sf.net/sfu/appdyn_sfd2d_oct
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

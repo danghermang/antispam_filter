@@ -1,0 +1,133 @@
+Subject:[Fedora-it] R: Re:  come fare il dual boot ?
+
+
+>----Messaggio originale----
+>Da: tribu.tribu@alice.it
+>Data: 14-nov-2012 =
+
+13.20
+>A: =
+
+>Ogg: Re: [Fedora-it] come fare il dual boot ?
+>
+>Il giorno mar, =
+
+13/11/2012 alle 13.35 +0100, Antonio Trande ha scritto:
+>> Il giorno 13 =
+
+novembre 2012 13:16, angelo.moreschini@medident-sw.it
+>>  ha scritto:
+
+>>         grazie per le risposte,
+>>         =
+
+>>         Ner me non e' (in =
+
+questo momento) un problema reinstallare
+>>         entrambi i sistemi =
+
+operativi.
+>>         =
+
+>>         E questa mi sembra il miglire modo di =
+
+procedere.
+>>         =
+
+>>         Potrei reinstallare prima Windows 7 e poi =
+
+Fedora (come avevo
+>>         gia' fatto).
+>>         =
+
+>>         Questa volta =
+
+pero' vorrei partire con il piede giusto,
+>>         preparando le partizioni =
+
+per i due sistemi operativi.
+>>         =
+
+>>         =
+
+>>         Quali =
+
+partizioni preparare e di quali dimensioni ?
+>>         E quali tools =
+
+utilizzare ?
+>ciao =
+
+>da una distibuzione live o dal disco di gparted.
+>poi per =
+
+le partizioni non so dirti quanto spazio ai sul hd ?
+>esempio potresti fare con =
+
+gpated meta disco ntfs (credo primario ma non
+>so) ed il resto riservarlo per =
+
+fedora.
+>comunque e meglio che aspetti piu validi consigli un buon link di =
+
+aiuto
+>e questo; http://www.fedoraonline.it/>iscriviti e posta.
+>tribu
+>
+>
+
+>>          =
+
+>>         Grazie
+>>         =
+
+>>         Angelo
+>>         =
+
+
+>>         =
+
+>>         _______________________________________________
+
+>>         it-users mailing list
+>>         it-users@lists.fedoraproject.org
+
+>>         https://admin.fedoraproject.org/mailman/listinfo/it-users>> =
+
+>> =
+
+>> =
+
+Faccio prima a proporti di leggere quanto ho scritto nel mio blog .
+>> Spero =
+
+che possa esserti di aiuto.
+>> =
+
+>> =
+
+>> =
+
+>> =
+
+>> -- =
+
+>> Antonio Trande
+>> "Fedora =
+
+Ambassador"
+>> "Fedora italian translation group"
+>> "Blogger"
+>> =
+
+
+
+Temo che =
+
+abbia bisogno di istruzioni passo-passo..... :-)
+
+
+_______________________________________________
+it-users mailing list
+it-users@lists.fedoraproject.org
+https://admin.fedoraproject.org/mailman/listinfo/it-users

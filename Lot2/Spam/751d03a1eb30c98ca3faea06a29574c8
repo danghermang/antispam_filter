@@ -1,0 +1,113 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<woodstock01@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <PHP@guitaralliance.com>
+Received: (qmail 24708 invoked by uid 89); 9 Dec 2012 19:05:43 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 9 Dec 2012 19:05:43 -0000
+Delivery-date: Sun, 09 Dec 2012 11:04:05 -0800
+Received: from guitaralliance.com ([69.5.13.240]) helo=guitaralliance.com
+	by apn.junkemailfilter.com with smtp (Exim 4.80.1)
+	id 1ThmAR-0006aM-KI on interface=184.105.182.43
+	for woodstock01@activ8.net.au; Sun, 09 Dec 2012 11:04:03 -0800
+Received: (qmail 21958 invoked by uid 47859); 9 Dec 2012 19:03:54 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+	h=To:Subject:Date:From:Message-ID:X-Priority:X-Mailer:MIME-Version:Content-Transfer-Encoding:Content-Type;
+	s=default; d=guitaralliance.com;
+	b=Za+c2CmQu1tub5EdlEJB8XuqYNmDk6O8XOGvlPUDUS4G4I3hNzi4F6mMHvXhr4EUq2PUv3y0ZkHVwifKovyIpWj46jvhAhgeNemPR4pBKm2mPQ3YP1fcf5OuT4xl/+pViCURL+4qFLyIoyJyNytiizsdhHKx9fIuyNw1Z9/x6oA=;
+To: glenn halliday <woodstock01@activ8.net.au>
+Subject: In 60 Days You Could Be Improvising Your Own Killer Blues Solos
+Date: Sun, 9 Dec 2012 14:03:54 -0500
+From: Kenny Mann <kenny@guitaralliance.com>
+Message-ID: <5d89042a7081fce4520f44a284dfd9a8@guitaralliance.com>
+X-Priority: 3
+X-Mailer: aMember Pro [ http://www.amember.com/ ]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-1"
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: PHP@guitaralliance.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=guitaralliance.com - X=apn H=guitaralliance.com [69.5.13.240] HELO=[guitaralliance.com] F=[PHP@guitaralliance.com] T=[woodstock01@activ8.net.au] S=[In 60 Days You Could Be Improvising Your Own Killer Blues Solos]
+X-Sender-Host-Address: 69.5.13.240
+X-Sender-Host-Name: guitaralliance.com
+
+Hi glenn,
+
+Since I  launched Guitar Alliance over 10 years ago (where has
+the time gone?) it has continued to be the choice destination of
+millions of guitar players through the years.
+
+Now, I’ve created a brand new course that hits close to home. 
+It’s called “Blues Improvisation”. This course will show you how
+to do the thing that I love most:
+
+"How To improvise your own killer blues leads on the fly."
+
+Blues Improvisation is a 60 lesson course that will turn you into 
+a blues improvising monster
+
+The lessons include HD video, guitar tab downloads, and jam
+track downloads. I’ll provide you with everything you need to 
+succeed. Plus, if you run into any problems with the course, just 
+let me know and I’ll show you the way. I offer great customer 
+support and will respond to your inquiries on a timely basis.
+
+Don’t worry, you can learn at your own pace, because you’ll 
+have lifetime access to all the course materials (which includes
+videos, tab downloads, and jam tracks).
+
+It doesn’t matter if you can’t play a lick- this course is for all
+beginner to intermediate guitar players.
+
+With the new Blues Improvisation course:
+
+-You’ll learn all the important blues scales
+
+-You’ll become a master of popular blues techniques such
+ as bends and vibrato
+
+-You’ll have the ability to improvise anywhere- anytime!
+
+Anyone can learn to play the blues. Why not you, too? I’ll take 
+you step-by-step. All you have to do is commit to the 60 days of 
+lessons- and with 60 lessons you’ll have plenty of time to dive
+deep into the world of blues improvisation. You’ll have a deeper 
+understanding of blues guitar and you’ll possess an improved 
+blues guitar skill set.
+
+Sign up for my Blues Improvisation course today for half-off the
+standard price of 49.00 USD. You’ll pay only 24.50 for lifetime
+access to the entire course. That’s 60 lessons for about the
+ price of 2 or 3  lessons with a private instructor- it’s a no brainer!
+
+100% Money Back Guarantee
+
+Try the course for 60 days. If  you are not satisfied with your
+results, just let me know. I’ll cheerfully refund 100% of your 
+investment in the course.
+
+Just click the link below to sign up today and get started 
+immediately:
+
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VRY375596GDHS
+
+Sincerely,
+Kenny Mann
+guitaralliance.com
+
+-------------------------------------------------------------------
+To unsubscribe from our periodic e-mail messages, please click the following link:
+  http://guitaralliance.com/amember/unsubscribe.php?e=woodstock01%40activ8.net.au&s=0111
+  
+-------------------------------------------------------------------
+
+
+

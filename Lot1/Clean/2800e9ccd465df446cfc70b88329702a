@@ -1,0 +1,49 @@
+Subject:Re: Ayuda Urgente: Iptables e ip rule no funcionan correctamente en
+	debian 6?
+El 06/09/12 10:08, Juan Antonio escribió:
+> El 06/09/12 09:43, Francisco J. Bejarano escribió:
+>> Tienen sentido cuando estoy en el firewall y quiero acceder desde el a
+>> determinados lugares por determinadas lineas. No por la default.
+> tienes razón,
+>
+> Routing decision, since the previous mangle and nat changes may have
+> changed how the packet should be routed.
+>
+> no sabía que despues de MANGLE OUTPUT volvía a pasar por el proceso de
+> encaminamiento.
+>
+> prueba a quitar las rules que coinciden con las redes a ver si el
+> tráfico marcado se encamina bien, si el log te dice que se marca, esta
+> claro que el problema es con iproute. Prueba también a añadir las reglas
+> de log a FORWARD para ver todos los campos completados, igual sacas mas
+> información.
+>
+> Pregunta tonta, el problema es que el tráfico sale por donde no debe, o
+> que sencillamente no sale.
+Si que sale pero no por donde debe, por eso me inclino a que el fallo es
+en iproute2 y no en el firewall. Espero que no sea un bug con las
+prioridades porque estoy "@##~@~do" :-D
+
+>
+> Un saludo.
+>
+>
+Saludos
+
+-- 
+-----------------------------------------------------------------
+Francisco J. Bejarano
+Responsable de Sistemas
+Dpt. Sistemas e Infraestructuras
+Open Knowledge Network S.L.
+francisco.bejarano@openknowledgenetwork.com
+Tel. (+34) 902 534 004
+Fax. (+34) 917 266 476
+-----------------------------------------------------------------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50485B6F.2020601@openknowledgenetwork.com
+

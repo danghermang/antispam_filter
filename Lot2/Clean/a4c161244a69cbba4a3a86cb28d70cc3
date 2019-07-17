@@ -1,0 +1,39 @@
+Subject:Re: [Antenna-discussion] Ferrite Antennas
+Kirk
+
+If you can find a lossless ferrite antenna it will be the first.  The
+figure I quoted, 70 dBs loss at 1 MHz, is quite typical and I have
+shown how that figure can be incorporated into a system design for
+transistor radios, which is the only widespread application these
+antennas have found in the market-place.  An important question is to
+ask yourself why that is . . :)
+
+At lower frequencies the losses become even larger, but lossy
+receiving antennas are more acceptable because of the extremely high
+level of external noise at low frequencies.
+
+Alan P. has derived loss resistances between 1 and 10 ohms in a
+typical case, while stating that a typical radiation resistance is
+10^-6 ohms, implying typical losses of somewhat more than 60 dB, so
+this idea of lossless ferrites is a misrepresentation.
+
+You still refuse to consider details, but all you need to do is
+calculate the radiation resistance and inductance of one of these
+antennas.  As long as you continue to keep your head in the sand you
+will stay as you are now - in a state of blissful ignorance :).
+
+Alan G3NOQ
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

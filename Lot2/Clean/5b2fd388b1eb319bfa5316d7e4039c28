@@ -1,0 +1,30 @@
+Subject:Performance mdadm
+Buenas a todos.
+
+He montado un proxy en un servidor con 2 discos. La instalaci=C3=B3n la
+tengo hecha con los discos montados en espejo con mdadm. En contra
+tengo el actual servidor proxy que est=C3=A1 dando servicio montado en
+Centos con el mismo hardware que el anterior pero con los discos
+montados en espejo con el raid por hardware (Debian no me reconocia en
+la instalaci=C3=B3n la controladora y adem=C3=A1s el drivers solo estaba pa=
+ra
+redhat y suse).
+Quiero migrar de la centos a debian, pero he realizado un test en los
+discos y la diferencia tanto de lectura como de escritua es el doble
+de la Centos a la Debian.
+Como podr=C3=ADa hacer tunning de esos discos montados con mdadm?
+Decir que ambos sistemas est=C3=A1n montados con el mismo sistema de archiv=
+os.
+
+He pensado pasarme a testing por si all=C3=AD la nueva versi=C3=B3n de mdad=
+m da
+mejor rendimiento.
+
+Que me recomendais?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+FbNVjj6XSsxe-BkoPxP9N1ZeXb79dOS_H2saOvUW3detEm4A@mail.gmail.com
+

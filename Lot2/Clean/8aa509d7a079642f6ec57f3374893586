@@ -1,0 +1,70 @@
+Subject:Re: Installation sur partition GPT
+Le dimanche 7 octobre 2012 15:35:02, Sylvain L. Sauvage a écrit :
+> Le samedi 6 octobre 2012 à 21:08:03, Eddy F. a écrit :
+> [...]
+> >[…]
+> > Petit doute, dans les caractéristiques de cette partiton, il
+> > n'est pas indiqué qu'elle doit être montée dans /boot/efi.
+> > Dois-je l'indiquer manuellement ? Bon je m'abstiens et fais
+> > confiance à l'installateur. Il semble que j'ai eu raison.
+> 
+>   Oui, il indiqué un peu partout qu’elle doit être montée 
+> quelque part mais, pour leur installation et mises à jour, les 
+> chargeurs semblent préfèrer qu’elle ne le soit pas.
+>   En tout cas, l’avoir dans la fstab en noauto permet d’aller y 
+> voir rapidement en cas de pépin.
+
+Je précise pour être bien clair ce que j'ai voulu dire.
+Au moment de l'étape de partitionnement manuel dans l'installateur, on
+peut sélectionner chaque partition et lui attribuer son type (ext4,
+vfat...), dire si on veut la monter et où, dire s'il faut la formater.
+
+Quand j'ai regardé ce qu'il en était pour la partition de boot uefi,
+il n'y avait aucun point de montage indiqué. J'ai hésité à l'indiquer
+moi même puis je me suis dit que j'allais faire confiance à
+l'installateur.
+
+Et l'installateur a bien décidé de la monter là où il faut et de créer
+une entrée ad-hoc dans le fstab.  Maintenant, quand je tape mount je
+peux voir :
+
+/dev/sda3 on /boot/efi type vfat (rw,relatime,fmask=0022,dmask=0022,codepage=cp437,iocharset=utf8,shortname=mixed,errors=remount-ro)
+
+> 
+> >[…]
+> > Et voilà. Non seulement grub est capable de démarrer le
+> > windows 7 mais en plus j'ai pu constater que update-grub
+> > fonctionne bien aussi en uefi et n'aurai donc pas trop de
+> > problème lors des maj du noyau.
+> 
+>   Impéccable.
+> 
+> > Un grand merci à tout le monde.
+> 
+>   De rien.
+> 
+>   Oh, en ce qui concerne le bogue sur le module os-prober, est-
+> ce que tu pourrais le compléter en expliquant ton 
+> contournement ?
+
+Pourquoi pas ? J'ai hésité à le faire. Cela ne servira sans doute pas
+à grand chose au mainteneur du paquet puisque le contournement que
+j'utilise consiste justement à ne pas utiliser os-prober et que de
+toute façon le mainteneur a sans doute bien compris la nature du
+problème bien expliquée dans le rapport de bug existant.
+
+Mais peut-être cela servira-t-il à quelqu'un qui cherche une solution
+provisoire. Je vais voir ce que je peux faire...
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210071632.45389.edfnet-deb@yahoo.fr
+

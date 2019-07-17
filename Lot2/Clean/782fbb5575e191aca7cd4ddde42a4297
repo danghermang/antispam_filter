@@ -1,0 +1,22 @@
+Subject:Re: [rlug] Intrebare file mirroring
+> Absolut corect. Dar deja am trecut peste.
+> Oricum as fi bucuros daca cineva care are mai multa experienta in
+> domeniu, sa ma ghideze spre cateva linkuri unde e mai amplu dezbatuta
+> problema referitoare la gluster/nfs, pana acum nu am gasit mare lucru.
+>
+> Multumesc.
+daca nu sunt mixate date temporare si loguri sau alte chestii locale in 
+aceeasi structura de directoare poti incerca si un ocfs spre exemplu
+dar ca sa fie profi inseamna automat ca iti trebuie un storage de sine 
+statator (de astea facute home made parca nu as incerca pe productie), 
+deci cred ca mai curand cu sync-ul te descurci mai bine
+pare promitator articolul ala cu csync2, din pacate din cate am citit 
+tot nu scapi de scripturi si tot ii trebuie ceva extern sa-l notifice de 
+sanatate ...
+
+Alex
+
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

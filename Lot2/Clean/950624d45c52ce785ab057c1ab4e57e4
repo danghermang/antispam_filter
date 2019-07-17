@@ -1,0 +1,54 @@
+Subject:Re: mysql.server error
+On Tue, Nov 27, 2012 at 10:25 PM, Raphael Verdugo P.
+<raphael.verdugo@gmail.com> wrote:
+>  Hola, estoy tratando de instalar mysql en una Debian Squeeze justo
+> despues de completar la instalaci=F3n , pero falla  este error muestra:
+>
+>
+> Starting MySQL database server: mysqld . . . . . . . . . . . . . . failed=
+!
+> invoke-rc.d: initscript mysql, action "start" failed.
+> dpkg: error processing mysql-server-5.1 (--configure):
+>  subprocess installed post-installation script returned error exit status=
+ 1
+> configured to not write apport reports
+>                                       dpkg: dependency problems
+> prevent configuration of mysql-server:
+>  mysql-server depends on mysql-server-5.1; however:
+>   Package mysql-server-5.1 is not configured yet.
+> dpkg: error processing mysql-server (--configure):
+>  dependency problems - leaving unconfigured
+> configured to not write apport reports
+
+
+
+
+SOLUCIONADO:
+
+
+agregue :
+-----------------
+auto lo
+iface lo inet loopback
+----------------------------------
+
+en /etc/network/interface
+
+por alguna raz=F3n no estaba loopback, y por default mysql usa esa interfac=
+e....
+
+
+
+
+--=20
+Raphael Verdugo P.
+Unix Admin & Developer
+raphael.verdugo@gmail.com
+56+99010022
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAOEb8D3R3eBDfRsE2Vp1SQPuHDXuqMdOuVuoTuTK-LNHpFjndw@mail.gmail.com
+

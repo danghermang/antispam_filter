@@ -1,0 +1,63 @@
+Subject:Re: [Antenna-discussion] Antenna-discussion Digest, Vol 75, Issue 23
+I must agree with Les.
+
+This discussion is like the clash of the titans.  What I'm looking for is something I can build.  As Wernher Von Braun said "One good test is worth a thousand expert opinions".  And if I may quote Albert Einstein, "Things should be as simple as possible - but not simpler"
+
+I was considering a ferrite loop antenna, but near as I can tell they're not much use above 2MHz.
+
+I want to cover everything from DC to daylight - or at least 160M to 10M for now. And I want it to be immune to power-line (E-field) noise.
+
+  So far I've found many candidates, the most interesting of which is the "The Multiple Moebius Strip Loop" (http://www.ece.unm.edu/summa/notes/SSN/note25.pdf)
+
+If I can shield and resonate this puppy, I think it just might kick butt - at least for receive.  I may have to build several for transmit, until I can get the magic smoke to stay in....
+
+[//begin rant]
+Since I have your (undivided)attention, do you gentlemen think you could delete ALL the stuff not relevant to your immediate response?  It takes forever to get to the second subject, when the first has been repeated 365,400 times...
+[//end rant]
+
+Dave - AC2GL
+
+-----Original Message-----
+From: Les and Kathy
+Sent: Tuesday, October 16, 2012 9:58 PM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] Ferrite Antennas
+
+First of all I, love building antennas, small magnetic loops, Beverage and
+such and I'm eager to learn from the experts with a lifetime of experience
+in the antenna field.
+
+With this ferrite topic  the discussion deteriorated to what I call a clash
+of the giants, very much of the ego playing and not much information coming
+out of these heated discussions.
+
+My question to the experts out there is simple.
+
+If I have an air wound coil and that is my antenna to gather the
+electromagnetic field to be processed  as voltage in my RF amplifier, will
+the insertion of a ferromagnetic stick into the coil enhance the incoming
+signal voltage.
+
+I forget which of the two Alan's mentioned it, but to detect an EMF at 10 KHz
+is  an excellent achievement indeed.
+
+73 de
+
+VA3LBZ
+
+Les
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

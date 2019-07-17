@@ -1,0 +1,53 @@
+Subject:Re: [Antenna-discussion] 1/2-wave vertical really needs a ground
+	plane?
+Hello Greg,
+
+All end fed antennas require radials or a counterpoise. If we don't use
+one, then something else (such as the outside of the feedline) will become
+the counterpoise, and that can cause problems. See AA5TB's new article at
+http://www.antennex.com/library/Nov12/Nov512/intro_nnotes-efhalf.htm
+
+I have a page about grounds at
+http://www.w0btu.com/Optimum_number_of_ground_radials_vs_radial_length.html.
+
+73, Mike
+www.w0btu.com
+
+On Mon, Nov 5, 2012 at 4:37 PM, <kb0zut@hotmail.com> wrote:
+
+> Hello,
+> I had a question concerning whether a half wave vertical really
+> needs a ground plane or not.
+>
+> I recently gave a friend of mine an old half wave vertical and
+> I told him it does not require the radials because its a
+> half wave, and they are self resonant antennas that will work
+> without them.
+>
+> I have recently read that all unbalanced antennas
+> (regardless of wavelength) require some sort of return path
+> for the currents following through them.
+>
+> This has me really confused, because I have never noticed
+> a problem with RFI, common mode currents usf. while using this
+> antenna.
+>
+> What is your opinion on this?
+>
+> Best Regards,
+> Greg Morris
+>
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

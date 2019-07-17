@@ -1,0 +1,96 @@
+Subject:Re: [Antenna-discussion] RMS power
+A final note on this topic.
+In German language RMS voltage/current is called Effektiv-Spannung/-Strom
+and average power is always called Effektiv-Leistung.
+Therefore we are always referring just to the equivalent heating of a
+resistor with DC
+without saying how RMS voltage/current and/or average power are calcuated.
+Thus in German language the confusion about 'RMS'- and average power has
+never been possible.
+
+73
+Clemens
+DL4RAJ  
+
+>-----Original Message-----
+>From: antenna-discussion-bounces@antennex.com 
+>[mailto:antenna-discussion-bounces@antennex.com] On Behalf Of 
+>Robert Thorpe
+>Sent: Sunday, October 28, 2012 5:46 PM
+>To: Discussions of Antennas and Related Topics
+>Subject: Re: [Antenna-discussion] RMS power
+>
+>On 10/28/2012 04:12 PM, wolfbob wrote:
+>> Maybe I don't understand (yet ...or is it again?)
+>>
+>> When I was in school (before spectrum analyzers) we had 
+>Peak, RMS and 
+>> average values for a signal in the voltage domain. With a voltage 
+>> signal measured across a fixed resistor we found three values of 
+>> power,  Peak Power (this is also a tough term as power is a 
+>> steady-state parameter), RMS Power and Average Power. We were 
+>> carefully taught that RMS power was the only one correctly defining 
+>> the dissipation in the resistor. And yes the power was 
+>determined by V^2/R.
+>
+>Certainly there are peak, RMS and average voltages, and 
+>currents.  In a signal with time varying power the peak power 
+>is the highest power in a particular time, that one's easy 
+>(unless you get into the gory details). 
+>  RMS and average are not though.  The power calculated from 
+>an RMS voltage is an *average* power.  The use of the term 
+>"RMS power" for this case is a misnomer.  As you said before 
+>the RMS power is the only value that corresponds correctly to 
+>dissipation in a resistor.  That means it corresponds to the 
+>area under the V-I curve divided by time, and that value is an 
+>average power.
+>
+>Electrical engineering textbooks are now very clear on this 
+>point these days, it's unfortunate that RF textbooks aren't 
+>always so clear.
+>
+>It's interesting to know that the problem was around before HP 
+>and before spectrum analyzers.  I've always been told it was 
+>all HP's fault.
+>
+>BR,
+>Rob
+>
+>_______________________________________________
+>This message was sent to: cpaul@gmx.net
+>Antenna-discussion mailing list
+>Antenna-discussion@antennex.com
+>http://lists.antennex.com/mailman/listinfo/antenna-discussion
+>For Upload of Attachments:
+>http://download.antennex.com/listarch/psupload.html
+>Searchable Archives:
+>http://www.antennex.com/listlogin/
+>To unsubscribe:
+>Go to the web page link below and unsubscribe the above email 
+>address this message was sent to.
+>
+>Go to this web page - no passwd needed:
+>http://antennex.com/help/subscribe.htm
+>
+>
+>-----
+>E-Mail ist virenfrei.
+>Von AVG uberpruft - www.avg.de
+>Version: 2012.0.2221 / Virendatenbank: 2441/5358 - 
+>Ausgabedatum: 27.10.2012 
+>
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

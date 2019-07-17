@@ -1,0 +1,63 @@
+Subject:Re: problema con openvpn
+
+>
+> de momento quita esta línea de la configuración
+>
+> route 192.1.16.0 255.255.255.0 192.1.16.153
+>
+> eso es para añadir rutas a tu servidor, no a los clientes, y tu servidor
+> ya conoce el camino a su propia red.
+>
+> pruébalo y nos cuentas.
+>
+> Un saludo.
+>
+Nada de nada, estoy pensando que el problema puede venir por la rutas en 
+el cliente, aqui las adjunto
+
+Destino de red        Máscara de red   Puerta de acceso   Interfaz Métrica
+           0.0.0.0          0.0.0.0     192.168.43.1 192.168.43.114       25
+          10.8.0.0    255.255.255.0         10.8.0.5 10.8.0.6       1
+          10.8.0.4  255.255.255.252         10.8.0.6 10.8.0.6       30
+          10.8.0.6  255.255.255.255        127.0.0.1 127.0.0.1       30
+    10.255.255.255  255.255.255.255         10.8.0.6 10.8.0.6       30
+         127.0.0.0        255.0.0.0        127.0.0.1 127.0.0.1       1
+      192.168.43.0    255.255.255.0   192.168.43.114 192.168.43.114       25
+    192.168.43.114  255.255.255.255        127.0.0.1 127.0.0.1       25
+    192.168.43.255  255.255.255.255   192.168.43.114 192.168.43.114       25
+         224.0.0.0        240.0.0.0         10.8.0.6 10.8.0.6       30
+         224.0.0.0        240.0.0.0   192.168.43.114 192.168.43.114       25
+   255.255.255.255  255.255.255.255         10.8.0.6 10.8.0.6       1
+   255.255.255.255  255.255.255.255   192.168.43.114 192.168.43.114       1
+Puerta de enlace predeterminada:      192.168.43.1
+
+De todas formas mi pregunta es si en ccd/cliente tengo puesto
+
+iroute 192.1.16.0 255.255.255.0 10.8.0.1
+
+No se si esto estara bien o mal
+
+Mil gracias por ayuda
+
+-- 
+NOTA: Los signos de puntuacion y e~es han sido omitidos deliberadamente
+con el fin de soportar el maximo numero de clientes de correo
+---------------------------
+La informacion incluida en el presente correo electronico es CONFIDENCIAL,
+siendo para el uso exclusivo del destinatario arriba mencionado. Si usted
+lee este mensaje y no es el destinatario se~alado, el empleado o el agente
+responsable de entregar el mensaje al destinatario, o ha recibido esta
+comunicacisn por error, le informamos que esta totalmente prohibida cualquier
+  divulgacion, distribucion o reproduccion de esta comunicacion, y le rogamos
+  que nos lo notifique, nos devuelva el mensaje original a la direccion arriba
+  mencionada y borre el mensaje.
+
+POR FAVOR, ANTES DE IMPRIMIR ESTE CORREO ELECTRONICO CONSIDERE SU APORTACION
+A LA CONSERVACION DEL MEDIO AMBIENTE POR LA REDUCCION DE CONSUMO DE PAPEL.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50596529.8090207@sorianatural.es
+

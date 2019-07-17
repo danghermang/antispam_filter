@@ -1,0 +1,36 @@
+Subject:Re: [LUG] temperature sensors for Raspberry Pi brewery controller
+On 09/11/12 10:04, Robin Cornelius wrote:
+> On 9 November 2012 09:54, tom <tompotts@madtom1999.bbmax.co.uk> wrote:
+>> Someone recently mentioned the http://www.raspberrypi.org/archives/2129
+>> brewery controller.
+>> The temperature sensors are +/- 0.5 C which isn=92t accurate enough for =
+my
+>> liking. Does anyone know of better ones?
+> The linked article says 0.1 degree resolution but clicking through
+> they are using a DS18B20 with an absolute accuracy of +/-0.5 so are
+> you after absolute accuracy better than 0.5 degree or better
+> resolution? The best accuracy you are going to get is via a PT100
+> (RTD) but you will need some extra circuitry to drive one. There is a
+> nice chip from analog devices that interfaces PT100s and you can just
+> bit bang the serial interface via the GPIO on the pi, but i expect you
+> are not going to find a 3 wire device such as the DS18B20 that just
+> works with better accuracy.
+>
+> Robin
+>
+I am puzzled by this - many plastic wrapped kitchen probes offer 0.1%  =
+
+accuracy but are not suitable for automating but no-one seems to produce =
+
+a suitable probe at anywhere near the price...
+I think a hammer may be required.....
+I want 0.1c resolution for OCD reasons as much as anything - though I =
+
+will conduct beer mashing at that kind of accuracy out of interest...
+Tom te tom te tom
+
+-- =
+
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

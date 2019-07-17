@@ -1,0 +1,22 @@
+Subject:Re: libreoffice-writer: writer unable to open documents
+>> ii librdf0 1.0.13-2 Redland Resource Description Frame 
+> ⋮
+> Sorry for delay coming back. Rats. I can not explain where that 
+> library came from.
+
+That version was in unstable from 2011-02-25 until 2011-05-29 in testing 
+2011-03-16 until 2011-06-17. 
+<http://packages.qa.debian.org/r/redland.html> gives the history. The 
+package itself is at
+<http://snapshot.debian.org/package/redland/1.0.13-2/#librdf0_1.0.13-2>.
+
+It looks like you managed to partially install testing at some point, 
+you probably want to check your system for other packages from testing. 
+I believe apt-show-versions can do this for you.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/507ECFD5.7070907@metrics.net
+

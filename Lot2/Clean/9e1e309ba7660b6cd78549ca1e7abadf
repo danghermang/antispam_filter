@@ -1,0 +1,62 @@
+Subject:Re: Servidor para torrent
+Al final veo que no es muy eficiente el dichoso rivetracker...hay que hacer 
+muchas cosas para subir el .torrent al servidor, cuando otras versiones lo 
+hacen automaticamente a la base de datos.
+
+Imaginen que hay que hacerlo manual..con una cuenta de usuario en el 
+servidor donde esta el tracker, y con acceso a escritura a una carpeta..
+
+Nada..no me convencio. No me veo explicandole todo lo que hay que hacer a un 
+usuario que esta en otra instalacion  distante 500 Kms para que logre subir 
+un .torrent.
+
+
+
+
+
+
+----- Original Message ----- 
+From: "Debian GMail" <javier.debian.bb.ar@gmail.com>
+To: <debian-user-spanish@lists.debian.org>
+Sent: Monday, October 01, 2012 3:38 PM
+Subject: Re: Servidor para torrent
+
+
+> El 01/10/12 16:35, jors escribió:
+>> On 01/10/12 15:08, Josué Marrero Bermúdez wrote:
+>>> Saludos colegas
+>>>
+>>> Existe alguna solucion para configurar un servidor torrent en
+>>> debian??...mirando en el repo solo veo clientes..pero nada para servir.
+>>>
+>>> Sugerencias??
+>>
+>> No se si aún servirá porque es un post del 2008 y desde entonces ha
+>> llovido, pero por si te sirve de referencia, en su dia hice un "Serving
+>> torrents for dummies": http://enchufado.com/post.php?ID=194
+>>
+>> Salut.
+>>
+>>
+>
+> Los muchachos de Cuba, la mayoría no tiene acceso web, sólo correo.
+> La dirección no les sirve de mucho, por eso estuve mandándoles copias de 
+> lo que está publicado.
+>
+> JAP
+>
+>
+> -- 
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact 
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/5069F149.8070401@gmail.com
+> 
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/32386A515DC34A02BA7E4FE834457652@dbsrv
+

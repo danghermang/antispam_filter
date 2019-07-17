@@ -1,0 +1,19 @@
+Subject:Re: [Koha] changing from tarball installation to packages
+	installation.
+Greetings
+
+Am 22.10.2012 17:37, schrieb Mark Tompsett:
+>> I installed with a tarball. I would like to use the packages. Is there a
+>> simple way to change from tarball installation to packages installation?
+> 
+> Yes, there is. :)
+> I haven't done this before, but there is a wiki page:
+> http://wiki.koha-community.org/wiki/Moving_an_installation_from_a_regular_install_to_the_Debian_packages
+
+Thank you for your hint. I'll consider it.
+
+Cheers          Beda
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

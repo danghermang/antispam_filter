@@ -1,0 +1,80 @@
+Subject:Re: servidor de correos
+El Tue, 06 Nov 2012 11:36:21 -0600, Francisco Eduardo Ascencio Dominguez
+escribió:
+
+> El 06/11/2012, a las 11:27, Camaleón <noelamac@gmail.com> escribió:
+
+(...)
+
+>>> bien lo que pasa es que tengo un foro ( www.lypef-warez.com ) y
+>>> quisiera que mis usuarios tengan su propia cuenta con dominio de el
+>>> foro. el servidor es propio. o a que te refieres que si que requisitos
+>>> tengo que cumplir ?
+>> 
+>> Por los requisitos que tienes que cumplir me refiero al tipo de
+>> configuración tienes pensado usar, por ejemplo:
+(...)
+>> Como ves hay varios factores que entran en juego y que hay que tener en
+>> cuenta a la hora de montar un servidor de correo por eso conviene que
+>> antes de empezar a tomar decisiones escribas en un papel todo lo que
+>> necesitas/esperas ofrecer y que detalles en un esquema el flujo
+>> completo de entrada/salida que van a seguir los mensajes para no dejar
+>> ningún cabo suelto y que sea lo que sea lo que decidas lo hagas con
+>> conocimiento de causa y no te lleves sorpresas :-)
+
+> Bueno la cantidad de usuarios yo digo que con unos 500 (actualmente hay
+> 70 usuario ) hacerlo con zimbra me parece bien ya que eleido que es
+> bueno. 
+
+Piensa bien esto porque Zimbra puede resultar una opción sencilla de 
+implementar al principio pero a la larga poco flexible y compleja de 
+migrar. A mí personalmente me gustan más las opciones modulares que son 
+más complejas de instalar pero te ofrecen muchas más posibilidades a 
+largo plazo.
+
+> seria un pop 3 o que me recomiendan ? 
+
+Pues yo daría las dos opciones (pop3 e imap4) y me pensaba lo del 
+webmail. Eso sí, imap4 requiere equipos y conexiones muy buenas porque 
+los clientes van a estar "enganchados" casi las 24 horas a tus 
+servidores, es decir, que es un servicio que consume muchos recursos a 
+nivel del servidor.
+
+> y seguridad  base de datos mysql y seguridad creo que solo antimalware
+> y anticirus pero com ago esto ?
+
+Eso dependerá del tipo de solución que quieras instalar ya que cada 
+programa trabaja mejor con un sistema u otro.
+
+> ley que con zimbra lo puedo hacer.
+
+Sí, pero Zimbra requiere que instales su Postfix, su servidor de bdd, su 
+AV, su... todo debe ser "suyo".
+ 
+> la verdad no se nada de esos tipos de servidores. 
+
+Pues antes de lanzarte a la piscina de Internet podrías ir montando el 
+servidor en local y eso sí... requisito indispensable para no cometer 
+errores (o los menos posibles) es que leas mucho (documentación, casos de 
+uso, distintas alternativas...).
+
+> y como hacerlo publico ?
+
+Esa parte es sencilla. Si ya tienes un dominio accesible desde Internet 
+(y por ende un servicio de DNS con una IP estática -preferible- o 
+dinámica) sólo tendrías que añadir las entradas A y MX para los 
+servidores de correo ("smtp.example.com", "imap4.example.com", 
+"pop3.example.com" o sencillamente "mail.example.com" para todos, según 
+la nomenclatura que elijas).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7biqs$ji$18@ger.gmane.org
+

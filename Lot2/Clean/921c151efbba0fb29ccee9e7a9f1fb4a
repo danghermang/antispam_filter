@@ -1,0 +1,22 @@
+Subject:Re: script pour imagemagick
+Le Mon, 19 Nov 2012 18:20:01 +0100, Bernard Schoenacker a écrit :
+
+
+> 	je recherche à convertir des images avec imagemagick et j'ai un 
+souchis
+> 	simple, dans l'arborescence j'ai des *.jpeg et *.jpg, mais 
+comment le
+> 	faire passer dans le script en une seule passe?
+
+plus simple :
+for i in $jpg $jpeg ; do ...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50aa84ab$0$16468$426a74cc@news.free.fr
+

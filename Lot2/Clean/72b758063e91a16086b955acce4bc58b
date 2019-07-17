@@ -1,0 +1,47 @@
+Subject:Re: Postfix + mysql + restricciones
+El Sat, 08 Dec 2012 15:26:01 -0500, Jorge Pérez escribió:
+
+> El 08/12/2012 1:21:pm, Camaleón escribió:
+
+>> Sigo sin entender lo que quieres hacer "exactamente" porque no lo
+>> explicas :-)
+>>
+>> A ver, el hecho de usar postfixadmin te limita a lo que te ofrece su
+>> interfaz web, "sí o sí" (esa es una de las pegas de utilizar este tipo
+>> de aplicaciones, que muchas veces se quedan cortas) pero no sé si
+>> realmente ese el problema que tienes o sencillamente se trata de una
+>> configuración del Postfix errónea que quieres corregir.
+>>
+>>
+>>
+> A ver mira, lo que yo quiero hacer es que el postfix en ves de chequear
+> que usuarios pueden enviar a todos los dominios y cuales no, dentro de
+> los ficheros "usuarios_libres" y "usuarios_restringidos" en /etc/postfix
+> lo que haga sea;
+> chequear los datos dentro de los campos "accessin" y "accessout" (los
+> agregue yo) en la tabla mailbox de la BD que usa el postfixadmin y si
+> coinciden con las clases "nac_in" y "nac_out" el usuario correspondiente
+> solo pueda enviar a cierto dominio y si coinciden con "inter_in" e
+> "inter_out" el usuario correspondiente pueda enviar a cualquier dominio.
+
+Vale, es que no entendía qué tenía que ver el postfixadmin en todo esto, 
+por lo que entiendo que podemos pasarlo por alto.
+
+Revisando el archivo que enviaste veo que hay un error de sintaxis:
+
+nacional_ou =
+         ^^
+
+Creo que le falta una "t".
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ka2a61$hki$1@ger.gmane.org
+

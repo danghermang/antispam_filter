@@ -1,0 +1,19 @@
+Subject:Re: [Koha] Purchase request vanishes into thin air?
+Hi--
+
+On Wed, Nov 7, 2012 at 2:22 PM, Elaine Bradtke <eb@efdss.org> wrote:
+> I tried that too.   Changing the Organized by: filter does not change the
+> results.
+> Do you have an Anonymous patron set up?  I tried that too (patron 0).  Maybe
+> I've done something wrong there?
+
+We do have an Anonymous patron set up--ours is borrower number 37, and
+its patron type is staff.  Is your anonymous patron a staff
+patron--could that make a difference?
+
+Cheerio,
+heather
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

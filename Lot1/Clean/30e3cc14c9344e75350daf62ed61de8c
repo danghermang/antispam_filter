@@ -1,0 +1,39 @@
+Subject:Re: Envio de reportes de error de php mediante correo
+El d=EDa 25 de octubre de 2012 23:44, Angel Claudio Alvarez
+<angel@angel-alvarez.com.ar> escribi=F3:
+> El Wed, 24 Oct 2012 16:11:53 +0200
+> maykel@maykel.sytes.net escribi=F3:
+>
+>> Hola muy buenas, he montado un LAMP bajo debian squeeze y me gustar=EDa =
+que
+>> los errores que salen por pantalla, sea cual sea el error, no lo muestre
+>> por pantalla sino que env=EDe un correo desde una cuenta determinada a u=
+na
+>> otra cuenta de correo, de tal forma que el correo incluya los errores
+>> reportados por el php y en el navegador web no aparezca nada, se quede e=
+n
+>> blanco. Lo de que se quede en blanco lo puedo apa=F1ar en el php.ini per=
+o lo
+>> del env=EDo de correo la verdad estoy un pel=EDn perdido.
+>>
+>
+> y que tiene que ver esto con la lista?? por que no preguntas en una lista=
+ de php??
+>
+
+=BFY para qu=E9?  Si esto ya parece foro.
+
+
+
+--=20
+usuario linux  #274354
+normas de la lista:  http://wiki.debian.org/es/NormasLista
+como hacer preguntas inteligentes:
+http://www.sindominio.net/ayuda/preguntas-inteligentes.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAAiZAx7nmFTjuT_eK_UXXTirJUQoYysSK9J031k95jeH7C=aHA@mail.gmail.com
+

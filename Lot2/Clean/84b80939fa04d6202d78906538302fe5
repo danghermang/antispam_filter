@@ -1,0 +1,41 @@
+Subject:Re: bloquer la mise =?ISO-8859-1?B?4A==?= jour d'un paquet
+Le Thu, 22 Nov 2012 19:19:44 +0100,
+Bernard Schoenacker <bernard.schoenacker@free.fr> a =E9crit :
+
+> bonjour,
+>=20
+> 	je souhaitrerai bloquer la mise =E0 jour d'un paquet via les
+> 	(pin) pr=E9f=E9rences mais je me d=E9brouille comme un manche
+>=20
+> 	cat /etc/apt/preferences.d/Qcad
+> 	Package: qcad
+> 	Pin: release o=3DDebian,a=3Dtesting,l=3DDebian
+> 	Pin-Priority: 100
+>=20
+> 	qu'est ce que je fait en mal ?
+>=20
+> 	slt
+> 	bernard
+>=20
+Bonjour,
+
+Peut-=EAtre comme =E7a?
+
+Package: qcad
+Pin: version (celle =E0 conserver)
+Pin-Priority: 1000
+
+
+
+Jean
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121123073608.1ac145d4@athlon.mbgenetics.dyndns.org
+

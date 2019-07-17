@@ -1,0 +1,44 @@
+Subject:Re: [LUG] Linux - and security
+On 03/11/12 18:00, bad apple wrote:
+
+> 
+> sudo apt-get install keepass2
+> sudo apt-get install clamav
+> sudo apt-get install openssh-server (I still can't understand why this
+> is not installed by default on Ubuntu, Mint, etc)
+> sudo apt-get install gufw && gksudo gufw
+> sudo apt-get install gparted && gksudo gparted (gparted is a graphical
+> partitioning tool)
+> sudo apt-get install fail2ban (it will set itself up with a basic but
+> workable configuration out of the box)
+> sudo apt-get remove unity-lens-shopping
+> 
+I have been looking through your email (mostly snipped), thanks.
+I use keepass already, but I did not know that there was a new version.
+Seahorse seems to be for Gnome.
+
+You mention gufw which I assume is a Gnome program. If this is to look
+after setting up keys for gpg then I suppose, as a KDE user, I would use
+kgpg instead? Likewise instead of gksudo I use kdesudo.
+
+I already have gparted installed and use it to reformat memory sticks
+for example.
+
+Openssh-server is new to me, but I may well not need this. Will research
+it to see. Likewise fail2ban.
+
+Unity is irrelevant to me.
+
+I expect to be installing the new distro very soon, so I am trying to
+get all research done first.
+
+Neil
+
+
+
+
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

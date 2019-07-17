@@ -1,0 +1,32 @@
+Subject:Re: [HS] clavier et souris sans fil Unifying Logitech
+Le 2012-12-10 18:14, Gaëtan PERRIER a écrit :
+> Bonjour,
+>
+> Est-ce que les claviers, souris ou ensembles clavier/souris sans fil Unifying
+> de Logitech fonctionnent complètement sous Debian ou bien est-ce que ça
+> utilise un pilote Windows ?
+>
+> Gaëtan
+>
+Bonsoir!
+
+J'ai le modèle K360 de Logitech depuis plusieurs mois et ça fonctionne 
+bien 99% du temps sur les 4-5 distributions installées, Debian et Ubuntu .
+
+La où ça flanche c'est lors de l'installation avec les 2 derniers 
+debian-installer de la prochaine stable; ça fonctionne durant la 
+sélection initiale mais on perd la main par la suite. Et de temps à 
+autre lors d'un démarrage régulier.  Agaçant ça d'ailleurs; il faut 
+avoir une souris standard à côté pour redémarrer...
+
+Roger
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C68BA4.4080806@gmail.com
+

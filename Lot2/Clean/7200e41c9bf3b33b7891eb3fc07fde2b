@@ -1,0 +1,31 @@
+Subject:Re: problemas con codec de sonido.
+El Sun, 16 Sep 2012 23:13:51 +0000, Victor Hugo Cespedes Zuleta escribió:
+
+> alguien sabe donde consigo el codec de la tarjeta de sonido integrada de
+> VIA VT1705.
+
+No creo que necesites instalar ningún códec :-?
+
+> la salida funciona bien. el problema es el microfono que no entra señal.
+> 
+> los foros que vi sobre esto son muy desalentadores.
+> 
+> Mi tarjeta madre es una ASROCK n68-vs3 UCC
+
+Ejecuta "aplay -l" para ver el tipo de chipset que integra tu tarjeta, 
+así podrás consultar los tipos de modelos que admite el driver. Por 
+ejemplo, para las Intel HDA:
+
+http://www.kernel.org/doc/Documentation/sound/alsa/HD-Audio-Models.txt
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k37816$cqa$2@ger.gmane.org
+

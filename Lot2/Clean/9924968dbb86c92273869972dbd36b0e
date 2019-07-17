@@ -1,0 +1,53 @@
+Subject:Re: [squeeze] 
+	=?iso-8859-1?q?ex=E9cuter_des_commandes_avec_droits_root?= ( 
+	=?iso-8859-1?q?hypoth=E8se?= sudo)
+Le samedi 3 novembre 2012 16:50:26, Jean-Michel OLTRA a écrit :
+>     Bonjour,
+> 
+> 
+> Le samedi 03 novembre 2012, Grégory Bulot a écrit...
+> 
+> > > Cmnd_Alias SHUTDOWN = /sbin/shutdown
+> > 
+> > Sissi(c) ils le sont conformément à ce qui est décrit dans la
+> > procédure citée dans mon post initial
+> 
+> Tu devrais faire passer l'intégralité de tes fichiers, 
+
+J'allais demander la même chose.
+
+> car je viens
+> de créer un fichier /etc/sudoers.d/jmo
+> 
+> User_Alias MYADMIN = jm
+> 
+> # Cmnd alias specification
+> Cmnd_Alias PKGMGMT = /usr/bin/aptitude
+> 
+> # Alias ADMIN
+> MYADMIN ALL=NOPASSWD: PKGMGMT
+> 
+> Et ça fonctionne très bien sans demande de mdp (sudo
+> /usr/bin/aptitude)
+
+Je pense qu'il faut aussi faire attention à l'ordre dans lequel les 
+lignes sont écrites car il arrive (à vérifier) que certaines lignes en 
+annulent d'autres. Je pense notamment à la ligne 
+%sudo   ALL=(ALL:ALL) ALL
+qui va annuler la ligne contenant le NOPASSWD si cette dernière se 
+trouve plus haut et que l'utilisateur est dans le sudoers.
+
+Enfin, c'est une idée à vérifier.
+
+-- 
+Eddy F.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211031714.56869.edfnet-deb@yahoo.fr
+

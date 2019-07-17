@@ -1,0 +1,36 @@
+Subject:Re: [EVDL] Ceramic Heater Installation
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+On 10/19/2012 12:06 PM, Lee Hart wrote:
+
+> As to why the fuse blows with the diode installed: Either the diode
+> is wired backwards, or its breakdown voltage is less than the pack
+> voltage.
+> 
+
+Perhaps it is designed to blow the fuse if the breakdown voltage of
+the diode is exceeded? (to protect something else, like the heater
+element?)
+
+Jay
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://www.enigmail.net/
+
+iEYEARECAAYFAlCBfLQACgkQSWJjSgPNbM/SrgCeP3/qH8buSz07Du8Cd2CSJLm0
+tI4AniyL3DbhEm18UF5piF8+mcqR/SGc
+=TK8C
+-----END PGP SIGNATURE-----
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

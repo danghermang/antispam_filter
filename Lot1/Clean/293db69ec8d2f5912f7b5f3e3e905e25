@@ -1,0 +1,50 @@
+Subject:Clonage de paquets Debian entre VPS
+Bonjour,
+
+Je vais devoir compléter l'installation d'un serveur privé virtuel
+(VPS) chez un hébergeur, ceci à partir d'un VPS existant et j'aurais
+besoin de compléments d'infos à la solution que j'ai trouvée sur le
+wiki de la liste.
+
+Tout d'abord la situation paraît assez simple puisqu'il s'agit de VPS
+chez le même hébergeur, sachant qu'un VPS ne devrait pas dépendre de
+conditions matérielles particulières.
+
+J'ai trouvé dans le wiki une solution à base de
+# dpkg --get-selections
+puis sur la machine cible
+# dpkg --set-selections
+# aptitude dist-upgrade
+
+Tout d'abord, je suppose qu'il faut s'assurer que les sources.list
+soient identiques.  Ensuite y a-t-il d'autres précautions à prendre
+notamment à propos du statut des paquets indiqué dans le résultat du
+--get-selections.  Peut-être faut-il ne conserver que ceux qui ont le
+statut install ?
+
+Par ailleurs j'ai l'habitude d'utiliser apt-get plutôt que aptitude.
+apt-get dist-upgrade peut-il aussi faire l'affaire ?
+
+Un co-listier m'a proposé en privé une solution peut-être plus robuste
+# dpkg --get-selections > fichier_selection
+Ne conserver que les paquets ayant le statut install, liste des paquets 
+mis sur une même ligne, puis 
+# apt-get install la_liste_des_paquets  
+
+quelle serait la solution la plus pertinente ?
+
+Merci de votre éclairage. 
+
+Dominique
+
+-- 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121103115819.GA2125@telecom-paristech.fr
+

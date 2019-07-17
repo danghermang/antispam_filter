@@ -1,0 +1,34 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint_qui_consomme?=
+On 09/22/2012 10:25 AM, François Boisson wrote:
+
+>
+> Nulle part je n'ai vu des descriptions sur les fonctions du BIOS, on a une
+> vague liste dans include/linux/apm_bios.h mais j'ai vraiment l'impression de
+> réinventer la roue à faire ce travail d'analyse de code sur le noyau linux. Il
+> y a eu 1200 messages sur la liste linux-kernel depuis le mien et aucune
+> réponse. Qu'on me donne juste une doc à lire sur ce foutu BIOS et je me
+> débrouillerai mais là, au rythme où j'avance le problème sera résolu dans 2
+> ans et 1/2 (encore qu'en rédigeant ce message, j'ai trouvé le fichier
+> include/linux/apm_bios.h (je suis étonné que ça ne dépende pas de
+> l'architecture mais bon...)).
+>
+Ce bug présumé est du ressort des gens qui codent le noyau.
+https://bugzilla.kernel.org/
+https://www.kernel.org/pub/linux/docs/lkml/reporting-bugs.html
+
+Cordialement
+-- 
+Maderios
+
+"Art is meant to disturb. Science reassures."
+"L'art est fait pour troubler. La science rassure" (Georges Braque)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/505DE652.6010102@gmail.com
+

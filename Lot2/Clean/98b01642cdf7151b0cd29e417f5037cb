@@ -1,0 +1,37 @@
+Subject:Re: faire un diff sur un split avec vim
+Le 23 Oct 2012 07:00:19 GMT,
+moi-meme <chiebel@free.fr> a écrit :
+
+> Le Mon, 22 Oct 2012 17:40:02 +0200, Bernard Schoenacker a écrit :
+> 
+> > je rehcherche à l'aide de vim après avoir scindé la fenêtre à
+> > coupler comme pour un diff ...
+> 
+> vimdiff, gvimdiff et sans doute d'autres.
+> 
+bonjour,
+
+	merci d'avoir répondu un peut à côté de la question, mais comme
+	tu n'as rien compris à la question, je recommence :
+
+	-a) j'ouvre 2 fenêtres via ":vsplit"
+	-b) je couple les 2 fichiers via ":se scb!"
+	-c) je n'ai pas de diff mais le couplage se fait
+
+	il m'est impossible de faire un diff au départ mais après
+	seulement ...
+
+	si tu as une solution plus élégante je suis preneur
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121023104406.596acefc.bernard.schoenacker@free.fr
+

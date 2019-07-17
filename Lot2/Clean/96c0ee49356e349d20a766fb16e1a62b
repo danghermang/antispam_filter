@@ -1,0 +1,50 @@
+Subject:[EVDL] Calb battery issue
+
+
+Hey folks,
+
+Well, I've got 1800 miles on my Jeep.  Most things are working fine, except I started
+getting a low voltage warning on 1 cell under moderate acceleration.  If I start
+to draw about 250 battery amps, I have one cell that drops to 2.4V (other cells stay
+above 2.6V).  This causes my mini bms to fire a warning.  Previously, I only got
+a low voltage warning when drawing close to 400 battery amps.
+
+I know someone who says they'll test this battery for me.  I emailed Keegan at Calb
+and he redirected me to a gentleman named Ted.  I'm bummed because it's probably gonna
+take me a while to resolve this.  Meantime, my Jeep is down and the weather is beautiful.
+I could bypass the "bad" battery, but that would make the other cells have to work harder
+and my charger is an Elcon and not easy to re-program, but I could rely on the mini-bms
+to shut things off.
+
+I really want to be a proponent of electric cars - but this is making it hard.  Having
+a long turn around on repairs is a major bummer.   Maybe I should have gotten spare batteries. 
+
+Folks are asking me about my Jeep and I'm trying to save face.  I really hate to say that
+I might have a battery issue.
+
+Once I get the battery test results back (the person is gonna test one good battery
+and my "bad" battery), I'll be able to have a better recommendation for/against Calb
+(both the batteries and the support).
+
+My batteries are 130 Ah and I limited the battery current to 400 amps.  I only drive
+on the highway for about 5 minutes, otherwise, I do around town driving.  Battery
+current tends to stay between 100-200 amps except on the freeway.
+
+
+-ben
+www.evalbum.com/4001
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121106/8ff703a8/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

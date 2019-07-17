@@ -1,0 +1,69 @@
+Subject:Re: Ayuda Urgente: Iptables e ip rule no funcionan correctamente en
+	debian 6?
+El 04/09/12 23:07, Juan Antonio escribió:
+> On 05/09/12 16:13, Francisco J. Bejarano wrote:
+>> iptables -t mangle -A OUTPUT -s 10.0.2.0/255.255.255.0 -p tcp -m tcp
+>> --dport 22 -m state --state NEW, RELATED, ESTABLISHED -j MARK
+>> --set-mark 0x2
+>> iptables -t mangle -A OUTPUT -s 10.0.2.0/255.255.255.0 -p udp -m udp -m
+>> multiport --dports 500,4500 -m state --state NEW, RELATED, ESTABLISHED
+>> -j MARK --set-mark 0x2
+> estas cadenas no tienen sentido, eso es postrouted y por lo tanto las
+> marcas ya no te sirven.  También puedes simplificar mucho las reglas
+> quitando el --state ya que es para todo el tráfico y aunque no
+> solucione nada estarán mas claras.
+
+Tienen sentido cuando estoy en el firewall y quiero acceder desde el a
+determinados lugares por determinadas lineas. No por la default.
+
+>
+> Por otra parte, tienes rules de ip que coinciden con las redes "from
+> 10.0.2.0/24 lookup TB3" que puede que tengan preferencia sobre las
+> marcas, habría que mirarlo en la documentación, podría ser
+> significativo si el tráfico que has marcado para salir por TB2 sale
+> por TB3 o por la tabla main.
+
+Si, esto es lo que no se, en teoria el sistema de prioridades de ip rule
+(los numeros al inicio de la regla) debería ir en orden. Mas prioridad
+el menor numero, por tanto, si llega de cualquier sitio cualquier
+trafico marcado con 2 deberia enviarlo por TB2 con la regla from all
+fwmark 0x2 lookup TB2 que tiene prioridad mas alta y cuando llega
+trafico no marcado con 2 (o 1) seguir bajando reglas hasta llegar a la
+regla general from 10.0.2.0/24 lookup TB3 con prioridad menor y si no
+cumple la red 2 ni el marcado ir a la regla de la tabla main... por eso
+no se si esto es lo que falla y pasa de las prioridades o hay alguna
+prioridad que prevalece independientemente del numero (cosa que sería un
+desproposito ya que el sistema de prioridades no valdría para nada)
+
+
+>
+>
+> Un saludo.
+
+Saludos y gracias por contestar
+>
+>
+>
+>
+>
+>
+>
+
+
+-- 
+-----------------------------------------------------------------
+Francisco J. Bejarano
+Responsable de Sistemas
+Dpt. Sistemas e Infraestructuras
+Open Knowledge Network S.L.
+francisco.bejarano@openknowledgenetwork.com
+Tel. (+34) 902 534 004
+Fax. (+34) 917 266 476
+-----------------------------------------------------------------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5048540B.8090708@openknowledgenetwork.com
+

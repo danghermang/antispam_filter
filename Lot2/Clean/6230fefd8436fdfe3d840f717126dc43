@@ -1,0 +1,28 @@
+Subject:Re: missing firmware e100/d101m_ucode.bin
+gracias a los que respondieron pero cuando omito este paso en la 
+instalacion de debian y despues instalo normal no puedo hacer ninguna de 
+las dos soluciones puesto que al no reconocerme la red no puedo 
+configurarle ningun repositorio... asi que podran ver hasta donde he 
+tratado de invertar y no he podido encontrar el .bin en internet para al 
+menos por una flash agregarlo
+
+El 02/10/12 10:25, Evgeny M. Zubok escribió:
+> Javier Santiesteban <javiers@gms.minbas.cu> writes:
+>
+>> Listeros, recientemente me decidi a instalar en un server el debian
+>> squeeze y me topo con el siguente warning
+>> missing firmware e100/d101m_ucode.bin
+>>
+>> alguien puede darme alguna idea de como arreglar esto
+> apt-get install linux-firmware-nonfree (o aptitude install...)
+>
+> desde el repositorio 'non-free' de Squeeze.
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506AFAA2.5080501@gms.minbas.cu
+

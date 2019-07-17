@@ -1,0 +1,64 @@
+Subject:Re: del modem USB para RAS
+El 14/09/12 08:44, luis@ida.cu escribió:
+> On Wed, 12 Sep 2012 13:14:25 +0000 (UTC), Camaleón wrote:
+>> El Wed, 12 Sep 2012 07:18:00 -0400, luis escribió:
+>>
+>> (luis, no abras nuevos hilos para continuar con el mismo tema)
+>>
+>>> Ahora bien me dices Alberto que haga esto lsusb y gracias Camalion y
+>>> dame tu opinion a ver que crees
+>>>
+>>> esto es lo que me retorna con lsusb
+>>> Bus 002 Device 004: ID 0ace:1602 ZyDAS ZyXEL Omni FaxModem 56
+>>>
+>>> Me dices:
+>>> El dispositivo será entonces /dev/ttyUSBx, donde x es el número de bus
+>>> sin los ceros de la izquierda.
+>>>
+>>> Lo modifiqué quedando asi:
+>>> S0:234:respawn:/sbin/mgetty /dev/ttyUSB2
+>>
+>> Compáralo con la salida del "dmesg", mejor.
+>>
+>>> Mi pregunta es: de donde sale el 234 ??? es asi por default ?? o con 
+>>> los
+>>> cambios que hices ya están correctos todos?
+>>
+>> "man inittab" te explica de dónde vienen esos números.
+>>
+>>> Encontré esto también /dev/ttyACM0
+>>
+>> Eso es un módem como el que suelen llevar incorporado los teléfonos
+>> móviles... ¿dónde lo has encontrado?
+>>
+>> Saludos,
+>>
+>> -- 
+>> Camaleón
+>
+> Hola a todos lo siento Camaleon y gracias por la ayuda pero sigo 
+> perdido y mi moden no contesta cuando llamo por telef y el debe 
+> responder con un sonido como el del fax y nada es decir linux lo ve 
+> super bien  lo veo con lsusb pero no se como pasarle los parametros 
+> para que el modem responda a las llamadas y uno pueda loguearse desde 
+> cualquier cliente ya sea linux xp, win7 etc, el enlace conmutado no 
+> puedo migrarlo todavía
+> gracias a todos por la ayuda tendré que seguir buscando
+
+Hace pocos días guerreé con un modem USB. Buscá con Google esto:
+
+"Modem USB Personal HSUPA MF190 con Squeeze [solucionado]"
+
+así tal cual CON las comillas. Te llevará al mensaje en esta misma lista 
+donde conté como lo había solucionado.
+Pero te aclaro que la configuración de cuenta que aparece allí es válida 
+para Argentina. No sé si en Cuba será lo mismo.
+
+Suerte
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505345B5.6000603@gmail.com
+

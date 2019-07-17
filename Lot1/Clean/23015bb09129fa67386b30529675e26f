@@ -1,0 +1,22 @@
+Subject:Re: apt
+Le Tue, 30 Oct 2012 15:30:01 +0100, Philippe Delavalade a écrit :
+
+> Quand j'utilise apt-get, j'indique l'option --install-suggests (dans
+> wheezy).
+> 
+> Pour éviter de taper ça à chaque fois, je voudrais créer un fichier
+> apt.conf (il n'y en a pas ; j'ai juste apt.conf.d/).
+
+un alias dans ~/.bashrc ?
+
+alias apt-suggest="apt-get --install-suggests"
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50900864$0$6476$426a74cc@news.free.fr
+

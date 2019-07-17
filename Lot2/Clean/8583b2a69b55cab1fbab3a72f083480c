@@ -1,0 +1,62 @@
+Subject:RE: [Jukebox-list] Rowe Ami mm3 latch solenoid info needed
+Rob,
+  Thanks, if you wouldn't mind sending me the page that describes the latch=
+ circuit for the MM-2, I bet they are close enough that I can figure out wh=
+at the MM-3 is trying to do.   I should have both 30 dc and 30 ac at the bu=
+tton panel, and even though the continental 2 operates the latch solenoid t=
+he opposite way they both energize the latch relay the same way I should be=
+ fine. =20
+  Once I find extra sockets and plug I will start morphing the two together=
+.  Soon I'll be able to actually use my continental!
+Ed
+
+-----Original Message-----
+From: jukebox-list-bounces@lists.netlojix.com [mailto:jukebox-list-bounces@=
+lists.netlojix.com] On Behalf Of Chan Gade
+Sent: Wednesday, October 24, 2012 8:40 AM
+To: Jukebox-list@lists.netlojix.com; Jukebox mailing list
+Subject: Re: [Jukebox-list] Rowe Ami mm3 latch solenoid info needed
+
+Ed, I only have diagrams for MM-2 but as for voltages -all Rowe machines of=
+ that era used 30vac for the latch solenoid which was controlled by a 30vdc=
+ relay.
+
+The solenoid should be easy since it was common to so many models, the link=
+age -may- vary.
+
+Rob/NYC
+
+--- On Mon, 10/22/12, Ed Owens <eowens@eojohnson.com> wrote:
+
+From: Ed Owens <eowens@eojohnson.com>
+Subject: [Jukebox-list] Rowe Ami mm3 latch solenoid info needed
+To: "Jukebox-list@lists.netlojix.com" <Jukebox-list@lists.netlojix.com>
+Date: Monday, October 22, 2012, 10:18 AM
+
+Hello,
+=A0 I have a Rowe Ami MM3 button assembly, not the entire jukebox.=A0=A0=A0=
+What is the voltage of the latch solenoid?
+=A0 Does anyone have a diagram or schematic that describes the circuit for =
+the latch solenoid?=A0 Maybe one for the selection circuit?
+ I wish to use the original latch and hold circuit or something close to it=
+.
+
+=A0 I have asked a lot of questions but not specific enough and have gotten=
+ no reply's, so here I go again.
+Ed Owens
+FortyTwo
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/ _________________________=
+______________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

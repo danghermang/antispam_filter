@@ -1,0 +1,97 @@
+Subject:Re: [Antenna-discussion] crystal radios, loop antennas,
+	ferrite antennas
+Alan,
+
+"There is an obvious answer, which is that a loop antenna for a crystal
+set needs to be so large that the ferrite requirement is far too
+heavy."
+
+I don't buy this.
+
+The ferrite increase the inductance of the loop -- which is its desired 
+property.
+
+Since the inductance of a loop without ferrite is already just fine for the 
+crystal set, you could get the same inductance with a smaller loop + 
+ferrite.    The ferrite then would be rather light weight.
+
+Indeed, some contemporary crystal radios use ferrites:
+http://homepage.ntlworld.com/henry01/crystal_radio_v2/crystal_set_radio_v2.htm
+
+--------------------------------------
+This brings up a related question.
+
+Since in crystal radios the occasional use of ferrites is to shrink the size 
+of the antenna, why wasn't this trick played with transistor radios (where 
+compactness was a goal)?
+
+--Kirk
+
+-----Original Message----- 
+From: boswell alan
+Sent: Sunday, October 28, 2012 1:23 PM
+To: Discussions of Antennas and Related Topics
+Subject: Re: [Antenna-discussion] crystal radios, loop antennas,ferrite 
+antennas
+
+Kirk
+
+There is an obvious answer, which is that a loop antenna for a crystal
+set needs to be so large that the ferrite requirement is far too
+heavy.
+
+I know you are averse to details, but a tuned 1-metre square loop at 1
+MHz can be shown to give an rf output power of -56 dBm, in other words
+2.5 microwatts, at the edge of coverage of a typical AM station, which
+is probably all right to operate headphones.  It didn't take long to
+do the calculation - about 10 minutes.
+
+You can expect a normal ferrite rod antenna to give 30-40 dB less, and
+a ferrite rod antenna with the ferrite removed, leaving just the coil,
+to give a further 20 dB less.  It's quite simple physics, but perhaps
+not the sort done by modern physicists any more :).
+
+Alan G3NOQ
+
+
+
+
+On 28 October 2012 16:49, Kirk T McDonald <kirkmcd@princeton.edu> wrote:
+> Folks,
+>
+> Still no answer yet to the puzzler as to why a loop antenna without a 
+> ferrite is good for a crystal radio set, while it seems to be favored to 
+> add the ferrite to a transistor radio.
+>
+> --Kirk
+>
+_______________________________________________
+This message was sent to: kirkmcd@princeton.edu
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this 
+message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm 
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

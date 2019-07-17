@@ -1,0 +1,150 @@
+Subject:Re: NAT con Shorewall
+No cortes la conversación, por favor, si no debo volver atrás para tener el
+texto.
+
+On Saturday 01 September 2012 17:13:12 Josué Marrero Bermúdez wrote:
+> Bueno..el uso de esas IP no las defino yo...fue una decision cuando se 
+> creo
+> la VPN a nivel nacional..
+
+Ya he visto que eres de Cuba. Cosas raras que hacen, si algún dia abren su 
+red
+al mundo van a tener problemas con esas IPs.
+
+> Y en caso de enrutar con firewall..que aplicacion puedo usar?
+>
+> Me gustaria hacerlo con el firewall para controlar mas el trafico..en
+> definitiva solo necesito que accedan a determinados puertos.
+
+Bueno, sigo falto de información para ser de mejor ayuda, pero voy a
+intentarlo. Además, me despistas con información contradictoria, en el 
+primer
+correo dijiste:
+
+"Necesito enrutar a algunas IP de mi LAN local hacia otras IP externas para
+un determinado servicio que se encuentra externo a mi red local."
+(por esto no debes cortar el texto).
+
+O sea, son los ordenadores de tu red (192.168.x.0/24) los que deben acceder 
+a
+los servicios de la red 172.40.0.0/24. En tu red no hay ningún peligro y 
+nadie
+accede a ella, son los de la red 172 los que deben preocuparse (si quieren) 
+de
+filtrar IPs, puertos, etc. ¿Si tu red tuviera acceso completo a la 172, que
+mas te da a ti?
+
+Imagino que tienes algún ordenador que esté conectado a la red 172.40.0.0/24
+¿verdad? Es decir, tiene que haber algún cable con un router en cada extremo
+que vaya desde tu red a la suya.
+
+¿Como tienes montada la red? Imagino que debe ser algo como:
+
+Red 192  --- tu router/firewall --- su router/firewall --- Red 172
+
+¿Que cacharro (router/firewall) en tu red tiene acceso a la 172? El cacharro
+deberia ser el ordenador donde has montado Debian, el que antes tenia 
+Windows,
+y los ordenadores de tu red deben tener ese cacharro como puerta de enlace
+(gateway o pasarela) o dirección de enrutado por defecto (si no es un 
+paquete
+de la red interna o de una red proxima, se envia a la puerta de enlace y ya 
+se
+encarga ella de hacerla llegar a destino).
+
+Entonces puedes hacer NAT (Network Address Translation) en la pasarela 
+(puerta
+de enlace). Eso es, la pasarela cambia la dirección de orígen del paquete
+(192.0.x.y) por su IP externa (172.40.x.y) antes de reenviarlo a la red
+externa, así cuando los ordenadores de esa otra red (172) envian las
+repuestas, lo hacen a la IP externa de tu pasarela que si conocen. Ellos no
+pueden enviar paquetes 192.0.x.y y esperar que llegue a tu red interna. 
+Cuando
+tu pasarela recibe la respuesta, recuerda que es una conexión iniciada en la
+red interna y cambia la IP de destino (172) por la IP de la máquina de tu 
+red
+interna (192) y envia el paquete que felizmente llega a quien inició la
+conversación.
+
+Yo uso Iptables directamente, sin Shorewall por en medio, y lo puedes lograr
+con un par de reglas:
+
+Primero, assegurate que tu Debian actue de router y reenvie paquetes:
+
+# echo 1 > /proc/sys/net/ipv4/ip_forward
+
+Luego ya puedes añadir la regla de Iptables para que haga NAT:
+
+# /sbin/iptables -t nat -A POSTROUTING -o <eth_externa> -j MASQUERADE
+
+Donde <eth_externa> es la ethernet conectada a la red que puede acceder a la
+172.40.0.0/16, probablemente eth0 o eth1.
+Con eso, ya tienes acceso desde la red interna a la externa.
+
+Si solo quisieras que algunas IPs de tu red interna tuviera acceso (¿pa 
+que?),
+podrias hacer:
+
+# /sbin/iptables -t nat -A POSTROUTING -s <rango_con_acceso> -o 
+<eth_externa>
+-j MASQUERADE
+
+Donde <rango_con_acceso> es el rango de IPs que quieres dejar pasar, como
+192.168.12.0/24, o una IP especifica como 192.168.12.12.
+
+Si la política por defecto de Iptables fuera "DROP", desecharia cualquier
+conexión que específicamente no estuviera permitida, entonces deberias
+habilitar estas conexiones para que Iptables no las bloqueara. Presupongo 
+que
+"eth0" es la ethernet con acceso externo, y "eth1" la ethernet conectada a 
+la
+red local:
+
+Para habilitar las conexiones de tu red interna hacia la externa:
+
+# /sbin/iptables -A FORWARD -i eth1 -o eth0 -j ACCEPT
+
+Y también debemos habilitar las conexiones externas que se haya establecido
+préviamente:
+
+# /sbin/iptables -A FORWARD -i eth0 -o eth1 -m state --state
+RELATED,ESTABLISHED -j ACCEPT
+
+Igual que antes, podrias limitar que IPs de tu red interna tienen acceso al
+exterior.
+
+Estas instrucciones deben ejecutarse cuando el firewall se inicie, así que 
+los
+pones en un script bash y al inicio.
+
+Te mando un privado con un docuemtno básico de Iptables adjunto, que por la
+lista no pasa. Si quieres más información sobre el tema de la que creias
+posible, dimelo y te mando mas manuales.
+
+Saludos,
+
+-- 
+
+Marc Olivé
+Blau Advisors
+
+www.blauadvisors.com
+-------------------------------------
+
+
+Eso mismo es lo que queria hacer. Si...entendiste perfectamente la 
+explicacion de la estructura de mi red o al menos la adivinaste
+
+Disculpa si no fui preciso en mi mensaje.
+
+Un millon de gracias..ahora mismo pruebo y comento los resultados.
+
+Josue
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/7FFDFD2237A1462DAE54E703678F4680@dbsrv
+

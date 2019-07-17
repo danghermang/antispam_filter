@@ -1,0 +1,16 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+ IPv4 from last /8
+On 11/7/12 8:25 PM, Marcin Kuczera wrote:
+> Both - Cisco/Ericsson(RedBack) - for their BRASes have not yet
+> implemented this access method for IPv6..
+> They have it on roadmap, but it will take a while for first releases and
+> much more before they will be stable enough to
+> put them in production.
+
+Not true. Cisco ASR1k and Ericsson Redback works very well with 
+IPv6/IPv4 for access. Tested at least for PPPoE/A users.
+
+Cheers, Jan
+
+
+

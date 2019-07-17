@@ -1,0 +1,44 @@
+Subject:Re: =?iso-8859-1?q?Implementaci=F3n?= OpenVPN sobre OpenVZ
+El Wed, 28 Nov 2012 16:21:19 -0200, ciracusa escribió:
+
+>>> 1) Este cambio es "exclusivo" de cada contenedor? Osea, puedo tener
+>>> contenedores trabajando en modo venet (de hecho ya los tengo) y otros
+>>> en modo veth?
+>>>
+>>> Esto lo consulto porque no quisiera realizar un cambio que me afecte
+>>> los contenedores que ya tengo en funcionamiento!
+>>>     
+>>>     
+>> A ver si esto te sirve:
+>>
+>> [Network] Both venet and veth in same CT(Any drawbacks?)
+>> http://forum.openvz.org/index.php?t=msg&goto=45167&
+>>
+>> Si en un mismo contenedor puedes mezclar ambos modos, en contenedores
+>> separados no deberías tener problemas :-?
+>>   
+> Osea, puedo mantener los CT actuales como VENET y el nuevo montarlo en
+> VETH sin alterar el funcionamiento de los anteriores?
+
+Yo diría que sí :-?
+
+Según la documentación de OpenVZ¹, los contenedores actúan como entidades 
+independientes, por lo que entiendo que en cada contenedor podrás 
+configurar un método para la configuración de la red distinto sin que los 
+cambios afecten al resto (y aquí también encuentro ciertas similitudes 
+con VirtualBox, que permite configurar el hardware de cada máquina 
+virtual de manera independiente).
+
+¹http://wiki.openvz.org/Container
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k97s2m$4np$2@ger.gmane.org
+

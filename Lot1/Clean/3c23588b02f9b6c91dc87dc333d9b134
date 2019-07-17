@@ -1,0 +1,18 @@
+Subject:qt3 in wheezy options to install it
+Hello,
+
+In near future I would like install on my machines wheezy and I know
+that old qt3 libraries are removed (as obsolete)
+But in my commercial work we still use qt-3 so  I would like to know
+how can I install it instead of plain
+compiling from sources (last option).
+
+Regards,
+Karol Szkudlarek
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+1EyU5TdR=M5pLVt7JzT60SZzo4wSDDauKKaU5cpDs1demHww@mail.gmail.com
+

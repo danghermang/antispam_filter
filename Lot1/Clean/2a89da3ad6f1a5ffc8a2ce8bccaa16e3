@@ -1,0 +1,76 @@
+Subject:Re: Squirrelmail: =?UTF-8?Q?Probl=C3=A9me_d'affichage?=
+> Le Sun, 21 Oct 2012 20:45:00 +0200,
+> Zuthos <zuthos-NoSpam@laposte.net> a écrit :
+>
+>> Bonjour, j'ai un soucis avec squirrelmail
+>>
+>> J'ai isolé ce logiciel puisqu'avec mutt sur le même mail, je n'ai pas
+>> de soucis. Donc cela ne provient pas de courier
+>>
+>> Voici mes observations:
+>> Pour certain mail, le sujet d=ne s'affiche pas
+>> Pour d'autre, l'auteur n'apparaît pas
+>> Pour d'autre encore, le texte du courriel et presque totalement
+>> tronqué.
+>>
+>> Enfin, pour d'autre encore, c'est une variation de ces trois problème.
+>>
+>> Pour finir, lors de la page de démarrage de squirrelmail il n'y a pas
+>> de texte affiché sur le bouton OK.
+>>
+>> J'avoue ne pas trop savoir quoi faire et ou chercher. J'ai pensé dans
+>> un premier temps à un problème qui pourrais se résoudre lors d'un
+>> upgrade. Toutefois après plusieurs des ces derniers, force et de
+>> constater que cela n'est pas le cas.
+>>
+>> Si vous avez une piste ou idée, merci d'avance...
+>>
+>> Ps: je suis sur une wheezy
+>>
+> bonjour,
+>
+> 	que donne : apt-cache policy `apt-cache search squirrelmail |awk '{print
+> $1}'`
+>
+> 	slt
+> 	bernard
+>
+> --
+
+Bonjour,
+
+j'ai eu le même problème. Il était lié à une "incompatbilité" de
+squirrelmail avec PHP 5.4.
+
+Je l'ai résolu en modifiant les deux fichiers ci-dessous.
+
+root@dingo:/usr/share/squirrelmail/functions# diff forms.php- forms.php
+27c27
+<         ($value !== null ? ' value="'.htmlspecialchars($value).'"' : '').
+---
+>         ($value !== null ? ' value="'.htmlspecialchars($value,
+ENT_COMPAT | ENT_HTML401, 'ISO-8859-1').'"' : '').
+
+
+root@dingo:/usr/share/squirrelmail/functions# diff i18n.php-  i18n.php
+187c187
+<     if (! $save_html) $string = htmlspecialchars ($string);
+---
+>     if (! $save_html) $string = htmlspecialchars ($string, ENT_COMPAT |
+ENT_HTML401, 'ISO-8859-1');
+
+Bien cordialement,
+
+A. RUCH
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/0a1b17dc012711aec6909de6f713e7e2.squirrel@www.dontpanic.org
+

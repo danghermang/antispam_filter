@@ -1,0 +1,26 @@
+Subject:confirm 2fda7e5ec62b46373fbc1a8629158925cd322d12
+Mailing list subscription confirmation notice for mailing list
+Apnic-announce
+
+We have received a request from 91.199.104.3 for subscription of your
+email address, "legit4as@gmail.com", to the
+apnic-announce@lists.apnic.net mailing list.  To confirm that you want
+to be added to this mailing list, simply reply to this message,
+keeping the Subject: header intact.  Or visit this web page:
+
+    http://mailman.apnic.net/mailman/confirm/apnic-announce/2fda7e5ec62b46373fbc1a8629158925cd322d12
+
+
+Or include the following line -- and only the following line -- in a
+message to apnic-announce-request@lists.apnic.net:
+
+    confirm 2fda7e5ec62b46373fbc1a8629158925cd322d12
+
+Note that simply sending a `reply' to this message should work from
+most mail readers, since that usually leaves the Subject: line in the
+right form (additional "Re:" text in the Subject: is okay).
+
+If you do not wish to be subscribed to this list, please simply
+disregard this message.  If you think you are being maliciously
+subscribed to the list, or have any other questions, send them to
+apnic-announce-owner@lists.apnic.net.

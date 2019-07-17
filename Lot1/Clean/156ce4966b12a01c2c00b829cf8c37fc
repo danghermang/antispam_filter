@@ -1,0 +1,36 @@
+Subject:[Koha] rebuild_zebra: Biblios aren't displayed anymore
+Hi all
+
+Since I have done a rebuild of the zebra index with
+
+/usr/share/koha/bin/migration_tools/rebuild_zebra.pl -a -r
+
+the biblios and items aren't displayed anymore with the search results.
+
+You can try it at http://bibliothek.ksobwalden.ch/ using for instancs
+the author Thomas Mann. The result shows 7 hints (witch is likely the
+number of Thomas Mann as an author or co-author).
+
+But alle the seven hints are marked with "Kein Titel"
+
+If I use the inventory tool then the biblios are shown an I can even
+edit them.
+
+/var/log/koha/koha-opac-error.log shows some errors like:
+[Mon Oct 22 14:43:23 2012] [error] [client 180.76.5.146] [Mon Oct 22
+14:43:23 2012] opac-detail.pl: Use of uninitialized value in
+concatenation (.) or string at
+/usr/share/koha/opac/htdocs/opac-tmpl/prog/en/modules/opac-detail.tt
+line 746.
+
+What's wrong?
+
+
+It's Koha 3.08.05 with Perl 5.010001 Zebra 2.0.52 on debian squeeze.
+
+
+Beda
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

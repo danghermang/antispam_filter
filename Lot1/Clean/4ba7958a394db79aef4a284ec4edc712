@@ -1,0 +1,54 @@
+Subject:Newsletter
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml"><head>
+=09<style type=3D"text/css" media=3D"screen">
+=09=09body { margin: 10px; }
+=09=09body, td  { font-size: 12px; line-height: 140%; font-family: Verdana,=
+ Arial, Helvetica; }
+=09=09h1 { font-size: 16px; margin-bottom: 2em; }
+=09=09h2 { font-size: 14px; margin-bottom: 0; border-bottom: 1px solid blac=
+k; }
+=09=09h3 { font-size: 14px; }
+=09=09h3 a { text-decoration: none; }
+=09=09a { color: #00215a; }
+=09=09a:hover { color: #e20000; }
+=09=09.box { padding: 15px; background-color: #d8d3de; text-align: center; =
+}
+=09</style>
+</head>
+<body>
+<div class=3D"box"><h1><br />&laquo;Vaterland Online&raquo;-Newsletter vom =
+Montag, 15. Oktober 2012<br />&nbsp;</h1></div>
+<h2>News &laquo;Wirtschaft&raquo;</h2>
+<p>Keine aktuellen Artikel in diesem Ressort!</p>
+<h2>News &laquo;Sport&raquo;</h2>
+<h3><a href=3D"http://www.vaterland.li/index.cfm?source=3Dlv&amp;id=3D20303=
+" target=3D"_blank">Fussball-Nati in Riga eingetroffen</a></h3>
+<p>Liechtensteins Fussball-Nationalmannschaft ist am Sonntag, kurz vor 18 U=
+hr Ortszeit (17 Uhr MEZ), in der lettischen Hauptstadt Riga eingetroffen.</=
+p>
+<h3><a href=3D"http://www.vaterland.li/index.cfm?source=3Dlv&amp;id=3D20276=
+" target=3D"_blank">=C2=ABAn eine Pr=C3=A4paration der Bahn war nicht zu de=
+nken=C2=BB</a></h3>
+<p>Weil die Organisatoren die Rennbahn bis am Sonntag nicht in rennbereiten=
+ Zustand bringen k=C3=B6nnen, f=C3=A4llt der zweite Renntag  in Maienfeld b=
+uchst=C3=A4blich ins Wasser. Die finanziellen Auswirkungen sind derzeit noc=
+h nicht absch=C3=A4tzbar. Zehn Rennen mit Preisgeldern in H=C3=B6he von 115=
+ 000 Franken wurden abgesagt.</p>
+<h2>News &laquo;Kultur&raquo;</h2>
+<h3><a href=3D"http://www.vaterland.li/index.cfm?source=3Dlv&amp;id=3D20259=
+" target=3D"_blank">Appenzeller =C2=ABalpTraum=C2=BB auf der B=C3=BChne</a>=
+</h3>
+<p>Das neue B=C3=BChnenprogramm des Comedy-Duos Messer & Gabel heisst =C2=
+=ABalpTraum=C2=BB. Manch ein Traum oder eben Albtraum wird auf der Alp durc=
+h die beiden Appenzeller diskutiert und dadurch die Lachmuskeln fordern. Se=
+it 1999 sind Ren=C3=A9 Sulser und Rolf Kern als Messer & Gabel unterwegs un=
+d =C3=BCben diese Bestimmung seit 2002 vollberuflich aus.</p>
+<div class=3D"box"><p><br />Wir w&uuml;nschen Ihnen eine angenehme Lekt&uum=
+l;re.<br />Ihr Newsletter-Profil k&ouml;nnen Sie unter <a href=3D"http://ww=
+w.vaterland.li/page/lv/newsletter/profil.cfm">www.vaterland.li/page/lv/news=
+letter/profil.cfm</a> anpassen.</p><p>Besuchen Sie uns im Internet:<br /><a=
+ href=3D"http://www.vaterland.li" target=3D"_blank">www.vaterland.li</a><br=
+ /><a href=3D"http://www.wirtschaftregional.li" target=3D"_blank">www.wirts=
+chaftregional.li</a><br /><a href=3D"http://www.liewo.li" target=3D"_blank"=
+>www.liewo.li</a><br />&nbsp;</p></div>
+</body></html>

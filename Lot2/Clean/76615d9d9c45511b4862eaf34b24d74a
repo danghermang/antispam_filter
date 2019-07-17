@@ -1,0 +1,58 @@
+Subject:Re: libgl1-nvidia-glx:i386
+Hola gente:
+
+El 05/12/12 12:23, Camale�n escribi�:
+> El Wed, 05 Dec 2012 09:50:44 +0100, Alberto Luaces escribió:
+>
+>> Camaleón writes:
+>>
+>>> El Mon, 03 Dec 2012 18:49:09 -0300, Gonzalo Rivero escribió:
+>>>
+>>>> es que quiero hacer andar el google-earth. Sucede que el supuesto
+>>>> paquete para amd64 que hay en el sitio de google... es de 32 bit, y no
+>>>> tiene cargadas las dependencias de 32 bit (o al menos en mi caso no se
+>>>> quejó de nada, pero tampoco arranca),
+>>>
+>>> (...)
+>>>
+>>> Las dependencias del paquete .deb de 64 bits son dos:
+>>>
+>>> lsb-core>=3.2
+>>> ia32-libs
+>>
+>> ia32-libs ya no existe en wheezy.
+>
+> Hum... no sé qué versión tiene el OP, creo que no lo ha dicho :-?
+>
+> de todas formas, hay un paquete de "transición" aquí:
+>
+> http://packages.debian.org/wheezy/ia32-libs
+>
+>> Por eso es por lo que recomiendo pasar del paquete de 64 bit e instalar
+>> el original de 32.
+>
+> Realmente no hay paquete de 64 bits puro, pero si el paquete pide una
+> dependencia que no es posible satisfacer, habría que informar al
+> empaquetador (que es Google en este caso) para que lo corrija.
+
+Casualmente, ayer no pude instalar google-earth 64 bits en Wheezy, 
+instal� lsb-core sin problemas pero ia32-libs fue imposible.
+
+>
+> Saludos,
+>
+
+
+-- 
+
+Walter O. Dari
+
+http://swcomputacion.com/
+skype: waomda
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BF707E.1000107@gmail.com
+

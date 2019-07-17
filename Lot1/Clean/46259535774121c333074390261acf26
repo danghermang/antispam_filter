@@ -1,0 +1,52 @@
+Subject:Re: [LUG] No need to bash Unity...
+On 05/11/12 17:27, Malcolm Dinsmore wrote:
+> I don't really get why the vocal bash Unity.   I suspect I am about to
+> find out why no-one raises their head above the parapet  to say they
+> like unity but here goes:
+
+Fair enough, if you like it then more power to you - I hope nobody is
+going to give you an earful just because you happen to like Unity. Some
+bits are potentially pretty cool after all - personally, I hate the
+Apple-style global menus with a vengeance, but for less skilled users
+who don't have every keyboard shortcut for a sprawling program like Gimp
+burnt into their muscle memory it's a nice touch to start typing
+"unsharp mask" and have the lens dynamically filter the available
+options for you. I can see that being really useful for kids, new
+converts and casual users (and the terminally lazy, such as myself)
+struggling with endless nested menus and cryptically labelled options. A
+lot of the game-ending stupidity has been either fixed or removed,
+fallback 2D mode now uses llvm soft-rendering instead of just instantly
+breaking... it has come along a fair way. And anything you don't like
+(the hateful Amazon bullshit is obviously the top of the list) can be
+trivially removed or now there is at least a semblance of configuration
+options available, modified to taste. In fact, if anything, Gnome3 -
+which I prefer - suffers from most of these problems itself, and a whole
+bunch of other failures specific to itself.
+
+I actually use Unity every day - several customers/friends I support are
+using it, some of my maintenance/testing VMs run it so I'm not hating
+just for the sake of it. I do think you might be putting the cart before
+the horse as well, so to speak. It's not that you've just got a "vocal"
+minority undeservedly slandering a brave new Desktop Environment.
+Whether you look at the uninformed masses, the drivelling hordes of
+(secretly windows using) slashdotters, experienced sysadmins or even
+Linus himself, unquestionably the vast majority opinion has consistently
+been that it sucks. From day one of release to the greatly improved
+modern Unity, it seems that something like 95% of users hate it -
+there's a reason why Ubuntu slipped from it's long held and proud number
+1 position on distrowatch exactly when the first Unity-default version
+was released.
+
+But hey, I'm not trying to convince you or anything - if it works for
+you, fantastic. I'll keep an eye on it and keep using it, maybe in two
+years it'll be so awesome that every distro ships with it by default,
+including windows 9 and OpenVMS. And for what it's worth, as much as I
+hate Unity, I'd still rather use it than KDE. I really can't even tell
+you how much I hate KDE (although I loved kio-slaves).
+
+Regards
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

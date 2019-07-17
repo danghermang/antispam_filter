@@ -1,0 +1,25 @@
+Subject:Sobre OpenVZ y Template Debian 5.0
+Hola Lista.
+
+Bueno de momento me encuentro retomando un tema pendiente con OpenVZ.
+
+Estoy viendo que las VMs (osea los containers) estan creados en base a 
+un template debian-5.0.
+
+Esto me puede generar algún problema, o luego de preparar el nuevo 
+container podré modificar el source.list y actualizar la versión de 
+debian y sus paquetes?
+
+Si alguien de la lista lo está utilizando le agradecería postee con que 
+repos esta trabajando.
+
+Muchas Gracias.
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509A870B.8010104@gmail.com
+

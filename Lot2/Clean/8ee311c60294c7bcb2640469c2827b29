@@ -1,0 +1,42 @@
+Subject:Re: Acceder como root en gnome
+On Jueves, 4 de octubre de 2012 13:33:49 Liuber's Hdez=E2=88=B4 escribi=C3=
+=B3:
+> Buenas tardes, Lista.
+> Antes pod=C3=ADa accesar al archivo de la lista, ahora est=C3=A1 denegado.
+>=20
+> Quisiera acceder al entorno gr=C3=A1fico de gnome loqueado como root.
+
+Esta lista no es un buen sitio para hacer preguntas estupidas.
+
+Documentate un poco antes.
+
+Para hacer una pregunta inteligente antes hay que conocer gran parte de la=
+=20
+respuesta.
+
+Te lo repito, ya te han dado la soluci=C3=B3n. Dudo mucho que gdm3 te deje =
+logearte=20
+como su, es estupido.
+
+consola
+su
+pasword
+
+y ya estas como root
+
+=2D-=20
+Un saludo / agur bero bat
+
+BasaBuru
+
+    #### BASATU ####
+
+    basatia bihur zaitez
+   ~~~~~~~~~~~~~
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210051043.49520.basaburu@basatu.org
+

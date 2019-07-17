@@ -1,0 +1,29 @@
+Subject:Re: Sin entorno =?iso-8859-1?q?gr=E1fico?= tras actualizar el kernel
+	en Debian Wheezy (Solucionado)
+El Mon, 19 Nov 2012 13:38:34 +0000, José Manuel (EB8CXW) escribió:
+
+> No me pregunte el motivo de solucionarse de esta manera, pues no tengo
+> ni idea, lo que se es que se soluciono. Lei en Google algo relacionado
+> con los headers. Por lo que instales los correspondientes al nuevo
+> kernel ( linux-headers-3.2.0-4-686-pae) y ya tengo entorno gráfico con
+> este nuevo Kerne y lo estoy, de momento, utilizándolo sin problemas.
+> 
+> Reitero mi agradecimiento a tod@s por su estimada ayuda.
+
+Perfecto... eso apunta a que has debido de compilar el driver de nvidia y 
+por eso al cambiar de kernel se te "rompió" el controlador. Pero todo 
+esto son conjeturas, sólo leyendo los registros podrás saber qué es lo 
+que ha pasado realmente, más que nada para que cuando te vuelva a pasar 
+sepas qué hacer :-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8dfqd$k79$3@ger.gmane.org
+

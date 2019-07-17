@@ -1,0 +1,48 @@
+Subject:Newsletter
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml"><head>
+=09<style type=3D"text/css" media=3D"screen">
+=09=09body { margin: 10px; }
+=09=09body, td  { font-size: 12px; line-height: 140%; font-family: Verdana,=
+ Arial, Helvetica; }
+=09=09h1 { font-size: 16px; margin-bottom: 2em; }
+=09=09h2 { font-size: 14px; margin-bottom: 0; border-bottom: 1px solid blac=
+k; }
+=09=09h3 { font-size: 14px; }
+=09=09h3 a { text-decoration: none; }
+=09=09a { color: #00215a; }
+=09=09a:hover { color: #e20000; }
+=09=09.box { padding: 15px; background-color: #d8d3de; text-align: center; =
+}
+=09</style>
+</head>
+<body>
+<div class=3D"box"><h1><br />&laquo;Vaterland Online&raquo;-Newsletter vom =
+Donnerstag, 18. Oktober 2012<br />&nbsp;</h1></div>
+<h2>News &laquo;Wirtschaft&raquo;</h2>
+<h3><a href=3D"http://www.vaterland.li/index.cfm?source=3Dlv&amp;id=3D20346=
+" target=3D"_blank">Formel-1-Star Niki Lauda von Seidl entt=C3=A4uscht</a><=
+/h3>
+<p>Am Mittwochnachmittag hat am Vaduzer Landgericht der bekannteste Zeuge g=
+egen den Finanzjongleur Michael Seidl ausgesagt: Der fr=C3=BChere Formel-1-=
+Fahrer Niki Lauda. Als Werbetr=C3=A4ger und Anleger hat er wegen der Money =
+Service Group Geld verloren. Er sei vom Gesch=C3=A4ftsgebaren Seidls entt=
+=C3=A4uscht, sagte Lauda.</p>
+<h2>News &laquo;Sport&raquo;</h2>
+<h3><a href=3D"http://www.vaterland.li/index.cfm?source=3Dlv&amp;id=3D20341=
+" target=3D"_blank">Nationaltrainer Zaugg mit Einsatz zufrieden</a></h3>
+<p>An der Medienkonferenz nach dem Fussball WM-Qualifikationsspiel Lettland=
+ - Liechtenstein (2:0) waren sich die Nationaltrainer Bidu Zaugg und Aleksa=
+ndrs Starkovs mehr oder weniger einig. Sie sprachen von einem intensiven Sp=
+iel. Zaugg wirkte trotz der vierten Niederlage im vierten Spiel gefasst und=
+ lobte das Spiel seiner Mannschaft.</p>
+<h2>News &laquo;Kultur&raquo;</h2>
+<p>Keine aktuellen Artikel in diesem Ressort!</p>
+<div class=3D"box"><p><br />Wir w&uuml;nschen Ihnen eine angenehme Lekt&uum=
+l;re.<br />Ihr Newsletter-Profil k&ouml;nnen Sie unter <a href=3D"http://ww=
+w.vaterland.li/page/lv/newsletter/profil.cfm">www.vaterland.li/page/lv/news=
+letter/profil.cfm</a> anpassen.</p><p>Besuchen Sie uns im Internet:<br /><a=
+ href=3D"http://www.vaterland.li" target=3D"_blank">www.vaterland.li</a><br=
+ /><a href=3D"http://www.wirtschaftregional.li" target=3D"_blank">www.wirts=
+chaftregional.li</a><br /><a href=3D"http://www.liewo.li" target=3D"_blank"=
+>www.liewo.li</a><br />&nbsp;</p></div>
+</body></html>

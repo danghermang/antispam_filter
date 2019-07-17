@@ -1,0 +1,24 @@
+Subject:[Flexradio] 10 MHz input to FLEX-1500
+I hooked up a 10 MHz source to my FLEX-1500 and my two 
+DEMI transverters (L144-28HP and L432-28HP). I heard satellite
+stations on both FO-29 and VO-52. But when I tried 
+transmitting, I got no drive from the FLEX. After a lot of fiddling around. 
+I noticed that if I used an 18" BNC jumper connected with a barrel to a 36" 
+BNC jumper, the FLEX produced output, but with either jumper alone, I got 
+nothing. Why?
+
+I have the 10 MHz source (Trimble Thunderbolt) connected to a DEMI 10-4
+amplifier/filter/4-way splitter. Without the DEMI splitter, I get drive from 
+the FLEX. But with the splitter, I needed the two cables in series. Do you suppose I 
+am getting too much 10 MHz signal from the splitter for the FLEX-1500? 
+And the extra cable length gave me some attenuation?
+
+Is the drive level of the 10 MHz signal to the FLEX-1500 critical? 
+
+Ron
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

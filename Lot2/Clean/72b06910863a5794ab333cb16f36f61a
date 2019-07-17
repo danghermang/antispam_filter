@@ -1,0 +1,75 @@
+Subject:Re: [Flexradio] Weird BPSK31 Behavior
+Thanks to Jim, Dave and Rich for the really helpful replies.  I think Jim
+was on to it as I can make the spike issue go away by changing sampling
+rates.  However, I am still uncertain as to what in the heck changed because
+of the Win 7 failure (still assuming that was the issue).
+
+Things really got spooky here for awhile.  Suddenly the autotuner stopped
+working; then the links to fldigi failed.  All for no reason that I can
+tell.  Probably something stupid I did trying to find what had changed in
+the settings, but beats me what it was.
+
+So, ended up doing a factory default reset of all the database and starting
+over.  This time I will NOT forget to make a backup of the database with all
+my settings in place!!!! :(s
+
+All seems to be working nominally now.  Still scratching my head how to deal
+with the second transmit spike, but that will wait for after the ballgame or
+tomorrow morning.
+
+Thanks all.  This reflector is sure a big help.
+
+73, Tom
+K1FR
+
+
+-----Original Message-----
+From: James Austin [mailto:ka2rvo@gmail.com] 
+Sent: Sunday, October 21, 2012 11:52 AM
+To: tm.stuff@verizon.net
+Cc: flexradio@flex-radio.biz
+Subject: Re: [Flexradio] Weird BPSK31 Behavior
+
+I would double check the sample rates between VAC on PowerSDR and on the VAC
+lines in the Windows sound settings. If one is set to 48000 and the other to
+44100, your signal would not look so good. Perhaps you're unexplained
+shutdown reset something. I keep both at 48000.
+
+Jim KA2RVO
+
+On Sun, Oct 21, 2012 at 9:19 AM, TM <tm.stuff@verizon.net> wrote:
+> I am suddenly experiencing a new problem with my Flex 3000 on PSK.
+> Everything has been nominal until this morning.  Now, instead of a 
+> nice clean transmit signal on the screen, I have what appear to be two 
+> main spikes.  One is the intended frequency and normal strength.  The 
+> second is considerably lower in strength (40 or more db) and shifted 
+> about 1 KHz up in frequency.
+>
+> The only things that changed are:
+> 1.  An unexpected and unexplained Windows shutdown and restart (Win 7 
+> 64 pro on a late model i7 machine).  I know PSDR is not supposed to be 
+> shut down in that manner and wonder if something fouled up there?
+>
+> 2. Last night I installed and used SDR Memory.  That seemed to work fine.
+>
+> Appreciate any help/inputs.
+>
+> 73, Tom
+> K1FR
+>
+>
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: 
+> http://www.flexradio.com/
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

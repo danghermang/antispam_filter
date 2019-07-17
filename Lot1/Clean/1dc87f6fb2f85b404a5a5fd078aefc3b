@@ -1,0 +1,45 @@
+Subject:Re: Reboot and Select proper Boot Device
+rantis cares escribió:
+> Que tal lista:
+>
+> Tengo una computadora en mi trabajo que funciona en Debian. Por
+> cuestiones de necesidad, esta maquina no tiene carcaza y esta montada
+> sobre una tabla. La maquina no se ve, esta oculta, pero tiene un switch
+> para encenderla y apagarla. Ese cable se desconecto, al conectarlo
+> nuevamente directamente en la motherboard el sistema ya no funciona.
+>
+> lanzo un mensaje que no pude escribir era algo sbre getty (en el
+> arranque y el runlevel, decia que tenia que esperar 5 minutos, se quedo
+> pasmada un tiempo y se apago).
+>
+> Al arrancarla nuevamente me aparece el mensaje siguiente:
+>
+> Reboot and select proper boot device
+> or insert boot Media in selected bood device and press key.
+>
+> Me imagino que se desconfiguro GRU.
+>
+> Alguna idea y como podria resolverlo?.
+>
+> Gracias
+>
+> --
+> "Al juntarme dia tras dia con los Listeros, mi capacidad intelectual
+> crece en proporcion inversa a la ignorancia generada. Gracias Linuxeros"
+
+Parece que se descoentó el bus de los discos. Fijate si ves una ficha de 
+bus suelta.
+
+-- 
+Sergio Bessopeanetto
+Buenos Aires, Argentina
+Skype: sergio.bess
+msn: sergiebess@hotmail.com
+Jabber: sergio.bess@jabber.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5093E9DC.8050402@myopera.com
+

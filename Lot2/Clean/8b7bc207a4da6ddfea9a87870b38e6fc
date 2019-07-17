@@ -1,0 +1,28 @@
+Subject:Re: LMDE & Lenovo W530
+On Tue, 20 Nov 2012 14:41:54 +0100
+jerome moliere <jerome.moliere@gmail.com> wrote:
+
+> - cas ou le driver ne gere pas la carte ( c est pas cense etre le cas et
+> celle ci fonctionne quand je lance avec startx)
+
+V=C3=A9rifie ce que l'installation envoie comme options avec le drv, il-y-a
+des chances que =C3=A7a soit =C3=A7a: l'install positionne la/les bonnezobt=
+ions
+mais =C3=A7a n'est pas =C3=A9crit dans un fichier d'/etc/modprobe.d, donc a=
+u reboot
+le drv est appel=C3=A9 sans options (?).
+
+--=20
+<Rom> toi tu vois le verre =C3=A0 moiti=C3=A9 plein ou =C3=A0 moiti=C3=A9 v=
+ide?
+<rafiki> pas assez rempli
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121120174119.0bd1d3e1@anubis.defcon1
+

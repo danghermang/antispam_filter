@@ -1,0 +1,64 @@
+Subject:Re: Installation postgresql
+Bonjour,
+
+Le 13/11/2012 09:56, Sébastien NOBILI a écrit :
+> Bonjour,
+> Le lundi 12 novembre 2012 à 19:58, Bernard Schoenacker a écrit :
+>> 	-c) installer postgresql9.1
+>> 	-d) mettre à jour vers PgSQL 9.2
+> Comme indiqué dans une réponse qui m'a été envoyée directement (hors-liste), en
+> effet, PostgreSQL 8.4 est obsolète puisque des versions plus récentes ont été
+> publiées.
+
+En effet, mais c'est bien postgresql 8.4 qui est maintenu dans squeeze, 
+et c'est d'ailleurs avec cette version que je fais fonctionner libreplan.
+
+> La question initiale portait sur le fonctionnement de PostgreSQL sous Debian
+> Squeeze. Or la version présente dans les dépôts Squeeze est la 8.4 et reste
+> maintenue par l'équipe Debian.
+
++ 1
+J'installe un nouveau serveur sur lequel je cherche à migrer libreplan, 
+les deux sont sur squeeze, je cherche donc la même configuration, ce que 
+je n'arrive pas à reproduire.
+
+> Conseiller l'installation de PostgreSQL 9.1 (puis la mise-à-jour en 9.2) induit
+> la compilation depuis les sources, ça aurait été bien de le préciser, d'autant
+
+Oui, ce n'est pas un souci en soit, j'ai fait quand j'utilisais RedHat 
+quasi uniquement des compilations avec la suite configure, make, make 
+install...
+mais aujourd'hui je cherche tant que faire ce peu à respecter les 
+paquetage debian, je ne suis déjà pas à l'aide en utilisant libreplan 
+avec dpkg.
+
+> plus que le mélange d'outils installés par le gestionnaire de paquets et
+> d'outils installés depuis les sources n'est pas forcément la meilleure solution
+> pour conserver un système propre.
+
+Je plussoie encore, pour l'avoir fait avec du PHP 5.2 sur squeeze, c'est 
+une belle galère.
+
+> Je maintiens donc ma position, la méthode la plus simple pour obtenir un
+> PostgreSQL fonctionnel sous Debian est la suivante :
+>      sudo aptitude install postgresql
+
+Et donc c'est là que ça plante pour moi, postgresql ne s'installe pas 
+correctement.
+Je viens de relancer une install vierge du serveur, je vais restester 
+car je l'ai tellement bidouiller que les gestionnaires de paquets sont 
+cassés...
+
+Merci
+
+Greg
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A212D4.5060000@gmail.com
+

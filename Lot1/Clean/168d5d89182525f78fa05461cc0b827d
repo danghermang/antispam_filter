@@ -1,0 +1,32 @@
+Subject:Re: No aparece el selector remoto XDMCP
+El Sun, 09 Dec 2012 21:18:29 +0100, Javier Silva escribió:
+
+> tengo configurados 2 equipos con Debian Wheezy en la misma red y deseo
+> poder iniciar sesión remota desde uno de ellos hacia el otro, utilizando
+> XDMCP.
+
+(...)
+
+> El problema que tengo, es que deseo acceder a realizar login, sin
+> iniciar una sesión de X con un usuario local del cliente y no veo
+> ninguna opción que muestre la posibilidad de buscar servidores en la red
+> ni tan siquiera parece detectarlos.
+
+(...)
+
+Recuerdo una pregunta similar en la lista inglesa de Debian de hace ya 
+algunos meses y al menos por aquel entonces no recuerdo que el usuario 
+encontrara una solución al problema pero gdm3 estaba aún en pañales, por 
+así decirlo, desconozco si ya es posible hacer esto :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ka56ph$hck$6@ger.gmane.org
+

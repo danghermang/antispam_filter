@@ -1,0 +1,84 @@
+Subject:=?ISO-8859-1?Q?Re=3A_Baja_duraci=F3n_de_la_bater=EDa?=
+El d=EDa 7 de septiembre de 2012 17:07, Camale=F3n <noelamac@gmail.com> esc=
+ribi=F3:
+> El Fri, 07 Sep 2012 16:45:28 +0200, Marc Mar=ED escribi=F3:
+>
+>> El d=EDa 7 de septiembre de 2012 15:56, Camale=F3n <noelamac@gmail.com>
+>> escribi=F3:
+>
+> (...)
+>
+>>> =BFY cu=E1l es la duraci=F3n estimada de la bater=EDa que te indica el
+>>> fabricante?
+>>>
+>>>> aunque solo haga uso del navegador, por ejemplo. Tengo escalado de
+>>>> frecuencia, laptop-mode-tools, he quitado bastantes servicios de
+>>>> ejecuci=F3n al inicio, bajo el brillo... Pero la duraci=F3n no mejora
+>>>>
+>>>> Me gustar=EDa que me ayudaseis con esto, porque es un poco molesto.
+>>>>
+>>>> El port=E1til es un Acer 5750g,con Debian Squeeze, Gnome, Kernel 3.2.0
+>>>> (para que funcione el brillo y la suspensi=F3n).
+>>>
+>>> Puedes instalar "powertop" que se supone que te ayuda con estas cosas.
+>
+>> En la pagina oficial no pone nada, pero por ah=ED he le=EDdo que 3,5 hor=
+as,
+>> y si inicio en Windows, me salen m=E1s de 3 horas.
+>
+> Vale, entonces nos quedamos con un valor ponderado de 2,5 horas.
+>
+> (ponderado: valor real, teniendo en cuenta que las especificaciones de
+> los fabricantes mienten m=E1s que un bellaco y que no es justo compararlo
+> con windows porque el port=E1til est=E1 dise=F1ado por y para windows y s=
+us
+> drivers)
+>
+>> He cambiado una configuraci=F3n en la BIOS (he seleccionado como tarjeta
+>> gr=E1fica s=F3lo la integrada, ya que el port=E1til tiene Nvidia Optimus=
+, dos
+>> tarjetas gr=E1ficas), y ha aumentado una barbaridad.
+>
+> Pensaba que ten=EDas habilitada s=F3lo la intel, despu=E9s de todos los
+> problemas que tuviste... s=ED, claro, con la integrada podr=E1s ahorrar m=
+ucha
+> m=E1s bater=EDa.
+>
+>> Con powertop, parece como si los cambios no fuesen permanentes. =BFC=F3m=
+o
+>> puedo hacerlo permanente?
+>
+> No sab=EDa que powertop hiciera cambios en el sistema :-?
+>
+> Se supone que te saca un listado de cosas que puedes mejorar/tunear pero
+> sin automatismos, vaya, que cualquier ajuste tendr=E1s que hacerlo a mano=
+ o
+> al menos es as=ED como entiendo que funciona.
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k2d2in$bte$9@ger.gmane.org
+>
+
+Hola
+
+Hab=EDa deshabilitado la gr=E1fica Nvidia pero en linux, en modo
+"software", y ahora en modo "hardware". Powertop pone "(descripcion
+del problema) pulsa (letra) para activar", y no es permanente... As=ED
+que voy a investigar todos esos problemas segun powertop, y a ver
+cuanto aumenta.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8TPY2sCqJuSAapBPfH9Aqw6=5NDBfaNdsXneQGFzB6RqA@mail.gmail.com
+

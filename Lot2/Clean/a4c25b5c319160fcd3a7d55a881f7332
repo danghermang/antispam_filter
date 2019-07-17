@@ -1,0 +1,56 @@
+Subject:[address-policy-wg] Another small IPv6 allocation policy change
+ proposal (sanity check email)...
+Dear AP-WG ;)
+
+Some time ago we come to a consensus to change the IPv6 initial 
+allocation rules and extend the initial allocation size from /32 to 
+whatever between /32 and /29 without additional justification needed.
+
+One of the reasons to do that was a reserved space of /29 for each 
+previously allocated /32 and general thinking was "let them use that 
+space that no one else will probably ever use it as it is reserved for 
+holder of /32 at the start of that /29"
+
+So far so good, many of you requested the extension to /29 and most of 
+you got it with no issues. But not all of you.
+
+We encountered LIRs that are operators and in the past they bought other 
+small operators and joined for example 3 LIRs under one and now they 
+have 3 x /32 (of course with that /29 as reserved space).
+
+When those LIRs asked for extension to /29 they received a response from 
+IPRAs, that they can extend to /29 *in total* as written in the policy.
+
+The policy says:
+
+"LIRs that hold one or more IPv6 allocations are able to request 
+extension of these allocations up to a *total* of a /29 without 
+providing further documentation."
+
+So an LIR can extend as many allocations as they want, as long as they 
+never end up with more than a /29 *total*
+
+3x/32 can be extended into 1x/30 + 2x/31 = /29
+
+Alternatively, one /32 can be returned, then both remaining /32s can be 
+extended to a /30.
+
+When we were preparing the policy change proposal we did not read that 
+word *total* through the "multiple LIR/32" eyes and I feel that we 
+should somehow correct this.
+
+New suggested text would be:
+
+"LIRs that hold one or more IPv6 allocations are able to request
+extension of *each* these allocations up to a /29 without providing 
+further documentation."
+
+With this email I would like to check if community thinks we should go 
+that route and draft the policy change proposal?
+
+Is this something that nobody cares and should not be fixed? Is this a 
+threat to someone? Anyone sees any danger in going forward with this 
+small change?
+
+Thank you very much, Jan Zorz
+

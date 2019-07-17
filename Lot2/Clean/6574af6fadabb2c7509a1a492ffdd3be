@@ -1,0 +1,38 @@
+Subject:Re: [address-policy-wg] Another small IPv6 allocation policy change
+ proposal (sanity check email)...
+Am Fri, 9 Nov 2012 13:49:51 +0100
+schrieb Gert Doering <gert@space.net>:
+
+...
+
+> Actually, I think the IPRAs are reading something in there that has
+> not been the intention by the WG (and it should be obvious from the=20
+> discussions that it wasn't, because the case "what about a LIR that
+> has more than one /32?" was never discussed)
+>=20
+> For non-native speakers (like me), the sentence above is perfectly
+> fine to be interpreted as "... extensions of *any of these*
+> allocations up to a total of /29..." and not "... up to a total of
+> a /29 across all IPv6 stock the LIR has".
+
+=46rom an old programmers paradigm "be liberate on what you receive and strict
+what you send" I would interpret the policy like the NCC (to be on the safe=
+ side).
+
+Under business and policy aspects, your reasoning absolutely makes sense to=
+ me.
+
++1 for your suggestion.
+
+	Andreas
+--=20
+
+Andreas Schachtner
+
+afs Holding GmbH
+communication technologies & solutions
+http://afs-com.de/
+
+Geschaeftsfuehrer Andreas Schachtner
+HRB 15448, Amtsgericht Dortmund
+

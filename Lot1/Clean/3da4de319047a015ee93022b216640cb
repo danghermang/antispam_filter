@@ -1,0 +1,35 @@
+Subject:Re: Controlar el trafico consumido de un servidor
+On 07/12/12 08:43, Federico Alberto Sayd wrote:
+> On 05/12/12 15:43, Altair Linux wrote:
+>> Hola,
+>>
+>> estoy mirando unos servidores dedicados que tienen, por ejemplo 400 Gb
+>> de tr=E1fico al mes. =BFHay alg=FAn programa con el que pueda saber cu=
+anto
+>> tr=E1fico llevo consumido cada mes?.
+>>
+>>
+> Con iptables tambi=E9n puedes hacer accouting de datos transferidos, lo=
+s=20
+> datos se van guardando como contadores y luego puedes accederlos y=20
+> guardarlos en alguna base de datos como la que usa rrdtool para=20
+> graficarlos. Lo bueno de iptables es que tienes una gran cantidad de=20
+> filtros para separar el tr=E1fico dependiendo de varios factores, luego=
+=20
+> puedes graficar por tr=E1fico saliente, entrante, protocolo, ip, etc.
+>
+> Saludos
+>
+>
+Me olvid=E9 del link que te iba a pasar:
+
+http://www.cyberciti.biz/faq/linux-configuring-ip-traffic-accounting/
+
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C1E15F.5040400@uncu.edu.ar
+

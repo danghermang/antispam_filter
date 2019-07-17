@@ -1,0 +1,26 @@
+Subject:Re: =?ISO-8859-1?Q?merkw=FCrdige_Dateien?=
+Am 31.10.2012 20:27, schrieb frank:
+> Hallo Liste,
+> per Zufall habe ich auf meinen Rechner zig Dateien entdeckt:
+>
+> .goutputstream-P2NWGW
+>
+> was sind das f=FCr Dateien und wie warum werden die erzeugt??
+>
+> Kann ich die Dateien l=F6schen?
+>
+Hallo,
+
+schau Dir mal diesen Bug-report an: =
+
+https://bugs.launchpad.net/ubuntu/+source/lightdm/+bug/984785
+
+Gru=DF
+
+J=F6rg
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

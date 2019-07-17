@@ -1,0 +1,32 @@
+Subject:OT numero de ficheros en squid3 en debian estable
+
+Tengo un problema con el numero de ficheros:
+$ squidclient -h proxy -p 8080 mgr:info | grep 'file descri'
+	Maximum number of file descriptors:   1024
+	Available number of file descriptors:   99
+	Reserved number of file descriptors:   100
+
+he incrementado el numero de ficheros con:
+
+# cat /etc/default/squid3
+KRB5_KTNAME=3D/etc/squid3/PROXY.keytab
+export KRB5_KTNAME
+SQUID_MAXFD=3D4096
+
+tras lo que con squidclient veo:
+
+$ squidclient -h proxy -p 8080 mgr:info | grep 'file descri'
+	Maximum number of file descriptors:   65535
+	Available number of file descriptors: 63206
+	Reserved number of file descriptors:   100
+=C2=BFAlguien sabe porque sale 65535 y no 4096 como yo esperaba?
+
+--=20
+trujo <antonio.trujillo.sspa@juntadeandalucia.es>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1346926640.6511.7.camel@trujo.hvn.sas.junta-andalucia.es
+

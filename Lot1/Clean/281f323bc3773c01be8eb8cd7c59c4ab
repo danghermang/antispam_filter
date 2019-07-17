@@ -1,0 +1,55 @@
+Subject:Re: Debian Wheezy tarda mucho en cargar el sistema.
+El d=EDa 6 de septiembre de 2012 20:47, Evgeny M. Zubok
+<evgeny.zubok@tochka.ru> escribi=F3:
+> Jose Maldonado <josemald89@gmail.com> writes:
+>
+>> Precisamente ese es mi otro problema, ella se queda congelada en el
+>> booteo, adem=E1s de que se queda lenta en ciertas circunstancia, por
+>> ejemplo, leyendo un cd, a veces lo hace bien, otras simplemente tarda
+>> una eternidad, o abriendo java, a veces funciona sin problemas, otras
+>> es una tortura. En los logs no aparece nada, pero en cuanto pueda
+>> reiniciar mi sistema, les dire si eso soluciono mi problema o si
+>> simplemente continua.
+>
+> Es raro. Una suposici=F3n: puede ser que tengas problemas con la
+> resoluci=F3n del localhost y con el tiempo de espera de DNS. =BFNo has
+> cambiado los /etc/hosts, /etc/network/interfaces?
+>
+> Busca algo parecido a esto: http://tinyurl.com/8sp782b (google: slow
+> startup "etc/hosts" (debian | ubuntu))
+>
+>
+
+Pues para ser sincero la verdad si creo que al menos mi problema si
+puede ir por estos lados, yo le estaba apuntando al network-manager ya
+que ve=EDa unos mensajes extra=F1os en los logs, seguir=E9 investigando (
+mil disculpas por el secuestro del hilo).
+
+Gracias.
+
+
+--=20
+---------------------------------------------------------------------------=
+---------------------------------------------
+Por favor, NO utilice formatos de archivo propietarios para el
+intercambio de documentos, como DOC y XLS, sino HTML, PDF, TXT, CSV o
+cualquier otro que no obligue a utilizar un programa de un fabricante
+en concreto.
+Internet Explorer y Outlook son muy peligrosos por sus continuos
+problemas de seguridad. Utilice alternativas libres:
+http://www.mozillaes.org/
+---------------------------------------------------------------------------=
+---------------------------------------------
+Usuario linux registrado #387231
+http://counter.li.org
+---------------------------------------------------------------------------=
+---------------------------------------------
+Por favor evite enviar adjuntos de powerpoint y word vea
+http://www.gnu.org/philosophy/no-word-attachments.es.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAPURcC-iY0QnDq4nwgsYR_cTvuBu3EdrZSz3ZghU0j-viabqGQ@mail.gmail.com
+

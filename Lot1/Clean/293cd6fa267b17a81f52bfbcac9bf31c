@@ -1,0 +1,18 @@
+Subject:Re: dpkg-reconfigure locales et utf8
+Le samedi 24 novembre 2012 à 13:44 +0100, Bzzz a écrit :
+> Il existe (sous sid) utf8-migration-tool, c'est du python et ça n'est
+> pas sûr que ça marche avec une version antérieure de python. 
+
+http://packages.debian.org/search?keywords=utf8-migration-tool&searchon=names&suite=stable&section=all
+
+ça existait déjà au moins sous Lenny, pour etch je ne sais plus.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1353835570.14279.1.camel@azuki.jisui
+

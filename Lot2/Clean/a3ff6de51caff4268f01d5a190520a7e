@@ -1,0 +1,35 @@
+Subject:Re: Debian et =?UTF-8?B?ZMOpYml0?= USB3
+On Wed, 31 Oct 2012 00:45:29 +0100
+Ga=C3=ABtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+
+>=20
+> Oui bien sur mais quand m=C3=AAme. Tous les disques durs actuels d=C3=A9p=
+assent les 27
+> Mo/s en =C3=A9criture. Normalement =C3=A7a navigue entre 45 et 90 Mo/s ...
+
+Ben o=C3=B9kil=C3=A8 le probl=C3=A8me?
+
+Tu craches =C3=A0 45~90MB/s, donc en moyenne dans les 60MB/s;
+que =C3=A7a soit dans un tuyau USB 2.0 qui supporte 60MB/s=20
+ou dans un tuyau USB 3.0 qui supporte 600MB/s
+le r=C3=A9sultat est le m=C3=AAme.
+
+--=20
+lapinouminou: moi j'ai antivir avec analyse heuristic activ=C3=A9 et
+              antivir il se mets =C3=A0 jour tout seul au moins un=20
+              fois par semaine . de plus sous IE j'utilise secuser
+              et spybot search and destroy qui dispose d'un fonction
+              de vaccination cela permet de black list=C3=A9 des sites
+              internet au comportement frauduleux ,comme le fait
+              spywareblaster que j'ai aussi.
+alchy: Bah moi j'ai linux
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031005533.6e112a55@anubis.defcon1
+

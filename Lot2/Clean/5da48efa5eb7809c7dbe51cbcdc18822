@@ -1,0 +1,78 @@
+Subject:Unable to install package xen-linux-system-3.2.0-0.bpo.4-amd64
+Hey.
+I'm trying to get Ganeti going on some new Dell R620.
+
+The kernel from Squeeze isn't able to find the storage controller in
+these boxes,
+but the installer from http://kmuto.jp/debian/d-i/ works great.
+I'm running the linux-image-3.2.0-0.bpo.4-amd64 kernel now.
+
+I'm having problems installing the Xen kernel.
+The package xen-linux-system-amd64 looks to be about right,
+but the install fails.
+
+torbjorn@xen13:~$ aptitude install -sy xen-linux-system-amd64
+The following NEW packages will be installed:
+  xen-linux-system-3.2.0-0.bpo.4-amd64{ab} xen-linux-system-amd64
+0 packages upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 190 kB of archives. After unpacking 250 kB will be used.
+The following packages have unmet dependencies:
+  xen-linux-system-3.2.0-0.bpo.4-amd64: Depends: xen-system-amd64
+which is a virtual package.
+The following actions will resolve these dependencies:
+
+     Keep the following packages at their current version:
+1)     xen-linux-system-3.2.0-0.bpo.4-amd64 [Not Installed]
+2)     xen-linux-system-amd64 [Not Installed]
+
+
+
+No packages will be installed, upgraded, or removed.
+0 packages upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B of archives. After unpacking 0 B will be used.
+Would download/install/remove packages.
+torbjorn@xen13:~$
+
+
+Looking at the xen-system-amd64 depency, we see this:
+
+torbjorn@xen13:~$ aptitude show xen-system-amd64
+No current or candidate version found for xen-system-amd64
+Package: xen-system-amd64
+State: not a real package
+
+
+Looking at the results from
+http://packages.debian.org/search?keywords=3Dxen-system-amd64,
+it seems to be me that the xen-system-amd64 package is not in squeeze
+or squeee-backports.
+
+Am I correct in my understanding that the
+xen-linux-system-3.2.0-0.bpo.4-amd64 package
+is not installable with only squeeze and squeeze-backports package availabl=
+e ?
+
+
+--
+Vennlig hilsen
+Torbj=F8rn Thorsen
+Utvikler / driftstekniker
+
+Trollweb Solutions AS
+- Professional Magento Partner
+www.trollweb.no
+
+Telefon dagtid: +47 51215300
+Telefon kveld/helg: For kunder med Serviceavtale
+
+Bes=F8ksadresse: Luramyrveien 40, 4313 Sandnes
+Postadresse: Maurholen 57, 4316 Sandnes
+
+Husk at alle v=E5re standard-vilk=E5r alltid er gjeldende
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAD2iGhWKHfS5=dzK7-ztY7=+Pm463ig_xRfTXoW+OJKhCY+7BQ@mail.gmail.com
+

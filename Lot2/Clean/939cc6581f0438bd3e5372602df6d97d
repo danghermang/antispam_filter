@@ -1,0 +1,33 @@
+Subject:=?ISO-8859-1?Q?hs_mplayer_afficher_le_temps_dans_la_?=
+	=?ISO-8859-1?Q?console_pour_les_vid=E9os?=
+bonjour,
+
+j'utilise mplayer pour lire vid=E9o et audio et depuis quelques temps il=20
+m'affiche plus le temps pour les vid=E9os.
+
+un exemple de la console pour l'audio
+
+A:  18.6 (18.5) of 273.0 (04:33.0)  3.7%=20
+50%                                    _
+
+et maintenant pour les vid=E9os
+
+A:1454.3 V:1454.3 A-V:  0.001 ct:  8.127   0/  0  9%  0%  2.2% 0 0 50%
+
+j'ai regard=E9 dans la documentation mais j'ai pas trouv=E9 le param=E8tr=
+e qui=20
+pourrait me permettre d'obtenir ce r=E9sultat aussi pour les vid=E9os
+
+merci d'avance,
+
+j=E9r=E9my
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A51900.8010709@prego-network.net
+

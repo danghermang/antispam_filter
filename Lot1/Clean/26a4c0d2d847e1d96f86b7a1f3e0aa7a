@@ -1,0 +1,19 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint?= qui =?ISO-8859-1?Q?consomme[iden?=
+	=?ISO-8859-1?Q?tifi=E9]?=
+
+> Je confirme testé sur mon vaio (noyau 3.5 trunk) cette nuit, hier 16h, 35%
+> de batterie, ce matin 9h, 15%...
+> 
+> Aucun changement de mon coté avec cette option !
+
+Hum, y compris avec le script qui supprime tous les wakeup possibles?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121119175232.ab16ffc3204b07fa9b51b148@maison.homelinux.net
+

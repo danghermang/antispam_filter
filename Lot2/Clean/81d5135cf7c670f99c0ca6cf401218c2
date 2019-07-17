@@ -1,0 +1,65 @@
+Subject:Re: No logro conectarme a Mysql-server en mi computadora
+Hola
+
+> Pues si, se puede entrar a mysql sin saber la contrase=F1a. Anot=E1 esa
+> b=FAsqueda para la pr=F3xima (pista: pod=E9s restringirla al sitio de
+> mysql) ;-)
+
+Ok ya lo tengo en cuenta, gracias.
+
+>
+> A lo tuyo, deja ver si entend=ED: =BFten=E9s un mysql limpio?, es decir, =
+pod=E9s
+> borrarlo de nuevo sin perder datos importantes? en caso de no =BFten=E9s =
+un
+> backup de esos datos importantes?. Luego que resuelvas el problema del
+> backup, ejecut=E1 lo siguiente
+
+Tengo la base limpia.
+
+> apt-get -f install
+> (sin paquetes para que arregle lo que tenga que arreglar y te deje
+> instalar o borrar cosas)
+> apt-get --reinstall install mysql-server
+> /etc/init.d/mysql start
+> mysql
+
+Ejecute en el orden que me indicaste:
+
+# apt-get -f install
+Leyendo lista de paquetes... Hecho
+Creando =E1rbol de dependencias
+Leyendo la informaci=F3n de estado... Hecho
+0 actualizados, 0 se instalar=E1n, 0 para eliminar y 3 no actualizados.
+
+# apt-get --reinstall install mysql-server
+Leyendo lista de paquetes... Hecho
+Creando =E1rbol de dependencias
+Leyendo la informaci=F3n de estado... Hecho
+0 actualizados, 0 se instalar=E1n, 1 reinstalados, 0 para eliminar y 3
+no actualizados.
+Se necesita descargar 0 B/74.5 kB de archivos.
+Se utilizar=E1n 0 B de espacio de disco adicional despu=E9s de esta operaci=
+=F3n.
+(Leyendo la base de datos ... 330727 ficheros o directorios instalados
+actualmente.)
+Preparando para reemplazar mysql-server 5.5.24+dfsg-9 (usando
+.../mysql-server_5.5.24+dfsg-9_all.deb) ...
+Desempaquetando el reemplazo de mysql-server ...
+Configurando mysql-server (5.5.24+dfsg-9) ...
+
+# /etc/init.d/mysql start
+bash: /etc/init.d/mysql: No existe el fichero o el directorio
+
+Uno de los problemas que tengo es que no tengo el /etc/init.d/mysql,
+entonces no lo puedo iniciar.
+
+
+Gracias.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAOBz3sjq=PcJxymn19jhnODk+NxdRfw_W0HU6CLj2jy6tvw-+w@mail.gmail.com
+

@@ -1,0 +1,56 @@
+Subject:Newsletter
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml"><head>
+=09<style type=3D"text/css" media=3D"screen">
+=09=09body { margin: 10px; }
+=09=09body, td  { font-size: 12px; line-height: 140%; font-family: Verdana,=
+ Arial, Helvetica; }
+=09=09h1 { font-size: 16px; margin-bottom: 2em; }
+=09=09h2 { font-size: 14px; margin-bottom: 0; border-bottom: 1px solid blac=
+k; }
+=09=09h3 { font-size: 14px; }
+=09=09h3 a { text-decoration: none; }
+=09=09a { color: #00215a; }
+=09=09a:hover { color: #e20000; }
+=09=09.box { padding: 15px; background-color: #d8d3de; text-align: center; =
+}
+=09</style>
+</head>
+<body>
+<div class=3D"box"><h1><br />Newsletter vom Montag, 1. Oktober 2012<br />&n=
+bsp;</h1></div>
+<h2>News &laquo;Wirtschaft&raquo;</h2>
+<p>Keine aktuellen Artikel in diesem Ressort!</p>
+<h2>News &laquo;Sport&raquo;</h2>
+<h3><a href=3D"http://www.vaterland.li/index.cfm?source=3Dlv&amp;id=3D20090=
+" target=3D"_blank">Wohlen besiegt den FC Vaduz 1:0</a></h3>
+<p>In der Challenge League besiegte der FC Wohlen den FC Vaduz dank eines K=
+opfballtores von Ianu (45.) mit 1:0. Somit nahmen die Aargauer Revanche f=
+=C3=BCr die 5:0-Hinspielniederlage im Rheinpark Stadion.</p>
+<h3><a href=3D"http://www.vaterland.li/index.cfm?source=3Dlv&amp;id=3D20064=
+" target=3D"_blank">Vaduz nach Ausw=C3=A4rtssieg mit Schwung</a></h3>
+<p>Am Sonntag findet um 16 Uhr das Challenge League Spiel FC Wohlen gegen d=
+en FC Vaduz im Stadion Niedermatten in Wohlen statt. Die Aargauer liegen mi=
+t 9 Punkten auf dem neuten und zweitletzten Platz der Tabelle. Das Team von=
+ David Sesa konnte in dieser Saison erst zwei Siege feiern. Vaduz steht nac=
+h dem Ausw=C3=A4rtssieg in Chiasso auf dem 5. Platz.</p>
+<h2>News &laquo;Kultur&raquo;</h2>
+<h3><a href=3D"http://www.vaterland.li/index.cfm?source=3Dlv&amp;id=3D20089=
+" target=3D"_blank">Niveau- und stimmungsvolle Musik</a></h3>
+<p>Das am Samstag im Theater am Kirchplatz veranstaltete Konzert der dreik=
+=C3=B6pfigen Band =C2=ABPechrima=C2=BB begeisterte durch niveau- und stimmu=
+ngsvolles Singen und Musizieren eigener Kompositionen.</p>
+<h3><a href=3D"http://www.vaterland.li/index.cfm?source=3Dlv&amp;id=3D20088=
+" target=3D"_blank">Gef=C3=BChlsreichtum und starke Stimme</a></h3>
+<p>Ihre stimmlich zum Ausdruck gebrachten Gedanken sollen die Mitmenschen e=
+rreichen, auch ein Anstoss im Alltag sein. Wenn so etwas =C3=BCberhaupt dur=
+ch Musik m=C3=B6glich ist, hat Helen Vogt das Zeug dazu. Seit Samstag gibt =
+es eine CD.</p>
+<div class=3D"box"><p><br />Wir w&uuml;nschen Ihnen eine angenehme Lekt&uum=
+l;re.<br />Ihr Newsletter-Profil k&ouml;nnen Sie unter <a href=3D"http://ww=
+w.vaterland.li/page/lv/newsletter/profil.cfm">www.vaterland.li/page/lv/news=
+letter/profil.cfm</a> anpassen.</p><p>Besuchen Sie uns im Internet:<br /><a=
+ href=3D"http://www.vaterland.li" target=3D"_blank">www.vaterland.li</a><br=
+ /><a href=3D"http://www.wirtschaftregional.li" target=3D"_blank">www.wirts=
+chaftregional.li</a><br /><a href=3D"http://www.liewo.li" target=3D"_blank"=
+>www.liewo.li</a><br />&nbsp;</p></div>
+</body></html>

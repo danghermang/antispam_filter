@@ -1,0 +1,67 @@
+Subject:Re: [HS] carte graphique
+Le 13 septembre 2012 22:59, Ga=C3=ABtan PERRIER <gaetan.perrier@neuf.fr> a =
+=C3=A9crit :
+> Bonjour,
+>
+> Suite =C3=A0 mes probl=C3=A8mes de reboot intempestifs (voir fil d'il y a
+> quelque temps sur cette liste), j'ai fini par d=C3=A9monter la CG pour
+> v=C3=A9rifier la p=C3=A2te thermique. Elle semblait effectivement un peu =
+s=C3=A8che,
+> je l'ai donc remplac=C3=A9 mais depuis le remontage la carte graphique
+> affiche fonctionne beaucoup plus mal (affiche de carr=C3=A9s noirs, de
+> lignes psych=C3=A9d=C3=A9liques, affiche qui "saute" quand on bouge des f=
+en=C3=AAtres,
+> etc.). Bref la CG semble morte.
+> C'=C3=A9tait une Nvidia 9600GT (G94-300-B1) fanless. Je cherche donc une
+> carte pour la remplacer qui soit au moins aussi puissante mais pas trop
+> cher non plus. Dans l'id=C3=A9al moins de 100=E2=82=AC mais bon ce n'est =
+pas une
+> limite absolue.
+> Apr=C3=A8s avoir regarder bri=C3=A8vement il semble difficile
+> aujourd'hui de trouver des CG fanless. De plus =C3=A7a semble =C3=AAtre b=
+ien
+> compliqu=C3=A9 de s'y retrouver dans les diff=C3=A9rents mod=C3=A8les, le=
+s fabricants
+> semblant beaucoup pratiquer le rebadgeage de vieux chips avec un
+> nouveau nom ...
+>
+> De prime abord j'aurai tendance =C3=A0 repartir sur une Nvidia vu que les
+> pilotes sont d=C3=A9j=C3=A0 install=C3=A9 sur la machine et que je ne sai=
+s pas o=C3=B9 en
+> sont les pilotes proprio AMD par rapport =C3=A0 ceux de Nvidia qui ne m'o=
+nt
+> jamais pos=C3=A9 de gros probl=C3=A8mes.
+>
+> Bref qu'en pensez-vous ? Quels mod=C3=A8les sont =C3=A0 privil=C3=A9gier =
+?
+>
+> Ga=C3=ABtan
+
+
+Bonsoir,
+
+je privil=C3=A9gie les ATI HD depuis quelques temps. La 5450 est low
+profile, fanless, decompresse les flux H264 HD, v=C3=A9hicule le son via le
+cable HDMI et largement assez puissante pour des effets de bureaux.
+Parfait pour un PC HC ou un desktop sans pr=C3=A9tention video-gamer. Les
+drivers (certes proprio) ne m'ont jamais pos=C3=A9 de probl=C3=A8me. Le tou=
+t
+pour une poign=C3=A9e d'euros.
+Nvidia je ne connais plus depuis bien longtemps maintenant.
+@+
+
+
+--=20
+Nicolas PHAM
+Propuls=C3=A9 par GNU/Linux
+Membre de April.org - Promouvoir et d=C3=A9fendre le logiciel libre
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CANV6WGLgVfmP6m+=_KzOBk2LqV+8V88V5kOKPVXdQgGD_tk4Jw@mail.gmail.com
+

@@ -1,0 +1,168 @@
+Subject:RE: [Jukebox-list] Rowe Ami mm3 latch solenoid info needed
+Ed,
+I have heard that complaint about CD manuals time and time again--also have=
+ heard some about "printed manuals" sold "on-line"--
+Sorry--I do not have what you need, as I usually do not work on those model=
+s--
+Ron Rich=20
+
+--- On Wed, 10/24/12, Ed Owens <eowens@eojohnson.com> wrote:
+
+From: Ed Owens <eowens@eojohnson.com>
+Subject: RE: [Jukebox-list] Rowe Ami mm3 latch solenoid info needed
+To: "Jukebox mailing list" <jukebox-list@lists.netlojix.com>
+Date: Wednesday, October 24, 2012, 1:35 PM
+
+Ron,
+=A0 Darn, I guess it won't be that easy, BUT still doable,=A0 apparently I =
+misread your name earlier, many apologies.=A0 I got a manual for the contin=
+ental 2 that was emailed to me off a cd manual.=A0 I know the cd is suppose=
+d to have more info on it, but the seller "forgot" to include it when sent =
+and has refused to respond to emails.=A0 Even though it's a minor cost it's=
+ still frustrating that it was included but now I have to buy one again for=
+ the complete set of documentation.
+=A0 Still any=A0 mm2 or 3 button assembly info would be much appreciated.=
+=A0 Even a detailed wiring diagram of the button assembly off the continent=
+al 2 would help.=A0 If I can't find plugs I will just solder pigtails on th=
+e back of the plug wires and add newer plugs in place.=A0 This will make my=
+ changes reversible.
+Thanks for your help!
+Ed
+
+-----Original Message-----
+From: jukebox-list-bounces@lists.netlojix.com [mailto:jukebox-list-bounces@=
+lists.netlojix.com] On Behalf Of Ron Rich
+Sent: Wednesday, October 24, 2012 3:14 PM
+To: Jukebox mailing list
+Subject: RE: [Jukebox-list] Rowe Ami mm3 latch solenoid info needed
+
+Ed,
+You have mis-read--the Conti coil only operates for a "second" upon "power =
+up" or a credit switch being "triggered", and after a selection has been co=
+mpleted.=A0 If you turn the power off on the Conti, the keys will still "lo=
+ck down". They "pop up" as power is applied, and/or a credit is added, so t=
+hat it is not possible to make an un-wanted selection. Ron Rich=A0=20
+
+--- On Wed, 10/24/12, Ed Owens <eowens@eojohnson.com> wrote:
+
+From: Ed Owens <eowens@eojohnson.com>
+Subject: RE: [Jukebox-list] Rowe Ami mm3 latch solenoid info needed
+To: "Jukebox mailing list" <jukebox-list@lists.netlojix.com>
+Date: Wednesday, October 24, 2012, 12:53 PM
+
+Rob,
+=A0 After reading the manual last night the continental does it opposite I =
+would have if I engineered it.=A0 IT holds the coil IN (energized) when the=
+re is no credit.=A0 The MM3 is the coil is at rest.=A0 Both units energize =
+the latch relay letting it know there is credit on it.=A0 And the latch rel=
+ay takes care of energizing or releasing the latch coil.=A0 I just mainly w=
+ant to use the in place circuit for the mm3 latch coin while I already have=
+ it.=A0 Rather than redoing it. Ed
+
+-----Original Message-----
+From: jukebox-list-bounces@lists.netlojix.com [mailto:jukebox-list-bounces@=
+lists.netlojix.com] On Behalf Of Ron Rich
+Sent: Wednesday, October 24, 2012 2:29 PM
+To: Jukebox mailing list
+Subject: RE: [Jukebox-list] Rowe Ami mm3 latch solenoid info needed
+
+Ed,
+If memory serves me well, the Conti only "pulses" the latch solenoid upon p=
+ower up, or after a selection is made to UN-Lock the latchbar.=A0 Later pho=
+nos provide power to the solenoid and hold power on, as long as there are u=
+n-used credits.=A0 This system relaxes the solenoid, when there are no un-u=
+sed credits.=A0 Ron Rich=20
+
+--- On Wed, 10/24/12, Ed Owens <eowens@eojohnson.com> wrote:
+
+From: Ed Owens <eowens@eojohnson.com>
+Subject: RE: [Jukebox-list] Rowe Ami mm3 latch solenoid info needed
+To: "Jukebox mailing list" <jukebox-list@lists.netlojix.com>
+Date: Wednesday, October 24, 2012, 12:16 PM
+
+Rob,
+=A0 Thanks, if you wouldn't mind sending me the page that describes the lat=
+ch circuit for the MM-2, I bet they are close enough that I can figure out =
+what the MM-3 is trying to do.=A0=A0=A0I should have both 30 dc and 30 ac a=
+t the button panel, and even though the continental 2 operates the latch so=
+lenoid the opposite way they both energize the latch relay the same way I s=
+hould be fine.
+=A0 Once I find extra sockets and plug I will start morphing the two togeth=
+er.=A0 Soon I'll be able to actually use my continental!
+Ed
+
+-----Original Message-----
+From: jukebox-list-bounces@lists.netlojix.com [mailto:jukebox-list-bounces@=
+lists.netlojix.com] On Behalf Of Chan Gade
+Sent: Wednesday, October 24, 2012 8:40 AM
+To: Jukebox-list@lists.netlojix.com; Jukebox mailing list
+Subject: Re: [Jukebox-list] Rowe Ami mm3 latch solenoid info needed
+
+Ed, I only have diagrams for MM-2 but as for voltages -all Rowe machines of=
+ that era used 30vac for the latch solenoid which was controlled by a 30vdc=
+ relay.
+
+The solenoid should be easy since it was common to so many models, the link=
+age -may- vary.
+
+Rob/NYC
+
+--- On Mon, 10/22/12, Ed Owens <eowens@eojohnson.com> wrote:
+
+From: Ed Owens <eowens@eojohnson.com>
+Subject: [Jukebox-list] Rowe Ami mm3 latch solenoid info needed
+To: "Jukebox-list@lists.netlojix.com" <Jukebox-list@lists.netlojix.com>
+Date: Monday, October 22, 2012, 10:18 AM
+
+Hello,
+=A0 I have a Rowe Ami MM3 button assembly, not the entire jukebox.=A0=A0=A0=
+What is the voltage of the latch solenoid?
+=A0 Does anyone have a diagram or schematic that describes the circuit for =
+the latch solenoid?=A0 Maybe one for the selection circuit?
+ I wish to use the original latch and hold circuit or something close to it=
+.
+
+=A0 I have asked a lot of questions but not specific enough and have gotten=
+ no reply's, so here I go again.
+Ed Owens
+FortyTwo
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/ _________________________=
+______________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/ _________________________=
+______________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/ _________________________=
+______________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/ _________________________=
+______________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/ _________________________=
+______________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

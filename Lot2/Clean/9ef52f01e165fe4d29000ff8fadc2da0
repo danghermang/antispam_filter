@@ -1,0 +1,44 @@
+Subject:[LUG] Python Question
+Hi all!
+
+Just a brief one.  We've finally managed to convince the IT department in t=
+he Academy I work at to try Python.  Which is pretty cool in itself.
+
+However, as they run Windows 7 and everything is locked down pretty tight, =
+I'm wondering about the wisdom of the default install path.
+
+I should mention they've opted for the community edition of ActivePython (w=
+hy? No idea...) and have installed in the C:\Python2.7 directory.
+
+They're intending for people to use Idle to develop.
+
+Having briefly played with it and done the obligatory os.getcwd() Idle is r=
+unning straight out of the Python directory.
+
+Don't ask me why but it just rang some alarm bells.
+
+Whilst I'm sure that the average student at my school has little desire or =
+skill to run malicious scripts, it just seems a bit mental to allow these t=
+o be run directly on this path.
+
+Am I just being paranoid?  What about a CLI argument such as:
+
+idle.py -c "os.chdir('some-user-path')"
+
+Added to the shortcut/launcher?
+
+Any comments or suggestion welcomed. I'd like them to at least give python =
+a good go, rather than give it up as too difficult to configure...
+
+Write permissions to the c:\ drive are strictly controlled, I should add, a=
+nd the userspace is in H:\
+
+Thanks in advance.
+
+Adam
+Message sent using BlackBerry=AE
+-- =
+
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,29 @@
+Subject:Correos en cadena en postfix
+Hola listeros
+
+Como puedo quitarme un poco el rollo de los mensajes en cadenasen postfix,
+
+hay usuarios que envían correos hasta de 10 usuarios a la vez o mas
+
+como puedo restringir esto por ejemplo a 4 correos.
+
+******************************************************************
+
+Crear cuenta everyone@dominio.com
+
+Como puedo definir una cuenta everyone@dominio.com que solo esta puede
+mandar correos a todos las cuentas de mi dominio.
+
+Salu2
+
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/e9f1f4abf2f54ea8f46c24aa8f562695.squirrel@192.168.13.16
+

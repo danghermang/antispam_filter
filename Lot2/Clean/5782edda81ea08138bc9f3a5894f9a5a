@@ -1,0 +1,28 @@
+Subject:Re: Re : alltray et cie
+non, je ne parle pas du dock, juste de la barre de tâches ou du systray 
+quand la commande est lancée via alltray.
+Mon problème revient en fait à afficher une fenêtre X (en l'occurrence 
+Xload) sans qu'elle apparaisse dans la barre de tâches...
+
+
+On 06/11/2012 21:05, Yves Rutschle wrote:
+> On Tue, Nov 06, 2012 at 02:23:11PM +0100, Bruno Richard wrote:
+>> même problème que xload : multiples serveurs =>  multiples gkrellm
+>> lancés =>  multiples instances de gkrellm dans la barre de tâche (ce
+>> que je voudrais éviter)
+> Tu veux dire qu'ils apparaissent dans le dock? Autant pour
+> Gkrellm, ok, autant pour xload, ça me surprend, c'est une
+> fenêtre X tout ce qu'il y a de plus normal.
+>
+> Y.
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50997290.3090408@gmail.com
+

@@ -1,0 +1,55 @@
+Subject:=?iso-8859-1?B?UmUgOiBSZTogculzdWx0YXQu?=
+ok donc si j=27ai bien compris=2C  il faut que je sauvegarde tout le r=E9=
+pertoire documents o=F9 la dedans j=27ai les =2Edoc les =2Exls=2C les Pd=
+F=2C les images=2C etc=2E=2E=2E
+
+
+
+----- Message d=27origine -----
+De=3A Rapha=EBl POITEVIN =3Craphael=2Epoitevin=40gmail=2Ecom=3E
+Date=3A Jeudi=2C Novembre 29=2C 2012 11=3A23 pm
+Objet=3A Re=3A r=E9sultat=2E
+=C0=3A collet michel =3Cmichel=2Ecollet=40nck=2Eaphp=2Efr=3E
+Cc=3A debian-user-french=40lists=2Edebian=2Eorg
+
+et
+=3E Le 29/11/12=2C collet michel=3Cmichel=2Ecollet=40nck=2Eaphp=2Efr=3E =
+a =E9crit =3A
+=3E =3E comme pr=E9vu j=27ai fait la commande df dans un terminal et voi=
+l=E0 ce =
+
+=3E que j=27ai
+=3E =3E eu =3A
+=3E =3E
+=3E =3E Sys=2E fich=2E     1K-blocks   Util=2E Disponible Uti=25 Mont=E9=
+ sur
+=3E =3E /dev/sda1      114477664 6459444  102203028   6=25 /
+=3E =3E udev              440588       4     440584   1=25 /dev
+=3E =3E tmpfs             179144     868     178276   1=25 /run
+=3E =3E none                5120       0       5120   0=25 /run/lock
+=3E =3E none              447852     152     447700   1=25 /run/shm
+=3E =3E
+=3E =3E Alors maintenant si j=27ai bien compris il faut rep=E9rer le hom=
+e mais =
+
+=3E est ce
+=3E =3E par hasard /run/shm =3F=3F
+=3E =
+
+=3E Sniff ! Tu n=27as pas l=27air d=27avoir de partition /home/
+=3E =
+
+=3E Du coup=2C tu es bon pour la sauvegarde de toutes tes donn=E9es=2E
+=3E =
+
+=3E Rapha=EBl
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/53663252074a1f9.50b7ff14@aphp.fr
+

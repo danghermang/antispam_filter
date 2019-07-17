@@ -1,0 +1,122 @@
+Subject:Re: [Hsqldb-user] Re g: Not able to load a csv file into hsqldb
+ using sqltool which is having the quotes(") in some columns
+
+Thanks Fred.
+But I don't want to use TEXT TABLE as it will link it to a csv file and in
+turn query on it which makes my job slow.
+I specidified (|) as the separator but still it was not loading the data. I
+think its not ignoring the quote and its waiting for a closing quote. Is
+there any setting like 
+*QUOTED=FALSE; 
+so as to tell sqltool to think quote as an text qualifier.
+
+thanks in advance,
+-sandeep.
+
+
+Fred Toussi-2 wrote:
+> 
+> I think it will ignore the quote if you specify the pipe (|) as
+> separator.
+> 
+> Alternatively create a TEXT TABLE with your file, specifying the
+> noquote option and the pipe separator.
+> 
+> Fred
+> 
+> On Wed, Sep 12, 2012, at 16:27, Sandeep Samudrala wrote:
+> 
+>   Hi,
+> 
+> 
+> 
+> I tried loading a csv file which has few fields having quotes("). I
+> faced this error
+> 
+> 
+> 
+> ERROR
+> 
+> Unterminated CSV-style "-quoted field at data file line #1772
+> 
+> 
+> 
+> here is the line that its failing.
+> 
+> sadv|sdsddf|href="[1]http://www.pingo.com|5342
+> 
+> 
+> 
+> I do not want to edit the fields in my csv for each such row. Instead i
+> want the sqltool to skip the quotes while importing the data and just
+> consider the delimeter to split the columns which is (|) in my case.
+> 
+> 
+> 
+> Is there any option or property that can be set so as to skip the
+> quotes and import the data into the db.
+> 
+> 
+> 
+> thanks in advance,
+> 
+> -sandeep
+> 
+> -----------------------------------------------------------------------
+> -------
+> 
+> Live Security Virtual Conference
+> 
+> Exclusive live event will cover all the ways today's security and
+> 
+> threat landscape has changed and how IT managers can respond.
+> Discussions
+> 
+> will include endpoint security, mobile security and the latest in
+> malware
+> 
+> threats. [2]http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+> 
+> _______________________________________________
+> 
+> Hsqldb-user mailing list
+> 
+> [3]Hsqldb-user@lists.sourceforge.net
+> 
+> [4]https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+> 
+> References
+> 
+> 1. http://www.pingo.com/
+> 2. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+> 3. mailto:Hsqldb-user@lists.sourceforge.net
+> 4. https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+> 
+> ------------------------------------------------------------------------------
+> Live Security Virtual Conference
+> Exclusive live event will cover all the ways today's security and 
+> threat landscape has changed and how IT managers can respond. Discussions 
+> will include endpoint security, mobile security and the latest in malware 
+> threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+> 
+> 
+
+-- 
+View this message in context: http://old.nabble.com/Reg%3A-Not-able-to-load-a-csv-file-into-hsqldb-using-sqltool-which-is-having-the-quotes%28%22%29-in-some-columns-tp34424068p34424904.html
+Sent from the HSQLDB - User mailing list archive at Nabble.com.
+
+
+------------------------------------------------------------------------------
+Live Security Virtual Conference
+Exclusive live event will cover all the ways today's security and 
+threat landscape has changed and how IT managers can respond. Discussions 
+will include endpoint security, mobile security and the latest in malware 
+threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

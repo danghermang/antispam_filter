@@ -1,0 +1,33 @@
+Subject:Re: Nom de domaine et FQDN
+Le 16/11/2012 10:50, Fabien LUCE a écrit :
+> En fait dans mes fichiers de zone je ne peux pas pointer vers lutix.org
+> car j'ai une ip dynamique, c'est un souci malheureusement connu.
+>
+> Mais ma question concernen surtout ce qui se passe "en interne" sur le
+> serveur (exim ou apache).
+>
+> Est ce généralement un problème d'attribuer à une machine le nom du
+> domaine. Ca doit etre fréquent sur la plupart des serveurs qui doivent
+> avoir des noms fqdn mais pourtant répondent à un nom de domaine
+> "hierarchiquement" supérieur?
+
+Le nom de la machine et à quoi elle réponds sont deux choses différentes.
+
+
+-- 
+==============================================
+|              FRÉDÉRIC MASSOT               |
+|     http://www.juliana-multimedia.com      |
+|   mailto:frederic@juliana-multimedia.com   |
+| +33.(0)2.97.54.77.94  +33.(0)6.67.19.95.69 |
+===========================Debian=GNU/Linux===
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A61BEA.8030307@juliana-multimedia.com
+

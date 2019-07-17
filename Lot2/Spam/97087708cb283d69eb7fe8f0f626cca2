@@ -1,0 +1,60 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<readhead@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <apache@w24-1-1.gth.bgo.co>
+Received: (qmail 3115 invoked by uid 89); 10 Dec 2012 10:53:39 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 10 Dec 2012 10:53:39 -0000
+Delivery-date: Mon, 10 Dec 2012 02:52:00 -0800
+Received: from vmx9986.hosting24.com.au ([223.27.16.147] helo=w24-1-1.gth.bgo.co) helo=w24-1-1.gth.bgo.co
+	by apn.junkemailfilter.com with esmtps (TLSv1:DHE-RSA-AES256-SHA:256)
+	(Exim 4.80.1)
+	id 1Ti0xm-00086t-Sw on interface=184.105.182.43
+	for readhead@activ8.net.au; Mon, 10 Dec 2012 02:51:58 -0800
+Received: by w24-1-1.gth.bgo.co (Postfix, from userid 502)
+	id F2967A24F6; Mon, 10 Dec 2012 21:51:51 +1100 (EST)
+To: readhead@activ8.net.au
+Subject: 2013 4 Day Accomodation
+X-PHP-Originating-Script: 10028:common.php
+From: offroad@offroad-racing.com.au
+Reply-To: offroad@offroad-racing.com.au
+Message-Id: <20121210105151.F2967A24F6@w24-1-1.gth.bgo.co>
+Date: Mon, 10 Dec 2012 21:51:51 +1100 (EST)
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: apache@w24-1-1.gth.bgo.co
+X-Relay-Countries: au
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd1.ctyme.com
+ Spam Tests:
+X-Sender-host-domain: hosting24.com.au
+X-Spam-Class: HAM - SpamAssassin good - Score=0
+X-Sender-Host-Address: 223.27.16.147
+X-Sender-Host-Name: vmx9986.hosting24.com.au
+
+Hi Riders,
+
+I know the 4 Day is a few months away yet but Accommodation is filling
+fast ...
+
+There is no Camping at the Parc Ferme but the following are only a
+couple of K's from the event ..
+
+It is Rainbow Caravan Park and can be contacted on 08 9729 2239. 
+ 
+There is also a park just north of town (Lake Brockman Tourist Park)
+which is a really great location.
+
+I sugest you get a booking in Quick .....
+
+Regards
+C.Gray
+
+
+

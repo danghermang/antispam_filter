@@ -1,0 +1,32 @@
+Subject:Re: =?UTF-8?B?RMOpbWFycmFnZSB2aWEgY2zDqSB1c2IgcG91ciBsJ2luc3RhbGw=?=
+	=?UTF-8?B?YXRpb24gcHJvYmzDqW1hdGlxdWU=?=
+On 03/09/12 07:27 AM, Bzzz wrote:
+> Bon, a fait un moment que je n'ai pas fais une install, mais =C3=A7a n'=
+a
+> pas d=C3=BB changer =C3=A9norm=C3=A9ment.
+>
+> D'abord, tu prends une image iso netinstall et tu boot dessus,
+> tu vas tomber sur un =C3=A9cran qui te propose diff=C3=A9rentes manips
+> atteignables par 'Fn', tu fais F3 et tu tombes sur les modes de boot,
+> dedans il-y-a normalement qqch comme =C3=A7a: 'expert mode console'
+> (s=C3=A8pu s'il-y-a un mode sp=C3=A9cial bootparm mais j'en doute).
+>
+> L=C3=A0 jsais plus trop bien, mais si tu veux introduire des bootparms,
+> soit tu as qq secondes, une fois ton choix de boot fait, pour les
+> taper =C3=A0 la suite du nom du kernel (en QWERTY!), soit tu tapotes
+> CTRL pour bloquer le cpte =C3=A0 rebours du boot et tu rentres le nom d=
+u
+> kernel avec les bootparms =C3=A0 la suite.
+Mais le probl=C3=A8me c'est que la clavier est inutilisable... je ne peux=
+ pas=20
+entrer dans une console...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50449637.30504@snurf.info
+

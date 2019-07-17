@@ -1,0 +1,39 @@
+Subject:Re: Matlab Debian Wheezy
+> Si te refieres a Octave si, con synaptic busca octave, veras que
+> hay muchos a=F1adidos para el mismo aparte de el progrma base.
+
+S=ED o desde consola aptitude search octave, tambi=E9n est=E1 el paquete
+qoctave para que tengas entorno gr=E1fico. Los comandos son b=E1sicamente
+los mismos que MatLab.
+Tambi=E9n ten=E9s SciLab y Maxima, entre otros.
+
+
+--=20
+Dar=EDo
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|=
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+Por favor, no utilice formatos de archivo propietarios para el intercambio
+de documentos, como ser DOC, XLS, BMP, PPT, RAR, MP3, DWG,
+MOV, FLV, WMV, etc.  sino  ODT, ODS, DJVU, PDF, TXT,
+CSV, PNG, FLAC, OGV, GZ o cualquier otro que no obligue a utilizar
+un programa de un fabricante concreto.
+Info: http://www.gnu.org/philosophy/no-word-attachments.es.html
+       http://www.vaslibre.org.ve/publicaciones/odfvsooxml-es.pdf
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|=
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+ ,              ,
+/                \
+((__-^^-,-^^-__))
+ `-_---' `---_-'
+  `--|o` 'o|--'
+     \  `  /
+      ): :(
+     :o_o:
+       "-"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CABbN1RwxY4Z8CNituSnMAfnQLkx4LLdCQsMFoZzatB+C5r6iEQ@mail.gmail.com
+

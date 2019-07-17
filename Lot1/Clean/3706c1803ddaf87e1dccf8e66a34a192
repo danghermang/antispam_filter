@@ -1,0 +1,56 @@
+Subject:Re: thunderbird Problem
+El jue, 25 oct, 2012, a las 05:58 , J.Alejandro Martinez Linares
+escribi=C3=B3:
+>=20
+> Hola todos, tengo un peque=C3=B1o problemita, tengo instalado el mozilla=
+=20
+> tunderbird pero lo que me pasa es que cuando tengo muchos mail que=20
+> quiero descargarlos , llega un momento en que el thunderbird para y no=20
+> continua descargando, lo mismo pasa cuando tengo un archivo muy pesado ,=
+=20
+> a veces tengo que ir por la web para poder eliminarlos o descargarlo de=
+=20
+> forma manual,, alguien tiene alguna idea de lo que pueda ser.
+>=20
+> gracias de antemano
+>=20
+> --
+>=20
+> Este mensaje le ha llegado mediante el servicio de correo electronico que
+> ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema
+> Nacional de Salud. La persona que envia este correo asume el compromiso
+> de usar el servicio a tales fines y cumplir con las regulaciones
+> establecidas
+>=20
+> Infomed: http://www.sld.cu/
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/5089619F.7030302@infomed.sld.cu
+>=20
+
+Si no me equivoco, Thunderbird tiene (creo que en la configuraci=C3=B3n de
+cada cuenta) la cota en Mb
+que puede descargar. Mir=C3=A1 por ese lado. quiz=C3=A1s por la cantidad de
+correos que descarg=C3=A1s est=C3=A1s
+sobrepasando ese l=C3=ADmite. No recuerdo si se puede aumentar, supongo que
+s=C3=AD.
+
+Saludos
+
+--=20
+Sergio Bessopeanetto
+Buenos Aires, Argentina
+Skype: sergio.bess
+msn: sergiebess@hotmail.com
+Jabber: sergio.bess@jabber.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1351304227.10947.140661145996045.214A3C56@webmail.messagingengine.com
+

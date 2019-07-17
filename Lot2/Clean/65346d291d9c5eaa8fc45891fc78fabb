@@ -1,0 +1,37 @@
+Subject:[testing] Gnome 3 et montage de CD
+Bonjour,
+
+Je rencontre un probl=E8me sous Gnome 3 avec les CD. Afin de flasher une mi=
+se =E0
+jour j'ai grav=E9 depuis Gnome 3 un iso sur un CD-RW. Jusque l=E0 tout va b=
+ien.
+Mais une fois le BIOS flash=E9 j'ai voulu effac=E9 le CD-RW. Je l'ai donc r=
+emit
+dans le graveur, j'ai un le son (sorte de "clic clac") qui est =E9mis quand=
+ un
+m=E9dia est d=E9tect=E9 mais rien n'est apparu dans Nautilus. Je me suis di=
+t que
+comme c'=E9tait un CD pour flasher un bios il ne le reconnaissait peut-=EAt=
+re pas.
+J'ai donc lanc=E9 Brasero pour l'effacer mais celui-ci ne voyait pas non pl=
+us le
+graveur. J'ai donc lanc=E9 Nero Linux (c'est pas libre je sais) qui lui voy=
+ait
+bien mon graveur et m'a effac=E9 le CR-RW sans histoire.=20
+Une fois effac=E9 je l'ai remis dans le graveur et maintenant Gnome me le m=
+ontre
+bien.
+Est-ce que quelqu'un a d=E9j=E0 rencontr=E9 ce comportement ?
+=C7a sent le bug, non ?
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121007022611.3f2de1a1537e17bf07896816@neuf.fr
+

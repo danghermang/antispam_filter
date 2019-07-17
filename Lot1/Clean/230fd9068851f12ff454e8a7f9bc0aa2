@@ -1,0 +1,48 @@
+Subject:[Fedora-it] Skype non si avvia
+Salve lista, =E8 la prima volta che scrivo qui.
+
+Ieri ho installato F17 e ho installato skype. Ho installato i pacchetti =
+
+aggiuntivi e per il classico problemino della web cam rovesciata ho =
+
+scritto il seguente scriptino:
+
+#!/bin/bash
+export LIBV4LCONTROL_FLAGS=3D3
+LD_PRELOAD=3D/usr/lib/libv4l/v4l1compat.so /usr/bin/skype.proper
+
+dove skype.proper =E8 l'eseguibile originale di skype.
+
+Stamattina ho fatto l'aggiornamento consigliato e come ho riavviato, =
+
+skype non si avvia pi=F9.
+
+Ho provato ad avviare skype da linea di comando per cercar di capire che =
+
+problema c'era e questo =E8 stato l'output
+
+[danielik@Destiny ~]$ skype
+/usr/bin/skype: line 4:  1797 Errore di segmentazione (core dumped) =
+
+LD_PRELOAD=3D/usr/lib/libv4l/v4l1compat.so /usr/bin/skype.proper
+[danielik@Destiny ~]$
+
+Ho anche provato ad eseguire l'eseguibile originale, ma da errore anche =
+
+in questo caso:
+
+[danielik@Destiny ~]$  skype.proper
+Fatal: QWidget: Must construct a QApplication before a QPaintDevice
+Annullato (core dumped)
+[danielik@Destiny ~]$
+
+Mi suggerite una soluzione per cortesia? :)
+
+-- =
+
+Danielik86
+
+_______________________________________________
+it-users mailing list
+it-users@lists.fedoraproject.org
+https://admin.fedoraproject.org/mailman/listinfo/it-users

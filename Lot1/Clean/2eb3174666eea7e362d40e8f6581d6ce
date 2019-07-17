@@ -1,0 +1,157 @@
+Subject:Re: MKV se oye pero no se ve
+El d=EDa 30 de agosto de 2012 17:33, Camale=F3n <noelamac@gmail.com> escrib=
+i=F3:
+> El Thu, 30 Aug 2012 17:17:05 +0200, Marc Mar=ED escribi=F3:
+>
+>> El d=EDa 30 de agosto de 2012 17:05, Camale=F3n <noelamac@gmail.com>
+>> escribi=F3:
+>
+> (...)
+>
+>>>> Pero quer=EDa decir que en mplayer y vlc tiene el mismo efecto sea mkv=
+ o
+>>>> mp4, pero en totem, mkv no se repruece y mp4 s=ED que se reproduce
+>>>
+>>> Eso a=F1ade m=E1s misterio a=FAn.
+>>>
+>>> =BFQu=E9 sucede con los mpeg o avi normalitos? =BFSe ven, no se ven?
+>>>
+>> En avi pasa lo mismo que en mp4, no se ve en vlc ni en mplayer pero si
+>> en totem, y mpeg no tengo a mano.
+>
+> Qu=E9 misterio :-)
+>
+>> No me funciona ni con la Intel ni con la Nvidia (ni vlc archivo, ni
+>> optirun vlc archivo)
+>>
+>> Voy a intentar iniciar con el kernel 2.6, que aun tengo opcion desde el
+>> grub, a ver que pasa
+>
+> Tambi=E9n puedes intentar lo que comentan en su FAQ:
+>
+> http://wiki.videolan.org/Documentation:Play_HowTo/Basic_Use/Basic_trouble=
+shooting
+>
+> A saber:
+>
+> - Abrir la ventana de depurado (quiz=E1 tengas m=E1s datos que cuando lo =
+lanzas desde
+> l=EDnea de comandos)
+>
+> - Desactivar el Overlay
+>
+> - Iniciar con un perfil vac=EDo (no es necesario que borres/muevas nada, =
+con ejecutarlo
+> desde un usuario reci=E9n creado ser=EDa suficiente).
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k1o13n$pns$8@ger.gmane.org
+>
+
+Cuando he reiniciado para volver desde el kernel 2.6, al iniciar tanto
+en mplayer como en vlc se me ha colgado, sacando esto cuando le he
+dado a Ctrl+alt+F1 : [drm:i915_hangcheck_elapsed] *ERROR* Hangcheck
+timer elapsed... GPU hung
+Aug 30 17:56:05 debian-laptop kernel: [  376.837057]
+[drm:i915_wait_request] *ERROR* i915_wait_request returns -11
+(awaiting 16 at 0, next 17)
+
+Ahora parece que se le ha pasado, y ya vuelve ir como antes (sin
+video). En los mensajes del vlc, con el nivel de detalle al m=E1ximo,
+muestra cosas raras, pero no parecen errores fatales tampoco:
+qt4 debug: Video is not needed anymore
+main debug: removing module "qt4"
+main debug: removing module "xcb_xv"
+main debug: removing module "vout_wrapper"
+main debug: removing module "blend"
+main debug: removing module "freetype"
+main debug: removing module "yuvp"
+main debug: removing module "swscale"
+
+Pero luego:
+using video filter2 module "swscale"
+xcb_xv debug: using screen 0x106
+xcb_xv debug: using XVideo extension v2.2
+xcb_xv debug: using adaptor Intel(R) Textured Video
+xcb_xv debug: using port 76
+xcb_xv debug: using image format 0x30323449
+xcb_xv debug: using X11 visual ID 0x21 (depth: 24)
+xcb_xv debug: using X11 window 0x04000000
+xcb_xv debug: using X11 graphic context 0x04000002
+
+=BFOverlay, a que opci=F3n corresponder=EDa en castellano? Es que estoy
+dudando entre varias, y no se cual es
+
+Con un usuario vac=EDo, es interesante el resultado. Con VLC en terminal:
+VLC media player 1.1.3 The Luggage (revision exported)
+Warning: call to srand(1346343358)
+Warning: call to rand()
+Blocked: call to unsetenv("DBUS_ACTIVATION_ADDRESS")
+Blocked: call to unsetenv("DBUS_ACTIVATION_BUS_TYPE")
+Warning: call to signal(13, 0x1)
+[0x24ed9a0] inhibit interface error: Failed to connect to the D-Bus
+session daemon: Did not receive a reply. Possible causes include: the
+remote application did not send a reply, the message bus security
+policy blocked the reply, the reply timeout expired, or the network
+connection was broken.
+[0x24ed9a0] main interface error: no suitable interface module
+No protocol specified
+[0x24eece0] main interface error: no suitable interface module
+[0x23ff120] main libvlc error: interface "globalhotkeys,none"
+initialization failed
+[0x23ff120] main libvlc: Ejecutar VLC  con la interfaz predeterminada.
+Use =ABcvlc=BB para usar VLC sin interfaz.
+ m_el[mi_level] =3D=3D NULL
+ arrrrrrrrrrrrrg Up cannot escape itself
+No protocol specified
+[0x7f3c28008010] qt4 interface error: Could not connect to X server
+No protocol specified
+[0x7f3c28008010] skins2 interface error: Cannot open display
+[0x7f3c28008010] skins2 interface error: cannot initialize OSFactory
+[0x23ff120] main libvlc error: interface "default" initialization failed
+
+Con Mplayer, se reproduce, pero no se oye, se pone en pantalla
+completa autom=E1ticamente, se ve en blanco y negro y bastante mal, no
+se ven los subt=EDtulos, y si le doy a Ctrl+Alt+F7 (sistema gr=E1fico), me
+vuelve a gnome y puedo matar mplayer desde la terminal donde se est=E1
+ejecutando. Ahora me salen errores que antes no sal=EDan:
+No protocol specified
+vo: couldn't open the X11 display (:0.0)!
+No protocol specified
+vo: couldn't open the X11 display (:0.0)!
+No protocol specified
+vo: couldn't open the X11 display (:0.0)!
+VO XOverlay need a subdriver
+[gl] using extended formats. Use -vo gl:nomanyfmts if playback fails.
+No protocol specified
+vo: couldn't open the X11 display (:0.0)!
+No protocol specified
+vo: couldn't open the X11 display (:0.0)!
+No protocol specified
+vo: couldn't open the X11 display (:0.0)!
+No protocol specified
+No protocol specified
+init kbd.
+[VO_SDL] SDL initialization failed: Unable to open a console terminal.
+No protocol specified
+XOpenDisplay() failed
+
+Espero que esto sea de m=E1s ayuda
+
+Un saludo y gracias
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8TB_JtDAw-BM47zmCxevZwMfFhrch71RkM-uKazVOEZ6g@mail.gmail.com
+

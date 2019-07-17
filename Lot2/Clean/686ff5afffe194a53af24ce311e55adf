@@ -1,0 +1,66 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+El 22/09/12 10:55, Angel Vicente escribió:
+>>> Transcribo los errores de udev como sugeria el compañero Juan Antonio (mis
+>>> disculpas por no habe leido antes su mensaje)
+>>>
+>>> udevd[357]: error getting socket: Address family not supported by protocol
+>>> error initializing udev control socket (este mensaje sale dos veces seguidas)
+>>> udevd[357]: error getting socket: Address family no supported by protocol
+>>> udevadm[364]: error getting socket: Address family not suported by protocol
+>>>
+>>> ¿Es posible que el error este relacionado con udev?, el udev lo actualice,
+>>> pero fue en agosto, no creo que tenga que ver.
+>>>
+>>> Saludos
+>>>
+>>>
+>> Hola,
+> Hola...
+>
+>> echa un ojo a esto.
+>>
+>> http://www.gentoo-wiki.info/Udevd:_init_udevd_socket:_error_getting_socket:_Address_family_not_supported_by_protocol
+>>
+>> Un saludo.
+> Ayer estuve echando un vistazo a este enlace, y decidi tratar de investigar sobre los
+> mensajes del udev, asi al menos me quitaria un problema. Rebuscando un poco encontre que
+> en Debian hay registrado un bug de fecha aproximada al de mi problema, es el bug 686707,
+> y es un error igual al que obtengo yo, segun dice le ocurrio al actualizar udev. La solucion
+> pasa por compilar el protocolo unix en el nucleo y no como modulo, puesto que ya el udev
+> no soporta el unix como modulo; la verdad es que es muy escueto y no encontre relacion entre
+> el error de udev y el problema posterior.
+> Ni corto ni perezoso, recompile cambiando esta configuracion, esperando que en el
+> siguiente arranque me dejaria de preocupar por los mensajes de udev para continuar con el
+> problema de la particion no encontrada.
+> Pues bien, ahora arranca todo correctamente.
+>
+> Para tratar de imaginar (no conozco como funciona udev) lo que estaba pasando, udev se
+> encarga de "encontrar" el hardware, este depende del protocolo de intercambio de mensajes
+> unix, en mi caso compilado como modulo, pero al no soportarlo como modulo, falla, pero
+> ademas se detiene completamente, y no carga ninguno modulo mas, entre ellos los correspondientes
+> a pata_*, y queda un sistema intentando arrancar de un ordenador "sin" particiones.
+>
+> No estoy muy seguro de que sea asi realmente, es una intuicion. Si os acordais de mi primer
+> correo, describia que con lsinitramfs, el unix.ko no existia en el initrd "malo" , pero tampoco
+> en el nucleo, no se si esto puede respaldar mi intuicion.
+>
+> Muchas gracias por vuestra ayuda, me gustaria ser capaz de aportar la decima parte de lo
+> que aportais.
+>
+> Saludos
+>
+>
+
+>> No estoy muy seguro de que sea asi realmente, es una intuicion.
+
+
+ese era exactamente el problema que tenías.
+
+Un saludo.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505C2EC3.8000505@limbo.deathwing.net
+

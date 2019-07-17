@@ -1,0 +1,34 @@
+Subject:Re: asignar ip a debian en virtualbox
+* luis@ida.cu <luis@ida.cu> [2012-10-03 15:59:41 -0400]:
+
+> C=C3=B3mo le asigno una ip a ese Debian virtual en VirtualBox??
+>=20
+>=20
+> Alguna idea ??
+
+Una r=C3=A1pida b=C3=BAsqueda por la www parece confirmar que las IPs para =
+la
+m=C3=A1quina virtual se configuran en /etc/networking/interfaces, como te ha
+dicho un compa=C3=B1ero de la lista.
+
+M=C3=A1s informaci=C3=B3n en:
+
+man interfaces
+
+y ejemplos en:
+
+/usr/share/doc/ifupdown/examples/network-interfaces
+
+--=20
+Saludos,
+Ferran Donadie.
+
+Los amigos son como los taxis, cuando hay mal tiempo escasean.
+		-- An=C3=B3nimo.=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121004092726.GD1995@cateto
+

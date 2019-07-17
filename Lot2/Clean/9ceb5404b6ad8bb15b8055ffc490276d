@@ -1,0 +1,58 @@
+Subject:Re: [OT] Re: Error 500 en apache2 que solo se ve del lado del
+	cliente
+El d=EDa 31 de agosto de 2012 17:56, Camale=F3n <noelamac@gmail.com> escrib=
+i=F3:
+> El Fri, 31 Aug 2012 17:34:57 +0200, Marc Mar=ED escribi=F3:
+>
+>> Yo programo en PHP, y errores 500 me han aparecido cuando hay errores de
+>> programaci=F3n, y PHP no est=E1 configurado para mostrar errores, y cuan=
+do
+>> hay errores de redireccionamiento en .htaccess. Camale=F3n: AJAX trabaja
+>> en los dos lados, es un puente de uni=F3n entre cliente y servidor sin
+>> tener que cargar la p=E1gina, as=ED que puede ser que sea un error de
+>> programaci=F3n.
+>
+> (...)
+>
+> "Puede ser" no, "es" :-)
+>
+> Obviamente un error 500 apunta a un error de programaci=F3n (bien porque =
+se
+> hace una llamada a una funci=F3n que no est=E1 habilitada en el servidor =
+o
+> bien porque el c=F3digo est=E1 mal escrito).
+>
+> =BFPero de d=F3nde sacas que hay PHP de por medio? >;-)
+>
+> Ajax "puede" trabajar en los dos lados pero hasta que no ha dicho que usa
+> el framework "symfony" no se me hab=EDa ocurrido pensar que usara PHP par=
+a
+> gestionar el formulario.
+>
+> Saludos,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k1qmqn$hd2$11@ger.gmane.org
+>
+
+Camale=F3n: "Puede ser" un error de programaci=F3n o "puede ser" un error
+de htaccess o "puede ser" otra cosa que no se, que "es", no lo se,
+porque he tenido errores 500 producidos por malas redirecciones en
+.htaccess, por ejemplo. Y pensaba que era JavaScript + PHP porque es
+uno de los principales usos de AJAX (o al menos, eso me parece).
+
+Un saludo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8Txa6P21keDm0vv8eZtYUchVKMX6dT0k_=eRBHJTg-YyQ@mail.gmail.com
+

@@ -1,0 +1,58 @@
+Subject:Re: [Hsqldb-user] Re g: Not able to load a csv file into hsqldb
+ using sqltool which is having the quotes(
+
+thanks Sliderule.
+I was using \mq which was adding quotes and then sqltool was not able to
+understand where the quotes were finished.
+I am using just \m now and its getting loaded now. 
+thanks a lot guys for helping me out..
+
+Sliderule wrote:
+> 
+> Just as an FYI, I was able to take the line you had above, and, repeated
+> it five 
+> times with the first line to match the field names in the table I wanted
+> to 
+> IMPORT them in.
+> 
+> After defining the table name: * *DSV_TARGET_TABLE = MYTABLE
+> 
+> issuing the command: \m C:\IMPORT.TXT
+> 
+> it successfully imported the lines into the table, including the double
+> quotes 
+> as written.
+> 
+> I am using SqlTool.jar with a version of 4720
+> 
+> Sliderule
+> 
+> 
+> ------------------------------------------------------------------------------
+> Live Security Virtual Conference
+> Exclusive live event will cover all the ways today's security and 
+> threat landscape has changed and how IT managers can respond. Discussions 
+> will include endpoint security, mobile security and the latest in malware 
+> threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+> _______________________________________________
+> Hsqldb-user mailing list
+> Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+> 
+> 
+
+-- 
+View this message in context: http://old.nabble.com/Reg%3A-Not-able-to-load-a-csv-file-into-hsqldb-using-sqltool-which-is-having-the-quotes%28%22%29-in-some-columns-tp34424068p34428320.html
+Sent from the HSQLDB - User mailing list archive at Nabble.com.
+
+
+------------------------------------------------------------------------------
+Live Security Virtual Conference
+Exclusive live event will cover all the ways today's security and 
+threat landscape has changed and how IT managers can respond. Discussions 
+will include endpoint security, mobile security and the latest in malware 
+threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

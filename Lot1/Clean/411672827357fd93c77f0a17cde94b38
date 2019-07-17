@@ -1,0 +1,33 @@
+Subject:Re: RFS: xpra/0.3.11+dfsg-1~bpo60+1
+Dmitry Smirnov <onlyjob@member.fsf.org> writes:
+
+> Hi David,
+>
+> On Sat, 29 Sep 2012 21:47:48 David Bremner wrote:
+>> I prefer to wait for feedback from the release team at this point.
+>
+> Thanks to release team, xpra 0.3.11-1 is in "testing" so perhaps it's a good 
+> time to refresh xpra in backports.
+> I prepared an updated package:
+
+% debdiff xpra_0.3.11+dfsg-1.dsc xpra_0.3.11+dfsg-1\~bpo60+1.dsc | diffstat
+ changelog                  |    6 ++++++
+ control                    |    4 ++--
+ patches/disable-vpx.patch  |   16 ++++++++++++++++
+ patches/disable-x264.patch |   16 ++++++++++++++++
+ patches/series             |    2 ++
+ rules                      |    2 +-
+ 6 files changed, 43 insertions(+), 3 deletions(-)
+
+Please update changelog to explain these changes. See 
+
+       http://backports-master.debian.org/Contribute/
+
+for some other hints.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87wqwut3h7.fsf@zancas.localnet
+

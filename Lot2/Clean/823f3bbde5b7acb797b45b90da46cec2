@@ -1,0 +1,43 @@
+Subject:Re: Iceweasel + Pdf
+El Sat, 24 Nov 2012 18:53:51 -0500, Jo Sé escribió:
+
+> Hola de nuevo molestando por aqui..
+
+Vale, pero si dejas de usar html en los mensajes, mejor >:-)
+
+> Tengo una pregunta.
+> 
+> Siempre que intento abrir un archivo con formato PDF. Lo unico que hace
+> Iceweasel es descargar el archivo para leerlo en local. No he podido
+> hacer que el iceweasel lo abra para leerlo sin descargarlo...
+
+Lo que puede hacer Iceweasel es preguntarte cómo quieres gestionar el PDF:
+
+1/ Puedes decirle que lo abra la aplicación que prefieras, directamente 
+(obviamente tiene que descargarlo, sí o sí, pero no hace preguntas).
+
+2/ Puedes decirle que lo abra la aplicación que prefieras y que te 
+pregunte en cada ocasión.
+
+3/ Puedes decirle que lo guarde para poder abrirlo más adelante.
+
+Lo que no puede hacer de manera predeterminada (y que por otra parte NO 
+es conveniente hacer) es integrar el lector de PDF en el navegador como 
+sucede con el plugin de Adobe Reader. Para esto necesitas instalar algún 
+complemento.
+
+> Iceweasel no hace eso?. Si?  Como se hace? :(
+
+Lo hace como te he comentado más arriba.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8t9il$g9a$1@ger.gmane.org
+

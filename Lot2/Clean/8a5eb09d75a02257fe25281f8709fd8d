@@ -1,0 +1,64 @@
+Subject:Re: Installation sur portable sans CG
+On Friday 09 November 2012 02:56:43 Ga=EBl wrote:
+> Hello !
+>=20
+> Voil=E0, j'ai un ordi portable de bonne qualit=E9, avec du bon matos=20
+dedans.
+> Seulement, la carte graphique est morte, donc pas moyen de voir=20
+quoi que ce
+> soit.
+>=20
+> Du coup, je voudrais transformer cet ordi en serveur de stockage.
+>=20
+>=20
+> Je cherche donc =E0 installer Debian sans n'avoir rien =E0 faire que=20
+brancher
+> ma clef usb puis allumer l'ordi. Apr=E8s, je me connecterai en SSH.
+>=20
+>=20
+> Sur l'ordi cible, je n'ai besoin de rien d'autre qu'un serveur SSH, je
+> trouverai un moyen de configurer les trucs plus tard (heure, locales,
+> toussa).
+>=20
+> Du coup, je fouille dans preseed, je trouve des trucs, mais =E0 chaque=20
+fois
+> c'est pas clair est =E7a installe mille trucs, propose mille options, et=
+=20
+=E7a
+> m'emb=EAte...
+>=20
+>=20
+> Quelqu'un a-t-il d=E9j=E0 eu =E0 faire =E0 =E7a ?
+>=20
+> Quelle solution avez-vous employ=E9 ?
+>=20
+> Pouvez-vous me filer votre preseed.cfg (que je dois mettre =E0 la=20
+racine de
+> ma clef, si j'ai bien compris. Ou dans le initrd.gz ?)
+>=20
+>=20
+>=20
+> Je pr=E9cise que la machine s'authentifie toute seule sur le r=E9seau=20
+ethernet,
+> DHCP auto.=20
+>=20
+>=20
+> Merci beaucoup !
+>=20
+>=20
+> Ga=EBl
+
+J'ai vu passer le probl=E8me il y a quelques semaines, mois, sur la liste=20
+anglaise. Fais une recherche avec install headless, il y a beaucoup de=20
+liens. Si tu ne lis pas l' anglais, ben.. on t'aidera...
+Thierry
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211090449.59721.tchatelet@free.fr
+

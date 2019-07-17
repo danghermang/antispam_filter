@@ -1,0 +1,62 @@
+Subject:Re: Debian et =?ISO-8859-1?Q?d=E9bit?= USB3
+Le Wed, 31 Oct 2012 01:24:12 +0100
+Bzzz <lazyvirus@gmx.com> a =E9crit:
+
+> On Wed, 31 Oct 2012 01:09:23 +0100
+> Ga=EBtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+>=20
+> >=20
+> > Le probl=E8me il est que j'ai 27 Mo/s (comme indiqu=E9 dans mon premier
+> > message).
+>=20
+> Ben nan, 'gade ton 1er post et tu verras que =E7a n'est pas mentionn=E9.
+
+Effectivement c'est dans le 2e. ;)
+
+>=20
+> > En MassStorage sur USB2 on plafonne dans les 27/30 Mo/s donc pas de sou=
+cis.
+>=20
+> O=F9 t'as vu =E7a?  l'USB 2.0 crache facile 45-50MB/s en lin=E9aire =E0 c=
+ondition
+> que le r=E9ceptacle en soit aussi capable.
+
+L'USB2 fait du 60 Mo/s brut, le protocole USB bouffe environ 20% ce qui ram=
+=E8ne
+effectivement dans les 45-50 Mo/s mais ensuite il y a le protocole de chaque
+classe qui vient lui aussi bouffer cette bande passante et en pratique sur =
+du
+mass storage on plafonne dans les 30 Mo/s avec les meilleurs chipsets.
+
+>=20
+> > Par contre en USB3 je devrais voir une diff=E9rence et non plus =EAtre =
+limit=E9
+> > par l'USB mais par le disque. Je devrais donc monter dans les 90 Mo/s s=
+ur
+> > un gros fichier (sachant que la source crache plus de 110 Mo/s en lectu=
+re)
+> > or ce n'est pas le cas. Je plafonne comme en USB2.
+>=20
+> En fait =E7a d=E9pend d'un tas de choses: le driver, le chipset USB 3.0, =
+le
+> firmware du HD, la qualit=E9 des c=E2bles, etc; il suffit qu'il-y-ait un =
+goulet
+> d'=E9tranglement =E0 un seul endroit et la vitesse plafonnera.
+>=20
+> Si =E7a se trouve, ton HD n'est reconnu qu'en UDMA4, voire moins...
+
+D'apr=E8s tout les tests que j'ai pu voir ce disque est dans les 90 Mo/s.
+Et en lecture j'obtiens bien 120Mo/s. Je ne comprends donc pas pourquoi =E7a
+plafonne en =E9criture. Ou alors c'est rsync qui fait la limitation ?
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031014030.cc1c9b2e82a2bf96743e2bb1@neuf.fr
+

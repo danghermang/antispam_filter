@@ -1,0 +1,37 @@
+Subject:Re: [HS] carte graphique
+
+LO,
+
+On Tue, Sep 25, 2012 at 11:45:34PM +0200, Vincent Danjean wrote:
+[...]
+
+> Moralité : les tests mémoires ne sont pas capables de détecter des
+> erreurs transitoires et donc essayer d'autres barrettes (ou les
+> mettre dans un autre ordi) peut être un bon test.
+
+La doc SuSE (il y a quelques années...) proposait pour ça la compil de
+kernel en boucle, sortie redirigée dans un nouveau log à chaque fois.
+
+Le md5sum de tous les logs doit être le même partout ensuite...
+
+C'est très efficace sur 24 ou 48 heures pour incriminer une barrette a
+priori validée par memtest (ça peut arriver dans les dernières
+heures), et ça a l'avantage d'une charge réelle.
+
+Mes 2 cents ;)
+
+A+
+
+-- 
+
+JFS.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120925233051.GA28099@jones.jfs.dt
+

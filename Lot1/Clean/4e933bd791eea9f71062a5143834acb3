@@ -1,0 +1,76 @@
+Subject:Re: Ext4 Inodos acabados y dudas
+El 29/10/2012, a las 10:05, "Francisco J. Bejarano" <francisco.bejarano@open=
+knowledgenetwork.com> escribi=C3=B3:
+
+> Dejo el procedimiento para para desmontar /var y arreglar el tema de
+> inodos sin tener que perder la instalaci=C3=B3n y que le sirva a todo el m=
+undo.
+>=20
+> Lo primero es ver que ficheros hay abiertos en el volumen var y que
+> procesos los usan. Hay que cerrar todo para que se pueda desmontar.
+>=20
+> lsof /var
+>=20
+> Paramos los servicios necesarios (pid) que tengan los ficheros abiertos
+> para poder desmontar.
+>=20
+> /etc/init.d/postfix stop
+> /etc/init.d/crond stop
+> /etc/init.d/syslog stop
+>=20
+> Con cada PID que debamos cerrar.
+> kill -15 pid
+>=20
+> Hacemos un rsync de /var/ a otro directorio. Importantes las barras
+> finales. Si no esta instalado lo instalamos.
+>=20
+> apt-get install rsync
+> mkdir /tmp_var
+> rsync -avh --delete /var/ /tmp_var/
+>=20
+> Desmontamos /var
+>=20
+> umount /var
+>=20
+> Formateamos el sistema de fichero con el siguiente comando
+>=20
+> mkfs.ext4 -i 8192 /dev/mapper/vg00-var
+>=20
+> La opci=C3=B3n -i (bytes por inodo) por defecto suele ser 16396, lo bajamo=
+s a
+> 8192 para que haya mas inodos, por ejemplo.
+> Esto tardar=C3=A1 mas o menos dependiendo del espacio de ficheros que usem=
+os.
+>=20
+> Montamos, recuperamos var y reiniciamos para recuperar los servicios que
+> apagamos antes y ver que esta todo correcto.
+>=20
+> mount /var
+> rsync -ahv --delete /tmp_var/ /var/
+> init 6
+>=20
+> Redimensionamos LVM al maximo y redimensionamos el sistema de ficheros.
+> En este caso 1.3 TB que tardaron una media hora.
+>=20
+> lvextend -l+100%FREE /dev/vg00/var
+> resize2fs /dev/mapper/vg00-var
+>=20
+> Con df -hTi podemos ver los inodos de los sistemas de ficheros.
+>=20
+> Salduos
+
+Francisco, fant=C3=A1stico el Howto.
+
+Gracias por compartirlo.
+
+
+Saludos,
+
+Ramses=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/9FA47443-AC25-4DA9-90AA-1E8BAA30DDD0@gmail.com
+

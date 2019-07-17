@@ -1,0 +1,28 @@
+Subject:Re: como hago para imprimir un manual desde consola.
+El lun, 22-10-2012 a las 15:10 -0400, Victor Hugo Cespedes Zuleta
+escribió:
+> Buen día debianeros.
+> 
+> Mi consulta es cual es el comando para imprimir los manuales.
+> 
+> por ejemplo para imprimir el manual de gcc.
+> 
+> man gcc nos expone el manual.
+> 
+> gcc es el 'Gnu proyect C an C++ Compiler'
+> 
+> ¿ahora si lo deseo imprimir?
+
+man man
+fijate hay varios ejemplos con -t. Si los entendí bien, debería
+alcanzarte con 
+man -t gcc | lpr
+
+Si no tenés lpr, creo que venía con el paquete cups-bsd
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1350935302.3174.26.camel@gonzalo.casa
+

@@ -1,0 +1,33 @@
+Subject:Re: Dudas
+El Thu, 22 Nov 2012 18:55:08 -0800, isabel gonzalez escribió:
+
+(evita usar el formato html en los mensajes, gracias...)
+
+> Quisiera saber que es Tigon/tg3_tso5.bin , 
+
+El un archivo binario que contiene código cerrado/propietario.
+
+> para que sirve 
+
+Para que el driver de la tarjeta de red pueda funcionar.
+
+> y donde lo puedo conseguir 
+
+Pues desde donde siempre:
+
+http://packages.debian.org/search?suite=stable&section=all&arch=any&searchon=contents&keywords=tg3_tso5.bin
+
+Sólo tienes que seleccionar el archivo correspondiente a tu versión de 
+Debian.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8o38n$e13$1@ger.gmane.org
+

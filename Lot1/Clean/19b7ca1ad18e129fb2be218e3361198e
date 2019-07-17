@@ -1,0 +1,49 @@
+Subject:Re: debian et onduleur
+Le 21/09/2012 08:48, Bzzz a écrit :
+> Étant donné qu'on ne relie que les UCs à la bête
+
+  Pourquoi donc ?
+
+  Perso, je mets toujours l'écran sur une prise ondulée pour mon
+serveur perso. Mon raisonnement est le suivant :
+- s'il y a du courant, écran ou pas ne change pas grand chose
+- s'il n'y a pas de courant et que je ne suis pas là, mon écran
+  est éteint (et oui, j'ai encore l'habitude d'appuyer sur le bouton)
+  donc, là encore, ondulé ou pas, ça ne change pas grand chose
+- par contre, sans courant et que je suis présent, je veux pouvoir
+  facilement prendre la main sur le PC pour intervenir manuellement
+  si j'en ai envie (arrêt de VM non essentielles pour limiter la
+  consommation, ...)
+
+  À mon labo, c'est pareil : la console/KVM dans la salle machine
+est aussi ondulée pour les mêmes raisons (possibilité d'accès
+rapide aux ordi en cas de coupure de courant).
+
+  Donc, pour choisir ce que je branche sur les prises ondulés,
+je réfléchis à ce que je veux voir fonctionner en cas de coupure
+de courant. Et j'ai donc mis aussi un transfo qui alimente
+mon réseau domotic 1-wire. Ainsi, je pourrai (quand j'aurai écris
+le logiciel de contrôle (mais ou est mon temps libre !))
+faire en sorte qu'en cas de coupure de courant, j'éteigne
+rapidement, automatiquement et proprement ma sono et mon
+video-projecteur (tous les deux branchés sur un autre petit
+onduleur)
+
+  Une autre raison pour mettre un appareil sur prise ondulée, c'est
+de le protéger des coupures de courant. Non pas qu'on veuille qu'il
+continue de fonctionner, mais il risque d'être endommagé en cas de
+coupure brutale (exemple : un vidéo-projecteur qui doit refroidir
+sa lampe).
+
+  A+
+    Vincent
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50621F41.9000306@free.fr
+

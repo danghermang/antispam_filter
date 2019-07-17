@@ -1,0 +1,32 @@
+Subject:=?ISO-8859-1?Q?Re=3A_r=E9sultat=2E?=
+Le 29/11/12, collet michel<michel.collet@nck.aphp.fr> a =E9crit :
+> comme pr=E9vu j'ai fait la commande df dans un terminal et voil=E0 ce que=
+ j'ai
+> eu :
+>
+> Sys. fich.     1K-blocks   Util. Disponible Uti% Mont=E9 sur
+> /dev/sda1      114477664 6459444  102203028   6% /
+> udev              440588       4     440584   1% /dev
+> tmpfs             179144     868     178276   1% /run
+> none                5120       0       5120   0% /run/lock
+> none              447852     152     447700   1% /run/shm
+>
+> Alors maintenant si j'ai bien compris il faut rep=E9rer le home mais est =
+ce
+> par hasard /run/shm ??
+
+Sniff ! Tu n'as pas l'air d'avoir de partition /home/
+
+Du coup, tu es bon pour la sauvegarde de toutes tes donn=E9es.
+
+Rapha=EBl
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAMmtCiWrD7zP+BCHgcvaWaW2xJc+J987B7YWRGbeCTXebSgAcQ@mail.gmail.com
+

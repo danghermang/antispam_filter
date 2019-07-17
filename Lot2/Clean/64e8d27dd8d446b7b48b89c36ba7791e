@@ -1,0 +1,69 @@
+Subject:Re: Iceweasel 17.0 problem and solution
+Hello Everyone (new here!)
+
+ * Everybody noticed that :
+    # Issuing sync operations on an ext3 file system will lead to I/O
+spikes, as every dirty pages in cache are going to be flushed to disk
+(that can take ages)
+    # The problem is ext3fs filesupport for barriers, which is kind of "bog=
+us".
+    # ext4 and XFS do support barriers.
+    # you can mount an ext3 device ext4 on Squeeze
+
+ * As it's been said,
+    # the backports itself is not the cause of the problem.
+    # However, installing IceWeasel~bpo will need users to
+      1. upgrade their filsystem to get advantage of the features using fsy=
+nc
+      2. disable fsync in Iceweasel and pray for your data
+
+ * One should try solution 1) as mounting ext3 to ext4 is supported on sque=
+eze
+    # try and mount all ext3 partitions to ext4 with default journaling sch=
+eme
+    # reboot, test IceWeasel -> should be much better
+    # your can try different journalling options  data=3Djournal vs
+data=3Dordered and
+    # compare the perfs with IW17 + ext3 raw, then solution2, then
+solution1 + different journalling options for ext4
+
+Hope that can help. Won't have time to test this WE I'm affraid
+
+On Fri, Nov 30, 2012 at 8:46 AM, Alexander Wirt <formorer@formorer.de> wrot=
+e:
+>
+> On Fri, 30 Nov 2012, Mikko Lehtinen wrote:
+>
+> > 2012/11/30 Ond=C5=99ej Sur=C3=BD <ondrej@sury.org>:
+> > > Could you please take this offtopic elsewhere? Thanks.
+> > >
+> > > Ond=C5=99ej Sur=C3=BD
+> >
+> > Sorry. I think there's a single reason why this discussion is somewhat
+> > relevant here on the backports mailing lists: Debian Wheezy
+> > installations will have many more EXT4 filesystems, whereas Squeeze
+> > has EXT3 as default and a very common choice. The biggest
+> > synchronization problems seem to only appear on EXT3. If newer
+> > versions of Iceweasel have more problems, it might be nice to inform
+> > the user that EXT3 does not play nice with fsync, and about the
+> > possibility to turn synchronization off. That's all, bye!
+> Its not. This is no backports problem.
+>
+> Alex - Debian Backports ftpmaster and Listmaster
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/20121130074647.GB6546@smithers.snow-cras=
+h.org
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAN=6xJh2SnyiiMzUCnmPS7iA_ApAw6HOZ=yzfR1+DmibtJNkew@mail.gmail.com
+

@@ -1,0 +1,42 @@
+Subject:Re: Indexar Repositorios
+El Tue, 20 Nov 2012 12:02:05 +0100, ghaspaer escribió:
+
+(ese html...)
+
+> El 20/11/12 15:23, Camaleón escribió:
+>> El Mon, 19 Nov 2012 19:54:18 +0100, ghaspaer escribió:
+>>
+>>> hola lista:
+>> (ese html...)
+>>
+>>> Les cuento que me he instalado apt-mirror y tengo un script que
+>>> actuliza desde 00:00 a las 6:00am, el problema es que cuando intento
+>>> actualizar desde el repositorio me aparece un error 404 y al parecer
+>>> es por que el repositorio no termino de descargarse y por lo tanto no
+>>> se indexaron los paquetes, alguien sabe como puedo hacer esto
+>>> manualmente?
+
+>> Ejecuta manualmente el script para forzar la sincronización/descarga de
+>> la réplica y listo.
+>>
+> es que ya no tengo internet en esa maquina para que se sincronice solo
+> quiero el indexado de los paquetes que estan ahí.
+
+No es conveniente que actualices un cliente contra ese repositorio si la 
+sincronización del servidor que hace de réplica se ha quedado "a medias", 
+puedes tener problemas. 
+
+Si aún así te quieres arriesgar a se te quede el sistema "roto", manda el 
+error exacto que recibes en el cliente cuando lo intentas actualizar.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8gb0t$27v$11@ger.gmane.org
+

@@ -1,0 +1,20 @@
+Subject:Re: sobre log ssh
+El Mon, 05 Nov 2012 08:18:03 -0500, linux escribió:
+
+> Saludos lista como estan todos, tengo una duda donde se almacenan los
+> log del ssh cuando se habre o se deniega una sesion remota, saludos a
+> todos
+
+zgrep -i sshd /var/log/*
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k78lag$eq2$5@ger.gmane.org
+

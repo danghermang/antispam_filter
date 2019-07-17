@@ -1,0 +1,41 @@
+Subject:apt
+Bonjour tout le monde.
+
+Quand j'utilise apt-get, j'indique l'option --install-suggests (dans
+wheezy).
+
+Pour éviter de taper ça à chaque fois, je voudrais créer un fichier
+apt.conf (il n'y en a pas ; j'ai juste apt.conf.d/).
+
+Puis-je mettre la ligne unique
+APT::Install-Suggests (avec ou sans ';' d'ailleurs) comme indiquer dans le
+manuel d'apt-get ?
+
+Ou vaut-il mieux utiliser
+apt
+{
+  get
+  {
+    Install-Suggests "true";
+  };
+};
+avec la syntaxe indiquée dans le fichier
+/usr/share/doc/apt/examples/apt.conf ?
+
+Est-ce vraiment équivalent et si la réponse est non, que me
+conseilleriez-vous ?
+
+Merci d'avance pour vos lumières.
+
+-- 
+Ph. Delavalade
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121030142413.GA9103@messier31
+

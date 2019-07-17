@@ -1,0 +1,417 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<mlk@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <committeelist.tolkiensociety.org-bounces@numenor.vingilot.org>
+Received: (qmail 3878 invoked by uid 89); 9 Dec 2012 18:28:30 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 9 Dec 2012 18:28:30 -0000
+Delivery-date: Sun, 09 Dec 2012 10:26:52 -0800
+Received: from numenor.vingilot.org ([207.192.75.46]) helo=numenor.vingilot.org
+	by apn.junkemailfilter.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.80.1)
+	id 1ThlaO-0004um-W2 on interface=184.105.182.43
+	for mlk@activ8.net.au; Sun, 09 Dec 2012 10:26:50 -0800
+Received: from localhost ([127.0.0.1] helo=numenor.vingilot.org)
+	by numenor.vingilot.org with esmtp (Exim 4.69)
+	(envelope-from <committeelist.tolkiensociety.org-bounces@numenor.vingilot.org>)
+	id 1ThlVU-0006Is-Os; Sun, 09 Dec 2012 13:21:43 -0500
+Received: from smarthost04.mail.zen.net.uk ([212.23.1.4])
+	by numenor.vingilot.org with esmtp (Exim 4.69)
+	(envelope-from <pat@caerlas.co.uk>) id 1ThlVG-0006Ih-SZ
+	for committeelist@tolkiensociety.org; Sun, 09 Dec 2012 13:21:29 -0500
+Received: from [82.69.126.233] (helo=userPC)
+	by smarthost04.mail.zen.net.uk with esmtp (Exim 4.72)
+	(envelope-from <pat@caerlas.co.uk>)
+	id 1ThlZZ-000290-Ey; Sun, 09 Dec 2012 18:25:53 +0000
+From: "Pat Reynolds" <pat@caerlas.co.uk>
+To: <committeelist@tolkiensociety.org>
+References: <4F739526E86C4AB6B3EB6A75AA66CE54@Laptoppy>
+In-Reply-To: <4F739526E86C4AB6B3EB6A75AA66CE54@Laptoppy>
+Date: Sun, 9 Dec 2012 18:25:53 -0000
+Message-ID: <013801cdd63a$9fba5b10$df2f1130$@co.uk>
+MIME-Version: 1.0
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Ac3WNITnLGeHVPfPTG6oV2f/Wb6kdQABc3fA
+Content-Language: en-gb
+X-Originating-Smarthost04-IP: [82.69.126.233]
+X-Spam_score: -4.0
+X-Spam_score_int: -39
+X-Spam_bar: ----
+X-Spam_report: Spam detection software, running on the system "li39-46", has
+	identified this incoming email as possible spam.  The original message
+	has been attached to this so you can view it (if it isn't spam) or label
+	similar future email.  If you have any questions, see
+	the administrator of that system for details.
+	Content preview:  The CDs may well have been intended for the archive – can
+	I have them back? Fruit sounds more like Becky than us .... Cheers, [...]
+	Content analysis details:   (-4.0 points, 5.0 required)
+	pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	-4.0 RCVD_IN_DNSWL_MED      RBL: Sender listed at http://www.dnswl.org/, medium
+	trust
+	[212.23.1.4 listed in list.dnswl.org]
+	0.0 HTML_MESSAGE           BODY: HTML included in message
+Cc: trevor@caerlas.myzen.co.uk
+Subject: Re: [TS Committee] Publicity Materials
+X-BeenThere: committeelist.tolkiensociety.org@numenor.vingilot.org
+X-Mailman-Version: 2.1.11
+Precedence: list
+Reply-To: committeelist@tolkiensociety.org
+List-Id: Tolkien Society Committee
+	<committeelist.tolkiensociety.org.numenor.vingilot.org>
+List-Unsubscribe: <https://numenor.vingilot.org:4443/mailman/options/committeelist.tolkiensociety.org>,
+	<mailto:committeelist.tolkiensociety.org-request@numenor.vingilot.org?subject=unsubscribe>
+List-Archive: <https://numenor.vingilot.org:4443/pipermail/committeelist.tolkiensociety.org>
+List-Post: <mailto:committeelist.tolkiensociety.org@numenor.vingilot.org>
+List-Help: <mailto:committeelist.tolkiensociety.org-request@numenor.vingilot.org?subject=help>
+List-Subscribe: <https://numenor.vingilot.org:4443/mailman/listinfo/committeelist.tolkiensociety.org>,
+	<mailto:committeelist.tolkiensociety.org-request@numenor.vingilot.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1363709495=="
+Sender: committeelist.tolkiensociety.org-bounces@numenor.vingilot.org
+Errors-To: committeelist.tolkiensociety.org-bounces@numenor.vingilot.org
+X-Spam_score: -2.5
+X-Spam_score_int: -24
+X-Spam_bar: --
+X-Spam_report: Spam detection software, running on the system "li39-46", has
+	identified this incoming email as possible spam.  The original message
+	has been attached to this so you can view it (if it isn't spam) or label
+	similar future email.  If you have any questions, see
+	the administrator of that system for details.
+	Content preview:  The CDs may well have been intended for the archive – can
+	I have them back? Fruit sounds more like Becky than us .... Cheers, [...]
+	Content analysis details:   (-2.5 points, 5.0 required)
+	pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	-4.0 RCVD_IN_DNSWL_MED      RBL: Sender listed at http://www.dnswl.org/, medium
+	trust
+	[212.23.1.4 listed in list.dnswl.org]
+	1.5 WEIRD_PORT             URI: Uses non-standard port number for HTTP
+	0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: committeelist.tolkiensociety.org-bounces@numenor.vingilot.org
+X-Relay-Countries: us gb
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd0.ctyme.com
+ Spam Tests:
+ * -1.0 SUBJ_GROUP Subject Indicates Discussion List []
+ * -0.0 RP_MATCHES_RCVD Envelope sender domain matches handover relay domain
+ *  0.0 WEIRD_PORT URI: Uses non-standard port number for HTTP
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ *  2.0 FSL_NEW_HELO_USER FSL_NEW_HELO_USER
+X-Spam-Class: HAM - SpamAssassin good - Score=1
+X-Sender-Host-Address: 207.192.75.46
+X-Sender-Host-Name: numenor.vingilot.org
+
+This is a multi-part message in MIME format.
+
+--===============1363709495==
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0139_01CDD63A.9FBA5B10"
+Content-Language: en-gb
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0139_01CDD63A.9FBA5B10
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+The CDs may well have been intended for the archive =E2=80=93 can I have =
+them back?
+
+=20
+
+Fruit sounds more like Becky than us ....=20
+
+=20
+
+Cheers,
+
+=20
+
+Pat
+
+=20
+
+From: committeelist.tolkiensociety.org-bounces@numenor.vingilot.org =
+[mailto:committeelist.tolkiensociety.org-bounces@numenor.vingilot.org] =
+On Behalf Of Shaun Gunner
+Sent: 09 December 2012 17:42
+To: Main Committee
+Subject: [TS Committee] Publicity Materials
+
+=20
+
+Hi all,
+
+=20
+
+I took delivery (from Pat and Trevor =E2=80=93 thank you both!) of the =
+publicity materials yesterday. I have spent the last 4 hours sorting it, =
+chucking stuff out, repairing boxes, etc. This is what I have got (all =
+figures are approximations):
+
+*	1,200 bookmarks=20
+*	2,000 postcards=20
+*	200 A4 Tolkien Reading Day posters in four different designs=20
+*	100 A3 Tolkien Reading Day posters in four different designs=20
+*	3 A3 blue Tolkien Society posters with the White Tree on Gondor=20
+*	100 membership forms (current)=20
+*	450 leaves of cream paper=20
+*	a few leaves of cream card=20
+*	tons of sticky labels (some printed on, some not)=20
+*	250 DL non-window white envelopes=20
+*	50 C5 non-window brown envelopes=20
+*	2 CDs, one of photos of Oxonmoot 2001 and the other of Sarehole Mill =
+(I think 2005)=20
+*	about 500 sheets of Tolkien Society notepaper=20
+*	4 plastic paper-stands=20
+*	a pen=20
+*	a pair of scissors=20
+*	12 elastic bands=20
+*	a rotten banana=20
+*	a rotten orange=20
+*	a letter about Becky H=E2=80=99s prescription
+
+If anybody wants any of these things =E2=80=93 I can imagine =
+particularly Marion having more use for envelopes than I =E2=80=93 do =
+let me know. What I don=E2=80=99t currently have is copies of our =
+literature =E2=80=93 posters, bookmarks, the postcard and notepaper. I =
+have asked IanC if he knows where the original files for these are.
+
+
+------=_NextPart_000_0139_01CDD63A.9FBA5B10
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 12 (filtered =
+medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:787359689;
+	mso-list-template-ids:286708340;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-GB link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>The CDs may well have been intended for the archive =E2=80=93 can I =
+have them back?<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Fruit sounds more like Becky than us .... <o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Cheers,<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Pat<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+committeelist.tolkiensociety.org-bounces@numenor.vingilot.org =
+[mailto:committeelist.tolkiensociety.org-bounces@numenor.vingilot.org] =
+<b>On Behalf Of </b>Shaun Gunner<br><b>Sent:</b> 09 December 2012 =
+17:42<br><b>To:</b> Main Committee<br><b>Subject:</b> [TS Committee] =
+Publicity Materials<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><div><div><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:navy'>Hi=
+ all,<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:navy'>&n=
+bsp;<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:navy'>I =
+took delivery (from Pat and Trevor =E2=80=93 thank you both!) of the =
+publicity materials yesterday. I have spent the last 4 hours sorting it, =
+chucking stuff out, repairing boxes, etc. This is what I have got (all =
+figures are approximations):<o:p></o:p></span></p></div><ul =
+type=3Ddisc><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>1,200 =
+bookmarks <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>2,000 =
+postcards <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>200 A4 =
+Tolkien Reading Day posters in four different designs =
+<o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>100 A3 =
+Tolkien Reading Day posters in four different designs =
+<o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>3 A3 blue =
+Tolkien Society posters with the White Tree on Gondor =
+<o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>100 =
+membership forms (current) <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>450 leaves =
+of cream paper <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>a few leaves =
+of cream card <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>tons of =
+sticky labels (some printed on, some not) <o:p></o:p></span></li><li =
+class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>250 DL =
+non-window white envelopes <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>50 C5 =
+non-window brown envelopes <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>2 CDs, one =
+of photos of Oxonmoot 2001 and the other of Sarehole Mill (I think 2005) =
+<o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>about 500 =
+sheets of Tolkien Society notepaper <o:p></o:p></span></li><li =
+class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>4 plastic =
+paper-stands <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>a pen =
+<o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>a pair of =
+scissors <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>12 elastic =
+bands <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>a rotten =
+banana <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>a rotten =
+orange <o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'color:navy;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;ms=
+o-list:l0 level1 lfo1'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>a letter =
+about Becky H=E2=80=99s prescription<o:p></o:p></span></li></ul><div><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:navy'>If=
+ anybody wants any of these things =E2=80=93 I can imagine particularly =
+Marion having more use for envelopes than I =E2=80=93 do let me know. =
+What I don=E2=80=99t currently have is copies of our literature =
+=E2=80=93 posters, bookmarks, the postcard and notepaper. I have asked =
+IanC if he knows where the original files for these =
+are.<o:p></o:p></span></p></div></div></div></div></body></html>
+------=_NextPart_000_0139_01CDD63A.9FBA5B10--
+
+
+
+--===============1363709495==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Committeelist.tolkiensociety.org mailing list
+Committeelist.tolkiensociety.org@numenor.vingilot.org
+https://numenor.vingilot.org:4443/mailman/listinfo/committeelist.tolkiensociety.org
+
+--===============1363709495==--
+
+
+

@@ -1,0 +1,51 @@
+Subject:Re: Duda particiones gpt en debian
+El Tue, 04 Dec 2012 17:30:08 +0100, maykel escribió:
+
+(...)
+
+>>>> Como siempre gracias por contestar CamaleÃ³n, un sÃ³lo apunte,
+>>>> clonezilla
+>>>> no es capaz de hacer backups en tablas de particiones GPT, te dice
+>>>> que con sgdisk -z /dev/sdx lo conviertas...Pero luego no me arranca
+>>>> el SO.
+>>>
+>>> Me extraÃ±a que Clonezilla no tenga soporte para GPT :-?
+>>>
+>>> Lo que dice en su FAQÂ¹ es que si sobreescribes una particiÃ³n del
+>>> sistema
+>>> que usa GPT por otra con MBR te puede aparece un error porque queden
+>>> restos
+>>> de datos de la tabla GPT que no se puedan interpretar, por lo que
+>>> tienes que
+>>> destruir cualquier vestigio de las estructuras GPT con ese comando que
+>>> dices.
+>>>
+>>> Ojo, que para el caso contrario (pasar de MBR a GPT) no aplica.
+>>>
+>>> http://drbl.org/faq/fine-print.php?path=./2_System/116_unmatched_partition_table.faq#116_unmatched_partition_table.faq
+>>>
+>> A mí también me extraña pero te aseguro que es así, te obliga a pasarla
+>> a MBR.
+>>
+>> Ya me ha pasado en varios equipos.
+
+Pero ¿qué es lo que estabas haciendo, exactamente? :-?
+
+> Mañana adjunto una captura y lo ves.
+> 
+> Por otro lado me parece un poco productible por clonezilla...
+
+Pues sí, es un poco extraño que tenga problemas porque al fin y al cabo 
+Clonezilla usa las mismas herramientas que las que tenemos en Debian.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9l94h$37l$7@ger.gmane.org
+

@@ -1,0 +1,27 @@
+Subject:Duda particiones gpt en debian
+Hola muy buenas, he estado mirando las diferencias entre msdos y gpt y las
+nuevas características de gpt y ventajas.
+
+Mi pregunta es la siguiente, si quiero hacer un backup de la tabla de
+particiones, mbr y una partición, cómo puedo hacerlo?
+
+fdisk no lo soporta, hay que utilizar parted o sgdisk o derivados.
+
+Se puede pasar de una tabla msdos a gpt sin perder datos y viceversa?
+
+Por último, una duda tonta, quien le dice al SO que la tabla de
+particiones es GPT, el disco, la bios...Se puede utilizar por tanto, tanto
+gpt como msdos en cualquier disco?
+
+Saludos.
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/6f9a4e1f3499052c98daf257fc789a32.squirrel@maykel.sytes.net
+

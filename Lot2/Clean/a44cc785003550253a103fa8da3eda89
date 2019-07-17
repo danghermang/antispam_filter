@@ -1,0 +1,14 @@
+Subject:Re: [anti-abuse-wg] RIPE NCC's proposed implementation of Abuse
+	Contact Management in the RIPE Database
+* Kaveh Ranjbar:
+
+> Abuse handling is generally a role within an organisation and the
+> RIPE NCC is planning to model this relation in the RIPE Database. So
+> the "abuse-c:" attribute will be available in the ORGANISATION
+> object and should reference a ROLE object. When a ROLE object is
+> referenced from an ORGANISATION object by the "abuse-c:" attribute,
+> it must have an "abuse-mailbox:" attribute.
+
+Doesn't this invite mingling of allegedly privacy-relevant data and
+abuse contact information?
+

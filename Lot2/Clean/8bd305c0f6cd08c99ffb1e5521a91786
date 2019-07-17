@@ -1,0 +1,31 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+	IPv4 from last /8
+Hi,
+
+> Yeap... but...
+>=20
+> We are an ISP fucusing on individuals (most) and business (minority, =
+but growing).
+> Because of nature of our business, we decided to have central BRAS and =
+large L2 (in future MPLS) network.
+> So, most of our subscribers are connected via "ethernet all the way", =
+native DHCP (no PPPoWhatever).
+>=20
+> Both - Cisco/Ericsson(RedBack) - for their BRASes have not yet =
+implemented this access method for IPv6..
+> They have it on roadmap, but it will take a while for first releases =
+and much more before they will be stable enough to
+> put them in production.
+> 2 years at least I suppose..
+
+I know multiple networks like that. The one that ran out of public IPv4 =
+space is now doing NAT444 with 100.64.0.0/10 combined with 6rd. It's =
+certainly not pretty, but it is easy to convert an existing 'ethernet =
+all the way' network to this by adding a set of central NAT boxes and a =
+set of 6rd border relays. The existing IPv4 infrastructure doesn't have =
+to change. You do need to supply 6rd capable CPEs to customers, but =
+those are available from many vendors these days.
+
+- Sander
+
+

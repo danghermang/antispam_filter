@@ -1,0 +1,43 @@
+Subject:=?iso-8859-1?q?=5BOpini=F3n=5D?= Sorpresa agradable con XFCE 4.8.0
+Hola,
+
+Este fin de semana he estado jugando con las VM que mantengo (oldstable/
+lenny y testing/wheezy) y como la testing estaba un poquito abandonada, 
+he decidido instalarla de nuevo, así pruebo las últimas versiones del 
+instalador.
+
+La instalación -llevada a cabo íntegramente desde el CD- ha ido perfecta, 
+ningún error ni fallo, nada (hasta GRUB2 se ha instalado sin chistar :-P)
+
+Pero esta vez he descargado el primer CD con XFCE ya que gnome-shell no 
+funciona en esta combinación de equipo+VM y el modo clásico de GNOME3 
+deja bastante que desear... ¡y vaya sorpresa me he llevado con la "ratita 
+regordeta"! :-)
+
+La versión de XFCE que trae wheezy (4.8.0) es muy estable y súper-
+configurable, tanto que en dos horas he dejado el sistema completo _como 
+a mí me gusta_ y sólo de pensar cómo se ejecutará en mi equipo principal 
+que tiene 8 GiB de RAM se me hace la boca agua :-} 
+
+En la VM corre que se las pela y está sobre un Pentium M con 1,5 GiB de 
+RAM virtual del que sólo usa apenas 512 MiB y sube a 1 GiB con programas 
+tochos iniciados (Firefox, Thunderbird y LibreOffice).
+
+Creo que ya tengo entorno gráfico para Wheezy.
+
+Lo siento por GNOME3+gnome-shell, pero _no hay ni dios_ que lo entienda y 
+mira que lo he intentado... Lo mantendré en el netbook para ver cómo va 
+evolucionando y ya volveremos a vernos cuando los desarrolladores entren 
+en razón, que me consta que lo harán.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8teqj$u1q$1@ger.gmane.org
+

@@ -1,0 +1,58 @@
+Subject:Re: Implication dans le projet Debian
+Stephane Ascoet a écrit :
+> Le 06/09/2012 11:59, maderios a écrit :
+>> Une attitude plus "militante" (ce n'est pas un gros mot...)
+>> permettrait peut-être de mieux faire connaître Debian.
+>>
+>
+> Bonjour, autour de moi, j'ai bien du mal, Ubuntu ayant l'injustifiee
+> reputation d'etre la meilleure et plus simple distribution. Mais je ne
+> suis plus tres motive non plus, etant pas mal degoute par la direction
+> prise par le libre: beaucoup d'energie consacree a ajouter du clinquant,
+> et refus de corriger de gros bugs handicapants ou de prendre en compte
+> des propositions d'ameliorations, notamment dans l'installeur Debian :-(
+> Il ne faut pas trop se faire d'illusions, cette entreprise linuxienne
+> remplie de succes tient sur tres peu de personnes, qui n'ont pas toutes
+> les memes objectifs. Et rien ne remplace ma distribution favorite,
+> Freeduc, morte faute de contributeurs :-'(
+
+	Bonsoir,
+
+	La mort est ce qui attend au coin du bois une grande majorité de 
+projets libres, faute de contributeurs. Force est de constater que plus 
+nous avançons, plus les utilisateurs sont devenus de simples consommateurs.
+
+	Personnellement, j'essaie de maintenir en vie deux projets (enfin, un 
+est vivant, le second est en sommeil faute de temps). Je sais que celui 
+qui est vivant est utilisé (vu le nombre de personnes qui téléchargent 
+les sources et le fait que les mêmes personnes téléchargent les 
+révisions successives) mais, depuis plus de dix ans, je n'ai eu aucune 
+contribution réelle, juste une proposition de rachat et une engueulade 
+d'un utilisateur d'une grande adminsitration américaine parce qu'il y 
+avait un bug qui le dérangeait. De temps en temps, on me propose bien 
+une aide pour telle ou telle chose, mais ce n'est jamais suivi d'effet. 
+J'ai installé une mailing list (avec plusieurs milliers d'utilisateurs 
+inscrits), mailing list qui dans les faits ne sert qu'à envoyer des 
+informations quant à la présence d'une nouvelle version de l'outil. 
+Quant au bugzilla, il n'a en dix ans jamais servi. Dans de telles 
+conditions, il faut vraiment être motivé.
+
+	L'entreprise linuxienne ne tient que parce qu'il y a quelques 
+personnes, une poignée, pour développer les parties cruciales du système 
+et surtout tient parce qu'il y a des entreprises qui paient directement 
+ou indirectement les développements. Et comme tout le monde essaie de 
+tirer la couverture à soi, le rendement final n'est pas bon.
+
+	Cordiaement,
+
+	JKB
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5048AE49.5060202@systella.fr
+

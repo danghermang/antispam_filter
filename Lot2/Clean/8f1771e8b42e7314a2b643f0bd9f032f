@@ -1,0 +1,113 @@
+Subject:Re: [Hsqldb-user] re   g: load only required columns
+TEXT table indexes are stored in memory. You do not need any explicit
+index or primary key for your table, therefore only one internal index
+is created.
+
+You do not need to change the text cache settings.
+
+There may be a line in your text table which cannot be loaded because it
+is not formatted correctly. Alternatively, memory may be running out,
+which can be fixed by increasing the Java heap space.
+
+Fred
+
+On Tue, Oct 23, 2012, at 10:46, Sandeep Samudrala wrote:
+>
+> Hi Sliderule,
+>
+> This is working. But i have an issue with it. The table will still
+> have extra columns although no data is present those columns. And
+> moreover i have keep track of adding new columns in skip list whenever
+> new columns are added to csv file. Is there any way to avoid even
+> creating the table with all columns?. i.e No extra columns in the
+> table other than the required columns.
+>
+>
+> Hi Fred,
+>
+> I tried with text table. Its working the way i want. But only issue is
+> that it is always loading  only
+>
+> 426556 rows from the csv file. I tried by increasing the cache_scale
+> and also increasing the textdb.cache_scale. Is there something I am
+> missing to increase the cache size?
+>
+> You people were help full lot of times. Thanks a lot for that.
+>
+>
+> Thanks in advance.
+>
+> -sandeep samudrala
+>
+>
+> Sliderule wrote:
+> >
+> > In the original post, user indicated wants to use SqlTool with an
+> > import command
+> >
+> > \m test.csv
+> >
+> > To accomplish what is desired using SqlTool . . . please review
+> > SqlTool documentation, using . . . using the command . . .
+> > DSV_SKIP_COLS
+> >
+> > * *DSV_SKIP_COLS = GENDER \m test.csv
+> >
+> > Explanation: The * *DSV_SKIP_COLS will let SqlTool know that you
+> > want it to IGNORE ( skip ) the column GENDER in your CSV file when
+> > importing to your HSQL database.
+> >
+> > Per SqlTool Documentation:
+> >
+> > *DSV_SKIP_COLS
+> >
+> > A list of column names to skip, like column1|column2 Specifies
+> > columns to omit from CSV or DSV importing or exporting. Run \x? to
+> > see default value and details.
+> >
+> > Also, just as an FYI ( For Your Information ) . . . in the HSQL
+> > download .
+> > . . a sample file named dsv-omits.sql provides an example in the
+> >   dirctory:
+> >
+> >  testrun\sqltool
+> >
+> > Sliderule
+> >
+> >
+> >
+> >
+> > --------------------------------------------------------------------
+> > ----------
+> > Everyone hates slow websites. So do we. Make your web apps faster
+> > with AppDynamics Download AppDynamics Lite for free today:
+> > http://p.sf.net/sfu/appdyn_sfd2d_oct
+> > _______________________________________________
+> > Hsqldb-user mailing list Hsqldb-user@lists.sourceforge.net
+> > https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+> >
+> >
+> --
+> View this message in context:
+> http://old.nabble.com/reg%3A-load-only-required-columns-tp34585602p34590926.html
+> Sent from the HSQLDB - User mailing list archive at Nabble.com.
+>
+>
+> ----------------------------------------------------------------------
+> --------
+> Everyone hates slow websites. So do we. Make your web apps faster with
+> AppDynamics Download AppDynamics Lite for free today:
+> http://p.sf.net/sfu/appdyn_sfd2d_oct
+> _______________________________________________
+> Hsqldb-user mailing list Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://p.sf.net/sfu/appdyn_sfd2d_oct
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

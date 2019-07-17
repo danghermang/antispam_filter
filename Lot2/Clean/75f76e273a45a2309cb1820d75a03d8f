@@ -1,0 +1,15 @@
+Subject:Debian 6 regular cantidad de hilos de descargas en Squid
+Buenos días  a todos
+
+Cómo hacer en el SQUID para que un acelerador de descarga no use más de 
+3 hilos para descargar ? alguna idea ?  normalmente usan de 10 a 15 en 
+dependencia de los sitios, pero necesito regularlo a 3 hilos solamente.
+
+Gracias a todos por la ayuda y la atención
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/0ea4155334ba444686019f539ce977f6@ida.cu
+

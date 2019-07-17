@@ -1,0 +1,57 @@
+Subject:Re: Miniatures de fichiers Libre/OpenOffice sous Nautilus de Squeeze
+Le Sat, 8 Dec 2012 12:25:50 +0100,
+Alain Rpnpif <rpnpif@free.fr> a écrit :
+
+> Le  4 décembre 2012, Frédéric Massot a écrit :
+> 
+> > Le 03/12/2012 14:57, Alain Rpnpif a écrit :
+> 
+> > > Sous Nautilus, je n'arrive pas à obtenir de miniatures de mes
+> > > fichiers OpenDocument (ODT, etc. textes, dessins ou autres) mais
+> > > dans certains répertoires seulement. Pourtant, cela marche dans
+> > > la plupart des autres. Je suis sous Debian Squeeze agrémenté de
+> > > squeeze-backports. Les autres fichiers (PDF, etc.) ne présentent
+> > > pas ce problème. J'ai tenté d'effacer tout sous
+> > > $HOME/.thumbnails/ de façon à régénérer l'ensemble des
+> > > diapos/miniatures, mais rien y fait. J'ai vérifié le contenu des
+> > > fichiers ODT en cause : la miniature existe bien (thumbnail.png).
+> > > Je ne comprends pas.
+> > 
+> > Les miniatures des fichiers ODT sont créées par le paquet
+> > ooo-thumbnailer.
+> > 
+> > ooo-thumbnailer ne fonctionne plus avec Gnome 3 : 
+> > http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=659321
+> 
+> ooo-thumbnailer est bien installé et je rappelle que les miniatures
+> sont bien générées sous *certains* répertoires et que Squeeze est sous
+> Gnome 2 et je n'ai pas l'intention de passer à Gnome3 avant...
+> peut-être jamais (peut-être à Mate ou XFCE).
+> 
+> Une autre idée ?
+> 
+> Cordialement.
+> 
+bonjour,
+
+	serait il possible de faire un essai avec un gestionnaire de
+	fichier:
+
+	- thunar
+	- le vieux rox-filer
+	- dolphin
+
+	et de rendre compte sur la liste
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121208135244.1ae7fbaa.bernard.schoenacker@free.fr
+

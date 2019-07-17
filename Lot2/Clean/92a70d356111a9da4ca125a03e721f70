@@ -1,0 +1,38 @@
+Subject:Conexion 3G con network-manager [error: No agents were available for
+	this request]
+Buenas gente!
+
+Les pido ayuda con el siguiente inconveniente:
+
+Antes hice una instalaci=F3n de "debian testing con kde" desde un DVD,
+por supuesto instal=F3 todo lo que ten=EDa y simplemente conectaba el
+modem 3G lo configuraba con network manager y funcionaba ok.
+
+Ahora hice una instalacion nueva, solo los programas que necesito,
+limpia, desde la iso netinstall, solo instal=E9 el paquete
+plasma-desktop (instala un kde minimo y b=E1sico), seguido de esto
+instal=E9 los paquetes network-manager-kde y usb-modeswitch para tener
+funcionailidad 3g(quiero gestionar mis conexiones de forma grafica con
+network-manager).
+
+Detecta el modem, lo configura, pero cuando me quiero conectar me sale
+un pop-up con el error: "No agents were available for this request" .
+Consulte con Dios, perd=F3n quise decir google, hay un par de bugs, pero
+me llama la atenci=F3n que cuando hice la instalaci=F3n completa
+funcionaba de maravilla (iniciaba KWalletManager me pedia configurar
+una contrase=F1a, luego recien me permitia conectarme mediante el
+modem)..ahora nada de eso.
+
+Alguien me puede iluminar?
+
+Desde ya muchas gracias.
+
+--
+Manuel Ramos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CABnkn6aUezG2-Dc-hfBUJdouiU3qUDpBRhD2vN3gjZQKA1JRGg@mail.gmail.com
+

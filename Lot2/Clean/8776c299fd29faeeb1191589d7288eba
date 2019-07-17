@@ -1,0 +1,39 @@
+Subject:Re: [LUG] VBox version 4.2
+On 23/10/12 09:43, Neil Winchurst wrote:
+> I will do some research on Debian Testing but the work 'Testing' worries =
+me.
+
+Fear not, Debian is the most conservative distro of all - they even make
+RedHat Enterprise look 'dangerous' by comparison.
+
+Debian Stable is absolutely 100% rock solid, but coming from an
+Ubuntu/Mint background you're going to find the standard package choices
+surprisingly old. Despite it's name, Debian Testing is 99.9% solid and a
+lot less flaky than pretty much every other distro out there, it also
+has relatively more modern packages (and you can install PPAs on Debian
+as well for more modern packages, although it's not normally encouraged).
+
+Now Debian Unstable (aka, 'Sid') on the other hand is probably the most
+volatile distro of all, and you'd have to be a real masochist to run
+that as your daily driver - you'll get countless new packages every time
+you run apt-get update, even several times a day. Stuff *will* break
+regularly but at least you'll get to keep all the pieces. Personally I
+love Sid and have used it on/off as my main OS for years but it's not
+for the faint hearted or anyone who needs to Get Things Done=99.
+
+In short, give Debian Testing a spin, you won't be disappointed and I
+promise you it's rock solid and highly suited for everyday use.
+Installing your choice of DE (in your case, KDE apparently) is a breeze.
+At the risk of coming across all fanboy, I have used/admined just about
+every OS under the sun but if I had to stick to one and only one OS for
+the rest of my life, I'd install Debian and be done with it.
+
+Good luck!
+
+Regards
+
+-- =
+
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

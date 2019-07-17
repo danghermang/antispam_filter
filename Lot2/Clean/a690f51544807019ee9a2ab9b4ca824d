@@ -1,0 +1,23 @@
+Subject:Re: Odd warning w/ Mail::Header
+On 9/12/12 3:55 AM, Brian Raven wrote:
+[snip]
+> That line is in the extract function. You don't show any of your code, but the error message suggests that extract is being called with a string containing "From", or possibly an array whose first entry is "From", rather than an array ref, which it is clearly expecting.
+> 
+> Clearly, that is, from the code rather than (IMHO) the documentation which just says array. If you think it important enough, feel free to suggest changes to the module's maintainer. Clarifying the documentation, and perhaps some parameter validation, may make it easier to use the module as intended.
+> 
+> HTH
+
+Ok, the problem was operator error. I was trying to use header() like get().
+
+get() takes a tag, whereas header() takes an array reference to a tag.
+
+Yes, the code should have checked:
+
+    croak "..." unless (ref($line) eq 'ARRAY');
+
+-Philip
+
+_______________________________________________
+ActivePerl mailing list
+ActivePerl@listserv.ActiveState.com
+To unsubscribe: http://listserv.ActiveState.com/mailman/mysubs

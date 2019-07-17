@@ -1,0 +1,139 @@
+Subject:Tech Resources: The latest and greatest from The Register
+   The Register
+   Tech Resources
+
+      17 October 2012
+
+                     Check out our other feeds and services:
+
+                       http://www.theregister.co.uk/Design/page/feeds.html
+
+   Hello braun as Welcome to this Tech Resources update from The Register
+
+   Backup and Recovery of Large-scale VMware Environments
+   http://whitepapers.theregister.co.uk/d/99e/5613a/4f1/2e99d74a?td=3Dm_wpe=
+_h
+
+      Organizations begin with IT-based applications residing in the data
+      center and, after discovering the benefits and becoming more
+      comfortable with the technology, they begin to expand virtualization
+      deployments. As they start virtualizing user-facing applications, new
+      challenges arise.
+
+      For those applications, consolidation is not the focus; high
+      availability and data protection are. As a result, any task that limi=
+ts
+      productivity or scalability, such as I/O-intensive backup, must be
+      examined carefully.
+
+      Traditional backup processes aren't always the best solution in virtu=
+al
+      deployments. They weren't built for the extreme data redundancy and
+      hefty server loads of consolidated environments.
+
+Unified Storage Consolidation for Microsoft Windows Installations
+http://whitepapers.theregister.co.uk/d/9d4/5613a/4f1/6ce0253f?td=3Dm_wpe_h
+
+   Unified storage is infrastructure that supports multiple types of
+   storage within a single management framework. In an ideal scenario, an
+   admin can access a single set of tools and functions that are
+   transparent to the type of storage used.
+
+   The specific business case analysis detailed in this paper compares a
+   base case of a varied number of storage solutions with a unified
+   storage solution for a Wikibon Reference Organization with revenues of
+   $250 million, 1,000 staff, and an IT budget of $7.5 million.
+
+Many devices, one policy
+http://whitepapers.theregister.co.uk/d/a00/5613a/4f1/63468e8e?td=3Dm_wpe_h
+
+   Regcast exploring whether a single security policy is possible.
+
+Planning a Move to the Cloud
+http://whitepapers.theregister.co.uk/d/a11/5613a/4f1/e3ecd96f?td=3Dm_wpe_h
+
+   Cloud Computing is a paradigm shift that sees the dawn of a new age of
+   computing driven by distinct benefits. Given the undeniable value to be
+   gained from a move to Cloud Computing, it is hardly surprising that
+   many organizations are contemplating a shift "to the Clouds".
+   Experience has shown however that organizations are concerned around
+   the logistics of the move and worried about unintended consequences and
+   problems.
+
+   In this paper we describe three broad areas that organizations need to
+   think about when moving to the Cloud: technical, internal and external.
+
+   Within these three areas we highlight specific topics that
+   organizations should understand prior to a move to the Cloud.
+
+Running a Business on the Cloud
+http://whitepapers.theregister.co.uk/d/a12/5613a/4f1/602caf2b?td=3Dm_wpe_h
+
+   The move from traditional IT to Cloud Computing is a massive
+   opportunity for an IT department to add value to the organization it
+   serves. As with any major technology shift however, this change also
+   introduces challenges that need to be proactively managed.
+
+   When management is faced with a shift to Cloud Computing, there are
+   three areas that need to be assessed to ensure they are ready for the
+   opportunities and challenges that accompany the move, which are
+   identified in this paper.
+
+   - Planning for Shifting IT Responsibilities - Developing New Skills -
+   Recruitment, Training, Hiring and Retention of Cloud Professionals
+
+   Armed with the information in this paper, management will be
+   sufficiently aware of specific areas to look at and should be able to
+   greatly lessen the problematic business impacts of a move to the Cloud.
+
+Securing the Mobile App Market
+http://whitepapers.theregister.co.uk/d/a1b/5613a/4f1/9a2ac7b8?td=3Dm_wpe_h
+
+   The emergence of mobile applications has fundamentally changed the way
+   that millions of people around the world work, play, and communicate.
+   Users can now download every type of application imaginable - from
+   games, to maps, to movie and TV show tie - ins, to apps that will turn
+   a device into a flashlight, and more-directly to their smart phones and
+   other mobile devices.
+
+   Though the market for mobile apps is still relatively young, it has
+   grown exponentially over the past several years and will continue to
+   expand rapidly. Fueled by millions of consumers and business users
+   looking for innovative applications, this explosive growth presents a
+   tremendous opportunity for software developers looking to create - and
+   monetise - the next hit app to help people be more productive, or
+   simply have fun.
+
+   But developers aren't the only ones looking to profit from the surge in
+   apps - cybercriminals want to infect and exploit as many mobile devices
+   as they can to steal confidential information. Infected apps are not
+   only a threat to mobile device users, but also to network and platform
+   providers, device manufacturers,and the reputation of the industry as a
+   whole.
+
+   Fortunately, developers can protect their code - and their customers -
+   with a straightforward and easy-to-manage technology: code signing
+   certificates. This white paper will detail the rise of mobile
+   applications and why code signing certificates are essential to
+   protecting the entire mobile apps ecosystem.
+     __________________________________________________________________
+
+Terms and Conditions
+
+   By downloading any of the papers, or by watching for any of the live or
+   on-demand events above, you agree that your supplied personal details
+   will be passed on to the sponsor of the paper/event, and that this
+   organisation may contact you in the future with further information
+   about their products and services. You can request a stop to such
+   communications at any time.
+     __________________________________________________________________
+
+   To change your preferences, including which topics you see in these
+   emails, visit the following URL:
+
+     http://account.theregister.co.uk/register/
+
+   Or if you just want to quickly unsubscribe from ALL Reg mailings, use
+   this:
+
+     http://account.theregister.co.uk/unsubscribe/352570/0e7cc08c

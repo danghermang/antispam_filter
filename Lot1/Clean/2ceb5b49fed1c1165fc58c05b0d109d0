@@ -1,0 +1,55 @@
+Subject:Re: [Flexradio] Weird BPSK31 Behavior
+Sorry to QRM the group with my emails on this problem.
+
+Think I stumbled on the issue - seems the PSDR Transmit Filter was set to
+high=3100, low=200.  I changed it to 2100 and 200 and again have a clean
+signal.
+
+Really not sure what it was before the problem occurred, so would still
+appreciate hearing from the experts as to whether I need to redo something
+in the master PSDR database or something.
+
+73, Tom
+K1FR
+
+-----Original Message-----
+From: FlexRadio [mailto:flexradio-bounces@flex-radio.biz] On Behalf Of TM
+Sent: Sunday, October 21, 2012 9:20 AM
+To: flexradio@flex-radio.biz
+Subject: [Flexradio] Weird BPSK31 Behavior
+
+I am suddenly experiencing a new problem with my Flex 3000 on PSK.
+Everything has been nominal until this morning.  Now, instead of a nice
+clean transmit signal on the screen, I have what appear to be two main
+spikes.  One is the intended frequency and normal strength.  The second is
+considerably lower in strength (40 or more db) and shifted about 1 KHz up in
+frequency.
+
+The only things that changed are:
+1.  An unexpected and unexplained Windows shutdown and restart (Win 7 64 pro
+on a late model i7 machine).  I know PSDR is not supposed to be shut down in
+that manner and wonder if something fouled up there?
+
+2. Last night I installed and used SDR Memory.  That seemed to work fine.
+
+Appreciate any help/inputs.
+
+73, Tom
+K1FR
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage:
+http://www.flexradio.com/
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

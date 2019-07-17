@@ -1,0 +1,58 @@
+Subject:Re: Debian Wheezy tarda mucho en cargar el sistema.
+El Thu, 06 Sep 2012 13:16:11 -0430, José Maldonado escribió:
+
+> Hola a todos tengo una pregunta general, luego podre ofrecerles
+> información más detallada del problema, he aquí el caso:
+> 
+> Tengo Debian Wheezy instalado sobre un Dual Core 2.0Ghz, 2GB de Ram DDR2
+> 800 Mhz, una tarjeta madre Biostar P4M890-M7, un disco duro de 80 GB
+> (/boot, /, /home) y otro de 160 GB (/Datos), 
+
+Tienes unos componentes sobrados, no creo que se un problema de hardware. 
+Sigamos...
+
+> el problema es que desde hace una semana que realice una actualización
+> que incluía nuevo kernel, lightdm y un nuevo kmod, he visto que mi
+> sistema se ha ralentizado y ha llegado al punto que a veces simplemente
+> no funciona, teniendo que reiniciar para que cargue el sistema
+> completamente. 
+
+Ese "no funciona" me sabe a poco. Cuando dices que no funciona ¿quieres 
+decir que no es capaz de iniciar el sistema? Si es así ¿en qué estado se 
+queda? ¿llegas a ver el gestor de sesiones?
+
+Si lo que dices es que notas lento el equipo, eso ya es otra cosa 
+diferente. Cuando te pase, ejecuta un "top" para ver si hay algún proceso 
+que esté monopolizando de los recursos (CPU y/o RAM).
+
+> El problema es que esto se presenta de forma intermitente, ¿A alguien
+> le ha pasado esto? 
+
+Pues no, la verdad, no me ha pasado, la wheezy que tengo inicia siempre
+y con un hardware mucho más flojo. Tampoco noto especialmente lento el 
+entorno y tengo gnome3+gnome-shell en un netbook con micro atom (es 
+decir, el hardware que tengo es más flojo que el tuyo).
+
+> Se que no es mucha información (luego la paso ahora estoy en mi
+> trabajo) pero les dejo alguna información sobre mi sistema, para que
+> tengan al menos una pequeña idea de que puede ser o que podría estar
+> causando problemas.
+
+Si sospechas de alguna actualización que hayas hecho puedes volver a 
+cargar el kernel anterior (que supongo no habrás eliminado) a ver si 
+notas alguna diferencia.
+
+Otra cosa que podrías probar es a crear un usuario nuevo y trabajar 
+durante unas horas desde ahí para ver si experimentas la misma lentitud.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2csfd$bte$2@ger.gmane.org
+

@@ -1,0 +1,106 @@
+Subject:Re: [OT] Esconder params de un POST request
+"Gonzalo Rivero" <fishfromsalta@gmail.com> escribi=F3:
+
+> El lun, 22-10-2012 a las 13:14 -0400, islanis@infomed.sld.cu escribi=F3:
+>> Hola amigos quer=EDa preguntarles a lo mejor alguno de ustedes tiene
+>> alguna forma de hacerlo, estoy haciendo un sistema que hace peticiones
+>> de de autorizaci=F3n http a una direcci=F3n pero cuando miro con el
+>> firebug puedo ver los par=E1metros de las variables username y password
+>> y eso seria una fuga cualquiera que tenga firebug podr=E1 ver estos
+>> datos, esta es la rutina que uso es esta:
+>>
+>> function codificar_entrada(user, pass) {
+>> =09var tok =3D user + ':' + pass;
+>> =09var hash =3D Base64.encode(tok);
+>> return "Basic " + hash;
+>> }
+>>
+>>
+>> //-------------------------------------------------------------|
+>> OpenLayers.Request.issue({
+>>          async: false,
+>> =09=09url: "/geoserver/j_spring_security_check",
+>> =09=09scriptTag: true,
+>> =09=09headers : { Authorization : codificar_entrada('admin','12') },
+>>          method: "POST",
+>>          params: {
+>> =09=09=09=09username: "admin",
+>>                  password: "12"
+>>          }
+>> });
+>>
+> no entend=ED, admin y 12 est=E1n dentro del c=F3digo o vienen de alg=FAn
+> formulario?
+> Si es lo primero (parte del c=F3digo, tal como se ve aqu=ED) entonces pod=
+=E9s
+> codificarlo por afuera con algo mas complicado que base64, por ejemplo
+> md5 o sha256. Entonces headers te quedar=EDa algo como:
+> headers : { Authorization :
+> bbbc17c2f7b032727ff15ae32181171a93da5fe3a92ae09318193281b4361e46
+Pero no es la complejidad sino que os datos se ven desde la consola =20
+del firebug, y es lo qeu queiro corregir, , o sea, lo que esta dentro =20
+de params, es deccir, username y password
+
+params: {
+  username: "admin",
+  password: "12"
+}
+
+y lo que quiero es que eso no se pueda ver, de todas formas si tienes =20
+esas librer=EDas porfa env=EDamelas tambi=E9n para comejizar mas el sistema,=
+ =20
+dime si ya entendiste lo que quiero
+>
+>
+>> Ac=E1 ven que lo que pongo en el header lo codifico pero lo que esta en
+>> los params simplemente se ve en la peticiones http con el firebug y es
+>> lo que quiero arreglar.  gracias de antemano
+>>
+>> ----------------------------------------------------------------
+>> This message was sent using IMP, the Internet Messaging Program.
+>>
+>>
+>> --
+>>
+>> Este mensaje le ha llegado mediante el servicio de correo =20
+>> electronico que ofrece Infomed para respaldar el cumplimiento de =20
+>> las misiones del Sistema Nacional de Salud. La persona que envia =20
+>> este correo asume el compromiso de usar el servicio a tales fines y =20
+>> cumplir con las regulaciones establecidas
+>>
+>> Infomed: http://www.sld.cu/
+>>
+>>
+>
+>
+> --
+> (-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/1350926574.2528.29.camel@EeePC.ucasal.ar
+>
+>
+
+
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121022133127.142334nfqajg1fy8@webmail.sld.cu
+

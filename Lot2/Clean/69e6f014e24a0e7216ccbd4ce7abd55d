@@ -1,0 +1,47 @@
+Subject:Re: Debian/ w530 & sortie VGA
+Le Wed, 17 Oct 2012 09:08:07 +0200,
+jerome moliere <jerome.moliere@gmail.com> a écrit :
+
+> Bonjour a tous,
+> je me permets de venir vers  vous car sur mon nouveau lenovo (w530)
+> ou j ai installe une squeeze et une siduction , sur les 2 distros et
+> quel que soit le WM entre KDE/gnome et lxde/xfce je n ai aucune
+> sortie VGA operationnelle...
+> Sur la squeeze aucune sortie VGA listee par xrandr
+> Sur siduction VGA2 listee mais aucune image sur un video projecteur
+> quand je le connecte (malgre les tentatives de basculement avec FnF7)
+> comment puis je avancer sur ce souci car un portable qui ne permet
+> pas de projeter c est moyen...
+> 
+> 
+> merci a vous
+> J.MOLIERE - Mentor/J
+> auteur Eyrolles
+> blog: http://romjethoughts.blogspot.com
+> OSGi book available now!!!
+
+
+bonjour,
+
+	serait il possible de vérifier le couple résolution et fréquence
+	supportée par le vidéo projecteur ?
+
+	autrement, est il possible de faire des essais avec une
+	knoppix adriane ?
+
+	et pour conclure, serait ce du radeon comme GPU et donc dans ce
+	cas, prière de se reporter sur un fil précédent se raportant à ce
+	défaut ...
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121017093201.3c04be69.bernard.schoenacker@free.fr
+

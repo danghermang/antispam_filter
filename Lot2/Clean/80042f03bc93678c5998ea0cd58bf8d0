@@ -1,0 +1,366 @@
+Subject:Re: [MG] Requirements in regard to split opinion formation
+Thomas, Slash, Wolfgang and Marc,
+
+Thomas von der Elbe said:
+> We are talking about the same and we have the same goal, believe it
+> or not. :-)
+
+Maybe we don't see it because I asked too precise a question?  My
+question doesn't cover all aspects of opinion forming, but leaves out
+many that are important to the process.  Maybe this gives folks the
+impression that I think little of formal argumentation (Slash) or
+social structuring (Marc).  Not so!  I understand these are crucial to
+the process.  So please let me rephrase my question in those terms.
+What I'm asking is, "Isn't opinion expression *equally* important?"
+
+
+Slash said:
+> My 2 cents: Basically it's worth it a try and everyone can and is
+> supposed to do what he wants. My personal view, however, is, that it
+> would be more real transparent, if the end results of such
+> developments were stressed.  The way up to these end results often
+> contains information, which consist of mistaken assumptions and so
+> are practically 'noise'.  That's why I think that truthmapping.com's
+> approach is very interesting: http://youtu.be/T8XgPDs_pHc
+
+Thomas von der Elbe replied:
+> Slash, you must be misunderstanding Mike. In his wording the
+> developments which lead to the end results would be the discussion
+> which leads to consensus. And I know, you don't see the discussion
+> as noise.
+
+But the discussion *would* be noise if it weren't supported by some
+kind of formal argumentation.  Any process that lacks that support is
+likely to be meaningless.  So I think Slash is right.
+
+But Thomas is also right, because I don't suggest leaving out formal
+argumentation.  (And in practice, we always include it.)
+
+Slash said:
+> But nevertheless, of course, I think that this intersteps [opinion
+> expression] still should be accessable for the geeks being keen on
+> the discussion and having the time to dive that deep into the
+> discussion.
+
+I wouldn't say the same of formal argumentation.  I would say it is
+crucial and indispensable for almost everyone.  It simply *must* be
+accomodated by the platform or the results will be garbage.  But
+likewise I think for opinion expression; it too must be accomodated.
+Please see my reasons below, and tell me if you agree, or disagree.
+
+
+Wolfgang said:
+> Mir ist durchaus bewusst, dass sich der Trend zu einer solchen
+> strukturierten Arbeitsweise nur m=FChsam durchsetzt. Aber mir scheint
+> sonnenklar, dass alle die ebenso m=FChsamen Versuche mit dem
+> "delegated voting" letztlich nur auf eine Transformation der
+> repr=E4sentativen Demokratie hinauslaufen - also untauglich zur L=F6sung
+> der gesellschaftlichen Probleme sind...
+> =
+
+> Deshalb halte ich es f=FCr wichtig, die tiefere Strukturierung von
+> Argumenten und Bewertungen von Anfang an in die internationale
+> Diskussion einzubringen. =
+
+> =
+
+> Was haltet ihr davon? =
+
+
+I value your opinion, Wolfgang, but I don't trust Google translate
+here.  (Is Wolfgang giving a thumbs up, or thumbs down?  :-)
+
+
+Marc said,
+> Opinion formation - as you described it - is a process over one's
+> mind, right?  What about groups?  Do they have a collective opinion
+> formation process also?
+
+Yes, groups definitely form opinions.  Groups are a social structure
+and social structuring is another crucial aspect of opinion forming.
+It must be accomodated by the platform, or I think the process will
+collapse under its own weight.
+
+> > Again, I'm interested in the views of anyone in the group.  What
+> > do you think of this notion of opinion expression?  Is it good,
+> > bad or just plain ugly?  ;^)
+> =
+
+> IMHO it is one part of the puzzle and the basics needs to be
+> reflected somehow in the domain model standardization. But the
+> details are to be handled by the plug-ins or individual
+> implementations. So I think that can be addressed by
+> =
+
+> participant has opinion
+> group consits of participants
+> group has position
+> =
+
+> And of course, the process to get to a groups position is far more
+> complex ;o)
+> =
+
+> What do you think?
+
+Yes, that seems right for the model.  At least it does not contradict
+any working implementations that I know of.
+
+But there are details that cannot be handled independently by the
+plug-in implementations, as you suggest.  The problem of split opinion
+formation, which I hope we can discuss, affects all opinion expression
+tools together.  It therefore goes beyond individual tool projects.
+They need outside help in order to solve it.  So I'm looking for help.
+Only I'm not not quite sure this is the right group to ask.
+
+Imagine a potential user approaches the group asking about the toolkit
+you're designing.  She (or he) asks,
+
+   * Where do I express my own opinion on this platform?
+
+   * Where can I see the individual opinions of others?
+
+   * Where can I see the overall shape of collective opinion that
+     we're building together?
+
+   * Where can I see how my own efforts are helping to shape it?
+
+She is asking for a facility of opinion expression, as I call it; one
+that reveals a "picture" having these basic elements:
+
+
+  (2)                  my opinion (one dot)
+             ....         |
+          ..........      V
+        ..............   ....  -+
+       .......................  |  dissensus, or
+       ......................   |  budding counter
+        .............   ....    |  consensus here =
+
+          ..........           -+
+             ...
+      |               |
+      +---------------+
+       rough consensus =
+
+          over here
+
+
+Here we see individual opinion (one dot), collective opinion (whole
+picture) and some sense of how they all interrelate.  This is a very
+crude illustration - no tool is likely to look quite like this - but
+these are the essential *kinds* of information that are revealed.  You
+don't see any formal argumentation or social structuring here, partly
+because I don't have time or space to draw them, and partly because
+the tool is not absolutely required to show them (though the one we
+develop *does* show them, as Thomas says).
+
+> > I think it's possible to go very far indeed.  But I wonder if
+> > there's a place in it for the particular kind of technology I work
+> > on, and the personal concerns that I have?
+> =
+
+> What make you think that this might not be the case?  As far as I
+> know your concerns are tightly coupled to Votorola, aren't they?
+> ... And as far as I understand in our discussion on the 'opinion
+> formation' thread we are very close to eachother, aren't we?
+>
+> But I definitely want to learn more about your concerns and how you
+> think they can match with the ones of our working group and even all
+> other projects around...
+
+You say that opinion expression is "one part of the puzzle".  Do you
+think it's an essential part, now that I explain my meaning better?
+And others, what do they think?
+
+For my part, I promise soon to explain where my own work fits in.
+Alex is kind in inviting us to speak, but I'm afraid I would waste
+your time (and mine) with something that does not concern you.
+
+Thank you for answering so patiently,
+
+Michael
+
+
+Slash said:
+> My 2 cents:
+> Basically it's worth it a try and everyone can and is supposed to do what
+> he wants. My personal view, however, is, that it would be more real
+> transparent, if the end results of such developments were stressed.
+> The way up to these end results often contains information, which
+> consist of mistaken assumptions and so are practically 'noise'.
+> That's why I think that truthmapping.com's approach is very
+> interesting:
+> http://youtu.be/T8XgPDs_pHc
+> =
+
+> But nevertheless, of course, I think that this intersteps still should
+> be accessable for the geeks being keen on the discussion and having
+> the time to dive that deep into the discussion.
+> =
+
+> Greetings,
+> / aka Oliver
+
+
+Schallehn@t-online.de said:
+> Hallo Marc, =
+
+> =
+
+> 	es tut mir leid, dass ich mich so abrupt aus dem Mumble verabschieden
+> musste. =
+
+> =
+
+> 	Aber das Ergebnis ist doch recht erfreulich! =
+
+> =
+
+> 	Ebenso erfreulich finde ich Deine Korrespondenz mit Michael Allan. =
+
+> =
+
+> 	Englisch scheint wieder mal vieles einfacher und klarer. =
+
+> =
+
+> 	Da mein aktives Englisch zu schwach ist, m=F6chte ich Dir meine
+> Beitr=E4ge anvertrauen. =
+
+> =
+
+> 	Du schriebst (was ich als Grundger=FCst verstanden sehen m=F6chte!): =
+
+> =
+
+> 	> participant has opinion
+>  > group consits of participants
+>  > group has position =
+
+> =
+
+> 	Was aber ist "position" (dt. Standpunkt) ?? =
+
+> =
+
+> 	Die bisher =FCbliche Vorstellung sehe ich so, dass position
+> (=3D"Standpunkt einer Gruppe") durch eine Menge von Aussagen
+> repr=E4sentiert wird, =FCber die in der Gruppe Konsens oder zumindest
+> KonsenT besteht. =
+
+> =
+
+> 	Das ist mMn in mehrfacher Hinsicht zu eng. Eine partizipative
+> Willensbildung muss mMn differenzierter vorgehen und das bisher
+> =FCbliche "Wegb=FCgeln" ganz bewusst vermeiden:  	*Standpunkt/position
+> bezieht sich immer auf das Paar Gruppe<-->Thema. Jede Gruppe kann zu
+> mehreren unterschiedlichen Themen "Standpunkte" haben. (Zu den meisten
+> Themen wird die Gruppe keinen Standpunkt haben. Muss das gesagt
+> werden?)
+>  	*Standpunkt/position besteht immer aus einer Menge von Kernaussagen
+> (key aspect statements?), die durchaus auch in der Gruppe
+> unterschiedlich bewertet werden:
+> =
+
+>  	*Kernaussagen, die von allen Gruppenmitgliedern bejaht sind
+> (klassischer Konsens),
+>  	*Kernaussagen, die von der Mehrheit bejaht und von niemand
+> entschieden widersprochen werden (KonsenT)
+>  	*Kernaussagen, die von der Mehrheit bejaht und von einer Minderheit
+> (entschieden) abgelehnt werden. Dazu sollte in der Dokumentation
+> ausdr=FCcklich gesagt werden, ob die Minderheit dennoch die
+> Mehrheitsaussagen mit tr=E4gt (was der Normalfall sein sollte), oder ob
+> das Minderheitsvotum als solches dokumentiert werden soll was
+> nat=FCrlichlich als Kristallisationspunkt f=FCr sp=E4tere Entwicklungen
+> wertvoll sein kann!
+>  	*Kernaussagen, die mehrheitlich abgelehnt werden. Dabei ist zu
+> unterscheiden, ob es sich um einen Arbeitsentwurf handelt, wo die
+> Ablehnung eine =DCberarbeitung nach sich zieht, um zu einer
+> konsensf=E4higen Formulierung zu kommen.
+>  Oder ob es sich um eine Kontraposition zu anderen Gruppen handelt,
+> die deutlich betont werden soll.(Das w=E4re dann "Konsens in der
+> Ablehnung").
+> =
+
+> 	Nat=FCrlich ist Intention jeder Standpunktbildung (position forming),
+> eine tragf=E4hige Menge gemeinsamer Aussagen herauszuarbeiten. Aber ich
+> sehe in jedem Politikfeld einzelne kritische Punkte, wo kontr=E4re
+> Sichten durchaus ihre Berechtigung haben. Und man landet automatisch
+> in Machtspielen oder in Selbstbetrug, wenn man diese so oder so
+> wegb=FCgelt! =
+
+> =
+
+> 	Dass diese Sicht mMn zum Herausstellen von Kernaussagen und zu deren
+> differenzierter Bewertung (5-wertig!?!) zwingt(!), sei hier nur f=FCr
+> die Leser eingef=FCgt, die die bisherige Diskussion =FCber den
+> qualifizierten Konsens nicht kennen. =
+
+> =
+
+> 	Mir ist durchaus bewusst, dass sich der Trend zu einer solchen
+> strukturierten Arbeitsweise nur m=FChsam durchsetzt. Aber mir scheint
+> sonnenklar, dass alle die ebenso m=FChsamen Versuche mit dem "delegated
+> voting" letztlich nur auf eine Transformation der repr=E4sentativen
+> Demokratie hinauslaufen - also untauglich zur L=F6sung der
+> gesellschaftlichen Probleme sind... =
+
+> =
+
+> 	Deshalb halte ich es f=FCr wichtig, die tiefere Strukturierung von
+> Argumenten und Bewertungen von Anfang an in die internationale
+> Diskussion einzubringen. =
+
+> =
+
+> 	Was haltet ihr davon? =
+
+> =
+
+> 	Gru=DF! =
+
+> =
+
+> 	Wolfgang
+
+
+marc said (in other thread):
+> Michael Allan schrieb
+> > I think it's possible to go very far indeed.  But I wonder if there's
+> > a place in it for the particular kind of technology I work on, and the
+> > personal concerns that I have?
+> =
+
+> What make you think that this might not be the case?
+> As far as I know your concerns are tightly coupled to Votorola, aren't th=
+ey?
+> =
+
+> > Those are the questions I ask in the
+> > other thread.  Because if there *is* a place, then I would definitely
+> > be willing to shoulder my share of the workload.  :-)
+> =
+
+> And as far as I understand in our discussion on the 'opinion formation' =
+
+> thread we are very close to eachother, aren't we?
+> =
+
+> But I definitely want to learn more about your concerns and how you think =
+
+> they can match with the ones of our working group and even all other =
+
+> projects around...
+> =
+
+> Cheers
+> Marc =
+
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metag=
+overnment.org

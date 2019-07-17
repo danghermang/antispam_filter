@@ -1,0 +1,73 @@
+Subject:Re: Instalar FirebirdCS-2.5.2.26536-0.RC1.i686.tar.gz en squeeze
+2012/9/17 Ismael L. Donis Garcia <ismael@citricos.co.cu>:
+
+>> Si usas la CS no hay servidor que iniciar, es inetd quien se encargar
+>> de escuchar el puerto y levantar un proceso que atienda la conexi=F3n.
+
+Tal vez no fue claro mi comentario. Si usas CS (classic server) no hay
+un una instancia visible de un proceso que "parezca" ser firebird. Lo
+que habr=E1 es una instancia de inetd (o xinetd seg=FAn el caso) y tendr=E1
+"agarrado" el pto 3050.
+
+Pregunto nuevamente =BFse est=E1 ejecutando el openbsd-inetd? =BFAl menos
+est=E1 instalado?
+
+> Ese es el hecho que no te contesta desde localhost, ni desde ninguna part=
+e.
+
+Aun cuando no est=E9 ejecut=E1ndose un proceso de firebird si ejecutas
+isql puedes manipular las bases de datos. Si puedes hacer esto,
+significa que firebird est=E1 bien instalado.
+
+> Y si das la opci=F3n: ps aux desde una terminal ves que no est=E1 correin=
+do el
+> servicio.
+
+=BFQu=E9 servicio?
+
+> De hecho ya logr=E9 hacerlo funcionar a mano con la instrucci=F3n:
+> /opt/firebird/bin/fb_inet_server -s DefaultInstance -m
+
+Con esto lo que haces es ejecutar la versi=F3n SS (super server).
+
+> Pero lo que deseo es que se inicie cuando se inicie la PC. Y no tenerlo q=
+ue
+> inicial a mano, ya que de esta forma no me sirve.
+
+Creo que no voy a poder darme a entender entonces te paso la receta y listo
+
+> Ahora lo que necesito conocer donde y como se configuran los servicios en
+> Debian para que inicien al iniciar la PC. Sin haberse logueado con un
+> usuario.
+
+Si quieres usar la versi=F3n CS debes instalar openbsd-inetd, si quieres
+la versi=F3n SS ejecuta esto:
+
+# ln -s /opt/firebird/misc/firebird.init.d.debian /etc/init.d/firebird
+# chmod +x /etc/init.d/firebird
+# update-rc firebird defaults
+
+> Alguien de la lista me podr=EDa dar una ayudita en esto?
+
+La versi=F3n SS y CS no son exactamente iguales y puedes tener problemas
+si no configuras bien el servidor.
+
+> PD: Mientras seguir=E9 investigando.
+
+Revisa la diferencia entre CS y SS, lo que hace el "superdemonio"
+inetd, y el "sistema de arranque System V"
+
+--=20
+ Saludos,
+ PP
+
+Ofertas y descuentos en http://gplia.com/C4kls
+M=E1s ofertas en http://www.groupon.com.mx/in/.gG7NHg?nlp
+Y mas http://www.clickonero.com.mx/?ref=3Dd2rztcyxm9r
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAGYn=Y2j6GkJqtPwJQhUNR8OYZpcDqHYF7k3VH-R+P7xQm7heA@mail.gmail.com
+

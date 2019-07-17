@@ -1,0 +1,25 @@
+Subject:bloquer la mise =?UTF-8?B?w6A=?= jour d'un paquet
+bonjour,
+
+	je souhaitrerai bloquer la mise à jour d'un paquet via les
+	(pin) préférences mais je me débrouille comme un manche
+
+	cat /etc/apt/preferences.d/Qcad
+	Package: qcad
+	Pin: release o=Debian,a=testing,l=Debian
+	Pin-Priority: 100
+
+	qu'est ce que je fait en mal ?
+
+	slt
+	bernard
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121122191944.346ec88a.bernard.schoenacker@free.fr
+

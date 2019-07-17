@@ -1,0 +1,43 @@
+Subject:Re: Plus de boot graphique auto au =?ISO-8859-1?Q?d=E9marrage?=
+Le vendredi 31 août 2012 à 07:59 +0000, Tanguy Ortolo a écrit :
+> > Le xorg.conf n'est pas obligatoire, X fonctionne sans lui et si on
+> en a vraiment besoin, le driver en fabrique un à la fin de la compil. 
+
+C'est pas vraiment ça. Il suffit de regarder
+dans /usr/share/X11/xorg.conf.d pour comprendre.
+
+Avec la manière "moderne", comme pour les autres configurations, on
+éclate la conf dans des fichiers différents pour permettre de la
+souplesse nécessaire au "plug'n play". De nos jours on a souvent des
+ordinateurs à plusieurs écrans, une télé ou un projecteur que l'on
+branche sur son portable, différents dispositifs de pointage genre
+tablette graphique etc. etc.
+
+On pourrait utiliser plus directement les règles udev, mais c'est bien
+plus simple comme ça, il suffit de créer ce type de fichiers
+dans /etc/X11/xorg.conf.d pour modifier les confs
+
+Dans l'ordre de priorité, xorg charge les configurations depuis :
+
+1) Les fichiers de /usr/share/X11/xorg.conf.d s'ils existent
+2) Les fichiers de /etc/X11/xorg.conf.d/ s'ils existent
+3) Le fichier de conf statique /etc/X11/xorg.conf s'il existe
+
+Pour ne pas laisser d'ambiguité, /etc/xorg.conf est donc prioritaire et
+surcharge toute les autres configurations. On peut l'utiliser sans
+problème en dehors du manque de souplesse évident pour les systèmes à
+géométrie variable.
+
+Au passage, c'est intéressant de jeter un œil dans ces fichiers et dans
+la doc pour voir l'évolution de la syntaxe et des possibilités.
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1346414679.30447.17.camel@jisui.aranha
+

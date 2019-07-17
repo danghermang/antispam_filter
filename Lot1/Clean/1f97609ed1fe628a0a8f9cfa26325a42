@@ -1,0 +1,31 @@
+Subject:Re: Consulta Locking device
+El Thu, 13 Sep 2012 10:42:10 -0500, Edwin Dlca escribió:
+
+(ese top-posting...)
+
+> Saludos a todos. Lo del script en php no debe haber problema ya que en
+> el script segun recuerdo no abres ni cierrar el puerto en ningun
+> momento, eso lo hace gammu internamente.
+
+(...)
+
+¿Se trata de un script prediseñado? Pensaba que era casero, de 
+fabricación propia...
+
+En cualquier caso, si el script no realiza ninguna preparación de los 
+puertos USB y hace una llamada directa al binario de gammu lo que tiene 
+tendría que asegurar es que el script abre y cierra el programa 
+correctamente. Si gammu se queda pillado, el puerto USB gestionado por 
+éste también puede quedarse colgado.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2t087$jks$9@ger.gmane.org
+

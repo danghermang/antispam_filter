@@ -1,0 +1,23 @@
+Subject:Re: Software, herramienta para encriptar y desencriptar un md5
+2012/11/29  <academia@pinarte.cult.cu>:
+>
+> Hola lista. Necesito alg=FAn software, herramienta (o c=F3mo desde una
+> terminal) poder encriptar y desencriptar un md5.
+>
+
+Mande...
+
+man md5
+
+--=20
+usuario linux  #274354
+normas de la lista:  http://wiki.debian.org/es/NormasLista
+como hacer preguntas inteligentes:
+http://www.sindominio.net/ayuda/preguntas-inteligentes.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAAiZAx7D5d0ULqHXPi5efJvfW_AcqNw-c6E7H1BppMsKPuPdig@mail.gmail.com
+

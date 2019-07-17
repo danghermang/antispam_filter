@@ -1,0 +1,38 @@
+Subject:Re: libgl1-nvidia-glx:i386
+El Wed, 05 Dec 2012 13:04:14 -0300, Walter O. Dari escribió:
+
+> El 05/12/12 12:23, Camaleón escribió:
+
+(...)
+
+>> de todas formas, hay un paquete de "transiciÃ³n" aquÃ­:
+>>
+>> http://packages.debian.org/wheezy/ia32-libs
+>>
+>>> Por eso es por lo que recomiendo pasar del paquete de 64 bit e
+>>> instalar el original de 32.
+>>
+>> Realmente no hay paquete de 64 bits puro, pero si el paquete pide una
+>> dependencia que no es posible satisfacer, habrÃ­a que informar al
+>> empaquetador (que es Google en este caso) para que lo corrija.
+> 
+> Casualmente, ayer no pude instalar google-earth 64 bits en Wheezy,
+> instalé lsb-core sin problemas pero ia32-libs fue imposible.
+
+¿Y no lo pudiste instalar por algún motivo en concreto? Es decir, ¿te 
+aparecía algún error o conflicto cuando lo marcabas? 
+
+Si hay algún error hay que informar porque el problema no se va a 
+solucionar por sí solo :-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k9ns8o$th8$10@ger.gmane.org
+

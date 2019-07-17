@@ -1,0 +1,109 @@
+Subject:Re: Acceder como root en gnome
+El lun, 08-10-2012 a las 20:43 +0200, Javier San Rom=C3=A1n escribi=C3=B3=
+:=20
+> On Lunes, 8 de octubre de 2012 08:10:37 Liuber's Hdez=E2=88=B4 escribi=C3=
+=B3:
+> > El jue, 04-10-2012 a las 17:36 +0100, Ferran Donadie escribi=C3=B3:
+> > > * Liuber's Hdez=E2=88=B4 <hliuber@ucm.vcl.sld.cu> [2012-10-04 12:03=
+:33 +0200]:
+> > > > Hola Lista, Buenas tardes.
+> > > >=20
+> > > > Qu=C3=A9 fichero debo modificar en squeeze para accesar a gnome c=
+omo root.
+>=20
+> Liuber, en diciembre de 2011 Camale=C3=B3n y Juan Lavieri ya te contest=
+aron. Por si=20
+> no tienes accesible la respuesta, fue esto:
+>=20
+>=20
+> Edit the file and add the bold entries into it in the respective locati=
+ons:
+> /etc/gdm3/daemon.conf
+>=20
+>           [security]
+>           AllowRoot=3Dtrue
+> =20
+> Normalmente ese es el =C3=BAnico cambio que yo hac=C3=ADa ya que hace d=
+=C3=A9cadas que=20
+> no entro como root en un entorno gr=C3=A1fico no es aconsejable Liuber,=
+ pero=20
+> si es estrictamente necesario .....
+>=20
+>          [xdmcp]
+>          AllowRemoteRoot=3Dtrue
+> =20
+> Yo dejar=C3=ADa ese par=C3=A1metro en "false" ya que as=C3=AD le estamo=
+s dando acceso=20
+> al entorno gr=C3=A1fico al usuario root pero desde una m=C3=A1quina rem=
+ota, no=20
+> solo desde nuestra m=C3=A1quina local.
+> =20
+>=20
+> Now edit the file and comment out the 5th line as shown below:
+> /etc/pam.d/gdm3
+>=20
+>       #%PAM-1.0
+>       auth    requisite       pam_nologin.so
+>       auth    required        pam_env.so readenv=3D1
+>       auth    required        pam_env.so readenv=3D1 envfile=3D/etc/def=
+ault/locale
+>       #auth   required       pam_succeed_if.so user !=3D root quiet_suc=
+cess
+> =20
+> Esa es la l=C3=ADnea que hay que "descomentar", pero por lo que entiend=
+o se=20
+> relaciona con usuarios que no sean root, pero como el tutorial lo indic=
+a=20
+> as=C3=AD, habr=C3=ADa que quitar el s=C3=ADmbolo de comentario (#) al p=
+rincipio de la=20
+> l=C3=ADnea.
+> =20
+>       @include common-auth
+>       auth    optional        pam_gnome_keyring.so
+>       @include common-account
+>       session required        pam_limits.so
+>       @include common-session
+>       session optional        pam_gnome_keyring.so auto_start
+>       @include common-password
+>=20
+> Now restart the system or log out and restart gdm by doing
+> /etc/init.d/gdm3 restart and you should be good to go.  Happy linuxing!
+
+Buenas tardes, Lista.=20
+Gracias Amigo,=20
+
+Sab=C3=ADa que all=C3=AD encontrar=C3=ADa respuesta, pero me limitaron el=
+ acceso al
+archivo de la lista,=20
+
+No entiendo porque tanta euforia de algunos ac=C3=A1 en la lista,=20
+
+No soy administrador de sistema, solo tenia curiosidad por que en debian
+lenny con el entorno de kdm3 se pod=C3=ADa, pero cuando actualic=C3=A9, c=
+ambi=C3=A9 al
+entorno a gnome y tenia la duda, mi duda surgi=C3=B3 a partir de que vi u=
+n
+colega accesar como root en ubuntu en su entorno con gnome, pero esto
+para debian estaba deshabilitado.=20
+
+Mi duda puede ser la de otro, adem=C3=A1s no veo porque si alguien decide
+trabajar como root, tanta molestia, simplemente es su problema, aunque
+las alertas son validas. =20
+
+saludos,=20
+liuber's hdez.=20
+
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349708081.1655.61.camel@infobiblio.fts.local
+

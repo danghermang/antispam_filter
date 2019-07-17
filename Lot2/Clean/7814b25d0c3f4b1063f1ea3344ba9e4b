@@ -1,0 +1,71 @@
+Subject:Re: habilitar mas de 4 puertos serial
+El d=EDa 20 de noviembre de 2012 21:33, cosme <cosme@esid.gecgr.co.cu> escr=
+ibi=F3:
+>
+>  Hola
+>
+>
+> Tengo instalado debian lenny con una placa AOPEN modelo AX4BS
+>
+> la misma trae dos puertos serial donde tengo 2 respectivos modem, ademas =
+le
+> puse una tarjeta LAVA pci con 2 puertos series con 2 modem mas o sea hast=
+a
+> aqui van 4 modem todo hasta aqui me trabaja perfectamente.
+>
+> recientemente le puse un segunda tarjeta LAVA pci con 2 puertos series pa=
+ra
+> poner 2 modem mas y llegar a 6 en total
+> pero el caso es que solo me activa los primeros 4 modem los ultimos 2 no =
+me
+> los actica
+>
+> en /etc/inittab tengo esto
+> S0:234:respawn:/sbin/mgetty -n2 -s 57600 -D /dev/ttyS0
+> S1:234:respawn:/sbin/mgetty -n2 -s 57600 -D /dev/ttyS1
+> S2:234:respawn:/sbin/mgetty -n2 -s 57600 -D /dev/ttyS2
+> S3:234:respawn:/sbin/mgetty -n2 -s 57600 -D /dev/ttyS3
+>
+> pero no reconoce el S4
+> S4:234:respawn:/sbin/mgetty -n2 -s 57600 -D /dev/ttyS4
+>
+> ademas con dmseg | grep ttyS  me dice esto
+>
+> [    1.473954] serial8250: ttyS0 at I/O 0x3f8 (irq =3D 4) is a 16550A
+> [    1.474179] serial8250: ttyS1 at I/O 0x2f8 (irq =3D 3) is a 16550A
+> [    1.474847] 00:09: ttyS0 at I/O 0x3f8 (irq =3D 4) is a 16550A
+> [    1.475145] 00:0a: ttyS1 at I/O 0x2f8 (irq =3D 3) is a 16550A
+> [    1.477103] 0000:02:02.0: ttyS2 at I/O 0x9400 (irq =3D 9) is a 16550A
+> [    1.477619] 0000:02:02.1: ttyS3 at I/O 0x9800 (irq =3D 9) is a 16550A
+>
+> Que puedo hacer para que se vean como es de supone si son 6 modem del tty=
+S0
+> al ttyS5
+>
+> Salu2
+>
+>
+>
+>
+>
+>
+
+Problema del harware no de linux
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54Ya7pbnMD2ej4-K8i4AEuXf7uVFJ2C_AEK5DpVAWWEBkw@mail.gmail.com
+

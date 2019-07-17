@@ -1,0 +1,29 @@
+Subject:Re: [rlug] kernel panic :: pareri despre motiv
+Salut.
+
+Cum arata output-ul de la "free"?
+
+Incearca "sysctl vm.min_free_kbytes=1048576".
+
+Din log pare ca a ramas fara RAM+swap.
+
+Incearca sa dezactivezi si NMI watchdog-ul, cu:
+sysctl kernel.nmi_watchdog=0
+
+Un script simplu rulat din cron face minuni pentru diagnosticare:
+
+LOG=/home/diag/x
+
+free > ${LOG}.tmp
+cat /proc/meminfo >> ${LOG}.tmp
+top -b -n1 >> ${LOG}.tmp
+dmesg >> ${LOG}.tmp
+mv ${LOG}.tmp ${LOG}
+
+--
+Catalin(ux) M. BOIE
+http://kernel.embedromix.ro/
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

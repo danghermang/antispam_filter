@@ -1,0 +1,60 @@
+Subject:=?UTF-8?B?UmU6IMK/RXN0w6FuIGRlIGJyb21hIGNvbiBnbm9tZTM/?=
+2012/11/13 Javier Silva <fjsilvam@gmail.com>:
+> El d=C3=ADa 12 de noviembre de 2012 13:36, Dar=C3=ADo <darioslc@gmail.com=
+> escribi=C3=B3:
+>> Realmente no me parece demasiado importante un protector de pantalla,
+>> reflexionando un poco opino lo mismo que los desarrolladores, =C2=BFpara=
+ qu=C3=A9 un
+>> protector de pantalla? directamente que se apague despu=C3=A9s de un tie=
+mpo el
+>> monitor y listo!! en definitiva para lo =C3=BAnico que sirve es para ver=
+ cosas
+>> bonitas cuando no se usa el monitor
+
+=C2=BFNo? Ahora te explico dos motivos por los cuales s=C3=AD.
+
+>
+> Efectivamente pienso que es m=C3=A1s importante que una pantalla entre en
+> bajo consumo al poco de no utilizarla y se bloquee, a que aparezca un
+> protector de pantalla con animaciones en 3D consumiendo una energ=C3=ADa
+> importante, piensen que un monitor cuando entra en bajo consumo,
+> ahorra una media de 20W y si la tarjeta gr=C3=A1fica hace un apagado de s=
+us
+> circuitos, puede llegar a ser un m=C3=ADnimo de 20W, siempre teniendo en
+> cuenta un equipo sobremesa de medio.
+>
+> En cuanto a las modificaciones del Nautilus, no estoy muy conforme y a
+> los cambios tan continuos entre versiones tampoco. Pienso que si
+> Wheezy queda con GNOME 3.4 y ya existen diferencias entre la 3.6 y la
+> 3.8, no veo como quedar=C3=A1n las extensiones para cuando Wheezy sea
+> estable en 2013 o el resto de aplicaciones.
+>
+
+A ver, vamos a especificar. Mi pregunta no era por el tema de ahorro
+de energ=C3=ADa, que sinceramente me trae sin cuidado por el mero hecho que
+mi laptop ya lo lleva out of the box, y tanto Debian como RHEL/CentOS
+y el Windows 2008 R2 que tenia instalados previamente, lo saben/sab=C3=ADan
+gestionar.
+
+La pregunta la hac=C3=ADa por un motivo m=C3=A1s importante. La laptop la
+utilizo tanto para el trabajo como en casa. En ambos casos se produce
+el mismo problema: quiero irme a tomar un caf=C3=A9 sin que nadie meta el
+hocico en mi pantalla solo pulsando un bot=C3=B3n. Para ello siempre he
+activado el protector de pantalla con password (pantalla negra
+siempre, nada de colorines ni cosas por el estilo), am=C3=A9n de otras
+medidas de protecci=C3=B3n como encriptado de discos, etc. Y en casa lo
+mismo: cuando tienes dos ni=C3=B1os que te manejan los smartphones como el
+que enciende una TV, hay que andarse con cuidado (mi laptop no tiene
+ning=C3=BAn tipo de protecci=C3=B3n a nivel de accesos parentales y dem=C3=
+=A1s).
+
+Si esto los desarrolladores de gnome lo consideran una nimiedad, vamos
+listos. Entonces prefiero un escritorio distinto que se preocupe de
+cosas como estas ...
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAEjQA5KqTYgBAgdTRYa_ZUBxapw=4sCEJnsimb2W9=fd1eZ-JA@mail.gmail.com
+

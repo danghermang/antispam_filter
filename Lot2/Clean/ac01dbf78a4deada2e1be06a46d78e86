@@ -1,0 +1,55 @@
+Subject:Re:
+El d=EDa 8 de noviembre de 2012 12:16, Ric Fer <rmfmontes@gmail.com> escrib=
+i=F3:
+> Buenas. Mirar tengo una duda, he contratado un servidor could din=E1mico =
+y
+> tengo instalada una debian lenny. El tema es que veo que todo el sistema
+> est=E1 montado en rootfs y si no me equivoco, eso significa que est=E1 en
+> memoria y no en disco.
+>
+> Me imagino que lo tengo que hacer es crear las particiones en sda y borra=
+r
+> todo lo que hay en rootfs... =BFhay que dejar algo en roofs para que todo=
+ siga
+> funcionando bien?
+>
+> Os paso la salida de df y fdisk
+>
+> rescue:/# df -m
+> Filesystem           1M-blocks      Used Available Use% Mounted on
+> tmpfs                      497         0       497   0% /lib/init/rw
+> tmpfs                      497         1       497   1% /dev/shm
+> rootfs                     330       321        10  98% /
+>
+>
+> rescue:/# fdisk -l
+>
+> Disk /dev/sda: 100.0 GB, 100000595968 bytes
+> 255 heads, 63 sectors/track, 12157 cylinders
+> Units =3D cylinders of 16065 * 512 =3D 8225280 bytes
+> Disk identifier: 0x7ff29801
+>
+>    Device Boot      Start         End      Blocks   Id  System
+> /dev/sda1               1         523     4200966   83  Linux
+> /dev/sda2             524         785     2104515   82  Linux swap / Sola=
+ris
+> /dev/sda3             786       12157    91345590   8e  Linux LVM
+>
+>
+>
+>
+> --
+>
+
+Pues creo que estas equivocado, el rootfs nos aparece a todos y es el
+sistema ra=EDz.
+Esta montado como pone en "/"
+
+S2
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAGw=rHiHM-VU_3quuM2NAO6fTsuHdsO6ex781Ckwiyqs8vV6HA@mail.gmail.com
+

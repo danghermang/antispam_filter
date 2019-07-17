@@ -1,0 +1,34 @@
+Subject:Re: apache2 et permissions sur /var/log =?utf-8?q?mont=C3=A9?=
+	entmpfs
+Le vendredi 26 octobre 2012 =C3=A0 13:36:44, Bzzz a =C3=A9crit :
+>[=E2=80=A6]
+> Mais le PB n'est m=C3=AAme pas l=C3=A0: il-y-a qq semaines, S. Sauvage
+> a fait une r=C3=A9flexion qui laisse =C3=A0 bien r=C3=A9fl=C3=A9chir sur
+> l'opportunit=C3=A9 et l'int=C3=A9r=C3=AAt r=C3=A9el d'utiliser du SSD; il=
+ a dit
+> qu'il rencontrait des tas de PBs sur de l'embarqu=C3=A9 et que
+> m=C3=AAme pour un portable il n'=C3=A9tait pas s=C3=BBr de vouloir
+> remplacer un HD par un SSD - comme il semble bien qu'il
+> s'exprimait professionnellement, =C3=A7a serait bien qu'il en
+> remette une couche ici. [=E2=80=A6]
+
+  Je crois que tu devrais revoir ton syst=C3=A8me d=E2=80=99indexation, c=
+=E2=80=99est=20
+l=E2=80=99inverse : je disais =C3=A0 peu pr=C3=A8s la m=C3=AAme chose qu=E2=
+=80=99Yves et c=E2=80=99est=20
+Jo=C3=ABl Bertrand qui parlait de probl=C3=A8mes dans l=E2=80=99embarqu=C3=
+=A9 :
+http://lists.debian.org/debian-user-french/2012/09/msg00268.html
+
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210261355.34876.Sylvain.L.Sauvage@free.fr
+

@@ -1,0 +1,29 @@
+Subject:problema de impresion Wheezy (solucionado)
+Muchas gracias por todas las "cuerdas" que me lanzaron.
+
+Con la primera sugerencia (gracias Evgeny) dimos con la soluci=F3n,
+era tan simple que me da pena no haber tenido la luz de hacerlo
+antes de pedir ayuda a la lista.
+
+Solo tuve que agregar mi usuario a los grupos 'lp' y 'lpadmin'. Con
+eso fue suficiente para que Cups me dejara agregar la impresora
+y configurarla.
+
+
+Gracias!!
+
+
+--=20
+Ens=E9=F1ame, oh YAHWEH, el camino de Tus ordenanzas; y lo buscar=E9 contin=
+uamente.
+Dame entendimiento; entonces guardar=E9 Tu Tor=E1h con todo mi coraz=F3n.
+Gu=EDame por la senda de Tus mitzvot, porque tomo placer en ello.  Salmo
+119: 33-35
+- Linux user desde Setiembre 2004 http://counter.li.org/ #383092 -
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAFtofS50_7N6fui_puCSoycO3=qf11R2NThwOznOH1vUbWC2jw@mail.gmail.com
+

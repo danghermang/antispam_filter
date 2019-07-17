@@ -1,0 +1,34 @@
+Subject:[svnbook] r4292 committed - Change to README (in the repository root
+ directory)...
+Revision: 4292
+Author:   richardcavell@mail.com
+Date:     Sun Sep  2 07:34:09 2012
+Log:      Change to README (in the repository root directory)
+
+"Version Control With Subversion" -> "Version Control with Subversion"
+
+The Subversion book title, on the very first page, is spelled with a  
+lowercase 'W'.  It is conventional that certain common words be lowercase  
+in book titles.
+
+
+http://code.google.com/p/svnbook/source/detail?r=4292
+
+Modified:
+  /README
+
+=======================================
+--- /README	Thu Aug 11 10:37:34 2011
++++ /README	Sun Sep  2 07:34:09 2012
+@@ -1,5 +1,5 @@
+  This is the source code repository for "the Subversion book", also
+-known as "Version Control With Subversion".  This repository is
++known as "Version Control with Subversion".  This repository is
+  organized like so:
+
+     trunk/
+
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

@@ -1,0 +1,54 @@
+Subject:Re: Migration boite IMAP
+On Tue, 18 Sep 2012 16:59:24 +0200 (CEST)
+nicolas.bouige@free.fr wrote:
+
+>=20
+> Je suis en train d'effectuer une hybridation de serveur postfix
+> avec gonades d'IMAP et ARN MySQL.
+>=20
+> J'avance petit a petit mais la je bloque sur un message d'erreur :
+>=20
+>=20
+> Sep 17 17:05:38 Postfix authdaemond: Authenticated:
+> clearpasswd=3D6c8af868dd865561d9e7a413787bc3b2, passwd=3D<null> Sep 17
+> 17:05:38 Postfix imapd: LOGIN, user=3Duser@domain.com,
+> ip=3D[::ffff:192.168.0.200], port=3D[34958], protocol=3DIMAP Sep 17
+> 17:05:38 Postfix imapd: Error reading ACLs for INBOX.bashrc: No
+> such file or directory Sep 17 17:05:38 Postfix imapd: Error
+> reading ACLs for INBOX.bash_logout: No such file or directory Sep
+> 17 17:05:38 Postfix imapd: Error reading ACLs for INBOX.profile:
+> No such file or directory Sep 17 17:05:38 Postfix imapd: LOGOUT,
+> user=3Duser@domain.com, ip=3D[::ffff:192.168.0.200], headers=3D0,
+> body=3D0, rcvd=3D124, sent=3D613, time=3D0, starttls=3D1
+
+L=C3=A0, tu as un gros PB: apparemment le script va p=C3=AAcho dans $HOME
+(d'o=C3=B9 erreurs sur ~/.bashrc, ~/.profile & ~/.bash_logout)
+donc, soit il n'a pas =C3=A9t=C3=A9 lanc=C3=A9 =C3=A0 partir du bon dir, so=
+it il a
+un bug.
+=20
+> Pour info j'ai utilis=C3=A9 SCP pour transf=C3=A9rer les boites de l'anci=
+en
+> serveur vers le nouveau au m=C3=AAme endroits et en modifiant les
+> droits.
+
+Je pr=C3=A9f=C3=A8re imapsync, mais le soucis c'est que les Nlles versions =
+sont
+payantes - par contre, il est top moumoute pour =C3=A7a.
+
+--=20
+<The_Truth> Putain,aujourd'hui je racontais mes d=C3=A9boires amoureux =C3=
+=A0 ma m=C3=A8re...
+<The_Truth> Elle a fini par me dire "tu te prends tellement de rateaux, tu =
+vas
+            pouvoir ouvrir un Jardiland"... :/
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120918171025.021b9951@anubis.defcon1
+

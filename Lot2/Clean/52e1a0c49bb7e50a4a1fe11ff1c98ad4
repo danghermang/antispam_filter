@@ -1,0 +1,34 @@
+Subject:[Ubuntu-be] updates wiki ubuntu-be
+Hello,
+
+At the last ubuntu-be gathering in Houthalen we have done some updates 
+on the wiki of ubuntu-be.
+
+What are these updates :
+-    changed the USB-project page and added links to download them,
+         https://wiki.ubuntu.com/BelgianTeam/LocalizedUSB
+-    Updated the "Fairs" page, because it was outdated and made the 
+report of the last dipro-fair in Hasselt,
+         https://wiki.ubuntu.com/BelgianTeam/ComputerFairs
+-    added Information brochure ubuntu 12.04LTS in Dutch,
+         https://wiki.ubuntu.com/BelgianTeam/PromotionMaterial
+
+The only thing that didn't work was the uploads of the ISO's to the wiki.
+The ISO's are 1,3gb in size and i think that they are to big for the 
+wiki pages, i've done 3 attempts and they all failed.
+For now i added the links to my ubuntu-one account?
+
+Is there a way to make the ubuntu-be ISO's available from the ubuntu-be 
+website?
+Can someone make the changes to the website and add them?
+
+grtz,
+Claudio
+
+
+
+-- 
+ubuntu-be mailing list / mailto:ubuntu-be@lists.ubuntu.com
+
+Modify settings or unsubscribe at:
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-be

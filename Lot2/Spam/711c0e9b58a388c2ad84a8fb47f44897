@@ -1,0 +1,27 @@
+Subject:failure notice
+Hi. This is the qmail-send program at byname.net.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<hornberger@bynumber.net>:
+Sorry, no mailbox here by that name. (#5.1.1)
+
+--- Below this line is a copy of the message.
+
+Return-Path: <1E177C67@themrg.tv>
+Received: (qmail 18384 invoked from network); 9 Dec 2012 20:27:10 -0800
+Received: from unknown (HELO ?178.124.77.209?) (178.124.77.209)
+  by byname.net with SMTP; 9 Dec 2012 20:27:10 -0800
+From: "Support" <1E177C67@themrg.tv>
+To: <hornberger@bynumber.net>
+Subject: Order confirmation.
+Date: Mon, 10 Dec 2012 07:38:29 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 8bit
+List-Unsubscribe: <mailto:C98CFAD36781D0EDE83@kittentocat.com>
+Message-ID: <20121210073829.41009F007B14B373CAE5B@HOME-D5E9D17543>
+
+If you can't read this message please click this <a href="http://www.savakp.com/im.php?s002">link</a><br>
+

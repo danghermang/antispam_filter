@@ -1,0 +1,35 @@
+Subject:Re: Problemas con rad1 en debian squeeze
+On 13/11/12 13:45, Ricardo wrote:
+> hola lista, tengo problemillas con mi RAID1, aqui el detalle
+> tengo 2 disco de 1TB en raid1 (espejo) resulta que quedo sin espacio,
+> lo que  hice fue desde la red lo borre como 20GB de archivos y pensaba
+> que se iba liberar un poco como para modificar un archivo. pero nada..
+> cuando hago df -h me muestra esto:
+>
+> root@server:~# df -h
+> S.ficheros            Tam.  Usado Disp. % Uso Montado en
+> /dev/md0              895G  870G     0 100% /
+> none                  1,6G  256K  1,6G   1% /dev
+> none                  1,6G     0  1,6G   0% /dev/shm
+> none                  1,6G  2,9M  1,6G   1% /var/run
+> none                  1,6G     0  1,6G   0% /var/lock
+> /dev/sdc1             917G  835G   36G  96% /media/usb   esta es mi
+> disco de backup
+>
+> ah me olvida el servidor comparte mediante SAMBA, con los usuarios de
+> windows .. yo con un usuario de de la red borre los archivos..
+> hay algun comando comando para refrescar. el raid??
+Me temo que el tema el espacio ocupado no tiene nada que ver con RAID.=20
+No entiendo a qu=E9 viene lo de "refrescar el raid". En tu caso el=20
+dispositivo RAID se tiene que comportar como un disco f=EDsico normal.=20
+Busca con "du" o lo que sea d=F3nde est=E1 siendo ocupado el espacio de t=
+u=20
+partici=F3n RAID.
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A27A93.6030604@uncu.edu.ar
+

@@ -1,0 +1,29 @@
+Subject:Re: Debian Wheezy tarda mucho en cargar el sistema.
+José Maldonado <josemald89@gmail.com> writes:
+
+> Tengo Debian Wheezy instalado sobre un Dual Core 2.0Ghz, 2GB de Ram
+> DDR2 800 Mhz, una tarjeta madre Biostar P4M890-M7, un disco duro de 80
+> GB (/boot, /, /home) y otro de 160 GB (/Datos), el problema es que
+> desde hace una semana que realice una actualización que incluía nuevo
+> kernel, lightdm y un nuevo kmod, he visto que mi sistema se ha
+> ralentizado y ha llegado al punto que a veces simplemente no funciona,
+> teniendo que reiniciar para que cargue el sistema completamente.
+
+. Revisa los registros /var/log/syslog, /var/log/dmesg,
+/var/log/Xorg.0.log luego de la ralentización si hay algo raro ahí.
+
+. Prueba a instalar otro núcleo. Se puede instalarlo, p. ej., desde
+snapshot.debian.org.
+
+. ¿Todo está bien con enfriamiento del procesador?
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87mx12rc9g.fsf@tochka.ru
+

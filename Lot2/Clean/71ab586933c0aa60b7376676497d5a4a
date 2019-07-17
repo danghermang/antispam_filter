@@ -1,0 +1,29 @@
+Subject:Re: linux-image 3.6.8 et acpid
+Le Thu, 29 Nov 2012 23:20:19 +0100
+Ga=EBtan PERRIER <gaetan.perrier@neuf.fr> a =E9crit:
+
+> Bonjour,
+>=20
+> Sur une machine j'=E9tais en noyau 3.6.6 experimental et j'ai voulu
+> passer en 3.6.8. Grand mal m'en a prit !
+> J'ai de gros probl=E8me d'acpi avec ce noyau la console est noy=E9e sous
+> les messages acpid: client connected/disconnected impossible de faire
+> quoi que ce soit.
+> Comment faire pour emp=EAcher ces messages de polluer la console et me
+> permettre de revenir en 3.6.6 ?
+>=20
+
+Le 3.6.9 r=E9sout le probl=E8me.
+
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121207224125.d2a6ab2af506dd6713ec3548@neuf.fr
+

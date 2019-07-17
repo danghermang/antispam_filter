@@ -1,0 +1,68 @@
+Subject:Re: [Jukebox-list] 6973 to el84 info needed.
+Gentlemen:=0A=0AEarlier on, this discussion string asked whether EL84/6BQ5 =
+tubes could be =0Asubstituted in jukebox amps for the harder-to-find 6973 t=
+ube types.=A0 In general, =0Athe=A0conclusions put forward by all contribut=
+ors came down to:=0A=0AElectro-Harmonix, the Russian tube manufacturer is c=
+urrently offering a genuine =0A6973 tube that are=A0of good quality. None o=
+f the other 2012 tube manufacturers =0Ahave=A06973's in their product line-=
+up.=0A=0ABy making minor circuit adaptations (install jumper wire on 6973 s=
+ocket from pin =0A1 to pin 8), you can use 6973 substitute 6EM5 with slight=
+ reduction in output =0Apower=A0(audio wattage). Old-stock, US-built 6EM5's=
+ seem to be plentiful and are =0Aless expensive than the EH 6973's.=A0 None=
+ of the world-market tube manufacturers =0Aare making new 6EM5's. =A0=A0=A0=
+There may be a second old tube type that could be =0Asubstiuted here. I don=
+'t have that tube number.=A0=0A=0ASome circuit modifications were mentioned=
+=A0that provide a safety element when =0Arunning 6973 tube circuits. 6973's=
+=A0are more prone to short circuits than other =0Apower-pentode tube types.=
+ Shorted tubes can burn out output transformers,some of =0Awhich can be dif=
+ficult to find replacements for.=0A=0AI mentioned the availability of plug-=
+in adapter tube sockets,intended to =0Asubstitute EL84/6BQ5 tubes in place =
+of other output tube types.=A0 These adapters =0Aare called Yellow Jackets =
+(web: www.yellowjacketstc.com)=A0 and are =0Aintended=A0primarily for guita=
+rists and musicians' amps.=A0=A0 Most Yellow Jacket =0Aadapters are designe=
+d to substitute EL84's for higher-power octal tube types, =0Areducing the o=
+utput wattage of higher-powered=A0amps to produce=A0the =0Aslightly-overloa=
+ded Class A amp sound that some guitarists=A0seek without having =0Athe kil=
+ler volume levels.=A0=A0=A0 Yellow Jackets doesn't make an adapter that wil=
+l =0Aaccomodate/convert 6973 tubes to EL84 operation.=A0=A0These devices wo=
+uldn't be of =0Ahelp to the=A0typical jukebox amp rebuilder.=A0 Sorry for t=
+he incorrect information. =0A=A0=A0=A0=0A=0AJim Alexander=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=0A=0A=0A=0A=0A__________________=
+______________=0AFrom: Don Resor <organlists@pacbell.net>=0ATo: Jukebox mai=
+ling list <jukebox-list@lists.netlojix.com>=0ASent: Mon, November 12, 2012 =
+8:27:16 PM=0ASubject: Re: [Jukebox-list] 6973 to el84 info needed.=0A=0AIf =
+you need, you can have most any transformer rewound here:=0A=0Ahttp://membe=
+rs.tripod.com/tubes_tubes_tubes/transformerrewindingservice/=0A=0AAt 12:39 =
+PM 11/12/2012, you wrote:=0A> Rob,=0A>=A0 And considering what I heard abou=
+t not being able to get the transformers, =0A>anything I can do to protect =
+them is a good thing.=0A>=A0 What if I soldered the resistor straight to th=
+e wires and heat shrieked the =0A>assembly.=0A> =0A> Ed Owens=0A> E O Johns=
+on Co=0A> =0A> On Nov 12, 2012, at 2:36 PM, "Chan Gade" <chan.gade@yahoo.co=
+m> wrote:=0A> =0A> > Ed, that is correct, disconnect the wire(s) that go to=
+ Pins 1and/or 8 which =0A>is grid 2, place a terminal strip nearby (or use =
+a convenient non-grounded tie =0A>point)=A0 and place the new 100 ohm resis=
+tors in place of the direct connection.=0A> >=0A> > Since the diagrams show=
+ the tube having Pins 1&8 together internally the =0A>choice to jump them i=
+s up to you. No big advantage that i can see.=0A> >=0A> > Rowe did not star=
+t adding those resistors until a year or so into the use of =0A>7868 tubes.=
+ Those tubes being highly efficient, are prone to shorts and I guess =0A>a =
+few fried trans convinced them that it was worth the 100th of a cent more t=
+o =0A>add them.=0A> >=0A> > Rob/NYC=0A> >=0A> >=0A> > _____________________=
+__________________________=0A> > Jukebox-list mailing list=0A> > Jukebox-li=
+st@lists.netlojix.com=0A> > http://lists.netlojix.com/mailman/listinfo/juke=
+box-list=0A> > Searchable Archives: http://jukebox.markmail.org/=0A> ______=
+_________________________________________=0A> Jukebox-list mailing list=0A>=
+ Jukebox-list@lists.netlojix.com=0A> http://lists.netlojix.com/mailman/list=
+info/jukebox-list=0A> Searchable Archives: http://jukebox.markmail.org/=0A=
+=0ADonald R. Resor Jr. T. W. & T. C. Svc. Co. http://www.hammondorganservic=
+e.com=0ACarillon Web Ring http://g.webring.com/hub?ring=3Dthecarillonwebri=
+=0AHammond Central Warranty Service=0AJohannus Orgelbouw bv Warranty Servic=
+e=0A=0A_______________________________________________=0AJukebox-list maili=
+ng list=0AJukebox-list@lists.netlojix.com=0Ahttp://lists.netlojix.com/mailm=
+an/listinfo/jukebox-list=0ASearchable Archives: http://jukebox.markmail.org=
+/=0A
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

@@ -1,0 +1,29 @@
+Subject:[un peu HS...] RAID1 sata et ssd
+
+Salut la liste,
+
+Mon système est en raid1 logiciel (mdadm) avec deux disques durs sata. L'un des
+deux commence à faire de drôles de bruits, je vais donc devoir le changer. Je
+me demande si c'est possible de le changer pour un disque ssd afin de passer en
+douceur en un système tout ssd (je changerai le second plus tard). Est-ce que
+cela pose un problème particulier ? Je n'ai rien trouvé sur le Net qui le
+déconseille mais je voulais avoir un retour de vos expériences sur le sujet
+avant de me lancer. Et en passant avez-vous des conseils pour de bons disques
+ssd ? C'est plus la fiabilité qui m'intéresse que la taille ou le prix.
+
+Merci d'avance pour vos lumières.
+
+steve
+
+
+PS : message un peu HS mais pas tout à fait vu que tout se fait sur une wheezy à jour.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121116061217.GA9712@localhost
+

@@ -1,0 +1,62 @@
+Subject:Re: [LUG] Linux - and security
+On Fri, 2 Nov 2012, Neil Winchurst wrote:
+
+> A little while ago I received an email telling me that my bank account
+> details had got messed up and if I would like to click on the button
+> below ..... yeah, right! It wasn't even my bank.
+>
+> More recently I had an email telling me that my Facebook account had got
+> blocked and if I would like to click on the button ...... I have never
+> had a FB account.
+>
+> The fact the I use Linux is not relevant to this, but it got me thinking
+> about Linux and security. I seems to me that the perceived wisdom about
+> this is as follows,
+>
+> 1 Right from the start Linux was written to be very secure
+
+More by accident than design. At least initially.
+
+> 2 Therefore it is difficult to write malware for it.
+
+There is lots of malware out there for Linux - rootkits have been adapted 
+from other *nix platforms to run on Linux. If you can persuade a web 
+server to run an arbitary program then you can get in. (e.g. many older 
+versions of some big packages have vulnerabilities that allow uploading of 
+php code which can then be executed - and you don't always need root to be 
+able to do things like send spam or access local databases...)
+
+> 3 By comparison with other OS's there are not many Linux users.
+
+This is true. But... Maybe you ought to say 'desktop users' here. Linux 
+probably outnumbers most things now - by virtue of it being what powers 
+android.
+
+> 4 So, because of all the above, the bad guys don't bother with Linux.
+
+Yet.
+
+> 5 If Linux users happen to download a virus it will not cause a problem
+> (wrong OS).
+
+Not true. Some rootkits get in that way.
+
+> Now I don't think it is as simple as that, but I do think it would be
+> both interesting and useful to hear what other list members can tell us
+> about all this. The computer world seems to be getting more insecure and
+> dangerous every day, right?
+
+What's really neded is more education. That's the key - even for Win PCs, 
+with the knowledge to stop your computer auto-execiting stuff in email, on 
+erb pages, etc. you can do a lot for yourself even before the virus 
+scanners check things.
+
+It's only a matter of time before the criminals start to target Linux with 
+more gusto than they currently do.
+
+Gordon
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

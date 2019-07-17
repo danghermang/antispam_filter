@@ -1,0 +1,24 @@
+Subject:Wireshark
+Bonjour,
+
+Quand on demande à Wireshark les protocoles hiérarchies dans le menu 
+statistique, sur la couche application des trames sont ignorées
+comme les acquittements ce qui fait que l'on se retrouve  avec un taux 
+d'utilisation http très certainement tronqué...
+
+Comment faire pour avoir des statistiques dont la somme des couches 
+applications est égale à la "somme de la couche transport".
+
+Ou y-a-t-il un logiciel Opensource capable de fournir des graphes plus 
+précis (avec les trames enregistrés par wireshark) ?
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50ADEBBC.2050806@gmail.com
+

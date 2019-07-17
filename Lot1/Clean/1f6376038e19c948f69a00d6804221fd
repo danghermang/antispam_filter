@@ -1,0 +1,62 @@
+Subject:Re: debian et onduleur
+On Mon, 1 Oct 2012 22:01:48 +0200
+Ga=C3=ABtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+
+>=20
+> Histoire de savoir quel puissance d'onduleur prendre je viens
+> aussi de faire des mesures sur mon PC et en idle =C3=A7a tourne autour
+> de 45W/50W et =C3=A7a monte =C3=A0 70/80W avec flightgear de lanc=C3=A9.
+
+Rien que les CPUs actuels sont entre 77W & 100W, la g=C3=A9n=C3=A9ration
+pr=C3=A9c=C3=A9dente tournait plut=C3=B4t sur 135W.
+
+Mais ce sont des valeurs MAX, qui sont rarement atteintes notamment
+gr=C3=A2ce aux m=C3=A9canismes intrins=C3=A8ques d'ajustement de fr=C3=A9qu=
+ence et =C3=A0 la
+quasi-coupure en idle.
+
+> Pourtant
+> quand je vais sur un site de dimensionnement d'alimentation avec
+> ma config =C3=A7a indique 400 =C3=A0 450W. Certes flightgear n'utilise pas
+> tous les c=C5=93urs mais je doute que m=C3=AAme avec les 4 c=C5=93urs j'a=
+rrive =C3=A0
+> monter =C3=A0 450W, non ?
+
+Les indications de consommation prennent g=C3=A9n=C3=A9ralement en compte "=
+la
+totale", C=C3=A0D autant de HDz qu'il-y-a de connecteurs SATA, le plus
+gros CPU possible, etc.
+Les HDz sont de gros consommateurs, particuli=C3=A8rement en =C3=A9criture
+et/ou lecture al=C3=A9atoire.
+Le CPU est compt=C3=A9 pour sa conso max.
+
+> Et encore 450W serait la puissance restitu=C3=A9e
+> donc encore plus en consomm=C3=A9 (je mesure sur le secteur).
+
+=C3=87a reste =C3=A0 prouver.
+
+Un test de burn-in complet (inclus I/O HDz) permettrait sans
+doute d'obtenir la conso max r=C3=A9elle de ta config (+qq Watts pour
+le/s graveur/s).
+
+De toute fa=C3=A7on, pour le dimensionnement d'un UPS il vaut tjrs mieux
+surestimer et prendre un peu plus gros, surtout si une 2nde machine
+devait venir s'ajouter - mais pas syst=C3=A9matiquement trop gros non
+plus, parce que le cosinus phi a tendance =C3=A0 augmenter sensiblement
+dans les zones non-optimales de fonctionnement et donc le rendement
+baisse.
+
+--=20
+Iris : J'ai besoin d'un gars stable. Un geek.
+Teki : Un geek ?
+Iris : Rien de plus stable qu'un mec sous linux.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121001222409.5d124ebe@anubis.defcon1
+

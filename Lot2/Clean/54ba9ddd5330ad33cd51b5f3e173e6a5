@@ -1,0 +1,26 @@
+Subject:Re: [mat-wg] New on RIPE Labs: New Text Service for RIPEstat
+Hello Vasco,
+
+>> thank you for the work on providing the text-based output for STAT.
+>> Please send thank-yous to the team.
+>> 
+>> I have just noticed that if you query for e.g. an IPv4 prefix,
+>> it also seems to report a 1% IPv6-visibility on the 88 IPv6 peers.
+>> Is that a rounding-bug? :)
+>
+> We have noticed that before. What's happening is that one of the RIS IPv6 
+> peers is passing an IPv4 full table feed. And that is incorrectly causing the 
+> visibility of v4 prefixes to be flagged as v6 visibility for that peer.
+> Bug is logged and we intend to correct it soon.
+> Thanks for the heads up. :)
+
+I had thought about that but assumed that the RIS sessions are 
+clean with the address families. So - not a bug after all ;-)
+One could only argue if a "v4 prefix received on a v6 RIS session"
+is an IPv6 visibility ;-)
+
+Obrigado, Vasco!
+
+Cheers
+Sascha
+

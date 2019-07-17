@@ -1,0 +1,39 @@
+Subject:Re: antivirus proxy
+El d=C3=ADa 24 de septiembre de 2012 09:45, Trujillo Carmona, Antonio
+<antonio.trujillo.sspa@juntadeandalucia.es> escribi=C3=B3:
+>
+> Estoy probando el funcionamiento del proxy squid3 con el antivirus.
+> Va bien pero veo que solo analiza los ficheros que se descargan, a mi me
+> gustar=C3=ADa que cortara las conexiones a direcciones sabidas maliciosas=
+,
+> esto es hay virus que realizan conexiones a direcciones concretas para
+> enviar datos, pues se tratar=C3=ADa de cortar esas direcciones.
+> No estoy hablando del control parenteral, aunque se parezca mucho,
+> quiero que sea el antivirus (que es el que se supone que sabe lo que
+> hacen los virus) el que se comunique con el squid3 y corte el acceso.
+> --
+> trujo <antonio.trujillo.sspa@juntadeandalucia.es>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/1348472727.5390.12.camel@trujo.hvn.sas.j=
+unta-andalucia.es
+>
+
+Por que quieres hacer eso con el antivirus?
+Por ejemplo, yo lo hago con un peque=C3=B1o script que se conecta a
+http://www.malwaredomains.com/ (existen muchas mas web que te dan este
+servicio) se trae el fichero con las url maliciosas y me actualiza mi
+lista de acceso.
+
+Por cierto, bonita empresa en la que trabajas. ;)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+FbNVidWrpK56A5YhcRHZb4-v85iV_FcXBeVSkjUjjp-XK0Lw@mail.gmail.com
+

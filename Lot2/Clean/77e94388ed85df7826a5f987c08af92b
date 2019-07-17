@@ -1,0 +1,35 @@
+Subject:Re: [Hsqldb-user] Indexing on my table is taking huge amount of time
+
+Adding more information the csv I loaded into the table is about 500 Mb.
+
+thanks in advance,
+-sandeep.
+
+
+Sandeep Samudrala wrote:
+> 
+> Hi,
+> I have a table which has 8 million rows. I have loaded the table.
+> I am trying to put indexing on that table and it is taking huge amount of
+> time about more than an hour.
+> Is there any faster way to do this.
+> 
+> thanks in advance,
+> -sandeep.
+> 
+
+-- 
+View this message in context: http://old.nabble.com/Re%3A-Indexing-on-my-table-is-taking-huge-amount-of-time-tp34428705p34428785.html
+Sent from the HSQLDB - User mailing list archive at Nabble.com.
+
+
+------------------------------------------------------------------------------
+Live Security Virtual Conference
+Exclusive live event will cover all the ways today's security and 
+threat landscape has changed and how IT managers can respond. Discussions 
+will include endpoint security, mobile security and the latest in malware 
+threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

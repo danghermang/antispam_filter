@@ -1,0 +1,34 @@
+Subject:Re: [Koha] 505 Enhanced Contents Note
+
+On 2012-11-14, at 11:32 AM, Jared Camins-Esakov wrote:
+
+> Charles,
+> 
+> My library recently made the switch to Koha, and I am thus still getting
+>> used to it. One major trouble I am having is with the 505 field if I want
+>> to include an enhanced (as opposed to simply formatted) contents note to
+>> allow patrons to access chapters of edited volumes by title/author searches
+>> rather than just keywords. I am used to formatting them as a chain of $t
+>> /$r within a single field, but since Koha has separate form fields for each
+>> subfield, I feel a little out to sea on this one. Every variation I try
+>> makes the display unusable and doesn't visually connect the $t subfield to
+>> the appropriate $r subfield in the OPAC. Do I need to repeat the entire 505
+>> tag for each individual entry? I saw in the list archive that there is a
+>> bug-fix related to the 505 field, will this fix the problem, or is there
+>> some aspect of formatting that I am missing? Any help would be very
+>> appreciated.
+>> 
+> 
+> Welcome. The fix for bug 6617 (
+> http://bugs.koha-community.org/bugzilla3/show_bug.cgi?id=6617 ) should do
+> what you need.
+> 
+> Regards,
+> Jared
+> 
+
+oops, ignore what i just said! :)
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

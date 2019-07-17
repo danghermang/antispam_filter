@@ -1,0 +1,49 @@
+Subject:Re: [Koha] Koha Config All stored in Database?
+Hi,
+
+On Mon, Oct 29, 2012 at 6:15 PM, Johannes Graumann <johannes_graumann@web.de
+> wrote:
+
+
+> When setting up a Koha server using the debian packages is the koha
+> configuration all stored in the mysql database? I would be very happy if
+> that wasn't the case, as I then could track my configuration follies using
+> a
+> VCS as git ...
+>
+
+Actually, quite a bit of the critical Koha config is stored in plain-text
+or as XML markup, starting with koha-conf.xml, the apache2 site specific
+configs, the bib1 attributes definitions etc.
+
+For things that are stored in MySQL, I take sql dumps at different point in
+time (which working) and store that. Whenever, I need to look at what
+changed, I run a diff between the respective SQL dumps. Not the most
+elegant approach, but it gets my job done. Also, the sql dumps allow me to
+revert to a specific configuration.
+
+The things I dump out at are typically sysprefs, marc tag and structure
+tables, the categories, stopwords etc just to give an example..
+
+cheers
+-indra
+
+
+-- 
+Indranil Das Gupta
+
+Phone : +91-98300-20971
+Blog    : http://indradg.randomink.org/blog
+IRC      : indradg on irc://irc.freenode.net
+Twitter : indradg
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-
+Please exchange editable Office documents only in ODF Format. No other
+format is acceptable. Support Open Standards.
+
+For a free editor supporting ODF, please visit LibreOffice -
+http://www.documentfoundation.org
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

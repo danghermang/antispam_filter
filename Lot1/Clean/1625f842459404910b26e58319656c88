@@ -1,0 +1,99 @@
+Subject:Re: [PATCH]: ch03: A note to MS office users regarding keyword
+ substitutions
+Mike,
+
+My hope was to have an explicit message to the users who manage office docu=
+ments with svn. They often are not aware of =
+
+the binary nature of their documents and are suprised about the results of =
+the keyword substitution or not aware about =
+
+the dangers. I fear that these users wont probably not recognize that the w=
+arning of this added paragraph applies to them.
+
+regards
+
+Walter
+
+
+On 06.09.2012 16:52, C. Michael Pilato wrote:
+> I'm with Richard on this one.  I've added (in r4299) the following to the=
+ end of the summary paragraph about
+> fixed-length keyword substitution:
+>
+>     Of course, where binary file formats are concerned, you must always t=
+ake great care that any keyword substitution
+>     you introduce--fixed-length or otherwise--does not violate the integr=
+ity of that format.  While it might sound easy
+>     enough, this can be an astonishingly difficult task for most of the p=
+opular binary file formats in use today, and
+>     /not/ something to be undertaken by the faint of heart!
+>
+>
+> On 09/05/2012 07:58 PM, Richard Cavell wrote:
+>> I like the idea of it but it doesn't need to be so long.  The basic idea=
+ is that MS Office documents, and many other
+>> file formats, are complicated and must be parsed properly.  Keyword subs=
+titution on something other than a plain-text
+>> file is risky business.
+>>
+>> Richard
+>>
+>>> ----- Original Message -----
+>>>
+>>> From: Walter Klust
+>>>
+>>> Sent: 09/06/12 12:08 AM
+>>>
+>>> To: svnbook-dev@red-bean.com <mailto:svnbook-dev@red-bean.com>
+>>>
+>>> Subject: [PATCH]: ch03: A note to MS office users regarding keyword sub=
+stitutions
+>>>
+>>>
+>>>
+>>> Hello,
+>>>
+>>> Please find attached a patch f=FCr the chapter about keyword substituti=
+ons. It is a specific note for users of MS Office
+>>> who are thinking of using the substitution on their office files.
+>>>
+>>> We had support cases regarding this topic; so I felt it couldnt hurt to=
+ add this note to the official documentation.
+>>>
+>>> regards
+>>>
+>>> Walter
+>>>
+>>> --
+>>> Walter Klust, Director Support
+>>>
+>>> fon +49 30 2345 8696, fax +49 30 2345 8695
+>>> support +49 30 322 971 300
+>>>
+>>> elego Software Solutions GmbH,http://www.elegosoft.com
+>>> Building 12 (BIG), Gustav-Meyer-Allee 25, 13355 Berlin, Germany
+>>>
+>>> Registered Office: Berlin, VAT Reg No: DE 163214194
+>>> Trade Register: District Court Charlottenburg HRB 77719
+>>> Managing Directors: Olaf Wagner, Michael Diers
+>>
+>>
+>>
+>> _______________________________________________
+>> svnbook-dev mailing list
+>> svnbook-dev@red-bean.com  <mailto:svnbook-dev@red-bean.com>
+>> http://www.red-bean.com/mailman/listinfo/svnbook-dev
+>
+>
+>
+> _______________________________________________
+> svnbook-dev mailing list
+> svnbook-dev@red-bean.com
+> http://www.red-bean.com/mailman/listinfo/svnbook-dev
+
+
+_______________________________________________
+svnbook-dev mailing list
+svnbook-dev@red-bean.com
+http://www.red-bean.com/mailman/listinfo/svnbook-dev

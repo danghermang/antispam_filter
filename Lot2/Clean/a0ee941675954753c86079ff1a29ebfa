@@ -1,0 +1,29 @@
+Subject:Re: Proxy squid automatico
+2012/11/28 Francisco Eduardo Ascencio Dominguez <lypef@live.com>:
+> facil. yo quiero que me orienten sobre como poner un servidor proxy trans=
+parente con squid. el servidor ya funciona lo que pasa que tengo que config=
+urar el navegador ( la ip del proxy ) en cada computadora como hago que est=
+o sea autom=C3=A1tico ?  e le=C3=ADdo que es con 2 tarjetas de red como hag=
+o esto ?
+>
+
+Eso es justamente lo que hace un proxy transparente, que sea
+autom=C3=A1tico. Si el servidor ya funciona entonces no hay que configurar
+nada.
+
+Hay cientos de gu=C3=ADas f=C3=A1cilmente ubicables en google, reproducirla=
+s ac=C3=A1
+por en=C3=A9sima vez ser=C3=ADa perdida de tiempo y ancho de banda. Has
+intentado seguir alguna antes de preguntar en la lista?
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjPUbsrGmpV-Z6u_E6AJ9h4mOFY+6VDsCuewpfN4zmhakg@mail.gmail.com
+

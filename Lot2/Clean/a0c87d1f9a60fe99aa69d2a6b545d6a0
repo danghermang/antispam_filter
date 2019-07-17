@@ -1,0 +1,83 @@
+Subject:Re: Squid3 y https
+Yo paso por un parent tambien..y no me dan problema las url con https
+
+
+----- Original Message ----- 
+From: <cosme@esid.gecgr.co.cu>
+To: ""Josué Marrero Bermúdez"" <inf@zetihl.azcuba.cu>
+Sent: Thursday, October 18, 2012 10:53 AM
+Subject: Re: Squid3 y https
+
+
+>> Yo tengo squid3, y no me da ningun problema con https
+>>
+>>
+>> ----- Original Message -----
+>> From: <cosme@esid.gecgr.co.cu>
+>> To: <debian-user-spanish@lists.debian.org>
+>> Sent: Wednesday, October 17, 2012 10:38 AM
+>> Subject: Squid3 y https
+>>
+>>
+>>>
+>>> Hola
+>>>
+>>> Tengo problemas al acceder a los sitios seguros con el squid3
+>>>
+>>> He buscado sobre el tema y squid3 no trae soporte papa SSL hay que
+>>> compilarlo
+>>>
+>>>
+>>> yo simplemente instalé apt-install squid3
+>>>
+>>> Cuando intento acceder a algun sitio mediante https no puedo
+>>>
+>>> Veo en fichero de conf esto
+>>>
+>>> --enable-ssl
+>>>
+>>> Como puedo resolver el problema??
+>>>
+>>> uso debian squeeze
+>>>
+>>> Salu2
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>>> with a subject of "unsubscribe". Trouble? Contact
+>>> listmaster@lists.debian.org
+>>> Archive:
+>>> http://lists.debian.org/f64fa9c92cb08fc7f6a06de90f5cb683.squirrel@192.168.13.16
+>>>
+>>
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact
+>> listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/C72A7009C75C43BAA0345D57844C4336@dbsrv
+>>
+> Si pero lo tienes directo a internet???
+>
+> o pasas por un parent???
+>
+>
+> yo paso por un parent y es diferente la cosa
+>
+>
+>
+> 
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/B2B2452D83B0429F8BDC0B4F666F19CB@dbsrv
+

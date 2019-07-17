@@ -1,0 +1,21 @@
+Subject:[Flexradio] Diversity reception - Noise cancellation
+Is it possible to receive the same frequency on the two receivers in my 
+5000a and invert one and then add it to the non-inverted and output
+the result with a large degree of noise cancellation. I would think that 
+the received noise would  be on a receiver using a less sensitive 
+antenna in order to give inteference a slightly lower amplitude since it 
+would not be necessary to cancel it completely, necessarily. I guess 
+this would work in a manner similar to the MFJ 1026.
+
+I looked in the KB but didn't find anything about this type of use of 
+diversity reception with two receivers - or it was right in front of me 
+and I was too dumb to see it.
+
+Brad A. Steffler  KE4XJ
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

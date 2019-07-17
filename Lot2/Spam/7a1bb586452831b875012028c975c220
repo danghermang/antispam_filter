@@ -1,0 +1,50 @@
+Subject:=?GB2312?B?08C+w822td3Kp7Dc?=
+--------------------------------------------------------------------------
+MDaemon 投递状态通知 - http://www.altn.com/dsn
+--------------------------------------------------------------------------
+
+所附邮件有“永久性”致命投递错误。
+
+在一次或多次失败的投递尝试之后，已将所附邮件
+从本服务器上的 MDaemon 邮件队列中删除。尝试投递的次数和频率
+由本地配置决定。
+
+--------------------------------------------------------------------------
+您的邮件未投递给一个或多个收件人。
+--------------------------------------------------------------------------
+
+Failed address: ysmo@edscha-anhui.com
+
+--- Session Transcript ---
+ Mon 2012-12-10 19:07:10: Parsing message <xxxxxxxxxxxxxxxxxxxxxxxx\pd35000329821.msg>
+ Mon 2012-12-10 19:07:10: *  From: xxx@xxxxxxx.xxx
+ Mon 2012-12-10 19:07:10: *  To: ysmo@edscha-anhui.com
+ Mon 2012-12-10 19:07:10: *  Subject: =?gb2312?B?UmU60dC3orL6xre8vMr1sr++rcDtytVmbGw=?=
+ Mon 2012-12-10 19:07:10: *  Size (bytes): 36605
+ Mon 2012-12-10 19:07:10: *  Message-ID: <F3DFBC0E4154755056A58EF1938A1F08@gfyyps>
+ Mon 2012-12-10 19:07:10: Attempting SMTP connection to [edscha-anhui.com]
+ Mon 2012-12-10 19:07:10: Resolving MX records for [edscha-anhui.com] (DNS Server: 218.85.152.99)...
+ Mon 2012-12-10 19:07:11: *  P=010 S=000 D=edscha-anhui.com TTL=(16) MX=[mail.edscha-anhui.com]
+ Mon 2012-12-10 19:07:11: Attempting SMTP connection to [mail.edscha-anhui.com:25]
+ Mon 2012-12-10 19:07:11: Resolving A record for [mail.edscha-anhui.com] (DNS Server: 218.85.152.99)...
+ Mon 2012-12-10 19:07:11: *  D=mail.edscha-anhui.com TTL=(16) A=[218.22.26.150]
+ Mon 2012-12-10 19:07:11: Attempting SMTP connection to [218.22.26.150:25]
+ Mon 2012-12-10 19:07:11: Waiting for socket connection...
+ Mon 2012-12-10 19:07:11: *  Connection established (222.79.79.113:2989 -> 218.22.26.150:25)
+ Mon 2012-12-10 19:07:11: Waiting for protocol to start...
+ Mon 2012-12-10 19:07:11: <-- 220 jdmail SMTP Service ready
+ Mon 2012-12-10 19:07:11: --> EHLO shenliba.tk
+ Mon 2012-12-10 19:07:11: <-- 250-mail.edscha-anhui.com
+ Mon 2012-12-10 19:07:11: <-- 250-VRFY
+ Mon 2012-12-10 19:07:11: <-- 250-ETRN
+ Mon 2012-12-10 19:07:11: <-- 250-8BITMIME
+ Mon 2012-12-10 19:07:11: <-- 250-AUTH LOGIN PLAIN CRAM-MD5
+ Mon 2012-12-10 19:07:11: <-- 250 SIZE 20971520
+ Mon 2012-12-10 19:07:11: --> MAIL From:<xxx@xxxxxxx.xxx> SIZE=36605
+ Mon 2012-12-10 19:07:11: <-- 250 OK
+ Mon 2012-12-10 19:07:11: --> RCPT To:<ysmo@edscha-anhui.com>
+ Mon 2012-12-10 19:07:11: <-- 503 the server need auth
+ Mon 2012-12-10 19:07:11: --> QUIT
+--- End Transcript ---
+
+

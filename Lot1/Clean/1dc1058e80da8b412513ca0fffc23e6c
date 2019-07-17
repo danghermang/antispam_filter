@@ -1,0 +1,111 @@
+Subject:Re: servidor de correos
+
+
+El 06/11/2012, a las 11:53, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=B3=
+:
+
+> El Tue, 06 Nov 2012 11:36:21 -0600, Francisco Eduardo Ascencio Dominguez
+> escribi=C3=B3:
+>=20
+>> El 06/11/2012, a las 11:27, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=
+=B3:
+>=20
+> (...)
+>=20
+>>>> bien lo que pasa es que tengo un foro ( www.lypef-warez.com ) y
+>>>> quisiera que mis usuarios tengan su propia cuenta con dominio de el
+>>>> foro. el servidor es propio. o a que te refieres que si que requisitos
+>>>> tengo que cumplir ?
+>>>=20
+>>> Por los requisitos que tienes que cumplir me refiero al tipo de
+>>> configuraci=C3=B3n tienes pensado usar, por ejemplo:
+> (...)
+>>> Como ves hay varios factores que entran en juego y que hay que tener en
+>>> cuenta a la hora de montar un servidor de correo por eso conviene que
+>>> antes de empezar a tomar decisiones escribas en un papel todo lo que
+>>> necesitas/esperas ofrecer y que detalles en un esquema el flujo
+>>> completo de entrada/salida que van a seguir los mensajes para no dejar
+>>> ning=C3=BAn cabo suelto y que sea lo que sea lo que decidas lo hagas con=
+
+>>> conocimiento de causa y no te lleves sorpresas :-)
+>=20
+>> Bueno la cantidad de usuarios yo digo que con unos 500 (actualmente hay
+>> 70 usuario ) hacerlo con zimbra me parece bien ya que eleido que es
+>> bueno.
+>=20
+> Piensa bien esto porque Zimbra puede resultar una opci=C3=B3n sencilla de=20=
+
+> implementar al principio pero a la larga poco flexible y compleja de=20
+> migrar. A m=C3=AD personalmente me gustan m=C3=A1s las opciones modulares q=
+ue son=20
+> m=C3=A1s complejas de instalar pero te ofrecen muchas m=C3=A1s posibilidad=
+es a=20
+> largo plazo.
+>=20
+>> seria un pop 3 o que me recomiendan ?
+>=20
+> Pues yo dar=C3=ADa las dos opciones (pop3 e imap4) y me pensaba lo del=20
+> webmail. Eso s=C3=AD, imap4 requiere equipos y conexiones muy buenas porqu=
+e=20
+> los clientes van a estar "enganchados" casi las 24 horas a tus=20
+> servidores, es decir, que es un servicio que consume muchos recursos a=20
+> nivel del servidor.
+>=20
+>> y seguridad  base de datos mysql y seguridad creo que solo antimalware
+>> y anticirus pero com ago esto ?
+>=20
+> Eso depender=C3=A1 del tipo de soluci=C3=B3n que quieras instalar ya que c=
+ada=20
+> programa trabaja mejor con un sistema u otro.
+>=20
+>> ley que con zimbra lo puedo hacer.
+>=20
+> S=C3=AD, pero Zimbra requiere que instales su Postfix, su servidor de bdd,=
+ su=20
+> AV, su... todo debe ser "suyo".
+>=20
+>> la verdad no se nada de esos tipos de servidores.
+>=20
+> Pues antes de lanzarte a la piscina de Internet podr=C3=ADas ir montando e=
+l=20
+> servidor en local y eso s=C3=AD... requisito indispensable para no cometer=
+=20
+> errores (o los menos posibles) es que leas mucho (documentaci=C3=B3n, caso=
+s de=20
+> uso, distintas alternativas...).
+>=20
+>> y como hacerlo publico ?
+>=20
+> Esa parte es sencilla. Si ya tienes un dominio accesible desde Internet=20=
+
+> (y por ende un servicio de DNS con una IP est=C3=A1tica -preferible- o=20
+> din=C3=A1mica) s=C3=B3lo tendr=C3=ADas que a=C3=B1adir las entradas A y MX=
+ para los=20
+> servidores de correo ("smtp.example.com", "imap4.example.com",=20
+> "pop3.example.com" o sencillamente "mail.example.com" para todos, seg=C3=BA=
+n=20
+> la nomenclatura que elijas).
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/k7biqs$ji$18@ger.gmane.org
+>=20
+>=20
+
+si. lo que pasa es que mi ip la refresco con el servicio de no-ip. como lo a=
+ria aqui ? no hay un manual que me puedan facilitar ?=20=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU0-SMTP469F556378EF0C978E9E5C0C56B0@phx.gbl
+

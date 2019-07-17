@@ -1,0 +1,40 @@
+Subject:Re: problema con openvpn
+El 19/09/12 08:51, Mariano Cediel escribió:
+> 2012/9/18 Antonio Moreno <antonio@sorianatural.es>:
+>> Tengo un openvpn instalado y configurado de la siguiente forma:
+>>
+>>
+>>
+>> El cliente me conecta perfectamente, hace ping al servidor tanto a la ip
+>> 10.8.0.1 como a la 192.1.16.153, pero a las ips de la red no me hace a
+>> ninguna de ellas. ¿Que me puede ocurrir?
+>>
+>> Muchas gracias y un saludo
+>>
+> El ip_forward está ACTIVADO ¿?
+>
+>
+Si que esta activado
+
+-- 
+NOTA: Los signos de puntuacion y e~es han sido omitidos deliberadamente
+con el fin de soportar el maximo numero de clientes de correo
+---------------------------
+La informacion incluida en el presente correo electronico es CONFIDENCIAL,
+siendo para el uso exclusivo del destinatario arriba mencionado. Si usted
+lee este mensaje y no es el destinatario se~alado, el empleado o el agente
+responsable de entregar el mensaje al destinatario, o ha recibido esta
+comunicacisn por error, le informamos que esta totalmente prohibida cualquier
+  divulgacion, distribucion o reproduccion de esta comunicacion, y le rogamos
+  que nos lo notifique, nos devuelva el mensaje original a la direccion arriba
+  mencionada y borre el mensaje.
+
+POR FAVOR, ANTES DE IMPRIMIR ESTE CORREO ELECTRONICO CONSIDERE SU APORTACION
+A LA CONSERVACION DEL MEDIO AMBIENTE POR LA REDUCCION DE CONSUMO DE PAPEL.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50595E23.6070604@sorianatural.es
+

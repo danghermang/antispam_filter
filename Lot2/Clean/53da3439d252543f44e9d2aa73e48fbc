@@ -1,0 +1,74 @@
+Subject:Re: Rebote con ajustes del servidor de pruebas
+El Fri, 14 Sep 2012 10:51:00 -0430, Miguel Matos escribió:
+
+>>> Pero comprobando la dirección que coincide con la máquina virtual
+>>> (192.168.xxx.xxx), el directorio www sólo tiene un archivo, creado en
+>>> el paso anterior al del problema. Al ingresar al /var/www, ¡¿QUE
+>>> RAYOS?, ¿UN SOLO ARCHIVO?! ¿QUE PASA ACA?
+>>
+>> Supongo que tendrás un sólo archivo que es el enlace simbólico que
+>> apunta a la ubicación real donde tienes instalado phpmyadim.
+>>
+> Hago el paso que se indica, y no dice nada... luego voy a
+> /home/debian-server/www y muestra:
+> root@servidordebian:~# ls -l /home/debian-server/www 
+> total 4 
+> -rw-r--r-- 1 root root 20 sep 13 11:57 compatible.php 
+> lrwxrwxrwx 1 root root 19 sep 13 23:03 phpmyadmin -> /var/www/phpmyadmin
+> 
+> Ahí esta el enlace. 
+
+Correcto.
+
+> Pero al visitar mi lugar (192.168.1.xxx) sólo muestra un archivo:
+> Index of /www
+> 
+> 	Name	Last modified	Size	Description
+> 	Parent Directory	 	 -
+> 	compatible.php	13-Sep-2012 11:57	 20
+> Apache/2.2.16 (Debian) Server at 192.168.1.XXX Port 80
+
+Normal :-)
+
+Las instrucciones no dicen eso sino que tienes que visitar:
+
+http://192.168.1.xxx/phpmyadmin
+
+(el "www" no te hará falta)
+
+>>> ¿Entonces el paso del enlace está inválido?
+>>
+>> No veo por qué... ¿qué esperabas ver? :-?
+
+> Según la página, además del compatible.php debe aparecer una carpeta
+> llamada "phpmyadmin", dice que se hace clic y abre la página de acceso,
+> y a partir de allí se inicia las configuraciones de bases de datos;
+> empero, no obstante, yo no tengo tal cosa. Y si no existe, ¿dónde debo
+> ubicarla?
+
+Prueba con la URL que te indico más arriba.
+
+>>> Vamos a pedir ayuda:
+>>>
+>>> root@miguel-LT:/home/miguel# man phpmyadmin No manual entry for
+>>> phpmyadmin
+>>
+>> Correcto, no existe página de manual para esa aplicación. La
+>> documentación la tienes en "/usr/share/doc/phpmyadmin", como siempre.
+>>
+>>
+> Mejor hago mutis después del "como siempre"... 
+
+Pero si esto es de cajón, hombre :-P
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2vnh5$4lj$9@ger.gmane.org
+

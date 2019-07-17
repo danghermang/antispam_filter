@@ -1,0 +1,168 @@
+Subject:RE: [Jukebox-list] 6973 to el84 info needed.
+6CZ5 is the other substitute Jim. Same 1-8 jumper.
+This is the valve that National rebranded as a 6973, and put a little =
+pin
+jumper underneath.
+
+I have 6CZ5 in my Continental one and they are FAR  better in output and
+sound depth than the EH 6973's. I've got various sets for comparison.
+
+Incidentally, a major jukebox restorer in the UK, of very high repute no
+longer uses the EH valves, as the outputs are never up to spec, and are =
+too
+variable.
+I know there was a bad batch some years ago, but this is now.
+
+At least they still make them. I remember in the 80s, the EL34 ? was a
+common replacement, but in my opinion the output was noticeably lower in
+that setup.
+
+Regards
+
+Nigel
+
+-----Original Message-----
+From: jukebox-list-bounces@lists.netlojix.com
+[mailto:jukebox-list-bounces@lists.netlojix.com] On Behalf Of James
+Alexander
+Sent: 14 November 2012 15:52
+To: Jukebox mailing list
+Subject: Re: [Jukebox-list] 6973 to el84 info needed.
+
+Gentlemen:
+
+Earlier on, this discussion string asked whether EL84/6BQ5 tubes could =
+be
+substituted in jukebox amps for the harder-to-find 6973 tube types.=A0 =
+In
+general, the=A0conclusions put forward by all contributors came down to:
+
+Electro-Harmonix, the Russian tube manufacturer is currently offering a
+genuine
+6973 tube that are=A0of good quality. None of the other 2012 tube
+manufacturers have=A06973's in their product line-up.
+
+By making minor circuit adaptations (install jumper wire on 6973 socket =
+from
+pin
+1 to pin 8), you can use 6973 substitute 6EM5 with slight reduction in
+output power=A0(audio wattage). Old-stock, US-built 6EM5's seem to be
+plentiful and are less expensive than the EH 6973's.=A0 None of the
+world-market tube manufacturers are making new 6EM5's. =A0=A0=A0There =
+may be a
+second old tube type that could be substiuted here. I don't have that =
+tube
+number.=A0
+
+Some circuit modifications were mentioned=A0that provide a safety =
+element when
+running 6973 tube circuits. 6973's=A0are more prone to short circuits =
+than
+other power-pentode tube types. Shorted tubes can burn out output
+transformers,some of which can be difficult to find replacements for.
+
+I mentioned the availability of plug-in adapter tube sockets,intended to
+substitute EL84/6BQ5 tubes in place of other output tube types.=A0 These
+adapters are called Yellow Jackets (web: www.yellowjacketstc.com)=A0 and =
+are
+intended=A0primarily for guitarists and musicians' amps.=A0=A0 Most =
+Yellow Jacket
+adapters are designed to substitute EL84's for higher-power octal tube
+types, reducing the output wattage of higher-powered=A0amps to =
+produce=A0the
+slightly-overloaded Class A amp sound that some guitarists=A0seek =
+without
+having the killer volume levels.=A0=A0=A0 Yellow Jackets doesn't make an =
+adapter
+that will accomodate/convert 6973 tubes to EL84 operation.=A0=A0These =
+devices
+wouldn't be of help to the=A0typical jukebox amp rebuilder.=A0 Sorry for =
+the
+incorrect information.=20
+=A0=A0=A0
+
+Jim =
+Alexander=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0
+
+
+
+
+________________________________
+From: Don Resor <organlists@pacbell.net>
+To: Jukebox mailing list <jukebox-list@lists.netlojix.com>
+Sent: Mon, November 12, 2012 8:27:16 PM
+Subject: Re: [Jukebox-list] 6973 to el84 info needed.
+
+If you need, you can have most any transformer rewound here:
+
+http://members.tripod.com/tubes_tubes_tubes/transformerrewindingservice/
+
+At 12:39 PM 11/12/2012, you wrote:
+> Rob,
+>=A0 And considering what I heard about not being able to get the=20
+>transformers, anything I can do to protect them is a good thing.
+>=A0 What if I soldered the resistor straight to the wires and heat=20
+>shrieked the assembly.
+>=20
+> Ed Owens
+> E O Johnson Co
+>=20
+> On Nov 12, 2012, at 2:36 PM, "Chan Gade" <chan.gade@yahoo.com> wrote:
+>=20
+> > Ed, that is correct, disconnect the wire(s) that go to Pins 1and/or=20
+> > 8 which
+>is grid 2, place a terminal strip nearby (or use a convenient=20
+>non-grounded tie
+>point)=A0 and place the new 100 ohm resistors in place of the direct
+connection.
+> >
+> > Since the diagrams show the tube having Pins 1&8 together internally =
+
+> > the
+>choice to jump them is up to you. No big advantage that i can see.
+> >
+> > Rowe did not start adding those resistors until a year or so into=20
+> > the use of
+>7868 tubes. Those tubes being highly efficient, are prone to shorts and =
+
+>I guess a few fried trans convinced them that it was worth the 100th of =
+
+>a cent more to add them.
+> >
+> > Rob/NYC
+> >
+> >
+> > _______________________________________________
+> > Jukebox-list mailing list
+> > Jukebox-list@lists.netlojix.com
+> > http://lists.netlojix.com/mailman/listinfo/jukebox-list
+> > Searchable Archives: http://jukebox.markmail.org/
+> _______________________________________________
+> Jukebox-list mailing list
+> Jukebox-list@lists.netlojix.com
+> http://lists.netlojix.com/mailman/listinfo/jukebox-list
+> Searchable Archives: http://jukebox.markmail.org/
+
+Donald R. Resor Jr. T. W. & T. C. Svc. Co.
+http://www.hammondorganservice.com
+Carillon Web Ring http://g.webring.com/hub?ring=3Dthecarillonwebri
+Hammond Central Warranty Service
+Johannus Orgelbouw bv Warranty Service
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

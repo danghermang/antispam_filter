@@ -1,0 +1,20 @@
+Subject:dudas con squid
+Hola a todos tengo una duda con el squid
+
+Tengo a los  usuarios que autentican para poder nabegar peeeero si en 
+la PC de un usuario le escriben  el ip del proxu navegarán sin 
+restricción y sin autenticarse, como arreglar eso alguna idea ?? tengo 
+un fichero donde se almacenan los usuarios y pasword de cada uno y en 
+dependencia d eello navegaran a sitios eso si está de maravilla  pero 
+existe este error y necesito arreglarlo que con el uso del gateway se me 
+van por ahi
+
+
+Agradezco cualquier informcación alrespecto
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/3da0aec4c11c23c1864b294936cfdb6d@ida.cu
+

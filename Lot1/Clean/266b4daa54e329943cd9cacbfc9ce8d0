@@ -1,0 +1,34 @@
+Subject:Re: GRUB no me detecta los otros SO.
+On Sat, Sep 22, 2012 at 7:00 AM, Marvin Velasquez <marvinbcn01@gmail.com> w=
+rote:
+> Hola Amigos!!
+>
+> Les comento mi fallo,
+>
+> tengo un netbook que viene con w27 y androide en otra particion, y
+> otra particion de recovery,
+>
+> yo he creado una partici=C3=B3n para instalarle Ubuntu,hasta aqui todo bi=
+en
+> porque GRUB me detectaba los SO.
+>
+> Borre la partici=C3=B3n de Ubuntu y nuevamente la cree para instalarle De=
+bian
+>
+> Debian se instalo sin problemas pero "GRUB" no me reconoce w27 ni  Androi=
+de??
+> que podria ser el fallo que tengo???
+
+Tienes instalado os-prober? instalalo y vuelve a correr update-grub
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjNAS3KR3OkYAiOLvqfB_3Ddb0eBetkh3Fg4NP_4asXtsA@mail.gmail.com
+

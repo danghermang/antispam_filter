@@ -1,0 +1,23 @@
+Subject:Re: Acceder como root en gnome
+2012/10/4 Liuber's Hdez=E2=88=B4 <liuber@fts.vcl.sld.cu>:
+> Buenas tardes, Lista.
+> Antes pod=C3=ADa accesar al archivo de la lista, ahora est=C3=A1 denegado=
+.
+>
+> Quisiera acceder al entorno gr=C3=A1fico de gnome loqueado como root.
+
+Vaya, pues parece que la pregunta va en serio! Madre mia!
+No, no quieres acceder como root al escritorio. De verdad que no
+quieres hacer esto.
+Sea lo que sea lo que realmente quieres hacer, no necesitas ni debes
+entrar en el escritorio como root.
+
+> gracias,
+> liuber's hdez.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAL2uDdFqgDFKxuFqc+Lu70ZX6maru7YJ_LGiQat7_oaZM4uOjg@mail.gmail.com
+

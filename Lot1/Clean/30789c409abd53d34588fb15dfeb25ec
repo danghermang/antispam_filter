@@ -1,0 +1,116 @@
+Subject:Re: [Antenna-discussion] Capture Area
+Alan
+
+Thanks for that summary of the theory, especially the bit that says a
+small antenna always captures the same power provided it is lossless.
+As we have seen, it's a big proviso.
+
+The open circuit voltage goes down with the radiation resistance as
+the size is reduced, but for a lossless antenna they reduce at a rate
+that means that the available power:
+
+Pav = V^2/4Rr
+
+remains constant, and equal to the capture area times the power
+density of the incoming wave:
+
+Pav = 3.lambda^2/8pi * E^2/zo
+
+These equations can be combined to express the radiation resistance in
+terms of the effective length Le for all small antennas:
+
+Rr = 789 (Le/lambda)^2
+
+and by introducing the equation for the open-circuit voltage of a
+small loop the radiation resistance of a small lossless single-turn
+loop can be derived:
+
+Rr = 20.k^4.A^2.
+
+A major point here is that 'available power' is a technical term from
+circuit theory that ignores the losses, and it is not an expression of
+the power available from a small antenna, because we know small
+antennas are unavoidably lossy.
+
+To find the actual power from the antenna is a piece of circuit theory
+because the open-circuit voltage is in series with the radiation
+resistance plus the reactance and the loss resistance, and it is not
+difficult algebra to calculate the power in a load resistor.
+
+For an antenna in which the major item is the reactance, the optimum
+load resistor is equal to the reactance in ohms, while for a tuned
+antenna the reactance is taken out and the optimum load resistor is
+equal to the resistance of the antenna.  In very small antennas this
+is equal to the loss resistance when the radiation resistance is much
+smaller.
+
+In practice I have found that it is difficult to predict the loss
+resistance, but it is not difficult to predict the radiation
+resistance and the reactance, so a Q-measurement can be used to
+estimate the loss resistance quite accurately.
+
+Capture area is variously defined by the formula 3.lambda^2/8pi, in
+other words the capture area of the lossless antenna, which only
+depends on the wavelength, or as the actual power output of the
+antenna divided by the incident power density.  Naturally that can
+cause confusion.
+
+Alan G3NOQ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On 30 October 2012 20:26, Alan Payne <paynealpayne@aol.com> wrote:
+> Kirk and Alan B
+>
+>
+> I have not been reading your arguments very closely so forgive me if you have already covered the following. My comments relate only to small antennas, that is antennas smaller than Wheeler's radian sphere.
+>
+>
+> If we make a small antenna even smaller the output voltage reduces, but so does the radiation resistance, so that the available output power is always the same irrespective of the size of the antenna. However to access this available power we must match to a smaller and smaller impedance, which might be measured in milli-ohms or less. This is too low an impedance for any practical matching circuit, and so with a small antenna there is always a very large mismatch loss. However we can reduce this loss by making the antenna larger, for instance by adding some ferrite, because this raises the radiation resistance and thereby reduces the mismatch loss. So the effect of the ferrite could be considered as a method of improving the match.
+> Incidentally, even if we could match to the very low radiation resistance, it would be of no practical value because the bandwidth would be far to small, and therefore a small antenna must be lossy.
+> So by adding a ferrite the power into the receiver increases but the available power does not. The ferrite is not unusual in this respect, the same thing will happen with a small dipole if we increase the length of its arms. Another way of saying that the available power is independent of antenna size is that the capture area is constant, and this is true of both the ferrite and the dipole.
+> Kirk has asked the question why a loop is good for a crystal set but for a transistor radio a ferrite antenna is used. The answer is size. There are in fact many crystal sets with ferrite aerials, but if you want better performance use a loop. But to get the better performance the loop will have to be much bigger than the ferrite aerial, and thus too big for the radio.
+>
+>
+> Alan Payne G3RBJ
+> _______________________________________________
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

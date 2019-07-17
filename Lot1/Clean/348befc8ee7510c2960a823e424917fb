@@ -1,0 +1,121 @@
+Subject:Re: SSH Tunneling
+El d=EDa 12 de septiembre de 2012 13:31, Ramses
+<ramses.sevilla@gmail.com> escribi=F3:
+> Buenas,
+>
+> El 12/09/2012, a las 17:40, Josu=E9 Marrero Berm=FAdez <inf@zetihl.azcuba=
+.cu> escribi=F3:
+>
+>> mandame eso al privado, reviso y te digo si funciona
+>>
+>
+> Mejor, ponlo por aqu=ED y lo probamos todos...
+>
+>
+> Saludos,
+>
+> Ramses
+
+Hola
+Est=E1 levemente modificado porque "Chapulin" es un servidor SME, as=ED
+que van a encontrar referencias a paths completos, retocados para que
+se ajusten a Debian. la pc en 192.168.0.251 es un servidor de
+terminales Windows.
+Tambi=E9n se asume que el t=E9cnico tiene acceso a ambas m=E1quinas, que
+todos los usuarios remotos pueden usar el t=FAnel, que los usuarios no
+pueden loguearse por ssh, salvo root, y que no se permite el logueo
+ssh por contrase=F1a.
+
+Configuraci=F3n del T=FAnel en m=E1quinas Debian
+Contenido
+Chapulin es el servidor con acceso a internet que brinda el servicio ssh
+En las instrucciones siguientes reemplazar "usuario del t=FAnel" por el
+nombre del usuario que va a generar el t=FAnel a trav=E9s de Chapulin, "IP
+maquina remota" por la direcci=F3n IP de la m=E1quina remota e "IP de
+Chapulin" por la direcci=F3n IP del Chapulin.
+
+En Chapulin :
+
+    * Verificar que exista el usuario "usuario del t=FAnel" en Chapulin
+y crearlo si no existe.
+
+En la m=E1quina remota:
+
+    * Abrir una terminal del usuario del t=FAnel
+    * Generar clave para el usuario del t=FAnel con ssh-keygen.
+    * No ponerle contrase=F1a a la clave.
+    * La clave queda guardada en "/home/usuario del t=FAnel/.ssh"
+    * Copiar  "/home/usuario del t=FAnel/.ssh/id_rsa.pub" en
+"//chapulin/home/usuario del t=FAnel"
+
+En Chapulin (conectado por ssh como root):
+
+    * Hacer cd "/home/usuario del t=FAnel"
+    * Hacer cp  /home/usuario del t=FAnel/.id_rsa.pub  ./.ssh/authorized_ke=
+ys
+    * Hacer chown "usuario del t=FAnel":"usuario del t=FAnel"
+./.ssh/authorized_keys
+    * Hacer chmod 644 ./.ssh/authorized_keys
+    * Hacer rm ./home/id_rsa.pub
+
+En la m=E1quina remota:
+
+    * Abrir una terminal de root
+    * Instalar autossh.
+
+    apt-get update
+    apt-get install autossh
+
+    * Desde la terminal de root editar "/etc/ssh/ssh_config" y "/etc/rc.loc=
+al"
+    * Agregar a "/etc/ssh/ssh_config"
+
+    Host "IP de chapulin"
+    GatewayPorts=3Dyes
+    IdentityFile=3D/home/usuario del t=FAnel/.ssh/id_rsa
+    LocalForward=3D"IP maquina remota":3389 192.168.0.251:3389
+    LogLevel=3DDEBUG
+    ServerAliveInterval=3D10
+    User=3Dusuario del t=FAnel
+
+    * Agregar a "/etc/rc.local" justo antes de la l=EDnea que dice "exit 0"
+
+    ID=3Dusuario del t=FAnel
+    HOST=3D"IP de chapulin"
+    AUTOSSH_POLL=3D60
+    AUTOSSH_PORT=3D0
+    AUTOSSH_GATETIME=3D0
+    AUTOSSH_LOGFILE=3D/var/$HOST.log
+    AUTOSSH_DEBUG=3Dyes
+    AUTOSSH_LOGLEVEL=3D7
+    AUTOSSH_PATH=3D/usr/bin/ssh
+    export AUTOSSH_POLL AUTOSSH_LOGFILE AUTOSSH_DEBUG AUTOSSH_LOGLEVEL
+AUTOSSH_PATH AUTOSSH_GATETIME AUTOSSH_PORT
+    /usr/bin/autossh -fN ${ID}@${HOST}
+
+    * Desde la terminal del usuario del t=FAnel ejecutar 'ssh "IP de
+chapulin"' y aceptar la identificaci=F3n del servidor.
+    * Reiniciar la pc y verificar el t=FAnel.
+
+Espero que no me peguen demasiado.
+Les pido que recuerden que la seguridad interna no est=E1 tenida en
+cuenta y por eso est=E1n muchas de las cosas que no les van a gustar a
+los que administran sitios grandes.
+Sean amables :-)
+Mas all=E1 de eso, este t=FAnel me est=E1 resultando muy confiable. Si las
+m=E1quinas est=E1n prendidas y conectadas a internet, el t=FAnel est=E1
+funcionando. Siempre.
+Ojal=E1 les sirva.
+Un abrazo.
+
+--=20
+Jorge A Secreto
+Analista de Sistemas
+MP 361
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJx9gig36Pe5b1eFbwzhYKcJSf4Q96xF2AH_By9Zk5J8ksRgBA@mail.gmail.com
+

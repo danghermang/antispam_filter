@@ -1,0 +1,19 @@
+Subject:[Gul] Problemas con arranque de Ubuntu!
+Buenos dias a todos! Tengo un problema, no se si sera el arranque o el disc=
+o duro, hace poco probando un disco duro viejo, desconecte mi disco duro ID=
+E y conecte el viejo para probar si funcionaba, al terminar de testearlo, v=
+olvi a conectar mi disco duro IDE y la sorpresa fue que al comenzar a carga=
+r me dio error y reinicio, ahora cada vez que enciendo la pc me da este err=
+or:
+erro: out of disk
+Grub rescue>
+Que puedo hacer para reparar o solucionar este problema?
+PD: probe con super grub 2 disk pero no me carga nada! Me da el mismo error=
+ grub rescue>
+Muchas gracias de antemano por su ayuda!
+Sent from my BlackBerry?A?. wireless device from Telecom.
+
+_______________________________________________
+Gul mailing list
+Gul@linux.ues.edu.sv
+http://linux.ues.edu.sv/mailman/listinfo/gul

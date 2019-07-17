@@ -1,0 +1,87 @@
+Subject:Re: servidor de correos
+El 06/11/2012, a las 11:27, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=B3=
+:
+
+> El Tue, 06 Nov 2012 10:59:18 -0600, Francisco Eduardo Ascencio Dominguez
+> escribi=C3=B3:
+>=20
+>> El 06/11/2012, a las 08:17, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=
+=B3:
+>=20
+> (...)
+>=20
+>>>> bueno uso debian squeeze 6 y tengo montado mi servidor we (
+>>>> www.lypef-warez.com ) pero ahora quisiera saber como monto un servidor
+>>>> de correo publico para que mi cuenta de correo se por ejemplo
+>>>> usuario@lypef-warez.com ? de antemano gracias por la yuda
+>>>=20
+>>> Pues en cuesti=C3=B3n de servidores de correo tienes opciones para aburr=
+ir
+>>> as=C3=AD que es mejor que nos digas qu=C3=A9 tipo de requisitos tienes q=
+ue
+>>> cumplir para que podamos darte alguna orientaci=C3=B3n m=C3=A1s concreta=
+ :-)
+>=20
+>> bien lo que pasa es que tengo un foro ( www.lypef-warez.com ) y quisiera
+>> que mis usuarios tengan su propia cuenta con dominio de el foro. el
+>> servidor es propio. o a que te refieres que si que requisitos tengo que
+>> cumplir ?
+>=20
+> Por los requisitos que tienes que cumplir me refiero al tipo de=20
+> configuraci=C3=B3n tienes pensado usar, por ejemplo:
+>=20
+> - Tipo de usuarios (virtuales o del sistema)
+> - Cantidad de usuarios
+> - Almac=C3=A9n de los usuarios y las contrase=C3=B1as (base de datos tipo s=
+ql,=20
+> archivo simple tipo sasldb, directorio ldap...)
+> - A=C3=B1adidos extra (servicios de antimalware/antivirus, antispam, segur=
+idad=20
+> tls...)
+> - Tipo de servidor (pop3[s]/imap[s]/webmail)
+> - Si buscas una soluci=C3=B3n integrada (todo en uno tipo zimbra) o prefie=
+res=20
+> un sistema de correo modular (una aplicaci=C3=B3n para cada servicio)...
+> - Posible expansi=C3=B3n del sistema a medio/largo plazo
+>=20
+> Como ves hay varios factores que entran en juego y que hay que tener en=20=
+
+> cuenta a la hora de montar un servidor de correo por eso conviene que=20
+> antes de empezar a tomar decisiones escribas en un papel todo lo que=20
+> necesitas/esperas ofrecer y que detalles en un esquema el flujo completo=20=
+
+> de entrada/salida que van a seguir los mensajes para no dejar ning=C3=BAn c=
+abo=20
+> suelto y que sea lo que sea lo que decidas lo hagas con conocimiento de=20=
+
+> causa y no te lleves sorpresas :-)
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/k7bh9v$ji$16@ger.gmane.org
+>=20
+>=20
+
+Bueno la cantidad de usuarios yo digo que con unos 500 (actualmente hay 70 u=
+suario ) hacerlo con zimbra me parece bien ya que eleido que es bueno. seria=
+ un pop 3 o que me recomiendan ? y seguridad  base de datos mysql y segurida=
+d creo que solo antimalware y anticirus pero com ago esto ?
+
+ley que con zimbra lo puedo hacer.=20
+
+la verdad no se nada de esos tipos de servidores. y como hacerlo publico ?=20=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU0-SMTP195406632217DFA1DD1AA46C56B0@phx.gbl
+

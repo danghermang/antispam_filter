@@ -1,0 +1,49 @@
+Subject:Re: Como hacer backups "sencillos" programados ?
+El 08/11/2012, a las 17:42, Gonzalo Rivero <fishfromsalta@gmail.com> escribi=
+=C3=B3:
+
+> El jue, 08-11-2012 a las 09:13 +0000, silodepam escribi=C3=B3:=20
+>> Hola gente, mi pc (junto al soft libre y utilizando debian) se esta=20
+>> transformando en un instrumento de preponderante valia para mi vida.
+>> La estoy utilizando para escribir ideas que aun no tienen valor alguno=20=
+
+>> y  de aqui que surge la necesidad de hacer backups de algunas notas o=20
+>> datos que se encuentran en diferentes subdirectorios. Manualmente podria=20=
+
+>> hacerlo pero puede resultar hasta ineficiente ya que solo existiria la=20=
+
+>> seguridad mi pobre voluntad acompa=C3=B1ada de mi distraido recuerdo.
+>>  Manejo archivos de texto, llanos, algun html y quizas imagenes en una=20=
+
+>> particion ext4 de un querido rigido de 120gb que ya tubo su cuelgue=20
+>> (aunque sigue funcionando).
+>>  Acabo de hacer el primero y mas facil: la carpeta contenedora copiarla=20=
+
+>> integramente al nuevo destino, y desde este punto escribo el mail=20
+>> pidiendo consejo u orientacion.
+>> Muchas gracias gente. -alunado.
+>>=20
+>>=20
+>=20
+> yo los hago con rsync en un cron
+> --=20
+> (-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+Una duda:
+
+Si estamos sincronizando, por ejemplo, "/var/lib/mysql/", donde las bases de=
+ datos est=C3=A1n continuamente cambiando, =C2=BFcada vez que se hace un cam=
+bio en la base de datos se copia esta entera o la parte del fichero que ha c=
+ambiado concretamente?.
+
+
+Saludos,
+
+Ramses=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/A450EBE9-DAE9-499D-9539-D682724DE1E7@gmail.com
+

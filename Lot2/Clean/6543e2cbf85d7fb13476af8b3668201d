@@ -1,0 +1,54 @@
+Subject:Apache2 no me coge el htaccess
+Tengo un .htaccess en /var/www con esta línea como contenido ...
+
+IndexIgnore *
+
+... en /etc/apache2/sites-available/default tengo ...
+
+
+<VirtualHost *:80>
+         ServerAdmin webmaster@localhost
+
+         DocumentRoot /var/www
+         <Directory />
+                 Options FollowSymLinks
+                 AllowOverride None
+         </Directory>
+         <Directory /var/www/>
+                 Options Indexes FollowSymLinks MultiViews
+                 AllowOverride All
+                 Order allow,deny
+                 allow from all
+         </Directory>
+
+         ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
+         <Directory "/usr/lib/cgi-bin">
+                 AllowOverride None
+                 Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+                 Order allow,deny
+                 Allow from all
+         </Directory>
+
+         ErrorLog ${APACHE_LOG_DIR}/error.log
+
+         # Possible values include: debug, info, notice, warn, error, crit,
+         # alert, emerg.
+         LogLevel warn
+
+         CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+... donde como podéis ver he cambiado AllowOverride de None a All
+Y sigue sin cogerme el .htaccess. Cuando meto la url me lista todo el 
+contenido de /var/www
+¿Qué hago mal? ¿Aguna idea?
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/508914FB.5090302@yahoo.es
+

@@ -1,0 +1,39 @@
+Subject:Re: [rlug] Intrebare file mirroring
+2012/11/14 Petru Ratiu <rpetre@gmail.com>:
+> 2012/11/14 Gyula Keresztely-Krall <xenexis@gmail.com>
+>
+>> 2012/11/14 Vali Dragnuta <vali.dragnuta@inode.ro>:
+>> > De ce sute ? Ar trebui sa faci deploy manual pe o singura masina si sa
+>> > ai acolo un master script care face rsync pe toate masinile "slave".
+>> > Desigur, sint niste conditii care ar trebui indeplinite in prealabil dar
+>> > altfel... nu cred ca e asa complicat :)
+>> >
+>> Eh, ar fi prea frumos sa fie asa :)
+>> Din pacate situatia e mai complicata, se face deploy si upload pe
+>> toate serverele.
+>> Si bine inteles nu pot sa schimb lucrul acesta asa ca ramane varianta
+>> gluster/nfs.
+>>
+>> Uneori e mai bine sa dezveti si obiceiurile proaste.
+>
+> Ce te faci daca ti se agata "magic dust" din nfs sau gluster sau mai stiu
+> eu ce pixiedust filesystem?
+>
+> --
+> Petre "there is no magic, doar bagi o problema sub pres si zici ca a
+> disparut"
+
+Inca nu stiu, probabil voi afla la momentul respectiv, sau intre timp
+e posibil sa gasesc o alta solutie.
+Stim cu totii ca sunt anumite lucruri pe care chiar dace vrem nu le
+putem impune conducerii.
+
+Numai bine.
+
+
+-- 
+Gyula KERESZTELY-KRALL
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

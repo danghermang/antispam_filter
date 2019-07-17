@@ -1,0 +1,166 @@
+Subject:Re: [LACNIC/Politicas] 2012-10
+Ol=E1 Carlos,
+
+Estou de acordo com seus coment=E1rios.
+
+Obrigado,
+Pedro
+
+2012/11/14 Carlos M. Martinez <carlosm3011@gmail.com>:
+> Oi Pedro,
+>
+> o termino 'nibble' esta mencionado en la RFC 3596 [1] en el contexto de
+> DNS reverso. Tambi=E9n se utiliza el termino 'nibble boundary' en
+> numerosos documentos de otros RIRs y de otras organizaciones como [2],
+> [3], [4] y [5]
+>
+> En castellano y en portugues somos libres de inventar el termino que
+> querramos, pero creo que en lo posible en ingles debemos ser compatibles
+> con la terminologia que ya se utiliza.
+>
+> s2
+>
+> Carlos
+>
+>
+> [1] https://tools.ietf.org/html/rfc3596
+> [2] https://www.arin.net/policy/proposals/2011_3.html
+> [3]
+> http://www.ipbcop.org/wp-content/uploads/2012/02/BCOP-IPv6_Subnetting.pdf
+> [4]
+> http://www.apnic.net/services/services-apnic-provides/registration-servic=
+es/reverse-dns/access-to-reverse-dns/new-domain-object
+> [5]
+> http://www.circleid.com/posts/20120719_ipv6_subnetting_the_paradigm_shift/
+>
+>
+>
+> On 11/14/12 11:43 AM, Pedro Torres wrote:
+>> Considere http://tools.ietf.org/html/rfc2373 ao inv=E9s da 1884.
+>>
+>> --
+>> Pedro
+>>
+>> 2012/11/14 Pedro Torres <torres@pop-pr.rnp.br>:
+>>> Ol=E1 Patara,
+>>>
+>>> Acredito que na vers=E3o em espanhol apresentada faltou citar a palavra
+>>> "representa=E7=E3o" ou "representa=E7=E3o textual", pois o texto trata =
+das
+>>> fronteiras quando se utiliza a "representa=E7=E3o hexadecimal", algo co=
+mo
+>>> citado na http://tools.ietf.org/html/rfc1884 (que por sua vez n=E3o cita
+>>> o termo nibble).
+>>>
+>>> Abra=E7os,
+>>> Pedro
+>>>
+>>> 2012/11/14 Ricardo Patara <patara@registro.br>:
+>>>> Estimado(a)s
+>>>>
+>>>> Durante la llamada a consenso para esta propuesta en el =FAltimo foro =
+de
+>>>> pol=EDticas hubo un comentario acerca de un termino utilizado en el te=
+xto.
+>>>>
+>>>> La propuesta presentada en la lista tenia el siguiente texto y que ha
+>>>> generado el comentario:
+>>>>
+>>>> "- debido a la  existencia de m=FAltiples puntos de acceso (POP), el p=
+lan
+>>>> de direccionamiento puede indicar prefijos m=EDnimos para cada POP. Los
+>>>> prefijos m=EDnimos para cada POP deben estar dentro de las =93frontera=
+s=94
+>>>> *binarias* de la direcci=F3n IPv6 (/X, donde X es m=FAltiplo de 4). Sin
+>>>> embargo, el bloque previsto para cada POP debe satisfacer por lo menos
+>>>> un 30% de la necesidad actual del mismo."
+>>>>
+>>>> y el comentario fue en relaci=F3n a "fronteras binarias".
+>>>>
+>>>> Por ser algo relacionado a la escrita pero que no cambia en nada la id=
+ea
+>>>> y propuesta, ella fue votada y tuvo consenso.
+>>>>
+>>>> En seguida hable con los Chairs y tambi=E9n con Pedro Torres que fue q=
+uien
+>>>> hizo el comentario y llegamos al siguiente texto propuesto para esa pa=
+rte:
+>>>>
+>>>> "- debido a la  existencia de m=FAltiples puntos de acceso (POP), el p=
+lan
+>>>> de direccionamiento puede indicar prefijos m=EDnimos para cada POP. Los
+>>>> prefijos m=EDnimos para cada POP deben estar dentro de las =93frontera=
+s=94
+>>>> *hexadecimales* de la direcci=F3n IPv6 (/X, donde X es m=FAltiplo de 4=
+). Sin
+>>>> embargo, el bloque previsto para cada POP debe satisfacer por lo menos
+>>>> un 30% de la necesidad actual del mismo."
+>>>>
+>>>>
+>>>> El texto completo a ser enviado a la lista para "Last Call" ser=E1 lo
+>>>> siguiente:
+>>>>
+>>>>
+>>>> Sustituir el siguiente texto del p=E1rrafo 4.5.1.3. "Tama=F1o de
+>>>> distribuci=F3n inicial":
+>>>>
+>>>> "Las organizaciones que cumplan con el criterio de distribuci=F3n inic=
+ial
+>>>> pueden recibir un m=EDnimo de distribuci=F3n de /32.
+>>>> Las organizaciones podr=EDan calificar para una distribuci=F3n inicial=
+ m=E1s
+>>>> grande que /32 entregando documentaci=F3n que justifique razonablement=
+e el
+>>>> pedido. Si as=ED lo hicieran, el tama=F1o de distribuci=F3n estar=E1 b=
+asado en
+>>>> el n=FAmero de usuarios existentes y en la extensi=F3n de la infraestr=
+uctura
+>>>> de la organizaci=F3n."
+>>>>
+>>>> Por:
+>>>>
+>>>> "Las organizaciones podr=EDan calificar para una distribuci=F3n inicial
+>>>> mayor a /32 entregando documentaci=F3n que justifique el pedido. En es=
+te
+>>>> caso, la documentaci=F3n debe atender a las siguientes consideraciones:
+>>>>
+>>>> - el plan de direccionamiento no debe superar los cuatro a=F1os. Y debe
+>>>> considerar el espacio necesario para atender a los clientes y a los
+>>>> servicios actuales considerando el prefijo m=EDnimo para asignaciones
+>>>> recomendadas en la pol=EDtica vigente.
+>>>>
+>>>> - debido a la existencia de m=FAltiples puntos de acceso (POP), el pla=
+n de
+>>>> direccionamiento puede indicar prefijos m=EDnimos para cada POP. Los
+>>>> prefijos m=EDnimos para cada POP deben estar dentro de las =93frontera=
+s=94
+>>>> hexadecimales de la direcci=F3n IPv6 (/X, donde X es m=FAltiplo de 4).=
+ Sin
+>>>> embargo, el bloque previsto para cada POP debe satisfacer por lo menos
+>>>> un 30% de la necesidad actual del mismo.
+>>>>
+>>>> El prefijo que se distribuir=E1 al ISP debe estar dentro de las
+>>>> =93fronteras=94 hexadecimales de la direcci=F3n IPv6.
+>>>>
+>>>>
+>>>>
+>>>> Saludos.
+>>>> --
+>>>>   Ricardo Patara
+>>>> _______________________________________________
+>>>> Politicas mailing list
+>>>> Politicas@lacnic.net
+>>>> https://mail.lacnic.net/mailman/listinfo/politicas
+>> _______________________________________________
+>> Politicas mailing list
+>> Politicas@lacnic.net
+>> https://mail.lacnic.net/mailman/listinfo/politicas
+>>
+> _______________________________________________
+> Politicas mailing list
+> Politicas@lacnic.net
+> https://mail.lacnic.net/mailman/listinfo/politicas
+_______________________________________________
+Politicas mailing list
+Politicas@lacnic.net
+https://mail.lacnic.net/mailman/listinfo/politicas

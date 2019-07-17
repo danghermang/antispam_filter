@@ -1,0 +1,50 @@
+Subject:Re: XFCE et mes clefs USB
+Le Thu, 13 Sep 2012 06:48:30 +0200,
+Nicolas FRANCOIS <nicolas.francois@free.fr> a =C3=A9crit :
+
+> Salut.
+>=20
+> Je suis pass=C3=A9 =C3=A0 XFCE pour des raisons de fluidit=C3=A9 et de
+> fonctionnalit=C3=A9s, il me convient parfaitement, mais j'ai un soucis :
+> lorsque je branche une clef USB, une fen=C3=AAtre Nautilus et deux fen=C3=
+=AAtre
+> Thunar s'ouvrent syst=C3=A9matiquement. Et seule la fen=C3=AAtre Nautilus=
+ permet
+> de d=C3=A9monter la clef, l'option "D=C3=A9monter le volume" des fen=C3=
+=AAtres Thunar
+> me r=C3=A9pondant "La clef a du =C3=AAtre mont=C3=A9e =C3=A0 la main, imp=
+ossible de la
+> d=C3=A9monter".
+>=20
+> Qu'est-ce que j'ai encore fait comme b=C3=AAtise ???
+
+OK, j'ai d=C3=A9sinstall=C3=A9 Gnome, et donc en particulier Nautilus, je n=
+'ai
+plus de probl=C3=A8mes pour le d=C3=A9montage. Par contre, j'ai TOUJOURS de=
+ux
+fen=C3=AAtres Thunar qui s'ouvrent simultan=C3=A9ment lorsque j'ins=C3=A8re=
+ un
+p=C3=A9riph=C3=A9rique de stockage USB !
+
+Pourquoi 2 ???
+
+\bye
+
+--=20
+
+Nicolas FRANCOIS                      |  /\=20
+http://nicolas.francois.free.fr       | |__|
+				      X--/\\
+We are the Micro$oft.		        _\_V
+Resistance is futile.		   =20
+You will be assimilated.         darthvader penguin
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120917072048.3bc9287c@gaston.baronie.vez
+

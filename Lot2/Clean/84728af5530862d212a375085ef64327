@@ -1,0 +1,23 @@
+Subject:Re: Connexion ssh : timed out
+Bonjour,
+
+Le mercredi 31 octobre 2012 à 13:17, Eddy F. a écrit :
+> Avez-vous un avis sur ma configuration ? Merci
+
+Elle me paraît pas mal…
+
+As-tu configuré le NAT sur ton modem ?
+
+As-tu des règles de filtrage iptables sur ta machine ?
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031123258.GA8627@sebian.nob900.homeip.net
+

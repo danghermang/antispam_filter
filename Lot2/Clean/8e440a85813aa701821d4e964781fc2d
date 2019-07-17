@@ -1,0 +1,15 @@
+Subject:freerdp 1.0.1-1~bpo60+x2go1update => remmina crash
+Hi,
+
+Since the last update of freerdp, remmina crashes after logging to Windows 7 session.
+
+Regards,
+
+gpe
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1764783257.106675207.1347958676518.JavaMail.root@zimbra1-e1.priv.proxad.net
+

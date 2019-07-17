@@ -1,0 +1,27 @@
+Subject:Re: sobre CMH
+On 18/10/12 16:42, linux wrote:
+> Saludos lista alguno de los presentes sabe de algun soft que sirva 
+> para leer CMH en debian saludos
+>
+> -- 
+>
+> Este mensaje le ha llegado mediante el servicio de correo electronico 
+> que ofrece Infomed para respaldar el cumplimiento de las misiones del 
+> Sistema Nacional de Salud. La persona que envia este correo asume el 
+> compromiso de usar el servicio a tales fines y cumplir con las 
+> regulaciones establecidas
+>
+> Infomed: http://www.sld.cu/
+>
+>
+
+Si es CHM (compiled html help), proba con xCHM
+sudo apt-get install xchm
+Saludos!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5080CAB0.7050108@arnet.com.ar
+

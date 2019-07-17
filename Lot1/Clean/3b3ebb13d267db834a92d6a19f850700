@@ -1,0 +1,71 @@
+Subject:Re: Gestion des =?UTF-8?B?ZMOpcGVuZGFuY2Vz?=
+Bonjour,
+
+Le 17/11/2012 08:58, tedji a écrit :
+> Bonjour
+>
+> la gestion des dépendances reste mystérieuse. Exemple.
+>
+> Je veux installer cmake: le paquet libnettle4 doit être installé:
+>
+> root@debian:/home/thierry# apt-get -s install cmake
+> Lecture des listes de paquets... Fait
+> Construction de l'arbre des dépendances
+> Lecture des informations d'état... Fait
+> Les paquets supplémentaires suivants seront installés :
+>    libarchive12 libnettle4
+> Les NOUVEAUX paquets suivants seront installés :
+>    cmake libarchive12 libnettle4
+>
+> Pourtant, quand je regarde les dépendances de cmake, libnettle4 n'y figure pas:
+>
+> root@debian:/home/thierry# apt-cache depends cmake
+> cmake
+>    Dépend: libarchive12
+>    Dépend: libc6
+>    Dépend: libcurl3-gnutls
+>    Dépend: libexpat1
+>    Dépend: libgcc1
+>    Dépend: libstdc++6
+>    Dépend: libxmlrpc-core-c3
+>    Dépend: zlib1g
+>    Dépend: cmake-data
+>    Dépend: procps
+>    Suggère: gcc
+>    Suggère: make
+>
+> Alors pourquoi apt force l'installation de ce paquet?
+>
+> Merci de votre éclairage
+>
+>
+>
+$ apt-cache depends libarchive12
+libarchive12
+   Dépend: libacl1
+   Dépend: libattr1
+   Dépend: libbz2-1.0
+   Dépend: libc6
+   Dépend: liblzma5
+   Dépend: libnettle4
+   Dépend: libxml2
+   Dépend: zlib1g
+   Pré-Dépend: multiarch-support
+     multiarch-support:i386
+   Remplace: libarchive12:i386
+   Casse: libarchive12:i386
+
+Est-ce que cela répond à ta question ?
+
+A+
+Jean-Jacques
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A74C67.5000807@doti.fr
+

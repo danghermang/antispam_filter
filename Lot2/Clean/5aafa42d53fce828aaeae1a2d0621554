@@ -1,0 +1,48 @@
+Subject:[Koha] Error in searching
+Hello Sir,
+
+I am have installed koha 3.08.05.000 version in our library and I have
+added some books through catalguing, but I am not able to get the search
+results it showing as
+
+No results found
+
+No results match your search for 'kw,wrdl: fundamentals' in OPAC of Central
+Library and Information Center (CLIC) Catalog.
+
+
+
+
+*No results found*
+Biblios in reservoir
+
+None
+
+
+*No results found!*
+
+No results found for that in OPAC of Central Library and Information Center
+(CLIC) catalog. [image: Subscribe to this
+search]<http://opac.hsit.ac.in/cgi-bin/koha/opac-search.pl?idx=kw&q=fundamentals&format=rss2>
+
+
+Kindly, let me know why the software is not able to search in
+administration nor in OPAC
+
+
+
+
+
+
+
+-- 
+
+*Anand R*
+Librarian
+CLIC
+Hira sugar Institute of Technology
+Nidasoshi
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

@@ -1,0 +1,57 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+El 22/09/12 19:45, Camaleón escribió:
+> El Sat, 22 Sep 2012 19:26:22 +0200, Juan Antonio escribió:
+> 
+>> El 22/09/12 18:18, Camaleón escribió:
+> 
+> (...)
+> 
+>>> Sigue sin cuadrarme porque el cambio que has hecho requiere la
+>>> recompilación del kernel algo que anteriormente no se había hecho y no
+>>> era necesario. Las posteriores actualizaciones que hayas podido hacer
+>>> no han alterado el contenido del resto de elementos ("intrd") que hayan
+>>> sido compilados/generados por ti, luego o se me escapa algo o sigo sin
+>>> verlo :-)
+>>>
+>>>
+>>>
+>>
+>> al parecer el nuevo paquete de initramfs no incluye "soporte" para unix
+>> socket como módulo, cuando actualizó este paquete y generaba nuevas
+>> imágenes initrd para sus "custom kernel" estos dejaban de funcionar
+>> porque el había compilado el soporte de unix socket como módulo en esos
+>> kernels.
+>> Esta es la conclusión que yo he sacado al menos.
+> 
+> Eso es lo que me escama porque no existe ningún paquete "initramfs" como 
+> tal sino el de las herramientas (initramfs-tools) que se encarga de 
+> generar el intrd del kernel de Debian, pero entiendo que no altera/
+> modifica/toca los que han sido compilados manualmente (los archivos 
+> initrd son independientes para cada kernel que exista en el sistema) :-?
+> 
+> Saludos,
+> 
+
+Hola,
+
+con mkinitramfs tu generas una imagen rd para cualquier kernel, tanto de
+repo como compilado a mano, y configuras ciertos "ganchos" que soportan
+determinados sistemas y cargan ciertos módulos. Supongo que la
+configuración por defecto de la nueva versión de initramfs no incluía el
+módulo para socket-unix, asi que o bien los compilaba "dentro" del
+kernel o cambiaba la configuración para que al generar la imagen se
+añadiese el módulo en cuestión.
+
+Un saludo.
+
+-- 
+"Tanto en los deportes como en todo lo demás, soy un experto. Pero para
+mantener viva mi inteligencia natural y fuera de serie, tengo que comer
+mucho"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505E0D09.6060406@limbo.deathwing.net
+

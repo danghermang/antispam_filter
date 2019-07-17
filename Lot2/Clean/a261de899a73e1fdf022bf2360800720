@@ -1,0 +1,29 @@
+Subject:Re: XDMCP avec GDM (version 2 et 3) Sans internet
+Le mardi 02 octobre 2012 à  9:24, MONPU Guillaume a écrit :
+
+[...]
+
+> J'ai remarqué, surtout, une connexion permanente à l'adresse 212.118.234.79 de mon poste sur internet  et un kill des serveurs VNC.
+> Cependant je n'ai aucune idée de ce que cela peut être.
+
+whois 212.118.234.79 renvoie, notamment :
+    inetnum:        212.118.234.0 - 212.118.234.255
+    netname:        INAP-LON-LOGMEIN-39519
+    descr:          logmein
+    country:        GB
+
+Ce n'est donc lié ni à XDMCP, ni à VNC.
+
+Pour le reste, aucune idée.
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121002103945.GC6165@sebian.nob900.homeip.net
+

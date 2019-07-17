@@ -1,0 +1,29 @@
+Subject:Re: Estoy abierto a opiniones sobre montar servidor debian
+El d=EDa 21 de noviembre de 2012 11:00, Ismael L. Donis Garcia
+<ismael@citricos.co.cu> escribi=F3:
+> . Es esto recomendado aun estando en testing? Recuerden que es solo de
+> prueba por ahora. Ser=EDa oficial para cuando yo lo disponga el a=F1o que=
+ viene.
+
+   Bueno, primero instar=EDa solo la stable, no porque se te vaya a
+colgar "testing", simplemente porque a veces desaparecen paquetes de
+testing y eso es un dolor de cabeza en los servidores. lo que si
+puedes es hacer un h=EDbrido estable/testing
+
+   Y por configurar el AD en Debian es buena idea si estas consiente
+en el esfuerzo que te va a llevar (la linea de comando lleva tiempo)
+    Yo prefiero usar algo mas productivo, usar "Herramientas" que que
+permiten reducir el esfuerzo inicial de implementaci=F3n, es decir en
+menos tiempo tenes algo funcional y para mostrar al jefe/cliente, para
+luego poder parametrizar a gusto por linea de comando.
+     Para AD podes usar http://www.zentyal.org/  donde podes ver que
+tiene un mont=F3n de servicios pre-configurados he integrados que
+hacerlo a mano te llevar=EDa muchos meses (o a=F1os dependiendo del tiempo
+disponible he inteligencia del sysadmin jajaj)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CADqxbRSkHjB__h=ftitzWHK4D5u+m68VoOy11DTnPo7gb_OojQ@mail.gmail.com
+

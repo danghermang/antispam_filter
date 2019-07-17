@@ -1,0 +1,50 @@
+Subject:Re: Acceder como root en gnome [solucionado]
+El jue, 04-10-2012 a las 20:45 +0200, Troll Debian escribi=C3=B3:=20
+> 2012/10/4 Liuber's Hdez=E2=88=B4 <liuber@fts.vcl.sld.cu>:
+> > Buenas tardes, Lista.
+> > Antes pod=C3=ADa accesar al archivo de la lista, ahora est=C3=A1 dene=
+gado.
+> >
+> > Quisiera acceder al entorno gr=C3=A1fico de gnome loqueado como root.
+>=20
+> Vaya, pues parece que la pregunta va en serio! Madre mia!
+> No, no quieres acceder como root al escritorio. De verdad que no
+> quieres hacer esto.
+> Sea lo que sea lo que realmente quieres hacer, no necesitas ni debes
+> entrar en el escritorio como root.
+>=20
+> > gracias,
+> > liuber's hdez.
+
+Buenas tardes lista,=20
+gracias amigo,=20
+
+fue realmente sencillo.=20
+
+
+edita el archivo /etc/pam.d/gdm3
+y comentar la linea: auth required pam_succeed_if.so user !=3D root
+quiet_success
+
+
+--=20
+Atentamente,=20
+M=E2=88=B4M=E2=88=B4 liuber hdez
+Villa Clara, Cuba.
+
+
+
+
+
+--
+
+Este mensaje le ha llegado mediante el servicio de correo electronico que ofrece Infomed para respaldar el cumplimiento de las misiones del Sistema Nacional de Salud. La persona que envia este correo asume el compromiso de usar el servicio a tales fines y cumplir con las regulaciones establecidas
+
+Infomed: http://www.sld.cu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349354591.3718.0.camel@infobiblio.fts.local
+

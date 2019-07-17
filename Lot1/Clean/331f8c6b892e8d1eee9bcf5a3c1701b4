@@ -1,0 +1,55 @@
+Subject:Re: [LUG] Time to upgrade
+On 25/10/12 19:59, bad apple wrote:
+>>
+> =
+
+> Yes, that would have been me - running any operating system that stopped
+> getting security fixes 6 months ago is probably not a good idea!
+> =
+
+> Is 500Mb a typo? =
+
+
+Yes, of course, I meant 500 gigabytes. Oops! Currently my home partition
+is using about 170 Gb.
+
+
+That's a *really* small /home. In your case, why bother
+> with an external USB drive if you have so little to back up? An easier
+> option would be to buy 2 x 16Gb USB thumbdrives (less than =A310 each from
+> your choice of online retailer) and set your backup tool (good old rsync
+> from cron is my favourite) to automatically synchronise your /home once
+> a day. Unlike expensive, slow USB attached disks, a 16Gb stick will
+> survive being dropped, put through the washing machine, etc and for =A320
+> you get redundant backups. Being so small, it's easy to drop one off at
+> work/the girlfriends/wherever so even if your house burns down you've at
+> least got your data safe.
+> =
+
+> Whilst you're buying drives online, I would hugely recommend plunking
+> ~=A3100 on a 128Gb SSD (I'm partial to the Corsair Force 3 models) to use
+> as your OS drive. If you've never used one before, the speed increase
+> will absolutely blow you away. Adding more RAM used to be the default
+> "best bang for buck" upgrade to any computer but not any more. Even if
+> you've only got SATA2 on your PC, the performance increase is awesome
+> (and you can buy an el cheapo PCIe SATA3 card for less than =A315 anyway).
+> =
+
+> What's your shortlist of 4 distros incidentally? =
+
+Already answered that one. Yes, I have had a look at Debian and I find
+it all scary. There is so much there I really can't decide which one to try.
+
+Not quite sure what you mean about getting a SSD drive. Will research it.
+
+Thanks
+
+Neil
+
+
+
+-- =
+
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

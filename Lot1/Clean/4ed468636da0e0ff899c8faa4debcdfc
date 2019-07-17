@@ -1,0 +1,58 @@
+Subject:Re: OFF - TOPIC Referente a pfsense y IPSEC
+El mar, 04-12-2012 a las 16:41 +0100, maykel@maykel.sytes.net escribió: 
+> Hola muy buenas esto es un OFF-TOPIC pero recurro a vosotros por su
+> pudiera tener alguna solución porque no encuentro información.
+> 
+> La historia es que estoy configurando una VPN con IPSEC desde el firewall
+> pfsense basado en la distro PFsense.
+> 
+> Tengo todo bien configurado para conectarme a una VPN remota, el tema es
+> que falla en la fase 2 porque en el campo Local Subnet, sino pones la LAN
+> de tu red y en el otro extremo ponen la misma que tu LAN no va a
+> funcionar. El caso es que me han pasado una red diferente al rango de la
+> mía, y en teoría, tengo que poner ésa red de conexión en Local Subnet y en
+> Remote Subnet tengo que añadir las ips accesibles por el túnel.
+> 
+yo tengo ipsec y con pfsense, pero pfsense en ambas puntas, y el esquema
+es:
+
+[lan local]<->pfsense -> internet<-> pfense <-> [lan remota]
+
+y funciona. Pero creo que la idea de hacer un tunel ipsec es que se vean
+dos lan a través de internet... por eso no te va a aparecer el botón de
+connect
+
+> El tema es que PFSENSE, sino pones tu LAN en en Local Subnet, ni si quiera
+> aparece el boton de "CONNECT VPN". Esto se solventa, cambiando del otro
+> extremo donde yo me conecto en el Local Subnet poniendo mi LAN pero quería
+> saber si hay alguna alternativa haciendo nat outbound o algo así para
+> poder conectarme...
+> 
+> He mirado la conexión IPSEC entre pfsense y un CISCO pero lo único que
+> saco en claro es que utiliza la LAN en el campo Local Subnet...
+> 
+> http://doc.pfsense.org/index.php/IPsec_between_pfSense_and_a_Cisco_PIX
+> 
+> http://doc.pfsense.org/index.php/IPsec_between_pfSense_and_Cisco_IOS
+> 
+> Porque el otro extremo tiene un CISCO.
+> 
+> Saludos y gracias.
+> 
+> 
+> -- 
+> ADMIN: Maykel Franco Hdez
+> 
+> 
+
+
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1354642569.2802.16.camel@EeePC.ucasal.ar
+

@@ -1,0 +1,71 @@
+Subject:Re: Ext4 Inodos acabados y dudas
+
+El 16/10/12 14:23, Federico Alberto Sayd escribió:
+> On 16/10/12 08:19, Francisco J. Bejarano wrote:
+>> Hola a todos y gracias de antemano. A ver si me podéis ayudar con un
+>> tema de ext4.
+>>
+>> Estoy intentando buscar la forma de cambiar el numero de inodos de un
+>> sistema de ficheros ext4 ya creado (creo que no es posible pero bueno,
+>> puede que haya alguna forma que no conozca...)
+>>
+>> Tengo un sistema de ficheros en /var en un servidor dedicado en la nube,
+>> en un proveedor. Cuando se instala el sistema este pone por defecto /var
+>> /home y / en tres particiones ext4 de 4GB cada una, todas en un disco de
+>> 1 TB mínimo (tengo de 1, 1,5 y 2TB en diferentes servidores) con raid
+>> por hardware o software depende lo que le de al proveedor. Estas
+>> particiones están sobre un LVM2. Esto se crea por defecto y no tengo
+>> control sobre ello.
+>>
+>> Una vez instalado el sistema base de la forma anterior, tengo control
+>> sobre el sistema y puedo redimensionar /var al máximo tamaño del volumen
+>> y después redimensionar ext4.
+>>
+>> 1.- Si hago esto ¿al redimensionar ext4 redimensiona tambien el numero
+>> de inodos al nuevo tamaño o deja el numero de inodos para 4Gb?
+>>
+>> 2.- Por otro lado. Hay alguna forma, comando, lo que sea que me permita
+>> redimensionar el numero de Inodos una vez creado el sistema de
+>> ficheros ex4.
+>>
+>> 3.- ¿Podría, al inicializar un servidor, hacer una copia de /var,
+>> desmontar, crear el sistema de ficheros a mi gusto y montar de nuevo
+>> /var y copiar los datos salvados? Esto es por el tema de que /var
+>> contiene ficheros dinamicos sensibles y no se si al recuperar datos de
+>> la copia de seguridad me petaria el sistema en algun momento. Esto se
+>> haria en cuanto se instalara el sistema base, antes de hacer cualquier
+>> otra cosa.
+>>
+>> Saludos
+>>
+>>
+>>
+> No vas a poder aumentar el número de inodos en una partición con un
+> filesystem ya creado. Tendrás que volver a recrear (formatear) el
+> filesystem de la partición o volúmen lógico.
+> 
+> Si puedes apagar el sistema en producción, y luego hacer una copia de
+> /var con rsync guardando permisos, propietarios, timestamps, etc, no
+> tendrías que tener problema en formatear y luego volver a resincronizar
+> los archivos desde el backup
+> 
+> Saludos
+> 
+> Federico
+> 
+> 
+
+OK, mas o menos lo que yo pensaba. He hecho una reestructuración de
+copias de seguridad para que no gaste tantos inodos y listo.
+
+En los nuevos servidores procuraré reformatear la partición ampliando
+los inodos.
+
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50863C64.5040501@openknowledgenetwork.com
+

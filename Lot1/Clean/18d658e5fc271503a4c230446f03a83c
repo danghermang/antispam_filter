@@ -1,0 +1,69 @@
+Subject:Re: Open CL et intel HD Graphics
+Le Mon, 05 Nov 2012 10:31:05 +0100
+Vincent Danjean <vdanjean.ml@free.fr> a =E9crit:
+
+> Le 04/11/2012 00:15, Ga=EBtan PERRIER a =E9crit :
+> > Le Sun, 04 Nov 2012 00:01:10 +0100
+> > Vincent Danjean <vdanjean.ml@free.fr> a =E9crit:
+> >=20
+> >> Le 03/11/2012 01:47, Ga=EBtan PERRIER a =E9crit :
+> >>> Bonjour,
+> >>>
+> >>> Est-il possible de faire de l'Open CL avec une CG Intel HD Graphics
+> >>> Sandybridge GT2+, sous Debian ?
+> >>
+> >> Sauf erreur de ma part, les drivers OpenCL Intel ne font tourner le
+> >> code OpenCL que sur les processeurs (pas sur les cartes graphiques)
+> >> pour l'instant.
+> >>   Tu peux donc faire de l'OpenCL avec une CG Intel HD Graphics
+> >> Sandybridge GT2+, sous Debian mais =E7a n'utilisera pas les capacit=E9s
+> >> de ta CG (juste celles de ton processeur).
+> >> Tu as plusieurs impl=E9mentation OpenCL dispo pour les processeurs
+> >> Intel :
+> >> - celle d'Intel, non packag=E9 (devrait pouvoir l'=EAtre dans non-free
+> >>   d=E8s qu'Intel aura r=E9gl=E9 le pb de license comme ils ont dit qu'=
+ils
+> >>   le feraient)
+> >> - celle d'AMD il me semble (packag=E9 dans non-free)
+> >> - pocl (pas encore packag=E9, je le ferai probablement lors de leur
+> >>   prochaine release)
+> >
+> > Ok donc =E7a n'a pas grand int=E9r=EAt. Est-ce de m=EAme pour les carte=
+s Nvidia ?
+>=20
+>   Je crois (=E0 v=E9rifier) que l'ICD d'AMD g=E8re aussi les cartes graph=
+iques
+> ATI (=E0 v=E9rifier).
+>   L'ICD de nvidia permet d'exploiter les cartes graphiques NVidia
+> (avec bien =E9videmment des restrictions sur les mod=E8les support=E9s)
+>=20
+>   NVidia ne pousse pas beaucoup OpenCL (ils ont CUDA...), ils en sont
+> toujours =E0 OpenCL 1.1. AMD est d=E9j=E0 en 1.2.
+>=20
+>   Les ICD d'AMD et NVidia sont packag=E9s dans non-free. Ils devraient
+> tr=E8s bien fonctionner avec ocl-icd-libopencl1 comme loader (packag=E9
+> dans main ;-) ). Ne pas h=E9sitez =E0 me faire des rapports de bug sur
+> ce dernier en cas de probl=E8me.
+> Plus d'info sur la situation (packaging) d'OpenCL dans Debian ici :
+> http://anonscm.debian.org/gitweb/?p=3Dcollab-maint/ocl-icd.git;a=3Dblob;f=
+=3Ddebian/README.Debian;hb=3DHEAD
+>=20
+>   A+
+>     Vincent
+>=20
+
+Ok donc normalement avec une application utilisant OpenCL sur du nvidia je
+devrais constater un gain de performance, non ?
+Parce que moi au contraire avec OpenCL activ=E9 c'est plus lent ...
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121106013353.3e1e22498526812844519390@neuf.fr
+

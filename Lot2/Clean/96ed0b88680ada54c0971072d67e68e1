@@ -1,0 +1,32 @@
+Subject:Re: Cambiar lenguaje en Squirrelmail
+El Wed, 03 Oct 2012 15:23:50 -0400, luis escribió:
+
+> hola a todos
+> 
+> Estoy probando instalación de un server de correo con postfix, dovecot,
+> squirrelmail, lo instalé sin problemas en un equipo virtual en debian 6
+> 
+> ahora bien cuando voy a preferencias cmabio el lenguaje a Español y en
+> fin no lo cambia
+
+¿Reiniciaste/recargaste el servidor web tras confirmar los cambios?
+ 
+> Tampoco encuetro opcion para que el usuario cambie su clabe dentro de su
+> correo web en preferencias
+
+Seguramente para poder activar esa opción necesitas instalar algún plugin 
+de estos, según el tipo de contraseñas que uses:
+
+http://squirrelmail.org/plugins_category.php?category_id=5
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k73n2g$7h2$10@ger.gmane.org
+

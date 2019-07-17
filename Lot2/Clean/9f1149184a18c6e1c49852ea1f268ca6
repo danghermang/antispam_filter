@@ -1,0 +1,26 @@
+Subject:Re: [address-policy-wg] Another small IPv6 allocation policy change
+ proposal (sanity check email)...
+On 07/11/2012 11:53, Jan Zorz @ go6.si wrote:
+> Is this something that nobody cares and should not be fixed? Is this a
+> threat to someone? Anyone sees any danger in going forward with this small
+> change?
+
+To give some background data on this, I figure this affects 55 LIRs out of
+4587 which have ipv6 allocations.  Of these, 44 LIRs have exactly 2 x 32.
+The distribution for the rest is:
+
+> /32 /32 /30 /27
+> /32 /32 /32
+> /32 /32 /32
+> /32 /32 /32
+> /32 /32 /32 /32
+> /32 /32 /32 /32
+> /32 /32 /32 /32
+> /32 /32 /32 /32
+> /32 /32 /32 /32 /32
+> /32 /32 /32 /32 /32
+> /32 /32 /32 /32 /32 /32 /32 /32 /32 /30
+
+Nick
+
+

@@ -1,0 +1,42 @@
+Subject:Re: Conveniencia o no de =?iso-8859-1?q?migraci=F3n?= a wheezy
+El Thu, 06 Sep 2012 13:41:11 -0400, Ismael L. Donis Garcia escribió:
+
+>>Yo mantendría Squeeze hasta que deje de tener soporte o salga Jessie
+>>(Debian 8) :-)
+> 
+> 
+> No entiendo bien esa recomendación. Me dices que no use debian 7? Que
+> salte si puedo directo de la versión 6 a la 8?. Por supuesto cuando esta
+> salga.
+
+Hmmm...
+
+> No usar la versión 7 ahora si es entendible. Lo que me confunde es
+> cuando dices que si pudo que espere a que salga Jessie.
+
+Creo que no me he explicado bien.
+
+Yo no digo que "no uses la versión 7 (wheezy)" por nada en concreto sino 
+porque el ciclo de soporte de Debian te permite saltarte una versión y 
+seguir teniendo soporte durante otro año más, así que prácticamente 
+puedes saltarte una versión por completo sin mayores problemas (apenas un 
+año sin parches). 
+
+Es decir, podrías pasar de Debian 6 (squeeze) a Debian 8 (jessie). 
+
+Ojo, no digo que puedas actualizar "directamente" de una versión a otra, 
+sino que puedes esperar para instalarla (o actualizarla, aunque ya sabes 
+que el salto de dos versiones no está soportado oficialmente), vamos, que 
+en tu caso no tendría ninguna prisa.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2crqb$bte$1@ger.gmane.org
+

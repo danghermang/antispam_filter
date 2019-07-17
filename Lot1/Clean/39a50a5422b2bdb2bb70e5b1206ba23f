@@ -1,0 +1,128 @@
+Subject:Re: Ayuda Urgente: Iptables e ip rule no funcionan correctamente
+	endebian 6?
+Pues sigo igual. Tengo a la gente de las empresas contenta.... En fin,
+reinstale el sistema con Ubuntu Server 12.04.1 que lleva el nucleo 3.2 e
+iptables v1.4.12 y sigue pasando lo mismo.
+
+Solo me queda salirme del sistema y compilar el ultimo nucleo e iptables
+por separado aunque esto lo querría como ultima opcion ya que quiero
+disponer de los parches de seguridad de la distribución.
+
+¿Nadie sabe que puede estar pasando?
+
+-----------------------------------------------------------------
+Francisco J. Bejarano
+Responsable de Sistemas
+Dpt. Sistemas e Infraestructuras
+Open Knowledge Network S.L.
+francisco.bejarano@openknowledgenetwork.com
+Tel. (+34) 902 534 004
+Fax. (+34) 917 266 476
+-----------------------------------------------------------------
+
+El 10/10/12 02:36, Santiago Liz escribió:
+> Tengo exactamente el mismo problema, con la misma versión de kernel e
+> iptables y una configuración similar.
+> Algo que observo, es que al hacer un tcpdump en alguna de las placas
+> externas, veo algunos paquetes (muy pocos en comparación con el
+> tráfico total) con ip de la otra placa externa. Es decir que el NAT se
+> hace deacuerdo a lo previsto con el marcado, pero termina saliendo por
+> la otra interface.
+> ¿Alguna pista de lo que puede estar pasando?
+> 
+> Saludos,
+> Santiago.-
+> 
+> 
+> El 06/09/12 09:50, Juan Antonio escribió:
+>> El 06/09/12 09:35, Francisco J. Bejarano escribió:
+>>> El 04/09/12 23:19, Juan Antonio escribió:
+>>>> On 05/09/12 16:13, Francisco J. Bejarano wrote:
+>>>>> Sep  5 15:24:55 firewall kernel: [1883719.204551] fwmark 1: IN=eth1 OUT=
+>>>>> MAC=00:18:8b:f9:f3:34:00:24:8c:de:c8:fb:08:00 SRC=10.0.1.153
+>>>>> DST=10.0.1.1 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=1436 DF PROTO=TCP
+>>>>> SPT=57856 DPT=22 WINDOW=16323 RES=0x00 ACK FIN URGP=0 MARK=0x1
+>>>>> Sep  5 15:24:55 firewall kernel: [1883719.205085] fwmark 1: IN=eth1 OUT=
+>>>>> MAC=00:18:8b:f9:f3:34:00:24:8c:de:c8:fb:08:00 SRC=10.0.1.153
+>>>>> DST=10.0.1.1 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=1437 DF PROTO=TCP
+>>>>> SPT=57856 DPT=22 WINDOW=16323 RES=0x00 ACK URGP=0 MARK=0x1
+>>>>> Sep  5 15:25:20 firewall kernel: [1883744.276724] fwmark 2: IN=eth2 OUT=
+>>>>> MAC=00:0d:88:c5:ba:53:20:cf:33:d3:a6:d5:08:00 SRC=10.0.2.226
+>>>>> DST=10.0.2.1 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=8254 DF PROTO=TCP
+>>>>> SPT=52845 DPT=22 WINDOW=2641 RES=0x00 ACK URGP=0 MARK=0x2
+>>>>> Sep  5 15:25:20 firewall kernel: [1883744.280404] fwmark 2: IN=eth2 OUT=
+>>>>> MAC=00:0d:88:c5:ba:53:20:cf:33:d3:a6:d5:08:00 SRC=10.0.2.226
+>>>>> DST=10.0.2.1 LEN=100 TOS=0x00 PREC=0x00 TTL=64 ID=8255 DF PROTO=TCP
+>>>>> SPT=52845 DPT=22 WINDOW=2641 RES=0x00 ACK PSH URGP=0 MARK=0x2
+>>>> mmm, a propósito, las direcciones 10.0.2.1 y 10.0.1.1 ¿son las que
+>>>> tiene configuradas la pasarela? fíjate que no se especifica ningún
+>>>> interfaz en  OUT = y de hecho ese tráfico no tiene que llegar a
+>>>> ninguna tabla porque es local ¿tienes tráfico en el log marcado que no
+>>>> sea para el propio router? ¿por dónde sale el tráfico que no sale por
+>>>> donde debería?
+>>>>
+>>>> Un saludo.
+>>> Hola, el trafico marcado lo logeo en mangle, prerouting despues de
+>>> marcarlo con 1 o 2. Por eso no tiene out, porque todavia no se ha tomado
+>>> la decision de ruteo. No es local es forward de eth1 o eth2 a la eth que
+>>> corresponda de las adsl. No es para el propio router.
+>>>
+>>> El trafico, en la tabla main tiene un default route a TB2 (debido a
+>>> ciertas necesidades de mi empresa) De hecho se va por ahi el trafico no
+>>> marcado.
+>>>
+>>>
+>>>
+>>
+>> ¿pero por qué se ve en DST una ip del mismo rango de red? Si es tráfico
+>> forwarded debería verse el dst original y la mac del interfaz del router.
+> Te pongo otro trozo de log de una ip de la red interna 2 que va hacia
+> afuera a una ip de internet (forward). Como ves tampoco tiene interfaz
+> out. Asi descarto que fuera mi direccion al firewall ya que estoy
+> conectado por ssh y mi trafico si iria al propio firewall.
+> 
+> Sep  5 17:13:51 firewall kernel: [1890254.612411] fwmark 2: IN=eth2 OUT=
+> MAC=00:0d:88:c5:ba:43:90:4c:e5:41:6b:d7:08:00 SRC=10.0.2.121
+> DST=88.106.32.213 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=312 DF PROTO=TCP
+> SPT=43691 DPT=22 WINDOW=2608 RES=0x00 ACK URGP=0 MARK=0x2
+> Sep  5 17:13:51 firewall kernel: [1890254.649763] fwmark 2: IN=eth2 OUT=
+> MAC=00:0d:88:c5:ba:43:90:4c:e5:41:6b:d7:08:00 SRC=10.0.2.121
+> DST=88.106.32.213 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=313 DF PROTO=TCP
+> SPT=43691 DPT=22 WINDOW=2597 RES=0x00 ACK URGP=0 MARK=0x2
+> 
+> 
+> 
+>>
+>> Si el main default es el mismo que el default de TB2 ¿para que añades
+>> reglas explicitas para usar esa tabla? ¿hay otras rutas en TB2
+>> diferentes a main? Me parece una configuración muy compleja que
+>> seguramente podrías reducir a 3 o 4 líneas de iptables y dos rules de
+>> iproute, asi podrías depurar mucho mejor.
+> 
+> Tengo 5 redes y hay que enviar el trafico dependiendo del origen de la
+> red y dentro del origen de la red dependiendo del puerto del destino. Si
+> es algo complejo pero necesario debido a ciertas validaciones de
+> seguridad de ips en servidores de destino que dependen de donde salga el
+> trafico. Las 2 redes que pongo son de 2 empresas diferentes que
+> comparten la misma salida TB3 (adsls balanceados con ancho de banda
+> elevado) pero que para ciertos traficos, cada empresa ha de salir por su
+> propio adsl con ip fija y solo cuando usa determinados puertos, si no
+> debería usar la TB3, peero, por defecto global se usa una de las TB con
+> ip fija... Yo no pongo las reglas pero he de ceñirme a ellas y esto
+> estaba funcionando correctamente en debian 4 y no creo que haya cambiado
+> mucho iptables a nivel funcionamiento general, o eso espero. De hecho
+> como esta echo debería funcionar a no ser que algo del marcado y
+> prioridades este haciendolo yo mal.
+> 
+>> Un saludo.
+>>
+>>
+> 
+> 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/507523BC.2030009@openknowledgenetwork.com
+

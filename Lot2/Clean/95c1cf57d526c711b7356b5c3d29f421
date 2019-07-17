@@ -1,0 +1,100 @@
+Subject:Re: OT: Acceso remoto por =?ISO-8859-1?Q?t=FAnel_SSH_a_tra?=
+	=?ISO-8859-1?Q?v=E9s_de_proxy?=
+On 20/11/12 09:47, Javier Argentina wrote:
+> Estimados:
+>
+> Este correo deber=EDa llamares "el proxy empresario vs. JAP", round 3.
+> Si buscan el historial, ver=E1n que ya he tocado el tema del proxy, y
+> hasta ahora la vengo apechugando m=E1s o menos bien.
+> Lo del "OT", va porque no es espec=EDfico Debian.
+>
+> Me han metido en mi trabajo un proxy que s=F3lo tiene habilitado los
+> puertos 80 UDP HTTP y 8080 TCP HTTP Proxy.
+> Quiero acceder a una m=E1quina externa a trav=E9s de ssh, y se me ha
+> complicado la cosa.
+> He intentado con corkscrew, y no he tenido suerte, adem=E1s de ser poco=
+ manejable.
+> He intentado con proxytunnel, y tampoco.
+> Sobre todo este =FAltimo, y creo que corkscrew tambi=E9n, utilizan el
+> puerto 443 TCP HttpS para acceder como SSL al anfitri=F3n, y es un
+> puerto que tampoco est=E1 abierto.
+> Tengo intenciones de hacer los siguiente, y antes de hacerlo, escucho
+> sugerencias, dado que la m=E1quina a la que debo acceder est=E1 un poco
+> lejos, y s=F3lo la veo los fines de semana.
+> No quiero echar a perder el sistema a la distancia.
+> Lo extra=F1o del caso, es que el proxy me deja acceder a p=E1ginas http=
+s
+> sin inconvenientes.
+No deber=EDa ser extra=F1o, cualquier proxy decente deber=EDa poder manej=
+ar=20
+peticiones https
+> Asumo que es por lo mal configurado que est=E1, y, como ejemplo, cuando
+> una accede a Facebook, en realidad lo hace a un http que lo
+> redirecciona a una IP que est=E1 bajo https.
+> Lo de mal configurado el proxy, es porque las p=E1ginas est=E1n bloquea=
+das
+> por direcci=F3n; si uno las accede por IP, pasa como por un tubo sin
+> inconvenientes.
+No veo por qu=E9 est=E1 mal configurado, en este caso seguramente el prox=
+y=20
+bloquea a trav=E9s de una expresi=F3n regular que coincide con el nombre =
+del=20
+hosts. Imaginate que bloquear por ip ser=EDa toda una odisea, c=F3mo sabe=
+s a=20
+ciencia cierta cuales son los ip's de Facebook, y si lo sabes, qu=E9=20
+posibilidades hay de que cambien en el corto plazo? Seguramente ser=E1=20
+posible hacer acl's por ip pero no me imagino lo que debe costar=20
+mantener este tipo de acl's actualizadas.
+>
+> Aclaro que si tengo una m=E1quina sin proxy, el acceso remoto es impeca=
+ble.
+>
+> La primer pregunta:
+> =BFHay alguna forma de hacer que la m=E1quina remota responda por el
+> puerto 80, y mediante alg=FAn artilugio, que me encamine a un t=FAnel s=
+sh?
+Seguramente s=ED
+>
+> La segunda pregunta:
+> Se me ocurri=F3 habilitar en el anfitri=F3n como escucha para ssh el
+> puerto 80 (y si falla, el 8080), en lugar del que actualmente tengo
+> habilitado.
+Puedes hacerlo perfectamente, solo deber=E1s asegurarte de que el tr=E1fi=
+co=20
+que llegue a dicho puerto sea ssh y no http
+> Antes de eso, debo desactivar apache2, lo que no me causa inconveniente=
+s.
+> =BFTendr=EDa posibilidades de =E9xito? Mi teor=EDa dice que s=ED, pues =
+es
+> cambiar el puerto de acceso a ssh.
+> =BFNo estar=EDa metiendo la pata haciendo algo irremediable?
+> Pasa que no s=E9 si el puerto 80 sirve para otra cosa o embarra algo m=E1=
+s.
+El puerto 80 es un n=FAmero m=E1s, ahora que se utilice por convenci=F3n =
+para=20
+mandar tr=E1fico http es otra cosa. Lo que no quita que pongas a escuchar=
+=20
+en ese puerto el programa que se te ocurra.
+> Nunca me he metido con puertos de la lista est=E1ndar que son en teor=ED=
+a
+> para otro menester. Cuando uso puertos para mis cosas, utilizo
+> aquellos que no est=E1n en la "tablita".
+No habr=E1 problema, solo tendr=E1s que tener en cuenta que por razones=20
+"hist=F3ricas" y de "seguridad" solo una aplicaci=F3n lanzada por el usua=
+rio=20
+root puede escuchar en los llamados "puertos conocidos", o sea, por=20
+debajo de 1024
+>
+> Escucho ofertas. Muchas gracias.
+>
+> JAP
+>
+>
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50AB86A1.5050507@uncu.edu.ar
+

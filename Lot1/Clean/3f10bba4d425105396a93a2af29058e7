@@ -1,0 +1,67 @@
+Subject:Re: [routing-wg] MERIT Darknet Experiment and RPKI alerts
+Daniel,
+
+On Friday, 2012-11-23 00:36:46 +0100, 
+Daniel Karrenberg <daniel.karrenberg@ripe.net> wrote:
+> 
+> On 13.11.2012, at 11:59 , Shane Kerr wrote:
+> 
+> > Daniel,
+> > 
+> > On Tuesday, 2012-11-13 09:36:39 +0100, 
+> > Daniel Karrenberg <daniel.karrenberg@ripe.net> wrote:
+> >> 
+> >> On 09.11.2012, at 12:05 , Wilfried Woeber wrote:
+> >> 
+> >>> Overall, I think this is very dangerous approach, and the wrong
+> >>> way to start with.
+> >>> 
+> >>> There might be very good reasons, why a full block of (IPv6)
+> >>> addresses, or a subset of, ist not (yet) globally visible.
+> >>> Announcing/Hijacking those addresses may seriously interfere with
+> >>> local tests or pilot deployment.
+> >>> 
+> >>> IMHO this should be strictly opt-in, instead of opt-out!
+> >>> 
+> >>> Wilfried.
+> >> 
+> >> Wilfried, you are right. The agreement I thought we made with Merit
+> >> was to use unallocated address space. Apparently a misunderstanding
+> >> occurred somewhere along the way. We will talk to Merit and correct
+> >> this.
+> > 
+> > Possibly such experiments should be announced in advance in the
+> > future, so that everyone can know what is going on. Ideally a
+> > pointer to a web page with full details about the experiment, but
+> > at least just a quick mail to the routing working group (and the
+> > IPv6 working group in cases where appropriate) seems reasonable.
+> > 
+> > If this is something that requires a policy change I'd be happy to
+> > push it forward.
+> > 
+> > Cheers,
+> 
+> https://labs.ripe.net/Members/mirjam/ipv6-darknet-experiment
+
+Thanks for this link, however in this case this is not a complete
+answer.
+
+I was obviously unclear, so let me try again.
+
+1. This link was not posted *in advance*. The reason I proposed in
+   advance is partially so that we could get review and feedback such as
+   Wilfried's, and prevent future issues.
+
+2. It was not sent to any of the RIPE mailing lists until after
+   problems were reported. RIPE Labs is cool, but AFAIK the RIPE
+   community still lives & breathes in the RIPE working group mailing
+   lists.
+
+3. There is apparently neither a procedure nor a policy concerning
+   notification of experiments.
+
+Cheers,
+
+--
+Shane
+

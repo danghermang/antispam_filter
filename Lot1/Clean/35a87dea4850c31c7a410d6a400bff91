@@ -1,0 +1,32 @@
+Subject:Re: =?iso-8859-15?Q?D=E9pannag?=
+	=?iso-8859-15?Q?e?= sur PC distant
+On Tue, Oct 30, 2012 at 12:08:21PM +0100, JF Straeten wrote:
+> > vncviewer localhost:1
+> 
+> Et tu passes tout ça sur des lignes {A,V}DSL ? Ça reste fluide (au
+> sens de VNC, qui ne l'est pas parfaitement, mais on se comprend) et
+> utilisable ?
+
+En passant sur un ADSL par particlièrement rapide (100k/s
+dans le sens serveur vers client) je trouve ça acceptable:
+Firefox prend quelques secondes à rafraichir un écran, gvim
+en deux secondes. 
+
+Rien d'effrayant si tu as fait du vi sur VT100 à 9.6kb, mais
+j'imagine que beaucoup de jeunes trouveront ça insupportable ;)
+
+(mais bon, personnellement je n'utilise VNC qu'absolument
+exceptionellement quand ssh ne suffit pas, c'est à dire
+presque jamais).
+
+Y.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121030113956.GV6232@naryves.com
+

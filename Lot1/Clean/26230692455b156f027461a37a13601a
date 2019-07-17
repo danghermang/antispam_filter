@@ -1,0 +1,31 @@
+Subject:Re: [rlug] Format date
+On 11/08/2012 10:00 AM, Tudor Gheorghe wrote:
+> Salut
+>
+> date +%d-%m-%Y_%k-%M
+> 08-11-2012_ 9-58
+>
+> Pot sa-i spun cumva sa nu mai puna spatiu intre _ si 9?
+> adica inainte de ora? (%k)
+> Nu am gasit nimic de genul asta in manual.
+>
+la mine apare fara spatiu cind are de afisat ora cu 2 cifre
+
+    [wolfy@wolfy xchatlogs]$ date +%d-%m-%Y_%k-%M
+    08-11-2012_10-01
+
+dar cu spatiu cind e doar una ( o masina cu ora dupa GMT)
+
+    [root@nobug ~]# date +%d-%m-%Y_%k-%M
+    08-11-2012_ 8-04
+
+
+
+ma intreb daca  nu face padding pt ora ( la 2 cifre )
+> Am gasit, nu trebuie folosit %k ci %M
+%k e ora, %M e minut. Nu cred ca se pot inlocui reciproc...
+
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

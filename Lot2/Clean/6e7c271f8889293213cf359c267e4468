@@ -1,0 +1,46 @@
+Subject:Re: no me funciona el teclado ni mouse en X
+On S=E1bado, 22 de septiembre de 2012 00:45:09 Gonzalo Rivero escribi=F3:
+> Holas,
+> pues... eso. Ayer o anteayer actualic=E9 mi debian (tengo testing, para
+> amd64 y actualizo cada 15 dias a un mes mas o menos)  y al volver a
+> encender la computadora desde entonces me doy con que no funcionaba el
+> teclado ni el mouse, inicialmente pens=E9 que era algo raro del
+> gdm/gnome, as=ED que entr=E9 por ssh y apagu=E9 gdm, prob=E9 startx y nad=
+a,
+> teclado ni mouse responden (pero se que no se clav=F3 el sistema porque
+> veo cosas como el clima actualiz=E1ndose)
+> Entonces fui un paso mas atr=E1s, xinit, para no cargar ning=FAn
+> entorno... y tampoco. Como pueden ver en el log (
+> http://pastebin.com/9FFx8DGc ) lo =FAnico raro son unos warning en la
+> l=EDnea 40 que me desactiva teclado y mouse por no se que de hotplug,
+> prob=E9 arrancando entonces SIN archivo de configuraci=F3n y lo =FAnico q=
+ue
+> cambi=F3 es resoluci=F3n bien fea porque levant=F3 con vesa y no el driver
+> de nvidia... y el mouse y teclado siguen sin funcionar. =BFdonde se como
+> desactivar ese hotplug?, igual no estoy desconectando y conectando el
+> teclado ni el mouse todo el tiempo, de hecho mi computadora est=E1 en un
+> lugar que esos conectores quedan muy inc=F3modos como para estar
+> poniendo y sacando a cada rato
+> Cabe notar que no son usb o algo 'nuevo' sino los ps/2 de toda la
+> vida, y que ni siquiera responden los led de blocknum/mayus/despl
+> cuando estoy en X, por lo tanto no puedo pasar a las consolas y estoy
+> obligado a entrar por ssh para matar X y poder hacer cosas.
+
+Quiz=E1s no tenga nada que ver pero a una de mis m=E1quinas, cuando se apag=
+a de=20
+mala manera, le deja de funcionar el teclado y el rat=F3n. Para solucionarl=
+o=20
+desconecto teclado y rat=F3n. Arranco y cuando llega al grub, apago. Vuelvo=
+ a=20
+conectar teclado y rat=F3n, arranco y todo en su sitio.
+
+=2D-
+Usuario Linux: #156817
+Debian Wheezy/Sid - Kernel 2.6.39
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209230212.32607.debian@caolin.net
+

@@ -1,0 +1,214 @@
+Subject:Re: [Flexradio] BandTextEditor v1.0.0 Released
+As per Reflector subscriber's requests, please send bug reports for 
+third-party applications directly to the author of the application and 
+not to the FlexRadio Reflector.  Thank you.
+
+Tim Ellison
+On 10/20/2012 7:47 AM, Nige G7CNF wrote:
+> Clicking on any part of the table or try to do anything in this app 
+> results in an unhandled exception (W7x64).
+>
+> See the end of this message for details on invoking
+> just-in-time (JIT) debugging instead of this dialog box.
+>
+> ************** Exception Text **************
+> System.ArgumentOutOfRangeException: Specified argument was out of the 
+> range of valid values.
+> Parameter name: value
+>    at 
+> System.Windows.Forms.DataGridView.set_FirstDisplayedScrollingRowIndex(Int32 
+> value)
+>    at projBandTextEditor.frmBandTextEditor.FindFrequency(Double f, 
+> DataGridView& dgv)
+>    at 
+> projBandTextEditor.frmBandTextEditor.txtLowFreq_TextChanged(Object 
+> sender, EventArgs e)
+>    at System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+>    at System.Windows.Forms.TextBoxBase.OnTextChanged(EventArgs e)
+>    at System.Windows.Forms.Control.set_Text(String value)
+>    at System.Windows.Forms.TextBoxBase.set_Text(String value)
+>    at System.Windows.Forms.TextBox.set_Text(String value)
+>    at 
+> projBandTextEditor.frmBandTextEditor.dgvBandText_CellMouseClick(Object 
+> sender, DataGridViewCellMouseEventArgs e)
+>    at 
+> System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs 
+> e)
+>    at System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+>    at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons 
+> button, Int32 clicks)
+>    at System.Windows.Forms.Control.WndProc(Message& m)
+>    at System.Windows.Forms.DataGridView.WndProc(Message& m)
+>    at 
+> System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+>    at 
+> System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+>    at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 
+> msg, IntPtr wparam, IntPtr lparam)
+>
+>
+> ************** Loaded Assemblies **************
+> mscorlib
+>     Assembly Version: 4.0.0.0
+>     Win32 Version: 4.0.30319.269 (RTMGDR.030319-2600)
+>     CodeBase: 
+> file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll
+> ----------------------------------------
+> BandTextEditor
+>     Assembly Version: 1.0.0.0
+>     Win32 Version: 1.0.0.0
+>     CodeBase: 
+> file:///C:/Program%20Files%20(x86)/RNA%20Software/BandTextEditor/BandTextEditor.exe
+> ----------------------------------------
+> Microsoft.VisualBasic
+>     Assembly Version: 10.0.0.0
+>     Win32 Version: 10.0.30319.1 built by: RTMRel
+>     CodeBase: 
+> file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/Microsoft.VisualBasic/v4.0_10.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualBasic.dll
+> ----------------------------------------
+> System
+>     Assembly Version: 4.0.0.0
+>     Win32 Version: 4.0.30319.269 built by: RTMGDR
+>     CodeBase: 
+> file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll
+> ----------------------------------------
+> System.Core
+>     Assembly Version: 4.0.0.0
+>     Win32 Version: 4.0.30319.233 built by: RTMGDR
+>     CodeBase: 
+> file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll
+> ----------------------------------------
+> System.Windows.Forms
+>     Assembly Version: 4.0.0.0
+>     Win32 Version: 4.0.30319.278 built by: RTMGDR
+>     CodeBase: 
+> file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll
+> ----------------------------------------
+> System.Drawing
+>     Assembly Version: 4.0.0.0
+>     Win32 Version: 4.0.30319.282 built by: RTMGDR
+>     CodeBase: 
+> file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll
+> ----------------------------------------
+> System.Runtime.Remoting
+>     Assembly Version: 4.0.0.0
+>     Win32 Version: 4.0.30319.1 (RTMRel.030319-0100)
+>     CodeBase: 
+> file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Remoting/v4.0_4.0.0.0__b77a5c561934e089/System.Runtime.Remoting.dll
+> ----------------------------------------
+> System.Configuration
+>     Assembly Version: 4.0.0.0
+>     Win32 Version: 4.0.30319.1 (RTMRel.030319-0100)
+>     CodeBase: 
+> file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+> ----------------------------------------
+> System.Xml
+>     Assembly Version: 4.0.0.0
+>     Win32 Version: 4.0.30319.233 built by: RTMGDR
+>     CodeBase: 
+> file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll
+> ----------------------------------------
+> System.Data
+>     Assembly Version: 4.0.0.0
+>     Win32 Version: 4.0.30319.237 (RTMGDR.030319-2300)
+>     CodeBase: 
+> file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll
+> ----------------------------------------
+> System.Numerics
+>     Assembly Version: 4.0.0.0
+>     Win32 Version: 4.0.30319.1 built by: RTMRel
+>     CodeBase: 
+> file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll
+> ----------------------------------------
+>
+> ************** JIT Debugging **************
+> To enable just-in-time (JIT) debugging, the .config file for this
+> application or computer (machine.config) must have the
+> jitDebugging value set in the system.windows.forms section.
+> The application must also be compiled with debugging
+> enabled.
+>
+> For example:
+>
+> <configuration>
+>     <system.windows.forms jitDebugging="true" />
+> </configuration>
+>
+> When JIT debugging is enabled, any unhandled exception
+> will be sent to the JIT debugger registered on the computer
+> rather than be handled by this dialog box.
+>
+>
+>
+>
+> On 20/10/2012 11:35, Koos Du Plessis wrote:
+>> Good one Ray,
+>>
+>> I am currently modifying these texts and frequencies manually to 
+>> cover the IARU region 1 allocations and your program has made it so 
+>> much easier for me....
+>>
+>> Keep on Flexing......
+>>
+>> 73 de Koos
+>> ZS6BFD
+>>
+>>
+>> On 20 Oct 2012, at 3:25 AM, "Ray, K9DUR" <k9dur@rnacs.com> wrote:
+>>
+>>> A new utility, BandTextEditor.exe, has been released & is available for
+>>> download from my website.
+>>>
+>>> This utility will allow you to safely edit the PowerSDR BandText 
+>>> table.  The
+>>> BandText table contains all of the labels that are displayed below 
+>>> the VFO
+>>> frequency in PowerSDR.  By editing the BandText table you can add 
+>>> new labels
+>>> or change existing labels for any frequency or range of frequencies.
+>>>
+>>> The BandText Editor only works with versions of PowerSDR which use a 
+>>> .xml
+>>> file for the database (v1.18.1 or later).  It will NOT work with the 
+>>> earlier
+>>> versions that used a Microsoft Access database file.
+>>>
+>>> As with any utility that can modify the database, it is STRONGLY 
+>>> recommended
+>>> that you make a back-up copy of your database BEFORE using the program.
+>>>
+>>> 73, Ray, K9DUR
+>>> http://k9dur.info
+>>>
+>>>
+>>>
+>>> _______________________________________________
+>>> FlexRadio Systems Mailing List
+>>> FlexRadio@flex-radio.biz
+>>> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+>>> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+>>> Knowledge Base: http://kc.flexradio.com/  Homepage: 
+>>> http://www.flexradio.com/
+>> _______________________________________________
+>> FlexRadio Systems Mailing List
+>> FlexRadio@flex-radio.biz
+>> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+>> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+>> Knowledge Base: http://kc.flexradio.com/  Homepage: 
+>> http://www.flexradio.com/
+>
+>
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: 
+> http://www.flexradio.com/
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

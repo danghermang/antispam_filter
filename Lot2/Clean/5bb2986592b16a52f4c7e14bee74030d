@@ -1,0 +1,21 @@
+Subject:Re: [LUG] Linux - and security
+On Fri, Nov 2, 2012 at 11:30 AM, malcolm wrote:
+> Do you think a personal firewall like Ubuntu's ufw is necessary in a home
+> environment or is the router's firewall sufficient (with the other measures
+> you suggest) for the current level of threat?
+
+After I add a disclaimer that I don't know very much about both
+existing and possible future threats on Linux, nor do I know a great
+deal about firewalls, I think that in a home environment, running a
+firewall on the router is generally sufficient.
+
+But then, if it doesn't hurt your experience of using the computer, I
+don't see why you wouldn't run an internal firewall was well. For one
+thing, it does help bad stuff from spreading inside the network.
+
+Martijn.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

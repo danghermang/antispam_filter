@@ -1,0 +1,27 @@
+Subject:=?ISO-8859-1?Q?Organizaci=F3n?= y =?ISO-8859-1?Q?distribuci=F3n?= de
+	imagenes por red
+
+=C2=BFAlguien sabe de alg=C3=BAn sistema para organizar y distribuir =
+im=C3=A1genes de
+equipos por red?.
+Ni que decir tiene que lo quiero con Debian (o como m=C3=ADnimo para =
+Linux).
+La idea seria de poder meter los equipos estropeados en una vlan (eso =
+ya
+lo tengo) y lo mas autom=C3=A1tico posible volver a pegarle la imagen =
+del
+disco.
+Para el arranque y el pegado de im=C3=A1genes creo que lo podre =
+organizar con
+PXE y parted, lo que mas me interesa es saber si hay algo que lo =
+integre
+todo y sobre todo que lo organice (base de datos etc)
+--=20
+trujo <antonio.trujillo.sspa@juntadeandalucia.es>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1348124487.9341.5.camel@trujo.hvn.sas.junta-andalucia.es
+

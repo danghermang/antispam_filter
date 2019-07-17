@@ -1,0 +1,28 @@
+Subject:Re: [LUG] VBox version 4.2
+On 22/10/12 19:43, Rob Beard wrote:
+>>
+> 
+> It sounds like you're using the version from the official Ubuntu
+> repositories.  I'd suggest maybe trying the Lucid version, with any luck
+> it won't have any dependencies that are incompatible with what you're
+> running.
+> 
+> Looking at the official repositories for VirtualBox there isn't a
+> Maverick package available, presumably because it's no longer supported
+> (and hasn't been for about 6 months).
+> 
+> Rob
+> 
+I would understand your last point except that there are VBox packages
+included in the list of downloads for versions of Ubuntu which are older
+than Maverick, namely Lucid and Harvey. So why not Maverick which is
+more recent than either of those? Or am I missing something?
+
+Thanks for the help,
+
+Neil
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

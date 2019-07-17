@@ -1,0 +1,59 @@
+Subject:Re: OpenVZ - Pasaje de venet a veth
+Cristian Mitchell wrote:
+> El día 4 de diciembre de 2012 12:53, Camaleón <noelamac@gmail.com> escribió:
+>   
+>> El Tue, 04 Dec 2012 11:23:13 -0200, ciracusa escribió:
+>>
+>> (...)
+>>
+>>     
+>>> Será que falta montar un "bride" entre el VETH del contenedor y la IP
+>>> del host anfitrión?
+>>>       
+>> Pues mira que no he usado nunca el OpenVZ ese pero de tanto leerlo por
+>> aquí ya me está picando la curiosidad :-)
+>>
+>> A ver, el VirtualBox tendrías que definir la interfaz en modo puente,
+>> efectivamente, y en OpenVZ... pues vamos a leer:
+>>
+>> http://wiki.openvz.org/Virtual_Ethernet_device
+>>
+>> "(...) When veth is bridged to a CT0 network interface (e.g., eth0), the
+>> container can act as an independent host on the network. The container's
+>> user can set up all of the networking himself, including IPs, gateways,
+>> etc."
+>>
+>> Pues parece que sí.
+>>
+>> Saludos,
+>>
+>> --
+>> Camaleón
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/k9l698$37l$4@ger.gmane.org
+>>
+>>     
+>
+> es muy probable que sea lo que escribio camaleon
+>
+> peor para estar seguro postea tus archivos de configuracion
+>
+>
+>   
+
+Cristian, necesitas /etc/network/interfaces o algún otro?
+
+Muchas Gracias.
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BE8636.9050303@gmail.com
+

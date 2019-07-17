@@ -1,0 +1,43 @@
+Subject:Re: problemas con dualidad de sistemas
+El vie, 30-11-2012 a las 22:18 -0500, Salvador Martín escribió:
+> hola lista
+> 
+> tengo un problema con una PC que está corriendo debian y windows. el
+> tema es que actualicé a window 8 y el grub desapareció y por supuesto
+> no tengo como bootear por debian alguien sabe como reinstalar el grub
+> sin necesidad de reinstalar debian y mantener windows.
+> 
+> Gracias por adelantado
+> -- 
+> Saludos,
+> 
+> Salvador Martín B.
+> 
+> 
+
+Hola Salvador ...
+
+Puedes usar un liveCD, te recomiendo el 
+
+Super Grub Disk 2 .... http://www.supergrubdisk.org/
+
+Ahí tiene una guía para reinstalar el Grub en el mbr ...
+
+Aquí te dejo una guía desde Ubuntu ... 
+
+http://www.guia-ubuntu.org/index.php?title=Recuperar_GRUB 
+
+
+
+Saludos, espero te sirva la información ...
+
+Alejandro Ramírez ...
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1354334997.23818.15.camel@IninosCasa
+

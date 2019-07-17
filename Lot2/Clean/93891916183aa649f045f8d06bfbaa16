@@ -1,0 +1,75 @@
+Subject:Re: SSH Tunneling
+Hola Josu=E9
+
+El d=EDa 12 de septiembre de 2012 10:42, Josu=E9 Marrero Berm=FAdez
+<inf@zetihl.azcuba.cu> escribi=F3:
+> Saludos Colegas
+>
+> En estos dias he estado tratando de configurar un SSH Tunneling, por el
+> simple hecho de saber como se hace, y si es verdad que es tan seguro.
+>
+> En google he encontrado varios ejemplos de configuracion, pero entre ello=
+s
+> existen notables diferencias, unos hablan de configurar en la PC remota u=
+n
+> squid que administre la navegacion..y en otros ejemplos solo hablan de ha=
+ce
+> el tunel y a navegar.
+>
+> Mi duda es la siguiente.
+>
+> Realmente hace falta un proxy al otro lado del tunnel? o es que los ISP q=
+ue
+> dan servicio en otros paises permiten la navegacion sin tener que configu=
+rar
+> nada...
+
+Lo =FAnico que hace falta, del otro lado, es un servidor ssh con el
+puerto accesible.
+=BFO lo que est=E1s tratando de hacer es saltarte las restricciones con
+navegaci=F3n encriptada?
+
+>
+> Aclaro que vivo en Cuba..y ni tengo ni idea de como funcionan sus servici=
+os
+> de Internet en otros paises...aqui lo comun es siempre un proxy..que
+> registre TODO lo que haces..y deniega hasta el agua.
+
+Esto es otro asunto.
+Si tu proveedor te filtra el tr=E1fico, y no te permite salir, no
+importa qu=E9 pongas del otro lado
+porque no vas a llegar.
+
+Hice un instructivo para armar un t=FAnel con redirecci=F3n de puertos,
+para proteger unas
+conexiones a escritorio remoto de windows. Si quer=E9s hacer pruebas te lo =
+paso.
+Intenta mantener el t=FAnel arriba aunque se corte.
+Trabaja con acceso sin contrase=F1a y lo =FAnico que no describe es como
+se generan las
+keys de ssh. Porque es trivial.
+Trat=E9 de hacerlo a prueba de tontos. Como para que, si no estoy, otros
+puedan instalarlo en
+las pc remotas.
+Ser=EDa bueno que me digas si efectivamente es f=E1cil de seguir :-)
+
+>
+>
+> Saludos
+>
+> Josu=E9
+>
+
+Un abrazo
+
+--=20
+Jorge A Secreto
+Analista de Sistemas
+MP 361
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJx9gii72O49qVvH2WQAo3hxFytM=X=6HB+Mm4Fh2AzpfpoELQ@mail.gmail.com
+

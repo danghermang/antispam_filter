@@ -1,0 +1,23 @@
+Subject:[Noticia] Mozilla deja de soportar versiones antiguas de GTK+
+Hola,
+
+Sólo a modo de aviso (yo me he enterado "de sopetón", porque no había 
+leído nada sobre esto ni lo he visto anunciado por ningún lado y "por las 
+malas", con bug de por medio), a partir de las versiones 17.x tanto 
+Firefox como Thunderbird (en sus versiones Mozilleras) ya no se pueden 
+instalar en sistemas con versiones antiguas de GTK+ (como por ejemplo, la 
+que lleva Lenny).
+
+Avisados estáis...
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8o9ec$e13$6@ger.gmane.org
+

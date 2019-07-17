@@ -1,0 +1,73 @@
+Subject:Re: [Koha] Was: Lists;
+ needed features, including location and staff level sharing, now
+ Cart in staff interface
+Below is a screenshot of the authorized values for locations:
+Description is what normally displays in the staff interface.  Description
+(OPAC) is what displays in the OPAC. However, in the staff interface cart -
+the location description is pulled from Description (OPAC).
+
+
+
+
+
+
+
+
+On Mon, Nov 5, 2012 at 8:31 PM, Jared Camins-Esakov <
+jcamins@cpbibliography.com> wrote:
+
+> Elaine,
+>
+> > We've disabled the Cart function, so I don't know if that is any worse or
+>> > better.  If it will show location, I will re-enable it.
+>> >
+>>
+>> I just enabled Cart in the staff interface.  It's a small improvement, in
+>> that it gives the call number (but not the number of items or
+>> their availability) and location information.  However, despite being in
+>> the staff interface, it uses the location information as displayed in the
+>> OPAC.  For security reasons (rare, old book) we do not display specific
+>> location information in the OPAC, so the locked cupboards, safe, offices,
+>> annexes, etc. all display as 'Storage', and the specifics are only
+>> available in the staff interface.
+>>
+>> It seems to me that the Cart in the staff interface should display the
+>> locations that ordinarily display in the staff interface.  Is this a known
+>> bug?
+>>
+>
+> The cart in the staff interface displays all the location information I am
+> aware of. Where are you putting this secret location information?
+>
+> Regards,
+> Jared
+>
+> --
+> Jared Camins-Esakov
+> Bibliographer, C & P Bibliography Services, LLC
+> (phone) +1 (917) 727-3445
+> (e-mail) jcamins@cpbibliography.com
+> (web) http://www.cpbibliography.com/
+>
+>
+
+
+-- 
+Elaine Bradtke
+Data Wrangler
+VWML
+English Folk Dance and Song Society | http://www.efdss.org
+Cecil Sharp House, 2 Regent's Park Road, London NW1 7AY
+Tel    +44 (0) 20 7485 2206 (This number is for the English Folk Dance and
+Song Society in London, England. If you wish to phone me personally, send
+an e-mail first. I work off site)
+--------------------------------------------------------------------------
+Registered Company No. 297142
+Charity Registered in England and Wales No. 305999
+---------------------------------------------------------------------------
+"Writing about music is like dancing about architecture"
+--Elvis Costello (Musician magazine No. 60 (October 1983), p. 52)
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

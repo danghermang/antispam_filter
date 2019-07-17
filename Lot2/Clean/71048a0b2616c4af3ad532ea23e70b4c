@@ -1,0 +1,30 @@
+Subject:Re: hs iptables et reverse dns
+On Wed, Nov 07, 2012 at 06:29:14PM +0100,
+ prego jérémy <jeremy@prego-network.net> wrote 
+ a message of 23 lines which said:
+
+> donc de façon clair, est-ce possible de banir les ips contenant
+> toute le même reverse ? par exemple, faire une règle qui dis toute
+> les ip ce terminant par rev.sfr.net sont banis d'office ?
+
+Cela me semble très dangereux, car cela signifie une requête DNS par
+paquet, avec les lenteurs et timeouts associés. Pire, la seule requête
+PTR n'offre aucune sécurité car le gérant d'une adresse IP peut mettre
+le "reverse" qu'il veut.
+
+En fouillant les archives des listes Netfilter, je ne trouve aucun
+module qui permette de faire cela.
+
+Ce message fournit une intéressante solution alternative :
+
+http://www.spinics.net/lists/netfilter/msg15915.html
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121107205019.GA18430@sources.org
+

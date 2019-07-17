@@ -1,0 +1,24 @@
+Subject:Re: Comment ralentir la bande passante.
+On Tue, 18 Sep 2012 18:02:52 +0200
+Gerald <gerald.radix@gmail.com> wrote:
+
+> Tout est dans le titre...
+>=20
+
+iproute permet de limiter le d=C3=A9bit sur certaines queues.
+
+--=20
+NoBrain : je me taperai bien un petit saucisson
+Petit saucisson : youhouuu
+youhouuu : on m'appelle??
+on : non j'ai rien dit...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120918180741.212801d1@anubis.defcon1
+

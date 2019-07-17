@@ -1,0 +1,144 @@
+Subject:Mail delivery failed: returning message to sender
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  admin@talkofthetown.com
+    SMTP error from remote mail server after end of data:
+    host outscan.junkemailfilter.com [184.105.182.200]:
+    550-REJECTED - URIBL - Message links to Blacklisted Site [goldturkeytime.com]
+    550-hostkarma.junkemailfilter.com/127.0.2.2, 127.0.0.2 - X=outscan
+    550-H=smtpvault.secure-cluster.com [216.38.13.106]
+    550-HELO=[smtpvault.secure-cluster.com] F=[fforce@goldturkeytime.com]
+    550-T=[admin@talkofthetown.com] S=[Unleash Your Potential With Test X180] -
+    550-X=outscan H=smtpvault.secure-cluster.com [216.38.13.106]
+    550-HELO=[smtpvault.secure-cluster.com] F=[fforce@goldturkeytime.com]
+    550 T=[admin@talkofthetown.com] S=[Unleash Your Potential With Test X180]
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <fforce@goldturkeytime.com>
+Received: from [208.100.9.137] (helo=control.expansioncloud.com)
+	by smtpvault.secure-cluster.com with esmtp (Exim 4.72)
+	(envelope-from <fforce@goldturkeytime.com>)
+	id 1Thyyr-0000mm-P6
+	for admin@talkofthetown.com; Mon, 10 Dec 2012 02:44:53 -0600
+Received: (qmail 16220 invoked by uid 108); 10 Dec 2012 02:44:53 -0600
+Message-ID: <20121210084453.16219.qmail@control.expansioncloud.com>
+Delivered-To: support@talkofthetownal.com
+Received: (qmail 16198 invoked by uid 108); 10 Dec 2012 02:44:53 -0600
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on
+	control.expansioncloud.com
+X-Spam-Level: **
+X-Spam-Status: No, score=2.5 required=4.5 tests=HTML_MESSAGE,MIME_HTML_ONLY,
+	MISSING_MID,RDNS_NONE,T_DKIM_INVALID,T_REMOTE_IMAGE autolearn=disabled
+	version=3.3.1
+Received: from unknown (HELO mx1.goldturkeytime.com) (142.0.34.195)
+  by control.expansioncloud.com with SMTP; 10 Dec 2012 02:44:53 -0600
+Received-SPF: pass (control.expansioncloud.com: SPF record at goldturkeytime.com designates 142.0.34.195 as permitted sender)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=goldturkeytime.com;
+ h=From:To:Date:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Content-Transfer-Encoding; i=fforce@goldturkeytime.com;
+ bh=ZxWRcpgSmxv7lipdN3U4W224W6A=;
+ b=GvHqaBb9GZc1cbU94MALqpQhe5NZnVzO7zbEC41JLnnBmtFqifuPRacvk1Yk+JUjmdhAuBxOQwsr
+   fy9omlbRjCFA5O7CqM/fcu6ca67BtEY9DuQheCFcJr/FDymKUy3o4LjtdlrGpndiQVx0IFTQCj/v
+   gHptuO/ukAgg9rjd4VA=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=goldturkeytime.com;
+ b=ZZp8IyBSX/MiOPRY+xj8PnZBpZSVNbyf/pTe53ztBXluFunVIycbXJ6RLX1oqftK9EuiGmHq0UBU
+   edLuyXJH+7QeL9tfNS7ilRfmm1fzGJmZOw3N4/b+suhD35DslRP105Xm2vgWqxhklmKVHECwSLgx
+   0J+cf5NAJ81FncUnm0I=;
+Received: by mx1.goldturkeytime.com (PowerMTA(TM) v3.5r13) id homgcg0n5j4m for <support@talkofthetownal.com>; Mon, 10 Dec 2012 03:43:51 -0500 (envelope-from <fforce@goldturkeytime.com>)
+From: Force Factor <fforce@goldturkeytime.com>
+To: You <support@talkofthetownal.com>
+Date: Mon, 10 Dec 2012 03:43:51 -0500
+Subject: Unleash Your Potential With Test X180
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<body>
+<center>
+<small>
+<a style=""
+href="http://goldturkeytime.com/1?fc809409cc7d8f82488cdf9ea6fc27e9">
+Having problems reading this message? Click here.
+</a>
+</small>
+
+<div style="color: #ffffff;background: #ffffff">
+<font size="-2" color="#ffffff">
+<a style="color: #ffffff;background: #ffffff" 
+href="http://goldturkeytime.com/1?fc809409cc7d8f82488cdf9ea6fc27e9">
+View this message in your browser
+</a>
+
+Feel Like a Superhero, No Matter Who You Are!
+
+</font>
+</div>
+
+<!--
+Hi
+After his confrontation with the man in black at the end of Gunslinger,
+Roland awakes to find three doors on the beach of Mid leading to New
+York City but at three different moments in time. Through these doors,
+Roland must draw three figures crucial to his quest for the Dark Tower.
+He finds Eddie Dean and Prisoner. He meets Odetta Holmes, the Lady of
+Shadows, a young heiress who lost her lower legs in a subway accident
+and gained a second personality that rages within her. And he encounters
+Jack, Death, a pusher responsible for cruelties beyond imagining. Has
+Roland found new companions to form the of his quest. Or has he
+unleashed something else entirely While the evil might of the Dark Lord
+swarms out to conquer all and Sam struggle deep into, seat of power. To
+defeat the Dark Lord, the One Ring, ruler of all the accursed Rings of
+Power, must be destroyed in the fires of Mount Doom.
+
+Verify this number 
+
+The compulsion of the Ring, he begins finally to despair. The next to
+last novel in Kings seven volume magnum opus, Song of Susannah is at
+once a book of revelation, a fascinating key to the unfolding mystery of
+the Dark Tower, and a fast paced story of double barreled suspense. To
+give birth to her chap mother Mia has usurped the body of Susannah Dean
+and used the power of Black Thirteen to transport to New York City in
+the summer. The city is strange to Susannah. And terrifying to the
+daughter of none who shares her body and mind. Saving the Tower depends
+not only on rescuing Susannah but also on securing the vacant lot Calvin
+Tower owns before he loses it to the Sombre. Enlisting the aid of Minna
+senders, the remaining Kate climbs to the Cave.
+
+I hope you are not sleeping yet.
+
+It falls to the boy, the billy bumbler, and the fallen priest to find
+Susannah, who, in a struggle to cope with each other and with an alien
+desire to mother whatever creature the two of them have carried to term.
+Eddie and Roland, meanwhile, tumble into western Maine in the summer, a
+world that should be idyllic but is not. For one thing, it is real, and
+the bullets are flying. For another, it is inhabited by the author of a
+novel called Salem Lot, a writer who turns out to be as shocked by them
+as they are by him. These are the simple vectors of a story rich in
+complexity and conflict. Its dual climaxes, one at the entrance to a
+deadly dining establishment and the other appended to the pages of a
+writers journal, will leave readers gasping for the sagas final volume.
+-->
+
+<p>
+<a href="http://goldturkeytime.com/1?fc809409cc7d8f82488cdf9ea6fc27e9">
+<img src="http://goldturkeytime.com/telic_testx180.jpg" />
+</a>
+</p>
+
+<p>
+<a href="http://goldturkeytime.com/u">
+<img src="http://goldturkeytime.com/telic_testx180_u.jpg" />
+</a>
+</p>
+
+</center>
+
+</body>
+</html>
+
+

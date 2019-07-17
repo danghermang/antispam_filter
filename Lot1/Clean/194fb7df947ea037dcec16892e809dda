@@ -1,0 +1,48 @@
+Subject:Re: Crear un =?utf-8?Q?men?= =?utf-8?B?w7o=?= personalizado con
+	syslinux
+On Fri, Dec 07, 2012 at 04:11:43PM -0500, ruben.cervantes wrote:
+> Saludos colegas necesito ayuda con el syslinux quisiera personalizar
+> el menú que me muestra, de tal forma que solo me muestre las
+> opciones de arranque, pero sin la tabla que rodea uso una imagen de
+> fondo la cual ya tengo arreglada para que se muestre lo que necesito
+> pero el syslinux me sigue mostrando la tabla, necesito dejar el menú
+> con la imagen de fondo y las dos opciones de booteo Linux & windows,
+> aquí pongo mi configuración si alguien sabe como hacer esto me de
+> una ayuda gracias de antemano.
+> 
+> DEFAULT vesamenu.c32
+> PROMPT 0
+> TIMEOUT 200
+> MENU BACKGROUND linux-jc.png
+> MENU WIDTH 80
+> MENU MARGIN 10
+> MENU ROWS 12
+> MENU TABMSGROW 18
+> MENU CMDLINEROW 12
+> MENU ENDROW 24
+> 
+> label Debian_GNU/Linux
+> menu label Debian_GNU/Linux
+> boot /grldr
+> 
+> label Windows_XP
+> menu label Windows_XP
+> boot /grldr
+
+Hay una alternativa que tal vez te sirva:
+
+MENU COLOR BORDER
+
+Los documentos que tiene syslinux debieran ayudarte a usarlo.
+
+Saludos.
+
+-- 
+Pablo Jiménez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121208042355.GB4427@emblema.fh.vtr.net
+

@@ -1,0 +1,27 @@
+Subject:Re: Mutt et locales
+Autre chose...
+
+On 2012-11-09 00:53:57 +0100, fred wrote:
+> Voici un extrait de mon .muttrc (il est configuré afin de pouvoir
+> lire le cyrillique comme le français).
+> 
+> set charset=fr_FR.UTF-8
+
+Le choix du charset lié au terminal doit se faire par le terminal
+et non être hardcodé dans le muttrc. Donc cette ligne est soit
+inutile, soit incorrecte.
+
+-- 
+Vincent Lefèvre <vincent@vinc17.net> - Web: <http://www.vinc17.net/>
+100% accessible validated (X)HTML - Blog: <http://www.vinc17.net/blog/>
+Work: CR INRIA - computer arithmetic / AriC project (LIP, ENS-Lyon)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121109152835.GK5116@xvii.vinc17.org
+

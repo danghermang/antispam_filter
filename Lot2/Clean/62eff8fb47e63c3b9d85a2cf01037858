@@ -1,0 +1,24 @@
+Subject:Re: dpkg: error: failed to write status database record about
+	'libclutter-1.0-0:i386' to 'var/lib/dpkg/status': No space left on
+	device
+On Sun, 2 Sep 2012 19:00:12 +0200
+Nicolas H=C3=A9mard <nicolas@hemard.eu> wrote:
+
+> *No space left on device*
+
+Wai, ben y'a pas =C3=A0 chercher bien loin la source de _tous_
+tes d=C3=A9boires...
+
+--=20
+Xanatos: Albanel vient de d=C3=A9couvrir ce que =C3=A7a fait de se
+         retrouver =C3=A0 99% sans aucun seeders...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120902191312.2db3f19b@anubis.defcon1
+

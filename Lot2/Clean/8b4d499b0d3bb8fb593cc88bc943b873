@@ -1,0 +1,85 @@
+Subject:Re: [EVDL] Ceramic Heater elements
+I pulled out enough of the ducting so I could see the elements. =A0Fortunat=
+ely, it was pretty easy to get this far. =A0Getting the element all the way=
+ out would be a different story... =A0Anyway, here's a picture of them: =A0=
+https://picasaweb.google.com/lh/photo/rLlqbd4dnlTnlxJPAgbHk9MTjNZETYmyPJy0l=
+iipFm0?feat=3Ddirectlink=A0 hopefully that links correctly.
+
+The one on the left of the photo is the one that is in use, the one on the =
+right is never switched on (just too much power draw). =A0So, to recap righ=
+t now at 158ish volts I'm pulling ~17a through one element. =A0I'm about to=
+ raise my voltage to 183v nominal. =A0The elements are very nicely imbedded=
+ in the heater core, it's actually a very nice install. =A0I'd LOVE it if I=
+ could keep the heaters in there physically as they are. =A0
+
+right now, each element is wired (+) (-) (+) (-) (+). =A0It is my understan=
+ding that if I rewire it so each element is (+) (empty) (-) (empty) (+) it =
+will split the four elements into two series pairs, and run them in paralle=
+l. =A0This should reduce the current, and the heat output. =A0But if I wire=
+ both elements up that way and have them on together, I'm hoping the heat o=
+utput should be comparable to the single core running overloaded like I had=
+ before.
+
+Am I on the right track here?
+
+thanks,
+david.=A0
+
+
+>________________________________
+> From: David Ladd <david.ladd@yahoo.com>
+>To: Electric Vehicle Discussion List <ev@lists.sjsu.edu> =
+
+>Sent: Tuesday, October 30, 2012 4:06 PM
+>Subject: Re: [EVDL] Ceramic Heater elements
+> =
+
+>You have me suitably worried now! =A0I'll definitely strip out the ducting=
+ and see what I've got in there. =A0The downside of buying already converte=
+d I guess...
+>
+>thanks for the info,
+>David.
+>
+>>________________________________
+>> From: Randy Holmquist <randy@canev.com>
+>>To: Electric Vehicle Discussion List <ev@lists.sjsu.edu> =
+
+>>Sent: Tuesday, October 30, 2012 2:22 PM
+>>Subject: Re: [EVDL] Ceramic Heater elements
+>> =
+
+>>The elements that we have used for the last 20 years have a very high =
+
+>>tolerance for over voltage.
+>>I have many customers running them at 192 or even 220 volt systems, some =
+
+>>of them for over 10 years. Just don't try this with a cheapo one.
+>>Your 17 amps @ 156 volts is scarey, should be closer to 10 amps.
+>>We also have a special low voltage element for 72 - 120 volt systems =
+
+>>like the AC50/75 system, the 120V ones put out very little heat below =
+
+>>130 volts DC.
+>>We also have a 240 - 300 volt element for high voltage applications.
+>>
+>>BFN
+>>Randy
+>>
+>
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121101/52461ff7=
+/attachment.html =
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

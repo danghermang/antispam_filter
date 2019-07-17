@@ -1,0 +1,37 @@
+Subject:Re: =?ISO-8859-15?Q?D=E9pannage_sur_PC_distant?=
+Le 30/10/2012 12:39, Yves Rutschle a écrit :
+> En passant sur un ADSL par particlièrement rapide (100k/s
+> dans le sens serveur vers client) je trouve ça acceptable:
+> Firefox prend quelques secondes à rafraichir un écran, gvim
+> en deux secondes.
+>
+> Rien d'effrayant si tu as fait du vi sur VT100 à 9.6kb, mais
+> j'imagine que beaucoup de jeunes trouveront ça insupportable ;)
+>
+> (mais bon, personnellement je n'utilise VNC qu'absolument
+> exceptionellement quand ssh ne suffit pas, c'est à dire
+> presque jamais).
+>
+> Y.
+>
+
+Je confirme, c'est tout à fait utilisable si on garde en mémoire la 
+grande époque des connexions RTC...
+Idem pour l'utilisation occasionnelle, neuf fois sur dix ssh seul suffit.
+
+Luc
+
+-- 
+
+Luc Schimpf
+www.au-ptit-bon-air.eu
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/508FC43F.9070100@free.fr
+

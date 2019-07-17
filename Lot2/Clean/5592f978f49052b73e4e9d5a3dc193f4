@@ -1,0 +1,47 @@
+Subject:Re: OFF-TOPIC Openvz en powerpc64 bits
+El Thu, 08 Nov 2012 16:42:27 +0100, maykel escribió:
+
+> Empiezo a creer que no se va a poder instalar openvz en ppc64. Me lo he
+> currao un poco mientras me contestaban, y me descargado debian etch que
+> lleva kernel 2.6.18. He seguido los mismos pasos descritos y al instalar
+> el .deb que te genera al hacer el fakeroot make... me ha reportado un
+> error por pantalla de nvram...
+> 
+> La verdad, creía que iba a funcionar en etch, despuées de ponerle repos
+> y que tiraran y demás para poder instalar build-essential,
+> kernel-package ...
+> 
+> En fin, estoy un poco decepcionado la verdad...
+
+¿Y de verdad te compensaría tener un sistema tan antiguo (paquetes de 
+Etch con kernel 2.6.18) sólo por el sistema de virtualización que te 
+proporciona OpenVZ? No sé, yo buscaría otras alternativas :-?
+
+> Hice el diff entre el config del kernel que me tiraba frente al kernel
+> de openvz que no tiraba. Aplique el parche y se hizo ok, a la hora de
+> compilar error..."arquitecture not supported..." 
+
+Ojo, que el resultado del diff lo tienes que revisar con lupa, no puedes 
+usar las mismas opciones para ambos.
+
+> Cuando está parcheado de la config del propio kernel que estaba
+> funcionando...En fin, he compilado otras veces pero desde luego no he
+> tenido tantos problemas, me imagino que será por ser ppc...
+> 
+> Saludos y gracias por todo Camaleón...
+
+Ánimo hombre, que esto no lo vas a solucionar en un día. Pregunta en los 
+foros de OpenVZ que parece que tienen más actividad que la lista de 
+Debian.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7gokf$7kj$13@ger.gmane.org
+

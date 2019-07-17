@@ -1,0 +1,17 @@
+Subject:Error en debian etch kernel panic - not syncing: No init found. Try
+	passing init =?UTF-8?Q?=3D=20option=20to=20kernel?=
+Hola muy buenas, al arrancar un debian un pelín antiguo que tenemos un 
+proxy http montado, me ha reportado el siguiente error...
+
+Según he leído, puede deberse a que el initrd esté dañado.
+
+Alguien ha tenido el mismo error??
+
+Saludos y gracias de antemano.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/99f246844d11d1bb44bfb7f5fc6a5fd9@maykel.sytes.net
+

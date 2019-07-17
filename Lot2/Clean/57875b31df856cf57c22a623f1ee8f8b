@@ -1,0 +1,40 @@
+Subject:Re: debian et onduleur
+Le Tue, 25 Sep 2012 01:50:43 +0200
+Bzzz <lazyvirus@gmx.com> a =E9crit:
+
+> On Tue, 25 Sep 2012 01:43:55 +0200
+> Ga=EBtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+>=20
+> > >=20
+> > > V=E9rifie bien, surtout si ce sont des 10AH.
+> >=20
+> > Les eaton (que je vise) utilisent des 7 (<=3D1200VA) ou 9 Ah
+> > (1500VA). Les 7Ah sont tr=E8s tr=E8s courantes et pas tr=E8s ch=E8res.
+> >=20
+> > Pour les APC =E7a semble =EAtre proprio ?
+> =20
+> Pas que je sache, je n'en ai pas ouvert bcp mais les dimensions
+> batteries =E9taient standard, par contre les amp=E9rages =E9taient
+> inhabituels, genre 14A ou 17A l=E0 o=F9 les autres sont =E0 12A, 15A
+> ou 20A.
+>=20
+
+=E7a semble =EAtre du 7 Ah mais avec 2 batteries assembl=E9es.
+http://www.apc.com/products/resource/include/techspec_index.cfm?base_sku=3D=
+APCRBC123
+
+Je ne sais pas si =E7a se remplace facilement avec des NP7-12
+
+A+
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120925021326.028c0d27ca7a7c7e41908720@neuf.fr
+

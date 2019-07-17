@@ -1,0 +1,29 @@
+Subject:Re: =?ISO-8859-1?Q?=BFcomo_hago_para_quitarle_la_voz_?=
+	=?ISO-8859-1?Q?de_los_cantantes_a_las_pistas_de_audio=3F?=
+El 11/10/12 15:27, Victor Hugo Cespedes Zuleta escribió:
+> quisiera crear música de karaoke y para eso pregunto
+>
+> ¿como hago para quitarle la voz de los cantantes a las pistas de audio?
+>
+>
+
+Audacity (está en los repositorios oficiales), y mucha paciencia para 
+borrar las frecuencias de audio de cada cantante.
+
+http://es.wikipedia.org/wiki/Audacity
+
+Luego de lograrlo, postularse con Horatio Caine como especialista en 
+audio para CSI Miami.
+
+Nah, chiste. Si mal no recuerdo, tiene un complemento que hace 
+específicamente eso.
+
+
+JAP.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5077150A.8000705@gmail.com
+

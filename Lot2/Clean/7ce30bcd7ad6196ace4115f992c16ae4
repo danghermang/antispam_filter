@@ -1,0 +1,35 @@
+Subject:Re: impossible ouvrir mon compte =?UTF-8?B?aW52aXTDqQ==?=
+On Mon, 17 Sep 2012 16:37:26 +0200
+S=C3=A9bastien NOBILI <sebnewsletter@free.fr> wrote:
+
+
+>=20
+> user2 a bien l'UID 1002 et un r=C3=A9pertoire personnel qui lui
+> appartient (/home/nicolas), mais le r=C3=A9pertoire personnel de user2
+> (dans /etc/passwd) est /home/user2.
+
+Whoops, j'l'ai bien loup=C3=A9e celle-l=C3=A0 :(
+
+D'ailleurs, quel est peut bien =C3=AAtre l'int=C3=A9r=C3=AAt d'avoir un hom=
+e avec
+un autre nom que ceux de usr/(=3D=3D)grp, =C3=A0 part justement engendrer
+une telle confusion...?
+
+--=20
+Theodoric: je me demande bien comment tu t'appelle..
+adrien: appelle moi seigneur et maitre ;)
+Theodoric: hum :/ c'est long ca comme nom
+adrien: euh, dieu ?
+Theodoric: ca c'est deja pris
+adrien: merde
+Theodoric: ca c'est libre
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120917170616.2a4cc727@anubis.defcon1
+

@@ -1,0 +1,35 @@
+Subject:Re: debian et onduleur
+On Thu, 20 Sep 2012 13:24:10 +0200
+maderios <maderios@gmail.com> wrote:
+
+> Mon onduleur ne date pas de 1997, c'est un MGE Pulsar Ellipse...
+
+Conna=C3=AEt pas MGE en exploitation, j'utilisais plut=C3=B4t du Liebert ou=
+ de
+l'Emerson.
+
+> S'il s'agit de mon cas, tu peux v=C3=A9rifier de visu que ton propre=20
+> onduleur, si tu en utilises un, se comporte comme je le d=C3=A9cris=20
+> ci-dessus.
+
+Soit tu te trompes, soit MGE c'est de la daube; sur un double-
+conversion vieille g=C3=A9n=C3=A9ration la conso =C3=A9tait en Gal ~
+%100 - %rendement x KVA, par ex. pour un 25KVA @ 92%, =C3=A7a donne:
+1 - .92 =3D .08 & .08 x 25000 =3D 2000VA, avec un cos.phi de faible
+charge @ 0.8, =C3=A7a fait 2500W consomm=C3=A9s, m=C3=AAme pas de quoi le r=
+endre
+ti=C3=A8de.
+
+--=20
+* inpaucible_be a rejoint #informatique
+<AddiKT1ve> inpaucible n'est pas fran=C3=A7ais.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120920144427.3872910c@anubis.defcon1
+

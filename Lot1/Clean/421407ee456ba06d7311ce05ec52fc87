@@ -1,0 +1,177 @@
+Subject:Re: MKV se oye pero no se ve
+El d=C3=ADa 30 de agosto de 2012 19:00, Camale=C3=B3n <noelamac@gmail.com> =
+escribi=C3=B3:
+> El Thu, 30 Aug 2012 18:22:10 +0200, Marc Mar=C3=AD escribi=C3=B3:
+>
+>> El d=C3=ADa 30 de agosto de 2012 17:33, Camale=C3=B3n <noelamac@gmail.co=
+m>
+>> escribi=C3=B3:
+>
+> (...)
+>
+>>> Tambi=C3=A9n puedes intentar lo que comentan en su FAQ:
+>>>
+>>> http://wiki.videolan.org/Documentation:Play_HowTo/Basic_Use/Basic_troub=
+leshooting
+>>>
+>>> A saber:
+>>>
+>>> - Abrir la ventana de depurado (quiz=C3=A1 tengas m=C3=A1s datos que cu=
+ando lo
+>>> lanzas desde l=C3=ADnea de comandos)
+>>>
+>>> - Desactivar el Overlay
+>>>
+>>> - Iniciar con un perfil vac=C3=ADo (no es necesario que borres/muevas n=
+ada,
+>>> con ejecutarlo desde un usuario reci=C3=A9n creado ser=C3=ADa suficient=
+e).
+>>>
+>> Cuando he reiniciado para volver desde el kernel 2.6, al iniciar tanto
+>> en mplayer como en vlc se me ha colgado, sacando esto cuando le he dado
+>> a Ctrl+alt+F1 : [drm:i915_hangcheck_elapsed] *ERROR* Hangcheck timer
+>> elapsed... GPU hung
+>> Aug 30 17:56:05 debian-laptop kernel: [  376.837057]
+>> [drm:i915_wait_request] *ERROR* i915_wait_request returns -11 (awaiting
+>> 16 at 0, next 17)
+>
+> Google encuentra varios informes de fallo (bugs) sobre ese mensaje pero n=
+o
+> s=C3=A9 hasta qu=C3=A9 punto tendr=C3=ADa relaci=C3=B3n con el problema d=
+e la reproducci=C3=B3n de
+> v=C3=ADdeo. A simple vista yo no lo hubiera relacionado :-?
+>
+>> Ahora parece que se le ha pasado, y ya vuelve ir como antes (sin video).
+>> En los mensajes del vlc, con el nivel de detalle al m=C3=A1ximo, muestra
+>> cosas raras, pero no parecen errores fatales tampoco: qt4 debug: Video
+>> is not needed anymore main debug: removing module "qt4"
+>> main debug: removing module "xcb_xv"
+>> main debug: removing module "vout_wrapper"
+>> main debug: removing module "blend"
+>> main debug: removing module "freetype"
+>> main debug: removing module "yuvp"
+>> main debug: removing module "swscale"
+>>
+>> Pero luego:
+>> using video filter2 module "swscale"
+>> xcb_xv debug: using screen 0x106
+>> xcb_xv debug: using XVideo extension v2.2
+>> xcb_xv debug: using adaptor Intel(R) Textured Video
+>> xcb_xv debug: using port 76
+>> xcb_xv debug: using image format 0x30323449
+>> xcb_xv debug: using X11 visual ID 0x21 (depth: 24)
+>> xcb_xv debug: using X11 window 0x04000000
+>> xcb_xv debug: using X11 graphic context 0x04000002
+>
+> Mejor si subes los registros completos a alg=C3=BAn sitio (www.pastebin.c=
+om) para
+> que podamos verlos en todo su esplendor :-)
+>
+>> =C2=BFOverlay, a que opci=C3=B3n corresponder=C3=ADa en castellano? Es q=
+ue estoy
+>> dudando entre varias, y no se cual es
+>
+> No creo que se hayan atrevido a traducirlo en espa=C3=B1ol :-P
+>
+> Seg=C3=BAn la wiki est=C3=A1 en el apartado "preferencias/general/v=C3=AD=
+deo =E2=86=92 overlay video
+> output" pero si no ves nada parecido en espa=C3=B1ol, prueba lanzando la =
+aplicaci=C3=B3n
+> en ingl=C3=A9s (LANG=3DPOSIX vlc) as=C3=AD no hay p=C3=A9rdida.
+>
+>> Con un usuario vac=C3=ADo, es interesante el resultado. Con VLC en termi=
+nal:
+>
+> (...)
+>
+> Vale pero =C2=BFse ve, se oye...? =C2=A1No nos dejes en ascuas! :-)
+>
+> (sube el registro completo)
+>
+>> Con Mplayer, se reproduce, pero no se oye, se pone en pantalla completa
+>> autom=C3=A1ticamente, se ve en blanco y negro y bastante mal, no se ven =
+los
+>> subt=C3=ADtulos, y si le doy a Ctrl+Alt+F7 (sistema gr=C3=A1fico), me vu=
+elve a
+>> gnome y puedo matar mplayer desde la terminal donde se est=C3=A1 ejecuta=
+ndo.
+>
+> Espera, espera... =C2=BFc=C3=B3mo que "te vuelve a GNOME"? =C2=BFDesde d=
+=C3=B3nde est=C3=A1s ejecutando
+> esos comandos? No lo hagas desde una tty (Ctrl+Alt+F1), sino desde la con=
+sola
+> (gnome-terminal).
+>
+>> Ahora me salen errores que antes no sal=C3=ADan:
+>> No protocol specified
+>> vo: couldn't open the X11 display (:0.0)! No protocol specified
+>> vo: couldn't open the X11 display (:0.0)! No protocol specified
+>> vo: couldn't open the X11 display (:0.0)! VO XOverlay need a subdriver
+>> [gl] using extended formats. Use -vo gl:nomanyfmts if playback fails. No
+>> protocol specified
+>> vo: couldn't open the X11 display (:0.0)! No protocol specified
+>> vo: couldn't open the X11 display (:0.0)! No protocol specified
+>> vo: couldn't open the X11 display (:0.0)! No protocol specified
+>> No protocol specified
+>> init kbd.
+>> [VO_SDL] SDL initialization failed: Unable to open a console terminal.
+>> No protocol specified
+>> XOpenDisplay() failed
+>
+> (sube el registro completo)
+>
+> Veo un "xoverlay" por ah=C3=AD pero ese error de que no puede abrir la pa=
+ntalla
+> es un poco sospechoso.
+>
+> A todo esto, =C2=BFcon qu=C3=A9 driver VGA est=C3=A1s ahora mismo? =C2=BF=
+intel, nvidia?
+>
+> Saludos,
+>
+> --
+> Camale=C3=B3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/k1o66m$pns$12@ger.gmane.org
+>
+
+Lo de mi mensaje anterior, no le hag=C3=A1is caso, soy yo que hago las
+cosas a lo cutre, intentando ejecutar vlc como usuario "prueba" desde
+la sesi=C3=B3n m=C3=ADa. Ahora me he logueado como "prueba" directamente, y=
+ sale
+m=C3=A1s normal. Esto es lo que sale en "mensajes" como usuario "prueba"
+despu=C3=A9s de 10 segundos de ejecuci=C3=B3n: http://pastebin.com/anZUYGpH=
+ , lo
+que ya hab=C3=ADamos visto. As=C3=AD que nada nuevo
+
+Adem=C3=A1s, he desinstalado bumblebee y todas sus dependencias (m=C3=B3dul=
+o de
+Nvidia incluido), para asegurarme que no sea eso. As=C3=AD que,
+recapitulando, ahora tengo que:
+
+-Estoy usando unicamente la gr=C3=A1fica Intel
+-Estoy usando kernel 3.2.0
+-Archivos mkv, avi y mp4 solamente se oyen, no se ven ni la imagen ni
+los subtitulos ni los efectos del player en mplayer y vlc
+-Totem funciona perfectamente con los tres tipos de archivo solamente
+si hago lo que ha dicho Denis (pero me jode que no funcionen los otros
+players, pero si no se puede arreglar, ya me conformo)
+-Los logs no muestran fallos aparentes
+-Desactivar la aceleraci=C3=B3n de v=C3=ADdeo (overlay), tampoco funciona
+
+As=C3=AD pues, no tenemos nada, porque si en vlc es lo mismo en mi usuario
+que en el usuario "prueba", pasar=C3=A1 igual con totem y con mplayer
+
+Un saludo y muchas gracias Camale=C3=B3n
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CA+nFU8TavTn17ACxoaH6_6ZH04_zX3iu596VuXvOg983ufwjpg@mail.gmail.com
+

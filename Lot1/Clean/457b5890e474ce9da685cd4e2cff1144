@@ -1,0 +1,21 @@
+Subject:Re: cambiar idioma en Iceweasel 15.0
+El 27/09/12 10:35, luis@ida.cu escribió:
+> Buenos días
+>
+> Como poner el Iceweasel 15.0 en español ??
+>
+> Agrdezco toda ayuda
+>
+>
+
+apt-get install iceweasel-l10n-es-es
+
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/506459AA.8010707@gmail.com
+

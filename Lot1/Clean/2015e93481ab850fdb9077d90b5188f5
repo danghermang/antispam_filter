@@ -1,0 +1,41 @@
+Subject:Re: NTP server timeout
+El 24/10/12 09:42, Manuel Jesús Recena Soto escribió:
+> Hola, buenas:
+>
+> Estamos trabajando en una máquina virtual con Debian 6 y hemos
+> configurado NTP server en el arranque.
+> Cuando la VM tiene acceso a internet el S.O. arranca con normalidad,
+> sin embargo, cuando no tiene conexión a internet el servicio NTPd se
+> queda "esperando" muchos minutos.
+>
+> ¿Es posible configurar algún timeout o similar? Lo esperado sería que
+> si pasado "un tiempo" no se puede conectar con los servidores de hora
+> externos, que continúe con el arranque de otros servicios.
+>
+> Un saludo, gracias!
+>
+
+
+La máquina virtual con el servidor no necesita conectarse a internet 
+para sincronizar su reloj virtual. Lo conveniente es que se sincronice 
+con el reloj de tiempo real del equipo anfitrión, y dejar a la máquina 
+virtual sincronizada con éste.
+Por lo que mi opinión es que asegures que el reloj de tiempo real sea el 
+que se sincronice apropiadamente, y de éste se tome la hora.
+
+Lo que no me cierra es que un "servidor" tenga que arrancar en forma 
+continuada. Si es un servidor, lo lógico es que sólo requiere un 
+reinicio del equipo cuando hay una actualización de núcleo; o sea, 
+funciona las 24 horas del día (y de la noche también ;)
+
+O el anfitrión en un MS-Windows, que ante la más mínima pavada, requiere 
+un reinicio.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5087F0DF.8090200@gmail.com
+

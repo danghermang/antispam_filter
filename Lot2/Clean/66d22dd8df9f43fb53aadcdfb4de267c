@@ -1,0 +1,118 @@
+Subject:Re: Compilar kernel para optimizacion
+
+> El Mon, 19 Nov 2012 17:14:44 +0100, maykel escribiÃ³:
+>
+> (...)
+>
+>>>> Muy bueno, voy a ello...
+>>>>
+>>>> http://users.on.net/~ckolivas/kernel/
+>>>>
+>>>> Gracias, esto es lo que querÃƒÂ­a, algo que ya estÃƒÂ© optimizado y
+>>>> que se
+>>>> aplique.
+>>>
+>>> Nada, nada... queremos "benchmarks" comparativos para comprobar la
+>>> agilidad del sistema "optimizado" >>;-P
+>
+>> Los Benchmarks tendrÃ¡n que esperar porque no me arranca...se queda en
+>> Loading ramdisk...
+>
+> Hum...
+>
+>> Lo he compilado y probado en un ubuntu, un fedora y un fuduntu. He
+>> compilado el kernel 3.6.6 en ambas distros y sin problema
+>
+> Se supone que el parche es para el kernel que enlazan en esa misma
+> pÃ¡gina.
+>
+>> Pero al aplicarle el parche de kolivas, en cuanto reboto la mÃ¡quina e
+>> intento arrancar desde Ã©se kernel se queda ahÃ­...
+>
+> Â¿CÃ³mo has compilado el kernel en cada caso? Prueba a compilar ese mismo
+> kernel sin aplicar el parche a ver si logras que inicie.
+>
+
+El kernel le he compilado sin el patch perfectamente, tanto el 3.6.6 como
+el 3.6.0 a secas. En teoría y según su web:
+
+http://users.on.net/~ckolivas/kernel/
+
+Es aplicable a 3.6.x
+
+Proceso que realizo:
+
+wget http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.6.tar.bz2
+
+He probado ese y este:
+
+http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.6.7.tar.bz2
+
+Descomprimo:
+
+tar xfj linux....
+
+cd linux...
+
+wget http://ck.kolivas.org/patches/3.0/3.6/3.6-ck1/patch-3.6-ck1.bz2
+
+Aplico el parche que viene comprimido, directamente:
+
+bzcat patch-3.6-ck1.bz2 | patch -p1
+
+Se aplica OK.
+
+Ahora realizo un make menuconfig y dejo las opciones por defecto(en teoría
+ya estaría modificado por el parche de Kolivas).
+
+También probé con cp -a /boot/config...(kernel actual uname -r) a
+/usr/src/linux.../.config
+
+Y luego el make.
+
+Finalmente:
+
+make modules_install install
+
+Corríjanme por favor si me equivoco o he realizado algo mal, pero vamos
+así es como he compilado el 3.6.6 y sin ningún problema me arranca...
+
+Que pena que no arranque, me hubiera gustado ver la diferencia.
+
+Saludos.
+
+
+
+>> Por supuesto me he fijado si me habÃ­a agregado las entradas al grub(que
+>> si lo ha hecho) y que me genere las imagees de arranque initrd y
+>> vmlinux(que tambiÃ©n las ha generado).
+>>
+>> No sÃ© que podrÃ¡ ser, pero me huele a que puede ser al meterle el
+>> patch.
+>
+> Es un parche muy extenso...
+>
+> Saludos,
+>
+> --
+> CamaleÃ³n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/k8dnt5$k79$4@ger.gmane.org
+>
+>
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/88c2f6638556694a819f1af949957f22.squirrel@maykel.sytes.net
+

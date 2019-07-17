@@ -1,0 +1,67 @@
+Subject:Fw: [Jukebox-list] 6973 to el84 info needed.
+=0A=0A=0A=0A----- Forwarded Message ----=0AFrom: James Alexander <jalexande=
+rcc11@att.net>=0ATo: Jukebox mailing list <jukebox-list@lists.netlojix.com>=
+=0ASent: Sun, November 11, 2012 8:45:18 PM=0ASubject: Re: [Jukebox-list] 69=
+73 to el84 info needed.=0A=0A=0AEd:=0A=0A=0AThere can be a problem in some =
+cases if you replace a 5U4 tube with one of the =0Asilicon rectifier replac=
+ements.=A0 The 5U4 tube has an internal=A0voltage =0Adrop=A0occurring withi=
+n the tube.=A0This voltage drop is generally on the order of =0A15 volts. I=
+t'll vary a little based on the incoming AC voltage from the =0Aelectrical =
+utility and the condition of the audio electronics that form the =0Aload. M=
+ost schematic voltage tables=A0are written assuming a 117 V input. =A0=A0Th=
+e =0AAMI Conti 2 amp (model R-2777) you're rebuilding=A0was designed expect=
+ing the 5U4 =0Atube to be used in order to obtain the 365V DC at the pin 2 =
+rectified =0Aoutput.=A0(see voltage table printed on the schematic) =A0If y=
+ou=A0substitute the =0Asolid state rectifier, you could probably expect=A0t=
+o see the pin=A02 voltage jump =0Aup to 370 V DC,unless that device has a r=
+esistor built into it's socket =0Ato=A0simulate the performance of the tube=
+.=A0(most of them don't) =A0 The AC voltage =0Apresent at the pwr transform=
+er's secondary measured to ground is 315 volts.=A0=A0The =0A355V DC you're =
+quoting is what is expected at the plate pins of the 6973 =0Atube.=A0=A0=A0=
+Plugging in the solid state rectifier will kick up the voltage readings =0A=
+here as well. =0A=0A=0AIf the amp design was a conservative one, where oper=
+ating voltages are well =0Awithin the safe operating area of the 6973 tubes=
+, installing the solid state =0Arectifier wouldn't make a big difference. T=
+his amp's normal operating voltages =0Acomes somewhat close to the design l=
+imits for the 6973 tube=A0 (see the RCA tube =0Amanual to find that informa=
+tion)=A0=A0This is pretty typical operation for the 6973 =0Atubes,as the am=
+p designer is attempting to obtain +/- 20 watts output from a =0Apair of 69=
+73's, close to the max this tube can deliver. =A0=A0 If this were my =0Apro=
+ject, I'd keep using the 5U4 tube in the name of better dependability.=A0=
+=A0 =0ASince=A0you said this juke is being used residentially, you should g=
+et a long =0Alifespan=A0from these tubes.=A0If I needed uber-dependability =
+for a commercial =0Ajukebox app like Rob from NY does, I'd consider install=
+ing the solid state =0Arectifier,along with adding a=A0(high wattage) dropp=
+ing resistor underneath the =0Achassis to mimic the voltage performance of =
+the 5U4 tube.=A0The solid state =0Arectifiers are marketed to musicians,who=
+ usually have to lug their amps around.=A0 =0ATubes are fragile and won't t=
+ake a lot of knocking around without failure. =A0 I'd =0Aalso be inclined t=
+o modify the "always-on" condition of this amp.=A0 I think =0ARob,others mi=
+ght=A0have discussed this earlier.=0A=A0=A0=A0=A0=0APlease note the=A0tap o=
+n the power supply marked bias on your schematic.=A0=A0 It has =0Ait's own =
+rectifier and wont be affected=A0by the 5U4 tube. The output of this tap =
+=0Adelivers 30 volts DC to=A0pins 3 and 6 of the 6973 tubes.=A0 Make sure t=
+his voltage =0Ais spot-on for correct 6973 plate current.=A0=0A=0AIf you te=
+st the amp for B+ readings without the 6973 tubes (the biggest current =0Ad=
+raw on the B+ pwr supply,) being plugged in to load down the power supply, =
+you =0Acan expect to see a slight rise in the 365V DC reading @ pin 2 of th=
+e 5U4. =0A=0A=0A=0AJim Alexander=0A=0A=0A=0A_______________________________=
+_=0AFrom: Ed Owens <eowens@eojohnson.com>=0ATo: Jukebox mailing list <jukeb=
+ox-list@lists.netlojix.com>=0ASent: Sun, November 11, 2012 7:36:20 PM=0ASub=
+ject: Re: [Jukebox-list] 6973 to el84 info needed.=0A=0AThanks,=0A=A0 When =
+I do my bias voltage checks, do I have all the tubes in or just the =0A5u4g=
+?=A0 Lookin at the schmatic I would guess that would be pin 1 at 355v,=A0 i=
+s =0Athis correct?=A0 Should I need to just check it at one tube or all of =
+them?=0A=A0 I found one place that sells a 5u4 solid state eliminator.=A0 I=
+t's basically 2 =0A1n5408 diodes.=A0 Would you consider eliminating this tu=
+be?=A0 Is anything lost.=A0 I =0Athink it might affect the bias.=A0 I'm not=
+ new to repair but I am new to tube amp =0Arepair.=A0 I also have two Rico =
+amps to recap and a 1937 philco.=A0 =0A=0A=A0 I will order my caps tomorrow=
+ thank for the help.=0AEd=0A=0A=0AOn Nov 11, 2012, at 5:51 PM, "James Alexa=
+nder" <jalexandercc11@att.net> wrote:=0A=0A> 2nd transmission---discussion =
+string cut due to excess content blockage=0A> =0A> =0A
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

@@ -1,0 +1,63 @@
+Subject:RE: [Jukebox-list] Rowe JBM Tropicana Carousel Jumping Selection
+Hi Rob,
+
+Thanks for the reply. That is something so out of the box I had never
+considered. However, I am pretty certain that the issue does not occur =
+when
+a B side (no toggle required) is selected, which kind of points to your
+theory.
+
+I will try that. I have a spare one if it is the problem.=20
+
+Much appreciated Rob. It is going to be one of those weird type of =
+issues,
+as I have exhausted all other avenues and I know usually this fix has =
+easy
+answers.
+
+Regards
+
+Nigel
+
+
+
+-----Original Message-----
+From: jukebox-list-bounces@lists.netlojix.com
+[mailto:jukebox-list-bounces@lists.netlojix.com] On Behalf Of Chan Gade
+Sent: 20 October 2012 19:07
+To: Jukebox mailing list
+Subject: Re: [Jukebox-list] Rowe JBM Tropicana Carousel Jumping =
+Selection
+
+Nigel, try removing -both- leads from the toggle shifter solenoid.
+
+back in the mid-eighties there was an MM2 in an op's shop that plagued =
+them
+with this action for over a week. I looked at it and noticed that this
+happened when the toggle shift occurred.=20
+
+The coil had an intermittent bobbin-core short. I guessed that it pulled =
+the
+voltage down just enough for the mech relay to fall out and hop the =
+basket.
+
+May not be the issue here, but it'll only take a few seconds to try.
+
+BTW: Those mechs are fairly forgiving and reliable, so any decent
+microswitch will work.=A0 If you test them try to use an analog meter or =
+small
+low voltage bulb and battery.
+
+Rob/NYC
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/
+
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

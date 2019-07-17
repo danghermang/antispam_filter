@@ -1,0 +1,27 @@
+Subject:Re: Latence autofs+sshfs
+On Fri, 14 Sep 2012 18:08:37 +0200
+Fabien LUCE <ftg@lutix.org> wrote:
+
+> http://serverfault.com/questions/198772/unable-to-access-files-through-au=
+tofs-on-first-attempt-only-afterwards
+> exactement le m=C3=AAme pronbleme.
+
+Aucun PB ici, client=3Dsqueeze+bpo & server=3Dsid
+Ligne de Cde de test:
+   sshfs user1@server:/VD/vwx/en /home/user1/VD -C -o cache_timeout=3D2
+
+ls ~/VD r=C3=A9pond instantan=C3=A9ment.
+
+--=20
+* Le Zoophile est entr=C3=A9 sur le chan.
+* pti_hamster92 a quitt=C3=A9 le chan.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120914183529.62cbf86f@anubis.defcon1
+

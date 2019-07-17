@@ -1,0 +1,37 @@
+Subject:Re: [HS] se logguer en ssh en outrepassant le shell defini dans 
+	/etc/passwd
+Le Fri, 12 Oct 2012 15:00:02 +0200, giggzounet a écrit :
+
+> Bonjour la liste,
+> 
+> tout est dans le titre...
+> 
+> j'ai fait un truc très très bête...j'ai un beau NAS. mais bon root avait
+> pour shell par défaut ash. j'ai donc installé bash et modifié le chemin
+> dans /etc/passwd. Malheuresement le chemin n'est pas bon...et tous mes
+> terminaux root sont fermés. Donc qd je veux me connecter j'ai droit à:
+> /bin/bash: No such file or directory
+> car bash n'y est pas...FAILED
+> 
+> bref avez vous une idée de comment forcer l'utilisation de ash au moment
+> de la connection via ssh ?
+> 
+> Merci d'avance
+> GiGGz
+
+Tout à fait HS :-) c'est quoi comme NAS ?
+
+réinstaller l'OS ?
+
+créer un nouvel utilisateur lui donner les droits root mais comme tu ne 
+peux pas être root ...
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/507816f8$0$2361$426a74cc@news.free.fr
+

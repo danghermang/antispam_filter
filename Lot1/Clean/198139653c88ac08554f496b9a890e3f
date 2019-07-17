@@ -1,0 +1,23 @@
+Subject:[Flexradio] SDRDataTransfer v5.1.0 Released
+SDRDataTransfer v5.1.0 has been released & is available for download from my
+website.
+
+When writing my BandText Editor utility, I realized that the BandText table
+can be replaced, but it should never be transferred.  Version 5.1.0 of
+SDRDataTransfer implements this rule.
+
+IMPORTANT:  All users of SDRDataTransfer are encouraged to upgrade to v5.1.0
+immediately to prevent the BandText table from being corrupted during the
+transfer process.
+
+73, Ray, K9DUR
+http://k9dur.info
+
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

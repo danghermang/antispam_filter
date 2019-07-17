@@ -1,0 +1,47 @@
+Subject:Re: Estoy abierto a opiniones sobre montar servidor debian
+El Wed, 21 Nov 2012 09:00:11 -0500, Ismael L. Donis Garcia escribió:
+
+(...)
+
+> Ahora mis preguntas:
+> 
+> Como ahora voy a empezar a hacer pruebas para lo que tengo todo el
+> tiempo del mundo quisiera montar el servidor en wheezy, el cual al final
+> de todo esto sería el servidor de dominio en Wheezy. Es esto recomendado
+> aun estando en testing? Recuerden que es solo de prueba por ahora. Sería
+> oficial para cuando yo lo disponga el año que viene.
+
+Sí, ¿por qué no? Ahora mismo se encuentra congelada y es muy estable. 
+Sólo recuerda que el archivo "/etc/apt/sources.list" los repositorios 
+deben apuntar a "wheezy" en lugar de "testing", así cuando salga en unos 
+meses no tendrás que hacer nada y tendrás la versión estable.
+ 
+> También he estado pensando montar el Active Directory en Samba4 ya que
+> está previsto que salga la versión de prueba para el 27 de este mes. Es
+> recomendado esto? Escucho todo tipo de opiniones sobre este tema.
+> Configurar red y Active Directory.
+
+(...)
+
+Samba4 es beta, ten en cuenta que puede fallar, pero tratándose de un 
+servidor de prueba ¿por qué no? Cuanta más gente haya probando samba4 e 
+informado de errores que encuentre en su entorno de producción o de 
+pruebas, mucho mejor.
+
+> PD: Las opiniones la pueden dirigir tanto a la lista como al privado.
+
+Si lo mandamos al privado sólo te beneficias tú de las respuestas y la 
+idea de una lista de correo es compartir ideas, opiniones, sugerencias... 
+relacionadas con Debian ;-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8iqc8$fe8$2@ger.gmane.org
+

@@ -1,0 +1,72 @@
+Subject:[Antenna-discussion] RE< Dipole impedance in real installation and
+ comments about broadband three /five wires dipole
+Dear amigo Lou>
+You are talking about the antenna with a 4 inches diameter elements to 
+each side
+of the dipole... Right?
+Then that will change if one places the antenna at say, 0.5 wavelength 
+above the ground
+Right ?
+So , IMHO, the best option is to use a broadband dipole element... like 
+for example
+3 wires that spread from the center to form a geometrical figure of a 
+triangle.
+In actual practice there is no need to close the triangle sides at the 
+end with a vertical
+connecting wire..
+That type of 3 to 5 wires broadband dipole element works very well, and 
+you can model
+it with EZNEC * a program that I do no have * and find out is excellent 
+broadband
+characteristics, as you sweep the frequency 50 percent up and down the 
+center
+operating frequency.
+Such a dipole for 20 meters using 5 meters long wires , three on each 
+side that are
+separated by 2.5 meters at the end , has a very smooth SWR behavior, but the
+impedance at the center is NOT near 50 or near 75 ohms, so the best approach
+is to feed it with an open wire 350 ohms line.
+73 and DX
+YOur friend in today cool La Habana at 23 degrees Centigrade
+Arnie Coro
+CO2KK
+
+> With this one the wire OD = 100mm
+>
+>
+>                       EZNEC+ ver. 5.0
+>
+> 20m Dipole in Free Space                     11/8/2012 11:52:57 PM
+>
+>          --------------- SOURCE DATA ---------------
+>
+> Frequency = 14.16 MHz
+>
+> Source 1      Voltage = 71.87 V at 0.0 deg.
+>               Current = 1 A at 0.0 deg.
+>               Impedance = 71.87 + J 0.0001724 ohms
+>               Power = 71.87 watts
+>               SWR (50 ohm system) =  1.437  (74.76 ohm system) = 1.040
+>
+>
+> Wire OD = 100mm
+>  Total overall length of dipole is 9.9017m
+>
+>
+>
+>
+> Lou KE4UYP
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

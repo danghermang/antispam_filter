@@ -1,0 +1,97 @@
+Subject:Re: No logro conectarme a Mysql-server en mi computadora
+El vie, 12-10-2012 a las 20:13 -0500, Ricardo Cruz Navarro escribió: 
+> Saludos listeros.
+> 
+> Quiero instalar joomla, wordpress, dolibarr, etc, en mi computadora
+> (estoy explorando). Todos ellos funcionan en mysql-server (algunos
+> también funcionan en postgree según vi), el problema es que ya lo
+> tenía en mi computadora instalado (el mysql-server) funcionando con
+> wordpress, pero como lo deje de usar un tiempo, perdí mi contraseña, y
+> no pude hacer funcionar el dolibarr desde mi computadora, pues pide la
+> contraseña de mysql-server, entonces desinstale con
+> 
+> #aptitude remove mysql-server
+> 
+> #aptitude purge mysql-server
+> 
+> y lo instale
+> 
+> #aptitude install mysql-server
+> 
+> pero no me pregunto la contraseña de administrador de base de datos,
+> entonces aplique:
+> 
+> # debian-user-spanish@lists.debian.org
+> 
+> y al hacer enter, no pasa nada, es decir
+> 
+> 
+> # debian-user-spanish@lists.debian.org (enter)
+> (aquí nada)
+> #
+> 
+> Así que aplique:
+> 
+> # mysql -u root -p
+> Enter password:
+> ERROR 2002 (HY000): Can't connect to local MySQL server through socket
+> '/var/run/mysqld/mysqld.sock' (2)
+> 
+> Entonces busque /var/run/mysqld/mysqld.sock para ver si lo tenía, pero
+> no tengo nada en la carpeta /var/run/mysqld/
+> 
+> (aplique lo anterior varias veces con algunas variantes)
+> 
+> Encontre en la página
+> http://systemadmin.es/2009/02/error-2002-hy000-cant-connect-to-local-mysql-server-through-socket-tmpmysqlsock-2
+> que la solución era:
+> 
+> # ps -fea | grep mysqld
+> root     17416 14581  0 19:46 pts/1    00:00:00 grep mysqld
+> 
+> #grep socket /etc/mysql/my.cnf
+> #  Remember to edit /etc/mysql/debian.cnf when changing the socket location.
+> socket		= /var/run/mysqld/mysqld.sock
+> socket		= /var/run/mysqld/mysqld.sock
+> socket		= /var/run/mysqld/mysqld.sock
+> 
+> y de aquí el problema es que no existe el archivo
+> /var/run/mysqld/mysqld.sock pues ya lo busque en  /var/run/mysqld/.
+> 
+> Así como tampoco tengo el archivo /etc/init.d/mysql, de esté yo tuve
+> la culpa, pues tuve un problema (no me acuerdo por qué) al instalar
+> mysql-server y  dolibarr por milesima vez, se me rompieron los paquete
+> mysql-server y dolibarr y ya no me dejaba ni instalar, ni desinstalar,
+> ni actualizar, ni reparar nada, entonces me desespere y borre ese
+> archivo, ya no me respondia el servicio /etc/init.d/mysql, borrar ese
+> archivo me permitio corregir los paquetes rotos, pero no he podido
+> hacer arrancar el mysql-server en está maquina.
+> 
+> Mi moraleja, ser desesperado puede hacerte perder más tiempo del que ganas.
+> 
+Pues si, se puede entrar a mysql sin saber la contraseña. Anotá esa
+búsqueda para la próxima (pista: podés restringirla al sitio de
+mysql) ;-)
+
+A lo tuyo, deja ver si entendí: ¿tenés un mysql limpio?, es decir, podés
+borrarlo de nuevo sin perder datos importantes? en caso de no ¿tenés un
+backup de esos datos importantes?. Luego que resuelvas el problema del
+backup, ejecutá lo siguiente
+apt-get -f install 
+(sin paquetes para que arregle lo que tenga que arreglar y te deje
+instalar o borrar cosas)
+apt-get --reinstall install mysql-server
+/etc/init.d/mysql start
+mysql   
+
+
+
+pd: El /var/run/mysqld/mysqld.sock no lo vas a tener hasta que no esté
+funcionando mysql
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1350091472.3149.32.camel@gonzalo.casa
+

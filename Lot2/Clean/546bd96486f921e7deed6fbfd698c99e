@@ -1,0 +1,36 @@
+Subject:Re: Wheezy : freezes totaux =?UTF-8?B?ZnLDqXF1ZW50cw==?= sur un
+	nouveau portable.
+On Tue, 25 Sep 2012 19:49:33 +0200
+Antoine <antoineflg@gmail.com> wrote:
+
+>=20
+> Bien vu, mon SSD n'y est pas,
+
+Wai, donc ses indications ne peuvent =C3=AAtre prises en consid=C3=A9ration
+parce ce qu'il suppute =C3=AAtre le Nb de reallocated sectors peut =C3=AAtre
+tout autre chose:(
+
+> donc je vais laisser de c=C3=B4t=C3=A9
+> smartmontools et me concentrer sur un mkfs.ext4 -c -c -v /dev/sda.
+
+Tant qu'=C3=A0 faire,
+* rajoute -m1 (slmt 1% r=C3=A9serv=C3=A9 pour root au lieu de 5% par d=C3=
+=A9faut),
+* v=C3=A9rifie bien que la taille de block pour laquelle mkfs a opt=C3=A9
+  correspond =C3=A0 celle du SSD (sinon, option -b <TailleBlockBytes>),
+* s'il-y-a des dirs avec des milliers de fichiers, -O dir_index
+* -O filetype peut aussi acc=C3=A9l=C3=A9rer les op=C3=A9rations.
+
+--=20
+<Pierre> 'Tin, j'suis pomm=C3=A9!
+<neo> Oh! C'est trognon :)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120925200147.2e041681@anubis.defcon1
+

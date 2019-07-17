@@ -1,0 +1,66 @@
+Subject:Re: debian et onduleur
+Le Mon, 1 Oct 2012 22:24:09 +0200
+Bzzz <lazyvirus@gmx.com> a écrit:
+
+> On Mon, 1 Oct 2012 22:01:48 +0200
+> Gaëtan PERRIER <gaetan.perrier@neuf.fr> wrote:
+> 
+> > 
+> > Histoire de savoir quel puissance d'onduleur prendre je viens
+> > aussi de faire des mesures sur mon PC et en idle ça tourne autour
+> > de 45W/50W et ça monte à 70/80W avec flightgear de lancé.
+> 
+> Rien que les CPUs actuels sont entre 77W & 100W, la génération
+> précédente tournait plutôt sur 135W.
+> 
+> Mais ce sont des valeurs MAX, qui sont rarement atteintes notamment
+> grâce aux mécanismes intrinsèques d'ajustement de fréquence et à la
+> quasi-coupure en idle.
+> 
+> > Pourtant
+> > quand je vais sur un site de dimensionnement d'alimentation avec
+> > ma config ça indique 400 à 450W. Certes flightgear n'utilise pas
+> > tous les cœurs mais je doute que même avec les 4 cœurs j'arrive à
+> > monter à 450W, non ?
+> 
+> Les indications de consommation prennent généralement en compte "la
+> totale", CàD autant de HDz qu'il-y-a de connecteurs SATA, le plus
+> gros CPU possible, etc.
+> Les HDz sont de gros consommateurs, particulièrement en écriture
+> et/ou lecture aléatoire.
+> Le CPU est compté pour sa conso max.
+> 
+> > Et encore 450W serait la puissance restituée
+> > donc encore plus en consommé (je mesure sur le secteur).
+> 
+> Ça reste à prouver.
+> 
+> Un test de burn-in complet (inclus I/O HDz) permettrait sans
+> doute d'obtenir la conso max réelle de ta config (+qq Watts pour
+> le/s graveur/s).
+
+J'ai lancé 4x burnP6 mais je ne monte pas au delà de 110W. Mais ça me semble
+un peu vieux et ça ne doit pas activer tout ce que l'on trouve dans un i5
+2500k ?
+
+> 
+> De toute façon, pour le dimensionnement d'un UPS il vaut tjrs mieux
+> surestimer et prendre un peu plus gros, surtout si une 2nde machine
+> devait venir s'ajouter - mais pas systématiquement trop gros non
+> plus, parce que le cosinus phi a tendance à augmenter sensiblement
+> dans les zones non-optimales de fonctionnement et donc le rendement
+> baisse.
+
+Oui pas trop petit, pas trop gros pas facile de trouver la bonne valeur.
+
+Gaëtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121001230826.6236aa13e5984c26f6e4d39d@neuf.fr
+

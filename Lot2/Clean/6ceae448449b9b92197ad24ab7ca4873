@@ -1,0 +1,44 @@
+Subject:Re: Squid3 y https
+On 16/10/12 20:54, cosme@esid.gecgr.co.cu wrote:
+> Hola
+>
+> Tengo problemas al acceder a los sitios seguros con el squid3
+>
+> He buscado sobre el tema y squid3 no trae soporte papa SSL hay que comp=
+ilarlo
+>
+>
+> yo simplemente instal=E9 apt-install squid3
+>
+> Cuando intento acceder a algun sitio mediante https no puedo
+>
+> Veo en fichero de conf esto
+>
+> --enable-ssl
+>
+> Como puedo resolver el problema??
+>
+> uso debian squeeze
+>
+> Salu2
+>
+>
+>
+>
+>
+Estas usando Squid en modo transparente, en ese caso las conexiones ssl=20
+no funcionar=E1n. Tendr=E1s que hacer snat del puerto 443. Hay una forma =
+de=20
+hacerlo funcionar en modo transparente pero no es muy recomendado que=20
+digamos=20
+(http://survietamine.tumblr.com/post/2525156453/proxy-ssl-interception-us=
+ing-squid)
+
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/507EDF94.2050304@uncu.edu.ar
+

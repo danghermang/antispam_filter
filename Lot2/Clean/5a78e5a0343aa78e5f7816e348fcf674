@@ -1,0 +1,25 @@
+Subject:Re: Wheezy : freezes totaux =?UTF-8?B?ZnLDqXF1ZW50cw==?= sur un
+	nouveau portable.
+On Mon, 24 Sep 2012 12:17:56 +0200
+Antoine <antoineflg@gmail.com> wrote:
+
+> 69 pour le r=C3=A9sultat suivant : 5 Reallocated_Sector_Ct
+
+J'oubliais: fais un smarctl -i /dev/sda et v=C3=A9rifie si ton SSD est
+bien dans la base de donn=C3=A9e SMART (absence de la ligne "Device is:
+Not in smartctl database [for details use: -P showall]")
+
+--=20
+<kiwi> t'as rat=C3=A9 un truc important
+<Cycy'deprime> ma vie :/
+<kiwi> ouais non j'ai dit "important"
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120924124352.75c208fe@anubis.defcon1
+

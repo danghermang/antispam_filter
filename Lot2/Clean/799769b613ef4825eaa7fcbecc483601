@@ -1,0 +1,18 @@
+Subject:Re: [Koha] A question for users of Koha, about searching
+On Tue, Oct 30, 2012 at 10:49 AM, BRANNON, CHRISTOPHER
+<CBRANNON@cdalibrary.org> wrote:
+> Also, it is a pain with the more/fewer options.  There really isn't that much more.
+
+You can set the "expandedSearchOption" system preference to "show" and
+it will default to the "more options" view.
+
+ -- Owen
+
+-- 
+Web Developer
+Athens County Public Libraries
+http://www.myacpl.org
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

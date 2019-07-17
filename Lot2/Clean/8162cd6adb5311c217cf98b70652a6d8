@@ -1,0 +1,50 @@
+Subject:Re: logo ascii art generator
+Le 16/10/2012 10:43, Bernard Schoenacker a écrit :
+> bonjour,
+>
+> 	je recherche à générer avec un texte un logo en ascii art, quels
+> 	seraient les paquets susceptible de faire l'affaire ?
+>
+> 	slt
+> 	bernard
+>
+
+
+aptitude search figlet
+figlet  - Make large character ASCII banners out of ordinary text
+
+aptitude search toilet
+toilet  - display large colourful characters in text mode
+
+Ça me fais penser que je voulais faire une page de doc après avoir 
+découvert leur existence =)
+
+Le wiki conseil d'utiliser toilet à la place de figlet (histoire de 
+licence).
+
+En passant, quelques options que j'avais trouvées intéressantes pour toilet:
+   -F gay: applique un filtre pour mettre de belles couleurs (synonyme 
+de gaieté? :D)
+   -F metal: applique un filtre pour un style de couleurs “metal”
+   -F …: permet d'appliquer d'autres filtres si ils existent.
+
+Et évidemment si à 25 ans tu n'as pas ton horloge ascii, et bas la voila:
+watch -t -n1 "date +%T|toilet -f mono12"
+
+
+-- 
+------------------
+Gardouille-kun
+mail: gardouille@gmail.com
+jabber: gardouille@im.gardouille.fr
+------------------
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/507D66CE.40700@gmail.com
+

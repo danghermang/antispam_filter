@@ -1,0 +1,144 @@
+Subject:Re: [LUG] Linux - and security
+On Fri, Nov 2, 2012 at 10:21 PM, bad apple
+<ifindthatinteresting@yahoo.com> wrote:
+> I do disagree with some of your points still:
+
+Fair enough. :-)
+
+> CRIME/BEAST are hard. For normal people. But not for skilled hackers, of
+> which there are many. It only takes one to compromise a major host, and
+> then millions of users are open. Bonus points for targeting
+> infrastructure points like ISPs and MITMing even 5% of the connections
+> going through. The entire history of hacking is full of exploits of
+> staggering complexity, but that hasn't stopped any of them being
+> implemented and used heavily. A recent global security survey of SSL/TLS
+> amongst top sites showed that nearly 50% were vulnerable: a lot of them
+> promptly fixed the hole, but many didn't. And of course, CRIME will be
+> tweaked and they'll be vulnerable again... SSL/TLS done *right* is of
+> course secure, no arguments there. I should have been more specific
+> about how most real-world implementations are effectively broken.
+
+No doubt they are. But there's a difference between broken and a
+serious threat for most people.
+
+Correct me if I'm wrong, but CRIME does _not_ allow for an attacker to
+decrypt SSL traffic on-the-fly anywhere as easily as knowledge of the
+private keys would. Wikipedia actually adds that it would also require
+"inducing the browser to make multiple carefully crafted web
+connections to the target site". I think this makes it a hard attack.
+Far from impossible to use of course, and something that should worry
+those managing big sites, but it is not something that can easily be
+deployed in a mass-attack.
+
+> I disagree about DNS too - you even admit that just about anything you
+> do online requires it but don't think it effects you. Fair enough, but
+> why not go DNSSEC and close the hole? It is your call of course though,
+> and your cost/benefit analysis to make.
+
+I have to admit here that I have no good reason not to use DNSSEC. It
+doesn't matter in most cases, but even to prevent me from giving the
+crooks some extra money via rogue advertisements (like DNSChanger) I
+should look into using DNSSEC. I will!
+
+One reason I'm a little reluctant is that it kind of adds a false
+sense of security. Because what if someone uses a Diginotar-like hack
+against DNSSEC? In a browser you can at least disable a certificate. I
+don't think in DNSSEC you can.
+
+> You've got the wrong end of SCADA attacks too: most SCADA systems are
+> just helplessly vulnerable fullstop, and anyone with ICL skills can
+> wreak havoc upon them. The difficulty is getting access to the backend
+> systems that should be airgapped and that was the genius of
+> Stuxnet/Flame.
+
+I agree about bridging the airgap being done really cleverly by
+Stuxnet. (I think it used four zero-days. That is more than any other
+known piece of malware.) But, from having spoken to people who have
+researched the code, the actual attack on the SCADA was extremely well
+executed and required advanced skills as well as knowledge of the
+working of that particular system.
+
+(Flame didn't target SCADAs btw. It was "just" a piece of spyware.)
+
+Mind you, I have no good explanation as why we don't see more attacks
+on SCADAs (they are a "great" target for a group of careless,
+unethical hacktivists), but it is a fact we don't. I personally
+believe that such attacks are slightly less trivial to do in practise
+as they seem in theory.
+
+> Also, you yourself actually provided an example of a 0-day in widespread
+> use - the Iranian government were broadly intercepting all internal
+> google mail traffic for a while before they were busted and the hole
+> fixed.
+
+Sure. And if you do anything that could upset a government, I would
+strongly recommend not using something like Google to talk about that.
+Especially if said government is that of Iran.
+
+The fact that governments can do this and possibly are doing this
+(without adhering to proper legal procedures) should worry us as a
+society, much more than it currently does. It does not affect the way
+most people use the Internet.
+
+> Agreed, as you say mostly 0-days are held close to the chest and
+> used in targeted attacks but what usually happens though is that someone
+> discovers it, it leaks into general usage (often landing in our
+> favourites MetaSploit and Canvas very quickly) and then everyone on the
+> internet is vulnerable for a few days whilst vendors scramble to release
+> out-of-schedule patches. Again, that's my fault for not being strict
+> enough with my terminology.
+
+No, I see what you mean. And that Java example (CVE-2012-4681, to give
+it its proper name) is a good (or bad) example of a zero-day being
+used in mass-attacks before it was patched. (I don't consider
+MetaSploit a mass attack. Blackhole is.) But then, as I said, this was
+Oracle and Java. For some time good practise has been to disable Java
+at least on the browser you use for everyday Internet browsing. This
+would have prevented any infections.
+
+The other "big zero-day" discovered recently (CVE-2012-4969 in
+Internet Explorer) was patched quickly and, if I'm not mistaken,
+before the first reports of it being used in-the-wild surfaced.
+
+> It all boils down to the above cost/benefit analysis. You contend that
+> you've already done more than enough and I'm guessing, value your free
+> time more than the extra 1% security you could eke out of your system by
+> really pushing it.
+>
+> And who the hell am I to say you're wrong? You're probably already in
+> the top 1%, if not 0.1% of secure systems.
+
+I guess I am. I'm also reasonably well aware of the other 1, or 0.1
+per cent and what it would take to protect me against these threats.
+I've made a well-informed decision it's not worth the effort. (For
+instance, I can take 1000s of extra measures against attacks of my
+online banking. Instead I decided that, given the efforts I have
+already made, if something does go wrong, my bank is likely to
+refund.)
+
+> Obviously, I have personally decided it is worth it going further, and
+> not stopping until I'm in the top 0.00001% of systems. Quite frankly, I
+> wouldn't expect most people to go that far and of course, even now, I'm
+> not invulnerable because nobody is. cvs.openbsd.org got hacked a few
+> years back, and if someone got into that, I'm screwed if the same
+> attackers come after me...
+
+That's another reason for me not to try and reach that top 0.00001% of
+systems: a system is as secure as the weakest link in its security
+chain. At some point you reach the point where those weakest links are
+those beyond your control.
+
+> So everyone, listen to Martjin, he's quite right. If on the other hand,
+> you ever need something really, REALLY, *REALLY* secured, my rates are
+> very reasonable and I promise you my paranoia isn't in any way
+> infectious :] I'm not allowed to wear my tinfoil hat in public anymore...
+
+Haha. I can only agree with that, especially if I add that my advice
+was really only meant for Linux home users!
+
+Martijn.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,69 @@
+Subject:Re: [Koha] How can I make a back up?
+2012/11/7 juan hernandez <jnherz@gmail.com>
+
+> yes, thank you but using:
+>
+> backup: # mysqldump -u root -p database_name > yourfilename.sql
+> restore:# mysql -u root -p database_name < yourfilename.sql
+> i can make this, usin command prompt.
+>
+> but I would like to know if there is a way to make the same (above)
+> without command prompt, I mean inside Koha,
+> example:
+> all the bibliographic ---- export button --- import button
+> all the circulation ---- export button -- import button
+>
+> but the movements? reservations? etc?
+>
+> thanks in advace
+>
+>
+>
+>
+>
+>
+> 2012/11/7 Mohamed zalabany <mh_zalabany@hotmail.com>
+>
+>>
+>> the common solution for backup is MySQL backup
+>> you can use Tar command to backup the koha files
+>> or backup the whole system of Linux
+>>
+>> *
+>> *
+>>
+>> *
+>> *
+>>
+>> *Mohamed El Zalabany*
+>> **
+>> *Integrated library systems consultant*
+>>
+>> Zalabany Knowledge Systems Team=A9
+>> For Libraries and Information systems Development and support
+>> mh_zalabany@hotmail.com
+>> Mobile: 0111291444
+>>
+>> **
+>>
+>>
+>> > Date: Tue, 6 Nov 2012 18:10:58 -0600
+>> > From: jnherz@gmail.com
+>> > To: koha@lists.katipo.co.nz
+>> > Subject: [Koha] How can I make a back up?
+>>
+>> >
+>> > Hello I would like to know how I can make a back up inside koha?
+>> > Cataloguing, circulation and all database?
+>> > Not using mysql commands, can I make this?
+>> > _______________________________________________
+>> > Koha mailing list http://koha-community.org
+>> > Koha@lists.katipo.co.nz
+>> > http://lists.katipo.co.nz/mailman/listinfo/koha
+>>
+>
+>
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

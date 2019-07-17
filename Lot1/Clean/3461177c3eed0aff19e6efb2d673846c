@@ -1,0 +1,29 @@
+Subject:Re: Sqitch Build Failures
+On 10. sep. 2012, at 18:56, David E. Wheeler wrote:
+
+> These machines, meanwhile, still have some Moose issues:
+> 
+>  http://ppm4.activestate.com/sun4-solaris-64/5.10/1000/D/DW/DWHEELER/App-Sqitch-0.93.d/log-20120908T115716.txt
+>  http://ppm4.activestate.com/sun4-solaris/5.10/1000/D/DW/DWHEELER/App-Sqitch-0.93.d/log-20120908T101334.txt
+> 
+> Er, although those are 5.10, which you don't support anymore, right?
+
+That's right.  Even if the package builders are still running for that build. The App-Squitch build seems to have failed with:
+
+  ... requires perl 'v5.10.1'; you have only 5.010000; giving up
+
+We don't plan to upgrade the perl-5.10 builder to 5.10.1.
+
+> This one should be okay, but something ins wrong with Hash::Merge:
+> 
+>  http://ppm4.activestate.com/i686-linux/5.12/1200/D/DW/DWHEELER/App-Sqitch-9.93.d/log-20120901T080359.txt
+
+This build machine still had Hash::Merge v0.11 installed in the "megalib".  I manually forced an install of Hash::Merge v0.12 (it was already built) and then restarted the App-Sqitch build again.  It went through this time.  The new build should get published soonish.
+
+Regards,
+Gisle
+
+_______________________________________________
+PPM mailing list
+PPM@listserv.ActiveState.com
+http://listserv.ActiveState.com/mailman/listinfo/ppm

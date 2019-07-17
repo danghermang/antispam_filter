@@ -1,0 +1,20 @@
+Subject:Re: Fwd: Porting Iceweasel 10.0.8 ESR to the Stable Backports.
+* Ben Armstrong <synrg@sanctuary.nslug.ns.ca> wrote:
+> On 31/10/12 08:52 AM, Jens Sch=FC=DFler wrote:
+> > http://backports-master.debian.org/FAQ/
+>=20
+> In light of that, wouldn't it be better to remove the older, insecure
+> mozilla releases rather than leaving them there, exposing users to risk?
+
+Sounds reasonable. iceweasel_10.0.10esr-1 is on mozilla.debian.net since
+Oct.26 and I see no real benefit for parallel having iceweasel_10 in the
+backports.debian.org repo when m.d.n offers those backports also.
+
+Jens
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121031135524.GC548@sge.kicks-ass.org
+

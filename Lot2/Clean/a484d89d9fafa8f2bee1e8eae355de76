@@ -1,0 +1,38 @@
+Subject:Re: kan je een bootable CD maken van een Ubuntu op (verborgen) disk ?
+On 25-10-12 11:48, Y P wrote:
+> Hoi Marc,
+>
+> je zegt niet welke extra drivers...
+> Is dat ook een gelijkaardige model, de 1225C of een X101CH ofzo ?
+> De vraag is of je ook niet simpelweg een iso kunt/mag maken van sda1 waar
+> het systeem (verborgen) in zit, MET die non-free drivers die nodig zijn v=
+oor
+> de Atheros, de Cedar en andere rariteiten waarvoor je non free drivers no=
+dig
+> hebt.
+>
+
+
+Onder ubuntu 10.04, ik doe geen upgrade meer tot over een jaar ;-)
+
+Pakketten:
+Intel Cedarview
+Drm driver for the Cedar trail in DKMS Format
+
+Deze twee drivers laten de resolutie correct werken ...
+
+Marc
+
+-- =
+
+The "Penguin" has arrived - and he's not going away - ever.
+What's on Shortwave guide: choose an hour, go!
+http://shortwave dot tk
+700+ Radio Stations on SW http://swstations dot tk
+300+ languages on SW http://radiolanguages dot tk
+
+-- =
+
+Ubuntu-NL mailing list
+Ubuntu-NL@lists.ubuntu.com
+Info/Uitschrijven: https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl

@@ -1,0 +1,37 @@
+Subject:[EVDL] New battery fuse
+Hi all,
+
+While ordering from one of my favorite suppliers (www.waytekwire.com), I 
+noticed that they had a new type of battery fuse listed -- the Bussman 
+MRBF series.
+
+http://www.lico.hu/bussmann/Marine_Batteriesicherungen.pdf
+
+They come in 90a to 200a sizes, and are rated for up to 58vdc, with a 
+10,000 amp interrupting capacity. Marine rated; waterproof and 
+acidproof, to mount right on top of a battery. Cost is about $5.
+
+The package is interesting. It is a rectangular block with a hole in the 
+middle, like a thick washer. If your battery has a stud, you place the 
+fuse on the stud, place your ring terminal on top of the fuse, and put 
+the nut on top. The nut needs to be insulated from the stud, so current 
+passes from the battery terminal, through the fuse, and out the ring 
+terminal (and not directly through the stud). They have insulated nuts 
+and/or washers to allow this.
+
+Has anyone seen or used these fuses yet?
+-- 
+Anyone can make the simple complicated. Creativity is making the
+complicated simple. -- Charles Mingus
+--
+Lee A. Hart http://www.sunrise-ev.com/LeesEVs leeahart@earthlink.net
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

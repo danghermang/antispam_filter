@@ -1,0 +1,13 @@
+Subject:Re: [anti-abuse-wg] [db-wg] RIPE NCC's proposed implementation of
+	Abuse Contact Management in the RIPE Database
+* Kaveh Ranjbar:
+
+> However, as mentioned before, for roles referred from the "abuse-c:"
+> we will put a notification during data entry. The notification will
+> clearly state that this data will be published fully and will be
+> accessible with no restrictions. With that in place, we don't have
+> to "dummify" those objects anymore and "ROLE" objects with
+> "abuse-mailbox:" attribute will be accessible with no restriction.
+
+This is great news, thanks.
+

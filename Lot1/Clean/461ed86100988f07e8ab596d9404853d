@@ -1,0 +1,28 @@
+Subject:Re: sobre postfixadmin
+El Tue, 06 Nov 2012 08:28:28 -0500, linux escribió:
+
+> saludos lista he intentado instalar postfixadmin y cuando pongo el
+> usuario y la contraseña me da este error.
+> 
+> DEBUG INFORMATION:
+> Connect: Access denied for user 'postfix'@'localhost' (using password:
+> YES)
+> 
+> me pueden decir como lo soluciono.
+
+Por el tipo de error que te da parece que te faltó configurar la base de 
+datos ((usaurio/contraseña/permisos) o alguna sección de los archivos de 
+configuración de la propia aplicación... ¿qué pasos (o qué guía) has 
+seguido para instalar y configurar postfixadmin?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7babc$ji$10@ger.gmane.org
+

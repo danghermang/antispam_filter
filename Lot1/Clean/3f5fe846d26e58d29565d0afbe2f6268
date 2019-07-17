@@ -1,0 +1,28 @@
+Subject:[Hsqldb-user] Re g: Header line in the csv file needed while
+ laoding csv file.
+
+Hi,
+I was able to load a csv file into database.
+But it was expecting the list of columns in the first line with the
+delimiter specified.
+
+Is there any way this can be avoided ? I wanted the csv file to be loaded
+without the header line as the list of columns.
+
+thanks,
+-sandeep samudrala 
+
+-- 
+View this message in context: http://old.nabble.com/Reg%3A-Header-line-in-the-csv-file-needed-while-laoding-csv-file.-tp34575666p34575666.html
+Sent from the HSQLDB - User mailing list archive at Nabble.com.
+
+
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://p.sf.net/sfu/appdyn_sfd2d_oct
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

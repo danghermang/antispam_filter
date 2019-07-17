@@ -1,0 +1,29 @@
+Subject:Re: [address-policy-wg] [Ticket#2012110601002595] Status of /24 PI
+ IPv4 from last /8
+Hello Gert,
+
+On 11/07/2012 08:17 PM, Gert Doering wrote:
+> Hi,
+>
+> On Wed, Nov 07, 2012 at 04:41:51PM +0100, Richard Hartmann wrote:
+>> To put it differently: Why does anyone who considers IPv4 legacy care
+>> about how it's used up?
+> Well, I *do* care about the way we use the community's resources in
+> policy building.
+
+I'm confused. We should all care about the way the community's resources 
+are used. That's the whole point of this discussion (and this group). 
+What we're now seeing, is new LIRs that never wanted to become LIRs in 
+the first place and just wanted a /24 of PI space. They have no (real) 
+alternative though if they want to multihome (as an LIR/ISP I'm with 
+Nick on this one). How's that fair on them, considering registration and 
+handling fees?
+
+As far as IPv6 goes, most of us or on the same boat, no need to state 
+the obvious. As Richard said, the question here is whether we should 
+hand out PI from the last /8 or not.
+
+regards,
+Yannis
+
+

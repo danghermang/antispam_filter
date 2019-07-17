@@ -1,0 +1,50 @@
+Subject:Re: Compilar kernel para optimizacion
+El Mon, 19 Nov 2012 17:14:44 +0100, maykel escribió:
+
+(...)
+
+>>> Muy bueno, voy a ello...
+>>>
+>>> http://users.on.net/~ckolivas/kernel/
+>>>
+>>> Gracias, esto es lo que querÃ­a, algo que ya estÃ© optimizado y que se
+>>> aplique.
+>>
+>> Nada, nada... queremos "benchmarks" comparativos para comprobar la
+>> agilidad del sistema "optimizado" >>;-P
+
+> Los Benchmarks tendrán que esperar porque no me arranca...se queda en
+> Loading ramdisk...
+
+Hum...
+
+> Lo he compilado y probado en un ubuntu, un fedora y un fuduntu. He
+> compilado el kernel 3.6.6 en ambas distros y sin problema
+
+Se supone que el parche es para el kernel que enlazan en esa misma página.
+ 
+> Pero al aplicarle el parche de kolivas, en cuanto reboto la máquina e
+> intento arrancar desde ése kernel se queda ahí...
+
+¿Cómo has compilado el kernel en cada caso? Prueba a compilar ese mismo 
+kernel sin aplicar el parche a ver si logras que inicie.
+ 
+> Por supuesto me he fijado si me había agregado las entradas al grub(que
+> si lo ha hecho) y que me genere las imagees de arranque initrd y
+> vmlinux(que también las ha generado).
+> 
+> No sé que podrá ser, pero me huele a que puede ser al meterle el patch.
+
+Es un parche muy extenso...
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8dnt5$k79$4@ger.gmane.org
+

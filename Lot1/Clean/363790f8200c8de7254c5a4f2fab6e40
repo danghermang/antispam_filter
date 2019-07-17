@@ -1,0 +1,59 @@
+Subject:Re: Compartir impresoras en red por debian
+El d=EDa 16 de octubre de 2012 14:34, Debian GMail
+<javier.debian.bb.ar@gmail.com> escribi=F3:
+> El 16/10/12 14:08, residentresureccion@gmail.com escribi=F3:
+>
+>>
+>> saludos a todos amigos
+>>
+>> Tengo una impresora hp 2055dn  conectada a un equipo v=EDa usb en deb=ED=
+an
+>> 6.0.5 quisiera que varios  equipo dentro de la misma red pudiesen imprim=
+ir
+>> con la misma impresora desde otras oficinas ya prob=E9 por el administra=
+dor de
+>> impresi=F3n que trae  busco la ip del equipo que tiene la impresora cone=
+ctada
+>> v=EDa usb pero  ha sido insatisfactor=EDo el resultado. Por favor necesi=
+to ayuda
+>> con esto. Gracias de antemano
+>
+>
+> La HP 2055dn tiene una placa de red Ethernet, raz=F3n por la cual no veo =
+el
+> motivo por el cual est=E1 conectada a un equipo v=EDa USB, que te obliga =
+a
+> mantener una computadora prendida.
+> Si la conectas directamente a la red, todo va a funcionar mejor y ahorar=
+=E1s
+> recursos.
+>
+> http://www.solutionbox.com.ar/mailing/HP16-11/Laserjet_P2055dn.pdf
+>
+> Si te tomas el trabaja do leer esto,
+> http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?lang=3Den&c=
+c=3Dus&taskId=3D115&prodSeriesId=3D3662052&prodTypeId=3D18972&objectID=3Dc0=
+1596979
+>
+> te indica c=F3mo configurarla sobre una red.
+>
+> JAP
+>
+>
+
+Para el caso general:
+Tener instalado cups y configurarlo desde http://localhost:631
+permite compartir cualquier impresora a la que se tenga acceso
+
+
+--=20
+Jorge A Secreto
+Analista de Sistemas
+MP 361
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJx9gijPMbnpn7esMjC0nQ_ObpK4_m6Y-J6nyYNdKnpRwVzyjw@mail.gmail.com
+

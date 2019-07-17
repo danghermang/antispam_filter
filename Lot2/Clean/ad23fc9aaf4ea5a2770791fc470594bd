@@ -1,0 +1,24 @@
+Subject:=?utf-8?B?W1LDiVNPTFU=?= =?utf-8?Q?=5D?= [HS] Sid, Konsole et
+	oh-my-zsh dans un panier
+Bonsoir,
+
+Pour ceux que cela intéresse cela venait du fait que j'avais défini ma
+variable d'environnement TERM dans Konsole à « screen-256color » et non
+« xterm-256color ».
+
+Certainement un reste de test de 256 couleurs avec tmux qui devait
+coincer.
+
+Amicalement,
+
+Thomas
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121026184259.GA5636@yopbook.tblein.eu
+

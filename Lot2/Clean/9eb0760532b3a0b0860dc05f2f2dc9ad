@@ -1,0 +1,51 @@
+Subject:Re: Rv: Re: No funcionan su, sudo, ni otros..
+El Fri, 16 Nov 2012 07:52:36 -0800, Aristobulo Pinzon escribió:
+
+(ese html...)
+
+> Gracias camaleon OK! estos son lo resultados:
+> 
+> todos@wolf:~$ ls -la /bin | grep su; ls -la /usr/bin | grep sudo
+> -rwxr-xr-x  1 root root  29152 feb 15  2011 su 
+> lrwxrwxrwx  1 root root   4 nov 14 22:47 gksudo -> gksu 
+> -rwxr-xr-x  2 root root   144740 may 23 12:34 sudo 
+> -rwxr-xr-x  2 root root   144740 may 23 12:34 sudoedit 
+> -rwxr-xr-x  1 root root    27816 may 23 12:34 sudoreplay
+
+Algo te ha pasado... se te ha quitado el "setuid" de los binarios, mira:
+
+sm01@stt008:~$ ls -la /bin | grep su; ls -la /usr/bin | grep sudo
+-rwsr-xr-x  1 root root  33112 dic  6  2009 su
+   ^
+lrwxrwxrwx  1 root   root          4 nov 14  2009 gksudo -> gksu
+-rwsr-xr-x  2 root   root     127432 jun 11  2010 sudo
+   ^
+-rwsr-xr-x  2 root   root     127432 jun 11  2010 sudoedit
+   ^
+
+Me temo que el resto de archivos en esos directorios estarán igual (de 
+mal) :-(
+
+Antes de nada, restaura esos dos binarios (según este artículo¹ con 
+"chmod 4755 /bin/su /usr/bin/sudo") para poder trabajar mínimamente con 
+el sistema, lo cual podrás hacer de dos formas:
+
+1/ Intentar iniciar desde busybox (consola de mantenimiento) y cambiar 
+los permisos manualmente.
+
+2/ Iniciar desde una LiveCD, montar la partición y cambiar los permisos 
+de esos dos archivos.
+
+¹http://www.debian-administration.org/articles/476
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k85omv$8pk$11@ger.gmane.org
+

@@ -1,0 +1,40 @@
+Subject:Re: =?ISO-8859-1?Q?D=E9marrage_impossible=3A_ADDRCONF_=28N?=
+	=?ISO-8859-1?Q?ETDEV=5FUP=29=3A_eth0=3A_link_is_not_ready?=
+On 09/01/2012 05:02 PM, Nicolas Hémard wrote:
+> *Bonjour, et merci,
+>
+> *
+>
+>   * *J'ai désinstallé rsync et dépendances*
+>
+>   * *Mon /etc/network/interfaces donne:*
+>
+> # The loopback interface
+> auto lo
+> iface lo inet loopback
+>
+> # The primary network interface
+> allow-hotplug wlan0
+> iface wlan0 inet dhcp
+> etc... les infos du wifi*
+> *
+>
+>   * *"ifconfig -a eth0" me donne: interrupt:19 en dernière ligne*
+
+
+Précision
+Il faut taper ifconfig -a
+(et non ifconfig -a eth0)
+
+-- 
+Maderios
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/504232A4.5010008@gmail.com
+

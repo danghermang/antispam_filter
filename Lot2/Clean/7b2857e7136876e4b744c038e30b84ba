@@ -1,0 +1,26 @@
+Subject:Re: Route statique avec 2 passerelles
+Le 15675i=C3=A8me jour apr=C3=A8s Epoch,
+Pascal Hambourg =C3=A9crivait:
+
+> Dans le temps on pouvait utiliser l'option "source routing" dans
+> l'en-t=C3=AAte des paquets IP, mais elle est ignor=C3=A9e voire bloqu=C3=
+=A9e par la
+> plupart des routeurs =C3=A0 cause des probl=C3=A8mes de s=C3=A9curit=C3=
+=A9 qu'elle pose.
+
+Mais ce n'=C3=A9tait valable qu'avec plusieurs interfaces sur la machine, il
+me semble. Tu routais les paquets selon l'interface par laquelle ils
+=C3=A9taient arriv=C3=A9s.
+
+Par contre, tu as un lien ou plus de d=C3=A9tails sur cette notion de
+probl=C3=A8mes de s=C3=A9curit=C3=A9?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/87ip8mysf2.fsf@tourde.org
+

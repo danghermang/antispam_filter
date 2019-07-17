@@ -1,0 +1,46 @@
+Subject:Re: Problemas de red
+Te detecta la interface wifi??
+
+iwconfig??
+ifconfig -a??
+
+lspci??
+
+Saludos.
+> Saludos lista.
+>
+> Tengo un problema con la red, escribo acá porque me parece muy extraño
+> mi problema ya que siempre me ha funcionado bien la red inalambrica,
+> pero repentinamente me dejo de funcionar, el network manager ya no la
+> reconoce, no me detecta ninguna red inalambrica, realmente no tengo
+> idea del porque del problema pues había estado funcionando muy bien
+> desde hace mucho tiempo, y no he hecho cambios radicales a mi sistema,
+> es mas no he instalado nada mas que el "sbt de scala" dudo que eso sea
+> el problema pues he trabajado con con el REPL de scala sin problema
+> alguno.
+>
+> De antemano gracias por su ayuda, feliz día...
+>
+> --
+> "El desarrollo no es material es un estado de conciencia metal"
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/CADpTsTaypM0r47-HZGvcXCptS4nH9FEWEmfBXYRa9qQrTGhHMA@mail.gmail.com
+>
+>
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1ab8330ea84d758bfe3cb43f4fcb3822.squirrel@maykel.sytes.net
+

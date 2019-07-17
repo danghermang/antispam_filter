@@ -1,0 +1,61 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+On Sat, Sep 22, 2012 at 11:15:22AM +0000, Camale=F3n wrote:
+> El Sat, 22 Sep 2012 10:55:46 +0200, Angel Vicente escribi=F3:
+>=20
+> >> echa un ojo a esto.
+> >>=20
+> >> http://www.gentoo-wiki.info/Udevd:_init_udevd_socket:_error_getting_=
+socket:_Address_family_not_supported_by_protocol
+> >>=20
+> >=20
+> > Ayer estuve echando un vistazo a este enlace, y decidi tratar de
+> > investigar sobre los mensajes del udev, asi al menos me quitaria un
+> > problema. Rebuscando un poco encontre que en Debian hay registrado un
+> > bug de fecha aproximada al de mi problema, es el bug 686707, y es un
+> > error igual al que obtengo yo, segun dice le ocurrio al actualizar ud=
+ev.
+> > La solucion pasa por compilar el protocolo unix en el nucleo y no com=
+o
+> > modulo, puesto que ya el udev no soporta el unix como modulo; la verd=
+ad
+> > es que es muy escueto y no encontre relacion entre el error de udev y=
+ el
+> > problema posterior. Ni corto ni perezoso, recompile cambiando esta
+> > configuracion, esperando que en el siguiente arranque me dejaria de
+> > preocupar por los mensajes de udev para continuar con el problema de =
+la
+> > particion no encontrada. Pues bien, ahora arranca todo correctamente.
+>=20
+> (...)
+>=20
+> Lo que no me cuadra es antes funcionara.
+>=20
+
+Nuevamente tal y como lo imagino, producto de mi desconocimiento del
+funcionamiento de udev: un nucleo compilado por mi con el protocolo
+unix en forma de modulo unix.ko, udev capaz de cargar dicho nucleo en
+el arranque y un initrd que contiene dicho nucleo. Cambio de udev,
+el soporte de unix debe estar incluido en el propio nucleo, asi que los
+nuevos initrd no incluiran el unix.ko, aunque los nucleos hallan sido
+compilados con el soporte modular: el mismo nucleo de antes con un=20
+NUEVO initrd, tendra en el paquete el modulo de unix.ko, en /lib/modules=20
+pero NO lo tendra en su NUEVO initrd, no se puede cargar en el arranque,=20
+resultado: a mi me ha pasado esto por tener el soporte pata en forma
+de modulo, pero tal vez podria haber sido otro efecto.
+
+Para el nucleo compilado por mi, pero no tocado por update-initramfs:
+soporte modular de unix, pero modulo contenido en initrd, deduzco,
+la capacidad de cargar el modulo sigue existiendo, pero las nuevas reglas
+no incluyen ese modulo (no se si alguno mas), en los nuevos initrd.
+
+Bueno, la verdad es que no conozco el funcionamiento del arranque, pero
+es lo que puedo imaginar que ha pasado.
+
+Saludos
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120922150954.GA8926@angel.dominio.angel
+

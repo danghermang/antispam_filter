@@ -1,0 +1,89 @@
+Subject:Re: [db-wg] [anti-abuse-wg] RIPE NCC's proposed implementation of
+ Abuse Contact Management in the RIPE Database
+Hi Kaveh, et.al,
+
+I'm trying to figure out what I need to do to benefit from the abuse-c
+initiative with minimal impact to our documentation and processes.
+
+On 19.11.2012 10:38 AM, Kaveh Ranjbar wrote:
+> Yes, in the data entry side a little bit more effort is required, but
+> as we have mentioned at
+> (https://labs.ripe.net/Members/kranjbar/implementation-details-of-policy-2011-06),
+> there are two main reasons for that:
+> 
+> a) This models the reality, in almost every case we know of, abuse
+> handling is a role within an organisation. On he other hand attaching
+> an email address to a resource is creating an arbitrary link.
+>
+> b) Operationally it is a lot more feasible for our members and users
+> to enter data and more importantly to maintain this data over time if
+> it is centralised in an entity modelled after their real work setup.
+
+While rolling out IPv6 we (must) document the assignments.  This can (as
+far as I known) either be done by a covering inet6num object with an
+"assignment-size" and an internal documentation or by having an inet6num
+object for every assignment.
+
+With the later we can have an "abuse-mailbox" in a role object linking
+to "tech-c" (and "admin-c") of the inet6num object.
+
+So this is what we are doing today (create a role-object with
+abuse-mailbox etc. per role/customer/participant and link to it from
+admin-c and tech-c in the inet[6]num objects).
+
+With this new schema we need to create an additional organisation object
+just to link from the inet[6]num object (through "org" and the
+organisation object) to the (already existing) role object.  In the
+additional organisation object we copy the address and e-mail
+information from the role object, because these two fields are mandatory
+in both objects.  So we need to keep track of this information in two
+objects.
+
+Please see an example scheme here with the mandatory fields:
+
+
+inet6num:        2001:db8:1337::/48
+~~~~~~~~~
+netname:         blubb-net1
+descr:           network of blubb
+country:         DE
+admin-c:         >--------------------+
+tech-c:          >--------------------+
+status:          ASSIGNED             |
+mnt-by, changed, source: ...          |
+(org):           >------------------+ |
+                                    | |
+                                    | |
+organisation:    ORG-BLUBB-RIPE <---+ |
+~~~~~~~~~~~~~                         |
+abuse-c:         >------------------+ |
+org-name:        blubb              | |
+org-type:        OTHER              | |
+address:         <copy from         | |
+e-mail:           role object>      | |
+mnt-ref:         ...                | |
+mnt-by, changed, source: ...        | |
+                                    | |
+                                    | |
+role:            blubb              | |
+~~~~~        	                    | |
+address:         fantasialand       | |
+nic-hdl:         blubb-RIPE  <------+-+
+e-mail:          role-email@example.com
+admin-c:         >----------------------->  person:
+tech-c:          >----------------------->  person(s):
+mnt-by, changed, source: ...
+abuse-mailbox:   abuse@example.com
+
+
+Did I miss something?  Can I do this easier?
+Or is it mandatory/best practice to create an organisation object for
+each customer/party anyway ?
+
+If not, I would be happy to link directly from an "abuse-c" in the
+inet[6]num object to the role account (in parallel to tech-c and admin-c).
+
+
+Many thanks for help,
+	Tim
+

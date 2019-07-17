@@ -1,0 +1,42 @@
+Subject:Re: =?iso-8859-15?q?D=E9pannage_sur_PC?= distant
+On Saturday 27 October 2012 23:19:49 daniel huhardeaux wrote:
+> Le 27/10/2012 23:01, andre_debian@numericable.fr a =E9crit :
+> > On Saturday 27 October 2012 22:36:37 Alex Padoly wrote:
+> >> Bonsoir =E0 tous,
+> >> Comment d=E9panner efficacement un PC =E0 distance avec un logiciel GN=
+U, le
+> >> serveur ou la station sera sous Debian, les postes distant pourront et=
+re
+> >> sous LINUX ou WINDOWS.  Merci pour vos r=E9ponses.  Alex
+
+> > Teamviewer :
+> > www.teamviewer.com/
+> > Il prend le contr=F4le de l'ordinateur distant comme si on
+> > =E9tait devant ...
+> > =E0 condition que l'ordinateur distant fonctionne un minimum :-)
+
+> Pas vraiment un logiciel GNU, encore moins libre ...
+> Daniel
+
+> That's not a GNU Software and moreover it looks like you need to
+> register for the service and nothing is said about the traffic which
+> could be going through a specific server. This is the kind of service
+> that's looks cool but I would avoid it like the pest!
+
+=2D Faut pas =EAtre plus royaliste que le roi.
+=2D ssh depuis Linux vers un poste Windows distant : humm ...
+=2D "La peste" ("the pest") : on en est loin.
+=2D Merci de citer un =E9quivalent Libre =E0 "teamviewer".
+=2D Et puis vive l'efficacit=E9 !
+
+andr=E9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210280005.16197.andre_debian@numericable.fr
+

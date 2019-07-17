@@ -1,0 +1,25 @@
+Subject:Re: [Koha] How to export data in iso2709?
+
+On 2012-11-13, at 12:12 AM, Samuel Desseaux wrote:
+
+> Hi,
+> 
+> Is it possible to do it with yaz-marcdump?
+
+yes, yaz-marcdump exports to iso2709 -> http://www.indexdata.com/yaz/doc/yaz-marcdump.html
+
+> 
+> I need to convert items file from my old ils in iso2709. With our ils, it's impossible.
+> So, i've made an extract from items table, it gives a text file.
+
+
+> After, with marc edit, i can create a marc file but how can i transform it in a raw file.
+
+
+3 different names for the same file format (marc, raw, iso2709)
+
+they are all the same
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

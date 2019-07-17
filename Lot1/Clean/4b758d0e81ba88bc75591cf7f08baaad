@@ -1,0 +1,58 @@
+Subject:Re: Duda en la config de interfaces
+El 29/10/12 16:12, luis@ida.cu escribió:
+> hola a todos
+>
+> Tengo una duda con la configuración de mi interface
+>
+> Cuando voy al fichero /etc/network/interfaces
+>
+> La duda es:
+>
+> De tener 2 DNS, uno primario y otro secundario, cómo agrego otra IP al
+> nameserver ???
+>
+> tengo que repetir nameserver con la otra IP del server en una nueva
+> línea, o puedo escribir la otra IP del 2do DNS dejando un espacio?
+>
+> ej: nameserver 192.168.100.50 192.168.100.51 ????
+>
+> Gracias dpor el tiempo que me han dedicado a mis dudas, muy agradecido.
+
+Vayamos por partes.
+1) /etc/network/interfaces no tiene CASI un catzo que ver con los DNS. 
+De última, si está instalado resolvconf, toma los DNS por DHCP.
+2) Sí, podés cargar los DNS en /etc/network/interfaces, pero no más de 
+dos por interfaz de red. Pero no lo recomiendo si estás configurando por 
+DHCP.
+2) Los DNS se manejan a través del archivo /etc/resolv.conf
+De este último, tenés dos pociones: manual o automático.
+
+Si elegís modo manual, que es la que GNU/Linux trae por defecto, podés 
+editar a mano el archivo de configuración y hacer algo así:
+
+# /etc/resolv.conf
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+nameserver 156.154.70.1
+search dominio1.com dominio2.com
+
+Ver man resolv.conf
+NOTA: No se pueden cargar más de 3 DNS a resolv.conf. Limitación de 
+compilación de no me acuerdo qué cosa. Hay un hilo de principios de año 
+con el tema.
+
+Si elegís modo automático, que es lo recomendable con DHCP
+# apt-get install resolvconf
+y te olvidas del tema, pues es un demonio que captura los DNS que 
+informa DHCP cada vez que hay una modificación de las interfaces de redes.
+
+Ver man resolvconf
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/508EDC75.70406@gmail.com
+

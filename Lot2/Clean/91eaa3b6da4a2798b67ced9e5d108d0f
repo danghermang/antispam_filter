@@ -1,0 +1,36 @@
+Subject:Re: renommer les extensions
+Bonjour,
+
+Le 14/10/2012 14:55, Bernard Schoenacker a écrit :
+> 	serait il possible d'obtenir un exemple basique d'usage afin de
+> 	simplement s'en inspirer ?
+
+   $ cd /le/répertoire
+   $ vidir .
+
+On se trouve alors dans un buffer vi dont chaque ligne porte le chemin de 
+l'un des fichiers et dossiers de /le/répertoire.
+
+Les modifications en masse se font ordinairement via la commande 
+'substitute' de vi (:help subsitute et :help regexp) ; par exemple :
+
+:%s/.HTM$/.html/Ic
+
+L'intérêt notable est qu'en cas d'erreur il suffit d'annuler ce qu'on vient 
+de faire (et avec le flag final 'c' de l'exemple on peut même éviter de 
+faire des erreurs !).
+
+Une fois que tout va bien, il suffit de sauvegarder le buffer et de quitter 
+(':wq').
+
+phep
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/507ABFC2.7080600@teletopie.net
+

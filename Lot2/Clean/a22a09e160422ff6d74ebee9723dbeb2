@@ -1,0 +1,35 @@
+Subject:Re: configuration serveur mail IMAP (dovecot)
+On Sun, 9 Dec 2012 17:22:03 +0100
+Basile Starynkevitch <basile@starynkevitch.net> wrote:
+
+> Tu sugg=C3=A8res quoi?
+
+Ben le format std d'IMAP, =C3=A0 savoir un fichier/e-mail (s=C3=A8pusonom).
+
+> Et comment faire la transition sans perdre le contenu de
+> mon /var/mail/basile
+
+Imapsync le fait tr=C3=A8s bien (quoiqu'il soit difficile de trouver une
+version packag=C3=A9e depuis qu'il est pass=C3=A9 en non-libre).
+
+--=20
+<quizzeur> devinette n=C2=B012:
+<quizzeur> Harry Potter et La coupe...
+<blouffi> au bol
+<hart> au bol
+<jHoNNyBravO> au bol
+<quizzeur> ...De feu
+<hart> au cul
+<blouffi> au cul
+<jHoNNyBravO> au cul
+<quizzeur> bon ok a plus
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121209173250.447ec736@anubis.defcon1
+

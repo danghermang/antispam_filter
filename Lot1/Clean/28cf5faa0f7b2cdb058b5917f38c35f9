@@ -1,0 +1,51 @@
+Subject:Re: duda sobre vulnerabilidad con telnet y port 25
+El Fri, 07 Sep 2012 17:47:13 +0200, Marc Olive escribió:
+
+> On Friday 07 September 2012 17:31:45 Camaleón wrote:
+>> El Fri, 07 Sep 2012 09:06:38 +0200, Ramses escribió:
+>> 
+>> (...)
+>> 
+>> >> Necesito denegar el acceso al puerto 25 mediante telnet
+>> > 
+>> > Que configures iptables en el servidor de correo para denegar el
+>> > puerto de Telnet a quien quieras, a parte de intentar solucionar la
+>> > vulnerabilidad...
+>> 
+>> Pues a mí me parece que ha escuchado llover pero no sabe exactamente
+>> dónde caen las gotas. Vamos, que no creo que haya ninguna
+>> vulnerabilidad más allá de una mala configuración de la infraestructura
+>> y los servicios de la red.
+> 
+> Tiene mucha pinta que se refiera a un servidor de correo que no necesita
+> identificación para enviar correo, que puede considerarse una
+> vulnerabilidad o una característica (todos podemos enviar una carta
+> desde cualquier buzón).
+
+Ni vulnerabilidad ni característica, es una "opción" más que puedes 
+configurar dependiendo de tus necesidades, que es exactamente lo que he 
+dicho.
+
+(...)
+
+> Y como ya te han dicho Cosme, 
+                         ^^^^^
+¿Mande?
+
+> nada tiene que ver cerrar el puerto 23 con el 25, ¿si digo que deberias
+> leer y estudiar mas me van a tachar de sobrado prepotente maleducado?
+
+Creo que te equivocas de persona (yo no soy Cosme) o que respondes al 
+correo equivocado.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2d5hb$bte$12@ger.gmane.org
+

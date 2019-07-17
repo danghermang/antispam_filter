@@ -1,0 +1,48 @@
+Subject:Re: Fallo con la hora del sistema
+El 27/11/12 03:36, Miguel Matos escribió:
+> Intentaré ser breve y directo:
+
+Se agradece.
+
+> ¿cómo puedo hacer para que me lea la hora
+> correcta? Ya lo intenté con
+> hwclock --set --date "2012-11-26 22:04"
+> [OK]
+> date --set "2012-11-26 22:04"
+> lun nov 26 22:04:00 VET 2012
+> root@debian-LT(...)
+>
+> Pero quiero que sea permanente. ¿Cómo poder hacer esto? Si alguna
+> respuesta es a causa de la pila del BIOS, entonces tendré un gran y
+> enorme problema, porque no sé abrir mi laptop. Agradecido por alguna
+> ayuda que me faciliten.
+Suena a que no está bien configurada la hora.
+
+¿Es que pais estás?
+
+Primero haz un
+
+$ date
+
+y después haz
+
+$ date -u
+
+Si coinciden puede que necesites hacer
+
+# tzselect
+
+y seleccionar lo que corresponda. De todos modos aunque no coincidan, 
+hacer un tzselect no te va a ahacer ningún daño.
+
+Un saludo
+
+JulHer
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B4DA17.6060604@escomposlinux.org
+

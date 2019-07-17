@@ -1,0 +1,18 @@
+Subject:asignar ip a debian en virtualbox
+Hola a todos
+
+Tengo una duda, tengo montado Debian 6 y en el mismo tengo instalado 
+VirtualBox, por medio de este isntalé un debian virtual y me trabaja 
+super bien ahora lo siguiete.
+
+Cómo le asigno una ip a ese Debian virtual en VirtualBox??
+
+
+Alguna idea ??
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/30f09576ed918ecd1472aff75e2f2194@ida.cu
+

@@ -1,0 +1,32 @@
+Subject:NAT con Shorewall
+Saludos
+
+Necesito enrutar a algunas IP de mi LAN local hacia otras IP externas para 
+un determinado servicio que se encuentra externo a mi red local.
+
+Hace unos meses lo lograba con el ISA server en una PC con windows server 
+2003, ahora que tengo debian 6 quiero lograr lo mismo.
+
+Me dijeron que con Shorewall o Iptables se puede hacer los mismo y mejor, 
+por el momento me decido por shorewall, lo encuentro mas facil de configurar 
+y mas cercano a mis conocimientos.
+
+Ahora, no tengo ni idea de las reglas que necesito implementar para 
+lograrlo.
+
+Alguien con documentacion relacionada al tema que me la pueda facilitar???
+
+Me pueden enviar al privado si quieren
+
+Gracias de antemano por la ayuda.
+
+Josue
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/3FF45A59DFA943C396B601A18CF5B4E6@dbsrv
+

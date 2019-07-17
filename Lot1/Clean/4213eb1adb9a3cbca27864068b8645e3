@@ -1,0 +1,44 @@
+Subject:Re: Crypt proc ps
+El Thu, 01 Nov 2012 22:35:29 -0300, linuxknow escribió:
+
+> Disculpen alguien sabe o ha visto algo relacionado a encriptar la salida
+> de comandos de la consola por ejemplo:
+> 
+> 
+> ps aux
+> 
+> que liste pero todo encriptado, lo mismo con la salida para todo el
+> resto, la idea es algo general, con que este en ps es un comienzo.
+> 
+> escucho ideas..
+
+Pues... algo sencillito:
+
+# Codificas en base64 y mandas la salida a un archivo
+ps aux | openssl enc -base64 > Desktop/encoded_command.txt
+
+# Decodificas el archivo
+cat Desktop/encoded_command.txt | openssl enc -base64 -d
+
+Algo similar podría hacerse con cifrado:
+
+# Mandas la salida del comando a un archivo, cifras el archivo e indicas la contraseña 
+ps aux > Desktop/command.txt; openssl enc -aes-256-cbc -salt -in Desktop/command.txt -out Desktop/file.enc -pass pass:1234
+
+# Para descifrar el contenido del archivo
+openssl enc -d -aes-256-cbc -in Desktop/file.enc
+enter aes-256-cbc decryption password: 1234
+
+Pero tampoco le veo utilidad :-?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k76ati$7if$5@ger.gmane.org
+

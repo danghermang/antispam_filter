@@ -1,0 +1,63 @@
+Subject:Re: NTP server timeout
+El d=C3=ADa 24 de octubre de 2012 14:42, Manuel Jes=C3=BAs Recena Soto
+<recena@gmail.com> escribi=C3=B3:
+> Hola, buenas:
+>
+> Estamos trabajando en una m=C3=A1quina virtual con Debian 6 y hemos
+> configurado NTP server en el arranque.
+> Cuando la VM tiene acceso a internet el S.O. arranca con normalidad,
+> sin embargo, cuando no tiene conexi=C3=B3n a internet el servicio NTPd se
+> queda "esperando" muchos minutos.
+>
+> =C2=BFEs posible configurar alg=C3=BAn timeout o similar? Lo esperado ser=
+=C3=ADa que
+> si pasado "un tiempo" no se puede conectar con los servidores de hora
+> externos, que contin=C3=BAe con el arranque de otros servicios.
+>
+> Un saludo, gracias!
+>
+> --
+> Manuel J. Recena Soto
+> * www.manuelrecena.com[/blog]
+> * www.linkedin.com/in/recena
+> * recena@gmail.com
+> * +34 609710280 (ES)
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/CABa-Uof6+036b-BQpUPdigaGpZ9hLxGopsM+qRM=
+j2LV86cnqkg@mail.gmail.com
+>
+
+Hola
+
+Si es una maquina virtual creo no hace falta que corra el ntp para
+sincronizar el reloj.
+
+Solo tienes que preocuparte de que el host anfitrion si que este
+correctamente sincronizado. Ya que la maquina huesped y anfitrion
+comparten el reloj del anfitrion.
+
+Al menos este pensamiento es valido para la mayoria de configuraciones
+que conozco. No se si hay alguna por ahi en la que sea necesario
+sincronizar por NTP las maquinas virtuales.
+
+Salu2
+---------------------------------------------------------------------------=
+-----------
+Juan Sierra Pons                                 juan@elsotanillo.net
+Linux User Registered: #257202       http://www.elsotanillo.net
+GPG key =3D 0xA110F4FE
+Key Fingerprint =3D DF53 7415 0936 244E 9B00  6E66 E934 3406 A110 F4FE
+---------------------------------------------------------------------------=
+-----------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CABS=y9vUTE085uNCweH0Ppno3atEO-+MAfZ2S36EaRgu2WRDRg@mail.gmail.com
+

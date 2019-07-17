@@ -1,0 +1,61 @@
+Subject:Re: Installation sur portable sans CG
+Bonjour,
+
+
+J'ai déjà fait ce genre d'installation pour un mini-serveur soekris (pas de CG ni 
+clavier), j'avais suivi les instructions du wiki :
+http://wiki.soekris.info/Installing_Debian_Linux_5.0
+
+Tu peux peut-être t'en inspirer !
+
+++
+
+Mourad
+
+
+Le 09/11/2012 02:56, Gaël a écrit :
+> Hello !
+>
+> Voilà, j'ai un ordi portable de bonne qualité, avec du bon matos dedans.
+> Seulement, la carte graphique est morte, donc pas moyen de voir quoi que ce soit.
+>
+> Du coup, je voudrais transformer cet ordi en serveur de stockage.
+>
+>
+> Je cherche donc à installer Debian sans n'avoir rien à faire que brancher ma clef usb 
+> puis allumer l'ordi. Après, je me connecterai en SSH.
+>
+>
+> Sur l'ordi cible, je n'ai besoin de rien d'autre qu'un serveur SSH, je trouverai un 
+> moyen de configurer les trucs plus tard (heure, locales, toussa).
+>
+> Du coup, je fouille dans preseed, je trouve des trucs, mais à chaque fois c'est pas 
+> clair est ça installe mille trucs, propose mille options, et ça m'embête...
+>
+>
+> Quelqu'un a-t-il déjà eu à faire à ça ?
+>
+> Quelle solution avez-vous employé ?
+>
+> Pouvez-vous me filer votre preseed.cfg (que je dois mettre à la racine de ma clef, si 
+> j'ai bien compris. Ou dans le initrd.gz ?)
+>
+>
+>
+> Je précise que la machine s'authentifie toute seule sur le réseau ethernet, DHCP auto.
+>
+>
+> Merci beaucoup !
+>
+>
+> Gaël
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/509E25B9.6060301@nativobject.net
+

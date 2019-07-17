@@ -1,0 +1,24 @@
+Subject:Re: alltray et cie
+Bonjour,
+
+Le mercredi 07 novembre 2012 à  9:13, Bruno Richard a écrit :
+> j'utilise xfce4. Oui c'est effectivement ce que je cherche : pouvoir
+> lancer une application
+> sans qu'elle apparaisse dans la barre de tâches.
+> Merci pour votre aide !
+
+Ce genre de choses se gèrent en effet directement par le WM dans le cas de KDE,
+pour les autres bureaux, DevilsPie fait très bien l'affaire (c'est dans les
+dépôts).
+
+Seb
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121107083325.GA7270@sebian.nob900.homeip.net
+

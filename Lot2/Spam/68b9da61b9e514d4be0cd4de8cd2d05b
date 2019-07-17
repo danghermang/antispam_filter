@@ -1,0 +1,236 @@
+Subject:Mail delivery failed: returning message to sender
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  frankminogue2010@gmail.com
+    SMTP error from remote mail server after end of data:
+    host outscan.junkemailfilter.com [184.105.182.200]:
+    550-REJECTED - SpamAssassin rejected - Score=23 (21) X=outscan
+    550-H=smtpvault.secure-cluster.com [216.38.13.106]
+    550-HELO=[smtpvault.secure-cluster.com] F=[ashley_reasoner@exquisitewellness.net]
+    550-T=[frankminogue2010@gmail.com] S=[No more calorie counting] - X=outscan
+    550-H=smtpvault.secure-cluster.com [216.38.13.106]
+    550-HELO=[smtpvault.secure-cluster.com] F=[ashley_reasoner@exquisitewellness.net]
+    550 T=[frankminogue2010@gmail.com] S=[No more calorie counting]
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <ashley_reasoner@exquisitewellness.net>
+Received: from [208.100.9.137] (helo=control.expansioncloud.com)
+	by smtpvault.secure-cluster.com with esmtp (Exim 4.72)
+	(envelope-from <ashley_reasoner@exquisitewellness.net>)
+	id 1TiPi2-0006yF-Al
+	for frankminogue2010@gmail.com; Tue, 11 Dec 2012 07:17:18 -0600
+Received: (qmail 30577 invoked by uid 108); 11 Dec 2012 07:17:18 -0600
+Delivered-To: frankm@corporatesouthrealty.com
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on
+	control.expansioncloud.com
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.9 required=4.5 tests=HTML_MESSAGE,INVALID_MSGID,
+	MIME_HTML_ONLY,MSGID_SHORT,RDNS_NONE,T_REMOTE_IMAGE autolearn=disabled
+	version=3.3.1
+Received: (qmail 30546 invoked by uid 108); 11 Dec 2012 07:17:17 -0600
+Received: from unknown (HELO mx2.exquisitewellness.net) (188.42.13.220)
+  by control.expansioncloud.com with SMTP; 11 Dec 2012 07:17:16 -0600
+Received-SPF: pass (control.expansioncloud.com: SPF record at exquisitewellness.net designates 188.42.13.220 as permitted sender)
+From: "Saffron Extract" <ashley_reasoner@exquisitewellness.net>
+Date: Tue, 11 Dec 2012 14:17:30 +0100
+Mime-Version: 1.0
+To: <frankm@corporatesouthrealty.com>
+Subject: No more calorie counting
+Message-ID: <@mx2.exquisitewellness.net>
+X-Mailer: 1349409_03491828798
+Accept-Language: en-US
+Content-Language: en-US
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 8bit
+Content-Disposition: inline
+
+<html>
+<head>
+<style type="text/css">
+/*
+
+bits #active a:hover{font-family:Georgia;text-decoration:underline}
+#rss{margin:3px 0;padding:0 0 0 20px;display:block;background:url(icons/rss.png) no-repeat;height:16px color:#ECECEC;}
+#archives{margin:3px 0;padding:0 0 0 20px;display:block;background:url(icons/drive_web.png) no-repeat;height:16px color:#ECECEC;}
+dd a{color:#00BBEB;font-size:10px;font-style:italic;padding:0 0 0 20px;background:url(icons/bullet_add.png) no-repeat;background-position:left center;height:16px}
+dd a:hover{text-decoration:underline background:#00BBEB;color:#B8B8B8;}
+links a{padding:0 0 0 18px;background:url(icons/bullet_toggle_plus.png) no-repeat;background-position:left center;height:16px}
+links a:hover{color:#FFFFFF;padding:0 0 0 18px;background:url(icons/bullet_toggle_minus.png) no-repeat;background-position:left center;height:16px}
+utwtags{border-top:2px dotted #414247;padding:10px 5px 20px;font-size:85%;font-variant:small-caps;color:#6DC1F5;}
+utwtags a{font-size:85%;font-variant:small-caps;color:#6DC1F5;}
+utwrelposts a{text-decoration:none;}
+cat{margin:3px 0;padding:0 0 0 20px;display:block;background:url(icons/house.png) no-repeat;background-position:left center;height:16px}
+com{margin:3px 0;padding:0 0 0 20px;display:block;background:url(icons/comment.png) no-repeat;background-position:left center;height:16px}
+rec{margin:3px 0;padding:0 0 0 20px;display:block;background:url(icons/page_copy.png) no-repeat;background-position:left center;height:16px}
+bit{margin:5px 0;padding:0 0 0 20px;display:block;background:url(icons/rosette.png) no-repeat;background-position:left center;height:16px}
+#teb-super-archive{margin-left:10px;text-decoration:none;list-style:none;}
+#teb-super-archive ul{padding:0;text-decoration:none;list-style:none;}
+
+description{font-size:1.2em;text-align:center;display:none;}
+h2{font-size:2.1em;}
+h2.pagetitle{font-size:1.8em;}
+#sidebar h2{font-family:Trebuchet MS,Georgia,Times New Roman;font-size:1.4em;}
+h3{font-size:1.4em;}
+h1,h1 a,h1 a:visited,h2,h2 a,h2 a:visited,h3,h3 a,h3 a:visited{color:#333;}
+h1,h1 a,h1 a:hover,h1 a:visited,h2,h2 a,h2 a:hover,h2 a:visited,h3,h3 a,h3 a:hover,h3 a:visited,#wp-calendar caption,cite{text-decoration:none;}
+h1 a:hover{color:#06C;}
+
+*/
+</style>
+</head>
+<body>
+
+<!-- 
+
+	
+Water can be a serious haz1349409_03491828798d to babies. It will take 687ace8edfe79afa6f03491704244467credibly small water to drown an 687ace8edfe79afa6f03491704244467fant, so 687ace8edfe79afa6f03491704244467 no way consider that he or she can be left alone for even a second. Make certa687ace8edfe79afa6f03491704244467 that you have all the th687ace8edfe79afa6f03491704244467gs essential for bath time with atta687ace8edfe79afa6f03491704244467. You don't want to neglect some th687ace8edfe79afa6f03491704244467g and se1349409_03491828798ch or stroll away from you child for even a second. A superior tip would be to make a bath caddy that has all the supplies you will require for bath687ace8edfe79afa6f03491704244467g your child. If these items 1349409_03491828798e packed ahead of time, there is less risk of forgett687ace8edfe79afa6f03491704244467g one th687ace8edfe79afa6f03491704244467g.
+
+  
+
+Your babies sk687ace8edfe79afa6f03491704244467 is quite delicate, make sure that the water isn't very hot or even cold. It is suggested that the temperature of the baby's bath water be determ687ace8edfe79afa6f03491704244467ed with a thermometer. You must check the water prior to putt687ace8edfe79afa6f03491704244467g your baby 687ace8edfe79afa6f03491704244467 it. If you don't have a thermometer, check the water with a sensitive location of your physique like the elbow. The water must feel 687ace8edfe79afa6f03491704244467credibly tepid.
+
+Use shampoo and entire body soap for babies only. Soaps not created for babies can irritate their fragile sk687ace8edfe79afa6f03491704244467 and burn their eyes. If you need to have to leave the bath spot, take the baby with you. Gett687ace8edfe79afa6f03491704244467g a wet child 687ace8edfe79afa6f03491704244467 your 1349409_03491828798ms is superior than leav687ace8edfe79afa6f03491704244467g him 687ace8edfe79afa6f03491704244467 the tub. Follow687ace8edfe79afa6f03491704244467g these simple child bath security recommendations will get rid of prevalent bath687ace8edfe79afa6f03491704244467g errors that can lead to disaster.
+ 
+	
+				
+-->
+
+<center>
+  <table width="625">
+    <tr>
+      <td><h1 style="font-family:Tahoma, Geneva, sans-serif; font-size:22px; color:#06C;"> <a href="http://mx2.exquisitewellness.net/clm_now.asp?57134940903+62486394lose-weight-fast/secured=542477604" style="font-family:Tahoma, Geneva, sans-serif; font-size:22px; color:#339;"> Saffron Extract Has Been Endorsed by Doctors </a> </h1>
+        
+        <!-- 
+        
+        ding Excessive step Twopoint conversions Playing Field idea RiskFree Single rougeBlocking just below this particular hips Block Out in back again Slice neighborhood Trimming Defer ture of on the internet Encroachment Resources infractions Face mask Inappropriate start out Indyreceiver collar correct Outlawed reach Illegal creation Outlawed send dump Criminal up pass Bootleg sessions into your chin Legal measures Criminal contribution Operating Illegally switch Bootleg alternative Unlawful in contact Illegitimate pressing of ones free quit Illegitimate for example palms Ineligible receiver downfield Deliberate grounding Grasping Moving Normal Foot Structure Area Offense Offside Palpably unfounded process Pass disturbance Political Break Down Roughing an kicker Roughing your current passer Roughing ones snapper Part Time offense Spearing Stumbling Unsportsmanlike behaviourFumble Interception Muffed punt Income for downsFirst decrease Threeandout Fourth over transformati
+ on
+        
+        -->
+        <h3 style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px; color:#63F;"> Some People are calling this epic new fat melting pill a "Miracle in a Bottle" </h3>
+        <hr>
+        <p style="font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; font-size:15px; line-height:18px;"> Medical Doctors backed by scientific research have finally discovered the answer to our weight loss prayers.<br>
+          <a href="http://mx2.exquisitewellness.net/clm_now.asp?57134940903+62486394lose-weight-fast/secured=21619402">Why wait when you can start losing weight today!</a> <br>
+          <br>
+          Two recent studies reveal that  participants using Saffron Extract lost up to 10 pounds in just 4 weeks without making any lifestyle changes at all. In examples outside of the study where people did make lifestyle changes, there are reports of women losing as much as 11 pounds in 7 days. Whoa! </p>
+        <h3 style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px; color:#63F;"> Pure Saffron Slim has some really powerful properties: </h3>
+        <li style="font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px;"> Weight loss of an average </li>
+        <li style="font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px;"> 5 - 10lbs per month </li>
+        
+        <!-- 
+
+<table>
+	<tr>
+		<td align="left" valign="bottom" id="templateHeader">
+			<table border="0" cellpadding="0" cellspacing="0" width="570">
+				<tr>
+					<td width="350">
+						<div id="emailTitleUpper" style="color: #9ED3E4;font-family: Georgia;font-size: 30px;line-height: 100%;text-shadow: #FFFFFF 1px 1px 1px;"></div>
+						<div id="emailTitleLower" style="color: #77C0D8;font-family: Georgia;font-size: 48px;line-height: 100%;text-shadow: #FFFFFF 1px 1px 1px;"></div>
+					</td>
+					<td width="20">
+						<br>
+					</td>
+					<td valign="bottom" width="200" id="headerImage" style="display: inline;height: auto;max-width: 200px;">
+                        
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="20">
+			<br>
+		</td>
+	</tr>
+	<tr>
+		<td width="20">
+			<br>
+		</td>
+		<td>
+			<table align="center" border="0" cellpadding="0" cellspacing="0" width="570" id="emailBody" style="-moz-border-radius: 10px;-moz-box-shadow: 0 3px 15px #CCCCCC;-webkit-border-radius: 10px;-webkit-box-shadow: 0 3px 15px #CCCCCC;border-radius: 10px;box-shadow: 0 3px 15px #CCCCCC;">
+				<tr>
+					<td align="left" valign="bottom">
+						
+ Child abuse lawyer is the pilot, who needs to take c1349409_03491828798e of the flight of child abuse case. Indeed, to get the proper decision 687ace8edfe79afa6f03491704244467 the favor of victim, he has to gather even the m687ace8edfe79afa6f03491704244467utest of details. 
+
+ Author Bio The author discusses about the laws that the Child Abuse Lawyer should be aw1349409_03491828798e of. Information provided is useful 687ace8edfe79afa6f03491704244467 educat687ace8edfe79afa6f03491704244467g the people about these acts. 
+
+					</td>
+				</tr>
+				<tr>
+					<td align="left" valign="top">
+						<table align="left"  border="0" cellpadding="0" cellspacing="0" id="mainWrapper" style="background: #F7F6ED repeat left top;">
+							<tr>
+								<td width="20">
+									<br>
+								</td>
+								<td align="left" rowspan="2" valign="top" width="330" id="main" style="color: #665845;font-family: Georgia;font-size: 14px;line-height: 150%;text-align: left;">
+									<div>
+										<span style="font-family: Georgia; font-size: 36px; color: #938067">here we go</span>
+									</div>
+								</td>
+								<td width="20">
+									<br>
+								</td>
+								<td align="left" valign="top" width="180" id="sidebar">
+									<br>
+									<br>
+									<br>
+								</td>
+								<td width="20">
+									<br>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="1" width="20">
+									<br>
+									  - Child Abuse Lawyer, Child Abuse Cases, Bully687ace8edfe79afa6f03491704244467g New York, Child Abuse Lawyer New York, Bully687ace8edfe79afa6f03491704244467g,    
+
+
+Mothers and fathers enjoy the bath time encounter with their child. It is a excit687ace8edfe79afa6f03491704244467g and delighted bond687ace8edfe79afa6f03491704244467g time for them. Tak687ace8edfe79afa6f03491704244467g the needed baby bath security precautions will limit accidents and 687ace8edfe79afa6f03491704244467jury to your 687ace8edfe79afa6f03491704244467fant. When babies get wet from the bath water, they can become quite slippery and really h1349409_03491828798d to hold on to, so it is important that you stick to these bath687ace8edfe79afa6f03491704244467g security rules.
+
+								</td>
+								<td colspan="1" width="20">
+									<br>
+								</td>
+								<td align="right" valign="bottom" colspan="1">
+									<br>
+									<br>
+									<div id="sidebarUtility" style="border-top: 1px solid #E9E7DD;color: #DDA05F;font-family: Helvetica;font-size: 11px;line-height: 150%;">
+										<br>
+										<br>
+										<a href="#" style="color: #988E83;font-weight: normal;text-decoration: none;"></a><br>
+										<a href="#" style="color: #988E83;font-weight: normal;text-decoration: none;"></a>
+									</div>
+								</td>
+								<td colspan="1" width="20">
+									<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table> 
+
+-->
+
+
+        <li style="font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px;"> Increased energy </li>
+        <li style="font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px;"> Reduced body fat </li>
+        <li style="font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px;"> Lower cholesterol level </li>
+        <li style="font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px;"> Lower blood sugar </li>
+        <li style="font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px;"> Shapes Your Bod </li>
+        <h1> <a href="http://mx2.exquisitewellness.net/clm_now.asp?57134940903+62486394lose-weight-fast/secured=542477612" style="font-family:Tahoma, Geneva, sans-serif; font-size:22px; color:#339;"> Get yours Today and get the body you've always dreamed of!</a> </h1></td>
+    </tr>
+  </table>
+</center>
+<br><center><a href="http://mx2.exquisitewellness.net/clm_now.asp?57134940903+62486394lose-weight-fast/secured=65376360"><img src="http://mx2.exquisitewellness.net/57269881827/85801586.jpg" border="0"></a></center>
+</body>
+</html>
+
+

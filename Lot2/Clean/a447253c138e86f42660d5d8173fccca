@@ -1,0 +1,18 @@
+Subject:Re: Sqitch Build Failures
+On Aug 22, 2012, at 5:57 PM, Jan Dubois <jand@activestate.com> wrote:
+
+> Yes, once IO::Pager is fixed, you'll either need to release another
+> update of App::Sqitch, or ping me to manually trigger a rebuild
+> against the fixed IO::Pager.
+
+Howdy Jan,
+
+IO::Pager 0.30 shipped last night with the Windows fixes. Can you give it a kick and see what happens?
+
+Thanks,
+
+David
+_______________________________________________
+PPM mailing list
+PPM@listserv.ActiveState.com
+http://listserv.ActiveState.com/mailman/listinfo/ppm

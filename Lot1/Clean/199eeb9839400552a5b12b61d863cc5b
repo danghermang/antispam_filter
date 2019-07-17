@@ -1,0 +1,25 @@
+Subject:Re: Installation postgresql
+On Mon, 12 Nov 2012 12:03:44 +0100
+Gr=C3=A9goire COUTANT <gregoire.coutant@gmail.com> wrote:
+
+> Vous avez des id=C3=A9es ?
+
+/etc/postgresql/9.?/main/postgresql.conf
+log_min_messages =3D debug5
+log_min_error_statement =3D debug5
+log_statement =3D 'all'
+
+--=20
+<Pamy> "implicit" =3D implicite non ?=20
+<Ranche> non "implicit" =3D tractopelle, c'est un pi=C3=A8ge de la langue a=
+nglaise
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121112122220.28c3e10e@anubis.defcon1
+

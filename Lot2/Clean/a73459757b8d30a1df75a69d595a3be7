@@ -1,0 +1,49 @@
+Subject:Re: [Flexradio] Waterfall memory for each band
+
+Ray,It's easy to do if you use DDutil.  Set up 'band change macros' with the CAT commands that set upper and lower display frequencies.  For example, ZZDQ-115; sets the lower Panadapter display frequency to -115dB.  Jim KJ2P 
+ > From: percival.ray@gmail.com
+> To: flexradio@flex-radio.biz
+> Date: Fri, 19 Oct 2012 21:01:21 +0100
+> Subject: [Flexradio] Waterfall memory for each band
+> 
+> Has anyone figured out how to save the High and Low Waterfall settings for
+> each band?
+> 
+>  
+> 
+> For example, when I switch from 10m down to 40m, I needs to re-adjust the
+> Waterfall so that the display is not saturated due to the higher signal
+> levels.
+> 
+>  
+> 
+> SDR should really remember the settings for both waterfall and panadaptor,
+> this would save a lot of time adjusting them each time a user changes band.
+> 
+>  
+> 
+> It seems like it should be an easy update if it's not already available.
+> 
+>  
+> 
+>  
+> 
+> Thanks,
+> 
+> Ray
+> 
+> EI3GD
+> 
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/
+ 		 	   		  
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

@@ -1,0 +1,266 @@
+Subject:The Reg HPC: HP ProLiant SL270s Gen8 beast masters eight coprocessors [
+  Thu Nov 29 2012]
+Dear braun as,
+
+Join the conversation at The Reg HPC Community Forum
+
+  http://forums.theregister.co.uk/section/forums/hardware/hpc/
+
+Your HPC newsletter from theregister.co.uk
+for the week ending 29th November 2012
+
+
+*** HPC News ***
+
+Team Utah grabs Mini Iron crown at little cluster compo
+'Didya Hear the One About the Traveling Salesman?'
+http://www.theregister.co.uk/2012/11/28/sc12_cluster_competition_little_fe_=
+winner/
+
+Until this year, the annual SC Student Cluster Competition focused
+entirely on seeing how much work teams of university students could
+wring out of 26 amps of juice. They can use any hardware/software
+combination that will run the required apps; the only limitation is
+that their configuration has to be shipping by the time of the show.
+(For an overview, click here.)
+
+----
+
+Team Boilermaker: We hammer the code... not the booze
+Student cluster compo kids signal possible move to hybrid HPC
+http://www.theregister.co.uk/2012/11/28/sc12_cluster_competition_1/
+
+We had a chat with Team Boilermaker on the last day of the SC12 Student
+Cluster Competition. While the team did visit several of the vendor
+parties the night before, they assert that they didn=E2=80=99t overindulge,=
+ and
+claim that the absence of some team members is due to meetings, not
+hangovers. I think I buy that explanation; the Purdue teams take a
+businesslike approach to their cluster battling.
+
+----
+
+NUDT on HPC battle: Total cluster supremacy - Who needs it?
+LINPACK win's more than enough for Chinese comp sci boffins
+http://www.theregister.co.uk/2012/11/28/sc12_cluster_competition_/
+
+Team NUDT (China=E2=80=99s own National University of Defense Technology) w=
+as
+all smiles when I stopped by their booth on the final day of the SC12
+Student Cluster Competition (SCC). And what=E2=80=99s not to smile about? T=
+hey
+had just won the LINPACK award with their record-breaking 3 Teraflop/s
+score and were considered a serious contender for the overall award.
+
+----
+
+High school kids fend off university challenge in student cluster
+battle
+For a little bit, at least...
+http://www.theregister.co.uk/2012/11/27/sc12_cluster_competition_high_schoo=
+lers_triumph/
+
+The SC Student Cluster Competition (SCC) has seen university teams from
+around the world vying to prove their cluster competence. But this year
+has been marked by a number of firsts, including the first team
+composed entirely of high school students. The Skyline High School
+Eagles, located in Salt Lake City, entered the LittleFe Division of the
+SCC and competed against three teams of older and more experienced
+university students.
+
+----
+
+10,000 cities, 1 salesman, 6 nodes: It's LittleFe cluster CRUNCH TIME
+Slippery Rock races against clock on final day of mini-cluster match
+http://www.theregister.co.uk/2012/11/26/sc12_cluster_competition_slippery_r=
+ock/
+
+It was the last day of last week=E2=80=99s SC12 Student Cluster Competition,
+and Pennsylvania university students Team Slippery Rock chatted to us
+during the LittleFe battle. In this competition track, teams of
+university students (plus a high school team) pushed their six-node
+LittleFe mini-iron to the limit, attempting to find the best solution
+to a 10,000-city Travelling Salesman* problem.
+
+----
+
+IBM recasts Power 775 Blue Waters super as big data muncher
+GPFS storage servers don't need no stinkin' RAID controllers
+http://www.theregister.co.uk/2012/11/23/ibm_gpfs_storage_server/
+
+IBM has yanked the chain on the petaflopping 'Blue Waters'
+supercomputer that it was going to install at the University of
+Illinois this fall because it was too expensive to make at the budgeted
+price.
+
+But that doesn't mean the Power 775 server nodes that comprised IBM's
+Blue Waters machine are not useful. Ditto for the PERCS software stack
+that IBM created for the US Defense Advanced Research Projects Agency,
+which partially funded the development of the machine. And so IBM is
+gradually commercializing bits of the Blue Waters/PERCS machine,
+starting with two storage servers tuned up specifically for big data
+jobs.
+
+----
+
+Cluster compo newcomers slap down winning hand: 6 NVIDIA Tesla cards
+Team USTC talks the universal language of clustering
+http://www.theregister.co.uk/2012/11/23/sc12_cluster_competition_/
+
+Here=E2=80=99s a short look at what the team from China=E2=80=99s Universit=
+y of Science
+& Technology was up to on the last day of the SC12 Student Cluster
+Competition (SCC). There=E2=80=99s a pretty big language barrier here =E2=
+=80=93 one
+that=E2=80=99s made worse by my inability to speak slowly and clearly after
+drinking a quart of press room coffee.
+
+----
+
+Comp sci boffins Venus: HPC newbies post respectable score
+Mix of =E2=80=98strong=E2=80=99 and =E2=80=98struggling=E2=80=99 on scienti=
+fic apps
+http://www.theregister.co.uk/2012/11/23/sc12_cluster_competition_venus/
+
+We spent a few minutes on the last day of the SC12 Student Cluster
+Competition (SCC) talking to Team Venus from the University of the
+Pacific. This is not only their first year in the cluster competition,
+but also the first time any of the students have done anything at all
+HPC-related.
+
+Under the mentorship of Oak Ridge National Lab and their hardware
+sponsor Appro, the team gave it their best against much more
+experienced competitors. They posted a respectable 2.33 Teraflop/s
+LINPACK, which was good enough to put them into fourth place going into
+the application round of the competition.
+
+----
+
+Team Taiwan: We're ready to win this thing
+Cluster compo champs look set to do it again...
+http://www.theregister.co.uk/2012/11/22/sc12_cluster_competition_nthu/
+
+I=E2=80=99ve covered Taiwan=E2=80=99s National Tsing Hua University (NTHU) =
+Student
+Cluster Competition team for three years now. And every time I talk to
+them they=E2=80=99re personable, friendly, and modest.
+
+Very modest. Too modest. This is a team with a serious pedigree that=E2=80=
+=99s
+backed up by the best track record in the game.
+
+----
+
+Team Venus disappears at computer sports smackdown
+Cluster warriors: On your marks... 'Oh, no what was my password again?'
+http://www.theregister.co.uk/2012/11/22/sc12_cluster_competition_smackdown_=
+begins/
+
+It was an exciting start to the real-time, non-stop 48-hour cluster
+challenge, in which the teams of undergrads design and assemble a small
+cluster and race to demonstrate the greatest sustained performance
+across a series of applications.
+
+Here=E2=80=99s a short video covering the beginning of the SC12 edition of =
+the
+Student Cluster Competition. It begins with co-chairs Doug Smith and Dr
+Peter Molnar going over the logistics and rules (faculty advisors and
+coaches - say goodbye to your team!) with the huge crowd of student
+clusterers. Someone blows on what looks a lot like a ram's horn... and
+the competition begins.
+
+----
+
+Cluster cake pulled open: Oozes cores, GPU gravy, mineral oil
+Recipe for Student Cluster Compo destruction
+http://www.theregister.co.uk/2012/11/21/sc12_cluster_competition_configs/
+
+At last, I can reveal the final configurations of the systems the SC12
+Student Cluster Competition (SCC) warriors brought to Salt Lake City
+last week.
+
+Here=E2=80=99s the gear they were running=E2=80=A6
+
+First, kudos to all of the sponsors who generously provided so much
+equipment at no cost to the cluster crown competitors. (There isn=E2=80=99t=
+ a
+real crown.) How about next year, all of you chip in and we get an
+actual Cluster Crown that can go to the winning team? Maybe make it out
+of old motherboards and chips and stuff?
+
+----
+
+SGI UV 2000 supers are Intel and Nvidia inside
+Cheap flops flip bits in shared memory super and rackers
+http://www.theregister.co.uk/2012/11/20/sgi_uv2000_rackable_accelerators/
+
+Supercomputer makers used to stuffing processors and networks into
+machines to build clusters or shared memory systems have to adapt their
+machines to take advantage of various kinds of compute accelerators
+that offers cheaper flops, and Silicon Graphics is no exception.
+
+To that end, the company has reworked its high-end UV 2000 shared
+memory supers and its Rackable hyperscale machines to borg the latest
+Intel Xeon Phi and Nvidia Tesla coprocessors.
+
+----
+
+HP ProLiant SL270s Gen8 beast masters eight coprocessors
+Nvidia Tesla, Intel Xeon Phi =E2=80=93 do my bidding math
+http://www.theregister.co.uk/2012/11/19/hp_sl270s_gen8_server/
+
+If you have decided that you want to build a grunting number-cruncher
+that crams a hefty number of Tesla or Xeon Phi coprocessors into a
+single chassis, then Hewlett-Packard wants to talk to you about the new
+ProLiant SL270s Gen8 server.
+
+The new SL270s Gen8 slides into the SL6500 "scalable system" modular
+chassis, which makes it somewhere in between a rack and a blade server.
+The SL6500 chassis comes in 2U and 4U variants, and is distinct from
+the "Argos" SL4500 big data scalable systems that HP announced last
+week, which are targeted at big data jobs that need to put lots of
+storage on a node. With the SL6500s, the design is about packing as
+many coprocessors in a chassis as possible to maximize floating point
+computing per watt.
+
+----
+
+Chinese baby war-boffins bust 3Tflops, snatch student LINPACK crown
+Aw jeez, the zero button on my calculator's broken
+http://www.theregister.co.uk/2012/11/15/sc12_cluster_competition_linpack/
+
+Salt Lake City is abuzz with news that China's NUDT team has once again
+snared the LINPACK benchmark crown at a student cluster-building
+competition. The team's record-breaking score of 3.014 TFLOPS topped
+all other competitors and marked the first time a student cluster team
+has broken through the 3 TFLOPS barrier.
+
+----
+
+
+*** Whitepaper ***
+
+Student Cluster Competition 2011
+We spend some time talking to Doug Fuller, an Oak Ridge National Lab Comput=
+ational Scientist and also chair of the upcoming SC11 Student Cluster Compe=
+tition.
+http://whitepapers.theregister.co.uk/d/7b6/5613a/51c/80d97b3c?td=3Dweek_sec=
+_e
+
+
+
+------------------------------------------------------------------------
+
+This email was sent to legit4as@gmail.com
+
+To change your email or your email subscriptions
+
+    http://account.theregister.co.uk/login/
+
+To unsubscribe from all The Register newsletters
+
+    http://account.theregister.co.uk/unsubscribe/352570/0e7cc08c
+
+The Register and its contents are Copyright =C2=A9 2012 Situation Publishin=
+g.
+All rights reserved.

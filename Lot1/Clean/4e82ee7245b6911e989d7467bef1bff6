@@ -1,0 +1,45 @@
+Subject:	=?UTF-8?Q?Re=3A_=C2=BFEs_necesario_reinstalar_Debian_cada_vez_que_un?=
+	=?UTF-8?Q?a_nueva_versi=C3=B3n_es_publicada=3F?=
+El 26 de octubre de 2012 18:39, Alejandro Liv Barrera Nuncio
+<lividineitor@gmail.com> escribi=C3=B3:
+>
+> Para mi es importante la permanencia de la informaci=C3=B3n, aplicaciones=
+ y configuraci=C3=B3n de las mismas.
+>
+> En el momento que una nueva versi=C3=B3n de Debian surja, =C2=BFes sufici=
+ente con que las listas de fuentes apunten a la siguiente versi=C3=B3n?.
+>
+> Si es as=C3=AD, =C2=BFexiste el riesgo de incompatibilidades en el sistem=
+a?. En todo caso, lo menos importante seria respaldar la informaci=C3=B3n y=
+ tal vez crear guiones de configuraci=C3=B3n de las aplicaciones, pero lo q=
+ue me interesa es la integridad del sistema despu=C3=A9s de dicha actualiza=
+ci=C3=B3n.
+>
+
+Depende de muchas cosas, si tienes solo el repo main de Debian la cosa
+puede ir muy bien, el problema suele venir cuando se tienen
+repositorios externos, como por ejemplo, deb-multimedia o cualquiera
+que pudieses haber puesto de ubuntu, que muchas personas lo hacen.
+
+Hasta donde he probado, si lo paso s=C3=B3lo con main va perfecto, si
+incluyo contrib y non-free hay que leer las notas de actualizaci=C3=B3n
+(igualmente si s=C3=B3lo tiene main hay que leerlas), pero si tienes repos
+externos, lo ideal ser=C3=ADa desactivarlos y resolver dependencias.
+
+Los servidores suelo actualizarlos entre versiones, pues no tienen m=C3=A1s
+que el repo main, pero el de sobremesa, que lo altero mucho y hago
+much=C3=ADsimas pruebas, suelo instalarlo de cero.
+
+Hagas lo que hagas lee todas las notas de publicaci=C3=B3n de Debian para
+realizar la actualizaci=C3=B3n y sobre todo ten una copia de seguridad a
+mano.
+
+Saludos,
+Javier SIlva.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAOg_h5akOiSdtTHTtfUSHFGAp-paEn50M=RKx_w=4xoht4LVzA@mail.gmail.com
+

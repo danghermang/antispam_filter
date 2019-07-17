@@ -1,0 +1,60 @@
+Subject:Re: [Koha]
+ =?utf-8?q?Help_needed_with_report_-_how_to_extract_subtitl?=
+ =?utf-8?q?e_and=09edition=3F?=
+I think in this case you need to make the report using the xml field in biblio items table because the rest of sub fields you will find there
+
+Sent from my HTC
+
+----- Reply message -----
+From: "Elaine Bradtke" <eb@efdss.org>
+To: "koha" <koha@lists.katipo.co.nz>
+Subject: [Koha] Help needed with report - how to extract subtitle and	edition?
+Date: Wed, Oct 24, 2012 11:23 pm
+
+
+I'm trying to catch duplicate items in data before I upload it (ISBN won't
+help in this case). In order to do that I've written a report to list the
+books currently in Koha, and will compare them with my external files.
+ However, if I can't include the subtitle (MARC 245 b) I will get too many
+false positives (we have lots of things with the same title, but different
+subtitles)
+It would also help if I could  also have the 250 a (edition)
+
+
+This is what I have:
+SELECT
+ biblio.biblionumber,biblio.author,biblio.title,biblio.copyrightdate,biblioitems.place,biblioitems.publishercode,biblioitems.isbn
+FROM items
+ LEFT JOIN biblioitems on
+(items.biblioitemnumber=biblioitems.biblioitemnumber)
+LEFT JOIN biblio on (biblioitems.biblionumber=biblio.biblionumber)
+WHERE items.itype='BK' AND items.holdingbranch='VWML'
+ORDER BY biblio.author asc
+
+
+This works fine, but doesn't include the 245 b or the 250 a  Can anyone
+help?
+-- 
+Elaine Bradtke
+Data Wrangler
+VWML
+English Folk Dance and Song Society | http://www.efdss.org
+Cecil Sharp House, 2 Regent's Park Road, London NW1 7AY
+Tel    +44 (0) 20 7485 2206 (This number is for the English Folk Dance and
+Song Society in London, England. If you wish to phone me personally, send
+an e-mail first. I work off site)
+--------------------------------------------------------------------------
+Registered Company No. 297142
+Charity Registered in England and Wales No. 305999
+---------------------------------------------------------------------------
+"Writing about music is like dancing about architecture"
+--Elvis Costello (Musician magazine No. 60 (October 1983), p. 52)
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

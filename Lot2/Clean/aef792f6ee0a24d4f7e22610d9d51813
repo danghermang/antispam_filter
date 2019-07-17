@@ -1,0 +1,27 @@
+Subject:alltray et cie
+bonjour à tous,
+
+je gère un certain nombre de serveurs et j'aime bien surveiller leur 
+charge avec xload : nos écrans sont maintenant suffisamment grands
+pour se permettre d'avoir une série de xload sur un bord.
+Seul problème : si on lance xload comme ca "ssh -X serveur xload", il 
+apparait dans le tableau de bord ce qui devient vite compliqué
+dès qu'on a plusieurs xload de lancés.
+Du coup j'utilise alltray, qui limite le problème mais l'idéal serait de 
+pouvoir lancer xload sans qu'il y ait un affichage autre que la fenêtre 
+xload.
+
+Avez vous des solutions ?
+Merci
+Bruno
+PS : J'espère avoir été clair !
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5098D875.7010500@gmail.com
+

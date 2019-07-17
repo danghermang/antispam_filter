@@ -1,0 +1,40 @@
+Subject:Re: No logro conectarme a Mysql-server en mi computadora
+	[Solucionado]
+Muchas gracias, me dieron ideas de por donde buscar... y encontre en
+
+http://www.ubuntu-es.org/node/47574#.UHl7QooZS0k
+
+y aplique
+
+apt-get remove --purge mysql-common mysql-client mysql-server
+apt-get install mysql-server-5.0
+
+y me cargo /etc/init.d/mysql y /var/run/mysqld/mysqld.sock, aunque a=FAn
+surgio otro problema,
+no me dejaba trabajar con root (lo comento para compartir la soluci=F3n):
+
+# mysqladmin  -u root version
+mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'root'@'localhost' (using password: NO)'
+
+pero lo correg=ED entrando con mi nombre de usuario,
+
+# mysqladmin  -u (minombredeusuario) version
+mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'root'@'localhost' (using password: NO)'
+pues me corde que lo configure para funcionar con mi nombre de usuario
+y no con root, despu=E9s s=ED se quiere funcionar on root se siguel los
+procedimientos de la p=E1gina web:
+
+http://dev.mysql.com/doc/refman/5.0/es/passwords.html
+
+que por cierto estpa muy completa.
+
+Reitero, muchas gracias.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAOBz3shjhNbCoZdO3DaqaBaAi5UMmjpEj8-TbSLr9S-0vkjHQg@mail.gmail.com
+

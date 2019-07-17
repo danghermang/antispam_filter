@@ -1,0 +1,52 @@
+Subject:Re: Nautilus-open-terminal
+> On 03/12/2012 17:55, Danilo Uccelli wrote:
+>>
+>> Bonjour la liste,
+>>
+>> D=E9cid=E9ment c'est ma b=EAte noire...
+>>
+>> Depuis quelques jours, suite =E0 une mise =E0 jour de unstable, nautilus
+>> open terminal ne lance plus rien, pourtant le terminal fonctionne si
+>> on clique sur l'ic=F4ne.
+>>
+>> Installation: Debian unstable =E0 jour avec gnome shell.
+>>
+>> Il y quelque temps, il se lan=E7ait mais pas dans le bon r=E9pertoire,
+>> puis, gr=E2ce =E0 votre aide et la commande
+>> "gsettings set org.gnome.desktop.default-applications.terminal exec
+>> gnome-terminal", tout allait bien.
+>>
+>> Quelqu'un a une id=E9e, ou au moins t=E9moigne qu'il a le m=EAme probl=
+=E8me ?
+>>
+>> Danilo Uccelli
+>>
+
+Le 3 d=E9cembre 2012 19:10, Guy Roussin <guy.roussin@teledetection.fr> a =
+=E9crit :
+> Bonjour,
+>
+> M=EAme probl=E8me ici. Bizarre avec xterm =E7a marche :
+> gsettings set org.gnome.desktop.default-applications.terminal exec xterm
+>
+> Guy
+>
+
+Bonjour,
+
+Effectivement, avec xterm =E7a marche... merci.
+Bon, =E7a suffira en attendant.
+S'il ne se passe rien d'ici No=EBl, j'essayerai de faire un rapport de
+bug, l=E0 j'ai pas trop le temps.
+
+Danilo
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CABg_SuD=3XF1zCrst0ZBgn40bPMsMg6gRxFDFQs9Zgk8zYm7=g@mail.gmail.com
+

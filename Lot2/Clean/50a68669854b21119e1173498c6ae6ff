@@ -1,0 +1,16 @@
+Subject:Re: como hago para quemar un disco DVD desde consola.
+El 11/10/12 13:14, Victor Hugo Cespedes Zuleta escribió:
+> me podrian ayudar a usar cdrdao para quemar una imagen iso.
+>
+> esto se los pido debido a que no puedo instalar k3b por problemas con
+> sus dependencias.
+>
+>
+dd if=/dev/cdrom of=/home/usuario/disco.iso
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/507712F9.9000707@yahoo.es
+

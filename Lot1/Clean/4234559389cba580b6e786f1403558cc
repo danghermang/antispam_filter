@@ -1,0 +1,33 @@
+Subject:Re: Instalar debian por la red
+El Wed, 26 Sep 2012 18:18:43 -0400, Ruben Cervantes Rodríguez escribió:
+
+> Hola colegas de la lista estoy tratando de instalar debian por la red
+> desde una pc sin disco me pincha todo bien hasta que llego a la réplica
+> pues estoy detrás de varios proxys y el ancho de banda no me da para
+> conectarme a una réplica, pues he probado introducir manualmente una
+> réplica y he usado el primer disco de instalación de debian montado en
+> un virtuahost usando apache2 y no me funciona me dice que la red puede
+> tener problemas que la réplica está rota o que el release no es de una
+> réplica. Necesito si alguién a logrado hacerlo desde una web local me
+> tire una mano, o si saben otra forma me digan saludos y gracias de
+> antemano.
+
+Quizá estés haciendo algo mal o tengas el repositorio mal configurado. 
+Tienes más información sobre el proceso de instalación a través de la red 
+en la Guía de Instalación:
+
+4.5. Preparación de los ficheros para el arranque a través de red usando 
+TFTP
+http://www.debian.org/releases/stable/i386/ch04s05.html.es
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k73gb3$7h2$5@ger.gmane.org
+

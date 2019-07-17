@@ -1,0 +1,39 @@
+Subject:	=?ISO-8859-1?Q?Re=3A_como_cambio_el_idioma_de_todo_debian_al_espa=F1ol?=
+	=?ISO-8859-1?Q?=2E?=
+El d=EDa 3 de octubre de 2012 15:13, Victor Hugo Cespedes Zuleta
+<cespedes.zuleta.victor@gmail.com> escribi=F3:
+> Buenos d=EDas a todos.
+>
+> al momento de instalacion de mi debian 6.04 squeeze escog=ED el idioma in=
+gl=E9s
+> por defecto.
+>
+> Y ahora deseo cambiar el idioma de todo el sistema al espa=F1ol
+> latinoamericano (de Bolivia)
+>
+> cu=E1l es el comando que me realizar=E1 este trabajo que supongo debe de =
+tardar
+> mucho.
+>
+>
+
+Ac=E1 hay una ayuda que te puede servir:
+http://infoaleph.wordpress.com/2008/05/20/como-cambiar-el-idioma-del-ambien=
+te-grafico-de-gnulinux-debian-despues-de-la-instalacion/
+S=F3lo que especifica el cambio de idioma al espa=F1ol de M=E9xico. Para el
+espa=F1ol de Bolivia, cambia la parte que dice
+"LANG=3D"es_MX.UTF-8""
+por la de Bolivia.
+Espero te sirva de algo
+
+--=20
+Buen uso de las listas (como se ven en Debian):
+http://wiki.debian.org/es/NormasLista
+Ayuda para hacer preguntas inteligentes: http://is.gd/NJIwRz
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALEvJmTnOenjweyNdQ8w2Ow4PErAkVo1KwQHZB5V=ZffxQa_aw@mail.gmail.com
+

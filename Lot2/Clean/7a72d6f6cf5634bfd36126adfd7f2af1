@@ -1,0 +1,38 @@
+Subject:Re: [HS] carte graphique
+Le 18/09/2012 02:16, Gaëtan PERRIER a écrit :
+> Et les reboot aléatoires sont toujours présents. :(
+
+Vérifie ta RAM.
+
+J'ai acheté un PC en pièce détachée chez LDLC pour mes beau-parents.
+L'ordinateur était certes plus rapide que le précédent, mais légèrement
+instable : plantage généralement au bout de quelques heures sans que
+j'arrive à identifier un motif (ordi souvent planté pendant qu'il
+est en veille, donc pas quand il chauffe).
+
+J'ai lancé une vérif de la mémoire pendant une nuit complète (ie
+plusieurs séries de passes complètes). Rien de détecté.
+
+Finalement, j'ai échangé la mémoire de ce nouvel ordi avec celle du
+mien. L'autre ordi n'a plus eu de problème, le mien est devenu
+instable.
+
+=> mail à LDLC expliquant la situation. Ils ont bien voulu échanger
+la RAM. Plus aucun pb depuis ;-)
+
+Moralité : les tests mémoires ne sont pas capables de détecter des
+erreurs transitoires et donc essayer d'autres barrettes (ou les mettre
+dans un autre ordi) peut être un bon test.
+
+  A+
+    Vincent
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/506225FE.80609@free.fr
+

@@ -1,0 +1,34 @@
+Subject:Re: AVISO: =?iso-8859-1?q?=A1se_instalar=E1n?= versiones sin firmar
+	de los siguientes paquetes!
+El Mon, 05 Nov 2012 11:56:01 -0300, Manuel Ramos escribió:
+
+> A alguien le esta pasando esto?:
+> Cada vez que instalo un nuevo paquete el gestor de paquetes me advierte
+> sobre paquetes sin firmar:
+
+(...)
+
+Pues la verdad es que no :-?
+
+(wheezy y gnome3)
+
+> Me resulta llamativo porque no me estaba sucediendo esto antes. Me paso
+> lo mismo con el paquete texlive-full.
+> 
+> Uso Wheezy con KDE.
+
+Ejecuta antes un "apt-get update" para "refrescar" los repositorios, no 
+vaya a ser que haya habido algún cambio en los servidores FTP o hayan 
+actualizado los archivos de firmas y estés recibiendo datos obsoletos.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k78ls3$eq2$6@ger.gmane.org
+

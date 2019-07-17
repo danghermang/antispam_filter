@@ -1,0 +1,22 @@
+Subject:Re: Instalar un paquete .deb en un directorio
+	=?ISO-8859-1?Q?espec=EDfico?= que no sea en el que se instala por
+	defecto
+El mié, 10-10-2012 a las 08:44 -0500, Miguel Barrera Fernández
+escribió: 
+> Hola a todos 
+> Necesito instalar un sofware que está enpaquetado como .deb y quiero instalarlo en un directorio específico, no en el directorio que me lo instala por defecto. Cuando lo instalo se me instala en /usr/share y quiero instalarlo en /var/www
+> 
+> 
+
+man dpkg
+está en castellano
+-- 
+(-.(-.(-.(-.(-.(-.-).-).-).-).-).-)
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349875733.2492.24.camel@EeePC.ucasal.ar
+

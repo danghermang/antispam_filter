@@ -1,0 +1,655 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<dcjoy@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <bounce@mercola.com>
+Received: (qmail 10505 invoked by uid 89); 10 Dec 2012 07:02:15 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 10 Dec 2012 07:02:14 -0000
+Delivery-date: Sun, 09 Dec 2012 23:00:36 -0800
+Received: from yncsmtp01.mercola.com ([69.67.216.212] helo=mercola.com) helo=mercola.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1ThxLh-0007aA-KR on interface=184.105.182.43
+	for dcjoy@activ8.net.au; Sun, 09 Dec 2012 23:00:34 -0800
+DKIM-Signature: a=rsa-sha1; c=relaxed/relaxed; d=mercola.com;
+	s=mnl; l=31786; h=DomainKey-Signature:Reply-To:From:To:Subject:
+	Date:Message-ID:MIME-Version:List-Unsubscribe:Content-Type; b=mq
+	BKuDyKPlzCzu3mu7geDV24RMebXKMkfH7xIw7nsL6XXOqSfS0VPAu34xwqNojy3p
+	zieRbYCV53ibYzuS5vw/Tn4faYa+f5ZmG27vMk6uiXP1Dm7v7B0DR/B1lDChsZ9Q
+	97NtQv41uE1I5+RV9vh2hp4UAD+tVaUFsPY9SRO+U=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=mercola.com; s=mnl; l=31786; h=DomainKey-Signature:Reply-To:
+	From:To:Subject:Date:Message-ID:MIME-Version:List-Unsubscribe:
+	Content-Type; bh=OtfeVZ9BtjLnx7cQCvxhNlSEWoQ=; b=fxyTa/qxCph8Kqx
+	mlAzh1HoUqjxTnR7ZQ00fr+k9oNpBWB1BVfZgze2cagQdI4LIx/qY/H8xUbUC2gd
+	oeeBhgMdczBpEkkGaormC+JXY6a/uWiSheVsS22z1yWlE5XdQFnjDDD+rzUZg+Dn
+	2ymIMuignSnMh1DWryQOM/dKa/aU=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=nl; d=mercola.com;
+	h=Reply-To:From:To:Subject:Date:Message-ID:MIME-Version:List-Unsubscribe:Content-Type;
+	b=EabJbX723yVQXXGyUdT8nE0zRikdAVSfkmLeC53KT7RmiqUHAX1DlQ1/RvldjwKFQbgvn4xUex0h74P9ErG1Imxxp/axO/l95a8dW0Vn5bjvpH5fNWeRjNJA8qgKtLDE6TI8r7WPwzdpnhsuvGHmOGPqEfiLbwpPFRdYWiQIil0=;
+Reply-To: jm@mercola.com
+From: "Dr. Mercola" <jm@mercola.com>
+To: dcjoy@activ8.net.au
+Subject: Top 10 Packaged Foods You Shouldn't Buy
+Date: 10 Dec 2012 01:02:02 -0600
+Message-ID: <20121210010202.61ECE6448FCA23C7@mercola.com>
+MIME-Version: 1.0
+List-Unsubscribe: <mailto:jm@mercola.com?subject=UNSUBSCRIBE>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0012_8F5F7234.F23BEF12"
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: bounce@mercola.com
+X-Relay-Countries: us
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd1.ctyme.com
+ Spam Tests:
+ * -0.7 RCVD_IN_DNSWL_LOW RBL: Sender listed at http://www.dnswl.org/, low
+ *      trust
+ *      [69.67.216.212 listed in list.dnswl.org]
+ * -0.0 RP_MATCHES_RCVD Envelope sender domain matches handover relay domain
+ *  1.0 SAVE_MONEY BODY: Save big money
+ *  2.0 LIMITED_TIME_ONLY BODY: Offers a limited time offer
+ *  2.0 CT_OFFER_2 BODY: Offers you Something (2)
+ *  1.0 CT_GREAT_OFFER BODY: Trying to offer you something
+ *  1.0 WHILE_SUPPLIES BODY: While Supplies Last
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ * -0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from author's
+ *       domain
+ * -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+ *  0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily
+ *      valid
+ *  0.0 T_HK_NAME_DR T_HK_NAME_DR
+X-Spam-Class: SPAM-LOW
+X-Sender-Host-Address: 69.67.216.212
+X-Sender-Host-Name: yncsmtp01.mercola.com
+X-Spam-Flag: yes
+
+
+------=_NextPart_000_0012_8F5F7234.F23BEF12
+Content-Type: text/plain
+Content-Transfer-Encoding: 8bit
+
+Two Keys For a Healthy, Robust Body*  - * LIMITED TIME OFFER! *
+
+Want an easy way to help build stronger muscles? Just give them the 
+building blocks they may need...*
+
+To get the same amount of leucine (one of muscle's major building blocks) 
+in this one simple food, you'd have to eat 16 eggs, a pound of almonds, or 
+a half-pound of raw cheddar cheese.
+
+The food I'm talking about is whey protein. It's clearly one of nature's 
+best ways to help boost your overall levels of fitness, thanks to its near-
+perfect protein and high leucine content.*
+
+Pure Power Protein, a unique blend of high-quality whey protein, chia 
+seeds, and probiotics, not only provides important building blocks for 
+stronger muscles, it supports your immune system, too.*
+
+When buying whey protein, watch out for imitators that may not deliver the 
+benefits you expect. Pure Power Protein is made from rBGH hormone-free, 
+pasture-fed cows, and whey protein concentrate rather than isolates 
+(commonly found in other whey protein powders).
+
+For a limited time only, when you order a 4-Pack of Pure Power Protein, get 
+a FREE Blender Bottle and FREE Shipping on your entire order! (U.S. and 
+Canada only). This offer expires December 12th, 2012 and is only good while 
+supplies last.
+
+DISCOVER MORE ABOUT PURE POWER PROTEIN
+http://proteinpowder.mercola.com/pure-protein.html?e_cid=20121210_DNL_banSpecial_1&utm_source=RetailNL20121210&utm_medium=email&utm_content=banSpecial_1&utm_campaign=PurePowerProtein
+
+What does it really take to maintain flexibility and healthy joints as you 
+age? To move freely and enjoy life to its fullest?
+
+Naturally, everyone expects to maintain comfortable and flexible movement 
+as they age, but 80 percent of adults today admit they could use some extra 
+help to achieve this goal.
+
+Exercise is the top strategy for keeping your joints healthy and flexible. 
+And of course, achieving optimal weight goes a long way in maintaining 
+joint health and comfort.
+
+There's an additional way that you can help support your joint health.* 
+Joint Formula with HA plus BiovaFlex™ brings together some of the most 
+promising ingredients for joint health, comfort, and flexibility.*
+
+I've gone beyond the traditional glucosamine and chondroitin path... I've 
+included phytonutrient antioxidants like patented Zanthin®, time-tested 
+Ayurvedic herb Boswellia, cartilage-supporting Hyaluronic Acid (HA), and 
+BiovaFlex™ Eggshell membrane, ingredients you don't typically find in joint 
+support formulas.* 
+
+And when you order a 3-month supply of Joint Formula, you'll get FREE 
+Shipping on Your ENTIRE ORDER! (U.S. and Canada only). This limited time 
+offer expires December 12th, 2012 and is good only while supplies last. 
+
+DISCOVER MORE ABOUT JOINT FORMULA 
+http://products.mercola.com/joint-support/?e_cid=20121210_DNL_banSpecial_2&utm_source=RetailNL20121210&utm_medium=email&utm_content=banSpecial_2&utm_campaign=JointFormula
+ 
+Your Monday Articles :: 
+Top 10 Packaged Foods You Shouldn't Buy - Cross these off your shopping 
+list and you'll not only save money, but you'll do your health a big favor, 
+too. From toxic BPA to genetically engineered ingredients, these are 10 
+convenience foods you can easily live without. If your goal is to eat 
+healthier this year, here's a great place to start...  
+https://rdt.mercola.com/view.aspx?Email=dcjoy@activ8.net.au&ReturnURL=http://articles.mercola.com/sites/articles/archive/2012/12/10/avoid-packaged-foods-with-bpa.aspx?e_cid=20121210_DNL_art_1
+
+4 Keys to Healthy Aging: Study - New research shows how to triple your odds 
+of aging successfully using four simple strategies.
+https://rdt.mercola.com/view.aspx?Email=dcjoy@activ8.net.au&ReturnURL=http://articles.mercola.com/sites/articles/archive/2012/12/10/healthy-aging-tips.aspx?e_cid=20121210_DNL_art_2
+
+Your Recommended Products :: 
+This Little-Known Antioxidant is Clearly at the Top of My List - Not all 
+astaxanthin is created equal. If you think you're getting a healthy supply, 
+you may be mistaken. Produced from cheap and highly-processed 
+petrochemicals, this source is one you surely want to avoid. Discover where 
+it's most commonly found. 
+https://rdt.mercola.com/view.aspx?Email=dcjoy@activ8.net.au&ReturnURL=http://products.mercola.com/astaxanthin/?e_cid=20121210_DNL_YRP_1 
+ 
+Can a Simple Spice 'Discipline' All Your Cells to Behave Properly? - This 
+simple spice is really an herb that's valuable as a 'disciplinarian' for 
+your cells... It keeps them in line as Nature intended.* Could it be your 
+Magic Bullet to support your overall health?* 
+https://rdt.mercola.com/view.aspx?Email=dcjoy@activ8.net.au&ReturnURL=http://organicindia.mercola.com/herbal-supplements/turmeric.aspx?e_cid=20121210_DNL_YRP_2 
+ 
+Autism and Vaccines - The Truth Behind a Tragedy - Callous Disregard 
+describes how, despite being exposed to the toxic underbelly of 
+institutional and commercial medicine, and the pervasive lies, blatant 
+mischaracterizations, libelous attacks, and virulent strong-arm tactics 
+that he faced daily, Dr. Wakefield never lost sight of the reason why he 
+was fighting back: For the children. 
+https://rdt.mercola.com/view.aspx?Email=dcjoy@activ8.net.au&ReturnURL=http://products.mercola.com/callous-disregard/?e_cid=20121210_DNL_YRP_3 
+ 
+This e-mail is a Mercola advertisement. If you no longer wish to receive 
+our marketing e-mails, unsubscribe here.
+https://rdt.mercola.com/view.aspx?Email=dcjoy@activ8.net.au&ReturnURL=http://articles.mercola.com/sites/unsubscribe/unsubscribe.aspx?Email=dcjoy@activ8.net.au%26NLType=Regular%26source=UnsubscribeDailyNewsLetter%26e_cid=20121210_DNL_footer_unsub
+
+For more information about Mercola.com, call our US Toll-Free Number: 
+877.985.2695 | Int'l Number: 847.252.4355.
+
+Disclaimer: The entire contents of this website are based upon the opinions 
+of Dr. Mercola, unless otherwise noted.Individual articles are based upon 
+the opinions of the respective author, who retains copyright as marked. The 
+information on this website is not intended to replace a one-on-one 
+relationship with a qualified health care professional and is not intended 
+as medical advice. It is intended as a sharing of knowledge and information 
+from the research and experience of Dr. Mercola and his community. Dr. 
+Mercola encourages you to make your own health care decisions based upon 
+your research and in partnership with a qualified health care professional.
+
+© Copyright 1997-2012 Dr. Joseph Mercola. All Rights Reserved.
+
+* These statements have not been evaluated by the Food and Drug 
+Administration. This product is not intended to diagnose, treat, cure or 
+prevent any disease.
+
+Mercola.com Health Resources, LLC
+3200 West Higgins Road
+Hoffman Estates, IL 60169
+------=_NextPart_000_0012_8F5F7234.F23BEF12
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1" />
+<meta content=3D"MSHTML 6.00.2800.1528" name=3D"GENERATOR" />
+<title>Mercola Newsletter</title>
+</head>
+<body BGCOLOR=3D"#FFFFFF" text=3D"#000000" LINK=3D"#CCCCCC" ALINK=3D"#CCCCC=
+C" vlink=3D"#CCCCCC">
+<table summary=3D"Main Outer Table" width=3D"758" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+  <tr id=3D"HeaderTR">
+    <td id=3D"HeaderContent" width=3D"764"><table summary=3D"Link to articl=
+es.mercola.com" width=3D"766" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+        <tr>
+          <td height=3D"30" style=3D"padding-left: 4px; font-family:Georgia=
+, 'Times New Roman', Times, serif; font-style:italic; font-size: 11px; text=
+-align:right;"><span style=3D"color: #000;"> If you are unable to see this =
+message, <a href=3D"https://rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.=
+net.au&ReturnURL=3Dhttp://articles.mercola.com/sites/current.aspx?e_cid=3D2=
+0121210_DNL_problem" target=3D"_blank" style=3D"color:#000097; text-decorat=
+ion:underline;">click here</a> to view. </span></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td style=3D"padding: 0px; background-color:#FFF; border-top:5px solid =
+#0662b0; border-left:5px solid #0662b0; border-right:5px solid #0662b0; " a=
+lign=3D"center"><table summary=3D"Mercola logo, date, top navigation and se=
+arch" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" id=3D"Header" bgcolor=3D"#FFFFFF" style=3D"padding-left: 0px; p=
+adding-right: 0px; padding-top: 0px; padding-bottom: 0px; width:762px;">
+        <tr>
+          <td width=3D"209" height=3D"94" valign=3D"middle" style=3D"paddin=
+g-left:5px;  padding-bottom:5px; text-align:center"><a href=3D"https://rdt.=
+mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dhttp://www.me=
+rcola.com?e_cid=3D20121210_DNL_header_www" target=3D"_blank" style=3D"color=
+:#000; font-weight:bold;"><img src=3D"https://media.mercola.com/ImageServer=
+/Newsletter/Images/mercola-logo.jpg" alt=3D"Mercola" width=3D"204" height=
+=3D"63" border=3D"0" /></a>
+            <div style=3D"font-family: tahoma; font-weight: bold; font-size=
+: 11px; color: #000; padding-left:8px; margin-bottom:5px;">December 10, 201=
+2 - Issue 2305</div></td>
+          <td align=3D"center" width=3D"112" valign=3D"middle" style=3D"pad=
+ding-right:10px;font-family:tahoma;font-size:11px; text-align:right" />
+          <td align=3D"center" width=3D"435" valign=3D"middle" style=3D"pad=
+ding-right:10px;font-family:tahoma;font-size:11px; text-align:right"><span =
+style=3D"font-size:20px; font-weight:bold; color:#126aaa;"> The World's #1 =
+Natural Health Website<sup style=3D"font-size:16px;">&dagger;</sup></span>
+            <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+              <tr>
+                <td width=3D"66%" valign=3D"middle" style=3D"text-align:rig=
+ht; font-size:14px; vertical-align:top;"><a href=3D"https://rdt.mercola.com=
+/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dhttp://www.facebook.com/=
+doctor.health" target=3D"_blank"><img src=3D"https://media.mercola.com/Imag=
+eServer/Newsletter/Images/facebook-ico.jpg" alt=3D"Mercola Facebook" width=
+=3D"26" height=3D"25" border=3D"0" /></a></td>
+                <td width=3D"11%" valign=3D"middle" style=3D"text-align:rig=
+ht; font-size:12px; vertical-align:middle;"><a href=3D"https://rdt.mercola.=
+com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dhttp://www.facebook.c=
+om/doctor.health" target=3D"_blank" style=3D"color:#000097; text-decoration=
+:underline; font-family:Tahoma;">Like Us</a></td>
+                <td width=3D"9%" align=3D"right"><a style=3D"border: none;"=
+ href=3D"https://rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&Retu=
+rnURL=3Dhttp://twitter.com/mercola" target=3D"_blank"><img src=3D"https://m=
+edia.mercola.com/ImageServer/Newsletter/Images/twitter-ico.jpg" alt=3D"Merc=
+ola Twitter" width=3D"26" height=3D"25" border=3D"0" /></a></td>
+                <td width=3D"14%" valign=3D"middle" style=3D"text-align:rig=
+ht; font-size:12px; vertical-align:middle;"><a style=3D"color:#000097; text=
+-decoration:underline; font-family:Tahoma;" href=3D"https://rdt.mercola.com=
+/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dhttp://twitter.com/merco=
+la" target=3D"_blank">Follow Us</a></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr id=3D"Special_Horizontal_Banner_Row">
+    <td style=3D"padding: 0px; border-right: 5px solid #0662b0; border-left=
+: 5px solid #0662b0;"><table width=3D"100%" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" summary=3D"Monday_Offer" id=3D"Monday Offer">
+        <tr>
+          <td width=3D"72%" height=3D"34" valign=3D"middle" style=3D"backgr=
+ound-color:#cc0000;  border-top:1px solid #FFF; border-bottom:1px solid #FF=
+F;  font-family:tahoma;font-size:15px; color:#FFFFFF; font-weight:bold; pad=
+ding-left:10px; text-align:left;">Two Keys For a Healthy, Robust Body*</td>=
+
+          <td width=3D"28%" valign=3D"middle" style=3D"background-color:#cc=
+0000;  border-top:1px solid #FFF; border-bottom:1px solid #FFF;  font-famil=
+y:tahoma;font-size:15px; color:#fdf984; font-weight:bold; padding-right:10p=
+x; text-align:right;">* LIMITED TIME OFFER! *</td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" style=3D"padding-top:15px; padding-bottom:10px;=
+ font-size: 14px;font-family:Tahoma;"><table width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0">
+              <tr>
+                <td style=3D"padding: 0px 12px; font-size: 14px;font-family=
+:Tahoma;border-right:1px solid #CCC; " width=3D"50%" valign=3D"top">Want an=
+ easy way to help build stronger muscles? Just give them the building block=
+s they may need...*<br/>
+                  <br/>
+                  To get the same amount of leucine (one of muscle's major =
+building blocks) in this one simple food, you'd have to eat 16 eggs, a poun=
+d of almonds, or a half-pound of raw cheddar cheese. <br/>
+                  <br/>
+                  The food I'm talking about is whey protein. It's clearly =
+one of nature's best ways to help boost your overall levels of fitness, tha=
+nks to its near-perfect protein and high leucine content.* <br/>
+                  <br/>
+                  <strong>Pure Power Protein</strong>, a unique blend of hi=
+gh-quality whey protein, chia seeds, and probiotics, not only provides impo=
+rtant building blocks for stronger muscles, it supports your immune system,=
+ too.* <br/>
+                  <br/>
+                  When buying whey protein, watch out for imitators that ma=
+y not deliver the benefits you expect. <strong>Pure Power Protein</strong> =
+is made from rBGH hormone-free, pasture-fed cows, and whey protein concentr=
+ate rather than isolates (commonly found in other whey protein powders).<br=
+/>
+                  <br/>
+                  For a limited time only, when you order a 4-Pack of <stro=
+ng>Pure Power Protein</strong>, <span style=3D"color:#C00"><strong>get a FR=
+EE Blender Bottle and FREE Shipping on your entire order!</strong></span> (=
+U.S. and Canada only). This offer expires December 12th, 2012 and is only g=
+ood while supplies last.<br/>
+                  <center>
+                    <a href=3D"http://proteinpowder.mercola.com/pure-protei=
+n.html?e_cid=3D20121210_DNL_banSpecial_1&utm_source=3DRetailNL20121210&utm_=
+medium=3Demail&utm_content=3DbanSpecial_1&utm_campaign=3DPurePowerProtein" =
+target=3D"_blank" ><img src=3D"https://media.mercola.com/ImageServer/public=
+/newsletter/monday-promo/pure-power-protein.jpg"  width=3D"322" height=3D"1=
+94"  border=3D"0" vspace=3D"10" alt=3D"Pure Power Protein" /></a><br/>
+                    <span style=3D"font-family:tahoma; font-size:14px; font=
+-weight:bold; color:#C00"><a href=3D"http://proteinpowder.mercola.com/pure-=
+protein.html?e_cid=3D20121210_DNL_banSpecial_1&utm_source=3DRetailNL2012121=
+0&utm_medium=3Demail&utm_content=3DbanSpecial_1&utm_campaign=3DPurePowerPro=
+tein" target=3D"_blank" style=3D"color:#C00; font-weight:bold;">DISCOVER MO=
+RE ABOUT<br/>
+                    PURE POWER PROTEIN </a></span>
+                  </center></td>
+                <td  style=3D"padding:0px 10px; font-size: 14px;font-family=
+:Tahoma; " width=3D"50%" valign=3D"top">What does it really take to maintai=
+n flexibility and healthy joints as you age? To move freely and enjoy life =
+to its fullest?<br/>
+                  <br/>
+                  Naturally, everyone expects to maintain comfortable and f=
+lexible movement as they age, but 80 percent of adults today admit they cou=
+ld use some extra help to achieve this goal. <br/>
+                  <br/>
+                  Exercise is the top strategy for keeping your joints heal=
+thy and flexible. And of course, achieving optimal weight goes a long way i=
+n maintaining joint health and comfort. <br/>
+                  <br/>
+                  There's an additional way that you can help support your =
+joint health.* <strong>Joint Formula with HA plus BiovaFlex&trade;</strong>=
+ brings together some of the most promising ingredients for joint health, c=
+omfort, and flexibility.* <br/>
+                  <br/>
+                  I've gone beyond the traditional glucosamine and chondroi=
+tin path...  I've included phytonutrient antioxidants like patented Zanthin=
+&reg;, time-tested Ayurvedic herb Boswellia, cartilage-supporting Hyaluroni=
+c Acid (HA), and BiovaFlex&trade; Eggshell membrane, ingredients you don't =
+typically find in joint support formulas.* <br/>
+                  <br/>
+                  And when you order a 3-month supply of Joint Formula, you=
+'ll get <span style=3D"color:#C00"><strong>FREE Shipping on Your ENTIRE ORD=
+ER!</strong></span> (U.S. and Canada only). This limited time offer expires=
+ December 12th, 2012 and is good only while supplies last.
+                  <center>
+                    <a href=3D"http://products.mercola.com/joint-support/?e=
+_cid=3D20121210_DNL_banSpecial_2&utm_source=3DRetailNL20121210&utm_medium=
+=3Demail&utm_content=3DbanSpecial_2&utm_campaign=3DJointFormula"><img src=
+=3D"https://media.mercola.com/ImageServer/public/newsletter/monday-promo/jo=
+int-formula-3pack.jpg"  width=3D"179" height=3D"194"  alt=3D"Joint Formula"=
+ border=3D"0" vspace=3D"10" /></a><br/>
+                    <span style=3D"font-family:tahoma; font-size:14px; font=
+-weight:bold; color:#C00"><a href=3D"http://products.mercola.com/joint-supp=
+ort/?e_cid=3D20121210_DNL_banSpecial_2&utm_source=3DRetailNL20121210&utm_me=
+dium=3Demail&utm_content=3DbanSpecial_2&utm_campaign=3DJointFormula" target=
+=3D"_blank" style=3D"color:#C00; font-weight:bold;"> DISCOVER MORE<br/>
+                    ABOUT JOINT FORMULA </a></span>
+                  </center></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr id=3D"Article_Banner_Menu_Row">
+    <td valign=3D"top" style=3D"padding-left: 0px; padding-right: 0px; padd=
+ing-top: 0px; padding-bottom:0px; border-left:5px solid #0662b0; border-rig=
+ht:5px solid #0662b0; "><table summary=3D"Article List and Videos" width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#FFFFFF"=
+>
+        <tr>
+          <td style=3D"padding:10px 10px; background-color:#dfdfdf;"><span =
+style=3D"font-family:Tahoma, Geneva, sans-serif; color:#000; font-size:14px=
+; font-weight:bold;">Your Monday  Articles</span></td>
+          <td style=3D"padding:10px 10px; background-color:#dfdfdf; font-fa=
+mily:Tahoma;" align=3D"right"><span style=3D"font-family: tahoma; font-size=
+: 14px; color: #000000; text-align: left; font-weight: bold;"> <a href=3D"h=
+ttps://rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dht=
+tp://articles.mercola.com/sites/Newsletter/NewsLetter-Archive.aspx?e_cid=3D=
+20121210_DNL_all_articles" style=3D"font-family:Tahoma, Geneva, sans-serif;=
+ color:#000097; font-size:14px; font-weight:bold;">More Articles</a> </span=
+></td>
+        </tr>
+        <tr>
+          <td width=3D"100%" colspan=3D"2"><table summary=3D"Article List a=
+nd Videos" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">=
+
+              <tr>
+                <td style=3D"padding: 17px 10px 10px 10px;" width=3D"100%">=
+<a href=3D"https://rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&Re=
+turnURL=3Dhttp://articles.mercola.com/sites/articles/archive/2012/12/10/avo=
+id-packaged-foods-with-bpa.aspx?e_cid=3D20121210_DNL_art_1" target=3D"_blan=
+k"><img src=3D"https://media.mercola.com/themes/mercola/images/slideshow/so=
+up.jpg" alt=3D"Avoid Packaged Foods with Bpa"  width=3D"162" height=3D"160"=
+ border=3D"0" align=3D"right" vspace=3D"0" hspace=3D"5" /></a> <span style=
+=3D"font-family: tahoma; font-size: 16px; color: #000000"> <a href=3D"https=
+://rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dhttp:/=
+/articles.mercola.com/sites/articles/archive/2012/12/10/avoid-packaged-food=
+s-with-bpa.aspx?e_cid=3D20121210_DNL_art_1" target=3D"_blank" style=3D"colo=
+r: #000097; font-weight: bold;">Top 10 Packaged Foods You Shouldn't Buy</a>=
+</span> <br />
+                  <span style=3D"padding-top: 5px; font-family: tahoma; fon=
+t-size: 14px; color: #000000;">Cross these off your shopping list and you'l=
+l not only save money, but you'll do your health a big favor, too. From tox=
+ic BPA to genetically engineered ingredients, these are 10 convenience food=
+s you can easily live without. If your goal is to eat healthier this year, =
+here's a great place to start... </span> <br />
+                  <br />
+                  <span style=3D"font-family: tahoma; font-size: 14px; colo=
+r: #000000"> <a href=3D"https://rdt.mercola.com/view.aspx?Email=3Ddcjoy@act=
+iv8.net.au&ReturnURL=3Dhttp://articles.mercola.com/sites/articles/archive/2=
+012/12/10/healthy-aging-tips.aspx?e_cid=3D20121210_DNL_art_2" target=3D"_bl=
+ank" style=3D"color: #000097; font-weight: bold;">4 Keys to Healthy Aging: =
+Study</a></span> <br />
+                  <span style=3D"padding-top: 5px; font-family: tahoma; fon=
+t-size: 14px; color: #000000;">New research shows how to triple your odds o=
+f aging successfully using four simple strategies.</span></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td style=3D"border-left:5px solid #0662b0; border-right:5px solid #066=
+2b0;"><table summary=3D"Article List and Videos" width=3D"100%" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#FFFFFF">
+        <tr bgcolor=3D"#FFFFFF">
+          <td style=3D"padding:10px 10px; background-color:#dfdfdf;"><span =
+style=3D"font-family:Tahoma, Geneva, sans-serif; color:#000; font-size:14px=
+; font-weight:bold;">Your Recommended Products</span></td>
+          <td style=3D"padding:10px 10px; background-color:#dfdfdf; font-fa=
+mily:Tahoma;" align=3D"right"><span style=3D"font-family: tahoma; font-size=
+: 14px; color: #000000; text-align: left; font-weight: bold;"> <a href=3D"h=
+ttps://rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dht=
+tp://products.mercola.com?e_cid=3D20121210_DNL_all_products" style=3D"font-=
+family:Tahoma, Geneva, sans-serif; color:#000097; font-size:14px; font-weig=
+ht:bold;">More Products</a> </span></td>
+        </tr>
+        <tr>
+          <td width=3D"100%" colspan=3D"2" style=3D"padding: 17px 20px 10px=
+ 20px;"><table summary=3D"1Resource" width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" id=3D"FPContentTable" style=3D"padding-left: 8px;=
+">
+              <tr>
+                <td width=3D"100" align=3D"left" valign=3D"middle"><a href=
+=3D"https://rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=
+=3Dhttp://products.mercola.com/astaxanthin/?e_cid=3D20121210_DNL_YRP_1" tar=
+get=3D"_blank"><img src=3D"https://media.mercola.com/ImageServer/Newsletter=
+/Images/health-resource/astaxanthin-single-bottle-small.jpg" alt=3D"Astaxan=
+thin" border=3D"0" width=3D"100" height=3D"100" /></a></td>
+                <td width=3D"640" valign=3D"middle" style=3D"padding: 10px;=
+ font-family: tahoma; font-size: 14px; color: #000000"><a href=3D"https://r=
+dt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dhttp://pro=
+ducts.mercola.com/astaxanthin/?e_cid=3D20121210_DNL_YRP_1" style=3D"color: =
+#000097; font-weight: bold; font-size: 14px" target=3D"_blank">This Little-=
+Known Antioxidant is Clearly at the Top of My List</a> <br />
+                  <div style=3D"padding-top: 5px; font-family: tahoma; font=
+-size: 14px; color: #000000">Not all astaxanthin is created equal. If you t=
+hink you're getting a healthy supply, you may be mistaken. Produced from ch=
+eap and highly-processed petrochemicals, this source is one you surely want=
+ to avoid. Discover where it's most commonly found.</div></td>
+              </tr>
+            </table>
+            <table summary=3D"2Resource" width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" id=3D"FPContentTable" style=3D"padding-left: =
+8px;">
+              <tr>
+                <td width=3D"100" align=3D"left" valign=3D"middle"><a href=
+=3D"https://rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=
+=3Dhttp://organicindia.mercola.com/herbal-supplements/turmeric.aspx?e_cid=
+=3D20121210_DNL_YRP_2" target=3D"_blank"><img src=3D"https://media.mercola.=
+com/ImageServer/Newsletter/Images/health-resource/turmeric.jpg" alt=3D"Turm=
+eric Formula" border=3D"0" width=3D"100" height=3D"100" /></a></td>
+                <td width=3D"640" valign=3D"middle" style=3D"padding: 10px;=
+ font-family: tahoma; font-size: 14px; color: #000000"><a href=3D"https://r=
+dt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dhttp://org=
+anicindia.mercola.com/herbal-supplements/turmeric.aspx?e_cid=3D20121210_DNL=
+_YRP_2" style=3D"color: #000097; font-weight: bold; font-size: 14px" target=
+=3D"_blank">Can a Simple Spice 'Discipline' All Your Cells to Behave Proper=
+ly?</a> <br />
+                  <div style=3D"padding-top: 5px; font-family: tahoma; font=
+-size: 14px; color: #000000">This simple spice is really an herb that's val=
+uable as a 'disciplinarian' for your cells... It keeps them in line as Natu=
+re intended.* Could it be your Magic Bullet to support your overall health?=
+*</div></td>
+              </tr>
+            </table>
+            <table summary=3D"3Resource" width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" id=3D"FPContentTable" style=3D"padding-left: =
+8px;">
+              <tr>
+                <td width=3D"100" align=3D"left" valign=3D"middle"><a href=
+=3D"https://rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=
+=3Dhttp://products.mercola.com/callous-disregard/?e_cid=3D20121210_DNL_YRP_=
+3" target=3D"_blank"><img src=3D"https://media.mercola.com/ImageServer/News=
+letter/Images/health-resource/callous-disregard.jpg" alt=3D"CALLOUS DISREGA=
+RD" border=3D"0" width=3D"100" height=3D"100" /></a></td>
+                <td width=3D"640" valign=3D"middle" style=3D"padding: 10px;=
+ font-family: tahoma; font-size: 14px; color: #000000"><a href=3D"https://r=
+dt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dhttp://pro=
+ducts.mercola.com/callous-disregard/?e_cid=3D20121210_DNL_YRP_3" style=3D"c=
+olor: #000097; font-weight: bold; font-size: 14px" target=3D"_blank">Autism=
+ and Vaccines - The Truth Behind a Tragedy</a> <br />
+                  <div style=3D"padding-top: 5px; font-family: tahoma; font=
+-size: 14px; color: #000000"><em>Callous Disregard</em> describes how, desp=
+ite being exposed to the toxic underbelly of institutional and commercial m=
+edicine, and the pervasive lies, blatant mischaracterizations, libelous att=
+acks, and virulent strong-arm tactics that he faced daily, Dr. Wakefield ne=
+ver lost sight of the reason why he was fighting back:  For the children.</=
+div></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td width=3D"100%" colspan=3D"2" style=3D"padding: 10px 25px 10px 25px;=
+ background-color:#FFF; border-left:5px solid #0662b0; border-right:5px sol=
+id #0662b0;" bgcolor=3D"#FFFFFF"><table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"border:3px solid #3b5997;">
+        <tr>
+          <td><table summary=3D"1Resource" width=3D"100%" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" id=3D"FPContentTable">
+              <tr>
+                <td width=3D"187" align=3D"left" valign=3D"middle" style=3D=
+"padding:10px 15px 10px 15px; font-family:Tahoma, Geneva, sans-serif; font-=
+size:14px; color:#224088;"><strong>QUOTE OF THE DAY:</strong></td>
+                <td width=3D"519" align=3D"right" style=3D"padding:10px 15p=
+x 10px 10px; font-family: tahoma; font-size: 14px; color: #000000"><a href=
+=3D"https://rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=
+=3Dhttps://www.facebook.com/photo.php?fbid=3D10151328503520590&set=3Da.1015=
+0578621915590.436915.114205065589&type=3D1&relevant_count=3D1" target=3D"_b=
+lank"><img src=3D"https://media.mercola.com/ImageServer/Newsletter/Images/f=
+b-comment-on-this.gif" alt=3D"Facebook Comment on this" width=3D"158" heigh=
+t=3D"26" border=3D"0" /></a></td>
+              </tr>
+              <tr>
+                <td colspan=3D"2" align=3D"left" valign=3D"middle" style=3D=
+"padding:0px 10px 10px 15px; font-family: tahoma; font-size: 14px; color: #=
+000000"><span style=3D"font-family: tahoma; font-size: 14px; color: #000000=
+; line-height: 20px; padding: 5px 0px;">In the end, it's not going to matte=
+r how many breaths you took, but how many moments took your breath away.</s=
+pan></td>
+              </tr>
+              <tr>
+                <td width=3D"187" align=3D"left" valign=3D"middle" style=3D=
+"padding:10px 15px 10px 15px; font-family:Tahoma, Geneva, sans-serif; font-=
+size:14px; color:#224088;" />
+                <td width=3D"519" align=3D"right" style=3D"padding:10px 15p=
+x 10px 10px; font-family: tahoma; font-size: 14px; color: #000000"> -  Shin=
+g Xiong, Central South University of Industry dean and professor</td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td width=3D"100%" colspan=3D"2" bgcolor=3D"#FFFFFF" style=3D" font-fam=
+ily:tahoma; font-size:11px; padding:10px 15px; text-align:left; border-left=
+:5px solid #0662b0; border-right:5px solid #0662b0;"> This e-mail is a Merc=
+ola advertisement. If you no longer wish to receive our marketing e-mails, =
+<span style=3D"color:#ff6600; text-decoration:underline;"><a href=3D"https:=
+//rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dhttp://=
+articles.mercola.com/sites/unsubscribe/unsubscribe.aspx?Email=3Ddcjoy@activ=
+8.net.au%26NLType=3DRegular%26source=3DUnsubscribeDailyNewsLetter%26e_cid=
+=3D20121210_DNL_footer_unsub" target=3D"_blank" style=3D"color:#000000; tex=
+t-decoration:underline;">unsubscribe here</a></span>. For more information =
+about Mercola.com, call our US Toll-Free Number: 877.985.2695 | Int'l Numbe=
+r: 847.252.4355. </td>
+  </tr>
+  <tr>
+    <td bgcolor=3D"#0662b0" style=3D"padding:10px; color:#FFFFFF; font-fami=
+ly: tahoma; font-size: 11px; line-height:16px; border-left:5px solid #0662b=
+0; border-right:5px solid #0662b0; width:762px;"><p align=3D"justify"> <fon=
+t color=3D"#FFFFFF"> Disclaimer: The entire contents of this website are ba=
+sed upon the opinions of Dr. Mercola, unless otherwise noted. Individual ar=
+ticles are based upon the
+        opinions of the respective author, who retains copyright as marked.=
+ The information on this website is not intended to replace a one-on-one re=
+lationship with a qualified health care professional and is not intended as=
+ medical advice. It is intended as a sharing of knowledge and information f=
+rom the research and experience of Dr. Mercola and his community. Dr. Merco=
+la encourages you to make your own health care decisions based upon your re=
+search and in
+        partnership with a qualified health care professional.<br />
+        <br />
+        &dagger;The World's #1 Natural Health Website claim is based upon <=
+span style=3D"color:#FFF; text-decoration:underline;"><a href=3D"https://rd=
+t.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dhttp://www.=
+mercola.com/forms/rankings.htm?e_cid=3D20121210_DNL_footer_alexa" target=3D=
+"_blank" style=3D"color:#FFF;">Alexa Natural Health Website rankings</a></s=
+pan>.<br />
+        <br />
+        &copy; Copyright 1997-2012 Dr. Joseph Mercola. All Rights Reserved.=
+ </font> </p></td>
+  </tr>
+  <tr>
+    <td style=3D" border-bottom:5px solid #0662b0; border-left:5px solid #0=
+662b0; border-right:5px solid #0662b0; width:762px;"><table summary=3D"Link=
+ to articles.mercola.com" width=3D"100%" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0">
+        <tr>
+          <td bgcolor=3D"#FFFFFF" style=3D"border-right:2px solid #0662b0; =
+font-family:tahoma; font-size:11px; padding:10px; text-align:left;">* These=
+ statements have not been evaluated by the Food and Drug Administration. Th=
+is product is not intended to diagnose, treat, cure or prevent any disease.=
+</td>
+          <td width=3D"230" bgcolor=3D"#FFFFFF" style=3D"padding-left: 4px;=
+ font-family:tahoma; font-size: 11px; text-align:left; padding:10px 0px 10p=
+x 20px;"><span style=3D"color:#000; font-weight:bold;"> <a href=3D"https://=
+rdt.mercola.com/view.aspx?Email=3Ddcjoy@activ8.net.au&ReturnURL=3Dhttp://ww=
+w.mercola.com?e_cid=3D20121210_DNL_footer_www" target=3D"_blank" style=3D"c=
+olor:#000; font-weight:bold;">Mercola.com Health Resources, LLC</a></span><=
+img src=3D"https://rdt.mercola.com/image.aspx?Email=3Ddcjoy@activ8.net.au&I=
+ssueDate=3D2012-12-10&GroupID=3DRegularNL151" alt=3D"Mercola.com" height=3D=
+"1" width=3D"1" border=3D"0" /> <br />
+            3200 W. Higgins Rd.<br />
+            Hoffman Estates, IL 60169 </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>
+------=_NextPart_000_0012_8F5F7234.F23BEF12--
+
+

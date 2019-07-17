@@ -1,0 +1,67 @@
+Subject:Re: [OT]Lectura: Linus Torvalds se pronuncia sobre el fracaso de
+	Linux en su escritorio
+El Thu, 06 Sep 2012 09:35:29 +0200, Antonio escribió:
+
+> En mi modesta opinión, sobre el tema escritorios hay cosas que no
+> entiendo.
+> 
+> El kde4 bien configurado puede ser rápido y estable (en la actualidad) y
+> además recuerda mucho al escritorio de W7 al que todos adoran incluso
+> algunos grandes linuxeros, ¿Por qué KDE4 se considera tan malo? 
+
+Yo no lo considero malo, de hecho ni siquiera lo considero. 
+
+No me gustó la forma que tuvieron (desde el proyecto KDE) de gestionar el 
+paso de la versión 3 a la 4, sentí como una puñalada trapera por la 
+espalda (y desde luego las declaraciones de Aaron no ayudaron mucho, la 
+verdad), así que decidí no volver a KDE por principios, nada más. Quizá 
+algún día se me pase el enfado pero de momento sigue latente :-)
+
+Dicho esto, creo que KDE 4 a día de hoy ya debería ser usable y muy 
+configurable.
+
+De todas formas, sí que es cierto que algunos de sus programas "estrella" 
+han adolecido de problemas serios (me refiero a KMail) y otros han pasado 
+a segundo plano (Konqueror en su faceta de navegador) y también es verdad 
+que no me seduce nada la idea de tener que usar una base de datos como 
+MySQL como almacén de los datos y configuraciones para las aplicaciones o 
+que la familia Kontact necesite de strigi/nepomuk :-/
+
+> Gnome3 no lo he probado, creo que todavía no esta para usarse, y ese es
+> otro problema, arrastrados por la tendencia de sacar cuanto antes los
+> productos ahora creo que se lanzan la versiones definitivas cuando
+> todavía no funcionan y eso como le paso a KDE4 es un gran error.
+
+Pues no sé qué decirte... las primeras versiones de KDE 4 te colgaban el 
+escritorio cada poco tiempo y tenías que eliminar los archivos de 
+configuración de tu usuario para que plasma te volviera a funciona, algo 
+que no he visto en GNOME 3 y gnome-shell. Lo de GNOME3 es acostumbrarte a 
+su paradigma (y su forma de ver las cosas) pero el entorno es estable, 
+algo que no se podía decir de las primeras versiones de KDE (hasta la 4.5 
+o así).
+
+> Por otro lado también es curioso como se critica el Unity o como se
+> llame el escritorio de Ubuntu, yo lo he usado poco pero no me parece tan
+> malo, me parece bastante simple para gente nueva y la última versión se
+> muestra bastante estable.
+
+Unity lo he probado en alguna LiveCD que he cargado de Ubuntu y no me 
+parece nada malo. En algún momento lo encontré incluso más configurable 
+que gnome-shell y entiendo que en algunos aspectos aún seguirá siéndolo.
+
+Cada vez tengo más ganas de pasarme a algún gestor de ventanas (tipo 
+awesome o alguno de la familia "fluxbox") porque al fin y al cabo el 90% 
+del tiempo de uso del sistema lo paso con las aplicaciones (firefox, 
+thunderbird, openoffice...) pero me da pereza :-P
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2a8s6$vdj$1@ger.gmane.org
+

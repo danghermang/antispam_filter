@@ -1,0 +1,18 @@
+Subject:Re: Sin opciones de accesibilidad en Iceweasel (era: Problems with
+	iceweasel 10 in squeeze.)
+El 10/11/12 20:28, Francisco Rafael Del Roio escribió:
+> Muchas gracias a todos.
+> Funcionó lo de la variable GNOME_ACCESSIBILITY pero.... como la defino
+> para no tener que usar un terminal....
+
+
+Ponla en el fichero /etc/environment
+
+Y sin el "export", solo la variable con el valor que le quieras asignar.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/509EC18C.4070709@gmail.com
+

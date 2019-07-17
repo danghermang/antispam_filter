@@ -1,0 +1,17 @@
+Subject:[Flexradio] FLEX-1500 XVTR drive level
+The FLEX-1500 manual states:
+
+(3) Transverter Transmit or Common Port (XVTX/C)
+This is the transverter transmit, or transverter common (both transmit and receive) connection. The
+output level equals 0 dBm at a drive level setting of 30. Use the Antenna Form to select whether this
+port is to be used as a Transmit Only, Transmit and Receive or auxiliary Receive port.
+
+Is there data on output levels for drive level settings other than 30, e.g., 40, 50, 60 ...?
+
+Ron W5RKN
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

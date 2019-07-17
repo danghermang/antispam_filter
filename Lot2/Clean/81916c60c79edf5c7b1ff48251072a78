@@ -1,0 +1,117 @@
+Subject:Re: nut y Maxim MXE II...
+Hola gente...
+
+El 05/11/12 12:05, Camaleón escribió:
+> El Mon, 05 Nov 2012 11:20:49 -0300, Walter O. Dari escribiÃ³:
+>
+>> El 04/11/12 07:33, CamaleÃ³n escribiÃ³:
+>
+> (...)
+>
+>>> Aparentemente, segÃƒÂºn la hoja de especificaciones, dispone de puerto de
+>>> comunicaciones USB y se puede gestionar a travÃƒÂ©s de SNMP pero en la
+>>> pÃƒÂ¡gina no veo disponible aplicaciÃƒÂ³n alguna de gestiÃƒÂ³n ni para
+>>> windows ni para linux.
+>>
+>> La tengo conectada por el puerto USB y con un software provisto con el
+>> equipo que se llama WinPower. La versiÃ³n era bastante antigua y pude
+>> actualizarla luego de invertir un buen tiempo en Internet.
+>
+> No conozco esa aplicaciÃ³n (winpower) pero suena para "win"dows...
+> Â¿funciona bajo linux? :-?
+>
+>> En realidad me gusta la idea de utilizar nut ya que estÃ¡ en los
+>> repositorios y, por lo que entiendo, me permitirÃ­a interactuar con el
+>> equipo de forma mÃ¡s clara.
+>
+> SÃ­, a mi tambiÃ©n me gustarÃ­a usar NUT para gestionar los SAI, mÃ¡s que
+> nada para centralizar la administraciÃ³n (son 3 unidades) y usar un
+> programa de cÃ³digo abierto (en mi caso el fabricante proporciona un
+> sofwtare para windows, unix, linux y bsd que es muy potente pero es de
+> cÃ³digo cerrado), el problema es que NUT no soporta al 100% estos equipos,
+> al menos de momento :-(
+>
+>>> QuizÃƒÂ¡ debieras preguntarles si existe algÃƒÂºn programa para linux (te
+>>> puedes llevar una sopresa agradable :-P) y en caso contrario probar con
+>>> un driver para comunicaciones USB genÃƒÂ©rico de NUT porque a ese
+>>> fabricante no lo veo en la lista:
+>>>
+>>> http://www.networkupstools.org/stable-hcl.html
+>>
+>> BusquÃ© en la pÃ¡gina que mencionas y no la vi, ni la marca ni el modelo.
+>
+> Yo tampoco lo vi, por eso conviene que preguntes directamente al
+> fabricante o enviar un mensaje a la lista de NUT a ver si alguien estÃ¡
+> interesado en que ese fabricante/modelo sea soportado.
+
+Consultado el distribuidor/fabricante donde compré este equipo no me dio 
+ningún tipo de solución.
+
+La pregunta que les hice fue si la salida de datos de este equipo era 
+similar a la de alguna otra marca para poder configurar otro programa 
+para la administración de la información ya que el provisto con el 
+equipo se tornaba extremadamente lento a medida que crecían los archivos 
+de registro (genera dos, uno con eventos y otro con muestras del estado 
+de la línea cada un tiempo determinado).
+
+La respuesta fue "el programa viene con el equipo, nosotros no tenemos 
+nada que ver, si es lento o no no podemos hacer nada... bla, bla, bla..."
+
+Les dije que se "olvidaran del programa y me dijeran si la salida de 
+datos del equipo era compatible con alguna otra marca" y me dijeron "no 
+sabemos, pero en general son todos distintos..."
+
+La verdad que creí que tenían más claras las especificaciones de los 
+productos que fabrican o mandan a fabricar o compran fabricados en 
+China, por lo visto no es así.
+
+En conclusión, ya no compraré más equipos de esta marca, al menos cuando 
+la administración de los datos que proveen sea una condición 
+importante... una pena.
+
+Tengo ganas de probar con los distintos controladores de nut, pero no se 
+ni por donde empezar, la conexión de este equipo es por puerto USB 2.0.
+
+La salida de lsusb me dice...
+
+Bus 003 Device 003: ID 06da:0201 Phoenixtec Power Co., Ltd
+
+... y Phoenixtec tampoco está en la lista de fabricantes de nut  :-(
+
+
+Y encima ahora, mirando los logs, veo que tengo cada un segundo una 
+línea con...
+
+reset low speed USB device using uhci_hcd and address 3
+
+... ufff, voy a ver de que se trata.
+
+> El problema de la gestiÃ³n de los SAI suele venir por el uso de algÃºn
+> sistema no convencional en los pines del puerto de comunicaciones (USB o
+> RS-232) o que la tarjeta de red para la gestiÃ³n de las unidades SAI use
+> un firmware cerrado con comandos no documentados... en estos casos NUT
+> puede hacer poco/nada, salvo que algÃºn valiente se atreva con la
+> ingenierÃ­a inversa :-)
+>
+> Saludos,
+>
+
+Bueno, resumiendo, tengan en cuenta que esta marca no es recomendable a 
+la hora de comprar un SAI, estoy bastante arrepentido de no haber 
+comprado una marca más reconocida. Por las dudas aclaro que el equipo se 
+comporta muy bien ante los cortes y la autonomía es la especificada (un 
+poco más debido a que no lo uso con una carga del 100%), el problema es 
+no contar con un programa adecuado para la captura de datos ni tampoco 
+con la posibilidad de utilizar nut, al menos hasta ahora.
+
+Saludos,
+Walter
+
+http://swcomputacion.com/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50ACE1C9.20101@gmail.com
+

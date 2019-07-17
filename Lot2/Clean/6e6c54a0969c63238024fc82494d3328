@@ -1,0 +1,35 @@
+Subject:Re: script pour un en =?iso-8859-1?q?t=EAte?=
+Bonsoir,
+
+Plein de solutions (dont celle de Max) =E0 http://stackoverflow.com/questio=
+ns/54365/prepend-to-a-file-one-liner-shell, ma pr=E9f=E9rence allant =E0:
+
+@+, JD.
+
+> On 12/10/2012 16:41, Bernard Schoenacker wrote:
+> > bonjour,
+> >
+> > 	j'ai plusieurs dizaines de fichiers textes =E0 modifier en adjoignant =
+un=20
+> > 	ent=EAte ...
+> >
+> > 	slt
+> > 	bernard
+> >
+> Salut,
+>=20
+> $ (echo '0a'; cat fichier1; echo '.'; echo 'wq') | ed -s fichier2
+>=20
+>=20
+> Max
+>=20
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210152058.08499.jeandamiendurand@free.fr
+

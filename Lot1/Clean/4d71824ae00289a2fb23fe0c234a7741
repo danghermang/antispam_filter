@@ -1,0 +1,100 @@
+Subject:Re: Fallo al instalar libreoffice
+Miguel Matos <unefistanoche@gmail.com> writes:
+
+> Saludos de nuevo. Luego del sobresalto[1] inicial, he decidido "matar"
+> la anterior petición de ayuda, y dejar el tema como [NO SOLUCIONADO].
+> Seguiré adelante. Ahora, mi mayor temor se hizo realidad. Quién sabe
+> qué, cuál sabe cuándo, cómo sabe por qué, pero después de
+> re-re-reinstalar Debian, quedé con OpenOffice en vez de Libreoffice.
+> Eliminé (o más bien debería decir "purgué") al OpenOffice y me instaló
+> otras cosas (Abiword y algo llamado gnumeric). Pero al querer instalar
+> Libreoffice, miren lo que me lanza la terminal:
+> root@debian-LT:/home/miguel# apt-get install libreoffice
+> Leyendo lista de paquetes... Hecho
+> Creando árbol de dependencias
+> Leyendo la información de estado... Hecho
+> No se pudieron instalar algunos paquetes. Esto puede significar que
+> usted pidió una situación imposible o, si está usando la distribución
+> inestable, que algunos paquetes necesarios no han sido creados o han
+> sido movidos fuera de Incoming.
+> La siguiente información puede ayudar a resolver la situación:
+>
+> Los siguientes paquetes tienen dependencias incumplidas:
+>  libreoffice : Depende: libreoffice-core (= 1:3.5.4+dfsg-3~bpo60+2)
+> pero no va a instalarse
+>                Depende: libreoffice-writer pero no va a instalarse
+>                Depende: libreoffice-calc pero no va a instalarse
+>                Depende: libreoffice-impress pero no va a instalarse
+>                Depende: libreoffice-draw pero no va a instalarse
+>                Depende: libreoffice-math pero no va a instalarse
+>                Depende: libreoffice-base pero no va a instalarse
+>                Depende: libreoffice-report-builder-bin pero no va a instalarse
+>                Depende: libreoffice-filter-mobiledev pero no va a instalarse
+>                Depende: libreoffice-java-common (>= 1:3.5.4+dfsg~)
+> pero no va a instalarse
+> E: Paquetes rotos
+> root@debian-LT:/home/miguel# apt-get install libreoffice
+> libreoffice-core libreoffice-writer libreoffice-calc
+> libreoffice-impress libreoffice-draw libreoffice-math libreoffice-base
+> libreoffice-report-builder-bin
+> Leyendo lista de paquetes... Hecho
+> Creando árbol de dependencias
+> Leyendo la información de estado... Hecho
+> No se pudieron instalar algunos paquetes. Esto puede significar que
+> usted pidió una situación imposible o, si está usando la distribución
+> inestable, que algunos paquetes necesarios no han sido creados o han
+> sido movidos fuera de Incoming.
+> La siguiente información puede ayudar a resolver la situación:
+>
+> Los siguientes paquetes tienen dependencias incumplidas:
+>  libreoffice-base : Depende: libreoffice-base-core (=
+> 1:3.5.4+dfsg-3~bpo60+2) pero no va a instalarse
+>                     Depende: uno-libs3 (>= 1.7.0) pero
+> 1.6.1+OOo3.2.1-11+squeeze8 va a ser instalado
+>                     Depende: ure (>= 3.5.4~) pero
+> 1.6.1+OOo3.2.1-11+squeeze8 va a ser instalado
+>  libreoffice-calc : Depende: libreoffice-base-core (=
+> 1:3.5.4+dfsg-3~bpo60+2) pero no va a instalarse
+>                     Depende: uno-libs3 (>= 3.5.0~beta) pero
+> 1.6.1+OOo3.2.1-11+squeeze8 va a ser instalado
+>  libreoffice-core : Depende: uno-libs3 (>= 3.5.0~beta) pero
+> 1.6.1+OOo3.2.1-11+squeeze8 va a ser instalado
+>                     Depende: ure (>= 3.5.4~) pero
+> 1.6.1+OOo3.2.1-11+squeeze8 va a ser instalado
+>  libreoffice-draw : Depende: uno-libs3 (>= 3.5.0~beta) pero
+> 1.6.1+OOo3.2.1-11+squeeze8 va a ser instalado
+>  libreoffice-report-builder-bin : Depende: uno-libs3 (>= 1.7.0) pero
+> 1.6.1+OOo3.2.1-11+squeeze8 va a ser instalado
+>  libreoffice-writer : Depende: libreoffice-base-core (=
+> 1:3.5.4+dfsg-3~bpo60+2) pero no va a instalarse
+>                       Depende: uno-libs3 (>= 1.7.0) pero
+> 1.6.1+OOo3.2.1-11+squeeze8 va a ser instalado
+>                       Recomienda: libreoffice-filter-binfilter pero no
+> va a instalarse
+>                       Recomienda: libreoffice-emailmerge pero no va a instalarse
+> E: Paquetes rotos
+> root@debian-LT:/home/miguel# apt-get install uno-libs3 ure
+> Leyendo lista de paquetes... Hecho
+> Creando árbol de dependencias
+> Leyendo la información de estado... Hecho
+> uno-libs3 ya está en su versión más reciente.
+> ure ya está en su versión más reciente.
+> 0 actualizados, 0 se instalarán, 0 para eliminar y 0 no actualizados.
+>
+> Aja, ¿y eso qué implica? Tengo uno-libs3 y ure; ¿pero no puedo
+> instalar los paquetes de libreoffice por separado ni en conjunto? Algo
+> me falta, lo sé. Tal vez sea a que yo escogí la réplica oficial de
+> Debian US en vez de la local (VEN), pero, tal parece que han dejado de
+> existir. ¿Alguna sugerencia? Si les sirve, me bajé la versión más
+> reciente, pero ¡oops! NTI de lo que debo hacer.
+>
+> [1]http://www.wordreference.com/definicion/sobresalto
+
+¿aptitude -t squeeze-backports install libreoffice?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87txss79fg.fsf@tochka.ru
+

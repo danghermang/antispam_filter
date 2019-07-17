@@ -1,0 +1,45 @@
+Subject:Re: Firefox en Deian 6
+El 28/09/12 06:43, Víctor Villa escribió:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+>> De iceweasel: Debian "testing" y "sid" tiene actualmente la versión
+>> 10.0.7esr-2. Debian "stable" tiene actualmente la versión
+>> 3.5.16-18
+>>
+>> Es porque estás usando la rama estable de Debian.
+>>
+>> Puedes llegar a hacer una NO RECOMENDADA PARA NOVATOS mezcla de
+>> repositorios (pero que no es difícil de hacer si uno va con
+>> cuidado) para instalar esta versión.
+>>
+>> Si te animás, te digo paso a paso cómo hacerlo.
+>>
+>> JAP
+>>
+>> JAP
+>
+> Sólo por curiosidad (que no me veo en las mismas de Luis), pero
+> siempre pensé que la maniobra recomendada para estos casos era tirar
+> de backports en lugar de mezclar stable y testing.
+>
+> ¿No debería haber menos colisiones en las versiones de las librerías
+> usando backports?
+>
+> Un saludo
+>
+>
+En teoría, sí. Los backports son más recomendables.
+Pero a veces, a mí personalmente, se me han liado las dependencias 
+cuando el paquete es un tanto complejo, pues no siempre en los backports 
+están todas las dependencias que se necesitan.
+Mientras que en la otra rama, suelen instalarse automáticamente.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5065A64E.2020501@gmail.com
+

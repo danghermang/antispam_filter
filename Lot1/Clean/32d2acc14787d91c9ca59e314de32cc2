@@ -1,0 +1,23 @@
+Subject:OT. Url =?ISO-8859-1?Q?extra=F1a_en_LAMP_con_Debian?=
+Lista, buenas tardes.
+
+Viendo la salida de mi apache observo lo siguiente:
+
+190.X.Y.Z - - [19/Nov/2012:19:59:25 -0300] "GET
+/Home/static/cs'append')%20t.append(html);%20%20%20%20%20%20else%20if(content!='hide')%20t.html(html);%20%20%20%20%20%20%20%20web2py_trap_form(action,target);%20%20%20%20%20%20web2py_ajax_init();%20%20%20%20%20%20%20%20%20%20%20%20if(command)%20eval(command);%20%20%20%20%20%20if(flash)%20jQuery('.flash').html(flash).slideDown();%20%20%20%20%20%20%7D%20%20%20%20%7D);%7Dfunction%20web2py_component(action,target)%20%7B%20%20%20%20jQuery(document).ready(function()%7B%20web2py_ajax_page('get',action,null,target);%20%7D);%7D//--%3E%3C/script%3E%20%20%20%20%20%20%3C/head%3E%20%20%20%20%3C!--%20paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/%20--%3E%20%20%20%20%3C!--[if%20lt%20IE%207%20]%3E%20%3Cbody%20class= 
+
+HTTP/1.1" 403 586
+
+
+Alguien sabe que puede estar pasando?
+
+Muchas Gracias.
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50AB9803.7050705@gmail.com
+

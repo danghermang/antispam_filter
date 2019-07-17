@@ -1,0 +1,33 @@
+Subject:Re: LMDE & Lenovo W530
+On Wed, 21 Nov 2012 17:21:28 +0100
+jerome moliere <jerome.moliere@gmail.com> wrote:
+
+> En fait je peux passer le runlevel en parametre a grub non? si je lui col=
+le
+> un 3 a la fin de ma grub entry dans mon menu graphique il doit demarrer en
+> niveau 3 non?
+
+J'en sais rien, j'utilise LILO.
+
+Tu peux tjrs tester (en pr=C3=A9voyant un mode de r=C3=A9cup au cas o=C3=B9=
+, pour
+=C3=A9viter le SOS boot en liveCD).
+
+--=20
+<MrPicsou> Bonjour bonjour
+<MrPicsou> j'ai une petite question technique, quelqu'un pourrait m'=C3=A9c=
+lairer?
+* %edcba allume la lumi=C3=A8re
+* @einstein14 changed nick to Geotrouvetou
+<%edcba> enfin il aurait pu demander =C3=A0 riri, fifi & loulou avant
+*** MrPicsou quit (quit: bande de con..)
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121121172911.0cb59a3a@anubis.defcon1
+

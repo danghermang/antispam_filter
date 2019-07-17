@@ -1,0 +1,44 @@
+Subject:Re: =?UTF-8?B?UHJvYmzDqG1l?= cron et encodage
+On Fri, 30 Nov 2012 13:01:21 +0100
+Erwan PINVIDIC <erwan.pinvidic@gmail.com> wrote:
+
+>=20
+> Je lance manuellement le script appel=C3=A9 par la cron, j'ai un bon enco=
+dage au
+> final des donn=C3=A9es.
+>=20
+> Le cron "tout seul" me pourri l'encodage. exemple : =CE=BCG devient B5G..=
+. les
+> accents ne passent plus...
+
+Commence par d=C3=A9composer le process pas =C3=A0 pas pour voir o=C3=B9 =
+=C3=A7a coince.
+=20
+> LD_LIBRARY_PATH=3D/usr/lib/oracle/xe/app/oracle/product/10.2.0/server/lib:
+> PATH=3D/usr/lib/oracle/xe/app/oracle/product/10.2.0/server/bin:/usr/local=
+/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/IBM/bin
+
+Ici il peut y avoir un PB: si jamais certaines libs se retrouvent en double
+entre oracle et le system, celles d'oracle peuvent passer en 1er; au mieux
+=C3=A7a renvoie une erreur (unknown symbol ....), au pire =C3=A7a plante en=
+ silence
+parce que des proc=C3=A9dures de m=C3=AAme nom ne sont pas =C3=A9quivalente=
+s.
+
+--=20
+DTC: ba oui jvais retourner la voir la blonde
+DTC: qui sait meme pas faire marcher un micro onde
+DTC: remarque toi pour compr=C3=A9sser une image en jpg tu change .bmp par =
+.jpg...
+Stang-An-Ankou: ....... la ferme
+DTC: Mouaahahah
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121130133447.5fb09ddd@anubis.defcon1
+

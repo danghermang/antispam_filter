@@ -1,0 +1,33 @@
+Subject:Re: requiero ayuda de como utilizar emacs
+Victor Hugo Cespedes Zuleta <cespedes.zuleta.victor@gmail.com> writes:
+
+> ahora bien. yo creo audiolibros. y para eso dado un archivo de 200
+> paginas debo de dividirlo en 20 archivos de 10 paginas (lo anterior es
+> solo un ejemplo).
+>
+> porque en realidad debo de dividir el archivo por peso.
+
+¿Qué quieres hacer exactamente: dividir por peso aproximado, dividir por
+número de las partes o por número de las páginas? Entonces ¿qué es una
+página?
+
+> con la precaucion de que no se corte un parrafo. frase u oracion entre
+> un archivo y el siguiente.
+
+Explica un poco mejor la estructura de tu archivo. ¿Qué es un párrafo,
+una oración o una frase?
+
+> se que con emacs uno puede hacer iteracciones de un comando repetidas
+> veces con solo poner los argumentos adecuados al comando.
+
+¿Por qué precisamente Emacs? Podrías hacerlo con un script (sh, python,
+perl,...). Que yo sepa, en Emacs no hay alguna función predeterminada
+para dividir los archivos en partes. Yo sé el Emacs Lisp y te podría
+realizar esa función pero sólo después de tus aclaraciones.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87627dv1zx.fsf@tochka.ru
+

@@ -1,0 +1,13 @@
+Subject:Re: [rlug] parsare si manipulare continut mbox
+> mime_parser.php http://www.phpclasses.org/browse/file/14670.html imi
+> cere o inregistrare(??!!)
+> Ce alte tooluri as putea gasi?
+
+Python.
+
+http://docs.python.org/2/library/email.html#module-email
+
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

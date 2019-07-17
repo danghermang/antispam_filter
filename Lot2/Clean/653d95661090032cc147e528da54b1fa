@@ -1,0 +1,30 @@
+Subject:Re: la commande calendar
+On Wednesday 28 November 2012 09:58:28 Fran=E7ois wrote:
+> Le 27/11/2012 14:30, andre_debian@numericable.fr a =E9crit :
+> > Comment cr=E9er ce fichier "calendar"  et ou le placer ?
+>
+> Installe, r=E9installe ou reconfigure le paquet bsdmainutils
+> Fran=E7ois
+_____________________________________
+
+Comment reconfigurer "bsdmainutils" ?
+
+j'ai tent=E9 avec :
+dpkg-reconfigure  bsdmainutils
+R=E9ponse :
+update-alternatives: utilisation de =AB=A0/usr/bin/bsd-write=A0=BB pour=20
+fournir =AB=A0/usr/bin/write=A0=BB (write) en mode automatique.
+
+Merci.
+
+andr=E9
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211281133.42775.andre_debian@numericable.fr
+

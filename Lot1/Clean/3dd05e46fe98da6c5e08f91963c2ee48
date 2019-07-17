@@ -1,0 +1,29 @@
+Subject:Re: =?UTF-8?B?Q29udHLDtGxldXJzIFJBSUQgU0FTIHByaXMgZW4gY2hhcmdl?=
+Le 31/08/2012 12:53, Bzzz a écrit :
+> On Fri, 31 Aug 2012 10:57:27 +0200
+> Artur <debian-user-french@netdirect.fr> wrote:
+>
+>> Plus précisément, quels contrôleurs RAID SAS de LSI sont
+>> pris en charge par le driver megaraid_sas dans Wheezy et dans
+>> Squeeze ? Je parle bien évidemment du support natif dans le noyau
+>> standard, pas des drivers/modules propriétaires.
+> La façon la plus rapide de le savoir est de parcourir le source
+> du module, tu y trouveras tout ce que tu souhaites.
+>
+J'ai essayé aussi, mais je ne vois aucune référence nulle part et ce
+n'est pas très facile de se repérer avec les identifiants PCI quand tu
+n'as pas encore le matos...
+
+-- 
+Cordialement,
+Artur.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5040CB07.4040208@netdirect.fr
+

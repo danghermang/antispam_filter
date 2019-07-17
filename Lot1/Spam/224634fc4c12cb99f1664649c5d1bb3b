@@ -1,0 +1,264 @@
+Subject:Starts Tomorrow December 11th- Introduction to SQL Server Analysis
+ Services
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tbody>
+        <tr>
+            <td bgcolor="#161616" valign="top">
+            <table style="FONT: 14px/100% Helvetica, Arial, sans-serif; COLOR: rgb(118,117,114); font-size-adjust: none; font-stretch: normal" border="0" cellspacing="0" cellpadding="0" width="600" align="center">
+                <tbody>
+                    <tr>
+                        <td valign="top">
+                        <table border="0" cellspacing="0" cellpadding="0" width="600" height="204">
+                            <tbody>
+                                <tr>
+                                    <td style="HEIGHT: 63px">
+                                    <table border="0" cellspacing="0" cellpadding="10" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td style="FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(128,128,128); FONT-SIZE: 11px; PADDING-TOP: 15px"><a href="http://www.vconferenceonline.com/autovip.asp?vip=MEMBER&amp;m=551322"><img alt="" width="437" height="102" src="http://www.sswug.org/editorial_images/BecomeMemberSaveClass.png" /></a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </td>
+                                    <td style="HEIGHT: 56px"><img style="DISPLAY: block" border="0" alt="" width="96" height="56" src="http://www.sswug.org/editorial_images/arrow.gif" /></td>
+                                </tr>
+                                <tr>
+                                    <td style="BACKGROUND-IMAGE: url(images/header_top_separator.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 7px" colspan="2"><img style="DISPLAY: block" border="0" alt="" width="600" height="7" src="http://www.sswug.org/editorial_images/header_top_separator.gif" /></td>
+                                </tr>
+                                <tr>
+                                    <td style="WIDTH: 504px; HEIGHT: 125px" valign="top">
+                                    <table style="HEIGHT: 125px" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td style="HEIGHT: 10px" bgcolor="#161616" valign="top">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="LINE-HEIGHT: 90%; LETTER-SPACING: -2px; FONT-FAMILY: Helvetica,Arial,sans-serif; HEIGHT: 50px; COLOR: rgb(249,248,242); FONT-SIZE: 55px; FONT-WEIGHT: bold" bgcolor="#161616" valign="top"><a style="COLOR: rgb(248,127,73); TEXT-DECORATION: none" href="http://www.sswug.org"><img style="BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; WIDTH: 309px; HEIGHT: 74px; BORDER-TOP: 0px solid; BORDER-RIGHT: 0px solid" alt="" src="http://www.sswug.org/editorial_images/sswug-logo-noback-email.png" /></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="LETTER-SPACING: -2px; FONT-FAMILY: Helvetica,Arial,sans-serif; HEIGHT: 25px; COLOR: rgb(78,78,78); FONT-SIZE: 19px; FONT-WEIGHT: bold" bgcolor="#161616" valign="top">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </td>
+                                    <td valign="top"><a style="COLOR: rgb(248,127,73); TEXT-DECORATION: none" href="http://www.sswug.org/upcoming"><img style="BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; BORDER-TOP: 0px solid; BORDER-RIGHT: 0px solid" alt="" src="http://www.sswug.org/editorial_images/badge-whats-new.gif" /></a></td>
+                                </tr>
+                                <tr>
+                                    <td style="BACKGROUND-IMAGE: url(images/header_border.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px" valign="top" colspan="2"><img border="0" alt="" width="600" height="16" src="http://www.sswug.org/editorial_images/header_border.gif" /></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <strong><font size="4">Time is Running out Learn About&nbsp;<font face="Arial">Introduction to SQL Server Analysis Services</font></font></strong></td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#161616" valign="top">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td style="HEIGHT: 5px" valign="top">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td><a style="COLOR: rgb(248,127,73); TEXT-DECORATION: none" href="http://www.vconferenceonline.com/autovip.asp?vip=ISSAS09&amp;m=551322"><img style="BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; BORDER-TOP: 0px solid; BORDER-RIGHT: 0px solid" alt="" src="http://www.sswug.org/editorial_images/NEW2BKnight-IntroSSAS-1211.jpg" /></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="HEIGHT: 30px">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="LETTER-SPACING: -2px; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 20px; FONT-WEIGHT: bold">Course Starts Tomorrow- Register Now!</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 12px">
+                                                <p><br />
+                                                <font size="3"><strong><font color="#c0c0c0">About the Online Course:</font></strong></font><br />
+                                                <span lang="EN-GB"><font face="Arial"></font></span></p>
+                                                <p><font face="Arial">In a partnership agreement with Pragmatic Works, SSWUG.ORG&rsquo;s virtual class will provide you with the skills to properly use SQL Server Analysis Services (SSAS) 2008 in your enterprise. Brian Knight, course instructor and SQL Server MVP, will take you from the ground-up, teaching you the fundamental skills you need to develop and deploy SSAS solutions and present this new data to your end users. This class is presented in SQL Server 2008, but is appropriate for those using SQL 2005 as well.<br />
+                                                <br />
+                                                Throughout the 30-day course, you will learn how to:<br />
+                                                <br />
+                                                &bull;&nbsp;Develop a data warehouse and a repeatable methodology for a successful SSAS project<br />
+                                                &bull;&nbsp;Create and configure a cube and dimensions<br />
+                                                &bull;&nbsp;Write MDX (the querying language for cubes)<br />
+                                                &bull;&nbsp;Define calculations, Key Performance Indicators (KPIs) and perspectives<br />
+                                                &bull;&nbsp;Implement dynamic security<br />
+                                                &bull;&nbsp;Administer and deploy SSAS<br />
+                                                &bull;&nbsp;Build office-based BI applications and dashboards</font></p>
+                                                <p><br />
+                                                </p>
+                                                <p>&nbsp;</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="HEIGHT: 5px">&nbsp;<a href="http://www.vconferenceonline.com/autovip.asp?vip=ISSAS09&amp;m=551322"><img alt="" width="211" height="52" src="http://www.sswug.org/editorial_images/NEW2-LearnMoreButton.png" /></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="HEIGHT: 30px">
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="BORDER-BOTTOM: black 4px solid; TEXT-ALIGN: left; BACKGROUND-COLOR: rgb(185,185,185); PADDING-LEFT: 20px; WIDTH: 600px; HEIGHT: 40px; COLOR: white"><span style="COLOR: rgb(51,51,51)"><span style="FONT-SIZE: 16px"><strong><u><a href="http://www.vconferenceonline.com/autovip.asp?vip=ITZIK05&amp;m=551322">Ending January 2nd</a></u></strong></span></span><br />
+                                                            <span style="COLOR: rgb(51,51,51)"><strong><font face="Arial">T-SQL Querying Fundamentals</font></strong></span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="BORDER-BOTTOM: black 4px solid; TEXT-ALIGN: left; BACKGROUND-COLOR: rgb(185,185,185); PADDING-LEFT: 20px; WIDTH: 600px; HEIGHT: 40px; COLOR: white"><span style="FONT-SIZE: 16px"><span style="COLOR: rgb(51,51,51)"><strong><a style="COLOR: rgb(51,51,51)" href="http://www.vconferenceonline.com/autovip.asp?vip=SSRS10&amp;m=551322"><u>Starting&nbsp;December 18th</u></a></strong></span></span><br />
+                                                            <span style="COLOR: rgb(51,51,51)"><strong>SQL Server Reporting Services (SSRS) Made Simple</strong></span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="BORDER-BOTTOM: black 4px solid; TEXT-ALIGN: left; BACKGROUND-COLOR: rgb(185,185,185); PADDING-LEFT: 20px; WIDTH: 600px; HEIGHT: 40px; COLOR: white"><span style="FONT-SIZE: 16px"><span style="COLOR: rgb(51,51,51)"><strong><a style="COLOR: rgb(51,51,51)" href="http://www.vconferenceonline.com/autovip.asp?vip=UPCOMING&amp;m=551322"><u>Other Events</u></a></strong></span></span><br />
+                                                            <span style="COLOR: rgb(51,51,51)"><strong>Future SSWUG Events</strong></span></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="HEIGHT: 5px">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="HEIGHT: 30px">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td valign="top" width="30%">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="PADDING-BOTTOM: 10px; LETTER-SPACING: -2px; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 25px; FONT-WEIGHT: bold">About Brian Knight</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="LINE-HEIGHT: 130%; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 12px" valign="top">
+                                                                        <p><font face="Arial"><font face="Arial"><font face="Arial"><font face="Arial"><font face="Arial"><font face="Arial"><font face="Arial">Brian Knight, SQL Server MVP, MCITP, MCSE, MCDBA, is the owner and founder of Pragmatic Works. He is also the co-founder of SQLServerCentral.com and JumpstartTV.com.&nbsp;<br />
+                                                                        <br />
+                                                                        He runs the local SQL Server users group in Jacksonville (JSSUG). Brian is a contributing columnist at several technical magazines and does regular webcasts at Jumpstart TV. He is the author of 10 SQL Server books.&nbsp;<br />
+                                                                        <br />
+                                                                        Brian has spoken at conferences like PASS, SQL Connections and TechEd and many Code Camps. His blog can be found at http://www.pragmaticworks.com.</font></font></font></font></font></font></font></p>
+                                                                        <p><font face="Arial"><font face="Arial"><font face="Arial"><font face="Arial"><a style="COLOR: rgb(160,197,219); TEXT-DECORATION: none" href="http://www.vconferenceonline.com/autovip.asp?vip=ISSAS09&amp;m=551322">Find out more about Brian. </a></font></font></font></font></p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            </td>
+                                                            <td valign="top" width="5%">&nbsp;</td>
+                                                            <td valign="top" width="30%">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="PADDING-BOTTOM: 10px; LETTER-SPACING: -2px; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 25px; FONT-WEIGHT: bold">Class Structure</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="LINE-HEIGHT: 130%; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 12px" valign="top">
+                                                                        <p>Upon registration and payment, you will receive an email with instructions on how to test your system in order to view the classes, as well as a link that will remain active for the 30 day on-demand period.<br />
+                                                                        <br />
+                                                                        The course cost is $169 for full SSWUG.ORG members and $199 for non-members. The cost of the DVD with purchase of the course is an additional $199. The DVD costs $399 if you do not purchase a course seat. Course downloads and the ability to email questions to the instructor are included with course purchase only.<br />
+                                                                        <br />
+                                                                        Once you have completed the course, you will have the opportunity to take a course quiz and receive a course certificate. After passing the quiz, please allow up to five business days after the course is finalized to receive your certificate (Download link via e-mail)</p>
+                                                                        <p><a style="COLOR: rgb(160,197,219); TEXT-DECORATION: none" href="http://www.vconferenceonline.com/autovip.asp?vip=ISSAS09&amp;m=551322">Find out more about the class structure. </a></p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            </td>
+                                                            <td valign="top" width="5%">&nbsp;</td>
+                                                            <td valign="top" width="30%">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="PADDING-BOTTOM: 10px; LETTER-SPACING: -2px; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 25px; FONT-WEIGHT: bold">More Online Learning Events</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="LINE-HEIGHT: 130%; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 12px" valign="top"><a style="COLOR: rgb(248,127,73); TEXT-DECORATION: none" href="http://www.vconferenceonline.com/event/home.aspx?id=449">
+                                                                        <preferences style="COLOR: rgb(248,127,73); TEXT-DECORATION: none"></preferences>
+                                                                        </a>SSWUG.ORG is conducting a number of events for learning what really matters - from reporting services to SSIS to replication and administration, find out about the great online courses available.<br />
+                                                                        <br />
+                                                                        We hope to see you there!<br />
+                                                                        <br />
+                                                                        <a style="COLOR: rgb(160,197,219); TEXT-DECORATION: none" href="http://www.sswug.org/upcoming/">Check out the online events here at the site.</a></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="HEIGHT: 30px">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <table style="PADDING-TOP: 10px" border="0" cellspacing="0" cellpadding="0" width="600">
+                            <tbody>
+                                <tr>
+                                    <td colspan="6"><img border="0" alt="" width="599" height="25" src="http://www.sswug.org/editorial_images/footer_05.gif" /></td>
+                                    <td rowspan="3" width="1"><img alt="" width="1" height="140" src="images/footer_02.gif" /></td>
+                                </tr>
+                                <tr>
+                                    <td valign="top" width="179">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" width="21%"><a style="COLOR: rgb(248,127,73); TEXT-DECORATION: none" href="http://www.vconferenceonline.com/autovip.asp?vip=TweetEB10&amp;m=551322"><img border="0" alt="" width="37" height="37" src="http://www.sswug.org/editorial_images/twitter-email-button.png" /></a></td>
+                                                <td valign="top" width="10%">&nbsp;</td>
+                                                <td valign="top" width="69%">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(249,248,242); FONT-SIZE: 17px; FONT-WEIGHT: bold"><a style="COLOR: rgb(248,127,73); TEXT-DECORATION: none" href="http://www.vconferenceonline.com/autovip.asp?vip=FBEB10&amp;m=551322"><img border="0" alt="" width="37" height="37" src="http://www.sswug.org/editorial_images/facebook-email-button.png" /></a></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="top">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 12px" valign="top">&nbsp;</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p style="PADDING-BOTTOM: 6px; MARGIN: 0pt; PADDING-LEFT: 0pt; PADDING-RIGHT: 0pt; FONT-SIZE: 16px; FONT-WEIGHT: bold; PADDING-TOP: 0pt">&nbsp;</p>
+                                    </td>
+                                    <td valign="top" width="30">&nbsp;</td>
+                                    <td valign="top" rowspan="2" width="334">
+                                    <p style="PADDING-BOTTOM: 0pt; MARGIN: 0pt; PADDING-LEFT: 0pt; LETTER-SPACING: 0px; PADDING-RIGHT: 0pt; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 11px; PADDING-TOP: 0pt">(C)&nbsp;SSWUG.ORG / Bits on the Wire, Inc. All Rights Reserved.<br />
+                                    6420 E. Broadway Blvd, Suite A300. Tucson, AZ 85710.</p>
+                                    <p style="PADDING-BOTTOM: 0pt; MARGIN: 0pt; PADDING-LEFT: 0pt; LETTER-SPACING: 0px; PADDING-RIGHT: 0pt; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 11px; PADDING-TOP: 0pt"><a style="COLOR: rgb(248,127,73); TEXT-DECORATION: none" href="mailto:learning@sswug.org">
+                                    <preferences style="COLOR: rgb(248,127,73); TEXT-DECORATION: none"></preferences>
+                                    learning@sswug.org </a>.</p>
+                                    <p style="PADDING-BOTTOM: 0pt; MARGIN: 0pt; PADDING-LEFT: 0pt; LETTER-SPACING: 0px; PADDING-RIGHT: 0pt; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(118,117,114); FONT-SIZE: 11px; PADDING-TOP: 0pt"><br />
+                                    To modify your announcement settings, please use the link below.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>B: <font size=2><Br>http://www.sswug.org/stopbulletins.asp?id=551322-18<Br></font><img height='1' width='1' src='http://www.sswug.org/eo.asp?mmi=551322&ci=3119'>
+

@@ -1,0 +1,61 @@
+Subject:Re: MKV se oye pero no se ve
+El Thu, 30 Aug 2012 16:54:40 +0200, Marc Marí escribió:
+
+> El día 30 de agosto de 2012 16:46, Camaleón <noelamac@gmail.com>
+> escribió:
+
+(...)
+
+>> (ese top-posting...)
+
+(...)
+
+>>> Pero nada de esto parece fatal para el video, además, en mplayer, me
+>>> dice claramente que:
+>>> Opening video decoder: [ffmpeg] FFmpeg's libavcodec codec family INFO:
+>>> libavcodec init OK!
+>>> Selected video codec: [ffh264] vfm: ffmpeg (FFmpeg H.264)
+>>>
+>>> El codec de vídeo fue cargado bien
+>>
+>> Quizá necesites algún códec extra o los que se encuentran en el repo
+>> multimedia. Lo raro es que te haya dejado de funcionar de un día para
+>> otro cambiando sólo la versión del kernel :-?
+
+> OT: ¿Top posting? ¿Te refieres a escribir por arriba y no por abajo? 
+
+Sasto.
+
+> OT: Será esa mezcla que tengo entre castellano, catalán e inglés.... :D
+
+Será :-)
+
+> Ya debes haber visto el último correo con el error de kernel:
+> [drm:intel_dsm_platform_mux_info] *ERROR* MUX INFO call failed
+
+La verdad es que ese error no me dice nada... nada que tenga relación con 
+la reproducción de vídeos, vaya :-?
+
+Además, estás usando el driver de nvidia no el de intel ¿no?
+
+Por cierto, ¿has probado a cargar otro driver, a ver qué pasa? (si 
+desactivas el KMS se cargará el fbdev)
+
+> Pero quería decir que en mplayer y vlc tiene el mismo efecto sea mkv o
+> mp4, pero en totem, mkv no se repruece y mp4 sí que se reproduce
+
+Eso añade más misterio aún.
+
+¿Qué sucede con los mpeg o avi normalitos? ¿Se ven, no se ven?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k1nvg0$pns$7@ger.gmane.org
+

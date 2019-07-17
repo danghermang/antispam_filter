@@ -1,0 +1,101 @@
+Subject:Re: =?ISO-8859-1?Q?Configuraci=F3n_VirtualHost_Apache_AJP+?=
+	=?ISO-8859-1?Q?Tomcat?=
+El 15/10/12 18:41, Sergio Villalba escribió:
+> Hola a tod@s,
+> 
+> Necesito una ayudita!! :(
+> 
+> Tengo medio configurado el servicio Apache AJP con Tomcat, pero no
+> consigo configurar bien VirtualHost, el problema está modwrite...
+> 
+> En este ejemplo me funciona bien, Virtualhost normal sin modwrite:
+> 
+> <VirtualHost *:80>
+> ServerName www.midominio.com
+> ErrorLog /var/log/apache2/ajp.error.log
+> CustomLog /var/log/apache2/ajp.log combined
+> 
+> ProxyRequests Off
+> <Proxy *>
+>         Order deny,allow
+>         Deny from all
+>         Allow from localhost
+>         Allow from 192.168
+> </Proxy>
+> 
+> ProxyPass  / ajp://10.9.234.115:8009/
+> ProxyPassReverse / ajp://10.9.234.115:8009/
+> </VirtualHost>
+> 
+> 
+> Ahora un paso más, SSL y llamada a una carpeta, lo ideal seria que al
+> indicar en el navegador la siguiente URK "www.midominio.com/jira"
+> ignorase al mod_write....
+> 
+> VirtualHost que no me funciona:
+> 
+> <VirtualHost *:443>
+>    ServerName www.midominio.com
+> 
+>    CustomLog /var/log/apache2/www.midominio.com_ssl_access.log combined
+>    ErrorLog /var/log/apache2/www.midominio.com_ssl_error_nuevo.log
+> 
+>    DocumentRoot /var/www/web/portal
+> 
+>    SSLEngine on
+>    SSLCertificateFile /etc/apache2/ssl/geotrust/certificado_multi_ev_geotrust
+>    SSLCertificateKeyFile /etc/apache2/ssl/geotrust/www.midominio.com.key
+>    SSLCACertificateFile /etc/apache2/ssl/geotrust/EV_intermediate-20072012.crt
+> 
+> 
+>    <Directory "/var/www/web/portal">
+>     DirectoryIndex index.html index.php index.htm
+>     RewriteEngine on
+>     RewriteBase /
+> 
+>     RewriteRule ^([/_a-z0-9]+)/$ $1/index.html
+>     RewriteRule ^([/_\-a-z0-9]+)\.html$ /index.php?page=$1
+>     Options -Indexes
+>    </Directory>
+> 
+>    ProxyRequests Off
+>    <Proxy *>
+>         Order deny,allow
+>         Deny from all
+>         Allow from localhost
+>         Allow from 192.168
+>    </Proxy>
+> 
+>    ProxyPass  /jira ajp://10.9.234.115:8009/
+>    ProxyPassReverse /jira ajp://10.9.234.115:8009/
+> 
+> </VirtualHost>
+> 
+> He probado mil reglas mod_write, tanto para la carpeta "/jira" como
+> para la carpera "/secure" (llamada directa:
+> http://10.9.234.115:8080/secure/Dashboard.jspa) pero no me funciona...
+> 
+> ¿alguna sugerencia?
+> 
+> Gracias & Saludos.
+> 
+> 
+
+Hola,
+
+con que no te funciona quieres decir que no llega al conector porque
+entra por la regla de mod_rewrite y se va al index?
+
+Un saludo.
+
+-- 
+"Tanto en los deportes como en todo lo demás, soy un experto. Pero para
+mantener viva mi inteligencia natural y fuera de serie, tengo que comer
+mucho"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/507C7AFC.6000807@limbo.deathwing.net
+

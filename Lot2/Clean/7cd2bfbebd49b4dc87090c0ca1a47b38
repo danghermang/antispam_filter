@@ -1,0 +1,28 @@
+Subject:[Antenna-discussion] Capture Area
+Kirk and Alan B
+
+
+I have not been reading your arguments very closely so forgive me if you have already covered the following. My comments relate only to small antennas, that is antennas smaller than Wheeler's radian sphere.
+
+
+If we make a small antenna even smaller the output voltage reduces, but so does the radiation resistance, so that the available output power is always the same irrespective of the size of the antenna. However to access this available power we must match to a smaller and smaller impedance, which might be measured in milli-ohms or less. This is too low an impedance for any practical matching circuit, and so with a small antenna there is always a very large mismatch loss. However we can reduce this loss by making the antenna larger, for instance by adding some ferrite, because this raises the radiation resistance and thereby reduces the mismatch loss. So the effect of the ferrite could be considered as a method of improving the match.
+Incidentally, even if we could match to the very low radiation resistance, it would be of no practical value because the bandwidth would be far to small, and therefore a small antenna must be lossy.
+So by adding a ferrite the power into the receiver increases but the available power does not. The ferrite is not unusual in this respect, the same thing will happen with a small dipole if we increase the length of its arms. Another way of saying that the available power is independent of antenna size is that the capture area is constant, and this is true of both the ferrite and the dipole.
+Kirk has asked the question why a loop is good for a crystal set but for a transistor radio a ferrite antenna is used. The answer is size. There are in fact many crystal sets with ferrite aerials, but if you want better performance use a loop. But to get the better performance the loop will have to be much bigger than the ferrite aerial, and thus too big for the radio.
+
+
+Alan Payne G3RBJ
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

@@ -1,0 +1,52 @@
+Subject:Re: Sin opciones de accesibilidad en Iceweasel (era: Problems with
+	iceweasel 10 in squeeze.)
+El Sat, 10 Nov 2012 13:02:37 +0000, manuel escribió:
+ 
+> El 10/11/12 17:33, Camaleón escribió:
+
+(...)
+
+>>> Hola. Al referirse a no ser accesible, se refiere más bien a que no
+>>> conecta con at-spi2, lo que se necesita para que brinde la
+>>> accesibilidad.
+>> (...)
+>>
+>> Ah, okay, gracias por la aclaración :-)
+>>
+>> Entonces podría tratarse de una regresión de estos errores:
+>>
+>> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=682912
+>> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=682914
+>>
+>> Quizá funcione lo que comentan en los informes que es definir la
+>> variable de entorno con "export GNOME_ACCESSIBILITY=1" :-?
+
+> Es extraño el comportamiento. Instalé el paquete gnome session fallback,
+> para probar el error, y efectivamente, aparece. Curiosamente, el
+> navegador web integrado dentro del proyecto gnome, funciona bien dentro
+> de la interfaz clásica de gnome, y dentro de gnome shell, no lo hace.
+> 
+> Tengo definida la accesibilidad desde gconf, además que he exportado la
+> variable que comentas, e incluso uso el plugin de qt para conectarlo con
+> at-spi, todas las aplicaciones que usan qt, funcionan medianamente bien
+> con at-spi, no así iceweasel 16. Igual podría tratarse de un fallo que
+> impida a at-spi-registry recoger los datos que envía icewease, aunque
+> conociendo lo que han ido haciendo el equipo de gnome, no me
+> sorprendería si la sesión clásica tiene recesiones en accesibilidad.
+> 
+> Saludos, seguiré probando a ver si encuentro algo.
+
+Convendría que informaras del fallo a ver si pueden corregirlo antes de 
+que salga wheezy.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7oda5$7di$1@ger.gmane.org
+

@@ -1,0 +1,18 @@
+Subject:Re: Debian/ w530 & sortie VGA
+Le Wed, 17 Oct 2012 09:40:02 +0200, Bernard Schoenacker a écrit :
+
+> 	serait il possible de vérifier le couple résolution et fréquence
+> 	supportée par le vidéo projecteur ?
+
+AMHA un simple xrandr (ou grandr pour ceux qui ont les moyens) devrait 
+correspondre
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/507ea8ce$0$1857$426a74cc@news.free.fr
+

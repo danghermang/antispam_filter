@@ -1,0 +1,45 @@
+Subject:Re: [rlug] parsare si manipulare continut mbox
+On Mon, Oct 29, 2012 at 06:12:30PM +0200, Adrian Sevcenco wrote:
+> On 10/29/2012 06:02 PM, Mircea Vutcovici wrote:
+> > 2012/10/29 Adrian Sevcenco <Adrian.Sevcenco@cern.ch>
+> > 
+> >> Salut! Am nevoie de un sfat/hint/directie pentru a implementa un
+> >> algoritm de genul :
+> >>
+> >> parseaza fisier mbox
+> >> pentru fiecare email
+> >>         daca conditie_1
+> >>                 printeaza var1,var2,var3
+> >>                 sterge email din mbox
+> >>
+> >> am gasit ceva : http://pear.php.net/package/Mail_Mbox
+> >> dar la cit de vechi si unmantained e nu imi inspira incredere..
+> >> mime_parser.php http://www.phpclasses.org/browse/file/14670.html imi
+> >> cere o inregistrare(??!!)
+> >> Ce alte tooluri as putea gasi?
+> >>
+> > 
+> > Ai incercat cu procmail? Nu l-am folosit, dar e primul la care ma gandesc
+> > pentru astfel de joburi.
+> Din cite vad procmail e un server ce ruteaza emailuri conform unor
+> filtre... eu doresc doar sa fac un script ..
+> 
+poti prelucra mesajele pe masura ce vin cu procmail si un script scris
+de tine sa faca ce vrei:
+
+http://userpages.umbc.edu/~ian/procmail.html
+
+poti folosi:
+
+http://search.cpan.org/~markov/MailTools-2.11/
+
+solutie simpla daca nu vrei decit sa separi mesajele:
+
+http://www.perlmonks.org/?node_id=293415
+
+
+spor la munca, :)
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

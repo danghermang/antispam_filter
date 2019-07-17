@@ -1,0 +1,53 @@
+Subject:Re: Crypt proc ps
+El jue, 01-11-2012 a las 23:08 -0300, linuxknow escribió:
+> Claro eso sería estatico, a un archivo no esta mal. Mi idea sería algo
+> mas al estilo codificado en pantalla en tiempo real, capaz muy loco
+> pero me surgio con respecto a ocultar info, es decir con determinados
+> usuarios se muestre todo encriptado pero cuando se logea admin este se
+> vea normal.
+> 
+> 
+> es decir
+> 
+> 
+> admin@debian:/home/user# ps -u admin
+>  PID TTY          TIME CMD
+>  4374 ?        00:00:00 lxsession
+>  4397 ?        00:00:00 ssh-agent
+>  4400 ?        00:00:00 dbus-launch
+>  4401 ?        00:00:01 dbus-daemon
+>  4407 ?        00:00:08 openbox
+>  4412 ?        00:00:25 lxpanel
+>  4413 ?        00:00:02 pcmanfm
+> ....
+> 
+> a esto
+> 
+> user@debian:/home/user# ps -u user
+>   PID TTY          TIME CMD
+> 4374 ?        00:00:00 hHuxiji5nQBMw
+> 4397 ?        00:00:00 9CdUxSQfFfnxQ
+> ....
+> 
+> quiza alguien habia visto algo así.
+> 
+
+Yo no sé como cifrar la salida en pantalla pero "sudo" puede ayudarte a
+que ciertos usuarios no puedan ejecutar ciertos comandos.
+
+aptitude install sudo
+
+y mira los ejemplos que hay en
+
+man sudo
+
+
+-- 
+Francesc
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1351843404.2110.2.camel@negret
+

@@ -1,0 +1,42 @@
+Subject:Re: activar segunda tarjeta de red eth1
+
+
+
+El 07/11/2012, a las 09:37, Camale=C3=B3n <noelamac@gmail.com> escribi=C3=B3=
+:
+
+> El Wed, 07 Nov 2012 10:05:27 -0500, correo personal escribi=C3=B3:
+>=20
+>> como lo puedo hacer??
+>=20
+> =C2=BFC=C3=B3mo puedes hacer "qu=C3=A9"? =C2=BFResponder a un correo del a=
+=C3=B1o 2006 o activar=20
+> una segunda tarjeta de red en Sarge? >:-P
+>=20
+> Saludos,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+> --=20
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.=
+org
+> Archive: http://lists.debian.org/k7dv7c$bcr$7@ger.gmane.org
+>=20
+>=20
+
+asi. sudo iconfig eth1 up=20
+
+y para que siempre se monte automatikamente modifica /etc/network/interfaces=
+ y donde dice auto lo agregale eth1
+
+corriganme si me equivoco saludos=20=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU0-SMTP258B32441CF00740602A94BC56A0@phx.gbl
+

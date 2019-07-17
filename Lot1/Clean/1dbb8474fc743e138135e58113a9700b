@@ -1,0 +1,43 @@
+Subject:Re: systemd et wheezy
+On 09/06/2012 06:45 PM, Frédéric Massot wrote:
+
+> Systemd est composé de plusieurs paquets, le plus simple est d'installer
+> les paquets systemd, libpam-systemd, systemd-gui et de ne pas installer
+> le paquet systemd-sysv.
+>
+> Ensuite, ajouter "init=/bin/systemd" à la ligne
+> GRUB_CMDLINE_LINUX_DEFAULT dans le fichier "/etc/default/grub", faire un
+> update-grub et rebooter.
+>
+> Tu peux passer d'un boot avec sysvinit à systemd ou l'inverse en
+> modifiant la ligne GRUB_CMDLINE_LINUX_DEFAULT.
+>
+> S'il y a un problème de boot avec systemd, il suffit choisir le mode
+> dépannage dans le menu de Grub (mode single), de modifier la ligne
+> GRUB_CMDLINE_LINUX_DEFAULT, faire un update-grub et rebooter.
+>
+Merci pour cette explication concise et claire.
+Systemd fonctionne, pour le moment, cependant plus de réseau après le 
+redémarrage. La faute à ce maudit  ifup que j'ai du une fois de plus 
+réinstaller. Ensuite systemd-gui plante dès que je veux démarrer le 
+réseau avec "ifup@eth3.service". J'essaie ifconfig eth3 up puis 
+/etc/init.d/networking restart. Et le réseau est là.
+A souhaiter que cette conf ne disparaisse pas lors du prochain reboot...
+Positif: maintenant, le démarrage manuel des services (apache, mysql) se 
+fait via systemctl, ce qui risque de me simplifier la vie.
+A suivre......
+
+Cordialement
+
+-- 
+Maderios
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5049C978.50208@gmail.com
+

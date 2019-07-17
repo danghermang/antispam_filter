@@ -1,0 +1,31 @@
+Subject:Mail delivery failed: returning message to sender
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  thehitim@orbit.dnsforce.com
+    (generated from b6287299a@thehitimeexpress.com)
+    mailbox is full: retry timeout exceeded
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <8E783A5@ggsys.net>
+Received: from [178.126.247.35] (port=28213)
+	by orbit.dnsforce.com with esmtp (Exim 4.80)
+	(envelope-from <8E783A5@ggsys.net>)
+	id 1Ti4AU-0006Ap-9z
+	for b6287299a@thehitimeexpress.com; Mon, 10 Dec 2012 09:17:14 -0500
+From: "Support" <8E783A5@ggsys.net>
+To: <b6287299a@thehitimeexpress.com>
+Subject: Order confirmation.
+Date: Mon, 10 Dec 2012 16:17:14 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 8bit
+List-Unsubscribe: <mailto:55D9C5EC670559D5601A@iogi.com>
+Message-ID: <20121210161714.B68A317C01F30AA9E291@USER-ой>
+
+If you can't read this message please click this <a href="http://www.ibratro.net/track.php?s002">link</a><br>
+

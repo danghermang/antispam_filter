@@ -1,0 +1,36 @@
+Subject:Re: personalizar el envio de mensajes por cuentas
+El Mon, 05 Nov 2012 16:01:44 -0500, linux escribió:
+
+> Saludos lista, tengo una duda que se esta formulando en mi mente, como
+> saben ustedes linux es muy basto y permite hacer disimiles cosas con un
+> servicio determinado, ahora mi cuestion es, hay alguna posibilidad de a
+> traves de postfix personalizar el envio de correo por cuentas, es decir,
+> por ejemplo, quisiera que pp@pp.com no envie a .cu y por ejemplo
+> rr@pp.com si envie a .cu y asi sucesivamente, 
+
+Pues sí, claro. Busca en la documentación por los tipos de restricciones 
+en los envíos que puedas implementar, por ejemplo:
+
+http://www.postfix.org/RESTRICTION_CLASS_README.html
+
+> tambien poder limitar la cantidad de envio de mensajes, por cuenta, por
+> ejemplo tengo usuario de correo que a veces usan el correo para estar
+> enviando a parte de las cosas de trabajo y una mensajeria normal,
+> boberias, y a veces los correos salen en candena, quisiera limitarte la
+> cantidad de correos que pueda enviar, como una especie de cuota de
+> envio, alguien a implementado alguna de estas dos cuestiones, que
+> puediera ayudarme al respecto.
+
+También se puede hacer... busca por "policyd".
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7b6if$ji$5@ger.gmane.org
+

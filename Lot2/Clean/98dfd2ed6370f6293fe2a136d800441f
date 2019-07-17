@@ -1,0 +1,24 @@
+Subject:Re: [EVDL] DC motors
+The motor will probably work, but the power switch won't. You'll need
+to use a DC-rated power switch, otherwise you'll probably weld or
+otherwise damage the AC-rated switch when it tries to cut power.
+
+-Morgan LaMoore
+
+On Wed, Nov 7, 2012 at 6:16 PM, Willie McKemie <wmckemie2@gmail.com> wrote:
+> I just bought an electric chainsaw and it occurred to me that I might be
+> able to run it off my 120-156vdc packs.  Is that likely?
+>
+> Label on the chainsaw says "120v 60hz 14.5 amp".
+>
+>
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

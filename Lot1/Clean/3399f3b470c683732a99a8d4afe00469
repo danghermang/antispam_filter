@@ -1,0 +1,29 @@
+Subject:Re: Surveiller les logs
+Salut,
+
+Le 13 septembre 2012 19:11, Daniel Caillibaud <ml@lairdutemps.org> a =C3=A9=
+crit :
+> J'ai besoin de surveiller des logs et de d=C3=A9clencher qqchose quand je=
+ trouve certaines erreurs
+> dedans.
+>
+> Vous utilisez quoi pour faire =C3=A7a ?
+
+J'utilise logwatch et d'apr=C3=A8s
+http://blog.bidiuk.com/2010/05/centos-custom-logwatch-script/ , tu
+peux avoir des scripts personnalis=C3=A9s.
+
+Cordialement,
+
+--=20
+Yoann
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAGCzTpNh-nFCo3gX_m3OD1=nJ9uqsyUnNqLpATR2qKX7t4Qp5Q@mail.gmail.com
+

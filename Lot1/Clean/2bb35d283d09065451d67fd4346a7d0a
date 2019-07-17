@@ -1,0 +1,53 @@
+Subject:Re: chvt y permisos a usuario
+El 23/11/12 04:47, Ruben escribió:
+> El mié, 21-11-2012 a las 16:05 +0000, Camaleón escribió:
+>> El Wed, 21 Nov 2012 12:57:52 -0300, Walter escribió:
+>>
+>> (...)
+>>
+>>> ¿como puedo hacer para que,  "chvt  Nº", pueda ser ejecutado por el
+>>> usuario comun?
+>> Para cualquier aplicación que necesite privilegios de súperusuario puedes
+>> usar/configurar "sudo".
+>>
+>> Para todo lo demás, MasterCard :-)
+>>
+>> Saludos,
+>>
+>> -- 
+>> Camaleón
+>>
+> Juar juar juar. Que buena onda. Me bote de la risa
+>
+>
+>
+Si...Gracias.... genial.....me falta solo  la Master.....
+
+volviendo al temita...
+
+sí .. así funciona... gksu chvt 2
+me pide la clave... la guardo en deposito.. y listo....
+esto lo habia probado...y es una solucion muy buena....
+pero... no hay otra opcion??
+digo... porque asi... y con la clave en deposito.... ya todo queda a un 
+click del mouse...
+y aunque dije que entiendo los temas de seguridad.... no queria llegar 
+tan lejos...
+una cosa , es desde el terminal. sin saber que escribir y otra es con 
+click's  , me explico??
+
+Saludos y Gracias por responder.....
+
+
+
+
+-- 
+Walter
+www.infoquil.com.ar
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50AF88C8.1050306@gmail.com
+

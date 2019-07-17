@@ -1,0 +1,47 @@
+Subject:Re: PC =?ISO-8859-1?Q?=E9teint?= qui =?ISO-8859-1?Q?consomme[iden?=
+	=?ISO-8859-1?Q?tifi=E9]?=
+hwclock lit les fichiers /etc/default/rcS et /etc/default/hwclock.
+
+Je n'ai vu nulle part l'option HWCLOCKACCESS définie par défaut (ce qui
+revient à la mettre à yes, oui, ok, etc)
+
+J'ai effectivement crée le fichier et ça convient.
+
+En fait concrétement, outre le rajout de cette opotion, j'ai un
+fichier /etc/rc.local contenant
+
+#!/bin/bash
+if [ -d /etc/scripts.d ] ; then
+    for f in $(ls  /etc/scripts.d | grep -v "~$") ; do
+	/etc/scripts.d/$f 
+    done
+fi
+exit 0
+
+qui exécute ce qui est dans /etc/scripts.d au démarrage.
+Dans /etc/scripts.d, j'ai un fichier economie contenant
+
+#!/bin/sh
+/sbin/ethtool -s eth0 wol d
+acpitool -w | grep enabled \
+                         | grep -v "LID" | sed -e '1,$s/ *\([0-9]*\)\..*$/\1/' \ 
+                         | xargs -n 1 acpitool -W
+
+qui stoppe toutes les causes de réveil automatique sauf le
+relevé de l'écran (LID) que je veux conserver.
+
+Je me demande si le problème ne viendrait pas du temps
+que met le noyau pour mettre à jour l'horloge système?
+
+François Boisson (pas satisfait car ne comprenant pas 
+tout à fait le lien) 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121118102442.6f3b0c3e629734603b2616fd@maison.homelinux.net
+

@@ -1,0 +1,27 @@
+Subject:Re: impossible ouvrir mon compte =?UTF-8?B?aW52aXTDqQ==?=
+On Mon, 17 Sep 2012 16:18:28 +0200
+Nicolas H=C3=A9mard <nicolas@hemard.eu> wrote:
+
+> Le probl=C3=A8me se pose pour "user2". Voici les r=C3=A9sultats. L'user a
+> bien le m=C3=AAme uid qui est 1002 ?
+
+Tout parait correct, donc =C3=A0 v=C3=A9rifier comme dit pr=C3=A9c=C3=A9dem=
+ment que tous=20
+les fichiers (notamment les .*) ont les bons UID/GID dans le home
+voulu.
+=C3=89galement, un login en mode console serait sans doute plus dissert
+qu'en mode graphique.
+
+--=20
+<Petrucci> En Su=C3=A8de, ils ont du fer et ils savent pas qoi en foutre.
+           Au Vatican c'est l'inverse.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120917162508.44e1406c@anubis.defcon1
+

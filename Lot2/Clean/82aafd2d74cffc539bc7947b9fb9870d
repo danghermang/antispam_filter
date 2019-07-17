@@ -1,0 +1,107 @@
+Subject:Re: [Koha] SIP message pairs supported
+Brendan,
+
+Yes, that is the complete list of SIP2 messages but I can't tell by what
+you sent me if that means they are all supported at this time. Can you
+clarify?
+
+Thanks for finding!
+
+Lori
+
+
+<http://git.koha-community.org/gitweb/?p=koha.git;a=blob;f=C4/SIP/Sip/Constants.pm;h=ee58b44c476005d8e01788a009bab7e7e2db02a2;hb=HEAD#l106>
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=
+Lori Bowen Ayre //
+Library Technology Consultant / The Galecia Group
+Oversight Board & Communications Committee / Evergreen
+(707) 763-6869 // Lori.Ayre@galecia.com
+Availability:  http://doodle.com/loriayre
+
+<Lori.Ayre@galecia.com>Specializing in open source ILS solutions, RFID,
+filtering,
+workflow optimization, and materials handling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+
+On Thu, Nov 8, 2012 at 12:59 AM, Brendan Gallagher <
+info@bywatersolutions.com> wrote:
+
+> Lori -
+>
+> Is this what you are looking for -
+> http://git.koha-community.org/gitweb/?p=koha.git;a=blob;f=C4/SIP/Sip/Constants.pm;h=ee58b44c476005d8e01788a009bab7e7e2db02a2;hb=HEAD
+>
+> Try reading or starting around line 106.
+>
+> Cheers,
+> Brendan
+>
+>
+> On Tue, Nov 6, 2012 at 3:16 PM, Lori Bowen Ayre <lori.ayre@galecia.com>wrote:
+>
+>> Could someone tell me which SIP2 messages pairs are supported in Koha? I
+>> tried figuring it out looking at Bugzilla and documentation but I couldn't
+>> figure it out.
+>>
+>>
+>> 01 Block Patron
+>> 09/10 Checkin
+>> 11/12 Checkout
+>> 15/16 Hold
+>> 17/18 Item Information
+>> 19/20 Items Status Update
+>> 23/24 Patron Status
+>> 25/26 Patron Enable
+>> 29/30 Renew
+>> 35/36 End Session
+>> 37/38 Fee Paid
+>> 63/64 Patron Information
+>> 65/66 Renew all
+>> 93/94/Login
+>> 96/97  Resend last message
+>> 98/99 SC/ACS Status
+>>
+>>
+>> =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=
+>> Lori Bowen Ayre //
+>> Library Technology Consultant / The Galecia Group
+>> Oversight Board & Communications Committee / Evergreen
+>> (707) 763-6869 // Lori.Ayre@galecia.com
+>> Availability:  http://doodle.com/loriayre
+>>
+>> <Lori.Ayre@galecia.com>Specializing in open source ILS solutions, RFID,
+>>
+>> filtering,
+>> workflow optimization, and materials handling
+>> =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+>> _______________________________________________
+>> Koha mailing list  http://koha-community.org
+>> Koha@lists.katipo.co.nz
+>> http://lists.katipo.co.nz/mailman/listinfo/koha
+>>
+>
+>
+>
+> --
+>
+> ---------------------------------------------------------------------------------------------------------------
+> Brendan A. Gallagher
+> ByWater Solutions
+> CEO
+> Support and Consulting for Open Source Software
+> Installation, Data Migration, Training, Customization, Hosting
+> and Complete Support Packages
+> Headquarters: Santa Barbara, CA - Office: West Haven, CT
+> Phone # (888) 900-8944
+> http://bywatersolutions.com
+> info@bywatersolutions.com
+>
+>
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

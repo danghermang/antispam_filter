@@ -1,0 +1,91 @@
+Subject:Re: Installation sur partition GPT
+2012/10/3 Eddy F. <edfnet-deb@yahoo.fr>:
+> Bonjour,
+Bonjour,
+Je vais sans doute rajouter des r=C3=A9ponses d=C3=A9ja dites, mais je part=
+age
+l'exp=C3=A9rience que j'ai eu avec mon Dell Latitude E6520.
+
+> [=E2=80=A6]
+> Mouais... l'ordre, le nombre et les tailles de partitions ne
+> correspondent pas vraiment. Enfin je suppose que
+> sda2 =3D la partition de r=C3=A9cup=C3=A9ration
+> sda4 =3D windows 7 (C:) qui dans Windows para=C3=AEt d=C3=A9j=C3=A0 bien =
+occup=C3=A9
+> sda5 =3D (D:) qui dans Windows est pratiquement vide.
+>
+> Pensez-vous que ce soit correct ?
+Tout =C3=A0 fait (comme d=C3=A9j=C3=A0 dit), avec sda3 qui correspond =C3=
+=A0 la partition
+de boot EFI
+
+> [=E2=80=A6]
+> Et puis surtout, qu'en j'en viendrai =C3=A0 installer Grub, je le mets o=
+=C3=B9 ?
+> Au milieu du bazar dans sda3 ?
+Le grub =C3=A0 installer est un Grub EFI : il y a un =C2=ABex=C3=A9cutable=
+=C2=BB (? pas
+s=C3=BBr que le terme soit totalement pertinent) qui se place dans la
+partition de d=C3=A9marrage EFI. Il faudrait que je r=C3=A9essaie, mais de
+m=C3=A9moire, j'ai install=C3=A9 normalement Debian, avec des partitions en=
+ GPT,
+et n'ai pas install=C3=A9 de bootloader. Penser =C3=A0 monter la partition =
+de
+d=C3=A9marrage EFI dans /boot/efi de mani=C3=A8re =C3=A0 ce que les mises =
+=C3=A0 jour de
+grub se passent bien. Avant de terminer l'installation, j'ai utilis=C3=A9
+un shell pour rentrer dans mon syst=C3=A8me install=C3=A9, et ai install=C3=
+=A9
+grub-efi. Par contre, je ne me souviens plus bien si j'ai du d=C3=A9placer
+le fichier grub*.efi dans /boot/efi ou si l'installation du paquet le
+met dans la partition de d=C3=A9marrage EFI. Une fois ce fichier pr=C3=A9se=
+nt
+(dans /boot/efi/EFI/grub/*.efi), tu peux finir l'installation. Il te
+seras ensuite possible (en th=C3=A9orie) de d=C3=A9marrer depuis cette imag=
+e via
+le microgiciel (c'est ce que j'ai trouv=C3=A9 de plus juste pour parler de
+=C2=ABBIOS en UEFI=C2=BB =E2=80=A6 preneur de mieux si vous avez :) ) de l'=
+ordinateur en
+ajoutant une entr=C3=A9e de boot UEFI. Une fois sur ton OS pr=C3=A9f=C3=A9r=
+=C3=A9,
+grub-install devrait permettre de placer l'entr=C3=A9e de boot directement
+dans le microgiciel.
+
+Si le m=C3=A9dia d'installation a d=C3=A9marr=C3=A9 en EFI, l'installeur po=
+urra
+acc=C3=A9der aux informations de boot du microgiciel de l'ordinateur, et
+ins=C3=A9rer l'entr=C3=A9e de grub dans la liste des syst=C3=A8mes d=C3=A9m=
+arrables.
+J'ai cru lire que l'on pouvait d=C3=A9marrer depuis mi-juillet (dans sid)
+les noyaux Debian comme =C2=ABbootloader=C2=BB EFI, mais je n'ai pas test=
+=C3=A9 et ne
+suis pas certain d'avoir compris non plus :s
+
+Actuellement, sur mon portable, je choisis entre Windows 7 et Debian
+via le menu de d=C3=A9marrage de l'ordinateur (os-prober ne =C2=ABtrouve=C2=
+=BB pas
+les Windows EFI il semblerait =E2=80=A6). Il est cependant possible de pass=
+er
+la main de GRUB au d=C3=A9marreur Windows.
+
+>
+> Enfin, mon Bios (le nom n'est peut-=C3=AAtre plus correct mais cela
+> en a l'apparence) contient une entr=C3=A9e nomm=C3=A9e =C2=AB UEFI Boot =
+=C2=BB
+> actuellement positionn=C3=A9e sur Enabled. Faut-il la mettre sur Disabled=
+ ?
+Pas n=C3=A9cessairement, si tu arrives =C3=A0 d=C3=A9marrer GRUB en EFI.
+
+Je pense que je n'ai pas totalement =C3=A9t=C3=A9 clair, mais je n'ai pas
+l'ordinateur en question sous la main pour v=C3=A9rifier les infos que je
+vous fournis.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJNRvFZngJbSWx_5d3OT5R0LD-ki3=nLK3Q9Z0EV2VvG+S1WoQ@mail.gmail.com
+

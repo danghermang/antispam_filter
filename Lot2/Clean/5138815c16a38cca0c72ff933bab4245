@@ -1,0 +1,19 @@
+Subject:Re: [LUG] Linux - and security
+I think that malware might use ftp is the wrong reason to block ftp. They can use http to upload your files, or transfer the data over DNS, few people or companies block DNS entirely. The malware authors will likely opt for the most likely to work, so likely http.
+
+If you routinely have to use ftp then a firewall that gets in the way it is simply overly intrusive security.
+
+The issue with ftp is it uses plain text passwords. I've had to clean up after windows malware on a friends PC stole ftp credentials and installed nasties on the webserver. It installed an ftp proxy and thus able to steal ftp credentials from any program using ftp without needing to be customized for the environment it is in.
+
+I think this is a good example of how a well known protocol weakness (plain text passwords), makes an attack easier after security is compromised. Sure they had admin access, they could have done anything, but stealing ftp credentials gave them access to well connected webservers (mostly Linux boxes).
+
+But even I'm guilty of not doing enough to stamp out ftp.
+
+In general I think NAT does a nice firewall job in that it stops incoming, it just doesn't do it terribly well. Typically when I'm firewalling Linux I'm doing the same, blocking all but required incoming traffic. So if someone (usually me) messes up and starts a service unexpectedly it still can't receive traffic.
+
+We have similar discussions in the archive for those who are learning stuff from rehashing this here.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

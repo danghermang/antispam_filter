@@ -1,0 +1,51 @@
+Subject:Re: =?ISO-8859-1?Q?Recomendaci=F3n_de_versi=F3n_de_Debia?=
+	=?ISO-8859-1?Q?n=2E?=
+El 29/10/12 09:43, Luis Miguel R. escribió:
+> Buenas peña,
+>
+> Me dispongo a renovar mi equipo de oficina que está funcionando en
+> Debian 4.0, voy a pillar una máquina modernilla, placa con usb 3.0, cpu
+> i5, grafica gforce 210, hds de 2tb, 8gb ram ddr3, etc, en escritorio uso
+> IceWM, la chicha viene con un vmware con xp tirando de un software de
+> gestion, es por el rendimiento de la máquina virtual por lo que cambio
+> el pc.
+>
+> Mi preguntas son, con este tipo de hardware, merece la pena poner la
+> testing?, como va de estable?, realmente no necesito para nada que los
+> paquetes de software estén actualizados, la única razón para ponerla
+> sería que aproveche mejor mi hardware y obtener mejor rendimiento.
+>
+> Otra diferencia importante es que veo que testing instala por defecto
+> ext4, mientras que estable instala ext3, a estas alturas ext4 es
+> completamente seguro para usar en producción?
+>
+> Muchas gracias a todos.
+>
+> Saludos.
+>
+>
+>
+
+
+Ámbito de producción, servidor de base de datos o cosas MUY sensibles: 
+"stable".
+
+El resto, "testing".
+Hace 8 años que uso en la máquina de la oficina de mi trabajo "testing", 
+sin ningún inconveniente. Claro que no es un servidor, si no un 
+"desktop", para mi trabajo diario.
+Lo mismo en mi casa.
+ext4 lo estoy usado desde hace poco más de un año, y nunca dio problemas.
+¿Cuáles son los problemas de "testing" en estos dos últimos años?
+Una vez se actualizó IceDove, pero sin el paquete de idiomas.
+Otra vez se actualizó Gimp! con un error de dependencia.
+Cosas que se solucionaron en el término de días.
+
+JAP
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/508E7FF4.2090707@gmail.com
+

@@ -1,0 +1,50 @@
+Subject:Re: no me funciona el teclado ni mouse en X [solucionado]
+El Sat, 22 Sep 2012 09:22:41 -0300, Gonzalo Rivero escribió:
+
+(...)
+
+>> > lo único raro son unos warning en la línea 40 que me desactiva
+> teclado
+>> > (...)
+>> > levantó con vesa y no el driver de nvidia... y el mouse y teclado
+>> > siguen sin funcionar. ¿donde se como desactivar ese hotplug?,
+>> 
+>> Recuerdo algo de eso pero no sé si te servirá para este caso. Había
+> que
+>> añadir los siguiente en el "/etc/X11/xorg.conf", dentro de la sección
+>> "ServerFlags":
+>> 
+>> Option "AutoAddDevices" "false"
+>> 
+>> 
+> y eso fue lo que corrigió el problema. Aunque me suena anti-intuitivo,
+> es decir: AutoaddDevices -> falso: agrega y funcionan los dispositivos,
+> y en true los apaga?
+
+Se supone que con esa opción desactivada lo que se consigue es desactivar 
+udev como sistema para detectar los dispositivos de entrada y se vuelve 
+al sistema antiguo (si quieres añadir un nuevo dispositivo tendrás que 
+configurarlo manualmente para habilitarlo).
+
+En resumen, que no tendrías que desactivarlo salvo que te dé algún 
+problema, como es el caso (aún así, yo informaría de estas cosas: si los 
+de Xorg quieren usar udev, perfecto, pero si algo falla, pues bug al 
+canto).
+
+De todas formas, si necesitas utilizar un archivo "xorg.conf" para 
+configurar algunos ajustes de la gráfica nvidia, bien, pero mnatenlo al 
+mínimo, es decir, deja el resto de secciones que no estén relacionadas 
+con la tarjeta gráfica casi vacías para que las configure Xorg 
+directamente. Seguramente así te evites más problemas.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3kgq2$mv$10@ger.gmane.org
+

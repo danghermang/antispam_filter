@@ -1,0 +1,32 @@
+Subject:Re: Proxy squid automatico
+El Wed, 28 Nov 2012 14:24:37 -0600, Francisco Eduardo Ascencio Dominguez
+escribió:
+
+> monte un servidor proxy con squid pero lo que pasa es que  a cada
+> computadora le tengo que configurar el proxy y ponerle la ip del server
+> proxi. mi pregunta es como puedo hacer para que esto se aga
+> automáticamente. ley que era con ip tables e intente hacerlo pero no me
+> funciono. el servidor esta montado en debian squeeze 6. alguien puede
+> ayudar u orientarme ?
+
+Pues si te he entendido bien, podrías hacerlo de dos formas:
+
+1/ En el lado del servidor, configurar un proxy transparente¹
+
+2/ En el lado del cliente (navegador), configurarlo para que detecte 
+automáticamente la configuración del proxy²
+
+¹http://es.wikipedia.org/wiki/Proxy#Proxies_transparentes
+²http://en.wikipedia.org/wiki/Web_Proxy_Autodiscovery_Protocol
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k97se4$4np$3@ger.gmane.org
+

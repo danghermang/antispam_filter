@@ -1,0 +1,117 @@
+Subject:Re: Proxy offline
+On 12/09/2012 08:37 PM, Francisco Eduardo Ascencio Dominguez wrote:
+> 
+>>
+>>
+>> El 09/12/2012, a las 09:31, Camaleón <noelamac@gmail.com
+>> <mailto:noelamac@gmail.com>> escribió:
+>>
+>>> El Sat, 08 Dec 2012 18:55:26 -0600, Francisco Eduardo Ascencio Dominguez
+>>> escribió:
+>>>
+>>> (ese html...)
+>>>
+>>>> hola. resulta que ya tengo montado squid en un servidor casero.
+>>>>
+>>>> ok. empecemos.
+>>>> 1.- squid esta instalado y configurado ( trnsparente )
+>>>
+>>> Hombre, me alegra que ya lo tengas :-)
+>>>
+>>>> 2.- tarjeta eth1 con ip fija OK
+>>>> 3.- tarjeta eth2 con ip fija
+>>>> 4.- ip tables configurados según este link http://www.tutoriales-
+>>> ubuntu.com/archives/configurar-un-proxy-transparente-con-squid
+>>> <http://ubuntu.com/archives/configurar-un-proxy-transparente-con-squid>
+>>>
+>>> Comprueba que hayas seguido _todos los pasos correctamente_.
+>>>
+>>>> 5.- la tarjeta 1 va al modem
+>>>> 6.- la tarjeta 2 va a un swich
+>>>> 7.- al swich le conecte un router tl-741nd ( tp-link )
+>>>> 8.- NO TENGO INTERNET !!!!!
+>>>
+>>> Hum...
+>>>
+>>>> cual será mi error ? el router si sirve ya lo probé el swich también. y
+>>>> si a una maquina le pongo la ip del proxy si funciona.  
+>>>
+>>> Entonces lo que no funciona es la "transparecia" ¿no?
+>>>
+>>>> me pueden ayudar ?  ya tiene dias que e andado con esto y aqui e ido
+>>>> poco. poco.
+>>>
+>>> Pues yo empezaría por lo básico: mira a ver si tienes cargadas las
+>>> reglas
+>>> de iptables ("iptables -L") y revisa el archivo de configuración de
+>>> squid.
+>>>
+>>> Saludos,
+>>>
+>>> -- 
+>>> Camaleón
+>>>
+>>>
+>>> -- 
+>>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>>> <mailto:debian-user-spanish-REQUEST@lists.debian.org>
+>>> with a subject of "unsubscribe". Trouble? Contact
+>>> listmaster@lists.debian.org <mailto:listmaster@lists.debian.org>
+>>> Archive: http://lists.debian.org/ka2atd$hki$2@ger.gmane.org
+>>>
+>>>
+>>
+>> Ok según yo cargo las reglas pero verifico que reglas tengo en
+>> iptables (iptables -L) y me arroga esto ..
+>>
+>>
+>> Chain INPUT (policy ACCEPT)
+>> target     prot opt source               destination         
+>>
+>> Chain FORWARD (policy ACCEPT)
+>> target     prot opt source               destination         
+>>
+>> Chain OUTPUT (policy ACCEPT)
+>> target     prot opt source               destination    
+>>
+>> que debo hacer o como debo cargar las reglas ? 
+>>
+>> Las reglas que estoy cargando son estas y así como están así las pongo
+>> en la terminal o como debo de hacerlo ? (Nunca eh usado iptables :( )
+>>
+>>     |:~$ |iptables -t nat -A POSTROUTING -s 10.10.10.0/24 -o eth1 -j
+>>     SNAT --to 192.168.1.3
+>>
+>>     |:~$  iptables -t nat -A PREROUTING -i eth2 -p tcp --dport 80 -j
+>>     DNAT --to 192.168.1.3:3128
+>>     :~$  iptables -t nat -A PREROUTING -i eth1 -p tcp --dport 80 -j
+>>     REDIRECT --to-port 3128|
+>>
+>>     |
+>>     |
+> 
+> tengo que tener intalado y configurado dhcp3-sever para que funciones el
+> proxy transparente ? x que solo tengo squid y el s.o y la configurcion
+> de iptables que mas debo hacer ? 
+
+Veo que lo del html no lo llevas muy bien ...
+
+A ver, lo que pretendes hacer es fácil:
+
+http://www.google.com/search?q=iptables+squid+proxy+transparent
+
+Como ves, tutoriales a patadas ... De entrada en tu salida del iptables,
+no ptiene ninguna regla cargada ...
+
+Saludos.
+
+-- 
+CL Martinez
+carlopmart {at} gmail {d0t} com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C4F7A5.80307@gmail.com
+

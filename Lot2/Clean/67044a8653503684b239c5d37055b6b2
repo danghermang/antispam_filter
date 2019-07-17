@@ -1,0 +1,58 @@
+Subject:Re: =?UTF-8?B?wr9Fc3TDoW4gZGUgYnJvbWEgY29uIGdub21lMz8=?=
+El 14/11/12 08:40, C. L. Martinez escribió:
+> 2012/11/13 Javier Silva <fjsilvam@gmail.com>:
+>> El día 12 de noviembre de 2012 13:36, Darío <darioslc@gmail.com> escribió:
+>>> Realmente no me parece demasiado importante un protector de pantalla,
+>>> reflexionando un poco opino lo mismo que los desarrolladores, ¿para qué un
+>>> protector de pantalla? directamente que se apague después de un tiempo el
+>>> monitor y listo!! en definitiva para lo único que sirve es para ver cosas
+>>> bonitas cuando no se usa el monitor
+> ¿No? Ahora te explico dos motivos por los cuales sí.
+>
+>> Efectivamente pienso que es más importante que una pantalla entre en
+>> bajo consumo al poco de no utilizarla y se bloquee, a que aparezca un
+>> protector de pantalla con animaciones en 3D consumiendo una energía
+>> importante, piensen que un monitor cuando entra en bajo consumo,
+>> ahorra una media de 20W y si la tarjeta gráfica hace un apagado de sus
+>> circuitos, puede llegar a ser un mínimo de 20W, siempre teniendo en
+>> cuenta un equipo sobremesa de medio.
+>>
+>> En cuanto a las modificaciones del Nautilus, no estoy muy conforme y a
+>> los cambios tan continuos entre versiones tampoco. Pienso que si
+>> Wheezy queda con GNOME 3.4 y ya existen diferencias entre la 3.6 y la
+>> 3.8, no veo como quedarán las extensiones para cuando Wheezy sea
+>> estable en 2013 o el resto de aplicaciones.
+>>
+> A ver, vamos a especificar. Mi pregunta no era por el tema de ahorro
+> de energía, que sinceramente me trae sin cuidado por el mero hecho que
+> mi laptop ya lo lleva out of the box, y tanto Debian como RHEL/CentOS
+> y el Windows 2008 R2 que tenia instalados previamente, lo saben/sabían
+> gestionar.
+>
+> La pregunta la hacía por un motivo más importante. La laptop la
+> utilizo tanto para el trabajo como en casa. En ambos casos se produce
+> el mismo problema: quiero irme a tomar un café sin que nadie meta el
+> hocico en mi pantalla solo pulsando un botón. Para ello siempre he
+> activado el protector de pantalla con password (pantalla negra
+> siempre, nada de colorines ni cosas por el estilo), amén de otras
+> medidas de protección como encriptado de discos, etc. Y en casa lo
+> mismo: cuando tienes dos niños que te manejan los smartphones como el
+> que enciende una TV, hay que andarse con cuidado (mi laptop no tiene
+> ningún tipo de protección a nivel de accesos parentales y demás).
+>
+> Si esto los desarrolladores de gnome lo consideran una nimiedad, vamos
+> listos. Entonces prefiero un escritorio distinto que se preocupe de
+> cosas como estas ...
+>
+>
+
+Cuando se apaga la pantalla por inactividad automáticamente se bloquea 
+el equipo, para desbloquearlo tienes que introducir tu contraseña. Al 
+menos es asi en gnome 3.6.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A38587.5040305@limbo.deathwing.net
+

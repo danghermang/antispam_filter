@@ -1,0 +1,38 @@
+Subject:Non delivery report: 5.9.4 (Spam SLS/RBL)
+Your message
+
+ From:	Notification <xxx@xxxxxxx.xxx>
+
+ To:	xahezuarao8833@560benefitfunds.com
+
+ Subj:	Message
+ Sent:	2012-12-09 16:47
+
+has encountered a delivery problem.
+
+
+Reason: Spam SLS/RBL
+The message was received from a host that is on a spam list.
+
+Additional info:
+The sending host is: 186.176.76.44 [186.176.76.44]
+The SLS service is: bl.spamcop.net
+
+
+
+
+
+
+
+---
+Delivery status:
+Date: Sun, 9 Dec 2012 17:47:00 -0500
+Reporting-MTA: dns; mail.560benefitfunds.com
+Received-From-MTA: dns; 186.176.76.44
+Arrival-Date: Sun, 9 Dec 2012 17:47:00 -0500
+
+Final-Recipient: rfc822; xahezuarao8833@560benefitfunds.com
+Action: failed
+Status: 5.9.4
+Diagnostic-Code: X-XWall; 5.9.4 Spam SLS/RBL
+

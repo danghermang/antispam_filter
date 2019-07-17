@@ -1,0 +1,19 @@
+Subject:Re: [rlug] kernel panic :: pareri despre motiv
+On Thursday, October 25, 2012 12:14:33 PM Adrian Sevcenco wrote:
+> On 10/25/2012 12:04 PM, Mihai Badici wrote:
+> > Dar bineinteles ca ai putea sa le redirectezi prin seriala si catre alta
+> > masina, care nu se blocheaza, ca sa ai log-urile intregi, aici probabil
+> > lipseste partea interesanta ( locul in care crapa) .
+> 
+> mda .. asta e ceva aminat de mult (va refer la un central syslog pentru
+> masinile din cluster)
+> 
+> Merci!
+Daca nu acum, atunci cand ? :)
+Bine, in speranta ca nu crapa ceva in partea de net, de asta ziceam de serial, 
+ca atata timp cat in consola logheaza, sunt sanse mari sa mearga si la serial.
+La network, sunt mai multe variabile....
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

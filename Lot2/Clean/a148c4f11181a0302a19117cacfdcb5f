@@ -1,0 +1,26 @@
+Subject:Re: backports kernel: support for t430s laptop in backports?
+On 12/05/12 15:02, Ben Hutchings wrote:
+> 
+> It probably wouldn't hurt.  Xorg in squeeze certainly doesn't know how
+> to do accelerated graphics on last year's Intel GPUs (Sandy Bridge) let
+> alone this year's (Ivy Bridge).  Display support might also be limited,
+> though it's somewhat separate.
+> 
+
+I have upgraded the xorg stuff (including xserver-*-intel)
+to the most recent version from backports, but this didn't
+help. Still no beamer output :-(.
+
+Since this version is already 1 year old, I wonder if it would
+be possible to backport Wheezy's current xorg packages?
+
+
+Regards
+Harri
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50BF5DA7.8090902@aixigo.de
+

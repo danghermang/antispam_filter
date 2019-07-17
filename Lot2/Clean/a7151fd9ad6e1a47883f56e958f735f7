@@ -1,0 +1,21 @@
+Subject:Envio de reportes de error de php mediante correo
+Hola muy buenas, he montado un LAMP bajo debian squeeze y me gustaría que
+los errores que salen por pantalla, sea cual sea el error, no lo muestre
+por pantalla sino que envíe un correo desde una cuenta determinada a una
+otra cuenta de correo, de tal forma que el correo incluya los errores
+reportados por el php y en el navegador web no aparezca nada, se quede en
+blanco. Lo de que se quede en blanco lo puedo apañar en el php.ini pero lo
+del envío de correo la verdad estoy un pelín perdido.
+
+Saludos.
+
+
+-- 
+ADMIN: Maykel Franco Hdez
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4a91662b0a218e3b449fdf71c451e059.squirrel@maykel.sytes.net
+

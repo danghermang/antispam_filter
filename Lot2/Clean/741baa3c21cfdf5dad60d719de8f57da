@@ -1,0 +1,214 @@
+Subject:Re: [LUG] Linux - and security
+On 03/11/12 13:40, Neil Winchurst wrote:
+
+<snip>
+
+Right Neil, let's get you sorted. I'm switching from philosophical mode
+to practical mode now.
+
+Julian's suggestion to use a standard (strong) password that you 'salt'
+with a contextual suffix is a good one: this is the method I usually try
+to get my less technical users to follow (not that they often follow my
+advice, but hey, I have to at least try). A good password control method
+is to use a program designed to look after them: keepass2* is quite
+nice, and cross-platform. Personally, I'm a bit more old school and use
+good old fashioned text files appropriately titled for different
+jobs/customers/etc with standardised username:password:description
+fields so I can easily process them with scripts. I check them into
+version control and encrypt the lot but then I have a ridiculous amount
+of these pesky details to keep track of so that's probably overkill for
+most people. At any rate, you're obviously capable of deciding what
+method of password control/storage suits you but whatever you choose,
+stick with it and make sure you keep encrypted backups - losing your own
+passwords is a pretty epic fail and very embarrassing... (sadly, I must
+admit I speak from experience here.)
+
+Virus scanning. I was really surprised to see several recommendations
+for AV products - I would say that for a home linux workstation,
+definitely not required. Believe it or not, I, Mr Security Paranoia
+himself, have never installed AV on any of my linux workstations. Even
+with the rise of malware targeting Macs, I don't normally install AV on
+Apple boxes either. It's just not needed (others may disagree with me
+here of course, and they're welcome to). Now, if you're a very nice man
+and are simply being considerate to your windows-using friends an AV
+scanner should catch any crap (I'm thinking about those awful joke
+powerpoint mail attachments, etc) you accidentally forward to them even
+though A: they should definitely have AV scanners themselves being on
+windows and B: any malware isn't going to do anything to your linux box
+anyway. Whilst there definitely is malware for linux it doesn't tend to
+be in the same category or class as the ubiquitous
+one-click-and-you're-screwed flavour that ruins windows for everyone and
+presumably you're not in the habit of surfing milw0rm.com for random
+binaries and executing them with sudo anyway. So skip the AV. If you
+must, grab clamav* which is a simple, low resource tool and still
+overkill. Definitely do NOT use AVG - this might be controversial, but
+AVG sucks hard (remember I admin a lot of windows networks too, I
+unfortunately know what I'm talking about) at the best of times and you
+do not want closed source binary crap running on your linux box, wasting
+resources and providing very questionable worth. Also, I was trying to
+be nice and practical and inoffensive this time around but whoever told
+you to use multiple scanning engines at the same time is an idiot,
+completely ignore them. Multiple scanning engines is for network admins
+to setup at gateway points as dedicated services, only a complete retard
+would install more than one AV solution as standard on a bloody end-user
+PC/workstation. If your box was a mail server then we'd have to get
+serious with milters, amavis and friends but luckily we don't have to
+bother with that here.
+
+Now you said you're not running any services but I assure you you are!
+Try "sudo service --status-all" and see what it spits out. I think here
+people are actually referring to services running as a server, designed
+to be reached from other machines on your network or even outside, from
+the internet. You probably don't have ANY of these running by default,
+unless you specifically install and enable them. Examples would be
+apache or another webserver (maybe you're doing some web development), a
+mailserver (you definitely don't want to open this can of worms) and
+various filesharing services: samba, NFS, etc. I think it was you who
+was asking about easy filesharing between boxes at home a while ago, so
+this is probably the only thing you need to think about at all.
+
+Directly related to this is the firewall issue, and you'll want to
+approach both services and firewall at the same time as they directly
+effect each other. I'm just going to repeat what I said earlier about
+firewalls: unlike AV, there is no excuse for not running one on your
+endpoint boxes. iptables has an incredibly low overhead on even the most
+basic hardware and there are multiple front end GUI tools, configuration
+wizards and super-easy methods to get up and running. Hiding behind your
+router's crappy NAT indeed will keep you out of most trouble, I'm not
+going to deny that, but it's not enough. So, for my recommended and
+simple configuration (which is what we're aiming at here, rather than
+drowning you in yet more information) I suggest the following: install
+SSH* and a firewall manager* which will give you a rock solid, basically
+secured network config. When the gufw GUI starts, click the "unlock"
+button and authenticate yourself, add a single *inbound* rule for port
+22 (SSH) and turn the firewall on with the switch. And you're done! You
+now have a box with all ports filtered and only SSH port 22 allowed to
+connect to your machine. This will persist across reboots so once you've
+done it once, you're done. If you want any other box at home to connect
+to your new linux install using any other service at all you will have
+to add additional rules, all of which can be done with the help of
+google, netstat -an and opening new ports in the gufw GUI. But really,
+once you have SSH running, that's probably all you're ever going to
+need. As others have suggested, for *nix environments, NFS is *very*
+useful and super-easy to configure, but making it firewall friendly is
+not a pleasant experience so just stick to SSH instead, it can do pretty
+much everything and all over one port too.
+
+A couple of other related points: make sure your new system is
+configured with a static IP, rather than grabbing a DHCP lease from your
+router every time you boot. This massively simplifies your life,
+especially when connecting to your PC from other machines - otherwise
+you have to start mucking about with autodiscovery, zeroconf/bonjour and
+so on which is just an unnecessary headache. I think you're 100% linux
+at home which helps, you don't have to worry about Apple and Microsoft
+weirdness anyway (lucky you). Now, to connect to a fileshare on your new
+system from another computer in the house, go to system B (wasn't it
+your daughter wanting to access files on your system?) and type
+"nautilus-connect-server &" - this will open a simple little GUI. Enter
+your PC's static IP address in the first field, select "SSH" from the
+dropdown and enter a suitable username/password - you can even set the
+"remember password" option to make it easier for your daughter to do
+this herself without having to become a linux engineer. Voila, the
+remote share from your PC will be mounted on her desktop and she's free
+to browse around and access her stuff transparently. Trust me, this is a
+lot easier and more secure than cocking about with SMB/CIFS, opening
+firewall ports, configuring /etc/exports...
+
+Ideally, also give ALL your internal machines static IPs, it really does
+make life easier. For a cheaty option, if you edit /etc/hosts (as
+superuser, use your choice of $EDITOR) you can add easier mnemonics for
+your machines so you don't have to remember 192.168.0.10 is your
+workstation, 192.168.0.20 is your daughters laptop, etc. Add these to
+the bottom of the file after a blank line, and obviously alter them to
+suit your network/names!
+
+192.168.0.1 router
+192.168.0.10 my-workstation
+192.168.0.20 wife-comp
+192.168.0.30 the-ps3
+192.168.0.40 daughter-comp
+
+Now you can just "ssh wife-comp" instead of bothering to remember what
+IP address you gave it.
+
+Final pro-tips: find an old USB thumb drive, it doesn't have to a big
+one - 1Gb is fine, or even 512Mb, whatever you can find lying around.
+Download and install Truecrypt (www.truecrypt.org) which is a fantastic
+bit of software. Create* a smallish FAT32 ~50Mb partition at the start
+of the drive, and use the rest of the disk for another partition. Dump
+the installers for Mac/Win/Linux in the small cleartext partition and
+use the Truecrypt wizard to encrypt the second, larger partition. Copy
+anything you really can not lose (password database or lists, offline
+calendar DB, secret plans for world domination) to the Truecrypt
+partition and keep the stick in your bag or pocket at all times. Now
+wherever you are and no matter what computer/OS you're on, you can put
+in the stick, install Truecrypt (warning - this will require
+superuser/admin rights on any OS) and access your Seriously Important
+Stuff=99.
+
+During install, it's probably worth choosing the "encrypt my home
+partition" option. Not necessary of course, but it's an added layer and
+if some punk ever breaks into your house and nicks all your electronics,
+at least they won't have access to your data as well as your goods.
+
+Linux clients for Dropbox and Google Drive now exist - sign yourself up
+for either or both and grab a free Ubuntuone account as well if you feel
+like it. Each will give you 2Gb or so of free online synced storage: not
+much, but perfect for keeping another redundant copy of that encrypted
+Truecrypt volume from above. General "The Cloud" suckiness not
+withstanding, if you encrypt properly before you upload they're
+perfectly serviceable and free backup tools.
+
+Your chosen Debian derivative (I think whichever one you choose
+eventually) will have seahorse included in the install - launch it via
+your preferred method (it's usually called "Passwords and Keys" if
+you're searching for in via Unity or other desktop launcher tool) and
+set yourself up with a GPG keypair. This can be used for many things,
+including right-click encrypt/decrypt/sign functionality and integration
+with your mail client - if you're using thunderbird, install the
+enigmail extension, evolution has built-in GPG support I think. Your GPG
+keypair is one of those things you MUST backup and must secure, just
+like any SSH keys you generate.
+
+I'd like to mention ssh keygen as well, but let's not get too
+complicated. The default Debian/Ubuntu SSH config is luckily pretty sane
+so you shouldn't need to mess with it, but many people (me included)
+would recommend you NEVER let root login over SSH. You should also
+really use SSH keys and ideally disallow passphrase authentication but
+for a home-only network you probably don't need to worry. If however,
+you decide to forward port 22 from your router to your workstation (so
+you can SSH to your home PC from anywhere on the internet) you really
+are going to have to put in the extra work to ensure you're secure. To
+avoid getting hammered by SSH brute force scripts, install fail2ban* or
+equivalent.
+
+Lastly, if you end up using Ubuntu for some insane reason, you'll have
+to get rid of the new Amazon 'feature'*.
+
+Ok, that was quite long in the end but hopefully for once I've actually
+provided straight forward, practical help instead of ranting at people :]
+
+Feel free to ask if you have any questions of course.
+
+Cheers
+
+
+
+*relevant terminal commands, in the correct order I think:
+
+sudo apt-get install keepass2
+sudo apt-get install clamav
+sudo apt-get install openssh-server (I still can't understand why this
+is not installed by default on Ubuntu, Mint, etc)
+sudo apt-get install gufw && gksudo gufw
+sudo apt-get install gparted && gksudo gparted (gparted is a graphical
+partitioning tool)
+sudo apt-get install fail2ban (it will set itself up with a basic but
+workable configuration out of the box)
+sudo apt-get remove unity-lens-shopping
+
+-- =
+
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

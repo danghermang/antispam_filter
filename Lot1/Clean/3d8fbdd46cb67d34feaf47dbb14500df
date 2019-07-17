@@ -1,0 +1,34 @@
+Subject:Re: cifrar trafico de red Local?????
+El d=EDa 13 de septiembre de 2012 08:55, Camale=F3n <noelamac@gmail.com> es=
+cribi=F3:
+>> Lo que pasa es que necesito lograr que el trafico que existe entre unos
+>> enlaces dedicados y la oficina sea "seguro".
+>
+> =BFEnlaces en la misma red? =BFY de qu=E9 tipo de red/tr=E1fico estamos h=
+ablando?
+>
+
+tecnicamente son en la misma red, pues son conexiones por enlace
+dedicado, pero que esta sin cifrar.
+
+
+>> La idea es: como puedo proteger esas conexiones que se realizan por
+>> medio de los enlaces dedicados o la red local?   es posible tener una
+>> VPN dentro de la misma LAN??????
+>
+> Hum... no entiendo lo que quieres hacer exactamente ni cu=E1l es tu
+> objetivo.
+>
+
+Lo que quiero hacer es convertir esos canales dedicados en canales
+seguros.  Si es posible hacerlo tambien en la red local seria
+excelente, pero al menos deseo poder asegurar los canales dedicados.
+
+Saludos.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ=UQG6im=rdfToQq1GKE9qn7Fh_81_PP-BYVX_3N8QOhBqf4g@mail.gmail.com
+

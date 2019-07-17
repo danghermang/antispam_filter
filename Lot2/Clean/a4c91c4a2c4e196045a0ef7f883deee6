@@ -1,0 +1,36 @@
+Subject:Re: wheezy sdcard et ext2
+Le 06/10/2012 18:00, Bruno a écrit :
+> Bonjour,
+>
+> Depuis un pc sous linux debian wheezy, je voudrai formater une carte µSD
+> de 2 Go en ext2, (j'en ai besoin car cette carte est utilisé par un
+> systeme linux embarqué qui utilise l'ext2)
+>
+> depuis root je lance donc la commande suivante
+> #mkfs -T ext2 -L LinuxArmv5 /dev/sdc1
+>
+> en réponse j'obtiens un warning qui me dit
+> le fs_type ext2 n'est pas défini dans mke2fsconf
+>
+> Existe t'il une solution?
+>
+> En attendant de vous lire, bon week end à tous.
+>
+> Bruno
+>
+En fait c'est le T majuscule qui pose problème, -t ext2 fonctionne.
+
+Quel est la commande qui permet de connaitre les caractéristiques d'un 
+système de fichier sous linux ?
+
+A+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50705CD4.3010600@free.fr
+

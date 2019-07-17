@@ -1,0 +1,37 @@
+Subject:Re: OT: la arquitectura correcta para un intel i5 es AMD64?
+El Thu, 18 Oct 2012 16:30:28 -0300, Paulo escribió:
+
+> Hola amigos, he leído por ahí que la arquitectura que se debe usar para
+> un procesador i5 de intel es la AMD64? 
+
+No tiene por qué ser así... puedes usar la i386 o amd64. Técnicamente 
+hablando, "correctas" son ambas, la "adecuada" dependerá de otros 
+factores (uso del equipo, cantidad de memoria RAM disponible...).
+
+> en varios foros he visto aquello, por eso les quisiera preguntar a
+> ustedes, ¿será cierto?, lo que pasa es que esos comentarios que
+> encontré son como del 2010 para atrás, ya están medios viejones y si
+>  bien no hablaban del i5 en particular decían que los procesadores
+> intel de 64 bit de ese momento podían usar la arquitectura AMD64.
+
+Suele depender del modelo exacto del procesador pero me parece que toda 
+la línea de la gama Core i5 admite las extensiones de 64 bits.
+ 
+> Además he leído que la arquitectura que yo creía la correcta IA64 es
+> sólo para procesadores Itanium o algo por el estilo.
+
+Sí, tienes más información aquí:
+
+http://www.debian.org/ports/index.en.html
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k741gm$7h2$19@ger.gmane.org
+

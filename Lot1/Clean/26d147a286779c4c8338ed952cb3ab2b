@@ -1,0 +1,75 @@
+Subject:Re: Otra de Squid, esta vez con HTTPS
+El d=EDa 2 de septiembre de 2012 09:17, PedroTron
+<porsiunculo@gmail.com> escribi=F3:
+> El d=EDa 31 de agosto de 2012 11:52, Hector Garcia
+> <hectorogarcia@gmail.com> escribi=F3:
+>> Buenas tardes.
+>>
+>> Aunque no s=E9 si sea =E9ste el lugar adecuado para plantear =E9sta duda=
+,
+>> acudo a ustedes como uno de mis =FAltimos recursos.
+>>
+>> Pretendo configurar un proxy transparente basado en Squid sobre Squeeze.
+>>
+>
+> Hola.
+>
+> Realmente vale la pena dar tantas vueltas simplemente para que puedan
+> acceder por https de modo transparente????????
+>
+> Hace tiempo me solicitaron poder navegar sin necesidad de estar
+> cambiando la configuracion del proxy cada vez que esten en la red, y
+> con un script .pac para configuracion automatica de proxy quedo listo
+> lo que necesitaban.
+>
+> saludos.
+>
+
+Hola Pedro.
+No hab=EDa tenido tiempo de agradecerte por el tip.
+No conoc=EDa la existencia de los archivos .pac
+Estuve haciendo pruebas exitosas desde chrome en squeeze, y desde IE6
+en XP por una VM
+
+Quit=E9 las opciones de intercept en squid.conf. Por Iptables,
+redireccion=E9 ambos puertos de mi inter=E9s al 6523 (donde escucha el
+squid), y establec=ED la m=E1scara NAT.
+
+iptables -t nat -A PREROUTING -i eth1_LAN -p tcp -m tcp --dport 80 -j
+REDIRECT --to-port 6523
+iptables -t nat -A PREROUTING -i eth1_LAN -p tcp -m tcp --dport 443 -j
+REDIRECT --to-port 6523
+iptables -t nat -A POSTROUTING -o eth0_WAN  -j MASQUERADE
+
+
+As=ED, cualquier petici=F3n que salga por http/https es filtrada por el
+squid, y enviada a logs. A=FAn no inicio pruebas de control de acceso.
+
+A=FAn me preocupa un tema: existe un grupo de usuarios que se conectan
+inalambricamente, pero que tambien se conectan a otros entornos en
+otras oficinas. Estos son mi raz=F3n de querer un proxy transparente. Ya
+investigar=E9 el uso del archivo .pac para discriminar la red.
+
+En este momento estoy enfocado en la actualizaci=F3n a la version 3.2,
+que trae unas funciones muy =FAtiles a mi necesidad.
+
+El tema es tan amplio como extenso, as=ED que sigo con mi tarea de
+investigaci=F3n y pruebas.
+
+Saludos!!!
+
+--=20
+Hector
+--
+El Pic no pudo Iniciar correctamente.
+Inserte el disco de arranque y presione cualquier pin para continuar...
+
+Linux Registered User #467500
+https://linuxcounter.net/user/467500.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CACzWLTJQKVAbo3DQY9Oz-D46n-mChHk3VoL6GtaFpEoaQ=Ormg@mail.gmail.com
+

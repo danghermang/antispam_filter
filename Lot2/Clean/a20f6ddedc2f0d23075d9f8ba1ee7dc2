@@ -1,0 +1,54 @@
+Subject:Re: [Translators-l] 2012 Editor Survey is about to launch
+Among the changes I made there was also the replacement of "editors"
+incorrectly translated as "=E9diteurs" in French. Because an "=E9diteur"
+is the person or organization that publishes the work made by authors.
+When authors are collective and redacting on the same work ("=9Cuvre")
+that will be published by the same "=E9diteur", they are called
+"r=E9dacteurs" (this may include those that contribute images, not just
+texts, and page layout, and the work performed by correctors).
+
+In the live interface of Wikimedia, the action "edit" is NEVER
+translated in French as "=E9diter" (even if this is frequently used, due
+to the other meaning of the term "editor" to designate the tool used
+to make the redaction and correction work), but as "modifier". I
+avoided anyway the term "modificateur" because it is too restrictive
+and removes the act of creation.
+
+I think that in the spirit of the project, "r=E9dacteur" (and the
+associated verb "r=E9diger") is more respectuous of the work performed
+on the project for which the survey is created. Som may think that the
+act of discussing in talk page is different, it is still a
+contribution, which is redacted (=3D working on a written piece of work,
+not exactly like the term "redact" used in English that means more the
+action of modifying the work made by someone else, including
+corrections) as well.
+
+I tried to use a consistant terminology as well. I fixed also the
+punctuation. And there shoul not longer be any
+syntax/grammar/orthograph errors.
+
+Please review if you don't agree with some choices, but try to be
+consistant. Thanks.
+
+2012/10/29 Philippe Verdy <verdy_p@wanadoo.fr>:
+> Yes but most of the typos were imported by a bot... the source of this
+> is not known.
+>
+> I've not seen these many typos last year.
+>
+> 2012/10/29 Federico Leva (Nemo) <nemowiki@gmail.com>:
+>> Historyh works as usual:
+>> https://meta.wikimedia.org/w/index.php?title=3DResearch:Wikipedia_Editor=
+_Survey_August_2012/Questions/fr&action=3Dhistory
+>> http://vs.aka-online.de/cgi-bin/wppagehiststat.pl?lang=3Dmeta.wikimedia&=
+page=3DResearch%3AWikipedia+Editor+Survey+August+2012%2FQuestions%2Ffr
+>> (but original translations by the bot come from the previous edition, if=
+ I
+>> remember correctly).
+>> Feedback to the authors of bad translations is surely useful; thanks for
+>> fixes.
+
+_______________________________________________
+Translators-l mailing list
+Translators-l@lists.wikimedia.org
+https://lists.wikimedia.org/mailman/listinfo/translators-l

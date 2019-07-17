@@ -1,0 +1,68 @@
+Subject:Re: [address-policy-wg] Another small IPv6 allocation policy change
+ proposal (sanity check email)...
+
+Hi Jan,
+
+On 11/8/12 10:10 AM, Jan Zorz @ go6.si wrote:
+> On 11/8/12 8:43 AM, Tore Anderson wrote:
+>> * Jan Zorz @ go6.si
+>>
+>>> We encountered LIRs that are operators and in the past they bought 
+>>> other
+>>> small operators and joined for example 3 LIRs under one and now they
+>>> have 3 x /32 (of course with that /29 as reserved space).
+>>>
+>>> When those LIRs asked for extension to /29 they received a response 
+>>> from
+>>> IPRAs, that they can extend to /29 *in total* as written in the policy.
+>>
+>> I assume you mean "that LIR" (i.e., the single consolidated LIR) here?
+>
+> Tore, hi
+>
+> Well, there are probably many consolidated LIRs here. I personally 
+> know of few of them. Nick showed some numbers (thnx) - but I would 
+> suggest to ask RIPE-NCC staff for the 
+> "consolidated-LIRs-with-multiple-/32" numbers - what is this number we 
+> are talking about.
+>
+
+In total there are 64 LIRs with more than one IPv6 allocation.
+
+Of them,
+- 52 LIRs have 2 IPv6 allocations each,
+- 5 LIRs have 4 IPv6 allocations each,
+- 4 LIRs have 3 IPv6 allocations each,
+- 2 LIRs have 5 IPv6 allocations each,
+- 1 LIR has 10 IPv6 allocations.
+
+This data is also publicly available at: 
+ftp://ftp.ripe.net/ripe/stats/membership/alloclist.txt
+
+Like has been mentioned on the mailing list, this is the result of 
+mergers and acquisitions over time.
+
+I hope this helps
+
+Andrea Cima
+RIPE NCC
+
+
+>>
+>> As I understand it, if the three LIRs had individually requested their
+>> /29 extension *before* being merged into one single LIR, they would have
+>> gotten them, and I don't believe that they would have had to give two of
+>> them back after the merger either. So they accidentally painted
+>> themselves into a policy corner by doing things in the wrong order.
+>>
+>> I would be happy to support such a proposal on the grounds that the
+>> order of things should not matter in this way.
+>
+> Good point, agree. We ran into small procedural inconvenience that 
+> should be fixed imho.
+>
+> Cheers, Jan
+>
+>
+
+

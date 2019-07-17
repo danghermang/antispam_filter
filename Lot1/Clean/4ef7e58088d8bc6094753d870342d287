@@ -1,0 +1,72 @@
+Subject:Re: [Flexradio] mike
+
+I use the Heil PR 781. It's smooth.
+George
+WA5KBH
+ 
+-----Original Message-----
+From: "Michael Walker" <va3mw@portcredit.net>
+Sent: Sunday, October 28, 2012 13:37
+To: flexradio@flex-radio.biz
+Subject: Re: [Flexradio] mike
+
+
+
+This is one of the most discussed area in just about any forum that is
+around a brand of transmitter.  :)
+
+The simple answer is any microphone that is designed for voice
+communications.  A mike that takes care of the audio shaping up to about
+3khz (about the point normal voice tails off).
+
+Certainly, Bob Heil has this figured out and if you  haven't, it is worth
+review Bob's studies on the Bell Labs and the shaping of voice
+communications.  There are other vendors of voice communications
+microphones, but I would want to see what their curves look like.
+
+Mike va3mw
+
+On Sun, Oct 28, 2012 at 2:18 PM, Dave Gomberg <dave1@wcf.com> wrote:
+
+> At 23:55 10/27/2012, AT&T Online Services wrote:
+>
+>> What is a good desk mike to use on the Flex-3000?
+>>
+>
+> I use the Yamaha CM500 recommended on this list (headset and boom mic,
+> about $50) and it works a treat.  Be sure to put a couple of ferrites
+> around the audio input to the F3K to kill any RF picked up in the wire.
+> You need to make your own adaptor to the RJ45 on the front panel for the
+> mic/headset/ptt switch.
+>
+> There is another headset, highly recommended, using a OVL750MV headset
+> with boom mic, that includes all the cable wiring done for you.  It is sold
+> by someone on the list, but I can't remember who.
+>
+>
+>
+> --
+> Dave Gomberg, San Francisco   NE5EE     Programming since 1961
+> All addresses, phones, etc. at http://www.wcf.com/ham/info.**html<http://www.wcf.com/ham/info.html>
+> ------------------------------**------------------------------**-----
+>
+> ______________________________**_________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/**mailman/listinfo/flexradio_**flex-radio.biz<http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz>
+> Archives: http://www.mail-archive.com/**flexradio%40flex-radio.biz/<http://www.mail-archive.com/flexradio%40flex-radio.biz/>
+> Knowledge Base: http://kc.flexradio.com/  Homepage:
+> http://www.flexradio.com/
+>
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

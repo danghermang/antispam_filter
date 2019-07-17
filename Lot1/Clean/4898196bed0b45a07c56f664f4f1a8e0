@@ -1,0 +1,26 @@
+Subject:[Koha] Problems with search in Armenian language
+Dear friends,
+
+ 
+
+we have recently installed koha 3.8.6. In the previous version we had
+problems with indexing Armenian language records. You have kindly suggested
+us to follow the instructions under this link
+*http://lists.katipo.co.nz/public/koha/2011-January/027171.html* and
+everything worked well. 
+
+ 
+
+Unfortunately, for the latest version this instruction does not work. We
+have made all necessary adjustment but the search engine still does not work
+properly. When searching for a record it simply retrievs all existing ones
+and only highlits the queired keyword. 
+
+ 
+
+Any suggestions?
+
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

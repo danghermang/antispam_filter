@@ -1,0 +1,163 @@
+Subject:Re: [Hsqldb-user] Why using coalesce on a foreign key,
+ results in a non executable statement ?
+
+I'm also running against the 2.2.9 version.
+
+Here are all the statements being issued:
+
+    insert 
+    into
+        document
+        (version, filename, hide, secured, list_order, id) 
+    values
+        (?, ?, ?, ?, ?, default)
+2012-12-10 13:50:24,800 TRACE  [BasicBinder] binding parameter [1] as
+[INTEGER] - 0 
+2012-12-10 13:50:24,801 TRACE  [BasicBinder] binding parameter [2] as
+[VARCHAR] - pdf1.pdf 
+2012-12-10 13:50:24,802 TRACE  [BasicBinder] binding parameter [3] as [BIT]
+- false 
+2012-12-10 13:50:24,805 TRACE  [BasicBinder] binding parameter [4] as [BIT]
+- false 
+2012-12-10 13:50:24,806 TRACE  [BasicBinder] binding parameter [5] as
+[INTEGER] - 2
+
+    insert 
+    into
+        document_category
+        (version, name, list_order, id) 
+    values
+        (?, ?, ?, default)
+2012-12-10 13:50:24,813 TRACE  [BasicBinder] binding parameter [1] as
+[INTEGER] - 0 
+2012-12-10 13:50:24,813 TRACE  [BasicBinder] binding parameter [2] as
+[VARCHAR] - images 
+2012-12-10 13:50:24,814 TRACE  [BasicBinder] binding parameter [3] as
+[INTEGER] - 1
+
+    insert 
+    into
+        document
+        (version, filename, hide, secured, list_order, category_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, default)
+2012-12-10 13:50:24,815 TRACE  [BasicBinder] binding parameter [1] as
+[INTEGER] - 0 
+2012-12-10 13:50:24,816 TRACE  [BasicBinder] binding parameter [2] as
+[VARCHAR] - image0.png 
+2012-12-10 13:50:24,816 TRACE  [BasicBinder] binding parameter [3] as [BIT]
+- false 
+2012-12-10 13:50:24,816 TRACE  [BasicBinder] binding parameter [4] as [BIT]
+- false 
+2012-12-10 13:50:24,817 TRACE  [BasicBinder] binding parameter [5] as
+[INTEGER] - 1 
+2012-12-10 13:50:24,817 TRACE  [BasicBinder] binding parameter [6] as
+[INTEGER] - 1
+
+    insert 
+    into
+        document
+        (version, filename, hide, secured, list_order, category_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, default)
+2012-12-10 13:50:24,820 TRACE  [BasicBinder] binding parameter [1] as
+[INTEGER] - 0 
+2012-12-10 13:50:24,820 TRACE  [BasicBinder] binding parameter [2] as
+[VARCHAR] - pdf2.pdf 
+2012-12-10 13:50:24,820 TRACE  [BasicBinder] binding parameter [3] as [BIT]
+- false 
+2012-12-10 13:50:24,821 TRACE  [BasicBinder] binding parameter [4] as [BIT]
+- false 
+2012-12-10 13:50:24,821 TRACE  [BasicBinder] binding parameter [5] as
+[INTEGER] - 3 
+2012-12-10 13:50:24,821 TRACE  [BasicBinder] binding parameter [6] as
+[INTEGER] - 1
+
+    update
+        document 
+    set
+        version=?,
+        hide=? 
+    where
+        id=? 
+        and version=?
+2012-12-10 13:50:25,062 TRACE  [BasicBinder] binding parameter [1] as
+[INTEGER] - 1 
+2012-12-10 13:50:25,062 TRACE  [BasicBinder] binding parameter [2] as [BIT]
+- true 
+2012-12-10 13:50:25,063 TRACE  [BasicBinder] binding parameter [3] as
+[INTEGER] - 2 
+2012-12-10 13:50:25,063 TRACE  [BasicBinder] binding parameter [4] as
+[INTEGER] - 0 
+
+    select
+        document0_.id as id99_,
+        document0_.version as version99_,
+        document0_.reference as reference99_,
+        document0_.description as descript4_99_,
+        document0_.filename as filename99_,
+        document0_.hide as hide99_,
+        document0_.secured as secured99_,
+        document0_.list_order as list8_99_,
+        document0_.category_id as category9_99_ 
+    from
+        document document0_ 
+    where
+        document0_.hide<>? 
+    order by
+        coalesce(document0_.category_id,
+        '0')
+
+And here is the Hibernate mapping based on which the table structure is
+created at runtime for the in memory database instance:
+
+    <class name="com.thalasoft.learnintouch.core.domain.Document"
+table="document" dynamic-insert="true" dynamic-update="true">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="native">sq_id_document</generator>
+        </id>
+        <version name="version" type="int">
+            <column name="version" not-null="true" />
+        </version>
+        <property name="reference" type="string">
+            <column name="reference" length="50" />
+        </property>
+        <property name="description" type="string">
+            <column name="description" />
+        </property>
+        <property name="filename" type="string">
+            <column name="filename" length="50" not-null="true" />
+        </property>
+        <property name="hide" type="boolean">
+            <column name="hide" not-null="true" />
+        </property>
+        <property name="secured" type="boolean">
+            <column name="secured" not-null="true" />
+        </property>
+        <property name="listOrder" type="int">
+            <column name="list_order" not-null="true" />
+        </property>
+        <many-to-one name="documentCategory"
+class="com.thalasoft.learnintouch.core.domain.DocumentCategory"
+cascade="all">
+            <column name="category_id" />
+        </many-to-one>
+    </class>
+
+
+-- 
+View this message in context: http://old.nabble.com/Why-using-coalesce-on-a-foreign-key%2C-results-in-a-non-executable-statement---tp34777430p34779291.html
+Sent from the HSQLDB - User mailing list archive at Nabble.com.
+
+
+------------------------------------------------------------------------------
+LogMeIn Rescue: Anywhere, Anytime Remote support for IT. Free Trial
+Remotely access PCs and mobile devices and provide instant support
+Improve your efficiency, and focus on delivering more value-add services
+Discover what IT Professionals Know. Rescue delivers
+http://p.sf.net/sfu/logmein_12329d2d
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

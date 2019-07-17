@@ -1,0 +1,27 @@
+Subject:Re: favicon.ico no se muestra en apache2
+2012/11/15 Jorge <jorgeska@gmail.com>
+>
+> Y parece que, al igual que en FF se ve el favicon perfectamente, incluso =
+sin necesidad del <link rel=3D...> (y tambi=C3=A9n se registra en el access=
+.log, al igual que en el FF). Luego ahora mismo el =C3=BAnico que da proble=
+mas es el IE.
+>
+> No s=C3=A9 qu=C3=A9 hacer, en los logs no tengo ning=C3=BAn error, y ahor=
+a mismo s=C3=B3lo parece fallar en IE. En fin, si no quieres no te rompas m=
+=C3=A1s la cabeza, compa=C3=B1ero. Si en el futuro (no muy lejano) descubro=
+ alguna explicaci=C3=B3n o cambia algo tratar=C3=A9 de comentarlo aqu=C3=AD=
+.
+>
+
+Limpiar la cache de IE?
+
+--
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjP-k=BMh8KMgbSrSuzS4Jjoii7BNpAhie4KAPxAGSWJVA@mail.gmail.com
+

@@ -1,0 +1,61 @@
+Subject:Re: Rv: Re: No funcionan su, sudo, ni otros..
+"Evgeny M. Zubok" <evgeny.zubok@tochka.ru> writes:
+
+> No tengo GNOME ni KDE, por eso no tengo muchos programas de esos
+> escritorios. Podrías pedir a los participantes de la lista con GNOME que
+> te den la lista de los archivos de sus sistemas que tienen el atributo
+> SUID. Este comando dará esa lista:
+>
+> find / -perm -4000 (para los binarios con SUID)
+> find / -perm -2000 (para los binarios con SGID)
+
+Es mejor restringirse a /bin, /sbin, /lib y /usr para ahorrar el tiempo:
+
+find /bin /sbin /lib /usr -perm -4000
+
+También se puede pedir a los listeros que compongan una lista de los
+paquetes que tiene los archivos con el atributo SUID:
+
+find /bin /sbin /lib /usr -perm -4000 -exec /usr/bin/dpkg -S {} \; | cut
+-d ':' -f 1 | sort | uniq
+
+Si la lista contiene los paquetes que no están instalados en tu sistema,
+puedes eliminarlos de la lista. Ahora puedes reinstalar esos paquetes
+para restablecer los permisos:
+
+'apt-get install --reinstall <la_lista_de_los_paquetes>
+
+o
+
+'aptitude reinstall <la_lista_de_los_paquetes>'
+
+Por si acaso, aquí es mi lista de paquetes (Debian Squeeze sin GNOME, no
+tengo gtksu y algunos otros paquetes de GNOME):
+
+cifs-utils
+cups-client
+dbus
+eject
+fuse-utils
+iputils-ping
+libc-bin
+login
+lpr
+mount
+openssh-client
+passwd
+pmount
+ppp
+pppoe
+sudo
+v4l-conf
+virtualbox-ose
+virtualbox-ose-qt
+xserver-xorg
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87k3tll5mu.fsf@tochka.ru
+

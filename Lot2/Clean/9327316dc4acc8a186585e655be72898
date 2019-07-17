@@ -1,0 +1,30 @@
+Subject:Re: Problemas al actualizar Debian 6
+luis@ida.cu writes:
+
+> Hola a todos
+>
+> Cuando trao d actualizar y llegando ya al final de la actualización
+> del sistema me da este error que acontinuación muestro
+
+...
+
+> W: Imposible obtener
+> http://security.debian.org/dists/squeeze/updates/main/source/Sources.gz
+> La suma hash difiere
+>
+> E: No se han podido descargar algunos archivos de índice, se han
+> ignorado, o se ha utilizado unos antiguos en su lugar.
+
+Hm, nunca ví este error al actualizar el Debian. Prueba a borrar los
+indices como root:
+
+# rm /var/lib/apt/lists/security.debian.org_dists_squeeze_updates_*Sources
+
+y luego 'apt-get update'.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87k3thjlr5.fsf@tochka.ru
+

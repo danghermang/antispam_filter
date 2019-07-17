@@ -1,0 +1,46 @@
+Subject:Re: Sin entorno =?iso-8859-1?q?gr=E1fico?= tras actualizar el kernel
+	en Debian Wheezy
+El Sat, 10 Nov 2012 00:58:57 +0000, José Manuel (EB8CXW) escribió:
+
+(...)
+
+> En segundo lugar viendo que yo no se explicarme bien para que me puedan
+> ayudar en este asunto, 
+
+Te explicas perfectamente pero en este tipo de situaciones las 
+explicaciones no son suficientes para poder diagnosticar correctamente.
+
+Te pongo el manido símil de médico-paciente:
+
+- Paciente: "Doctor, me duele la rodilla"
+- Doctor: "¿Ha realizado alguna actividad que le haya podido causar el 
+dolor?"
+- Paciente: "Sí, iba con la bici y me caído"
+- Doctor: "Tiene la zona muy inflamada y como veo que dobla la rodilla 
+con mucha dificultad voy a hacerle una radiografía para asegurarme de que 
+no haya ningún tendón roto"
+
+Es decir, tú puedes explicar al médico 100 veces que te has caído y cómo 
+cómo te has caído pero sólo una radiografía o resonancia magnética te va 
+a poder decir el alcance de la lesión y de qué forma se puede recuperar. 
+
+En informática pasa lo mismo.
+
+> he decidido borrar el nuevo kernel y quedarme con el antiguo (linux
+> 3.2.0-3-686-pae) que me esta funcionando bien (de momento, toquemos
+> madera para que siga así), hasta que aparezca uno nuevo que se
+> actualice sin problemas.
+
+Pues espero que no tengas que quedarte para siempre con ese kernel >:-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7logs$he7$2@ger.gmane.org
+

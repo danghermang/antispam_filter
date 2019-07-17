@@ -1,0 +1,24 @@
+Subject:Re: Cups - HP1606dn - Marche en USB mais pas en Ethernet
+Le Tue, 04 Dec 2012 22:20:03 +0100, Bzzz a écrit :
+
+> Personnellement, j'ai tjrs eu des PBs avec le svr ipp incorporé et c'est
+> pourquoi j'utilise jetdirect; par ailleurs, ma HPLJ2100 attend une
+> adresse IP par DHCP (RàZ dans ce mode à chaque action manuelle sur
+> l'imprimante,
+
+sur ma HP Laserjet 2200, je configure le réseau en IP fixe par son 
+interface web.
+À priori ça reste configuré en permanence. 
+
+J'utilise le service ipp :
+socket://192.168.10.103:9100
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50bf0fae$0$1960$426a74cc@news.free.fr
+

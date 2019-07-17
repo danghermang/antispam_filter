@@ -1,0 +1,31 @@
+Subject:Re: Nettoyage du spam: =?UTF-8?B?YW/Du3Q=?= 2012
+On Tue, 04 Sep 2012 19:24:21 +0200
+maderios <maderios@gmail.com> wrote:
+
+> De quoi tu causes ?
+> J'ai bien ce retour:
+>=20
+>   debian-user-french-spam@lists.debian.org
+>=20
+> Technical details of permanent failure:
+> Google tried to deliver your message, but it was rejected by the=20
+> recipient domain.
+=20
+Tu oublies =C3=A7a:
+> 550 550 5.1.1 <debian-user-french-spam@lists.debian.org>:
+> Recipient=3D address rejected: User unknown in virtual alias table (state=
+ 13).
+                               ^^^^^^^^^^^^
+--=20
+<afx> un clqvier qwerty en vqut deux
+<afx> ;erde
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120904194036.0dd9e019@anubis.defcon1
+

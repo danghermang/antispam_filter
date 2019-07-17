@@ -1,0 +1,77 @@
+Subject:Re: [Flexradio] Need Help Reducing Splatter
+Thanks Jim.
+
+I should have noted that I've been through 2-3 versions of the same process=
+, and just now went through it all again, everything "textbook" when done, =
+then focused on the equalization for various mics.
+
+Out of the box the Default profile and the 'recommended' HM-Pro results are=
+ definitely sub-optimal. I have to wonder why if this is a recommended mic =
+that the radio is not set optimally for it. My initial experience is excess=
+ive bass, mushy loud audio splattering. I set that aside to focus on the se=
+ttings for the dual-element GM-5 and came back to it later.
+
+Bottom-line - it's "all me". Turns out I have to cut everything at 500 Hz a=
+nd below WAY back for every mike. =A0The objective of course is to get the =
+important speech elements making power, and not waste power and spectrum on=
+ the non-essentials. =A0We really don't need any audio presence below 125 H=
+z on the 10-band EQ, and Low on the 3-band could be dropped completely. For=
+ bass voice 250 and 500 Hz settings need some attention - I cut 250 complet=
+ely and 500 -6db. =A0(it was pretty obvious from the 'barking' in the local=
+ audio system that what was getting through wasn't higher range.)
+
+I guess that's the good news - there IS decent equalization and the ability=
+ to adjust the bottom end of the transmit filtering to keep all that energy=
+ in check. Since I have a good idea of what my voice sounds like on pro-aud=
+io and studio gear I can compensate accordingly. (Not bragging that I have =
+the voice for radio...)=A0
+
+Indeed basic level setting is one necessary critical aspect, then audio adj=
+ustment steps should include equalization steps including waveform observat=
+ion to determine which voice qualities are present and affect the signal. A=
+ look at the Histogram and then the panadapter can tell reveal a lot! =A0 O=
+nce equalization is handled, looping back to the audio chain may be prudent=
+ so you're adjust the chain for "good audio" rather than the excess non-ess=
+ential voice energy you just reduced.
+
+
+
+________________________________
+ From: Jim Jannuzzo <jsquare@msn.com>
+To: k9gvf@yahoo.com; "flexradio@flex-radio.biz" <flexradio@flex-radio.biz> =
+
+Sent: Saturday, October 20, 2012 8:37 AM
+Subject: RE: [Flexradio] Need Help Reducing Splatter
+ =
+
+
+ =
+
+Jim,
+You need to balance all the components in your audio chain, so that one is =
+not u nderpowered and another is making up for it by being over-powered.=A0=
+ You're describing a classic audio overdrive problem in PSDR=A0that is easi=
+ly fixable with this software. =
+
+In essence, you start with a mic gain at about 35 and everything else in th=
+e audio chain=A0off.=A0 Then speaking in a normally strong=A0voice, you set=
+=A0each level (EQ, Leveler, DX, etc etc) so that the ALC level never exceed=
+s -1dB.=A0=A0 Takes about 5 minutes per TX profile. =
+
+The best source for this info is Rob W1AEX :=A0 http://www.w1aex.com/psdrga=
+in/psdrgain.html=A0=A0 =A0
+Jim KJ2P
+=A0
+
+> Date: Sat, 20 Oct 2012 07:36:06 -0700
+> From: k9gvf@yahoo.com
+> To: flexradio@flex-radio.biz
+> Subject: [Flexradio] Need Help Reducing Splatter
+>=A0
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.co=
+m/

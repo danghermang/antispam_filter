@@ -1,0 +1,35 @@
+Subject:Re: Upgrade auf 12.10, erste Erfahrungen
+Hallo Mechtilde,
+
+> Am 30.10.2012 00:13, schrieb Harald Weidner:
+
+> > VirtualBox unterst=FCtzt das Disk-Format von VMware. Die VM
+> > Einstellungen muss man neu anlegen, aber das sollte kein gr=F6=DFeres
+> > Problem sein.
+ =
+
+> Verstehe ich das richtig, dass ich das VMware Image auch auf
+> Virtualbox nutzen kann bzw bestimmte Tests durchf=FChren kann.
+
+Das geht in den meisten F=E4llen. Ich habe das schon mehrfach gemacht und
+habe bisher nur zwei mal Probleme bekommen. Ansonsten geht auch der
+Umweg =FCber Ex- und Import (OVF). Probleme gibt es gerne, wenn die
+Originalmaschine mit zu vielen Sicherungspunkten "gespickt" ist.
+
+Gru=DF,
+Michael
+
+-- =
+
+    ____        =
+
+   / / / / /__/      Michael H=F6hne /
+  /   / / /  /  mih-hoehne@web.de /
+ ________________________________/
+
+
+-- =
+
+ubuntu-de mailing list
+ubuntu-de@lists.ubuntu.com
+https://lists.ubuntu.com/mailman/listinfo/ubuntu-de

@@ -1,0 +1,48 @@
+Subject:Re: [Koha] Purchase request vanishes into thin air?
+On 8 November 2012 06:54, Elaine Bradtke <eb@efdss.org> wrote:
+> Koha version 3.08.05.
+>  I tested the purchase suggestion feature  - as I understand,  it should
+> come straight to the Koha admin e-mail address.  But it doesn't (I checked
+> the spam folder too).
+>
+> We have purchase suggestions enabled. . . OPAC user login is off, Anon.
+> suggestions is set to allow.
+> is there another setting somewhere I need to check?
+> The e-mailing of lists seems to work fine (with the From: being the Koha
+> admin e-mail address) so the problem isn't in the admin address.
+> It also makes me wonder if we are not getting error messages (we haven't
+> gotten any yet, either we're very lucky or something is awry???)
+> --
+
+Hi Elaine
+
+As far as I know purchase suggestions do not email the library.
+http://manual.koha-community.org/3.8/en/purchasesuggest.html
+
+When one is made, it should show up the staff interface for the
+librarians to deal with, are the suggestions not showing there?
+
+Chris
+
+> Elaine Bradtke
+> Data Wrangler
+> VWML
+> English Folk Dance and Song Society | http://www.efdss.org
+> Cecil Sharp House, 2 Regent's Park Road, London NW1 7AY
+> Tel    +44 (0) 20 7485 2206 (This number is for the English Folk Dance and
+> Song Society in London, England. If you wish to phone me personally, send
+> an e-mail first. I work off site)
+> --------------------------------------------------------------------------
+> Registered Company No. 297142
+> Charity Registered in England and Wales No. 305999
+> ---------------------------------------------------------------------------
+> "Writing about music is like dancing about architecture"
+> --Elvis Costello (Musician magazine No. 60 (October 1983), p. 52)
+> _______________________________________________
+> Koha mailing list  http://koha-community.org
+> Koha@lists.katipo.co.nz
+> http://lists.katipo.co.nz/mailman/listinfo/koha
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

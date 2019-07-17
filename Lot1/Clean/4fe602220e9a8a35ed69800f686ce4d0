@@ -1,0 +1,50 @@
+Subject:Re: problemas leyendo NTFS
+El Mon, 26 Nov 2012 11:03:19 -0300, Ricardo Delgado escribió:
+
+> lista vengo con otro problema
+
+Mejor si lo narras en formato texto.
+ 
+> al tratar de leer un disco en formato NTFS q con un pc con w$ si lo lee
+> 
+> ntfs_attr_pread_i: ntfs_pread failed: Error de entrada/salida Failed to
+> read NTFS $Bitmap: Error de entrada/salida NTFS is either inconsistent,
+> or there is a hardware fault, or it's a SoftRAID/FakeRAID hardware. In
+> the first case run chkdsk /f on Windows then reboot into Windows twice.
+> The usage of the /f parameter is very important! If the device is a
+> SoftRAID/FakeRAID then first activate it and mount a different device
+> under the /dev/mapper/ directory, (e.g. /dev/mapper/nvidia_eahaabcc1).
+> Please see the 'dmraid' documentation for more details.
+
+Pues eso, que tiene problemas porque:
+
+a) El volumen presenta inconsistencias → pasa a ese disco/partición un 
+scandisk y ya que estás un defragmentado desde un equipo con windows a 
+ser posible.
+
+b) El disco tiene problemas de hardware (¿sectores defectuosos?) → pasa 
+la utilidad del fabricante para que compruebe si el disco tiene algún 
+defecto físico.
+
+c) Se trata de un disco que es parte de un volumen RAID → tendrás que 
+usar dmraid para montar el disco.
+
+> probe en al menos 2 pc con linux wheezy
+> 
+> es un disco portable.
+
+Entonces podemos descartar el punto c).
+
+> es decir al insertar el mismo en mi pc me aparece ese mensaje.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8vu3a$vpg$3@ger.gmane.org
+

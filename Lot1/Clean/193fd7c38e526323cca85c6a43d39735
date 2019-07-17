@@ -1,0 +1,25 @@
+Subject:hs iptables et reverse dns
+bonjour,
+
+je pense que c'est une question qui =E0 surment =E9t=E9 parl=E9 100 fois =
+mais je=20
+trouve rien sur google
+  donc de fa=E7on clair, est-ce possible de banir les ips contenant toute=
+=20
+le m=EAme reverse ? par exemple, faire une r=E8gle qui dis toute les ip c=
+e=20
+terminant par rev.sfr.net sont banis d'office ?
+
+merci,
+
+jeremy
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/509A9A6A.2010902@prego-network.net
+

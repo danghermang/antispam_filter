@@ -1,0 +1,27 @@
+Subject:[Flexradio] BandTextEditor v1.0.0 Released
+A new utility, BandTextEditor.exe, has been released & is available for
+download from my website.
+
+This utility will allow you to safely edit the PowerSDR BandText table.  The
+BandText table contains all of the labels that are displayed below the VFO
+frequency in PowerSDR.  By editing the BandText table you can add new labels
+or change existing labels for any frequency or range of frequencies.
+
+The BandText Editor only works with versions of PowerSDR which use a .xml
+file for the database (v1.18.1 or later).  It will NOT work with the earlier
+versions that used a Microsoft Access database file.
+
+As with any utility that can modify the database, it is STRONGLY recommended
+that you make a back-up copy of your database BEFORE using the program.
+
+73, Ray, K9DUR
+http://k9dur.info
+
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

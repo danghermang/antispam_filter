@@ -1,0 +1,32 @@
+Subject:Re: wheezy sdcard et ext2
+On Sat, 06 Oct 2012 17:41:13 +0200
+Bruno <gasc.bruno@free.fr> wrote:
+
+> Depuis un pc sous linux debian wheezy, je voudrai formater une
+> carte =C2=B5SD de 2 Go en ext2, (j'en ai besoin car cette carte est
+> utilis=C3=A9 par un systeme linux embarqu=C3=A9 qui utilise l'ext2)
+>=20
+> depuis root je lance donc la commande suivante
+> #mkfs -T ext2 -L LinuxArmv5 /dev/sdc1
+
+D=C3=A9j=C3=A0, le type par d=C3=A9faut de la Cde mkfs est ext2; apr=C3=A8s=
+, mke2fs est
+plut=C3=B4t la Cde voulue; et pour terminer, /etc/mke2fs.conf ne contient
+plus d'infos sp=C3=A9cifiques =C3=A0 ext2 depuis longtemps puisqu'elles sont
+incluses par l'appel de la Cde mke2fs.
+L'appel d'un seul pgm par ses diff=C3=A9rents ptits noms a une =C3=A9norme
+importance...
+--=20
+<sim> t'habite ou l=C3=A9bourses ?
+<l=C3=A9bourses> mouhahaha, depuis le temps que j'attend qu'un
+            con me pose cette question :p
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121006180106.75c285b7@anubis.defcon1
+

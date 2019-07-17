@@ -1,0 +1,103 @@
+Subject:Re: [Hsqldb-user] sql.nulls_first=false is not working in
+	connection url
+Thanks for checking,
+
+I checked the code and fixed the persistence of the setting which did
+not work before.
+
+Fix committed and will be in the next snapshot jar. You can build the
+jar from SVN /base/trunk.
+
+Fred
+
+On Thu, Oct 4, 2012, at 10:13, Florin Cazacu wrote:
+> Hi,
+>
+> Thank you for the reply.
+>
+> I followed the instruction and I created a server.properties with
+> server.database.0=file:new_file;sql.nulls_first=false
+>
+> It works for new databases (as the documentation says). How do I start
+> the server/connect to an existing database and preserve
+> sql.nulls_first=false without executing "set database sql nulls first
+> false" each time I restart the sql server or connect to it (I assume
+> set database is session independent but I'm not sure). I tried
+> manually editing database.script file, but the setting is overwriten.
+>
+> Thank you again, Florin Cazacu.
+>
+>
+> On Wed, Oct 3, 2012 at 3:54 PM, Fred Toussi
+> <fredt@users.sourceforge.net> wrote:
+> > You need to use the sql.null_first=false on the URL of the database
+> > in Server properties.
+> >
+> > This URL is the server.database.0 property (or any other database
+> > number). The way you have used it has no effect.
+> >
+> > Fred
+> >
+> > On Wed, Oct 3, 2012, at 13:25, Florin Cazacu wrote:
+> >> Hello,
+> >>
+> >> I use in connection url sql.nulls_first=false parameter but it
+> >> looks like the nulls are still first. If I user SET DATABASE SQL
+> >> NULLS FIRST false, the results are ok, with nulls last. Am I doing
+> >> something wrong or is there any other way to set nulls_first  =
+> >> false without altering my order by queries?
+> >>
+> >> I tried the url with hsqldb 2.2.9 and the DatabaseManagerSwing,
+> >> with this url jdbc:hsqldb:hsql://localhost/my;sql.nulls_first=false
+> >>
+> >> The server is started in java with this code            hsqlServer
+> >> = new org.hsqldb.Server();            hsqlServer.setDatabaseName(0,
+> >> "my");            hsqlServer.setDatabasePath(0, "file:my");
+> >> hsqlServer.start();
+> >>
+> >> Thank your help, Florin Cazacu
+> >>
+> >> -----------------------------------------------------------------
+> >> -----
+> >> --------
+> >> Don't let slow site performance ruin your business. Deploy New
+> >> Relic APM Deploy New Relic app performance management and know
+> >> exactly what is happening inside your Ruby, Python, PHP, Java, and
+> >> .NET app Try New Relic at no cost today and get our sweet Data Nerd
+> >> shirt too! http://p.sf.net/sfu/newrelic-dev2dev
+> >> _______________________________________________
+> >> Hsqldb-user mailing list Hsqldb-user@lists.sourceforge.net
+> >> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+> >
+> > --------------------------------------------------------------------
+> > ----------
+> > Don't let slow site performance ruin your business. Deploy New Relic
+> > APM Deploy New Relic app performance management and know exactly
+> > what is happening inside your Ruby, Python, PHP, Java, and .NET app
+> > Try New Relic at no cost today and get our sweet Data Nerd shirt
+> > too! http://p.sf.net/sfu/newrelic-dev2dev
+> > _______________________________________________
+> > Hsqldb-user mailing list Hsqldb-user@lists.sourceforge.net
+> > https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+>
+> ----------------------------------------------------------------------
+> --------
+> Don't let slow site performance ruin your business. Deploy New Relic
+> APM Deploy New Relic app performance management and know exactly what
+> is happening inside your Ruby, Python, PHP, Java, and .NET app Try New
+> Relic at no cost today and get our sweet Data Nerd shirt too!
+> http://p.sf.net/sfu/newrelic-dev2dev
+> _______________________________________________
+> Hsqldb-user mailing list Hsqldb-user@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/hsqldb-user
+
+------------------------------------------------------------------------------
+Don't let slow site performance ruin your business. Deploy New Relic APM
+Deploy New Relic app performance management and know exactly
+what is happening inside your Ruby, Python, PHP, Java, and .NET app
+Try New Relic at no cost today and get our sweet Data Nerd shirt too!
+http://p.sf.net/sfu/newrelic-dev2dev
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

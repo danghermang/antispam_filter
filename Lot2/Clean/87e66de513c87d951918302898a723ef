@@ -1,0 +1,88 @@
+Subject:Re: PC =?UTF-8?B?w6l0ZWludA==?= qui consomme
+On Fri, 2 Nov 2012 17:27:28 +0100
+Fran=C3=A7ois Boisson <user.anti-spam@maison.homelinux.net> wrote:
+
+>=20
+> C'est un arr=C3=AAt, pas un suspend et non =C3=A7a n'est pas un suspend2r=
+am mais si la
+> consommation =C3=A9lectrique correspond presque.
+
+Ben justement, j'ai eu une fois le cas (mais en hibernation) o=C3=B9 c'=C3=
+=A9tait RAM
+au lieu de DISK.
+=20
+> > Je ne pense pas que =C3=A7a soit ACPI.
+>=20
+> Pourquoi? Si quelque chose reste allum=C3=A9, =C3=A7a d=C3=A9pend de la g=
+estion ACPI.
+=20
+C=C3=A9pakesk=C3=A9jvoul=C3=A8dir: Ok, =C3=A7a d=C3=A9pend de l'ACPI, mais =
+le comportement de l'ACPI
+d=C3=A9pend aussi de ce que lui dit les drivers.
+
+>=20
+> C'est surtout apr=C3=A8s que le BIOS ait r=C3=A9initialis=C3=A9 les p=C3=
+=A9riph=C3=A9riques et donc =C3=A0
+> l'arr=C3=AAt, ceux ci sont =C3=A9teints normalement.
+=20
+C'est justement la raison pour laquelle je regarderai vers les drivers, et =
+ce
+thread semble me donner raison (3=C3=A8me tiers: le WOL est ON, mais ACPI n=
+e le
+refl=C3=A8te pas!): http://ubuntuforums.org/archive/index.php/t-1729782.html
+
+Et celui-ci d=C2=B0 (vers la fin):
+https://bugs.launchpad.net/ubuntu/+source/linux/+bug/110784
+
+> > Pt=C3=AAt un truc: un watch/une loop toutes les secondes du hard (genre=
+ hwinfo,
+> > ou autre parce que celui-ci est lent) qui balance le r=C3=A9sultat dans=
+ un
+> > fichier; =C3=A7a peut pt=C3=AAt t'aider =C3=A0 trouver ce qui n'est pas=
+ arr=C3=AAt=C3=A9.
+>=20
+> Mais la machine ne tourne pas, que veux tu voir dans ce fichier?? C'est un
+> =C2=ABshutdown=C2=BB pas une hibernation.
+=20
+Ben lors du shutdown, =C3=A7a peut pt=C3=AAt logger ce qui est rest=C3=A9 O=
+N avant extinction
+(=C3=A0 condition, bien s=C3=BBr que le machin agisse (ou pas) avant d=C3=
+=A9montage du FS ou
+=C3=A9criture du fichier).
+
+>=20
+> Comme je l'ai dit dans mes messages, j'ai tout essay=C3=A9 de ce cot=C3=
+=A9 y compris en
+> blacklistant les modules  WIFI, bluetooth, USB et r=C3=A9seau et =C3=A7a =
+n'est pas une
+> hibernation mais un shutdown, tout est arr=C3=AAt=C3=A9 =C3=A0 l'arr=C3=
+=AAt (en th=C3=A9orie) et tout
+> est recharg=C3=A9 au d=C3=A9marrage. C'est pour cela que je m'oriente sur=
+ le shutdown.
+
+Celui-ci a le m=C3=AAme PB (et la m=C3=AAme solt!):
+http://allencch.wordpress.com/2012/08/10/linux-shutdown-battery-draining-pr=
+oblem-solved/
+
+Ceci peut pt=C3=AAt aussi t'aider:
+https://lesswatts.org/index.php
+
+BTW, est-ce que: USB Sleep & Charge est bien d=C3=A9sactiv=C3=A9 ds le BIOS?
+
+--=20
+K-Mille> te moque pas, tu es un geek donc on sait =C3=A0
+         quoi se r=C3=A9sume ta vie sexuelle ^^
+RuTT> =C3=A0 quoi se r=C3=A9sume ma vie sexuelle ? 18 Go.
+RuTT> en .ZIP hein
+K-Mille> donc chez toi les pr=C3=A9liminaires c'est de la d=C3=A9compressio=
+n ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121102180234.49f440c8@anubis.defcon1
+

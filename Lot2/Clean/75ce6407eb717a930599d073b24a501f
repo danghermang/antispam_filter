@@ -1,0 +1,29 @@
+Subject:Fallo con la hora del sistema
+Intentar=E9 ser breve y directo: esto que les muestro es cuasi reciente
+(son las 22:04 seg=FAn mi celular Android, pero dice 17:35 mi compu):
+http://twitpic.com/bgszsi
+
+La sub=ED ac=E1 para no colapsar las redes en sitios que no carguen correo
+con HTML. Y quiero saber: =BFc=F3mo puedo hacer para que me lea la hora
+correcta? Ya lo intent=E9 con
+hwclock --set --date "2012-11-26 22:04"
+[OK]
+date --set "2012-11-26 22:04"
+lun nov 26 22:04:00 VET 2012
+root@debian-LT(...)
+
+Pero quiero que sea permanente. =BFC=F3mo poder hacer esto? Si alguna
+respuesta es a causa de la pila del BIOS, entonces tendr=E9 un gran y
+enorme problema, porque no s=E9 abrir mi laptop. Agradecido por alguna
+ayuda que me faciliten.
+--=20
+Buen uso de las listas (como se ven en Debian):
+http://wiki.debian.org/es/NormasLista
+Ayuda para hacer preguntas inteligentes: http://is.gd/NJIwRz
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALEvJmRW5HEvLiX-6Z3wy5fh+4YnF5scyL-DSxWuYaEZcUVT9A@mail.gmail.com
+

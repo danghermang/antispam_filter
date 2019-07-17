@@ -1,0 +1,156 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<yammaway@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <6921@moon-ray.com>
+Received: (qmail 28051 invoked by uid 89); 9 Dec 2012 19:17:27 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 9 Dec 2012 19:17:27 -0000
+Delivery-date: Sun, 09 Dec 2012 11:15:48 -0800
+Received: from mail4.moon-ray.com ([209.237.236.165]) helo=mail4.moon-ray.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1ThmLl-0000BS-1d on interface=184.105.182.43
+	for yammaway@activ8.net.au; Sun, 09 Dec 2012 11:15:46 -0800
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=moon-ray.com;
+ h=Date:From:To:Reply-to:Subject:Sender:MIME-Version:Content-Type:List-Unsubscribe:Message-ID; i=6921@moon-ray.com;
+ bh=/51+AKJXAY0tPQPw2cbcTeVmx/o=;
+ b=npPv8g/QOLwBvim0MI0ahUpsetQZElwggPSQVpas5/+yH+0ZgvFokcwM4NSyXulhgDb9Citp6uiK
+   pLcMci2GxMF3PlSAwwEnx0a2PTdCDWFE6VaarB/i6FArJjooAHLX4YCnfJb/0w75XAf4HcZ3+ztb
+   2/B4LokXrutmeenSjS4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=default; d=moon-ray.com;
+ b=STmEtEGDZJtmruNxvm34k3iFto80EyaZ0Q4p3FPCmV3l4qLddxYmZBL+x8SWh8Zx+NzeeUdkerDg
+   8AppMXXPpq/oe3lVDHnocFM5Baw0Vk2w6zLB9agYaF3gjvVASVic3clTQMSmCfGgoZOzf12TOHfv
+   65MM1sooMs/Qo2Icegs=;
+Date: Sun, 9 Dec 2012 14:15:33 -0500
+From: * =?ISO-8859-1?Q?T=2EJ=2EL=2E?= <admin@ccc-server.com>
+To: Elaine <yammaway@activ8.net.au>
+Reply-to: admin@ccc-server.com
+Subject: Hey =?ISO-8859-1?Q?Elaine=2E=2E=20ANSWER=20THREE=20QUESTIONS=20AND=20EARN?=
+ =?ISO-8859-1?Q?=20BIG?=
+X-intended-MTA: default
+X-Mailer:Moonray Mailer [version 0.2]
+Sender: 6921@moon-ray.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1_53b699f60308379233cb2b1a0e55ab7e"
+List-Unsubscribe: <mailto:abuse@sendpepper.com>,<http://jacobandrews.ontraport.net/u/NjkyMS8yLzg5MjQ0My8wLzMyMS8wL2ZiOGM1MTM0MjhmYzc0YzBhMGY3YjkxMWY3NzFhZmUw>
+X-AAID/CID: 2/6921
+X-MRID: 2.6921.892443.24080578.321.0.0
+X-unsubscriber-link: <http://jacobandrews.ontraport.net/u/NjkyMS8yLzg5MjQ0My8wLzMyMS8wL2ZiOGM1MTM0MjhmYzc0YzBhMGY3YjkxMWY3NzFhZmUw>
+Message-ID: <0.1.6F.2A6.1CDD641900CCD5E.0@mail4.moon-ray.com>
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: 6921@moon-ray.com
+X-Relay-Countries: us
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd1.ctyme.com
+ Spam Tests:
+ * -0.0 RP_MATCHES_RCVD Envelope sender domain matches handover relay domain
+ *  2.0 CT_OFFER_3 BODY: Offers you Something (3)
+ *  2.5 CT_DO_IT_TODAY BODY: Do it Today
+ *  1.0 CREDIT_CARD BODY: Credit Card Offers
+ * -0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/, no
+ *      trust
+ *      [209.237.236.165 listed in list.dnswl.org]
+ *  1.6 HTML_IMAGE_ONLY_24 BODY: HTML: images with 2000-2400 bytes of words
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ * -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+ *  0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily
+ *      valid
+X-Spam-Class: SPAM-LOW
+X-Sender-Host-Address: 209.237.236.165
+X-Sender-Host-Name: mail4.moon-ray.com
+X-Spam-Flag: yes
+
+--b1_53b699f60308379233cb2b1a0e55ab7e
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+So... Ok...
+
+Three questions are all that stand between you
+and a fantastic new revolutionary system that
+quickly earns you cash 24/7.
+ 
+Interested? Then check out this video NOW. (http://jacobandrews.ontraport.net/c/2/6921/24080578/1/164/892443/1355080531) 
+ 
+Earn so many commissions that credit card debt
+will be an unpleasant memory.
+ 
+This software finally gives you the financial security
+you deserve.
+ 
+Imagine having the money and free time you’ve
+always dreamed of in just a FEW MINUTES.
+ 
+Or go back to blogging and hustling for j.v. affiliates.
+ 
+Financial security can start today.
+ 
+But this offer is on fire. People want in. (http://jacobandrews.ontraport.net/c/2/6921/24080578/2/164/892443/1355080531) 
+ 
+See you inside!
+
+
+
+
+
+///
+
+If you wish to stop receiving our emails or change your subscription options, please visit this link:
+http://jacobandrews.ontraport.net/u/NjkyMS8yLzg5MjQ0My8wLzMyMS8wL2ZiOGM1MTM0MjhmYzc0YzBhMGY3YjkxMWY3NzFhZmUw
+
+MTS Advertise OU, Punane 19-18, Estonia , 13611
+
+Delivered by MoonRay
+
+--b1_53b699f60308379233cb2b1a0e55ab7e
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+</head>
+<body>
+<span style="font-size:14px;"><span style="font-family: verdana,geneva,sans-serif;"><strong>So... Ok...</strong><br />
+<br />
+<strong>Three questions</strong> are all that stand between you<br />
+and a fantastic new revolutionary system that<br />
+quickly earns you cash 24/7.<br />
+&nbsp;<br />
+<a href='http://jacobandrews.ontraport.net/c/2/6921/24080578/1/164/892443/1355080531'><strong>Interested? Then check out this video NOW.</strong></a><br />
+&nbsp;<br />
+Earn so many commissions that credit card debt<br />
+will be an unpleasant memory.<br />
+&nbsp;<br />
+This software finally gives you the financial security<br />
+you deserve.<br />
+&nbsp;<br />
+Imagine having the money and free time you&rsquo;ve<br />
+always dreamed of in just a FEW MINUTES.<br />
+&nbsp;<br />
+Or go back to blogging and hustling for j.v. affiliates.<br />
+&nbsp;<br />
+Financial security can start today.<br />
+&nbsp;<br />
+<a href='http://jacobandrews.ontraport.net/c/2/6921/24080578/2/164/892443/1355080531'><strong>But this offer is on fire. People want in.</strong></a><br />
+&nbsp;<br />
+See you inside!<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+///</span></span><br /><br /><div style='padding-top:10px;'>If you wish to stop receiving our emails or change your subscription options, please <a style='' href='http://jacobandrews.ontraport.net/u/NjkyMS8yLzg5MjQ0My8wLzMyMS8wL2ZiOGM1MTM0MjhmYzc0YzBhMGY3YjkxMWY3NzFhZmUw'>Manage Your Subscription</a><br/>MTS Advertise OU, Punane 19-18, Estonia , 13611</div><br /><a href='http://jacobandrews.ontraport.net/c/2/6921/24080578/3/182/892443/1355080531'><img src='http://jacobandrews.ontraport.net/r' border='0'></a></div><img height='1' width='1' src='http://jacobandrews.ontraport.net/o?did=0&stn=0&cid=892443&mid=24080578&aid=6921&aaid=2' />
+</body>
+</html>
+
+--b1_53b699f60308379233cb2b1a0e55ab7e--
+

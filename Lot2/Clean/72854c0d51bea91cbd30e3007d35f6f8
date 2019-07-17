@@ -1,0 +1,18 @@
+Subject:Re: catfish, strigi, find, locate et Cie ...
+Le lundi 10 décembre 2012 à 15:41 +0100, Bzzz a écrit :
+> Normalement, locate s'adresse uniquement aux fichiers system,
+> à moins de modifier sa conf.
+> Par ailleurs, il ne doit pas dire qu'erreur fatale, il doit
+> sans doute ajouter autre chose dans le msg d'erreur... 
+
+Par défaut, mlocate est utilisé et cherche partout.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1355154760.4329.23.camel@azuki.jisui
+

@@ -1,0 +1,36 @@
+Subject:Re: How to squid3+ssl
+El Wed, 07 Nov 2012 09:55:19 -0500, Micky escribió:
+
+> Colega si escribi 2 veses lo mismo pido disculpa, no fue mi intencion,
+> es que no encuentro nada que me hable al respecto porque todo me esta
+> denegado.
+
+Deberíais crearos alguna wiki local a la que podáis acceder con toda la 
+documentación que os vamos enviando...
+
+> Uso debian squeeze squid3
+> 
+> y si es por eso que necesito algun how to por que el soporte esta
+> desactivado.
+
+Te mando en correo aparte este enlace donde se explica cómo recompilar 
+el paquete de Debian para habilitar el soporte SSL:
+
+Serveur proxy Squid3 avec SSL (rebuild debian squeeze package)
+http://www.mercereau.info/serveur-proxy-squid3-avec-ssl-rebuild-debian-squeeze-package/
+
+Aunque está en francés se entiende bastante bien ya que los comandos 
+están en inglés (básicamente añadir el parámetro "--enable-ssl" en 
+el archivo de reglas y reconstruir el paquete).
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7duj0$bcr$6@ger.gmane.org
+

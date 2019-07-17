@@ -1,0 +1,68 @@
+Subject:[Hsqldb-user] FYI: Query timeout "limited" to 9.1 hours ( 32767
+ seconds )
+
+Hi,
+
+I work in a large multinational software development company where we
+develop enterprise level J2EE applications and though I'd share this
+"gotcha".
+
+Typically we use Oracle & DB2 and process huge volumes of data.
+But for test purposes I tried running our product against HSQLDB and a
+minimal set of data.
+
+We have our transaction timeouts set in our Spring definition files for
+36000 seconds, ie. 10 hours.
+
+But I immediately got HSQLDB JDBC failures with Error -423, SQL State S1000,
+invalid jdbc parameter anytime I tried writing anything to the database. 
+Reading was okay.
+
+Eventually I looked into the HSQLDB code and found that it the HSQLDB Query
+timeouts were limited to less than Short.MAX_VALUE, which is 32767.
+That translates to around 9.1 hours.
+
+For me, the problem was obscured by JBoss, Spring, EhCache and HSQLDB.
+And I made the change in a Spring bean definition, changing 36000 to 32766.
+
+<bean id="transactionRequireNewProxyTemplate" abstract="true"
+       
+class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+
+    <property name="transactionManager">
+    	<ref bean="transactionManager"/>
+    </property>
+    
+    <property name="transactionAttributes">    	
+      <props>
+        <prop
+key="*">PROPAGATION_REQUIRES_NEW,-MyCompanyNameBaseException,timeout_36000</prop>
+      </props>
+    </property>
+  </bean> 
+
+I'm not sure why there's really such a short query timeout on HSQLDB.
+But for us, when we swapped to HSQLDB it hit us.
+
+Ps. it's a powerful little database and I love the Oracle compatibility
+mode... keep up the great work!
+
+regards,
+Owen
+
+
+-- 
+View this message in context: http://old.nabble.com/FYI%3A-Query-timeout-%22limited%22-to-9.1-hours--%28-32767-seconds-%29-tp34542750p34542750.html
+Sent from the HSQLDB - User mailing list archive at Nabble.com.
+
+
+------------------------------------------------------------------------------
+Don't let slow site performance ruin your business. Deploy New Relic APM
+Deploy New Relic app performance management and know exactly
+what is happening inside your Ruby, Python, PHP, Java, and .NET app
+Try New Relic at no cost today and get our sweet Data Nerd shirt too!
+http://p.sf.net/sfu/newrelic-dev2dev
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

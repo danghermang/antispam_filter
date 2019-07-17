@@ -1,0 +1,35 @@
+Subject:Re: =?iso-8859-1?q?=BFLinux=2C_para_dise=F1o_web_y_dise=F1o?=
+	grafico?
+El Wed, 12 Sep 2012 12:30:28 +0200, Altair Linux escribió:
+
+(hay que recortar las respuestas...)
+
+> Por la parte de tener un windows para comprobar la web desde internet
+> explorer yo soy de opinión más "radical" y pienso que, si se detecta que
+> el usuario usa internet explorer, pues se le manda a una pantalla
+> diciendole que use firefox (por ejemplo) diciendo que es gratuito y más
+> seguro. Dado que Microsoft tiende a ignorar los estándares en sus
+> productos, pues habra que ignorar esos productos en medida de lo
+> posible.
+
+Con esa actitud sólo vas a conseguir que la gente no entre a página y no 
+porque no quiera sino porque no pueda.
+
+Me parece bien que te preocupes de los estándares web (ese es el camino a 
+seguir) pero una cosa es generar código normalizado y validado y otra muy 
+distinta es restringir artificialmente las opciones de los usuarios. 
+
+Lo que sugieres es como volver a una de las etapas más oscuras y 
+desastrosas del desarrollo web lo cual es una locura :-/
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2q2n0$3v1$3@ger.gmane.org
+

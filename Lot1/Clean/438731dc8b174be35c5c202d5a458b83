@@ -1,0 +1,67 @@
+Subject:dns+mrtg
+
+Salu2 lista.
+
+Estoy tratando de graficar las consultas de mi dns hacia mrtg.  esto es lo que
+he echo hasta ahora y no veo resultado a ver si me ayudan
+tengo un scrip creado en /etc/mrtg/dns.pl con esto dentro:
+
+#!/usr/bin/perl
+
+$dummy = `rm -rf /var/cache/bind/named.stats`;
+$dummy = `/usr/sbin/rndc stats`;
+$data = `tail -3 /var/cache/bind/named.stats | head -1 | cut -f 2 -d " "`;
+#$data = `tail -3 /var/cache/bind/named.stats | head -1 |cut -d ' ' -f 2 | cut
+-f 2 -d " "`;
+print $data;
+print $data;
+print "0"
+
+y en mrtg.cfg esto:
+
+#--CONSULTAS AL DNS--#
+Target[dns]: `/etc/mrtg/dns.pl`
+PageTop[dns]: <h1>Consultas Al DNS</h1>
+Options[dns]:
+gauge,nopercent,growright,nobanner,noinfo,nolegend,pngdate,perhour,noi
+#Options[dns]: growright,perhour,noi
+MaxBytes[dns]: 1000000
+Title[dns]: Peticiones DNS
+YLegend[dns]: pet/hora
+LegendO[dns]: Peticiones DNS
+Legend2[dns]: Peticiones DNS a la hora
+ShortLegend[dns]: /hora
+
+aparece la tabla via web pero nada que me grafica, quisiera saber que estoy
+haciendo mal. uso debian squeeze
+
+Gracias de antemano
+##--Micky--##
+
+######################################################
+  Administrador de Red: Maikel Manuel Mtnez Rguez
+  Provincia: Camaguey, Cuba
+  Politecnico Informatico: Maximo Gomez Baez
+  Nodo :ipicmw.rimed.cu
+  http://www.ipicmw.rimed.cu
+  jabber: micky@jabber.ipicmw.rimed.cu
+  correo: maikel.manuel@ipicmw.rimed.cu
+######################################################
+
+---------------------------------------------------
+Ya estamos en Congreso PEDAGOGIA 2013
+"Encuentro por la unidad de los educadores". 
+Palacio de Convenciones de La Habana, del 4 al 8 de febrero.
+Favor de consultar detalles en:
+www.pedagogiacuba.com
+Esto es un mensaje de la Red Informatica del  Ministerio de Educacion de la
+Republica de Cuba
+---------------------------------------------------
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/37340.178.40.0.115.1351979974.squirrel@webmail.ipicmw.rimed.cu
+

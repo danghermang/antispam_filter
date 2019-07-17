@@ -1,0 +1,25 @@
+Subject:Re: RFS: xpra/0.3.10+dfsg-1~bpo60+1
+On Sun, 30 Sep 2012 17:26:27 Evgeni Golov wrote:
+> On 09/29/2012 11:19 PM, Dmitry Smirnov wrote:
+> > Is it mainly because we don't want to allow version higher than
+> > testing in backports?
+> 
+> It's because there is no upgrade path from squeeze+backports to wheezy
+> if backports contains a greater version than wheezy.
+
+Right, this makes sense and it is under "Basic Rules" as well.
+
+I can't think of anything to qualify for exception so at the moment there is 
+no hope for update unless release team unblock 0.3.10.
+
+Thank you.
+
+Cheers,
+Dmitry.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201210010836.23557.onlyjob@member.fsf.org
+

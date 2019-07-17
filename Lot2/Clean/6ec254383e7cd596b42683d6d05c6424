@@ -1,0 +1,30 @@
+Subject:[Koha] Problems upgrading to 3.8
+Hi,
+
+This is going sound pathetic, and stupid, but I'm in need of some guidance. It has been quite some time since I've tried to use koha.
+
+I've been upgrading my koha from 3.00 towards 3.8 via the tarball method.
+
+I was attempting to be good, and going in smallish steps so 3.00 to 3.02 to 3.04 to 3.06 and then to 3.8.
+
+In between each upgrade I was trying a few searches to make sure that the books end of the db was intact and then backing up the DB.
+
+After the 3.06 step it seemed to be working.
+
+But, after the 3.8 step suddenly most of the books seem to have vanished.
+
+I'd put it down to noticing in the upgrade notes some extra steps that I didn't see in the 3.6 or 3.4 notes (the ones about removing the duplicated item details). So I dropped the DB and reloaded the backup from the 3.6 step and tried without these steps.
+
+I've also now tried the original backup too, without success.
+
+I'm not sure at this point if it's the items that have vanished or the records too. Yes, I have run rebuild_zebra -b -r as the koha user (several times no luck).
+
+So I suppose I'm looking for guidance on 
+a) working out what is going on.
+b) how to get normality back again.
+
+-ramon.
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

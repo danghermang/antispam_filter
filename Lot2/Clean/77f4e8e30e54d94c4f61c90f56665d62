@@ -1,0 +1,37 @@
+Subject:Re: [LUG] Linux - and security
+On Sat, Nov 3, 2012 at 4:29 PM, Tony Sumner wrote:
+> I use ftp to send stuff to my website. If I should stop what else is there?
+
+There's sftp, which uses ssh, but I don't think many hosts offer that
+these days.
+
+Some CMS's offer web-based file uploads, but this generally means
+directories have to be writeable by the web server, which isn't ideal.
+
+In most cases, ftp is your only option really. The most important
+thing is never to use it:
+- over unsecured wifi;
+- on someone else's computer.
+
+And, ideally, you shouldn't make your computer remember your password.
+
+That should reduce the chances of someone being able to get hold of
+your credentials significantly.
+
+No to zero though, so if there's a way for you to see when someone has
+uploaded files (using server logs or something), it's a good idea to
+regularly check, and contact your host (and change your password) if
+you find someone else has had access.
+
+Martijn.
+
+PS if you are able to use sftp, all of the above still applies (except
+for the unsecured wifi): the most likely attack scenarios are through
+keyloggers recording you entering your password and through the
+password being stored in a predictable place on the computer. Sftp
+helps against neither of these.
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

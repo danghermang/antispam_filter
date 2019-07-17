@@ -1,0 +1,55 @@
+Subject:Re: [Koha] Software error when trying to issue books to some patrons
+Tom Obrien <tobrienu@gmail.com>
+> I am using koha 3.8.2  on Debian. When i try typing a name of some
+> patrons i get a the error
+> below. kindly help me understand the error and how i can resolve it.
+>  Thanks in advance.
+> 
+> Software error:
+> 
+> The 'month' parameter ("0") to DateTime::new did not pass the 'an
+> integer between 1 and 12' callback
+>  at /usr/lib/perl5/DateTime.pm line 194.
+
+Well, that seems pretty clear, so let's look at this for what may
+have caused it:
+
+> 	DateTime::new(undef, 'hour', 00, 'minute', 00, 'month', 0, 'second',
+> 0, ...) called at
+> /usr/local/share/perl/5.10.1/DateTime/Format/DateParse.pm line 58
+> 	DateTime::Format::DateParse::parse_datetime('DateTime::Format::DateParse',
+> '0000-00-00 00:00:00', 'Africa/Nairobi') called at
+> /usr/share/koha/lib/C4/Members.pm line 1044
+
+The call on /usr/share/koha/lib/C4/Members.pm line 1044 is
+
+        $_->{date_due} =
+        DateTime::Format::DateParse->parse_datetime($_->{date_due},
+        $tz->name());
+
+so, for some reason, a patron has been issued a book with a due date
+of 0000-00-00 00:00:00 - that should not happen and I've not seen a
+Koha do that recently, so we're probably going to need to fix it in
+the database.  The next bit hints at how we might do that:
+
+> 	C4::Members::GetPendingIssues(3594) called at
+> /usr/share/koha/intranet/cgi-bin/circ/circulation.pl line 479
+
+So it's borrowernumber 3594.  Go into mysql, SELECT FROM issues WHERE
+borrowernumber = 3594 AND issues.date_due = '0000-00-00 00:00:00' and
+then use UPDATE to set a real due date/time.  A full zebra reindex
+may be a good idea after that, too.
+
+It may be worth leaving out "borrowernumber = 3594 AND", to discover
+if other issues have the same problem.
+
+Hope that helps,
+-- 
+MJ Ray (slef), member of www.software.coop, a for-more-than-profit co-op.
+http://koha-community.org supporter, web and library systems developer.
+In My Opinion Only: see http://mjr.towers.org.uk/email.html
+Available for hire (including development) at http://www.software.coop/
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

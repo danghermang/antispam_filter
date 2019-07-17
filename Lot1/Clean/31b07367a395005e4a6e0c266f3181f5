@@ -1,0 +1,23 @@
+Subject:Re: =?utf-8?Q?D=C3=A9ploiment?= de package
+Le 15684i=C3=A8me jour apr=C3=A8s Epoch,
+Nicolas Pechon =C3=A9crivait:
+
+> Bonjour,
+> J'ai mont=C3=A9 un petit r=C3=A9seau(tous sous debian). Y a t'il une poss=
+ibilit=C3=A9 de
+> g=C3=A9rer les packages de toutes les machines?
+> De demander l'installation d'un package particulier et que tous les
+> ordinateurs ex=C3=A9cute le m=C3=AAme ordre?
+
+Tu peux essayer clusterssh, qui va te permettre de passer la m=C3=AAme
+commande sur plusieurs machines.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/87y5h6pdvg.fsf@tourde.org
+

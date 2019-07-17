@@ -1,0 +1,125 @@
+Subject:Re: [MG] (proposal) Metagov as a technical plug-in framework
+Ronald and Marc, (cc AG Meinungsfindungstool)
+
+I roughly understand the solution (or counter-solution) you propose,
+except in one regard.  So I have a question at the end.
+
+
+Ronald said:
+> No, not necessarily [defragmenting the tools]...  This is my
+> proposal, how to outbalance the fragmentation of documents...  We
+> agree on a set of meta data, that the tools should support per
+> document...
+
+This sounds like "defragmented" tools to me.  It's an example of that.
+The tools are no longer disconnected fragments because they share two
+connections: first the agreed "meta data" standard, and second, the
+"consolidated overview" into which they are pushed or pulled. *
+
+I think we both agree (and Marc agrees) that the tools must somehow
+(in this meaning) be defragmented.  You offer a specific solution,
+while we (Conseo, Thomas and I) do not.  This raises the question of
+how your solution relates to what we're proposing in this thread.  The
+answer hinges on how you address the problem of fragmented documents
+that are *non-compliant* with your agreed meta-data standard.  Either:
+
+  A. All documents must implement the agreed meta-data standard.
+     Non-compliant documents are eliminated.  So fragmentation is
+     solved by your solution alone.  Or,
+
+  B. Non-compliant documents may implement other, rival solutions.  So
+     fragmentation is *not* solved by your solution alone.  You depend
+     on the existence of other solutions.
+
+If you prefer A, then your approach to the larger problem is at odds
+with and incompatible with what we propose in this thread. **   If you
+prefer B, then it is compatible.  Which do you prefer, A or B?
+
+
+   * Your solution is not entirely new, ofc.  Mark Murphy proposed
+     something similar in 2007.  xDebate formats (not yet published)
+     is a Semantic HTML (POSH) schemata for federated debate on
+     political issues.  We discussed it with him in 2009.  See:
+     http://metagovernment.org/pipermail/start_metagovernment.org/2009-February/001195.html
+
+     The broader context of that discussion was his 2008 essay in
+     Rebooting America: The "killer app" of public participation:
+     http://rebooting.personaldemocracy.com/node/5499
+
+     Later in 2009, Thomas was chasing the fragmentation problem
+     himself and uncovered a different solution, one that nobody ever
+     thought of before.  Vote mirroring works on documents (and other
+     objects) via their popular support, not their content.  But note:
+
+  ** All we propose is a neutral tool switch that is blind to specific
+     solutions.  Like the Internet, it is open to all.
+
+Mike
+
+
+Ronald Grindle said:
+> Hello Mike,
+> 
+> "So the documents (and popular support) cannot be defragmented without defragmenting the tools."
+> 
+> No, not necessarily.
+> 
+> This is my proposal, how to outbalance the fragmentation of documents:
+> 
+> We agree on a set of meta data, that the tools should support per document, for instance:
+> 
+> UID
+> Title
+> Document Type
+> Document Status
+> Area
+> Topic
+> Owner
+> URL [where to find the document]
+> (Author)
+> (Keywords)
+> 
+> UID is a unique ID, to be able to unmistakably identify the document.
+> Attributes in brackets () would be optional. The possible entries for "Document Type" and "Document Status" would be pre-defined. The possible entries for "Area" and "Topic" should be fed by a common database (editable by everyone), to avoid "fragmentation by naming".
+> 
+> To consolidate the data to an overview on the documents there are two solution I can think of:
+> 
+> 1. All tools report their documents to a central server, that provides an overview of all documents, by calling a common interface. (e.g. a http-request)
+> 
+> 2. A search tool that crawls through all tools and collects the data. This solution has, at first glance three downsides:
+> - The tools must be searchable (like a web page).
+> - The documents must provide the meta data proposed above as standardized meta-tags.
+> - The tools will be loaded with requests, every time a search is triggered.
+> 
+> The consolidation of supporting votes could work the same, but is a more 
+> touchy matter, as this is a potential field for cheating and therefore 
+> requires special measures to ensure trust.
+> 
+> Best Regards
+> Ronald
+
+
+marc said:
+> Hi,
+> 
+> I strongly agree with Ronald, that there should be a kind of 'standardized 
+> meta data' that all tools (plug-ins to the framework) are working on, or at 
+> least, are able to convert their data back and forth.
+> 
+> So what about eDialogus 
+> http://www.imc.com.gr/ontologies/eDialogos/consensus/#overview  as a 
+> starting point for a unique ontology for discussion systems?
+> 
+> What do you think?
+> 
+> Cheers
+> Merkbefreiter (marc)
+> 
+> P.S. Because there is already a 'Mark' on the list, you can safely refer to 
+> me as 'Merkbefreiter' ;o)
+
+_______________________________________________
+Start : a mailing list of the Metagovernment project
+http://www.metagovernment.org/
+Post to the list: Start@metagovernment.org
+Manage subscription: http://metagovernment.org/mailman/listinfo/start_metagovernment.org

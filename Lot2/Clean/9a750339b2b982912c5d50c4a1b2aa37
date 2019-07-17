@@ -1,0 +1,17 @@
+Subject:Re: backport request
+Please don't top post to the list.
+
+Have any of you interested parties checked to see if the Wheezy version 
+is installable on Squeeze in which case it wouldn't be a candidate for a 
+backport?
+
+As well as posting a request here another avenue to explore would be to 
+contact the Debian maintainers of the package to see what they think, 
+they might not routinely follow the list
+
+
+-- 
+To UNSUBSCRIBE, email to debian-backports-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50884DDE.3030303@gmail.com
+

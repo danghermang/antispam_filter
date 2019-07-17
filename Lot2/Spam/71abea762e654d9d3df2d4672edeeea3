@@ -1,0 +1,150 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<mimray@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <bounces+120080.23433235.710470@icpbounce.com>
+Received: (qmail 23275 invoked by uid 89); 10 Dec 2012 11:11:53 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 10 Dec 2012 11:11:53 -0000
+Delivery-date: Mon, 10 Dec 2012 03:10:15 -0800
+Received: from drone141.ral.icpbounce.com ([207.254.213.198]) helo=drone141.ral.icpbounce.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1Ti1FQ-0000DI-5O on interface=184.105.182.43
+	for mimray@activ8.net.au; Mon, 10 Dec 2012 03:10:13 -0800
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=icontact.com;
+ h=Mime-Version:From:To:Date:Subject:List-Unsubscribe:Content-Type:Message-ID;
+ bh=TvV2AgOMZn9eiL3vwr3ZtRVkVJI=;
+ b=YSCQhbvucIbgcYUsoGGTJ+LFgSn8B68hqrabGttIOI8btd7ic7HW7FBS7hQHIKIm7F1samaxzU+9
+   G1z8SvL5xEYjPjoRVZ4aoWDNFp0UCLlICihp1iyK2oRYP0zJMTSPBj+6N9X9Xw2W1IIMhCyRcwV8
+   cqcsDg87PnDOeQK+/Xk=
+Mime-Version: 1.0
+From: "PAYOUT APPROVAL" <info@coreylewis.name>
+To: <mimray@activ8.net.au>
+Date: Mon, 10 Dec 2012 06:09:57 -0500
+Subject: (2) contact me please
+Errors-To: bounces+120080.23433235.710470@icpbounce.com
+List-Unsubscribe: <https://app.icontact.com/icp/listunsubscribe.php?r=23433235&l=9159&s=OG8S&m=710470&c=120080>
+X-List-Unsubscribe: <https://app.icontact.com/icp/listunsubscribe.php?r=23433235&l=9159&s=OG8S&m=710470&c=120080>
+X-Unsubscribe-Web: <https://app.icontact.com/icp/listunsubscribe.php?r=23433235&l=9159&s=OG8S&m=710470&c=120080>
+X-ICPINFO: 
+X-Return-Path-Hint: bounces+120080.23433235.710470@icpbounce.com
+Content-Type: multipart/alternative; boundary="cdf82e78-582d-4a55-9037-dacf81ae37d3"
+Message-ID: <0.1.12D.4C6.1CDD6C6E3CF7740.0@drone141.ral.icpbounce.com>
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: bounces+120080.23433235.710470@icpbounce.com
+X-Relay-Countries: us
+X-Spam-Report: SpamAssassin 3.3.1 (2010-03-16) on spamd2.ctyme.com
+ Spam Tests:
+ *  6.0 BAYES_99 BODY: Bayes spam probability is 99 to 100%
+ *      [score: 1.0000]
+ * -0.0 RP_MATCHES_RCVD Envelope sender domain matches handover relay domain
+ * -0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/, no
+ *      trust
+ *      [207.254.213.198 listed in list.dnswl.org]
+ *  1.0 EMAIL_MARKETING BODY: Talks about email marketing
+ *  1.5 HTML_IMAGE_ONLY_20 BODY: HTML: images with 1600-2000 bytes of words
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ * -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+ *  0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily
+ *      valid
+ *  0.1 HTML_SHORT_LINK_IMG_3 HTML is very short with a linked image
+X-Spam-Class: SPAM-LOW
+X-Sender-Host-Address: 207.254.213.198
+X-Sender-Host-Name: drone141.ral.icpbounce.com
+X-Spam-Flag: yes
+
+
+--cdf82e78-582d-4a55-9037-dacf81ae37d3
+Content-Type: text/plain; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+hey, I want to pay you to do simple stuff online
+
+you can make several hundred per day
+with nothing more than your computer.
+
+contact me here
+http://coreylewis.name/cm/solos
+
+thanks,
+--Corey
+
+
+
+
+
+
+
+ 
+	 
+
+
+This message was sent to mimray@activ8.net.au from:
+EasyTechVideos.com | 3850 auburn rd NE | salem, OR 97301
+
+Manage Your Subscription:
+http://app.icontact.com/icp/mmail-mprofile.pl?r=23433235&l=9159&s=OG8S&m=710470&c=120080
+
+
+
+
+--cdf82e78-582d-4a55-9037-dacf81ae37d3
+Content-Type: text/html; charset = "utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title></title>
+</head>
+<body>hey, I want to pay you to do simple stuff online<br>
+<br>
+you can make several hundred per day<br>
+with nothing more than your computer.<br>
+<br>
+<a href="http://click.icptrack.com/icp/relay.php?r=23433235&msgid=710470&act=OG8S&c=120080&destination=http%3A%2F%2Fcoreylewis.name%2Fcm%2Fsolos"><font size="5"><strong>contact me here</strong></font></a><br>
+<br>
+thanks,<br>
+--Corey<br>
+<br>
+<br>
+<br>
+
+
+<br><br><table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+ <td width="100%" bgcolor="#ffffff">
+ <p style="font-family:arial,helvetica,sans-serif; font-size:12px; line-height:20px; color:#5e5e5e; margin: 0px 0px 5px;">This message was sent to mimray@activ8.net.au from:</p>
+ <p style="font-family:arial,helvetica,sans-serif; font-size:12px; line-height:20px; color:#5e5e5e; margin: 0px 0px 5px;">EasyTechVideos.com | 3850 auburn rd NE | salem, OR 97301</p>
+ </td>
+ <td width="2%" bgcolor="#ffffff">
+ <p style="font-family:arial,helvetica,sans-serif; font-size:9px; line-height:13px; color:#5e5e5e;">Email Marketing by
+ <a href="http://www.icontact.com/a.pl/144186" target="_blank"><img src="http://app.icontact.com/images/icontact_tryFree.gif" alt="iContact - Try It Free!" border="0" /></a></p>
+ </td>
+ </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td bgcolor="#FFFFFF">
+						 	<a href="http://app.icontact.com/icp/mmail-mprofile.pl?r=23433235&l=9159&s=OG8S&m=710470&c=120080" style="font-family: Arial, Helvetica, san-serif; font-size: 12px; line-height: 20px; color: #115880; font-weight: bold; text-decoration: none;">
+					Manage Your Subscription
+				</a>
+								</td>
+	</tr>
+
+</table>
+
+	<img src="http://click.icptrack.com/icp/track.php?msgid=710470&act=OG8S&r=23433235&c=120080" width="1" height="1">
+</body>
+</html>
+
+--cdf82e78-582d-4a55-9037-dacf81ae37d3--
+

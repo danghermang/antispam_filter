@@ -1,0 +1,53 @@
+Subject:Re: Problemas para ejecutar archivos precompilados en C
+Saludos. Luego de un rato, realic=E9 las pruebas requeridas, pero:
+ls -l
+total 5
+-rw------- 1 miguel miguel    0 oct  3 14:24 archivoprueba.txt
+drwx------ 1 miguel miguel    0 jun 25 11:25 eclipselinux
+-rw------- 1 miguel miguel   99 oct  3 13:54 ejemplo2.1.c
+drwx------ 1 miguel miguel 4096 jun 25 11:26 practicasjava
+root@miguel-LT:/media/DATOS/Misdocs/Programacion# gcc ejemplo2.1.c
+root@miguel-LT:/media/DATOS/Misdocs/Programacion# ./a.out
+bash: ./a.out: Permiso denegado
+root@miguel-LT:/media/DATOS/Misdocs/Programacion# rm a.out
+root@miguel-LT:/media/DATOS/Misdocs/Programacion# gcc ejemplo2.1.c -o ejemp=
+lo2.1
+root@miguel-LT:/media/DATOS/Misdocs/Programacion# ejemplo2.1
+bash: ejemplo2.1: no se encontr=F3 la orden
+root@miguel-LT:/media/DATOS/Misdocs/Programacion#
+
+sigo sin encontrar soluci=F3n. Probar=E9 la ayuda de otro usuario:
+El d=EDa 5 de octubre de 2012 08:11, Santiago L=F3pez Denazis
+<sldenazis@gmail.com> escribi=F3:
+>
+>   Buenas. =BFLes est=E1s dando permisos de ejecuci=F3n antes de ejecutarl=
+os?
+> =BFVerificaste que lo tengan?
+>   Saludos,
+>
+>
+> --
+> Santiago L=F3pez Denazis
+> GNU/Linux SysAdmin
+> sldenazis@gmail.com
+> Open your source, open your mind.
+
+Recu=E9rdenme c=F3mo se hace esto, porque no estoy seguro. Y no, "chmod
++x" no sirve, ya lo prob=E9:
+root@miguel-LT:/media/DATOS/Misdocs/Programacion# chmod +x ejemplo2.1
+root@miguel-LT:/media/DATOS/Misdocs/Programacion# ./ejemplo2.1
+bash: ./ejemplo2.1: Permiso denegado
+root@miguel-LT:/media/DATOS/Misdocs/Programacion# D
+
+
+--=20
+Buen uso de las listas (como se ven en Debian):
+http://wiki.debian.org/es/NormasLista
+Ayuda para hacer preguntas inteligentes: http://is.gd/NJIwRz
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALEvJmQBRrNShb41deWsK5GX63Fx_O1Q77VNQdx_GLjEWCA+8g@mail.gmail.com
+

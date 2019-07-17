@@ -1,0 +1,108 @@
+Subject:Re: =?ISO-8859-1?Q?r=E9sultat=2E?=
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Le 29/11/2012 22:25, collet michel a écrit :
+> ----- Original Message -----
+> From: "Raphaël POITEVIN" <raphael.poitevin@gmail.com>
+> To: "collet michel" <michel.collet@nck.aphp.fr>
+> Cc: <debian-user-french@lists.debian.org>
+> Sent: Wednesday, November 28, 2012 12:46 AM
+> Subject: Re: installation
+> 
+> 
+> Bonsoir,
+> Le 27/11/12, collet michel<michel.collet@nck.aphp.fr> a écrit :
+>> je me permets de vous contacter pour connaître, ce qu'il faut faire avant
+>> de
+>> lancer l'installation de Debian en remplacement d'Ubuntu actuellement sur
+>> mon portable, je pense notamment à mes fichiers, mes images , etc faut il
+>> sauvegarder sur un disque extérieur ?
+> 
+> Même si une einstallation est possible par dessus un système déjà
+> existant, il est toujours prudent de sauvegarder ses données
+> importantes, on est à l'abri de rien.
+> 
+> Avant d'installer le nouveau système, il faut faire un petit sondage
+> sur le partitionnement actuel. Au vu de la question que tu pose,
+> j'imagine que c'est une chose que tu ne maîtrises pas bien.
+> 
+> Le résultat de la commande df en console te donnera une chose du genre :
+> Filesystem           1K-blocks      Used Available Use% Mounted on
+> /dev/sda5              9614116   7181196   1944548  79% /
+> tmpfs                  1977572         0   1977572   0% /lib/init/rw
+> udev                   1972260       304   1971956   1% /dev
+> tmpfs                  1977572         0   1977572   0% /dev/shm
+> /dev/sda1                46633     20764     23461  47% /boot
+> /dev/sda7            295597476 103797760 176784164  37% /home
+> 
+> Il faut repérer l'emplacement de la partition /home (chez moi sda7) et
+> éventuellement sa taille pour mieux se rrepérer.
+> 
+> Durant l'installation de Debian, au moment du partitionnement, il
+> faudra préciser que sda7 sera la partition /home et ne pas demander
+> son formatage.
+> 
+> En espérant avoir pu aiguiller.
+> 
+> Raphaël 
+> 
+> 
+> Bonsoir ,
+> 
+> comme prévu j'ai fait la commande df dans un terminal et voilà ce que j'ai eu :
+> 
+> Sys. fich.     1K-blocks   Util. Disponible Uti% Monté sur
+> /dev/sda1      114477664 6459444  102203028   6% /
+> udev              440588       4     440584   1% /dev
+> tmpfs             179144     868     178276   1% /run
+> none                5120       0       5120   0% /run/lock
+> none              447852     152     447700   1% /run/shm
+> 
+> Alors maintenant si j'ai bien compris il faut repérer le home mais est ce par hasard /run/shm ??
+> 
+
+Bonjour,
+En fait pour le bien, il faut que tu sauvegardes /home/ton_user et si tu
+as d'autres comptes créés, il faut sauvegarder /home_ton_autre_utilisateur.
+
+Si je vois bien, ton disque fait 120Go, quand tu as fait tes
+sauvegardes, tu installes Debian, et pour le bien quand il te parle de
+partition, tu demandes à partitionner. Pour moi (mais chacun ses
+habitudes) tu créé une partition de 10 Go pour / en ext4, un swap de la
+taille de ta mémoire RAM, et le reste pour /home en ext4.
+Une fois fini, tu recopieras ta sauvegarde dans /home/mon_user.
+
+Çà parais un peu compliqué, mais çà ne l'est pas tant que çà. L'intérêt
+est que lors de tes prochains changement de distrib, ou changement de
+version, tu sauvegarderas tes données, mais normalement tu n'auras plus
+rien à faire.
+
+Exemple tu passes de Debian à Ubuntu, tu installes Ubuntu, tu
+redémarres, et ton PC est comme tu l'avais laissé, fond d'écran,
+paramètres internet, marque-pages ...
+
+Bon courage
+Benoit
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+Comment: Using GnuPG with undefined - http://www.enigmail.net/
+
+iQEcBAEBAgAGBQJQuFxGAAoJEDd5vycqAnvDU6QH/AhWugN2kpl2lWQqXM3wcqsl
+Nlvx8HZaTmCW62lf83LdWJm1XSXjT1FRLmoBpzRI+dvJOOiziUUrqxRriwdrOFTD
+as4lR40wZQmo5IAYWz461sSBuJg892S9Qbq3lpwnf3vsFkj+ugwU7X1nbq9hnQnv
+Mq3xmo1SRNy+1RKrTnZuBKbCKDW7tTU/k0xZeHRRUVPKeC4o79dseZdhX8wQrpd4
+b0aFJd/I4v8Tk/V3lx0YtH2A2UztoE+glsZWCKA8QQIKd/TBv+UOTBqylDBGQuEp
+I1YU6TuSmSM51OMuMP9z5NKajbreCQU9tcIjkIcNKf0CiyooZMycUYvRYGF4Vrk=
+=dsHQ
+-----END PGP SIGNATURE-----
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50B85C46.3050909@z-elec.com
+

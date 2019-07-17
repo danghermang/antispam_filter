@@ -1,0 +1,31 @@
+Subject:Re: IceDove,GMail, cntlm y proxy
+El Thu, 15 Nov 2012 12:59:52 -0300, Javier Argentina escribió:
+
+(ese html...)
+
+> Estimados:
+> Me han plantado un proxy en mi acceso a internet. A fin de simplificar
+> mi vida, he instalado y configurado cntlm correctamente, dado que puedo
+> navegar, actualizar el sistema de los repositorios, y un montón de
+> cosas, todo a través de mi propio proxy que enmascara el empresario en
+> 127.0.01:3128. Pero me he quedado sin mi cliente de correos IceDove. Lo
+> tenía configurado como IMAP, y he intentado usarlo como POP, modificando
+> tanto las configuraciones de GMail como la del cliente, pero el tema es
+> que no paso.
+
+(...)
+
+¿Has probado a configurar manualmente las opciones de proxy que tienes en 
+Icedove?
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k8343c$vma$5@ger.gmane.org
+

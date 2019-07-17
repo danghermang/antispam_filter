@@ -1,0 +1,51 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+El Sun, 23 Sep 2012 19:46:33 +0200, Juan Antonio escribió:
+
+> El 23/09/12 19:21, Camaleón escribió:
+
+>> Vale, ya sé lo que ha pasado (si es que no hay nada como leer :-P)
+>> 
+>> No se trata del paquete initramfs-tools ni del initrd, el problema es
+>> del paquete "udev" que desde la versión 175-4 (como indican en el bug
+>> que mencionaba Ángel) ha dejado de intentar cargar el módulo "unix.ko"
+>> externamente para solucionar ese mensaje de error tan feo que aparecía
+>> nada más iniciar el sistema.
+>> 
+>> Este cambio lo indican en el changelog:
+>> 
+>> udev (175-4) unstable; urgency=low
+>> 
+>> * Stop trying to load the unix module in the initramfs hook. (Closes:
+>> #654282)
+>> 
+>> Moraleja: cuando se vaya a compilar un kernel "vanilla" manualmente y
+>> para evitar problemas con los paquetes que se incluyen en Debian,
+>> conviene usar la opción de "localmodconfig" que toma los valores del
+>> archivo de configuración del kernel de Debian y además añade todos los
+>> módulos que se encuentren cargados en el momento de la compilación.
+>> 
+> 
+> si, él ya mencionó ese bug en otro correo, aunque con otro
+> identificador, 
+
+Exactamente. Era el bug "#686707", pero en ese informe no quedaba muy 
+claro el qué ni el porqué de lo que había pasado (bueno, no me quedaba 
+muy claro a mí, je).
+
+> y yo para variar lo malentendí y lo interpreté de otra forma.
+
+Ná, reconozco que yo soy un poco pelmaza con las cosas que no entiendo y 
+sigo con el "run-run" en la cabeza hasta comprender el origen del 
+problema. 
+
+Saludos (y perdón por la matraca),
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3nie8$lsj$14@ger.gmane.org
+

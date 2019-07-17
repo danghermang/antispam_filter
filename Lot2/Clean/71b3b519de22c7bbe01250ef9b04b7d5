@@ -1,0 +1,93 @@
+Subject:Re: [LUG] VBox version 4.2
+On 22/10/12 19:33, bad apple wrote:
+>>
+> The VBox additions are in a right state at the moment, with flaky
+> support for everything from OpenGL to DirectX when it comes to graphical
+> acceleration of your guest systems - 2D support works fine as usual, but
+> this will cause problems for people like yourself who are trying to use
+> it to full-screen demo potential new distros. The 4.2 version has only
+> just added support for more recent Xorg versions which is causing me a
+> lot of pain in my various testing distros (bleeding edge versions of
+> Arch, Gentoo, Rawhide, etc), especially as the new "support" is
+> terrible. Lots of screen tearing, artifacts, etc, if it even works at
+> all (totally broken on Gentoo currently).
+> 
+> You have multiple options:
+> 
+> 1: in place upgrade your outdated Mint install so you can get recent
+> software. There's no excuse to be running Maverick anymore.
+
+This is the reason for checking out various distros via VBox. I realise
+that I need to move on from Maverick as soon as. By the way I never go
+via upgrades, I always completely install any new distro from scratch.
+
+> 2: install the Lucid version - I haven't tested it, but I'd be surprised
+> if it didn't work properly. You must apt-get purge your current version
+> first though.
+
+I am beginning to feel that I won't bother, I will just choose whichever
+distro to go for and install it.
+
+> 3: VMWare workstation 8/9 - I've never been a fan, but currently it's
+> pissing me off a lot less than VirtualBox which previously I've really
+> loved.
+> 
+I have looked at VMware in the past and did not get on with it, probably
+because I am so used to VBox.
+
+<snip>
+
+</snip>
+
+
+> Alternatively, save yourself a bunch of effort and realise you're going
+> to have to upgrade your OS anyway:
+
+Agreed.
+
+ as you seem to be a Debian-based
+> system user, let's face it, you're either going to end up using Mint,
+> Ubuntu or Debian, probably in that order of likelihood.
+
+I have never tried Debian. My usual distros are Mint KDE or Kubuntu. I
+have also used Mint Xfce and Xubuntu on laptops.
+
+ Either way,
+> you're probably going to end up installing Cinnamon or Mate desktops
+> unless you like Unity/Gnome3.
+
+I have looked at Cinnamon, again via VBox, and did not like it. And I
+hate Gnome with a passion. So whichever distro I end up with will use
+KDE or possibly Xfce.
+
+ I'd recommend just biting the bullet and
+> installing Debian Testing.
+
+I will do some research on Debian Testing but the work 'Testing' worries me.
+
+ Ubuntu is a clusterfuck, Mint is a polished
+> turd (it's just crappy Ubuntu underneath the polish, and has issues
+> doing in-place upgrades) so just go to the source and grab Debian.
+> 
+
+As I said, I don't do upgrades.
+
+> Whatever you do, get off your current system immediately, it hasn't
+> received upstream support/bug fixes since April and I know of multiple
+> exploits targeting outdated Ubuntu systems - there are a lot of them out
+> there as 10.10 was the last release pre-Unity so a lot of people are
+> still resisting upgrading. Which is very, very stupid.
+> 
+
+So, even more urgent than I realised!!
+
+Thank you for taking the time to give me all this help and information.
+I really do appreciate it.
+
+Neil
+
+
+-- 
+The Mailing List for the Devon & Cornwall LUG
+http://mailman.dclug.org.uk/listinfo/list
+FAQ: http://www.dcglug.org.uk/listfaq

@@ -1,0 +1,153 @@
+Subject:Re: [Antenna-discussion] Some antenna lore from the WWII
+	radarproject
+Robert
+
+HF radars can detect slow-moving objects all right because they have a
+frequency-resolution capability that can be designed to be as low as
+needed.  The main problem is clutter.  For surface-wave systems in
+particular, a problem lies in the Bragg-lines that are returned in the
+spectrum of a developed wave structure on the surface of the sea.
+
+Radar cross-section (rcs) is a huge subject with plenty
+electromagnetic modelling being used that is way ahead of what we use
+for ham antennas.  About 20 years ago I had a 27,000-segment NEC model
+of a Boeing-707 used for modelling on the VHF comms band, but the size
+of structures that are modelled (in wavelengths) is a significant
+factor greater since then.
+
+Alan G3NOQ
+
+
+On 19 October 2012 01:49, Robert Thorpe
+<rthorpe@robertthorpeconsulting.com> wrote:
+> On 10/18/2012 03:24 AM, Kirk T McDonald wrote:
+>>
+>> Rob,
+>>
+>> 1. "This means that if an antenna is directional in the forward direction
+>> and the reverse direction then that's beneficial for scattering,
+>> compared to an antenna that's directional only in the forward direction. "
+>>
+>> What do you mean by "beneficial for scattering"?
+>>
+>> Dicke's goal was to minimize scattering, to minimize detection by an
+>> enemy, so he did not like antennas that have a strong forward lobe
+>> compared to the backward lobe.
+>
+>
+> Yes.  My point is though that this doesn't simply lead to a preference for
+> omni-directional antennas.  Antennas are preferred if they re-radiate in
+> many directions, which aren't the same as the direction the radiation is
+> coming from.
+>
+>
+>> The dilemma is that what is "useful" for transmission makes you/your
+>> antenna a more easy target for detection.  In wartime, staying alive may
+>> be more important than other issues, so the compromise may be to build
+>> antennas that are less "useful", but which are "stealthier".
+>
+>
+> Yes.  There are ways of avoiding this dilemma.  One simple way is to cover
+> the antennas in radio absorbing material when it isn't being used then
+> mechanically remove that material when the it's in use.  That lowers the
+> amount of time that the enemy radar has to sense your plane.  Nobody uses
+> that method though because they have better ones.
+>
+> One better one is to use an array antenna made of many low directivity
+> elements, such as slots or dipoles.  When the antenna isn't being used
+> switches can attach every element to a broadband load.  When it is being
+> used the element is attached back to the phasing network.  But, AFAIK,
+> people don't do that either because they have better ways :)
+>
+>
+>
+>> 2.  It is always true that if the enemy doesn't know what frequency you
+>> are using, and searches for you on different frequencies, you will
+>> escape detection.
+>>
+>> Are you willing to bet your life that your enemy won't discover your
+>> transmission frequency, by sweeping his receiver frequency, such that
+>> you can use a highly directional antenna, that is easy to detect once
+>> its frequency is known, and live to tell your tale?
+>
+>
+> Remember we're talking about radar here.  Radars work by transmitting a huge
+> amount of power and receiving a tiny amount back.  There is 1/r^2 loss on
+> the path of the transmitter power to the target and 1/r^2 loss on the path
+> back from the target to the receiver.  That's why the transmitter are
+> usually very powerful and very special purpose.  You can't just vary the
+> frequency on most systems like that.  In general radars work in fixed bands
+> and those bands are known because the pulses are easily detectable.  Before
+> a war happens both sides are likely to know what frequencies the radars of
+> the opposition work on. Communications systems aren't the same, it's much
+> easier to vary their frequency.
+>
+> If you mean that a receiver could find the communications transmissions,
+> well that's much more difficult.  Communications can be made very
+> intermittent.  So, intercepting it is very difficult.  Spread spectrum and
+> other techniques can make it effectively impossible.
+>
+>
+>> 3.  Finding "lots of other ways of preventing the antennas on plane and
+>> missiles from causing too much scattering" remains a major enterprise to
+>> this day in some circles -- where the stakes are high.
+>>
+>> However, there are some laws of physics that limit the possibilities --
+>> as was known already in the WWII days.
+>
+>
+> Yes.  It's not an intractable problem though.
+>
+> As I understand it (and I'm not a military antennas guy) the main problem
+> today is radars using quite low frequencies.  At HF and low VHF wavelengths
+> are long, they propagate well and skin depths are large.  A plane has two
+> long lengths, up and down it's fuselage and across it's wings.  Both it's
+> fuselage and wings generally have to be made from metal and will conduct.
+> So, at some HF frequency every aeroplane is a dipole.  A stealth bomber may
+> have radar absorbent coating and may be shaped to reflect high-frequency
+> radio waves away from the receiving radar.  This helps in the quasi-optical
+> region where the plane is very large compared to a wavelength.  But, at some
+> lower frequency where the plane is half a wavelength long, it looks like an
+> aluminium cage dipole covered with a thin layer of carbon.
+>
+> So, it can be detected.  This isn't simple though, HF radars have lots of
+> problems.  The doppler shift is much more difficult to sense, so slow moving
+> objects (like ships and lorries) don't look that much different to
+> aeroplanes.
+>
+> One of the ironies of this is that old radar systems like those used in WWII
+> sometimes have a better chance of catching stealth aircraft than more modern
+> ones.  But, because of this problem many countries have built large static
+> HF radars to back-up their microwave radars.
+>
+> Rob
+> _______________________________________________
+>
+> This message was sent to: alan.boswell@blueyonder.co.uk
+> Antenna-discussion mailing list
+> Antenna-discussion@antennex.com
+> http://lists.antennex.com/mailman/listinfo/antenna-discussion
+> For Upload of Attachments:
+> http://download.antennex.com/listarch/psupload.html
+> Searchable Archives:
+> http://www.antennex.com/listlogin/
+> To unsubscribe:
+> Go to the web page link below and unsubscribe the above email address this
+> message was sent to.
+>
+> Go to this web page - no passwd needed:
+> http://antennex.com/help/subscribe.htm
+_______________________________________________
+This message was sent to: darebineavedealucruriledefoartemulteori@honeypots.ro
+Antenna-discussion mailing list
+Antenna-discussion@antennex.com
+http://lists.antennex.com/mailman/listinfo/antenna-discussion
+For Upload of Attachments:
+http://download.antennex.com/listarch/psupload.html
+Searchable Archives:
+http://www.antennex.com/listlogin/
+To unsubscribe:
+Go to the web page link below and unsubscribe the above email address this message was sent to.
+
+Go to this web page - no passwd needed:
+http://antennex.com/help/subscribe.htm

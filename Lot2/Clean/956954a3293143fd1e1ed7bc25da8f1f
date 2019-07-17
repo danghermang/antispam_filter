@@ -1,0 +1,30 @@
+Subject:Re : alltray et cie
+Le 06/11/2012 11:21:14, Bruno Richard a =E9crit=A0:
+
+> Merci pour ta r=E9ponse mais ca n'est pas la m=EAme utilisation.
+> J'utilise d=E9j=E0 nagios pour surveiller certains services mais xload
+> permet de surveiller la charge des machines constamment : les=20
+> fen=EAtres xload sont suffisamment petites pour =EAtre affich=E9es tout l=
+e=20
+> tps et sur tous les bureaux.
+
+gkrellmd ?
+
+nicolas patrois : pts noir asocial
+--=20
+R=C9ALISME
+
+M : Qu'est-ce qu'il nous faudrait pour qu'on nous consid=E8re comme des=20
+humains ? Un cerveau plus gros ?
+P : Non... Une carte bleue suffirait...
+=
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1352198508.30837.96@new-host-2.home
+

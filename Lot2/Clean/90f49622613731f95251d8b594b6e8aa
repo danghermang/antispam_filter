@@ -1,0 +1,29 @@
+Subject:Re: Configuration =?ISO-8859-15?Q?r=E9seau_dans_un_VLAN?=
+Salut,
+
+David BERCOT a écrit :
+> 
+> Afin de gérer des serveurs ESXi situés dans un VLAN, je souhaiterais
+> configurer ma station Debian dans le même VLAN.
+> 
+> J'ai donc fait quelques recherches et suivi les recommendations en la
+> matière :
+> # ip link add link eth0 name eth0.1001 type vlan id 1001
+> # ip addr add 192.168.0.50/24 brd 192.168.0.255 dev eth0.1001
+> # ip link set dev eth0.1001 up
+> 
+> Or, une fois cette configuration mise en place (et apparemment bonne),
+> impossible de joindre les ESXi...
+
+Le port du switch connecté à la station Debian est-il configuré pour le
+trafic taggé de ce VLAN ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50C3765A.2010506@plouf.fr.eu.org
+

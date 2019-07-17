@@ -1,0 +1,19 @@
+Subject:enlever wicd nouveau tasksel-xfce
+Salut tout le monde,
+
+Surprise du matin: le tasksel-xfce met maintenant le
+network-manager-gnome et rend wicd orphelin (le sugg=C3=A8re en autoremove).
+Quelqu'un sait pourquoi?
+
+Bonne journ=C3=A9e,
+R
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120903081044.7415ce8c@gmail.com
+

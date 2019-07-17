@@ -1,0 +1,44 @@
+Subject:Re: Mutt et locales
+Le vendredi 9 novembre 2012 16:28:35, Vincent Lefevre a =E9crit :
+> Autre chose...
+>=20
+> On 2012-11-09 00:53:57 +0100, fred wrote:
+> > Voici un extrait de mon .muttrc (il est configur=E9 afin de pouvoir
+> > lire le cyrillique comme le fran=E7ais).
+> >=20
+> > set charset=3Dfr_FR.UTF-8
+>=20
+> Le choix du charset li=E9 au terminal doit se faire par le terminal
+> et non =EAtre hardcod=E9 dans le muttrc. Donc cette ligne est soit
+> inutile, soit incorrecte.
+
+
+Ben, j'ai enlev=E9 "set charset=3Dfr_FR.UTF-8"
+mais cela n'arrange pas les choses.
+
+Quand je ferme  mon texte  mutt m'informe  que : [text/plain, 7bit, us-asci=
+i,=20
+0,1K]
+
+Pourtant dans mon .muttrc j'ai bien :
+
+set locale=3Dfr_FR.UTF-8
+set allow_8bit=3Dyes
+
+
+Une id=E9e ?
+
+
+=2D-
+
+=46r=E9d=E9ric F1sxo
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201211101848.01634.zulian@free.fr
+

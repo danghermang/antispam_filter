@@ -1,0 +1,37 @@
+Subject:Re: serveur sftp
+On Sun, 09 Sep 2012 13:58:24 +0200
+Colin <colin@colinusmaximus.com> wrote:
+
+> > Perso, =C3=A7a va de la pampers =C3=A0 la huggies, en finissant par la
+> > popo.
+> >=20
+> Ahahahah :) J'y penserai en cas de fuite... de m=C3=A9moire !
+=20
+*JY imagine colin coiff=C3=A9 d'une pampers*
+=20
+> > C'est assez =C3=A9tonnant, il doit _s=C3=BBrement_ y avoir un parm qui
+> > permet un chown sur le user qui =C3=A9crit.
+> C'est justement ma question. Un peu partout o=C3=B9 j'ai trouv=C3=A9 des
+> gens qui parlent de =C3=A7a, il est indiqu=C3=A9 qu'il faut que saul root
+> ait les droits d'=C3=A9criture dans le dossier chroot.
+> =C3=89videment, avec une ACL o=C3=B9 l'on rajoute un deuxi=C3=A8me propri=
+=C3=A9taire en
+> =C3=A9criture, =C3=A7a ne marche plus. De plus, si le groupe ou les autres
+> ont droit d'=C3=A9crire, marche plus non plus !
+
+Oops, ben c'est quasi normal: un chroot ne peut =C3=AAtre owned que par
+root!
+
+--=20
+B-Bijman : Salut, ma femme est une pute, que dois je faire ? =3D(=20
+Photoplaycookies : Nous passer son numero
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120909141032.1a7387e3@anubis.defcon1
+

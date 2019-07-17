@@ -1,0 +1,101 @@
+Subject:Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+Advance me the necessary materials and one ultralight from
+www.electraflyer.com and I can advance the timing of when you'll see
+extended-range low-audible & low-infrared-heat-emissions electric motorized
+aircraft ........ under all except closely scrutinized doppler-type radar,
+I presume . . . . . . . . .
+
+
+On Tue, Nov 6, 2012 at 10:57 AM, Bill Dube <billdube@killacycle.com> wrote:
+
+> I stand corrected.
+>
+> This also explains why you so rarely see interpoles in motors chosen
+> for EV drag racing. They make wider "gaps" in the field which would
+> have to detract from the total motor torque.
+>
+> While interpoles help correct for armature reaction distortion of the
+> field, they apparently don't do anything directly for the armature
+> time constant. When spinning a motor at max RPM, that time constant
+> plays a major role in the arcing. There would have to be some sort of
+> compound winding on the interpoles to do anything about armature time
+> constant.
+>
+> Bill D.
+>
+> At 09:15 PM 11/5/2012, Jeff Major wrote:
+> >Hi Bill,
+> >
+> >I know you like accuracy so I hope you don't mind my comments.
+> >
+> >Interpoles are located inside the motor frame in between the main
+> >field poles.  Those interpoles are excited by coils wrapped around
+> >them called comm coils.  These comm coils are connected in series
+> >with the armature, not "wired in parallel with the armature".  So
+> >the strength of the magnetic force from the interpoles is
+> >proportional to the armature current (often called the load) and
+> >independent of the RPM.  This actually does not shift any field
+> >rather it counteracts flux which would otherwise be present in the
+> >commutation zone (interpolar region).  The interpoles (and comm
+> >coils) do not contribute to torque production nor do they detract
+> >(as does brush advance).  The interpoles and comm coils do consume
+> >space in the motor which otherwise could be utilized for materials
+> >which would contribute to torque production.
+> >
+> >Regards,
+> >
+> >Jeff M
+> >
+> >
+> >
+> >----- Original Message -----
+> >From: Bill Dube <billdube@killacycle.com>
+> >To: Electric Vehicle Discussion List <ev@lists.sjsu.edu>
+> >Cc:
+> >Sent: Monday, November 5, 2012 10:46 PM
+> >Subject: Re: [EVDL] Advancing Motor Timing pros/cons/ accel efficiency
+> >
+> >They do it with "interpoles" between the field poles. These
+> >interpoles are wired in parallel with the armature so that as the
+> >motor spins faster, the magnetic field in the interpoles ramps up and
+> >shifts the angle of the stationary field. Adds complication, cost,
+> >and weight to the motor. Also takes up space that would otherwise be
+> >occupied by  the regular field coils.
+> >-------------- next part --------------
+> >An HTML attachment was scrubbed...
+> >URL:
+> >
+> http://lists.sjsu.edu/mailman/private/ev/attachments/20121105/d4281408/attachment.html
+> >
+> >_______________________________________________
+> >| Moratorium on drag racing discussion is in effect.
+> >| Please take those discussions elsewhere.  Thanks.
+> >|
+> >| REPLYING: address your message to ev@lists.sjsu.edu only.
+> >| Multiple-address or CCed messages may be rejected.
+> >| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> >| OTHER HELP: http://evdl.org/help/
+> >| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+> _______________________________________________
+> | Moratorium on drag racing discussion is in effect.
+> | Please take those discussions elsewhere.  Thanks.
+> |
+> | REPLYING: address your message to ev@lists.sjsu.edu only.
+> | Multiple-address or CCed messages may be rejected.
+> | UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+> | OTHER HELP: http://evdl.org/help/
+> | CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121107/8ac6c814/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

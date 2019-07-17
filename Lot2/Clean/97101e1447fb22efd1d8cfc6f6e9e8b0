@@ -1,0 +1,43 @@
+Subject:Re: Firefox en Deian 6
+2012/9/26  <luis@ida.cu>:
+> Hola a todos, una gran duda
+>
+> Para instalar por ej firefox desde internet y se actualice despu=C3=A9s d=
+e
+> instalado y se puedan a=C3=B1adir los plugins c=C3=B3mo es la cosa???
+>
+> Hay que modificar el sources.list para firefox ??? hace tiempo tengo esa
+> duda  y sobre todo porque cuando estoy en el no puedo a=C3=B1adir plugins
+>
+> yo normalmente lo que hago es descargarlo, lo descompacto en una carpeta =
+por
+> ej en /opt y listo. pero lo justo es que uno haga
+>
+> # apt-get install firefox    algo as=C3=AD y despues el solo se actualice=
+ o uno
+> mismo le de update y lo haga.
+
+En Debian Firefox se encuentra renombrado a Iceweasel por problemas de
+trademarks. As=C3=AD que instala ese paquete y listo.
+
+>
+> Por ej despu=C3=A9s d eresolver esto una cosa fundamental agregar un plig=
+in de
+> acelerador de descargas para descargar las cosas.
+>
+> Alguna idea ??
+
+`apt-cache search download accelerator` bota un par de resultados,
+sino siempre tienes wget
+
+Saludos
+--=20
+A menudo unas pocas horas de "Prueba y error" podr=C3=A1n ahorrarte minutos
+de leer manuales.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAABYcjM2eb3j3wDMsswnFNWWRuzMf9iQDnb1Hq1TWpsFhoM-Eg@mail.gmail.com
+

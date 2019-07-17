@@ -1,0 +1,1262 @@
+Subject:Tech Tips [ Tablets Vs. eReaders - What's The Difference? + A Faster Way To Start Your Computer! + Is Your Phone TOO Big? ] 10/22/2012
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1" />
+<title>WorldStart</title>
+</head>
+
+<body bgcolor=3D"#ffffff" style=3D"font-family:arial, helvetica, sans-serif=
+;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size:=
+12px; font-family:Arial, Helvetica, sans-serif;">
+	<tbody>
+		<tr>
+			<td background=3D"http://imgsrv.worldstart.com/nl-images/tech/header-bg.=
+jpg">
+				<img align=3D"left" alt=3D"WorldStart's Tech Tips" height=3D"125" src=
+=3D"http://imgsrv.worldstart.com/nl-images/tech/tech-tips.png" width=3D"405=
+" /> <img align=3D"right" alt=3D"WorldStart" height=3D"125" src=3D"http://i=
+mgsrv.worldstart.com/nl-images/tech/logo.jpg" width=3D"225" /></td>
+		</tr>
+		<tr>
+			<td align=3D"center" background=3D"http://imgsrv.worldstart.com/nl-image=
+s/menu-back.jpg" bgcolor=3D"#dddddd" colspan=3D"3" height=3D"22">
+				<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+					<tbody>
+						<tr>
+							<td align=3D"center" width=3D"17%">
+								<a href=3D"http://www.worldstart.com/"><img alt=3D"" border=3D"0" h=
+eight=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/tech/menu-ws.jpg=
+" width=3D"106" /></a></td>
+							<td align=3D"center" width=3D"17%">
+								<a href=3D"http://store.worldstart.com/"><img alt=3D"" border=3D"0"=
+ height=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/tech/menu-tech=
+-store.jpg" width=3D"106" /></a></td>
+							<td align=3D"center" width=3D"16%">
+								<a href=3D"http://www.worldstart.com/new-tips/"><img alt=3D"" borde=
+r=3D"0" height=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/tech/me=
+nu-tech-tips.jpg" width=3D"106" /></a></td>
+							<td align=3D"center" width=3D"16%">
+								<a href=3D"http://www.worldstart.com/newsletters.php"><img alt=3D""=
+ border=3D"0" height=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/t=
+ech/menu-nl.jpg" width=3D"106" /></a></td>
+							<td align=3D"center" width=3D"17%">
+								<a href=3D"http://www.worldstart.com/message-board/"><img alt=3D"" =
+border=3D"0" height=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/te=
+ch/menu-mb.jpg" width=3D"106" /></a></td>
+							<td align=3D"center" width=3D"17%">
+								<a href=3D"http://www.worldstart.com/contact/"><img alt=3D"" border=
+=3D"0" height=3D"22" src=3D"http://imgsrv.worldstart.com/nl-images/tech/men=
+u-support.jpg" width=3D"106" /></a></td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor=3D"#ffffff">
+				<p>
+					<font size=3D"3"><strong><font face=3D"Arial, Helvetica, sans-serif" s=
+ize=3D"2"><strong><img src=3D"http://www.worldstart.com/images/nlimage/1022=
+2012tt1-=
+1420010=
+.png" alt=3D"ws" name=3D"ws" width=3D"16" height=3D"16" id=3D"ws" /></stron=
+g> WorldStart Tech Tips <strong>2012-10-22</strong></font></strong></font><=
+/p>
+				<p>
+					<font size=3D"2"><strong><font face=3D"Arial, Helvetica, sans-serif">H=
+aving trouble viewing parts or all of the newsletter?</font></strong> <font=
+ face=3D"Arial, Helvetica, sans-serif"><strong><a href=3D"http://www.worlds=
+tart.com/newsletters.php/computer_tips/2012-10-22">View the entire newslett=
+er here!</a></strong></font></font></p>
+				<!-- homepage_start -->
+				<p>
+					<img alt=3D"Quick Tip" height=3D"40" src=3D"http://imgsrv.worldstart.c=
+om/nl-images/tech/quick-tip.jpg" width=3D"385" /></p>
+				<p>
+					<span style=3D"color: rgb(0, 0, 205); "><strong>iOS 6 =96 Add Webpage =
+to Home Screen</strong></span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">I go to pr=
+etty much the same sites every day before anything else, and I like access =
+to these sites to be pretty simple. So I was intrigued when I saw that iOS =
+6 allowed me to make a home screen icon for a webpage.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<em><span style=3D"font-family: arial, helvetica, sans-serif; ">Here=
+=92s how.</span></em></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">From withi=
+n Safari, browse the website you want to make an icon for and hit the <stro=
+ng>share button</strong> up at the top. It=92s the one that looks like a bo=
+x with an arrow coming out of it.</span><br />
+					<br />
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><img alt=
+=3D"" class=3D"alignnone size-full wp-image-31764" height=3D"116" src=3D"ht=
+tp://imgsrv.worldstart.net/images/ct-images/2012/10/ipad_hs_ico_1.jpg" styl=
+e=3D"border: 0px; margin: 0px; padding: 0px; " title=3D"ipad_hs_ico_1" widt=
+h=3D"225" /> </span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Once the s=
+hare box pops up, you=92ll see an option in the middle =96 <strong>Add to h=
+ome screen</strong>. Tap it, name the shortcut (or don=92t =96 there=92s a =
+name in there by default), and click <strong>add</strong>.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><img alt=
+=3D"" class=3D"alignnone size-full wp-image-31763" height=3D"217" src=3D"ht=
+tp://imgsrv.worldstart.net/images/ct-images/2012/10/ipad_hs_ico_2.jpg" styl=
+e=3D"border: 0px; margin: 0px; padding: 0px; " title=3D"ipad_hs_ico_2" widt=
+h=3D"350" /></span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<em><span style=3D"font-family: arial, helvetica, sans-serif; ">Voila =
+=96 home screen shortcut!</span></em></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><img alt=
+=3D"" class=3D"alignnone size-full wp-image-31762" height=3D"320" src=3D"ht=
+tp://imgsrv.worldstart.net/images/ct-images/2012/10/ipad_hs_ico_3.jpg" styl=
+e=3D"border: 0px; margin: 0px; padding: 0px; " title=3D"ipad_hs_ico_3" widt=
+h=3D"350" /></span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">~Andrew</s=
+pan></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/ios-6-add-webpage-to-home-screen/">Click here to rate=
+ this tip</a> | <a href=3D"http://www.worldstart.com/ios-6-add-webpage-to-h=
+ome-screen/print/">Printer friendly version</a></font></p>
+				<p>
+					 </p>
+				<p>
+					<img alt=3D"Announcements" height=3D"40" src=3D"http://imgsrv.worldsta=
+rt.com/nl-images/tech/announcements.jpg" width=3D"385" /></p>
+				<p align=3D"center">
+	<font face=3D"Arial, Helvetica, sans-serif"><font size=3D"4"><strong><font=
+ face=3D"Arial, Helvetica, sans-serif">"Everyone Wants My Earbuds!"</font><=
+br />
+	<br />
+	<em><font color=3D"#FF0000" face=3D"Arial, Helvetica, sans-serif">Your Poo=
+r Ears Haven't LIVED - Till They've Tried On These Babies!</font></em></str=
+ong></font></font></p>
+<div align=3D"center">
+	<div align=3D"center">
+		<p>
+			<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helveti=
+ca, sans-serif"><img alt=3D"Bendy-z" border=3D"0" height=3D"218" src=3D"htt=
+p://imgsrv.worldstart.com/ct-images/SentryNeons2.jpg" style=3D"display:inli=
+ne" width=3D"317" /><br />
+			<br />
+			<font color=3D"blue" size=3D"4"><strong>Take One Part Absolutely Remarka=
+ble Sound, One Part Ultra-Comfort...</strong></font></font></font></p>
+		<p>
+			<font face=3D"Arial, Helvetica, sans-serif"><strong><font color=3D"#FF00=
+00" face=3D"Arial, Helvetica, sans-serif" size=3D"4">And You Get<em> THESE =
+</em>Phenomenal Earbuds!</font></strong></font></p>
+		<p>
+			<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helveti=
+ca, sans-serif"><font color=3D"#0000FF" size=3D"4"><strong><em>Noise Reduct=
+ion!</em></strong></font><font color=3D"#0000FF" size=3D"4"><strong><em> Ex=
+tra Bass!</em></strong></font><br />
+			<br />
+			<em><strong><font color=3D"red" size=3D"4">Sends Every Other Set Of Earb=
+uds Cryin' For Their Mommas!</font></strong></em></font></font></p>
+		<p>
+			<span style=3D"font-size:18px;"><font face=3D"Arial, Helvetica, sans-ser=
+if"><font face=3D"Arial, Helvetica, sans-serif"><em><strong>** LOWEST PRICE=
+ EVER! **</strong></em></font></font></span></p>
+	</div>
+</div>
+<div align=3D"left">
+	<p>
+		<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetic=
+a, sans-serif" size=3D"3">If you've ever tried to listen music with hard pl=
+astic earbuds, you've probably had the same gripes that I've had with 'em. =
+Yeah, they're lightweight but the trouble is your ear has to be just the ri=
+ght size to fit them. You have to jam them in your ear - hoping and praying=
+ that they stay. But they always end up falling out... so you have to jam '=
+em so far into your ear that they're REALLY uncomfortable. <img align=3D"ri=
+ght" alt=3D"" height=3D"400" name=3D"133adfc10949ee2b_0.1_13341ba0aee25fe4_=
+0.1_0.1_" src=3D"http://imgsrv.worldstart.com/ct-images/SentryNeons1.jpg" s=
+tyle=3D"display:block" width=3D"179" /><br />
+		<br />
+		<font color=3D"blue"><strong><em>That's why I was so excited found the PE=
+RFECT solution!</em></strong></font> We've just come across an incredible s=
+et that sound GREAT <em>(<strong>YES</strong></em>...they're <font color=3D=
+"red"><em><strong>STEREO, have EXTRA BASS & are NOISE REDUCTION! </strong><=
+/em></font><em>)</em> and are VERY comfortable.<br />
+		<br />
+		Let's face it, if earphones aren't comfortable, who <em>cares</em> how th=
+ey sound, cuz you'll never wear 'em to ever find out! Well, these stream-li=
+ned earphones really deliver not only on great sound but comfort too!<br />
+		<br />
+		<strong>Here's why these Stereo Earbuds work:</strong><br />
+		<br />
+		Each earpiece features a <font color=3D"blue"><strong><em>soft silicone e=
+arpad</em></strong></font> and they will fit in almost any ear. They create=
+ a slight suction - so when you place the earpiece in your ear it stays the=
+re ...comfortably, and doesn't fall out!<br />
+		<br />
+		<font color=3D"#ff0000"><strong><em>These truly are a have a great set of=
+ earphones that you can take where ever you go!</em></strong></font> In fac=
+t, you can use these at your computer desk if you're working on your comput=
+er late at night or early in the morning and you need to keep the sound dow=
+n.<br />
+		<br />
+		And the cord is long enough (4 foot) without being too long so as to get =
+tangled and in the way (another small point but something I've noticed as a=
+ problem with other earphones I've tried!)<br />
+		<br />
+		And in case you were wonderin', this is the common plug (3.5 mm) that fit=
+s into the front and your computer and most other audio devices, like porta=
+ble radios, laptops, cd /dvd/mp3 players, iPods etc.<br />
+		<br />
+		<font color=3D"red"><strong>Do <em>NOT</em> let the low price fool you on=
+ this.</strong></font> We just <strong><em>happened</em></strong> to get a =
+great deal on these so we're passin' along the savings! <font color=3D"blue=
+"><strong>Believe it or not, today these are just </strong></font></font></=
+font><span style=3D"color:#0000ff;"><span style=3D"font-size: 16px;"><stron=
+g>$4.97 </strong></span></span><font face=3D"Arial, Helvetica, sans-serif">=
+<font face=3D"Arial, Helvetica, sans-serif" size=3D"3"><font color=3D"blue"=
+><strong> and shipping in the US is <em>FREE on all orders over $5.00!</em>=
+</strong></font></font></font></p>
+	<p>
+		<span style=3D"font-size:16px;"><a href=3D"http://store.worldstart.com/pr=
+oduct/6928?utm_source=3Dtech_tipsv1&utm_medium=3Demail&utm_campaign=3D2012-=
+10-22&from=3Dnewsletter">http://store.worldstart.com/product/6928</a> </spa=
+n></p>
+	<p>
+		<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetic=
+a, sans-serif" size=3D"3"><font color=3D"red"><strong><em>PS - At this pric=
+e, might want to consider picking up 2 or three of these so you have one at=
+ your computer, one in the car and one you can stick in your pocket or purs=
+e for walks or bike rides!</em></strong></font></font></font></p>
+	<p>
+		<font face=3D"Arial, Helvetica, sans-serif"><font face=3D"Arial, Helvetic=
+a, sans-serif" size=3D"3"><font color=3D"black"><strong>Warning - </strong>=
+This price is set to increase soon! Don't pay </font></font></font><span st=
+yle=3D"font-size:16px;">$14.97 </span><font face=3D"Arial, Helvetica, sans-=
+serif"><font face=3D"Arial, Helvetica, sans-serif" size=3D"3"><font color=
+=3D"black"><span style=3D"font-size:16px;"> </span>for 'em later - grab 'em=
+ today!</font></font></font></p>
+</div>
+<p>
+	 </p>
+<br/> <hr size=3D'10' noshade=3D'noshade'/><br/>
+				<p>
+					<a href=3D"http://store.worldstart.com/product/5895"><img alt=3D"http:=
+//imgsrv.worldstart.com/ct-images/sick-of-ads.jpg" border=3D"0" height=3D"3=
+1" src=3D"http://imgsrv.worldstart.com/ct-images/sick-of-ads.jpg" width=3D"=
+363" /></a></p>
+				<p>
+					 </p>
+				<p>
+					<img alt=3D"Computers 101" height=3D"40" src=3D"http://imgsrv.worldsta=
+rt.com/nl-images/tech/comp-101.jpg" width=3D"385" /><a id=3D"comp101" name=
+=3D"comp101"></a></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"color: rgb(0, 0, 255); "><strong><span style=3D"font-fa=
+mily: arial, helvetica, sans-serif; ">Richard MI writes:</span></strong></s=
+pan></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"color: rgb(0, 0, 255); "><strong><span style=3D"font-fa=
+mily: arial, helvetica, sans-serif; ">I just got my Turbo Tax program disk =
+for this year and when I went to load the program, I found out that my D-Dr=
+ive had lost its relationship to the computer and I couldn=92t figure out h=
+ow to get it back in the system. The drivers were still there in the list, =
+but not the drive. Is this a hardware malfunction or a system problem? None=
+ of my disks would function in this drive. Any ideas?</span></strong></span=
+></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Missing dr=
+ive letters don=92t happen often in Windows, but when the problem does occu=
+r it=92s a baffling annoyance that can throw off your whole day =96 especia=
+lly if you need to use a specific program or access a specific file. Solvin=
+g the case of the disappearing drive letter isn=92t too difficult, but it w=
+ill require playing with your computer=92s system settings (or possibly eve=
+n taking apart the machine to check hardware connections).</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">If the dri=
+ve that is no longer appearing is a physical drive, such as a hard drive or=
+ DVD drive, head to the =93Start=94 menu and open the =93Control Panel=94 w=
+indow (instructions for mapping a network drive =96 instead of a physical d=
+rive =96 are found below).</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<img alt=3D"The Control Panel" class=3D"alignnone size-full wp-image-3=
+1569" height=3D"235" src=3D"http://imgsrv.worldstart.net/images/ct-images/2=
+012/10/let1.jpg" style=3D"border: 0px; margin: 0px; padding: 0px; " width=
+=3D"389" /></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Click the =
+green =93System and Security=94 heading located at the top-left corner of t=
+he Control Panel.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<img alt=3D"System And Security" class=3D"alignnone size-full wp-image=
+-31570" height=3D"233" src=3D"http://imgsrv.worldstart.net/images/ct-images=
+/2012/10/let2.jpg" style=3D"border: 0px; margin: 0px; padding: 0px; " width=
+=3D"286" /></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Open the =
+=93Administrative Tools=94 window by clicking the green link at the bottom =
+of the window, located just underneath =93Windows Anytime Upgrade=94 link.<=
+/span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<img alt=3D"Administrative Tools" class=3D"alignnone size-full wp-imag=
+e-31571" height=3D"188" src=3D"http://imgsrv.worldstart.net/images/ct-image=
+s/2012/10/let3.jpg" style=3D"border: 0px; margin: 0px; padding: 0px; " widt=
+h=3D"321" /></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Double-cli=
+ck the icon labeled =93Computer Management,=94 which is in the window=92s c=
+enter panel and positioned underneath the =93Computer Services=94 icon.</sp=
+an></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<img alt=3D"Computer Management" class=3D"alignnone size-full wp-image=
+-31572" height=3D"169" src=3D"http://imgsrv.worldstart.net/images/ct-images=
+/2012/10/let4.jpg" style=3D"border: 0px; margin: 0px; padding: 0px; " width=
+=3D"313" /></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Open the =
+=93Storage=94 sub-menu on the left side of the screen so the =93Disk Manage=
+ment=94 option becomes visible, and then click =93Disk Management=94 to mak=
+e a list of drives appear in the window=92s center panel. The center panel =
+may take a few seconds to populate with data as your operating system check=
+s for all connected drives.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<img alt=3D"Disk Management" class=3D"alignnone size-full wp-image-315=
+74" height=3D"139" src=3D"http://imgsrv.worldstart.net/images/ct-images/201=
+2/10/let5.jpg" style=3D"border: 0px; margin: 0px; padding: 0px; " width=3D"=
+211" /></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Right-clic=
+k the drive that no longer has a proper letter association and choose =93Ch=
+ange Drive Letter and Paths.=94</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<img alt=3D"Changing A Drive Letter" class=3D"alignnone size-full wp-i=
+mage-31576" height=3D"152" src=3D"http://imgsrv.worldstart.net/images/ct-im=
+ages/2012/10/let6.jpg" style=3D"border: 0px; margin: 0px; padding: 0px; " w=
+idth=3D"274" /></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Click the =
+=93Change=94 button at the bottom of the pop-up window and then select the =
+drive letter you want to use from the drop-down menu. Select =93OK=94 to se=
+t the drive to the appropriate letter. If no drive letter appears at all, y=
+ou need to click =93Add=94 instead of =93Change=94 and then select the driv=
+e letter and click =93OK.=94</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<img alt=3D"The Change Button" class=3D"alignnone size-full wp-image-3=
+1577" height=3D"173" src=3D"http://imgsrv.worldstart.net/images/ct-images/2=
+012/10/let7.jpg" style=3D"border: 0px; margin: 0px; padding: 0px; " width=
+=3D"283" /></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">The drive =
+may not appear in the list at all if the issue isn=92t caused by a software=
+ setting. The problem may instead be a simple hardware issue where the cabl=
+e has become dislodged or the drive itself has died and needs to be replace=
+d. If you are unable to add the drive through the =93Disk Management=94 scr=
+een, turn off your computer and unplug the power cable. Disconnect the comp=
+uter=92s side panel (either by removing the attached Phillips screws or by =
+pressing down on an unlock button) and pull the panel off so the drives and=
+ cables are visible. Check to ensure the cable attaching the drive to your =
+computer=92s motherboard is firmly connected at both ends and press them in=
+ firmly if they are disconnected. In the event the cables aren=92t dislodge=
+d you will likely need to completely replace the drive.</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">If you hav=
+e a network drive that no longer has a drive letter, instead of a standard =
+physical drive, return to the =93Start=94 menu and click =93Computer.=94</s=
+pan></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<img alt=3D"The Computer Menu" class=3D"alignnone size-full wp-image-3=
+1578" height=3D"179" src=3D"http://imgsrv.worldstart.net/images/ct-images/2=
+012/10/let9.jpg" style=3D"border: 0px; margin: 0px; padding: 0px; " width=
+=3D"316" /></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Click the =
+button at the top of the window labeled =93Map Network Drive.=94</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<img alt=3D"Mapping Network Drive" class=3D"alignnone size-full wp-ima=
+ge-31580" height=3D"134" src=3D"http://imgsrv.worldstart.net/images/ct-imag=
+es/2012/10/let10.jpg" style=3D"border: 0px; margin: 0px; padding: 0px; " wi=
+dth=3D"287" /></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Open the =
+=93Drive=94 drop-down menu and select the letter you want to use for the ne=
+twork drive, and then click =93Browse=94 and double-click the network drive=
+=92s location. Map the network drive to your selected drive letter by click=
+ing =93Finish.=94</span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<img alt=3D"Choosing A Drive Letter" class=3D"alignnone size-full wp-i=
+mage-31581" height=3D"217" src=3D"http://imgsrv.worldstart.net/images/ct-im=
+ages/2012/10/let11.jpg" style=3D"border: 0px; margin: 0px; padding: 0px; " =
+width=3D"434" /></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">~ Ty Arthu=
+r</span></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/restoring-a-missing-drive-letter/">Click here to rate=
+ this tip</a> | <a href=3D"http://www.worldstart.com/restoring-a-missing-dr=
+ive-letter/print/">Printer friendly version</a></font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Do you have a q=
+uestion for us? Ask it <a href=3D"http://www.worldstart.com/ask">here</a>!<=
+/font></p>
+				<p>
+					 </p>
+				<p>
+					<img alt=3D"On The Move" height=3D"40" src=3D"http://imgsrv.worldstart=
+.com/nl-images/tech/tech-101.jpg" width=3D"385" /><a id=3D"comp" name=3D"on=
+themove"></a></p>
+				<p>
+					<span style=3D"color: rgb(0, 0, 205); "><strong>When is Big <em>Too Bi=
+g</em>? The New Samsung Galaxy SIII Phone</strong></span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">You know t=
+he phrase =93Bigger is Better=94? Well, after many years (and a lot of brok=
+en buttons on pants) most fast food companies have realized that bigger isn=
+=92t always better =96 although some major phone manufactures haven=92t cau=
+ght on yet.</span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><img alt=
+=3D"hugephone" class=3D"wp-image-24694 alignnone" height=3D"265" src=3D"htt=
+p://imgsrv.worldstart.net/images/ct-images/2012/05/nextgalaxy.jpg" style=3D=
+"border: 0px; margin: 0px; padding: 0px; " width=3D"210" /></span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Samsung re=
+cently released the Samsung Galaxy SIII, a brand new 4.8&#8243; screen Andr=
+oid 4.0 smartphone with the latest in technology. Featuring a 1280=D7720 pi=
+xel 4.8&#8243; super AMOLED screen, a brand new quad-core 1.4 ghz processor=
+, 1 GB of LPDDR2 RAM,16, 32 or 64GB of built-in storage and 4G LTE on compa=
+tible networks. It=92s a beast on the specification charts.</span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<font face=3D"arial, helvetica, sans-serif">But there's more! Click <a=
+ href=3D"http://www.worldstart.com/galaxy-siii/">here</a>!</font></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; font-size: s=
+mall; ">(Want these tips in their entirety? Sign up for </span><a href=3D"h=
+ttp://store.worldstart.com/product/5895" style=3D"color: rgb(59, 103, 165);=
+ font-weight: bold; text-decoration: none; font-family: arial, helvetica, s=
+ans-serif; font-size: small; ">Premium</a><span style=3D"font-family: arial=
+, helvetica, sans-serif; font-size: small; ">!)</span><br />
+					 </p>
+				<p>
+					<img alt=3D"From The Archives" height=3D"40" src=3D"http://imgsrv.worl=
+dstart.com/nl-images/tech/from-the-archives.jpg" width=3D"385" /><a id=3D"c=
+omp2" name=3D"archives"></a></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"color: rgb(0, 0, 255); "><strong><span style=3D"font-fa=
+mily: arial, helvetica, sans-serif; ">Harry from CA. writes:</span></strong=
+></span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"color: rgb(0, 0, 255); "><strong><span style=3D"font-fa=
+mily: arial, helvetica, sans-serif; ">When I start windows 7, I have to cli=
+ck on an icon to continue the boot. Is there a way to get around that? Than=
+ks!</span></strong></span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">In an effo=
+rt to keep your computer secure and provide options if a profile experience=
+s problems, the Windows 7 operating system normally requires you to log int=
+o a specific account when you start your computer. Unfortunately, this adds=
+ an unnecessary step that increases the startup time if you don=92t use a p=
+assword with your account =96 or if you frequently only sign into one singl=
+e account. To avoid going through the process of clicking the account=92s i=
+con every time you turn on your computer, Windows 7 offers the ability to a=
+utomatically log into an account during the startup process.</span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">The simple=
+st method of accessing this feature is to open the =93Start=94 menu and typ=
+e the phrase =93netplwiz=94 in the search box. Click the =93netplwiz=94 ico=
+n at the top of the search results field to open the =93User Accounts=94 wi=
+ndow.</span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; font-size: x=
+-small; "><img alt=3D"Accessing User Accounts" class=3D"alignnone size-full=
+ wp-image-26735" height=3D"197" src=3D"http://imgsrv.worldstart.net/images/=
+ct-images/2012/06/autologin1.jpg" style=3D"border: 0px; margin: 0px; paddin=
+g: 0px; " width=3D"368" /></span></p>
+				<p style=3D"font-size: 12px; color: rgb(0, 0, 0); text-align: justify; =
+">
+					<font face=3D"arial, helvetica, sans-serif">Finish this tip <a href=3D=
+"http://www.worldstart.com/automatically-logging-into-windows-7-at-startup/=
+">here</a>!</font></p>
+				<p>
+					<span style=3D"color: rgb(0, 0, 0); text-align: justify; font-family: =
+arial, helvetica, sans-serif; font-size: small; ">(Want these tips in their=
+ entirety? Sign up for </span><a href=3D"http://store.worldstart.com/produc=
+t/5895" style=3D"color: rgb(59, 103, 165); font-weight: bold; text-decorati=
+on: none; text-align: justify; font-family: arial, helvetica, sans-serif; f=
+ont-size: small; ">Premium</a><span style=3D"color: rgb(0, 0, 0); text-alig=
+n: justify; font-family: arial, helvetica, sans-serif; font-size: small; ">=
+!)</span></p>
+				<p>
+					 </p>
+				<p>
+					<img alt=3D"Today's Feature" height=3D"40" src=3D"http://imgsrv.worlds=
+tart.com/nl-images/tech/todays-feature.jpg" width=3D"385" /><a id=3D"comp3"=
+ name=3D"feature"></a></p>
+				<p>
+					 </p>
+				<p>
+					<a href=3D"http://www.worldstart.com/whats-the-difference-between-tabl=
+ets-ereaders/"><img alt=3D"" src=3D"http://imgsrv.worldstart.com/1/tablets-=
+vs-ereaders-video.jpg" style=3D"width: 450px; height: 269px; border-width: =
+0px; border-style: solid;" /></a></p>
+				<p>
+					<span style=3D"font-family: arial,helvetica,sans-serif;"><strong>I=92v=
+e Always Wanted To Know:</strong></span></p>
+				<p>
+					<span style=3D"font-family: arial,helvetica,sans-serif;"><em>What=92s =
+The Difference Between Tablets & eReaders?</em></span></p>
+				<p>
+					<span style=3D"font-family: arial,helvetica,sans-serif;"><strong>Answe=
+r:</strong></span></p>
+				<p>
+					<span style=3D"font-family: arial,helvetica,sans-serif;">In today=92s =
+=93I=92ve Always Wanted To Know=94 Melanie & Tim talk on camera about the d=
+ifferences between a Tablet and an eReader and why you would choose one ove=
+r the other.</span></p>
+				<p>
+					<span style=3D"font-family: arial,helvetica,sans-serif;">Want more fac=
+ts? Check out this handy comparison below<strong>...</strong></span></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/whats-the-difference-between-tablets-ereaders/">Learn=
+ more over at WorldStart!</a></font></p>
+				<p>
+					<strong>Do you have a general technology or electronics question you a=
+lways wanted to know like =93How does a Microwave work?=94 or =93Why do LED=
+=92s last so long?=94 Write me at <a href=3D"mailto:Tim@WorldStart.com">Tim=
+@WorldStart.com</a> and your question may be answered in an upcoming =93I A=
+lways Wanted To Know.=94</strong> <em><strong>For specific computer support=
+ questions ask our writers by <a href=3D"http://www.worldstart.com/ask/" ta=
+rget=3D"_blank">clicking here</a>.</strong></em></p>
+				<p>
+					 </p>
+				<p>
+					<img alt=3D"Amanda's Coolsite" height=3D"40" src=3D"http://imgsrv.worl=
+dstart.com/nl-images/tech/amandas-coolsite.jpg" width=3D"385" /><a id=3D"co=
+mp4" name=3D"coolsite"></a></p>
+				<p>
+					<strong><a href=3D"http://www.pinstagram.co/">Pinstagram</a></strong><=
+/p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Both Pinte=
+rest and Instagram have taken off and become very popular since their launc=
+h.  Now you can use both at once on the web or your iPad with Pinstagram! T=
+he downside to Instagram is that it=92s an application that you need a smar=
+tphone to use it (iPhone or Android). So, for full disclosure this site is =
+for folks who already use Instagram, but would like to do so on the web or =
+their iPad. </span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">Once you=
+=92ve registered, you can login on this site and manage everything from the=
+ web. The next thing I=92d recommend is checking out the <a href=3D"http://=
+www.pinstagram.co/faq" style=3D"color: rgb(59, 103, 165); font-weight: bold=
+; text-decoration: none; ">FAQ</a> as you load right into the application w=
+ith little to no explanation. </span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">If you cli=
+ck Instagram on the left, a menu will drop down giving you access to the Fe=
+ed, Popular, Nearby, My Photos, and My Likes. Letting you access your own a=
+nd popular content via the web. </span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">There=92s =
+another menu at the top right of the page with icons that will refresh the =
+page, as well as the same options as under Instagram, and a settings button=
+. </span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">What I thi=
+nk this site is the most useful for is managing your feed if it has gotten =
+out of hand and you need to see multiple images at a time. It also allows y=
+ou to easily share your images on Pinterest by clicking the heart button. T=
+his will bring up a pin that you=92d fill out like anything else you pin.</=
+span><br />
+					<br />
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">If you use=
+ Instagram, give it a try!  </span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; "><a href=3D=
+"http://www.pinstagram.co/" style=3D"color: rgb(59, 103, 165); font-weight:=
+ bold; text-decoration: none; ">http://www.pinstagram.co/</a></span></p>
+				<p style=3D"color: rgb(0, 0, 0); font-size: 12px; text-align: justify; =
+">
+					<span style=3D"font-family: arial, helvetica, sans-serif; ">~Amanda</s=
+pan></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/pinstagram/">Click here to rate this tip</a> | <a hre=
+f=3D"http://www.worldstart.com/pinstagram/print/">Printer friendly version<=
+/a></font></p>
+				<font color=3D"#0000FF" face=3D"Arial, Helvetica, sans-serif" size=3D"2=
+">Do you have a cool, non-commercial site that you want to share?</font><br=
+ />
+				<br />
+				<font color=3D"#000000" face=3D"Arial, Helvetica, sans-serif" size=3D"2=
+">Send it to Amanda at </font><font color=3D"#000099" face=3D"Arial, Helvet=
+ica, sans-serif" size=3D"2"><a href=3D"mailto:amanda@worldstart.com">amanda=
+@worldstart.com</a></font><br />
+				<br />
+				<p>
+					<img alt=3D"One More Big Deal" height=3D"40" src=3D"http://imgsrv.worl=
+dstart.com/nl-images/tech/big-deal.jpg" width=3D"385" /></p>
+				<div align=3D"center">
+	<p>
+		<font color=3D"blue" face=3D"Helvetica, Geneva,   Arial,   SunSans-Regula=
+r, sans-serif" size=3D"4"><strong><em>Special Announcement!</em></strong></=
+font></p>
+	<p>
+		<font color=3D"blue" face=3D"Helvetica, Geneva, Arial,   SunSans-Regular,=
+   sans-serif" size=3D"4"><strong><em>Please Read!</em></strong></font><br =
+/>
+		<br />
+		<font color=3D"red" face=3D"Helvetica, Geneva,   Arial,   SunSans-Regular=
+, sans-serif" size=3D"4"><strong>Love Computer & Tech Tips? </strong></font=
+></p>
+	<p>
+		<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=
+=3D"4"><strong><em>Hate The Long Ads? </em></strong></font></p>
+	<div class=3D"im">
+		<p>
+			<font color=3D"red" face=3D"Helvetica, Geneva, Arial, SunSans-Regular,  =
+   sans-serif" size=3D"4"><strong>Then You Are Gonna Absolutely LOVE This!!=
+</strong></font></p>
+		<p>
+			<font color=3D"blue" face=3D"Helvetica, Geneva, Arial,   SunSans-Regular=
+,   sans-serif" size=3D"4"><strong>Just Imagine - You Open Your Tech Tips N=
+ewsletter...</strong></font></p>
+		<p>
+			<font color=3D"blue" face=3D"Helvetica, Geneva, Arial,   SunSans-Regular=
+,   sans-serif" size=3D"4"><strong><img alt=3D"" border=3D"0" height=3D"282=
+" src=3D"http://imgsrv.worldstart.com/promos/pm-3.jpg" width=3D"426" /></st=
+rong></font></p>
+	</div>
+	<p>
+		<font color=3D"red" face=3D"Helvetica, Geneva, Arial,   SunSans-Regular, =
+  sans-serif" size=3D"4"><strong><em>And All The Long Ads Are GONE! *Poof!*=
+</em></strong></font></p>
+	<div>
+		<div class=3D"im">
+			<p>
+				<font color=3D"red" face=3D"Helvetica, Geneva, Arial, SunSans-Regular, =
+    sans-serif" size=3D"4"><strong>How Can <em>YOU</em> Make The Magic Happ=
+en? </strong></font></p>
+			<p>
+				<font color=3D"blue" face=3D"Helvetica, Geneva, Arial,   SunSans-Regula=
+r,   sans-serif" size=3D"4"><strong>Oh, You Gotta Read This NOW!</strong></=
+font></p>
+		</div>
+	</div>
+</div>
+<div>
+	<div class=3D"im">
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3"><strong>OK, in survey after survey, we hear people screaming the sa=
+me thing over and over:</strong></font></p>
+		<p>
+			<img align=3D"absmiddle" alt=3D"" border=3D"0" height=3D"168" src=3D"htt=
+p://imgsrv.worldstart.com/promos/pm-4.jpg" width=3D"150" /><font color=3D"r=
+ed" face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"=
+3"><strong><em>"PLEASE, I'm beggin' ya - GET RID OF THE LONG ADS IN THE NEW=
+SLETTERS!!"</em></strong></font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3">Well, it took us awhile, but hey, we heard ya! </font><font face=3D=
+"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3">So, we'r=
+e now offering our exciting new<strong> WorldStart Premium Membership</stro=
+ng> - and we </font><font color=3D"blue" face=3D"Helvetica,     Geneva, Ari=
+al, SunSans-Regular, sans-serif" size=3D"3"><em><strong>KNOW</strong></em><=
+/font><font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" =
+size=3D"3"> you're absolutely, positively gonna LOVE it! </font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3"><strong>What'll you get when you upgrade to Premium today? Get read=
+y to be blown away!</strong></font></p>
+		<p>
+			<font color=3D"red" face=3D"Helvetica, Geneva, Arial, SunSans-Regular,  =
+   sans-serif" size=3D"3"><strong>First - Premium Newsletters!<img align=3D=
+"right" alt=3D"" border=3D"0" height=3D"300" hspace=3D"8" src=3D"http://img=
+srv.worldstart.com/promos/pm-1.jpg" vspace=3D"8" width=3D"200" /></strong><=
+/font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3">You'll absolutely LOVE these! You can get our fantastic </font><fon=
+t color=3D"blue" face=3D"Helvetica, Geneva, Arial, SunSans-Regular,     san=
+s-serif" size=3D"3"><strong>Tech Tips, Tech Tips Weekly, and Just For Grins=
+ newsletters</strong></font><font face=3D"Helvetica, Geneva,     Arial, Sun=
+Sans-Regular, sans-serif" size=3D"3"><strong> -</strong></font><font color=
+=3D"red" face=3D"Helvetica, Geneva,   Arial, SunSans-Regular, sans-serif" s=
+ize=3D"3"><strong>without all the long ads!</strong></font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3">Same incredible content you love getting from us,</font><font face=
+=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3"><em><=
+strong>but </strong></em></font><font color=3D"red" face=3D"Helvetica, Gene=
+va, Arial,     SunSans-Regular, sans-serif" size=3D"3"><em><strong>none</st=
+rong></em></font><font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, s=
+ans-serif" size=3D"3"><em><strong> of the long advertisements clogging it u=
+p!</strong></em></font><font face=3D"Helvetica, Geneva, Arial, SunSans-Regu=
+lar, sans-serif" size=3D"3"> Wouldn't it be <strong>GREAT</strong> to sit d=
+own, read the newsletter, and not have to struggle through a bunch of ads t=
+o find the tips, tricks, and advice you love? This takes ya there! It's lik=
+e going from an old scooter to a Ferrari!</font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3"><strong>Oh, and it's even better than that!</strong></font></p>
+		<p>
+			<font color=3D"red" face=3D"Helvetica, Geneva, Arial, SunSans-Regular,  =
+   sans-serif" size=3D"3"><strong><em>Instead of ads, you'll get a fantasti=
+c </em></strong></font><font color=3D"black" face=3D"Helvetica, Geneva, Ari=
+al, SunSans-Regular,     sans-serif" size=3D"3"><strong><em>Table Of Conten=
+ts </em></strong></font><font color=3D"red" face=3D"Helvetica, Geneva, Aria=
+l, SunSans-Regular,     sans-serif" size=3D"3"><strong><em>at the beginning=
+ of the Tech Tips newsletter!</em></strong></font><font face=3D"Helvetica, =
+Geneva, Arial,     SunSans-Regular, sans-serif" size=3D"3"> See a tip so in=
+triguing you just gotta read it NOW? Don't hunt for it - just click! <stron=
+g><em>PLUS</em></strong> - if you archive these newsletters, this makes fin=
+ding a tip you need super-quick!!</font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3"><strong>BUT...</strong></font></p>
+		<p>
+			<font color=3D"blue" face=3D"Helvetica, Geneva, Arial, SunSans-Regular, =
+    sans-serif" size=3D"3"><strong>If you <em>PRINT</em> our newsletters th=
+is is a TOTAL no-brainer! Just imagine printing <em>without</em> all those =
+big ads suckin up ink & chewing through paper! </strong></font><font face=
+=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3">Just =
+think about it - that <strong><em>ALONE</em></strong> will save you a small=
+ fortune every year!</font></p>
+		<p>
+			<font color=3D"red" face=3D"Helvetica, Geneva, Arial, SunSans-Regular,  =
+   sans-serif" size=3D"3"><strong>PLUS - you'll get your newsletters before=
+ everyone else!</strong></font><font face=3D"Helvetica, Geneva, Arial,     =
+SunSans-Regular, sans-serif" size=3D"3"> That's right - <em><strong>Premium=
+ Members get top priority in our sending schedule!</strong></em> You're new=
+sletters are sent first, so you <strong><em>KNOW</em></strong> you'll have =
+all our fantastic information first thing in the morning!</font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3">And that's not all - </font><font color=3D"blue" face=3D"Helvetica,=
+     Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3"><strong>you'll =
+also have access to our Premium Subscriber Archives too! </strong></font><f=
+ont face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"=
+3">These are ad-free archives of all our New Premium Newsletters! You can b=
+rowse through and see any issues you missed,</font><font color=3D"red" face=
+=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3"><stro=
+ng> e-mail yourself another copy of a lost newsletter</strong></font><font =
+face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3">,=
+ and MORE!</font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3">Yikes - Worried you'll miss out on our great deals? No problem! <st=
+rong>We include a <em>VERY</em> brief summary of what we're selling <em>UND=
+ER</em> the Cool Site Of The Day section!</strong> You can click the link a=
+t any time to see what's on sale that day - but <strong>NONE</strong> of th=
+ose big ads will appear in your newsletter! How cool is that?</font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3">Hey, and don't take my word for it -</font><font color=3D"blue" fac=
+e=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3"><str=
+ong> check out out the sample newsletter at the site! </strong></font><font=
+ face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3">=
+<em><strong>Once you see that, you'll want to go Premium for sure!</strong>=
+</em></font></p>
+		<p>
+			<font color=3D"red" face=3D"Helvetica, Geneva, Arial, SunSans-Regular,  =
+   sans-serif" size=3D"3"><strong>Second - Member's Only Pricing On </stron=
+g></font><font color=3D"blue" face=3D"Helvetica, Geneva, Arial, SunSans-Reg=
+ular,     sans-serif" size=3D"3"><strong><em>EVERY</em></strong></font><fon=
+t color=3D"red" face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-ser=
+if" size=3D"3"><strong> Item In Our Store!</strong></font></p>
+		<p>
+			<img align=3D"absmiddle" alt=3D"" border=3D"0" height=3D"25" src=3D"http=
+://imgsrv.worldstart.com/promos/circ-check.png" width=3D"25" /> <font face=
+=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3"><stro=
+ng>How would you like to save an average of 15% off on EVERY product in our=
+ WorldStart Online Store? <img align=3D"right" alt=3D"" border=3D"0" height=
+=3D"144" hspace=3D"8" src=3D"http://imgsrv.worldstart.com/promos/pm-5.jpg" =
+vspace=3D"5" width=3D"200" /></strong></font></p>
+		<p>
+			<img align=3D"absmiddle" alt=3D"" border=3D"0" height=3D"25" src=3D"http=
+://imgsrv.worldstart.com/promos/circ-check.png" width=3D"25" /> <font face=
+=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3"><stro=
+ng>How would you like to have that savings be 100% AUTOMATIC? You never nee=
+d a coupon!</strong></font></p>
+		<p>
+			<img align=3D"absmiddle" alt=3D"" border=3D"0" height=3D"25" src=3D"http=
+://imgsrv.worldstart.com/promos/circ-check.png" width=3D"25" /> <font face=
+=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3"><stro=
+ng>How would you like it to be ALL THE TIME? Buy today, buy tomorrow - <em>=
+YOU</em> get a special price each and every day!</strong></font></p>
+		<p>
+			<img align=3D"absmiddle" alt=3D"" border=3D"0" height=3D"25" src=3D"http=
+://imgsrv.worldstart.com/promos/circ-check.png" width=3D"25" /> <font face=
+=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3"><stro=
+ng>How would you like to know that YOUR price is <em>ALWAYS</em> our lowest=
+ possible price? - No one can get a lower price than YOU!</strong></font></=
+p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3"><em><strong>Well, become a WorldStart Premium Member TODAY and you'=
+ll get all the above!</strong></em> Just think -</font><font color=3D"red" =
+face=3D"Helvetica, Geneva, Arial,   SunSans-Regular, sans-serif" size=3D"3"=
+><strong><em>it's like a 15% off sale every day for as long as you're a Pre=
+mium Member!</em></strong></font><font face=3D"Helvetica, Geneva, Arial,   =
+SunSans-Regular, sans-serif" size=3D"3">No coupons to mess with - just log =
+in and it's </font><font color=3D"blue" face=3D"Helvetica, Geneva,   Arial,=
+ SunSans-Regular, sans-serif" size=3D"3"><strong>ALL 100% automatic! </stro=
+ng></font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3">Heck, once you're logged into the store, you'll actually see <stron=
+g><em>YOUR</em></strong> special rock-bottom price on each and every item!<=
+/font></p>
+		<p>
+			<font color=3D"red" face=3D"Helvetica, Geneva, Arial, SunSans-Regular,  =
+   sans-serif" size=3D"3"><strong>Third - Exclusive, Must-Read Special Repo=
+rts</strong></font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3">OK, OK, I know you want to know how to upgrade to Premium, but stic=
+k with me here because </font><font color=3D"blue" face=3D"Helvetica, Genev=
+a,     Arial, SunSans-Regular, sans-serif" size=3D"3"><strong>there's even =
+MORE exciting stuff comin' your way! </strong></font><font face=3D"Helvetic=
+a,     Geneva, Arial, SunSans-Regular, sans-serif" size=3D"3">We're current=
+ly creating an <strong><em>ONGOING</em></strong> series of <strong><em>Worl=
+dStart Special Reports</em></strong> that are an absolute MUST-READ! </font=
+></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3"><strong>And exclusive to Premium Members only.</strong></font></p>
+		<table border=3D"0" cellpadding=3D"5" cellspacing=3D"1" width=3D"100%">
+			<tbody>
+				<tr>
+					<td>
+						<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" =
+size=3D"3"><img align=3D"left" alt=3D"" height=3D"75" src=3D"http://imgsrv.=
+worldstart.com/ct-images/Green_1.jpg" style=3D"display: block;" width=3D"75=
+" /></font></td>
+					<td>
+						<p>
+							<font face=3D"Arial, Helvetica, sans-serif" size=3D"3"><font face=3D=
+"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif">Our first </font><f=
+ont color=3D"red" face=3D"Helvetica,     Geneva, Arial, SunSans-Regular, sa=
+ns-serif"><strong> report is an absolute MUST-READ for EVERY Windows user</=
+strong></font><strong><font color=3D"red" face=3D"Helvetica, Geneva, Arial,=
+ SunSans-Regular,     sans-serif">!</font></strong><font face=3D"Helvetica,=
+ Geneva,     Arial, SunSans-Regular, sans-serif"> </font><font color=3D"blu=
+e" face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif"><strong><=
+em>It's </em></strong></font><font color=3D"blue" face=3D"Helvetica, Geneva=
+, Arial, SunSans-Regular, sans-serif"><strong><em>EVERY Windows shortcut th=
+at we know!</em></strong></font><font face=3D"Helvetica, Geneva, Arial, Sun=
+Sans-Regular, sans-serif"> It's <strong><em>WorldStart's Ultimate Shortcut =
+Guide</em></strong> - and you can get it RIGHT NOW! </font></font></p>
+						<p>
+							<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif"=
+ size=3D"3"><strong>250+ shortcuts, right at your fingertips!</strong></fon=
+t></p>
+						<p>
+							<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif"=
+ size=3D"3">We're talking Windows shortcuts, Internet shortcuts, MS Office =
+shortcuts, Function Key shortcuts, and MORE! Think of it as 250 ways to mak=
+e your day go faster!</font></p>
+						<p>
+							<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif"=
+ size=3D"3">If you're a Window's user, this baby is gonna save you some SER=
+IOUS time! You'll want to print it out for sure!</font></p>
+						<p>
+							 </p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" =
+size=3D"3"><img align=3D"left" alt=3D"" height=3D"75" src=3D"http://imgsrv.=
+worldstart.com/ct-images/Green_2.jpg" style=3D"display: block;" width=3D"75=
+" /></font></td>
+					<td>
+						<p>
+							<font face=3D"Arial, Helvetica, sans-serif" size=3D"3">Our second <f=
+ont color=3D"#ff0000"><strong>report is for EVERYONE who owns a computer! <=
+/strong></font><font color=3D"#0000ff"><strong><em>This has possibly the BE=
+ST 58 freeware programs ever coded! </em></strong></font>It's <strong><em>W=
+orldStart's Ultimate Freeware Special Report</em></strong> and it's gonna l=
+eave you wondering how the heck you've ever gotten along without it!</font>=
+</p>
+						<p>
+							<font face=3D"Arial, Helvetica, sans-serif" size=3D"3">THIS report c=
+overs just about every category of software known to man! <font color=3D"#f=
+f0000"><strong>You may NEVER spend another dime on retail software! </stron=
+g></font>We're talking photo editing, video, audio, office suites, internet=
+ security, backup software, computer optimization, cleanup, CD burning, web=
+ browsers, e-mail clients, web editing, social networking, spyware removal,=
+ anti-virus, fun stuff, and MORE! </font></p>
+						<p>
+							<font face=3D"Arial, Helvetica, sans-serif" size=3D"3"><strong><em>S=
+omething for everyone is an understatement</em></strong> - we're talking 58=
+ amazing - <font color=3D"#0000ff"><em><strong>and free</strong></em></font=
+> - programs in all!</font></p>
+						<p>
+							<font face=3D"Arial, Helvetica, sans-serif" size=3D"3">The software =
+in this report represents one heck of a truckload - so I can't go over EVER=
+YTHING -<strong><font color=3D"#0000ff"> but it's easy to see that finding =
+one</font></strong> - <font color=3D"#ff0000"><strong><em>JUST ONE</em></st=
+rong></font> - program you can use makes this totally worth having! <em><st=
+rong>Frankly, I'd be surprised if you didn't discover a dozen programs you =
+want! </strong></em></font></p>
+						<p>
+							 </p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" =
+size=3D"3"><img align=3D"left" alt=3D"" height=3D"75" src=3D"http://imgsrv.=
+worldstart.com/ct-images/Green_3.jpg" style=3D"display: block;" width=3D"75=
+" /></font></td>
+					<td>
+						<p>
+							<font face=3D"Arial, Helvetica, sans-serif" size=3D"3">The third <fo=
+nt color=3D"#ff0000"><strong>report is to help guide anyone through making =
+an electronics purchase. </strong></font><strong><em>WorldStart's Ultimate =
+Electronics Buyers' Guide Special Report</em></strong> <strong><font color=
+=3D"#0000ff">gives you the information you need </font></strong><font color=
+=3D"#000000">- so you know exactly what to buy when you walk into that stor=
+e. </font></font></p>
+						<p>
+							<font face=3D"Arial, Helvetica, sans-serif" size=3D"3"><strong><font=
+ color=3D"#ff0000" face=3D"Arial, Helvetica, sans-serif">You'll be able to =
+walk into a store </font></strong><font color=3D"#ff0000" face=3D"Arial, He=
+lvetica, sans-serif">(or be able to go online)<strong> and feel confident a=
+bout purchasing an electronic gadget to fit your lifestyle and your budget.=
+</strong></font></font></p>
+						<p>
+							<font face=3D"Arial, Helvetica, sans-serif" size=3D"3"><strong>This =
+report is more than just guide...</strong>it's more like an<font color=3D"#=
+ff0000"> <strong>educational tool that teaches you about WHAT you're buying=
+.</strong> </font></font></p>
+						<p>
+							<font face=3D"Arial, Helvetica, sans-serif" size=3D"3">With this rep=
+ort on your side, you'll<strong> avoid the common traps and pitfalls </stro=
+ng>that <strong>MOST people make</strong> when purchasing electronics. Afte=
+r all, knowledge is power.</font></p>
+						<p>
+							 </p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div align=3D"center">
+			 </div>
+		<p>
+			<font color=3D"#0000ff" face=3D"Helvetica, Geneva, Arial, SunSans-Regula=
+r,     sans-serif" size=3D"3"><strong><em>And that's just the start of our =
+special reports that are available RIGHT NOW!</em></strong></font></p>
+		<p>
+			<font color=3D"red" face=3D"Helvetica, Geneva, Arial, SunSans-Regular,  =
+   sans-serif" size=3D"3"><strong>Sign Up NOW!</strong></font></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3">I know, I know - you're a bit worried about this part, right? Where=
+ we tell you how much this amazing membership is going to set you back. </f=
+ont></p>
+		<p>
+			<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" siz=
+e=3D"3"><strong><em>Not to worry!</em></strong></font></p>
+		<p align=3D"center">
+			<font face=3D"Helvetica, Geneva, Arial,     SunSans-Regular, sans-serif"=
+ size=3D"3"><strong><em>Right now,</em></strong></font><font color=3D"blue"=
+ face=3D"Helvetica, Geneva, Arial, SunSans-Regular,     sans-serif" size=3D=
+"3"><strong> we are offering a mind-blowing special introductory price of j=
+ust </strong></font><span style=3D"color:#0000ff;"><span style=3D"font-size=
+: 16px;"><strong>$12.99</strong></span></span><font color=3D"blue" face=3D"=
+Helvetica, Geneva, Arial, SunSans-Regular,     sans-serif" size=3D"3"><stro=
+ng> a year for a WorldStart Premium Membership!</strong></font></p>
+		<p align=3D"center">
+			<font color=3D"blue" face=3D"Helvetica, Geneva, Arial,     SunSans-Regul=
+ar, sans-serif" size=3D"3"><strong><img alt=3D"" border=3D"0" height=3D"263=
+" src=3D"http://imgsrv.worldstart.com/promos/pm-2.jpg" width=3D"200" /></st=
+rong></font></p>
+	</div>
+</div>
+<p>
+	<font color=3D"red" face=3D"Helvetica, Geneva, Arial,   SunSans-Regular,  =
+ sans-serif" size=3D"3"><strong><em>That's right - just over a buck a month=
+ gets you ALL the exciting stuff we've been talking about!</em></strong></f=
+ont><font color=3D"black" face=3D"Helvetica, Geneva,   Arial, SunSans-Regul=
+ar,   sans-serif" size=3D"3"><strong><em> Biggest no-brainer in the history=
+ of mankind!</em></strong></font><font face=3D"Helvetica, Geneva, Arial,   =
+SunSans-Regular, sans-serif" size=3D"3">We're talking lunch money here! Plu=
+s, we'll be adding more content as the weeks and months roll by! Join now a=
+nd don't miss a thing!</font></p>
+<div class=3D"im">
+	<p>
+		<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=
+=3D"3">It's the absolute BEST deal on the internet! </font></p>
+	<p>
+		<font color=3D"blue" face=3D"Helvetica, Geneva, Arial, SunSans-Regular,  =
+   sans-serif" size=3D"3"><strong><em>Think about it - this baby can pay fo=
+r itself in SOOOOO many ways:</em></strong></font></p>
+	<p>
+		<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=
+=3D"3"><strong>If you print our newsletters, you'll save well over </strong=
+></font><span style=3D"font-size:16px;"><span style=3D"color: rgb(0, 0, 0);=
+"><strong>$12.99 </strong></span></span><font face=3D"Helvetica, Geneva, Ar=
+ial, SunSans-Regular, sans-serif" size=3D"3"><strong> a year in ink and pap=
+er!</strong></font></p>
+	<p>
+		<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=
+=3D"3"><strong>If you buy from our store on a regular basis, you'll actuall=
+y be money ahead with that amazing discount!</strong></font></p>
+	<p>
+		<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=
+=3D"3"><strong>If you get just ONE - just ONE - Special Report that saves y=
+ou time, money, or both, it was well worth the money!</strong></font></p>
+	<p>
+		<font color=3D"red" face=3D"Helvetica, Geneva, Arial, SunSans-Regular,   =
+  sans-serif" size=3D"3"><strong>PLUS...</strong></font></p>
+	<p>
+		<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=
+=3D"3"><strong>Hey, wouldn't it be GREAT to get our newsletters without the=
+ big ads? </strong></font></p>
+	<p>
+		<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=
+=3D"3"><strong>Check out the sample at the site - You'll see the difference=
+!</strong></font></p>
+	<p>
+		<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=
+=3D"3">Thank you SO MUCH for your support! For more info and to sign up, he=
+ad to the link below! </font></p>
+	<p>
+		<span style=3D"font-size:16px;"><a href=3D"http://store.worldstart.com/pr=
+oduct/5895?utm_source=3Dtech_tipsv1&utm_medium=3Demail&utm_campaign=3D2012-=
+10-22&from=3Dnewsletter">http://store.worldstart.com/product/5895</a> </spa=
+n></p>
+	<p>
+		<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=
+=3D"3">Thanks again!</font></p>
+	<p>
+		<font face=3D"Helvetica, Geneva, Arial, SunSans-Regular, sans-serif" size=
+=3D"3">~Steve</font></p>
+</div>
+<p>
+	 </p>
+<br/> <hr size=3D'10' noshade=3D'noshade'/><br/>
+				<p>
+					 </p>
+				<p>
+					<img alt=3D"Monthly Wallpaper" height=3D"40" src=3D"http://imgsrv.worl=
+dstart.com/nl-images/tech/monthly-wallpaper.jpg" width=3D"385" /></p>
+				<p><font color=3D"#0000FF" size=3D"3" face=3D"Arial, Helvetica, sans-se=
+rif"><strong>4. Wallpaper</strong></font></p>
+      <p><font size=3D"3" face=3D"Arial, Helvetica, sans-serif">It's time f=
+or some desktop fall color! Unfortunately, I didn't much in the way of fall=
+ color last season, so I'm featuring some images from previous years that w=
+ere really popular. Enjoy!</font></p>
+      <table width=3D"512" border=3D"0" cellspacing=3D"3" cellpadding=3D"3"=
+>
+        <tr>
+          <td width=3D"210" height=3D"146"><img src=3D"http://imgsrv.worlds=
+tart.com/1/fall-cascades-in-the-smokies-wp.jpg" width=3D"210" height=3D"139=
+"></td>
+          <td width=3D"281"><p><font size=3D"2" face=3D"Arial, Helvetica, s=
+ans-serif"><strong>Fall Cascades In The Smokies</strong></font></p>
+            <p><font size=3D"2" face=3D"Arial, Helvetica, sans-serif">Somet=
+imes the good shots aren=92t where you think they are. It was autumn in the=
+ Smoky Mountains. If you=92ve never been there in the fall, you can be forg=
+iven for thinking it=92s a quiet, peaceful time of year when the tourists h=
+ave flown home and you have the place to yourself. Nope, it=92s a zoo. I th=
+ink fall is actually ...</font><font size=3D"2" face=3D"Arial, Helvetica, s=
+ans-serif">(<a href=3D"http://www.backcountrygallery.com/photos/fall-cascad=
+es-in-the-smokies/">More</a>)</font></p>          </td>
+        </tr>
+        <tr>
+          <td height=3D"146"><img src=3D"http://imgsrv.worldstart.com/1/bla=
+ck-bear-stare-down-wp.jpg" width=3D"210" height=3D"158"></td>
+          <td><p><font size=3D"2" face=3D"Arial, Helvetica, sans-serif"><st=
+rong>Black Bear Stare Down</strong></font></p>
+          <p><font size=3D"2" face=3D"Arial, Helvetica, sans-serif">It was =
+=93Bear Week=94 in Yellowstone fall of 2007! Seems like everywhere I went, =
+I ended up takin=92 snaps of bears. This guy was by far my favorite though.=
+ He was walking below the ridge line and...<br>
+          </font><font size=3D"2" face=3D"Arial, Helvetica, sans-serif"> (<=
+a href=3D"http://www.backcountrygallery.com/photos/black-bear-stare-down/">=
+More</a>)</font></p>
+          <p> </p></td>
+        </tr>
+        <tr>
+          <td><img src=3D"http://imgsrv.worldstart.com/1/lamar-valley-trees=
+-in-fall-wp.jpg" width=3D"210" height=3D"154"></td>
+          <td><p><strong><font size=3D"2" face=3D"Arial, Helvetica, sans-se=
+rif">Lamar Valley Trees In Fall</font></strong></p>
+            <p><font size=3D"2" face=3D"Arial, Helvetica, sans-serif">This =
+was taken on one of my week-long trips to Yellowstone National Park. When I=
+ first arrived and drove by this stand of trees next to the river, I knew t=
+here was a shot there =96 but the trees weren=92t =93ripe=94 enough yet, if=
+ you know what I mean. So, each day, I=92d drive by an (<a href=3D"http://w=
+ww.backcountrygallery.com/photos/lamar-valley-trees-in-fall/">More</a>)</fo=
+nt></p>          </td>
+        </tr>
+      </table>
+      <p><strong><font size=3D"3" face=3D"Arial, Helvetica, sans-serif">It =
+can all be found here, 100% free:</font></strong></p>
+      <p><strong><font size=3D"3" face=3D"Arial, Helvetica, sans-serif"><a =
+href=3D"http://www.backcountrygallery.com/wallpaper/">http://www.backcountr=
+ygallery.com/wallpaper/</a></font></strong></p>
+      <p><font size=3D"3" face=3D"Arial, Helvetica, sans-serif">~ Steve<br>
+      </font></p>
+      <p><font size=3D"3" face=3D"Arial, Helvetica, sans-serif">PS - Rememb=
+er to try a copy of the <font color=3D"#FF0000"><strong>Backcountry Gallery=
+ Screen Save</strong>r</font> too! It's a free trial and if you like it, yo=
+ur purchase helps support the site :) </font></p>
+      <p><font size=3D"3" face=3D"Arial, Helvetica, sans-serif">And hey, it=
+'ll make you PC look oh-so-cool when you're away from your desk! See the li=
+nk below:</font></p>
+      <p><font size=3D"3"><a href=3D"http://www.backcountrygallery.com/prod=
+uct/6908/"><font face=3D"Arial, Helvetica, sans-serif">http://www.backcount=
+rygallery.com/product/6908/</font></a></font></p>
+      <p><br>
+      </p>
+				<p>
+					 </p>
+				<!-- homepage_end --></td>
+		</tr>
+		<tr>
+			<td bgcolor=3D"#ffffff">
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">You can also vi=
+ew the current newsletter and archives online at<br />
+					<a href=3D"http://www.worldstart.com/newsletters.php">http://www.world=
+start.com/newsletters.php</a></font></p>
+				<hr noshade=3D"noshade" size=3D"3" />
+				<p>
+					<b><font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Copyright, D=
+isclaimer, Etc.</font></b></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">ISSN: 1529-336X=
+<br />
+					Copyright 2012, <a href=3D"http://www.worldstart.com">WorldStart</a>. =
+All unauthorized reproduction strictly prohibited.</font><br />
+					<br />
+					<font size=3D"2"><font face=3D"Arial, Helvetica, sans-serif"><font fac=
+e=3D"Arial, Helvetica, sans-serif">WorldStart is not responsible for errors=
+, omissions, or pricing mistakes.</font></font></font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">You are welcome=
+ to reproduce this newsletter (i.e. print it, store it) for your own person=
+al use. You are also welcome to forward it, in its entirety, to friends and=
+ family.</font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">If you would li=
+ke to reproduce this publication, or any part of it, in any other publicati=
+on, be it web based or otherwise, you must contact us for permission. Any u=
+nauthorized re-distribution will be considered a copyright infringement and=
+ grounds for a lawsuit.</font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Finally, you ag=
+ree to try any advice contained or suggested in this newsletter at your own=
+ risk.</font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Microsoft and W=
+indows are trademarks or registered trademarks of Microsoft Corporation (du=
+h!)</font></p>
+				<hr noshade=3D"noshade" size=3D"3" />
+				<p>
+					<strong><font face=3D"Arial, Helvetica, sans-serif" size=3D"2">Did som=
+eone forward this to you? Get your free subscription <a href=3D"http://www.=
+worldstart.com/newsletters.php">here</a>:</font></strong><br />
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/subscriptions/">http://www.worldstart.com/subscriptio=
+ns/</a></font></p>
+				<p>
+					<strong><font face=3D"Arial, Helvetica, sans-serif" size=3D"2">If dail=
+y newsletters are too much to handle, then change your subscription to our =
+Weekly Edition...</font></strong><br />
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/subscriptions/">http://www.worldstart.com/subscriptio=
+ns/</a></font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><strong>If you =
+need to change your email address, go here...</strong><br />
+					<a href=3D"http://www.worldstart.com/subscriptions/">http://www.worlds=
+tart.com/subscriptions/</a></font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><strong>"I don'=
+t want yer stinkin' email!"</strong><br />
+					To remove yourself from our mailing list please head to:</font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><a href=3D"http=
+://www.worldstart.com/subscriptions/">http://www.worldstart.com/subscriptio=
+ns/</a></font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2"><strong>WorldSt=
+art, Inc. </strong>- 2620 Centennial Rd, Suite C / Toledo, OH 43617 - Phone=
+: 1-800-915-2088</font></p>
+				<p>
+					<font face=3D"Arial, Helvetica, sans-serif" size=3D"2">You are receivi=
+ng this daily newsletter because you requested it either at <a href=3D"http=
+://www.worldstart.com">Worldstart.com</a> or one of our affiliates.<br />
+					You are currently subscribed as=20=
+darebineavedealucruriledefoartemulteori@honeypots.ro=
+</font></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	 </p>
+
+  </body>
+</html>
+
+

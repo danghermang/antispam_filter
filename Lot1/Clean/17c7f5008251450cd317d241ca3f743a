@@ -1,0 +1,87 @@
+Subject:Re: Ext4 Inodos acabados y dudas
+Dejo el procedimiento para para desmontar /var y arreglar el tema de
+inodos sin tener que perder la instalación y que le sirva a todo el mundo.
+
+Lo primero es ver que ficheros hay abiertos en el volumen var y que
+procesos los usan. Hay que cerrar todo para que se pueda desmontar.
+
+lsof /var
+
+Paramos los servicios necesarios (pid) que tengan los ficheros abiertos
+para poder desmontar.
+
+/etc/init.d/postfix stop
+/etc/init.d/crond stop
+/etc/init.d/syslog stop
+
+Con cada PID que debamos cerrar.
+kill -15 pid
+
+Hacemos un rsync de /var/ a otro directorio. Importantes las barras
+finales. Si no esta instalado lo instalamos.
+
+apt-get install rsync
+mkdir /tmp_var
+rsync -avh --delete /var/ /tmp_var/
+
+Desmontamos /var
+
+umount /var
+
+Formateamos el sistema de fichero con el siguiente comando
+
+mkfs.ext4 -i 8192 /dev/mapper/vg00-var
+
+La opción -i (bytes por inodo) por defecto suele ser 16396, lo bajamos a
+8192 para que haya mas inodos, por ejemplo.
+Esto tardará mas o menos dependiendo del espacio de ficheros que usemos.
+
+Montamos, recuperamos var y reiniciamos para recuperar los servicios que
+apagamos antes y ver que esta todo correcto.
+
+mount /var
+rsync -ahv --delete /tmp_var/ /var/
+init 6
+
+Redimensionamos LVM al maximo y redimensionamos el sistema de ficheros.
+En este caso 1.3 TB que tardaron una media hora.
+
+lvextend -l+100%FREE /dev/vg00/var
+resize2fs /dev/mapper/vg00-var
+
+Con df -hTi podemos ver los inodos de los sistemas de ficheros.
+
+Salduos
+
+-----------------------------------------------------------------
+Francisco J. Bejarano
+Responsable de Sistemas
+Dpt. Sistemas e Infraestructuras
+Open Knowledge Network S.L.
+francisco.bejarano@openknowledgenetwork.com
+Tel. (+34) 902 534 004
+Fax. (+34) 917 266 476
+-----------------------------------------------------------------
+
+El 23/10/12 15:01, Carlos Albornoz escribió:
+> 2012/10/23 Francisco J. Bejarano <francisco.bejarano@openknowledgenetwork.com>:
+>>
+>> OK, mas o menos lo que yo pensaba. He hecho una reestructuración de
+>> copias de seguridad para que no gaste tantos inodos y listo.
+>>
+>> En los nuevos servidores procuraré reformatear la partición ampliando
+>> los inodos.
+>>
+>> Saludos
+> 
+> Si necesitas manejar muchos ficheros minúsculos lo mejor es usar JFS.
+> yo lo hago así, en donde trabajo manejamos millones de ficheros (xml)
+> de 1 a 20 KB aprox.
+> 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/508E46BD.3060308@openknowledgenetwork.com
+

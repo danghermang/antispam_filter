@@ -1,0 +1,34 @@
+Subject:Re: Bonnes pratiques d'administration de Debian =?UTF-8?B?Y8O0?=
+	=?UTF-8?B?dMOpIHPDqWN1cml0w6k=?=
+On Fri, 28 Sep 2012 11:21:04 +0200
+David BERCOT <debian@bercot.org> wrote:
+
+> Donc, au sein de vos entreprises, vous avez s=C3=BBrement des serveurs
+> Debian g=C3=A9ographiquement =C3=A9loign=C3=A9s. Comment vous y connectez=
+-vous ?
+
+En SSH s/s root avec identification par cl=C3=A9.
+
+> g=C3=A9r=C3=A9s ? Et quand une personne change de service (ou quitte
+> l'entreprise), avez-vous des mesures sp=C3=A9cifiques quant aux mots de
+> passe connus ? Aux cl=C3=A9s SSH en sa possession ?
+
+Changement de proprio pour les fichiers devant perdurer puis
+destruction du compte (avec =C3=A9limination de tous ses fichiers).
+
+--=20
+<Nosfrat> J'en ai marre d'=C3=AAtre seul.
+<Homie_Blaster> Mais t'es pas bi toi ?
+<Nosfrat> Euh j'vois pas le rapport, j'voudrais juste trouer des potes.
+<Nosfrat> *trouver
+<Nosfrat> Putain.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120928121632.5dfd507d@anubis.defcon1
+

@@ -1,0 +1,67 @@
+Subject:Re: Unetbootin no inicia
+El 24/10/12 09:41, Carlos Nicolas escribió:
+> El 24/10/2012 14:25, Santiago López Denazis escribió:
+>> El día 24 de octubre de 2012 08:54, Sergio Bessopeanetto
+>> <sbess63@myopera.com> escribió:
+>>> El 24/10/12 08:57, Carlos Nicolas escribió:
+>>>
+>>>> Has probado usando con un usuario que no sea root, puede ser que por
+>>>> ser
+>>>> root no te deje usar dicho usuario para levantar la sesion X
+>>>>
+>>>>
+>>> Es muy extraño eso. Ninguna otra aplicación que necesite iniciar como
+>>> root me da problemas, por ejemplo, Synaptic. Y por la actividad de esta
+>>> aplicación es obvio que deba ser usada como root. Quizás haya un error
+>>> en el script de arranque me no sé cómo editarlo ni qué buscar en él.
+>>>
+>> En efecto, unetbootin debe ejecutarse como root.
+>> Es probable que tengas que usar gksu o gksudo para lanzar la
+>> aplicación, es decir,
+>>
+>> $ gksudo unetbootin ## si es que lo tienes en $PATH.
+>>
+>> Saludos,
+>>
+>>> --
+>>> Sergio Bessopeanetto
+>>> Buenos Aires, Argentina
+>>> Skype: sergio.bess
+>>> msn: sergiebess@hotmail.com
+>>> Jabber: sergio.bess@jabber.org
+>>>
+>>>
+>>> --
+>>> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+>>> with a subject of "unsubscribe". Trouble? Contact
+>>> listmaster@lists.debian.org
+>>> Archive: http://lists.debian.org/5087D6E4.1010109@myopera.com
+>>>
+>>
+>>
+> En el caso de usar gksudo o gksu no lo estas ejecutando igual que si lo
+> ejecutas como root , si lo haces como root puedes estar modificando
+> permisos de ficheros que no harias con gksudo, en definitiva NO es lo
+> mismo hacer su y logarte como root y lanzar unetbootin que ejecutar
+> gksudo unetbootin
+>
+>
+Ok, en un rato pruebo eso. Pero me sigue perturbando el mensaje de error.
+¿Qué significa que no puede conectarse con el servidor X? ¿No se puede
+ejecutar en modo gráfico? En otras distros lo uso normalmente y anda 
+bien. Es por lo menos sospechoso. Quizás sea algo de la versión testing
+que estoy usando ya que estoy en Wheezy. ¿qué les parece?
+
+-- 
+Sergio Bessopeanetto
+Buenos Aires, Argentina
+Skype: sergio.bess
+msn: sergiebess@hotmail.com
+Jabber: sergio.bess@jabber.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5087E1BA.8060201@myopera.com
+

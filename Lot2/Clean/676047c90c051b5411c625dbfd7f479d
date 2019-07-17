@@ -1,0 +1,29 @@
+Subject:Re: Upgrade vs dist-upgrade
+Le mardi 4 septembre 2012 =C3=A0 20:25:57, Eddy F. a =C3=A9crit :
+> Bonjour,
+
+=E2=80=99soir,
+
+>[=E2=80=A6]
+> Il y a bien un changement dans les "recommends"
+
+  Ah, ben il semble que la r=C3=A9ponse soit dans la question=E2=80=A6
+
+> mais de toute fa=C3=A7on apt-get n'est pas
+> configur=C3=A9 pour tenir compte des recommends chez moi.
+
+  =C3=87a veut sans doute dire que les tests ne prennent pas en=20
+compte cette option. Bogue ?
+
+=2D-=20
+ Sylvain Sauvage
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/201209051853.40884.Sylvain.L.Sauvage@free.fr
+

@@ -1,0 +1,36 @@
+Subject:Re : Pas de son ou non =?iso-8859-1?q?r=E9glable?= suivant la carte
+Le 30/08/2012 22:19:37, andre_debian@numericable.fr a =C3=A9crit=C2=A0:
+
+> J'ai d=C3=A9sactiv=C3=A9 la carte son int=C3=A9gr=C3=A9e =C3=A0 la CM.
+
+> La carte Soundblaster est bien d=C3=A9tect=C3=A9e.
+
+> Seul Amarok a bien le son,
+> par contre aucun son avec Juk, Noatun et=20
+> le navigateur Internet (Firefox, Chrome ...)
+
+Regarde plut=C3=B4t comment chaque logiciel cause avec le syst=C3=A8me pour=
+ le=20
+son.
+Chez moi, c=E2=80=99est ALSA, et encore pas n=E2=80=99importe quoi. Une mis=
+e =C3=A0 jour=20
+r=C3=A9cente m=E2=80=99a oblig=C3=A9 =C3=A0 changer un sous-r=C3=A9glage.
+
+nicolas patrois : pts noir asocial
+--=20
+R=C3=89ALISME
+
+M : Qu'est-ce qu'il nous faudrait pour qu'on nous consid=C3=A8re comme des=20
+humains ? Un cerveau plus gros ?
+P : Non... Une carte bleue suffirait...
+=
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1346359918.23211.35@new-host-2.home
+

@@ -1,0 +1,57 @@
+Subject:Re: Unetbootin no inicia
+2012/10/23 Sergio Bessopeanetto <sbess63@myopera.com>:
+> Estimados/as:
+>
+> Instal=C3=A9 Unetbootin en Debian Wheezy KDE y no inicia a pesar de ingre=
+sar
+> la contrase=C3=B1a de root. Cuando doy Enter devuelve el di=C3=A1logo dic=
+iendo que
+> la contrase=C3=B1a es incorrecta.
+>
+> Si intento por consola me arroja este mensaje:
+>
+> root@debian:/home/sergio# /usr/bin/unetbootin
+> No protocol specified
+> unetbootin: cannot connect to X server :0
+>
+> =C2=BFQu=C3=A9 podr=C3=A1 estar pasando? La instalaci=C3=B3n no arroj=C3=
+=B3 ning=C3=BAn error.
+> Desde ya muchas gracias.
+>
+> Saludos
+>
+> --
+> Sergio Bessopeanetto
+> Buenos Aires, Argentina
+> Skype: sergio.bess
+> msn: sergiebess@hotmail.com
+> Jabber: sergio.bess@jabber.org
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/5087517C.7070206@myopera.com
+>
+
+
+
+Agrega tu usuario en /etc/sudoers
+
+y en una terminal con tu usuario escribes
+
+$ sudo unetbootin
+
+Luego buscas el archivo iso que deseas cargar.
+
+
+--=20
+Roger Orellana
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ7YN=MFcCN0aMEQwgRFt57Mmbo5f_gSRSkUevyAAVO5VNfn3w@mail.gmail.com
+

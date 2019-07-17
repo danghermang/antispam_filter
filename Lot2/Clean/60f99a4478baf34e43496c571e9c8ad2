@@ -1,0 +1,25 @@
+Subject:Re: Wheezy : freezes totaux =?UTF-8?B?ZnLDqXF1ZW50cyBzdXIgdW4gbm8=?=
+	=?UTF-8?B?dXZlYXUgcG9ydGFibGUu?=
+Le 24/09/2012 12:43, Bzzz a écrit :
+> On Mon, 24 Sep 2012 12:17:56 +0200
+> Antoine<antoineflg@gmail.com>  wrote:
+>
+>> 69 pour le résultat suivant : 5 Reallocated_Sector_Ct
+>
+> J'oubliais: fais un smarctl -i /dev/sda et vérifie si ton SSD est
+> bien dans la base de donnée SMART (absence de la ligne "Device is:
+> Not in smartctl database [for details use: -P showall]")
+>
+
+Bien vu, mon SSD n'y est pas, donc je vais laisser de côté smartmontools 
+et me concentrer sur un mkfs.ext4 -c -c -v /dev/sda.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5061EEAD.6090403@gmail.com
+

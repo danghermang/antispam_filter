@@ -1,0 +1,48 @@
+Subject:Re: Installation postgresql
+Bonjour à tous,
+Merci pour vos nombreux messages.
+J'ai finalement fait comme j'avais dit en réinstallant le serveur.
+J'ai modifié le sources.list pour y mettre les mêmes sources que pour le 
+serveur avec lequel l'installation avait fonctionné et l'installation de 
+postgresql est maintenant ok.
+
+Libreplan lui ne s'installe pas correctement, mais c'est une autre 
+histoire, j'ai longtemps installé cela en faisant simple sans me 
+préoccuper du fonctionnement derrière (hormis les backups), je vais 
+devoir essayer de comprendre ce qui cloche.
+
+Merci
+
+Greg
+
+Le 13/11/2012 17:04, Jean-Jacques Doti a écrit :
+> J'ai un peu suivi le fil des messages et tout cela reste surprenant.
+> Comme d'autres l'ont écrit, il est possible que des restes
+> d'installation empêchent la création du cluster dans le script de post
+> install.
+>
+> Tu peux essayer de lancer cette création initiale du cluster
+> manuellement avec la commande
+> /usr/bin/pg_createcluster -u postgres 8.4 main
+>
+> Dans le pire des cas, ça donnera peut-être des messages d'erreur plus
+> explicites.
+>
+> Tu peux aussi essayer de faire ce que fait /usr/bin/pg_createcluster :
+> crée le répertoire de conf et celui de données et fait un init de la
+> base avec /usr/lib/postgresql/8.4/bin/initdb (cf man initdb pour les
+> options).
+>
+> A+
+> Jean-Jacques
+>
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/50A372CF.6020107@gmail.com
+

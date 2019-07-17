@@ -1,0 +1,23 @@
+Subject:Re: [rescue] SMD cap, X2602 (501-4882)
+On 11/1/2012 5:57 PM, Dennis Boone wrote:
+> Long shot:
+> 
+> On the solder side of an X2602 CPU board, connector edge, ruler position
+> of about L2, just behind the bus connectors, there's a surface mount
+> cap.  Well, there was.  It snagged on something and most of it went
+> whirring into the wind.  I think it's 'screened C0890, or maybe C0830.
+> 
+> Board swapping is for chumps. :)  Anybody know the value of this cap?
+> 
+> Thanks,
+> 
+> De
+
+If you have another such board, you should be able to figure it out :-)
+
+But I thought that for the most part, you could use a cap the same size
+or larger (within reason) and things would work?
+
+--Patrick
+_______________________________________________
+rescue list - http://www.sunhelp.org/mailman/listinfo/rescue

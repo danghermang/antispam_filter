@@ -1,0 +1,53 @@
+Subject:Re: systemd et wheezy
+Le 06/09/2012 17:33, maderios a écrit :
+> On 09/06/2012 03:26 PM, Frédéric Massot wrote:
+>> Le 06/09/2012 15:00, maderios a écrit :
+>>> Bonjour
+>>> Sur wheezy, j'hésite à remplacer sysvinit par systemd. Lors de l'install
+>>> de systemd-sysv Debian me dit que je vais supprimer un paquet essentiel
+>>> (sysvinit)
+>>> "this may render your system unusuable !"
+>>> Presque rien sur le net concernant ce sujet
+>>> Quelqu'un a-t-il franchi cette ligne ?
+>>
+>> Oui et la réponse est ici :
+>>
+>> http://wiki.debian.org/systemd#Issue_.231:_sysvinit_vs._systemd-sysv
+>>
+> OK merci pour ce lien qui aurait du me crever les yeux...
+> Vu que ça n'a pas l'air simple, pas le temps pour le moment. Wait and
+> see. D'autres distrib l'ont adopté par défaut, on peut se poser des
+> questions...
+
+Systemd est composé de plusieurs paquets, le plus simple est d'installer 
+les paquets systemd, libpam-systemd, systemd-gui et de ne pas installer 
+le paquet systemd-sysv.
+
+Ensuite, ajouter "init=/bin/systemd" à la ligne 
+GRUB_CMDLINE_LINUX_DEFAULT dans le fichier "/etc/default/grub", faire un 
+update-grub et rebooter.
+
+Tu peux passer d'un boot avec sysvinit à systemd ou l'inverse en 
+modifiant la ligne GRUB_CMDLINE_LINUX_DEFAULT.
+
+S'il y a un problème de boot avec systemd, il suffit choisir le mode 
+dépannage dans le menu de Grub (mode single), de modifier la ligne 
+GRUB_CMDLINE_LINUX_DEFAULT, faire un update-grub et rebooter.
+
+-- 
+==============================================
+|              FRÉDÉRIC MASSOT               |
+|     http://www.juliana-multimedia.com      |
+|   mailto:frederic@juliana-multimedia.com   |
+| +33.(0)2.97.54.77.94  +33.(0)6.67.19.95.69 |
+===========================Debian=GNU/Linux===
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/5048D340.6080402@juliana-multimedia.com
+

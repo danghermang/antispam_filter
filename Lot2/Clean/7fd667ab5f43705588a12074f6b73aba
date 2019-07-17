@@ -1,0 +1,25 @@
+Subject:Re: apt-get install goodies ortolo
+Bernard Schoenacker, 2012-10-22 10:18+0200:
+>        cet article est écrit en mode crypté ou cryptique en exemple :
+
+Pas écrit, mais affiché. Effectivement, il y avait un problème,
+difficile à reproduire, avec certains navigateurs particuliers. Il
+s'agissait d'un bug de mon moteur de blog, que je viens de mettre à
+jour. Ce problème devrait donc être corrigé, merci de me l'avoir
+signalé.
+
+-- 
+ ,--.
+: /` )   Tanguy Ortolo      <xmpp:tanguy@ortolo.eu>
+| `-'    Debian Developer   <irc://irc.oftc.net/Tanguy>
+ \_
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k632q2$4u1$1@ger.gmane.org
+

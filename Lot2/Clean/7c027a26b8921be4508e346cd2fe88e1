@@ -1,0 +1,36 @@
+Subject:Re: =?ISO-8859-15?Q?D=E9pannage_sur_PC_distant?=
+Le 27/10/2012 23:01, andre_debian@numericable.fr a écrit :
+> On Saturday 27 October 2012 22:36:37 Alex Padoly wrote:
+>> Bonsoir à tous,
+>> Comment dépanner efficacement un PC à distance avec un logiciel GNU, le
+>> serveur ou la station sera sous Debian, les postes distant pourront etre
+>> sous LINUX ou WINDOWS.  Merci pour vos réponses.  Alex
+> 
+> Teamviewer :
+> www.teamviewer.com/
+
+That's not a GNU Software and moreover it looks like you need to
+register for the service and nothing is said about the traffic which
+could be going through a specific server. This is the kind of service
+that's looks cool but I would avoid it like the pest!
+
+-- 
+
+  Pascal Obry /  Magny Les Hameaux (78)
+
+  The best way to travel is by means of imagination
+
+  http://v2p.fr.eu.org
+  http://www.obry.net
+
+  gpg --keyserver keys.gnupg.net --recv-key F949BD3B
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/508C507A.8000805@obry.net
+

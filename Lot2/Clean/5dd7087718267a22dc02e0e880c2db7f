@@ -1,0 +1,118 @@
+Subject:[ubuntu-jp:4243]
+	=?iso-2022-jp?b?GyRCQmgbKEIgNjYgGyRCMnMbKEIgGyRCNFhAPhsoQiBEZWJp?=
+	=?iso-2022-jp?b?YW4gGyRCSlk2LzJxGyhCIGluIBskQjRYQD4lKiE8JVcbKEI=?=
+	=?iso-2022-jp?b?GyRCJXMlPSE8JTkbKEIgMjAxMhskQiRIGyhCR1BH?=
+	=?iso-2022-jp?b?GyRCJS0hPCU1JSQlcyVRITwlRiUjJE4kKkNOJGkkOxsoQg==?=
+このメールはdebian-users MLとdebian-devel ML、ubuntu-jp MLにお送り
+しています。
+
+野方です。
+
+今週末の11月9日(金)、11月10日(土)に大阪南港ATCにて開催される「関西
+オープンソース2012」に関西Debian勉強会/Debian JPブースの出展と、出
+張企画として行う第66回関西Debian勉強会のお知らせです。
+
+関西オープンソース2012では、関西Debian勉強会の出展のほかに、
+Debian開発者/Ubuntu Japanese Team「やまねひでき」さんによる「Open
+Source Software is NOT enough」の発表や、GPGキーサインパーティもお
+こなわれますので、ぜひご参加ください。
+
+GPGキーサインパーティに参加される方は、キーサインに使用する自分の
+公開鍵を 2012年11月8日(木)23時59分 までにkspjapaneseのサイトから登
+録してください。 (下記お知らせ参照)
+
+それぞれの最新情報については下記をご覧ください。
+
+第66回関西Debian勉強会 in 関西オープンソース2012:
+http://wiki.debian.org/KansaiDebianMeeting/
+
+「Open Source Software is NOT enough」やまねひでき:
+http://2012.k-of.jp/session/290
+
+関西オープンソース2012 GPG/PGP キーサインパーティ:
+https://sites.google.com/site/kspjapanese/kof2012
+
+----------------------------------------------------------------------
+
+= 第 66 回 関西 Debian 勉強会 in 関西オープンソース 2012 =
+
+ * 日時：2012 年 11 月 9 日 (金) / 11 月 10 日 (土)
+ * 会場：大阪南港ATC ITM棟 10F （受付・展示会場）
+        〒559-0034 大阪市住之江区南港北2-1-10
+        会場までのアクセス方法 http://k-of.jp/2012/access.html
+ * 費用: 無料
+   セッション、ステージ企画、共に関西オープンフォーラムの企画とし
+   て開催されますので事前に申し込みの必要はございません。
+   会場まで直接お越しください。
+
+== ブース展示内容 ==
+
+ブース展示・配布物・販売物(予定)
+
+ * 展示
+ 　* Debian 稼働マシン展示
+ * 販売 (土曜のみ)
+   * 有志作成 Debian グッズ（Tシャツ）
+   * Debian 同人誌「あんどきゅめんてっどでびあん」
+
+== セッション内容 ==
+
+=== 第66回 関西Debian勉強会「Debian 7.0 "Wheezy" の紹介」 ===
+
+11月10日(土) 17:00 - 17:50
+大阪南港 ATC 9階 セミナールーム3
+
+「Debian 7.0 "Wheezy" の紹介」 - 佐々木洋平
+年内もしくは年明けすぐにリリースが予定(？)されている Debian の次期
+安定版 Debian 7.0 “Wheezy” の概要についてお話しします。
+
+----------------------------------------------------------------------
+
+「Open Source Software is NOT enough」 - やまねひでき
+11月10日(土) 16:00 - 16:50
+大阪南港 ATC 9階 セミナールーム2
+
+http://wiki.debian.org/HidekiYamane
+
+OSS（オープンソースソフトウェア）は広く利用されるようになりました。
+この可能性を今後さらに押し広げていくにはどうしたら良いのか─Linux
+ディストリビューションとして知られるDebianの開発への参加などを通じ
+て考えてみたことを、この機会に皆さんにお話しして、より深く理解を進
+めていただければと思います。
+
+----------------------------------------------------------------------
+
+「GPGキーサインパーティ@KOF2012」- 佐々木洋平
+大阪南港 ATC 10階 特設ステージ 12:35 - 12:50
+大阪南港 ATC 10階 サロン 13:00 - 13:50
+
+https://sites.google.com/site/kspjapanese/kof2012
+
+キーサインパーティはGPG鍵を持つ人々が互いに鍵署名をすべく集まるも
+のです。このキーサインパーティをしませんか。なおキーサインパーティ
+は「Len Sassaman の効果的なグループキーサイン方式」を使って進めます。
+
+キーサインパーティ参加希望者は、2012年11月8日(木)23時59分までにキー
+サインに使用する自分の公開鍵を上記kspjapaneseサイトのリンク先にあ
+る登録サイトから登録をお願いします。
+
+公開鍵の登録前に ~/.gnupg/gpg.conf に以下の設定がある事の確認をお願いします。
+
+digest-algo sha256
+personal-digest-preferences SHA256
+cert-digest-algo SHA256
+default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES
+CAST5 ZLIB BZIP2 ZIP Uncompressed
+
+また、公開鍵は以下の方法でクリアサインしたものを登録してください。
+
+$ gpg --armor --export-options export-clean,export-minimal --export
+"自身の鍵ID" | gpg --local-user "自身の鍵ID" --clearsign
+
+詳細については上記、kspjapaneseサイトのをご覧ください。
+
+
+--
+野方 純 (NOGATA,Jun) - mail: nogajun@gmail.com
+                     - web: http://www.nofuture.tv/diary/
+

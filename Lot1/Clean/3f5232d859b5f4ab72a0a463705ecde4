@@ -1,0 +1,58 @@
+Subject:Re: SSH Tunneling
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+El 12/09/12 15:42, Josué Marrero Bermúdez escribió:
+> Saludos Colegas
+> 
+> En estos dias he estado tratando de configurar un SSH Tunneling,
+> por el simple hecho de saber como se hace, y si es verdad que es
+> tan seguro.
+> 
+> En google he encontrado varios ejemplos de configuracion, pero
+> entre ellos existen notables diferencias, unos hablan de configurar
+> en la PC remota un squid que administre la navegacion..y en otros
+> ejemplos solo hablan de hace el tunel y a navegar.
+> 
+> Mi duda es la siguiente.
+> 
+> Realmente hace falta un proxy al otro lado del tunnel? o es que los
+> ISP que dan servicio en otros paises permiten la navegacion sin
+> tener que configurar nada...
+> 
+> Aclaro que vivo en Cuba..y ni tengo ni idea de como funcionan sus 
+> servicios de Internet en otros paises...aqui lo comun es siempre
+> un proxy..que registre TODO lo que haces..y deniega hasta el agua.
+> 
+> 
+> Saludos
+> 
+> Josué
+> 
+> 
+En la Europa occidental la política es que se registre TODO lo que
+haces y no te lo denieguen para poder seguir haciéndolo :/, yo ando
+investigando el funcionamiento de las redes TOR, pero le veo "agujeros".
+
+Un saludo.
+
+Espino.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://www.enigmail.net/
+
+iQEcBAEBAgAGBQJQURSMAAoJEBgD7MihE4iydkMIAJyyKjxj0aat/9QH45ierzR8
+RUt/luY6gXh3mYjsE6dnzr8lL+ldCiB8AZ4FPNSHJaqI9vogvY7XJkTQO2X1kNfn
+o1spsNFQNR660bHtJGWpX9NzbjYJRFkmP3JZ6nOVmVbAoQPlKDwuJm+AGcgc/MTL
+xowDWx2MT8VV3fk3N7rbraneixWshXFhvz95s1EaIIArXhFii8iDcDLJVQaCNp1z
+dp/Kkn9LGE3HWCML8BWbiRIQ85X8SoKg2fLR45FxwXgAam8DPC+M7Z0gfraqE/ml
+03pd/JTfbbQVhuYtCMDly06vpubGs9j5sddj9pd8NxOlv+8jmC8FfcwU5k65T4o=
+=7CUx
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/5051148C.6070201@gmail.com
+

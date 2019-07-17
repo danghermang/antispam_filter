@@ -1,0 +1,30 @@
+Subject:[Koha] Improving the advanced search form
+Hi there,
+
+I am currently working on improving accessibility of koha opac site with 
+our accessibility expert.
+One of the things we noticed is that the advanced search option is not 
+only confusing for blind
+users but also even for normal users.
+
+I have noticed the following issues with it:
+
+1) By default the Fewer Options option is selected, which is not obvious 
+to the normal users until they click on More Options.
+
+2) The layout could be a lot better, in particular the Fewer Options 
+search form is quite abstract in what it does.
+
+For example, the default boolean operator is AND which is not obvious to 
+even normal user.
+
+In my opinion, layout similar to the one 
+http://kea.massey.ac.nz/search/X, is better.
+
+Looking forward to your comments/feedback.
+
+Srikanth
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

@@ -1,0 +1,52 @@
+Subject:Re: Sin opciones de accesibilidad en Iceweasel (era: Problems with
+	iceweasel 10 in squeeze.)
+Saludos.
+
+El 10/11/12 15:33=2C Camale=C3=B3n escribi=C3=B3:
+> El Sat=2C 10 Nov 2012 11:25:42 -0300=2C francisco del roio escribi=C3=B3:
+>
+>> Saludos lista.
+> Saludos pero por favor=2C evita usar un formato html cuando env=C3=ADes m=
+ensajes
+> a la lista... gracias :-)
+>
+>> voy de nuevo=2C porque est=C3=A1 claro que el mensaje no lo redact=C3=A9=
+ bien... Lo
+>> que hice:
+>>
+>> 1) Instal=C3=A9 lo =C3=BAltimo del iceweasel desde el repo [1]=2C y cuan=
+do lo abr=C3=AD
+>> me encuentro con que "No es accesible".
+> (...)
+>
+> No entiendo a qu=C3=A9 te refieres con eso de que "no es accesible".
+>
+> =C2=BFEs un mensaje que te aparece nada m=C3=A1s iniciar el navegador=2C =
+es que echas
+> en falta alguna opci=C3=B3n o que sencillamente algo no funciona?
+>
+> Saludos=2C
+>
+Hola. Al referirse a no ser accesible=2C se refiere m=C3=A1s bien a que no=
+=20
+conecta con at-spi2=2C lo que se necesita para que brinde la=20
+accesibilidad. La ventana de la aplicaci=C3=B3n se ve bien=2C y se puede=20
+navegar=2C pero la aplicaci=C3=B3n no da la informaci=C3=B3n hacia at-spi2=
+=2C y por=20
+eso no lo hace accesible. =C2=BFEst=C3=A1s usando gnome classic? Recuerdo q=
+ue=20
+cuando usaba esa versi=C3=B3n fallback de gnome=2C no era accesible iceweas=
+el.=20
+Si est=C3=A1s usando esta versi=C3=B3n=2C prueba a usar gnome shell=2C yo l=
+o uso en=20
+testing con iceweasel 16=2C y no tengo ning=C3=BAn problema. Cuando usaba g=
+nome=20
+classic el que era accesible era el navegador que tra=C3=ADa gnome. Saludos=
+.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU0-SMTP1742C55922FA01E967631D9BE6F0@phx.gbl
+

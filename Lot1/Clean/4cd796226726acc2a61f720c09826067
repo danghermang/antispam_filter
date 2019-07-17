@@ -1,0 +1,50 @@
+Subject:Re: probleme sur proc/kcore
+On Mon, Oct 29, 2012 at 02:37:34PM CET, Bzzz <lazyvirus@gmx.com> said:
+> On Sun, 28 Oct 2012 19:13:35 +0000 (GMT)
+> "vol3d-35@yahoo.fr" <vol3d-35@yahoo.fr> wrote:
+> 
+> Je remets ton message, arrivé en privé, dans la boucle:
+> 
+> > j'ai toujours "kcore" dans le dossier "proc" qui fait 128.0 tio
+> > ce dossier "proc" a 194 elements dont 151 dossiers
+> > il me reste que 5,4 giga de libre dans le dossier "systeme de fichiers"
+> 
+> Comme précédemment dit, _tout_ ce qui est dans /proc est *virtuel*, CàD
+> que même avec une taille d'un quadrillion de byte ces fichiers n'ont pas
+> de réelle existence (NB: dans *nix, _tout_ est fichier, du fichier "normal"
+> au device qui affiche les erreurs en passant par l'affichage des caractères
+> en console).
+> 
+> > var = 259,4 mio
+> > usr = 2,5 gio
+> > /home etant séparé, il fait 201,5 gio
+> > à priori, ca doit être un probleme de mémoire ?
+> > Comment la nettoyer et vider ?
+> 
+> Il ne semble y avoir aucun PB de RAM.
+> 
+> Que dit un: df -h ? (parce que tes chiffres ne veulent rien dire: on ne sait
+> pas si ce sont des tailles absolues ou juste ce qu'il reste de libre ou ce
+> qui est occupé).
+> 
+> > J'ai taper " find / -mount -size +1G -print" dans terminal, ca ne donne rien
+> 
+> Ca veut simplement dire que cette Cde n'a trouvée aucun fichier de
+> taille ≥ 1GB, ce qui est étrange vu qu'elle ratisse tout le HD et que
+> si tu te trouves vraiment coincé par manque de place, il devrait y avoir
+> des fichiers de log|crash|tmp|whatever énormes qui traînent.
+
+Essayer un lsof +L1, voir s'il n'ty a pas des fichiers supprimmés mais
+encore ouverts (genre mauvaise rotation de logs, donc c'est écrit
+dans un fichier qui n'est plus dans aucun répertoire et sera effacé
+une fois qu'il sera fermé).
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121029145428.GB25743@rail.eu.org
+

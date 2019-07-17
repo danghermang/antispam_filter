@@ -1,0 +1,67 @@
+Subject:Re: [Flexradio] Flex1500 woes
+I had the same problem I do. It made me so much frenzy that once again I
+did format C and install good old Windows XP SP3 Profesional.
+And all with the Flex 1.5k doing well.
+Greetings from Stef 9a2rv
+
+
+2012/11/3 Brian <briduffell@yahoo.co.uk>
+
+> I forgot to add the url to my website containing an audio clip from when it
+> starts, it is of 14.076, JT65
+> <http://planet3.dyndns.org/~brian/SDRQuickAudio.wav>
+>
+>
+>
+> Brian <briduffell@yahoo.co.uk> wrote:
+>
+> > I thing I may have broken my flex1500. I've upgraded my computer to win 7
+> > 64bit from xp sp3 32 bit and in the process I did lots of fiddling to
+> > (unsuccessfully) get a paralell port to work with DDutil to control my
+> > amplifier.
+> >
+> > The upshot is my flex1500 seems no longer to work.
+> >
+> > I've tried:
+> >
+> > Resetting database.
+> >
+> > re-installing PSDR 2.4.
+> >
+> > another computer that used to work  (with W 7 64 bit) with PSDR 2.4 and
+> > 2.3.
+> >
+> > A different usb lead.
+> >
+> > A different power supply.
+> >
+> > Symptoms remain the same, psdr loads, usually will run with glitchy
+> > warbling audio for up to about 30 seconds and then locks up.
+> >
+> >  If shut down and restarted. it usually starts but for less time before
+> the
+> > panadaptor freezes and the audio stops.
+> >
+> > Any suggestions on how to proceed?
+> >
+>
+>
+> --
+> Brian Duffell G3VGZ G8AOE
+> Yarm
+> North East England
+>
+> _______________________________________________
+> FlexRadio Systems Mailing List
+> FlexRadio@flex-radio.biz
+> http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+> Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+> Knowledge Base: http://kc.flexradio.com/  Homepage:
+> http://www.flexradio.com/
+>
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

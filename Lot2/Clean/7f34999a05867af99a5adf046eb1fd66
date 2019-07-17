@@ -1,0 +1,66 @@
+Subject:Re: [HS] conseil imprimante-scanner
+Le lundi 05 novembre 2012 à 17:24 +0100, Bernardo a écrit :
+> Bonjour,
+> 
+> J'utilise des Brother depuis des années avec une satisfaction totale :
+> elles
+> remplissent toutes tes conditions. 
+
+Premièrement pour du document bureautique, il n'y a pas plus économique
+en coût à la page que le laser noir et blanc, même en quantité limité et
+SURTOUT en cas d'utilisation irrégulière : Tu range l'imprimante 3 ans
+dans le placard, elle réimprime instantanément comme si de rien n'était.
+
+ L'imprimante laser couleur est plus chère même en noir et blanc mais
+reste très compétitive. Pour les photo ce n'est pas génial mais il y a
+les services en ligne qui sont compétitifs par rapport à
+l'investissement/coût de la jet d'encre avec un support qui tient mieux
+dans le temps sauf à avoir du matériel pro donc cher.
+
+Les constructeurs peuvent dire ce qu'ils veulent, l'impression jet
+d'encre est déjà beaucoup plus cher en condition idéales, et peut
+devenir exorbitant en conditions non idéales (buses bouchées, plus
+d'encre passant dans le nettoyages de têtes que dans les pages
+imprimées...).
+
+En dehors du coût effectif à la page faible, Brother à comme qualité
+depuis toujours de ne pas se foutre de la gueule du client :
+
+- 1 seul modèle de tonner, donc facile à trouver en original ou recylé à
+un très bon coût.
+- Des pilotes très génériques, légers, sans surprise et non pas des usines à brevets.
+
+Si tu ne trouve pas le pilote dans la base de la distribution, tu peux
+installer celui de solutions.brother.com 
+
+Mais comme je suis très flemmard, j'utilise un pilote d'une imprimante
+voisine. Par exemple sur la HL2250DN (laser monochrome, D pour
+recto-verso, N pour réseau) non présent dans Debian, j'utilise par
+exemple le pilote de la HL-2170W. Je pourrais prendre la HL-2140
+(non-PCL) ou même de l'antique HL-1250 qui doit marcher pour toute la
+gamme en GDI. En pratique ce qui justifie le nombre de pilotes c'est principalement les options d'impression spécifique au modèle, ce qui n'est pas forcément gênant si tu ne les utilise pas. 
+
+Pour anectdote, l'usine-à-gaz de HP doit installer, sans donner le choix à l'installation, autour d'1Go de pilote et bubleware associés sous Windows dont 2 trojan XD 
+
+Bref, Brother pour :
+- travaux burautiques courants
+- le faible coût effectif à la page
+- l'impression de ne pas être le dindon de la farce avec des pilotes et des consommables très génériques à un coût effectif très correct même en "original".
+
+Pour des travaux plus exigeants (images et photos avec un peu de finesse de dégradé) prendre une solution un peu plus haut de gamme (HP...).
+
+Je BOYCOTTE TOTALEMENT ET DÉFINITIVEMENT EPSON depuis que mon beau-père à acheté une imprimante avec un composant-compteur sur la carte mère qui la faisait tomber en panne environ 2 mois après la fin de la garantie.
+
+Il y a des limites au foutage de gueule !
+
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1352283289.4512.56.camel@azuki.jisui
+

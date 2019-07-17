@@ -1,0 +1,66 @@
+Subject:Re: debian et onduleur
+Le Fri, 21 Sep 2012 10:21:44 +0200
+maderios <maderios@gmail.com> a =E9crit:
+
+> On 09/20/2012 11:37 PM, Ga=EBtan PERRIER wrote:
+> > Le Thu, 20 Sep 2012 12:05:08 +0200
+> > maderios<maderios@gmail.com>  a =E9crit:
+> >
+> >> On 09/20/2012 11:48 AM, Bzzz wrote:
+> >>> On Thu, 20 Sep 2012 11:36:26 +0200
+> >>> maderios<maderios@gmail.com>   wrote:
+> >>>
+> >>>>    Ton onduleur consomme donc exactement de la m=EAme mani=E8re,
+> >>>> qu'il alimente un PC, =E9cran, etc ou qu'il n'alimente rien du tout.
+> >>>> Ce n'est pas n=E9gligeable pour un onduleur qui consomme entre 600
+> >>>> et 1000 Wh.
+> >>>
+> >>> NON, un onduleur offline ne consommera que ce qu'il lui faut pour
+> >>> maintenir la batterie =E0 100% de charge (ou la recharger si besoin
+> >>> est).
+> >>> Un onduleur online, qui est dot=E9 d'une technologie faisant qu'en
+> >>> sus de la consommation ci-dessus, ne consomme que lorsqu'il est
+> >>> sollicit=E9 (et qq =B5A sinon).
+> >>> Le tout s'ajoutant, bien s=FBr =E0 la consommation de veille du PC qd
+> >>> son alim n'est pas coup=E9e manuellement.
+> >>>
+> >> J'utilise des onduleurs online et offline depuis 1997. Ces onduleurs
+> >> consomment d=E8s qu'ils sont branch=E9s sur le secteur. Touche ton ond=
+uleur,
+> >> il est aussi chaud, utilis=E9 ou non. Ensuite le compteur =E9lectrique
+> >> tourne de la m=EAme mani=E8re, que tu te serves de l'onduleur ou non. =
+Les
+> >> "=E9conomiseurs" en tous genres n'ont donc aucune utilit=E9 si le PC e=
+st
+> >> aliment=E9 par un onduleur.
+> >>
+> >
+> > Et c'est quoi qui fait que =E7a consomme ? Parce quand la charge (le PC=
+) ne
+> > tire pas dessus dans quoi d=E9bite-t-il pour consommer autant ???
+> >
+> > Ga=EBtan
+> >
+> Le pont redresseur qui charge la batterie est aliment=E9 en permanence pa=
+r=20
+> le secteur. La batterie est constamment sous tension.
+> https://fr.wikipedia.org/wiki/Onduleur
+> https://fr.wikipedia.org/wiki/Redresseur
+>=20
+
+Oui bien sur mais ce n'est pas =E7a qui va tirer 500W ou plus surtout une f=
+ois
+les batteries pleines.
+Ton frigo consomme bien plus en une journ=E9e que ton onduleur ...
+
+Ga=EBtan
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120925013744.ffb0120b7eb3e7fa3742dc61@neuf.fr
+

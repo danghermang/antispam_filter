@@ -1,0 +1,34 @@
+Subject:Re: ondemand governor failed
+jacques a écrit, le 04.10.2012 00:27 :
+
+> Bonjour
+> 
+> OSSEC me remonte çà :
+> 
+> Oct  2 23:03:54 desdemone kernel: [  131.604145] ondemand governor 
+> failed, too long transition latency of HW, fallback to performance governor
+> 
+> Ca veut dire quoi ?
+> 
+> Merci,  J.
+
+Bonjour,
+
+peut-être suis-je à coté de la plaque ;)
+
+j'ai un Pentium 4, sous squeeze j'avais eu ce message avec P4-clockmod.
+Un hack horrible (modifier une valeur directement dans le binaire)
+le fait "refonctionner". je peux préciser...
+
+cordialement
+Hého
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k4m272$2kb$1@ger.gmane.org
+

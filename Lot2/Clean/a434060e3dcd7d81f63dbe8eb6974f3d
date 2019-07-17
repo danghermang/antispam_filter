@@ -1,0 +1,13 @@
+Subject:Re: actualizar debian 6
+> > Buenos dias=0A> >=0A> > normalmente hago apt-get update para actualizar=
+ pero en=0A> la ezq superior=0A> > derecha me dice que tiene que actualizar=
+ 106 paquetes=0A> con el Update manager=0A> >=0A> > Puedo hacer esto en con=
+sola con comandos ??? y no=0A> hacerlo por el gestor=0A> > de actualizacion=
+es ???=0A=0Aapt-get upgrade=0A=0Asaludos =0AMarcos Negrini
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1348757088.73982.YahooMailClassic@web114519.mail.gq1.yahoo.com
+

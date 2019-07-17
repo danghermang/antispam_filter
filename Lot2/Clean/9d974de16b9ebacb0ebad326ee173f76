@@ -1,0 +1,72 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+Heather, that is for ISPs.
+
+For end-users, the current fee is $100 no matter what you have unless you're a legacy holder that still refuses to sign any RSA in which case you pay $0.
+
+In the proposed structure, end users would be charged $100 per record. $100 for an ASN and $100 for a /8 and $100 for a /24 and $100 for a /16 and $100 for a /22 and $100 for a /12 and $100 for an IPv6 /48 and $100 for an IPv6 /12.
+
+(obviously no one organization is going to have all of those things, but, for each entry in whois, count up $100 and that's what you get charged as an end user under the current proposal).
+
+Owen
+
+On Nov 13, 2012, at 10:27 , "Schiller, Heather A" <heather.schiller@verizon.com> wrote:
+
+> 
+> I'm pretty sure ARIN already uses the count of total addresses within an ORG as the basis for the fee?  For example, if an org has 4 non-contiguous /22's (a /20 worth of IP's) they bill at Small (/20-/19) 
+> 
+> I do think the wording could be improved.. Allocation or assignment size instead of "block size"
+> 
+> --Heather 
+> 
+> -----Original Message-----
+> From: arin-consult-bounces@arin.net [mailto:arin-consult-bounces@arin.net] On Behalf Of Owen DeLong
+> Sent: Tuesday, November 13, 2012 12:48 PM
+> To: John Curran
+> Cc: arin-consult@arin.net
+> Subject: Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+> 
+> 
+> On Nov 12, 2012, at 14:10 , John Curran <jcurran@arin.net> wrote:
+> 
+>> On Nov 12, 2012, at 5:00 PM, "Mr. James W. Laferriere" <babydr@baby-dragons.com> wrote:
+>> 
+>>> With the reduced fee's for an end user /24 (what looks to me as) $100 .
+>>>  This would reduce my heart ache quite a bit .  I already have an ASN
+>>>  (19274) for which I pay the $100 annual maintenance fee .
+>>> 
+>>>  My question is what would my end user fee be for this combination , ipv4/24 & ASN be ?
+>> 
+>> As proposed, there would be a $100/yr end-user maintenance fee for 
+>> each of the IPv4 block and for each AS number (for a total of 
+>> $200/year in your example)
+>> 
+>> There has been some discussion to include end-user maintenance for 1 
+>> IPv4 block, 1 IPv6 block, and 1 AS number for a single $100 annual 
+>> fee, and $100 for each additional resource.  If that change is 
+>> adopted, your total would be $100/year.
+> 
+> 
+> I also find it interesting that under the current proposed end-user restructuring, a small multihomer that has a /23, a /24, and a /48 with an ASN would have their fees quadruple from $100/year to $400/year while a very large corporate legacy holder (e.g. Apple, HP, MIT) that still refuses to sign the LRSA or ANY RSA would have their fees remain at $0.
+> 
+> Perhaps it would be worth while to consider as part of this fee restructuring:
+> 
+> 1.	Removing the fee exemption for legacy holders.
+> and/or
+> 2.	Basing the fees on total address holdings rather than number of blocks.
+> 
+> Owen
+> 
+> 
+> _______________________________________________
+> ARIN-Consult
+> You are receiving this message because you are subscribed to the ARIN Consult Mailing List (ARIN-consult@arin.net).
+> Unsubscribe or manage your mailing list subscription at:
+> http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services Help Desk at info@arin.net if you experience any issues.
+
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

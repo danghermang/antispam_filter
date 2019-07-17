@@ -1,0 +1,45 @@
+Subject:Re: problema de impresion Wheezy (solucionado)
+El Fri, 16 Nov 2012 19:07:33 +0400, Evgeny M. Zubok escribió:
+
+> Camaleón <noelamac@gmail.com> writes:
+
+(...)
+
+>>> Solo tuve que agregar mi usuario a los grupos 'lp' y 'lpadmin'. Con
+>>> eso fue suficiente para que Cups me dejara agregar la impresora y
+>>> configurarla.
+>>
+>> Ese paso no debería ser necesario, de hecho mi usuario no pertenece a
+>> ninguno de esos grupos y puedo añadir impresoras desde la interfaz web
+>> de CUPS, quizá deberías informar del error :-?
+> 
+> Esta guía no está de acuerdo contigo:
+> 
+> http://wiki.debian.org/SystemPrinting#Add_Printer
+
+Ese es uno de los problemas de las wikis, que se quedan obsoletas en 
+seguida ;-) 
+
+(si te fijas en el pantallazo que hay más abajo el tutorial está hablando 
+de CUPS 1.4.4 que es la versión de squeeze, por lo que es posible que 
+hayan cambiado esto en wheezy).
+
+> Ahora mismo hago 'deluser zubok lpadmin', intento añadir una impresora
+> desde localhost:631 y al autenticarme como usuario me da el error
+> "Unable to add printer: Forbidden".
+
+No sé en qué versión estás, pero a mí eso no me pasa en wheezy cuando 
+quiero añadir una impresora (ojo, no tengo configurado "sudo" por lo que 
+CUPS -1.5.3- me pide el usuario/contraseña de "root").
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k85msb$8pk$9@ger.gmane.org
+

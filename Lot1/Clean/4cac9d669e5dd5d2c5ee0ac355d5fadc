@@ -1,0 +1,41 @@
+Subject:Re: =?UTF-8?B?RMOpcGFubmFnZQ==?= sur PC distant
+On Sat, 27 Oct 2012 23:06:15 +0200
+Alex Padoly <alex.padoly@laposte.net> wrote:
+
+>=20
+> Pas franchement quand l'hote =C3=A0 une connexion Internet par une clef 3=
+G, je
+> souhaite surtout lancer =C3=A0 distance l'installation d'un logiciel.
+> Merci.
+
+Et?
+
+Je ne vois absolument pas o=C3=B9 peut se poser un PB, =C3=A0 l'exception n=
+otable
+de certains mis=C3=A9rables cons d'ISPs qui brident certains traffics dans=
+=20
+l'espoir de refiler un abonnement suppl=C3=A9mentaire au sale con-sommateur,
+auquel cas passer par le port 443 (par ex) r=C3=A9soud en Gal cette ineptie.
+Le tout assorti d'un daemon qui permet d'apparier adresse IP et nom=20
+de machine.
+
+Quant'=C3=A0 installer un soft =C3=A0 distance, soit c'est un pkg et on pas=
+se par
+un manager habituel (apt-get, dselect, synaptic, etc), soit c'est un
+tarball et on fait ce qui doit =C3=AAtre fait comme si on =C3=A9tait sur la=
+ machine
+distante.
+
+--=20
+<b00lak> jv=C3=A9 te niker, je sui plu for ke schwarz et neguer r=C3=A9unis=
+ !!!!!!!!!!!!
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121027232221.080e6dec@anubis.defcon1
+

@@ -1,0 +1,54 @@
+Subject:Re: como hago para quemar un disco DVD desde consola. (OT)
+El jue, 11-10-2012 a las 19:04 -0200, Ratman escribió:
+> http://www.taringa.net/posts/linux/1221322/Crear-imagenes-y-grabar-desde-consola.html
+> 
+ot: solo para decir que si estoy suscripto a la lista, no hace falta que
+me manden una copia a mi propio correo.
+
+muy oftopic: Además, si usan evolution (supongo que los otros clientes
+*de verdad* (los webmail no son de verdad, outlook tampoco) también
+podrán hacerlo) al responder un mail de esta lista les pregunta si al
+privado o a la lista, lo que puede ser una buena motivación para
+configurarse uno, tampoco es taaaaaaaaaan difícil
+
+> El 11 de octubre de 2012 17:54, Gonzalo Rivero
+> <fishfromsalta@gmail.com> escribió:
+>         El jue, 11-10-2012 a las 14:12 -0430, alexis escribió: 
+>         > El 11/10/12 13:14, Victor Hugo Cespedes Zuleta escribió:
+>         > > me podrian ayudar a usar cdrdao para quemar una imagen
+>         iso.
+>         > >
+>         > > esto se los pido debido a que no puedo instalar k3b por
+>         problemas con
+>         > > sus dependencias.
+>         > >
+>         > >
+>         > dd if=/dev/cdrom of=/home/usuario/disco.iso
+>         >
+>         >
+>         
+>         
+>         pero eso para hacer la iso. El preguntó cuando ya tiene la iso
+>         hecha y
+>         quiere pasarla a un disco 
+>         
+>         
+>         --
+>         To UNSUBSCRIBE, email to
+>         debian-user-spanish-REQUEST@lists.debian.org
+>         with a subject of "unsubscribe". Trouble? Contact
+>         listmaster@lists.debian.org
+>         
+>         Archive:
+>         http://lists.debian.org/1349985283.3218.25.camel@gonzalo.casa
+>         
+> 
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1350006627.3718.8.camel@gonzalo.casa
+

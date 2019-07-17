@@ -1,0 +1,35 @@
+Subject:Re: del modem USB para RAS
+El Fri, 14 Sep 2012 11:56:53 -0300, Alberto Vicat escribió:
+
+> El 14/09/12 08:44, luis@ida.cu escribió:
+
+(...)
+
+>>>> esto es lo que me retorna con lsusb
+>>>> Bus 002 Device 004: ID 0ace:1602 ZyDAS ZyXEL Omni FaxModem 56
+
+> Hace pocos días guerreé con un modem USB. Buscá con Google esto:
+> 
+> "Modem USB Personal HSUPA MF190 con Squeeze [solucionado]"
+> 
+> así tal cual CON las comillas. Te llevará al mensaje en esta misma lista
+> donde conté como lo había solucionado. Pero te aclaro que la
+> configuración de cuenta que aparece allí es válida para Argentina. No sé
+> si en Cuba será lo mismo.
+
+Alberto, no lo líes más aún O:-)
+
+Luis quiere configurar un modem de tipo dial-up (de discado convencional) 
+no un modem UMTS, son cosas distintas.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2vmhc$4lj$8@ger.gmane.org
+

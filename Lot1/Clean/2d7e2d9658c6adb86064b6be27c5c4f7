@@ -1,0 +1,35 @@
+Subject:Re: Fwd: OFF-TOPIC Openvz en powerpc64 bits
+El Wed, 07 Nov 2012 19:21:57 +0100, Maykel Franco Hdez escribió:
+
+>> El 07/11/2012, a las 18:35, Maykel Franco Hdez
+>> <maykel@maykel.sytes.net> escribió:
+>>> 
+>>> El 07/11/2012, a las 18:22, Camaleón <noelamac@gmail.com> escribió:
+
+>>>> Sin un mensaje de error evidente podría ser cualquier cosa, desde el
+>>>> yaboot ese hasta un bug del kernel que has compilado y que es muy
+>>>> antiguo... por cierto ¿por qué no has probado con alguno de la rama
+>>>> 2.6.32?
+(...)
+>>> Porque solo encontre la config de los modulos ppc64 de esa version de
+>>> kernel. El tema no esque arranque debian, sino que sea compatible con
+>>> openvz. La version de kernel cuanto mas actual en teoria....mejor.
+>>> Pensaba que solo esa version de kernel era compatible con openvz para
+>>> ppc64...
+>>> 
+> O te vale cualquier kernel compilado con soporte openvz??
+
+Te valdrá cualquiera de los que mencionan en su web junto con su 
+correspondiente parche.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7gnub$7kj$11@ger.gmane.org
+

@@ -1,0 +1,29 @@
+Subject:Re: [Jukebox-list] WurliTzer 2900 keyswitch panel
+On 11/4/12 6:24 PM, Shankar Singh wrote:
+> Coin is inserted and Select lamp is ON.
+> 
+> Normally, when making a selection the select lamp goes off and comes back on when the letter and number keys are released after each selection.
+> 
+> What recently developed:
+> the select lamp blanks out for seconds longer and then the 2 keys are released.
+> 
+> Any ideas what might be causing this?
+
+I had a similar problem with a Seeburg R, and it turned out to be a
+gummy bushing on the actuator of a leaf switch operated by the latch
+bar.  It took a long time for the spring pressure to operate the switch.
+
+Granted this was a different manufacturer and design, but it might be
+worth looking into.  Make sure that the common switches operated by the
+latch bar and selector keys are free to operate normally and are
+properly adjusted.
+
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay@impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+_______________________________________________
+Jukebox-list mailing list
+Jukebox-list@lists.netlojix.com
+http://lists.netlojix.com/mailman/listinfo/jukebox-list
+Searchable Archives: http://jukebox.markmail.org/

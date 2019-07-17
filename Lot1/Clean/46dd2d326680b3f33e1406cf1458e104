@@ -1,0 +1,23 @@
+Subject:Re: Encountered a section with no Package: header
+On Fri, 7 Sep 2012 18:46:15 +0200
+Benoit B <benoitlst@gmail.com> wrote:
+
+rm /var/lib/apt/lists/partial/ftp.fr.debian.org_debian_dists_testing_contri=
+b_i18n_Translation-fr*
+apt-get update
+
+--=20
+<Danou> C'est faux je connais plein de filles ! >.<
+<@LVB> La fille de avast et de allopass =C3=A7a compte pas
+<Danou> ...
+<Danou> Et celle de la SNCF ?
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20120907185403.0bd2edc2@anubis.defcon1
+

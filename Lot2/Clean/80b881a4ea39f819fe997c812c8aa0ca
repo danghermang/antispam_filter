@@ -1,0 +1,111 @@
+Subject:Re: OpenVZ - Pasaje de venet a veth
+2012/12/5 ciracusa <ciracusa@gmail.com>:
+> Camale=F3n wrote:
+>>
+>> El Tue, 04 Dec 2012 11:23:13 -0200, ciracusa escribi=F3:
+>>
+>> (...)
+>>
+>>
+>>>
+>>> Ser=E1 que falta montar un "bride" entre el VETH del contenedor y la IP
+>>> del host anfitri=F3n?
+>>>
+>>
+>>
+>> Pues mira que no he usado nunca el OpenVZ ese pero de tanto leerlo por
+>> aqu=ED ya me est=E1 picando la curiosidad :-)
+>>
+>> A ver, el VirtualBox tendr=EDas que definir la interfaz en modo puente,
+>> efectivamente, y en OpenVZ... pues vamos a leer:
+>>
+>> http://wiki.openvz.org/Virtual_Ethernet_device
+>>
+>> "(...) When veth is bridged to a CT0 network interface (e.g., eth0), the
+>> container can act as an independent host on the network. The container's
+>> user can set up all of the networking himself, including IPs, gateways,
+>> etc."
+>>
+>> Pues parece que s=ED.
+>>
+>> Saludos,
+>>
+>>
+>
+>
+> Camaleon, estoy siguiendo el tuto que me dec=EDas hasta que llego a este
+> punto:
+>
+> "Independent Virtual Ethernet communication through the bridge
+>
+> Bridging a CT interface to a CT0 interface is the magic that allows the C=
+T
+> to be an independent host on the network with its own IP address, gateway=
+,
+> etc. CT0 does not need any configuration for forwarding packets to the CT=
+ or
+> performing proxy arp for the CT or event the routing.
+>
+> To manually configure a bridge and add devices to it, perform steps 1 - 4
+> from Simple configuration chapter for several containers and/or veth devi=
+ces
+> using FE:FF:FF:FF:FF:FF as a CT0 veth side MAC address and then follow th=
+ese
+> steps."
+>
+> Ahora bien luego indica:
+>
+> [host-node]# brctl addbr vzbr0
+>
+> Y luego:
+>
+> [host-node]# brctl addif vzbr0 veth101.0
+>
+> Aqu=ED es donde no comprendo "veth101.0"
+>
+> Esto es una interface creada en el CT0 (host-node) o en el CT101?
+>
+> Bueno, espero haber sido claro :/
+>
+> MUchas Gracias.
+>
+> Saludos.
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/50BF3B7A.5070806@gmail.com
+>
+
+Ciracusa no creas quese desvirtua el hilo
+es untema importante que le puede pasar a cualquiera
+
+en openvz podes crear una archivo de ejecucion en el inicio asi
+
+/etc/vz/conf/$id.mount
+
+y relacionado con un script
+
+/etc/vz/conf/$id.sh
+
+
+--=20
+MrIX
+Linux user number 412793.
+http://counter.li.org/
+
+las grandes obras,
+las sue=F1an los santos locos,
+las realizan los luchadores natos,
+las aprovechan los felices cuerdo,
+y las critican los in=FAtiles cr=F3nicos,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CALvB54avpLyGy1BXnXY2mqrX-Q8vAqrv7Ws97isvZLLEh1CwSA@mail.gmail.com
+

@@ -1,0 +1,34 @@
+Subject:Hummingbird SOCKS ==> tsocks / toxsocks
+Buenas <a tod@s>
+
+tengo un problemilla que me esta comiendo la moral (solo un poco), os cuent=
+o.
+
+Tengo una maquina Windows usando Hummingbird Connectivity V8.0 y
+desear=EDa "cepillarme" el Windows.
+Ya que del Hummingbird uso la parte ... SOCKS Client Configuration ...
+es decir el establecimiento de
+conexi=F3n por SOCKS y no por TCP.
+
+He visto que tenemos ... TSOCKS ... pero tambi=E9n me he topado con ...
+TOXSOCKS (pero solo en RH parece ser)
+y la verdad es que estoy perdido en cuanto ha este tema.
+
+Haber si me podeis dar informaci=F3n al respecto u orientarme a otro medio.
+
+La idea es migrar y a=F1adir la informaci=F3n / IPs del fichero ...
+C:\WINDOWS\system32\Hummingbird\Connectivity\8.00\Socks\socks.cfg
+... que son unas 50 direcciones como estas ..
+
+sockd5 @=3D20.30.130.5 190.160.20.65 255.255.255.255
+direct  30.70.205.0  255.255.255.224
+
+
+Gracias por todo.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAHSXhJ9G-LwdzGPXtcRMgSb2BTxD838pFVMasTm7z48SWp-e9w@mail.gmail.com
+

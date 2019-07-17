@@ -1,0 +1,44 @@
+Subject:Re: [ARIN-consult] [arin-announce] Fee Schedule Change Consultation
+
+On Nov 14, 2012, at 13:38 , John Curran <jcurran@arin.net> wrote:
+
+> On Nov 14, 2012, at 4:10 PM, John Comfort <john@comfortconsulting.com>
+> wrote:
+> 
+>> It seems to me that Jesse is the only one considering the smaller organizations and the exponential increase in fees over time. With the additional costs per year, does ARIN intend on providing more services in addition to IP allocation assistance? Or will ARIN continue with the status-quo? In other words, how will ARIN really add *benefit* to the SMB market by instituting this new fee structure?
+> 
+> Note that there is not a proposed increase over time; this is a single change
+> for end-user fees for per-block annual maintenance fees as opposed to the
+> present single $100 annual maintenance fee for an unlimited number of registry 
+> objects.
+> 
+> With respect to services offered, ARIN has indeed increased registry services 
+> in recent years, including enhancements to the online interface, additional of
+> DNSSEC support for reverse DNS zones, and resource certification via RPKI.  
+> 
+
+Many of these "enhancements" could also be characterized as making the interface
+more convenient for ARIN while simultaneously making it more difficult for small
+consulting firms to work with their SMB enterprise and ISP clients on ARIN
+interactions.
+
+>> penalize organizations with a large number of smaller IPv4 blocks;
+> 
+> I believe that "penalize" is not quite the intent, as much as making end-user
+> organizations with a large number of smaller IPv4 blocks pay to reflect their
+> greater costs.
+> 
+
+Intent or not, it is the net effect. Even an organization with a small number
+of blocks, say 2 IPv4 blocks an IPv6 block and an ASN goes from $100/year
+to $400/year, making their fees 4000% larger in a single year.
+
+Owen
+
+_______________________________________________
+ARIN-Consult
+You are receiving this message because you are subscribed to the ARIN Consult Mailing
+List (ARIN-consult@arin.net).
+Unsubscribe or manage your mailing list subscription at:
+http://lists.arin.net/mailman/listinfo/arin-consult Please contact the ARIN Member Services
+Help Desk at info@arin.net if you experience any issues.

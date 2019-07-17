@@ -1,0 +1,71 @@
+Subject:Re: [Flexradio] Waterfall memory for each band
+Hi Tim
+
+Thanks for the hint - we look forward to seeing this feature in PowerSDR 
+v2.5.x :-)
+
+It would also be helpful if this future version of PowerSDR could expand the 
+waterfall parameters to offer a faster refresh rate - ideally to something 
+like the rate used in CW skimmer. I find the additional detail in the faster 
+CW skimmer waterfall to be really useful, especially when viewing CW 
+activity.
+
+Do you think that it would be possible to increase the waterfall rate?
+
+Thanks and 73
+
+Brian VK3MI ZL1AZE
+
+------------------------------
+
+Message: 11
+Date: Sat, 20 Oct 2012 09:31:27 -0400
+From: Tim Ellison <t.m.ellison.jr@gmail.com>
+To: flexradio@flex-radio.biz
+Subject: Re: [Flexradio] Waterfall memory for each band
+Message-ID: <5082A7AF.5090901@gmail.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+
+You may want to wait until PowerSDR v2.5.x is released (hint)
+
+Tim Ellison
+On 10/19/2012 4:01 PM, Ray Gmail wrote:
+> Has anyone figured out how to save the High and Low Waterfall settings for
+> each band?
+>
+>
+>
+> For example, when I switch from 10m down to 40m, I needs to re-adjust the
+> Waterfall so that the display is not saturated due to the higher signal
+> levels.
+>
+>
+>
+> SDR should really remember the settings for both waterfall and panadaptor,
+> this would save a lot of time adjusting them each time a user changes 
+> band.
+>
+>
+>
+> It seems like it should be an easy update if it's not already available.
+>
+>
+>
+>
+>
+> Thanks,
+>
+> Ray
+>
+> EI3GD
+>
+End of FlexRadio Digest, Vol 90, Issue 20
+***************************************** 
+
+
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

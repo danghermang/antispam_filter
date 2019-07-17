@@ -1,0 +1,901 @@
+Subject:failure notice
+Hi. This is the qmail-send program at sydsy2-mx02.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<kerinengineering@activ8.net.au>:
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <qantas.50523@envfrm.rsys5.com>
+Received: (qmail 2231 invoked by uid 89); 9 Dec 2012 20:21:39 -0000
+Received: from unknown (HELO apn.junkemailfilter.com) (184.105.182.43)
+  by SYDSY2-MX02 with (DHE-RSA-AES256-SHA encrypted) SMTP; 9 Dec 2012 20:21:38 -0000
+Delivery-date: Sun, 09 Dec 2012 12:20:00 -0800
+Received: from omp.email.qantas.com ([199.7.202.86]) helo=omp.email.qantas.com
+	by apn.junkemailfilter.com with esmtp (Exim 4.80.1)
+	id 1ThnLv-0007Kv-B0 on interface=184.105.182.43
+	for kerinengineering@activ8.net.au; Sun, 09 Dec 2012 12:19:58 -0800
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=qantas; d=email.qantas.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From:Reply-To:Subject:Message-ID; i=redemail@email.qantas.com;
+ bh=PBZZhyEw0dk8R+q4+YmGXlTTBf4=;
+ b=ZMJR5KKt38TQOD7fDPF0lNXHDdEWLvIpzRxkaIkQcPL+18TjdpH8sUUX5hIwwdCWH92JFBTpbyYD
+   hHij4zval/9cUAj3qBkrOOIhvc6yaLkRXvg8uqg35bSDEnz2AG2z4Vp+NGviNI2fAF2dpE313iLY
+   oFZPkfzbqTtYbWsMBOM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=qantas; d=email.qantas.com;
+ b=mdQW5b9a61xYNCM5/5e3JxpowjL9hiy2jpgW39H+sb5IPASPzCE4cXZlVvAdN1K5FvuGGiTB0cLU
+   5cwSfcVB6EB0QQG+duwybb4Hf+bIlVygNCemVHLv8gaPQ18Mkx5c5dotnmGhc/aHqIWD2N2PdVhe
+   jzAToKCJwHI4k4lvgEs=;
+Received: by omp.email.qantas.com id hojp6m1hd44e for <kerinengineering@activ8.net.au>; Sun, 9 Dec 2012 12:19:53 -0800 (envelope-from <qantas.50523@envfrm.rsys5.com>)
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Date: Sun, 9 Dec 2012 12:19:53 -0800
+To: kerinengineering@activ8.net.au
+From: "Qantas Red e-Mail" <redemail@email.qantas.com>
+Reply-To: "Qantas Red e-Mail" <donotreply@email.qantas.com>
+Subject: Exclusive deal to Adelaide on offer until midnight Monday
+X-sgxh1: sLjpgLgnpgLLjpgnxHJlpNCQgLlQHm
+X-rext: 4.interact5.Eti7MakxUeKXgk-R3UbBN1iekt5mhnZF
+X-cid: qantas.4337
+Message-ID: <0.0.10.50F.1CDD64A8C4B5902.0@omp.email.qantas.com>
+X-Spamfilter-host: apn.junkemailfilter.com - http://www.junkemailfilter.com
+X-Mail-from: qantas.50523@envfrm.rsys5.com
+X-Spam-Class: HAM-VERY-WHITELIST - white-hard - dnswl - Host Name Whitelist - D=qantas.com - X=apn H=omp.email.qantas.com [199.7.202.86] HELO=[omp.email.qantas.com] F=[qantas.50523@envfrm.rsys5.com] T=[kerinengineering@activ8.net.au] S=[Exclusive deal to Adelaide on offer until midnight Monday]
+X-Sender-Host-Address: 199.7.202.86
+X-Sender-Host-Name: omp.email.qantas.com
+
+<HTML><HEAD><TITLE>Red e-Mail</TITLE>
+<META content=3D=22text/html; charset=3D=22 http-equiv=3DContent-Type></HEA=
+D>
+<BODY>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D665 align=3Dcente=
+r>
+<TBODY>
+<TR>
+<TD vAlign=3Dtop align=3Dmiddle>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D655>
+<TBODY>
+<TR>
+<TD style=3D=22WIDTH: 655px; FONT-FAMILY: Verdana; COLOR: =23fff; FONT-SIZE=
+: 4px=22 height=3D4 vAlign=3Dcenter align=3Dmiddle>Exclusive deal to Adelai=
+de on offer until midnight Monday=2E </TD></TR>
+<TR>
+<TD style=3D=22WIDTH: 655px; FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE=
+: 10px=22 vAlign=3Dcenter align=3Dmiddle>Having trouble viewing the e-mail?=
+ View the <A style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: =
+10px=22 href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpg=
+lLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUUD&_ei_=3DEpXlIxuHP=
+U8FPEFQmooZgKaLyrFLzva5eHPLo-0lqyDKF8KU_cOVsN3Gc0iSwGatjYNU3FjtMlwckkN05Jc-=
+yjBJ0qqChINnByPYirizZckJA9It9JAcRymGE4pjT83aEmFbWR6QPiMWz9bs0oYlHjxlpWflidw=
+SRNMmiqa8jwuhO4ZlJBczLp4=2E=22 target=3D_blank RILT=3D=22HostedPage=22><SPA=
+N style=3D=22TEXT-DECORATION: underline=22>online version</SPAN></A><BR>To =
+ensure delivery, add <SPAN style=3D=22TEXT-DECORATION: none=22>redemail=40e=
+mail=2Eqantas=2Ecom</SPAN> to your contacts or address book list=2E<BR>&nbs=
+p; </TD></TR>
+<TR width=3D=22655=22>
+<TD bgColor=3D=23aa0000 height=3D100 vAlign=3Dcenter width=3D655 align=3Dmi=
+ddle>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D620>
+<TBODY>
+<TR>
+<TD width=3D18><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D18 height=3D1></TD>
+<TD width=3D402>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D402>
+<TBODY>
+<TR>
+<TD><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqantas=2Ecom=2E=
+au/img/templates/title_top=2Egif=22 width=3D402 height=3D21></TD></TR>
+<TR>
+<TD bgColor=3D=23cc0000 vAlign=3Dtop align=3Dmiddle>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D402>
+<TBODY>
+<TR>
+<TD><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqantas=2Ecom=2E=
+au/img/templates/spacer=2Egif=22 width=3D11 height=3D1></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23ffffff; FONT-SIZE: 22px; FON=
+T-WEIGHT: bold=22 vAlign=3Dtop width=3D380 align=3Dleft>Exclusive Flight Of=
+fer </TD>
+<TD><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqantas=2Ecom=2E=
+au/img/templates/spacer=2Egif=22 width=3D11 height=3D1></TD></TR></TBODY></=
+TABLE></TD></TR>
+<TR>
+<TD><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqantas=2Ecom=2E=
+au/img/templates/title_bottom=2Egif=22 width=3D402 height=3D13></TD></TR></=
+TBODY></TABLE></TD>
+<TD vAlign=3Dcenter width=3D218 align=3Dmiddle><IMG src=3D=22http://www=2Eq=
+antas=2Ecom=2Eau/img/templates/logo=2Egif=22 width=3D218 height=3D54></TD>
+<TD width=3D16><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D16 height=3D1></TD></TR=
+></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=3D=23aa0000 width=3D655><IMG style=3D=22DISPLAY: block=22 src=
+=3D=22http://www=2Eqantas=2Ecom=2Eau/img/templates/top=2Egif=22 width=3D655=
+ height=3D25></TD></TR>
+<TR>
+<TD vAlign=3Dtop width=3D655>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D655>
+<TBODY>
+<TR>
+<TD bgColor=3D=23aa0000 width=3D15><IMG style=3D=22DISPLAY: block=22 src=3D=
+=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D15 =
+height=3D1></TD>
+<TD bgColor=3D=23cc0000 width=3D7><IMG style=3D=22DISPLAY: block=22 src=3D=
+=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D7 h=
+eight=3D1></TD>
+<TD bgColor=3D=23ffffff width=3D390><IMG style=3D=22DISPLAY: block=22 src=
+=3D=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D=
+390 height=3D1></TD>
+<TD style=3D=22WIDTH: 8px=22 bgColor=3D=23cc0000><IMG style=3D=22DISPLAY: b=
+lock=22 src=3D=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=
+=22 width=3D8 height=3D1></TD>
+<TD bgColor=3D=23aa0000 width=3D10><IMG style=3D=22DISPLAY: block=22 src=3D=
+=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D10 =
+height=3D1></TD>
+<TD bgColor=3D=23cc0000 width=3D7><IMG style=3D=22DISPLAY: block=22 src=3D=
+=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D7 h=
+eight=3D1></TD>
+<TD bgColor=3D=23ffffff width=3D195><IMG style=3D=22DISPLAY: block=22 src=
+=3D=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D=
+195 height=3D1></TD>
+<TD bgColor=3D=23cc0000 width=3D8><IMG style=3D=22DISPLAY: block=22 src=3D=
+=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D8 h=
+eight=3D1></TD>
+<TD bgColor=3D=23aa0000 width=3D15><IMG style=3D=22DISPLAY: block=22 src=3D=
+=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D15 =
+height=3D1></TD></TR>
+<TR>
+<TD bgColor=3D=23aa0000 width=3D15><IMG style=3D=22DISPLAY: block=22 src=3D=
+=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D15 =
+height=3D1></TD>
+<TD bgColor=3D=23cc0000 width=3D7><IMG style=3D=22DISPLAY: block=22 src=3D=
+=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D7 h=
+eight=3D1></TD>
+<TD bgColor=3D=23ffffff vAlign=3Dtop width=3D390>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D390>
+<TBODY>
+<TR>
+<TD style=3D=22WIDTH: 20px=22><IMG style=3D=22DISPLAY: block=22 src=3D=22ht=
+tp://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D20 heigh=
+t=3D1></TD>
+<TD><=21--Start Column Content-->
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D350>
+<TBODY>
+<TR>
+<TD><A href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpgl=
+LjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUWR&_ei_=3DEuLtCHDMpi=
+8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC=
+4SJmPnYFkZE55EDqcnxVqLKAM=2E=22 RILT=3D=22HeroImage=22><IMG border=3D0 alt=
+=3D=22On now=22 src=3D=22http://www=2Eqantas=2Ecom=2Eau/img/350x164/adelaid=
+e-on-now=2Ejpg=22 width=3D350></A></TD></TR>
+<TR>
+<TD height=3D10></TD></TR>
+<TR>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 12px=22 v=
+Align=3Dtop align=3Dleft><SPAN style=3D=22FONT-WEIGHT: bold=22>We give you=
+=2E=2E=2E=2E Adelaide</SPAN></TD></TR>
+<TR>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000000; FONT-SIZE: 11px=22 v=
+Align=3Dtop align=3Dleft><BR>We're pleased to offer you an exclusive flight=
+ offer to South Australia's capital=2E With world renowned arts festivals, =
+gorgeous wine regions and spectacular surrounding landscapes to enjoy, ther=
+e's no better time to book your flight to Adelaide=2E <BR>&nbsp;</TD></TR><=
+/TBODY></TABLE>
+<=21--Start-->
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D350>
+<TBODY>
+<TR>
+<TD bgColor=3D=23f8f8f8><IMG style=3D=22DISPLAY: block=22 src=3D=22http://w=
+ww=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D350 height=3D1=
+1></TD></TR>
+<TR>
+<TD bgColor=3D=23f8f8f8 vAlign=3Dtop align=3Dmiddle>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D330>
+<TBODY>
+<TR>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 16px; FONT-W=
+EIGHT: bold=22 vAlign=3Dtop width=3D330 align=3Dleft>Sydney to Adelaide fro=
+m <A style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 16px; FO=
+NT-WEIGHT: bold=22 href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0G=
+zc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUAA&_ei_=
+=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntS=
+qudTzqq3JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=22><SPAN style=3D=22TEXT-DECORATI=
+ON: underline=22>=2499</SPAN></A><SPAN style=3D=22FONT-FAMILY: Verdana; COL=
+OR: =23990000; FONT-SIZE: 16px=22></SPAN></TD></TR>
+<TR>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 10px=22 vAli=
+gn=3Dtop align=3Dleft>&nbsp;<BR>Fares are one way in economy for departures=
+ from 30 April to 4 July 2013=2E </TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=3D=23f8f8f8><IMG style=3D=22DISPLAY: block=22 src=3D=22http://w=
+ww=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D350 height=3D1=
+1></TD></TR>
+<TR>
+<TD><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqantas=2Ecom=2E=
+au/img/templates/spacer=2Egif=22 width=3D350 height=3D5></TD></TR></TBODY><=
+/TABLE><=21--End-->
+
+  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D350>
+<TBODY>
+<TR>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000000; FONT-SIZE: 11px=22 v=
+Align=3Dtop align=3Dleft><BR><SPAN style=3D=22FONT-WEIGHT: bold=22>How to b=
+ook</SPAN><BR>To search for fares available as part of this exclusive offer=
+<BR>1=2E Click on the '<A style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000=
+; FONT-SIZE: 11px; TEXT-DECORATION: underline=22 href=3D=22https://email=2E=
+qantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpL=
+slYuogzdzgVXtpKX%3DYBUWS&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfL=
+EmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=22>B=
+ook now</A>' link below<BR>2=2E Select your travel dates between 30 April a=
+nd 4 July 2013<BR>3=2E Enter the promo code of <SPAN style=3D=22FONT-WEIGHT=
+: bold=22>10DECPROMO</SPAN><BR>4=2E Search for these great fares <BR><BR>No=
+te these fares are only available online via the '<A style=3D=22FONT-FAMILY=
+: Verdana; COLOR: =23990000; FONT-SIZE: 11px; TEXT-DECORATION: underline=22=
+ href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlY=
+QGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUWS&_ei_=3DEuLtCHDMpi8Ljmyo=
+wywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPn=
+YFkZE55EDqcnxVqLKAM=2E=22>Book now</A>' link below, and may not be availabl=
+e on all flights or days=2E<BR><BR><SPAN style=3D=22FONT-WEIGHT: bold=22>Do=
+n't miss out</SPAN><BR>Offer&nbsp;ends 11=2E59pm (AEDT) Monday 10 December =
+2012, unless sold out prior=2E Prices based on payment at qantas=2Ecom by B=
+PAY=2E* <BR><BR>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D350>
+<TBODY>
+<TR>
+<TD vAlign=3Dcenter width=3D23 align=3Dleft><IMG src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/arrow_white=2Egif=22 width=3D13 height=3D13></T=
+D>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 11px=22 v=
+Align=3Dcenter width=3D327 align=3Dleft><A style=3D=22FONT-FAMILY: Verdana;=
+ COLOR: =23990000; FONT-SIZE: 11px; TEXT-DECORATION: underline=22 href=3D=
+=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHs=
+zf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUWT&_ei_=3DEuLtCHDMpi8LjmyowywnxcMO=
+LanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55E=
+DqcnxVqLKAM=2E=22 RILT=3D=22Specials=22><SPAN style=3D=22TEXT-DECORATION: u=
+nderline=22>Book now</SPAN></A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000000; FONT-SIZE: 11px=22 v=
+Align=3Dtop align=3Dleft><BR><SPAN style=3D=22FONT-WEIGHT: bold=22>Travel I=
+nsider</SPAN><BR>Discover the new luxe destination of <A style=3D=22FONT-FA=
+MILY: Verdana; COLOR: =23990000; FONT-SIZE: 11px; TEXT-DECORATION: underlin=
+e=22 href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLj=
+HJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUWU&_ei_=3DEuLtCHDMpi8L=
+jmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4S=
+JmPnYFkZE55EDqcnxVqLKAM=2E=22>Kangaroo Island</A>, knock on the <A style=3D=
+=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 11px; TEXT-DECORATION=
+: underline=22 href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X=
+%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUWW&_ei_=3DEu=
+LtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTz=
+qq3JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=22>cellar doors at Clare Valley</A> an=
+d find out what <A style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-=
+SIZE: 11px; TEXT-DECORATION: underline=22 href=3D=22https://email=2Eqantas=
+=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuog=
+zdzgVXtpKX%3DYBUWY&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1m=
+gcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=22>one per=
+fect day in Adelaide</A> looks like=2E Read more at <A style=3D=22FONT-FAMI=
+LY: Verdana; COLOR: =23990000; FONT-SIZE: 11px; TEXT-DECORATION: underline=
+=22 href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjH=
+JlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUWA&_ei_=3DEuLtCHDMpi8Lj=
+myowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJ=
+mPnYFkZE55EDqcnxVqLKAM=2E=22>Travel Insider</A>=2E <BR></TD></TR>
+<TR>
+<TD height=3D20><=21--Start Important Information--></TD></TR>
+<TR>
+<TD><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqantas=2Ecom=2E=
+au/img/templates/top_grey=2Egif=22 width=3D350 height=3D11></TD></TR>
+<TR>
+<TD bgColor=3D=23f8f8f8 vAlign=3Dtop align=3Dmiddle>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D330>
+<TBODY>
+<TR>
+<TD vAlign=3Dcenter align=3Dleft>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D330>
+<TBODY>
+<TR>
+<TD vAlign=3Dcenter width=3D25 align=3Dleft><IMG src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/arrow_grey=2Egif=22 width=3D13 height=3D13></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 11px=22 v=
+Align=3Dcenter width=3D305 align=3Dleft><A style=3D=22FONT-FAMILY: Verdana;=
+ COLOR: =23990000; FONT-SIZE: 11px; TEXT-DECORATION: underline=22 href=3D=
+=22=23info=22><SPAN style=3D=22TEXT-DECORATION: underline=22>View Important=
+ Information below</SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></=
+TABLE></TD></TR>
+<TR>
+<TD><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqantas=2Ecom=2E=
+au/img/templates/bottom_grey=2Egif=22 width=3D350 height=3D11></TD></TR><=
+=21--End Important Information --><=21--Start Benefits-->
+<TR>
+<TD height=3D20></TD></TR>
+<TR>
+<TD><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqantas=2Ecom=2E=
+au/img/templates/top_orange=2Egif=22 width=3D350 height=3D11></TD></TR>
+<TR>
+<TD bgColor=3D=23f8ede5 vAlign=3Dtop align=3Dmiddle>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D310>
+<TBODY>
+<TR>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 11px; FON=
+T-WEIGHT: bold=22 width=3D310 align=3Dleft>You'll also enjoy=2E=2E=2E</TD><=
+/TR>
+<TR>
+<TD height=3D10></TD></TR>
+<TR>
+<TD height=3D22 vAlign=3Dcenter align=3Dleft>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D310>
+<TBODY>
+<TR>
+<TD height=3D22 vAlign=3Dcenter width=3D25 align=3Dleft><IMG src=3D=22http:=
+//www=2Eqantas=2Ecom=2Eau/img/templates/li_plane=2Egif=22 width=3D12 height=
+=3D11></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 11px=22 vAli=
+gn=3Dcenter width=3D285 align=3Dleft>At least 1000 Qantas Frequent Flyer po=
+ints=2E=5E</TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD height=3D22 vAlign=3Dcenter align=3Dleft>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D310>
+<TBODY>
+<TR>
+<TD height=3D22 vAlign=3Dcenter width=3D25 align=3Dleft><IMG src=3D=22http:=
+//www=2Eqantas=2Ecom=2Eau/img/templates/li_plane=2Egif=22 width=3D12 height=
+=3D11></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 11px=22 vAli=
+gn=3Dcenter width=3D285 align=3Dleft>Food and beverages on all flights=2E</=
+TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD height=3D22 vAlign=3Dcenter align=3Dleft>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D310>
+<TBODY>
+<TR>
+<TD height=3D22 vAlign=3Dcenter width=3D25 align=3Dleft><IMG src=3D=22http:=
+//www=2Eqantas=2Ecom=2Eau/img/templates/li_plane=2Egif=22 width=3D12 height=
+=3D11></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 11px=22 vAli=
+gn=3Dcenter width=3D285 align=3Dleft>Included Seat Selection</TD></TR></TBO=
+DY></TABLE></TD></TR>
+<TR>
+<TD height=3D22 vAlign=3Dcenter align=3Dleft>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D310>
+<TBODY>
+<TR>
+<TD height=3D22 vAlign=3Dcenter width=3D25 align=3Dleft><IMG src=3D=22http:=
+//www=2Eqantas=2Ecom=2Eau/img/templates/li_plane=2Egif=22 width=3D12 height=
+=3D11></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 11px=22 vAli=
+gn=3Dcenter width=3D285 align=3Dleft>Faster, smarter check-in</TD></TR></TB=
+ODY></TABLE></TD></TR>
+<TR>
+<TD height=3D22 vAlign=3Dcenter align=3Dleft>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D310>
+<TBODY>
+<TR>
+<TD height=3D22 vAlign=3Dcenter width=3D25 align=3Dleft><IMG src=3D=22http:=
+//www=2Eqantas=2Ecom=2Eau/img/templates/li_plane=2Egif=22 width=3D12 height=
+=3D11></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 11px=22 vAli=
+gn=3Dcenter width=3D285 align=3Dleft>Great entertainment like news, sport &=
+ comedy</TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD height=3D22 vAlign=3Dcenter align=3Dleft>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D310>
+<TBODY>
+<TR>
+<TD height=3D22 vAlign=3Dcenter width=3D25 align=3Dleft><IMG src=3D=22http:=
+//www=2Eqantas=2Ecom=2Eau/img/templates/li_plane=2Egif=22 width=3D12 height=
+=3D11></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 11px=22 vAli=
+gn=3Dcenter width=3D285 align=3Dleft>Included baggage allowance+</TD></TR><=
+/TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqantas=2Ecom=2E=
+au/img/templates/bottom_orange=2Egif=22 width=3D350 height=3D11></TD></TR><=
+=21--End Benefits--><=21--Start Top City Hotels-->
+<TR>
+<TD height=3D15></TD></TR>
+<TR>
+<TD>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D350>
+<TBODY>
+<TR>
+<TD width=3D45><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/icon_accom=2Egif=22 width=3D45 height=3D26></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23fff; FONT-SIZE: 11px; FONT-W=
+EIGHT: bold=22 bgColor=3D=23e86831 vAlign=3Dcenter width=3D279 align=3Dleft=
+>Hotels</TD>
+<TD width=3D26><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/corner1=2Egif=22 width=3D26 height=3D26></TD></=
+TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=3D=23f8f8f8 vAlign=3Dtop>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D350>
+<TBODY>
+<TR>
+<TD width=3D15></TD>
+<TD>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D320>
+<TBODY>
+<TR>
+<TD height=3D10 width=3D80></TD>
+<TD height=3D10 width=3D15></TD>
+<TD height=3D10 width=3D225></TD></TR>
+<TR>
+<TD vAlign=3Dtop align=3Dleft><A href=3D=22https://email=2Eqantas=2Ecom/pub=
+/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX=
+%3DYBUWB&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6Vi=
+L3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=22 RILT=3D=22Inline1=
+a=22><IMG border=3D0 alt=3D=22Hotels at qantas=2Ecom=22 src=3D=22http://www=
+=2Eqantas=2Ecom=2Eau/img/80x80/marketing/outrigger-surfers-paradise=2Ejpg=
+=22 width=3D80 height=3D80></A></TD>
+<TD vAlign=3Dtop align=3Dleft><IMG style=3D=22DISPLAY: block=22 src=3D=22ht=
+tp://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D15 heigh=
+t=3D1></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 11px=22 vAli=
+gn=3Dtop align=3Dleft><SPAN style=3D=22COLOR: =23990000; FONT-WEIGHT: bold=
+=22>Hotels at qantas=2Ecom</SPAN><BR>It's now even easier to book Australia=
+n hotels at qantas=2Ecom, with an improved booking experience=2E Plus Qanta=
+s Frequent Flyers can earn points=23 on partner hotels=2E<BR>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D225>
+<TBODY>
+<TR>
+<TD height=3D5 vAlign=3Dcenter align=3Dleft></TD>
+<TD height=3D5 vAlign=3Dcenter align=3Dleft></TD></TR>
+<TR>
+<TD vAlign=3Dcenter width=3D25 align=3Dleft><IMG src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/arrow_grey=2Egif=22 width=3D13 height=3D13></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 11px=22 v=
+Align=3Dcenter width=3D200 align=3Dleft><A style=3D=22FONT-FAMILY: Verdana;=
+ COLOR: =23990000; FONT-SIZE: 11px; TEXT-DECORATION: underline=22 href=3D=
+=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHs=
+zf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUWB&_ei_=3DEuLtCHDMpi8LjmyowywnxcMO=
+LanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55E=
+DqcnxVqLKAM=2E=22 RILT=3D=22Inline1a=22><SPAN style=3D=22TEXT-DECORATION: u=
+nderline=22>Book now</SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY>=
+</TABLE></TD>
+<TD width=3D15></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=3D=23f8f8f8><IMG style=3D=22DISPLAY: block=22 src=3D=22http://w=
+ww=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D1 height=3D11>=
+</TD></TR>
+<TR>
+<TD height=3D15></TD></TR>
+<TR>
+<TD>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D350>
+<TBODY>
+<TR>
+<TD width=3D45><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/icon_car=2Egif=22 width=3D45 height=3D26></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23fff; FONT-SIZE: 11px; FONT-W=
+EIGHT: bold=22 bgColor=3D=23e86831 vAlign=3Dcenter width=3D279 align=3Dleft=
+>Cars</TD>
+<TD width=3D26><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/corner1=2Egif=22 width=3D26 height=3D26></TD></=
+TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=3D=23f8f8f8 vAlign=3Dtop>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D350>
+<TBODY>
+<TR>
+<TD width=3D15></TD>
+<TD>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D320>
+<TBODY>
+<TR>
+<TD height=3D10 width=3D80></TD>
+<TD height=3D10 width=3D15></TD>
+<TD height=3D10 width=3D225></TD></TR>
+<TR>
+<TD vAlign=3Dtop align=3Dleft><A href=3D=22https://email=2Eqantas=2Ecom/pub=
+/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX=
+%3DYBUWC&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6Vi=
+L3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=22 RILT=3D=22Inline2=
+a=22><IMG border=3D0 alt=3D=22Cars at qantas=2Ecom=22 src=3D=22http://www=
+=2Eqantas=2Ecom=2Eau/img/80x80/red-email/cars-avis=2Ejpg=22 width=3D80 heig=
+ht=3D80></A></TD>
+<TD vAlign=3Dtop align=3Dleft><IMG style=3D=22DISPLAY: block=22 src=3D=22ht=
+tp://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D15 heigh=
+t=3D1></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 11px=22 vAli=
+gn=3Dtop align=3Dleft><SPAN style=3D=22COLOR: =23990000; FONT-WEIGHT: bold=
+=22>Cars at qantas=2Ecom</SPAN><BR>Get guaranteed low car rental rates acro=
+ss four of Australia's leading car providers with our Cars Price Promise=7E=
+ plus Qantas Frequent Flyers can earn 3 points per A=241 spent on time and =
+kilometre charges with Avis and Budget within Australia=2E<BR>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D225>
+<TBODY>
+<TR>
+<TD height=3D5 vAlign=3Dcenter align=3Dleft></TD>
+<TD height=3D5 vAlign=3Dcenter align=3Dleft></TD></TR>
+<TR>
+<TD vAlign=3Dcenter width=3D25 align=3Dleft><IMG src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/arrow_grey=2Egif=22 width=3D13 height=3D13></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 11px=22 v=
+Align=3Dcenter width=3D200 align=3Dleft><A style=3D=22FONT-FAMILY: Verdana;=
+ COLOR: =23990000; FONT-SIZE: 11px; TEXT-DECORATION: underline=22 href=3D=
+=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHs=
+zf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUWC&_ei_=3DEuLtCHDMpi8LjmyowywnxcMO=
+LanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55E=
+DqcnxVqLKAM=2E=22 RILT=3D=22Inline2a=22><SPAN style=3D=22TEXT-DECORATION: u=
+nderline=22>Book now</SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY>=
+</TABLE></TD>
+<TD width=3D15></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=3D=23f8f8f8><IMG style=3D=22DISPLAY: block=22 src=3D=22http://w=
+ww=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D1 height=3D11>=
+</TD></TR>
+<TR>
+<TD height=3D15></TD></TR>
+<TR>
+<TD>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D350>
+<TBODY>
+<TR>
+<TD width=3D45><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/icon_insurance=2Egif=22 width=3D45 height=3D26>=
+</TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23fff; FONT-SIZE: 11px; FONT-W=
+EIGHT: bold=22 bgColor=3D=23e86831 vAlign=3Dcenter width=3D279 align=3Dleft=
+>Travel Insurance</TD>
+<TD width=3D26><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/corner1=2Egif=22 width=3D26 height=3D26></TD></=
+TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=3D=23f8f8f8 vAlign=3Dtop>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D350>
+<TBODY>
+<TR>
+<TD width=3D15></TD>
+<TD>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D320>
+<TBODY>
+<TR>
+<TD height=3D10 width=3D80></TD>
+<TD height=3D10 width=3D15></TD>
+<TD height=3D10 width=3D225></TD></TR>
+<TR>
+<TD vAlign=3Dtop align=3Dleft><A href=3D=22https://email=2Eqantas=2Ecom/pub=
+/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX=
+%3DYBUWD&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6Vi=
+L3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=22 RILT=3D=22Inline3=
+a=22><IMG border=3D0 alt=3D=22Travel Insurance=22 src=3D=22http://www=2Eqan=
+tas=2Ecom=2Eau/img/80x80/red-email/qbe-logo=2Ejpg=22 width=3D80 height=3D80=
+></A></TD>
+<TD vAlign=3Dtop align=3Dleft><IMG style=3D=22DISPLAY: block=22 src=3D=22ht=
+tp://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D15 heigh=
+t=3D1></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 11px=22 vAli=
+gn=3Dtop align=3Dleft><SPAN style=3D=22COLOR: =23990000; FONT-WEIGHT: bold=
+=22>Travel insurance at qantas=2Ecom</SPAN><BR>QBE Insurance offers a range=
+ of travel insurance policies to suit different requirements=2E Plus Qantas=
+ Frequent Flyers can earn 1 point per A=241 spent on eligible insurance pol=
+icies**<BR>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D225>
+<TBODY>
+<TR>
+<TD height=3D5 vAlign=3Dcenter align=3Dleft></TD>
+<TD height=3D5 vAlign=3Dcenter align=3Dleft></TD></TR>
+<TR>
+<TD vAlign=3Dcenter width=3D25 align=3Dleft><IMG src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/arrow_grey=2Egif=22 width=3D13 height=3D13></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 11px=22 v=
+Align=3Dcenter width=3D200 align=3Dleft><A style=3D=22FONT-FAMILY: Verdana;=
+ COLOR: =23990000; FONT-SIZE: 11px; TEXT-DECORATION: underline=22 href=3D=
+=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHs=
+zf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUWD&_ei_=3DEuLtCHDMpi8LjmyowywnxcMO=
+LanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55E=
+DqcnxVqLKAM=2E=22 RILT=3D=22Inline3a=22><SPAN style=3D=22TEXT-DECORATION: u=
+nderline=22>Book now</SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY>=
+</TABLE></TD>
+<TD width=3D15></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=3D=23f8f8f8><IMG style=3D=22DISPLAY: block=22 src=3D=22http://w=
+ww=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D1 height=3D11>=
+</TD></TR></TBODY></TABLE></TD>
+<TD width=3D20><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D20 height=3D1></TD></TR=
+></TBODY></TABLE></TD><=21--End column here-->
+<TD style=3D=22WIDTH: 8px=22 bgColor=3D=23cc0000></TD>
+<TD bgColor=3D=23aa0000></TD>
+<TD bgColor=3D=23cc0000></TD>
+<TD bgColor=3D=23ffffff vAlign=3Dtop align=3Dmiddle>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D195>
+<TBODY>
+<TR>
+<TD width=3D10><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D10 height=3D1></TD>
+<TD width=3D176>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D176>
+<TBODY>
+<TR>
+<TD><A href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpgl=
+LjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUYR&_ei_=3DEuLtCHDMpi=
+8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC=
+4SJmPnYFkZE55EDqcnxVqLKAM=2E=22 RILT=3D=22RHSPromo1=22><IMG border=3D0 alt=
+=3D=22QBE Insurance =22 src=3D=22http://www=2Eqantas=2Ecom=2Eau/img/176x151=
+/qbe-edm-04=2Ejpg=22 width=3D176 height=3D151></A></TD></TR>
+<TR>
+<TD height=3D20></TD></TR>
+<TR>
+<TD><A href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpgl=
+LjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUYS&_ei_=3DEuLtCHDMpi=
+8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC=
+4SJmPnYFkZE55EDqcnxVqLKAM=2E=22 RILT=3D=22RHSPromo2=22><IMG border=3D0 alt=
+=3D=22QBag Tag=22 src=3D=22http://www=2Eqantas=2Ecom=2Eau/img/176x151/q-bag=
+-tag=2Ejpg=22 width=3D176 height=3D151></A></TD></TR>
+<TR>
+<TD height=3D20></TD></TR>
+<TR>
+<TD bgColor=3D=23e6e6e6><IMG style=3D=22DISPLAY: block=22 src=3D=22http://w=
+ww=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D176 height=3D1=
+></TD></TR><=21-- Ad Spot Start -->
+<TR>
+<TD height=3D15></TD></TR>
+<TR><=21--<td align=3D=22center=22 style=3D=22font-family: Verdana; font-si=
+ze: 12px; color: =23990000; font-weight: bold;=22>Advertisement</td>-->
+<TD align=3Dmiddle><IMG alt=3D=22=22 src=3D=22http://www=2Eqantas=2Ecom=2Ea=
+u/img/_red08/common/advertisement-heading=2Egif=22 width=3D73 height=3D5></=
+TD></TR>
+<TR>
+<TD height=3D5></TD></TR>
+<TR>
+<TD align=3Dmiddle><A href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3D=
+X0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUYT&_e=
+i_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEIu3yS=
+ZX8rZc0jpEIgF8CfQB-ZQ=2E=22 target=3D_blank><IMG border=3D0 alt=3DAdvertise=
+ment src=3D=22http://adserver=2Eadtechus=2Ecom/adserv/3=2E0/5275/1305208/0/=
+168/ADTECH;key=3Dkey1+key2+key3+key4;grp=3D=5Bgroup=5D;cookie=3Dno;uid=3Dno=
+;&ord=3D93701357=22 width=3D120 height=3D600></A> </TD></TR>
+<TR>
+<TD height=3D15></TD></TR>
+<TR>
+<TD bgColor=3D=23e6e6e6><IMG style=3D=22DISPLAY: block=22 src=3D=22http://w=
+ww=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D176 height=3D1=
+></TD></TR><=21-- Ad Spot End -->
+<TR>
+<TD height=3D15></TD></TR>
+<TR>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000000; FONT-SIZE: 12px; FON=
+T-WEIGHT: bold=22 align=3Dleft>Manage your subscription</TD></TR>
+<TR>
+<TD height=3D10></TD></TR>
+<TR>
+<TD>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D176>
+<TBODY>
+<TR>
+<TD height=3D25 vAlign=3Dcenter width=3D20 align=3Dleft><IMG src=3D=22http:=
+//www=2Eqantas=2Ecom=2Eau/img/templates/arrow_white=2Egif=22 width=3D13 hei=
+ght=3D13></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 11px=22 v=
+Align=3Dcenter align=3Dleft><A style=3D=22FONT-FAMILY: Verdana; COLOR: =239=
+90000; FONT-SIZE: 11px; TEXT-DECORATION: underline=22 href=3D=22https://ema=
+il=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I=
+7vSpLslYuogzdzgVXtpKX%3DYBUYU&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMV=
+FFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=
+=22 RILT=3D=22Subscribe=22><SPAN style=3D=22TEXT-DECORATION: underline=22>S=
+ubscribe to Red e-Mail</SPAN></A></TD></TR>
+<TR>
+<TD height=3D25 vAlign=3Dcenter width=3D20 align=3Dleft><IMG src=3D=22http:=
+//www=2Eqantas=2Ecom=2Eau/img/templates/arrow_white=2Egif=22 width=3D13 hei=
+ght=3D13></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 11px=22 v=
+Align=3Dcenter align=3Dleft><A style=3D=22FONT-FAMILY: Verdana; COLOR: =239=
+90000; FONT-SIZE: 11px; TEXT-DECORATION: underline=22 href=3D=22https://ema=
+il=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I=
+7vSpLslYuogzdzgVXtpKX%3DYBUYW&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMV=
+FFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4RzKToiiMiW0wPBXCjdEAkaXvKdg=
+9RR3phglUVArqoVeT4=2E=22 RILT=3D=22Update4=22><SPAN style=3D=22TEXT-DECORAT=
+ION: underline=22>Update details</SPAN></A></TD></TR>
+<TR>
+<TD height=3D25 vAlign=3Dcenter width=3D20 align=3Dleft><IMG src=3D=22http:=
+//www=2Eqantas=2Ecom=2Eau/img/templates/arrow_white=2Egif=22 width=3D13 hei=
+ght=3D13></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23990000; FONT-SIZE: 11px=22 v=
+Align=3Dcenter align=3Dleft><A style=3D=22FONT-FAMILY: Verdana; COLOR: =239=
+90000; FONT-SIZE: 11px; TEXT-DECORATION: underline=22 href=3D=22https://ema=
+il=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I=
+7vSpLslYuogzdzgVXtpKX%3DYBUYY&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMV=
+FFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4RzKToiiMiW0wPBXCjdEAkaXvKdg=
+9RR3phglUVArqoVeT4=2E=22 RILT=3D=22Unsubscribe=22><SPAN style=3D=22TEXT-DEC=
+ORATION: underline=22>Unsubscribe</SPAN></A></TD></TR></TBODY></TABLE></TD>=
+</TR>
+<TR>
+<TD height=3D15></TD></TR>
+<TR>
+<TD bgColor=3D=23e6e6e6><IMG style=3D=22DISPLAY: block=22 src=3D=22http://w=
+ww=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D176 height=3D1=
+></TD></TR>
+<TR>
+<TD height=3D15></TD></TR>
+<TR>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000000; FONT-SIZE: 12px; FON=
+T-WEIGHT: bold=22 align=3Dmiddle><SPAN style=3D=22TEXT-ALIGN: center=22>Fol=
+low Us</SPAN></TD></TR>
+<TR>
+<TD height=3D15></TD></TR>
+<TR>
+<TD>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D176>
+<TBODY>
+<TR>
+<TD align=3Dleft><A href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0=
+Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUYA&_ei_=
+=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntS=
+qudTzqq3JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=22 RILT=3D=22RSS=22><IMG border=
+=3D0 alt=3DRSS src=3D=22http://www=2Eqantas=2Ecom=2Eau/img/templates/icon_r=
+ss=2Egif=22 width=3D32 height=3D34></A></TD>
+<TD align=3Dmiddle><A href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3D=
+X0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUYB&_e=
+i_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEIu3yS=
+ZX8rZc0jpEIgF8CfQB-ZQ=2E=22 RILT=3D=22Twitter=22><IMG border=3D0 alt=3DTwit=
+ter src=3D=22http://www=2Eqantas=2Ecom=2Eau/img/templates/icon_twitter=2Egi=
+f=22 width=3D32 height=3D34></A></TD>
+<TD align=3Dright><A href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX=
+0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUYC&_ei=
+_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEIu3ySZ=
+X8rZc0jpEIgF8CfQB-ZQ=2E=22 RILT=3D=22Facebook=22><IMG border=3D0 alt=3DFace=
+book src=3D=22http://www=2Eqantas=2Ecom=2Eau/img/templates/icon_facebook=2E=
+gif=22 width=3D32 height=3D34></A></TD></TR></TBODY></TABLE></TD></TR></TBO=
+DY></TABLE></TD>
+<TD width=3D9><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqanta=
+s=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D9 height=3D1></TD></TR><=
+/TBODY></TABLE></TD>
+<TD bgColor=3D=23cc0000 width=3D8></TD>
+<TD bgColor=3D=23aa0000></TD></TR></TBODY></TABLE></TD></TR><=21-- start te=
+rms section -->
+<TR>
+<TD bgColor=3D=23aa0000 width=3D655><IMG style=3D=22DISPLAY: block=22 src=
+=3D=22http://www=2Eqantas=2Ecom=2Eau/img/templates/bottom1=2Egif=22 width=
+=3D655 height=3D80></TD></TR>
+<TR>
+<TD width=3D655>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D655>
+<TBODY>
+<TR>
+<TD bgColor=3D=23aa0000 width=3D15><IMG style=3D=22DISPLAY: block=22 src=3D=
+=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D15 =
+height=3D1></TD>
+<TD bgColor=3D=23f2f2f2 width=3D623><IMG style=3D=22DISPLAY: block=22 src=
+=3D=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D=
+623 height=3D1></TD>
+<TD bgColor=3D=23aa0000 width=3D17><IMG style=3D=22DISPLAY: block=22 src=3D=
+=22http://www=2Eqantas=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D17 =
+height=3D1></TD></TR>
+<TR>
+<TD bgColor=3D=23aa0000 width=3D15></TD>
+<TD bgColor=3D=23f2f2f2 vAlign=3Dtop width=3D623 align=3Dmiddle>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D623>
+<TBODY>
+<TR>
+<TD width=3D15><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D15 height=3D1></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23000; FONT-SIZE: 10px=22 vAli=
+gn=3Dtop width=3D591 align=3Dleft><SPAN style=3D=22FONT-SIZE: 11px; FONT-WE=
+IGHT: bold=22><A name=3Dinfo>Important Information</A></SPAN><BR><SPAN styl=
+e=3D=22FONT-WEIGHT: bold=22>* For card payments add A=247=2E70 per passenge=
+r per booking=2E </SPAN> Prices are one way in Economy=2E Prices are correc=
+t as at&nbsp;6 December 2012 but may fluctuate if carrier charges, fees, ta=
+xes or currency change=2E Amounts payable to third parties not included=2E =
+Offers subject to availability and valid for Qantas services only=2E Fares =
+are non-refundable=2E Some changes permitted at a charge=2E Offer may be ex=
+tended=2E Visit qantas=2Ecom for full conditions=2E<BR>=5E You must be a me=
+mber of the Qantas Frequent Flyer program to earn and redeem points=2E <A s=
+tyle=3D=22COLOR: =23990000; TEXT-DECORATION: underline=22 href=3D=22https:/=
+/email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq=
+0U3I7vSpLslYuogzdzgVXtpKX%3DYBUYD&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEO=
+QCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55EDqcnxVqLKA=
+M=2E=22><SPAN style=3D=22TEXT-DECORATION: underline=22>Join online now</SPA=
+N></A>=2E A joining fee may apply=2E Membership and points are subject to t=
+he <A style=3D=22COLOR: =23990000; TEXT-DECORATION: underline=22 href=3D=22=
+https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3=
+Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUAR&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLan=
+evxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZE55EDqc=
+nxVqLKAM=2E=22><SPAN style=3D=22TEXT-DECORATION: underline=22>terms and con=
+ditions</SPAN></A> of the Qantas Frequent Flyer program=2E Qantas Frequent =
+Flyers will earn at least 1,000 Qantas Frequent Flyer points for every elig=
+ible one way Qantas Economy flight=2E<BR>+ Checked baggage limits vary by a=
+ircraft type and date of travel=2E Checked baggage limits may also increase=
+ in accordance with travel class booked and Qantas Frequent Flyer tier stat=
+us=2E View <A style=3D=22COLOR: =23990000; TEXT-DECORATION: underline=22 hr=
+ef=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGl=
+pBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUAS&_ei_=3DEuLtCHDMpi8Ljmyowyw=
+nxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnYFk=
+ZE55EDqcnxVqLKAM=2E=22><SPAN style=3D=22TEXT-DECORATION: underline=22>Check=
+ed Baggage Allowances</SPAN></A> for limits=2E<BR>=23 Qantas Frequent Flyer=
+s can earn 3 points per A=241 spent on accommodation at partner hotels in A=
+ustralia booked at qantas=2Ecom=2E Not all partner hotels can be booked at =
+qantas=2Ecom=2E You must provide your Qantas Frequent Flyer membership numb=
+er when booking online=2E Points cannot be split between two or more member=
+s occupying the same room=2E Full <A style=3D=22COLOR: =23990000; TEXT-DECO=
+RATION: underline=22 href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX=
+0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUAT&_ei=
+_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTnt=
+SqudTzqq3JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=22><SPAN style=3D=22TEXT-DECORAT=
+ION: underline=22>Qantas Frequent Flyer terms and conditions</SPAN></A> for=
+ booking hotels at qantas=2Ecom=2E<BR>=7E If, after you book car hire on qa=
+ntas=2Ecom, on the same day you find a lower publicly available rate on any=
+ website with a website address ending in =2Eau or any other website operat=
+ed in Australia by an Australian company for the same car hire with the sam=
+e supplier (including the same Booking Conditions), we will match that rate=
+ and Qantas Frequent Flyer members can earn 1,000 extra points=2E Claims mu=
+st be submitted by midnight (AEDT) on the same day of receiving your confir=
+mation email in relation to your booking on qantas=2Ecom=2E To receive the =
+extra points, Qantas Frequent Flyers must provide their membership number o=
+n the Price Promise claim form=2E To earn points for car hire, Qantas Frequ=
+ent Flyers must provide their membership number when booking online and to =
+the chosen car partner=2E <A style=3D=22COLOR: =23990000; TEXT-DECORATION: =
+underline=22 href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3=
+DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUAU&_ei_=3DEuLt=
+CHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq=
+3JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=22><SPAN style=3D=22TEXT-DECORATION: und=
+erline=22>Other conditions apply</SPAN></A>=2E<BR>** Product disclosure sta=
+tements are available at <A style=3D=22COLOR: =23990000; TEXT-DECORATION: u=
+nderline=22 href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3D=
+WQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUAW&_ei_=3DEuLtC=
+HDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3=
+JImDC4SJmPnYFkZE55EDqcnxVqLKAM=2E=22>qantas=2Ecom/travelinsurance</A>=2E Po=
+licies are only valid upon acceptance of payment by the insurer=2E The insu=
+rer is QBE Insurance (Australia) Limited ABN 78 003 191 035 of 82 Pitt Stre=
+et, Sydney NSW 2000=2E Qantas Airways Limited ABN 16 009 661 901 is its aut=
+horised representative and receives a commission for policies sold=2E To ea=
+rn points on insurance, Qantas Frequent Flyers must provide their membershi=
+p number to QBE when purchasing a policy=2E Membership and points are subje=
+ct to the <A style=3D=22COLOR: =23990000; TEXT-DECORATION: underline=22 hre=
+f=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlp=
+BfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUAR&_ei_=3DEuLtCHDMpi8Ljmyowywn=
+xcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnYFkZ=
+E55EDqcnxVqLKAM=2E=22><SPAN style=3D=22TEXT-DECORATION: underline=22>terms =
+and conditions</SPAN></A> of the Qantas Frequent Flyer program=2E Qantas Fr=
+equent Flyers cannot earn points on any cancellation and baggage insurance=
+=2E </TD>
+<TD width=3D17><IMG style=3D=22DISPLAY: block=22 src=3D=22http://www=2Eqant=
+as=2Ecom=2Eau/img/templates/spacer=2Egif=22 width=3D17 height=3D1></TD></TR=
+></TBODY></TABLE></TD>
+<TD bgColor=3D=23aa0000 width=3D17></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=3D=23aa0000 width=3D655><IMG style=3D=22DISPLAY: block=22 src=
+=3D=22http://www=2Eqantas=2Ecom=2Eau/img/templates/bottom2=2Egif=22 width=
+=3D655 height=3D30></TD></TR><=21--end terms section-->
+<TR>
+<TD bgColor=3D=23aa0000 vAlign=3Dtop width=3D655 align=3Dmiddle>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D655 bgColor=3D=23=
+aa0000>
+<TBODY>
+<TR>
+<TD width=3D30></TD>
+<TD style=3D=22FONT-FAMILY: Verdana; COLOR: =23fff; FONT-SIZE: 11px=22 bgCo=
+lor=3D=23aa0000 vAlign=3Dtop width=3D520 align=3Dleft>To view and update th=
+e Red eMails that you are currently subscribed to, or to unsubscribe, visit=
+ our <A style=3D=22FONT-FAMILY: Verdana; COLOR: =23fff; FONT-SIZE: 11px; TE=
+XT-DECORATION: underline=22 href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_=
+ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYB=
+UYY&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzh=
+EynXTntSqudTzqq3JImDC4RzKToiiMiW0wPBXCjdEAkaXvKdg9RR3phglUVArqoVeT4=2E=22 R=
+ILT=3D=22Unsubscribe=22><SPAN style=3D=22TEXT-DECORATION: underline=22>Red =
+e-Mail Update or Unsubscribe</SPAN></A> page=2E<BR><BR>To contact us, visit=
+ our <A style=3D=22FONT-FAMILY: Verdana; COLOR: =23fff; FONT-SIZE: 11px=22 =
+href=3D=22https://email=2Eqantas=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQ=
+GlpBfHszf3Ldzcnsq0U3I7vSpLslYuogzdzgVXtpKX%3DYBUAY&_ei_=3DEuLtCHDMpi8Ljmyow=
+ywnxcMOLanevxZkEOQCMVFFlfLEmFK1mgcPyG1b6ViL3vzhEynXTntSqudTzqq3JImDC4SJmPnY=
+FkZE55EDqcnxVqLKAM=2E=22 target=3D_blank><SPAN style=3D=22TEXT-DECORATION: =
+underline=22>Online Help</SPAN></A><BR><BR>You have received this email bec=
+ause you are subscribed to Qantas Red e-Mail=2E<BR>Sent by Qantas Airways L=
+imited (ABN 16 009 661 901)=2E </TD>
+<TD vAlign=3Dtop width=3D92 align=3Dright><IMG alt=3D=22member of oneworld=
+=22 src=3D=22http://www=2Eqantas=2Ecom=2Eau/img/templates/oneworld-logo-new=
+=2Ejpg=22 width=3D92 height=3D44></TD>
+<TD width=3D13></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=3D=23aa0000 height=3D20 width=3D655></TD></TR></TBODY></TABLE><=
+/TD></TR></TBODY></TABLE></BODY></HTML>
+<br>
+<br><img border=3D=220=22 width=3D=223=22 height=3D=223=22 src=3D=22http://=
+email=2Eqantas=2Ecom/pub/as?_ri_=3DX0Gzc2X%3DWQpglLjHJlYQGlpBfHszf3Ldzcnsq0=
+U3I7vSpLslYuogzdzgVXHkMX%3Dw&_ei_=3DEuLtCHDMpi8LjmyowywnxcMOLanevxZkEOQCMVF=
+FlfLEmFK1mgcPyG1b6ViL3vzhEIu3ySZX8rZc0jpEIgF8CfQB-ZQ=2E=22>
+
+
+

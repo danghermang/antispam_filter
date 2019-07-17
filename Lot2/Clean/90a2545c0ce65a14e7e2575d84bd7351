@@ -1,0 +1,43 @@
+Subject:	=?ISO-8859-1?Q?=5BOT=5D_Dise=F1ar_GUI=2E_IDEs_m=E1s_utilizados_en_Debian?=
+Hola a todxs,
+
+A ver si me puedo expresar sin volveros locxs con todas mis dudas:
+
+Hasta ahora he realizado algunas aplicaciones para Debian (siempre muy
+simples) a base de scripts y su combinaci=F3n con Zenity. Pero ahora me
+veo en la necesidad, adem=E1s de querer aprender, de dise=F1ar mis propias
+interfaces.
+
+Mi consulta es qu=E9 lenguaje y qu=E9 IDE capaz de dise=F1ar interfaces
+gr=E1ficas me recomend=E1is. Las aplicaciones son a d=EDa de hoy muy
+sencillas, as=ED que no tengo inconveniente en aprender un nuevo
+lenguaje si no lo conociese.
+
+Ahora mismo estoy utilizando Lazarus, pero aunque me guste, entiendo
+que Pascal es un lenguaje un poco anticuado. Tambi=E9n he visto Gambas
+pero ser=EDa lo mismo que en Lazarus.
+
+Principalmente la aplicaci=F3n ha de facilitar la tarea al usuarix de
+ejecutar unos comandos bash simples o scripts, por lo que creo que lo
+ideal para mi ser=EDa una herramienta con la que simplemente pudiese
+dise=F1ar una GUI y hacer que cada bot=F3n ejecutase un comando bash, sin
+c=F3digo, aunque no s=E9 si esto existe :S Gazpacho podr=EDa ser un
+candidato? =BFCu=E1les son el lenguaje y el IDE utilizados
+mayoritariamente para programar aplicaciones gr=E1ficas en Debian?
+Utilizo Eclipse para programar para Android pero c=F3mo crear una
+interfaz para Debian?
+
+Perd=F3n por el remix ca=F3tico de dudas.
+
+Como siempre much=EDsimas gracias por vuestra ayuda y un saludo,
+
+--=20
+Alfonso
+"In a world without frontiers, who needs gates and windows?"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAMZtU=9LOOi38taQHxwVqbD1Z2S9JQvPeTXQUi7a_spa4qL-0Q@mail.gmail.com
+

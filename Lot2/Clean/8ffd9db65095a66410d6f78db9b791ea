@@ -1,0 +1,23 @@
+Subject:RE: Sqitch Build Failures
+On Thu, 04 Oct 2012, David E. Wheeler wrote:
+> Finally got 0.935 to pass all Windows tests, thanks to some work Randy
+> Stauner did running them on Strawberry Perl. As a result, it looks
+> good for all supported configurations except this one:
+>
+>   http://ppm4.activestate.com/MSWin32-x86/5.16/1600/D/DW/DWHEELER/App-Sqitch-0.935.d/log-
+>   20121003T042608.txt
+>
+> Broken Encode.pm?
+
+I've fixed the Encode install and forced a rebuild of App::Sqitch, but
+it still failed 2 tests.
+
+Cheers,
+-Jan
+
+
+
+_______________________________________________
+PPM mailing list
+PPM@listserv.ActiveState.com
+http://listserv.ActiveState.com/mailman/listinfo/ppm

@@ -1,0 +1,110 @@
+Subject:Re: [EVDL] Calb battery issue
+It is already built-in most vehicles and it is called AirCo.
+
+We are back about 15 years, when the EV1 with NiMH batteries
+had cooling problems and thus the GM engineers decided to
+run the car's airco during charging - one of the reasons that
+you will see a severely skewed charging efficiency for the
+EV1 with NiMH batteries....
+
+Cor van de Water
+Chief Scientist
+Proxim Wireless Corporation http://www.proxim.com
+Email: CWater@proxim.com    Private: http://www.cvandewater.com
+Skype: cor_van_de_water     XoIP: +31877841130
+Tel: +1 408 383 7626        Tel: +91 (040)23117400 x203
+
+
+
+-----Original Message-----
+From: ev-bounces@lists.sjsu.edu on behalf of Martin WINLOW
+Sent: Sat 11/10/2012 4:58 PM
+To: Electric Vehicle Discussion List
+Subject: Re: [EVDL] Calb battery issue
+ 
+Getting off topic a bit but surely the heat pump is the best solution.  Eg http://www.visteon.com/products/automotive/heat_pump_system.html
+
+... but I'm guessing nothing available yet that is remotely affordable, sadly.
+
+MW
+
+
+On 10 Nov 2012, at 08:54, Mike Nickerson wrote:
+
+> Hi Rush,
+> 
+> Peltier coolers do have some significant advantages (small size, no moving
+> parts, easy to hook up), but they are also rather inefficient.  
+> 
+> The following write-up does a pretty good job of laying out the pros and
+> cons for Peltier devices:
+> http://www.tellurex.com/technology/peltier-faq.php
+> 
+> As an example, the A22 air-to-air cooler at the Tellurex site has a capacity
+> rating of 22W (77 BTU/hr) cooling, but requires 72W input to get that
+> cooling out.  That will require a pretty good heatsink to get rid of the
+> heat in the summer.
+> 
+> I haven't used any of these devices, but I have friends that have; mostly
+> for cooling telescope CCD sensors.  In that application, the lack of moving
+> parts and vibrations makes them the only game in town.
+> 
+> Mike
+> 
+>> 
+>> I can't agree with you more. Here in AZ the summer heat is a real battery
+>> killer as now experienced by some Leaf owners. I have a 2000 Insight
+> Hybrid
+>> and the NIMH battery pack throws a 'bad' battery pack code every day when
+>> it is hot. I recharge it, rebalancing the individual cells by slow
+> charging at
+>> 350mA (the BMS that Honda has cannot do this). Now that is it cooler, 80's
+>> during the day, it takes 4 or 5 days before the pack throws the same 'bad'
+>> battery pack code.
+>> 
+>> I've just gotten a new battery pack, made up of new, unused cells and am
+>> going to install it today. I keep on thinking about an active cooling
+> system.
+>> The present system is just a fan that comes on (at 100 deg) to suck air
+> from
+>> the passenger compartment into and thru the battery pack. So the
+> 'cooling',
+>> or 'heating' is the same temperature as the passenger compartment. I've
+>> made some modifications, but not enough.
+>> 
+>> I envision something that is based on a Peltier system - does anyone know
+> of
+>> a module that can be inserted in an air stream that will cool the air
+> enough
+>> (delta T?) to cool/keep cool the pack?
+>> 
+>> Thanks
+>> Rush
+>> www.TucsonEV.com
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://lists.sjsu.edu/mailman/private/ev/attachments/20121110/ef01ddd6/attachment.html 
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev
+
+
+_______________________________________________
+| Moratorium on drag racing discussion is in effect.
+| Please take those discussions elsewhere.  Thanks.
+|
+| REPLYING: address your message to ev@lists.sjsu.edu only.
+| Multiple-address or CCed messages may be rejected.
+| UNSUBSCRIBE: http://www.evdl.org/help/index.html#usub
+| OTHER HELP: http://evdl.org/help/
+| CONFIGURE: http://lists.sjsu.edu/mailman/listinfo/ev

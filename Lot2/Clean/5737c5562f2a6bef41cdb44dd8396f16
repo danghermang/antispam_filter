@@ -1,0 +1,44 @@
+Subject:Re: [Koha] SIP message pairs supported
+Hi,
+
+On Thu, Nov 8, 2012 at 12:08 PM, Lori Bowen Ayre <lori.ayre@galecia.com>wrote:
+
+> Yes, that is the complete list of SIP2 messages but I can't tell by what
+> you sent me if that means they are all supported at this time. Can you
+> clarify?
+>
+
+As of the moment in master, Koha supports the following messages:
+
+09/10 Checkin
+11/12 Checkout
+15/16 Hold
+17/18 Item Information
+23/24 Patron Status
+29/30 Renew
+35/36 End Session
+37/38 Fee Paid
+63/64 Patron Information
+65/66 Renew all
+93/94/Login
+96/97  Resend last message
+98/99 SC/ACS Status
+
+Regards,
+
+Galen
+-- 
+Galen Charlton
+Director of Implementation
+Equinox Software, Inc. / The Open Source Experts
+email:  gmc@esilibrary.com
+direct: +1 770-709-5581
+cell:   +1 404-984-4366
+skype:  gmcharlt
+web:    http://www.esilibrary.com/
+Supporting Koha and Evergreen: http://koha-community.org &
+http://evergreen-ils.org
+_______________________________________________
+Koha mailing list  http://koha-community.org
+Koha@lists.katipo.co.nz
+http://lists.katipo.co.nz/mailman/listinfo/koha

@@ -1,0 +1,19 @@
+Subject:Re: Indexar Repositorios
+un error 404 indica que no puede leer el archivo que deberia estar.
+posiblemente, te falte el archivo index.html, o bien el modulo
+autoindex no este configurado
+
+si entras en el directorio www (o el que este configurado) por
+ftp/ssh/sftp; que ves?
+
+
+
+--
+Diego - Yo no soy paranoico! (pero que me siguen, me siguen)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/CAJ8aDpDU8MDbnBDCUQRTCGHNQXiKS590a3DUvwjWJ_HGhwXOUA@mail.gmail.com
+

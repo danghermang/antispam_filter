@@ -1,0 +1,32 @@
+Subject:Re: serveur sftp
+Colin, 2012-09-08 22:30+0200:
+> Cependant, dés lors que je dois chrooter un utilisateur, c'est très
+> pénible : est-il possible de faire en sorte que ce soit pas *uniquement*
+> root qui ait les droits d'écriture sur le que l'on chroote à un
+> utilisateur ?
+
+Pas que je sache, OpenSSH refuse la connexion si l'utilisateur a le
+droit d'écrire dans le répertoire de chroot, ou quelque chose de ce
+goût-là.
+
+Personnellement, dans ce genre de cas je chroote les gens dans leur
+répertoire perso, que je chown root:root, et dedans je mets un
+répertoire public_html que je chown user:user, et c'est dans ce
+répertoire qu'ils mettent leur site Web, si c'est d'un site Web qu'il
+s'agit.
+
+-- 
+ ,--.
+: /` )   Tanguy Ortolo      <xmpp:tanguy@ortolo.eu>
+| `-'    Debian Developer   <irc://irc.oftc.net/Tanguy>
+ \_
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2mvf1$k5p$1@ger.gmane.org
+

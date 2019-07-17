@@ -1,0 +1,36 @@
+Subject:Re: [Solucionado] Posible problema al actualizar initrd
+El Sat, 22 Sep 2012 10:55:46 +0200, Angel Vicente escribió:
+
+>> echa un ojo a esto.
+>> 
+>> http://www.gentoo-wiki.info/Udevd:_init_udevd_socket:_error_getting_socket:_Address_family_not_supported_by_protocol
+>> 
+> 
+> Ayer estuve echando un vistazo a este enlace, y decidi tratar de
+> investigar sobre los mensajes del udev, asi al menos me quitaria un
+> problema. Rebuscando un poco encontre que en Debian hay registrado un
+> bug de fecha aproximada al de mi problema, es el bug 686707, y es un
+> error igual al que obtengo yo, segun dice le ocurrio al actualizar udev.
+> La solucion pasa por compilar el protocolo unix en el nucleo y no como
+> modulo, puesto que ya el udev no soporta el unix como modulo; la verdad
+> es que es muy escueto y no encontre relacion entre el error de udev y el
+> problema posterior. Ni corto ni perezoso, recompile cambiando esta
+> configuracion, esperando que en el siguiente arranque me dejaria de
+> preocupar por los mensajes de udev para continuar con el problema de la
+> particion no encontrada. Pues bien, ahora arranca todo correctamente.
+
+(...)
+
+Lo que no me cuadra es antes funcionara.
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k3k6ka$mv$3@ger.gmane.org
+

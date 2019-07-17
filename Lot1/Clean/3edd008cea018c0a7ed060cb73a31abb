@@ -1,0 +1,23 @@
+Subject:Re: Apt-mirror et "Le fichier =?ISO-8859-1?Q?=AB?= Release
+	=?ISO-8859-1?Q?=BB?= a =?ISO-8859-1?Q?expir=E9=22?=
+Le lundi 17 septembre 2012 à 15:39 +0200, David BERCOT a écrit :
+> Je sais que je peux passer outre en mettant l'option
+> "Acquire::Check-Valid-Until=false" mais je préférerais que le
+> repository n'indique pas cette erreur, sous-entendu que sa date
+> d'expiration soit modifiée. Savez-vous s'il est possible de faire
+> ça ? 
+
+Je ne connais pas le truc, mais d'une part ça me parait très logique, il
+est absolument critique de garder la cohérence des version, d'autre part
+au vu du nom du paramètre, je suppose qu'on peut changer la valeur.
+
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/1349943082.22390.18.camel@jisui.aranha
+

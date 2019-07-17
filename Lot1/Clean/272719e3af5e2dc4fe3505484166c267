@@ -1,0 +1,31 @@
+Subject:Re: [rlug] chroot jail
+
+On Nov 2, 2012, at 10:40 AM, Alex 'CAVE' Cernat <cave@cernat.ro> wrote:
+
+> salut
+> 
+> trebuie sa dau acces cuiva sa testeze niste programe, si binenteles ca 
+> vreau sa-l bag la parnaie, ca doar paranoia e in top in job description, 
+> nu ?
+> din consola de root chroot-ul il baga pe nastase la parnaie, sta bine 
+> mersi, ruleaza tot ce are nevoie, e ok, deci chroot-ul e bine facut; dar 
+> se pare ca am imbatranit si nu mai mai prind cum sa fac (si 100% safe) 
+> legatura intre ssh si chroot (adica sa intre direct cu bash in chroot, 
+> daca intra fara consola sa fie bagat deja in chroot - deci exclusa 
+> treaba cu .bash_profile sau .bash_login, scp/stfp & friends nu are nevoie)
+> any idea ?
+
+ibsh (iron bars shell) te ajuta ? 
+
+> 
+> Alex
+> 
+> _______________________________________________
+> RLUG mailing list
+> RLUG@lists.lug.ro
+> http://lists.lug.ro/mailman/listinfo/rlug
+
+_______________________________________________
+RLUG mailing list
+RLUG@lists.lug.ro
+http://lists.lug.ro/mailman/listinfo/rlug

@@ -1,0 +1,50 @@
+Subject:[Hsqldb-user] user lacks privilege or object not found
+Hello *!
+
+Current now our developers tests the software against a DB2 Database. Now we 
+want change the development worflow that each developer has its own database 
+for the Unit-Tests. The decision is to go in HSQL v2.2.9 direction ...
+
+ 
+Now I'm struggle to migrate a stored procedure to HSQL. If I execute following 
+code, I always get an "user lacks privilege or object not found: USER_LIST"-
+Error. If I use static stings instead of the parmeter then it's work.
+
+
+CREATE PROCEDURE FIND_TABS (IN USER_LIST VARCHAR(500) )
+READS SQL DATA DYNAMIC RESULT SETS 1 
+  BEGIN ATOMIC 
+	DECLARE result CURSOR WITH RETURN FOR
+		WITH RECURSIVE
+ 			T (ORDINAL, INDEX)
+			 AS (SELECT 0, 0 FROM INFORMATION_SCHEMA.SYSTEM_USERS
+ 			UNION ALL
+ 			SELECT ORDINAL + 1, COALESCE (NULLIF (LOCATE (',', 
+USER_LIST , INDEX + 1), 0), LENGTH (USER_LIST) + 1)
+			 FROM T, INFORMATION_SCHEMA.SYSTEM_USERS
+ 			WHERE ORDINAL < 10000 AND LOCATE (',', USER_LIST, 
+INDEX + 1) <> 0)
+ 			SELECT * FROM T;
+		
+	OPEN result;
+END
+
+
+Can someone help me to find my fault.
+
+Thx
+Peter
+
+
+
+
+------------------------------------------------------------------------------
+Monitor your physical, virtual and cloud infrastructure from a single
+web console. Get in-depth insight into apps, servers, databases, vmware,
+SAP, cloud infrastructure, etc. Download 30-day Free Trial.
+Pricing starts from $795 for 25 servers or applications!
+http://p.sf.net/sfu/zoho_dev2dev_nov
+_______________________________________________
+Hsqldb-user mailing list
+Hsqldb-user@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/hsqldb-user

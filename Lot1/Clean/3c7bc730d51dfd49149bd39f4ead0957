@@ -1,0 +1,81 @@
+Subject:Re: Postfix : correspondance utilisateur@domaine utilisateur@machine
+	?
+Le 07/10/2012 20:05, Adrien Caillot a écrit :
+> Bonjour,
+> 
+> J'ai installé postfix sur mon serveur (Debian squeeze).
+> 
+> Dans /etc/aliases j'ai :
+> 
+> root:   adrien
+> adrien:         adrien.caillot@free.fr
+> 
+> Et si j'écris, depuis la machine, un e-mail à root ou à adrien, je le
+> reçois bien sur mon adresse Free.
+> Idem si j'écris depuis l'extérieur un e-mail à
+> root@monserveur.mondomaine ou adrien@monserveur.mondomaine.
+> 
+> Par contre, si j'écris un e-mail à root@mondomaine ou adrien@mondomaine,
+> je reçois un mail d'erreur.
+> 
+> <adrien@mondomaine>: host mail.domaine[92.X.X.X] said: 550
+>     5.1.1 <adrien@mondomaine>: Recipient address rejected: User unknown in
+>     virtual alias table (in reply to RCPT TO command)
+> 
+
+mondomain est virtuel (l'erreur dit "virtual alias table"), alors que
+/etc/aliases ne s'applique qu'aux domaines "locaux" càd ceux qui sont
+dans mydestination. et non, on ne peut pas mettre un domaine dans deux
+classes différentes.
+
+> Mes questions : est-ce que ce comportement est normal par défaut ?
+
+oui. cf ci-dessus.
+
+> Est-ce que je peux le modifier pour avoir une correspondance directe
+> entre une adresse machin@mondomaine et l'utilisateur machin sur le
+> serveur ?
+> 
+
+si le domain est virtuel, alors il faut utilise virtual_alias_maps.
+
+> Cela me pose problème car j'ai installé mailman et les mailing-lists ne
+> fonctionnent que si j'écris à liste@monserveur.mondomaine alors que je
+> voudrais écrire directement à liste@mondomaine.
+> 
+
+pourquoi pas liste@listes.mondomaine ?
+
+comme ça; tu ajoutes listes.mondomaine dans mydestination et ton
+/etc/aliases marchera.
+
+en plus, "isoler" le domaines des listes a ses intérêtes (comme par
+exemple mettre un MX spécifique, si jamais t'as une IP libre; le filtrer
+différemment, ... etc.)
+
+> (J'ai bien trouvé une solution en mettant un alias dans
+> /etc/postfix/virtual de liste@mondomaine vers
+> liste@monserveur.mondomaine mais c'est très lourd à gérer si je dois
+> faire ça pour toutes les listes ainsi que toutes les adresses utilisées
+> par mailman pour gérer les listes (-request, etc.).)
+
+si tu tiens à liste@mondomaine, tu vas être obligé. mais tu peux
+utiliser un script pour te générer les aliases.
+
+
+> 
+> Je sèche sur ce problème, que je n'avais pourtant pas eu sur mon ancien
+> serveur (Debian Lenny) avec une configuration comparable.
+> 
+> Merci.
+> 
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/507246F7.5060100@ml.netoyen.net
+

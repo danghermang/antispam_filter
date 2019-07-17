@@ -1,0 +1,69 @@
+Subject:Re: configuration serveur mail IMAP (dovecot)
+On Sun, Dec 09, 2012 at 08:31:06AM +0100, Nicolas KOWALSKI wrote:
+[..]
+> > le fichier /var/mail/basile existe et il est non-vide.
+> > 
+> > la commande dovecot -n donne
+> > # 2.1.7: /etc/dovecot/dovecot.conf
+> > # OS: Linux 3.2.0-3-amd64 x86_64 Debian wheezy/sid 
+> > mail_location = mbox:~/mail:INBOX=/var/mail/%u
+> 
+> Ca c'est bon.
+> 
+> 
+> > namespace inbox {
+> >   inbox = yes
+> >   location = mbox:/var/mail/%u
+> 
+>     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 
+> Ici tu redéfinis le *répertoire* de stockage à /var/mail/<login>. Ce 
+> n'est pas bon, et correspond à l'erreur du serveur "root directory can't 
+> be a file".
+> 
+> Pour corriger, tu enlèves cette ligne "location = " du namespace inbox, 
+> et tu relances dovecot. Ca ira beaucoup mieux.
+
+Merci beaucoup, ca marche mieux. Mais pas complètement.
+
+Sylpheed sur la machine glinka affiche bien les messages, mais quand j'en supprime un j'ai dans le log de sylpheed:
+
+
+[09:18:08] IMAP4< 11 OK Fetch completed.
+[09:18:08] IMAP4> 12 UID STORE 134 +FLAGS.SILENT (\Seen)
+[09:18:08] IMAP4< 12 OK Store completed.
+[09:18:13] IMAP4> 13 UID COPY 134,356:358 Trash
+[09:18:13] IMAP4< 13 NO [TRYCREATE] Mailbox doesn't exist: Trash
+** LibSylph-WARNING: [09:18:13] can't copy 134,356:358 to Trash
+
+** can't copy 134,356:358 to Trash
+[09:18:13] IMAP4> 14 STATUS Trash (MESSAGES RECENT UIDNEXT UIDVALIDITY UNSEEN)
+[09:18:13] IMAP4< 14 NO Mailbox doesn't exist: Trash
+** LibSylph-WARNING: [09:18:13] error on imap command: STATUS
+
+** error on imap command: STATUS
+[09:18:13] IMAP4> 15 UID FETCH 129 BODY.PEEK[]
+[09:18:13] IMAP4< * 98 FETCH (UID 129 BODY[] {21394}
+[09:18:13] IMAP4< )
+[09:18:13] IMAP4< 15 OK Fetch completed.
+[09:18:13] IMAP4> 16 UID STORE 129 +FLAGS.SILENT (\Seen)
+[09:18:13] IMAP4< 16 OK Store completed.
+
+je vais essayer de recréer mon ~/mail/ sur hector (le serveur smtp+imap+....)
+
+Cordialement
+-- 
+Basile STARYNKEVITCH         http://starynkevitch.net/Basile/
+email: basile<at>starynkevitch<dot>net mobile: +33 6 8501 2359
+8, rue de la Faiencerie, 92340 Bourg La Reine, France
+*** opinions {are only mines, sont seulement les miennes} ***
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121209082156.GA21590@ours.starynkevitch.net
+

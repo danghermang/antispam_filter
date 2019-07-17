@@ -1,0 +1,40 @@
+Subject:Sin opciones de accesibilidad en Iceweasel (era: Problems with
+	iceweasel 10 in squeeze.)
+El Fri, 09 Nov 2012 16:10:47 -0300, Francisco Rafael Del Roio escribió:
+
+> Hola lista.
+> Este mensaje lo envié a la lista de accesibilidad pero se las reenvío.
+
+(en la lista de accesibilidad conviene que escribas en inglés más que 
+nada porque habrá más gente que te pueda entender y por ende, responder)
+
+> Tengo problemas relacionados con la accesibilidad en iceweasel desde los
+> backports.
+> 
+> Resulta que instalé la versión 16.0.2 y a partir de ese momento perdí la
+> accesibilidad. Instalé la versión desde backports.debian.org y sigo con
+> el mismo problema, inclusive desinstalé el paquete xulrunner-16.0 con
+> los mismos resultados.
+
+(...)
+
+Pero ¿qué problema tienes exactamente? :-?
+
+Veo que hay un listado de opciones disponibles¹ pero mejor que lo 
+detalles un poco para que los que no estamos familiarizados con el uso de 
+las herramientas de accesibilidad podamos intentar echarte una mano con 
+esto.
+
+¹http://support.mozilla.org/en-US/kb/accessibility-features-firefox-make-firefox-and-we
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k7jr6h$5pg$7@ger.gmane.org
+

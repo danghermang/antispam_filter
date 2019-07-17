@@ -1,0 +1,25 @@
+Subject:[Flexradio] PTT issues
+I have  small problem I could use som help with.
+
+When I enable the PTT control to allow a digital program to key my Flex
+1500 it starts to cycle the transmitter one and off on its own. If DTR is
+check it cycles on for 2 seconds and off for 10 or so, if RTS is checked it
+just flashes on every 10 secs of so. It doesn't matter what com port
+is specified or if there is something connected to the other side of the
+virtual cable. It also doesn't matter if any digital programs are running.
+For example it does the same thing if mini-duluxe is on or off and if
+ddutil is on or off, or both are on.
+
+I am using psdr 2.4.4 and windows vista on an HP slimline computer
+
+any thoughts.
+
+73
+
+KK4MIP
+_______________________________________________
+FlexRadio Systems Mailing List
+FlexRadio@flex-radio.biz
+http://mail.flex-radio.biz/mailman/listinfo/flexradio_flex-radio.biz
+Archives: http://www.mail-archive.com/flexradio%40flex-radio.biz/
+Knowledge Base: http://kc.flexradio.com/  Homepage: http://www.flexradio.com/

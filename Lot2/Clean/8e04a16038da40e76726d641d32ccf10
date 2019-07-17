@@ -1,0 +1,124 @@
+Subject:Re: Estoy abierto a opiniones sobre montar servidor debian
+----- Original Message ----- 
+From: "Javier Argentina" <javier.debian.bb.ar@gmail.com>
+To: "DUS" <debian-user-spanish@lists.debian.org>
+Sent: Wednesday, November 21, 2012 10:32 AM
+Subject: Re: Estoy abierto a opiniones sobre montar servidor debian
+
+
+El día 21 de noviembre de 2012 11:00, Ismael L. Donis Garcia
+<ismael@citricos.co.cu> escribió:
+>> Para diciembre y enero pienso pasar un pequeñín curso para configurar
+>> servidores Linux (debian).
+>>
+>>  Dispongo de un servidor profesional a mi entera disposición para probar 
+>> lo
+>> que quiera, el tiempo que quiera.
+>>
+>> Actualmente tengo un servidor con Windows 2003 donde tengo montado el 
+>> Active
+>> Directory con todas las PC en Windows XP SP3 excepto la mía que está en
+>> Debian Squeeze.
+>>
+>>  Quiero ahora y hasta que termine el curso "debe terminar a finales de
+>> Enero/2013" montar en el servidor que tengo libre "a mi entera 
+>> disposición
+>> para hacer lo que desee" un servidor en debian de forma de prueba donde
+>> configure un Active Directory para un grupo de PC Windows XP SP3 y la mía
+>> que tiene debian squeeze.
+>>
+>> Objetivo ir probando un servidor debian con todas las de la ley para al
+>> final eliminar el servidor Windows 2003 y dejar solo el servidor Debian 
+>> con
+>> todas las PC en Windows XP SP3 y alguna que otra en debian. Pienso pasar
+>> otras PC Windows XP SP3 a debian de forma progresiva.
+>>
+>> Objetivo final y a largo plazo: migrar todo a debian. Esto sin presión
+>> alguna, todo cuando yo lo disponga.
+>>
+>> Ahora mis preguntas:
+>>
+>> Como ahora voy a empezar a hacer pruebas para lo que tengo todo el tiempo
+>> del mundo quisiera montar el servidor en wheezy, el cual al final de todo
+>> esto sería el servidor de dominio en Wheezy. Es esto recomendado aun 
+>> estando
+>> en testing? Recuerden que es solo de prueba por ahora. Sería oficial para
+>> cuando yo lo disponga el año que viene.
+>>
+>Salvo que que "wheezy" pase a "stable", antes de fin de año, cosa que
+>dudo, es conveniente que lo hagas con "squeeze".  Todavía "wheezy"
+>está recibiendo muchas actualizaciones, y dentro de un servidor, eso
+>no es recomendable.
+
+Pensé usar Wheezy porque no será el serivdor ofical hasta tanto YO no lo 
+decida. Y eso no va ser nunca antes de Febrero-Marzo/2013
+
+>> También he estado pensando montar el Active Directory en Samba4 ya que 
+>> está
+>> previsto que salga la versión de prueba para el 27 de este mes. Es
+>> recomendado esto? Escucho todo tipo de opiniones sobre este tema. 
+>> Configurar
+>> red y Active Directory.
+>>
+>Active Directory no es necesario si tu objetivo final es pasar todo a
+>GNU/Linux. ¿En qué te beneficia AD? En que los clientes Windows sólo
+>se identifican una vez al iniciar sesión por ntlm, y esas claves
+>sirven para todo lo demás, como ser Outlook.
+>Si pasás a un samba, para los clientes GNU/Linux es innecesario, y se
+>utiliza la estructura de red nfs.
+>Samba es sólo para los clientes Windows, y si es exclusivamente para
+>compartir carpetas o archivos, ni siquiera necesitás AD.
+>Lo que no quiere decir que si te gusta ntlm, lo puedas instalar.
+
+Si pero el problema es que voy a tener unas cuantas PC (más de 50) con 
+Windows XP SP3 por bastante tiempo, pienso que al menos 1 o 2 años las 
+cuales debo ir pasando pregresivamente a Linux. Además necesito que las PC 
+en Windows XP se logeen al Active Directory por sus usuarios y contraseñas 
+donde se puedan crear grupos de usuarios y aplicar politicas de seguridad 
+independientes por grupos como se hace en un servidor de Windows. Ósea 
+necesito montar en debian un Active Directory que tenga todas las 
+funcionalidades que tiene uno de Windows donde tengan acceso tanto PC de 
+Windows como debian.
+
+>> Recuerden que tengo todo lo que resta de año y los 2 o 3 primeros meses 
+>> del
+>> año que viene para probar lo que quiera. Y de hecho aprender porque de 
+>> esto
+>> que quiero hacer no se absolutamente nada. No piensen que estoy loco.
+>>
+>> Quisiera que me dieran opiniones sobre esto. Todo tipo de opiniones,
+>> incluyendo referencia a documentación que debiera estudiar para ejecutar
+>> esta tarea. Recuerden que de esto no se absolutamente nada. Y soy el que 
+>> más
+>> sabe aquí donde trabajo. Da risa este hecho pero es la pura verdad. Como
+>> también el proyecto en el que me voy a meter.
+>>
+
+>http://nfs.sourceforge.net/nfs-howto/
+>http://personal.biada.org/~ealonso/matin/linux/NFS.html
+>http://www.bitrixsoft.com/support/training/course/?COURSE_ID=20&LESSON_ID=3508
+>http://docs.moodle.org/23/en/NTLM_authentication
+
+>> Saludos a todos
+>> =========
+>> || ISMAEL ||
+>> =========
+>> PD: Las opiniones la pueden dirigir tanto a la lista como al privado.
+>>
+
+>Saludos
+
+>JAP
+
+Saludos Reiterados
+=========
+|| ISMAEL ||
+========= 
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/35E4EC2D101E4322AAEF93CF75E8D1F2@eicc.citricos.cu
+

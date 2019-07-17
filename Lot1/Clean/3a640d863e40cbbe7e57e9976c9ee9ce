@@ -1,0 +1,32 @@
+Subject:Current LAMP Web Products Outage
+TUESDAY DECEMBER 04, 2012
+
+Dear LAMP Users,
+
+The computer system that produces the LAMP web products is currently=20
+unavailable due to maintenance.  We expect it to be returned for use=20
+later today, and at the latest on Wednesday.
+
+The operational data remain available to external users via on the NWS=20
+data servers.  To access the station-based and thunderstorm LAMP guidance=
+=20
+(including the LAMP text bulletins) via the NWS FTP server, please refer=20
+to the information found here:
+
+http://www.nws.noaa.gov/mdl/gfslamp/docs/NWS_tgftp_server.shtml
+
+To access the Gridded LAMP guidance via the NWS FTP server, please refer to=
+ the
+information found here:
+
+http://www.nws.noaa.gov/mdl/gfslamp/docs/glmp_NWS_tgftp_server.php
+
+During the maintenance, the LAMP convection guidance on the web should stil=
+l be
+available.
+
+We apologize for any inconvenience.
+
+Judy Ghirardelli
+NWS/OST/MDL/LAMP
+

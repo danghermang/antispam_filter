@@ -1,0 +1,46 @@
+Subject:Re: libgl1-nvidia-glx:i386
+Camaleón writes:
+
+> El Wed, 05 Dec 2012 18:30:25 +0100, Alberto Luaces escribió:
+>
+>> Camaleón writes:
+>
+> (...)
+>
+>>>> Ciertamente no he prestado atención; sabía que llegaría este día.
+>>>> Simplemente le di a actualizar, y cuando la resolución automática
+>>>> determinó que había que eliminarlos, lo hice sin dudar.  Activé
+>>>> multiarch con un par de líneas, y volví a instalar las versiones de 32
+>>>> bit de todos esos falsos paquetes de 64 bit.
+>>>
+>>> ¿A "actualizar" o a "instalar"? En tu caso, ¿qué es lo que estabas
+>>> haciendo? :-?
+>>>
+>>>
+>> Actualizar. 
+>
+> ¿Pero el qué, exactamente? ¿El sistema, Google Earth o algún paquete en 
+> particular...?
+>
+>> *Después* tuve que instalar aquellos paquetes que tuve que eliminar
+>> dado que dependían de ia32-libs.
+>
+> Pues entonces hay un problema con ese paquete pero no es culpa del 
+> binario de Google Earth sino de Debian, es decir, instalar "ia32-libs" es 
+> problemático. Pues eso conviene reportarlo, obviamente aportando los  
+> registros de apt para ver los errores y conflictos que genera.
+>  
+
+Estamos dando vueltas en círculo alrededor de un problema que no tenía
+que haber existido en un principio.  Dentro de unos meses lo
+comprenderás :)
+
+-- 
+Alberto
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/877gou3t6e.fsf@eps142.cdf.udc.es
+

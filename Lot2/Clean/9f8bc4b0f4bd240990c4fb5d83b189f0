@@ -1,0 +1,36 @@
+Subject:Re: =?iso-8859-1?Q?D=E9pannag?= =?iso-8859-1?Q?e?= sur PC distant
+
+Re,
+
+On Mon, Oct 29, 2012 at 09:15:15PM +0100, Bzzz wrote:
+[....]
+> luc schimpf <lucdeb@free.fr> wrote:
+> 
+> > ssh -p 5522 -R 5901:localhost:5900 -R 5522:localhost:22  moi@mon_ip
+> 
+> Pourquoi y'a t'il 2 parties forward (-R, et spécifiquement la 1ère) alors que 
+> http://www.howtoforge.com/reverse-ssh-tunneling n'en utilise qu'une seule?
+
+Cette doc ne fait qu'un tunnel en mode shell.
+
+Le second ici servira à faire passer VNC : il lance x11vnc sur la
+machine distante à travers le tunnel shell et récupère l'affichage
+chez lui, avec son client VNC, au bout du second tunnel.
+
+Du moins, si j'ai bien compris :-)
+
+A+
+
+-- 
+
+JFS.
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121029202331.GA18003@jones.jfs.dt
+

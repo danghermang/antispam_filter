@@ -1,0 +1,20 @@
+Subject:problema instalar debian wheezy en compaq v3500
+estoy tratando de instalar debian squeeze amd64 en una laptop compaq 
+v3500 con micro turion64 graficos nvidia y al llegar al paso de 
+deteccion de redes la pantalla se queda azul completamente sin mostrar 
+nada y de ahi no pasa, si intento en modo gráfico pasa lo mismo al 
+llegar a detecccion de redes se queda la pantalla blanca(en este caso) 
+sin que aparezca la barra que corre al detectar dhcp, si me voy a la 
+terminal 1 veo que me sale mensajes de que no se encuentra el firmware 
+de la tarjeta de red o algo asi, y sugiere un link para bajarlo y 
+documentarse de como instalarlo, pero no avanza ahi se queda.
+
+
+Gracias
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/50623442.3090206@yahoo.com.mx
+

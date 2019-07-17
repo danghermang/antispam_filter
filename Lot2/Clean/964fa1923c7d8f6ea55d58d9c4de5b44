@@ -1,0 +1,34 @@
+Subject:Re: ldap questions
+On Mon, 3 Dec 2012 21:21:38 +0100
+xavier limodin <xavier.limodin@gmail.com> wrote:
+
+>=20
+> 7- existe-t'il autre chose que 389DS pour faciliter l'usage de ldap?
+> >
+> > Oui, Apache Directory Studio
+>=20
+>=20
+> > 8- existe-t'il qq chose bcp mieux (facile!) que slapd comme svr?
+> >
+>=20
+> Pas sur, mais une fois pass=C3=A9e la config de base, avec ADS, c'est bon=
+heur
+
+Je viens de trouver jxplorer qui a l'air p=C3=B4mal aussi; faut que je teste
+ADS pour voir les diff=C3=A9rences.
+
+--=20
+<Niveks> un pote qui m'emene au cin=C3=A9 me propose de faire l'amour dans =
+le
+         coffre de sa voiture =3D)
+<Napou> et la c'est la loose, il roule en smart
+
+-- 
+Lisez la FAQ de la liste avant de poser une question :
+http://wiki.debian.org/fr/FrenchLists
+
+Pour vous DESABONNER, envoyez un message avec comme objet "unsubscribe"
+vers debian-user-french-REQUEST@lists.debian.org
+En cas de soucis, contactez EN ANGLAIS listmaster@lists.debian.org
+Archive: http://lists.debian.org/20121204133027.642657de@anubis.defcon1
+

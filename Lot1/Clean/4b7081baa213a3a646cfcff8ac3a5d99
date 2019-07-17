@@ -1,0 +1,39 @@
+Subject:recibir  correos en postfix
+Hola
+
+Tengo definido en postfix usuarios que pueden enviar correos nacionales e
+internacionales
+
+#Control Mensajeria Nacional-Internacional
+
+smtpd_restriction_classes =
+    inter,
+    nac
+
+smtpd_recipient_restrictions =
+    permit_auth_destination
+    check_sender_access hash:/etc/postfix/usuarios
+    reject
+
+inter = permit
+nac = check_recipient_access regexp:/etc/postfix/filtro_nac
+
+
+Como hago para que todos los usuarios puedan recibir tanto nacional como
+internacional????
+
+
+Ya se que esto solo se ve en Cuba pero bueno el caso es que necesito hacerlo
+tal vez alguien tenga una idea como lo puedo hacer
+
+Salu2
+Cosme
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-spanish-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/28c627e2f7a4fafe6ba5d2022b44aaa0.squirrel@192.168.13.16
+

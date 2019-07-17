@@ -1,0 +1,263 @@
+Subject:=?ISO-8859-1?Q?Kohlrouladen=3A_Rezept_des_Tages_vom_14=2E10=2E2012?=
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <title>essen-und-trinken.de - Rezept des Tages vom 14. Oktober 2012</title>
+<script type="text/javascript" src="/js/functions.js"></script>
+<script type="text/javascript" src="/js/dragdrop_functions.js"></script>
+<script type="text/javascript" src="/js/md5.js"></script>
+<script type="text/javascript" src="/js/box.js"></script>
+<script type="text/javascript" src="/js/ssoUserQuickReg.js"></script>
+<script type="text/javascript" src="/js/ssoUser.js"></script>
+<script type="text/javascript" src="/js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="/js/thickbox-patched.js"></script>
+<script type="text/javascript" src="/food/javascript/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="/food/javascript/content.js"></script>
+<script type="text/javascript" src="/js/cmtools.js"></script>
+<script type="text/javascript" src="/js/s_code.js"></script>
+<script type="text/javascript" src="/sf/prototype/js/prototype.js"></script>
+<script type="text/javascript" src="/sf/prototype/js/effects.js"></script>
+<script type="text/javascript" src="/sf/prototype/js/controls.js"></script>
+<script type="text/javascript" src="/js/asset_recipe.js"></script>
+<script type="text/javascript" src="/js/window.js"></script>
+<script type="text/javascript" src="/js/debug.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/food/css/default.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/modal_window.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/debug.css" />
+</head>
+<body>
+<div style="float:right; position:absolute;">
+ <script type="text/javascript">
+ <!--
+ var IVW = "http://esundtri.ivwbox.de/cgi-bin/ivw/NP/1021274;558804,,FOOD,?r=";
+ document.write("<img id=\"ivwpx\" src=\"" + IVW + escape(document.referrer)+"&d=" + (Math.random()*100000) + "\" width=\"1\" height=\"1\" alt=\"\" name=\"ivwpx\" />");
+
+ //var clickcounter=0;
+ 
+ function updateIVW(clickedLink) {
+   // /topthemen/spiele/kuchenschlacht/
+   /*
+   if (clickedLink == '/topthemen/spiele/kuchenschlacht/') {
+     clickcounter++;
+   }
+   if (clickcounter>1) {
+     // alert("reset");
+     clickcounter=0;
+     return;
+   }
+   */
+     $('ivwpx').src = IVW + escape(document.location)+"&d="+(Math.random()*100000);
+try { _gaq.push(['_trackPageview', clickedLink]); } catch(err) {}
+try { void(s.t()); } catch(err) {}
+        // Update SiteCatalyst
+     }
+
+  function trevent(category, action, optional_label, optional_value) {
+    try {
+ _gaq.push(['_trackEvent', category, action, optional_label, optional_value]);
+    } catch(err) {}
+  }
+
+ // -->
+ </script>
+ <noscript>
+        <img src="http://esundtri.ivwbox.de/cgi-bin/ivw/NP/1021274;558804,,FOOD,?r=" width="1" height="1" alt="" />
+ </noscript>
+ <!-- Google-Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3022617-1']);
+  _gaq.push(['_anonymizeIp']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</div>
+
+  
+  <script type="text/javascript">
+<!--
+  var szmvars="esundtri//CP//1014196";
+//-->
+  </script>
+  <script src="http://esundtri.ivwbox.de/2004/01/survey.js" type="text/javascript"></script>
+
+
+<img src="http://guj.122.2o7.net/b/ss/gujessentrinken/1/H.20.2--NS/0?pageName=newsletter:newsletter&ch=newsletter&c1=RezeptdesTages-14.10.2012&c7=newsletter&c12=newsletter:newsletter:RezeptdesTages-14.10.2012&h1=newsletter,newsletter,RezeptdesTages-14.10.2012" height="1" width="1" alt="" />
+<style type="text/css">
+body { background-color: #fff; margin: 0 15px; padding: 0; }
+body, td { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; color: #000; }
+td.linie { background-color: #CCCCCC; }
+.rezeptbild {width: 310px; border: 1px solid #CCCCCC; }
+a { color: #993366; text-decoration: none; }
+h2, h3, h4 { margin: 0; padding: 0; }
+h2 { font-family: Times, serif; letter-spacing: 0.04em; line-height: 30px; color: #7E748A; font-size: 24px; font-weight: bold; }
+h4 { font-size: 12px; }
+.grau { color: #666;}
+.link_video { background: url(http://www.essen-und-trinken.de/food/newsletter/images/link_video.gif) no-repeat 0 2px;   padding: 1px 0 1px 24px; }
+.link_pfeil { background: url(http://www.essen-und-trinken.de/food/newsletter/images/link_pfeil_rebrush.gif) no-repeat 0px -3px; padding: 1px 0 1px 15px; margin-bottom: 30px; }
+
+#heftkasten {margin-top:15px; background-color:#f0e9d8; height:170px; width: 565px;}
+#heftkasten h4 {font-size: 12px; color: #666666;}
+#heftkasten h3 {margin-top:2px;}
+#heftkasten p {color: #666666;}
+#footer { width: 565px; margin-top: 15px; border: none; color: #999; }
+#footer .text{ color: #999; padding:15px; text-align: center;}
+#footer a { color: #999; }
+
+td  p {margin:0px;}
+.h2, .h3, .h4 {margin:0;padding:0;font-weight:bold;} 
+.h2 { font-family: Times, serif; letter-spacing: 0.04em; line-height: 30px; color: #7E748A; font-size: 24px; font-weight: bold; padding-top:10px;}
+.h3 {color:#444444;font-size:14px;} 
+.h4 {font-size:12px;}
+#heftkasten .h3 {margin-top:2px;} 
+#heftkasten .h4 {font-size:12px;color:#666666;} 
+</style>
+<table width="565" cellspacing="0" cellpadding="0">
+ <tr>
+  <td><img src="http://www.essen-und-trinken.de/food/newsletter/images/px.gif" alt="" width="332" height="1" /></td>
+  <td><img src="http://www.essen-und-trinken.de/food/newsletter/images/px.gif" alt="" width="234" height="1" /></td>
+ </tr>
+ <tr>
+  <td colspan="2" style="padding: 4px 15px 5px;" align="center"><a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLkcBHnGHxKCWhrsvcStGb5lw8W0bBhOG5mpqVsje_HxHDTqVJ-" class="grau">Wenn diese Nachricht nicht korrekt angezeigt wird, klicken Sie bitte hier.</a></td>
+ </tr>
+ <tr style="height:1px">
+  <td colspan="2"><img src="http://www.essen-und-trinken.de/food/newsletter/images/dashed.gif" alt="" height="1" width="565" /></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <table width="565" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+    <tr>
+     <td><a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLkcBHnGHxKCWhrs_cStGb5lw8W0bBhOG5mpqVsje_HxHDTqVJ_"><img src="http://www.essen-und-trinken.de/food/newsletter/images/et_logo.gif" alt="" width="117" height="66" border="0" /></a></td>
+     <td valign="bottom" align="right" style="color:#444444; font-size: 13px; padding-bottom: 9px;"><b>Rezept des Tages</b>&nbsp;14. Oktober 2012</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+   
+ <tr style="height:1px">
+  <td colspan="2"><img src="http://www.essen-und-trinken.de/food/newsletter/images/dashed.gif" alt="" height="1" width="565" /></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+           <a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLkcBHnGHxKCWhrsPcStGb5lw8W0bBhOG5mpqVsje_HxHDTqVJ8"><div class="h2">Kohlrouladen</div></a>
+   
+   <div class="link_pfeil">        <a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLkcBHnGHxKCWhrsfcStGb5lw8W0bBhOG5mpqVsje_HxHDTqVJ9"><b>zum Rezept bei essen-und-trinken.de</b></a>
+      </div>
+  </td>
+ </tr>
+ <tr>
+  <td valign="top" style="padding: 0 10px 45px 0px;">
+  <div class="rezeptbild"><a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLkcBHnGHxKCWhrtvcStGb5lw8W0bBhOG5mpqVsje_HxHDTqVOC"><img src="http://static1.essen-und-trinken.de/uploads/thumbnails/0009/00000000009/310x310/Kohlrouladen-3724b39ee52f500df0d1a995d6c10e9e_fjt2011100201.jpg" alt="Kohlrouladen-3724b39ee52f500df0d1a995d6c10e9e_fjt2011100201" /></a></div>
+  </td>
+  <td valign="top">
+   <div style="padding: 0px 0px 45px 0px;">
+    <div class="h3 grau">Zutaten</div>
+  <span class="grau">F&uuml;r 4 Portionen</span>      <br /><br />
+  1 gro&szlig;er Wei&szlig;kohl<br />
+80 g D&ouml;rr&auml;pfel<br />
+1 Bund Petersilie<br />
+1 El Fenchelsaat<br />
+1 El K&uuml;mmelsaat<br />
+3 Zwiebeln<br />
+7 El &Ouml;l<br />
+400 g gemischtes Hack<br />
+200 g Mett<br />
+2 Eier , (Kl. M)<br />
+4 El Semmelbr&ouml;sel<br />
+200 ml Schlagsahne<br />
+ Salz<br />
+ Pfeffer<br />
+200 ml Cidre<br />
+3 El Calvados<br />
+300 ml Gefl&uuml;gelbr&uuml;he<br />
+4 Lorbeerbl&auml;tter<br />
+    <br />
+    <div class="h3 grau">Zubereitungszeit</div>
+    1 h 45 min<br />   </div>
+  </td>
+ </tr>
+ <tr style="height:1px">
+  <td colspan="2"><img src="http://www.essen-und-trinken.de/food/newsletter/images/dashed.gif" alt="" height="1" width="565" /></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br />
+   <br />
+   <div class="h3">Zubereitung</div>
+  <p>1. Reichlich Wasser in einem gro&szlig;en Topf aufkochen. Von 1 gro&szlig;en &shy;Wei&szlig;kohl den dicken Strunk keilf&ouml;rmig herausschneiden und an dessen &shy;Stelle eine Fleischgabel kr&auml;ftig einstechen. Den Kohl in das kochende &shy;Wasser tauchen, nach und nach 12 Bl&auml;tter abl&ouml;sen und weitere 5-8 Min. &shy;im Wasser garen. In kaltem Wasser abschrecken und gut abtropfen lassen. Die &shy;dicken Blattrippen keilf&ouml;rmig herausschneiden.  &shy;</p>
+<br />
+<p>2. 80 g D&ouml;rr&auml;pfel am besten im Blitzhacker grob hacken. Die Bl&auml;tter &shy;von 1 Bund Petersilie zugeben und mithacken.  &shy;</p>
+<br />
+<p>3. 1 El Fenchelsaat und 1 El K&uuml;mmelsaat in einer Pfanne ohne Fett hellgelb &shy;r&ouml;sten und anschlie&szlig;end im M&ouml;rser fein zersto&szlig;en. 1 &shy;Zwiebel fein w&uuml;rfeln und in 3 El &Ouml;l glasig d&uuml;nsten.  &shy;</p>
+<br />
+<p>4. 400 g gemischtes Hack, 200 g Mett, 2 Eier (Kl. M), 4 El Semmelbr&ouml;sel, &shy;Fenchelsaat, K&uuml;mmelsaat, Apfelmischung, Zwiebeln und 100 ml Schlagsahne in &shy;eine Sch&uuml;ssel geben. Kr&auml;ftig mit Salz und Pfeffer w&uuml;rzen und mit &shy;den H&auml;nden zu einer gleichm&auml;&szlig;igen Masse verarbeiten. &shy;</p>
+<br />
+<p>5. Jeweils 2 Kohlbl&auml;tter auf einem Tuch gegens&auml;tzlich &shy;&uuml;bereinanderlegen. Mit ca. 1/6 der Fleischmasse f&uuml;llen, die &shy;&uuml;berstehenden Blattkanten dar&uuml;berlegen und mithilfe des Tuchs fest &shy;verschlie&szlig;en. Die gef&uuml;llten Kohlbl&auml;tter vorsichtig aus dem Tuch &shy;nehmen und mit der Nahtseite nach unten beiseitelegen. Die restlichen &shy;Kohlbl&auml;tter ebenso f&uuml;llen.  &shy;</p>
+<br />
+<p>6. 2 Zwiebeln in Streifen schneiden und in einem hei&szlig;en Br&auml;ter mit 4 El &shy;&Ouml;l hellbraun braten. Kohlrouladen mit den Nahtseiten nach unten in den &shy;Br&auml;ter geben. Salzen, pfeffern und mit 200 ml Cidre abl&ouml;schen. 2-3 El &shy;Calvados, 300 ml Gefl&uuml;gelbr&uuml;he und 4 Lorbeerbl&auml;tter zugeben. &shy;Aufkochen und anschlie&szlig;end offen im hei&szlig;en Ofen bei 200 Grad auf der &shy;mittleren Schiene 45 Min. garen (Umluft nicht empfehlenswert). &shy;</p>
+<br />
+<p>7. Die Kohlrouladen auf eine Platte geben und im ausgeschalteten Ofen warm halten. &shy;100 ml Schlagsahne zur Sauce geben und diese mit dem Schneidstab fein &shy;p&uuml;rieren. Mit Salz und Pfeffer abschmecken und zu den Kohlrouladen &shy;servieren. Dazu passt Kartoffelp&uuml;ree. &shy;</p>
+<br />
+   <br />
+   <div class="link_pfeil"><a href="http://mail.essen-und-trinken.de/HS?a=ENX7CqTd3yHi8SA9MKLkcBHnGHxKCWhrt_cStGb5lw8W0bBhOG5mpqVsje_HxHDTqVOD">Bewertungen und Kommentare zum Rezept</a></div>
+  </td>
+ </tr>
+</table>
+
+<!-- Abo-Banner -->
+<div class="g_ad" style="float:none; clear:both; margin:20px 0 10px 0;">
+
+<table cellspacing="0" cellpadding="0" width="100%">
+<tr>
+  <a href="http://mail.essen-und-trinken.de/HS?a=FtX7CqTd3yHi8SA9MKLkcBHnGHxKLJ15NwjtS5kGaJwo0bBhOG5mpqVsje_HxHDTqUsS"><img src="https://t.emvcdn.com/4/9/0/36490/225408736.jpg" alt="" style="border:0;"></a></td>
+</tr>
+</table>
+
+
+
+
+</div>
+<!-- /Abo-Banner -->
+
+<table cellpadding="0" cellspacing="0" width="565" id="footer">
+ <tr style="height:30px">
+  <td><img src="http://www.essen-und-trinken.de/food/newsletter/images/dashed.gif" alt="" height="1" width="565" /></td>
+ </tr> 
+ <tr style="height:24px; background-color: #574E5F">
+  <td valign="top">&nbsp;</td>
+ </tr>
+ <tr>
+  <td class="text">
+   Sie erhalten diese E-Mail, weil Sie den Newsletter von
+   essen-und-trinken.de abonniert haben. Der Newsletter wird t&auml;glich
+   verschickt.<br />
+   <br />
+
+   Exclusive &amp; Living digital GmbH, Am Baumwall 11<br />
+   20459 Hamburg, Fon +49-(0)40-3703-4214<br />
+   service@essen-und-trinken.de<br />
+   <br />
+   Amtsgericht Hamburg<br />
+   HRB 75612<br />
+
+   Umsatzsteuer-ID: DE118931493<br />
+   <br />
+   <a href="http://mail.essen-und-trinken.de/J?a=ENX7CqTd3yHi8SA9MKLkcBHnGHxKCWhrvfcStGb5lw8W0bBhOG5mpqVsje_HxHDTqVJ5">Hier k&ouml;nnen Sie den HTML-Newsletter abbestellen.</a>
+  </td>
+ </tr>
+</table>
+<!-- 22.07.2009 -->
+<img src="http://mail.essen-und-trinken.de/HO?DdX7CqTd3yHi8SA9MKJPVXDnGHxKLDZYIQjtS5kGA54dKOM.gif" border="0" alt="" width="1" height="1"></body></html>
+
+
